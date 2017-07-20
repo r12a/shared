@@ -5,6 +5,47 @@
 // shared/code/character_conversions.js
 
 
+
+function initialiseShowNames (base, target) {
+// add function to all images with class ex
+// function will display character by character names for example in the panel
+// base (string), path for link to character detail
+
+	// check whether the calling page has set a base and target window
+	if(typeof base === 'undefined') { base = ''; }
+	if(typeof target === 'undefined') { target = ''; } 
+	
+	var examples = document.querySelectorAll('.ex')
+	for (var e=0;e<examples.length;e++) {
+		if (examples[e].nodeName.toLowerCase() === 'img') {
+			shownames_setImgOnclick(examples[e], base, target)
+			}
+		else { shownames_setOnclick(examples[e], base, target) }
+		}
+	}
+
+
+function shownames_setImgOnclick ( node, base, target ) {
+	node.onclick = function(){ showNameDetails(node.alt, node.lang, base, target, document.getElementById('panel') ) }
+	}
+
+function shownames_setOnclick ( node, base, target ) {
+	node.onclick = function(){ showNameDetails(node.firstChild.data, getLanguage(node), base, target, document.getElementById('panel')) }
+	}
+
+
+function getLanguage(node) {
+	// given a node, returns lang value of node or nearest parent
+	if(node.lang) return node.lang
+	else if(node.parentNode) return getLanguage(node.parentNode)
+	else return ''
+	}
+
+
+
+
+
+
 function showNameDetails (chars, clang, base, target, panel) { 
 // get the list of characters for an example and display their names
 // chars (string), alt text of example
@@ -13,7 +54,7 @@ function showNameDetails (chars, clang, base, target, panel) {
 // target (string), name of the window to display results in, usually 'c' or ''; given the latter, link goes to same window
 
 	// check whether the calling page has set a base and target window
-	if(typeof base === 'undefined' || base == '') { base = '/uniview/?char=' }
+	if(typeof base === 'undefined' || base === '') { base = '/uniview/?char=' }
 	if(typeof target === 'undefined') { target = '' }
 	
 	 chars = chars
@@ -55,7 +96,7 @@ function showNameDetails (chars, clang, base, target, panel) {
 			charimg.alt = 'U+'+hex
 			chardiv.appendChild(charimg)
 			thelink = document.createElement('a');
-			if (base == '/uniview/?char=') { thelink.href = base+hex }
+			if (base === '/uniview/?char=') { thelink.href = base+hex }
 			else { thelink.href = base+'#char'+hex }
 			thelink.target = target
 			thelink.appendChild(charimg)
