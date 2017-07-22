@@ -1,16 +1,15 @@
  var fontSelection = '     <option value="0">Select...</option>\
              <optgroup label="Web font">\
+            <option value="Arian AMU WF">Arian AMU WF</option>\
             <option value="Noto Sans Armenian WF">Noto Sans Armenian WF</option>\
             </optgroup>\
             \
            <optgroup label="Mac fonts ">\
-            <option value="Armenian MT">Armenian MT</option>\
-            <option value="Armenian MN">Armenian MN</option>\
+            <option value="Mshtakan">Mshtakan</option>\
             </optgroup>\
             \
             <optgroup label="Windows fonts ">\
-            <option value="Raavi">Raavi</option>\
-            <option value="Nirmala UI">Nirmala UI</option>\
+            <option value="Sylfaen">Sylfaen</option>\
             </optgroup>\
             \
             <optgroup label="Google fonts ">\
@@ -19,11 +18,7 @@
             </optgroup>\
             \
             <optgroup label="Other fonts ">\
-            <option value="AnmolUni">AnmolUni</option>\
-            <option value="AnmolUniBani">AnmolUniBani</option>\
-            <option value="Lohit Punjabi">Lohit Punjabi</option>\
-            <option value="RaghuPunjabi">RaghuPunjabi</option>\
-            <option value="Saab">Saab</option>\
+            <option value="Arian AMU">Arian AMU</option>\
             </optgroup>\
             \
             <optgroup label="General fonts ">\
