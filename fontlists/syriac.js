@@ -17,6 +17,8 @@
             </optgroup>\
             \
             <optgroup label="Other fonts ">\
+            <option value="East Syriac Adiabene">East Syriac Adiabene</option>\
+            <option value="East Syriac Ctesiphon">East Syriac Ctesiphon</option>\
             <option value="Estrangelo Antioch">Estrangelo Antioch</option>\
             <option value="Serto Jerusalem">Serto Jerusalem</option>\
             </optgroup>\
