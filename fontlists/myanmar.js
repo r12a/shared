@@ -15,6 +15,7 @@
         <optgroup label="Google fonts">\
         <option value="Tharlon">Tharlon</option>\
         <option value="Noto Sans Myanmar">Noto Sans Myanmar</option>\
+        <option value="Noto Serif Myanmar">Noto Serif Myanmar</option>\
         <option value="Padauk">Padauk</option>\
         </optgroup>\
         \
