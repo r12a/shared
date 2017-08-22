@@ -1,4 +1,8 @@
  var fontSelection = '<option value="0">Select...</option>\
+             <optgroup label="Web font">\
+            <option value="Noto Serif Hebrew WF">Noto Serif Hebrew WF</option>\
+            </optgroup>\
+            \
     <optgroup label="Mac fonts">\
      <option value="Arial Hebrew">Arial Hebrew</option>\
    	<option value="Corsiva Hebrew">Corsiva Hebrew</option>\
@@ -23,8 +27,9 @@
     </optgroup>\
     \
     <optgroup label="Google fonts">\
-    <option value="Alef Hebrew">Alef Hebrew</option>\
+    <option value="Noto Serif Hebrew">Noto Serif Hebrew</option>\
     <option value="Noto Sans Hebrew">Noto Sans Hebrew</option>\
+    <option value="Alef Hebrew">Alef Hebrew</option>\
     <option value="Open Sans Hebrew">Open Sans Hebrew</option>\
     </optgroup>\
     \
