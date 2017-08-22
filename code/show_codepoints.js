@@ -46,16 +46,18 @@ function getLanguage(node) {
 
 
 
-function showNameDetails (chars, clang, base, target, panel) { 
+function showNameDetails (chars, clang, base, target, panel,list) { 
 // get the list of characters for an example and display their names
 // chars (string), alt text of example
 // clang (string), lang attribute value of example img
 // base (string), path for link to character detail
 // target (string), name of the window to display results in, usually 'c' or ''; given the latter, link goes to same window
+// list (string), if not null, indicates that spaces and nbsp should be ignored
 
 	// check whether the calling page has set a base and target window
 	if(typeof base === 'undefined' || base === '') { base = '/uniview/?char=' }
 	if(typeof target === 'undefined') { target = '' }
+	if(typeof list === 'undefined') { list = null }
 	
 	 chars = chars
       .replace(/&/g, "&amp;")
@@ -82,6 +84,7 @@ function showNameDetails (chars, clang, base, target, panel) {
 	
 	// create a list of characters
 	var charArray = []
+	if (list) chars = chars.replace(/ /g,'').replace(/\u00A0/g,'')
 	convertStr2DecArray(chars, charArray)
 	var chardiv, charimg, thename, thelink, hex
 
