@@ -8,7 +8,7 @@
             </optgroup>\
             \
             <optgroup label="Other fonts ">\
-            <option value="Tuladha Jejeg">Tuladha Jejeg</option>\
-            <option value="Ki Sakabawa">Ki Sakabawa</option>\
             <option value="Yogyakarta">Yogyakarta</option>\
+            <option value="Yogya">Yogya</option>\
+            <option value="Tuladha Jejeg">Tuladha Jejeg</option>\
             </optgroup>'
