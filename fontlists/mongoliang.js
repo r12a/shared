@@ -1,0 +1,1 @@
+ var fontSelection = '<option value="Menk Qagan Tig">Menk Qagan Tig</option>'
