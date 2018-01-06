@@ -26,7 +26,7 @@ strong {
 
 
 /* set margins */
-p, h2, h3, h4, dl, div#footer, div.example, figure { margin-left: 7.5%; margin-right: 32%; }
+p, h2, h3, h4, dl, div#footer, div.example, figure, details#scriptLinks { margin-left: 7.5%; margin-right: 32%; }
 ul, ol { margin-left: 9%; margin-right: 34%; }
 ul ul { margin-left: 2%; margin-right: 5%; }
 table { margin-left: 7.5%;  }
@@ -671,3 +671,40 @@ body {
 
 #blogposts ul { margin: 10px 10px 10px 0; }
 #blogposts li { margin: 0; padding: 0; margin-bottom: 8px;  }
+
+
+
+
+#linkstable {
+    font-size: 80%;
+    margin: 0 3em;
+    }
+#linkstable table {
+    margin: 0;
+    }
+#linkstable td {
+    text-align: start;
+    padding: 0 1em 0 0;
+    border: 0;
+    }
+#linkstable th {
+    vertical-align: top;
+    text-align: start;
+    padding: 0 1em 0 0;
+    }
+#linkstable p {
+    margin:0;
+    padding:0;
+    }
+#extrashapes {
+    text-align: center;
+    }
+.kbdWrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    }
+summary { cursor: pointer; }
+
+
