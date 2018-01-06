@@ -3,6 +3,6 @@
             <option value="Mandaic WF">Mandaic WF</option>
             </optgroup>
 
-            <optgroup label="Other fonts ">
+            <optgroup label="Google fonts ">
             <option value="Noto Sans Mandaic">Noto Sans Mandaic</option>
             </optgroup>`
