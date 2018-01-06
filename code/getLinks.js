@@ -1,7 +1,6 @@
 // code to include script link data in a page
 
 
-
 function getData (script) {
 	var found = false
 	var record = null
