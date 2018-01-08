@@ -686,11 +686,13 @@ body {
     text-align: start;
     padding: 0 1em 0 0;
     border: 0;
+    line-height: 1.7;
     }
 #linkstable th {
     vertical-align: top;
     text-align: start;
     padding: 0 1em 0 0;
+    line-height: 1.7;
     }
 #linkstable p {
     margin:0;
