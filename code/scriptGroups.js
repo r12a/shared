@@ -22,7 +22,7 @@ var titles = new Array(
 "1920¶1983¶Thaana¶thaana¶1920:1969",
 "1984¶2047¶NKo¶nko¶1984:2023 2027:2035 2038:2040 2042",
 "2048¶2111¶Samaritan¶samaritan¶",
-"2112¶2143¶Mandaic¶mandaic¶",
+"2112¶2143¶Mandaic¶mandaic¶2112:2139 2142",
 "2144¶2159¶Syriac Supplement¶syriacsupplement¶",
 "2208¶2303¶Arabic Extended-A¶arabic¶2209 2216",
 "2304¶2431¶Devanagari¶devanagari¶2306:2307 2309:2361 2364:2380 2392:2400 2404:2405 2427:2428 2430:2431",
