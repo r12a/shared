@@ -81,6 +81,15 @@ function showNameDetails (chars, clang, base, target, panel,list) {
 	str.lang = clang
 	str.id = 'title'
 	replacement.appendChild(str)
+    
+    advice = document.createElement('p')
+    advice.appendChild(document.createTextNode('Click on name for details.'))
+    advice.id = 'advice'
+    advice.style.textAlign = 'right'
+    advice.style.fontStyle = 'italic'
+    advice.style.fontSize = '80%'
+    advice.style.marginRight = '2em'
+    replacement.appendChild(advice)
 	
 	// create a list of characters
 	var charArray = []
@@ -105,8 +114,9 @@ function showNameDetails (chars, clang, base, target, panel,list) {
 			thelink.appendChild(charimg)
 			thelink.appendChild(document.createTextNode(' U+'+hex));
 			thename = document.createTextNode(' '+charData[String.fromCodePoint(charArray[c])])
+			thelink.appendChild(thename)
 			chardiv.appendChild(thelink)
-			chardiv.appendChild(thename)
+			//chardiv.appendChild(thename)
 
 			replacement.appendChild(chardiv);
 			}
@@ -165,4 +175,11 @@ function shownames_setClose ( node ) {
 	}
 
 
-
+function listAll (node, lang) {
+    var itemlist=node.parentNode.querySelectorAll('.listItem'); 
+    var out = '';
+    for (let i=0;i<itemlist.length;i++) { 
+        out+=itemlist[i].textContent+' '; 
+        } 
+    showNameDetails(out, lang, window.base, 'c', document.getElementById('panel'), 'list' )
+    }
