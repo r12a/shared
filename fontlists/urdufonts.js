@@ -9,6 +9,7 @@
         </optgroup>\
   		\
         <optgroup label="Google fonts">\
+        <option value="Noto Nastaliq Urdu">Noto Nastaliq Urdu</option>\
         <option value="Noto Nastaliq Urdu Draft">Noto Nastaliq Urdu Draft</option>\
         </optgroup>\
   		\
