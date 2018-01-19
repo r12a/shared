@@ -181,5 +181,6 @@ function listAll (node, lang) {
     for (let i=0;i<itemlist.length;i++) { 
         out+=itemlist[i].textContent+' '; 
         } 
+    out = out.replace(/-/g,'')
     showNameDetails(out, lang, window.base, 'c', document.getElementById('panel'), 'list' )
     }
