@@ -10,6 +10,8 @@
         </optgroup>\
         \
         <optgroup label="Google fonts ">\
+        <option value="Noto Serif Ethiopic">Noto Serif Ethiopic</option>\
+        <option value="Noto Sans Ethiopic">Noto Sans Ethiopic</option>\
         <option value="Droid Sans Ethiopic">Droid Sans Ethiopic</option>\
         </optgroup>\
         \
