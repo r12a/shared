@@ -1,6 +1,8 @@
- var fontSelection = '<option value="Noto Serif">Noto Serif</option>\
-        <option value="Gentium">Gentium</option>\
-        <option value="Doulos SIL">Doulos SIL</option>\
-        <option value="Times New Roman">Times New Roman</option>\
-        <option value="Arial">Arial</option>\
-'
+ var fontSelection = `
+ 		<option value="Doulos SIL">Doulos SIL WF</option>
+ 		<option value="Noto Serif">Noto Serif</option>
+        <option value="Gentium">Gentium</option>
+        <option value="Doulos SIL">Doulos SIL</option>
+        <option value="Times New Roman">Times New Roman</option>
+        <option value="Arial">Arial</option>
+`
