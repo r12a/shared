@@ -12,7 +12,8 @@
             </optgroup>
             
             <optgroup label="Other fonts ">
-            <option value="Yogyakarta">Yogyakarta</option>
+            <option value="Nawatura beta">Nawatura beta</option>
             <option value="Tuladha Jejeg">Tuladha Jejeg</option>
             <option value="Yogya">Yogya</option>
+            <option value="Yogyakarta">Yogyakarta</option>
             </optgroup>`
