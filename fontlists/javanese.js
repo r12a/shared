@@ -1,5 +1,6 @@
  var fontSelection = `<option value="0">Select...</option>
              <optgroup label="Web font">
+            <option value="Tuladha Jejeg WF">Tuladha Jejeg WF</option>
             <option value="Noto Sans Javanese WF">Noto Sans Javanese WF</option>
             </optgroup>
             
