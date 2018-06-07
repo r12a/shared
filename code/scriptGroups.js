@@ -289,6 +289,7 @@ var titles = new Array(
 "173824¶177983¶CJK Unified Ideographs Extension C¶han¶",
 "177984¶178207¶CJK Unified Ideographs Extension D¶han¶",
 "178208¶183983¶CJK Unified Ideographs Extension E¶han¶",
+"183984¶191456¶CJK Unified Ideographs Extension F¶han¶",
 "194560¶195103¶CJK Compatibility Ideographs Supplement¶han¶",
 "917504¶917631¶Tags¶¶",
 "917760¶917999¶Variation Selectors Supplement¶¶",
