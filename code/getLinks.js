@@ -11,7 +11,7 @@ function getData (script) {
 
 	record = linkDB[script]
 	var lc = script
-	var norm = linkDB[script].script.replace(/ /g,'_')
+	var norm = linkDB[script].script.toLowerCase().replace(/ /g,'_')
 
     out = '<table id="linkstable"><tbody>'
 	if (record.info) {
