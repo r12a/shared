@@ -2,22 +2,18 @@
 
 
 function getData (script) {
-	var found = false
-	var record = null
-	for (var i=0;i<linkDB.length;i++) {
-		if (linkDB[i].code === script) {
-			record = linkDB[i]
-			found = true
-			break
-			}
-		}
-	if (! found) return '<p>No data found.</p>'
-	
-	script = linkDB[i].script
-	var lc = script.toLowerCase()
-	var norm = script.toLowerCase().replace(/ /g,'_')
-	
-	out = '<table id="linkstable"><tbody>'
+    // take the data from linkdb.js and display it for a given script
+    // script: string, a 4-letter iso script code, all lowercase
+    // this version for script description pages: original at scripts/linkdata
+    
+    script = script.toLowerCase()
+    if (! linkDB[script]) return '<p>No data found.</p>'
+
+	record = linkDB[script]
+	var lc = script
+	var norm = linkDB[script].script.replace(/ /g,'_')
+
+    out = '<table id="linkstable"><tbody>'
 	if (record.info) {
 		out += '<tr><th>General info:</th><td>'
 		out += '<p><a href="http://scriptsource.org/scr/'+record.code+'" >Scriptsource</a></p>'
@@ -32,11 +28,11 @@ function getData (script) {
 	if ((record.local && record.local.length) > 0 | scriptNotesSet.has(lc) | charNotesSet.has(lc) | compChartSet.has(lc) | scriptSummarySet.has(lc)) {
 		var temp = ''
 		temp += '<tr><th>This site:</th><td>'
-		if (scriptNotesSet.has(lc)) temp += '<p><a href="/scripts/'+lc+'" >Script summary</a></p>'
-		if (charNotesSet.has(lc)) temp += '<p><a href="/scripts/'+lc+'/block" >Character notes</a></p>'
+		if (scriptNotesSet.has(lc)) temp += '<p><a href="/scripts/'+norm+'" >Script summary</a></p>'
+		if (charNotesSet.has(lc)) temp += '<p><a href="/scripts/'+norm+'/block" >Character notes</a></p>'
 		if (compChartSet.has(lc)) temp += '<p><a href="/scripts/featurelist/" >Comparison chart</a></p>'
 		for (var r=0;r<record.local.length;r++) temp += '<p><a href="'+record.local[r].url+'" >'+record.local[r].name+'</a></p>'
-		if (scriptSummarySet.has(lc)) temp += '<p><a href="/scripts/tutorial/summaries/'+lc+'" >Tutorial notes</a></p>'
+		if (scriptSummarySet.has(lc)) temp += '<p><a href="/scripts/tutorial/summaries/'+norm+'" >Tutorial notes</a></p>'
 		temp += '</td></tr>'
 		if (temp !== '<tr><th>This site:</th><td></td></tr>') out += temp
 		}
