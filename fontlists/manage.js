@@ -1,4 +1,4 @@
-function addFontToLists (fontname, selectionlists) {
+function addFontToLists (fontname, selectionlists, announce = true) {
 	// adds a font to the selection lists
 	
 	if (fontname === '' || fontname === null) { return }
@@ -9,17 +9,39 @@ function addFontToLists (fontname, selectionlists) {
 		return
 		}
 		
-	selectionelements = selectionlists.split(',')
+	var selectionelements = selectionlists.split(',')
 	
-	for (var i=0;i<selectionelements.length;i++) {
+    for (var i=0;i<selectionelements.length;i++) {
+        var selectlist = document.getElementById(selectionelements[i])
+        if (selectlist.querySelector('#userFontSelections') === null) {
+            var optGroup = document.createElement('optgroup')
+            optGroup.id = 'userFontSelections'
+            optGroup.label = 'User-nominated fonts'
+            selectlist.appendChild(optGroup)
+            }
+        else optGroup = selectlist.querySelector('#userFontSelections')
+
 		var option = document.createElement('option')
 		option.textContent = fontname
 		option.value = fontname
-		
-		selectlist = document.getElementById(selectionelements[i])
-		selectlist.appendChild(option)
+		optGroup.appendChild(option)
 		}
-		
-	alert('The font '+fontname+' has been added to the selection list(s).')
+
+    if (announce) alert('The font '+fontname+' has been added to the selection lists.')
+	}
+
+
+
+function removeUserFonts (selectionlists) {
+	// removes user-specified fonts from the selection lists
+	
+	var selectionelements = selectionlists.split(',')
+	
+    for (var i=0;i<selectionelements.length;i++) {
+        var selectlist = document.getElementById(selectionelements[i])
+        if (selectlist.querySelector('#userFontSelections') !== null) {
+            selectlist.querySelector('#userFontSelections').innerHTML = ''
+            }
+		}
 	}
 
