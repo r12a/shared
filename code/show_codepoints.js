@@ -140,6 +140,16 @@ function showNameDetails (chars, clang, base, target, panel,list) {
 	//add the new data to the panel
 	panel.appendChild(replacement)
 	
+	// add a link to analysestring
+	var p = document.createElement('p')
+	p.style.textAlign = 'left'
+    let a = document.createElement('a')
+    a.href = "/app-analysestring/?chars="+chars
+    a.target = "_blank"
+    a.appendChild(document.createTextNode('More details'))
+    p.appendChild(a)
+	panel.appendChild(p)
+	
 	// add a close button
 	var p = document.createElement('p')
 	p.style.textAlign = 'right'
