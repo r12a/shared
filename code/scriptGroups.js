@@ -78,7 +78,7 @@ var scriptGroups = [
 [7616,7679,"Combining Diacritical Marks Supplement","",""],
 [7680,7935,"Latin Extended Additional","latn",""],
 [7936,8191,"Greek Extended","grek",""],
-[8192,8303,"General Punctuation","","8204:8205 8228", "punctuation"],
+[8192,8303,"General Punctuation","","8203:8205 8228 8288", "punctuation"],
 [8304,8351,"Superscripts and Subscripts","",""],
 [8352,8399,"Currency Symbols","",""],
 [8400,8447,"Combining Diacritical Marks for Symbols","",""],
