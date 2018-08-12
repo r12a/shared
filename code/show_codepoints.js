@@ -3,6 +3,8 @@
 
 // ALSO NEEDED: 
 // shared/code/character_conversions.js
+// shared/code/scriptGroups.js
+// shared/code/all-names.js
 
 
 
@@ -82,7 +84,8 @@ function showNameDetails (chars, clang, base, target, panel,list) {
 	str.id = 'title'
 	replacement.appendChild(str)
     
-    advice = document.createElement('p')
+    // add instructions line
+    var advice = document.createElement('p')
     advice.appendChild(document.createTextNode('Click on name for details.'))
     advice.id = 'advice'
     advice.style.textAlign = 'right'
@@ -92,38 +95,48 @@ function showNameDetails (chars, clang, base, target, panel,list) {
     replacement.appendChild(advice)
 	
 	// create a list of characters
-	var charArray = []
-	if (list) chars = chars.replace(/ /g,'').replace(/\u00A0/g,'')
-	convertStr2DecArray(chars, charArray)
-	var chardiv, charimg, thename, thelink, hex
+	//var charArray = []
+	if (list) chars = chars.replace(/ /g,'').replace(/\u00A0/g,'') // remove spaces if list
+    var charArray = [...chars]
+    
+
+    //convertStr2DecArray(chars, charArray)
+	var chardiv, charimg, thename, thelink, hex, dec, blockname, blockfile
 
 	for (var c=0; c<charArray.length; c++) { 
-		if (charData[String.fromCodePoint(charArray[c])]) {
-			hex = charArray[c].toString(16)
-			while (hex.length < 4) { hex = '0'+hex }
-			hex = hex.toUpperCase()
+        dec = charArray[c].codePointAt(0)
+        hex = dec.toString(16)
+        while (hex.length < 4) { hex = '0'+hex }
+        hex = hex.toUpperCase()
+        
+		if (charData[charArray[c]]) {
+            blockname = getScriptGroup(dec, false)
+            blockfile = getScriptGroup(dec, true)
+            
 			chardiv = document.createElement('div')
 			charimg = document.createElement('img')
-			charimg.src = '/c/'+getScriptGroup(charArray[c])+"/"+hex+'.png'
+			charimg.src = '/c/'+blockname+"/"+hex+'.png'
 			charimg.alt = 'U+'+hex
 			chardiv.appendChild(charimg)
-			thelink = document.createElement('a');
-			if (base === '/uniview/?char=') { thelink.href = base+hex }
-			else { thelink.href = base+'#char'+hex }
-			thelink.target = target
-			thelink.appendChild(charimg)
-			thelink.appendChild(document.createTextNode(' U+'+hex));
-			thename = document.createTextNode(' '+charData[String.fromCodePoint(charArray[c])])
-			thelink.appendChild(thename)
-			chardiv.appendChild(thelink)
-			//chardiv.appendChild(thename)
+            thename = document.createTextNode(' '+charData[charArray[c]])
+            if (blockfile) {
+                thelink = document.createElement('a');
+                if (base === '/uniview/?char=') { thelink.href = base+hex }
+                else { thelink.href = '/scripts/'+blockfile+'/block#char'+hex }
+                thelink.target = target
+                thelink.appendChild(charimg)
+                thelink.appendChild(document.createTextNode(' U+'+hex))
+                thelink.appendChild(thename)
+                chardiv.appendChild(thelink)
+                }
+            else {
+              thename = document.createTextNode(' U+'+hex+' '+charData[charArray[c]])
+              chardiv.appendChild(thename)
+                }
 
 			replacement.appendChild(chardiv);
 			}
 		else {
-			hex = charArray[c].toString(16)
-			while (hex.length < 4) { hex = '0'+hex }
-			hex = hex.toUpperCase()
 			chardiv = document.createElement('div')
 			charimg = document.createElement('img')
 			charimg.src = '/c/Basic_Latin/005F.png'
@@ -141,17 +154,26 @@ function showNameDetails (chars, clang, base, target, panel,list) {
 	panel.appendChild(replacement)
 	
 	// add a link to analysestring
-	var p = document.createElement('p')
+	p = document.createElement('p')
 	p.style.textAlign = 'left'
     let a = document.createElement('a')
     a.href = "/app-analysestring/?chars="+chars
     a.target = "_blank"
     a.appendChild(document.createTextNode('More details'))
     p.appendChild(a)
+    
+    p.appendChild(document.createTextNode(' \u00A0 • \u00A0 '))
+	
+	// add a link to uniview
+    a = document.createElement('a')
+    a.href = "/uniview/?charlist="+chars
+    a.target = "_blank"
+    a.appendChild(document.createTextNode('Send to UniView'))
+    p.appendChild(a)
 	panel.appendChild(p)
 	
 	// add a close button
-	var p = document.createElement('p')
+	p = document.createElement('p')
 	p.style.textAlign = 'right'
 	var img = document.createElement('img')
 	img.src = '/scripts/block/images/close.png'
@@ -163,19 +185,29 @@ function showNameDetails (chars, clang, base, target, panel,list) {
 	}
 
 
-function getScriptGroup (charNum) {
-	// find the name of the script group
-	//   for the character in codepoint
+function getScriptGroup (charNum, blockfile) {
+	// find the name of the script group for the character in charNum
 	// codepoint: dec codepoint value
-	// returns: the Unicode block name, if successful, with spaces converted to _
-	//          otherwise ''
+    // blockfile: boolean, determines whether to return the group name or block file name
+	// returns: if blockfile not set, the Unicode block name, with spaces converted to _
+    //          if blockfile set, the name of the block file under scripts
+	//          or, if neither is found, ''
 	
-	if (charNum < 128) { return scriptGroups[1][2].replace(/ /g,'_') }
+	if(typeof blockfile === 'undefined') { blockfile = false }
+    if (blockfile) var field = 5
+    else field = 2
+    
+    // find the script group
+	if (charNum < 128) { return scriptGroups[1][field].replace(/ /g,'_') }
 	var i=1
-	while ( i<scriptGroups.length && charNum > scriptGroups[i][1] ) { i++ } 
+	while ( i<scriptGroups.length && charNum > scriptGroups[i][1] ) { i++ }
+    
+    // figure out what to return
 	if ( i == scriptGroups.length ) { return '' }
 	else { 
-		return scriptGroups[i][2].replace(/ /g,'_')
+        if (blockfile && scriptGroups[i][field]) return scriptGroups[i][field]
+        else if (blockfile) return ''
+		else return scriptGroups[i][field].replace(/ /g,'_')
 		}
 	}
 
