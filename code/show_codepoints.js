@@ -32,7 +32,9 @@ function shownames_setImgOnclick ( node, base, target ) {
 	}
 
 function shownames_setOnclick ( node, base, target ) {
-	node.onclick = function(){ showNameDetails(node.firstChild.data, getLanguage(node), base, target, document.getElementById('panel')) }
+    if (node.classList.contains('list')) var list = 'y'
+    else list = ''
+	node.onclick = function(){ showNameDetails(node.firstChild.data, getLanguage(node), base, target, document.getElementById('panel'), list) }
 	}
 
 
