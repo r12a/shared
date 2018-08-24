@@ -62,7 +62,7 @@ var scriptGroups = [
 [6528,6623,"New Tai Lue","talu",""],
 [6624,6655,"Khmer Symbols","khmr",""],
 [6656,6687,"Buginese","bugi","6656:6683 6686:6687", "buginese"],
-[6688,6831,"Tai Tham","lana",""],
+[6688,6831,"Tai Tham","lana","6688:6738 6741:6742 6744:6748 6752:6780 6783:6793 6800:6809 6816:6829", "taitham"],
 [6832,6911,"Combining Diacritical Marks Extended","",""],
 [6912,7039,"Balinese","bali", "6912:6923 6927:6941 6945:6980 6992:7008", "balinese"],
 [7040,7103,"Sundanese","sund","7040:7103", "sundanese"],
