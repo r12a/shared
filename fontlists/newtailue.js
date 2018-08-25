@@ -11,10 +11,6 @@
         <option value="Dai Banna SIL Light">Dai Banna SIL Light</option>
         </optgroup>
 		
-        <optgroup label="Other fonts">
-        <option value="Lanna Alif">Lanna Alif</option>
-        </optgroup>
-        
         <optgroup label="General fonts">
         <option value="Arial Unicode MS">Arial Unicode MS</option>
         <option value="Code2000">Code2000</option>
