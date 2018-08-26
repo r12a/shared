@@ -59,7 +59,7 @@ var scriptGroups = [
 [6320,6399,"Unified Canadian Aboriginal Syllabics Extended","cans",""],
 [6400,6479,"Limbu","limb",""],
 [6480,6527,"Tai Le","tale",""],
-[6528,6623,"New Tai Lue","talu",""],
+[6528,6623,"New Tai Lue","talu","6528:6571 6576:6601 6608:6618 6622:6623","newtailue"],
 [6624,6655,"Khmer Symbols","khmr",""],
 [6656,6687,"Buginese","bugi","6656:6683 6686:6687", "buginese"],
 [6688,6831,"Tai Tham","lana","6688:6738 6741:6742 6744:6748 6752:6780 6783:6793 6800:6809 6816:6829", "taitham"],
