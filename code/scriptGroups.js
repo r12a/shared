@@ -147,7 +147,7 @@ var scriptGroups = [
 [43488,43519,"Myanmar Extended-B","mymr",""],
 [43520,43615,"Cham","cham",""],
 [43616,43647,"Myanmar Extended-A","mymr",""],
-[43648,43743,"Tai Viet","tavt",""],
+[43648,43743,"Tai Viet","tavt","43648:43714 43739:43743", "taiviet"],
 [43744,43775,"Meetei Mayek Extensions","mtei",""],
 [43776,43823,"Ethiopic Extended-A","ethi",""],
 [43824,43887,"Latin Extended-E","latn",""],
