@@ -10,7 +10,9 @@
 		
         <optgroup label="Other fonts">
         <option value="Lanna Alif">Lanna Alif</option>
+        <option value="Tai Tham LN">Tai Tham LN</option>
         <option value="A Tai Tham KH New">A Tai Tham KH New</option>
+        <option value="A Tai Tham KH">A Tai Tham KH</option>
         </optgroup>
         
         <optgroup label="General fonts">
