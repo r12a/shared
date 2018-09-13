@@ -32,8 +32,8 @@ function shownames_setImgOnclick ( node, base, target ) {
 	}
 
 function shownames_setOnclick ( node, base, target ) {
-    if (node.classList.contains('list')) var list = 'y'
-    else list = ''
+    var list = ''
+    if (node.classList.contains('list')) list = 'y'
 	node.onclick = function(){ showNameDetails(node.firstChild.data, getLanguage(node), base, target, document.getElementById('panel'), list) }
 	}
 
@@ -118,7 +118,8 @@ function showNameDetails (chars, clang, base, target, panel,list) {
 			chardiv = document.createElement('div')
 			charimg = document.createElement('img')
 			charimg.src = '/c/'+blockname+"/"+hex+'.png'
-			charimg.alt = 'U+'+hex
+			//charimg.alt = 'U+'+hex
+			charimg.alt = charArray[c]
 			chardiv.appendChild(charimg)
             thename = document.createTextNode(' '+charData[charArray[c]])
             if (blockfile) {
