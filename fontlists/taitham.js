@@ -1,4 +1,5 @@
  var fontSelection =`<optgroup label="Webfonts">
+         <option value="Lamphun WF">Lamphun WF</option>
          <option value="Lanna Alif WF">Lanna Alif WF</option>
         <option value="A Tai Tham KH New WF">A Tai Tham KH New WF</option>
        <option value="Noto Sans Tai Tham WF">Noto Sans Tai Tham WF</option>
@@ -9,6 +10,7 @@
         </optgroup>
 		
         <optgroup label="Other fonts">
+        <option value="Lamphun">Lamphun</option>
         <option value="Lanna Alif">Lanna Alif</option>
         <option value="Tai Tham LN">Tai Tham LN</option>
         <option value="A Tai Tham KH New">A Tai Tham KH New</option>
