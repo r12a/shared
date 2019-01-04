@@ -1,25 +1,38 @@
 @font-face {
-    font-family: 'robotolight';
-    src: url('../webfonts/roboto-lightwebfont.woff2') format('woff2'),
-         url('../webfonts/roboto-lightwebfont.woff') format('woff');
+    font-family: 'ralewaywf';
+    src: url('../webfonts/raleway-regular-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 	}
+@font-face {
+    font-family: 'ralewaywf';
+    src: url('../webfonts/raleway-italic-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+	}
+@font-face {
+    font-family: 'ralewaywf';
+    src: url('../webfonts/raleway-bold-webfont.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+	}
+
 
 body {
 	margin: 0;
 	padding: 0;
-    font-family: adobe-clean, 'Helvetica Neue', robotolight, calibri, corbel, "Segoe UI", helvetica, sans-serif;
+    font-family: Raleway, ralewaywf, adobe-clean, 'Helvetica Neue', calibri, corbel, "Segoe UI", helvetica, sans-serif;
     font-size: 17px;
     font-weight: 300;
     line-height: 1.75;
 	background-color: white;
 	color: #666;
 	text-align: justify;
+	font-weight: 400;
 	}
 
 strong {
-    font-family: 'Helvetica Neue',  robotolight, "Segoe UI", sans-serif;
+    font-family: 'Helvetica Neue',  ralewaywf, "Segoe UI", sans-serif;
     font-weight: 400;
 	color: #444;
 	}
@@ -128,7 +141,7 @@ h2 + section > h3 {
 	}
 
 .leadin { 
-	font-weight: 500; 
+	font-weight: bold; 
 	font-size: 100%;
 	}
 .leadin:link { 
@@ -570,7 +583,9 @@ table.inband th {
 	padding: 0.2em;
 	background-color: #f9f5de; 
 	}
-
+#refs ol {
+    text-align: start;
+    }
 
 
 
@@ -656,18 +671,7 @@ blockquote { margin-left: 2em; margin-right: 2em; }
 
 }
 
-@media print {
 
-/* ***********  PRINTING ****************** */
-
-body {
-	font-size: 85%;
-	}
-.noprint {
-	display: none;
-	}
-
-}
 
 #blogposts ul { margin: 10px 10px 10px 0; }
 #blogposts li { margin: 0; padding: 0; margin-bottom: 8px;  }
@@ -709,4 +713,22 @@ body {
     }
 summary { cursor: pointer; }
 
+
+
+
+/* PRINT STYLES */
+
+
+@media print {
+
+body {
+	font-size: 85%;
+	}
+.noprint {
+	display: none;
+	}
+#top, #fontsetting {
+    display: none;
+    }
+}
 
