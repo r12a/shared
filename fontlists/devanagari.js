@@ -1,5 +1,5 @@
  var fontSelection = '<optgroup label="Web font ">\
-        <option value="Noto Sans Devanagari WF">Noto Sans Devanagari WF</option>\
+        <option value="Noto Serif Devanagari WF">Noto Serif Devanagari WF</option>\
         </optgroup>\
         \
 		<optgroup label="Mac fonts ">\
@@ -16,6 +16,7 @@
         \
 		<optgroup label="Google fonts ">\
         <option value="Lohit Devanagari">Lohit Devanagari</option>\
+        <option value="Noto Serif Devanagari">Noto Serif Devanagari</option>\
         <option value="Noto Sans Devanagari">Noto Sans Devanagari</option>\
 		</optgroup>\
         \
