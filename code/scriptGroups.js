@@ -80,7 +80,7 @@ var scriptGroups = [
 [7936,8191,"Greek Extended","grek",""],
 [8192,8303,"General Punctuation","","8203:8205 8228 8288", "punctuation"],
 [8304,8351,"Superscripts and Subscripts","",""],
-[8352,8399,"Currency Symbols","","8362","currencysymbols"],
+[8352,8399,"Currency Symbols","","8360 8362 8377","currencysymbols"],
 [8400,8447,"Combining Diacritical Marks for Symbols","",""],
 [8448,8527,"Letterlike Symbols","",""],
 [8528,8591,"Number Forms","",""],
