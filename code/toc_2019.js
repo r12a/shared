@@ -53,6 +53,8 @@ function createtoc (maxlevel) {
 				toc.appendChild(h);
 			}
 		}
+    setSectionRefs()
+    setFigureRefs()
 	}
     
 
@@ -91,7 +93,7 @@ function setSectionRefs () {
     // finds all a elements with class secref and replaces the content
     // of the element with the title of the section
     
-    var secrefs = document.querySelectorAll('.sectionref')
+    var secrefs = document.querySelectorAll('.secref, .sectionref')
     for (let i=0;i<secrefs.length;i++) {
         var id = secrefs[i].textContent
         secrefs[i].innerHTML = document.getElementById(id).innerHTML
