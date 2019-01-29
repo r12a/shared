@@ -67,7 +67,7 @@ dd p { margin-left: 0; margin-right: 0; }
 
 h1 {
 	text-align: left;
-	font-size: 48px;
+	font-size: 300%;
 	font-weight: 300;
 	color: #005a9c;
 	padding: 5px;
@@ -445,17 +445,17 @@ acronym {
 .kw {
 	font-family: "Lucida Console", Monaco, monospace;
 	color: #A52a2a;
-	font-size: 14px;
+	font-size: 80%;
 	}
 samp {
 	font-family: "Lucida Console", Monaco, monospace;
 	color: #A52a2a;
-	font-size: 14px;
+	font-size: 80%;
 	}
 .button {
 	font-family: "Lucida Console", Monaco, monospace;
 	color: #A52a2a;
-	font-size: 14px;
+	font-size: 80%;
 	border: 1px solid brown;
 	border-radius: 5px;
 	padding: 2px;
@@ -750,7 +750,7 @@ h2:hover > a.selflink, h3 > a.selflink, h4 > a.selflink, h5 > a.selflink, h6 > a
 @media print {
 
 body {
-	font-size: 85%;
+	font-size: 9pt;
 	}
 .noprint {
 	display: none;
