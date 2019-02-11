@@ -750,7 +750,7 @@ h2:hover > a.selflink, h3 > a.selflink, h4 > a.selflink, h5 > a.selflink, h6 > a
 @media print {
 
 body {
-	font-size: 9pt;
+	font-size: 8pt;
 	}
 .noprint {
 	display: none;
