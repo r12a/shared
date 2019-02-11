@@ -8,13 +8,13 @@
                 <option value="Gentium">Gentium</option>
                 <option value="Gentium Plus">Gentium Plus</option>
                 <option value="GentiumAlt">GentiumAlt</option>
-                <option value="Gentium Plus">Gentium Plus</option>
      </optgroup>
       <optgroup label="Wide coverage fonts">
                 <option value="Symbola">Symbola</option>
                 <option value="EversonMono">EversonMono</option>
                 <option value="Quivira">Quivira</option>
                 <option value="Unifont">Unifont</option>
+                <option value="Brill">Brill</option>
      </optgroup>
       <optgroup label="Other fonts">
                 <option value="Berling Antiqua">Berling Antiqua</option>
