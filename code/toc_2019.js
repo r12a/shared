@@ -96,8 +96,11 @@ function setSectionRefs () {
     var secrefs = document.querySelectorAll('.secref, .sectionref')
     for (let i=0;i<secrefs.length;i++) {
         var id = secrefs[i].textContent
-        secrefs[i].innerHTML = document.getElementById(id).innerHTML
-        secrefs[i].href = '#'+id
+        if (document.getElementById(id) === null) console.log('Section not found: ',id)
+        else {
+            secrefs[i].innerHTML = document.getElementById(id).innerHTML
+            secrefs[i].href = '#'+id
+            }
         }
     }
 
