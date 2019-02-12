@@ -1,16 +1,20 @@
  var fontSelection = `
-        <optgroup label="Google fonts ">
+        <optgroup label="Webfonts">
+ 		<option value="Doulos SIL WF">Doulos SIL WF</option>
+        </optgroup>
+            
+        <optgroup label="Google fonts">
  		<option value="Noto Serif">Noto Serif</option>
  		<option value="Noto Sans">Noto Sans</option>
         </optgroup>
             
-        <optgroup label="SIL fonts ">
+        <optgroup label="SIL fonts">
         <option value="Gentium Plus">Gentium Plus</option>
         <option value="Gentium">Gentium</option>
- 		<option value="Doulos SIL">Doulos SIL WF</option>
+ 		<option value="Doulos SIL">Doulos SIL</option>
         </optgroup>
             
-        <optgroup label="Other fonts ">
+        <optgroup label="Other fonts">
         <option value="Brill">Brill</option>
         </optgroup>
             
