@@ -1,9 +1,12 @@
  var fontSelection = `<option value="0">Select...</option>
-             <optgroup label="Web font">
+            <optgroup label="Web font">
+            <option value="BGP 2017 DejaVu Serif WF">BGP 2017 DejaVu Serif WF</option>
+            <option value="BGP 2017 DejaVu Sans WF">BGP 2017 DejaVu Sans WF</option>
+            <option value="Noto Serif Georgian WF">Noto Serif Georgian WF</option>
             <option value="Noto Sans Georgian WF">Noto Sans Georgian WF</option>
             </optgroup>
             
-           <optgroup label="Mac fonts ">
+            <optgroup label="Mac fonts ">
             <option value="Menlo">Menlo</option>
             </optgroup>
             
@@ -17,6 +20,8 @@
             </optgroup>
             
             <optgroup label="Other fonts ">
+            <option value="BGP 2017 DejaVu Serif">BGP 2017 DejaVu Serif</option>
+            <option value="BGP 2017 DejaVu Sans">BGP 2017 DejaVu Sans</option>
             <option value="BPG Classic 99U">BPG Classic 99U</option>
             <option value="BPG Paata Khutsuri U">BPG Paata Khutsuri U</option>
             </optgroup>
