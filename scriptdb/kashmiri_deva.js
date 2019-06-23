@@ -113,8 +113,7 @@ var spreadsheet = `
 ॥	|	¶	|	¶								U+0965: DEVANAGARI DOUBLE DANDA
 ॰	+	¨										U+0970: DEVANAGARI ABBREVIATION SIGN
 												
-												
-												
+																			
 												
 												
 \u200C	=	ₓ				zero-width non-joiner						
