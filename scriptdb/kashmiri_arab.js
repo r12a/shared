@@ -9,12 +9,12 @@ var spreadsheet = `
 ق		k	ḱ			k	consonant		ق ققق	baṛī kāf 		U+0642: ARABIC LETTER QAF
 ع		}	ʔ			ʔ ∅	consonant		ع ععع	ain 		U+0639: ARABIC LETTER AIN
 												
-پھ		P	pʰ			pʰ	consonant		پھ پھپھپھ			U+067E U+06BE: ARABIC LETTER PEH, HEH DOACHASHMEE
-تھ		T¶	tʰ	T¶	th	tʰ	consonant		تھ تھتھتھ			U+062A U+06BE: ARABIC LETTER TEH, HEH DOACHASHMEE
-ثھ		T	ʦʰ		ch	t͡sʰ	consonant		ثھ ثھثھثھ			U+091B U+093C: DEVANAGARI LETTER CHA, DEVANAGARI SIGN NUKTA
-ٹھ		T	ʈʰ	T	ṭh	ʈʰ	consonant		ٹھ ٹھٹھٹھ			U+0679 U+06BE: ARABIC LETTER TTEH, HEH DOACHASHMEE
-چھ		C	ʧʰ	C	čh	ʧʰ	consonant		چھ چھچھچھ			U+0686 U+06BE: ARABIC LETTER TCHEH, HEH DOACHASHMEE
-کھ		K	kʰ	K	kh	kʰ	consonant		کھ کھکھکھ			U+06A9 U+06BE: ARABIC LETTER KEHEH, HEH DOACHASHMEE
+پھ		P	pʰ			pʰ	consonant		پھ پھپھپھ			U+067E U+06BE: ARABIC LETTER PEH, LETTER HEH DOACHASHMEE
+تھ		T¶	tʰ	T¶	th	tʰ	consonant		تھ تھتھتھ			U+062A U+06BE: ARABIC LETTER TEH, LETTER HEH DOACHASHMEE
+ثھ		T	ʦʰ		ch	t͡sʰ	consonant		ثھ ثھثھثھ			U+062B U+06BE: ARABIC LETTER THEH, LETTER HEH DOACHASHMEE
+ٹھ		T	ʈʰ	T	ṭh	ʈʰ	consonant		ٹھ ٹھٹھٹھ			U+0679 U+06BE: ARABIC LETTER TTEH, LETTER HEH DOACHASHMEE
+چھ		C	ʧʰ	C	čh	ʧʰ	consonant		چھ چھچھچھ			U+0686 U+06BE: ARABIC LETTER TCHEH, LETTER HEH DOACHASHMEE
+کھ		K	kʰ	K	kh	kʰ	consonant		کھ کھکھکھ			U+06A9 U+06BE: ARABIC LETTER KEHEH, LETTER HEH DOACHASHMEE
 خ		K	ḱʰ	K	kh	kʰ	consonant		خ خخخ	khe 		U+062E: ARABIC LETTER KHAH
 												
 ب		b	b	b	b	b	consonant		ب ببب	be		U+0628: ARABIC LETTER BEH
@@ -58,15 +58,15 @@ var spreadsheet = `
 												
 												
 ِ		i	i	i	i	i	vowel					U+0650: ARABIC KASRA​
-اِ		i	i			i	vowel					U+0627 U+0650: ARABIC LETTER ALEF, ARABIC KASRA
-یٖ		i	ī	i	ī	iː	vowel		یٖ یٖیٖیٖ			U+06CC U+0656: ARABIC LETTER FARSI YEH, ARABIC SUBSCRIPT ALEF
+اِ		i	i			i	vowel					U+0627 U+0650: ARABIC LETTER ALEF, KASRA
+یٖ		i	ī	i	ī	iː	vowel		یٖ یٖیٖیٖ			U+06CC U+0656: ARABIC LETTER FARSI YEH, SUBSCRIPT ALEF
 ٖ	c		ˌ				vowel diacritic (used with یٖـ)					U+0656: ARABIC SUBSCRIPT ALEF​
 ٕ		i	ɨ		ü	ɨ	vowel					U+0655: ARABIC HAMZA BELOW​
 إ	p	i	ɨ			ɨ	precomposed vowel (initial/isolate form only)		أ ـأ			U+0625: ARABIC LETTER ALEF WITH HAMZA BELOW
 ٟ		i	ɨ̄			ɨː	vowel					U+065F: ARABIC WAVY HAMZA BELOW​
 ٳ	p	i	ɨ̸̄		ǖ	ɨː	precomposed vowel (initial/isolate form only)	deprecated				U+0673: ARABIC LETTER ALEF WITH WAVY HAMZA BELOW
 ُ		u	u	u	u	u	vowel					U+064F: ARABIC DAMMA​
-وٗ		u	ū	u	ū	uː	vowel					U+0648 U+0657: ARABIC LETTER WAW, ARABIC INVERTED DAMMA
+وٗ		u	ū	u	ū	uː	vowel					U+0648 U+0657: ARABIC LETTER WAW, INVERTED DAMMA
 ٗ			˔				vowel diacritic (used with وٗ)					U+0657: ARABIC INVERTED DAMMA​
 												
 ێ		e¶	e		e	e	vowel					U+06CE: ARABIC LETTER YEH WITH SMALL V
@@ -74,7 +74,7 @@ var spreadsheet = `
 ٔ		e	ə		ö	ə	vowel					U+0654: ARABIC HAMZA ABOVE​
 أ	p	e	ə			ə	precomposed vowel (initial/isolate form only)		أ ـأ			U+0623: ARABIC LETTER ALEF WITH HAMZA ABOVE
 ؤ	p	e	u͑			wə	precomposed CV sequence		ؤ ـؤ			U+0624: ARABIC LETTER WAW WITH HAMZA ABOVE
-ۓ	p	e	ɛ͑			wə	precomposed CV sequence		ۓ ـۓ			U+0624: ARABIC LETTER WAW WITH HAMZA ABOVE
+ۓ	p	e	ɛ͑			wə	precomposed CV sequence		ۓ ـۓ			U+06D3: ARABIC LETTER YEH BARREE WITH HAMZA ABOVE
 ٲ		e	ə̄		ȫ	əː	vowel					U+0672: ARABIC LETTER ALEF WITH WAVY HAMZA ABOVE
 ۆ		o	o		o	o	vowel		ۆ ـۆ			U+06C6: ARABIC LETTER OE
 												
@@ -82,9 +82,9 @@ var spreadsheet = `
 ا		a	ạ̄	a	ā	aː ∅	vowel		ا ـا			U+0627: ARABIC LETTER ALEF
 آ		A	ã			aː	vowel		آ ـآ			U+0622: ARABIC LETTER ALEF WITH MADDA ABOVE
 ٓ	c	[	˜				vowel diacritic (used with آ)					U+0653: ARABIC MADDAH ABOVE​
-\u0627\u0653	s		ã			aː	decomposed آ					U+0627 U+0653: ARABIC LETTER ALEF, ARABIC MADDAH ABOVE
+\u0627\u0653	s		ã			aː	decomposed آ					U+0627 U+0653: ARABIC LETTER ALEF, MADDAH ABOVE
 ۄ		o	ɔ			ɔ	vowel		ۄ ـۄ			U+06C4: ARABIC LETTER WAW WITH RING
-ۄآ	s	o	ɔ̄			ɔː	vowel					U+06C4 U+0622: ARABIC LETTER WAW WITH RING, ARABIC LETTER ALEF WITH MADDA ABOVE
+ۄآ	s	o	ɔ̄			ɔː	vowel					U+06C4 U+0622: ARABIC LETTER WAW WITH RING, LETTER ALEF WITH MADDA ABOVE
 												
 												
 												
@@ -121,8 +121,8 @@ var spreadsheet = `
 												
 												
 												
-\u200C		=	ₓ				zero-width non-joiner					
-\u200D		=	₊				zero-width joiner					
+\u200C		=	ₓ				zero-width non-joiner					U+200C: ZERO WIDTH NON-JOINER
+\u200D		=	₊				zero-width joiner					U+200D: ZERO WIDTH JOINER
 \u2067			ʳˡⁱ				rtl isolate					U+2067: RIGHT-TO-LEFT ISOLATE
 \u2066			ˡʳⁱ				ltr isolate					U+2066: LEFT-TO-RIGHT ISOLATE
 \u2068			ᶠˢⁱ				first-strong isolate					U+2068: FIRST STRONG ISOLATE
@@ -143,6 +143,7 @@ var spreadsheet = `
 ك	d		k̸				non-native letter	incorrect usage				U+0643: ARABIC LETTER KAF
 ٮ	d		b̸				non-native letter	incorrect usage				U+066E: ARABIC LETTER DOTLESS BEH
 ۪	d		˳				non-native diacritic	incorrect usage				U+06EA: ARABIC EMPTY CENTRE LOW STOP​
+
 
 
 
