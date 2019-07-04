@@ -1,82 +1,82 @@
 var spreadsheet = `
-ا		a¶	ɑ		-	aː a ʔa -	consonant+vowel		’alif	أَلِفْ	ا ـا	U+0627: ARABIC LETTER ALEF
-آ		a	ɑ̄		ā	ʔaʔ ʔaː	vowel		ʼalīf maddah	أَلِفْ مَدَّة	آ ـآ	U+0622: ARABIC LETTER ALEF WITH MADDA ABOVE
-أ		a	ɑ͑		a	ʔa ʔu ʔ	consonant+vowel		ʼalīf hamzah	أَلِفْ هَمْزة	أ ـأ	U+0623: ARABIC LETTER ALEF WITH HAMZA ABOVE
-إ		a	ɑ̜		i	ʔi	consonant+vowel				إ ـإ	U+0625: ARABIC LETTER ALEF WITH HAMZA BELOW
-ٱ		a	ɑ̃		’	a	consonant+vowel	infrequent	alifu l-waṣli	اَلِفُ ٱلْوَصْلِ	ٱ ـٱ	U+0671: ARABIC LETTER ALEF WASLA
-ى		a	à		ỳ	ɑː	vowel		alif maqṣūrah	ألف مقصورة	ى ـى	U+0649: ARABIC LETTER ALEF MAKSURA
+ا		a¶	ɑ	aː a ʔa -		-	consonant+vowel		ا ـا	’alif	أَلِفْ	U+0627: ARABIC LETTER ALEF
+آ		a	ɑ̄	ʔaʔ ʔaː		ā	vowel		آ ـآ	ʼalīf maddah	أَلِفْ مَدَّة	U+0622: ARABIC LETTER ALEF WITH MADDA ABOVE
+أ		a	ɑ͑	ʔa ʔu ʔ		a	consonant+vowel		أ ـأ	ʼalīf hamzah	أَلِفْ هَمْزة	U+0623: ARABIC LETTER ALEF WITH HAMZA ABOVE
+إ		a	ɑ̜	ʔi		i	consonant+vowel		إ ـإ			U+0625: ARABIC LETTER ALEF WITH HAMZA BELOW
+ٱ		a	ɑ̃	a		’	consonant+vowel	infrequent	ٱ ـٱ	alifu l-waṣli	اَلِفُ ٱلْوَصْلِ	U+0671: ARABIC LETTER ALEF WASLA
+ى		a	à	ɑː		ỳ	vowel		ى ـى	alif maqṣūrah	ألف مقصورة	U+0649: ARABIC LETTER ALEF MAKSURA
 												
-ت		t¶	t		t	t	consonant		tā’	تَاء	ت تتت	U+062A: ARABIC LETTER TEH
-ط		T	t̴		ṭ	t̴	consonant		ṭā’	طَاء	ط ططط	U+0637: ARABIC LETTER TAH
-ة		t	ẗ		h	- t	consonant+vowel		tāʼ marbūṭah	تاء مربوطة	ة ـة	U+0629: ARABIC LETTER TEH MARBUTA
-ك		k	k		k	k	consonant		kāf	كَاف	ك ككك	U+0643: ARABIC LETTER KAF
-ق		q	q		q	q	consonant		qāf	قَاف	ق ققق	U+0642: ARABIC LETTER QAF
-ء		}	ʔ		- ʾ	ʔ	glottal stop		hamzah	هَمْزة	ء	U+0621: ARABIC LETTER HAMZA
+ت		t¶	t	t		t	consonant		ت تتت	tā’	تَاء	U+062A: ARABIC LETTER TEH
+ط		T	t̴	t̴		ṭ	consonant		ط ططط	ṭā’	طَاء	U+0637: ARABIC LETTER TAH
+ة		t	ẗ	- t		h	consonant+vowel		ة ـة	tāʼ marbūṭah	تاء مربوطة	U+0629: ARABIC LETTER TEH MARBUTA
+ك		k	k	k		k	consonant		ك ككك	kāf	كَاف	U+0643: ARABIC LETTER KAF
+ق		q	q	q		q	consonant		ق ققق	qāf	قَاف	U+0642: ARABIC LETTER QAF
+ء		}	ʔ	ʔ		- ʾ	glottal stop		ء	hamzah	هَمْزة	U+0621: ARABIC LETTER HAMZA
 												
-ب		b	b		b	b	consonant		bā’	بَاء	ب ببب	U+0628: ARABIC LETTER BEH
-د		d	d		d	d	consonant		dāl	دَالْ	د ـد	U+062F: ARABIC LETTER DAL
-ض		d	d̴		ḍ	d̴	consonant		ḍād	ضَاد	ض ضضض	U+0636: ARABIC LETTER DAD
+ب		b	b	b		b	consonant		ب ببب	bā’	بَاء	U+0628: ARABIC LETTER BEH
+د		d	d	d		d	consonant		د ـد	dāl	دَالْ	U+062F: ARABIC LETTER DAL
+ض		d	d̴	d̴		ḍ	consonant		ض ضضض	ḍād	ضَاد	U+0636: ARABIC LETTER DAD
 												
-ف		f	f		f	f	consonant		fā’	فَاء	ف ففف	U+0641: ARABIC LETTER FEH
-ث		Q	θ		th	θ	consonant		thā’	ثَاء	ث ثثث	U+062B: ARABIC LETTER THEH
-س		s	s		s	s	consonant		sīn	ِسِينْ	س سسس	U+0633: ARABIC LETTER SEEN
-ص		S	s̴		ṣ	s̴	consonant		ṣād	صَادْ	ص صصص	U+0635: ARABIC LETTER SAD
-ش		s	ʃ		sh	ʃ	consonant		shīn	شِينْ	ش ششش	U+0634: ARABIC LETTER SHEEN
-خ		x	x		kh	x	consonant		khā’	خَاء	خ خخخ	U+062E: ARABIC LETTER KHAH
-ه		h¶	h		h	h	consonant		hā’	هَاء	ه ههه	U+0647: ARABIC LETTER HEH
-ح		H	ħ		ḥ	ħ	consonant		ḥā’	حَاء	ح ححح	U+062D: ARABIC LETTER HAH
+ف		f	f	f		f	consonant		ف ففف	fā’	فَاء	U+0641: ARABIC LETTER FEH
+ث		Q	θ	θ		th	consonant		ث ثثث	thā’	ثَاء	U+062B: ARABIC LETTER THEH
+س		s	s	s		s	consonant		س سسس	sīn	ِسِينْ	U+0633: ARABIC LETTER SEEN
+ص		S	s̴	s̴		ṣ	consonant		ص صصص	ṣād	صَادْ	U+0635: ARABIC LETTER SAD
+ش		s	ʃ	ʃ		sh	consonant		ش ششش	shīn	شِينْ	U+0634: ARABIC LETTER SHEEN
+خ		x	x	x		kh	consonant		خ خخخ	khā’	خَاء	U+062E: ARABIC LETTER KHAH
+ه		h¶	h	h		h	consonant		ه ههه	hā’	هَاء	U+0647: ARABIC LETTER HEH
+ح		H	ħ	ħ		ḥ	consonant		ح ححح	ḥā’	حَاء	U+062D: ARABIC LETTER HAH
 												
-ز		z	z		z	z	consonant		zayn	زَاي	ز ـز	U+0632: ARABIC LETTER ZAIN
-ظ		Z	z̴		ẓ	z̴	consonant		ẓā’	ظَاء	ظ ظظظ	U+0638: ARABIC LETTER ZAH
-ذ		D	ð		dh	ð	consonant		dhāl	ذَال	ذ ـذ	U+0630: ARABIC LETTER THAL
-ج		z	ʒ		j	ʒ	consonant		jīm	جِيمْ	ج ججج	U+062C: ARABIC LETTER JEEM
-غ		y	ɣ		gh	ɣ	consonant		ghayn	غَين	غ غغغ	U+063A: ARABIC LETTER GHAIN
-ع		{	ʕ		ʿ	ʕ	consonant		‘ayn	عَين	ع ععع	U+0639: ARABIC LETTER AIN
+ز		z	z	z		z	consonant		ز ـز	zayn	زَاي	U+0632: ARABIC LETTER ZAIN
+ظ		Z	z̴	z̴		ẓ	consonant		ظ ظظظ	ẓā’	ظَاء	U+0638: ARABIC LETTER ZAH
+ذ		D	ð	ð		dh	consonant		ذ ـذ	dhāl	ذَال	U+0630: ARABIC LETTER THAL
+ج		z	ʒ	ʒ		j	consonant		ج ججج	jīm	جِيمْ	U+062C: ARABIC LETTER JEEM
+غ		y	ɣ	ɣ		gh	consonant		غ غغغ	ghayn	غَين	U+063A: ARABIC LETTER GHAIN
+ع		{	ʕ	ʕ		ʿ	consonant		ع ععع	‘ayn	عَين	U+0639: ARABIC LETTER AIN
 												
-و		w¶	w		w	w u	consonant+vowel		wāw	وَاو	و ـو	U+0648: ARABIC LETTER WAW
-ؤ		w	w͑			ʔu ʔ	consonant+vowel		wāw hamzah	وَاو هَمْزة	ؤ ـؤ	U+0624: ARABIC LETTER WAW WITH HAMZA ABOVE
-ل		l	l		l	l	consonant		lām	لاَمْ	ل للل	U+0644: ARABIC LETTER LAM
-ر		r	r		r	r	consonant		rā’	رَاء	ر ـر	U+0631: ARABIC LETTER REH
-ي		y¶	y		y	j iː	consonant+vowel		yā’	يَاء	ي ييي	U+064A: ARABIC LETTER YEH
-ئ		y	y͑		ʸ	ʔɪ ʔ	consonant+vowel		yāʼ hamzah	يَاء هَمْزة	ئ ئئئ	U+0626: ARABIC LETTER YEH WITH HAMZA ABOVE
+و		w¶	w	w u		w	consonant+vowel		و ـو	wāw	وَاو	U+0648: ARABIC LETTER WAW
+ؤ		w	w͑	ʔu ʔ			consonant+vowel		ؤ ـؤ	wāw hamzah	وَاو هَمْزة	U+0624: ARABIC LETTER WAW WITH HAMZA ABOVE
+ل		l	l	l		l	consonant		ل للل	lām	لاَمْ	U+0644: ARABIC LETTER LAM
+ر		r	r	r		r	consonant		ر ـر	rā’	رَاء	U+0631: ARABIC LETTER REH
+ي		y¶	y	j iː		y	consonant+vowel		ي ييي	yā’	يَاء	U+064A: ARABIC LETTER YEH
+ئ		y	y͑	ʔɪ ʔ		ʸ	consonant+vowel		ئ ئئئ	yāʼ hamzah	يَاء هَمْزة	U+0626: ARABIC LETTER YEH WITH HAMZA ABOVE
 												
-م		m	m		m	m	consonant		mīm	مِيمْ	م ممم	U+0645: ARABIC LETTER MEEM
-ن		n	n		n	n	consonant		nūn	نُون	ن ننن	U+0646: ARABIC LETTER NOON
-												
-												
-ِ		i	i		i	i	vowel		kasrah	كَسْرَة		U+0650: ARABIC KASRA​
-ٍ		i	iⁿ		iⁿ	in	vowel		kasratān			U+064D: ARABIC KASRATAN​
-ُ		u	u		u	u	vowel		ḍammah	ضَمَّة		U+064F: ARABIC DAMMA​
-ٌ		u	uⁿ		uⁿ	un	vowel		ḍammatān			U+064C: ARABIC DAMMATAN​
-َ		a	a		a	a	vowel		fatḥah	فَتْحَة		U+064E: ARABIC FATHA​
-ً		a	aⁿ		aⁿ	an	vowel		fatḥatān			U+064B: ARABIC FATHATAN​
-ّ		w	ᵚ		ᵚ		gemination mark		shaddah	شَدَّة		U+0651: ARABIC SHADDA​
-ْ		*	°		̊		vowel absence marker		sukūn	سُكُون		U+0652: ARABIC SUKUN​
-ٰ		[	̍		̍	aː	vowel		alīf khanjariyyah	أَلِيف خَنْجَرِيَّة		U+0670: ARABIC LETTER SUPERSCRIPT ALEF​
-ٔ		[	ʿ		͗	ʾ						U+0654: ARABIC HAMZA ABOVE​
-ٕ		[	˓		̹	ʾ						U+0655: ARABIC HAMZA BELOW​
+م		m	m	m		m	consonant		م ممم	mīm	مِيمْ	U+0645: ARABIC LETTER MEEM
+ن		n	n	n		n	consonant		ن ننن	nūn	نُون	U+0646: ARABIC LETTER NOON
 												
 												
-ـ		_	_		_		baseline extender	infrequent	tatweel			U+0640: ARABIC TATWEEL
-،		,	,		,	,	comma					U+060C: ARABIC COMMA
-۔		.	.		.	.	full stop	infrequent				U+06D4: ARABIC FULL STOP
-؛		;	;		;	;	semi-colon					U+061B: ARABIC SEMICOLON
-؟		?	?		?	?	question mark					U+061F: ARABIC QUESTION MARK
-٪		%	%		%	%	percent mark					U+066A: ARABIC PERCENT SIGN
+ِ		i	i	i		i	vowel			kasrah	كَسْرَة	U+0650: ARABIC KASRA​
+ٍ		i	iⁿ	in		iⁿ	vowel			kasratān		U+064D: ARABIC KASRATAN​
+ُ		u	u	u		u	vowel			ḍammah	ضَمَّة	U+064F: ARABIC DAMMA​
+ٌ		u	uⁿ	un		uⁿ	vowel			ḍammatān		U+064C: ARABIC DAMMATAN​
+َ		a	a	a		a	vowel			fatḥah	فَتْحَة	U+064E: ARABIC FATHA​
+ً		a	aⁿ	an		aⁿ	vowel			fatḥatān		U+064B: ARABIC FATHATAN​
+ّ		w	ᵚ			ᵚ	gemination mark			shaddah	شَدَّة	U+0651: ARABIC SHADDA​
+ْ		*	°			̊	vowel absence marker			sukūn	سُكُون	U+0652: ARABIC SUKUN​
+ٰ		[	̍	aː		̍	vowel			alīf khanjariyyah	أَلِيف خَنْجَرِيَّة	U+0670: ARABIC LETTER SUPERSCRIPT ALEF​
+ٔ		[	ʿ	ʾ		͗						U+0654: ARABIC HAMZA ABOVE​
+ٕ		[	˓	ʾ		̹						U+0655: ARABIC HAMZA BELOW​
+												
+												
+ـ		_	_			_	baseline extender	infrequent		tatweel		U+0640: ARABIC TATWEEL
+،		,	,	,		,	comma					U+060C: ARABIC COMMA
+۔		.	.	.		.	full stop	infrequent				U+06D4: ARABIC FULL STOP
+؛		;	;	;		;	semi-colon					U+061B: ARABIC SEMICOLON
+؟		?	?	?		?	question mark					U+061F: ARABIC QUESTION MARK
+٪		%	%	%		%	percent mark					U+066A: ARABIC PERCENT SIGN
 ٫		[					decimal separator	infrequent				U+066B: ARABIC DECIMAL SEPARATOR
 ٬		[					thousands separator	infrequent				U+066C: ARABIC THOUSANDS SEPARATOR
 												
 												
-٠		§	0		0		digit				٠	U+0660: ARABIC-INDIC DIGIT ZERO
-١		§	1		1	1	digit		wɑːħid	وَاحِد	١	U+0661: ARABIC-INDIC DIGIT ONE
-٢		§	2		2	2	digit		ʔiθnain	اِثْنَين	٢	U+0662: ARABIC-INDIC DIGIT TWO
-٣		§	3		3	3	digit		θɑlɑːθɑ	ثَلَاثَة	٣	U+0663: ARABIC-INDIC DIGIT THREE
-٤		§	4		4	4	digit		ʔɑrbɑʕɑ	أَربَعَة	٤	U+0664: ARABIC-INDIC DIGIT FOUR
-٥		§	5		5	5	digit		xɑmsɑ	خَمْسَة	٥	U+0665: ARABIC-INDIC DIGIT FIVE
-٦		§	6		6	6	digit		sittɑ	سِتَّة	٦	U+0666: ARABIC-INDIC DIGIT SIX
-٧		§	7		7	7	digit		sɑbʕɑ	سَبْعَة	٧	U+0667: ARABIC-INDIC DIGIT SEVEN
-٨		§	8		8	8	digit		θɑmɑːnjɑ	ثَمَانيَة	٨	U+0668: ARABIC-INDIC DIGIT EIGHT
-٩		§	9		9	9	digit		tisʕɑ	تِسْعَة	٩	U+0669: ARABIC-INDIC DIGIT NINE
+٠		§	0			0	digit		٠			U+0660: ARABIC-INDIC DIGIT ZERO
+١		§	1	1		1	digit		١	wɑːħid	وَاحِد	U+0661: ARABIC-INDIC DIGIT ONE
+٢		§	2	2		2	digit		٢	ʔiθnain	اِثْنَين	U+0662: ARABIC-INDIC DIGIT TWO
+٣		§	3	3		3	digit		٣	θɑlɑːθɑ	ثَلَاثَة	U+0663: ARABIC-INDIC DIGIT THREE
+٤		§	4	4		4	digit		٤	ʔɑrbɑʕɑ	أَربَعَة	U+0664: ARABIC-INDIC DIGIT FOUR
+٥		§	5	5		5	digit		٥	xɑmsɑ	خَمْسَة	U+0665: ARABIC-INDIC DIGIT FIVE
+٦		§	6	6		6	digit		٦	sittɑ	سِتَّة	U+0666: ARABIC-INDIC DIGIT SIX
+٧		§	7	7		7	digit		٧	sɑbʕɑ	سَبْعَة	U+0667: ARABIC-INDIC DIGIT SEVEN
+٨		§	8	8		8	digit		٨	θɑmɑːnjɑ	ثَمَانيَة	U+0668: ARABIC-INDIC DIGIT EIGHT
+٩		§	9	9		9	digit		٩	tisʕɑ	تِسْعَة	U+0669: ARABIC-INDIC DIGIT NINE
 												
 												
 												
@@ -104,6 +104,7 @@ var spreadsheet = `
 اللّٰه	s		Allāh					infrequent				U+0627 U+0644 U+0644 U+0651 U+0670 U+0647: ARABIC LETTER ALEF, LAM, LAM, SHADDA, SUPERSCRIPT ALEF, HEH
 
 
+
 `
 
 
@@ -112,9 +113,9 @@ var cols = {
 "class": 1,
 "key":2,
 "transLoc": 3,
-"transckey": 4,
-"transcription":5,
-"ipaLoc": 6,
+"ipaLoc": 4,
+"transckey": 5,
+"transcription":6,
 "typeLoc": 7,
 "statusLoc": 8,
 "dvowel": 0,
@@ -126,12 +127,12 @@ var cols = {
 "uc":0,
 "meaning":0,
 "shape": 9,
+"numLoc": 0,
 "nameLoc": 10,
 "nnameLoc": 11,
-"numLoc": 0,
 "ucsName": 12,
 
-"othertranscriptions": [[3, 'ULY'], [4, 'USY']]
+"othertranscriptions": [[6, 'LOC']]
 }
 
 
