@@ -140,7 +140,7 @@ a	a	Low front vowel unrounded	U+0061: LATIN SMALL LETTER A
 ω	w	Prosodic word	U+03C9: GREEK SMALL LETTER OMEGA
 σ	o	Syllable	U+03C3: GREEK SMALL LETTER SIGMA
 μ	u	Mora	U+03BC: GREEK SMALL LETTER MU
-ʍ	m	Voiceless labial velar plosive	U+028D: LATIN SMALL LETTER TURNED W
+ʍ	m	Voiceless labial velar approximant	U+028D: LATIN SMALL LETTER TURNED W
 w	w	Voiced labial velar approximant	U+0077: LATIN SMALL LETTER W
 ɥ	u	Voiced labial palatal approximant	U+0265: LATIN SMALL LETTER TURNED H
 ʜ	h	Voiceless epiglottal fricative	U+029C: LATIN LETTER SMALL CAPITAL H
