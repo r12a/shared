@@ -7,7 +7,7 @@ d	d	Voiced dental plosive	U+0064: LATIN SMALL LETTER D
 ɖ	d	Voiced retroflex plosive	U+0256: LATIN SMALL LETTER D WITH TAIL
 c	c	Unvoiced palatal plosive	U+0063: LATIN SMALL LETTER C
 ɟ	j	Voiced palatal plosive	U+025F: LATIN SMALL LETTER DOTLESS J WITH STROKE
-k	key	Unvoiced velar plosive	U+006B: LATIN SMALL LETTER K
+k	k	Unvoiced velar plosive	U+006B: LATIN SMALL LETTER K
 ɡ	g	Voiced velar plosive	U+0261: LATIN SMALL LETTER SCRIPT G
 q	q	Unvoiced uvular plosive	U+0071: LATIN SMALL LETTER Q
 ɢ	g	Voiced uvular plosive	U+0262: LATIN LETTER SMALL CAPITAL G
@@ -65,7 +65,7 @@ l	l	Alveolar lateral approximant	U+006C: LATIN SMALL LETTER L
 ɗ	d	Voiced alveolar implosive	U+0257: LATIN SMALL LETTER D WITH HOOK
 ƈ	c	Unvoiced palatal implosive	U+0188: LATIN SMALL LETTER C WITH HOOK
 ʄ	s	Voiced palatal implosive	U+0284: LATIN SMALL LETTER DOTLESS J WITH STROKE AND HOOK
-ƙ	key	Unvoiced velar implosive	U+0199: LATIN SMALL LETTER K WITH HOOK
+ƙ	k	Unvoiced velar implosive	U+0199: LATIN SMALL LETTER K WITH HOOK
 ɠ	g	Voiced velar implosive	U+0260: LATIN SMALL LETTER G WITH HOOK
 ʠ	d	Unvoiced uvular implosive	U+02A0: LATIN SMALL LETTER Q WITH HOOK
 ʛ	g	Voiced uvular implosive	U+029B: LATIN LETTER SMALL CAPITAL G WITH HOOK
@@ -150,12 +150,18 @@ w	w	Voiced labial velar approximant	U+0077: LATIN SMALL LETTER W
 ʑ	z	Voiced alveolo-palatal fricative	U+0291: LATIN SMALL LETTER Z WITH CURL
 ɧ	h	Simultaneous unvoiced postalveolar & velar fricative	U+0267: LATIN SMALL LETTER HENG WITH HOOK
 ɺ	r	Voiced alveolar lateral flap	U+027A: LATIN SMALL LETTER TURNED R WITH LONG LEG
-ʦ	t	Voiceless dental affricate	U+02A6: LATIN SMALL LETTER TS DIGRAPH
-ʣ	d	Voiced dental affricate	U+02A3: LATIN SMALL LETTER DZ DIGRAPH
-ʧ	t	Voiceless postalveolar affricate	U+02A7: LATIN SMALL LETTER TESH DIGRAPH
-ʤ	d	Voiced postalveolar affricate	U+02A4: LATIN SMALL LETTER DEZH DIGRAPH
-ʨ	t	Voiceless alveolo-palatal affricate	U+02A8: LATIN SMALL LETTER TC DIGRAPH WITH CURL
-ʥ	d	Voiced alveolo-palatal affricate	U+02A5: LATIN SMALL LETTER DZ DIGRAPH WITH CURL
+ʦ	t	Voiceless dental affricate	U+02A6: LATIN SMALL LETTER TS DIGRAPH		
+t͡s	t	Voiceless dental affricate	U+0074 U+0361 U+0073: LATIN SMALL LETTER T, COMBINING DOUBLE INVERTED BREVE, LATIN SMALL LETTER S		
+ʣ	d	Voiced dental affricate	U+02A3: LATIN SMALL LETTER DZ DIGRAPH		
+d͡z	d	Voiced dental affricate	U+0064 U+0361 U+007A: LATIN SMALL LETTER D, COMBINING DOUBLE INVERTED BREVE, LATIN SMALL LETTER Z		
+ʧ	t	Voiceless postalveolar affricate	U+02A7: LATIN SMALL LETTER TESH DIGRAPH		
+t͡ʃ	t	Voiceless postalveolar affricate	U+0074 U+0361 U+0283: LATIN SMALL LETTER T, COMBINING DOUBLE INVERTED BREVE, LATIN SMALL LETTER ESH		
+ʤ	d	Voiced postalveolar affricate	U+02A4: LATIN SMALL LETTER DEZH DIGRAPH		
+d͡ʒ	d	Voiced postalveolar affricate	U+0064 U+0361 U+0292: LATIN SMALL LETTER D, COMBINING DOUBLE INVERTED BREVE, LATIN SMALL LETTER EZH		
+ʨ	t	Voiceless alveolo-palatal affricate	U+02A8: LATIN SMALL LETTER TC DIGRAPH WITH CURL		
+t͡ɕ	t	Voiceless alveolo-palatal affricate	U+0074 U+0361 U+0255: LATIN SMALL LETTER T, COMBINING DOUBLE INVERTED BREVE, LATIN SMALL LETTER C WITH CURL		
+ʥ	d	Voiced alveolo-palatal affricate	U+02A5: LATIN SMALL LETTER DZ DIGRAPH WITH CURL		
+d͡ʑ	d	Voiced alveolo-palatal affricate	U+0064 U+0361 U+0291: LATIN SMALL LETTER D, COMBINING DOUBLE INVERTED BREVE, LATIN SMALL LETTER Z WITH CURL		
 ɚ	e	Rhoticised schwa	U+025A: LATIN SMALL LETTER SCHWA WITH HOOK
 ɝ	e	Rhoticised lower mid central vowel	U+025D: LATIN SMALL LETTER REVERSED OPEN E WITH HOOK
 ʼ	[	Ejective diacritic	U+02BC: MODIFIER LETTER APOSTROPHE
@@ -167,9 +173,9 @@ w	w	Voiced labial velar approximant	U+0077: LATIN SMALL LETTER W
 ˠ	y	Velarised diacritic	U+02E0: MODIFIER LETTER SMALL GAMMA
 ʲ	j	Palatalised diacritic	U+02B2: MODIFIER LETTER SMALL J
 ʷ	w	Labialised diacritic	U+02B7: MODIFIER LETTER SMALL W
-/	[	undefined	U+002F: SOLIDUS
-[	[	undefined	U+005B: LEFT SQUARE BRACKET
-]	[	undefined	U+005D: RIGHT SQUARE BRACKET
+/	[	Phonetic marker	U+002F: SOLIDUS
+[	[	Phonemic marker	U+005B: LEFT SQUARE BRACKET
+]	[	Phonemic marker	U+005D: RIGHT SQUARE BRACKET
 ̥	[	Voiceless diacritic	U+0325: COMBINING RING BELOW
 ̊	[	Voiceless diacritic	U+030A: COMBINING RING ABOVE
 ̬	[	Voiced diacritic	U+032C: COMBINING CARON BELOW
@@ -200,7 +206,7 @@ w	w	Voiced labial velar approximant	U+0077: LATIN SMALL LETTER W
 ͊	[	Denasalised diacritic	U+034A: COMBINING NOT TILDE ABOVE
 ͋	[	Nasal emission	U+034B: COMBINING HOMOTHETIC ABOVE
 ̚	[	No audible release diacritic	U+031A: COMBINING LEFT ANGLE ABOVE
-ᵊ	e	undefined	U+1D4A: MODIFIER LETTER SMALL SCHWA
+ᵊ	e	Mid central vowel release	U+1D4A: MODIFIER LETTER SMALL SCHWA
 ͡	[	Upper ligature tie	U+0361: COMBINING DOUBLE INVERTED BREVE
 ͜	[	Lower ligature tie	U+035C: COMBINING DOUBLE BREVE BELOW
 ◌	[	Dotted circle	U+25CC: DOTTED CIRCLE
