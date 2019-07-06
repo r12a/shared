@@ -4,7 +4,7 @@ var spreadsheet = `
 ꦕ		t	ʧ	ʧa ʧɔ	consonant			t	c				ꦕ ꦥ꧀ꦕ				U+A995: JAVANESE LETTER CA
 ꦛ		t	ʈ	ʈa ʈɔ	consonant			t	th				ꦛ ꦥ꧀ꦛ				U+A99B: JAVANESE LETTER TTA
 ꦏ		k	k	ka kɔ	consonant			k	k				ꦏ ꦥ꧀ꦏ				U+A98F: JAVANESE LETTER KA
-ꦐ		q	q	qa qɔ	sasak consonant	sasak		q	q				ꦐ ꦥ꧀ꦐ				U+A990: JAVANESE LETTER KA SASAK
+ꦐ		q	q	qa qɔ	consonant	sasak		q	q				ꦐ ꦥ꧀ꦐ				U+A990: JAVANESE LETTER KA SASAK
 																	
 ꦦ		P	P	pa pɔ	murda consonant			P	P				ꦦ ꦥ꧀ꦦ	ꦥ꧀ꦦ			U+A9A6: JAVANESE LETTER PA MURDA
 ꦡ		T	T	ta tɔ	murda consonant			T	T				ꦡ ꦥ꧀ꦡ				U+A9A1: JAVANESE LETTER TA MURDA
@@ -25,7 +25,7 @@ var spreadsheet = `
 ꦓ		G	G	ɡa gɔ	murda consonant			G	G				ꦓ ꦥ꧀ꦓ				U+A993: JAVANESE LETTER GA MURDA
 																	
 ꦱ		s	s	sa sɔ	consonant			s	s				ꦱ ꦥ꧀ꦱ	ꦥ꧀ꦱ			U+A9B1: JAVANESE LETTER SA
-ꦯ		S	S	sa sɔ	murda consonant	infrequent		S	S				ꦯ ꦥ꧀ꦯ				U+A9AF: JAVANESE LETTER SA MURDA
+ꦯ		S	S	sa sɔ	murda consonant	rare		S	S				ꦯ ꦥ꧀ꦯ				U+A9AF: JAVANESE LETTER SA MURDA
 ꦰ		S	S̱	sa sɔ	mahaprana consonant	infrequent		S	S				ꦰ ꦥ꧀ꦰ	ꦥ꧀ꦰ			U+A9B0: JAVANESE LETTER SA MAHAPRANA
 ꦲ		h	h	h a ∅	consonant			h	h				ꦲ ꦥ꧀ꦲ	ꦥ꧀ꦲ			U+A9B2: JAVANESE LETTER HA
 																	
@@ -43,7 +43,7 @@ var spreadsheet = `
 ꦪ		y	y	ja jɔ	consonant			y	y				ꦪ ꦥ꧀ꦪ				U+A9AA: JAVANESE LETTER YA
 																	
 																	
-ꦲ꦳	s	h	ħ	ħ	consonant	foriegn sound		h	h								U+A9B2 U+A9B3: JAVANESE LETTER HA, JAVANESE SIGN CECAK TELU
+ꦲ꦳	s	h	ħ	ħ	consonant	foriegn sound		h	h								U+A9B2 U+A9B3: JAVANESE LETTER HA, SIGN CECAK TELU
 ꦏ꦳	s	x	x	x	consonant	foriegn sound		x	x								U+A98F U+A9B3: JAVANESE LETTER KA, SIGN CECAK TELU
 ꦢ꦳	s		ð	ð	consonant	foriegn sound			ð								U+A9A2 U+A9B3: JAVANESE LETTER DA, SIGN CECAK TELU
 ꦗ꦳	s		z	z	consonant	foriegn sound			z								U+A997 U+A9B3: JAVANESE LETTER JA, SIGN CECAK TELU
@@ -62,7 +62,7 @@ var spreadsheet = `
 																	
 ꦾ		y	y̆	j	medial consonant			y	y						pengkal		U+A9BE: JAVANESE CONSONANT SIGN PENGKAL​
 ꦿ		y	r̆	r	medial consonant			y	r						cakra		U+A9BF: JAVANESE CONSONANT SIGN CAKRA​
-ꦽ		r	r̥̆	rə	medial consonant			r	re						kere		U+A9BD: JAVANESE CONSONANT SIGN KERET​
+ꦽ		r	r̥̆	rə	medial vocalic			r	re						kere		U+A9BD: JAVANESE CONSONANT SIGN KERET​
 																	
 																	
 ꦀ		m	m̽	m	syllable-final consonant			m	m						panyangga		U+A980: JAVANESE SIGN PANYANGGA​
@@ -73,7 +73,7 @@ var spreadsheet = `
 																	
 ꦆ		I	ị	i	independent vowel			I	i		ꦲꦶ						U+A986: JAVANESE LETTER I
 ꦇ		I	ị̄	i	independent vowel			I	i								U+A987: JAVANESE LETTER II
-ꦅ		I	ị̂	i	kawi independent vowel			I	i								U+A985: JAVANESE LETTER I KAWI
+ꦅ		I	ị̂	i	independent vowel	kawi		I	i								U+A985: JAVANESE LETTER I KAWI
 ꦈ		U	ụ	u	independent vowel			U	u		ꦲꦸ						U+A988: JAVANESE LETTER U
 ꦌ		E	ẹ	e ɛ	independent vowel			E	e		ꦲꦺ						U+A98C: JAVANESE LETTER E
 ꦍ			ẹ̇		independent vowel	archaic			e								U+A98D: JAVANESE LETTER AI
@@ -143,6 +143,58 @@ var spreadsheet = `
 																	
 																	
 ꧋꧆꧋	s				combined punctuation												U+A9CB U+A9C6 U+A9CB: JAVANESE PADA ADEG ADEG, PADA WINDU, PADA ADEG ADEG
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+꧀ꦥ	-	p	p	pa pɔ	consonant			p	p				ꦥ ꦥ꧀ꦥ	ꦥ꧀ꦥ			U+A9C0 U+A9A5: JAVANESE PANGKON, LETTER PA​
+꧀ꦠ	-	t¶	t	ta tɔ	consonant			t¶	t				ꦠ ꦥ꧀ꦠ				U+A9C0 U+A9A0: JAVANESE PANGKON, LETTER TA​
+꧀ꦕ	-	t	ʧ	ʧa ʧɔ	consonant			t	c				ꦕ ꦥ꧀ꦕ				U+A9C0 U+A995: JAVANESE PANGKON, LETTER CA​
+꧀ꦛ	-	t	ʈ	ʈa ʈɔ	consonant			t	th				ꦛ ꦥ꧀ꦛ				U+A9C0 U+A99B: JAVANESE PANGKON, LETTER TTA​
+꧀ꦏ	-	k	k	ka kɔ	consonant			k	k				ꦏ ꦥ꧀ꦏ				U+A9C0 U+A98F: JAVANESE PANGKON, LETTER KA​
+꧀ꦐ	-	q	q	qa qɔ	consonant	sasak		q	q				ꦐ ꦥ꧀ꦐ				U+A9C0 U+A990: JAVANESE PANGKON, LETTER KA SASAK​
+																	
+꧀ꦦ	-	P	P	pa pɔ	murda consonant			P	P				ꦦ ꦥ꧀ꦦ	ꦥ꧀ꦦ			U+A9C0 U+A9A6: JAVANESE PANGKON, LETTER PA MURDA​
+꧀ꦡ	-	T	T	ta tɔ	murda consonant			T	T				ꦡ ꦥ꧀ꦡ				U+A9C0 U+A9A1: JAVANESE PANGKON, LETTER TA MURDA​
+꧀ꦜ	-	T	Ṯ	ʈa ʈɔ	mahaprana consonant	infrequent		T	TH				ꦜ ꦥ꧀ꦜ				U+A9C0 U+A99C: JAVANESE PANGKON, LETTER TTA MAHAPRANA​
+꧀ꦖ	-	C	C	ʧa ʧɔ	murda consonant			C	C				ꦖ ꦥ꧀ꦖ				U+A9C0 U+A996: JAVANESE PANGKON, LETTER CA MURDA​
+꧀ꦑ	-	K	K	ka kɔ	murda consonant			K	K				ꦑ ꦥ꧀ꦑ				U+A9C0 U+A991: JAVANESE PANGKON, LETTER KA MURDA​
+																	
+꧀ꦧ	-	b	b	ba bɔ	consonant			b	b				ꦧ ꦥ꧀ꦧ				U+A9C0 U+A9A7: JAVANESE PANGKON, LETTER BA​
+꧀ꦢ	-	d¶	d	da dɔ	consonant			d¶	d				ꦢ ꦥ꧀ꦢ				U+A9C0 U+A9A2: JAVANESE PANGKON, LETTER DA​
+꧀ꦗ	-	d	ʤ	ʤa ʤɔ	consonant			d	j				ꦗ ꦥ꧀ꦗ				U+A9C0 U+A997: JAVANESE PANGKON, LETTER JA​
+꧀ꦝ	-	d	ɖ	ɖa ɖɔ	consonant			d	dh				ꦝ ꦥ꧀ꦝ				U+A9C0 U+A99D: JAVANESE PANGKON, LETTER DDA​
+꧀ꦒ	-	g	g	ɡa gɔ	consonant			g	g				ꦒ ꦥ꧀ꦒ				U+A9C0 U+A992: JAVANESE PANGKON, LETTER GA​
+																	
+꧀ꦨ	-	B	B	ba bɔ	murda consonant			B	B				ꦨ ꦥ꧀ꦨ				U+A9C0 U+A9A8: JAVANESE PANGKON, LETTER BA MURDA​
+꧀ꦣ	-	D	Ḏ	da dɔ	mahaprana consonant	infrequent		D	D				ꦣ ꦥ꧀ꦣ				U+A9C0 U+A9A3: JAVANESE PANGKON, LETTER DA MAHAPRANA​
+꧀ꦞ	-	D	Ḓ	ɖa ɖɔ	mahaprana consonant	infrequent		D	DH				ꦞ ꦥ꧀ꦞ				U+A9C0 U+A99E: JAVANESE PANGKON, LETTER DDA MAHAPRANA​
+꧀ꦙ	-	J	J̱	ʤa ʤɔ	mahaprana consonant	infrequent		J	J				ꦙ ꦥ꧀ꦙ				U+A9C0 U+A999: JAVANESE PANGKON, LETTER JA MAHAPRANA​
+꧀ꦓ	-	G	G	ɡa gɔ	murda consonant			G	G				ꦓ ꦥ꧀ꦓ				U+A9C0 U+A993: JAVANESE PANGKON, LETTER GA MURDA​
+																	
+꧀ꦱ	-	s	s	sa sɔ	consonant			s	s				ꦱ ꦥ꧀ꦱ	ꦥ꧀ꦱ			U+A9C0 U+A9B1: JAVANESE PANGKON, LETTER SA​
+꧀ꦯ	-	S	S	sa sɔ	murda consonant	rare		S	S				ꦯ ꦥ꧀ꦯ				U+A9C0 U+A9AF: JAVANESE PANGKON, LETTER SA MURDA​
+꧀ꦰ	-	S	S̱	sa sɔ	mahaprana consonant	infrequent		S	S				ꦰ ꦥ꧀ꦰ	ꦥ꧀ꦰ			U+A9C0 U+A9B0: JAVANESE PANGKON, LETTER SA MAHAPRANA​
+꧀ꦲ	-	h	h	h a ∅	consonant			h	h				ꦲ ꦥ꧀ꦲ	ꦥ꧀ꦲ			U+A9C0 U+A9B2: JAVANESE PANGKON, LETTER HA​
+																	
+꧀ꦩ	-	m	m	ma mɔ	consonant			m	m				ꦩ ꦥ꧀ꦩ				U+A9C0 U+A9A9: JAVANESE PANGKON, LETTER MA​
+꧀ꦤ	-	n¶	n	na nɔ	consonant			n¶	n				ꦤ ꦥ꧀ꦤ				U+A9C0 U+A9A4: JAVANESE PANGKON, LETTER NA​
+꧀ꦟ	-	N	N	na nɔ	murda consonant			N	N				ꦟ ꦥ꧀ꦟ				U+A9C0 U+A99F: JAVANESE PANGKON, LETTER NA MURDA​
+꧀ꦚ	-	n	ɲ	ɲa ɲɔ	consonant			n	ny				ꦚ ꦥ꧀ꦚ				U+A9C0 U+A99A: JAVANESE PANGKON, LETTER NYA​
+꧀ꦘ	-	N	Ñ	ɲa ɲɔ	murda consonant			N	NY				ꦘ ꦥ꧀ꦘ				U+A9C0 U+A998: JAVANESE PANGKON, LETTER NYA MURDA​
+꧀ꦔ	-	n	ŋ	ŋa nɔ	consonant			n	ng				ꦔ ꦥ꧀ꦔ				U+A9C0 U+A994: JAVANESE PANGKON, LETTER NGA​
+																	
+꧀ꦮ	-	w	w	wa wɔ	consonant			w	w				ꦮ ꦥ꧀ꦮ				U+A9C0 U+A9AE: JAVANESE PANGKON, LETTER WA​
+꧀ꦫ	-	r	r	ra rɔ	consonant			r	r				ꦫ ꦥ꧀ꦫ				U+A9C0 U+A9AB: JAVANESE PANGKON, LETTER RA​
+꧀ꦬ	-	R	ṙ	ra rɔ	consonant	archaic		R	r				ꦬ ꦥ꧀ꦬ		ra agung		U+A9C0 U+A9AC: JAVANESE PANGKON, LETTER RA AGUNG​
+꧀ꦭ	-	l	l	la lɔ	consonant			l	l				ꦭ ꦥ꧀ꦭ				U+A9C0 U+A9AD: JAVANESE PANGKON, LETTER LA​
+꧀ꦪ	-	y	y	ja jɔ	consonant			y	y				ꦪ ꦥ꧀ꦪ				U+A9C0 U+A9AA: JAVANESE PANGKON, LETTER YA​
+
 
 `
 
