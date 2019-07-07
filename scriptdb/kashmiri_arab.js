@@ -9,13 +9,13 @@ var spreadsheet = `
 ق		k	ḱ			k	consonant			ق ققق	baṛī kāf 		U+0642: ARABIC LETTER QAF
 ع		}	ʔ			ʔ ∅	consonant			ع ععع	ain 		U+0639: ARABIC LETTER AIN
 													
-پھ		P	pʰ			pʰ	consonant			پھ پھپھپھ			U+067E U+06BE: ARABIC LETTER PEH, LETTER HEH DOACHASHMEE
-تھ		T¶	tʰ	T¶	th	tʰ	consonant			تھ تھتھتھ			U+062A U+06BE: ARABIC LETTER TEH, LETTER HEH DOACHASHMEE
-ثھ		T	ʦʰ		ch	t͡sʰ	consonant			ثھ ثھثھثھ			U+062B U+06BE: ARABIC LETTER THEH, LETTER HEH DOACHASHMEE
-ٹھ		T	ʈʰ	T	ṭh	ʈʰ	consonant			ٹھ ٹھٹھٹھ			U+0679 U+06BE: ARABIC LETTER TTEH, LETTER HEH DOACHASHMEE
-چھ		C	ʧʰ	C	čh	ʧʰ	consonant			چھ چھچھچھ			U+0686 U+06BE: ARABIC LETTER TCHEH, LETTER HEH DOACHASHMEE
-کھ		K	kʰ	K	kh	kʰ	consonant			کھ کھکھکھ			U+06A9 U+06BE: ARABIC LETTER KEHEH, LETTER HEH DOACHASHMEE
-خ		K	ḱʰ	K	kh	kʰ	consonant			خ خخخ	khe 		U+062E: ARABIC LETTER KHAH
+پھ		P	pʰ			pʰ	aspirated consonant			پھ پھپھپھ			U+067E U+06BE: ARABIC LETTER PEH, LETTER HEH DOACHASHMEE
+تھ		T¶	tʰ	T¶	th	tʰ	aspirated consonant			تھ تھتھتھ			U+062A U+06BE: ARABIC LETTER TEH, LETTER HEH DOACHASHMEE
+ثھ		T	ʦʰ		ch	t͡sʰ	aspirated consonant			ثھ ثھثھثھ			U+062B U+06BE: ARABIC LETTER THEH, LETTER HEH DOACHASHMEE
+ٹھ		T	ʈʰ	T	ṭh	ʈʰ	aspirated consonant			ٹھ ٹھٹھٹھ			U+0679 U+06BE: ARABIC LETTER TTEH, LETTER HEH DOACHASHMEE
+چھ		C	ʧʰ	C	čh	ʧʰ	aspirated consonant			چھ چھچھچھ			U+0686 U+06BE: ARABIC LETTER TCHEH, LETTER HEH DOACHASHMEE
+کھ		K	kʰ	K	kh	kʰ	aspirated consonant			کھ کھکھکھ			U+06A9 U+06BE: ARABIC LETTER KEHEH, LETTER HEH DOACHASHMEE
+خ		K	ḱʰ	K	kh	kʰ	aspirated consonant			خ خخخ	khe 		U+062E: ARABIC LETTER KHAH
 													
 ب		b	b	b	b	b	consonant			ب ببب	be		U+0628: ARABIC LETTER BEH
 د		d¶	d	d¶	d	d	consonant			د ـد	dāl		U+062F: ARABIC LETTER DAL
@@ -91,9 +91,9 @@ var spreadsheet = `
 													
 													
 													
-ْ	i	*	 °				vowel killer	infrequent					U+0652: ARABIC SUKUN​
-ّ	i	w	ᵚ				gemination marker	infrequent					U+0651: ARABIC SHADDA​
+ْ	i	*	͓				vowel killer	infrequent					U+0652: ARABIC SUKUN​
 ۡ	i		ʿ				jazm vowel killer	infrequent					U+06E1: ARABIC SMALL HIGH DOTLESS HEAD OF KHAH​
+ّ	i	w	˖				gemination marker	infrequent					U+0651: ARABIC SHADDA​
 													
 													
 													
@@ -110,7 +110,7 @@ var spreadsheet = `
 													
 													
 ॐ	-							infrequent					U+0950: DEVANAGARI OM
-ऽ	-		´	\	'		elision marker	infrequent					U+093D: DEVANAGARI SIGN AVAGRAHA
+ऽ	-		ˣ	\	'		elision marker	infrequent					U+093D: DEVANAGARI SIGN AVAGRAHA
 ₹	-		¤				currency symbol	infrequent					U+20B9: INDIAN RUPEE SIGN
 													
 													

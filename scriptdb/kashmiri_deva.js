@@ -98,9 +98,8 @@ var spreadsheet = `
 														
 														
 ॐ	-													U+0950: DEVANAGARI OM
-ऽ	-	\	´			\	'	elision marker						U+093D: DEVANAGARI SIGN AVAGRAHA
-₹	-	±	¤					currency symbol						U+20B9: INDIAN RUPEE SIGN
-														
+ऽ	-	\	ˣ			\	'	elision marker						U+093D: DEVANAGARI SIGN AVAGRAHA
+₹	-	±	¤					currency symbol						U+20B9: INDIAN RUPEE SIGN														
 														
 														
 ्		*	͓			*		virama				halant		U+094D: DEVANAGARI SIGN VIRAMA

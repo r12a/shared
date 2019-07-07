@@ -106,12 +106,12 @@ var spreadsheet = `
 ꧈		,	,		comma/full stop			,							pada lingsa		U+A9C8: JAVANESE PADA LINGSA
 ꧉		.	.		full stop			.							pada lungsi		U+A9C9: JAVANESE PADA LUNGSI
 ꧇		:	:		colon/number indicator			:							pada pangkat		U+A9C7: JAVANESE PADA PANGKAT
-ꧏ		&	²		repetition sign			&							pada rangkep		U+A9CF: JAVANESE PANGRANGKEP
-꧁		#	<ᵗ		title marker			#							rerengan		U+A9C1: JAVANESE LEFT RERENGGAN
-꧂		#	ᵗ>		title marker			#							rerengan		U+A9C2: JAVANESE RIGHT RERENGGAN
-꧅		#	<ʰ		honorific symbol			#							pada luhur		U+A9C5: JAVANESE PADA LUHUR
-꧄		#	[ʰ		honorific symbol			#							pada madya		U+A9C4: JAVANESE PADA MADYA
-꧃		#	{ʰ		honorific symbol			#							pada andap		U+A9C3: JAVANESE PADA ANDAP
+ꧏ		&	&		repetition sign			&							pada rangkep		U+A9CF: JAVANESE PANGRANGKEP
+꧁		#	»		title marker			#							rerengan		U+A9C1: JAVANESE LEFT RERENGGAN
+꧂		#	«		title marker			#							rerengan		U+A9C2: JAVANESE RIGHT RERENGGAN
+꧅		#	§ᵃ		honorific symbol			#							pada luhur		U+A9C5: JAVANESE PADA LUHUR
+꧄		#	§ᵇ		honorific symbol			#							pada madya		U+A9C4: JAVANESE PADA MADYA
+꧃		#	§ᶜ		honorific symbol			#							pada andap		U+A9C3: JAVANESE PADA ANDAP
 ꧞					correction mark	infrequent									pada tirta tumétés		U+A9DE: JAVANESE PADA TIRTA TUMETES
 ꧟					correction mark	infrequent									pada isèn-isèn		U+A9DF: JAVANESE PADA ISEN-ISEN
 ꧆		#	°		punctuation			#							pada windu		U+A9C6: JAVANESE PADA WINDU
