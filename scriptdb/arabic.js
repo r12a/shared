@@ -50,12 +50,12 @@ var spreadsheet = `
 ٌ		u	uⁿ	un			uⁿ	vowel			ḍammatān		U+064C: ARABIC DAMMATAN​
 َ		a	a	a			a	vowel			fatḥah	فَتْحَة	U+064E: ARABIC FATHA​
 ً		a	aⁿ	an			aⁿ	vowel			fatḥatān		U+064B: ARABIC FATHATAN​
-ّ		w	ᵚ				ᵚ	gemination mark			shaddah	شَدَّة	U+0651: ARABIC SHADDA​
-ْ		*	°				̊	vowel absence marker			sukūn	سُكُون	U+0652: ARABIC SUKUN​
+ّ		w	͓				ᵚ	gemination mark			shaddah	شَدَّة	U+0651: ARABIC SHADDA​
+ْ		*	˖				̊	vowel absence marker			sukūn	سُكُون	U+0652: ARABIC SUKUN​
 ٰ		[	̍	aː			̍	vowel			alīf khanjariyyah	أَلِيف خَنْجَرِيَّة	U+0670: ARABIC LETTER SUPERSCRIPT ALEF​
 ٔ		[	ʿ	ʾ			͗						U+0654: ARABIC HAMZA ABOVE​
 ٕ		[	˓	ʾ			̹						U+0655: ARABIC HAMZA BELOW​
-ٓ	o		~					maddah diacritic	used with ا				U+0653: ARABIC MADDAH ABOVE​
+ٓ	o	[	~					maddah diacritic	used with ا				U+0653: ARABIC MADDAH ABOVE​
 													
 													
 ـ		_	_				_	baseline extender	infrequent		tatweel		U+0640: ARABIC TATWEEL
@@ -64,21 +64,23 @@ var spreadsheet = `
 ؛		;	;	;			;	semi-colon					U+061B: ARABIC SEMICOLON
 ؟		?	?	?			?	question mark					U+061F: ARABIC QUESTION MARK
 ٪		%	%	%			%	percent mark					U+066A: ARABIC PERCENT SIGN
-٫		[						decimal separator	infrequent				U+066B: ARABIC DECIMAL SEPARATOR
-٬		[						thousands separator	infrequent				U+066C: ARABIC THOUSANDS SEPARATOR
-٭								punctuation	infrequent				U+066D: ARABIC FIVE POINTED STAR
+٫		[	·					decimal separator	infrequent				U+066B: ARABIC DECIMAL SEPARATOR
+٬		[	‛					thousands separator	infrequent				U+066C: ARABIC THOUSANDS SEPARATOR
+٭		[	*					punctuation	infrequent				U+066D: ARABIC FIVE POINTED STAR
+«		"	 “					quotation mark					U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
+»		"	”					quotation mark					U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK
 													
 													
-٠		§	0				0	digit		٠			U+0660: ARABIC-INDIC DIGIT ZERO
-١		§	1	1			1	digit		١	wɑːħid	وَاحِد	U+0661: ARABIC-INDIC DIGIT ONE
-٢		§	2	2			2	digit		٢	ʔiθnain	اِثْنَين	U+0662: ARABIC-INDIC DIGIT TWO
-٣		§	3	3			3	digit		٣	θɑlɑːθɑ	ثَلَاثَة	U+0663: ARABIC-INDIC DIGIT THREE
-٤		§	4	4			4	digit		٤	ʔɑrbɑʕɑ	أَربَعَة	U+0664: ARABIC-INDIC DIGIT FOUR
-٥		§	5	5			5	digit		٥	xɑmsɑ	خَمْسَة	U+0665: ARABIC-INDIC DIGIT FIVE
-٦		§	6	6			6	digit		٦	sittɑ	سِتَّة	U+0666: ARABIC-INDIC DIGIT SIX
-٧		§	7	7			7	digit		٧	sɑbʕɑ	سَبْعَة	U+0667: ARABIC-INDIC DIGIT SEVEN
-٨		§	8	8			8	digit		٨	θɑmɑːnjɑ	ثَمَانيَة	U+0668: ARABIC-INDIC DIGIT EIGHT
-٩		§	9	9			9	digit		٩	tisʕɑ	تِسْعَة	U+0669: ARABIC-INDIC DIGIT NINE
+٠		#	0				0	digit		٠			U+0660: ARABIC-INDIC DIGIT ZERO
+١		#	1	1			1	digit		١	wɑːħid	وَاحِد	U+0661: ARABIC-INDIC DIGIT ONE
+٢		#	2	2			2	digit		٢	ʔiθnain	اِثْنَين	U+0662: ARABIC-INDIC DIGIT TWO
+٣		#	3	3			3	digit		٣	θɑlɑːθɑ	ثَلَاثَة	U+0663: ARABIC-INDIC DIGIT THREE
+٤		#	4	4			4	digit		٤	ʔɑrbɑʕɑ	أَربَعَة	U+0664: ARABIC-INDIC DIGIT FOUR
+٥		#	5	5			5	digit		٥	xɑmsɑ	خَمْسَة	U+0665: ARABIC-INDIC DIGIT FIVE
+٦		#	6	6			6	digit		٦	sittɑ	سِتَّة	U+0666: ARABIC-INDIC DIGIT SIX
+٧		#	7	7			7	digit		٧	sɑbʕɑ	سَبْعَة	U+0667: ARABIC-INDIC DIGIT SEVEN
+٨		#	8	8			8	digit		٨	θɑmɑːnjɑ	ثَمَانيَة	U+0668: ARABIC-INDIC DIGIT EIGHT
+٩		#	9	9			9	digit		٩	tisʕɑ	تِسْعَة	U+0669: ARABIC-INDIC DIGIT NINE
 													
 													
 													
