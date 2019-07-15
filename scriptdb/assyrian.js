@@ -156,28 +156,25 @@ var spreadsheet = `
 														
 ܘܿ	s	o	ô	u	o	o	ô	rwiha						U+0718 U+073F: SYRIAC LETTER WAW, RWAHA
 
-
 `
-
-
-
 
 var cols = {
 "class": 1,
 "key":2,
 "transLoc": 3,
 "ipaLoc": 4,
-"transckey": 5,
-"transcription":7,
+"transckey": 0,
+"transcription":0,
 "typeLoc": 8,
 "statusLoc": 9,
+"equiv": 0,
 "dvowel": 0,
 "ivowel": 0,
 "subj":0,
 "ltone":0,
 "htone":0,
-"lc":0,
-"uc":0,
+"lc":10,
+"uc":11,
 "meaning":0,
 "shape": 10,
 "numLoc": 11,
@@ -185,6 +182,6 @@ var cols = {
 "nnameLoc": 13,
 "ucsName": 14,
 
-"othertranscriptions": [[7, 'Transcription']]
+//"othertranscriptions": [[6, 'ISO 9985']]
 }
 

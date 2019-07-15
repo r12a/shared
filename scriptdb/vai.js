@@ -326,12 +326,12 @@ var spreadsheet = `
 var cols = {
 "class": 1,
 "key":0,
-"transLoc": 3,
-"ipaLoc": 4,
+"transLoc": 2,
+"ipaLoc": 3,
 "transckey": 0,
 "transcription":0,
-"typeLoc": 5,
-"statusLoc": 6,
+"typeLoc": 4,
+"statusLoc": 5,
 "dvowel": 0,
 "ivowel": 0,
 "subj":0,
@@ -339,12 +339,12 @@ var cols = {
 "htone":0,
 "lc":0,
 "uc":0,
-"meaning":7,
+"meaning":6,
 "shape": 0,
 "numLoc": 0,
 "nameLoc": 0,
 "nnameLoc": 0,
-"ucsName": 9,
+"ucsName": 8,
 
 //"othertranscriptions": [[6, 'ISO 9985']]
 }
