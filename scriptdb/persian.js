@@ -1,43 +1,43 @@
 var spreadsheet = `
-ء		}	ʔ	ʔ	’	consonant			hamza	همزه	U+0621: ARABIC LETTER HAMZA
-أ		a	ɑ͑	x	’	consonant					U+0623: ARABIC LETTER ALEF WITH HAMZA ABOVE
-ا		a	ɑ	ʔ ɔ æ -	ā a o e	consonant+vowel			ʾalef	الف	U+0627: ARABIC LETTER ALEF
-آ		a	ɑ̄	x	ā	vowel					U+0622: ARABIC LETTER ALEF WITH MADDA ABOVE
-ب		b	b	b	b	consonant			be	بِ	U+0628: ARABIC LETTER BEH
-پ		p	p	p	p	consonant			pe	پِ	U+067E: ARABIC LETTER PEH
-ت		t	t	t	t	consonant			te	تِ	U+062A: ARABIC LETTER TEH
-ث		s	ṡ	s̱	s	consonant			se	ثِ	U+062B: ARABIC LETTER THEH
-ج		D	ʤ	ʤ	j	consonant			jim	جیم	U+062C: ARABIC LETTER JEEM
-چ		c	č	ʧ	č	consonant			če	چِ	U+0686: ARABIC LETTER TCHEH
-ح		h	ħ	h -	h	consonant			he	حِ	U+062D: ARABIC LETTER HAH
-خ		x	x	x	x	consonant			xe	خِ	U+062E: ARABIC LETTER KHAH
-د		d	d	d	d	consonant			dāl	دال	U+062F: ARABIC LETTER DAL
-ذ		z	ż	z	z	consonant			zāl	ذال	U+0630: ARABIC LETTER THAL
-ر		r	r	r	r	consonant			re	رِ	U+0631: ARABIC LETTER REH
-ز		z¶	z	z	z	consonant			ze	زِ	U+0632: ARABIC LETTER ZAIN
-ژ		z	ʒ	ʒ	ž	consonant			že	ژِ	U+0698: ARABIC LETTER JEH
-س		s¶	s	s	s	consonant			sin	سین	U+0633: ARABIC LETTER SEEN
-ش		s	ʃ	ʃ	š	consonant			šin	شین	U+0634: ARABIC LETTER SHEEN
-ص		s	ŝ	s	s	consonant			sād	صاد	U+0635: ARABIC LETTER SAD
-ض		z	ẑ	z	z	consonant			zād	ضاد	U+0636: ARABIC LETTER DAD
-ط		t	t̂	t	t	consonant			ṭā	طی	U+0637: ARABIC LETTER TAH
-ظ		z	ž	z	z	consonant			ẓā	ظی	U+0638: ARABIC LETTER ZAH
-ع		{	ʔ̇	ʔ -	a ’	consonant			ʿeyn	عین	U+0639: ARABIC LETTER AIN
-غ		y	ɣ	ɣ	q check this	consonant			ġeyn	غین	U+063A: ARABIC LETTER GHAIN
-ف		f	f	f	f	consonant			fe	فِ	U+0641: ARABIC LETTER FEH
-ق		q	q	q ɢ	q	consonant			qāf	قاف	U+0642: ARABIC LETTER QAF
-ک		k	k	k	k	consonant			kāf	کاف	U+06A9: ARABIC LETTER KEHEH
+ء		}	ʔ	ʔ	’	consonant		ء	hamza	همزه	U+0621: ARABIC LETTER HAMZA
+أ		a	ɑ͑	x	’	consonant		أ ـأ			U+0623: ARABIC LETTER ALEF WITH HAMZA ABOVE
+ا		a	ɑ	ʔ ɔ æ -	ā a o e	consonant+vowel		ا ـا	ʾalef	الف	U+0627: ARABIC LETTER ALEF
+آ		a	ɑ̄	x	ā	vowel		آ ـآ			U+0622: ARABIC LETTER ALEF WITH MADDA ABOVE
+ب		b	b	b	b	consonant		ب ببب	be	بِ	U+0628: ARABIC LETTER BEH
+پ		p	p	p	p	consonant		پ پپپ	pe	پِ	U+067E: ARABIC LETTER PEH
+ت		t	t	t	t	consonant		ت تتت	te	تِ	U+062A: ARABIC LETTER TEH
+ث		s	ṡ	s̱	s	consonant		ث ثثث	se	ثِ	U+062B: ARABIC LETTER THEH
+ج		D	ʤ	ʤ	j	consonant		ج ججج	jim	جیم	U+062C: ARABIC LETTER JEEM
+چ		c	č	ʧ	č	consonant		چ چچچ	če	چِ	U+0686: ARABIC LETTER TCHEH
+ح		h	ħ	h -	h	consonant		ح ححح	he	حِ	U+062D: ARABIC LETTER HAH
+خ		x	x	x	x	consonant		خ خخخ	xe	خِ	U+062E: ARABIC LETTER KHAH
+د		d	d	d	d	consonant		د ـد	dāl	دال	U+062F: ARABIC LETTER DAL
+ذ		z	ż	z	z	consonant		ذ ـذ	zāl	ذال	U+0630: ARABIC LETTER THAL
+ر		r	r	r	r	consonant		ر ـر	re	رِ	U+0631: ARABIC LETTER REH
+ز		z¶	z	z	z	consonant		ز ـز	ze	زِ	U+0632: ARABIC LETTER ZAIN
+ژ		z	ʒ	ʒ	ž	consonant		ژ ـژ	že	ژِ	U+0698: ARABIC LETTER JEH
+س		s¶	s	s	s	consonant		س سسس	sin	سین	U+0633: ARABIC LETTER SEEN
+ش		s	ʃ	ʃ	š	consonant		ش ششش	šin	شین	U+0634: ARABIC LETTER SHEEN
+ص		s	ŝ	s	s	consonant		ص صصص	sād	صاد	U+0635: ARABIC LETTER SAD
+ض		z	ẑ	z	z	consonant		ض ضضض	zād	ضاد	U+0636: ARABIC LETTER DAD
+ط		t	t̂	t	t	consonant		ط ططط	ṭā	طی	U+0637: ARABIC LETTER TAH
+ظ		z	ž	z	z	consonant		ظ ظظظ	ẓā	ظی	U+0638: ARABIC LETTER ZAH
+ع		{	ʔ̇	ʔ -	a ’	consonant		ع ععع	ʿeyn	عین	U+0639: ARABIC LETTER AIN
+غ		y	ɣ	ɣ	q check this	consonant		ع ععع	ġeyn	غین	U+063A: ARABIC LETTER GHAIN
+ف		f	f	f	f	consonant		ف ففف	fe	فِ	U+0641: ARABIC LETTER FEH
+ق		q	q	q ɢ	q	consonant		ق ققق	qāf	قاف	U+0642: ARABIC LETTER QAF
+ک		k	k	k	k	consonant		ک ککک	kāf	کاف	U+06A9: ARABIC LETTER KEHEH
 گ		g	g	g	g	consonant		گ گگگ	ɡāf	گاف	U+06AF: ARABIC LETTER GAF
-ل		l	l	l	l	consonant			lām	لام	U+0644: ARABIC LETTER LAM
-م		m	m	m	m	consonant			mim	میم	U+0645: ARABIC LETTER MEEM
-ن		n	n	n	n	consonant			nun	نون	U+0646: ARABIC LETTER NOON
-و		v	v	v u o ow -	v u	consonant+vowel			vāv	واو	U+0648: ARABIC LETTER WAW
-ه		h¶	h	h - ɛ æ e	h e	consonant			he do-češm	هِ	U+0647: ARABIC LETTER HEH
-ی		y¶	y	j i ɒː aj	y i	consonant+vowel			ye	یِ	U+06CC: ARABIC LETTER FARSI YEH
-ة		t	ẗ	h - ɛ æ		consonant+vowel					U+0629: ARABIC LETTER TEH MARBUTA
-ؤ		w	w͑	ʔ	’	consonant					U+0624: ARABIC LETTER WAW WITH HAMZA ABOVE
-ئ		y	y͑	ʔ	’	consonant					U+0626: ARABIC LETTER YEH WITH HAMZA ABOVE
-ۀ		h	h͑	ej	ye	vowel			he ye		U+06C0: ARABIC LETTER HEH WITH YEH ABOVE
+ل		l	l	l	l	consonant		ل للل	lām	لام	U+0644: ARABIC LETTER LAM
+م		m	m	m	m	consonant		م ممم	mim	میم	U+0645: ARABIC LETTER MEEM
+ن		n	n	n	n	consonant		ن ننن	nun	نون	U+0646: ARABIC LETTER NOON
+و		v	v	v u o ow -	v u	consonant+vowel		و ـو	vāv	واو	U+0648: ARABIC LETTER WAW
+ه		h¶	h	h - ɛ æ e	h e	consonant		ه ههه	he do-češm	هِ	U+0647: ARABIC LETTER HEH
+ی		y¶	y	j i ɒː aj	y i	consonant+vowel		ی ییی	ye	یِ	U+06CC: ARABIC LETTER FARSI YEH
+ة		t	ẗ	h - ɛ æ		consonant+vowel		ة ـة			U+0629: ARABIC LETTER TEH MARBUTA
+ؤ		w	w͑	ʔ	’	consonant		ؤ ـؤ			U+0624: ARABIC LETTER WAW WITH HAMZA ABOVE
+ئ		y	y͑	ʔ	’	consonant		ئ ئئئ			U+0626: ARABIC LETTER YEH WITH HAMZA ABOVE
+ۀ		h	h͑	ej	ye	vowel		ۀ ۀۀۀ	he ye		U+06C0: ARABIC LETTER HEH WITH YEH ABOVE
 											
 											
 َ		A	a	a		vowel			zebar	زِبَر	U+064E: ARABIC FATHA​

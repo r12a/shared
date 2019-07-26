@@ -1,36 +1,36 @@
 var spreadsheet = `
-ܐ		}	ʾ	ʔ ɑ	} a	ʔ	ʾ ȃ	consonant			1	ʾālap̄	ܐܠܦ	U+0710: SYRIAC LETTER ALAPH
-ܒ		b	b	b v w	b	b	b ḇ	consonant			2	bēṯ	ܒܝܬ	U+0712: SYRIAC LETTER BETH
-ܓ		g	g	ɡ ɣ	g	g	g ḡ ǧ	consonant			3	gāmal	ܓܡܠ	U+0713: SYRIAC LETTER GAMAL
-ܕ		d	d	d ð	d	d	d ḏ	consonant			4	dālaṯ	ܕܠܬ	U+0715: SYRIAC LETTER DALATH
-ܗ		h	h	h	h	h	h	consonant			5	hē	ܗܐ	U+0717: SYRIAC LETTER HE
-ܘ		w	w	w u o	w	w	w û ô	consonant			6	waw	ܘܘ	U+0718: SYRIAC LETTER WAW
-ܙ		z	z	z ʒ	z	z	z ž	consonant			7	zayn	ܙܝܢ	U+0719: SYRIAC LETTER ZAIN
-ܚ		h	ħ	ħ x χ	h	ħ	ḥ	consonant			8	ḥēṯ	ܚܝܬ	U+071A: SYRIAC LETTER HETH
-ܛ		t	tˤ	tˤ	t	tˤ	ṭ	consonant			9	ṭēṯ	ܛܝܬ	U+071B: SYRIAC LETTER TETH
-ܝ		y	y	j i e	y	j	y î	consonant/mater lectionis			10	yōḏ	ܝܘܕ	U+071D: SYRIAC LETTER YUDH
-ܟ		k	k	k x ʧ	k	k	k ḵ č	consonant			20	kāp̄	ܟܦ	U+071F: SYRIAC LETTER KAPH
-ܠ		l	l	l	l	l	l	consonant			30	lāmaḏ	ܠܡܕ	U+0720: SYRIAC LETTER LAMADH
-ܡ		m	m	m	m	m	m	consonant			40	mīm	ܡܝܡ	U+0721: SYRIAC LETTER MIM
-ܢ		n	n	n	n	n	n	consonant			50	nūn	ܢܘܢ	U+0722: SYRIAC LETTER NUN
-ܣ		s	s	s	s	s	s	consonant			60	semkaṯ	ܣܡܟܬ	U+0723: SYRIAC LETTER SEMKATH
-ܥ		{	ʿ	ʕ	{	ʕ	ʿ	consonant			70	ʿē	ܥܐ	U+0725: SYRIAC LETTER E
-ܦ		p	p	p f w	p	p	p p̄	consonant			80	pē	ܦܐ	U+0726: SYRIAC LETTER PE
-ܨ		s	sˤ	sˤ	s	sˤ	ṣ	consonant			90	ṣāḏē	ܨܕܐ	U+0728: SYRIAC LETTER SADHE
-ܩ		q	q	q	q	q	q	consonant			100	qōp̄	ܩܘܦ	U+0729: SYRIAC LETTER QAPH
-ܪ		r	r	r	r	r	r	consonant			200	rēš	ܪܝܫ	U+072A: SYRIAC LETTER RISH
-ܫ		s	ʃ	ʃ ʒ	s	ʃ 	š ẑ	consonant			300	šīn	ܫܝܢ	U+072B: SYRIAC LETTER SHIN
-ܬ		t	t	t θ	t	t	t ṯ	consonant			400	taw	ܬܘ	U+072C: SYRIAC LETTER TAW
+ܐ		}	ʾ	ʔ ɑ	} a	ʔ	ʾ ȃ	consonant		ܐ ـܐ	1	ʾālap̄	ܐܠܦ	U+0710: SYRIAC LETTER ALAPH
+ܒ		b	b	b v w	b	b	b ḇ	consonant		ܒ ܒܒܒ	2	bēṯ	ܒܝܬ	U+0712: SYRIAC LETTER BETH
+ܓ		g	g	ɡ ɣ	g	g	g ḡ ǧ	consonant		ܓ ܓܓܓ	3	gāmal	ܓܡܠ	U+0713: SYRIAC LETTER GAMAL
+ܕ		d	d	d ð	d	d	d ḏ	consonant		ܕ ـܕ	4	dālaṯ	ܕܠܬ	U+0715: SYRIAC LETTER DALATH
+ܗ		h	h	h	h	h	h	consonant		ܗ ـܗ	5	hē	ܗܐ	U+0717: SYRIAC LETTER HE
+ܘ		w	w	w u o	w	w	w û ô	consonant		ܘ ـܘ	6	waw	ܘܘ	U+0718: SYRIAC LETTER WAW
+ܙ		z	z	z ʒ	z	z	z ž	consonant		ܙ ـܙ	7	zayn	ܙܝܢ	U+0719: SYRIAC LETTER ZAIN
+ܚ		h	ħ	ħ x χ	h	ħ	ḥ	consonant		ܚ ܚܚܚ	8	ḥēṯ	ܚܝܬ	U+071A: SYRIAC LETTER HETH
+ܛ		t	tˤ	tˤ	t	tˤ	ṭ	consonant		ܛ ܛܛܛ	9	ṭēṯ	ܛܝܬ	U+071B: SYRIAC LETTER TETH
+ܝ		y	y	j i e	y	j	y î	consonant/mater lectionis		ܝ ܝܝܝ	10	yōḏ	ܝܘܕ	U+071D: SYRIAC LETTER YUDH
+ܟ		k	k	k x ʧ	k	k	k ḵ č	consonant		ܟ ܟܟܟ	20	kāp̄	ܟܦ	U+071F: SYRIAC LETTER KAPH
+ܠ		l	l	l	l	l	l	consonant		ܠ ܠܠܠ	30	lāmaḏ	ܠܡܕ	U+0720: SYRIAC LETTER LAMADH
+ܡ		m	m	m	m	m	m	consonant		ܡ ܡܡܡ	40	mīm	ܡܝܡ	U+0721: SYRIAC LETTER MIM
+ܢ		n	n	n	n	n	n	consonant		ܢ ܢܢܢ	50	nūn	ܢܘܢ	U+0722: SYRIAC LETTER NUN
+ܣ		s	s	s	s	s	s	consonant		ܣ ܣܣܣ	60	semkaṯ	ܣܡܟܬ	U+0723: SYRIAC LETTER SEMKATH
+ܥ		{	ʿ	ʕ	{	ʕ	ʿ	consonant		ܥ ܥܥܥ	70	ʿē	ܥܐ	U+0725: SYRIAC LETTER E
+ܦ		p	p	p f w	p	p	p p̄	consonant		ܦ ܦܦܦ	80	pē	ܦܐ	U+0726: SYRIAC LETTER PE
+ܨ		s	sˤ	sˤ	s	sˤ	ṣ	consonant		ܨ ـܨ	90	ṣāḏē	ܨܕܐ	U+0728: SYRIAC LETTER SADHE
+ܩ		q	q	q	q	q	q	consonant		ܩ ܩܩܩ	100	qōp̄	ܩܘܦ	U+0729: SYRIAC LETTER QAPH
+ܪ		r	r	r	r	r	r	consonant		ܪ ـܪ	200	rēš	ܪܝܫ	U+072A: SYRIAC LETTER RISH
+ܫ		s	ʃ	ʃ ʒ	s	ʃ 	š ẑ	consonant		ܫ ܫܫܫ	300	šīn	ܫܝܢ	U+072B: SYRIAC LETTER SHIN
+ܬ		t	t	t θ	t	t	t ṯ	consonant		ܬ ܬܬܬ	400	taw	ܬܘ	U+072C: SYRIAC LETTER TAW
 														
 														
-ܖ			ḋ	d ð		d	d ḏ	alternative consonant				dālaṯ rish		U+0716: SYRIAC LETTER DOTLESS DALATH RISH
-ܞ		j	jʰ		j	jʰ	jh	ligature						U+071E: SYRIAC LETTER YUDH HE
-ܤ		s	ṡ		s	ṡ	s	consonant						U+0724: SYRIAC LETTER FINAL SEMKATH
-ܧ		p	ṗ			p	p	consonant						U+0727: SYRIAC LETTER REVERSED PE
+ܖ			ḋ	d ð		d	d ḏ	alternative consonant		ܖ ـܖ		dālaṯ rish		U+0716: SYRIAC LETTER DOTLESS DALATH RISH
+ܞ		j	jʰ		j	jʰ	jh	ligature		ܞ ـܞ				U+071E: SYRIAC LETTER YUDH HE
+ܤ		s	ṡ		s	ṡ	s	consonant		ܤ ܤܤܤ				U+0724: SYRIAC LETTER FINAL SEMKATH
+ܧ		p	ṗ			p	p	consonant		ܧ ܧܧܧ				U+0727: SYRIAC LETTER REVERSED PE
 														
 														
-ܔ								garshuni letter						U+0714: SYRIAC LETTER GAMAL GARSHUNI
-ܜ								garshuni letter						U+071C: SYRIAC LETTER TETH GARSHUNI
+ܔ								garshuni letter		ܔ ܔܔܔ				U+0714: SYRIAC LETTER GAMAL GARSHUNI
+ܜ								garshuni letter		ܜ ܜܜܜ				U+071C: SYRIAC LETTER TETH GARSHUNI
 ً								arabic diacritic						U+064B: ARABIC FATHATAN​
 ٌ								arabic diacritic						U+064C: ARABIC DAMMATAN​
 ٍ								arabic diacritic						U+064D: ARABIC KASRATAN​
@@ -45,14 +45,14 @@ var spreadsheet = `
 ٓ								arabic diacritic						U+0653: ARABIC MADDAH ABOVE​
 														
 														
-ܭ				v		v		consonant						U+072D: SYRIAC LETTER PERSIAN BHETH
-ܮ				ɣ		ɣ		consonant						U+072E: SYRIAC LETTER PERSIAN GHAMAL
-ܯ				ð		ð		consonant						U+072F: SYRIAC LETTER PERSIAN DHALATH
+ܭ				v		v		consonant		ܭ ܭܭܭ				U+072D: SYRIAC LETTER PERSIAN BHETH
+ܮ				ɣ		ɣ		consonant		ܮ ܮܮܮ				U+072E: SYRIAC LETTER PERSIAN GHAMAL
+ܯ				ð		ð		consonant		ܯ ܯܯܯ				U+072F: SYRIAC LETTER PERSIAN DHALATH
 														
 														
-ݍ				ʒ		ʒ		consonant						U+074D: SYRIAC LETTER SOGDIAN ZHAIN
-ݎ				x		x		consonant						U+074E: SYRIAC LETTER SOGDIAN KHAPH
-ݏ				f		f		consonant						U+074F: SYRIAC LETTER SOGDIAN FE
+ݍ				ʒ		ʒ		consonant		ݍ ݍݍݍ				U+074D: SYRIAC LETTER SOGDIAN ZHAIN
+ݎ				x		x		consonant		ݎ ݎݎݎ				U+074E: SYRIAC LETTER SOGDIAN KHAPH
+ݏ				f		f		consonant		ݏ ݏݏݏ				U+074F: SYRIAC LETTER SOGDIAN FE
 														
 														
 ܲ		a	a	a	a	a	a	vowel diacritic				pṯāḥā	ܦܬ݂ܳܚܳܐ‎	U+0732: SYRIAC PTHAHA DOTTED​
@@ -137,24 +137,25 @@ var spreadsheet = `
 \u0732\u0710\b	s	a	ȃ	a	a	a	ȃ	a-vowel or i-vowel + alaph at end of word						U+0732 U+0710: SYRIAC PTHAHA DOTTED, LETTER ALAPH​
 \u0738\u0710\b	s	i	ɪ	ɪ	i	ɪ	ȋ	a-vowel or i-vowel + alaph at end of word						U+0738 U+0710: SYRIAC DOTTED ZLAMA HORIZONTAL, LETTER ALAPH​
 														
-ܒ݂	s	v	v	v w	v	v	ḇ	rukkakha						U+0712 U+0742: SYRIAC LETTER BETH, RUKKAKHA
-ܓ݂	s	y	ɣ	ɣ	y	ɣ	ḡ	rukkakha						U+0713 U+0742: SYRIAC LETTER GAMAL, RUKKAKHA
-ܕ݂	s	d	ð	ð	d	ð	ḏ	rukkakha						U+0715 U+0742: SYRIAC LETTER DALATH, RUKKAKHA
-ܟ݂	s	x	x	x ʧ	x t	x ʧ	ḵ	rukkakha						U+071F U+0742: SYRIAC LETTER KAPH, RUKKAKHA
-ܦ݂	s	f	f	f	f	f	p̄	rukkakha						U+0726 U+0742: SYRIAC LETTER PE, RUKKAKHA
-ܬ݂	s	q	θ	θ	@	θ	ṯ	rukkakha						U+072C U+0742: SYRIAC LETTER TAW, RUKKAKHA
+ܒ݂	s	v	v	v w	v	v	ḇ	rukkakha		ܒ݂ ܒ݂ܒ݂ܒ݂				U+0712 U+0742: SYRIAC LETTER BETH, RUKKAKHA
+ܓ݂	s	y	ɣ	ɣ	y	ɣ	ḡ	rukkakha		ܓ݂ ܓ݂ܓ݂ܓ݂				U+0713 U+0742: SYRIAC LETTER GAMAL, RUKKAKHA
+ܕ݂	s	d	ð	ð	d	ð	ḏ	rukkakha		ܕ݂ ܕ݂				U+0715 U+0742: SYRIAC LETTER DALATH, RUKKAKHA
+ܟ݂	s	x	x	x ʧ	x t	x ʧ	ḵ	rukkakha		ܟ݂ ܟ݂ܟ݂ܟ݂				U+071F U+0742: SYRIAC LETTER KAPH, RUKKAKHA
+ܦ݂	s	f	f	f	f	f	p̄	rukkakha		ܦ݂ ܦ݂ܦ݂ܦ݂				U+0726 U+0742: SYRIAC LETTER PE, RUKKAKHA
+ܬ݂	s	q	θ	θ	@	θ	ṯ	rukkakha		ܬ݂ ܬ݂				U+072C U+0742: SYRIAC LETTER TAW, RUKKAKHA
 														
-ܓ̰	s	d	ʤ	ʤ	d	ʤ	ǧ	maǧliyana						U+0713 U+0330: SYRIAC LETTER GAMAL, COMBINING TILDE BELOW
-ܙ̃	s	z	ʒ	ʒ	z	ʒ	ž	maǧliyana						U+0719 U+0303: SYRIAC LETTER ZAIN, COMBINING TILDE
-ܙ̰	s	z	ʒ	ʒ	z	ʒ	ž	maǧliyana						U+0719 U+0330: SYRIAC LETTER ZAIN, COMBINING TILDE BELOW
-ܫ̰	s	z	ʒ	ʒ	z	ʒ	ẑ	maǧliyana						U+072B U+0330: SYRIAC LETTER SHIN, COMBINING TILDE BELOW
-ܫ̃	s	z	ʒ	ʒ	z	ʒ	ẑ	maǧliyana						U+072B U+0303: SYRIAC LETTER SHIN, COMBINING TILDE
-ܟ̃	s	t	ʧ	ʧ	t	ʧ	č	maǧliyana						U+071F U+0303: SYRIAC LETTER KAPH, COMBINING TILDE
+ܓ̰	s	d	ʤ	ʤ	d	ʤ	ǧ	maǧliyana		ܓ̰ ܓ̰ܓ̰ܓ̰				U+0713 U+0330: SYRIAC LETTER GAMAL, COMBINING TILDE BELOW
+ܙ̃	s	z	ʒ	ʒ	z	ʒ	ž	maǧliyana		ܙ̃ ܙ̃				U+0719 U+0303: SYRIAC LETTER ZAIN, COMBINING TILDE
+ܙ̰	s	z	ʒ	ʒ	z	ʒ	ž	maǧliyana		ܙ̰ ܙ̰				U+0719 U+0330: SYRIAC LETTER ZAIN, COMBINING TILDE BELOW
+ܫ̰	s	z	ʒ	ʒ	z	ʒ	ẑ	maǧliyana		ܫ̰ ܫ̰ܫ̰ܫ̰				U+072B U+0330: SYRIAC LETTER SHIN, COMBINING TILDE BELOW
+ܫ̃	s	z	ʒ	ʒ	z	ʒ	ẑ	maǧliyana		ܫ̃ ܫ̃ܫ̃ܫ̃				U+072B U+0303: SYRIAC LETTER SHIN, COMBINING TILDE
+ܟ̃	s	t	ʧ	ʧ	t	ʧ	č	maǧliyana		ܟ̃ ܟ̃ܟ̃ܟ̃				U+071F U+0303: SYRIAC LETTER KAPH, COMBINING TILDE
 														
-ܘܼ	s	u	û	u	u	u	û	hbasa						U+0718 U+073C: SYRIAC LETTER WAW, HBASA-ESASA DOTTED
-ܝܼ	s	i	î	i	i	i	î	hbasa						U+071D U+073C: SYRIAC LETTER YUDH, HBASA-ESASA DOTTED
+ܘܼ	s	u	û	u	u	u	û	hbasa		ܘܼ ܘܼ				U+0718 U+073C: SYRIAC LETTER WAW, HBASA-ESASA DOTTED
+ܝܼ	s	i	î	i	i	i	î	hbasa		ܝܼ ܝܼܝܼܝܼ				U+071D U+073C: SYRIAC LETTER YUDH, HBASA-ESASA DOTTED
 														
-ܘܿ	s	o	ô	u	o	o	ô	rwiha						U+0718 U+073F: SYRIAC LETTER WAW, RWAHA
+ܘܿ	s	o	ô	u	o	o	ô	rwiha		ܘܿ ܘܿ				U+0718 U+073F: SYRIAC LETTER WAW, RWAHA
+
 
 `
 
