@@ -4,8 +4,8 @@ var spreadsheet = `
 پ		b	ɓ̇	ɓ		ɓ	implosive	alternative	پ پپپ			U+067E: ARABIC LETTER PEH
 ط		d	ɗ	ɗ		ɗ	implosive/ejective		ط ططط			U+0637: ARABIC LETTER TAH
 ڟ		t	ᵴ	sʼ (t͡sʼ)		ts	ejective		ڟ ڟڟڟ			U+069F: ARABIC LETTER TAH WITH THREE DOTS ABOVE
-ؿ		y	ƴ̇	ʄ		[ƴ|ʼy]	creaky approximant	warsh orthography	ؿ ؿؿؿ			U+063F: ARABIC LETTER FARSI YEH WITH THREE DOTS ABOVE
-ۑ		y	ƴ	ʄ		[ƴ|ʼy]	creaky approximant	alternative	ۑ ۑۑۑ			U+06D1: ARABIC LETTER YEH WITH THREE DOTS BELOW
+ؿ		y	ƴ̇	ʄ		[ƴ|ʼy]	creaky approximant	alternative	ؿ ؿؿؿ			U+063F: ARABIC LETTER FARSI YEH WITH THREE DOTS ABOVE
+ۑ		y	ƴ	ʄ		[ƴ|ʼy]	creaky approximant	warsh orthography	ۑ ۑۑۑ			U+06D1: ARABIC LETTER YEH WITH THREE DOTS BELOW
 ࢼ		k	ƙ	kʼ		ƙ	ejective	warsh orthography	ࢼ ࢼࢼࢼ			U+08BC: ARABIC LETTER AFRICAN QAF
 ق		k	ƙ̇	kʼ		ƙ	ejective	alternative	ق ققق			U+0642: ARABIC LETTER QAF
 												
@@ -67,8 +67,8 @@ var spreadsheet = `
 												
 ا	o	a	ɑ				vowel	used with َا, أَ, إِ and ُواْ	ا ـا			U+0627: ARABIC LETTER ALEF
 ى	o	i	ı				vowel	used with ِى, ىِٕ, ىٰٜ, and ٰٜى	ى ىىى			U+0649: ARABIC LETTER ALEF MAKSURA
-أ	dco	a	ɑ͑	a	\u{627}\u{654}		vowel	used with أَ	أ ـأ			U+0623: ARABIC LETTER ALEF WITH HAMZA ABOVE
-إ	dco	i	ɑ̜	ʔi	\u{627}\u{655}		consonant+vowel	used with إِ	إ ـإ			U+0625: ARABIC LETTER ALEF WITH HAMZA BELOW
+أ	dco	a	ɑ͑	a	\u{627}\u{654}		vowel	used with أَ	أ			U+0623: ARABIC LETTER ALEF WITH HAMZA ABOVE
+إ	dco	i	ɑ̜	ʔi	\u{627}\u{655}		consonant+vowel	used with إِ	إ			U+0625: ARABIC LETTER ALEF WITH HAMZA BELOW
 ٔ	o	[	ʿ				diacritic	used with أ				U+0654: ARABIC HAMZA ABOVE​
 ٕ	o	[	˓				diacritic	used with إ and ىِٕ				U+0655: ARABIC HAMZA BELOW​
 ٰ	o	[	ˈ				diacritic	used in long e ٰٜ				U+0670: ARABIC LETTER SUPERSCRIPT ALEF​
