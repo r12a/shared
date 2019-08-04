@@ -13,10 +13,14 @@
         </optgroup>
         
         <optgroup label="Google fonts">
-        <option value="Tharlon">Tharlon</option>
         <option value="Noto Sans Myanmar">Noto Sans Myanmar</option>
         <option value="Noto Serif Myanmar">Noto Serif Myanmar</option>
+        </optgroup>
+        
+        <optgroup label="SIL fonts">
+        <option value="Tharlon">Tharlon</option>
         <option value="Padauk">Padauk</option>
+        <option value="Padauk Book">Padauk Book</option>
         </optgroup>
         
         <optgroup label="Other fonts">
