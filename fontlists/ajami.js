@@ -47,6 +47,7 @@
             <optgroup label="SIL fonts ">
             <option value="Alkalami">Akalami</option>
             <option value="Alkalami Light">Alkalami Light</option>
+            <option value="Harmattan">Harmattan</option>
             <option value="Scheherazade">Scheherazade</option>
             </optgroup>
             
