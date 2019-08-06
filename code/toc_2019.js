@@ -15,7 +15,7 @@ function createtoc (maxlevel) {
             // create a self link <a class="selflink" aria-label="§" href="#basicconsonants"></a>
             selflink = document.createElement('a')
             selflink.className = 'selflink'
-            console.log('href', h2s[i].id)
+            //console.log('href', h2s[i].id)
             selflink.href = '#'+h2s[i].id
             h2s[i].appendChild(selflink)
             
@@ -36,7 +36,7 @@ function createtoc (maxlevel) {
                         // create a self link
                         selflink = document.createElement('a')
                         selflink.className = 'selflink'
-                        console.log('href', h3s[k].id)
+                        //console.log('href', h3s[k].id)
                         selflink.href = '#'+h3s[k].id
                         h3s[k].appendChild(selflink)
             
