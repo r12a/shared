@@ -43,7 +43,7 @@ v		¶v	v		consonant					U+0076: LATIN SMALL LETTER V
 ⱱ		v	ⱱ		consonant					U+2C71: LATIN SMALL LETTER V WITH RIGHT HOOK
 ⱴ		v	ⱴ		consonant					U+2C74: LATIN SMALL LETTER V WITH CURL
 w		¶w	w		consonant					U+0077: LATIN SMALL LETTER W
-ω		w	ω		consonant					U+03C9: GREEK SMALL LETTER OMEGA
+ꞷ		w	ꞷ		consonant					U+A7B7 LATIN SMALL LETTER OMEGA
 ⱳ		w	ⱳ		consonant					U+2C73: LATIN SMALL LETTER W WITH HOOK
 ʷ		w	ʷ		consonant					U+02B7: MODIFIER LETTER SMALL W
 x		x	x		consonant					U+0078: LATIN SMALL LETTER X
@@ -107,7 +107,7 @@ V		¶V	V		uppercase consonant					U+0056: LATIN CAPITAL LETTER V
 Ʋ		V	Ʋ		uppercase consonant					U+01B2: LATIN CAPITAL LETTER V WITH HOOK
 W		¶W	W		uppercase consonant					U+0057: LATIN CAPITAL LETTER W
 Ⱳ		w	Ⱳ		uppercase consonant					U+2C72: LATIN CAPITAL LETTER W WITH HOOK
-Ω		W	Ω		uppercase consonant					U+03A9: GREEK CAPITAL LETTER OMEGA
+Ꞷ		W	Ꞷ		uppercase consonant					U+A7B7 LATIN CAPITAL LETTER OMEGA
 X		W	X		uppercase consonant					U+0058: LATIN CAPITAL LETTER X
 Y		X	Y		uppercase consonant					U+0059: LATIN CAPITAL LETTER Y
 Ƴ		¶Y	Ƴ		uppercase consonant					U+01B3: LATIN CAPITAL LETTER Y WITH HOOK
@@ -176,10 +176,10 @@ U		U	U		uppercase vowel					U+0055: LATIN CAPITAL LETTER U
 										
 										
 										
+										
+										
 «	-	_	«		quotation mark					U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
 »	-		»		quotation mark					U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK
-’		'	’		apostrophe					U+2019: RIGHT SINGLE QUOTATION MARK
-
 
 `
 
