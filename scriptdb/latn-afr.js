@@ -40,8 +40,11 @@ t		¶t	t		consonant					U+0074: LATIN SMALL LETTER T
 ʈ		t	ʈ		consonant					U+0288: LATIN SMALL LETTER T WITH RETROFLEX HOOK
 v		¶v	v		consonant					U+0076: LATIN SMALL LETTER V
 ʋ		v	ʋ		consonant					U+028B: LATIN SMALL LETTER V WITH HOOK
+ⱱ		v	ⱱ		consonant					U+2C71: LATIN SMALL LETTER V WITH RIGHT HOOK
+ⱴ		v	ⱴ		consonant					U+2C74: LATIN SMALL LETTER V WITH CURL
 w		¶w	w		consonant					U+0077: LATIN SMALL LETTER W
 ω		w	ω		consonant					U+03C9: GREEK SMALL LETTER OMEGA
+ⱳ		w	ⱳ		consonant					U+2C73: LATIN SMALL LETTER W WITH HOOK
 ʷ		w	ʷ		consonant					U+02B7: MODIFIER LETTER SMALL W
 x		x	x		consonant					U+0078: LATIN SMALL LETTER X
 y		¶y	y		consonant					U+0079: LATIN SMALL LETTER Y
@@ -49,6 +52,7 @@ y		¶y	y		consonant					U+0079: LATIN SMALL LETTER Y
 z		¶z	z		consonant					U+007A: LATIN SMALL LETTER Z
 ʒ		z	ʒ		consonant					U+0292: LATIN SMALL LETTER EZH
 ƹ		z	ƹ		consonant					U+01B9: LATIN SMALL LETTER EZH REVERSED
+ɤ		y	ɤ		consonant					U+0264: LATIN SMALL LETTER RAMS HORN
 ɣ		y	ɣ		consonant					U+0263: LATIN SMALL LETTER GAMMA
 θ		q	θ		consonant					U+03B8: GREEK SMALL LETTER THETA
 ʔ		}	ʔ		consonant					U+0294: LATIN LETTER GLOTTAL STOP
@@ -102,6 +106,7 @@ T		¶T	T		uppercase consonant					U+0054: LATIN CAPITAL LETTER T
 V		¶V	V		uppercase consonant					U+0056: LATIN CAPITAL LETTER V
 Ʋ		V	Ʋ		uppercase consonant					U+01B2: LATIN CAPITAL LETTER V WITH HOOK
 W		¶W	W		uppercase consonant					U+0057: LATIN CAPITAL LETTER W
+Ⱳ		w	Ⱳ		uppercase consonant					U+2C72: LATIN CAPITAL LETTER W WITH HOOK
 Ω		W	Ω		uppercase consonant					U+03A9: GREEK CAPITAL LETTER OMEGA
 X		W	X		uppercase consonant					U+0058: LATIN CAPITAL LETTER X
 Y		X	Y		uppercase consonant					U+0059: LATIN CAPITAL LETTER Y
@@ -171,8 +176,6 @@ U		U	U		uppercase vowel					U+0055: LATIN CAPITAL LETTER U
 										
 										
 										
-		;								
-		,								
 «	-	_	«		quotation mark					U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
 »	-		»		quotation mark					U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK
 ’		'	’		apostrophe					U+2019: RIGHT SINGLE QUOTATION MARK
