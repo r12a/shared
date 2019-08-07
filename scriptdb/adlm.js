@@ -129,8 +129,8 @@ var spreadsheet = `
 													
 𞥞		!	¡			exclamation mark							U+1E95E: ADLAM INITIAL EXCLAMATION MARK
 𞥟		?	¿			question mark							U+1E95F: ADLAM INITIAL QUESTION MARK
-،		,	,			comma							U+060C: ARABIC COMMA
-؛		;	;			semicolon							U+061B: ARABIC SEMICOLON
+⹁		,	,			comma							U+2E41: REVERSED COMMA
+⁏		;	;			semicolon							U+204F: REVERSED SEMICOLON
 ؟		?	?			question mark							U+061F: ARABIC QUESTION MARK
 													
 													
