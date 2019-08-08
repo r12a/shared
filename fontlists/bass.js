@@ -5,4 +5,5 @@
 
             <optgroup label="Other fonts ">
             <option value="Noto Sans Bassah Vah">Noto Sans Bassah Vah</option>
+            <option value="JG Bassah Vah">JG Bassah Vah</option>
             </optgroup>`
