@@ -390,10 +390,10 @@ var spreadsheet = `
 var cols = {
 "class": 1,
 "key":2,
-"transLoc": 0,
+"transLoc": 3,
 "transckey": 0,
 "transcription":0,
-"ipaLoc": 6,
+"ipaLoc": 0,
 "typeLoc": 7,
 "statusLoc": 8,
 "dvowel": 0,
