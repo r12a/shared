@@ -33,14 +33,12 @@
             <option value="Arabic Typesetting">Arabic Typesetting</option>
             <option value="Aldhabi">Aldhabi</option>
             <option value="Andalus">Andalus</option>
-            <option value="Microsoft Uighur">Microsoft Uighur </option>
             <option value="Sakkal Majalla">Sakkal Majalla</option>
             <option value="Simplified Arabic">Simplified Arabic</option>
             <option value="Simplified Arabic Fixed">Simplified Arabic Fixed</option>
             </optgroup>
             
             <optgroup label="Google fonts ">
-            <option value="Scheherazade">Scheherazade</option>
             <option value="Noto Naskh Arabic">Noto Naskh Arabic</option>
             </optgroup>
             
@@ -55,12 +53,8 @@
             <option value="Amiri">Amiri</option>
             <option value="Amiri Quran">Amiri Quran</option>
             <option value="Arabic Transparent">Arabic Transparent</option>
-            <option value="Awami Nastaliq">Awami Nastaliq</option>
-            <option value="Farsi Simple">Farsi Simple</option>
-            <option value="Koodak">Koodak</option>
             <option value="Koodak">Koodak</option>
             <option value="Nazli">Nazli</option>
-            <option value="PakType Tehreer">PakType Tehreer</option>
             </optgroup>
             
             <optgroup label="General fonts ">
