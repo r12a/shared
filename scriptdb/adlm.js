@@ -95,11 +95,11 @@ var spreadsheet = `
 													
 													
 													
-𞤢		a	a	a	a	vowel					alif		U+1E922: ADLAM SMALL LETTER ALIF
-𞤫		e	ɛ	ɛ	e	vowel					è		U+1E92B: ADLAM SMALL LETTER E
-𞤭		i	i	i	i	vowel					i		U+1E92D: ADLAM SMALL LETTER I
-𞤮		o	ɔ	ɔ	ô o	vowel					ö		U+1E92E: ADLAM SMALL LETTER O
-𞤵		u	u	u	u	vowel					ou		U+1E935: ADLAM SMALL LETTER U
+𞤢		a	a	a	a	vowel				𞤢 𞤢𞤢𞤢	alif		U+1E922: ADLAM SMALL LETTER ALIF
+𞤫		e	ɛ	ɛ	e	vowel				𞤫 𞤫𞤫𞤫	è		U+1E92B: ADLAM SMALL LETTER E
+𞤭		i	i	i	i	vowel				𞤭 𞤭𞤭𞤭	i		U+1E92D: ADLAM SMALL LETTER I
+𞤮		o	ɔ	ɔ	ô o	vowel				𞤮 𞤮𞤮𞤮	ö		U+1E92E: ADLAM SMALL LETTER O
+𞤵		u	u	u	u	vowel				𞤵 𞤵𞤵𞤵	ou		U+1E935: ADLAM SMALL LETTER U
 													
 													
 𞤫𞥊	s	e	e	e	e	extended vowel							U+1E92B U+1E94A: ADLAM SMALL LETTER E, NUKTA
@@ -107,11 +107,11 @@ var spreadsheet = `
 													
 													
 													
-𞤀		A	A	a	A	uppercase vowel					alif		U+1E900: ADLAM CAPITAL LETTER ALIF
-𞤉		E	Ɛ	ɛ	E	uppercase vowel					è		U+1E909: ADLAM CAPITAL LETTER E
-𞤋		I	I	i	I	uppercase vowel					i		U+1E90B: ADLAM CAPITAL LETTER I
-𞤌		O	Ɔ	ɔ	Ô O	uppercase vowel					ö		U+1E90C: ADLAM CAPITAL LETTER O
-𞤓		U	U	u	U	uppercase vowel					ou		U+1E913: ADLAM CAPITAL LETTER U
+𞤀		A	A	a	A	uppercase vowel				𞤀 𞤀𞤀𞤀	alif		U+1E900: ADLAM CAPITAL LETTER ALIF
+𞤉		E	Ɛ	ɛ	E	uppercase vowel				𞤉 𞤉𞤉𞤉	è		U+1E909: ADLAM CAPITAL LETTER E
+𞤋		I	I	i	I	uppercase vowel				𞤋 𞤋𞤋𞤋	i		U+1E90B: ADLAM CAPITAL LETTER I
+𞤌		O	Ɔ	ɔ	Ô O	uppercase vowel				𞤌 𞤌𞤌𞤌	ö		U+1E90C: ADLAM CAPITAL LETTER O
+𞤓		U	U	u	U	uppercase vowel				𞤓 𞤓𞤓𞤓	ou		U+1E913: ADLAM CAPITAL LETTER U
 𞤉𞥊	s	E	E	e	E	extended vowel							U+1E92B U+1E94A: ADLAM SMALL LETTER E, NUKTA
 𞤌𞥊	s	O	O	o	O	extended vowel							U+1E92E U+1E94A: ADLAM SMALL LETTER O, NUKTA
 													
@@ -124,6 +124,8 @@ var spreadsheet = `
 𞥈		/	ˑ			consonant modifier							U+1E948: ADLAM CONSONANT MODIFIER​
 𞥉		/	ˇ			consonant modifier							U+1E949: ADLAM GEMINATE CONSONANT MODIFIER​
 𞥊		/	˙			consonant/vowel modifier							U+1E94A: ADLAM NUKTA​
+													
+													
 													
 													
 													
