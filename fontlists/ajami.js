@@ -7,26 +7,8 @@
             </optgroup>
             
             <optgroup label="Mac fonts ">
-            <option value="Al Bayan">Al Bayan</option>
-            <option value="Al Nile">Al Nile</option>
-            <option value="Al Tarikh">Al Tarikh</option>
-            <option value="Baghdad">Baghdad</option>
-            <option value="Beirut">Beirut</option>
             <option value="Damascus">Damascus</option>
-            <option value="Diwan Kufi">Diwan Kufi</option>
-            <option value="Diwan Thuluth">Diwan Thuluth</option>
-            <option value="Decotype Naskh">Decotype Naskh</option>
-            <option value="Farah">Farah</option>
-            <option value="Farisi">Farisi</option>
             <option value="Geeza Pro">Geeza Pro</option>
-            <option value="KufiStandardGK">KufiStandardGK</option>
-            <option value="Mishafi">Mishafi</option>
-            <option value="Mishafi Gold">Mishafi Gold</option>
-            <option value="Muna">Muna</option>
-            <option value="Myriad Arabic">Myriad Arabic</option>
-            <option value="Nadeem">Nadeem</option>
-            <option value="Sana">Sana</option>
-            <option value="Waseem">Waseem</option>
             </optgroup>
             
             <optgroup label="Windows fonts ">
