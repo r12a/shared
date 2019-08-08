@@ -33,14 +33,14 @@ var spreadsheet = `
 ؟					?		punctuation			U+061F: ARABIC QUESTION MARK
 ؠ							addition for Kashmiri		ؠ ؠؠؠ	U+0620: ARABIC LETTER KASHMIRI YEH
 ء					’		ISO 8859-6 letter		ء	U+0621: ARABIC LETTER HAMZA
-آ					ā		ISO 8859-6 letter			U+0622: ARABIC LETTER ALEF WITH MADDA ABOVE
+آ					ā		ISO 8859-6 letter		آ ـآ	U+0622: ARABIC LETTER ALEF WITH MADDA ABOVE
 أ					ᵃ		ISO 8859-6 letter		أ ـأ	U+0623: ARABIC LETTER ALEF WITH HAMZA ABOVE
-ؤ					ʷ		ISO 8859-6 letter			U+0624: ARABIC LETTER WAW WITH HAMZA ABOVE
+ؤ					ʷ		ISO 8859-6 letter		ؤ ـؤ	U+0624: ARABIC LETTER WAW WITH HAMZA ABOVE
 إ					ₐ		ISO 8859-6 letter		إ ـإ	U+0625: ARABIC LETTER ALEF WITH HAMZA BELOW
-ئ					ʸ		ISO 8859-6 letter			U+0626: ARABIC LETTER YEH WITH HAMZA ABOVE
-ا					ˡ		ISO 8859-6 letter			U+0627: ARABIC LETTER ALEF
+ئ					ʸ		ISO 8859-6 letter		ئ ئئئ	U+0626: ARABIC LETTER YEH WITH HAMZA ABOVE
+ا					ˡ		ISO 8859-6 letter		ا ـا	U+0627: ARABIC LETTER ALEF
 ب					b		ISO 8859-6 letter		ب ببب	U+0628: ARABIC LETTER BEH
-ة					ẗ		ISO 8859-6 letter			U+0629: ARABIC LETTER TEH MARBUTA
+ة					ẗ		ISO 8859-6 letter		ة ـة	U+0629: ARABIC LETTER TEH MARBUTA
 ت					t		ISO 8859-6 letter		ت تتت	U+062A: ARABIC LETTER TEH
 ث					ṯ		ISO 8859-6 letter		ث ثثث	U+062B: ARABIC LETTER THEH
 ج					ǧ		ISO 8859-6 letter		ج ججج	U+062C: ARABIC LETTER JEEM
@@ -66,10 +66,10 @@ var spreadsheet = `
 ـ					_		ISO 8859-6 letter			U+0640: ARABIC TATWEEL
 ف					f		ISO 8859-6 letter		ف ففف	U+0641: ARABIC LETTER FEH
 ق					q		ISO 8859-6 letter		ق ققق	U+0642: ARABIC LETTER QAF
-ك					k		ISO 8859-6 letter			U+0643: ARABIC LETTER KAF
+ك					k		ISO 8859-6 letter		ك ككك	U+0643: ARABIC LETTER KAF
 ل					l		ISO 8859-6 letter		ل للل	U+0644: ARABIC LETTER LAM
 م					m		ISO 8859-6 letter		م ممم	U+0645: ARABIC LETTER MEEM
-ن					n		ISO 8859-6 letter			U+0646: ARABIC LETTER NOON
+ن					n		ISO 8859-6 letter		ن ننن	U+0646: ARABIC LETTER NOON
 ه					h		ISO 8859-6 letter		ه ههه	U+0647: ARABIC LETTER HEH
 و					w		ISO 8859-6 letter		و ـو	U+0648: ARABIC LETTER WAW
 ى					ỳ		ISO 8859-6 letter		ى ىىى	U+0649: ARABIC LETTER ALEF MAKSURA
@@ -130,10 +130,10 @@ var spreadsheet = `
 ڀ							extended Arabic letter			U+0680: ARABIC LETTER BEHEH
 ځ							extended Arabic letter			U+0681: ARABIC LETTER HAH WITH HAMZA ABOVE
 ڂ							extended Arabic letter			U+0682: ARABIC LETTER HAH WITH TWO DOTS VERTICAL ABOVE
-ڃ							extended Arabic letter			U+0683: ARABIC LETTER NYEH
-ڄ							extended Arabic letter			U+0684: ARABIC LETTER DYEH
-څ							extended Arabic letter			U+0685: ARABIC LETTER HAH WITH THREE DOTS ABOVE
-چ							extended Arabic letter			U+0686: ARABIC LETTER TCHEH
+ڃ							extended Arabic letter		ڃ ڃڃڃ	U+0683: ARABIC LETTER NYEH
+ڄ							extended Arabic letter		ڄ ڄڄڄ	U+0684: ARABIC LETTER DYEH
+څ							extended Arabic letter		څ څڅڅ	U+0685: ARABIC LETTER HAH WITH THREE DOTS ABOVE
+چ							extended Arabic letter		چ چچچ	U+0686: ARABIC LETTER TCHEH
 ڇ							extended Arabic letter			U+0687: ARABIC LETTER TCHEHEH
 ڈ							extended Arabic letter			U+0688: ARABIC LETTER DDAL
 ډ							extended Arabic letter			U+0689: ARABIC LETTER DAL WITH RING
@@ -164,16 +164,16 @@ var spreadsheet = `
 ڢ							extended Arabic letter			U+06A2: ARABIC LETTER FEH WITH DOT MOVED BELOW
 ڣ							extended Arabic letter			U+06A3: ARABIC LETTER FEH WITH DOT BELOW
 ڤ							extended Arabic letter		ڤ ڤڤڤ	U+06A4: ARABIC LETTER VEH
-ڥ							extended Arabic letter			U+06A5: ARABIC LETTER FEH WITH THREE DOTS BELOW
+ڥ							extended Arabic letter		ڥ ڥڥڥ	U+06A5: ARABIC LETTER FEH WITH THREE DOTS BELOW
 ڦ							extended Arabic letter			U+06A6: ARABIC LETTER PEHEH
 ڧ							extended Arabic letter			U+06A7: ARABIC LETTER QAF WITH DOT ABOVE
-ڨ							extended Arabic letter			U+06A8: ARABIC LETTER QAF WITH THREE DOTS ABOVE
+ڨ							extended Arabic letter		ڨ ڨڨڨ	U+06A8: ARABIC LETTER QAF WITH THREE DOTS ABOVE
 ک							extended Arabic letter		ک ککک	U+06A9: ARABIC LETTER KEHEH
 ڪ							extended Arabic letter			U+06AA: ARABIC LETTER SWASH KAF
 ګ							extended Arabic letter			U+06AB: ARABIC LETTER KAF WITH RING
 ڬ							extended Arabic letter			U+06AC: ARABIC LETTER KAF WITH DOT ABOVE
-ڭ							extended Arabic letter			U+06AD: ARABIC LETTER NG
-ڮ							extended Arabic letter			U+06AE: ARABIC LETTER KAF WITH THREE DOTS BELOW
+ڭ							extended Arabic letter		ڭ ڭڭڭ	U+06AD: ARABIC LETTER NG
+ڮ							extended Arabic letter		ڮ ڮڮڮ	U+06AE: ARABIC LETTER KAF WITH THREE DOTS BELOW
 گ							extended Arabic letter		گ گگگ	U+06AF: ARABIC LETTER GAF
 ڰ							extended Arabic letter			U+06B0: ARABIC LETTER GAF WITH RING
 ڱ							extended Arabic letter			U+06B1: ARABIC LETTER NGOEH
@@ -182,7 +182,7 @@ var spreadsheet = `
 ڴ							extended Arabic letter			U+06B4: ARABIC LETTER GAF WITH THREE DOTS ABOVE
 ڵ							extended Arabic letter			U+06B5: ARABIC LETTER LAM WITH SMALL V
 ڶ							extended Arabic letter			U+06B6: ARABIC LETTER LAM WITH DOT ABOVE
-ڷ							extended Arabic letter			U+06B7: ARABIC LETTER LAM WITH THREE DOTS ABOVE
+ڷ							extended Arabic letter		ڷ ڷڷڷ	U+06B7: ARABIC LETTER LAM WITH THREE DOTS ABOVE
 ڸ							extended Arabic letter			U+06B8: ARABIC LETTER LAM WITH THREE DOTS BELOW
 ڹ							extended Arabic letter			U+06B9: ARABIC LETTER NOON WITH DOT BELOW
 ں							extended Arabic letter			U+06BA: ARABIC LETTER NOON GHUNNA
@@ -191,7 +191,7 @@ var spreadsheet = `
 ڽ							extended Arabic letter			U+06BD: ARABIC LETTER NOON WITH THREE DOTS ABOVE
 ھ							extended Arabic letter			U+06BE: ARABIC LETTER HEH DOACHASHMEE
 ڿ							extended Arabic letter			U+06BF: ARABIC LETTER TCHEH WITH DOT ABOVE
-ۀ							extended Arabic letter			U+06C0: ARABIC LETTER HEH WITH YEH ABOVE
+ۀ							extended Arabic letter		ۀ ۀۀۀ	U+06C0: ARABIC LETTER HEH WITH YEH ABOVE
 ہ							extended Arabic letter			U+06C1: ARABIC LETTER HEH GOAL
 ۂ							extended Arabic letter			U+06C2: ARABIC LETTER HEH GOAL WITH HAMZA ABOVE
 ۃ							extended Arabic letter			U+06C3: ARABIC LETTER TEH MARBUTA GOAL
@@ -271,19 +271,19 @@ var spreadsheet = `
 ݛ							extended Arabic letter			U+075B: ARABIC LETTER REH WITH STROKE
 ݜ							extended Arabic letter			U+075C: ARABIC LETTER SEEN WITH FOUR DOTS ABOVE
 ݝ							extended Arabic letter		ݝ ݝݝݝ	U+075D: ARABIC LETTER AIN WITH TWO DOTS ABOVE
-ݞ							extended Arabic letter			U+075E: ARABIC LETTER AIN WITH THREE DOTS POINTING DOWNWARDS ABOVE
+ݞ							extended Arabic letter		ݞ ݞݞݞ	U+075E: ARABIC LETTER AIN WITH THREE DOTS POINTING DOWNWARDS ABOVE
 ݟ							extended Arabic letter			U+075F: ARABIC LETTER AIN WITH TWO DOTS VERTICALLY ABOVE
 ݠ							extended Arabic letter			U+0760: ARABIC LETTER FEH WITH TWO DOTS BELOW
 ݡ							extended Arabic letter			U+0761: ARABIC LETTER FEH WITH THREE DOTS POINTING UPWARDS BELOW
 ݢ							extended Arabic letter		ݢ ݢݢݢ	U+0762: ARABIC LETTER KEHEH WITH DOT ABOVE
 ݣ							extended Arabic letter		ݣ ݣݣݣ	U+0763: ARABIC LETTER KEHEH WITH THREE DOTS ABOVE
 ݤ							extended Arabic letter			U+0764: ARABIC LETTER KEHEH WITH THREE DOTS POINTING UPWARDS BELOW
-ݥ							extended Arabic letter			U+0765: ARABIC LETTER MEEM WITH DOT ABOVE
-ݦ							extended Arabic letter			U+0766: ARABIC LETTER MEEM WITH DOT BELOW
+ݥ							extended Arabic letter		ݥ ݥݥݥ	U+0765: ARABIC LETTER MEEM WITH DOT ABOVE
+ݦ							extended Arabic letter		ݦ ݦݦݦ	U+0766: ARABIC LETTER MEEM WITH DOT BELOW
 ݧ							extended Arabic letter		ݧ ݧݧݧ	U+0767: ARABIC LETTER NOON WITH TWO DOTS BELOW
 ݨ							extended Arabic letter			U+0768: ARABIC LETTER NOON WITH SMALL TAH
 ݩ							extended Arabic letter			U+0769: ARABIC LETTER NOON WITH SMALL V
-ݪ							extended Arabic letter			U+076A: ARABIC LETTER LAM WITH BAR
+ݪ							extended Arabic letter		ݪ ݪݪݪ	U+076A: ARABIC LETTER LAM WITH BAR
 ݫ							extended Arabic letter			U+076B: ARABIC LETTER REH WITH TWO DOTS VERTICALLY ABOVE
 ݬ							extended Arabic letter			U+076C: ARABIC LETTER REH WITH HAMZA ABOVE
 ݭ							extended Arabic letter			U+076D: ARABIC LETTER SEEN WITH TWO DOTS VERTICALLY ABOVE
@@ -328,11 +328,11 @@ var spreadsheet = `
 ࢲ							letter for Berber			U+08B2: ARABIC LETTER ZAIN WITH INVERTED V ABOVE
 ࢳ							letter for Arwi			U+08B3: ARABIC LETTER AIN WITH THREE DOTS BELOW
 ࢴ							letter for Arwi			U+08B4: ARABIC LETTER KAF WITH DOT BELOW
-ࢶ							letter for Bravanese			U+08B6: ARABIC LETTER BEH WITH SMALL MEEM ABOVE
-ࢷ							letter for Bravanese			U+08B7: ARABIC LETTER PEH WITH SMALL MEEM ABOVE
-ࢸ							letter for Bravanese			U+08B8: ARABIC LETTER TEH WITH SMALL TEH ABOVE
-ࢹ							letter for Bravanese			U+08B9: ARABIC LETTER REH WITH SMALL NOON ABOVE
-ࢺ							letter for Bravanese			U+08BA: ARABIC LETTER YEH WITH TWO DOTS BELOW AND SMALL NOON ABOVE
+ࢶ							letter for Bravanese		ࢶ ࢶࢶࢶ	U+08B6: ARABIC LETTER BEH WITH SMALL MEEM ABOVE
+ࢷ							letter for Bravanese		ࢷ ࢷࢷࢷ	U+08B7: ARABIC LETTER PEH WITH SMALL MEEM ABOVE
+ࢸ							letter for Bravanese		ࢸ ࢸࢸࢸ	U+08B8: ARABIC LETTER TEH WITH SMALL TEH ABOVE
+ࢹ							letter for Bravanese		ࢹ ࢹࢹࢹ	U+08B9: ARABIC LETTER REH WITH SMALL NOON ABOVE
+ࢺ							letter for Bravanese		ࢺ ࢺࢺࢺ	U+08BA: ARABIC LETTER YEH WITH TWO DOTS BELOW AND SMALL NOON ABOVE
 ࢻ							letter for Warsh orthography		ࢻ ࢻࢻࢻ	U+08BB: ARABIC LETTER AFRICAN FEH
 ࢼ							letter for Warsh orthography		ࢼ ࢼࢼࢼ	U+08BC: ARABIC LETTER AFRICAN QAF
 ࢽ							letter for Warsh orthography		ࢽ ࢽࢽࢽ	U+08BD: ARABIC LETTER AFRICAN NOON
