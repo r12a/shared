@@ -2,8 +2,13 @@
  	  <optgroup label="Webfont">
       			<option value="Adelle Sans EXT Light WF">Adelle Sans EXT Light WF</option>
       			<option value="Gentium Plus WF">Gentium Plus WF</option>
-      			<option value="Doulos SIL WF">Doulos SIL WF</option>
+      			<option value="Noto Sans Light WF">Noto Sans Light WF</option>
       </optgroup>
+      <optgroup label="Google fonts">
+                <option value="Noto Sans">Noto Sans</option>
+                <option value="Noto Sans Light">Noto Sans Light</option>
+                <option value="Noto Serif">Noto Serif</option>
+     </optgroup>
       <optgroup label="SIL fonts">
                 <option value="Gentium Plus">Gentium Plus</option>
                 <option value="Doulos SIL">Doulos SIL</option>
