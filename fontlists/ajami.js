@@ -1,9 +1,9 @@
  var fontSelection = `<option value="0">Select...</option>
             <optgroup label="Web fonts ">
+            <option value="Scheherazade WF">Scheherazade WF</option>
             <option value="Alkalami WF">Akalami WF</option>
             <option value="Alkalami Light WF">Alkalami Light WF</option>
-            <option value="Scheherazade WF">Scheherazade WF</option>
-            <option value="Noto Naskh Arabic WF">Noto Naskh Arabic WF</option>
+            <option value="Noto Sans Arabic Light WF">Noto Sans Arabic Light WF</option>
             </optgroup>
             
             <optgroup label="Mac fonts ">
@@ -22,6 +22,8 @@
             
             <optgroup label="Google fonts ">
             <option value="Noto Naskh Arabic">Noto Naskh Arabic</option>
+            <option value="Noto Sans Arabic">Noto Sans Arabic</option>
+            <option value="Noto Sans Arabic Light">Noto Naskh Arabic</option>
             </optgroup>
             
             <optgroup label="SIL fonts ">
