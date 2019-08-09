@@ -7,8 +7,8 @@ var spreadsheet = `
 										
 𖫢		b	b	b	b	plosive				U+16AE2: BASSA VAH LETTER BA
 𖫗		d	d	d	d	plosive				U+16AD7: BASSA VAH LETTER DHII
-𖫞		d	ɖ	ɗ	ɖ	implosive				U+16ADE: BASSA VAH LETTER DO
-𖫙		y	j	j	j	affricate				U+16AD9: BASSA VAH LETTER JO
+𖫞		¶d	ɖ	ɗ	ɖ	implosive				U+16ADE: BASSA VAH LETTER DO
+𖫙		j	j	ɟ	j	affricate				U+16AD9: BASSA VAH LETTER JO
 𖫖		g	g	ɡ	g	plosive				U+16AD6: BASSA VAH LETTER GAH
 𖫝		g	gᵇ	ɡb	gb gm	plosive				U+16ADD: BASSA VAH LETTER GBU
 										
