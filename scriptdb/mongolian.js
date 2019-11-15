@@ -49,8 +49,6 @@ var spreadsheet = `
 ᠄	:	:	:	:				colon			U+1804: MONGOLIAN COLON
 ᠊	_	_	_	"–
 "				baseline lengthener			U+180A: MONGOLIAN NIRUGU
-( 	(	(									U+0028 U+0020: LEFT PARENTHESIS, SPACE
-)	)	)									U+0029: RIGHT PARENTHESIS
 〈	(	<									U+3008: LEFT ANGLE BRACKET
 〉	)	>									U+3009: RIGHT ANGLE BRACKET
 《	(	{									U+300A: LEFT DOUBLE ANGLE BRACKET
