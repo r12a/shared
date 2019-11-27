@@ -1,6 +1,3 @@
-// USE ARAB-FA RATHER THAN THIS FILE
-
-
 var spreadsheet = `
 ء		}	ʔ	ʔ	’	consonant		ء	hamza	همزه	U+0621: ARABIC LETTER HAMZA
 ا		A	ɑ	ʔ ɔ æ -	ā a o e	consonant+vowel		ا ـا	ʾalef	الف	U+0627: ARABIC LETTER ALEF
