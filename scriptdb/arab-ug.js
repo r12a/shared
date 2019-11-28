@@ -1,6 +1,3 @@
-// USE ARAB-UG RATHER THAN THIS FILE
-
-
 var spreadsheet = `
 م		m	m	m	m	м	consonant		م ممم			U+0645: ARABIC LETTER MEEM
 ن		n	n	n	n	н	consonant		ن ننن			U+0646: ARABIC LETTER NOON
