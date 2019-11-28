@@ -1,7 +1,3 @@
-// USE armn RATHER THAN THIS FILE
-
-
-
 var spreadsheet = `
 բ		b	b	b pʰ	b	b	consonant				Բ	2	bɛn/pʰɛn	բեն	U+0562: ARMENIAN SMALL LETTER BEN
 գ		g	g	ɡ kʰ	g	g	consonant				Գ	3	gim/kʰim	գիմ	U+0563: ARMENIAN SMALL LETTER GIM
