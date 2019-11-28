@@ -1,7 +1,3 @@
-// USE tfng-zgh RATHER THAN THIS FILE
-
-
-
 var spreadsheet = `
 ⵒ		p	p	p	p	p	پ	plosive	foreign sound	yap	ⵢⴰⵒ	U+2D52: TIFINAGH LETTER YAP
 ⵜ		t	t	t	t	t	ت	plosive		yat	ⵢⴰⵜ	U+2D5C: TIFINAGH LETTER YAT
