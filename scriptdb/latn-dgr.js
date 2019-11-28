@@ -23,7 +23,7 @@ dl	s		dl	tɬ	affricate				U+0064 U+006C: LATIN SMALL LETTER D, LATIN SMALL LETTE
 j		j	j	ʧ	affricate				U+006A: LATIN SMALL LETTER J
 									
 ts	s		ts	ʦʰ	aspirated affricate				U+0074 U+0073: LATIN SMALL LETTER T, LATIN SMALL LETTER S
-tł	s		tł	tɬʰ	aspirated affricate				U+0074 U+0142: LATIN SMALL LETTER T, LATIN SMALL LETTER L WITH STROKE
+tł	s	t	tł	tɬʰ	aspirated affricate				U+0074 U+0142: LATIN SMALL LETTER T, LATIN SMALL LETTER L WITH STROKE
 ch	s	c	ch	ʧʰ	aspirated affricate				U+0063 U+0068: LATIN SMALL LETTER C, LATIN SMALL LETTER H
 									
 ts’	s		ts’	ʦʼ	ejective affricate				U+0074 U+0073 U+2019: LATIN SMALL LETTER T, LATIN SMALL LETTER S, RIGHT SINGLE QUOTATION MARK
@@ -35,7 +35,7 @@ l		l	l	ɮ	fricative				U+006C: LATIN SMALL LETTER L
 zh	s		zh	ʒ	fricative				U+007A U+0068: LATIN SMALL LETTER Z, LATIN SMALL LETTER H
 gh	s		gh	ɣ	fricative				U+0067 U+0068: LATIN SMALL LETTER G, LATIN SMALL LETTER H
 s		s	s	s	fricative				U+0073: LATIN SMALL LETTER S
-ł		;	ł	ɬ	fricative				U+0142: LATIN SMALL LETTER L WITH STROKE
+ł		l	ł	ɬ	fricative				U+0142: LATIN SMALL LETTER L WITH STROKE
 sh	s		sh	ʃ	fricative				U+0073 U+0068: LATIN SMALL LETTER S, LATIN SMALL LETTER H
 x		x	x	x	fricative				U+0078: LATIN SMALL LETTER X
 h		h	h	h	fricative				U+0068: LATIN SMALL LETTER H
@@ -79,14 +79,14 @@ Kw’	s		Kw’	kʷʼ	ejective plosive				U+004B U+0057 U+2019: LATIN CAPITAL LET
 									
 Dz	s		Dz	ʦ	affricate				U+0044 U+005A: LATIN CAPITAL LETTER D, LATIN CAPITAL LETTER Z
 Dl	s		Dl	tɬ	affricate				U+0044 U+004C: LATIN CAPITAL LETTER D, LATIN CAPITAL LETTER L
-J		j	J	ʧ	affricate				U+004A: LATIN CAPITAL LETTER J
+J		J	J	ʧ	affricate				U+004A: LATIN CAPITAL LETTER J
 									
 Ts	s		Ts	ʦʰ	aspirated affricate				U+0054 U+0053: LATIN CAPITAL LETTER T, LATIN CAPITAL LETTER S
 Tł	s		Tł	tɬʰ	aspirated affricate				U+0054 U+0141: LATIN CAPITAL LETTER T, LATIN CAPITAL LETTER L WITH STROKE
 Ch	s	C	Ch	ʧʰ	aspirated affricate				U+0043 U+0048: LATIN CAPITAL LETTER C, LATIN CAPITAL LETTER H
 									
 Ts’	s		Ts’	ʦʼ	ejective affricate				U+0054 U+0053 U+2019: LATIN CAPITAL LETTER T, LATIN CAPITAL LETTER S, RIGHT SINGLE QUOTATION MARK
-Tł’	s		Tł’	tɬʼ	ejective affricate				U+0054 U+0141 U+2019: LATIN CAPITAL LETTER T, LATIN CAPITAL LETTER L WITH STROKE, RIGHT SINGLE QUOTATION MARK
+Tł’	s	T	Tł’	tɬʼ	ejective affricate				U+0054 U+0141 U+2019: LATIN CAPITAL LETTER T, LATIN CAPITAL LETTER L WITH STROKE, RIGHT SINGLE QUOTATION MARK
 Ch’	s		Ch’	ʧʼ	ejective affricate				U+0043 U+0048 U+2019: LATIN CAPITAL LETTER C, LATIN CAPITAL LETTER H, RIGHT SINGLE QUOTATION MARK
 									
 Z		Z	Z	z	fricative				U+005A: LATIN CAPITAL LETTER Z
@@ -94,7 +94,7 @@ L		L	L	ɮ	fricative				U+004C: LATIN CAPITAL LETTER L
 Zh	s		Zh	ʒ	fricative				U+005A U+0048: LATIN CAPITAL LETTER Z, LATIN CAPITAL LETTER H
 Gh	s		Gh	ɣ	fricative				U+0047 U+0048: LATIN CAPITAL LETTER G, LATIN CAPITAL LETTER H
 S		S	S	s	fricative				U+0053: LATIN CAPITAL LETTER S
-Ł		:	Ł	ɬ	fricative				U+0141: LATIN CAPITAL LETTER L WITH STROKE
+Ł		L	Ł	ɬ	fricative				U+0141: LATIN CAPITAL LETTER L WITH STROKE
 Sł	s		Sł	ʃ	fricative				U+0053 U+0048: LATIN CAPITAL LETTER S, LATIN CAPITAL LETTER H
 X		X	X	x	fricative				U+0058: LATIN CAPITAL LETTER X
 H		H	H	h	fricative				U+0048: LATIN CAPITAL LETTER H
@@ -123,22 +123,33 @@ O		O	O	o	vowel				U+004F: LATIN CAPITAL LETTER O
 									
 									
 ̨		]	̨	̃	nasalisation mark				U+0328: COMBINING OGONEK​
-̨̀		{	̨̀		nasalisation and tone mark				U+0328 U+0300: COMBINING OGONEK, COMBINING GRAVE ACCENT​
+̨̀	s	{	̨̀		nasalisation and tone mark				U+0328 U+0300: COMBINING OGONEK, COMBINING GRAVE ACCENT​
 									
 									
-‹		(	‹		quotation mark				U+2039: SINGLE LEFT-POINTING ANGLE QUOTATION MARK
-›		)	›		quotation mark				U+203A: SINGLE RIGHT-POINTING ANGLE QUOTATION MARK
-«		(	«		quotation mark				U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
-»		)	»		quotation mark				U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK
-’		|	’		quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK
-‘		\\	‘		quotation mark				U+2018: LEFT SINGLE QUOTATION MARK
-“		{	“		quotation mark				U+201C: LEFT DOUBLE QUOTATION MARK
-”		}	”		quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK
-;		<	;		semicolon				U+003B: SEMICOLON
-:		>	:		colon				U+003A: COLON
-,		,	,		comma				U+002C: COMMA
-.		.	.		fullstop				U+002E: FULL STOP
-
+‹		<	‹		quotation mark				U+2039: SINGLE LEFT-POINTING ANGLE QUOTATION MARK
+›		>	›		quotation mark				U+203A: SINGLE RIGHT-POINTING ANGLE QUOTATION MARK
+«		<	«		quotation mark				U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
+»		>	»		quotation mark				U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK
+’			’		quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK
+‘			‘		quotation mark				U+2018: LEFT SINGLE QUOTATION MARK
+“			“		quotation mark				U+201C: LEFT DOUBLE QUOTATION MARK
+”			”		quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK
+;			;		semicolon				U+003B: SEMICOLON
+:			:		colon				U+003A: COLON
+,			,		comma				U+002C: COMMA
+.			.		fullstop				U+002E: FULL STOP
+									
+									
+1			1		digit				U+0031: DIGIT ONE
+2			2		digit				U+0032: DIGIT TWO
+3			3		digit				U+0033: DIGIT THREE
+4			4		digit				U+0034: DIGIT FOUR
+5			5		digit				U+0035: DIGIT FIVE
+6			6		digit				U+0036: DIGIT SIX
+7			7		digit				U+0037: DIGIT SEVEN
+8			8		digit				U+0038: DIGIT EIGHT
+9			9		digit				U+0039: DIGIT NINE
+0			0		digit				U+0030: DIGIT ZERO
 
 							
 
