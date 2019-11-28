@@ -165,6 +165,9 @@ U		U	U		uppercase vowel					U+0055: LATIN CAPITAL LETTER U
 ̱		]	̱		diacritic					U+0331: COMBINING MACRON BELOW​
 ̣		]	̣		diacritic					U+0323: COMBINING DOT BELOW​
 ̭		]	̭		diacritic					U+032D: COMBINING CIRCUMFLEX ACCENT BELOW​
+̩		]	̩		diacritic					U+0329: COMBINING VERTICAL LINE BELOW
+̰		]	̰		diacritic					U+0330: COMBINING TILDE BELOW
+̊		[	̊		diacritic					U+030A: COMBINING RING ABOVE
 ̀		[	̀		diacritic					U+0300: COMBINING GRAVE ACCENT​
 ́		[	́		diacritic					U+0301: COMBINING ACUTE ACCENT​
 ̂		[	̂		diacritic					U+0302: COMBINING CIRCUMFLEX ACCENT​
@@ -172,14 +175,15 @@ U		U	U		uppercase vowel					U+0055: LATIN CAPITAL LETTER U
 ̃		[	̃		diacritic					U+0303: COMBINING TILDE​
 ̄		[	̄		diacritic					U+0304: COMBINING MACRON​
 ̇		[	̇		diacritic					U+0307: COMBINING DOT ABOVE​
-̈		[	̈		diacritic					U+0308: COMBINING DIAERESIS​
+̈		[	̈		diacritic					U+0308: COMBINING DIAERESIS​										
 										
 										
 										
 										
-										
-«	-	_	«		quotation mark					U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
-»	-		»		quotation mark					U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK
+«		<	«		quotation mark					U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
+»		>	»		quotation mark					U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK
+’		\\	’		apostrophe					U+2019: RIGHT SINGLE QUOTATION MARK
+
 
 `
 
