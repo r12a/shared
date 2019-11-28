@@ -47,7 +47,10 @@ var spreadsheet = `
 										
 										
 										
-𖫵		.				full stop				U+16AF5: BASSA VAH FULL STOP
+𖫵		.	.			full stop				U+16AF5: BASSA VAH FULL STOP
+.		.	.			full stop				
+«		<	 “			quotation mark				U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
+»		>	”			quotation mark				U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK
 
 
 `
