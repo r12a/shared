@@ -119,8 +119,8 @@ var spreadsheet = `
 𞥋		[	˜			nasalisation mark					nyondal		U+1E94B: ADLAM NASALIZATION MARK
 𞥄		:	ˉ			alif lengthener							U+1E944: ADLAM ALIF LENGTHENER​
 𞥅		:	ː			vowel lengthener							U+1E945: ADLAM VOWEL LENGTHENER​
-𞥆		&	˖			gemination mark							U+1E946: ADLAM GEMINATION MARK​
-𞥇		[	ʿ			hamza							U+1E947: ADLAM HAMZA​
+𞥆		+	˖			gemination mark							U+1E946: ADLAM GEMINATION MARK​
+𞥇		[¶	ʿ			hamza							U+1E947: ADLAM HAMZA​
 𞥈		/	ˑ			consonant modifier							U+1E948: ADLAM CONSONANT MODIFIER​
 𞥉		/	ˇ			consonant modifier							U+1E949: ADLAM GEMINATE CONSONANT MODIFIER​
 𞥊		/	˙			consonant/vowel modifier							U+1E94A: ADLAM NUKTA​
