@@ -1,6 +1,3 @@
-// USE mong-mn RATHER THAN THIS FILE
-
-
 var spreadsheet = `
 ᠠ	a	a	a	a	а	ɑ	a ə	vowel			U+1820: MONGOLIAN LETTER A
 ᠡ	e	e	e	e	є	ə	i e ə ∅	vowel			U+1821: MONGOLIAN LETTER E
