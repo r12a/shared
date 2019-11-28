@@ -95,10 +95,10 @@ var spreadsheet = `
 												
 												
 												
-،	-	, 	,  	,  			comma					U+060C: ARABIC COMMA
+،	-	,	,  	,  			comma					U+060C: ARABIC COMMA
 ؟	-	?	?	?			question mark					U+061F: ARABIC QUESTION MARK
-«	-	"	 “				quotation mark					U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
-»	-	"	”				quotation mark					U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK
+«	-	<	 “				quotation mark					U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
+»	-	>	”				quotation mark					U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK
 
 
 `
