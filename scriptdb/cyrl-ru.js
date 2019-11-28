@@ -1,7 +1,3 @@
-// USE cyrl-ru RATHER THAN THIS FILE
-
-
-
 var spreadsheet = `
 а		a	a	a	a	a	vowel			А	a	а	U+0430: CYRILLIC SMALL LETTER A
 б		b	b	b,bʲ	b	b	consonant			Б	bɛ	бэ	U+0431: CYRILLIC SMALL LETTER BE
