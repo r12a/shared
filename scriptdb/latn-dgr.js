@@ -1,6 +1,3 @@
-// USE LATN-DGR RATHER THAN THIS FILE
-
-
 var spreadsheet = `
 m		m	m	m	nasal consonant				U+006D: LATIN SMALL LETTER M
 n		n	n	n	nasal consonant				U+006E: LATIN SMALL LETTER N
