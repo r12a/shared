@@ -42,8 +42,9 @@
             <optgroup label="Google fonts ">
             <option value="Scheherazade">Scheherazade</option>
             <option value="Noto Naskh Arabic">Noto Naskh Arabic</option>
+            <option value="Noto Kufi Arabic">Noto Kufi Arabic</option>
+            <option value="Noto Sans Arabic">Noto Sans Arabic</option>
             <option value="Noto Nastaliq Urdu">Noto Nastaliq Urdu</option>
-            <option value="Noto Nastaliq Urdu Draft">Noto Nastaliq Urdu Draft</option>
             </optgroup>
             
             <optgroup label="Other fonts ">
