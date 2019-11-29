@@ -1,8 +1,3 @@
-// USE ARAB-UR RATHER THAN THIS FILE
-
-
-
-
 var spreadsheet = `
 ء		}	ʾ	-	ʾ –	vowel separator / calendar indicator		ء	hamzaː		U+0621: ARABIC LETTER HAMZA
 ا		a	ɑ	a/ɪ/u iː/e/ɛ uː/o/ɔ ʊ/∅ ɑː	ā ʾ –	consonant+vowel		ا ـا	alɪf		U+0627: ARABIC LETTER ALEF
