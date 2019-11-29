@@ -130,6 +130,8 @@ var spreadsheet = `
 ড়	s	r	ɽ	ɽ	r	ɽ	consonant+nukta							U+09A1 U+09BC: BENGALI LETTER DDA, SIGN NUKTA
 ঢ়	s	r	ɽ̇	ɽ	r	ɽ	consonant+nukta							U+09A2 U+09BC: BENGALI LETTER DDHA, SIGN NUKTA
 য়	s	y	ẏ	j e w	y	ẏ	consonant+nukta							U+09AF U+09BC: BENGALI LETTER YA, SIGN NUKTA
+ক্ষ	s	k	k͓ʃ̇	kʃ			conjunct							U+0995 U+09CD U+09B7: BENGALI LETTER KA, SIGN VIRAMA​,  LETTER SSA
+্য	s	Y	͓ý	a			conjunct							U+09CD U+09AF: BENGALI SIGN VIRAMA​, LETTER YA
 
 
 `
