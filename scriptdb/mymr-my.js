@@ -1,6 +1,3 @@
-// USE MYMR-MY RATHER THAN THIS FILE
-
-
 var spreadsheet = `
 က		k	k	k -ʔ ɡ tɕ-	ka.	consonant						U+1000: MYANMAR LETTER KA
 ခ		k	kʰ	kʰ ɡ tɕ-	hka.	consonant						U+1001: MYANMAR LETTER KHA
