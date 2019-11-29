@@ -1,8 +1,3 @@
-// USE CHER.JS RATHER THAN THIS FILE
-
-
-
-
 var spreadsheet = `
 Ꭰ		a	a	a ʔa	syllable		ꭰ		U+13A0: CHEROKEE LETTER A
 ꭰ		a	a	a ʔa	syllable			Ꭰ	U+AB70: CHEROKEE SMALL LETTER A
