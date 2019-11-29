@@ -54,7 +54,7 @@ var spreadsheet = `
 											
 											
 າ		a	ā	aː	ā	long vowel					U+0EB2: LAO VOWEL SIGN AA
-ະ		a	a	aʔ a	a	short vowel					U+0EB0: LAO VOWEL SIGN A
+ະ		a¶	a	aʔ a	a	short vowel					U+0EB0: LAO VOWEL SIGN A
 ັ		a	ä	aʔ a	a	short vowel			mâj kàn	ໄມ້ກັນ	U+0EB1: LAO VOWEL SIGN MAI KAN​
 ິ		i	i	i	i	short vowel					U+0EB4: LAO VOWEL SIGN I​
 ີ		i	ī	iː	ī	long vowel					U+0EB5: LAO VOWEL SIGN II​
@@ -76,7 +76,7 @@ var spreadsheet = `
 ໋		^	⁴			tone mark			mâj cat-ta-waː	ໄນ້ຈັດຕະວາ	U+0ECB: LAO TONE MAI CATAWA​
 											
 											
-໌		\	ˣ			cancellation mark					U+0ECC: LAO CANCELLATION MARK​
+໌		\\	ˣ			cancellation mark					U+0ECC: LAO CANCELLATION MARK​
 											
 											
 ໐		0	0	0	0	digit	infrequent		sun	ສູນ	U+0ED0: LAO DIGIT ZERO
@@ -91,13 +91,19 @@ var spreadsheet = `
 ໙		9	9	9	9	digit	infrequent		kao	ເກົ້າ	U+0ED9: LAO DIGIT NINE
 											
 											
+.		.	.	.	.	full stop					U+002E: FULL STOP
 ຯ		.	...			ellipsis					U+0EAF: LAO ELLIPSIS
-ໆ		&	&			repetition mark			kʰɯaŋ-mǎːj-sâm	ເຄ່ຶອງໝາຍຊ້ຳ	U+0EC6: LAO KO LA
+ໆ		+	&			repetition mark			kʰɯaŋ-mǎːj-sâm	ເຄ່ຶອງໝາຍຊ້ຳ	U+0EC6: LAO KO LA
 											
 											
 ₭		#	¤			currency symbol					U+20AD: KIP SIGN
 											
-\u200B		]	␣			zero-width space					U+200B: ZERO WIDTH SPACE											
+											
+\u200B		]	␣			zero-width space					U+200B: ZERO WIDTH SPACE
+											
+											
+											
+											
 											
 											
 											
