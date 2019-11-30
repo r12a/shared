@@ -1,6 +1,3 @@
-// USE ARAB-KS RATHER THAN THIS FILE
-
-
 var spreadsheet = `
 پ		p	p	p	p	p	consonant			پ پپپ	pe		U+067E: ARABIC LETTER PEH
 ت		t¶	t	t¶	t	t	consonant			ت تتت	te		U+062A: ARABIC LETTER TEH

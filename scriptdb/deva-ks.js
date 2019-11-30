@@ -1,6 +1,3 @@
-// USE DEVA-KS RATHER THAN THIS FILE
-
-
 var spreadsheet = `
 प		p	p	p		p	p	consonant						U+092A: DEVANAGARI LETTER PA
 त		t¶	t	t		t¶	t	consonant						U+0924: DEVANAGARI LETTER TA
