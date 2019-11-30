@@ -74,72 +74,6 @@ l		l	l	Alveolar lateral approximant	U+006C: LATIN SMALL LETTER L
 ǁ		|	ǁ	Alveolar lateral click	U+01C1: LATIN LETTER LATERAL CLICK
 ǃ		|	ǃ	(Post) alveolar click	U+01C3: LATIN LETTER RETROFLEX CLICK
 ǂ		|	ǂ	Palato alveolar click	U+01C2: LATIN LETTER ALVEOLAR CLICK
-∅		o	∅	Null	U+2205: EMPTY SET
-i		i	i	High front vowel unrounded	U+0069: LATIN SMALL LETTER I
-y		y	y	High front vowel rounded	U+0079: LATIN SMALL LETTER Y
-ɨ		i	ɨ	High central vowel unrounded	U+0268: LATIN SMALL LETTER I WITH STROKE
-ʉ		u	ʉ	High central vowel rounded	U+0289: LATIN SMALL LETTER U BAR
-ɯ		w	ɯ	High back vowel unrounded	U+026F: LATIN SMALL LETTER TURNED M
-u		u	u	High back vowel rounded	U+0075: LATIN SMALL LETTER U
-ɪ		i	ɪ	Semi-high front vowel unrounded	U+026A: LATIN LETTER SMALL CAPITAL I
-ʏ		y	ʏ	Semi-high front vowel rounded	U+028F: LATIN LETTER SMALL CAPITAL Y
-ʊ		u	ʊ	Semi-high back vowel rounded	U+028A: LATIN SMALL LETTER UPSILON
-e		e	e	Upper mid front vowel unrounded	U+0065: LATIN SMALL LETTER E
-ø		o	ø	Upper mid front vowel rounded	U+00F8: LATIN SMALL LETTER O WITH STROKE
-ɘ		e	ɘ	Upper-mid central unrounded vowel	U+0258: LATIN SMALL LETTER REVERSED E
-ɵ		e	ɵ	Mid central vowel rounded	U+0275: LATIN SMALL LETTER BARRED O
-ɤ		v	ɤ	Upper mid back vowel unrounded	U+0264: LATIN SMALL LETTER RAMS HORN
-o		o	o	Upper mid back vowel rounded	U+006F: LATIN SMALL LETTER O
-ə		e	ə	Mid central vowel unrounded	U+0259: LATIN SMALL LETTER SCHWA
-ɛ		e	ɛ	Lower mid front vowel unrounded	U+025B: LATIN SMALL LETTER OPEN E
-œ		o	œ	Lower mid front vowel rounded	U+0153: LATIN SMALL LIGATURE OE
-ɜ		e	ɜ	Lower-mid central unrounded vowel	U+025C: LATIN SMALL LETTER REVERSED OPEN E
-ɞ		e	ɞ	Lower-mid central rounded vowel	U+025E: LATIN SMALL LETTER CLOSED REVERSED OPEN E
-ʌ		v	ʌ	Lower mid back vowel unrounded	U+028C: LATIN SMALL LETTER TURNED V
-ɔ		o	ɔ	Lower mid back vowel rounded	U+0254: LATIN SMALL LETTER OPEN O
-æ		a	æ	Lower mid front vowel	U+00E6: LATIN SMALL LETTER AE
-ɐ		a	ɐ	Lower central vowel rounded	U+0250: LATIN SMALL LETTER TURNED A
-a		a	a	Low front vowel unrounded	U+0061: LATIN SMALL LETTER A
-ɶ		o	ɶ	Low front vowel rounded	U+0276: LATIN LETTER SMALL CAPITAL OE
-ɑ		a	ɑ	Low back vowel unrounded	U+0251: LATIN SMALL LETTER ALPHA
-ɒ		a	ɒ	Low back vowel rounded	U+0252: LATIN SMALL LETTER TURNED ALPHA
-̋		^	̋	Extra high tone	U+030B: COMBINING DOUBLE ACUTE ACCENT
-˥		^	˥	Extra high tone bar	U+02E5: MODIFIER LETTER EXTRA-HIGH TONE BAR
-̌		^	̌	Rising contour	U+030C: COMBINING CARON
-˩˥		^	˩˥	MODIFIER LETTER EXTRA-HIGH TONE BAR	U+02E9 U+02E5: MODIFIER LETTER EXTRA-LOW TONE BAR
-́		^	́	High tone	U+0301: COMBINING ACUTE ACCENT
-˦		^	˦	High tone bar	U+02E6: MODIFIER LETTER HIGH TONE BAR
-̂		^	̂	Falling contour	U+0302: COMBINING CIRCUMFLEX ACCENT
-˥˩		^	˥˩	MODIFIER LETTER EXTRA-LOW TONE BAR	U+02E5 U+02E9: MODIFIER LETTER EXTRA-HIGH TONE BAR
-̄		^	̄	Mid tone	U+0304: COMBINING MACRON
-˧		^	˧	Mid tone bar	U+02E7: MODIFIER LETTER MID TONE BAR
-᷄		^	᷄	High rising contour	U+1DC4: COMBINING MACRON-ACUTE
-˦˥		^	˦˥	MODIFIER LETTER EXTRA-HIGH TONE BAR	U+02E6 U+02E5: MODIFIER LETTER HIGH TONE BAR
-̀		^	̀	Low tone	U+0300: COMBINING GRAVE ACCENT
-˨		^	˨	Low tone bar	U+02E8: MODIFIER LETTER LOW TONE BAR
-᷅		^	᷅	Low rising contour	U+1DC5: COMBINING GRAVE-MACRON
-˩˨		^	˩˨	MODIFIER LETTER LOW TONE BAR	U+02E9 U+02E8: MODIFIER LETTER EXTRA-LOW TONE BAR
-̏		^	̏	Extra low tone	U+030F: COMBINING DOUBLE GRAVE ACCENT
-˩		^	˩	Extra low tone bar	U+02E9: MODIFIER LETTER EXTRA-LOW TONE BAR
-᷈		^	᷈	Rising-falling contour	U+1DC8: COMBINING GRAVE-ACUTE-GRAVE
-˧˦˧		^	˧˦˧	MODIFIER LETTER HIGH TONE BAR	U+02E7 U+02E6 U+02E7: MODIFIER LETTER MID TONE BAR
-↓		^	↓	Downstep	U+2193: DOWNWARDS ARROW
-↗		^	↗	Global rise	U+2197: NORTH EAST ARROW
-↑		^	↑	Upstep	U+2191: UPWARDS ARROW
-↘		^	↘	Global fall	U+2198: SOUTH EAST ARROW
-ː		[	ː	Long	U+02D0: MODIFIER LETTER TRIANGULAR COLON
-ˑ		[	ˑ	Half-long	U+02D1: MODIFIER LETTER HALF TRIANGULAR COLON
-̆		[	̆	Extra short diacritic	U+0306: COMBINING BREVE
-ˈ		[	ˈ	Primary stress	U+02C8: MODIFIER LETTER VERTICAL LINE
-ˌ		[	ˌ	Secondary stress	U+02CC: MODIFIER LETTER LOW VERTICAL LINE
-|		[	|	Minor (foot) group	U+007C: VERTICAL LINE
-‖		[	‖	Major (intonation) group	U+2016: DOUBLE VERTICAL LINE
-.		[	.	Syllable break	U+002E: FULL STOP
-‿		[	‿	Linking (absence of a break)	U+203F: UNDERTIE
-φ		p	φ	Prosodic phrase	U+03C6: GREEK SMALL LETTER PHI
-ω		w	ω	Prosodic word	U+03C9: GREEK SMALL LETTER OMEGA
-σ		o	σ	Syllable	U+03C3: GREEK SMALL LETTER SIGMA
-μ		u	μ	Mora	U+03BC: GREEK SMALL LETTER MU
 ʍ		m	ʍ	Voiceless labial velar approximant	U+028D: LATIN SMALL LETTER TURNED W
 w		w	w	Voiced labial velar approximant	U+0077: LATIN SMALL LETTER W
 ɥ		u	ɥ	Voiced labial palatal approximant	U+0265: LATIN SMALL LETTER TURNED H
@@ -150,84 +84,169 @@ w		w	w	Voiced labial velar approximant	U+0077: LATIN SMALL LETTER W
 ʑ		z	ʑ	Voiced alveolo-palatal fricative	U+0291: LATIN SMALL LETTER Z WITH CURL
 ɧ		h	ɧ	Simultaneous unvoiced postalveolar & velar fricative	U+0267: LATIN SMALL LETTER HENG WITH HOOK
 ɺ		r	ɺ	Voiced alveolar lateral flap	U+027A: LATIN SMALL LETTER TURNED R WITH LONG LEG
-ʦ		t	ʦ	Voiceless dental affricate	U+02A6: LATIN SMALL LETTER TS DIGRAPH
-t͡s		t	t͡s	Voiceless dental affricate	U+0074 U+0361 U+0073: LATIN SMALL LETTER T, COMBINING DOUBLE INVERTED BREVE, LATIN SMALL LETTER S
-ʣ		d	ʣ	Voiced dental affricate	U+02A3: LATIN SMALL LETTER DZ DIGRAPH
-d͡z		d	d͡z	Voiced dental affricate	U+0064 U+0361 U+007A: LATIN SMALL LETTER D, COMBINING DOUBLE INVERTED BREVE, LATIN SMALL LETTER Z
-ʧ		t	ʧ	Voiceless postalveolar affricate	U+02A7: LATIN SMALL LETTER TESH DIGRAPH
-t͡ʃ		t	t͡ʃ	Voiceless postalveolar affricate	U+0074 U+0361 U+0283: LATIN SMALL LETTER T, COMBINING DOUBLE INVERTED BREVE, LATIN SMALL LETTER ESH
-ʤ		d	ʤ	Voiced postalveolar affricate	U+02A4: LATIN SMALL LETTER DEZH DIGRAPH
-d͡ʒ		d	d͡ʒ	Voiced postalveolar affricate	U+0064 U+0361 U+0292: LATIN SMALL LETTER D, COMBINING DOUBLE INVERTED BREVE, LATIN SMALL LETTER EZH
-ʨ		t	ʨ	Voiceless alveolo-palatal affricate	U+02A8: LATIN SMALL LETTER TC DIGRAPH WITH CURL
-t͡ɕ		t	t͡ɕ	Voiceless alveolo-palatal affricate	U+0074 U+0361 U+0255: LATIN SMALL LETTER T, COMBINING DOUBLE INVERTED BREVE, LATIN SMALL LETTER C WITH CURL
-ʥ		d	ʥ	Voiced alveolo-palatal affricate	U+02A5: LATIN SMALL LETTER DZ DIGRAPH WITH CURL
-d͡ʑ		d	d͡ʑ	Voiced alveolo-palatal affricate	U+0064 U+0361 U+0291: LATIN SMALL LETTER D, COMBINING DOUBLE INVERTED BREVE, LATIN SMALL LETTER Z WITH CURL
+					
+t͡ʃ		T	t͡ʃ	Voiceless postalveolar affricate	U+0074 U+0361 U+0283: LATIN SMALL LETTER T, COMBINING DOUBLE INVERTED BREVE, LATIN SMALL LETTER ESH
+ʧ		T	ʧ	Voiceless postalveolar affricate	U+02A7: LATIN SMALL LETTER TESH DIGRAPH
+t͡ɕ		T	t͡ɕ	Voiceless alveolo-palatal affricate	U+0074 U+0361 U+0255: LATIN SMALL LETTER T, COMBINING DOUBLE INVERTED BREVE, LATIN SMALL LETTER C WITH CURL
+ʨ		T	ʨ	Voiceless alveolo-palatal affricate	U+02A8: LATIN SMALL LETTER TC DIGRAPH WITH CURL
+t͡s		T	t͡s	Voiceless dental affricate	U+0074 U+0361 U+0073: LATIN SMALL LETTER T, COMBINING DOUBLE INVERTED BREVE, LATIN SMALL LETTER S
+ʦ		T	ʦ	Voiceless dental affricate	U+02A6: LATIN SMALL LETTER TS DIGRAPH
+d͡ʒ		D	d͡ʒ	Voiced postalveolar affricate	U+0064 U+0361 U+0292: LATIN SMALL LETTER D, COMBINING DOUBLE INVERTED BREVE, LATIN SMALL LETTER EZH
+ʤ		D	ʤ	Voiced postalveolar affricate	U+02A4: LATIN SMALL LETTER DEZH DIGRAPH
+d͡ʑ		D	d͡ʑ	Voiced alveolo-palatal affricate	U+0064 U+0361 U+0291: LATIN SMALL LETTER D, COMBINING DOUBLE INVERTED BREVE, LATIN SMALL LETTER Z WITH CURL
+ʥ		D	ʥ	Voiced alveolo-palatal affricate	U+02A5: LATIN SMALL LETTER DZ DIGRAPH WITH CURL
+d͡z		D	d͡z	Voiced dental affricate	U+0064 U+0361 U+007A: LATIN SMALL LETTER D, COMBINING DOUBLE INVERTED BREVE, LATIN SMALL LETTER Z
+ʣ		D	ʣ	Voiced dental affricate	U+02A3: LATIN SMALL LETTER DZ DIGRAPH
+∅		o	∅	Null	U+2205: EMPTY SET
+					
+i		i¶	i	High front vowel unrounded	U+0069: LATIN SMALL LETTER I
+y		y	y	High front vowel rounded	U+0079: LATIN SMALL LETTER Y
+ɨ		i	ɨ	High central vowel unrounded	U+0268: LATIN SMALL LETTER I WITH STROKE
+ʉ		u	ʉ	High central vowel rounded	U+0289: LATIN SMALL LETTER U BAR
+ɯ		w	ɯ	High back vowel unrounded	U+026F: LATIN SMALL LETTER TURNED M
+u		u¶	u	High back vowel rounded	U+0075: LATIN SMALL LETTER U
+ɪ		i	ɪ	Semi-high front vowel unrounded	U+026A: LATIN LETTER SMALL CAPITAL I
+ʏ		y	ʏ	Semi-high front vowel rounded	U+028F: LATIN LETTER SMALL CAPITAL Y
+ʊ		u	ʊ	Semi-high back vowel rounded	U+028A: LATIN SMALL LETTER UPSILON
+e		e¶	e	Upper mid front vowel unrounded	U+0065: LATIN SMALL LETTER E
+ø		o	ø	Upper mid front vowel rounded	U+00F8: LATIN SMALL LETTER O WITH STROKE
+ɘ		e	ɘ	Upper-mid central unrounded vowel	U+0258: LATIN SMALL LETTER REVERSED E
+ɵ		e	ɵ	Mid central vowel rounded	U+0275: LATIN SMALL LETTER BARRED O
+ɤ		v	ɤ	Upper mid back vowel unrounded	U+0264: LATIN SMALL LETTER RAMS HORN
+o		o¶	o	Upper mid back vowel rounded	U+006F: LATIN SMALL LETTER O
+ə		e	ə	Mid central vowel unrounded	U+0259: LATIN SMALL LETTER SCHWA
+ɛ		e	ɛ	Lower mid front vowel unrounded	U+025B: LATIN SMALL LETTER OPEN E
+œ		o	œ	Lower mid front vowel rounded	U+0153: LATIN SMALL LIGATURE OE
+ɜ		e	ɜ	Lower-mid central unrounded vowel	U+025C: LATIN SMALL LETTER REVERSED OPEN E
+ɞ		e	ɞ	Lower-mid central rounded vowel	U+025E: LATIN SMALL LETTER CLOSED REVERSED OPEN E
+ʌ		v	ʌ	Lower mid back vowel unrounded	U+028C: LATIN SMALL LETTER TURNED V
+ɔ		o	ɔ	Lower mid back vowel rounded	U+0254: LATIN SMALL LETTER OPEN O
+æ		a	æ	Lower mid front vowel	U+00E6: LATIN SMALL LETTER AE
+ɐ		a	ɐ	Lower central vowel rounded	U+0250: LATIN SMALL LETTER TURNED A
+a		a¶	a	Low front vowel unrounded	U+0061: LATIN SMALL LETTER A
+ɶ		o	ɶ	Low front vowel rounded	U+0276: LATIN LETTER SMALL CAPITAL OE
+ɑ		a	ɑ	Low back vowel unrounded	U+0251: LATIN SMALL LETTER ALPHA
+ɒ		a	ɒ	Low back vowel rounded	U+0252: LATIN SMALL LETTER TURNED ALPHA
 ɚ		e	ɚ	Rhoticised schwa	U+025A: LATIN SMALL LETTER SCHWA WITH HOOK
 ɝ		e	ɝ	Rhoticised lower mid central vowel	U+025D: LATIN SMALL LETTER REVERSED OPEN E WITH HOOK
-ʼ		[	ʼ	Ejective diacritic	U+02BC: MODIFIER LETTER APOSTROPHE
-ʰ		h	ʰ	Aspirated diacritic	U+02B0: MODIFIER LETTER SMALL H
-˭		[	˭	Unaspirated diacritic	U+02ED: MODIFIER LETTER UNASPIRATED
-ⁿ		n	ⁿ	Nasal release	U+207F: SUPERSCRIPT LATIN SMALL LETTER N
-ˡ		l	ˡ	Lateral release	U+02E1: MODIFIER LETTER SMALL L
-ˤ		{	ˤ	Pharyngealised diacritic	U+02E4: MODIFIER LETTER SMALL REVERSED GLOTTAL STOP
-ˠ		y	ˠ	Velarised diacritic	U+02E0: MODIFIER LETTER SMALL GAMMA
-ʲ		j	ʲ	Palatalised diacritic	U+02B2: MODIFIER LETTER SMALL J
-ʷ		w	ʷ	Labialised diacritic	U+02B7: MODIFIER LETTER SMALL W
-/		[	/	Phonetic marker	U+002F: SOLIDUS
-̥		[	̥	Voiceless diacritic	U+0325: COMBINING RING BELOW
-̊		[	̊	Voiceless diacritic	U+030A: COMBINING RING ABOVE
-̬		[	̬	Voiced diacritic	U+032C: COMBINING CARON BELOW
-̤		[	̤	Breathy voiced diacritic	U+0324: COMBINING DIAERESIS BELOW
-̰		[	̰	Creaky voiced diacritic	U+0330: COMBINING TILDE BELOW
-͓		[	͓	Frictionalised diacritic	U+0353: COMBINING X BELOW
-̼		[	̼	Linguolabial diacritic	U+033C: COMBINING SEAGULL BELOW
-̪		[	̪	Dental diacritic	U+032A: COMBINING BRIDGE BELOW
-̺		[	̺	Apical diacritic	U+033A: COMBINING INVERTED BRIDGE BELOW
-̻		[	̻	Laminal diacritic	U+033B: COMBINING SQUARE BELOW
-̹		[	̹	More rounded diacritic	U+0339: COMBINING RIGHT HALF RING BELOW
-̜		[	̜	Less rounded diacritic	U+031C: COMBINING LEFT HALF RING BELOW
-̟		[	̟	Advanced diacritic	U+031F: COMBINING PLUS SIGN BELOW
-̠		[	̠	Retracted diacritic	U+0320: COMBINING MINUS SIGN BELOW
-̈		[	̈	Centralised diacritic	U+0308: COMBINING DIAERESIS
-̽		[	̽	Mid-centralised diacritic	U+033D: COMBINING X ABOVE
-̩		[	̩	Syllabic diacritic	U+0329: COMBINING VERTICAL LINE BELOW
-̯		[	̯	Non-syllabic diacritic	U+032F: COMBINING INVERTED BREVE BELOW
-˞		[	˞	Rhoticity diacritic	U+02DE: MODIFIER LETTER RHOTIC HOOK
-̮		[	̮	Derhoticised diacritic	U+032E: COMBINING BREVE BELOW
-̙		[	̙	Retracted tongue root diacritic	U+0319: COMBINING RIGHT TACK BELOW
-̘		[	̘	Advanced tongue root diacritic	U+0318: COMBINING LEFT TACK BELOW
-̞		[	̞	Lowered diacritic	U+031E: COMBINING DOWN TACK BELOW
-̝		[	̝	Raised diacritic	U+031D: COMBINING UP TACK BELOW
-̴		[	̴	Velarised or pharyngealised diacritic	U+0334: COMBINING TILDE OVERLAY
-̃		[	̃	Nasalised diacritic	U+0303: COMBINING TILDE
-̨		[	̨	Alternate nasalised diacritic	U+0328: COMBINING OGONEK
-͊		[	͊	Denasalised diacritic	U+034A: COMBINING NOT TILDE ABOVE
-͋		[	͋	Nasal emission	U+034B: COMBINING HOMOTHETIC ABOVE
-̚		[	̚	No audible release diacritic	U+031A: COMBINING LEFT ANGLE ABOVE
-ᵊ		e	ᵊ	Mid central vowel release	U+1D4A: MODIFIER LETTER SMALL SCHWA
-͡		[	͡	Upper ligature tie	U+0361: COMBINING DOUBLE INVERTED BREVE
-͜		[	͜	Lower ligature tie	U+035C: COMBINING DOUBLE BREVE BELOW
-◌		[	◌	Dotted circle	U+25CC: DOTTED CIRCLE
-꜈		^	꜈	Tone bar	U+A708: MODIFIER LETTER EXTRA-HIGH DOTTED TONE BAR
-꜉		^	꜉	Tone bar	U+A709: MODIFIER LETTER HIGH DOTTED TONE BAR
-꜊		^	꜊	Tone bar	U+A70A: MODIFIER LETTER MID DOTTED TONE BAR
-꜋		^	꜋	Tone bar	U+A70B: MODIFIER LETTER LOW DOTTED TONE BAR
-꜌		^	꜌	Tone bar	U+A70C: MODIFIER LETTER EXTRA-LOW DOTTED TONE BAR
-꜍		^	꜍	Tone bar	U+A70D: MODIFIER LETTER EXTRA-HIGH DOTTED LEFT-STEM TONE BAR
-꜎		^	꜎	Tone bar	U+A70E: MODIFIER LETTER HIGH DOTTED LEFT-STEM TONE BAR
-꜏		^	꜏	Tone bar	U+A70F: MODIFIER LETTER MID DOTTED LEFT-STEM TONE BAR
-꜐		^	꜐	Tone bar	U+A710: MODIFIER LETTER LOW DOTTED LEFT-STEM TONE BAR
-꜑		^	꜑	Tone bar	U+A711: MODIFIER LETTER EXTRA-LOW DOTTED LEFT-STEM TONE BAR
-꜒		^	꜒	Tone bar	U+A712: MODIFIER LETTER EXTRA-HIGH LEFT-STEM TONE BAR
-꜓		^	꜓	Tone bar	U+A713: MODIFIER LETTER HIGH LEFT-STEM TONE BAR
-꜔		^	꜔	Tone bar	U+A714: MODIFIER LETTER MID LEFT-STEM TONE BAR
-꜕		^	꜕	Tone bar	U+A715: MODIFIER LETTER LOW LEFT-STEM TONE BAR
-꜖		^	꜖	Tone bar	U+A716: MODIFIER LETTER EXTRA-LOW LEFT-STEM TONE BAR
-꜒		^	꜒	Tone bar	U+A712: MODIFIER LETTER EXTRA-HIGH LEFT-STEM TONE BAR
-꜓		^	꜓	Tone bar	U+A713: MODIFIER LETTER HIGH LEFT-STEM TONE BAR
-꜔		^	꜔	Tone bar	U+A714: MODIFIER LETTER MID LEFT-STEM TONE BAR
-꜕		^	꜕	Tone bar	U+A715: MODIFIER LETTER LOW LEFT-STEM TONE BAR
-꜖		^	꜖	Tone bar	U+A716: MODIFIER LETTER EXTRA-LOW LEFT-STEM TONE BAR
+					
+˥		&	˥	Extra high tone bar	U+02E5: MODIFIER LETTER EXTRA-HIGH TONE BAR
+˩˥		&	˩˥	MODIFIER LETTER EXTRA-HIGH TONE BAR	U+02E9 U+02E5: MODIFIER LETTER EXTRA-LOW TONE BAR
+˦		&	˦	High tone bar	U+02E6: MODIFIER LETTER HIGH TONE BAR
+˥˩		&	˥˩	MODIFIER LETTER EXTRA-LOW TONE BAR	U+02E5 U+02E9: MODIFIER LETTER EXTRA-HIGH TONE BAR
+˧		&	˧	Mid tone bar	U+02E7: MODIFIER LETTER MID TONE BAR
+˦˥		&	˦˥	MODIFIER LETTER EXTRA-HIGH TONE BAR	U+02E6 U+02E5: MODIFIER LETTER HIGH TONE BAR
+˨		&	˨	Low tone bar	U+02E8: MODIFIER LETTER LOW TONE BAR
+˩˨		&	˩˨	MODIFIER LETTER LOW TONE BAR	U+02E9 U+02E8: MODIFIER LETTER EXTRA-LOW TONE BAR
+˩		&	˩	Extra low tone bar	U+02E9: MODIFIER LETTER EXTRA-LOW TONE BAR
+˧˦˧		&	˧˦˧	MODIFIER LETTER HIGH TONE BAR	U+02E7 U+02E6 U+02E7: MODIFIER LETTER MID TONE BAR
+					
+̋		^	̋	Extra high tone	U+030B: COMBINING DOUBLE ACUTE ACCENT
+̌		^	̌	Rising contour	U+030C: COMBINING CARON
+́		^	́	High tone	U+0301: COMBINING ACUTE ACCENT
+̂		^	̂	Falling contour	U+0302: COMBINING CIRCUMFLEX ACCENT
+̄		^	̄	Mid tone	U+0304: COMBINING MACRON
+᷄		^	᷄	High rising contour	U+1DC4: COMBINING MACRON-ACUTE
+̀		^	̀	Low tone	U+0300: COMBINING GRAVE ACCENT
+᷅		^	᷅	Low rising contour	U+1DC5: COMBINING GRAVE-MACRON
+̏		^	̏	Extra low tone	U+030F: COMBINING DOUBLE GRAVE ACCENT
+᷈		^	᷈	Rising-falling contour	U+1DC8: COMBINING GRAVE-ACUTE-GRAVE
+					
+↓		_	↓	Downstep	U+2193: DOWNWARDS ARROW
+↗		_	↗	Global rise	U+2197: NORTH EAST ARROW
+↑		_	↑	Upstep	U+2191: UPWARDS ARROW
+↘		_	↘	Global fall	U+2198: SOUTH EAST ARROW
+					
+ː		;	ː	Long	U+02D0: MODIFIER LETTER TRIANGULAR COLON
+ˑ		;	ˑ	Half-long	U+02D1: MODIFIER LETTER HALF TRIANGULAR COLON
+̆		;	̆	Extra short diacritic	U+0306: COMBINING BREVE
+					
+ˈ		\\	ˈ	Primary stress	U+02C8: MODIFIER LETTER VERTICAL LINE
+ˌ		\\	ˌ	Secondary stress	U+02CC: MODIFIER LETTER LOW VERTICAL LINE
+|		\\	|	Minor (foot) group	U+007C: VERTICAL LINE
+‖		\\	‖	Major (intonation) group	U+2016: DOUBLE VERTICAL LINE
+.		\\	.	Syllable break	U+002E: FULL STOP
+‿		\\	‿	Linking (absence of a break)	U+203F: UNDERTIE
+φ		\\	φ	Prosodic phrase	U+03C6: GREEK SMALL LETTER PHI
+ω		\\	ω	Prosodic word	U+03C9: GREEK SMALL LETTER OMEGA
+σ		\\	σ	Syllable	U+03C3: GREEK SMALL LETTER SIGMA
+μ		\\	μ	Mora	U+03BC: GREEK SMALL LETTER MU
+					
+					
+					
+ʼ		%	ʼ	Ejective diacritic	U+02BC: MODIFIER LETTER APOSTROPHE
+ʰ		%	ʰ	Aspirated diacritic	U+02B0: MODIFIER LETTER SMALL H
+˭		%	˭	Unaspirated diacritic	U+02ED: MODIFIER LETTER UNASPIRATED
+ⁿ		%	ⁿ	Nasal release	U+207F: SUPERSCRIPT LATIN SMALL LETTER N
+ˡ		%	ˡ	Lateral release	U+02E1: MODIFIER LETTER SMALL L
+ˤ		%	ˤ	Pharyngealised diacritic	U+02E4: MODIFIER LETTER SMALL REVERSED GLOTTAL STOP
+ˠ		%	ˠ	Velarised diacritic	U+02E0: MODIFIER LETTER SMALL GAMMA
+ʲ		%	ʲ	Palatalised diacritic	U+02B2: MODIFIER LETTER SMALL J
+ʷ		%	ʷ	Labialised diacritic	U+02B7: MODIFIER LETTER SMALL W
+					
+/		/	/	Phonetic marker	U+002F: SOLIDUS
+[		[	[	Phonemic marker	U+005B: LEFT SQUARE BRACKET
+]		]	]	Phonemic marker	U+005D: RIGHT SQUARE BRACKET
+					
+̊		!	̊	Voiceless diacritic	U+030A: COMBINING RING ABOVE
+̈		!	̈	Centralised diacritic	U+0308: COMBINING DIAERESIS
+̽		!	̽	Mid-centralised diacritic	U+033D: COMBINING X ABOVE
+̃		!	̃	Nasalised diacritic	U+0303: COMBINING TILDE
+͊		!	͊	Denasalised diacritic	U+034A: COMBINING NOT TILDE ABOVE
+͋		!	͋	Nasal emission	U+034B: COMBINING HOMOTHETIC ABOVE
+̚		!	̚	No audible release diacritic	U+031A: COMBINING LEFT ANGLE ABOVE
+ᵊ		!	ᵊ	Mid central vowel release	U+1D4A: MODIFIER LETTER SMALL SCHWA
+͡		!	͡	Upper ligature tie	U+0361: COMBINING DOUBLE INVERTED BREVE
+					
+̥		@	̥	Voiceless diacritic	U+0325: COMBINING RING BELOW
+̬		@	̬	Voiced diacritic	U+032C: COMBINING CARON BELOW
+̤		@	̤	Breathy voiced diacritic	U+0324: COMBINING DIAERESIS BELOW
+̰		@	̰	Creaky voiced diacritic	U+0330: COMBINING TILDE BELOW
+͓		@	͓	Frictionalised diacritic	U+0353: COMBINING X BELOW
+̨		@	̨	Alternate nasalised diacritic	U+0328: COMBINING OGONEK
+̹		@	̹	More rounded diacritic	U+0339: COMBINING RIGHT HALF RING BELOW
+̜		@	̜	Less rounded diacritic	U+031C: COMBINING LEFT HALF RING BELOW
+̮		@	̮	Derhoticised diacritic	U+032E: COMBINING BREVE BELOW
+					
+̼		#	̼	Linguolabial diacritic	U+033C: COMBINING SEAGULL BELOW
+̪		#	̪	Dental diacritic	U+032A: COMBINING BRIDGE BELOW
+̺		#	̺	Apical diacritic	U+033A: COMBINING INVERTED BRIDGE BELOW
+̻		#	̻	Laminal diacritic	U+033B: COMBINING SQUARE BELOW
+̟		#	̟	Advanced diacritic	U+031F: COMBINING PLUS SIGN BELOW
+̠		#	̠	Retracted diacritic	U+0320: COMBINING MINUS SIGN BELOW
+̩		#	̩	Syllabic diacritic	U+0329: COMBINING VERTICAL LINE BELOW
+̯		#	̯	Non-syllabic diacritic	U+032F: COMBINING INVERTED BREVE BELOW
+͜		#	͜	Lower ligature tie	U+035C: COMBINING DOUBLE BREVE BELOW
+					
+̙		$	̙	Retracted tongue root diacritic	U+0319: COMBINING RIGHT TACK BELOW
+̘		$	̘	Advanced tongue root diacritic	U+0318: COMBINING LEFT TACK BELOW
+̞		$	̞	Lowered diacritic	U+031E: COMBINING DOWN TACK BELOW
+̝		$	̝	Raised diacritic	U+031D: COMBINING UP TACK BELOW
+˞		$	˞	Rhoticity diacritic	U+02DE: MODIFIER LETTER RHOTIC HOOK
+̴		$	̴	Velarised or pharyngealised diacritic	U+0334: COMBINING TILDE OVERLAY
+					
+◌		+	◌	Dotted circle	U+25CC: DOTTED CIRCLE
+					
+꜈			꜈	Tone bar	U+A708: MODIFIER LETTER EXTRA-HIGH DOTTED TONE BAR
+꜉			꜉	Tone bar	U+A709: MODIFIER LETTER HIGH DOTTED TONE BAR
+꜊			꜊	Tone bar	U+A70A: MODIFIER LETTER MID DOTTED TONE BAR
+꜋			꜋	Tone bar	U+A70B: MODIFIER LETTER LOW DOTTED TONE BAR
+꜌			꜌	Tone bar	U+A70C: MODIFIER LETTER EXTRA-LOW DOTTED TONE BAR
+꜍			꜍	Tone bar	U+A70D: MODIFIER LETTER EXTRA-HIGH DOTTED LEFT-STEM TONE BAR
+꜎			꜎	Tone bar	U+A70E: MODIFIER LETTER HIGH DOTTED LEFT-STEM TONE BAR
+꜏			꜏	Tone bar	U+A70F: MODIFIER LETTER MID DOTTED LEFT-STEM TONE BAR
+꜐			꜐	Tone bar	U+A710: MODIFIER LETTER LOW DOTTED LEFT-STEM TONE BAR
+꜑			꜑	Tone bar	U+A711: MODIFIER LETTER EXTRA-LOW DOTTED LEFT-STEM TONE BAR
+꜒			꜒	Tone bar	U+A712: MODIFIER LETTER EXTRA-HIGH LEFT-STEM TONE BAR
+꜓			꜓	Tone bar	U+A713: MODIFIER LETTER HIGH LEFT-STEM TONE BAR
+꜔			꜔	Tone bar	U+A714: MODIFIER LETTER MID LEFT-STEM TONE BAR
+꜕			꜕	Tone bar	U+A715: MODIFIER LETTER LOW LEFT-STEM TONE BAR
+꜖			꜖	Tone bar	U+A716: MODIFIER LETTER EXTRA-LOW LEFT-STEM TONE BAR
+꜒			꜒	Tone bar	U+A712: MODIFIER LETTER EXTRA-HIGH LEFT-STEM TONE BAR
+꜓			꜓	Tone bar	U+A713: MODIFIER LETTER HIGH LEFT-STEM TONE BAR
+꜔			꜔	Tone bar	U+A714: MODIFIER LETTER MID LEFT-STEM TONE BAR
+꜕			꜕	Tone bar	U+A715: MODIFIER LETTER LOW LEFT-STEM TONE BAR
+꜖			꜖	Tone bar	U+A716: MODIFIER LETTER EXTRA-LOW LEFT-STEM TONE BAR
 
 
 `
