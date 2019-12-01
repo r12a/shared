@@ -51,10 +51,10 @@ var spreadsheet = `
 ூ		u	ū	uː	u	ū	u	vowel sign			ஊ			U+0BC2: TAMIL VOWEL SIGN UU​
 ெ		e	e	e	e	e	e	vowel sign			எ			U+0BC6: TAMIL VOWEL SIGN E​
 ே		e	ē	eː	e	ē	e	vowel sign			ஏ			U+0BC7: TAMIL VOWEL SIGN EE​
-ொ		v	o	o	o	o	o	vowel sign			ஒ			U+0BCA: TAMIL VOWEL SIGN O​
+ொ		o	o	o	o	o	o	vowel sign			ஒ			U+0BCA: TAMIL VOWEL SIGN O​
 ோ		o	ō	oː	o	ō	o	vowel sign			ஓ			U+0BCB: TAMIL VOWEL SIGN OO​
-ை		o	ʌʲ	ʌj	a	ai	v	vowel sign			ஐ			U+0BC8: TAMIL VOWEL SIGN AI​
-ௌ		v	ʌʷ	ʌʋ	a	aw	v	vowel sign			ஔ			U+0BCC: TAMIL VOWEL SIGN AU​
+ை		v	ʌʲ	ʌj	a	ai	v	vowel sign			ஐ			U+0BC8: TAMIL VOWEL SIGN AI​
+ௌ		v	ʌʷ	ʌʋ	a	aw	v	vowel sign			ஔ			U+0BCC: TAMIL VOWEL SIGN AU
 														
 														
 ்		*	͓					virama					puḷḷi	U+0BCD: TAMIL SIGN VIRAMA​
