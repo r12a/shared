@@ -30,7 +30,7 @@ var spreadsheet = `
 ஃ		/	ˑ		/	ḵ		sound converter				ஆய்தம்	ɑ̣̄y͓tam͓	U+0B83: TAMIL SIGN VISARGA
 														
 														
-அ		V	ạ	ʌ	A	a	V	independent vowel						U+0B85: TAMIL LETTER A
+அ		A	ạ	ʌ	A	a	V	independent vowel						U+0B85: TAMIL LETTER A
 ஆ		A	ɑ̣̄	ɑː	A	ā	A	independent vowel		ா				U+0B86: TAMIL LETTER AA
 இ		I	ị	i	I	i	I	independent vowel		ி				U+0B87: TAMIL LETTER I
 ஈ		I	ị̄	iː	I	ī	I	independent vowel		ீ				U+0B88: TAMIL LETTER II
@@ -38,9 +38,9 @@ var spreadsheet = `
 ஊ		U	ụ̄	uː	U	ū	U	independent vowel		ூ				U+0B8A: TAMIL LETTER UU
 எ		E	ẹ	e	E	e	E	independent vowel		ெ				U+0B8E: TAMIL LETTER E
 ஏ		E	ẹ̄	eː	E	ē	E	independent vowel		ே				U+0B8F: TAMIL LETTER EE
-ஒ		V	ọ	ʌj	O	o	V	independent vowel		ொ				U+0B92: TAMIL LETTER O
+ஒ		O	ọ	ʌj	O	o	V	independent vowel		ொ				U+0B92: TAMIL LETTER O
 ஓ		O	ọ̄	o	O	ō	O	independent vowel		ோ				U+0B93: TAMIL LETTER OO
-ஐ		O	ʌ̣ʲ	oː	A	ai	A	independent vowel		ை				U+0B90: TAMIL LETTER AI
+ஐ		V	ʌ̣ʲ	oː	A	ai	A	independent vowel		ை				U+0B90: TAMIL LETTER AI
 ஔ		V	ʌ̣ʷ	ʌʋ	A	aw	V	independent vowel		ௌ				U+0B94: TAMIL LETTER AU
 														
 														
@@ -61,32 +61,30 @@ var spreadsheet = `
 ௗ		:	ː					length mark	d					U+0BD7: TAMIL AU LENGTH MARK​
 														
 														
-௹			{rupee}					rupee sign					rupai	U+0BF9: TAMIL RUPEE SIGN
 ௐ		$	{om}					om					ōm̐	U+0BD0: TAMIL OM
 ௵		$	{year}					year					varudam	U+0BF5: TAMIL YEAR SIGN
 ௴		$	{month}					month					mātam	U+0BF4: TAMIL MONTH SIGN
 ௳		$	{day}					day					nāl	U+0BF3: TAMIL DAY SIGN
-௺		±	#					number sign					enn	U+0BFA: TAMIL NUMBER SIGN
-௶			{debit}					debit sign					patru	U+0BF6: TAMIL DEBIT SIGN
-௷			{credit}					credit sign					varavu	U+0BF7: TAMIL CREDIT SIGN
-௸			{as above}					as above					merpadi	U+0BF8: TAMIL AS ABOVE SIGN
+௺		#	#					number sign					enn	U+0BFA: TAMIL NUMBER SIGN
+௶		#	{debit}					debit sign					patru	U+0BF6: TAMIL DEBIT SIGN
+௷		#	{credit}					credit sign					varavu	U+0BF7: TAMIL CREDIT SIGN
+௸		$	{as_above}					as above					merpadi	U+0BF8: TAMIL AS ABOVE SIGN
+௹		#	{rupee}					rupee sign					rupai	U+0BF9: TAMIL RUPEE SIGN
 														
 														
-௦		§	0		§	0						பூக்கியம்	pūk͓kiyam͓	U+0BE6: TAMIL DIGIT ZERO
-௧		§	1		§	1						ஒன்று	ọn͓ru	U+0BE7: TAMIL DIGIT ONE
-௨		§	2		§	2						இரண்து	ịɾaɳ͓tu	U+0BE8: TAMIL DIGIT TWO
-௩		§	3		§	3						மூன்று	mūn͓ru	U+0BE9: TAMIL DIGIT THREE
-௪		§	4		§	4						நரன்கு	ṅaɾan͓ku	U+0BEA: TAMIL DIGIT FOUR
-௫		§	5		§	5						ஐந்து	ʌ̣ʲṅ͓tu	U+0BEB: TAMIL DIGIT FIVE
-௬		§	6		§	6						ஆறு	ɑ̣̄ru	U+0BEC: TAMIL DIGIT SIX
-௭		§	7		§	7						ஏழு	ẹ̄ɻu	U+0BED: TAMIL DIGIT SEVEN
-௮		§	8		§	8						எட்டு	ẹʈ͓ʈu	U+0BEE: TAMIL DIGIT EIGHT
-௯		§	9		§	9						ஒன்பது	ọn͓patu	U+0BEF: TAMIL DIGIT NINE
-௰		±	{10}		±	(ten)						பத்து	pat͓tu	U+0BF0: TAMIL NUMBER TEN
-௱		±	{100}		±	(hundred)						நூறு	ṅūru	U+0BF1: TAMIL NUMBER ONE HUNDRED
-௲		±	{1000}		±	(thousand)						எந்	ẹṅ͓	U+0BF2: TAMIL NUMBER ONE THOUSAND
-														
-														
+௦		±	0		±	0						பூக்கியம்	pūk͓kiyam͓	U+0BE6: TAMIL DIGIT ZERO
+௧		±	1		±	1						ஒன்று	ọn͓ru	U+0BE7: TAMIL DIGIT ONE
+௨		±	2		±	2						இரண்து	ịɾaɳ͓tu	U+0BE8: TAMIL DIGIT TWO
+௩		±	3		±	3						மூன்று	mūn͓ru	U+0BE9: TAMIL DIGIT THREE
+௪		±	4		±	4						நரன்கு	ṅaɾan͓ku	U+0BEA: TAMIL DIGIT FOUR
+௫		±	5		±	5						ஐந்து	ʌ̣ʲṅ͓tu	U+0BEB: TAMIL DIGIT FIVE
+௬		±	6		±	6						ஆறு	ɑ̣̄ru	U+0BEC: TAMIL DIGIT SIX
+௭		±	7		±	7						ஏழு	ẹ̄ɻu	U+0BED: TAMIL DIGIT SEVEN
+௮		±	8		±	8						எட்டு	ẹʈ͓ʈu	U+0BEE: TAMIL DIGIT EIGHT
+௯		±	9		±	9						ஒன்பது	ọn͓patu	U+0BEF: TAMIL DIGIT NINE
+௰		$	{10}		$	(ten)						பத்து	pat͓tu	U+0BF0: TAMIL NUMBER TEN
+௱		$	{100}		$	(hundred)						நூறு	ṅūru	U+0BF1: TAMIL NUMBER ONE HUNDRED
+௲		$	{1000}		$	(thousand)						எந்	ẹṅ͓	U+0BF2: TAMIL NUMBER ONE THOUSAND														
 														
 														
 														
@@ -94,9 +92,12 @@ var spreadsheet = `
 														
 ।		,	.		,	.	,							U+0964: DEVANAGARI DANDA
 ॥		|	¶		|	¶	[							U+0965: DEVANAGARI DOUBLE DANDA
-														
-														
-														
+,		,	,											U+002C: COMMA
+:		:¶	:											U+003A: COLON														
+“		<	“											U+201C: LEFT DOUBLE QUOTATION MARK
+”		>	”											U+201D: RIGHT DOUBLE QUOTATION MARK
+‘		<	‘											U+2018: LEFT SINGLE QUOTATION MARK
+’		>	’											U+2019: RIGHT SINGLE QUOTATION MARK														
 														
 														
 														
@@ -109,7 +110,8 @@ var spreadsheet = `
 ஃஸ	s	k	ᶄ	ks	k	ḵs	k	extended consonant						U+0B83 U+0BB8: TAMIL SIGN VISARGA, LETTER SA
 ஃக	s	x	x	x	k	ḵk	x	extended consonant						U+0B83 U+0B95: TAMIL SIGN VISARGA, LETTER KA
 														
-க்ஷ	s	k	k͓ʂ	kʂ	k	kṣ	k	ligature						U+0B95 U+0BCD U+0BB7: TAMIL LETTER KA, SIGN VIRAMA, LETTER SSA
+க்ஷ	s	K	k͓ʂ	kʂ	k	kṣ	k	ligature						U+0B95 U+0BCD U+0BB7: TAMIL LETTER KA, SIGN VIRAMA, LETTER SSA
+ஶ்ரீ	s	S	ʃ͓ɾī	ʃ͓ɾī				ligature						U+0BB6 U+0BCD U+0BB0 U+0BC0: TAMIL LETTER SHA, SIGN VIRAMA, LETTER RA, VOWEL SIGN II
 
 
 `
