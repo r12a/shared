@@ -61,6 +61,7 @@ var spreadsheet = `
 ௗ		:	ː					length mark	d					U+0BD7: TAMIL AU LENGTH MARK​
 														
 														
+௹		#	{rupee}					rupee sign					rupai	U+0BF9: TAMIL RUPEE SIGN
 ௐ		$	{om}					om					ōm̐	U+0BD0: TAMIL OM
 ௵		$	{year}					year					varudam	U+0BF5: TAMIL YEAR SIGN
 ௴		$	{month}					month					mātam	U+0BF4: TAMIL MONTH SIGN
@@ -69,7 +70,6 @@ var spreadsheet = `
 ௶		#	{debit}					debit sign					patru	U+0BF6: TAMIL DEBIT SIGN
 ௷		#	{credit}					credit sign					varavu	U+0BF7: TAMIL CREDIT SIGN
 ௸		$	{as_above}					as above					merpadi	U+0BF8: TAMIL AS ABOVE SIGN
-௹		#	{rupee}					rupee sign					rupai	U+0BF9: TAMIL RUPEE SIGN
 														
 														
 ௦		±	0		±	0						பூக்கியம்	pūk͓kiyam͓	U+0BE6: TAMIL DIGIT ZERO
@@ -90,7 +90,7 @@ var spreadsheet = `
 														
 														
 														
-।		,	.		,	.	,							U+0964: DEVANAGARI DANDA
+।		|	|		|	.	,							U+0964: DEVANAGARI DANDA
 ॥		|	¶		|	¶	[							U+0965: DEVANAGARI DOUBLE DANDA
 ,		,	,											U+002C: COMMA
 :		:¶	:											U+003A: COLON														
