@@ -20,7 +20,7 @@ var spreadsheet = `
 														
 														
 ஜ		d	ʤ	ʤ- z	d	d	d z	grantha consonant						U+0B9C: TAMIL LETTER JA
-ஶ		s	ʃ	ɕ ʃ	s	?	c s	grantha consonant						U+0BB6: TAMIL LETTER SHA
+ஶ		s	ʃ	ɕ ʃ	s	?	c s	grantha consonant	infrequent					U+0BB6: TAMIL LETTER SHA
 ஷ		s	ʂ	ʂ	s	ṣ	s	grantha consonant						U+0BB7: TAMIL LETTER SSA
 ஸ		s¶	s	s	s¶	s	s¶	grantha consonant						U+0BB8: TAMIL LETTER SA
 ஹ		h	h	h	h	h	h	grantha consonant						U+0BB9: TAMIL LETTER HA
@@ -38,9 +38,9 @@ var spreadsheet = `
 ஊ		U	ụ̄	uː	U	ū	U	independent vowel		ூ				U+0B8A: TAMIL LETTER UU
 எ		E	ẹ	e	E	e	E	independent vowel		ெ				U+0B8E: TAMIL LETTER E
 ஏ		E	ẹ̄	eː	E	ē	E	independent vowel		ே				U+0B8F: TAMIL LETTER EE
-ஒ		O	ọ	ʌj	O	o	V	independent vowel		ொ				U+0B92: TAMIL LETTER O
+ஒ		o	ọ	oː	O	o	V	independent vowel		ொ				U+0B92: TAMIL LETTER O
 ஓ		O	ọ̄	o	O	ō	O	independent vowel		ோ				U+0B93: TAMIL LETTER OO
-ஐ		V	ʌ̣ʲ	oː	A	ai	A	independent vowel		ை				U+0B90: TAMIL LETTER AI
+ஐ		V	ʌ̣ʲ	ʌj	A	ai	A	independent vowel		ை				U+0B90: TAMIL LETTER AI
 ஔ		V	ʌ̣ʷ	ʌʋ	A	aw	V	independent vowel		ௌ				U+0B94: TAMIL LETTER AU
 														
 														
@@ -54,7 +54,7 @@ var spreadsheet = `
 ொ		o	o	o	o	o	o	vowel sign			ஒ			U+0BCA: TAMIL VOWEL SIGN O​
 ோ		o	ō	oː	o	ō	o	vowel sign			ஓ			U+0BCB: TAMIL VOWEL SIGN OO​
 ை		v	ʌʲ	ʌj	a	ai	v	vowel sign			ஐ			U+0BC8: TAMIL VOWEL SIGN AI​
-ௌ		v	ʌʷ	ʌʋ	a	aw	v	vowel sign			ஔ			U+0BCC: TAMIL VOWEL SIGN AU
+ௌ		v	ʌʷ	ʌʋ	a	aw	v	vowel sign			ஔ			U+0BCC: TAMIL VOWEL SIGN AU​
 														
 														
 ்		*	͓					virama					puḷḷi	U+0BCD: TAMIL SIGN VIRAMA​
@@ -84,7 +84,9 @@ var spreadsheet = `
 ௯		±	9		±	9						ஒன்பது	ọn͓patu	U+0BEF: TAMIL DIGIT NINE
 ௰		$	{10}		$	(ten)						பத்து	pat͓tu	U+0BF0: TAMIL NUMBER TEN
 ௱		$	{100}		$	(hundred)						நூறு	ṅūru	U+0BF1: TAMIL NUMBER ONE HUNDRED
-௲		$	{1000}		$	(thousand)						எந்	ẹṅ͓	U+0BF2: TAMIL NUMBER ONE THOUSAND														
+௲		$	{1000}		$	(thousand)						எந்	ẹṅ͓	U+0BF2: TAMIL NUMBER ONE THOUSAND
+														
+														
 														
 														
 														
@@ -93,11 +95,13 @@ var spreadsheet = `
 ।		|	|		|	.	,							U+0964: DEVANAGARI DANDA
 ॥		|	¶		|	¶	[							U+0965: DEVANAGARI DOUBLE DANDA
 ,		,	,											U+002C: COMMA
-:		:¶	:											U+003A: COLON														
+:		:¶	:											U+003A: COLON
 “		<	“											U+201C: LEFT DOUBLE QUOTATION MARK
 ”		>	”											U+201D: RIGHT DOUBLE QUOTATION MARK
 ‘		<	‘											U+2018: LEFT SINGLE QUOTATION MARK
-’		>	’											U+2019: RIGHT SINGLE QUOTATION MARK														
+’		>	’											U+2019: RIGHT SINGLE QUOTATION MARK
+														
+														
 														
 														
 														
@@ -112,6 +116,7 @@ var spreadsheet = `
 														
 க்ஷ	s	K	k͓ʂ	kʂ	k	kṣ	k	ligature						U+0B95 U+0BCD U+0BB7: TAMIL LETTER KA, SIGN VIRAMA, LETTER SSA
 ஶ்ரீ	s	S	ʃ͓ɾī	ʃ͓ɾī				ligature						U+0BB6 U+0BCD U+0BB0 U+0BC0: TAMIL LETTER SHA, SIGN VIRAMA, LETTER RA, VOWEL SIGN II
+ஸ்ரீ	s	S	s͓ɾī	ʃ͓ɾī				ligature	not recommended by Unicode, but common					U+0BB8 U+0BCD U+0BB0 U+0BC0: TAMIL LETTER SA, SIGN VIRAMA, LETTER RA, VOWEL SIGN II
 
 
 `
