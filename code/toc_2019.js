@@ -1,3 +1,5 @@
+// functions to create a table of contents and to automatically set up section and figure references
+
 
 function createtoc (maxlevel) {
 	// creates a TOC and puts it in a div with id="toc" & creates a self-link
@@ -58,7 +60,7 @@ function createtoc (maxlevel) {
 	}
     
 
-
+/*
 function setFigRefs () {
     // finds all a elements with class figref and replaces the content
     // of the element with 'Fig. '+<counter>
@@ -71,18 +73,46 @@ function setFigRefs () {
         }
     
     var figrefs = document.querySelectorAll('.figref')
+	console.log(figrefs)
     for (let i=0;i<figrefs.length;i++) {
         var id = ''
         for (let f=0;f<figures.length;f++) {
             var url = figrefs[i].href.split('#')
             if (url.length > 0) id = url[1]
             else break
+			console.log(figures[f], id)
             if (figures[f] === id) {
                 figrefs[i].textContent = 'Fig. '+eval(f+1)
                 figrefs[i].href = '#'+id
                 break
                 }
             else figrefs[i].textContent = 'Unknown figure'
+            }
+        }
+    }
+    */
+
+
+function setFigRefs () {
+    // finds all a elements with class figref and replaces the content
+    // of the element with 'Fig. '+<counter>
+    
+    // make a list of figures with captions
+    var figs = document.querySelectorAll('figure')
+    var figures = {}
+	var counter = 0
+    for (let i=0;i<figs.length;i++) {
+        if (figs[i].querySelector('figcaption') !== null) figures[figs[i].id] = ++counter
+        }
+    console.log('figures',figures)
+	
+	var figrefs = document.querySelectorAll('.figref')
+    for (let i=0;i<figrefs.length;i++) {
+        var id = figrefs[i].textContent.replace(/#/,'')
+        if (figures[id] === null) console.log('Section not found: ',id)
+        else {
+            figrefs[i].innerHTML = 'Figure '+figures[id]
+            figrefs[i].href = '#'+id
             }
         }
     }
@@ -103,6 +133,9 @@ function setSectionRefs () {
             }
         }
     }
+
+
+
 
 
 
