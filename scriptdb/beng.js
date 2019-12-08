@@ -1,18 +1,13 @@
-// USE BENG.JS RATHER THAN THIS FILE
-
-
-
-
 var spreadsheet = `
 ক		k	k	k	k	k	consonant					kɔ		U+0995: BENGALI LETTER KA
 খ		K	kʰ	kʰ	K	kh	consonant					khɔ		U+0996: BENGALI LETTER KHA
 গ		g	g	g	g	g	consonant					gɔ		U+0997: BENGALI LETTER GA
 ঘ		G	gʰ	gʰ	G	gh	consonant					ghɔ		U+0998: BENGALI LETTER GHA
 ঙ		N	ŋ	ŋ ŋɡ	N	ṅ	consonant					uŋɔ		U+0999: BENGALI LETTER NGA
-চ		c	c	c	c	c	consonant					cɔ		U+099A: BENGALI LETTER CA
-ছ		C	cʰ	cʰ	C	ch	consonant					chɔ		U+099B: BENGALI LETTER CHA
-জ		d	ʤ	ʤ	j	j	consonant					bôr͟gīyô jɔ	বর্গীয় জ	U+099C: BENGALI LETTER JA
-ঝ		D	ʤʰ	ʤʰ	J	jh	consonant					jhɔ		U+099D: BENGALI LETTER JHA
+চ		c	c	t͡ʃ	c	c	consonant					cɔ		U+099A: BENGALI LETTER CA
+ছ		C	cʰ	t͡ʃʰ	C	ch	consonant					chɔ		U+099B: BENGALI LETTER CHA
+জ		d	ʤ	d͡ʒ	j	j	consonant					bôr͟gīyô jɔ	বর্গীয় জ	U+099C: BENGALI LETTER JA
+ঝ		D	ʤʰ	d͡ʒʰ	J	jh	consonant					jhɔ		U+099D: BENGALI LETTER JHA
 ঞ		n	ñ	n	n	ñ	consonant					niyô/iyô		U+099E: BENGALI LETTER NYA
 ট		t	ʈ	ʈ	t	ṭ	consonant					ʈɔ		U+099F: BENGALI LETTER TTA
 ঠ		T	ʈʰ	ʈʰ	T	ṭh	consonant					ʈhɔ		U+09A0: BENGALI LETTER TTHA
@@ -29,7 +24,7 @@ var spreadsheet = `
 ব		b	b	b ∅-	b	b	consonant					bɔ		U+09AC: BENGALI LETTER BA
 ভ		B	bʰ	bʰ	B	bh	consonant					bhɔ		U+09AD: BENGALI LETTER BHA
 ম		m	m	m	m	m	consonant					mɔ		U+09AE: BENGALI LETTER MA
-য		y	ý	ʤ- -æ/-e	y	y	consonant					ɔntɔɦstʰo y̌ɔ	অন্তঃস্থ য	U+09AF: BENGALI LETTER YA
+য		y	ʲ	ʤ- -æ/-e	y	y	consonant					ɔntɔɦstʰo y̌ɔ	অন্তঃস্থ য	U+09AF: BENGALI LETTER YA
 র		r	r	r	r	r	consonant					rɔ		U+09B0: BENGALI LETTER RA
 ল		l	l	l	l	l	consonant					lɔ		U+09B2: BENGALI LETTER LA
 শ		s	ʃ	ʃ s	s	ś	consonant					tɑlobbo ʃɔ	তালব্য শ	U+09B6: BENGALI LETTER SHA
@@ -41,7 +36,7 @@ var spreadsheet = `
 														
 														
 \u09DC		r	ɽ	ɽ	r	ɽ	precomposed consonant				ড়	ɽɔ		U+09DC: BENGALI LETTER RRA
-\u09DD		r	ɽ̇	ɽ	r	ɽ	precomposed consonant				ঢ়	ɽhɔ		U+09DD: BENGALI LETTER RHA
+\u09DD		r	ɽ̇	ɽʱ	r	ɽ	precomposed consonant				ঢ়	ɽhɔ		U+09DD: BENGALI LETTER RHA
 \u09DF		y	ẏ	j e w	y	ẏ	precomposed consonant				য়	ɔntɔɦstʰo ɔ	অন্তঃস্থ য়	U+09DF: BENGALI LETTER YYA
 														
 														
@@ -52,7 +47,7 @@ var spreadsheet = `
 														
 														
 অ		O	ɔ̣	ɔ o u	A	a	independent vowel					ɔ-kar		U+0985: BENGALI LETTER A
-আ		A	ɑ	ɑ	A	ā	independent vowel		া			a-kar		U+0986: BENGALI LETTER AA
+আ		A	ɑ̣	ɑ	A	ā	independent vowel		া			a-kar		U+0986: BENGALI LETTER AA
 ই		I	ị	i e	I	i	independent vowel		ি			hrɔʃʃo i	হ্রস্ব ই	U+0987: BENGALI LETTER I
 ঈ		I	ị̄	i e	I	ī	independent vowel		ী			dīrghô ī	দীর্ঘ ঈ	U+0988: BENGALI LETTER II
 উ		U	ụ	u o	U	u	independent vowel		ু			hrɔʃʃo u	হ্রস্ব উ	U+0989: BENGALI LETTER U
@@ -133,10 +128,10 @@ var spreadsheet = `
 														
 														
 ড়	s	r	ɽ	ɽ	r	ɽ	consonant+nukta							U+09A1 U+09BC: BENGALI LETTER DDA, SIGN NUKTA
-ঢ়	s	r	ɽ̇	ɽ	r	ɽ	consonant+nukta							U+09A2 U+09BC: BENGALI LETTER DDHA, SIGN NUKTA
+ঢ়	s	r	ɽ̇	ɽʱ	r	ɽ	consonant+nukta							U+09A2 U+09BC: BENGALI LETTER DDHA, SIGN NUKTA
 য়	s	y	ẏ	j e w	y	ẏ	consonant+nukta							U+09AF U+09BC: BENGALI LETTER YA, SIGN NUKTA
 ক্ষ	s	k	k͓ʃ̇	kʃ			conjunct							U+0995 U+09CD U+09B7: BENGALI LETTER KA, SIGN VIRAMA​,  LETTER SSA
-্য	s	Y	͓ý	a			conjunct							U+09CD U+09AF: BENGALI SIGN VIRAMA​, LETTER YA
+্য	s	Y	͓ʲ	a			conjunct							U+09CD U+09AF: BENGALI SIGN VIRAMA​, LETTER YA
 
 
 `
