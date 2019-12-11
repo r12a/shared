@@ -46,25 +46,25 @@ var spreadsheet = `
 											
 											
 ເ		e	ē	eː	ē	prescript long vowel					U+0EC0: LAO VOWEL SIGN E
-ແ		e	ɛ̄	ɛː	ǣ	prescript long vowel					U+0EC1: LAO VOWEL SIGN EI
+ແ		E	ɛ̄	ɛː	ǣ	prescript long vowel					U+0EC1: LAO VOWEL SIGN EI
 ໂ		o	ō	oː	ō	prescript long vowel					U+0EC2: LAO VOWEL SIGN O
 ໄ		a	aʲ	aj	ai	prescript long vowel			mâj máːj	ໄມ້ມາຽ	U+0EC4: LAO VOWEL SIGN AI
 ໃ		a	äʲ	aj	ai	prescript long vowel			mâj muân	ໄມ້ມ້ວນ	U+0EC3: LAO VOWEL SIGN AY
 											
 											
 											
-າ		a	ā	aː	ā	long vowel					U+0EB2: LAO VOWEL SIGN AA
-ະ		a¶	a	aʔ a	a	short vowel					U+0EB0: LAO VOWEL SIGN A
-ັ		a	ä	aʔ a	a	short vowel			mâj kàn	ໄມ້ກັນ	U+0EB1: LAO VOWEL SIGN MAI KAN​
 ິ		i	i	i	i	short vowel					U+0EB4: LAO VOWEL SIGN I​
 ີ		i	ī	iː	ī	long vowel					U+0EB5: LAO VOWEL SIGN II​
-ຶ		w	ɯ	ɯ	ư	short vowel					U+0EB6: LAO VOWEL SIGN Y​
-ື		w	ɯ̄	ɯː	ư̄	long vowel					U+0EB7: LAO VOWEL SIGN YY​
+ຶ		U	ɯ	ɯ	ư	short vowel					U+0EB6: LAO VOWEL SIGN Y​
+ື		U	ɯ̄	ɯː	ư̄	long vowel					U+0EB7: LAO VOWEL SIGN YY​
 ຸ		u	u	u	u	short vowel					U+0EB8: LAO VOWEL SIGN U​
 ູ		u	ū	uː	ū	long vowel					U+0EB9: LAO VOWEL SIGN UU​
 ຽ		i	iᵊ	iːə	īa	vowel			vī ráːm	ວິຣາມ	U+0EBD: LAO SEMIVOWEL SIGN NYO
-ໍ		o	ɔ̄	ɔː	ǭ	long vowel			nīk kʰā hǐt	ນິກຄະຫິດ	U+0ECD: LAO NIGGAHITA​
+ໍ		O	ɔ̄	ɔː	ǭ	long vowel			nīk kʰā hǐt	ນິກຄະຫິດ	U+0ECD: LAO NIGGAHITA​
 ົ		o	o	oʔ o	o	short vowel			mâj kòŋ	ໄມ້ກົງ	U+0EBB: LAO VOWEL SIGN MAI KON​
+ະ		a¶	a	aʔ a	a	short vowel					U+0EB0: LAO VOWEL SIGN A
+ັ		a	ä	aʔ a	a	short vowel			mâj kàn	ໄມ້ກັນ	U+0EB1: LAO VOWEL SIGN MAI KAN​
+າ		a	ā	aː	ā	long vowel					U+0EB2: LAO VOWEL SIGN AA
 ຳ		a	aᵐ	am	am	long vowel					U+0EB3: LAO VOWEL SIGN AM
 											
 											
@@ -116,41 +116,51 @@ var spreadsheet = `
 ຫວ	s		w	ʋ w	v w	high class digraph					U+0EAB U+0EA7: LAO LETTER HO SUNG, LETTER WO
 											
 											
--ັຍ	s	A	aʲ	aj	ai						U+0EB1 U+0E8D: LAO VOWEL SIGN MAI KAN, LETTER NYO
--ັອ	s	O	ɔ	ɔʔ ɔ	ǫ						U+0EB1 U+0EAD: LAO VOWEL SIGN MAI KAN, LETTER O
--ັຽ	s	I	iᵊ	iə	ia						U+0EB1 U+0EBD: LAO VOWEL SIGN MAI KAN, SEMIVOWEL SIGN NYO
--ົວ	s	U	uᵊ	uə	ūa						U+0EBB U+0EA7: LAO VOWEL SIGN MAI KON, LETTER WO
--ິວ	s	I	iʷ	iw	iu						U+0EB4 U+0EA7: LAO VOWEL SIGN I, LETTER WO
--ີວ	s	I	īʷ	iːw	īu						U+0EB5 U+0EA7: LAO VOWEL SIGN II, LETTER WO
--າຍ	s	A	āʲ	aːj	āi						U+0EB2 U+0E8D: LAO VOWEL SIGN AA, LETTER NYO
--າຽ	s	A	āʲ	aːj	āi						U+0EB2 U+0EBD: LAO VOWEL SIGN AA, SEMIVOWEL SIGN NYO
-ເ-ິ	s	V	ɤ	ɤ	œ						U+0EC0 U+0EB4: LAO VOWEL SIGN E, VOWEL SIGN I
-ເ-ີ	s	V	ɤ̄	ɤː	œ̄						U+0EC0 U+0EB5: LAO VOWEL SIGN E, VOWEL SIGN II
-ເ-ັ	s	E	e	eʔ e	e						U+0EC0 U+0EB1: LAO VOWEL SIGN E, VOWEL SIGN MAI KAN
-ເ-ະ	s	E	e	eʔ e	e						U+0EC0 U+0EB0: LAO VOWEL SIGN E, VOWEL SIGN A
-ແ-ະ	s	E	ɛ	ɛʔ ɛ	æ						U+0EC1 U+0EB0: LAO VOWEL SIGN EI, VOWEL SIGN A
-ເ-ຍ	s	I	īᵊ	iːə	īa						U+0EC0 U+0E8D: LAO VOWEL SIGN E, LETTER NYO
-ແ-ັ	s	E	ɛ	ɛʔ ɛ	æ						U+0EC1 U+0EB1: LAO VOWEL SIGN EI, VOWEL SIGN MAI KAN
-ແ-ວ	s	E	ɛʷ	ɛːw	æw						U+0EC1 U+0EA7: LAO VOWEL SIGN EI, LETTER WO
-ໂ-ະ	s	O	o	oʔ o	o						U+0EC2 U+0EB0: LAO VOWEL SIGN O, VOWEL SIGN A
--ຽວ	s	I	iᵊʷ		īeo						U+0EBD U+0EA7: LAO SEMIVOWEL SIGN NYO, LETTER WO
--ົວະ	s	U	uᵊ	uə	ua						U+0EBB U+0EA7 U+0EB0: LAO VOWEL SIGN MAI KON, LETTER WO, VOWEL SIGN A
-ເ-ົາ	s	A	aʷ	aw	ao						U+0EC0 U+0EBB U+0EB2: LAO VOWEL SIGN E, VOWEL SIGN MAI KON, VOWEL SIGN AA
-ເ-ັຍ	s	I	īᵊ	iːə	ia						U+0EC0 U+0EB1 U+0E8D: LAO VOWEL SIGN E, VOWEL SIGN MAI KAN, LETTER NYO
-ເ-ຶອ	s	W	ɯᵊ	ɯə	ưa						U+0EC0 U+0EB6 U+0EAD: LAO VOWEL SIGN E, VOWEL SIGN Y, LETTER O
-ເ-ືອ	s	W	ɯ̄ᵊ	ɯːə	ư̄a						U+0EC0 U+0EB7 U+0EAD: LAO VOWEL SIGN E, VOWEL SIGN YY, LETTER O
-ເ-າະ	s	O	ɔ	ɔʔ ɔ	ǫ						U+0EC0 U+0EB2 U+0EB0: LAO VOWEL SIGN E, VOWEL SIGN AA, VOWEL SIGN A
-ເ-ັຍະ	s	I	iᵊ	ia							U+0EC0 U+0EB1 U+0E8D U+0EB0: LAO VOWEL SIGN E, VOWEL SIGN MAI KAN, LETTER NYO, VOWEL SIGN A
-ເ-ັຽວ	s	I	iᵊʷ		īeo						U+0EC0 U+0EB1 U+0EBD U+0EA7: LAO VOWEL SIGN E, VOWEL SIGN MAI KAN, SEMIVOWEL SIGN NYO, LETTER WO
-ເ-ີຽ	s	V	ɤ̄ʲ	ɤːj	œ̄y						U+0EC0 U+0EB5 U+0EBD: LAO VOWEL SIGN E, VOWEL SIGN II, SEMIVOWEL SIGN NYO
-ເ-ີຍ	s	V	ɤ̄ʲ	ɤːj	œ̄y						U+0EC0 U+0EB5 U+0E8D: LAO VOWEL SIGN E, VOWEL SIGN II, LETTER NYO
+-ັຽ	s	i	iᵊ	iə	ia						U+0EB1 U+0EBD: LAO VOWEL SIGN MAI KAN, SEMIVOWEL SIGN NYO
+ເ-ຍ	s	i	īᵊ	iːə	īa						U+0EC0 U+0E8D: LAO VOWEL SIGN E, LETTER NYO
+ເ-ັຍ	s	i	īᵊ	iːə	ia						U+0EC0 U+0EB1 U+0E8D: LAO VOWEL SIGN E, VOWEL SIGN MAI KAN, LETTER NYO
+-ິວ	s	i	iʷ	iw	iu						U+0EB4 U+0EA7: LAO VOWEL SIGN I, LETTER WO
+-ີວ	s	i	īʷ	iːw	īu						U+0EB5 U+0EA7: LAO VOWEL SIGN II, LETTER WO
+ເ-ັຍະ	s	i	iᵊ	ia							U+0EC0 U+0EB1 U+0E8D U+0EB0: LAO VOWEL SIGN E, VOWEL SIGN MAI KAN, LETTER NYO, VOWEL SIGN A
+-ຽວ	s	i	iᵊʷ		īeo						U+0EBD U+0EA7: LAO SEMIVOWEL SIGN NYO, LETTER WO
+ເ-ັຽວ	s	i	iᵊʷ		īeo						U+0EC0 U+0EB1 U+0EBD U+0EA7: LAO VOWEL SIGN E, VOWEL SIGN MAI KAN, SEMIVOWEL SIGN NYO, LETTER WO
 											
-ອ	-	}	ʔ	ʔ ɔː	ǭ						U+0EAD: LAO LETTER O
+ເ-ຶອ	s	U	ɯᵊ	ɯə	ưa						U+0EC0 U+0EB6 U+0EAD: LAO VOWEL SIGN E, VOWEL SIGN Y, LETTER O
+ເ-ືອ	s	U	ɯ̄ᵊ	ɯːə	ư̄a						U+0EC0 U+0EB7 U+0EAD: LAO VOWEL SIGN E, VOWEL SIGN YY, LETTER O
+											
+-ົວະ	s	u	uᵊ	uə	ua						U+0EBB U+0EA7 U+0EB0: LAO VOWEL SIGN MAI KON, LETTER WO, VOWEL SIGN A
+-ົວ	s	u	uᵊ	uə	ūa						U+0EBB U+0EA7: LAO VOWEL SIGN MAI KON, LETTER WO
+											
+ເ-ະ	s	e	e	e	e						U+0EC0 U+0EB0: LAO VOWEL SIGN E, VOWEL SIGN A
+ເ-ັ	s	e	e	e	e						U+0EC0 U+0EB1: LAO VOWEL SIGN E, VOWEL SIGN MAI KAN
+											
+ເ-ິ	s	v	ɤ	ɤ	œ						U+0EC0 U+0EB4: LAO VOWEL SIGN E, VOWEL SIGN I
+ເ-ີ	s	v	ɤ̄	ɤː	œ̄						U+0EC0 U+0EB5: LAO VOWEL SIGN E, VOWEL SIGN II
+ເ-ີຽ	s	v	ɤ̄ʲ	ɤːj	œ̄y						U+0EC0 U+0EB5 U+0EBD: LAO VOWEL SIGN E, VOWEL SIGN II, SEMIVOWEL SIGN NYO
+ເ-ີຍ	s	v	ɤ̄ʲ	ɤːj	œ̄y						U+0EC0 U+0EB5 U+0E8D: LAO VOWEL SIGN E, VOWEL SIGN II, LETTER NYO
+											
+ໂ-ະ	s	o	o	oʔ o	o						U+0EC2 U+0EB0: LAO VOWEL SIGN O, VOWEL SIGN A
+											
+ແ-ະ	s	E	ɛ	ɛ	æ						U+0EC1 U+0EB0: LAO VOWEL SIGN EI, VOWEL SIGN A
+ແ-ັ	s	E	ɛ	ɛ	æ						U+0EC1 U+0EB1: LAO VOWEL SIGN EI, VOWEL SIGN MAI KAN
+ແ-ວ	s	E	ɛʷ	ɛːw	æw						U+0EC1 U+0EA7: LAO VOWEL SIGN EI, LETTER WO
+											
+ເ-າະ	s	O	ɔ	ɔ	ǫ						U+0EC0 U+0EB2 U+0EB0: LAO VOWEL SIGN E, VOWEL SIGN AA, VOWEL SIGN A
+-ັອ	s	O	ɔ	ɔ	ǫ						U+0EB1 U+0EAD: LAO VOWEL SIGN MAI KAN, LETTER O
+-ອ	-	}	ʔ	ʔ ɔː	ǭ						U+0EAD: LAO LETTER O
+											
+-ັຍ	s	a	aʲ	aj	ai						U+0EB1 U+0E8D: LAO VOWEL SIGN MAI KAN, LETTER NYO
+-າຍ	s	a	āʲ	aːj	āi						U+0EB2 U+0E8D: LAO VOWEL SIGN AA, LETTER NYO
+-າຽ	s	a	āʲ	aːj	āi						U+0EB2 U+0EBD: LAO VOWEL SIGN AA, SEMIVOWEL SIGN NYO
+ເ-ົາ	s	a	aʷ	aw	ao						U+0EC0 U+0EBB U+0EB2: LAO VOWEL SIGN E, VOWEL SIGN MAI KON, VOWEL SIGN AA
+											
 ວ	-	w	w̱	ʋ w -w uːə	ūa						U+0EA7: LAO LETTER WO
 											
 											
 ໆລໆ	s		...	la	la				kʰɯaŋ-mǎːj-lɛ-ɯːn-ɯːn	ເຄຶ່ອງໝາຍ ແລະອຶ່ນໆ	U+0EC6 U+0EA5 U+0EC6: LAO KO LA, LAO LETTER LO LOOT, LAO KO LA
-
+											
+											
+											
 
 `
 

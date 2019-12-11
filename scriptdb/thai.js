@@ -54,27 +54,27 @@ var spreadsheet = `
 										
 										
 										
+ิ		i	i	i	i			phinthu i	พินทุอิ	U+0E34: THAI CHARACTER SARA I​
+ี		i	ī	iː	i			fong thong	ฝนทอง	U+0E35: THAI CHARACTER SARA II​
+ึ		W	ɯ	ɯ	ue			nikkhahit	นิคหิต	U+0E36: THAI CHARACTER SARA UE​
+ื		W	ɯ̄	ɯː	ue			fan nu	ฟันหนู	U+0E37: THAI CHARACTER SARA UEE​
+ุ		u	u	u	u			tin yiat	ตีนเหยียด	U+0E38: THAI CHARACTER SARA U​
+ู		u	ū	uː	u			tin khu	ตีนคู้	U+0E39: THAI CHARACTER SARA UU​
 เ		e	e	eː	e			mai na	ไม้หน้า	U+0E40: THAI CHARACTER SARA E
-แ		e	ɛ	ɛː	ae					U+0E41: THAI CHARACTER SARA AE
 โ		o	o	oː	o			mai o	ไม้โอ	U+0E42: THAI CHARACTER SARA O
+แ		E	ɛ	ɛː	ae					U+0E41: THAI CHARACTER SARA AE
+ะ		a	a	a	a			wisanchani	วิสรรชนีย์	U+0E30: THAI CHARACTER SARA A
+ั		a	ä	-a-	a			mai han a-kat	ไม้หันอากาศ	U+0E31: THAI CHARACTER MAI HAN-AKAT​
+า		a	ā	aː	a			lak khang	ลากข้าง	U+0E32: THAI CHARACTER SARA AA
+ำ		a	aᵐ	am						U+0E33: THAI CHARACTER SARA AM
 ใ		a	äʲ	aj	ai			mai muan	ไม้ม้วน	U+0E43: THAI CHARACTER SARA AI MAIMUAN
 ไ		a	aʲ	aj	ai			mai malai	ไม้มลาย	U+0E44: THAI CHARACTER SARA AI MAIMALAI
 										
-ะ		a	a	a	a			wisanchani	วิสรรชนีย์	U+0E30: THAI CHARACTER SARA A
-ั		a	ä	a	a			mai han a-kat	ไม้หันอากาศ	U+0E31: THAI CHARACTER MAI HAN-AKAT​
-า		a	ā	aː	a			lak khang	ลากข้าง	U+0E32: THAI CHARACTER SARA AA
-ิ		i	i	i	i			phinthu i	พินทุอิ	U+0E34: THAI CHARACTER SARA I​
-ี		i	ī	iː	i			fong thong	ฝนทอง	U+0E35: THAI CHARACTER SARA II​
-ึ		u	ɯ	ɯ	ue			nikkhahit	นิคหิต	U+0E36: THAI CHARACTER SARA UE​
-ื		u	ɯ̄	ɯː	ue			fan nu	ฟันหนู	U+0E37: THAI CHARACTER SARA UEE​
-ุ		u	u	u	u			tin yiat	ตีนเหยียด	U+0E38: THAI CHARACTER SARA U​
-ู		u	ū	uː	u			tin khu	ตีนคู้	U+0E39: THAI CHARACTER SARA UU​
-ำ		a	aᵐ	am						U+0E33: THAI CHARACTER SARA AM
 										
 										
 ฤ		r	r̥	rɯ ri				tua rue	ตัว ฤ	U+0E24: THAI CHARACTER RU
 ฦ		l	l̥	lɯ						U+0E26: THAI CHARACTER LU
-ๅ		u	ɯ̃	ɯː		vocalic vowel lengthener				U+0E45: THAI CHARACTER LAKKHANGYAO
+ๅ		W	ɯ̃	ɯː		vocalic vowel lengthener				U+0E45: THAI CHARACTER LAKKHANGYAO
 										
 										
 										
@@ -106,54 +106,66 @@ var spreadsheet = `
 ๆ		&	˖			repetition symbol		májjàmòk	ไม้ยมก	U+0E46: THAI CHARACTER MAIYAMOK
 ฯ		.	⋯			abbreviation symbol/phrase terminator		pʰájaːnnɔ́ːj/pajjaːnlék	พยาลน้อย/ไปยาลเล็ก	U+0E2F: THAI CHARACTER PAIYANNOI
 ๏		-	•			bullet				U+0E4F: THAI CHARACTER FONGMAN
+“		<	“			quotation mark				U+201C: LEFT DOUBLE QUOTATION MARK
+”		>	”			quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK
+‘		<	‘			quotation mark				U+2018: LEFT SINGLE QUOTATION MARK
+’		>	’			quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK
 										
 										
 										
 										
 										
 										
+เ-ียะ	s	i	e-īy̱a	iə	ia					U+0E40 U+002D U+0E35 U+0E22 U+0E30: THAI CHARACTER SARA E, SARA II, YO YAK, SARA A
+เ-ีย	s	i	e-īy̱	iːə	ia					U+0E40 U+002D U+0E35 U+0E22: THAI CHARACTER SARA E, SARA II, YO YAK
+-ิว	s	i	-iw̱	iw	io					U+002D U+0E34 U+0E27: SARA I, WO WAEN
+เ-ียว	s	i	e-īy̱w̱	iəw	iao					U+0E40 U+002D U+0E35 U+0E22 U+0E27: THAI CHARACTER SARA E, SARA II, YO YAK, WO WAEN
+-ือ	s	W	-ɯ̄ʔ̯	ɯː	ūe					U+002D U+0E37 U+0E2D: SARA UEE, O ANG
+เ-ือะ	s	W	e-ɯ̄ʔ̯a	ɯə	uea					U+0E40 U+002D U+0E37 U+0E2D U+0E30: THAI CHARACTER SARA E, SARA UEE, O ANG, SARA A
+เ-ือ	s	W	e-ɯ̄ʔ̯	ɯːə	uea					U+0E40 U+002D U+0E37 U+0E2D: THAI CHARACTER SARA E, SARA UEE, O ANG
+เ-ือย	s	W	e-ɯ̄ʔ̯y̱	ɯəj	ueai		~20 words only			U+0E40 U+002D U+0E37 U+0E2D U+0E22: THAI CHARACTER SARA E, SARA UEE, O ANG, YO YAK
+-ัวะ	s	u	-äw̱a	uə						U+002D U+0E31 U+0E27 U+0E30: MAI HAN-AKAT, WO WAEN, SARA A
+-ัว	s	u	-äw̱	uːə	ua					U+002D U+0E31 U+0E27: MAI HAN-AKAT, WO WAEN
+-ุย	s	u	-uy̱	uj	ui		rare			U+002D U+0E38 U+0E22: SARA U, YO YAK
+-ูย	s	u	-ūy̱	uːj	ui		rare			U+002D U+0E39 U+0E22: SARA UU, YO YAK
+-วย	s	u	-w̱y̱	uəj	uai					U+002D U+0E27 U+0E22: WO WAEN, YO YAK
+เ-ะ	s	e	e-a	e	e					U+0E40 U+002D U+0E30: THAI CHARACTER SARA E, SARA A
+เ-็	s	e	e-˘	-e-						U+0E40 U+002D U+0E47: THAI CHARACTER SARA E, MAITAIKHU
+เ-็ว	s	e	e-˘w̱	ew	eo					U+0E40 U+002D U+0E47 U+0E27: THAI CHARACTER SARA E, MAITAIKHU, WO WAEN
+เ-ว	s	e	e-w̱	eːw	eo					U+0E40 U+002D U+0E27: THAI CHARACTER SARA E, WO WAEN
+เ-อะ	s	v	e-ʔ̯a	ɤ	oe		rare			U+0E40 U+002D U+0E2D U+0E30: THAI CHARACTER SARA E, O ANG, SARA A
+เ-อ	s	v¶	e-ʔ̯	ɤː	oe		rare			U+0E40 U+002D U+0E2D: THAI CHARACTER SARA E, O ANG
+เ-ิ	s	v	e-i	ɤː			rare			U+0E40 U+002D U+0E34: THAI CHARACTER SARA E, SARA I
+เ-ย	s	v	e-y̱	ɤːj	oei					U+0E40 U+002D U+0E22: THAI CHARACTER SARA E, YO YAK
+โ-ะ	s	o	o-a	o	o					U+0E42 U+002D U+0E30: THAI CHARACTER SARA O, SARA A
+-็อ	s	o	˘ʔ̯	-o-						U+002D U+0E47 U+0E2D: MAITAIKHU, O ANG
+แ-ะ	s	E	ɛ-a	ɛ	ae		not very common			U+0E41 U+002D U+0E30: THAI CHARACTER SARA AE, SARA A
+แ-็	s	E	ɛ-˘	-ɛ-			rare			U+0E41 U+002D U+0E47: THAI CHARACTER SARA AE, MAITAIKHU
+แ-ว	s	E	ɛ-w̱	ɛːw	aeo					U+0E41 U+002D U+0E27: THAI CHARACTER SARA AE, WO WAEN
+เ-าะ	s	O	e-āa	ɔ	o		rare			U+0E40 U+002D U+0E32 U+0E30: THAI CHARACTER SARA E, SARA AA, SARA A
+-็อย	s	O	-˘ʔ̯y̱	ɔj						U+002D U+0E47 U+0E2D U+0E22: MAITAIKHU, O ANG, YO YAK
+โ-ย	s	O	o-y̱	ɔːj	oi					U+0E42 U+002D U+0E22: THAI CHARACTER SARA O, YO YAK
+-อย	s	O	-ʔ̯y̱	ɔːj	oi					U+002D U+0E2D U+0E22: O ANG, YO YAK
+ไ-ย	s	A	aʲ-y̱	aj	ai					U+0E44 U+002D U+0E22: THAI CHARACTER SARA AI MAIMALAI, YO YAK
+-ัย	s	A	-äy̱	aj	ai		rare			U+002D U+0E31 U+0E22: MAI HAN-AKAT, YO YAK
+-าย	s	A	-āy̱	aːj	ai					U+002D U+0E32 U+0E22: SARA AA, YO YAK
+เ-า	s	A	e-ā	aw	ao					U+0E40 U+002D U+0E32: THAI CHARACTER SARA E, SARA AA
+-าว	s	A	-āw̱	aːw	ao					U+002D U+0E32 U+0E27: SARA AA, WO WAEN
 										
-										
--ือ	s	U	-ɯ̄ʔ̯	ɯː	ūe					U+002D U+0E37 U+0E2D: SARA UEE, O ANG
--็อ	s	O	˘ʔ̯	o						U+002D U+0E47 U+0E2D: MAITAIKHU, O ANG
--ัว	s	U	-äw̱	ua	ua					U+002D U+0E31 U+0E27: MAI HAN-AKAT, WO WAEN
--ัย	s	A	-äy̱	ai aj	ai					U+002D U+0E31 U+0E22: MAI HAN-AKAT, YO YAK
--ิว	s	I	-iw̱	iu iw	io					U+002D U+0E34 U+0E27: SARA I, WO WAEN
--าว	s	A	-āw̱	aːu	ao					U+002D U+0E32 U+0E27: SARA AA, WO WAEN
--าย	s	A	-āy̱	aːi aːj	ai					U+002D U+0E32 U+0E22: SARA AA, YO YAK
--อย	s	O	-ʔ̯y̱	ɔːi ɔːj	oi					U+002D U+0E2D U+0E22: O ANG, YO YAK
--ุย	s	U	-uy̱	ui uj	ui					U+002D U+0E38 U+0E22: SARA U, YO YAK
--ูย	s		-ūy̱		ui					U+002D U+0E39 U+0E22: SARA UU, YO YAK
--วย	s	U	-w̱y̱	uai uaj	uai					U+002D U+0E27 U+0E22: WO WAEN, YO YAK
-เ-ะ	s	E	e-a	e	e					U+0E40 U+002D U+0E30: THAI CHARACTER SARA E, SARA A
-เ-็	s	E	e-˘	e						U+0E40 U+002D U+0E47: THAI CHARACTER SARA E, MAITAIKHU
-เ-อ	s	V	e-ʔ̯	ɤː	oe					U+0E40 U+002D U+0E2D: THAI CHARACTER SARA E, O ANG
-เ-ิ	s	V	e-i	ɤː						U+0E40 U+002D U+0E34: THAI CHARACTER SARA E, SARA I
-เ-ว	s	E	e-w̱	eːu eːw	eo					U+0E40 U+002D U+0E27: THAI CHARACTER SARA E, WO WAEN
-เ-า	s	A	e-ā	au aw	ao					U+0E40 U+002D U+0E32: THAI CHARACTER SARA E, SARA AA
-เ-ย	s	V	e-y̱	ɤːi ɤːj	oei					U+0E40 U+002D U+0E22: THAI CHARACTER SARA E, YO YAK
-แ-ว	s	E	ɛ-w̱	eːu eːw	aeo					U+0E41 U+002D U+0E27: THAI CHARACTER SARA AE, WO WAEN
-แ-ะ	s	E	ɛ-a	ɛ	ae					U+0E41 U+002D U+0E30: THAI CHARACTER SARA AE, SARA A
-แ-็	s	E	ɛ-˘	ɛ						U+0E41 U+002D U+0E47: THAI CHARACTER SARA AE, MAITAIKHU
-โ-ะ	s	O	o-a	o	o					U+0E42 U+002D U+0E30: THAI CHARACTER SARA O, SARA A
-โ-ย	s	O	o-y̱	ɔːi ɔːj	oi					U+0E42 U+002D U+0E22: THAI CHARACTER SARA O, YO YAK
-ไ-ย	s	A	aʲ-y̱	ai aj	ai					U+0E44 U+002D U+0E22: THAI CHARACTER SARA AI MAIMALAI, YO YAK
--็อย	s	O	-˘ʔ̯y̱	ɔi ɔj						U+002D U+0E47 U+0E2D U+0E22: MAITAIKHU, O ANG, YO YAK
--ัวะ	s	U	-äw̱a	uaʔ						U+002D U+0E31 U+0E27 U+0E30: MAI HAN-AKAT, WO WAEN, SARA A
-เ-าะ	s	E	e-āa	ɔ	o					U+0E40 U+002D U+0E32 U+0E30: THAI CHARACTER SARA E, SARA AA, SARA A
-เ-อะ	s	V	e-ʔ̯a	ɤʔ	oe					U+0E40 U+002D U+0E2D U+0E30: THAI CHARACTER SARA E, O ANG, SARA A
-เ-ือ	s	U	e-ɯ̄ʔ̯	ɯa	uea					U+0E40 U+002D U+0E37 U+0E2D: THAI CHARACTER SARA E, SARA UEE, O ANG
-เ-็ว	s	E	e-˘w̱	eu ew	eo					U+0E40 U+002D U+0E47 U+0E27: THAI CHARACTER SARA E, MAITAIKHU, WO WAEN
-เ-ีย	s	I	e-īy̱	ia	ia					U+0E40 U+002D U+0E35 U+0E22: THAI CHARACTER SARA E, SARA II, YO YAK
-เ-ียะ	s	I	e-īy̱a	iaʔ	ia					U+0E40 U+002D U+0E35 U+0E22 U+0E30: THAI CHARACTER SARA E, SARA II, YO YAK, SARA A
-เ-ือะ	s	U	e-ɯ̄ʔ̯a	ɯaʔ	uea					U+0E40 U+002D U+0E37 U+0E2D U+0E30: THAI CHARACTER SARA E, SARA UEE, O ANG, SARA A
-เ-ียว	s	I	e-īy̱w̱	iau iaw	iao					U+0E40 U+002D U+0E35 U+0E22 U+0E27: THAI CHARACTER SARA E, SARA II, YO YAK, WO WAEN
-เ-ือย	s	U	e-ɯ̄ʔ̯y̱	ɯai ɯaj	ueai					U+0E40 U+002D U+0E37 U+0E2D U+0E22: THAI CHARACTER SARA E, SARA UEE, O ANG, YO YAK
 ฤๅ	s	R	r̥ɯ̃	rɯː						U+0E24 U+0E45: THAI CHARACTER RU, LAKKHANGYAO
 ฦๅ	s	L	l̥ɯ̃	lɯː						U+0E26 U+0E45: THAI CHARACTER LU, LAKKHANGYAO
 										
 										
 ฯลฯ	s	E	⋯ḻ⋯	pajjaːnjài						U+0E2F U+0E25 U+0E2F: THAI CHARACTER PAIYANNOI, LO LING, PAIYANNOI
+										
+										
+เ-	s	e	e	eː	e			mai na	ไม้หน้า	U+0E40: THAI CHARACTER SARA E
+โ-	s	o	o	oː	o			mai o	ไม้โอ	U+0E42: THAI CHARACTER SARA O
+แ-	s	E	ɛ	ɛː	ae					U+0E41: THAI CHARACTER SARA AE
+ใ-	s	a	äʲ	aj	ai			mai muan	ไม้ม้วน	U+0E43: THAI CHARACTER SARA AI MAIMUAN
+ไ-	s	a	aʲ	aj	ai			mai malai	ไม้มลาย	U+0E44: THAI CHARACTER SARA AI MAIMALAI
+-อ	s	}	ʔ̯	ɔː	' o	consonant used as vowel		o ang	อ อ่าง	U+0E2D: THAI CHARACTER O ANG
+
 
 
 `

@@ -39,7 +39,7 @@ var spreadsheet = `
 ျ		y	y̆	j ʨ ʥ ʃ	ya.	medial consonant						U+103B: MYANMAR CONSONANT SIGN MEDIAL YA​
 ြ		j	j̆	j ʨ ʥ ɲ	ra.	medial consonant						U+103C: MYANMAR CONSONANT SIGN MEDIAL RA​
 ွ		w	w̆	w	wa.	medial consonant						U+103D: MYANMAR CONSONANT SIGN MEDIAL WA​
-ှ			h̆	̥ -ʃ	ha	medial consonant						U+103E: MYANMAR CONSONANT SIGN MEDIAL HA​
+ှ		h	h̆	̥ -ʃ	ha	medial consonant						U+103E: MYANMAR CONSONANT SIGN MEDIAL HA​
 												
 												
 ံ		n	n̽	ɴ	m	final consonant						U+1036: MYANMAR SIGN ANUSVARA​
@@ -64,7 +64,7 @@ var spreadsheet = `
 ဲ		e	ɛ	ɛ	ai:	vowel sign						U+1032: MYANMAR VOWEL SIGN AI​
 												
 												
-်		\	ˣ			asat				əθaʔ	အသတ်	U+103A: MYANMAR SIGN ASAT​
+်		\\	ˣ			asat				əθaʔ	အသတ်	U+103A: MYANMAR SIGN ASAT​
 ္		*	͓			virama						U+1039: MYANMAR SIGN VIRAMA​
 												
 												
@@ -76,8 +76,13 @@ var spreadsheet = `
 ၍		$	(sub)	jwɛ	rwe	symbol				ɛʔkʰəjajwɛ		U+104D: MYANMAR SYMBOL COMPLETED
 ၎		$	(afore)		la. kaung	symbol				ɛʔkʰəjajwɛ		U+104E: MYANMAR SYMBOL AFOREMENTIONED
 ၏		$	(gen)	í	e	symbol				ɛʔkʰəjaí		U+104F: MYANMAR SYMBOL GENITIVE
-၊		,	,		၊	comma						U+104A: MYANMAR SIGN LITTLE SECTION
-။		.	.		။	full stop						U+104B: MYANMAR SIGN SECTION
+၊		|	,		၊	comma						U+104A: MYANMAR SIGN LITTLE SECTION
+။		|	.		။	full stop						U+104B: MYANMAR SIGN SECTION
+“		<	“			quotation mark						U+201C: LEFT DOUBLE QUOTATION MARK
+”		>	”			quotation mark						U+201D: RIGHT DOUBLE QUOTATION MARK
+‘		<	‘			quotation mark						U+2018: LEFT SINGLE QUOTATION MARK
+’		>	’			quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK
+
 												
 												
 ၀		0	0		0	digit						U+1040: MYANMAR DIGIT ZERO
@@ -110,8 +115,8 @@ var spreadsheet = `
 ော်	s	o	ɔ		au							U+1031 U+102C U+103A: MYANMAR VOWEL SIGN E, MYANMAR VOWEL SIGN AA, MYANMAR SIGN ASAT​
 ေါ်	s	o	ɔ		au							U+1031 U+102B U+103A: MYANMAR VOWEL SIGN E, MYANMAR VOWEL SIGN TALL AA, MYANMAR SIGN ASAT​
 												
-္လ	s		l̆		la.	medial l						U+1039 U+101C: MYANMAR SIGN VIRAMA, MYANMAR LETTER LA​
-င်္	s		ṅ̽		ng	kinzi						U+1004 U+103A U+1039: MYANMAR LETTER NGA, MYANMAR SIGN ASAT, MYANMAR SIGN VIRAMA
+္လ	s	L	l̆		la.	medial l						U+1039 U+101C: MYANMAR SIGN VIRAMA, MYANMAR LETTER LA​
+င်္	s	N	ṅ̽		ng	kinzi						U+1004 U+103A U+1039: MYANMAR LETTER NGA, MYANMAR SIGN ASAT, MYANMAR SIGN VIRAMA
 												
 \u1025\u102E	s	U	ụ̇	ʔù	u	ဦ						U+1025 U+102E: MYANMAR LETTER U, MYANMAR VOWEL SIGN II
 
