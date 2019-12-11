@@ -583,7 +583,7 @@ table.inband th {
 	padding: 0.2em;
 	background-color: #f9f5de; 
 	}
-#refs ol {
+#refs + ol {
     text-align: start;
     }
 
