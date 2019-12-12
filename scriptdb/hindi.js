@@ -1,3 +1,7 @@
+// USE DEVA-HI.JS RATHER THAN THIS FILE
+
+
+
 var spreadsheet = `
 क		k	k	k	k	k	consonant						U+0915: DEVANAGARI LETTER KA
 ख		K	kʰ	K	kh	kʰ	consonant						U+0916: DEVANAGARI LETTER KHA
@@ -127,6 +131,11 @@ var spreadsheet = `
 ढ़	s	r	ɾʰ	r	ṛh	ɾʰ	consonant with nukta						U+0922 U+093C: DEVANAGARI LETTER DDHA SIGN NUKTA
 फ़	s	f	f	f	f	f	consonant with nukta						U+092B U+093C: DEVANAGARI LETTER PHA SIGN NUKTA
 झ़	s	z	ʒ̣		zh	ʒ	consonant with nukta						U+091D U+093C: DEVANAGARI LETTER JHA SIGN NUKTA
+
+अं	s	A	ạm̽				independent vowel + anusvara						U+0905 U+0902: DEVANAGARI LETTER A, SIGN ANUSVARA
+अः	s	A	ạh̽				independent vowel + visarga						U+0905 U+0903: DEVANAGARI LETTER A, SIGN VISARGA
+
+
 `
 
 
