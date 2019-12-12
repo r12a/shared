@@ -61,12 +61,11 @@ var spreadsheet = `
 ູ		u	ū	uː	ū	long vowel					U+0EB9: LAO VOWEL SIGN UU​
 ຽ		i	iᵊ	iːə	īa	vowel			vī ráːm	ວິຣາມ	U+0EBD: LAO SEMIVOWEL SIGN NYO
 ໍ		O	ɔ̄	ɔː	ǭ	long vowel			nīk kʰā hǐt	ນິກຄະຫິດ	U+0ECD: LAO NIGGAHITA​
-ົ		o	o	oʔ o	o	short vowel			mâj kòŋ	ໄມ້ກົງ	U+0EBB: LAO VOWEL SIGN MAI KON​
-ະ		a¶	a	aʔ a	a	short vowel					U+0EB0: LAO VOWEL SIGN A
-ັ		a	ä	aʔ a	a	short vowel			mâj kàn	ໄມ້ກັນ	U+0EB1: LAO VOWEL SIGN MAI KAN​
+ົ		o	o	o	o	short vowel			mâj kòŋ	ໄມ້ກົງ	U+0EBB: LAO VOWEL SIGN MAI KON​
+ະ		a¶	a	a	a	short vowel					U+0EB0: LAO VOWEL SIGN A
+ັ		a	ä	a	a	short vowel			mâj kàn	ໄມ້ກັນ	U+0EB1: LAO VOWEL SIGN MAI KAN​
 າ		a	ā	aː	ā	long vowel					U+0EB2: LAO VOWEL SIGN AA
-ຳ		a	aᵐ	am	am	long vowel					U+0EB3: LAO VOWEL SIGN AM
-											
+ຳ		a	aᵐ	am	am	long vowel					U+0EB3: LAO VOWEL SIGN AM											
 											
 											
 											
