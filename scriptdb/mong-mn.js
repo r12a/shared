@@ -14,7 +14,7 @@ var spreadsheet = `
 ᠪ	b	b	b	b	б	b	p w	consonant			U+182A: MONGOLIAN LETTER BA
 ᠫ	p	p	p	p	п	p	pʰ	consonant			U+182B: MONGOLIAN LETTER PA
 ᠬ	x	x	q	x	х	x	x	consonant			U+182C: MONGOLIAN LETTER QA
-ᠭ	g	g	g	g	г	ɣ g	ɢ g	consonant			U+182D: MONGOLIAN LETTER GA
+ᠭ	g	g	g	g	г	ɣ ɡ	ɢ ɡ	consonant			U+182D: MONGOLIAN LETTER GA
 ᠮ	m	m	m	m	м	m	m	consonant			U+182E: MONGOLIAN LETTER MA
 ᠯ	l	l	l	l	л	l	ɮ	consonant			U+182F: MONGOLIAN LETTER LA
 ᠰ	s	s	s	s	с	s ʃ	s ʃ	consonant			U+1830: MONGOLIAN LETTER SA
