@@ -1,9 +1,9 @@
 var spreadsheet = `
-க		k	k	k- ɡ x ɣ h	k	k	k g x y h	vallinam consonant						U+0B95: TAMIL LETTER KA
-ச		c	c	ʧ- ʤ ʃ s ʒ	c	c	t d s s z	vallinam consonant						U+0B9A: TAMIL LETTER CA
-ட		t	ʈ	ʈ- ɖ ɽ	t	ṭ	t d r	vallinam consonant						U+0B9F: TAMIL LETTER TTA
-த		t¶	t	t̪- d̪ ð	t¶	t	t¶ d d	vallinam consonant						U+0BA4: TAMIL LETTER TA
-ப		p	p	p- b β f	p	p	p b b f	vallinam consonant						U+0BAA: TAMIL LETTER PA
+க		k	k	k- kː -x- -ɣ- -h- -ɡ	k	k	k g x y h	vallinam consonant						U+0B95: TAMIL LETTER KA
+ச		c	c	t͡ʃ- tːʃ -s- ʒ -d͡ʒ	c	c	t d s s z	vallinam consonant						U+0B9A: TAMIL LETTER CA
+ட		t	ʈ	ʈː -ɽ- -ɖ	t	ṭ	t d r	vallinam consonant						U+0B9F: TAMIL LETTER TTA
+த		t¶	t	t̪- t̪ː -ð- -d̪	t¶	t	t¶ d d	vallinam consonant						U+0BA4: TAMIL LETTER TA
+ப		p	p	p- pː -β- f -b	p	p	p b b f	vallinam consonant						U+0BAA: TAMIL LETTER PA
 ங		n	ŋ	ŋ	n	ṅ	n	mellinam consonant						U+0B99: TAMIL LETTER NGA
 ஞ		n	ɲ	ɲ	n	ñ	n	mellinam consonant						U+0B9E: TAMIL LETTER NYA
 ண		n	ɳ	ɳ	n	ṇ	n	mellinam consonant						U+0BA3: TAMIL LETTER NNA
@@ -30,31 +30,31 @@ var spreadsheet = `
 ஃ		/	ˑ		/	ḵ		sound converter				ஆய்தம்	ɑ̣̄y͓tam͓	U+0B83: TAMIL SIGN VISARGA
 														
 														
-அ		A	ạ	ʌ	A	a	V	independent vowel						U+0B85: TAMIL LETTER A
-ஆ		A	ɑ̣̄	ɑː	A	ā	A	independent vowel		ா				U+0B86: TAMIL LETTER AA
+அ		A	ạ	a	A	a	V	independent vowel						U+0B85: TAMIL LETTER A
+ஆ		A	ạ̄	aː	A	ā	A	independent vowel		ா				U+0B86: TAMIL LETTER AA
 இ		I	ị	i	I	i	I	independent vowel		ி				U+0B87: TAMIL LETTER I
 ஈ		I	ị̄	iː	I	ī	I	independent vowel		ீ				U+0B88: TAMIL LETTER II
-உ		U	ụ	u ɯ	U	u	U W	independent vowel		ு				U+0B89: TAMIL LETTER U
+உ		U	ụ	u	U	u	U W	independent vowel		ு				U+0B89: TAMIL LETTER U
 ஊ		U	ụ̄	uː	U	ū	U	independent vowel		ூ				U+0B8A: TAMIL LETTER UU
 எ		E	ẹ	e	E	e	E	independent vowel		ெ				U+0B8E: TAMIL LETTER E
 ஏ		E	ẹ̄	eː	E	ē	E	independent vowel		ே				U+0B8F: TAMIL LETTER EE
 ஒ		o	ọ	oː	O	o	V	independent vowel		ொ				U+0B92: TAMIL LETTER O
 ஓ		O	ọ̄	o	O	ō	O	independent vowel		ோ				U+0B93: TAMIL LETTER OO
-ஐ		V	ʌ̣ʲ	ʌj	A	ai	A	independent vowel		ை				U+0B90: TAMIL LETTER AI
-ஔ		V	ʌ̣ʷ	ʌʋ	A	aw	V	independent vowel		ௌ				U+0B94: TAMIL LETTER AU
+ஐ		V	ạʲ	aɪ	A	ai	A	independent vowel		ை				U+0B90: TAMIL LETTER AI
+ஔ		V	ạʷ	aʊ	A	aw	V	independent vowel		ௌ				U+0B94: TAMIL LETTER AU
 														
 														
-ா		a	ɑ̄	ɑː	a	ā	a	vowel sign			ஆ			U+0BBE: TAMIL VOWEL SIGN AA​
+ா		a	ā	aː	a	ā	a	vowel sign			ஆ			U+0BBE: TAMIL VOWEL SIGN AA​
 ி		i	i	i	i	i	i	vowel sign			இ			U+0BBF: TAMIL VOWEL SIGN I​
 ீ		i	ī	iː	i	ī	i	vowel sign			ஈ			U+0BC0: TAMIL VOWEL SIGN II​
-ு		u	u	u ɯ	u	u	u w	vowel sign			உ			U+0BC1: TAMIL VOWEL SIGN U​
+ு		u	u	u	u	u	u w	vowel sign			உ			U+0BC1: TAMIL VOWEL SIGN U​
 ூ		u	ū	uː	u	ū	u	vowel sign			ஊ			U+0BC2: TAMIL VOWEL SIGN UU​
 ெ		e	e	e	e	e	e	vowel sign			எ			U+0BC6: TAMIL VOWEL SIGN E​
 ே		e	ē	eː	e	ē	e	vowel sign			ஏ			U+0BC7: TAMIL VOWEL SIGN EE​
 ொ		o	o	o	o	o	o	vowel sign			ஒ			U+0BCA: TAMIL VOWEL SIGN O​
 ோ		o	ō	oː	o	ō	o	vowel sign			ஓ			U+0BCB: TAMIL VOWEL SIGN OO​
-ை		v	ʌʲ	ʌj	a	ai	v	vowel sign			ஐ			U+0BC8: TAMIL VOWEL SIGN AI​
-ௌ		v	ʌʷ	ʌʋ	a	aw	v	vowel sign			ஔ			U+0BCC: TAMIL VOWEL SIGN AU​
+ை		v	aʲ	aɪ	a	ai	v	vowel sign			ஐ			U+0BC8: TAMIL VOWEL SIGN AI​
+ௌ		v	aʷ	aʊ	a	aw	v	vowel sign			ஔ			U+0BCC: TAMIL VOWEL SIGN AU​
 														
 														
 ்		*	͓					virama					puḷḷi	U+0BCD: TAMIL SIGN VIRAMA​
