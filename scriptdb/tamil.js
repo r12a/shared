@@ -19,7 +19,7 @@ var spreadsheet = `
 வ		v	ʋ	ʋ	v	v	v	idaiyinam consonant						U+0BB5: TAMIL LETTER VA
 														
 														
-ஜ		d	ʤ	ʤ- z	d	d	d z	grantha consonant						U+0B9C: TAMIL LETTER JA
+ஜ		d	ʤ	d͡ʒ- z	d	d	d z	grantha consonant						U+0B9C: TAMIL LETTER JA
 ஶ		s	ʃ	ɕ ʃ	s	?	c s	grantha consonant	infrequent					U+0BB6: TAMIL LETTER SHA
 ஷ		s	ʂ	ʂ	s	ṣ	s	grantha consonant						U+0BB7: TAMIL LETTER SSA
 ஸ		s¶	s	s	s¶	s	s¶	grantha consonant						U+0BB8: TAMIL LETTER SA
