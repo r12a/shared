@@ -3,7 +3,7 @@ var spreadsheet = `
 𞤼		¶t	t	t	t	consonant		𞤚		𞤼 𞤼𞤼𞤼	tou		U+1E93C: ADLAM SMALL LETTER TU
 𞤷		c	c	t͡ʃ	tch c	consonant		𞤕		𞤷 𞤷𞤷𞤷	tchi		U+1E937: ADLAM SMALL LETTER CHI
 𞤳		k	k	k	k	consonant		𞤑		𞤳 𞤳𞤳𞤳	kaf		U+1E933: ADLAM SMALL LETTER KAF
-𞥂		k	kᵖ	kp	kp	uppercase consonant		𞤠		𞥂 𞥂𞥂𞥂	kpe		U+1E942: ADLAM SMALL LETTER KPO
+𞥂		k	kᵖ	k͡p	kp	uppercase consonant		𞤠		𞥂 𞥂𞥂𞥂	kpe		U+1E942: ADLAM SMALL LETTER KPO
 𞤹		q	q	q	gh ɠ q	consonant		𞤗		𞤹 𞤹𞤹𞤹	ghaf		U+1E939: ADLAM SMALL LETTER QAAF
 													
 𞤦		b	b	b	b	consonant		𞤄		𞤦 𞤦𞤦𞤦	ba		U+1E926: ADLAM SMALL LETTER BA
@@ -12,7 +12,7 @@ var spreadsheet = `
 𞤯		d	ɗ	ɗ	ɗ dh	consonant		𞤍		𞤯 𞤯𞤯𞤯	dha		U+1E92F: ADLAM SMALL LETTER DHA
 𞤶		j	j	d͡ʒ	dj j	consonant		𞤔		𞤶 𞤶𞤶𞤶	djim		U+1E936: ADLAM SMALL LETTER JIIM
 𞤺		g	g	ɡ	g	consonant		𞤘		𞤺 𞤺𞤺𞤺	ga		U+1E93A: ADLAM SMALL LETTER GA
-𞥀		g	gᵇ	ɡb	gb	uppercase consonant		𞤞		𞥀 𞥀𞥀𞥀	gba		U+1E940: ADLAM SMALL LETTER GBE
+𞥀		g	gᵇ	g͡b	gb	uppercase consonant		𞤞		𞥀 𞥀𞥀𞥀	gba		U+1E940: ADLAM SMALL LETTER GBE
 													
 𞤬		f	f	f	f	consonant		𞤊		𞤬 𞤬𞤬𞤬	f		U+1E92C: ADLAM SMALL LETTER FA
 𞤾		v	v	v	v	uppercase consonant		𞤜		𞤾 𞤾𞤾𞤾	va		U+1E93E: ADLAM SMALL LETTER VA
@@ -39,7 +39,7 @@ var spreadsheet = `
 𞤚		¶T	T	t	T	uppercase consonant			𞤼	𞤚 𞤚𞤚𞤚	tou		U+1E91A: ADLAM CAPITAL LETTER TU
 𞤕		C	C	t͡ʃ	Tch C	uppercase consonant			𞤷	𞤕 𞤕𞤕𞤕	tchi		U+1E915: ADLAM CAPITAL LETTER CHI
 𞤑		K	K	k	K	uppercase consonant			𞤳	𞤑 𞤑𞤑𞤑	kaf		U+1E911: ADLAM CAPITAL LETTER KAF
-𞤠		K	Kᵖ	kp	Kp	uppercase consonant			𞥂	𞤠 𞤠𞤠𞤠	kpe		U+1E920: ADLAM CAPITAL LETTER KPO
+𞤠		K	Kᵖ	k͡p	Kp	uppercase consonant			𞥂	𞤠 𞤠𞤠𞤠	kpe		U+1E920: ADLAM CAPITAL LETTER KPO
 𞤗		Q	Q	q	Gh Ɠ Q	uppercase consonant			𞤹	𞤗 𞤗𞤗𞤗	ghaf		U+1E917: ADLAM CAPITAL LETTER QAAF
 													
 𞤄		B	B	b	B	uppercase consonant			𞤦	𞤄 𞤄𞤄𞤄	ba		U+1E904: ADLAM CAPITAL LETTER BA
@@ -48,7 +48,7 @@ var spreadsheet = `
 𞤍		D	Ɗ	ɗ	Ɗ Dh	uppercase consonant			𞤯	𞤍 𞤍𞤍𞤍	dha		U+1E90D: ADLAM CAPITAL LETTER DHA
 𞤔		J	J	d͡ʒ	Dj J	uppercase consonant			𞤶	𞤔 𞤔𞤔𞤔	djim		U+1E914: ADLAM CAPITAL LETTER JIIM
 𞤘		G	G	ɡ	G	uppercase consonant			𞤺	𞤘 𞤘𞤘𞤘	ga		U+1E918: ADLAM CAPITAL LETTER GA
-𞤞		G	Gᵇ	ɡb	Gb	uppercase consonant			𞥀	𞤞 𞤞𞤞𞤞	gba		U+1E91E: ADLAM CAPITAL LETTER GBE
+𞤞		G	Gᵇ	g͡b	Gb	uppercase consonant			𞥀	𞤞 𞤞𞤞𞤞	gba		U+1E91E: ADLAM CAPITAL LETTER GBE
 													
 𞤊		F	F	f	F	uppercase consonant			𞤬	𞤊 𞤊𞤊𞤊	f		U+1E90A: ADLAM CAPITAL LETTER FA
 𞤜		V	V	v	V	uppercase consonant			𞤾	𞤜 𞤜𞤜𞤜	va		U+1E91C: ADLAM CAPITAL LETTER VA
@@ -71,49 +71,67 @@ var spreadsheet = `
 													
 													
 													
-𞤧𞥈	s	s	s̴	ص s̴		extended consonant							U+1E927 U+1E948: ADLAM SMALL LETTER SINNYIIYHE, CONSONANT MODIFIER
-𞤣𞥈	s	d	d̴	ض d̴		extended consonant							U+1E923 U+1E948: ADLAM SMALL LETTER DAALI, CONSONANT MODIFIER
-𞤼𞥈	s	t	t̴	ط t̴		extended consonant							U+1E93C U+1E948: ADLAM SMALL LETTER TU, CONSONANT MODIFIER
-𞤶𞥈	s	z	z̴	ظ z̴		extended consonant							U+1E936 U+1E948: ADLAM SMALL LETTER JIIM, CONSONANT MODIFIER
-𞤢𞥈	s	{	ʕ	ع ʕ		extended consonant							U+1E922 U+1E948: ADLAM SMALL LETTER ALIF, CONSONANT MODIFIER
-𞤺𞥈	s	y	ɣ	غ ɣ		extended consonant							U+1E93A U+1E948: ADLAM SMALL LETTER GA, CONSONANT MODIFIER
-𞤸𞥈	s	y	ḣ	ه h		extended consonant							U+1E938 U+1E948: ADLAM SMALL LETTER HA, CONSONANT MODIFIER
-𞤧𞥊	s	q	θ	ث θ		extended consonant							U+1E927 U+1E94A: ADLAM SMALL LETTER SINNYIIYHE, NUKTA
-𞤶𞥊	s	z	z̴	ز z		extended consonant							U+1E936 U+1E94A: ADLAM SMALL LETTER JIIM, NUKTA
+𞤧𞥈	s	s	sˑ	ص sˤ		extended consonant							U+1E927 U+1E948: ADLAM SMALL LETTER SINNYIIYHE, CONSONANT MODIFIER
+𞤣𞥈	s	d	dˑ	ض dˤ		extended consonant							U+1E923 U+1E948: ADLAM SMALL LETTER DAALI, CONSONANT MODIFIER
+𞤼𞥈	s	t	tˑ	ط tˤ		extended consonant							U+1E93C U+1E948: ADLAM SMALL LETTER TU, CONSONANT MODIFIER
+𞤶𞥈	s	z	jˑ	ظ zˤ		extended consonant							U+1E936 U+1E948: ADLAM SMALL LETTER JIIM, CONSONANT MODIFIER
+𞤢𞥈	s	{	aˑ	ع ʕ		extended consonant							U+1E922 U+1E948: ADLAM SMALL LETTER ALIF, CONSONANT MODIFIER
+𞤺𞥈	s	y	gˑ	غ ɣ		extended consonant							U+1E93A U+1E948: ADLAM SMALL LETTER GA, CONSONANT MODIFIER
+𞤸𞥈	s	y	hˑ	ه ɦ		extended consonant							U+1E938 U+1E948: ADLAM SMALL LETTER HA, CONSONANT MODIFIER
+𞤧𞥊	s	q	s˙	ث θ		extended consonant							U+1E927 U+1E94A: ADLAM SMALL LETTER SINNYIIYHE, NUKTA
+𞤶𞥊	s	z	j˙	ز z		extended consonant							U+1E936 U+1E94A: ADLAM SMALL LETTER JIIM, NUKTA
 													
-𞤅𞥈	s	S	S̴	ص s̴		uppercase extended consonant							U+1E905 U+1E948: ADLAM CAPITAL LETTER SINNYIIYHE, CONSONANT MODIFIER
-𞤁𞥈	s	D	D̴	ض d̴		uppercase extended consonant							U+1E901 U+1E948: ADLAM CAPITAL LETTER DAALI, CONSONANT MODIFIER
-𞤚𞥈	s	T	T̴	ط t̴		uppercase extended consonant							U+1E91A U+1E948: ADLAM CAPITAL LETTER TU, CONSONANT MODIFIER
-𞤔𞥈	s	Z	Z̴	ظ z̴		uppercase extended consonant							U+1E914 U+1E948: ADLAM CAPITAL LETTER JIIM, CONSONANT MODIFIER
-𞤀𞥈	s	{	ʕ	ع ʕ		uppercase extended consonant							U+1E900 U+1E948: ADLAM CAPITAL LETTER ALIF, CONSONANT MODIFIER
-𞤘𞥈	s	Y	Ɣ	غ ɣ		uppercase extended consonant							U+1E918 U+1E948: ADLAM CAPITAL LETTER GA, CONSONANT MODIFIER
-𞤖𞥈	s	Y	Ḣ	ه h		uppercase extended consonant							U+1E916 U+1E948: ADLAM CAPITAL LETTER HA, CONSONANT MODIFIER
-𞤅𞥊	s	Q	Θ	ث θ		uppercase extended consonant							U+1E905 U+1E94A: ADLAM CAPITAL LETTER SINNYIIYHE, NUKTA
-𞤔𞥊	s	Z	Z̴	ز z		uppercase extended consonant							U+1E914 U+1E94A: ADLAM CAPITAL LETTER JIIM, NUKTA
-													
-													
+𞤅𞥈	s	S	Sˑ	ص sˤ		uppercase extended consonant							U+1E905 U+1E948: ADLAM CAPITAL LETTER SINNYIIYHE, CONSONANT MODIFIER
+𞤁𞥈	s	D	Dˑ	ض dˤ		uppercase extended consonant							U+1E901 U+1E948: ADLAM CAPITAL LETTER DAALI, CONSONANT MODIFIER
+𞤚𞥈	s	T	Tˑ	ط tˤ		uppercase extended consonant							U+1E91A U+1E948: ADLAM CAPITAL LETTER TU, CONSONANT MODIFIER
+𞤔𞥈	s	Z	Jˑ	ظ zˤ		uppercase extended consonant							U+1E914 U+1E948: ADLAM CAPITAL LETTER JIIM, CONSONANT MODIFIER
+𞤀𞥈	s	{	Aˑ	ع ʕ		uppercase extended consonant							U+1E900 U+1E948: ADLAM CAPITAL LETTER ALIF, CONSONANT MODIFIER
+𞤘𞥈	s	Y	Gˑ	غ ɣ		uppercase extended consonant							U+1E918 U+1E948: ADLAM CAPITAL LETTER GA, CONSONANT MODIFIER
+𞤖𞥈	s	Y	Hˑ	ه ɦ		uppercase extended consonant							U+1E916 U+1E948: ADLAM CAPITAL LETTER HA, CONSONANT MODIFIER
+𞤅𞥊	s	Q	S˙	ث θ		uppercase extended consonant							U+1E905 U+1E94A: ADLAM CAPITAL LETTER SINNYIIYHE, NUKTA
+𞤔𞥊	s	Z	J˙	ز z		uppercase extended consonant							U+1E914 U+1E94A: ADLAM CAPITAL LETTER JIIM, NUKTA
 													
 													
 													
-𞤢		a	a	a	a	vowel				𞤢 𞤢𞤢𞤢	alif		U+1E922: ADLAM SMALL LETTER ALIF
-𞤫		e	ɛ	ɛ	e	vowel				𞤫 𞤫𞤫𞤫	è		U+1E92B: ADLAM SMALL LETTER E
+													
+													
 𞤭		i	i	i	i	vowel				𞤭 𞤭𞤭𞤭	i		U+1E92D: ADLAM SMALL LETTER I
-𞤮		o	ɔ	ɔ	ô o	vowel				𞤮 𞤮𞤮𞤮	ö		U+1E92E: ADLAM SMALL LETTER O
 𞤵		u	u	u	u	vowel				𞤵 𞤵𞤵𞤵	ou		U+1E935: ADLAM SMALL LETTER U
+𞤫		e	ɛ	ɛ	e	vowel				𞤫 𞤫𞤫𞤫	è		U+1E92B: ADLAM SMALL LETTER E
+𞤮		o	ɔ	ɔ	ô o	vowel				𞤮 𞤮𞤮𞤮	ö		U+1E92E: ADLAM SMALL LETTER O
+𞤢		a	a	a	a	vowel				𞤢 𞤢𞤢𞤢	alif		U+1E922: ADLAM SMALL LETTER ALIF
 													
 													
 𞤫𞥊	s	e	e	e	e	extended vowel							U+1E92B U+1E94A: ADLAM SMALL LETTER E, NUKTA
 𞤮𞥊	s	o	o	o	o	extended vowel							U+1E92E U+1E94A: ADLAM SMALL LETTER O, NUKTA
 													
 													
+𞤭𞥅	s	i	iː	iː	i	long vowel							U+1E92D U+1E945: ADLAM SMALL LETTER I,  VOWEL LENGTHENER
+𞤵𞥅	s	u	uː	uː	u	long vowel							U+1E935 U+1E945: ADLAM SMALL LETTER U,  VOWEL LENGTHENER
+𞤫𞥊𞥅	s	e	ɛ˙ː	eː	e	long vowel							U+1E92B U+1E94A U+1E945: ADLAM SMALL LETTER E,  NUKTA,  VOWEL LENGTHENER
+𞤮𞥊𞥅	s	o	ɔ˙ː	oː	o	long vowel							U+1E92E U+1E94A U+1E945: ADLAM SMALL LETTER O,  NUKTA,  VOWEL LENGTHENER
+𞤫𞥅	s	e	ɛː	ɛː	e	long vowel							U+1E92B U+1E945: ADLAM SMALL LETTER E,  VOWEL LENGTHENER
+𞤮𞥅	s	o	ɔː	ɔː	ô o	long vowel							U+1E92E U+1E945: ADLAM SMALL LETTER O,  VOWEL LENGTHENER
+𞤢𞥄	s	a	aˉ	aː	a	long vowel							U+1E922 U+1E944: ADLAM SMALL LETTER ALIF,  ALIF LENGTHENER
 													
-𞤀		A	A	a	A	uppercase vowel				𞤀 𞤀𞤀𞤀	alif		U+1E900: ADLAM CAPITAL LETTER ALIF
-𞤉		E	Ɛ	ɛ	E	uppercase vowel				𞤉 𞤉𞤉𞤉	è		U+1E909: ADLAM CAPITAL LETTER E
+													
 𞤋		I	I	i	I	uppercase vowel				𞤋 𞤋𞤋𞤋	i		U+1E90B: ADLAM CAPITAL LETTER I
-𞤌		O	Ɔ	ɔ	Ô O	uppercase vowel				𞤌 𞤌𞤌𞤌	ö		U+1E90C: ADLAM CAPITAL LETTER O
 𞤓		U	U	u	U	uppercase vowel				𞤓 𞤓𞤓𞤓	ou		U+1E913: ADLAM CAPITAL LETTER U
-𞤉𞥊	s	E	E	e	E	extended vowel							U+1E92B U+1E94A: ADLAM SMALL LETTER E, NUKTA
-𞤌𞥊	s	O	O	o	O	extended vowel							U+1E92E U+1E94A: ADLAM SMALL LETTER O, NUKTA
+𞤉𞥊	s	E	E	e	E	uppercase vowel							U+1E92B U+1E94A: ADLAM SMALL LETTER E, NUKTA
+𞤌𞥊	s	O	O	o	O	uppercase vowel							U+1E92E U+1E94A: ADLAM SMALL LETTER O, NUKTA
+𞤉		E	Ɛ	ɛ	E	uppercase vowel				𞤉 𞤉𞤉𞤉	è		U+1E909: ADLAM CAPITAL LETTER E
+𞤌		O	Ɔ	ɔ	Ô O	uppercase vowel				𞤌 𞤌𞤌𞤌	ö		U+1E90C: ADLAM CAPITAL LETTER O
+𞤀		A	A	a	A	uppercase vowel				𞤀 𞤀𞤀𞤀	alif		U+1E900: ADLAM CAPITAL LETTER ALIF
+													
+𞤋𞥅		I	Iː	i	I	uppercase long vowel							U+1E90B U+1E945: ADLAM CAPITAL LETTER I.  VOWEL LENGTHENER
+𞤓𞥅		U	Uː	u	U	uppercase long vowel							U+1E913 U+1E945: ADLAM CAPITAL LETTER U.  VOWEL LENGTHENER
+𞤉𞥊𞥅	s	E	Ɛ˙ː	e	E	uppercase long vowel							U+1E909 U+1E94A U+1E945: ADLAM CAPITAL LETTER E.  NUKTA.  VOWEL LENGTHENER
+𞤌𞥊𞥅	s	O	Ɔ˙ː	o	O	uppercase long vowel							U+1E90C U+1E94A U+1E945: ADLAM CAPITAL LETTER O.  NUKTA.  VOWEL LENGTHENER
+𞤉𞥅		E	Ɛː	ɛ	E	uppercase long vowel							U+1E909 U+1E945: ADLAM CAPITAL LETTER E.  VOWEL LENGTHENER
+𞤌𞥅		O	Ɔː	ɔ	Ô O	uppercase long vowel							U+1E90C U+1E945: ADLAM CAPITAL LETTER O.  VOWEL LENGTHENER
+𞤀𞥄		A	Aˉ	a	A	uppercase long vowel							U+1E900 U+1E944: ADLAM CAPITAL LETTER ALIF.  ALIF LENGTHENER
+													
+													
 													
 													
 𞥋		[	˜			nasalisation mark					nyondal		U+1E94B: ADLAM NASALIZATION MARK
