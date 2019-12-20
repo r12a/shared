@@ -586,6 +586,9 @@ table.inband th {
 #refs + ol {
     text-align: start;
     }
+#refs ol { /* this one for toc2020 */
+    text-align: start;
+    }
 
 
 
