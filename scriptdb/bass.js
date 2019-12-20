@@ -20,9 +20,9 @@ var spreadsheet = `
 𖫠		h	hʷ	hʷ	hw	fricative				U+16AE0: BASSA VAH LETTER UWU
 𖫤		¶h	h	h	h	fricative				U+16AE4: BASSA VAH LETTER YEIN
 										
-𖫔		m	mᵇ	mb	m ɓ	nasal				U+16AD4: BASSA VAH LETTER MBE
+𖫔		m	mᵇ	m͡b	m ɓ	nasal				U+16AD4: BASSA VAH LETTER MBE
 𖫐		n	n	n	n	nasal				U+16AD0: BASSA VAH LETTER ENNI
-𖫕		j	dᶯ	ɟ ɳ	dy ny	affricate				U+16AD5: BASSA VAH LETTER YIE
+𖫕		j	dᶯ	ɟ ɲ	dy ny	affricate				U+16AD5: BASSA VAH LETTER YIE
 										
 𖫛		w	w	w	w	approximant				U+16ADB: BASSA VAH LETTER WA
 𖫦		r	r	r l	r	approximant				U+16AE6: BASSA VAH LETTER WADDA
