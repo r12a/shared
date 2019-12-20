@@ -3,14 +3,14 @@ var spreadsheet = `
 𖫡		t	t	t	t	plosive				U+16AE1: BASSA VAH LETTER TO
 𖫟		c	c	c	c	affricate				U+16ADF: BASSA VAH LETTER CE
 𖫑		k	k	k	k	plosive				U+16AD1: BASSA VAH LETTER KA
-𖫘		k	kᵖ	kp	kp	plosive				U+16AD8: BASSA VAH LETTER KPAH
+𖫘		k	kᵖ	k͡p	kp	plosive				U+16AD8: BASSA VAH LETTER KPAH
 										
 𖫢		b	b	b	b	plosive				U+16AE2: BASSA VAH LETTER BA
 𖫗		d	d	d	d	plosive				U+16AD7: BASSA VAH LETTER DHII
 𖫞		¶d	ɖ	ɗ	ɖ	implosive				U+16ADE: BASSA VAH LETTER DO
 𖫙		j	j	ɟ	j	affricate				U+16AD9: BASSA VAH LETTER JO
 𖫖		g	g	ɡ	g	plosive				U+16AD6: BASSA VAH LETTER GAH
-𖫝		g	gᵇ	ɡb	gb gm	plosive				U+16ADD: BASSA VAH LETTER GBU
+𖫝		g	gᵇ	g͡b	gb gm	plosive				U+16ADD: BASSA VAH LETTER GBU
 										
 𖫓		f	f	f	f	fricative				U+16AD3: BASSA VAH LETTER FA
 𖫣		v	v	v	v	fricative				U+16AE3: BASSA VAH LETTER VU
