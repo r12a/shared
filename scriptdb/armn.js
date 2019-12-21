@@ -7,25 +7,25 @@ var spreadsheet = `
 ժ		z	ʒ	ʒ	z	ž	consonant				Ժ	10	ʒɛ	ժե	U+056A: ARMENIAN SMALL LETTER ZHE
 լ		l	l	l	l	l	consonant				Լ	30	ljun/lʏn	լյուն	U+056C: ARMENIAN SMALL LETTER LIWN
 խ		x	x	χ	x	x	consonant				Խ	40	χɛ	խե	U+056D: ARMENIAN SMALL LETTER XEH
-ծ		t	ʦ	ts dz	t	ts	consonant				Ծ	50	tsɑ/dzɑ	ծա	U+056E: ARMENIAN SMALL LETTER CA
+ծ		t	ʦ	t͡s d͡z	t	ts	consonant				Ծ	50	tsɑ/dzɑ	ծա	U+056E: ARMENIAN SMALL LETTER CA
 կ		k	k	k ɡ	k	k	consonant				Կ	60	kɛn/ɡɛn	կեն	U+056F: ARMENIAN SMALL LETTER KEN
 հ		h	h	h	h	h	consonant				Հ	70	ho	հօ	U+0570: ARMENIAN SMALL LETTER HO
-ձ		d	ʣ	dz tsʰ	d	dz	consonant				Ձ	80	dzɑ/tsʰɑ	ձա	U+0571: ARMENIAN SMALL LETTER JA
+ձ		d	ʣ	d͡z t͡sʰ	d	dz	consonant				Ձ	80	dzɑ/tsʰɑ	ձա	U+0571: ARMENIAN SMALL LETTER JA
 ղ		r	ʁ	ʁ	r	ṙ	consonant				Ղ	90	ʁɑt/ʁɑd	ղատ	U+0572: ARMENIAN SMALL LETTER GHAD
-ճ		t	ʧ	ʧ ʤ	t	tš	consonant				Ճ	100	tʃɛ/dʒɛ	ճե	U+0573: ARMENIAN SMALL LETTER CHEH
+ճ		t	ʧ	t͡ʃ d͡ʒ	t	tš	consonant				Ճ	100	tʃɛ/dʒɛ	ճե	U+0573: ARMENIAN SMALL LETTER CHEH
 մ		m	m	m	m	m	consonant				Մ	200	mɛn	մեն	U+0574: ARMENIAN SMALL LETTER MEN
 յ		y	y	h j	j	j	consonant				Յ	300	ji/hi	հի	U+0575: ARMENIAN SMALL LETTER YI
 ն		n	n	n ŋ	n	n	consonant				Ն	400	nu	նու	U+0576: ARMENIAN SMALL LETTER NOW
 շ		s	ʃ	ʃ	s	š	consonant				Շ	500	ʃɑ	շա	U+0577: ARMENIAN SMALL LETTER SHA
-չ		t	ʧʰ	ʧʰ	t	tš’	consonant				Չ	700	ʧʰɑ	չա	U+0579: ARMENIAN SMALL LETTER CHA
+չ		t	ʧʰ	t͡ʃ ʰ	t	tš’	consonant				Չ	700	ʧʰɑ	չա	U+0579: ARMENIAN SMALL LETTER CHA
 պ		p	p	p b	p	p	consonant				Պ	800	pɛ/bɛ	պե	U+057A: ARMENIAN SMALL LETTER PEH
-ջ		d	ʤ	dʒ tʃʰ	d	dž	consonant				Ջ	900	dʒɛ/tʃʰɛ	ջե	U+057B: ARMENIAN SMALL LETTER JHEH
+ջ		d	ʤ	d͡ʒ t͡ʃʰ	d	dž	consonant				Ջ	900	dʒɛ/tʃʰɛ	ջե	U+057B: ARMENIAN SMALL LETTER JHEH
 ռ		r	ṙ	r ɾ	r	r	consonant				Ռ	1000	rɑ/ɾɑ	ռա	U+057C: ARMENIAN SMALL LETTER RA
 ս		s	s	s	s	s	consonant				Ս	2000	sɛ	սե	U+057D: ARMENIAN SMALL LETTER SEH
 վ		v	v	v	v	v	consonant				Վ	3000	vɛv	վեվ	U+057E: ARMENIAN SMALL LETTER VEW
 տ		t	t	t d	t	t	consonant				Տ	4000	tjun/dʏn	տյուն	U+057F: ARMENIAN SMALL LETTER TIWN
 ր		r	r	ɾ	r	r’	consonant				Ր	5000	ɾɛ	րե	U+0580: ARMENIAN SMALL LETTER REH
-ց		t	ʦʰ	ʦʰ	t	ts’	consonant				Ց	6000	tsʰo	ցո	U+0581: ARMENIAN SMALL LETTER CO
+ց		t	ʦʰ	t͡sʰ	t	ts’	consonant				Ց	6000	tsʰo	ցո	U+0581: ARMENIAN SMALL LETTER CO
 ւ		w	w	v	w	w	consonant				Ւ	7000	hʏn	վյուն	U+0582: ARMENIAN SMALL LETTER YIWN
 փ		p	pʰ	pʰ	p	p’	consonant				Փ	8000	pʰjuɾ/pʰʏɾ	փյուր	U+0583: ARMENIAN SMALL LETTER PIWR
 ք		k	kʰ	kʰ	k	k’	consonant				Ք	9000	kʰɛ	քե	U+0584: ARMENIAN SMALL LETTER KEH
@@ -39,25 +39,25 @@ var spreadsheet = `
 Ժ		Z	ʒ̣	ʒ	Z	Ž	consonant			ժ			ʒɛ	ժե	U+053A: ARMENIAN CAPITAL LETTER ZHE
 Լ		L	ḷ	l	L	L	consonant			լ			ljun/lʏn	լյուն	U+053C: ARMENIAN CAPITAL LETTER LIWN
 Խ		X	x̣	χ	X	X	consonant			խ			χɛ	խե	U+053D: ARMENIAN CAPITAL LETTER XEH
-Ծ		T	ʦ̣	ts dz	T	Ts’	consonant			ծ			tsɑ/dzɑ	ծա	U+053E: ARMENIAN CAPITAL LETTER CA
+Ծ		T	ʦ̣	t͡s d͡z	T	Ts’	consonant			ծ			tsɑ/dzɑ	ծա	U+053E: ARMENIAN CAPITAL LETTER CA
 Կ		K	ḳ	k ɡ	K	K	consonant			կ			kɛn/ɡɛn	կեն	U+053F: ARMENIAN CAPITAL LETTER KEN
 Հ		H	ḥ	h	H	H	consonant			հ			ho	հօ	U+0540: ARMENIAN CAPITAL LETTER HO
-Ձ		D	ʣ̣	dz tsʰ	D	Dz	consonant			ձ			dzɑ/tsʰɑ	ձա	U+0541: ARMENIAN CAPITAL LETTER JA
+Ձ		D	ʣ̣	d͡z t͡sʰ	D	Dz	consonant			ձ			dzɑ/tsʰɑ	ձա	U+0541: ARMENIAN CAPITAL LETTER JA
 Ղ		R	ʁ̣	ʁ	R	Ṙ	consonant			ղ			ʁɑt/ʁɑd	ղատ	U+0542: ARMENIAN CAPITAL LETTER GHAD
-Ճ		T	ʧ̣	ʧ ʤ	T	Tš	consonant			ճ			tʃɛ/dʒɛ	ճե	U+0543: ARMENIAN CAPITAL LETTER CHEH
+Ճ		T	ʧ̣	t͡ʃ d͡ʒ	T	Tš	consonant			ճ			tʃɛ/dʒɛ	ճե	U+0543: ARMENIAN CAPITAL LETTER CHEH
 Մ		M	ṃ	m	M	M	consonant			մ			mɛn	մեն	U+0544: ARMENIAN CAPITAL LETTER MEN
 Յ		Y	ỵ	h j	J	J	consonant			յ			ji/hi	հի	U+0545: ARMENIAN CAPITAL LETTER YI
 Ն		N	ṇ	n ŋ	N	N	consonant			ն			nu	նու	U+0546: ARMENIAN CAPITAL LETTER NOW
 Շ		S	ʃ̣	ʃ	S	Š	consonant			շ			ʃɑ	շա	U+0547: ARMENIAN CAPITAL LETTER SHA
-Չ		T	ʧ̣ʰ	ʧʰ	T	Tš’	consonant			չ			ʧʰɑ	չա	U+0549: ARMENIAN CAPITAL LETTER CHA
+Չ		T	ʧ̣ʰ	t͡ʃʰ	T	Tš’	consonant			չ			ʧʰɑ	չա	U+0549: ARMENIAN CAPITAL LETTER CHA
 Պ		P	p̣	p b	P	P	consonant			պ			pɛ/bɛ	պե	U+054A: ARMENIAN CAPITAL LETTER PEH
-Ջ		D	ʤ̣	dʒ tʃʰ	D	Dž	consonant			ջ			dʒɛ/tʃʰɛ	ջե	U+054B: ARMENIAN CAPITAL LETTER JHEH
+Ջ		D	ʤ̣	d͡ʒ t͡ʃʰ	D	Dž	consonant			ջ			dʒɛ/tʃʰɛ	ջե	U+054B: ARMENIAN CAPITAL LETTER JHEH
 Ռ		R	ṛ̇	r ɾ	R	R	consonant			ռ			rɑ/ɾɑ	ռա	U+054C: ARMENIAN CAPITAL LETTER RA
 Ս		S	ṣ	s	S	S	consonant			ս			sɛ	սե	U+054D: ARMENIAN CAPITAL LETTER SEH
 Վ		V	ṿ	v	V	V	consonant			վ			vɛv	վեվ	U+054E: ARMENIAN CAPITAL LETTER VEW
 Տ		T	ṭ	t d	T	T	consonant			տ			tjun/dʏn	տյուն	U+054F: ARMENIAN CAPITAL LETTER TIWN
 Ր		R	ṛ	ɾ	R	R’	consonant			ր			ɾɛ	րե	U+0550: ARMENIAN CAPITAL LETTER REH
-Ց		T	ʦ̣ʰ	ʦʰ	T	Ts’	consonant			ց			tsʰo	ցո	U+0551: ARMENIAN CAPITAL LETTER CO
+Ց		T	ʦ̣ʰ	t͡sʰ	T	Ts’	consonant			ց			tsʰo	ցո	U+0551: ARMENIAN CAPITAL LETTER CO
 Ւ		w	ẉ	v	W	W	consonant			ւ			hʏn	վյուն	U+0552: ARMENIAN CAPITAL LETTER YIWN
 Փ		P	p̣ʰ	pʰ	P	P’	consonant			փ			pʰjuɾ/pʰʏɾ	փյուր	U+0553: ARMENIAN CAPITAL LETTER PIWR
 Ք		K	ḳʰ	kʰ	K	K’	consonant			ք			kʰɛ	քե	U+0554: ARMENIAN CAPITAL LETTER KEH
@@ -83,6 +83,8 @@ var spreadsheet = `
 Ի		I	ị	i	I	I	vowel			ի			ini	ինի	U+053B: ARMENIAN CAPITAL LETTER INI
 Ո		O	ɔ̣	ɔ ʋɔ	O	O	vowel			ո			ʋɔ	ո	U+0548: ARMENIAN CAPITAL LETTER VO
 Օ		O	ọ	o	O	O	vowel			օ			o	օ	U+0555: ARMENIAN CAPITAL LETTER OH
+															
+															
 															
 															
 															
