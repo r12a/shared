@@ -28,14 +28,14 @@ var spreadsheet = `
 ۋ		w	w	v w	w	в	semivowel		ۋ ـۋ			U+06CB: ARABIC LETTER VE
 												
 												
-ا		a	a	ɑ	a	а	vowel		ا ـا			U+0627: ARABIC LETTER ALEF
-ە		e	e	ɛ	e	ә	vowel		ە ەەە			U+06D5: ARABIC LETTER AE
+ى		i	i	i ɨ	i	и	vowel		ى ىىى			U+0649: ARABIC LETTER ALEF MAKSURA
+ۈ		u	ü	y ʏ	ü	ү	vowel		ۈ ـۈ			U+06C8: ARABIC LETTER YU
+ۇ		u	u	u ʊ	u	у	vowel		ۇ ـۇ			U+06C7: ARABIC LETTER U
 ې		e	ë	e	ë	е	vowel		ې ېېې			U+06D0: ARABIC LETTER E
-ى		i	i	i	i	и	vowel		ى ىىى			U+0649: ARABIC LETTER ALEF MAKSURA
-و		o	o	o	o	о	vowel		و ـو			U+0648: ARABIC LETTER WAW
+و		o	o	o ɔ	o	о	vowel		و ـو			U+0648: ARABIC LETTER WAW
+ە		e	e	ɛ æ	e	ә	vowel		ە ەەە			U+06D5: ARABIC LETTER AE
 ۆ		o	ø	ø	ö	ө	vowel		ۆ ـۆ			U+06C6: ARABIC LETTER OE
-ۇ		u	u	u	u	у	vowel		ۇ ـۇ			U+06C7: ARABIC LETTER U
-ۈ		u	ü	y	ü	ү	vowel		ۈ ـۈ			U+06C8: ARABIC LETTER YU
+ا		a	a	ɑ a	a	а	vowel		ا ـا			U+0627: ARABIC LETTER ALEF
 												
 												
 ٪		%	%		%		percent sign					U+066A: ARABIC PERCENT SIGN
@@ -48,14 +48,14 @@ var spreadsheet = `
 												
 												
 												
-ئا	s	A	’a	ɑ	a	а						U+0626 U+0627: ARABIC LETTER YEH WITH HAMZA ABOVE, LETTER ALEF
-ئە	s	E	’e	ɛ	e	ә						U+0626 U+06D5: ARABIC LETTER YEH WITH HAMZA ABOVE, LETTER AE
+ئى	s	I	’i	i ɨ	i	и						U+0626 U+0649: ARABIC LETTER YEH WITH HAMZA ABOVE, LETTER ALEF MAKSURA
+ئۈ	s	U	’ü	y ʏ	ü	ү						U+0626 U+06C8: ARABIC LETTER YEH WITH HAMZA ABOVE, LETTER YU
+ئۇ	s	U	’u	u ʊ	u	у						U+0626 U+06C7: ARABIC LETTER YEH WITH HAMZA ABOVE, LETTER U
 ئې	s	E	 ’ë	e	ë	е						U+0626 U+06D0: ARABIC LETTER YEH WITH HAMZA ABOVE, LETTER E
-ئى	s	I	’i	i	i	и						U+0626 U+0649: ARABIC LETTER YEH WITH HAMZA ABOVE, LETTER ALEF MAKSURA
-ئو	s	O	’o	o	ö	ө						U+0626 U+0648: ARABIC LETTER YEH WITH HAMZA ABOVE, LETTER WAW
+ئو	s	O	’o	o ɔ	ö	ө						U+0626 U+0648: ARABIC LETTER YEH WITH HAMZA ABOVE, LETTER WAW
+ئە	s	E	’e	ɛ æ	e	ә						U+0626 U+06D5: ARABIC LETTER YEH WITH HAMZA ABOVE, LETTER AE
 ئۆ	s	O	’ø	ø	o	о						U+0626 U+06C6: ARABIC LETTER YEH WITH HAMZA ABOVE, LETTER OE
-ئۇ	s	U	’u	u	u	у						U+0626 U+06C7: ARABIC LETTER YEH WITH HAMZA ABOVE, LETTER U
-ئۈ	s	U	’ü	y	ü	ү						U+0626 U+06C8: ARABIC LETTER YEH WITH HAMZA ABOVE, LETTER YU
+ئا	s	A	’a	ɑ a	a	а						U+0626 U+0627: ARABIC LETTER YEH WITH HAMZA ABOVE, LETTER ALEF
 
 
 `
