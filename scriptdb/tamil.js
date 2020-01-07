@@ -19,7 +19,7 @@ var spreadsheet = `
 வ		v	ʋ	ʋ	v	v	v	idaiyinam consonant						U+0BB5: TAMIL LETTER VA	tamil
 															
 															
-ஜ		d	ʤ	d͡ʒ- z	d	d	d z	grantha consonant						U+0B9C: TAMIL LETTER JA	tamil
+ஜ		d	ʤ	d͡ʒ z	d	d	d z	grantha consonant						U+0B9C: TAMIL LETTER JA	tamil
 ஶ		s	ʃ	ɕ ʃ	s	?	c s	grantha consonant	infrequent					U+0BB6: TAMIL LETTER SHA	tamil
 ஷ		s	ʂ	ʂ	s	ṣ	s	grantha consonant						U+0BB7: TAMIL LETTER SSA	tamil
 ஸ		s¶	s	s	s¶	s	s¶	grantha consonant						U+0BB8: TAMIL LETTER SA	tamil
@@ -109,10 +109,10 @@ var spreadsheet = `
 															
 															
 															
-ஃப	s	f	f	f	k	kp	f	extended consonant						U+0B83 U+0BAA: TAMIL SIGN VISARGA, LETTER PA	
-ஃஜ	s	z	z	z	k	kj	z	extended consonant						U+0B83 U+0B9C: TAMIL SIGN VISARGA, LETTER JA	
-ஃஸ	s	k	ᶄ	ks	k	ḵs	k	extended consonant						U+0B83 U+0BB8: TAMIL SIGN VISARGA, LETTER SA	
-ஃக	s	x	x	x	k	ḵk	x	extended consonant						U+0B83 U+0B95: TAMIL SIGN VISARGA, LETTER KA	
+ஃப	s	f	ˑp	f	k	kp	f	extended consonant						U+0B83 U+0BAA: TAMIL SIGN VISARGA, LETTER PA	
+ஃஜ	s	z	ˑʤ	z	k	kj	z	extended consonant						U+0B83 U+0B9C: TAMIL SIGN VISARGA, LETTER JA	
+ஃஸ	s	k	ˑs	ks	k	ḵs	k	extended consonant						U+0B83 U+0BB8: TAMIL SIGN VISARGA, LETTER SA	
+ஃக	s	x	ˑk	x	k	ḵk	x	extended consonant						U+0B83 U+0B95: TAMIL SIGN VISARGA, LETTER KA	
 															
 க்ஷ	s	K	k͓ʂ	kʂ	k	kṣ	k	ligature						U+0B95 U+0BCD U+0BB7: TAMIL LETTER KA, SIGN VIRAMA, LETTER SSA	
 ஶ்ரீ	s	S	ʃ͓ɾī	ʃ͓ɾī				ligature						U+0BB6 U+0BCD U+0BB0 U+0BC0: TAMIL LETTER SHA, SIGN VIRAMA, LETTER RA, VOWEL SIGN II	
@@ -142,8 +142,8 @@ var cols = {
 "meaning":0,
 "shape": 0,
 "numLoc": 0,
-"nameLoc": 12,
-"nnameLoc": 13,
+"nnameLoc": 12,
+"nameLoc": 13,
 "ucsName": 14,
 "block": 15,
 
