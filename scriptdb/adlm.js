@@ -102,8 +102,8 @@ var spreadsheet = `
 𞤢		a	a	a	a	vowel				𞤢 𞤢𞤢𞤢	alif		U+1E922: ADLAM SMALL LETTER ALIF		adlam
 															
 															
-𞤫𞥊	s	e	e	e	e	extended vowel							U+1E92B U+1E94A: ADLAM SMALL LETTER E, NUKTA		
-𞤮𞥊	s	o	o	o	o	extended vowel							U+1E92E U+1E94A: ADLAM SMALL LETTER O, NUKTA		
+𞤫𞥊	s	e	ɛ˙	e	e	extended vowel							U+1E92B U+1E94A: ADLAM SMALL LETTER E, NUKTA		adlam
+𞤮𞥊	s	o	ɔ˙	o	o	extended vowel							U+1E92E U+1E94A: ADLAM SMALL LETTER O, NUKTA		adlam
 															
 															
 𞤭𞥅	s	i	iː	iː	i	long vowel							U+1E92D U+1E945: ADLAM SMALL LETTER I,  VOWEL LENGTHENER		
