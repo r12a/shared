@@ -2,27 +2,27 @@ var spreadsheet = `
 پ		p	p	p	p	p	consonant			پ پپپ	pe		U+067E: ARABIC LETTER PEH	arabic
 ت		t¶	t	t¶	t	t	consonant			ت تتت	te		U+062A: ARABIC LETTER TEH	arabic
 ط		t	ṫ			t	consonant			ط ططط	toʾe 		U+0637: ARABIC LETTER TAH	arabic
-ژ		t	ʦ		c	t͡s	consonant			ژ ـژ	ce		U+0698: ARABIC LETTER JEH	arabic
 ٹ		t	ʈ	t	ṭ	ʈ	consonant			ٹ ٹٹٹ	ṭe 		U+0679: ARABIC LETTER TTEH	arabic
-چ		c	ʧ	c	č	ʧ	consonant			چ چچچ	če		U+0686: ARABIC LETTER TCHEH	arabic
 ک		k	k	k	k	k	consonant			ک ککک	kāf 		U+06A9: ARABIC LETTER KEHEH	arabic
 ق		k	ḱ			k	consonant			ق ققق	baṛī kāf 		U+0642: ARABIC LETTER QAF	arabic
 ع		}	ʔ			ʔ ∅	consonant			ع ععع	ain 		U+0639: ARABIC LETTER AIN	arabic
+ژ		t	ʦ		c	t͡s	consonant			ژ ـژ	ce		U+0698: ARABIC LETTER JEH	arabic
+چ		c	ʧ	c	č	t͡ʃ	consonant			چ چچچ	če		U+0686: ARABIC LETTER TCHEH	arabic
 														
 پھ	s	P	pʰ			pʰ	aspirated consonant			پھ پھپھپھ			U+067E U+06BE: ARABIC LETTER PEH, LETTER HEH DOACHASHMEE	arabic
 تھ	s	T¶	tʰ	T¶	th	tʰ	aspirated consonant			تھ تھتھتھ			U+062A U+06BE: ARABIC LETTER TEH, LETTER HEH DOACHASHMEE	arabic
-ثھ	s	T	ʦʰ		ch	t͡sʰ	aspirated consonant			ثھ ثھثھثھ			U+062B U+06BE: ARABIC LETTER THEH, LETTER HEH DOACHASHMEE	arabic
 ٹھ	s	T	ʈʰ	T	ṭh	ʈʰ	aspirated consonant			ٹھ ٹھٹھٹھ			U+0679 U+06BE: ARABIC LETTER TTEH, LETTER HEH DOACHASHMEE	arabic
-چھ	s	C	ʧʰ	C	čh	ʧʰ	aspirated consonant			چھ چھچھچھ			U+0686 U+06BE: ARABIC LETTER TCHEH, LETTER HEH DOACHASHMEE	arabic
 کھ	s	K	kʰ	K	kh	kʰ	aspirated consonant			کھ کھکھکھ			U+06A9 U+06BE: ARABIC LETTER KEHEH, LETTER HEH DOACHASHMEE	arabic
 خ		K	ḱʰ	K	kh	kʰ	aspirated consonant			خ خخخ	khe 		U+062E: ARABIC LETTER KHAH	arabic
+ژھ	s	T	ʦʰ		ch	t͡sʰ	aspirated consonant			ژھ ژھژھژھ			U+062B U+06BE: ARABIC LETTER THEH, LETTER HEH DOACHASHMEE	arabic
+چھ	s	C	ʧʰ	C	čh	t͡ʃʰ	aspirated consonant			چھ چھچھچھ			U+0686 U+06BE: ARABIC LETTER TCHEH, LETTER HEH DOACHASHMEE	arabic
 														
 ب		b	b	b	b	b	consonant			ب ببب	be		U+0628: ARABIC LETTER BEH	arabic
 د		d¶	d	d¶	d	d	consonant			د ـد	dāl		U+062F: ARABIC LETTER DAL	arabic
 ڈ		d	ɖ	d	ḍ	ɖ	consonant			ڈ ـڈ	ḍāl 		U+0688: ARABIC LETTER DDAL	arabic
-ج		j	ʤ	j	j	d͡ʒ	consonant			ج ججج	jīm 		U+062C: ARABIC LETTER JEEM	arabic
 گ		g	g	g	g	g	consonant			گ گگگ	gāf 		U+06AF: ARABIC LETTER GAF	arabic
 غ		g	ġ			g	consonant			غ غغغ	gain		U+063A: ARABIC LETTER GHAIN	arabic
+ج		j	ʤ	j	j	d͡ʒ	consonant			ج ججج	jīm 		U+062C: ARABIC LETTER JEEM	arabic
 														
 														
 ف		f	f			f pʰ	consonant			ف ففف	fe		U+0641: ARABIC LETTER FEH	arabic
