@@ -12,11 +12,11 @@ var spreadsheet = `
 ఠ		T	ʈʰ	ʈʰ		ṭh	consonant				్ఠ			U+0C20: TELUGU LETTER TTHA	telugu
 ఢ		D	ɖʰ	ɖʰ		ḍh	consonant				్ఢ			U+0C22: TELUGU LETTER DDHA	telugu
 క		k	k	k		k	consonant				్క			U+0C15: TELUGU LETTER KA	telugu
-గ		ɡ	g	ɡ		g	consonant				్గ			U+0C17: TELUGU LETTER GA	telugu
+గ		g	g	ɡ		g	consonant				్గ			U+0C17: TELUGU LETTER GA	telugu
 ఖ		K	kʰ	kʰ		kh	consonant				్ఖ			U+0C16: TELUGU LETTER KHA	telugu
 ఘ		G	gʰ	ɡʰ		gh	consonant				్ఘ			U+0C18: TELUGU LETTER GHA	telugu
-చ		c	c	t͡ʃ		c	consonant				్చ			U+0C1A: TELUGU LETTER CA	telugu
-జ		j	ɟ	d͡ʒ		j	consonant				్జ			U+0C1C: TELUGU LETTER JA	telugu
+చ		c	c	t͡ʃ t͡s		c	consonant				్చ			U+0C1A: TELUGU LETTER CA	telugu
+జ		j	ɟ	d͡ʒ d͡z		j	consonant				్జ			U+0C1C: TELUGU LETTER JA	telugu
 ఛ		C	cʰ	t͡ʃʰ		ch	consonant				్ఛ			U+0C1B: TELUGU LETTER CHA	telugu
 ఝ		J	ɟʰ	d͡ʒʰ		jh	consonant				్ఝ			U+0C1D: TELUGU LETTER JHA	telugu
 స		s	s	s		s	consonant				్స			U+0C38: TELUGU LETTER SA	telugu
@@ -37,10 +37,10 @@ var spreadsheet = `
 															
 															
 ఽ							avagraha	archaic			్ఽ			U+0C3D: TELUGU SIGN AVAGRAHA	telugu
-ౘ							consonant	archaic			్ౘ			U+0C58: TELUGU LETTER TSA	telugu
-ౙ							consonant	archaic			్ౙ			U+0C59: TELUGU LETTER DZA	telugu
-ౚ							consonant	archaic			్ౚ			U+0C5A: TELUGU LETTER RRRA	telugu
-															
+ౘ			ʦ	t͡s			consonant	archaic			్ౘ			U+0C58: TELUGU LETTER TSA	telugu
+ౙ			ʣ	d͡z			consonant	archaic			్ౙ			U+0C59: TELUGU LETTER DZA	telugu
+ౚ				?			consonant	archaic			్ౚ			U+0C5A: TELUGU LETTER RRRA	telugu
+ఴ			ʐ	ʐ			consonant	archaic			్ఴ			U+0C34 TELUGU LETTER LLLA	telugu
 															
 															
 ి		i	i	i		ē	vowel sign			ఇ				U+0C3F: TELUGU VOWEL SIGN I​	telugu
@@ -48,10 +48,10 @@ var spreadsheet = `
 ు		u	u	u		u	vowel sign			ఉ				U+0C41: TELUGU VOWEL SIGN U​	telugu
 ూ		u	ū	uː		ū	vowel sign			ఊ				U+0C42: TELUGU VOWEL SIGN UU​	telugu
 ె		e	e	e		e	vowel sign			ఎ				U+0C46: TELUGU VOWEL SIGN E​	telugu
-ే		e	ē	eː		ē	vowel sign			ఏ				U+0C47: TELUGU VOWEL SIGN EE​	telugu
+ే		e	ē	eː æː		ē	vowel sign			ఏ				U+0C47: TELUGU VOWEL SIGN EE​	telugu
 ొ		o	o	o		o	vowel sign			ఒ				U+0C4A: TELUGU VOWEL SIGN O​	telugu
 ో		o	ō	oː		ō	vowel sign			ఓ				U+0C4B: TELUGU VOWEL SIGN OO​	telugu
-ా		a	ā	aː		a	vowel sign			ఆ				U+0C3E: TELUGU VOWEL SIGN AA​	telugu
+ా		a	ā	aː æː		a	vowel sign			ఆ				U+0C3E: TELUGU VOWEL SIGN AA​	telugu
 															
 ై	d	a	aʲ	aj		ai	diphthong vowel sign			ఐ				U+0C48: TELUGU VOWEL SIGN AI​	telugu
 ౌ		a	aʷ	aw		au	diphthong vowel sign			ఔ				U+0C4C: TELUGU VOWEL SIGN AU​	telugu
