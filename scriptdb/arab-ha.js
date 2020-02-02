@@ -3,27 +3,27 @@ var spreadsheet = `
 ݑ		b	ɓ	ɓ		ɓ	implosive	alternative	ݑ ݑݑݑ			U+0751: ARABIC LETTER BEH WITH DOT BELOW AND THREE DOTS ABOVE	arabic
 پ		b	ɓ̇	ɓ		ɓ	implosive	alternative	پ پپپ			U+067E: ARABIC LETTER PEH	arabic
 ط		d	ɗ	ɗ		ɗ	implosive/ejective		ط ططط			U+0637: ARABIC LETTER TAH	arabic
-ڟ		t	ᵴ	sʼ (t͡sʼ)		ts	ejective		ڟ ڟڟڟ			U+069F: ARABIC LETTER TAH WITH THREE DOTS ABOVE	arabic
-ؿ		y	ƴ̇	ʄ		[ƴ|ʼy]	creaky approximant	alternative	ؿ ؿؿؿ			U+063F: ARABIC LETTER FARSI YEH WITH THREE DOTS ABOVE	arabic
-ۑ		y	ƴ	ʄ		[ƴ|ʼy]	creaky approximant	warsh orthography	ۑ ۑۑۑ			U+06D1: ARABIC LETTER YEH WITH THREE DOTS BELOW	arabic
+ڟ		t	ᵴ	sʼ t͡sʼ		ts	ejective		ڟ ڟڟڟ			U+069F: ARABIC LETTER TAH WITH THREE DOTS ABOVE	arabic
+ؿ		y	ƴ̇	j̰		[ƴ|ʼy]	creaky approximant	alternative	ؿ ؿؿؿ			U+063F: ARABIC LETTER FARSI YEH WITH THREE DOTS ABOVE	arabic
+ۑ		y	ƴ	j̰		[ƴ|ʼy]	creaky approximant	warsh orthography	ۑ ۑۑۑ			U+06D1: ARABIC LETTER YEH WITH THREE DOTS BELOW	arabic
 ࢼ		k	ƙ	kʼ		ƙ	ejective	warsh orthography	ࢼ ࢼࢼࢼ			U+08BC: ARABIC LETTER AFRICAN QAF	arabic
 ق		k	ƙ̇	kʼ		ƙ	ejective	alternative	ق ققق			U+0642: ARABIC LETTER QAF	arabic
 													
 													
-ب		¶b	b	b (ɓ)		b	plosive/implosive		ب ببب			U+0628: ARABIC LETTER BEH	arabic
+ب		¶b	b	b		b	plosive/implosive		ب ببب			U+0628: ARABIC LETTER BEH	arabic
 ت		¶t	t	t		t	plosive		ت تتت			U+062A: ARABIC LETTER TEH	arabic
-د		¶d	d	d (ɗ)		d	plosive/implosive		د ـد			U+062F: ARABIC LETTER DAL	arabic
+د		¶d	d	d		d	plosive/implosive		د ـد			U+062F: ARABIC LETTER DAL	arabic
 ث		t	ʧ	t͡ʃ		c	plosive		ث ثثث			U+062B: ARABIC LETTER THEH	arabic
-ج		d	ʤ	d͡ʒ (ʒ)		j	plosive/affricate		ج ججج			U+062C: ARABIC LETTER JEEM	arabic
+ج		d	ʤ	d͡ʒ ʒ		j	plosive/affricate		ج ججج			U+062C: ARABIC LETTER JEEM	arabic
 ک		¶k	k	k		k	plosive/ejective	warsh orthography	ک ککک			U+06A9: ARABIC LETTER KEHEH	arabic
-ك		k	k	k (kʼ)		k	plosive/ejective	alternative	ك ككك			U+0643: ARABIC LETTER KAF	arabic
+ك		k	k	k kʼ		k	plosive/ejective	alternative	ك ككك			U+0643: ARABIC LETTER KAF	arabic
 غ		g	ɡ	ɡ		g	plosive		غ غغغ			U+063A: ARABIC LETTER GHAIN	arabic
 ع		}	ʔ	ʔ		ʼ	glottal stop		ع ععع			U+0639: ARABIC LETTER AIN	arabic
 													
 													
 ࢻ		¶f	f	ɸ		f	fricative	warsh orthography	ࢻ ࢻࢻࢻ			U+08BB: ARABIC LETTER AFRICAN FEH	arabic
 ف		f	ḟ	ɸ		f	fricative	alternative	ف ففف			U+0641: ARABIC LETTER FEH	arabic
-پ		f	f̄	(ɸ ɓ)		f	fricative	alternative	پ پپ			U+067E: ARABIC LETTER PEH	arabic
+پ		f	f̄	ɸ ɓ		f	fricative	alternative	پ پپ			U+067E: ARABIC LETTER PEH	arabic
 س		¶s	s	s		s	fricative		س سسس			U+0633: ARABIC LETTER SEEN	arabic
 ص		s	s̄	s		s	fricative	alternative	ص صصص			U+0635: ARABIC LETTER SAD	arabic
 ز		¶z	z	z		z	fricative		ز ـز			U+0632: ARABIC LETTER ZAIN	arabic
@@ -45,8 +45,8 @@ var spreadsheet = `
 													
 													
 ݣ		k	k̂	kʷ kʲ 		kw ky	labialised/palatalised plosive		ݣ ݣݣݣ			U+0763: ARABIC LETTER KEHEH WITH THREE DOTS ABOVE	arabic
-ࣃ		g	ĝ	ɡʷ ɡʲ 		gw gy	labialised/palatalised plosive		ࣃ ࣃࣃࣃ			U+08C3 [NOT YET ENCODED!] ARABIC LETTER GHAIN WITH THREE DOTS ABOVE	
-ࣄ		k	ƙ̂	ƙʷ ƙʲ 		ƙw ƙy	labialised/palatalised ejective		ࣄ ࣄࣄࣄ			U+08C4 [NOT YET ENCODED!] ARABIC LETTER AFRICAN QAF WITH THREE DOTS ABOVE	
+ࣃ		g	ĝ	ɡʷ ɡʲ 		gw gy	labialised/palatalised plosive		ࣃ ࣃࣃࣃ			U+08C3 ARABIC LETTER GHAIN WITH THREE DOTS ABOVE	arabic
+ࣄ		k	ƙ̂	ƙʷ ƙʲ 		ƙw ƙy	labialised/palatalised ejective		ࣄ ࣄࣄࣄ			U+08C4 ARABIC LETTER AFRICAN QAF WITH THREE DOTS ABOVE	arabic
 													
 													
 ِ		¶i	i	i		i	vowel					U+0650: ARABIC KASRA​	arabic
