@@ -68,18 +68,27 @@ var spreadsheet = `
 												
 												
 ᦺ		a	a͕ʲ	ai̯	dependent vowel						U+19BA: NEW TAI LUE VOWEL SIGN AY	newtailue
-ᦵ		e	e͕	eː	dependent vowel						U+19B5: NEW TAI LUE VOWEL SIGN E	newtailue
-ᦶ		e	ɛ͕	ɛ	dependent vowel						U+19B6: NEW TAI LUE VOWEL SIGN AE	newtailue
-ᦷ		o	o͕	oː	dependent vowel						U+19B7: NEW TAI LUE VOWEL SIGN O	newtailue
+ᦵ		e	e͕	e eː	dependent vowel						U+19B5: NEW TAI LUE VOWEL SIGN E	newtailue
+ᦶ		e	ɛ͕	ɛ ɛː	dependent vowel						U+19B6: NEW TAI LUE VOWEL SIGN AE	newtailue
+ᦷ		o	o͕	o oː	dependent vowel						U+19B7: NEW TAI LUE VOWEL SIGN O	newtailue
 												
 												
 ᦱ		a	ā	aː	dependent vowel						U+19B1: NEW TAI LUE VOWEL SIGN AA	newtailue
-ᦲ		i	i	i	dependent vowel						U+19B2: NEW TAI LUE VOWEL SIGN II	newtailue
-ᦹ		u	ɯ	ɯ	dependent vowel						U+19B9: NEW TAI LUE VOWEL SIGN UE	newtailue
+ᦲ		i	i	i iː	dependent vowel						U+19B2: NEW TAI LUE VOWEL SIGN II	newtailue
+ᦹ		u	ɯ	ɯ ɯː	dependent vowel						U+19B9: NEW TAI LUE VOWEL SIGN UE	newtailue
 ᦳ		u	u	u	dependent vowel						U+19B3: NEW TAI LUE VOWEL SIGN U	newtailue
 ᦴ		u	ū	uː	dependent vowel						U+19B4: NEW TAI LUE VOWEL SIGN UU	newtailue
-ᦸ		o	ɔ	ɔ	dependent vowel						U+19B8: NEW TAI LUE VOWEL SIGN OA	newtailue
-ᦰ		}	ʔ	ʔ	vowel shortener						U+19B0: NEW TAI LUE VOWEL SIGN VOWEL SHORTENER	newtailue
+ᦸ		o	ɔ	ɔ ɔː	dependent vowel						U+19B8: NEW TAI LUE VOWEL SIGN OA	newtailue
+ᦰ		}	ʔ	a ʔ	vowel shortener						U+19B0: NEW TAI LUE VOWEL SIGN VOWEL SHORTENER	newtailue
+												
+-ᦲᦰ	s	i	-iʔ	iʔ							U+19B2 U+19B0: NEW TAI LUE VOWEL SIGN II, VOWEL SIGN VOWEL SHORTENER	
+-ᦹᦰ	s	e	-ɯʔ	ɯʔ							U+19B9 U+19B0: NEW TAI LUE VOWEL SIGN UE, VOWEL SIGN VOWEL SHORTENER	
+-ᦸᦰ	s	e	-ɔʔ	ɔʔ							U+19B8 U+19B0: NEW TAI LUE VOWEL SIGN OA, VOWEL SIGN VOWEL SHORTENER	
+ᦵ-ᦰ	s	o	e͕-ʔ	eʔ							U+19B5 U+19B0: NEW TAI LUE VOWEL SIGN E, VOWEL SIGN VOWEL SHORTENER	
+ᦵ-ᦲ	s	o	e͕-i	ɤ ɤː							U+19B5 U+19B2: NEW TAI LUE VOWEL SIGN E, VOWEL SIGN II	
+ᦶ-ᦰ	s	e	ɛ͕-ʔ	ɛʔ							U+19B6 U+19B0: NEW TAI LUE VOWEL SIGN AE, VOWEL SIGN VOWEL SHORTENER	
+ᦷ-ᦰ	s	e	o͕-ʔ	oʔ							U+19B7 U+19B0: NEW TAI LUE VOWEL SIGN O, VOWEL SIGN VOWEL SHORTENER	
+ᦵ-ᦲᦰ	s	u	e͕-iʔ	ɤʔ							U+19B5 U+19B2 U+19B0: NEW TAI LUE VOWEL SIGN E, VOWEL SIGN II, VOWEL SIGN VOWEL SHORTENER	
 												
 ᦻ		a	aʲ	aːi̯	dipthong						U+19BB: NEW TAI LUE VOWEL SIGN AAY	newtailue
 ᦿ		u	ɯʲ	ɯi̯	dipthong						U+19BF: NEW TAI LUE VOWEL SIGN UEY	newtailue
@@ -87,6 +96,7 @@ var spreadsheet = `
 ᦽ		o	oʲ	oi̯	dipthong						U+19BD: NEW TAI LUE VOWEL SIGN OY	newtailue
 ᦾ		o	ɔʲ	ɔi̯	dipthong						U+19BE: NEW TAI LUE VOWEL SIGN OAY	newtailue
 ᧀ		e	əʲ	əi̯	dipthong						U+19C0: NEW TAI LUE VOWEL SIGN IY	newtailue
+ᦵ-ᧀ	s	v	e͕-əʲ	ɤi̯							U+19B5 U+19B2 U+19B0: NEW TAI LUE VOWEL SIGN E, VOWEL SIGN IY	
 												
 												
 												
@@ -118,36 +128,22 @@ var spreadsheet = `
 												
 												
 												
-〈		(	<		fullwidth bracket						U+3008: LEFT ANGLE BRACKET	
-〉		)	>		fullwidth bracket						U+3009: RIGHT ANGLE BRACKET	
-《		(	{		fullwidth bracket						U+300A: LEFT DOUBLE ANGLE BRACKET	
-》		)	}		fullwidth bracket						U+300B: RIGHT DOUBLE ANGLE BRACKET	
-（		(	(		fullwidth bracket						U+FF08: FULLWIDTH LEFT PARENTHESIS	
-）		)	)		fullwidth bracket						U+FF09: FULLWIDTH RIGHT PARENTHESIS	
-！		!	!		fullwidth bracket						U+FF01: FULLWIDTH EXCLAMATION MARK	
-？		?	?								U+FF1F: FULLWIDTH QUESTION MARK	
-：		:	:								U+FF1A: FULLWIDTH COLON	
-；		;	;								U+FF1B: FULLWIDTH SEMICOLON	
-。		.	.								U+3002: IDEOGRAPHIC FULL STOP	
-、		,	,								U+3001: IDEOGRAPHIC COMMA	
-，		,	,								U+FF0C: FULLWIDTH COMMA	
-．		.	.								U+FF0E: FULLWIDTH FULL STOP	
-												
-												
-												
-												
-												
-												
--ᦲᦰ	s	i	-iʔ	iʔ							U+19B2 U+19B0: NEW TAI LUE VOWEL SIGN II, VOWEL SIGN VOWEL SHORTENER	
--ᦹᦰ	s	e	-ɯʔ	eʔ							U+19B9 U+19B0: NEW TAI LUE VOWEL SIGN UE, VOWEL SIGN VOWEL SHORTENER	
--ᦸᦰ	s	e	-ɔʔ	ɛʔ							U+19B8 U+19B0: NEW TAI LUE VOWEL SIGN OA, VOWEL SIGN VOWEL SHORTENER	
-ᦵ-ᦰ	s	o	e͕-ʔ	oʔ							U+19B5 U+19B0: NEW TAI LUE VOWEL SIGN E, VOWEL SIGN VOWEL SHORTENER	
-ᦵ-ᦲ	s	o	e͕-i	ɔʔ							U+19B5 U+19B2: NEW TAI LUE VOWEL SIGN E, VOWEL SIGN II	
-ᦶ-ᦰ	s	e	ɛ͕-ʔ	əʔ							U+19B6 U+19B0: NEW TAI LUE VOWEL SIGN AE, VOWEL SIGN VOWEL SHORTENER	
-ᦷ-ᦰ	s	e	o͕-ʔ	əː							U+19B7 U+19B0: NEW TAI LUE VOWEL SIGN O, VOWEL SIGN VOWEL SHORTENER	
-ᦵ-ᦲᦰ	s	u	e͕-iʔ	ɯ							U+19B5 U+19B2 U+19B0: NEW TAI LUE VOWEL SIGN E, VOWEL SIGN II, VOWEL SIGN VOWEL SHORTENER	
-												
-ᦵ-ᦲ	s	o	e͕-i	ɔʔ								
+〈		(	<		fullwidth bracket						U+3008: LEFT ANGLE BRACKET	punctuation
+〉		)	>		fullwidth bracket						U+3009: RIGHT ANGLE BRACKET	punctuation
+《		(	{		fullwidth bracket						U+300A: LEFT DOUBLE ANGLE BRACKET	punctuation
+》		)	}		fullwidth bracket						U+300B: RIGHT DOUBLE ANGLE BRACKET	punctuation
+（		(	(		fullwidth bracket						U+FF08: FULLWIDTH LEFT PARENTHESIS	punctuation
+）		)	)		fullwidth bracket						U+FF09: FULLWIDTH RIGHT PARENTHESIS	punctuation
+！		!	!		fullwidth bracket						U+FF01: FULLWIDTH EXCLAMATION MARK	punctuation
+？		?	?								U+FF1F: FULLWIDTH QUESTION MARK	punctuation
+：		:	:								U+FF1A: FULLWIDTH COLON	punctuation
+；		;	;								U+FF1B: FULLWIDTH SEMICOLON	punctuation
+。		.	.								U+3002: IDEOGRAPHIC FULL STOP	punctuation
+、		,	,								U+3001: IDEOGRAPHIC COMMA	punctuation
+，		,	,								U+FF0C: FULLWIDTH COMMA	punctuation
+．		.	.								U+FF0E: FULLWIDTH FULL STOP	punctuation
+
+
 
 `
 
