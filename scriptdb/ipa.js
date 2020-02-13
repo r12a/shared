@@ -28,7 +28,7 @@ r		r	r	Alveolar trill	U+0072: LATIN SMALL LETTER R
 ɸ		q	ɸ	Unvoiced bilabial fricative	U+0278: LATIN SMALL LETTER PHI
 β		b	β	Voiced bilabial fricative	U+03B2: GREEK SMALL LETTER BETA
 f		f	f	Unvoiced labiodental fricative	U+0066: LATIN SMALL LETTER F
-v		v	v	Voiced labiodental fricative	U+0076: LATIN SMALL LETTER V
+v		v¶	v	Voiced labiodental fricative	U+0076: LATIN SMALL LETTER V
 θ		q	θ	Unvoiced dental fricative	U+03B8: GREEK SMALL LETTER THETA
 ð		d	ð	Voiced dental fricative	U+00F0: LATIN SMALL LETTER ETH
 s		s	s	Unvoiced alveolar fricative	U+0073: LATIN SMALL LETTER S
@@ -45,16 +45,16 @@ x		x	x	Unvoiced velar fricative	U+0078: LATIN SMALL LETTER X
 ʁ		r	ʁ	Voiced uvular fricative	U+0281: LATIN LETTER SMALL CAPITAL INVERTED R
 ħ		h	ħ	Unvoiced pharyngeal fricative	U+0127: LATIN SMALL LETTER H WITH STROKE
 ʕ		{	ʕ	Voiced pharyngeal fricative	U+0295: LATIN LETTER PHARYNGEAL VOICED FRICATIVE
-h		h	h	Unvoiced glottal fricative	U+0068: LATIN SMALL LETTER H
+h		h¶	h	Unvoiced glottal fricative	U+0068: LATIN SMALL LETTER H
 ɦ		h	ɦ	Voiced glottal fricative	U+0266: LATIN SMALL LETTER H WITH HOOK
 ʋ		v	ʋ	Labiodental approximant	U+028B: LATIN SMALL LETTER V WITH HOOK
 ɹ		r	ɹ	Alveolar approximant	U+0279: LATIN SMALL LETTER TURNED R
 ɻ		r	ɻ	Retroflex approximant	U+027B: LATIN SMALL LETTER TURNED R WITH HOOK
-j		j	j	Palatal approximant	U+006A: LATIN SMALL LETTER J
+j		j¶	j	Palatal approximant	U+006A: LATIN SMALL LETTER J
 ɰ		w	ɰ	Velar approximant	U+0270: LATIN SMALL LETTER TURNED M WITH LONG LEG
 ɬ		l	ɬ	Unvoiced alveolar lateral fricative	U+026C: LATIN SMALL LETTER L WITH BELT
 ɮ		l	ɮ	Voiced alveolar lateral fricative	U+026E: LATIN SMALL LETTER LEZH
-l		l	l	Alveolar lateral approximant	U+006C: LATIN SMALL LETTER L
+l		l¶	l	Alveolar lateral approximant	U+006C: LATIN SMALL LETTER L
 ɭ		l	ɭ	Retroflex lateral approximant	U+026D: LATIN SMALL LETTER L WITH RETROFLEX HOOK
 ʎ		y	ʎ	Palatal lateral approximant	U+028E: LATIN SMALL LETTER TURNED Y
 ʟ		l	ʟ	Velar lateral approximant	U+029F: LATIN LETTER SMALL CAPITAL L
@@ -75,7 +75,7 @@ l		l	l	Alveolar lateral approximant	U+006C: LATIN SMALL LETTER L
 ǃ		|	ǃ	(Post) alveolar click	U+01C3: LATIN LETTER RETROFLEX CLICK
 ǂ		|	ǂ	Palato alveolar click	U+01C2: LATIN LETTER ALVEOLAR CLICK
 ʍ		m	ʍ	Voiceless labial velar approximant	U+028D: LATIN SMALL LETTER TURNED W
-w		w	w	Voiced labial velar approximant	U+0077: LATIN SMALL LETTER W
+w		w¶	w	Voiced labial velar approximant	U+0077: LATIN SMALL LETTER W
 ɥ		u	ɥ	Voiced labial palatal approximant	U+0265: LATIN SMALL LETTER TURNED H
 ʜ		h	ʜ	Voiceless epiglottal fricative	U+029C: LATIN LETTER SMALL CAPITAL H
 ʢ		{	ʢ	Voiced epiglottal fricative	U+02A2: LATIN LETTER REVERSED GLOTTAL STOP WITH STROKE
@@ -100,7 +100,7 @@ d͡z		D	d͡z	Voiced dental affricate	U+0064 U+0361 U+007A: LATIN SMALL LETTER D,
 ∅		o	∅	Null	U+2205: EMPTY SET
 					
 i		i¶	i	High front vowel unrounded	U+0069: LATIN SMALL LETTER I
-y		y	y	High front vowel rounded	U+0079: LATIN SMALL LETTER Y
+y		y¶	y	High front vowel rounded	U+0079: LATIN SMALL LETTER Y
 ɨ		i	ɨ	High central vowel unrounded	U+0268: LATIN SMALL LETTER I WITH STROKE
 ʉ		u	ʉ	High central vowel rounded	U+0289: LATIN SMALL LETTER U BAR
 ɯ		w	ɯ	High back vowel unrounded	U+026F: LATIN SMALL LETTER TURNED M
