@@ -265,6 +265,33 @@ IPA14				ɻ
 IPA20				ɤ				
 IPA21				ə				
 IPA22				uə				
+
+
+pinyin1				ā				
+pinyin2				á				
+pinyin3				ǎ				
+pinyin4				à				
+pinyin5				ē				
+pinyin6				é				
+pinyin7				ě				
+pinyin8				è				
+pinyin9				ī				
+pinyin10				í				
+pinyin11				ǐ				
+pinyin12				ì				
+pinyin14				ō				
+pinyin15				ó				
+pinyin16				ǒ				
+pinyin17				ò				
+pinyin18				ū				
+pinyin19				ú				
+pinyin20				ǔ				
+pinyin21				ù				
+pinyin22				ǖ				
+pinyin23				ǘ				
+pinyin24				ǚ				
+pinyin25				ǜ				
+
 								
 								
 一			1				U+4E00 [CJK Unified Ideograph]	
