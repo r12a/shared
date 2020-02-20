@@ -37,21 +37,21 @@ var spreadsheet = `
 ～					dashes		U+FF5E: FULLWIDTH TILDE	punctuation
 								
 								
-？		?			quotation marks & apostrophe		U+FF1F: FULLWIDTH QUESTION MARK	punctuation
+？		?	?ʷ		quotation marks & apostrophe		U+FF1F: FULLWIDTH QUESTION MARK	punctuation
 ⁇		?			quotation marks & apostrophe		U+2047: DOUBLE QUESTION MARK	punctuation
-！		!			quotation marks & apostrophe		U+FF01: FULLWIDTH EXCLAMATION MARK	punctuation
+！		!	!ʷ		quotation marks & apostrophe		U+FF01: FULLWIDTH EXCLAMATION MARK	punctuation
 ‼		!			quotation marks & apostrophe		U+203C: DOUBLE EXCLAMATION MARK	punctuation
 ⁈		?			quotation marks & apostrophe		U+2048: QUESTION EXCLAMATION MARK	punctuation
 ⁉		!			quotation marks & apostrophe		U+2049: EXCLAMATION QUESTION MARK	punctuation
 								
 								
-，		,			general punctuation		U+FF0C: FULLWIDTH COMMA	punctuation
-、		,			general punctuation		U+3001: IDEOGRAPHIC COMMA	punctuation
-：		:			general punctuation		U+FF1A: FULLWIDTH COLON	punctuation
-；		;			general punctuation		U+FF1B: FULLWIDTH SEMICOLON	punctuation
-。		.			general punctuation		U+3002: IDEOGRAPHIC FULL STOP	punctuation
-．		.			general punctuation		U+FF0E: FULLWIDTH FULL STOP	punctuation
-·		.			general punctuation		U+00B7: MIDDLE DOT	punctuation
+，		,	,ʷ		general punctuation		U+FF0C: FULLWIDTH COMMA	punctuation
+、		,	,ⁱ		general punctuation		U+3001: IDEOGRAPHIC COMMA	punctuation
+：		:	:ʷ		general punctuation		U+FF1A: FULLWIDTH COLON	punctuation
+；		;	;ʷ		general punctuation		U+FF1B: FULLWIDTH SEMICOLON	punctuation
+。		.	.ⁱ		general punctuation		U+3002: IDEOGRAPHIC FULL STOP	punctuation
+．		.	.ʷ		general punctuation		U+FF0E: FULLWIDTH FULL STOP	punctuation
+·					general punctuation		U+00B7: MIDDLE DOT	punctuation
 ・					general punctuation		U+30FB: KATAKANA MIDDLE DOT	punctuation
 								
 								
@@ -492,7 +492,7 @@ romaji5				ō
 ヹ		V			katakana		U+30F9: KATAKANA LETTER VE	kana
 ヺ		V			katakana		U+30FA: KATAKANA LETTER VO	kana
 ・					katakana		U+30FB: KATAKANA MIDDLE DOT	kana
-ー					katakana		U+30FC: KATAKANA-HIRAGANA PROLONGED SOUND MARK	kana
+ー		_	ː		katakana		U+30FC: KATAKANA-HIRAGANA PROLONGED SOUND MARK	kana
 ヽ					katakana		U+30FD: KATAKANA ITERATION MARK	kana
 ヾ					katakana		U+30FE: KATAKANA VOICED ITERATION MARK	kana
 ヿ					katakana		U+30FF: KATAKANA DIGRAPH KOTO	kana
