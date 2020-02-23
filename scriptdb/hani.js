@@ -248,25 +248,6 @@ z		z	z				U+007A: LATIN SMALL LETTER Z
 								
 								
 								
-IPA1				pʰ				
-IPA2				tʰ				
-IPA3				kʰ				
-IPA4				t͡s				
-IPA5				t͡sʰ				
-IPA6				t͡ɕ				
-IPA7				t͡ɕʰ				
-IPA8				t͡ʂ				
-IPA9				t͡ʂʰ				
-IPA10				ɕ				
-IPA11				ʂ				
-IPA12				ŋ				
-IPA14				ɻ				
-								
-IPA20				ɤ				
-IPA21				ə				
-IPA22				uə				
-
-
 pinyin1				ā				
 pinyin2				á				
 pinyin3				ǎ				
@@ -291,7 +272,25 @@ pinyin22				ǖ
 pinyin23				ǘ				
 pinyin24				ǚ				
 pinyin25				ǜ				
-
+pinyin26				ü				
+								
+IPA1				pʰ				
+IPA2				tʰ				
+IPA3				kʰ				
+IPA4				t͡s				
+IPA5				t͡sʰ				
+IPA6				t͡ɕ				
+IPA7				t͡ɕʰ				
+IPA8				t͡ʂ				
+IPA9				t͡ʂʰ				
+IPA10				ɕ				
+IPA11				ʂ				
+IPA12				ŋ				
+IPA14				ɻ				
+								
+IPA20				ɤ				
+IPA21				ə				
+IPA22				uə				
 								
 								
 一			1				U+4E00 [CJK Unified Ideograph]	
