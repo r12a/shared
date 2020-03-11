@@ -1,6 +1,9 @@
 /*jshint multistr: true */
  var fontSelection = `<option value="0">Select...</option>
             <optgroup label="Web fonts ">
+            <option value="Estrangelo Edessa WF">Estrangelo Edessa</option>
+            <option value="East Syriac Adiabene WF">East Syriac Adiabene</option>
+            <option value="Serto Jerusalem WF">Serto Jerusalem</option>
             <option value="Noto Sans Syriac Eastern WF">Noto Sans Syriac Eastern WF</option>
             <option value="Noto Sans Syriac Estrangela WF">Noto Sans Syriac Estrangela WF</option>
             <option value="Noto Sans Syriac Western WF">Noto Sans Syriac Western WF</option>
@@ -17,11 +20,10 @@
             </optgroup>
             
             <optgroup label="Other fonts ">
-            <option value="EastSyriacAdiabeneRegular">East Syriac Adiabene</option>
-            <option value="EastSyriacCtesiphonRegular">East Syriac Ctesiphon</option>
             <option value="EstrangeloEdessaRegular">Estrangelo Edessa</option>
             <option value="EstrangeloAntiochRegular">Estrangelo Antioch</option>
-            <option value="Serto Jerusalem WF">Serto Jerusalem</option>
+            <option value="EastSyriacAdiabeneRegular">East Syriac Adiabene</option>
+            <option value="EastSyriacCtesiphonRegular">East Syriac Ctesiphon</option>
             </optgroup>
             
             <optgroup label="General fonts ">
