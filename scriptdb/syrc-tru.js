@@ -1,27 +1,27 @@
 var spreadsheet = `
 ܐ		}	ʾ	∅ o	} a	ʔ	’	consonant/mater lectionis		ܐ ـܐ	1	olaf		U+0710: SYRIAC LETTER ALAPH	syriac
-ܒ		b	b	b	b	b	b	consonant		ܒ ܒـܒـܒ	2			U+0712: SYRIAC LETTER BETH	syriac
-ܓ		g	g	ɡ	g	g	g ġ	consonant		ܓ ܓـܓـܓ	3			U+0713: SYRIAC LETTER GAMAL	syriac
-ܕ		d	d	d	d	d	d ḏ	consonant		ܕ ـܕ	4			U+0715: SYRIAC LETTER DALATH	syriac
-ܗ		h	h	h ∅	h	h	h	consonant		ܗ ـܗ	5			U+0717: SYRIAC LETTER HE	syriac
-ܘ		w	w	w u	w	w	w u	consonant		ܘ ـܘ	6			U+0718: SYRIAC LETTER WAW	syriac
-ܙ		z	z	z	z	z	z ž	consonant		ܙ ـܙ	7			U+0719: SYRIAC LETTER ZAIN	syriac
-ܚ		h	ħ	ħ	h	ħ	ḥ	consonant		ܚ ܚـܚـܚ	8			U+071A: SYRIAC LETTER HETH	syriac
-ܛ		t	tˤ	tˤ	t	tˤ	ṭ	consonant		ܛ ܛـܛـܛ	9			U+071B: SYRIAC LETTER TETH	syriac
-ܝ		y	y	j i	y	j	y i	consonant/mater lectionis		ܝ ܝـܝـܝ	10			U+071D: SYRIAC LETTER YUDH	syriac
-ܟ		k	k	k	k	k	k x	consonant		ܟ ܟـܟـܟ	20			U+071F: SYRIAC LETTER KAPH	syriac
-ܠ		l	l	l	l	l	l	consonant		ܠ ܠـܠـܠ	30			U+0720: SYRIAC LETTER LAMADH	syriac
-ܡ		m	m	m	m	m	m	consonant		ܡܡ ܡـܡـܡ	40			U+0721: SYRIAC LETTER MIM	syriac
-ܢ		n	n	n	n	n	n	consonant		ܢܢ ܢـܢـܢ	50			U+0722: SYRIAC LETTER NUN	syriac
-ܣ		s	s	s	s	s	s	consonant		ܣ ܣـܣـܣ	60			U+0723: SYRIAC LETTER SEMKATH	syriac
+ܒ		b	b	b	b	b	b	consonant		ܒ ܒـܒـܒ	2	beṯ		U+0712: SYRIAC LETTER BETH	syriac
+ܓ		g	g	ɡ	g	g	g	consonant		ܓ ܓـܓـܓ	3	gomal		U+0713: SYRIAC LETTER GAMAL	syriac
+ܕ		d	d	d	d	d	d	consonant		ܕ ـܕ	4	dolaḏ		U+0715: SYRIAC LETTER DALATH	syriac
+ܗ		h	h	h ∅	h	h	h	consonant		ܗ ـܗ	5	he		U+0717: SYRIAC LETTER HE	syriac
+ܘ		w	w	w u	w	w	w u	consonant		ܘ ـܘ	6	waw		U+0718: SYRIAC LETTER WAW	syriac
+ܙ		z	z	z	z	z	z	consonant		ܙ ـܙ	7	zay		U+0719: SYRIAC LETTER ZAIN	syriac
+ܚ		h	ħ	ħ	h	ħ	ḥ	consonant		ܚ ܚـܚـܚ	8	ḥeṯ		U+071A: SYRIAC LETTER HETH	syriac
+ܛ		t	tˤ	tˤ	t	tˤ	ṭ	consonant		ܛ ܛـܛـܛ	9	ṭeṯ		U+071B: SYRIAC LETTER TETH	syriac
+ܝ		y	y	j i	y	j	y i	consonant/mater lectionis		ܝ ܝـܝـܝ	10	yuḏ		U+071D: SYRIAC LETTER YUDH	syriac
+ܟ		k	k	k	k	k	k	consonant		ܟ ܟـܟـܟ	20	kof		U+071F: SYRIAC LETTER KAPH	syriac
+ܠ		l	l	l	l	l	l	consonant		ܠ ܠـܠـܠ	30	lomaḏ		U+0720: SYRIAC LETTER LAMADH	syriac
+ܡ		m	m	m	m	m	m	consonant		ܡܡ ܡـܡـܡ	40	mim		U+0721: SYRIAC LETTER MIM	syriac
+ܢ		n	n	n	n	n	n	consonant		ܢܢ ܢـܢـܢ	50	nun		U+0722: SYRIAC LETTER NUN	syriac
+ܣ		s	s	s	s	s	s	consonant		ܣ ܣـܣـܣ	60	semkaṯ		U+0723: SYRIAC LETTER SEMKATH	syriac
 ܤ	x	s	ṡ		s	ṡ	s	final consonant						U+0724: SYRIAC LETTER FINAL SEMKATH	syriac
-ܥ		{	ʕ	ʕ	{	ʕ	c	consonant		ܥ ܥـܥـܥ	70			U+0725: SYRIAC LETTER E	syriac
-ܦ		f	f	f	p	p	f	consonant		ܦ ܦـܦـܦ	80			U+0726: SYRIAC LETTER PE	syriac
-ܨ		s	sˤ	sˤ	s	sˤ	ṣ	consonant		ܨ ـܨ	90			U+0728: SYRIAC LETTER SADHE	syriac
-ܩ		q	q	q	q	q	q	consonant		ܩ ܩـܩـܩ	100			U+0729: SYRIAC LETTER QAPH	syriac
-ܪ		r	r	r	r	r	r	consonant		ܪ ـܪ	200			U+072A: SYRIAC LETTER RISH	syriac
-ܫ		s	ʃ	ʃ	s	ʃ 	š č	consonant		ܫ ܫـܫـܫ	300			U+072B: SYRIAC LETTER SHIN	syriac
-ܬ		t	t	t	t	t	t ṯ	consonant		ܬ ـܬ	400			U+072C: SYRIAC LETTER TAW	syriac
+ܥ		{	ʕ	ʕ	{	ʕ	c	consonant		ܥ ܥـܥـܥ	70	ce		U+0725: SYRIAC LETTER E	syriac
+ܦ		f	f	f	p	p	f	consonant		ܦ ܦـܦـܦ	80	fe		U+0726: SYRIAC LETTER PE	syriac
+ܨ		s	sˤ	sˤ	s	sˤ	ṣ	consonant		ܨ ـܨ	90	ṣode		U+0728: SYRIAC LETTER SADHE	syriac
+ܩ		q	q	q	q	q	q	consonant		ܩ ܩـܩـܩ	100	qof		U+0729: SYRIAC LETTER QAPH	syriac
+ܪ		r	r	r	r	r	r	consonant		ܪ ـܪ	200	riš		U+072A: SYRIAC LETTER RISH	syriac
+ܫ		s	ʃ	ʃ	s	ʃ 	š	consonant		ܫ ܫـܫـܫ	300	šin		U+072B: SYRIAC LETTER SHIN	syriac
+ܬ		t	t	t	t	t	t	consonant		ܬ ـܬ	400	taw		U+072C: SYRIAC LETTER TAW	syriac
 															
 															
 ܖ	x		ḋ	d ð		d	d ḏ	alternative consonant						U+0716: SYRIAC LETTER DOTLESS DALATH RISH	syriac
@@ -30,7 +30,7 @@ var spreadsheet = `
 															
 															
 ܔ		d	ʤ	d͡ʒ			j	consonant		ܔ ܔܔܔ				U+0714: SYRIAC LETTER GAMAL GARSHUNI	syriac
-ܜ		d	dˤ	dˤ			ḍ	consonant		ܜ ܜܜܜ				U+071C: SYRIAC LETTER TETH GARSHUNI	syriac
+ܜ	x	d	dˤ	dˤ			ḍ	consonant		ܜ ܜܜܜ				U+071C: SYRIAC LETTER TETH GARSHUNI	syriac
 ً	x							arabic diacritic						U+064B: ARABIC FATHATAN​	arabic
 ٌ	x							arabic diacritic						U+064C: ARABIC DAMMATAN​	arabic
 ٍ	x							arabic diacritic						U+064D: ARABIC KASRATAN​	arabic
@@ -76,51 +76,51 @@ var spreadsheet = `
 ّ	x	o	ȯ	o	o	o	ō	vowel diacritic						U+0651: ARABIC SHADDA​	arabic
 															
 															
-̃			‐̃					maǧliyana						U+0303: COMBINING TILDE​	
+̃	x		‐̃					maǧliyana						U+0303: COMBINING TILDE​	
 ̰			‐̰					maǧliyana						U+0330: COMBINING TILDE BELOW​	
 ݁			‐̇					hard-sound marker				qūššāyā	ܩܘܫܝܐ	U+0741: SYRIAC QUSHSHAYA​	syriac
 ݂			‐̣					hard/soft sound marker						U+0742: SYRIAC RUKKAKHA​	syriac
 ̮	x		‐̮					fricative indicator						U+032E: COMBINING BREVE BELOW​	
-݇			‐́					silent letter marker						U+0747: SYRIAC OBLIQUE LINE ABOVE​	syriac
-݈			‐̖					silent letter marker						U+0748: SYRIAC OBLIQUE LINE BELOW​	syriac
+݇	x		‐́					silent letter marker						U+0747: SYRIAC OBLIQUE LINE ABOVE​	syriac
+݈	x		‐̖					silent letter marker						U+0748: SYRIAC OBLIQUE LINE BELOW​	syriac
 ̈		[	‐̈		[	̋	\u030B	syame						U+0308: COMBINING DIAERESIS​	
 ̇			‐͑					disambiguation mark						U+0307: COMBINING DOT ABOVE​	
 ̣			‐̜					disambiguation mark						U+0323: COMBINING DOT BELOW​	
-݀		[	‐̤		[	ʺ	ʺ	feminine marker						U+0740: SYRIAC FEMININE DOT​	syriac
+݀	x	[	‐̤		[	ʺ	ʺ	feminine marker						U+0740: SYRIAC FEMININE DOT​	syriac
 															
 															
 ̄			‐̄					phonological marker						U+0304: COMBINING MACRON​	
 ̠			‐̱					phonological marker						U+0320: COMBINING MINUS SIGN BELOW​	
-̊			‐̊					hard/soft sound marker						U+030A: COMBINING RING ABOVE​	
-̥			‐̥					hard/soft sound marker						U+0325: COMBINING RING BELOW​	
+̊	x		‐̊					hard/soft sound marker						U+030A: COMBINING RING ABOVE​	
+̥	x		‐̥					hard/soft sound marker						U+0325: COMBINING RING BELOW​	
 ̤								phonological marker						U+0324: COMBINING DIAERESIS BELOW​	
 															
-݃								accent mark						U+0743: SYRIAC TWO VERTICAL DOTS ABOVE​	syriac
-݄								accent mark						U+0744: SYRIAC TWO VERTICAL DOTS BELOW​	syriac
+݃	x							accent mark						U+0743: SYRIAC TWO VERTICAL DOTS ABOVE​	syriac
+݄	x							accent mark						U+0744: SYRIAC TWO VERTICAL DOTS BELOW​	syriac
 ݅			‐̂					diacritic						U+0745: SYRIAC THREE DOTS ABOVE​	syriac
 ݆			‐̬					diacritic						U+0746: SYRIAC THREE DOTS BELOW​	syriac
-݉								music mark						U+0749: SYRIAC MUSIC​	syriac
-݊								diacritic cross						U+074A: SYRIAC BARREKH​	syriac
-ܑ								aleph						U+0711: SYRIAC LETTER SUPERSCRIPT ALAPH​	syriac
+݉	x							music mark						U+0749: SYRIAC MUSIC​	syriac
+݊	x							diacritic cross						U+074A: SYRIAC BARREKH​	syriac
+ܑ	x							aleph						U+0711: SYRIAC LETTER SUPERSCRIPT ALAPH​	syriac
 															
 															
 															
-܀					[	¶		end of paragraph						U+0700: SYRIAC END OF PARAGRAPH	syriac
-܁			.		.	.	.	full stop						U+0701: SYRIAC SUPRALINEAR FULL STOP	syriac
-܂			.		.	.	.	full stop						U+0702: SYRIAC SUBLINEAR FULL STOP	syriac
-܃			:		:	:	:	colon						U+0703: SYRIAC SUPRALINEAR COLON	syriac
-܄			:		:	:	:	colon						U+0704: SYRIAC SUBLINEAR COLON	syriac
-܅			:		:	:	:	colon						U+0705: SYRIAC HORIZONTAL COLON	syriac
-܆			:		:	:	:	colon						U+0706: SYRIAC COLON SKEWED LEFT	syriac
-܇			:		:	:	:	colon						U+0707: SYRIAC COLON SKEWED RIGHT	syriac
-܈			;		;	;	;	phrase division						U+0708: SYRIAC SUPRALINEAR COLON SKEWED LEFT	syriac
-܉			?		?	?	?	question mark						U+0709: SYRIAC SUBLINEAR COLON SKEWED RIGHT	syriac
+܀	x				[	¶		end of paragraph						U+0700: SYRIAC END OF PARAGRAPH	syriac
+܁	x		.		.	.	.	full stop						U+0701: SYRIAC SUPRALINEAR FULL STOP	syriac
+܂	x		.		.	.	.	full stop						U+0702: SYRIAC SUBLINEAR FULL STOP	syriac
+܃	x		:		:	:	:	colon						U+0703: SYRIAC SUPRALINEAR COLON	syriac
+܄	x		:		:	:	:	colon						U+0704: SYRIAC SUBLINEAR COLON	syriac
+܅	x		:		:	:	:	colon						U+0705: SYRIAC HORIZONTAL COLON	syriac
+܆	x		:		:	:	:	colon						U+0706: SYRIAC COLON SKEWED LEFT	syriac
+܇	x		:		:	:	:	colon						U+0707: SYRIAC COLON SKEWED RIGHT	syriac
+܈	x		;		;	;	;	phrase division						U+0708: SYRIAC SUPRALINEAR COLON SKEWED LEFT	syriac
+܉	x		?		?	?	?	question mark						U+0709: SYRIAC SUBLINEAR COLON SKEWED RIGHT	syriac
 															
-܊			.		.	.	.	contraction mark						U+070A: SYRIAC CONTRACTION	syriac
-\u070F								abbreviation mark						U+070F SYRIAC ABBREVIATION MARK	syriac
-܋								note marker						U+070B: SYRIAC HARKLEAN OBELUS	syriac
-܌								note marker						U+070C: SYRIAC HARKLEAN METOBELUS	syriac
-܍								note marker						U+070D: SYRIAC HARKLEAN ASTERISCUS	syriac
+܊	x		.		.	.	.	contraction mark						U+070A: SYRIAC CONTRACTION	syriac
+\u070F	x							abbreviation mark						U+070F SYRIAC ABBREVIATION MARK	syriac
+܋	x							note marker						U+070B: SYRIAC HARKLEAN OBELUS	syriac
+܌	x							note marker						U+070C: SYRIAC HARKLEAN METOBELUS	syriac
+܍	x							note marker						U+070D: SYRIAC HARKLEAN ASTERISCUS	syriac
 															
 ،		,	,		,	,		comma						U+060C: ARABIC COMMA	arabic
 ؛		;	;		;	;	;	semi-colon						U+061B: ARABIC SEMICOLON	arabic
