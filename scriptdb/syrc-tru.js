@@ -77,23 +77,23 @@ var spreadsheet = `
 															
 															
 ̃	x		‐̃					maǧliyana						U+0303: COMBINING TILDE​	
-̰			‐̰					maǧliyana						U+0330: COMBINING TILDE BELOW​	
+̰			‐̰					maǧliyana						U+0330: COMBINING TILDE BELOW​	combining
 ݁			‐̇					hard-sound marker				qūššāyā	ܩܘܫܝܐ	U+0741: SYRIAC QUSHSHAYA​	syriac
 ݂			‐̣					hard/soft sound marker						U+0742: SYRIAC RUKKAKHA​	syriac
 ̮	x		‐̮					fricative indicator						U+032E: COMBINING BREVE BELOW​	
 ݇	x		‐́					silent letter marker						U+0747: SYRIAC OBLIQUE LINE ABOVE​	syriac
 ݈	x		‐̖					silent letter marker						U+0748: SYRIAC OBLIQUE LINE BELOW​	syriac
-̈		[	‐̈		[	̋	\u030B	syame						U+0308: COMBINING DIAERESIS​	
-̇			‐͑					disambiguation mark						U+0307: COMBINING DOT ABOVE​	
-̣			‐̜					disambiguation mark						U+0323: COMBINING DOT BELOW​	
+̈		[	‐̈		[	̋	\u030B	syame						U+0308: COMBINING DIAERESIS​	combining
+̇			‐͑					disambiguation mark						U+0307: COMBINING DOT ABOVE​	combining
+̣			‐̜					disambiguation mark						U+0323: COMBINING DOT BELOW​	combining
 ݀	x	[	‐̤		[	ʺ	ʺ	feminine marker						U+0740: SYRIAC FEMININE DOT​	syriac
 															
 															
-̄			‐̄					phonological marker						U+0304: COMBINING MACRON​	
-̠			‐̱					phonological marker						U+0320: COMBINING MINUS SIGN BELOW​	
+̄			‐̄					phonological marker						U+0304: COMBINING MACRON​	combining
+̠			‐̱					phonological marker						U+0320: COMBINING MINUS SIGN BELOW​	combining
 ̊	x		‐̊					hard/soft sound marker						U+030A: COMBINING RING ABOVE​	
 ̥	x		‐̥					hard/soft sound marker						U+0325: COMBINING RING BELOW​	
-̤								phonological marker						U+0324: COMBINING DIAERESIS BELOW​	
+̤								phonological marker						U+0324: COMBINING DIAERESIS BELOW​	combining
 															
 ݃	x							accent mark						U+0743: SYRIAC TWO VERTICAL DOTS ABOVE​	syriac
 ݄	x							accent mark						U+0744: SYRIAC TWO VERTICAL DOTS BELOW​	syriac
@@ -133,28 +133,21 @@ var spreadsheet = `
 															
 															
 															
-\u0735\u0710\b	s	a	āʾ	a	a	a	â							U+0735 U+0710: SYRIAC ZQAPHA DOTTED, SYRIAC LETTER ALAPH​	
-\u0732\u0710\b	s	a	aʾ	a	a	a	ȃ							U+0732 U+0710: SYRIAC PTHAHA DOTTED, SYRIAC LETTER ALAPH​	
-\u0738\u0710\b	s	i	eʾ	ɪ	i	ɪ	ȋ							U+0738 U+0710: SYRIAC DOTTED ZLAMA HORIZONTAL, SYRIAC LETTER ALAPH​	
+\u0735\u0710\b	x	a	āʾ	a	a	a	â							U+0735 U+0710: SYRIAC ZQAPHA DOTTED, SYRIAC LETTER ALAPH​	
+\u0732\u0710\b	x	a	aʾ	a	a	a	ȃ							U+0732 U+0710: SYRIAC PTHAHA DOTTED, SYRIAC LETTER ALAPH​	
+\u0738\u0710\b	x	i	eʾ	ɪ	i	ɪ	ȋ							U+0738 U+0710: SYRIAC DOTTED ZLAMA HORIZONTAL, SYRIAC LETTER ALAPH​	
 															
 ܒ݂	s	v	b‐̣	v	v	v	v			ܒ݂ ܒ݂ـܒ݂ـܒ݂				U+0712 U+0742: SYRIAC LETTER BETH, SYRIAC RUKKAKHA	
 ܓ݂	s	y	g‐̣	ɣ	y	ɣ	ḡ			ܓ݂ ܓ݂ـܓ݂ـܓ݂				U+0713 U+0742: SYRIAC LETTER GAMAL, SYRIAC RUKKAKHA	
 ܕ݂	s	d	d‐̣	ð	d	ð	ḏ			ܕ݂ ـܕ݂				U+0715 U+0742: SYRIAC LETTER DALATH, SYRIAC RUKKAKHA	
 ܟ݂	s	x	k‐̣	x	x t	x ʧ	x			ܟ݂ ܟ݂ـܟ݂ـܟ݂				U+071F U+0742: SYRIAC LETTER KAPH, SYRIAC RUKKAKHA	
-ܦ݂	s	p	p	p	f	f	p			ܦ݂ ܦ݂ـܦ݂ـܦ݂				U+0726 U+0742: SYRIAC LETTER PE, SYRIAC RUKKAKHA	
-ܬ݂	s	q	ṯ	θ	@	θ	ṯ			ܬ݂ ـܬ݂				U+072C U+0742: SYRIAC LETTER TAW, SYRIAC RUKKAKHA	
+ܦ݂	s	p	f‐̣	p	f	f	p			ܦ݂ ܦ݂ـܦ݂ـܦ݂				U+0726 U+0742: SYRIAC LETTER PE, SYRIAC RUKKAKHA	
+ܬ݂	s	q	t‐̣	θ	@	θ	ṯ			ܬ݂ ـܬ݂				U+072C U+0742: SYRIAC LETTER TAW, SYRIAC RUKKAKHA	
 															
-ܓ̰	s	d	ǧ	ʤ	d	ʤ	ǧ							U+0713 U+0330: SYRIAC LETTER GAMAL, COMBINING TILDE BELOW	
-ܙ̃	s	z	ž	ʒ	z	ʒ	ž							U+0719 U+0303: SYRIAC LETTER ZAIN, COMBINING TILDE	
+ܓ̰	x	d	ǧ	ʤ	d	ʤ	ǧ							U+0713 U+0330: SYRIAC LETTER GAMAL, COMBINING TILDE BELOW	
+ܙ̃	x	z	ž	ʒ	z	ʒ	ž							U+0719 U+0303: SYRIAC LETTER ZAIN, COMBINING TILDE	
 ܙ̰	s	z	z‐̰	ʒ	z	ʒ	ž			ܙ̰ ـܙ̰				U+0719 U+0330: SYRIAC LETTER ZAIN, COMBINING TILDE BELOW	
 ܫ̰	s	t	ʃ‐̰	t͡ʃ	z	ʒ	č			ܫ̰ ܫ̰ـܫ̰ـܫ̰				U+072B U+0330: SYRIAC LETTER SHIN, COMBINING TILDE BELOW	
-ܫ̃	s	z	š̃	ʒ	z	ʒ	ẑ							U+072B U+0303: SYRIAC LETTER SHIN, COMBINING TILDE	
-ܟ̃	s	t	k̃	ʧ	t	ʧ	č							U+071F U+0303: SYRIAC LETTER KAPH, COMBINING TILDE	
-															
-ܘܼ	x	u	û	u	u	u	û							U+0718 U+073C: SYRIAC LETTER WAW, SYRIAC HBASA-ESASA DOTTED	
-ܝܼ	x	i	î	i	i	i	î							U+071D U+073C: SYRIAC LETTER YUDH, SYRIAC HBASA-ESASA DOTTED	
-															
-ܘܿ	s	o	ô	u	o	o	ô							U+0718 U+073F: SYRIAC LETTER WAW, SYRIAC RWAHA	
 
 
 
