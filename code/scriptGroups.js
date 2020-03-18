@@ -265,6 +265,7 @@ var scriptGroups = [
 [94208,100351,"Tangut","tang",""],
 [100352,101119,"Tangut Components","tang",""],
 [101120,101631,"Khitan Small Script","kits",""],
+[101632,101759,"Tangut Components","tang",""],
 [110592,110847,"Kana Supplement","jpan",""],
 [110848,110895,"Kana Extended-A","jpan",""],
 [110896,110959,"Small Kana Extension","jpan",""],
