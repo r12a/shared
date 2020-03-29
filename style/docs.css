@@ -746,6 +746,10 @@ h2:hover > a.selflink, h3 > a.selflink, h4 > a.selflink, h5 > a.selflink, h6 > a
     display: block;
     }
 
+.supportdocs  { margin-top: 1em; }
+.supportdocs ul { margin: 0; padding: 0; }
+.supportdocs li { margin-left: 12%; text-align: start; }
+.supportdocs p { margin-bottom: 0; margin-right: 15%; }
 
 /* PRINT STYLES */
 
