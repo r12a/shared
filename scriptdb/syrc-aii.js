@@ -1,5 +1,5 @@
 var spreadsheet = `
-ܐ		}	ʾ	ʔ ɑ	} a	ʔ	ʾ ȃ	consonant/mater lectionis		ܐ ـܐ ܕܐ	1	ɑlap	ܐܵܠܲܦ	U+0710: SYRIAC LETTER ALAPH	syriac
+ܐ		A	ʾ	ʔ ɑ	} a	ʔ	ʾ ȃ	consonant/mater lectionis		ܐ ـܐ ܕܐ	1	ɑlap	ܐܵܠܲܦ	U+0710: SYRIAC LETTER ALAPH	syriac
 ܒ		b	b	b	b	b	b	consonant		ܒ ܒـܒـܒ	2	bet	ܒܹܝܬ	U+0712: SYRIAC LETTER BETH	syriac
 ܓ		g	g	ɡ	g	g	g	consonant		ܓ ܓـܓـܓ	3	gɑmal	ܓܵܡܵܠ	U+0713: SYRIAC LETTER GAMAL	syriac
 ܕ		d	d	d	d	d	d	consonant		ܕ ـܕ	4	dɑlat	ܕܵܠܲܬ	U+0715: SYRIAC LETTER DALATH	syriac
@@ -35,22 +35,22 @@ var spreadsheet = `
 															
 ݂		/	ˑ					soft sound marker				rukɑxɑ	ܪܘܼܟܵܟ݂ܵܐ	U+0742: SYRIAC RUKKAKHA​	syriac
 ݁		/	˙					hard-sound marker				quʃɑyɑ	ܩܘܼܫܵܝܵܐ	U+0741: SYRIAC QUSHSHAYA​	syriac
-̃		/	~					repertoire extension	used with ܫ			maǧliyana	ܡܲܓ̰ܠܝܼܵܢܵܐ	U+0303: COMBINING TILDE​	combining
-̰		/	˷					repertoire extension	used with ܫ, ܟ, ܓ			maǧliyɑnɑ	ܡܲܓ̰ܠܝܼܵܢܵܐ	U+0330: COMBINING TILDE BELOW​	combining
-̮		/	ˇ					fricative indicator	used with ܦ			qiʃtɑ	ܩܝܸܫܬܵܐ݂݂	U+032E: COMBINING BREVE BELOW​	combining
+̃		/	~					repertoire extension	used with ܫ			maǧliyana	ܡܲܓ̰ܠܝܼܵܢܵܐ	U+0303: COMBINING TILDE​	syriac
+̰		/	˷					repertoire extension	used with ܫ, ܟ, ܓ			maǧliyɑnɑ	ܡܲܓ̰ܠܝܼܵܢܵܐ	U+0330: COMBINING TILDE BELOW​	syriac
+̮		/	ˇ					fricative indicator	used with ܦ			qiʃtɑ	ܩܝܸܫܬܵܐ݂݂	U+032E: COMBINING BREVE BELOW​	syriac
 ݇		]	′					silent letter marker				mtˤalqānā	ܡܛܲܠܩܵܢܵܐ	U+0747: SYRIAC OBLIQUE LINE ABOVE​	syriac
 ݈		]	‵					silent letter marker						U+0748: SYRIAC OBLIQUE LINE BELOW​	syriac
-̈		&	˖		[	̋	\u030B	plural marker				syame	ܣܝܵܡܹ̈ܐ	U+0308: COMBINING DIAERESIS​	combining
-̇		[	‐͑					disambiguation mark						U+0307: COMBINING DOT ABOVE​	combining
-̣		[	‐̜					disambiguation mark						U+0323: COMBINING DOT BELOW​	combining
+̈		&	˖		[	̋	\u030B	plural marker				syame	ܣܝܵܡܹ̈ܐ	U+0308: COMBINING DIAERESIS​	syriac
+̇		[	‐͑					disambiguation mark						U+0307: COMBINING DOT ABOVE​	syriac
+̣		[	‐̜					disambiguation mark						U+0323: COMBINING DOT BELOW​	syriac
 ݀		[	⁑		[	ʺ	ʺ	feminine marker						U+0740: SYRIAC FEMININE DOT​	syriac
-̄		[	‒̄					extender/joiner	infrequent			marhᵊtˤɑnɑ	ܡܲܪܗ̄ܛܵܢܵܐ	U+0304: COMBINING MACRON​	combining
-̱		[	‒̱					epenthetic marker	infrequent			mhagjɑnɑ	ܡܗܲܓܝܵܢܵܐ	U+0320: COMBINING MINUS SIGN BELOW​	combining
+̄		[	‒̄					extender/joiner	infrequent			marhᵊtˤɑnɑ	ܡܲܪܗ̄ܛܵܢܵܐ	U+0304: COMBINING MACRON​	syriac
+̱		[	‒̱					epenthetic marker	infrequent			mhagjɑnɑ	ܡܗܲܓܝܵܢܵܐ	U+0320: COMBINING MINUS SIGN BELOW​	syriac
 															
 															
 ̊		/	‐̊					hard/soft sound marker						U+030A: COMBINING RING ABOVE​	combining
 ̥		/	‐̥					hard/soft sound marker						U+0325: COMBINING RING BELOW​	combining
-̤								phonological marker						U+0324: COMBINING DIAERESIS BELOW​	combining
+̤								phonological marker						U+0324: COMBINING DIAERESIS BELOW​	syriac
 															
 ݃	x							accent mark						U+0743: SYRIAC TWO VERTICAL DOTS ABOVE​	syriac
 ݄	x							accent mark						U+0744: SYRIAC TWO VERTICAL DOTS BELOW​	syriac
@@ -76,10 +76,10 @@ var spreadsheet = `
 ܌	x							note marker						U+070C: SYRIAC HARKLEAN METOBELUS	syriac
 ܍	x							note marker						U+070D: SYRIAC HARKLEAN ASTERISCUS	syriac
 															
-،		,	,		,	,		comma						U+060C: ARABIC COMMA	arabic
-؛		;	;		;	;	;	semi-colon						U+061B: ARABIC SEMICOLON	arabic
+،		,	,		,	,		comma						U+060C: ARABIC COMMA	
+؛		;	;		;	;	;	semi-colon						U+061B: ARABIC SEMICOLON	
 .					.	.		full stop						U+002E: FULL STOP	
-؟		?	?		?	?	?	question mark						U+061F: ARABIC QUESTION MARK	arabic
+؟		?	?		?	?	?	question mark						U+061F: ARABIC QUESTION MARK	
 															
 															
 															

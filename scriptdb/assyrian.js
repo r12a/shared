@@ -1,31 +1,31 @@
 var spreadsheet = `
-ܐ		}	ʾ	ʔ ɑ	} a	ʔ	ʾ ȃ	consonant		ܐ ـܐ	1	ʾālap̄	ܐܠܦ	U+0710: SYRIAC LETTER ALAPH	syriac
-ܒ		b	b	b v w	b	b	b ḇ	consonant		ܒ ܒܒܒ	2	bēṯ	ܒܝܬ	U+0712: SYRIAC LETTER BETH	syriac
-ܓ		g	g	ɡ ɣ	g	g	g ḡ ǧ	consonant		ܓ ܓܓܓ	3	gāmal	ܓܡܠ	U+0713: SYRIAC LETTER GAMAL	syriac
-ܕ		d	d	d ð	d	d	d ḏ	consonant		ܕ ـܕ	4	dālaṯ	ܕܠܬ	U+0715: SYRIAC LETTER DALATH	syriac
+ܐ		}	ʾ	ʔ ɑ	} a	ʔ	ʾ ȃ	consonant/mater lectionis		ܐ ـܐ ܕܐ	1	ʾālap̄	ܐܠܦ	U+0710: SYRIAC LETTER ALAPH	syriac
+ܒ		b	b	b w v	b	b	b ḇ	consonant		ܒ ܒـܒـܒ	2	bēṯ	ܒܝܬ	U+0712: SYRIAC LETTER BETH	syriac
+ܓ		g	g	ɡ ɣ	g	g	g ḡ ǧ	consonant		ܓ ܓـܓـܓ	3	gāmal	ܓܵܡܵܠ	U+0713: SYRIAC LETTER GAMAL	syriac
+ܕ		d	d	d ð	d	d	d ḏ	consonant		ܕ ـܕ	4	dālaṯ	ܕܵܠܵܬ	U+0715: SYRIAC LETTER DALATH	syriac
 ܗ		h	h	h	h	h	h	consonant		ܗ ـܗ	5	hē	ܗܐ	U+0717: SYRIAC LETTER HE	syriac
 ܘ		w	w	w u o	w	w	w û ô	consonant		ܘ ـܘ	6	waw	ܘܘ	U+0718: SYRIAC LETTER WAW	syriac
 ܙ		z	z	z ʒ	z	z	z ž	consonant		ܙ ـܙ	7	zayn	ܙܝܢ	U+0719: SYRIAC LETTER ZAIN	syriac
-ܚ		h	ħ	ħ x χ	h	ħ	ḥ	consonant		ܚ ܚܚܚ	8	ḥēṯ	ܚܝܬ	U+071A: SYRIAC LETTER HETH	syriac
-ܛ		t	tˤ	tˤ	t	tˤ	ṭ	consonant		ܛ ܛܛܛ	9	ṭēṯ	ܛܝܬ	U+071B: SYRIAC LETTER TETH	syriac
-ܝ		y	y	j i e	y	j	y î	consonant/mater lectionis		ܝ ܝܝܝ	10	yōḏ	ܝܘܕ	U+071D: SYRIAC LETTER YUDH	syriac
-ܟ		k	k	k x t͡ʃ	k	k	k ḵ č	consonant		ܟ ܟܟܟ	20	kāp̄	ܟܦ	U+071F: SYRIAC LETTER KAPH	syriac
-ܠ		l	l	l	l	l	l	consonant		ܠ ܠܠܠ	30	lāmaḏ	ܠܡܕ	U+0720: SYRIAC LETTER LAMADH	syriac
-ܡ		m	m	m	m	m	m	consonant		ܡ ܡܡܡ	40	mīm	ܡܝܡ	U+0721: SYRIAC LETTER MIM	syriac
-ܢ		n	n	n	n	n	n	consonant		ܢ ܢܢܢ	50	nūn	ܢܘܢ	U+0722: SYRIAC LETTER NUN	syriac
-ܣ		s	s	s	s	s	s	consonant		ܣ ܣܣܣ	60	semkaṯ	ܣܡܟܬ	U+0723: SYRIAC LETTER SEMKATH	syriac
-ܥ		{	ʿ	ʕ	{	ʕ	ʿ	consonant		ܥ ܥܥܥ	70	ʿē	ܥܐ	U+0725: SYRIAC LETTER E	syriac
-ܦ		p	p	p f w	p	p	p p̄	consonant		ܦ ܦܦܦ	80	pē	ܦܐ	U+0726: SYRIAC LETTER PE	syriac
+ܚ		h	ħ	ħ x χ	h	ħ	ḥ	consonant		ܚ ܚـܚـܚ	8	ḥēṯ	ܚܝܬ	U+071A: SYRIAC LETTER HETH	syriac
+ܛ		t	tˤ	tˤ	t	tˤ	ṭ	consonant		ܛ ܛـܛـܛ	9	ṭēṯ	ܛܝܬ	U+071B: SYRIAC LETTER TETH	syriac
+ܝ		y	y	j i e	y	j	y î	consonant/mater lectionis		ܝ ܝـܝـܝ	10	yōḏ	ܝܘܕ	U+071D: SYRIAC LETTER YUDH	syriac
+ܟ		k	k	k x t͡ʃ	k	k	k ḵ č	consonant		ܟ ܟـܟـܟ	20	kāp̄	ܟܦ	U+071F: SYRIAC LETTER KAPH	syriac
+ܠ		l	l	l	l	l	l	consonant		ܠ ܠـܠـܠ	30	lāmaḏ	ܠܡܕ	U+0720: SYRIAC LETTER LAMADH	syriac
+ܡ		m	m	m	m	m	m	consonant		ܡ ܡـܡـܡ	40	mīm	ܡܝܡ	U+0721: SYRIAC LETTER MIM	syriac
+ܢ		n	n	n	n	n	n	consonant		ܢ ܢـܢـܢ	50	nūn	ܢܘܢ	U+0722: SYRIAC LETTER NUN	syriac
+ܣ		s	s	s	s	s	s	consonant		ܣ ܣـܣـܣ	60	semkaṯ	ܣܡܟܬ	U+0723: SYRIAC LETTER SEMKATH	syriac
+ܤ		s	ṡ	s	s	ṡ	s	final consonant						U+0724: SYRIAC LETTER FINAL SEMKATH	syriac
+ܥ		{	ʿ	ʕ	{	ʕ	ʿ	consonant		ܥ ܥـܥـܥ	70	ʿē	ܥܐ	U+0725: SYRIAC LETTER E	syriac
+ܦ		p	p	p f w	p	p	p p̄	consonant		ܦ ܦـܦـܦ	80	pē	ܦܐ	U+0726: SYRIAC LETTER PE	syriac
 ܨ		s	sˤ	sˤ	s	sˤ	ṣ	consonant		ܨ ـܨ	90	ṣāḏē	ܨܕܐ	U+0728: SYRIAC LETTER SADHE	syriac
-ܩ		q	q	q	q	q	q	consonant		ܩ ܩܩܩ	100	qōp̄	ܩܘܦ	U+0729: SYRIAC LETTER QAPH	syriac
+ܩ		q	q	q	q	q	q	consonant		ܩ ܩـܩـܩ	100	qōp̄	ܩܘܦ	U+0729: SYRIAC LETTER QAPH	syriac
 ܪ		r	r	r	r	r	r	consonant		ܪ ـܪ	200	rēš	ܪܝܫ	U+072A: SYRIAC LETTER RISH	syriac
-ܫ		s	ʃ	ʃ ʒ	s	ʃ 	š ẑ	consonant		ܫ ܫܫܫ	300	šīn	ܫܝܢ	U+072B: SYRIAC LETTER SHIN	syriac
-ܬ		t	t	t θ	t	t	t ṯ	consonant		ܬ ܬܬܬ	400	taw	ܬܘ	U+072C: SYRIAC LETTER TAW	syriac
+ܫ		s	ʃ	ʃ ʒ	s	ʃ 	š ẑ	consonant		ܫ ܫـܫـܫ	300	šīn	ܫܝܢ	U+072B: SYRIAC LETTER SHIN	syriac
+ܬ		t	t	t θ	t	t	t ṯ	consonant		ܬ ـܬ	400	taw	ܬܘ	U+072C: SYRIAC LETTER TAW	syriac
 															
 															
-ܖ			ḋ	d ð		d	d ḏ	alternative consonant		ܖ ـܖ		dālaṯ rish		U+0716: SYRIAC LETTER DOTLESS DALATH RISH	syriac
+ܖ			ḋ	d r		d	d ḏ	alternative consonant		ܖ ـܖ		dālaṯ rish		U+0716: SYRIAC LETTER DOTLESS DALATH RISH	syriac
 ܞ		j	jʰ	jʰ	j	jʰ	jh	ligature		ܞ ـܞ				U+071E: SYRIAC LETTER YUDH HE	syriac
-ܤ		s	ṡ	s	s	ṡ	s	consonant		ܤ ܤܤܤ				U+0724: SYRIAC LETTER FINAL SEMKATH	syriac
 ܧ		p	ṗ	p		p	p	consonant		ܧ ܧܧܧ				U+0727: SYRIAC LETTER REVERSED PE	syriac
 															
 															
@@ -55,57 +55,57 @@ var spreadsheet = `
 ݏ				f		f		consonant		ݏ ݏݏݏ				U+074F: SYRIAC LETTER SOGDIAN FE	syriac
 															
 															
-ܲ		a	a	a	a	a	a	vowel diacritic				pṯāḥā	ܦܬ݂ܳܚܳܐ‎	U+0732: SYRIAC PTHAHA DOTTED​	syriac
+ܲ		a	a	a	a	a	a	vowel diacritic				pṯāḥā	ܦܬ݂ܵܚܵܐ‎	U+0732: SYRIAC PTHAHA DOTTED​	syriac
 ܵ		a	ā	ɑ	a	ɑ	ā	vowel diacritic				zqāp̄ā	ܙܩܵܦ݂ܵܐ‎	U+0735: SYRIAC ZQAPHA DOTTED​	syriac
-ܸ		e	e	ɛ ɪ e	e i e	ɛ ɪ e	e	vowel diacritic				rḇāṣā ʾărīḵā / zlāmā pšīqā	ܪܒ݂ܵܨܵܐ ܐܲܪܝܼܟ݂ܵܐ‎ / ܙܠܵܡܵܐ ܦܫܝܼܩܵܐ‎	U+0738: SYRIAC DOTTED ZLAMA HORIZONTAL​	syriac
+ܸ		e	e	ɛ ɪ e	e i e	ɛ ɪ e	e ĕ i	vowel diacritic				rḇāṣā ʾărīḵā / zlāmā pšīqā	ܪܒ݂ܵܨܵܐ ܐܲܪܝܼܟ݂ܵܐ‎ / ܙܠܵܡܵܐ ܦܫܝܼܩܵܐ‎	U+0738: SYRIAC DOTTED ZLAMA HORIZONTAL​	syriac
 ܹ		e	ē	e	e	e	ē	vowel diacritic				rḇāṣā karyā / zlāmā qašyā	ܪܒ݂ܵܨܵܐ ܟܲܪܝܵܐ‎ / ܙܠܵܡܵܐ ܩܲܫܝܵܐ‎	U+0739: SYRIAC DOTTED ZLAMA ANGULAR​	syriac
-ܼ		i	i	i u	i	i	i	vowel diacritic				ḥbāṣā		U+073C: SYRIAC HBASA-ESASA DOTTED​	syriac
+ܼ		i	i	i u	i	i	i	vowel diacritic				ḥbāṣā / rḇāṣā	ܚܒ݂ܵܨܵܐ‎ / ܪܒ݂ܵܨܵܐ‎	U+073C: SYRIAC HBASA-ESASA DOTTED​	syriac
 ܿ		o	o	o	o	o	o	vowel diacritic				ʿṣāṣā rwīḥā / rwāḥā	ܥܨܵܨܵܐ ܪܘܝܼܚܵܐ‎ / ܪܘܵܚܵܐ‎	U+073F: SYRIAC RWAHA​	syriac
 															
 															
-ܰ		a	ȧ	a	a	a	ȧ	vowel diacritic				pṯāḥā	ܦܬ݂ܳܚܳܐ‎	U+0730: SYRIAC PTHAHA ABOVE​	syriac
-ܱ		a	ạ	a	a	a	ạ	vowel diacritic				pṯāḥā	ܦܬ݂ܳܚܳܐ‎	U+0731: SYRIAC PTHAHA BELOW​	syriac
-ܳ		a	å	ɑ	a	ɑ	å	vowel diacritic				zqāp̄ā	ܙܩܵܦ݂ܵܐ‎	U+0733: SYRIAC ZQAPHA ABOVE​	syriac
-ܴ		a	ḁ	ɑ	a	ɑ	ḁ	vowel diacritic				zqāp̄ā	ܙܩܵܦ݂ܵܐ‎	U+0734: SYRIAC ZQAPHA BELOW​	syriac
-ܶ		e	ė	ɛ e	e e	ɛ e	ė	vowel diacritic				rḇāṣā	ܪܒ݂ܵܨܵܐ	U+0736: SYRIAC RBASA ABOVE​	syriac
-ܷ		e	ẹ	ɛ e	e e	ɛ e	ẹ	vowel diacritic				rḇāṣā	ܪܒ݂ܵܨܵܐ	U+0737: SYRIAC RBASA BELOW​	syriac
-ܺ		i	ï	i	i	i	ï	vowel diacritic				ḥḇāṣā	ܚܒ݂ܵܨܵܐ‎	U+073A: SYRIAC HBASA ABOVE​	syriac
-ܻ		i	ị	i	i	i	ị	vowel diacritic				ḥḇāṣā	ܚܒ݂ܵܨܵܐ‎	U+073B: SYRIAC HBASA BELOW​	syriac
-ܽ		u	ů	u	u	u	ů	vowel diacritic				ṣāṣā	ܥܨܳܨܳܐ‎	U+073D: SYRIAC ESASA ABOVE​	syriac
-ܾ		u	ụ	u	u	u	ụ	vowel diacritic				ṣāṣā	ܥܨܳܨܳܐ‎	U+073E: SYRIAC ESASA BELOW​	syriac
-ّ		o	ȯ	o	o	o	ȯ	vowel diacritic						U+0651: ARABIC SHADDA​	arabic
+ܰ	x	a	ȧ	a	a	a	ȧ	vowel diacritic				pṯāḥā	ܦܬ݂ܳܚܳܐ‎	U+0730: SYRIAC PTHAHA ABOVE​	syriac
+ܱ	x	a	ạ	a	a	a	ạ	vowel diacritic				pṯāḥā	ܦܬ݂ܳܚܳܐ‎	U+0731: SYRIAC PTHAHA BELOW​	syriac
+ܳ	x	a	å	ɑ	a	ɑ	å	vowel diacritic				zqāp̄ā	ܙܩܵܦ݂ܵܐ‎	U+0733: SYRIAC ZQAPHA ABOVE​	syriac
+ܴ	x	a	ḁ	ɑ	a	ɑ	ḁ	vowel diacritic				zqāp̄ā	ܙܩܵܦ݂ܵܐ‎	U+0734: SYRIAC ZQAPHA BELOW​	syriac
+ܶ	x	e	ė	ɛ e	e e	ɛ e	ė	vowel diacritic				rḇāṣā	ܪܒ݂ܵܨܵܐ	U+0736: SYRIAC RBASA ABOVE​	syriac
+ܷ	x	e	ẹ	ɛ e	e e	ɛ e	ẹ	vowel diacritic				rḇāṣā	ܪܒ݂ܵܨܵܐ	U+0737: SYRIAC RBASA BELOW​	syriac
+ܺ	x	i	ï	i	i	i	ï	vowel diacritic				ḥḇāṣā	ܚܒ݂ܵܨܵܐ‎	U+073A: SYRIAC HBASA ABOVE​	syriac
+ܻ	x	i	ị	i	i	i	ị	vowel diacritic				ḥḇāṣā	ܚܒ݂ܵܨܵܐ‎	U+073B: SYRIAC HBASA BELOW​	syriac
+ܽ	x	u	ů	u	u	u	ů	vowel diacritic				ṣāṣā	ܥܨܳܨܳܐ‎	U+073D: SYRIAC ESASA ABOVE​	syriac
+ܾ	x	u	ụ	u	u	u	ụ	vowel diacritic				ṣāṣā	ܥܨܳܨܳܐ‎	U+073E: SYRIAC ESASA BELOW​	syriac
+ّ	x	o	ȯ	o	o	o	ȯ	vowel diacritic						U+0651: ARABIC SHADDA​	arabic
 															
 															
-̃								maǧliyana						U+0303: COMBINING TILDE​	
-̰								maǧliyana						U+0330: COMBINING TILDE BELOW​	
-݁								hard-sound marker				qūššāyā	ܩܘܫܝܐ	U+0741: SYRIAC QUSHSHAYA​	syriac
-݂			̣					hard/soft sound marker						U+0742: SYRIAC RUKKAKHA​	syriac
-̮								fricative indicator						U+032E: COMBINING BREVE BELOW​	
-݇								silent letter marker						U+0747: SYRIAC OBLIQUE LINE ABOVE​	syriac
-݈								silent letter marker						U+0748: SYRIAC OBLIQUE LINE BELOW​	syriac
-̈		[	̋		[	̋	\u030B	syame						U+0308: COMBINING DIAERESIS​	
-̇								disambiguation mark						U+0307: COMBINING DOT ABOVE​	
-̣								disambiguation mark						U+0323: COMBINING DOT BELOW​	
-݀		[	ʺ		[	ʺ	ʺ	feminine marker						U+0740: SYRIAC FEMININE DOT​	syriac
+̃			‐̃					maǧliyana						U+0303: COMBINING TILDE​	
+̰			‐̰					maǧliyana						U+0330: COMBINING TILDE BELOW​	
+݁			‐̇					hard-sound marker				qūššāyā	ܩܘܫܝܐ	U+0741: SYRIAC QUSHSHAYA​	syriac
+݂			‐̣					hard/soft sound marker				rukkāḵā		U+0742: SYRIAC RUKKAKHA​	syriac
+̮			‐̮					fricative indicator						U+032E: COMBINING BREVE BELOW​	
+݇			‐́					silent letter marker						U+0747: SYRIAC OBLIQUE LINE ABOVE​	syriac
+݈			‐̖					silent letter marker						U+0748: SYRIAC OBLIQUE LINE BELOW​	syriac
+̈		[	‐̈		[	̋	\u030B	syame						U+0308: COMBINING DIAERESIS​	
+̇			‐͑					disambiguation mark						U+0307: COMBINING DOT ABOVE​	
+̣			‐̜					disambiguation mark						U+0323: COMBINING DOT BELOW​	
+݀		[	‐̤		[	ʺ	ʺ	feminine marker						U+0740: SYRIAC FEMININE DOT​	syriac
 															
 															
-̄								consonant killer						U+0304: COMBINING MACRON​	
-̠								consonant killer						U+0320 COMBINING MINUS SIGN BELOW	
-̊								hard/soft sound marker						U+030A: COMBINING RING ABOVE​	
-̥								hard/soft sound marker						U+0325: COMBINING RING BELOW​	
+̄			‐̄					consonant killer						U+0304: COMBINING MACRON​	
+̠			‐̱					consonant killer						U+0320 COMBINING MINUS SIGN BELOW	
+̊			‐̊					hard/soft sound marker						U+030A: COMBINING RING ABOVE​	
+̥			‐̥					hard/soft sound marker						U+0325: COMBINING RING BELOW​	
 ̤								phonological marker						U+0324: COMBINING DIAERESIS BELOW​	
 															
 ݃								accent mark						U+0743: SYRIAC TWO VERTICAL DOTS ABOVE​	syriac
 ݄								accent mark						U+0744: SYRIAC TWO VERTICAL DOTS BELOW​	syriac
-݅								diacritic						U+0745: SYRIAC THREE DOTS ABOVE​	syriac
-݆								diacritic						U+0746: SYRIAC THREE DOTS BELOW​	syriac
+݅	x		‐̂					diacritic						U+0745: SYRIAC THREE DOTS ABOVE​	syriac
+݆	x		‐̬					diacritic						U+0746: SYRIAC THREE DOTS BELOW​	syriac
 ݉								music mark						U+0749: SYRIAC MUSIC​	syriac
 ݊								diacritic cross						U+074A: SYRIAC BARREKH​	syriac
 ܑ								aleph						U+0711: SYRIAC LETTER SUPERSCRIPT ALAPH​	syriac
 															
 															
 															
-܀					[	¶		end of paragraph						U+0700: SYRIAC END OF PARAGRAPH	syriac
+܀	x				[	¶		end of paragraph						U+0700: SYRIAC END OF PARAGRAPH	syriac
 ܁			.		.	.	.	full stop						U+0701: SYRIAC SUPRALINEAR FULL STOP	syriac
 ܂			.		.	.	.	full stop						U+0702: SYRIAC SUBLINEAR FULL STOP	syriac
 ܃			:		:	:	:	colon						U+0703: SYRIAC SUPRALINEAR COLON	syriac
@@ -165,8 +165,8 @@ var cols = {
 "key":2,
 "transLoc": 3,
 "ipaLoc": 4,
-"transckey": 0,
-"transcription":0,
+"transckey": 5,
+"transcription":7,
 "typeLoc": 8,
 "statusLoc": 9,
 "equiv": 0,
@@ -185,6 +185,7 @@ var cols = {
 "ucsName": 14,
 "block": 15,
 
-//"othertranscriptions": [[6, 'ISO 9985']]
+//"othertranscriptions": [[7, 'ISO 9985']]
+"othertranscriptions": [[7, 'Transcription']]
 }
 
