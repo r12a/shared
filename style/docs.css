@@ -562,7 +562,7 @@ td {
 	vertical-align: top; 
 	text-align: center; 
 	border-collapse: collapse; 
-	font-family: 'Helvetica Neue', Verdana, helvetica, "Segoe UI", sans-serif; 
+	font-family: Raleway, 'Helvetica Neue', Verdana, helvetica, "Segoe UI", sans-serif; 
 	}
 th { 
 	font-size: 80%; 
@@ -749,7 +749,7 @@ h2:hover > a.selflink, h3 > a.selflink, h4 > a.selflink, h5 > a.selflink, h6 > a
 .supportdocs  { margin-top: 1em; }
 .supportdocs ul { margin: 0; padding: 0; }
 .supportdocs li { margin-left: 12%; text-align: start; }
-.supportdocs p { margin-bottom: 0; margin-right: 15%; }
+.supportdocs p { margin-bottom: 0; margin-right: 15%; margin-left: 7.5%; }
 
 /* PRINT STYLES */
 
