@@ -1,6 +1,8 @@
  var fontSelection = `<option value="0">Select...</option>
         <optgroup label="Webfont">
+        <option value="Awami Nastaliq WF">Awami Nastaliq WF</option>
         <option value="Noto Nastaliq Urdu WF">Noto Nastaliq Urdu WF</option>
+        <option value="Scheherazade WF">Scheherazade WF</option>
         </optgroup>
   		
         <optgroup label="Windows fonts">
@@ -15,6 +17,7 @@
   		
         <optgroup label="SIL fonts">
         <option value="Awami Nastaliq">Awami Nastaliq</option>
+        <option value="Scheherazade WF">Scheherazade WF</option>
         </optgroup>
   		
         <optgroup label="Other fonts ">
