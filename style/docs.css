@@ -529,7 +529,8 @@ figure {
 	margin-left: 10%; 
 	margin-right: 30%; 
 	text-align: center; 
-	margin-bottom: 5px;  
+	margin-bottom: 5px;
+	margin: 4em 30% 3em 10%;
 	}
 figure table { 
 	margin: auto; 
@@ -537,14 +538,16 @@ figure table {
 figure p { 
 	text-align: start; 
 	margin-right: 10%;  
-	margin-bottom: 5px; 
+	/* margin-bottom: 5px; */
 	line-height: 1.4em; 
 	}
 figcaption { 
 	font-style: italic; 
 	text-align: center; 
-	margin-bottom: 50px; 
 	font-size: 90%;
+	margin-top: 1em;
+	padding: 0 10%;
+	line-height: 1.4;
 	}
 
 
