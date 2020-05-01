@@ -49,9 +49,9 @@ var spreadsheet = `
 													
 													
 ِ		I¶	i	ɪ	i		vowel			kasrah	كَسْرَة	U+0650: ARABIC KASRA​	arabic
-ٍ		I¶	iⁿ	ɪn			vowel			kasratān		U+064D: ARABIC KASRATAN​	arabic
+ٍ		I	iⁿ	ɪn			vowel			kasratān		U+064D: ARABIC KASRATAN​	arabic
 ُ		U¶	u	ʊ	u		vowel			ḍammah	ضَمَّة	U+064F: ARABIC DAMMA​	arabic
-ٌ		U¶	uⁿ	ʊn			vowel			ḍammatān		U+064C: ARABIC DAMMATAN​	arabic
+ٌ		U	uⁿ	ʊn			vowel			ḍammatān		U+064C: ARABIC DAMMATAN​	arabic
 َ		A¶	a	a	a		vowel			fatḥah	فَتْحَة	U+064E: ARABIC FATHA​	arabic
 ً		A	aⁿ	an			vowel			fatḥatān		U+064B: ARABIC FATHATAN​	arabic
 ٰ		A	̍	aː	̍		vowel			alīf khanjariyyah	أَلِيف خَنْجَرِيَّة	U+0670: ARABIC LETTER SUPERSCRIPT ALEF​	arabic
