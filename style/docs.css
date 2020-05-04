@@ -549,7 +549,9 @@ figcaption {
 	padding: 0 10%;
 	line-height: 1.4;
 	}
-
+.figref {
+	color: inherit;
+	}
 
 table, td, th {
 	font-size: 1em;
