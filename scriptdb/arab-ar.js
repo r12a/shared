@@ -64,19 +64,20 @@ var spreadsheet = `
 													
 													
 ـ		_	_		_		baseline extender	infrequent		tatweel		U+0640: ARABIC TATWEEL	arabic
-،		,	,	,	,		comma					U+060C: ARABIC COMMA	arabic
-۔		.	.	.	.		full stop	infrequent				U+06D4: ARABIC FULL STOP	arabic
-؛		;	;	;	;		semi-colon					U+061B: ARABIC SEMICOLON	arabic
-؟		?	?	?	?		question mark					U+061F: ARABIC QUESTION MARK	arabic
-٪		%	%	%	%		percent mark					U+066A: ARABIC PERCENT SIGN	arabic
+،		,	,				comma					U+060C: ARABIC COMMA	arabic
+۔		.	.				full stop	infrequent				U+06D4: ARABIC FULL STOP	arabic
+؛		;	;				semi-colon					U+061B: ARABIC SEMICOLON	arabic
+؟		?	?				question mark					U+061F: ARABIC QUESTION MARK	arabic
+٪		%	%				percent sign					U+066A: ARABIC PERCENT SIGN	arabic
+؉		%	‰				per mille sign					U+0609 ARABIC-INDIC PER MILLE SIGN	arabic
 ٬		#	‛				thousands separator	infrequent				U+066C: ARABIC THOUSANDS SEPARATOR	arabic
 ٫		#	·				decimal separator	infrequent				U+066B: ARABIC DECIMAL SEPARATOR	arabic
 ؍		#	/				date separator	infrequent				U+060D: ARABIC DATE SEPARATOR	arabic
 ٭		[	*				punctuation	infrequent				U+066D: ARABIC FIVE POINTED STAR	arabic
-«		<	 “				quotation mark					U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	punctuation
-»		>	”				quotation mark					U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	punctuation
-‹		<	‘				quotation mark					U+2018: LEFT SINGLE QUOTATION MARK	punctuation
-›		>	’				quotation mark					U+2019: RIGHT SINGLE QUOTATION MARK	punctuation
+«		<	 “				quotation mark					U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	latin
+»		>	”				quotation mark					U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	latin
+‹		<	‘				quotation mark					U+2018: LEFT SINGLE QUOTATION MARK	latin
+›		>	’				quotation mark					U+2019: RIGHT SINGLE QUOTATION MARK	latin
 													
 													
 ٠		0	0		0		digit					U+0660: ARABIC-INDIC DIGIT ZERO	arabic
