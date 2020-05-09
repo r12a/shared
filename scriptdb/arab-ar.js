@@ -1,5 +1,5 @@
 var spreadsheet = `
-ا		a¶	ɑ	∅ (aː)	- ā		consonant/mater lectionis		ا ـا	ʔalif	أَلِفْ	U+0627: ARABIC LETTER ALEF	arabic
+ا		A¶	ɑ	∅ (aː)	- ā		consonant/mater lectionis		ا ـا	ʔalif	أَلِفْ	U+0627: ARABIC LETTER ALEF	arabic
 أ	dc	}	ɑ͑	ʔ	a	\u{627}\u{654}	consonant		أ ـأ	ʔalif hamza	أَلِفْ هَمْزة	U+0623: ARABIC LETTER ALEF WITH HAMZA ABOVE	arabic
 \u{627}\u{654}	s		ɑʿ	ʔ	a		consonant					U+0627, 0654: ARABIC LETTER ALEF, HAMZA ABOVE	
 إ	dc	}	i̜	ʔ	i	\u{627}\u{655}	consonant		إ ـإ			U+0625: ARABIC LETTER ALEF WITH HAMZA BELOW	arabic
@@ -11,21 +11,22 @@ var spreadsheet = `
 \u{648}\u{654}	s		wʿ	ʔ			consonant					U+0648, U+0654: ARABIC LETTER WAW, HAMZA ABOVE	
 ئ	dc	y	y͑	ʔ	ʸ	\u{64A}\u{654}	consonant		ئ ئئئ	jaːʔ hamza	يَاء هَمْزة	U+0626: ARABIC LETTER YEH WITH HAMZA ABOVE	arabic
 \u{64A}\u{654}	s		yʿ	ʔ			consonant					U+064A, U+0654: ARABIC LETTER YEH, HAMZA ABOVE	
-ى		a	à	aː	á		vowel		ى ـى	ʔalif maqsˤuːra	ألف مقصورة	U+0649: ARABIC LETTER ALEF MAKSURA	arabic
 													
+پ		p	p	p			consonant	foreign words only	پ پپپ			U+067E: ARABIC LETTER PEH	arabic
 ب		b	b	b	b		consonant		ب ببب	baːʔ	بَاء	U+0628: ARABIC LETTER BEH	arabic
 ت		t¶	t	t	t		consonant		ت تتت	taːʔ	تَاء	U+062A: ARABIC LETTER TEH	arabic
 ط		T	ᵵ	tˤ	ṭ		consonant		ط ططط	tˤɑːʔ	طَاء	U+0637: ARABIC LETTER TAH	arabic
-ة		t	ẗ	- h	h		feminine indicator		ة ـة	taːʔ marbuːtˤɑh	تاء مربوطة	U+0629: ARABIC LETTER TEH MARBUTA	arabic
 د		d¶	d	d	d		consonant		د ـد	daːl	دَالْ	U+062F: ARABIC LETTER DAL	arabic
 ض		D	ᵭ	dˤ	ḍ		consonant		ض ضضض	dˤɑːd	ضَاد	U+0636: ARABIC LETTER DAD	arabic
 ك		k	k	k	k		consonant		ك ككك	kaːf	كَاف	U+0643: ARABIC LETTER KAF	arabic
 ق		q¶	q	q	q		consonant		ق ققق	qaːf	قَاف	U+0642: ARABIC LETTER QAF	arabic
 ء		}	ʔ	ʔ	- ʾ		glottal stop		ء	hamzah	هَمْزة	U+0621: ARABIC LETTER HAMZA	arabic
 													
+چ		c	ʧ	t͡ʃ			consonant	foreign words only	چ چچچ			U+0686: ARABIC LETTER TCHEH	arabic
 ج		j	ʤ	d͡ʒ ʒ	j		consonant		ج ججج	ʤiːm	جِيمْ	U+062C: ARABIC LETTER JEEM	arabic
 													
 ف		f¶	f	f	f		consonant		ف ففف	faːʔ	فَاء	U+0641: ARABIC LETTER FEH	arabic
+ڤ		v	v	v			consonant	foreign words only	ڤ ڤڤڤ			U+06A4: ARABIC LETTER VEH	arabic
 ث		@	θ	θ	th		consonant		ث ثثث	θaːʔ	ثَاء	U+062B: ARABIC LETTER THEH	arabic
 ذ		d	ð	ð	dh		consonant		ذ ـذ	ðaːl	ذَال	U+0630: ARABIC LETTER THAL	arabic
 ظ		D	ð̴	ðˤ zˤ	ẓ		consonant		ظ ظظظ	ðˤɑːʔ	ظَاء	U+0638: ARABIC LETTER ZAH	arabic
@@ -48,13 +49,13 @@ var spreadsheet = `
 ي		y¶	y	j (iː)	y ī		consonant/mater lectionis		ي ييي	jaːʔ	يَاء	U+064A: ARABIC LETTER YEH	arabic
 													
 													
-ِ		I¶	i	ɪ	i		vowel			kasrah	كَسْرَة	U+0650: ARABIC KASRA​	arabic
-ٍ		I	iⁿ	ɪn			vowel			kasratān		U+064D: ARABIC KASRATAN​	arabic
-ُ		U¶	u	ʊ	u		vowel			ḍammah	ضَمَّة	U+064F: ARABIC DAMMA​	arabic
-ٌ		U	uⁿ	ʊn			vowel			ḍammatān		U+064C: ARABIC DAMMATAN​	arabic
-َ		A¶	a	a	a		vowel			fatḥah	فَتْحَة	U+064E: ARABIC FATHA​	arabic
-ً		A	aⁿ	an			vowel			fatḥatān		U+064B: ARABIC FATHATAN​	arabic
-ٰ		A	̍	aː	̍		vowel			alīf khanjariyyah	أَلِيف خَنْجَرِيَّة	U+0670: ARABIC LETTER SUPERSCRIPT ALEF​	arabic
+ِ		i	i	ɪ	i		vowel			kasra	كَسْرَة	U+0650: ARABIC KASRA​	arabic
+ٍ		i	iⁿ	ɪn			vowel			kasratān	كَسْرَةً	U+064D: ARABIC KASRATAN​	arabic
+ُ		u	u	ʊ	u		vowel			dˤamma	ضَمَّة	U+064F: ARABIC DAMMA​	arabic
+ٌ		u	uⁿ	ʊn			vowel			ḍammatān	ضَمَّةً	U+064C: ARABIC DAMMATAN​	arabic
+َ		a	a	a	a		vowel			fatħa	فَتْحَة	U+064E: ARABIC FATHA​	arabic
+ً		a	aⁿ	an			vowel			fatħatan	فَتْحَةً	U+064B: ARABIC FATHATAN​	arabic
+ٰ		A	̍	aː	̍		vowel			alɪf xand͡ʒarijja	أَلِيف خَنْجَرِيَّة	U+0670: ARABIC LETTER SUPERSCRIPT ALEF​	arabic
 													
 ّ		&	˖		ᵚ		gemination mark			shaddah	شَدَّة	U+0651: ARABIC SHADDA​	arabic
 ْ		*	͓		̊		vowel absence marker			sukūn	سُكُون	U+0652: ARABIC SUKUN​	arabic
@@ -62,13 +63,16 @@ var spreadsheet = `
 ٕ		}	˓	ʔ	̹		hamza					U+0655: ARABIC HAMZA BELOW​	arabic
 ٓ	o	}	~				maddah diacritic	used with ا				U+0653: ARABIC MADDAH ABOVE​	arabic
 													
+ى		a	à	aː	á		vowel		ى ـى	ʔalif maqsˤuːra	ألف مقصورة	U+0649: ARABIC LETTER ALEF MAKSURA	arabic
+ة		a	ä	- ʰ	h		feminine indicator		ة ـة	taːʔ marbuːtˤɑh	تاء مربوطة	U+0629: ARABIC LETTER TEH MARBUTA	arabic
+													
 													
 ـ		_	_		_		baseline extender	infrequent		tatweel		U+0640: ARABIC TATWEEL	arabic
-،		,	,				comma					U+060C: ARABIC COMMA	arabic
-۔		.	.				full stop	infrequent				U+06D4: ARABIC FULL STOP	arabic
-؛		;	;				semi-colon					U+061B: ARABIC SEMICOLON	arabic
-؟		?	?				question mark					U+061F: ARABIC QUESTION MARK	arabic
-٪		%	%				percent sign					U+066A: ARABIC PERCENT SIGN	arabic
+،		,	,		,		comma					U+060C: ARABIC COMMA	arabic
+۔		.	.		.		full stop	infrequent				U+06D4: ARABIC FULL STOP	arabic
+؛		;	;		;		semi-colon					U+061B: ARABIC SEMICOLON	arabic
+؟		?	?		?		question mark					U+061F: ARABIC QUESTION MARK	arabic
+٪		%	%		%		percent sign					U+066A: ARABIC PERCENT SIGN	arabic
 ؉		%	‰				per mille sign					U+0609 ARABIC-INDIC PER MILLE SIGN	arabic
 ٬		#	‛				thousands separator	infrequent				U+066C: ARABIC THOUSANDS SEPARATOR	arabic
 ٫		#	·				decimal separator	infrequent				U+066B: ARABIC DECIMAL SEPARATOR	arabic
@@ -118,16 +122,15 @@ var spreadsheet = `
 ڢ		f	ḟ	f				infrequent	 ڢ ڢڢڢ			U+06A2: ARABIC LETTER FEH WITH DOT MOVED BELOW	arabic
 													
 													
-لا	s		lɑ	la			ligature					U+0644 U+0627: ARABIC LETTER LAM, LETTER ALEF		
-لآ	s		lɑ̄	laː			ligature					U+0644 U+0622: ARABIC LETTER LAM, LETTER ALEF WITH MADDA ABOVE		
-لأ	s		lɑ͑	lʔ			ligature					U+0644 U+0623: ARABIC LETTER LAM, LETTER ALEF WITH HAMZA ABOVE		
-لإ	s		lɑ̜	lʔ			ligature					U+0644 U+0625: ARABIC LETTER LAM, LETTER ALEF WITH HAMZA BELOW		
-ال	s		ɑl	al			definite article					U+0627 U+0644: ARABIC LETTER ALEF, LETTER LAM		
-														
-ِي	s		iy	iː			long vowel					U+0650, U+064A: ARABIC KASRA​, LETTER YEH		
-ُو	s		uw	uː			long vowel					U+064F, U+0648: ARABIC DAMMA​, ARABIC LETTER WAW 		
-َا	s		aɑ	aː			long vowel					U+064E, U+0627: ARABIC FATHA​, LETTER ALEF		
-
+لا	s		lɑ	laː			ligature					U+0644 U+0627: ARABIC LETTER LAM, LETTER ALEF	
+لآ	s		lɑ̄	laː			ligature					U+0644 U+0622: ARABIC LETTER LAM, LETTER ALEF WITH MADDA ABOVE	
+لأ	s		lɑ͑	lʔ			ligature					U+0644 U+0623: ARABIC LETTER LAM, LETTER ALEF WITH HAMZA ABOVE	
+لإ	s		lɑ̜	lʔ			ligature					U+0644 U+0625: ARABIC LETTER LAM, LETTER ALEF WITH HAMZA BELOW	
+ال	s		ɑl	al			definite article					U+0627 U+0644: ARABIC LETTER ALEF, LETTER LAM	
+													
+ِي	s		iy	iː			long vowel					U+0650, U+064A: ARABIC KASRA​, LETTER YEH	
+ُو	s		uw	uː			long vowel					U+064F, U+0648: ARABIC DAMMA​, ARABIC LETTER WAW 	
+َا	s		aɑ	aː			long vowel					U+064E, U+0627: ARABIC FATHA​, LETTER ALEF	
 													
 اللّٰه	s		Allāh				ligature	infrequent				U+0627 U+0644 U+0644 U+0651 U+0670 U+0647: ARABIC LETTER ALEF, LAM, LAM, SHADDA, SUPERSCRIPT ALEF, HEH	
 
