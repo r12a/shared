@@ -8,6 +8,7 @@
         <option value="Krungthep">Krungthep</option>
         <option value="Sathu">Sathu</option>
         <option value="Silom">Silom</option>
+        <option value="Sukhumvit Set">Sukhumvit Set</option>
         <option value="Tahoma">Tahoma (Lion)</option>
         <option value="Thonburi">Thonburi</option>
         </optgroup>
