@@ -55,3 +55,16 @@ function convertStr2CharArray ( textString, array ) {
 	return array.length
 	}
 
+
+
+function escapeNonASCII (str) {
+	// used to convert output of function that produces xx-translit.js files into JavaScript.  
+	// Used to avoid normalisation problems during cut&paste
+	
+	var chars = [...str]
+	for (let i=0;i<chars.length;i++) {
+		if (chars[i].codePointAt(0) > 127) chars[i] = '\\u{'+chars[i].codePointAt(0).toString(16).toUpperCase()+'}'
+		}
+	
+	return chars.join('')	
+	}
