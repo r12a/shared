@@ -1,45 +1,45 @@
 var spreadsheet = `
-ត		t	t	tɑː ɗ- t- -t	tâ	tᵃ	a-series consonant					ត ្ត	tɑː		U+178F: KHMER LETTER TA	khmer
-ច		c	c	cɑː -c	châ	cᵃ	a-series consonant					ច ្ច	cɑː		U+1785: KHMER LETTER CA	khmer
-ក		k	k	kɑː kʰ- -k	kâ	kᵃ	a-series consonant					ក ្ក	kɑː		U+1780: KHMER LETTER KA	khmer
+ត		t	t	t ᵃ ɗ- t- -t	tâ	tᵃ	a-series consonant					ត ្ត	tɑː		U+178F: KHMER LETTER TA	khmer
+ច		c	c	c ᵃ -c	châ	cᵃ	a-series consonant					ច ្ច	cɑː		U+1785: KHMER LETTER CA	khmer
+ក		k	k	k ᵃ kʰ- -k	kâ	kᵃ	a-series consonant					ក ្ក	kɑː		U+1780: KHMER LETTER KA	khmer
 																
-ព		p	p̱	pɔː -p	pô	pᵒ	o-series consonant					ព ្ព	pɔː		U+1796: KHMER LETTER PO	khmer
-ទ		t	ṯ	tɔː -t	tô	ṯᵒ	o-series consonant					ទ ្ទ	tɔː		U+1791: KHMER LETTER TO	khmer
-ជ		c	c̱	cɔː -c	chô	c̱ᵒ	o-series consonant					ជ ្ជ	cɔː		U+1787: KHMER LETTER CO	khmer
-គ		k	ḵ	kɔː kʰ- -k	kô	ḵᵒ	o-series consonant					គ ្គ	kɔː		U+1782: KHMER LETTER KO	khmer
+ព		p	p̱	p ᵒ -p	pô	pᵒ	o-series consonant					ព ្ព	pɔː		U+1796: KHMER LETTER PO	khmer
+ទ		t	ṯ	t ᵒ -t	tô	ṯᵒ	o-series consonant					ទ ្ទ	tɔː		U+1791: KHMER LETTER TO	khmer
+ជ		c	c̱	c ᵒ -c	chô	c̱ᵒ	o-series consonant					ជ ្ជ	cɔː		U+1787: KHMER LETTER CO	khmer
+គ		k	ḵ	k ᵒ kʰ- -k	kô	ḵᵒ	o-series consonant					គ ្គ	kɔː		U+1782: KHMER LETTER KO	khmer
 																
-ផ		p	pʰ	pʰɑː p- -p	phâ	pʰᵃ	a-series consonant					ផ ្ផ*	pʰɑː		U+1795: KHMER LETTER PHA	khmer
-ថ		t	tʰ	tʰɑː t- -t	thâ	tʰᵃ	a-series consonant					ថ ្ថ	tʰɑː		U+1790: KHMER LETTER THA	khmer
-ឋ		t	ṫʰ	tʰɑː t- -t	thâ	ṭʰᵃ	a-series consonant					ឋ ្ឋ*	tʰɑː		U+178B: KHMER LETTER TTHA	khmer
-ឆ		C	cʰ	cʰɑː	chhâ	cʰᵃ	a-series consonant					ឆ ្ឆ*	cʰɑː		U+1786: KHMER LETTER CHA	khmer
-ខ		K	kʰ	kʰɑː k- -k	khâ	kʰᵃ	a-series consonant					ខ ្ខ	kʰɑː		U+1781: KHMER LETTER KHA	khmer
+ផ		p	pʰ	pʰ ᵃ p- -p	phâ	pʰᵃ	a-series consonant					ផ ្ផ*	pʰɑː		U+1795: KHMER LETTER PHA	khmer
+ថ		t	tʰ	tʰ ᵃ t- -t	thâ	tʰᵃ	a-series consonant					ថ ្ថ	tʰɑː		U+1790: KHMER LETTER THA	khmer
+ឋ		t	ṫʰ	tʰ ᵃ t- -t	thâ	ṭʰᵃ	a-series consonant					ឋ ្ឋ*	tʰɑː		U+178B: KHMER LETTER TTHA	khmer
+ឆ		C	cʰ	cʰ ᵃ	chhâ	cʰᵃ	a-series consonant					ឆ ្ឆ*	cʰɑː		U+1786: KHMER LETTER CHA	khmer
+ខ		K	kʰ	kʰ ᵃ k- -k	khâ	kʰᵃ	a-series consonant					ខ ្ខ	kʰɑː		U+1781: KHMER LETTER KHA	khmer
 																
-ភ		p	p̱ʰ	pʰɔː p- -p	phô	p̄ʰᵒ	o-series consonant					ភ ្ភ	pʰɔː		U+1797: KHMER LETTER PHO	khmer
-ធ		t	ṯʰ	tʰɔː t- -t	thô	ṯʰᵒ	o-series consonant					ធ ្ធ*	tʰɔː		U+1792: KHMER LETTER THO	khmer
-ឍ		t	ṯ̇ʰ	tʰɔː -t	thô	ṭ̱ʰᵒ	o-series consonant	rare				ឍ ្ឍ*	tʰɔː		U+178D: KHMER LETTER TTHO	khmer
-ឈ		C	c̱ʰ	cʰɔː	chhô	c̱ʰᵒ	o-series consonant					ឈ ្ឈ*	cʰɔː		U+1788: KHMER LETTER CHO	khmer
-ឃ		K	ḵʰ	kʰɔː k- -k	khô	ḵʰᵒ	o-series consonant					ឃ ្ឃ*	kʰɔː		U+1783: KHMER LETTER KHO	khmer
+ភ		p	p̱ʰ	pʰ ᵒ p- -p	phô	p̄ʰᵒ	o-series consonant					ភ ្ភ	pʰɔː		U+1797: KHMER LETTER PHO	khmer
+ធ		t	ṯʰ	tʰ ᵒ t- -t	thô	ṯʰᵒ	o-series consonant					ធ ្ធ*	tʰɔː		U+1792: KHMER LETTER THO	khmer
+ឍ		t	ṯ̇ʰ	tʰ ᵒ -t	thô	ṭ̱ʰᵒ	o-series consonant	rare				ឍ ្ឍ*	tʰɔː		U+178D: KHMER LETTER TTHO	khmer
+ឈ		C	c̱ʰ	cʰ ᵒ	chhô	c̱ʰᵒ	o-series consonant					ឈ ្ឈ*	cʰɔː		U+1788: KHMER LETTER CHO	khmer
+ឃ		K	ḵʰ	kʰ ᵒ k- -k	khô	ḵʰᵒ	o-series consonant					ឃ ្ឃ*	kʰɔː		U+1783: KHMER LETTER KHO	khmer
 																
-ប		b	b	ɓɑː p- -p	bâ	bᵃ	a-series consonant					ប ្ប	ɓɑː		U+1794: KHMER LETTER BA	khmer
-ដ		d	ɗ	ɗɑː -t	dâ	ḍ̱ᵃ	a-series consonant					ដ ្ដ	ɗɑː		U+178A: KHMER LETTER DA	khmer
-ឌ		d	ɗ̱	ɗɔː -t	dô	ḍᵒ	o-series consonant	rare				ឌ ្ឌ*	ɗɔː		U+178C: KHMER LETTER DO	khmer
+ប		b	b	ɓ ᵃ p- -p	bâ	bᵃ	a-series consonant					ប ្ប	ɓɑː		U+1794: KHMER LETTER BA	khmer
+ដ		d	ɗ	ɗ ᵃ -t	dâ	ḍ̱ᵃ	a-series consonant					ដ ្ដ	ɗɑː		U+178A: KHMER LETTER DA	khmer
+ឌ		d	ɗ̱	ɗ ᵒ -t	dô	ḍᵒ	o-series consonant	rare				ឌ ្ឌ*	ɗɔː		U+178C: KHMER LETTER DO	khmer
 																
-ម		m	m̱	mɔː -m	mô	mᵒ	o-series consonant					ម ្ម	mɔː		U+1798: KHMER LETTER MO	khmer
-ណ		n	n	nɑː -n	nâ	ṇᵃ	a-series consonant					ណ ្ណ*	nɑː		U+178E: KHMER LETTER NNO	khmer
-ន		n	ṉ	nɔː -n	nô	nᵒ	o-series consonant					ន ្ន	nɔː		U+1793: KHMER LETTER NO	khmer
-ញ		n	ɲ	ɲɔː -ɲ	nhô	ñᵒ	o-series consonant					ញ ្ញ	ɲɔː		U+1789: KHMER LETTER NYO	khmer
-ង		N	ŋ	ŋɔː -ŋ	ngô	ṅᵒ	o-series consonant					ង ្ង	ŋɔː		U+1784: KHMER LETTER NGO	khmer
+ម		m	m̱	m ᵒ -m	mô	mᵒ	o-series consonant					ម ្ម	mɔː		U+1798: KHMER LETTER MO	khmer
+ណ		n	n	n ᵃ -n	nâ	ṇᵃ	a-series consonant					ណ ្ណ*	nɑː		U+178E: KHMER LETTER NNO	khmer
+ន		n	ṉ	n ᵒ -n	nô	nᵒ	o-series consonant					ន ្ន	nɔː		U+1793: KHMER LETTER NO	khmer
+ញ		n	ɲ	ɲ ᵒ -ɲ	nhô	ñᵒ	o-series consonant					ញ ្ញ	ɲɔː		U+1789: KHMER LETTER NYO	khmer
+ង		N	ŋ	ŋ ᵒ -ŋ	ngô	ṅᵒ	o-series consonant					ង ្ង	ŋɔː		U+1784: KHMER LETTER NGO	khmer
 																
-វ		v	v̱	ʋɔː -w	vô	vᵒ	o-series consonant					វ ្វ	ʋɔː		U+179C: KHMER LETTER VO	khmer
-ស		s	s	sɑː s- -h	sâ	sᵃ	a-series consonant					ស ្ស	sɑː		U+179F: KHMER LETTER SA	khmer
-ហ		h	h	hɑː ∅-	hâ	hᵃ	a-series consonant					ហ ្ហ	hɑː		U+17A0: KHMER LETTER HA	khmer
+វ		v	v̱	ʋ ᵒ -w	vô	vᵒ	o-series consonant					វ ្វ	ʋɔː		U+179C: KHMER LETTER VO	khmer
+ស		s	s	s ᵃ s- -h	sâ	sᵃ	a-series consonant					ស ្ស	sɑː		U+179F: KHMER LETTER SA	khmer
+ហ		h	h	h ᵃ ∅-	hâ	hᵃ	a-series consonant					ហ ្ហ	hɑː		U+17A0: KHMER LETTER HA	khmer
 																
-រ		r	ṟ	rɔː -∅	rô	rᵒ	o-series consonant					រ ្រ	rɔː		U+179A: KHMER LETTER RO	khmer
-ឡ		l	l	lɑː	lâ	lᵃ	a-series consonant					ឡ ្ឡ**	lɑː		U+17A1: KHMER LETTER LA	khmer
-ល		l	ḻ	lɔː -l	lô	ḷᵒ	o-series consonant					ល ្ល	lɔː		U+179B: KHMER LETTER LO	khmer
-យ		y	y̱	jɔː -iː	yô	yᵒ	o-series consonant					យ ្យ	jɔː		U+1799: KHMER LETTER YO	khmer
+រ		r	ṟ	r ᵒ -∅	rô	rᵒ	o-series consonant					រ ្រ	rɔː		U+179A: KHMER LETTER RO	khmer
+ឡ		l	l	l ᵃ	lâ	lᵃ	a-series consonant					ឡ ្ឡ**	lɑː		U+17A1: KHMER LETTER LA	khmer
+ល		l	ḻ	l ᵒ -l	lô	ḷᵒ	o-series consonant					ល ្ល	lɔː		U+179B: KHMER LETTER LO	khmer
+យ		y	y̱	j ᵒ -iː	yô	yᵒ	o-series consonant					យ ្យ	jɔː		U+1799: KHMER LETTER YO	khmer
 																
-អ		}	ʔ	ʔɑː	’â	‘ᵃ	a-series consonant					អ ្អ	ʔɑː		U+17A2: KHMER LETTER QA	khmer
+អ		}	ʔ	ʔ ᵃ	’â	‘ᵃ	a-series consonant					អ ្អ	ʔɑː		U+17A2: KHMER LETTER QA	khmer
 																
 																
 ំ		m	m̽	m	ṃ	m̽	anusvara						nikkɔːhet	និគ្គហិត	U+17C6: KHMER SIGN NIKAHIT​	khmer
@@ -62,10 +62,10 @@ var spreadsheet = `
 ឲ		A	ạᵒ	ʔao	âu	ạᵒ	independent vowel						sraʔ ʔao	ស្រៈឲ	U+17B2: KHMER INDEPENDENT VOWEL QOO TYPE TWO	khmer
 																
 																
-ឫ		R	r̥	ra~ru		r̥ₔ	vocalic						sraʔ ra	ស្រៈឫ	U+17AB: KHMER INDEPENDENT VOWEL RY	khmer
-ឬ		R	r̥̄	raː~ruː		r̥̄ₔ	vocalic						sraʔ raː	ស្រៈឬ	U+17AC: KHMER INDEPENDENT VOWEL RYY	khmer
-ឭ		L	l̥	la~lu		l̥ₔ	vocalic						sraʔ la	ស្រៈឭ	U+17AD: KHMER INDEPENDENT VOWEL LY	khmer
-ឮ		L	l̥̄	laː~luː		l̥̄ₔ	vocalic						sraʔ laː	ស្រៈឮ	U+17AE: KHMER INDEPENDENT VOWEL LYY	khmer
+ឫ		R	r̥	ra ~ ru		r̥ₔ	vocalic						sraʔ ra	ស្រៈឫ	U+17AB: KHMER INDEPENDENT VOWEL RY	khmer
+ឬ		R	r̥̄	raː ~ ruː		r̥̄ₔ	vocalic						sraʔ raː	ស្រៈឬ	U+17AC: KHMER INDEPENDENT VOWEL RYY	khmer
+ឭ		L	l̥	la ~ lu		l̥ₔ	vocalic						sraʔ la	ស្រៈឭ	U+17AD: KHMER INDEPENDENT VOWEL LY	khmer
+ឮ		L	l̥̄	laː ~ luː		l̥̄ₔ	vocalic						sraʔ laː	ស្រៈឮ	U+17AE: KHMER INDEPENDENT VOWEL LYY	khmer
 																
 																
 ា		a	ā	aː iə	ā	ā	vowel sign						s͓rà ʼā	ស្រៈ អា	U+17B6: KHMER VOWEL SIGN AA​	khmer
@@ -146,47 +146,47 @@ var spreadsheet = `
 																
 																
 																
-្ត	s	t	͓t	tɑː ɗ- t- -t	tâ	tᵃ	a-series consonant						tɑː		U+17D2 U+178F: KHMER SIGN COENG, LETTER TA​	
-្ច	s	c	͓c	cɑː -c	châ	cᵃ	a-series consonant						cɑː		U+17D2 U+1785: KHMER SIGN COENG, LETTER CA​	
-្ក	s	k	͓k	kɑː kʰ- -k	kâ	kᵃ	a-series consonant						kɑː		U+17D2 U+1780: KHMER SIGN COENG, LETTER KA​	
+្ត	s	t	͓t	t ᵃ ɗ- t- -t	tâ	tᵃ	a-series consonant						tɑː		U+17D2 U+178F: KHMER SIGN COENG, LETTER TA​	
+្ច	s	c	͓c	c ᵃ -c	châ	cᵃ	a-series consonant						cɑː		U+17D2 U+1785: KHMER SIGN COENG, LETTER CA​	
+្ក	s	k	͓k	k ᵃ kʰ- -k	kâ	kᵃ	a-series consonant						kɑː		U+17D2 U+1780: KHMER SIGN COENG, LETTER KA​	
 																
-្ព	s	p	͓p̱	pɔː -p	pô	pᵒ	o-series consonant						pɔː		U+17D2 U+1796: KHMER SIGN COENG, LETTER PO​	
-្ទ	s	t	͓ṯ	tɔː -t	tô	ṯᵒ	o-series consonant						tɔː		U+17D2 U+1791: KHMER SIGN COENG, LETTER TO​	
-្ជ	s	c	͓c̱	cɔː -c	chô	c̱ᵒ	o-series consonant						cɔː		U+17D2 U+1787: KHMER SIGN COENG, LETTER CO​	
-្គ	s	k	͓ḵ	kɔː kʰ- -k	kô	ḵᵒ	o-series consonant						kɔː		U+17D2 U+1782: KHMER SIGN COENG, LETTER KO​	
+្ព	s	p	͓p̱	p ᵒ -p	pô	pᵒ	o-series consonant						pɔː		U+17D2 U+1796: KHMER SIGN COENG, LETTER PO​	
+្ទ	s	t	͓ṯ	t ᵒ -t	tô	ṯᵒ	o-series consonant						tɔː		U+17D2 U+1791: KHMER SIGN COENG, LETTER TO​	
+្ជ	s	c	͓c̱	c ᵒ -c	chô	c̱ᵒ	o-series consonant						cɔː		U+17D2 U+1787: KHMER SIGN COENG, LETTER CO​	
+្គ	s	k	͓ḵ	k ᵒ kʰ- -k	kô	ḵᵒ	o-series consonant						kɔː		U+17D2 U+1782: KHMER SIGN COENG, LETTER KO​	
 																
-្ផ	s	p	͓pʰ	pʰɑː p- -p	phâ	pʰᵃ	a-series consonant						pʰɑː		U+17D2 U+1795: KHMER SIGN COENG, LETTER PHA​	
-្ថ	s	t	͓tʰ	tʰɑː t- -t	thâ	tʰᵃ	a-series consonant						tʰɑː		U+17D2 U+1790: KHMER SIGN COENG, LETTER THA​	
-្ឋ	s	t	͓ṫʰ	tʰɑː t- -t	thâ	ṭʰᵃ	a-series consonant						tʰɑː		U+17D2 U+178B: KHMER SIGN COENG, LETTER TTHA​	
-្ឆ	s	C	͓cʰ	cʰɑː	chhâ	cʰᵃ	a-series consonant						cʰɑː		U+17D2 U+1786: KHMER SIGN COENG, LETTER CHA​	
-្ខ	s	K	͓kʰ	kʰɑː k- -k	khâ	kʰᵃ	a-series consonant						kʰɑː		U+17D2 U+1781: KHMER SIGN COENG, LETTER KHA​	
+្ផ	s	p	͓pʰ	pʰ ᵃ p- -p	phâ	pʰᵃ	a-series consonant						pʰɑː		U+17D2 U+1795: KHMER SIGN COENG, LETTER PHA​	
+្ថ	s	t	͓tʰ	tʰ ᵃ t- -t	thâ	tʰᵃ	a-series consonant						tʰɑː		U+17D2 U+1790: KHMER SIGN COENG, LETTER THA​	
+្ឋ	s	t	͓ṫʰ	tʰ ᵃ t- -t	thâ	ṭʰᵃ	a-series consonant						tʰɑː		U+17D2 U+178B: KHMER SIGN COENG, LETTER TTHA​	
+្ឆ	s	C	͓cʰ	cʰ ᵃ	chhâ	cʰᵃ	a-series consonant						cʰɑː		U+17D2 U+1786: KHMER SIGN COENG, LETTER CHA​	
+្ខ	s	K	͓kʰ	kʰ ᵃ k- -k	khâ	kʰᵃ	a-series consonant						kʰɑː		U+17D2 U+1781: KHMER SIGN COENG, LETTER KHA​	
 																
-្ភ	s	p	͓p̱ʰ	pʰɔː p- -p	phô	p̄ʰᵒ	o-series consonant						pʰɔː		U+17D2 U+1797: KHMER SIGN COENG, LETTER PHO​	
-្ធ	s	t	͓ṯʰ	tʰɔː t- -t	thô	ṯʰᵒ	o-series consonant						tʰɔː		U+17D2 U+1792: KHMER SIGN COENG, LETTER THO​	
-្ឍ	s	t	͓ṯ̇ʰ	tʰɔː -t	thô	ṭ̱ʰᵒ	o-series consonant	rare					tʰɔː		U+17D2 U+178D: KHMER SIGN COENG, LETTER TTHO​	
-្ឈ	s	C	͓c̱ʰ	cʰɔː	chhô	c̱ʰᵒ	o-series consonant						cʰɔː		U+17D2 U+1788: KHMER SIGN COENG, LETTER CHO​	
-្ឃ	s	K	͓ḵʰ	kʰɔː k- -k	khô	ḵʰᵒ	o-series consonant						kʰɔː		U+17D2 U+1783: KHMER SIGN COENG, LETTER KHO​	
+្ភ	s	p	͓p̱ʰ	pʰ ᵒ p- -p	phô	p̄ʰᵒ	o-series consonant						pʰɔː		U+17D2 U+1797: KHMER SIGN COENG, LETTER PHO​	
+្ធ	s	t	͓ṯʰ	tʰ ᵒ t- -t	thô	ṯʰᵒ	o-series consonant						tʰɔː		U+17D2 U+1792: KHMER SIGN COENG, LETTER THO​	
+្ឍ	s	t	͓ṯ̇ʰ	tʰ ᵒ -t	thô	ṭ̱ʰᵒ	o-series consonant	rare					tʰɔː		U+17D2 U+178D: KHMER SIGN COENG, LETTER TTHO​	
+្ឈ	s	C	͓c̱ʰ	cʰ ᵒ	chhô	c̱ʰᵒ	o-series consonant						cʰɔː		U+17D2 U+1788: KHMER SIGN COENG, LETTER CHO​	
+្ឃ	s	K	͓ḵʰ	kʰ ᵒ k- -k	khô	ḵʰᵒ	o-series consonant						kʰɔː		U+17D2 U+1783: KHMER SIGN COENG, LETTER KHO​	
 																
-្ប	s	b	͓b	ɓɑː p- -p	bâ	bᵃ	a-series consonant						ɓɑː		U+17D2 U+1794: KHMER SIGN COENG, LETTER BA​	
-្ដ	s	d	͓ɗ	ɗɑː -t	dâ	ḍ̱ᵃ	a-series consonant						ɗɑː		U+17D2 U+178A: KHMER SIGN COENG, LETTER DA​	
-្ឌ	s	d	͓ɗ̱	ɗɔː -t	dô	ḍᵒ	o-series consonant	rare					ɗɔː		U+17D2 U+178C: KHMER SIGN COENG, LETTER DO​	
+្ប	s	b	͓b	ɓ ᵃ p- -p	bâ	bᵃ	a-series consonant						ɓɑː		U+17D2 U+1794: KHMER SIGN COENG, LETTER BA​	
+្ដ	s	d	͓ɗ	ɗ ᵃ -t	dâ	ḍ̱ᵃ	a-series consonant						ɗɑː		U+17D2 U+178A: KHMER SIGN COENG, LETTER DA​	
+្ឌ	s	d	͓ɗ̱	ɗ ᵒ -t	dô	ḍᵒ	o-series consonant	rare					ɗɔː		U+17D2 U+178C: KHMER SIGN COENG, LETTER DO​	
 																
-្ម	s	m	͓m̱	mɔː -m	mô	mᵒ	o-series consonant						mɔː		U+17D2 U+1798: KHMER SIGN COENG, LETTER MO​	
-្ណ	s	n	͓n	nɑː -n	nâ	ṇᵃ	a-series consonant						nɑː		U+17D2 U+178E: KHMER SIGN COENG, LETTER NNO​	
-្ន	s	n	͓ṉ	nɔː -n	nô	nᵒ	o-series consonant						nɔː		U+17D2 U+1793: KHMER SIGN COENG, LETTER NO​	
-្ញ	s	n	͓ɲ	ɲɔː -ɲ	nhô	ñᵒ	o-series consonant						ɲɔː		U+17D2 U+1789: KHMER SIGN COENG, LETTER NYO​	
-្ង	s	N	͓ŋ	ŋɔː -ŋ	ngô	ṅᵒ	o-series consonant						ŋɔː		U+17D2 U+1784: KHMER SIGN COENG, LETTER NGO​	
+្ម	s	m	͓m̱	m ᵒ -m	mô	mᵒ	o-series consonant						mɔː		U+17D2 U+1798: KHMER SIGN COENG, LETTER MO​	
+្ណ	s	n	͓n	n ᵃ -n	nâ	ṇᵃ	a-series consonant						nɑː		U+17D2 U+178E: KHMER SIGN COENG, LETTER NNO​	
+្ន	s	n	͓ṉ	n ᵒ -n	nô	nᵒ	o-series consonant						nɔː		U+17D2 U+1793: KHMER SIGN COENG, LETTER NO​	
+្ញ	s	n	͓ɲ	ɲ ᵒ -ɲ	nhô	ñᵒ	o-series consonant						ɲɔː		U+17D2 U+1789: KHMER SIGN COENG, LETTER NYO​	
+្ង	s	N	͓ŋ	ŋ ᵒ -ŋ	ngô	ṅᵒ	o-series consonant						ŋɔː		U+17D2 U+1784: KHMER SIGN COENG, LETTER NGO​	
 																
-្វ	s	v	͓v̱	ʋɔː -w	vô	vᵒ	o-series consonant						ʋɔː		U+17D2 U+179C: KHMER SIGN COENG, LETTER VO​	
-្ស	s	s	͓s	sɑː s- -h	sâ	sᵃ	a-series consonant						sɑː		U+17D2 U+179F: KHMER SIGN COENG, LETTER SA​	
-្ហ	s	h	͓h	hɑː ∅-	hâ	hᵃ	a-series consonant						hɑː		U+17D2 U+17A0: KHMER SIGN COENG, LETTER HA​	
+្វ	s	v	͓v̱	ʋ ᵒ -w	vô	vᵒ	o-series consonant						ʋɔː		U+17D2 U+179C: KHMER SIGN COENG, LETTER VO​	
+្ស	s	s	͓s	s ᵃ s- -h	sâ	sᵃ	a-series consonant						sɑː		U+17D2 U+179F: KHMER SIGN COENG, LETTER SA​	
+្ហ	s	h	͓h	h ᵃ ∅-	hâ	hᵃ	a-series consonant						hɑː		U+17D2 U+17A0: KHMER SIGN COENG, LETTER HA​	
 																
-្រ	s	r	͓ṟ	rɔː -∅	rô	rᵒ	o-series consonant						rɔː		U+17D2 U+179A: KHMER SIGN COENG, LETTER RO​	
-្ឡ	s	l	͓l	lɑː	lâ	lᵃ	a-series consonant						lɑː		U+17D2 U+17A1: KHMER SIGN COENG, LETTER LA​	
-្ល	s	l	͓ḻ	lɔː -l	lô	ḷᵒ	o-series consonant						lɔː		U+17D2 U+179B: KHMER SIGN COENG, LETTER LO​	
-្យ	s	y	͓y̱	jɔː -iː	yô	yᵒ	o-series consonant						jɔː		U+17D2 U+1799: KHMER SIGN COENG, LETTER YO​	
+្រ	s	r	͓ṟ	r ᵒ -∅	rô	rᵒ	o-series consonant						rɔː		U+17D2 U+179A: KHMER SIGN COENG, LETTER RO​	
+្ឡ	s	l	͓l	l ᵃ	lâ	lᵃ	a-series consonant						lɑː		U+17D2 U+17A1: KHMER SIGN COENG, LETTER LA​	
+្ល	s	l	͓ḻ	l ᵒ -l	lô	ḷᵒ	o-series consonant						lɔː		U+17D2 U+179B: KHMER SIGN COENG, LETTER LO​	
+្យ	s	y	͓y̱	j ᵒ -iː	yô	yᵒ	o-series consonant						jɔː		U+17D2 U+1799: KHMER SIGN COENG, LETTER YO​	
 																
-្អ	s	}	͓ʔ	ʔɑː	’â	‘ᵃ	a-series consonant						ʔɑː		U+17D2 U+17A2: KHMER SIGN COENG, LETTER QA​	
+្អ	s	}	͓ʔ	ʔ ᵃ	’â	‘ᵃ	a-series consonant						ʔɑː		U+17D2 U+17A2: KHMER SIGN COENG, LETTER QA​	
 
 
 

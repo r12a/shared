@@ -133,7 +133,7 @@ var spreadsheet = `
 झ़	s	z	jʱˑ	ʒ		zh	consonant with nukta						U+091D U+093C: DEVANAGARI LETTER JHA SIGN NUKTA		
 															
 															
-अं	s	A	ạm̽				independent vowel + anusvara						U+0905 U+0902: DEVANAGARI LETTER A, SIGN ANUSVARA		
+अं	s	A	ạⁿͫ				independent vowel + anusvara						U+0905 U+0902: DEVANAGARI LETTER A, SIGN ANUSVARA		
 अः	s	A	ạh̽				independent vowel + visarga						U+0905 U+0903: DEVANAGARI LETTER A, SIGN VISARGA		
 
 

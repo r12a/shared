@@ -20,8 +20,8 @@ var spreadsheet = `
 ب		b	b	b	b	b	consonant			ب ببب	be		U+0628: ARABIC LETTER BEH	arabic
 د		d¶	d	d¶	d	d	consonant			د ـد	dāl		U+062F: ARABIC LETTER DAL	arabic
 ڈ		d	ɖ	d	ḍ	ɖ	consonant			ڈ ـڈ	ḍāl 		U+0688: ARABIC LETTER DDAL	arabic
-گ		g	g	g	g	g	consonant			گ گگگ	gāf 		U+06AF: ARABIC LETTER GAF	arabic
-غ		g	ġ			g	consonant			غ غغغ	gain		U+063A: ARABIC LETTER GHAIN	arabic
+گ		g	g	g	g	ɡ	consonant			گ گگگ	gāf 		U+06AF: ARABIC LETTER GAF	arabic
+غ		g	ġ			ɡ	consonant			غ غغغ	gain		U+063A: ARABIC LETTER GHAIN	arabic
 ج		j	ʤ	j	j	d͡ʒ	consonant			ج ججج	jīm 		U+062C: ARABIC LETTER JEEM	arabic
 														
 														

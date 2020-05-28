@@ -167,6 +167,7 @@ var spreadsheet = `
 -อ	s	}	ʔ̯	ɔː	' o	consonant used as vowel		o ang	อ อ่าง	U+0E2D: THAI CHARACTER O ANG	
 
 
+
 `
 
 

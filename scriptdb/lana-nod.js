@@ -6,7 +6,8 @@ var spreadsheet = `
 ᨠ		k	k	ká -k	high class plosive				ᨣ		ᨠ ᩅ᩠ᨠ			U+1A20: TAI THAM LETTER HIGH KA	taitham
 															
 ᨻ		p	p̱	pa᷇ -p	low class plosive					ᨸ	ᨻ ᩅ᩠ᨻ			U+1A3B: TAI THAM LETTER LOW PA	taitham
-ᨷ		b	b̯	ba -p	mid class plosive						ᨷ ᩅ᩠ᨷ			U+1A37: TAI THAM LETTER BA	taitham
+ᨻ		p	p̱	pa᷇ -p	low class plosive					ᨸ	ᨻ ᩅ᩠ᨻ			U+1A3B: TAI THAM LETTER LOW PA	taitham
+᩠ᨻ	s	p	p̱	pa᷇ -p	low class plosive									U+1A3B: TAI THAM LETTER LOW PA	
 ᨴ		t¶	ṯ	ta᷇ -t	low class plosive					ᨲ	ᨴ ᩅ᩠ᨴ			U+1A34: TAI THAM LETTER LOW TA	taitham
 ᨯ		d	d̯	da -t	mid class plosive						ᨯ ᩅ᩠ᨯ			U+1A2F: TAI THAM LETTER DA	taitham
 ᨩ		c	c̱	ʨa᷇ -t	low class affricate					ᨧ	ᨩ ᩅ᩠ᨩ			U+1A29: TAI THAM LETTER LOW CA	taitham
