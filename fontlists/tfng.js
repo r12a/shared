@@ -12,6 +12,7 @@
 			
 		   <optgroup label="SIL fonts">
            <option value="Tagmukay">Tagmukay</option>
+           <option value="Akatab">Akatab</option>
            </optgroup>
 			
 		   <optgroup label="Other fonts"> 
