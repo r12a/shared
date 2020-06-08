@@ -61,8 +61,8 @@ var spreadsheet = `
 ᓀ		n	nᵃⁱ	nai	nai		syllable				U+14C0: CANADIAN SYLLABICS NE	cans
 ᓐ		n	n	n	n		final consonant				U+14D0: CANADIAN SYLLABICS N	cans
 												
-ᓯ		s	sⁱ	si	si		syllable				U+14EF: CANADIAN SYLLABICS SI	cans
-ᓰ		S	sⁱ̠	siː	sii		syllable				U+14F0: CANADIAN SYLLABICS SII	cans
+ᓯ		s	sⁱ	si~hi	si		syllable				U+14EF: CANADIAN SYLLABICS SI	cans
+ᓰ		S	sⁱ̠	siː~hiː	sii		syllable				U+14F0: CANADIAN SYLLABICS SII	cans
 ᓱ		s	sᵘ	su	su		syllable				U+14F1: CANADIAN SYLLABICS SO	cans
 ᓲ		S	sᵘ̱	suː	suu		syllable				U+14F2: CANADIAN SYLLABICS SOO	cans
 ᓴ		s	sᵃ	sa	sa		syllable				U+14F4: CANADIAN SYLLABICS SA	cans
@@ -94,7 +94,7 @@ var spreadsheet = `
 ᕘ		V	vᵘ̱	vuː	vuu		syllable				U+1558: CANADIAN SYLLABICS FOO	cans
 ᕙ		v	vᵃ	va	va		syllable				U+1559: CANADIAN SYLLABICS FA	cans
 ᕚ		V	vᵃ̱	vaː	vaa		syllable				U+155A: CANADIAN SYLLABICS FAA	cans
-ᕓ		f	fᵃⁱ	fai	fai		syllable				U+1553: CANADIAN SYLLABICS FE	cans
+ᕓ		f	vᵃⁱ	vai	vai		syllable				U+1553: CANADIAN SYLLABICS FE	cans
 ᕝ		v	v	v	v		final consonant				U+155D: CANADIAN SYLLABICS F	cans
 												
 ᕆ		r	rⁱ	ʁi	ri		syllable				U+1546: CANADIAN SYLLABICS RI	cans
@@ -125,8 +125,11 @@ var spreadsheet = `
 ᖕ		b	ŋ	ŋ	ng		final consonant				U+1595: CANADIAN SYLLABICS NG	cans
 												
 ᙱ		b	ŋᵑⁱ	ŋŋi	nngi		syllable				U+1671: CANADIAN SYLLABICS NNGI	cans
+ᙲ		B	ŋᵑⁱ̠	ŋŋiː	nngiI		syllable				U+1672: CANADIAN SYLLABICS NNGI	cans
 ᙳ		b	ŋᵑᵘ	ŋŋu	nngu		syllable				U+1673: CANADIAN SYLLABICS NNGO	cans
+ᙴ		B	ŋᵑᵘ̱	ŋŋuː	nnguu		syllable				U+1674: CANADIAN SYLLABICS NNGOO	cans
 ᙵ		b	ŋᵑᵃ	ŋŋa	nnga		syllable				U+1675: CANADIAN SYLLABICS NNGA	cans
+ᙶ		B	ŋᵑᵃ̱	ŋŋaː	nngaa		syllable				U+1676: CANADIAN SYLLABICS NNGAA	cans
 ᖖ		b	ŋᵑ	ŋŋ	nng		final consonant				U+1596: CANADIAN SYLLABICS NNG	cans
 												
 ᖠ		z	ɫⁱ	ɬi	ɫi		syllable				U+15A0: CANADIAN SYLLABICS LHI	cans
@@ -137,10 +140,19 @@ var spreadsheet = `
 ᖥ		Z	ɫᵃ̱	ɬaː	ɫaa		syllable				U+15A5: CANADIAN SYLLABICS LHAA	cans
 ᖦ		z	ɫ	ɬ	ɫ		syllable				U+15A6: CANADIAN SYLLABICS LH	cans
 												
-ᐦ		h	h	h	h		final consonant				U+1426: CANADIAN SYLLABICS FINAL DOUBLE SHORT VERTICAL STROKES	cans
 ᕼ		H	ʜ	h	h		extended consonant				U+157C: CANADIAN SYLLABICS NUNAVUT H	cans
 ᖯ		B	b	b	b		extended consonant				U+15AF: CANADIAN SYLLABICS AIVILIK B	cans
-'		'	ʔ	ʔ	ʔ		extended consonant				U+0027: APOSTROPHE	
+\'		\'	ʔ	ʔ	ʔ		extended consonant				U+0027: APOSTROPHE	
+												
+												
+ᕵ		h	hⁱ	hi	hi		consonant	rare			U+1575: CANADIAN SYLLABICS NUNAVIK HI	cans
+ᕶ		H	hⁱ̠	hiː	hii		consonant	rare			U+1576: CANADIAN SYLLABICS NUNAVIK HII	cans
+ᕴ		h	hᵘ	hu	hu		consonant	rare			U+1574: CANADIAN SYLLABICS NUNAVIK HE	cans
+ᕷ		h	hᵘ̱	huː	huu		consonant	rare			U+1577: CANADIAN SYLLABICS NUNAVIK HO	cans
+ᕸ		H	hᵃ	ha	ha		consonant	rare			U+1578: CANADIAN SYLLABICS NUNAVIK HOO	cans
+ᕹ		h	hᵃ̱	haː	haa		consonant	rare			U+1579: CANADIAN SYLLABICS NUNAVIK HA	cans
+ᕺ		H	hᵃⁱ	hai	hai		consonant	rare			U+157A: CANADIAN SYLLABICS NUNAVIK HAA	cans
+ᕻ		h	h	h	h		consonant	rare			U+157B: CANADIAN SYLLABICS NUNAVIK H	cans
 
 
 `
