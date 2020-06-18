@@ -106,13 +106,13 @@ var spreadsheet = `
 𞤮𞥊	s	o	ɔ˙	o	o	extended vowel							U+1E92E U+1E94A: ADLAM SMALL LETTER O, NUKTA		adlam
 															
 															
-𞤭𞥅	s	i	iː	iː	i	long vowel							U+1E92D U+1E945: ADLAM SMALL LETTER I,  VOWEL LENGTHENER		
-𞤵𞥅	s	u	uː	uː	u	long vowel							U+1E935 U+1E945: ADLAM SMALL LETTER U,  VOWEL LENGTHENER		
-𞤫𞥊𞥅	s	e	ɛ˙ː	eː	e	long vowel							U+1E92B U+1E94A U+1E945: ADLAM SMALL LETTER E,  NUKTA,  VOWEL LENGTHENER		
-𞤮𞥊𞥅	s	o	ɔ˙ː	oː	o	long vowel							U+1E92E U+1E94A U+1E945: ADLAM SMALL LETTER O,  NUKTA,  VOWEL LENGTHENER		
-𞤫𞥅	s	e	ɛː	ɛː	e	long vowel							U+1E92B U+1E945: ADLAM SMALL LETTER E,  VOWEL LENGTHENER		
-𞤮𞥅	s	o	ɔː	ɔː	ô o	long vowel							U+1E92E U+1E945: ADLAM SMALL LETTER O,  VOWEL LENGTHENER		
-𞤢𞥄	s	a	aˉ	aː	a	long vowel							U+1E922 U+1E944: ADLAM SMALL LETTER ALIF,  ALIF LENGTHENER		
+𞤭𞥅	s	i	iː	iː	ii	long vowel							U+1E92D U+1E945: ADLAM SMALL LETTER I,  VOWEL LENGTHENER		
+𞤵𞥅	s	u	uː	uː	uu	long vowel							U+1E935 U+1E945: ADLAM SMALL LETTER U,  VOWEL LENGTHENER		
+𞤫𞥊𞥅	s	e	ɛ˙ː	eː	ee	long vowel							U+1E92B U+1E94A U+1E945: ADLAM SMALL LETTER E,  NUKTA,  VOWEL LENGTHENER		
+𞤮𞥊𞥅	s	o	ɔ˙ː	oː	oo	long vowel							U+1E92E U+1E94A U+1E945: ADLAM SMALL LETTER O,  NUKTA,  VOWEL LENGTHENER		
+𞤫𞥅	s	e	ɛː	ɛː	ee	long vowel							U+1E92B U+1E945: ADLAM SMALL LETTER E,  VOWEL LENGTHENER		
+𞤮𞥅	s	o	ɔː	ɔː	ôô oo	long vowel							U+1E92E U+1E945: ADLAM SMALL LETTER O,  VOWEL LENGTHENER		
+𞤢𞥄	s	a	aˉ	aː	aa	long vowel							U+1E922 U+1E944: ADLAM SMALL LETTER ALIF,  ALIF LENGTHENER		
 															
 															
 𞤋		I	I	i	I	uppercase vowel				𞤋 𞤋𞤋𞤋	i		U+1E90B: ADLAM CAPITAL LETTER I		adlam
@@ -123,14 +123,13 @@ var spreadsheet = `
 𞤌		O	Ɔ	ɔ	Ô O	uppercase vowel				𞤌 𞤌𞤌𞤌	ö		U+1E90C: ADLAM CAPITAL LETTER O		adlam
 𞤀		A	A	a	A	uppercase vowel				𞤀 𞤀𞤀𞤀	alif		U+1E900: ADLAM CAPITAL LETTER ALIF		adlam
 															
-𞤋𞥅		I	Iː	i	I	uppercase long vowel							U+1E90B U+1E945: ADLAM CAPITAL LETTER I.  VOWEL LENGTHENER		adlam
-𞤓𞥅		U	Uː	u	U	uppercase long vowel							U+1E913 U+1E945: ADLAM CAPITAL LETTER U.  VOWEL LENGTHENER		adlam
-𞤉𞥊𞥅	s	E	Ɛ˙ː	e	E	uppercase long vowel							U+1E909 U+1E94A U+1E945: ADLAM CAPITAL LETTER E.  NUKTA.  VOWEL LENGTHENER		
-𞤌𞥊𞥅	s	O	Ɔ˙ː	o	O	uppercase long vowel							U+1E90C U+1E94A U+1E945: ADLAM CAPITAL LETTER O.  NUKTA.  VOWEL LENGTHENER		
-𞤉𞥅		E	Ɛː	ɛ	E	uppercase long vowel							U+1E909 U+1E945: ADLAM CAPITAL LETTER E.  VOWEL LENGTHENER		adlam
-𞤌𞥅		O	Ɔː	ɔ	Ô O	uppercase long vowel							U+1E90C U+1E945: ADLAM CAPITAL LETTER O.  VOWEL LENGTHENER		adlam
-𞤀𞥄		A	Aˉ	a	A	uppercase long vowel							U+1E900 U+1E944: ADLAM CAPITAL LETTER ALIF.  ALIF LENGTHENER		adlam
-															
+𞤋𞥅		I	Iː	iː	II	uppercase long vowel							U+1E90B U+1E945: ADLAM CAPITAL LETTER I.  VOWEL LENGTHENER		adlam
+𞤓𞥅		U	Uː	uː	UU	uppercase long vowel							U+1E913 U+1E945: ADLAM CAPITAL LETTER U.  VOWEL LENGTHENER		adlam
+𞤉𞥊𞥅	s	E	Ɛ˙ː	eː	EE	uppercase long vowel							U+1E909 U+1E94A U+1E945: ADLAM CAPITAL LETTER E.  NUKTA.  VOWEL LENGTHENER		
+𞤌𞥊𞥅	s	O	Ɔ˙ː	oː	OO	uppercase long vowel							U+1E90C U+1E94A U+1E945: ADLAM CAPITAL LETTER O.  NUKTA.  VOWEL LENGTHENER		
+𞤉𞥅		E	Ɛː	ɛː	EE	uppercase long vowel							U+1E909 U+1E945: ADLAM CAPITAL LETTER E.  VOWEL LENGTHENER		adlam
+𞤌𞥅		O	Ɔː	ɔː	ÔÔ OO	uppercase long vowel							U+1E90C U+1E945: ADLAM CAPITAL LETTER O.  VOWEL LENGTHENER		adlam
+𞤀𞥄		A	Aˉ	aː	AA	uppercase long vowel							U+1E900 U+1E944: ADLAM CAPITAL LETTER ALIF.  ALIF LENGTHENER		adlam															
 															
 															
 															
@@ -138,7 +137,7 @@ var spreadsheet = `
 𞥄		:	ˉ			alif lengthener							U+1E944: ADLAM ALIF LENGTHENER​		adlam
 𞥅		:	ː			vowel lengthener							U+1E945: ADLAM VOWEL LENGTHENER​		adlam
 𞥆		+	˖			gemination mark							U+1E946: ADLAM GEMINATION MARK​		adlam
-𞥇		[¶	ʿ			hamza							U+1E947: ADLAM HAMZA​		adlam
+𞥇		[	ʿ			hamza							U+1E947: ADLAM HAMZA​		adlam
 𞥈		/	ˑ			consonant modifier							U+1E948: ADLAM CONSONANT MODIFIER​		adlam
 𞥉		/	ˇ			consonant modifier							U+1E949: ADLAM GEMINATE CONSONANT MODIFIER​		adlam
 𞥊		/	˙			consonant/vowel modifier							U+1E94A: ADLAM NUKTA​		adlam
