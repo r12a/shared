@@ -51,6 +51,7 @@
             <option value="Amiri">Amiri</option>
             <option value="Amiri Quran">Amiri Quran</option>
             <option value="Arabic Transparent">Arabic Transparent</option>
+            <option value="Aref Ruqaa">Aref Ruqaa</option>
             <option value="Awami Nastaliq">Awami Nastaliq</option>
             <option value="Farsi Simple">Farsi Simple</option>
             <option value="Koodak">Koodak</option>
