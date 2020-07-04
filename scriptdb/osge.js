@@ -1,22 +1,22 @@
 
 var spreadsheet = `
 𐓣		i	i	i	i					𐒻			U+104E3: OSAGE SMALL LETTER I	osage
-𐓶		u	u	u	ʉ y					𐓎			U+104F6: OSAGE SMALL LETTER U	osage
-𐓟		e	e	ɛ	ε e					𐒷			U+104DF: OSAGE SMALL LETTER E	osage
+𐓶		u	u	u	u					𐓎			U+104F6: OSAGE SMALL LETTER U	osage
+𐓟		e	e	ɛ	ε					𐒷			U+104DF: OSAGE SMALL LETTER E	osage
 𐓪		o	o	o	o					𐓂			U+104EA: OSAGE SMALL LETTER O	osage
 𐓛		ə	e	ə	ə					𐒳			U+104DB: OSAGE SMALL LETTER AH	osage
-𐓘		a	a	a	ɑ ə					𐒰			U+104D8: OSAGE SMALL LETTER A	osage
+𐓘		a	a	a	ɑ					𐒰			U+104D8: OSAGE SMALL LETTER A	osage
 𐓙		ai	a	aᶦ	aɪ					𐒱			U+104D9: OSAGE SMALL LETTER AI	osage
 𐓚		aį	a	aⁱ̃	aɪ̃					𐒲			U+104DA: OSAGE SMALL LETTER AIN	osage
 𐓠		eį	e	eⁱ̃	eɪ̃					𐒸			U+104E0: OSAGE SMALL LETTER EIN	osage
 𐓫		oį	o	oⁱ̃	oɪ̃					𐓃			U+104EB: OSAGE SMALL LETTER OIN	osage
 														
 𐒻		I	I	I	i				𐓣				U+104BB: OSAGE CAPITAL LETTER I	osage
-𐓎		U	U	U	ʉ y				𐓶				U+104CE: OSAGE CAPITAL LETTER U	osage
-𐒷		E	E	Ɛ	ε e				𐓟				U+104B7: OSAGE CAPITAL LETTER E	osage
+𐓎		U	U	U	u				𐓶				U+104CE: OSAGE CAPITAL LETTER U	osage
+𐒷		E	E	Ɛ	ε				𐓟				U+104B7: OSAGE CAPITAL LETTER E	osage
 𐓂		O	O	O	o				𐓪				U+104C2: OSAGE CAPITAL LETTER O	osage
 𐒳		Ə	E	Ə	ə				𐓛				U+104B3: OSAGE CAPITAL LETTER AH	osage
-𐒰		A	A	A	ɑ ə				𐓘				U+104B0: OSAGE CAPITAL LETTER A	osage
+𐒰		A	A	A	ɑ				𐓘				U+104B0: OSAGE CAPITAL LETTER A	osage
 𐒱		Ai	A	Aᶦ	aɪ				𐓙				U+104B1: OSAGE CAPITAL LETTER AI	osage
 𐒲		Aį	A	Aⁱ̃	aɪ̃				𐓚				U+104B2: OSAGE CAPITAL LETTER AIN	osage
 𐒸		Eį	E	Eⁱ̃	eɪ̃				𐓠				U+104B8: OSAGE CAPITAL LETTER EIN	osage
