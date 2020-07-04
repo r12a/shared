@@ -34,7 +34,7 @@ function shownames_setImgOnclick ( node, base, target ) {
 function shownames_setOnclick ( node, base, target ) {
     var list = ''
     if (node.classList.contains('list')) list = 'y'
-	node.onclick = function(){ showNameDetails(node.firstChild.data, getLanguage(node), base, target, document.getElementById('panel'), list) }
+	node.onclick = function(){ showNameDetails(node.firstChild.data, getLanguage(node), base, target, document.getElementById('panel'), list, getTransliteration(node)) }
 	}
 
 
@@ -45,12 +45,18 @@ function getLanguage(node) {
 	else return ''
 	}
 
+function getTransliteration (node) {
+	// given a node, returns any span.trans
+	translit = node.parentNode.querySelector('.trans')
+	console.log('translit:',translit)
+	if(translit !== null) return translit.textContent
+	else return ''
+	}
 
 
 
 
-
-function showNameDetails (chars, clang, base, target, panel,list) { 
+function showNameDetails (chars, clang, base, target, panel, list, translit) { console.log(chars, clang, base, target, panel, list, translit)
 // get the list of characters for an example and display their names
 // chars (string), alt text of example
 // clang (string), lang attribute value of example img
@@ -62,6 +68,7 @@ function showNameDetails (chars, clang, base, target, panel,list) {
 	if(typeof base === 'undefined' || base === '') { base = '/uniview/?char=' }
 	if(typeof target === 'undefined') { target = '' }
 	if(typeof list === 'undefined') { list = null }
+	if(typeof translit === 'undefined') { translit = '' }
 	
 	 chars = chars
       .replace(/&/g, "&amp;")
@@ -85,6 +92,15 @@ function showNameDetails (chars, clang, base, target, panel,list) {
 	str.lang = clang
 	str.id = 'title'
 	replacement.appendChild(str)
+    
+	// add a line for transliteration
+	if (translit !== '') {
+		var str = document.createElement('div')
+		str.appendChild(document.createTextNode(translit))
+		str.className='trans'
+		str.id = 'transInPanel'
+		replacement.appendChild(str)
+		}
     
     // add instructions line
     var advice = document.createElement('p')
