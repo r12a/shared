@@ -47,16 +47,18 @@ function getLanguage(node) {
 
 function getTransliteration (node) {
 	// given a node, returns any span.trans
-	translit = node.parentNode.querySelector('.trans')
-	console.log('translit:',translit)
-	if(translit !== null) return translit.textContent
+	if (node.parentNode.classList.contains('charExample')) {
+		translit = node.parentNode.querySelector('.trans')
+		if(translit !== null) return translit.textContent
+		else return ''
+		}
 	else return ''
 	}
 
 
 
 
-function showNameDetails (chars, clang, base, target, panel, list, translit) { console.log(chars, clang, base, target, panel, list, translit)
+function showNameDetails (chars, clang, base, target, panel, list, translit) {
 // get the list of characters for an example and display their names
 // chars (string), alt text of example
 // clang (string), lang attribute value of example img
