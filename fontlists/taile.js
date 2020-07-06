@@ -1,5 +1,5 @@
  var fontSelection =`<optgroup label="Webfonts">
-       <option value="Noto Sans New Tai Le WF">Noto Sans Tai Le WF</option>
+       <option value="Noto Sans Tai Le WF">Noto Sans Tai Le WF</option>
         </optgroup>
         
         <optgroup label="Google fonts">
