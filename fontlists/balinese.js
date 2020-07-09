@@ -11,5 +11,8 @@
 
             <optgroup label="Other fonts ">
             <option value="Aksara Bali">Aksara Bali</option>
+            <option value="Kadiri">Kadiri</option>
+            <option value="Pustaka Bali">Pustaka Bali</option>
             <option value="Ubud">Ubud</option>
+            <option value="Vimala">Vimala</option>
             </optgroup>`
