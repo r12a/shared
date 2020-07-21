@@ -140,7 +140,7 @@ var spreadsheet = `
 ᔫ		y	yō	jᵒ̱	joː		syllable				U+152B: CANADIAN SYLLABICS YOO	cans
 ᔭ		y	ya	jᵃ	ja		syllable				U+152D: CANADIAN SYLLABICS YA	cans
 ᔮ		y	yā	jᵃ̱	jaː		syllable				U+152E: CANADIAN SYLLABICS YAA	cans
-ᐝ		Y	y	ý	j		final consonant				U+141D: CANADIAN SYLLABICS Y-CREE W	cans
+ᣞ		Y	y	ý	j		final consonant				U+18DE CANADIAN SYLLABICS FINAL SMALL RING	cans
 ᔰ		Y	ywe	jʷᵉ	jwe		syllable				U+1530: CANADIAN SYLLABICS WEST-CREE YWE	cans
 ᔲ		Y	ywi	jʷⁱ	jwɪ		syllable				U+1532: CANADIAN SYLLABICS WEST-CREE YWI	cans
 ᔴ		Y	ywī	jʷⁱ̠	jwiː		syllable				U+1534: CANADIAN SYLLABICS WEST-CREE YWII	cans
