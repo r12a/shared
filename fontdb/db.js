@@ -226,7 +226,7 @@ var fontDB = [
 { name:"Narkisim",			system:new Set([win]), locales:new Set(['hebr']) },
 { name:"New Peninim MT",	system:new Set([mac]), locales:new Set(['hebr']) },
 { name:"Nirmala UI",		system:new Set([win]), locales:new Set(['beng', 'gujr', 'guru', 'mlym', 'sinh', 'telu']) },
-{ name:"Noteworthy",		system:new Set([mac]), locales:new Set(['cyrl,grek,latn']) },
+{ name:"Noteworthy",		system:new Set([mac]), locales:new Set(['cyrl', 'grek', 'latn']) },
 { name:"Noto Kufi Arabic",	system:new Set([goog]), locales:new Set(['arab', 'arab-arb']) },
 { name:"Noto Naskh Arabic",	system:new Set([goog]), locales:new Set(['arab', 'arab-arb', 'arab-ajami', 'arab-fa', 'arab-ha', 'arab-ug']) },
 { name:"Noto Nastaliq Urdu",system:new Set([goog]), locales:new Set(['arab-ur']) },
