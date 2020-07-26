@@ -16,7 +16,7 @@ function addFontToLists (fontname, selectionlists, announce = true) {
         if (selectlist.querySelector('#userFontSelections') === null) {
             var optGroup = document.createElement('optgroup')
             optGroup.id = 'userFontSelections'
-            optGroup.label = 'User-nominated fonts'
+            optGroup.label = 'My fonts'
             selectlist.appendChild(optGroup)
             }
         else optGroup = selectlist.querySelector('#userFontSelections')

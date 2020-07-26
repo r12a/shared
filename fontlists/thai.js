@@ -1,15 +1,17 @@
- var fontSelection =`<optgroup label="Webfonts">
+ var fontSelection =`<option value="0">Select...</option>
+ 
+ 		<optgroup label="Webfonts">
         <option value="Noto Serif Thai WF">Noto Serif Thai WF</option>
         <option value="Noto Sans Thai WF">Noto Sans Thai WF</option>
         </optgroup>
         
         <optgroup label="Mac font">
-        <option value="Ayuthaya">Ayuthaya</option>
-        <option value="Krungthep">Krungthep</option>
+        <option value="Ayuthaya">Ayuthaya <span>มีสิทธิที่</span></option>
+        <option value="Krungthep">Krungthep <span>มีสิทธิที่</span></option>
         <option value="Sathu">Sathu</option>
         <option value="Silom">Silom</option>
         <option value="Sukhumvit Set">Sukhumvit Set</option>
-        <option value="Tahoma">Tahoma (Lion)</option>
+        <option value="Tahoma">Tahoma <span style="font-family:'Tahoma';">มีสิทธิที่</span></option>
         <option value="Thonburi">Thonburi</option>
         </optgroup>
         

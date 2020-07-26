@@ -1,5 +1,11 @@
- var fontSelection =`<optgroup label="Webfonts">
-       <option value="Noto Sans New Tai Lue WF">Noto Sans New Tai Lue WF</option>
+ var fontSelection =`<option value="0">Select...</option>
+ 
+ 		<optgroup label="Webfonts">
+        <option value="Noto Sans New Tai Lue WF">Noto Sans New Tai Lue WF</option>
+        </optgroup>
+        
+ 		<optgroup label="Windows fonts">
+        <option value="Microsoft New Tai Lue">Microsoft New Tai Lue</option>
         </optgroup>
         
         <optgroup label="Google fonts">

@@ -1,4 +1,6 @@
- var fontSelection = `<optgroup label="Webfont">
+ var fontSelection = `<option value="0">Select...</option>
+ 
+ 		<optgroup label="Webfont">
         <option value="Noto Sans Telugu WF">Noto Sans Telugu WF</option>
         </optgroup>
         
@@ -33,4 +35,5 @@
         <option value="Microsoft Sans Serif">Microsoft Sans Serif</option>
         <option value="sans-serif">sans-serif</option>
         <option value="serif">serif</option>
-        </optgroup>`
+        </optgroup>
+`

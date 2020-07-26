@@ -3,22 +3,28 @@
       <option value="Noto Serif Khmer WF">Noto Serif Khmer WF</option>
       <option value="Noto Sans Khmer WF">Noto Sans Khmer WF</option>
       </optgroup>
+      
       <optgroup label="Mac fonts">
       <option value="Khmer MN">Khmer MN (Lion)</option>
       <option value="Khmer MN">Khmer Sangam MN (Lion)</option>
       </optgroup>
+      
       <optgroup label="Windows fonts">
       <option value="DaunPenh">DaunPenh (Windows7)</option>
+      <option value="Leelawadee">Leelawadee</option>
       <option value="MoolBoran">MoolBoran (Windows7)</option>
       </optgroup>
+      
       <optgroup label="Google fonts">
       <option value="Noto Sans Khmer">Noto Sans Khmer</option>
       <option value="Noto Serif Khmer">Noto Serif Khmer</option>
       </optgroup>
+ 
       <optgroup label="SIL fonts">
       <option value="Khmer Mondulkiri">Khmer Mondulkiri</option>
       <option value="Khmer Busra">Khmer Busra</option>
       </optgroup>
+ 
       <optgroup label="Other fonts">
       <option value="Battambang">Battambang</option>
       <option value="CDT Khmer">CDT Khmer</option>
@@ -40,9 +46,11 @@
       <option value="Khmer Vanara">Khmer Vanara</option>
       <option value="PhnomPenh OT">PhnomPenh OT</option>
       </optgroup>
+  
       <optgroup label="General fonts">
       <option value="Code2000">Code2000</option>
       <option value="Arial Unicode MS">Arial Unicode MS</option>
       <option value="sans-serif">sans-serif</option>
       <option value="serif">serif</option>
-      </optgroup>`
+      </optgroup>
+      `

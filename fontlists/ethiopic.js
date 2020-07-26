@@ -6,6 +6,7 @@
         </optgroup>
         
         <optgroup label="Windows fonts ">
+        <option value="Ebrima">Ebrima</option>
         <option value="Nyala">Nyala</option>
         </optgroup>
         
