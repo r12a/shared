@@ -288,7 +288,7 @@ var fontDB = [
 { name:"Noto Sans Tibetan",	system:new Set([goog]), locales:new Set(['tibt']) },
 { name:"Noto Sans Tifinagh",system:new Set([goog]), locales:new Set(['tfng', 'tfng-ber']) },
 { name:"Noto Sans Vai",		system:new Set([goog]), locales:new Set(['vaii']) },
-{ name:"Noto Sans Yi",		system:new Set([noto]), locales:new Set(['yiii']) },
+{ name:"Noto Sans Yi",		system:new Set([goog]), locales:new Set(['yiii']) },
 { name:"Noto Serif",		system:new Set([goog]), locales:new Set(['latn', 'latn-ha', 'latn-afr', 'ipa', 'cyrl', 'grek']) },
 { name:"Noto Serif Armenian",system:new Set([goog]), locales:new Set(['armn']) },
 { name:"Noto Serif Balinese",system:new Set([goog]), locales:new Set(['bali']) },
