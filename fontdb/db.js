@@ -126,13 +126,13 @@ var fontDB = [
 
 /* modulated or monochrome */
 { name:"Arial Unicode MS",	system:new Set([mac, win]), locales:new Set(['latn', 'latn-ha', 'latn-afr', 'ipa', 'germ', 'arab', 'arab-arb', 'arab-sans', 'beng', 'deva', 'gujr', 'guru', 'knda', 'mlym', 'taml', 'thai', 'armn', 'cyrl', 'geor', 'grek', 'hebr', 'arab-fa', 'arab-ug']), style:'mod/mono' },
+{ name:"Arial",				system:new Set([win, mac, ios]), locales:new Set(['latn', 'latn-ha', 'latn-afr', 'ipa', 'germ', 'arab', 'arab-arb', 'arab-ha', 'grek', 'hebr', 'arab-fa', 'arab-ug']), style:'mod/mono' },
 
 
 /* monochrome */
 { name:"Aharoni",			system:new Set([win]), locales:new Set(['hebr']), style:'sans' },
 { name:"Akatab",			system:new Set([sil]), locales:new Set(['tfng']), style:'sans' },
 { name:"Andika",			system:new Set([sil]), locales:new Set(['cyrl', 'latn']), style:'sans' },
-{ name:"Arial",				system:new Set([win, mac, ios]), locales:new Set(['latn', 'latn-ha', 'latn-afr', 'ipa', 'germ', 'arab', 'arab-arb', 'arab-ha', 'grek', 'hebr', 'arab-fa', 'arab-ug']), style:'sans' },
 { name:"Arial Hebrew",		system:new Set([mac, ios]), locales:new Set(['hebr']), style:'sans' },
 { name:"Arial Hebrew Scholar",system:new Set([mac]), locales:new Set(['hebr']), style:'sans' },
 { name:"Avenir",			system:new Set([mac, ios]), locales:new Set(['latn', 'germ']), style:'sans' },
