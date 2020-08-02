@@ -282,12 +282,12 @@ var fontDB = [
 
 
 
-/* no loop */
-{ name:"JasmineUPC",		system:new Set([win]), locales:new Set(['thai']), style:'noloop' },
-{ name:"KodchiangUPC",		system:new Set([win]), locales:new Set(['thai']), style:'noloop' },
-{ name:"LilyUPC",			system:new Set([win]), locales:new Set(['thai']), style:'noloop' },
-{ name:"Noto Sans Thai",	system:new Set([yes,goog]), locales:new Set(['thai']), style:'noloop' },
-{ name:"Sukhumvit Set",		system:new Set([mac]), locales:new Set(['thai']), style:'noloop' },
+/* loopless */
+{ name:"JasmineUPC",		system:new Set([win]), locales:new Set(['thai']), style:'loopless' },
+{ name:"KodchiangUPC",		system:new Set([win]), locales:new Set(['thai']), style:'loopless' },
+{ name:"LilyUPC",			system:new Set([win]), locales:new Set(['thai']), style:'loopless' },
+{ name:"Noto Sans Thai",	system:new Set([yes,goog]), locales:new Set(['thai']), style:'loopless' },
+{ name:"Sukhumvit Set",		system:new Set([mac]), locales:new Set(['thai']), style:'loopless' },
 
 /* thuluth */
 { name:"Diwan Thuluth",		system:new Set([mac]), locales:new Set(['arab', 'arab-arb', 'arab-thul']), style:'thuluth' },
@@ -295,7 +295,7 @@ var fontDB = [
 /* ruq'a */
 { name:"Waseem",			system:new Set([mac]), locales:new Set(['arab', 'arab-arb', 'arab-ruqa']), style:'ruqa' },
 
-/* ajami */
+/* kano */
 { name:"Alkalami",			system:new Set([sil]), locales:new Set(['arab','arab-ajami', 'arab-ha']), style:'kano' },
 { name:"Alkalami Light",	system:new Set([sil]), locales:new Set(['arab','arab-ajami', 'arab-ha']), style:'kano' },
 
