@@ -104,24 +104,28 @@ var fontDB = [
 
 
 /* naskh */
-{ name:"Al Bayan",			system:new Set([mac]), locales:new Set(['arab', 'arab-arb', 'arab-fa']), style:'naskh' },
-{ name:"Al Nile",			system:new Set([mac, ios]), locales:new Set(['arab', 'arab-arb']), style:'naskh' },
-{ name:"Al Tarikh",			system:new Set([mac]), locales:new Set(['arab', 'arab-arb']), style:'naskh' },
-{ name:"Arabic Typesetting",system:new Set([win]), locales:new Set(['arab', 'arab-arb', 'arab-ajami', 'arab-fa', 'arab-ug', 'arab-ur']), style:'naskh' },
-{ name:"Baghdad",			system:new Set([mac]), locales:new Set(['arab', 'arab-arb', 'arab-fa']), style:'naskh' },
-{ name:"Damascus",			system:new Set([mac, ios]), locales:new Set(['arab', 'arab-arb', 'arab-ajami', 'arab-fa']), style:'naskh' },
-{ name:"Decotype Naskh",	system:new Set([mac]), locales:new Set(['arab', 'arab-arb', 'arab-fa']), style:'naskh' },
-{ name:"Geeza Pro",			system:new Set([mac, ios]), locales:new Set(['arab', 'arab-arb', 'arab-ajami', 'arab-fa', 'arab-ug']), style:'naskh' },
-{ name:"Lateef",			system:new Set([sil]), locales:new Set(['arab', 'arab-fa']), style:'naskh' },
-{ name:"Mishafi",			system:new Set([mac, ios]), locales:new Set(['arab', 'arab-arb']), style:'naskh' },
-{ name:"Mishafi Gold",		system:new Set([mac]), locales:new Set(['arab', 'arab-arb']), style:'naskh' },
-{ name:"Muna",				system:new Set([mac]), locales:new Set(['arab', 'arab-arb']), style:'naskh' },
-{ name:"Nadeem",			system:new Set([mac]), locales:new Set(['arab', 'arab-arb', 'arab-fa']), style:'naskh' },
-{ name:"Sakkal Majalla",	system:new Set([win]), locales:new Set(['arab', 'arab-arb', 'arab-ajami', 'arab-fa']), style:'naskh' },
-{ name:"Scheherazade",		system:new Set([sil]), locales:new Set(['arab', 'arab-arb', 'arab-ajami', 'arab-fa', 'arab-ha', 'arab-ug', 'arab-ur']), style:'naskh' },
-{ name:"Simplified Arabic",	system:new Set([win]), locales:new Set(['arab', 'arab-arb', 'arab-ajami', 'arab-fa', 'arab-ha', 'arab-ug']), style:'naskh' },
-{ name:"Traditional Arabic",system:new Set([win]), locales:new Set(['arab', 'arab-arb', 'arab-fa', 'arab-ug']), style:'naskh' },
+{ name:"Al Bayan",			system:new Set([mac]), locales:new Set(['arab', 'arab-arb', 'arab-fa']), style:'serif' },
+{ name:"Al Nile",			system:new Set([mac, ios]), locales:new Set(['arab', 'arab-arb']), style:'serif' },
+{ name:"Al Tarikh",			system:new Set([mac]), locales:new Set(['arab', 'arab-arb']), style:'serif' },
+{ name:"Arabic Typesetting",system:new Set([win]), locales:new Set(['arab', 'arab-arb', 'arab-ajami', 'arab-fa', 'arab-ug', 'arab-ur']), style:'serif' },
+{ name:"Baghdad",			system:new Set([mac]), locales:new Set(['arab', 'arab-arb', 'arab-fa']), style:'serif' },
+{ name:"Damascus",			system:new Set([mac, ios]), locales:new Set(['arab', 'arab-arb', 'arab-ajami', 'arab-fa']), style:'serif' },
+{ name:"Decotype Naskh",	system:new Set([mac]), locales:new Set(['arab', 'arab-arb', 'arab-fa']), style:'serif' },
+{ name:"Geeza Pro",			system:new Set([mac, ios]), locales:new Set(['arab', 'arab-arb', 'arab-ajami', 'arab-fa', 'arab-ug']), style:'serif' },
+{ name:"Lateef",			system:new Set([sil]), locales:new Set(['arab', 'arab-fa']), style:'serif' },
+{ name:"Microsoft Uighur",	system:new Set([win]), locales:new Set(['arab', 'arab-ug']), style:'serif' },
+{ name:"Mishafi",			system:new Set([mac, ios]), locales:new Set(['arab', 'arab-arb']), style:'serif' },
+{ name:"Mishafi Gold",		system:new Set([mac]), locales:new Set(['arab', 'arab-arb']), style:'serif' },
+{ name:"Muna",				system:new Set([mac]), locales:new Set(['arab', 'arab-arb']), style:'serif' },
+{ name:"Nadeem",			system:new Set([mac]), locales:new Set(['arab', 'arab-arb', 'arab-fa']), style:'serif' },
+{ name:"Sakkal Majalla",	system:new Set([win]), locales:new Set(['arab', 'arab-arb', 'arab-ajami', 'arab-fa']), style:'serif' },
+{ name:"Scheherazade",		system:new Set([sil]), locales:new Set(['arab', 'arab-arb', 'arab-ajami', 'arab-fa', 'arab-ha', 'arab-ug', 'arab-ur']), style:'serif' },
+{ name:"Simplified Arabic",	system:new Set([win]), locales:new Set(['arab', 'arab-arb', 'arab-ajami', 'arab-fa', 'arab-ha', 'arab-ug']), style:'serif' },
+{ name:"Traditional Arabic",system:new Set([win]), locales:new Set(['arab', 'arab-arb', 'arab-fa', 'arab-ug']), style:'serif' },
 
+
+/* modulated or monochrome */
+{ name:"Arial Unicode MS",	system:new Set([mac, win]), locales:new Set(['latn', 'latn-ha', 'latn-afr', 'ipa', 'germ', 'arab', 'arab-arb', 'arab-sans', 'beng', 'deva', 'gujr', 'guru', 'knda', 'mlym', 'taml', 'thai', 'armn', 'cyrl', 'geor', 'grek', 'hebr', 'arab-fa', 'arab-ug']), style:'mod/mono' },
 
 
 /* monochrome */
@@ -131,7 +135,6 @@ var fontDB = [
 { name:"Arial",				system:new Set([win, mac, ios]), locales:new Set(['latn', 'latn-ha', 'latn-afr', 'ipa', 'germ', 'arab', 'arab-arb', 'arab-ha', 'grek', 'hebr', 'arab-fa', 'arab-ug']), style:'sans' },
 { name:"Arial Hebrew",		system:new Set([mac, ios]), locales:new Set(['hebr']), style:'sans' },
 { name:"Arial Hebrew Scholar",system:new Set([mac]), locales:new Set(['hebr']), style:'sans' },
-{ name:"Arial Unicode MS",	system:new Set([mac, win]), locales:new Set(['latn', 'latn-ha', 'latn-afr', 'ipa', 'germ', 'arab', 'arab-arb', 'arab-sans', 'thai', 'armn', 'cyrl', 'geor', 'grek', 'hebr', 'arab-fa', 'arab-ug']), style:'sans' },
 { name:"Avenir",			system:new Set([mac, ios]), locales:new Set(['latn', 'germ']), style:'sans' },
 { name:"Avenir Next",		system:new Set([mac, ios]), locales:new Set(['latn', 'germ', 'grek', 'cyrl']), style:'sans' },
 { name:"Ayuthaya",			system:new Set([mac]), locales:new Set(['thai']), style:'sans' },
@@ -183,11 +186,12 @@ var fontDB = [
 { name:"Latha",				system:new Set([win]), locales:new Set(['taml']), style:'sans' },
 { name:"Leelawadee",		system:new Set([win]), locales:new Set(['thai']), style:'sans' },
 { name:"Levenim MT",		system:new Set([win]), locales:new Set(['hebr']), style:'sans' },
-{ name:"Lucida Grande",		system:new Set([mac]), locales:new Set(['latn','latn-ha', 'latn-afr', 'ipa', 'germ']), style:'sans' },
+{ name:"Lucida Grande",		system:new Set([mac]), locales:new Set(['latn','latn-ha', 'latn-afr', 'ipa', 'germ', 'hebr']), style:'sans' },
 { name:"Malayalam Sangam MN",system:new Set([mac, ios]), locales:new Set(['mlym']), style:'sans' },
 { name:"Mangal",			system:new Set([win]), locales:new Set(['deva', 'deva-hi']), style:'sans' },
 { name:"Microsoft New Tai Lue",system:new Set([win]), locales:new Set(['talu']), style:'sans' },
 { name:"Microsoft PhagsPa",	system:new Set([win]), locales:new Set(['phag']), style:'sans' },
+{ name:"Microsoft Sans Serif",system:new Set([win]), locales:new Set(['arab','latn']), style:'sans' },
 { name:"Microsoft Tai Le",	system:new Set([win]), locales:new Set(['tale']), style:'sans' },
 { name:"Microsoft Yi Baiti",system:new Set([win]), locales:new Set(['yiii']), style:'sans' },
 { name:"Miriam",			system:new Set([win]), locales:new Set(['hebr']), style:'sans' },
@@ -307,7 +311,7 @@ var fontDB = [
 { name:"Awami Nastaliq",	system:new Set([sil]), locales:new Set(['arab', 'arab-ur']), style:'nastaliq' },
 { name:"Farisi",			system:new Set([mac]), locales:new Set(['arab', 'arab-arb', 'arab-fa']), style:'nastaliq' },
 { name:"Noto Nastaliq Urdu",system:new Set([goog, mac, ios]), locales:new Set(['arab', 'arab-ur']), style:'nastaliq' },
-{ name:"Urdu Typesetting",	system:new Set([win]), locales:new Set(['arab-ur']), style:'nastaliq' },
+{ name:"Urdu Typesetting",	system:new Set([win]), locales:new Set(['arab', 'arab-ur']), style:'nastaliq' },
 
 /* slanted */
 { name:"Corsiva Hebrew",	system:new Set([mac]), locales:new Set(['hebr']), style:'slanted' },
@@ -392,22 +396,22 @@ var fontDB = [
 { name:"NSimSun",			system:new Set([win]), locales:new Set(['hani', 'hans']), style:'song' },
 { name:"SimSun",			system:new Set([win, mac]), locales:new Set(['hani', 'hans']), style:'song' },
 { name:"Songti SC",			system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'song' },
-{ name:"STSong",			system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'song' },
+{ name:"STSong",			system:new Set([mac]), locales:new Set(['hani', 'hans', 'yiii']), style:'song' },
 
 /* Hei/Gothic */
 { name:"Hei",				system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'hei' },
-{ name:"Heiti SC",			system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'hei' },
+{ name:"Heiti SC",			system:new Set([mac]), locales:new Set(['hani', 'hans', 'yiii']), style:'hei' },
 { name:"Lantinghei SC",		system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'hei' },
 { name:"Microsoft YaHei",	system:new Set([win]), locales:new Set(['hani', 'hans']), style:'hei' },
 { name:"Noto Sans CJK SC",	system:new Set([goog]), locales:new Set(['hani', 'hans']), style:'hei' },
 { name:"PingFang SC",		system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'hei' },
 { name:"SimHei",			system:new Set([win, mac]), locales:new Set(['hani', 'hans']), style:'hei' },
-{ name:"STHeiti",			system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'hei' },
+{ name:"STHeiti",			system:new Set([mac]), locales:new Set(['hani', 'hans', 'yiii']), style:'hei' },
 { name:"Yuanti SC",			system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'hei' },
 
 /* Fangsong */
 { name:"FangSong",			system:new Set([win]), locales:new Set(['hani', 'hans']), style:'fangsong' },
-{ name:"STFangsong",		system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'fangsong' },
+{ name:"STFangsong",		system:new Set([mac]), locales:new Set(['hani', 'hans', 'yiii']), style:'fangsong' },
 
 /* Kai */
 { name:"Kai",				system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'kai' },
@@ -558,7 +562,7 @@ fontInfo = {
 "Amiri": { notes: "Naskh style classical Arabic typeface for typesetting books and other running text."},
 "Arian Grqi": { notes:"Design is traditional book style." },
 "Annapurna SIL": { notes:"For all S. Asian devanagari scripts.\nDesign inspired by traditional calligraphic forms, highly readable, reasonably compact, visually attractive." },
-"Arial Unicode MS": { notes:"For Arab, Cyrl, Deva, Grek, Gujr, Guru, Hani, Hang, Hebr, Jpan, Latn, Mlym, Taml, Telu, Thai." },
+"Arial Unicode MS": { notes:"For Arab, Beng, Cyrl, Deva, Grek, Gujr, Guru, Hani, Hang, Hebr, Jpan, Latn, Mlym, Taml, Telu, Thai." },
 "Aparajita": { notes:"For Hindi." },
 "Awami Nastaliq": { notes:"[GRAPHITE] For a wide variety of languages of southwest Asia, including but not limited to Urdu, aimed at minority language support." },
 "Brill": { notes: "For Latin with full range of diacritics and IPA, Greek, Cyrillic."},
