@@ -103,7 +103,6 @@ var fontDB = [
 { name:"Noto Sans Balinese",system:new Set([goog]), locales:new Set(['bali']), style:'serif' },
 { name:"Noto Sans Limbu",	system:new Set([goog]), locales:new Set(['limb']), style:'serif' },
 { name:"Noto Sans Oriya",	system:new Set([goog, mac, ios]), locales:new Set(['orya']), style:'serif' },
-{ name:"Noto Sans Sinhala",	system:new Set([goog]), locales:new Set(['sinh']), style:'serif' },
 { name:"Noto Sans Tai Viet",system:new Set([goog]), locales:new Set(['tavt']), style:'serif' },
 { name:"Noto Serif",		system:new Set([goog]), locales:new Set(['latn', 'latn-ha', 'latn-afr', 'ipa', 'cyrl', 'grek']), style:'serif' },
 { name:"Noto Serif Armenian",system:new Set([goog]), locales:new Set(['armn']), style:'serif' },
@@ -207,7 +206,7 @@ var fontDB = [
 
 
 
-/* monochrome */
+/* monoline */
 { name:"Aharoni",			system:new Set([win]), locales:new Set(['hebr']), style:'sans' },
 { name:"Akatab",			system:new Set([sil]), locales:new Set(['tfng']), style:'sans' },
 { name:"Andika",			system:new Set([sil]), locales:new Set(['cyrl', 'latn']), style:'sans' },
@@ -320,6 +319,7 @@ var fontDB = [
 { name:"Noto Sans Osmanya",	system:new Set([goog]), locales:new Set(['osma']), style:'sans' },
 { name:"Noto Sans PhagsPa",system:new Set([goog]), locales:new Set(['phag']), style:'sans' },
 { name:"Noto Sans Runic",	system:new Set([goog]), locales:new Set(['runr']), style:'sans' },
+{ name:"Noto Sans Sinhala",	system:new Set([goog]), locales:new Set(['sinh']), style:'sans' },
 { name:"Noto Sans Sundanese",system:new Set([goog]), locales:new Set(['sund']), style:'sans' },
 { name:"Noto Sans Syriac Eastern",system:new Set([goog]), locales:new Set(['syrc']), style:'sans' },
 { name:"Noto Sans Syriac Estrangela",system:new Set([goog]), locales:new Set(['syrc']), style:'sans' },
