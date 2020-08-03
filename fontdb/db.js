@@ -10,6 +10,38 @@ var fontDB = [
 
 
 
+/* CJK modulated */
+/* Song */
+{ name:"Noto Serif CJK SC",	system:new Set([goog]), locales:new Set(['hani', 'hans']), style:'song' },
+{ name:"NSimSun",			system:new Set([win]), locales:new Set(['hani', 'hans']), style:'song' },
+{ name:"SimSun",			system:new Set([win, mac]), locales:new Set(['hani', 'hans']), style:'song' },
+{ name:"Songti SC",			system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'song' },
+{ name:"STSong",			system:new Set([mac]), locales:new Set(['hani', 'hans', 'yiii']), style:'song' },
+
+/* Song/Ming */
+{ name:"Apple LiSung",		system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'song/ming' },
+{ name:"LiSong Pro",		system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'song/ming' },
+{ name:"MingLiu",			system:new Set([win, mac]), locales:new Set(['hani', 'hant']), style:'song/ming' },
+{ name:"PMingLiu",			system:new Set([win, mac]), locales:new Set(['hani', 'hant']), style:'song/ming' },
+{ name:"Songti TC",			system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'song/ming' },
+{ name:"Noto Serif CJK TC",	system:new Set([goog]), locales:new Set(['hani', 'hant']), style:'song/ming' },
+
+/* Mincho */
+{ name:"MS Mincho",			system:new Set([win, mac]), locales:new Set(['jpan']), style:'mincho' },
+{ name:"MS PMincho",		system:new Set([win, mac]), locales:new Set(['jpan']), style:'mincho' },
+{ name:"Hiragino Mincho Pro",system:new Set([mac]), locales:new Set(['jpan']), style:'mincho' },
+{ name:"Noto Serif CJK JP",	system:new Set([goog]), locales:new Set(['jpan']), style:'mincho' },
+{ name:"Toppan Bunkyu Mincho",system:new Set([mac]), locales:new Set(['jpan']), style:'mincho' },
+{ name:"YuMincho",			system:new Set([mac]), locales:new Set(['jpan']), style:'mincho' },
+
+/* modulated */
+{ name:"AppleMyungjo",		system:new Set([mac]), locales:new Set(['kore']), style:'serif' },
+{ name:"Batang",			system:new Set([win]), locales:new Set(['kore']), style:'serif' },
+{ name:"Nanum Myeongjo",	system:new Set([mac]), locales:new Set(['kore']), style:'serif' },
+{ name:"Noto Serif CJK KR",	system:new Set([goog]), locales:new Set(['kore']), style:'serif' },
+{ name:"PCMyungjo",			system:new Set([mac]), locales:new Set(['kore']), style:'serif' },
+
+
 /* modulated */
 { name:"Abyssinica SIL",	system:new Set([sil]), locales:new Set(['ethi']), style:'serif' },
 { name:"Al Bayan",			system:new Set([mac]), locales:new Set(['arab', 'arab-arb', 'arab-fa']), style:'serif' },
@@ -120,12 +152,59 @@ var fontDB = [
 
 
 
+/* modulated or monoline */
+{ name:"Arial Unicode MS",	system:new Set([mac, win]), locales:new Set(['latn', 'latn-ha', 'latn-afr', 'ipa', 'germ', 'arab', 'arab-arb', 'arab-ug', 'beng', 'deva', 'gujr', 'guru', 'knda', 'mlym', 'taml', 'thai', 'armn', 'cyrl', 'geor', 'grek', 'hebr', 'arab-fa', 'hans', 'hant', 'jpan', 'kore']), style:'mod/mono' },
 
-/* naskh */
 
 
-/* modulated or monochrome */
-{ name:"Arial Unicode MS",	system:new Set([mac, win]), locales:new Set(['latn', 'latn-ha', 'latn-afr', 'ipa', 'germ', 'arab', 'arab-arb', 'arab-sans', 'beng', 'deva', 'gujr', 'guru', 'knda', 'mlym', 'taml', 'thai', 'armn', 'cyrl', 'geor', 'grek', 'hebr', 'arab-fa', 'arab-ug']), style:'mod/mono' },
+
+
+/* CJK monoline */
+/* Hei/Gothic */
+{ name:"Hei",				system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'hei' },
+{ name:"Heiti SC",			system:new Set([mac]), locales:new Set(['hani', 'hans', 'yiii']), style:'hei' },
+{ name:"Lantinghei SC",		system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'hei' },
+{ name:"Microsoft YaHei",	system:new Set([win]), locales:new Set(['hani', 'hans']), style:'hei' },
+{ name:"Noto Sans CJK SC",	system:new Set([goog]), locales:new Set(['hani', 'hans']), style:'hei' },
+{ name:"PingFang SC",		system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'hei' },
+{ name:"SimHei",			system:new Set([win, mac]), locales:new Set(['hani', 'hans']), style:'hei' },
+{ name:"STHeiti",			system:new Set([mac]), locales:new Set(['hani', 'hans', 'yiii']), style:'hei' },
+{ name:"Yuanti SC",			system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'hei' },
+
+/* Hei/Gothic */
+{ name:"Apple LiGothic",	system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'hei' },
+{ name:"Heiti TC",			system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'hei' },
+{ name:"Lantinghei TC",		system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'hei' },
+{ name:"LiHei Pro",			system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'hei' },
+{ name:"Microsoft JhengHei",system:new Set([win]), locales:new Set(['hani', 'hant']), style:'hei' },
+{ name:"Noto Sans CJK TC",	system:new Set([goog]), locales:new Set(['hani', 'hant']), style:'hei' },
+{ name:"PingFang TC",		system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'hei' },
+{ name:"Yuanti TC",			system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'hei' },
+
+/* Gothic */
+{ name:"Hiragino Kaku Gothic Pro",system:new Set([mac]), locales:new Set(['jpan']), style:'gothic' },
+{ name:"Hiragino Sans",		system:new Set([mac, ios]), locales:new Set(['jpan']), style:'gothic' },
+{ name:"Osaka",				system:new Set([mac]), locales:new Set(['jpan']), style:'gothic' },
+{ name:"Toppan Bunkyu Gothic",system:new Set([mac]), locales:new Set(['jpan']), style:'gothic' },
+{ name:"Meiryo",			system:new Set([win]), locales:new Set(['jpan']), style:'gothic' },
+{ name:"Meiryo UI",			system:new Set([win]), locales:new Set(['jpan']), style:'gothic' },
+{ name:"MS Gothic",			system:new Set([win, mac]), locales:new Set(['jpan']), style:'gothic' },
+{ name:"MS PGothic",		system:new Set([win, mac]), locales:new Set(['jpan']), style:'gothic' },
+{ name:"MS UI Gothic",		system:new Set([win, mac]), locales:new Set(['jpan']), style:'gothic' },
+{ name:"Noto Sans CJK JP",	system:new Set([goog]), locales:new Set(['jpan']), style:'gothic' },
+{ name:"YuGothic",			system:new Set([mac]), locales:new Set(['jpan']), style:'gothic' },
+
+/* monoline */
+{ name:"AppleGothic",		system:new Set([mac]), locales:new Set(['kore']), style:'gothic' },
+{ name:"Apple SD Gothic Neo",system:new Set([mac, ios]), locales:new Set(['kore']), style:'gothic' },
+{ name:"Dotum",				system:new Set([win]), locales:new Set(['kore']), style:'gothic' },
+{ name:"Gulim",				system:new Set([win]), locales:new Set(['kore']), style:'gothic' },
+{ name:"Malgun Gothic",		system:new Set([win]), locales:new Set(['kore']), style:'gothic' },
+{ name:"Nanum Gothic",		system:new Set([mac]), locales:new Set(['kore']), style:'gothic' },
+{ name:"Noto Sans CJK KR",	system:new Set([goog]), locales:new Set(['kore']), style:'gothic' },
+
+
+
 
 
 /* monochrome */
@@ -321,7 +400,28 @@ var fontDB = [
 /* mool */
 { name:"MoolBoran",			system:new Set([win]), locales:new Set(['khmr']), style:'mool' },
 
-/* script */
+/* Fangsong */
+{ name:"FangSong",			system:new Set([win]), locales:new Set(['hani', 'hans']), style:'fangsong' },
+{ name:"STFangsong",		system:new Set([mac]), locales:new Set(['hani', 'hans', 'yiii']), style:'fangsong' },
+
+/* Kai */
+{ name:"Kai",				system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'kai' },
+{ name:"KaiTi",				system:new Set([win]), locales:new Set(['hani', 'hans']), style:'kai' },
+{ name:"Kaiti SC",			system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'kai' },
+{ name:"STKaiti",			system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'kai' },
+{ name:"Xingkai SC",		system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'kai' },
+
+{ name:"Biaukai",			system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'kai' },
+{ name:"DFKai-SB",			system:new Set([win]), locales:new Set(['hani', 'hant']), style:'kai' },
+{ name:"Kaiti TC",			system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'kai' },
+{ name:"Xingkai TC",		system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'kai' },
+
+
+/* Rounded */
+{ name:"Hiragino Maru Gothic Pro",system:new Set([mac, ios]), locales:new Set(['jpan']), style:'rounded' },
+{ name:"Tsukushi A Round Gothic",system:new Set([mac]), locales:new Set(['jpan']), style:'rounded' },
+{ name:"Tsukushi B Round Gothic",system:new Set([mac]), locales:new Set(['jpan']), style:'rounded' },
+
 
 /* heavy */
 { name:"Baloo",				system:new Set([mac]), locales:new Set(['deva', 'new']), style:'heavy' },
@@ -338,16 +438,14 @@ var fontDB = [
 { name:"Krungthep",			system:new Set([mac]), locales:new Set(['thai']), style:'heavy' },
 { name:"Modak",				system:new Set([mac]), locales:new Set(['deva', 'new']), style:'heavy' },
 
+{ name:"Toppan Bunkyu Midashi Gothic",system:new Set([mac]), locales:new Set(['jpan']), style:'heavy' },
+{ name:"HeadlineA",			system:new Set([mac]), locales:new Set(['kore']), style:'heavy' },
 
-/* eastern */
-
-/* western */
 
 /* khun */
 { name:"A Tai Tham KH",		system:new Set([other]), locales:new Set(['lana','lana-nod']), style:'khun' },
 { name:"A Tai Tham KH New",	system:new Set([other]), locales:new Set(['lana', 'lana-kkh', 'lana-nod']), style:'khun' },
 
-/* nthai */
 
 
 /* monospaced */
@@ -375,52 +473,7 @@ var fontDB = [
 { name:"Noto Rashi Hebrew",	system:new Set([goog]), locales:new Set(['hebr']), style:'other' },
 
 
-
-
-
-
-/*{ name:"Candara",			system:new Set([win]), locales:new Set([]) },
-{ name:"Constantia",		system:new Set([win]), locales:new Set([]) },*/
-/*{ name:"JG Bassa Vah Unicode",system:new Set([other]), locales:new Set(['bass']) },
-{ name:"Makassar",			system:new Set([other]), locales:new Set(['bugi']) },
-{ name:"MakasarGraphite",	system:new Set([other]), locales:new Set(['maka']) },*/
-
-
-
-
-
-
-        
-/* Song/Ming */
-{ name:"Noto Serif CJK SC",	system:new Set([goog]), locales:new Set(['hani', 'hans']), style:'song' },
-{ name:"NSimSun",			system:new Set([win]), locales:new Set(['hani', 'hans']), style:'song' },
-{ name:"SimSun",			system:new Set([win, mac]), locales:new Set(['hani', 'hans']), style:'song' },
-{ name:"Songti SC",			system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'song' },
-{ name:"STSong",			system:new Set([mac]), locales:new Set(['hani', 'hans', 'yiii']), style:'song' },
-
-/* Hei/Gothic */
-{ name:"Hei",				system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'hei' },
-{ name:"Heiti SC",			system:new Set([mac]), locales:new Set(['hani', 'hans', 'yiii']), style:'hei' },
-{ name:"Lantinghei SC",		system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'hei' },
-{ name:"Microsoft YaHei",	system:new Set([win]), locales:new Set(['hani', 'hans']), style:'hei' },
-{ name:"Noto Sans CJK SC",	system:new Set([goog]), locales:new Set(['hani', 'hans']), style:'hei' },
-{ name:"PingFang SC",		system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'hei' },
-{ name:"SimHei",			system:new Set([win, mac]), locales:new Set(['hani', 'hans']), style:'hei' },
-{ name:"STHeiti",			system:new Set([mac]), locales:new Set(['hani', 'hans', 'yiii']), style:'hei' },
-{ name:"Yuanti SC",			system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'hei' },
-
-/* Fangsong */
-{ name:"FangSong",			system:new Set([win]), locales:new Set(['hani', 'hans']), style:'fangsong' },
-{ name:"STFangsong",		system:new Set([mac]), locales:new Set(['hani', 'hans', 'yiii']), style:'fangsong' },
-
-/* Kai */
-{ name:"Kai",				system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'kai' },
-{ name:"KaiTi",				system:new Set([win]), locales:new Set(['hani', 'hans']), style:'kai' },
-{ name:"Kaiti SC",			system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'kai' },
-{ name:"STKaiti",			system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'kai' },
-{ name:"Xingkai SC",		system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'kai' },
-
-/* Other */
+/* CJK OTHER */
 { name:"Baoli SC",			system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'other' },
 { name:"DengXian",			system:new Set([win]), locales:new Set(['hani', 'hans']), style:'other' },
 { name:"Hannotate SC",		system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'other' },
@@ -431,38 +484,6 @@ var fontDB = [
 { name:"Weibei SC",			system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'other' },
 { name:"Yuppy SC",			system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'other' },
 
-
-
-
-
-
-/* Song/Ming */
-{ name:"Apple LiSung",		system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'song' },
-{ name:"LiSong Pro",		system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'song' },
-{ name:"MingLiu",			system:new Set([win, mac]), locales:new Set(['hani', 'hant']), style:'song' },
-{ name:"PMingLiu",			system:new Set([win, mac]), locales:new Set(['hani', 'hant']), style:'song' },
-{ name:"Songti TC",			system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'song' },
-{ name:"Noto Serif CJK TC",	system:new Set([goog]), locales:new Set(['hani', 'hant']), style:'song' },
-
-/* Hei/Gothic */
-{ name:"Apple LiGothic",	system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'hei' },
-{ name:"Heiti TC",			system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'hei' },
-{ name:"Lantinghei TC",		system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'hei' },
-{ name:"LiHei Pro",			system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'hei' },
-{ name:"Microsoft JhengHei",system:new Set([win]), locales:new Set(['hani', 'hant']), style:'hei' },
-{ name:"Noto Sans CJK TC",	system:new Set([goog]), locales:new Set(['hani', 'hant']), style:'hei' },
-{ name:"PingFang TC",		system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'hei' },
-{ name:"Yuanti TC",			system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'hei' },
-
-/* Fangsong */
-
-/* Kai */
-{ name:"Biaukai",			system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'kai' },
-{ name:"DFKai-SB",			system:new Set([win]), locales:new Set(['hani', 'hant']), style:'kai' },
-{ name:"Kaiti TC",			system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'kai' },
-{ name:"Xingkai TC",		system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'kai' },
-
-/* Other */
 { name:"Baoli TC",			system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'other' },
 { name:"Hannotate TC",		system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'other' },
 { name:"HanziPen TC",		system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'other' },
@@ -471,6 +492,16 @@ var fontDB = [
 { name:"Wawati TC",			system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'other' },
 { name:"Weibei TC",			system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'other' },
 { name:"Yuppy TC",			system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'other' },
+
+{ name:"YuKyokasho",		system:new Set([mac]), locales:new Set(['jpan']), style:'other' },
+{ name:"YuKyokasho Yoko",	system:new Set([mac]), locales:new Set(['jpan']), style:'other' },
+
+{ name:"Gungseo",			system:new Set([mac]), locales:new Set(['kore']), style:'other' },
+{ name:"Gungsuh",			system:new Set([win]), locales:new Set(['kore']), style:'other' },
+{ name:"Nanum Brush Script",system:new Set([mac]), locales:new Set(['kore']), style:'other' },
+{ name:"Nanum Pen Script",	system:new Set([mac]), locales:new Set(['kore']), style:'other' },
+{ name:"PilGi",				system:new Set([mac]), locales:new Set(['kore']), style:'other' },
+
 
 
 
@@ -489,62 +520,13 @@ Fonts that don't seem to work:
 
 
 
-/* Mincho */
-{ name:"MS Mincho",			system:new Set([win, mac]), locales:new Set(['jpan']), style:'mincho' },
-{ name:"MS PMincho",		system:new Set([win, mac]), locales:new Set(['jpan']), style:'mincho' },
-{ name:"Hiragino Mincho Pro",system:new Set([mac]), locales:new Set(['jpan']), style:'mincho' },
-{ name:"Noto Serif CJK JP",	system:new Set([goog]), locales:new Set(['jpan']), style:'mincho' },
-{ name:"Toppan Bunkyu Mincho",system:new Set([mac]), locales:new Set(['jpan']), style:'mincho' },
-{ name:"YuMincho",			system:new Set([mac]), locales:new Set(['jpan']), style:'mincho' },
 
-/* Gothic */
-{ name:"Hiragino Kaku Gothic Pro",system:new Set([mac]), locales:new Set(['jpan']), style:'gothic' },
-{ name:"Hiragino Sans",		system:new Set([mac, ios]), locales:new Set(['jpan']), style:'gothic' },
-{ name:"Osaka",				system:new Set([mac]), locales:new Set(['jpan']), style:'gothic' },
-{ name:"Toppan Bunkyu Gothic",system:new Set([mac]), locales:new Set(['jpan']), style:'gothic' },
-{ name:"Meiryo",			system:new Set([win]), locales:new Set(['jpan']), style:'gothic' },
-{ name:"Meiryo UI",			system:new Set([win]), locales:new Set(['jpan']), style:'gothic' },
-{ name:"MS Gothic",			system:new Set([win, mac]), locales:new Set(['jpan']), style:'gothic' },
-{ name:"MS PGothic",		system:new Set([win, mac]), locales:new Set(['jpan']), style:'gothic' },
-{ name:"MS UI Gothic",		system:new Set([win, mac]), locales:new Set(['jpan']), style:'gothic' },
-{ name:"Noto Sans CJK JP",	system:new Set([goog]), locales:new Set(['jpan']), style:'gothic' },
-{ name:"YuGothic",			system:new Set([mac]), locales:new Set(['jpan']), style:'gothic' },
+/*{ name:"Candara",			system:new Set([win]), locales:new Set([]) },
+{ name:"Constantia",		system:new Set([win]), locales:new Set([]) },*/
+{ name:"JG Bassa Vah Unicode",system:new Set([other]), locales:new Set(['bass']) },
+{ name:"Makassar",			system:new Set([other]), locales:new Set(['bugi']) },
+{ name:"MakasarGraphite",	system:new Set([other]), locales:new Set(['maka']) },
 
-/* Rounded */
-{ name:"Hiragino Maru Gothic Pro",system:new Set([mac, ios]), locales:new Set(['jpan']), style:'rounded' },
-{ name:"Tsukushi A Round Gothic",system:new Set([mac]), locales:new Set(['jpan']), style:'rounded' },
-{ name:"Tsukushi B Round Gothic",system:new Set([mac]), locales:new Set(['jpan']), style:'rounded' },
-
-/* heavy */
-{ name:"Toppan Bunkyu Midashi Gothic",system:new Set([mac]), locales:new Set(['jpan']), style:'heavy' },
-
-/* Other */
-{ name:"YuKyokasho",		system:new Set([mac]), locales:new Set(['jpan']), style:'other' },
-{ name:"YuKyokasho Yoko",	system:new Set([mac]), locales:new Set(['jpan']), style:'other' },
-
-
-
-{ name:"AppleMyungjo",		system:new Set([mac]), locales:new Set(['kore']), style:'serif' },
-{ name:"Batang",			system:new Set([win]), locales:new Set(['kore']), style:'serif' },
-{ name:"Nanum Myeongjo",	system:new Set([mac]), locales:new Set(['kore']), style:'serif' },
-{ name:"Noto Serif CJK KR",	system:new Set([goog]), locales:new Set(['kore']), style:'serif' },
-{ name:"PCMyungjo",			system:new Set([mac]), locales:new Set(['kore']), style:'serif' },
-
-{ name:"AppleGothic",		system:new Set([mac]), locales:new Set(['kore']), style:'gothic' },
-{ name:"Apple SD Gothic Neo",system:new Set([mac, ios]), locales:new Set(['kore']), style:'gothic' },
-{ name:"Dotum",				system:new Set([win]), locales:new Set(['kore']), style:'gothic' },
-{ name:"Gulim",				system:new Set([win]), locales:new Set(['kore']), style:'gothic' },
-{ name:"Malgun Gothic",		system:new Set([win]), locales:new Set(['kore']), style:'gothic' },
-{ name:"Nanum Gothic",		system:new Set([mac]), locales:new Set(['kore']), style:'gothic' },
-{ name:"Noto Sans CJK KR",	system:new Set([goog]), locales:new Set(['kore']), style:'gothic' },
-
-{ name:"HeadlineA",			system:new Set([mac]), locales:new Set(['kore']), style:'heavy' },
-
-{ name:"Gungseo",			system:new Set([mac]), locales:new Set(['kore']), style:'other' },
-{ name:"Gungsuh",			system:new Set([win]), locales:new Set(['kore']), style:'other' },
-{ name:"Nanum Brush Script",system:new Set([mac]), locales:new Set(['kore']), style:'other' },
-{ name:"Nanum Pen Script",	system:new Set([mac]), locales:new Set(['kore']), style:'other' },
-{ name:"PilGi",				system:new Set([mac]), locales:new Set(['kore']), style:'other' },
 
 
 ]
@@ -561,9 +543,9 @@ fontInfo = {
 "Alkalami Light": { notes:"For Kano region of Nigeria and in Niger.\nDesign used for writing on wooden boards in the Kano region of Nigeria and in Niger." },
 "Amiri": { notes: "Naskh style classical Arabic typeface for typesetting books and other running text."},
 "Arial": { notes:"For arab*, armn, cyrl, grek, hebr, latn. Versatile design used for reports, presentations, magazines etc, and display use in newspapers, advertising and promotions. (* modulated strokes)" },
+"Arial Unicode MS": { notes:"For Arab, Beng*, Cyrl, Deva*, Grek, Gujr*, Guru, Hani, Hang, Hebr, Jpan, Latn, Mlym*, Taml*, Telu*, Thai. (* modulated strokes.)" },
 "Arian Grqi": { notes:"Design is traditional book style." },
 "Annapurna SIL": { notes:"For all S. Asian devanagari scripts.\nDesign inspired by traditional calligraphic forms, highly readable, reasonably compact, visually attractive." },
-"Arial Unicode MS": { notes:"For Arab, Beng*, Cyrl, Deva*, Grek, Gujr*, Guru, Hani, Hang, Hebr, Jpan, Latn, Mlym*, Taml*, Telu*, Thai. (* modulated strokes.)" },
 "Aparajita": { notes:"For Hindi." },
 "Awami Nastaliq": { notes:"[GRAPHITE] For a wide variety of languages of southwest Asia, including but not limited to Urdu, aimed at minority language support." },
 "Brill": { notes: "For Latin with full range of diacritics and IPA, Greek, Cyrillic."},
