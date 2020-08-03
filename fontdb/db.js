@@ -388,6 +388,9 @@ var fontDB = [
 { name:"Noto Kufi Arabic",	system:new Set([goog]), locales:new Set(['arab', 'arab-arb']), style:'kufi' },
 { name:"Sana",				system:new Set([mac]), locales:new Set(['arab', 'arab-arb', 'arab-other']), style:'kufi' },
 
+/* diwani */
+{ name:"Aldhabi",			system:new Set([win]), locales:new Set(['arab', 'arab-arb', 'arab-fa', 'arab-ur']), style:'diwani' },
+
 /* nastaliq */
 { name:"Aldhabi",			system:new Set([win]), locales:new Set(['arab', 'arab-arb', 'arab-fa', 'arab-ur']), style:'nastaliq' },
 { name:"Awami Nastaliq",	system:new Set([sil]), locales:new Set(['arab', 'arab-ur']), style:'nastaliq' },
