@@ -126,13 +126,13 @@ var fontDB = [
 
 /* modulated or monochrome */
 { name:"Arial Unicode MS",	system:new Set([mac, win]), locales:new Set(['latn', 'latn-ha', 'latn-afr', 'ipa', 'germ', 'arab', 'arab-arb', 'arab-sans', 'beng', 'deva', 'gujr', 'guru', 'knda', 'mlym', 'taml', 'thai', 'armn', 'cyrl', 'geor', 'grek', 'hebr', 'arab-fa', 'arab-ug']), style:'mod/mono' },
-{ name:"Arial",				system:new Set([win, mac, ios]), locales:new Set(['latn', 'latn-ha', 'latn-afr', 'ipa', 'germ', 'arab', 'arab-arb', 'arab-ha', 'grek', 'hebr', 'arab-fa', 'arab-ug']), style:'mod/mono' },
 
 
 /* monochrome */
 { name:"Aharoni",			system:new Set([win]), locales:new Set(['hebr']), style:'sans' },
 { name:"Akatab",			system:new Set([sil]), locales:new Set(['tfng']), style:'sans' },
 { name:"Andika",			system:new Set([sil]), locales:new Set(['cyrl', 'latn']), style:'sans' },
+{ name:"Arial",				system:new Set([win, mac, ios]), locales:new Set(['latn', 'latn-ha', 'latn-afr', 'ipa', 'germ', 'arab', 'arab-arb', 'arab-fa', 'arab-ug', 'arab-ha', 'armn', 'cyrl', 'grek', 'hebr']), style:'sans' },
 { name:"Arial Hebrew",		system:new Set([mac, ios]), locales:new Set(['hebr']), style:'sans' },
 { name:"Arial Hebrew Scholar",system:new Set([mac]), locales:new Set(['hebr']), style:'sans' },
 { name:"Avenir",			system:new Set([mac, ios]), locales:new Set(['latn', 'germ']), style:'sans' },
@@ -142,7 +142,7 @@ var fontDB = [
 { name:"Browallia New",		system:new Set([win]), locales:new Set(['thai']), style:'sans' },
 { name:"BrowalliaUPC",		system:new Set([win]), locales:new Set(['thai']), style:'sans' },
 { name:"EucrosiaUPC",		system:new Set([win]), locales:new Set(['thai']), style:'sans' },
-{ name:"Calibri",			system:new Set([win]), locales:new Set(['latn', 'latn-ha', 'latn-afr', 'ipa', 'arab']), style:'sans' },
+{ name:"Calibri",			system:new Set([win]), locales:new Set(['latn', 'latn-ha', 'latn-afr', 'ipa', 'arab', 'armn', 'cyrl', 'geor', 'grek', 'hebr']), style:'sans' },
 { name:"Conakry",			system:new Set([other]), locales:new Set(['nkoo']), style:'sans' },
 { name:"Consolas",			system:new Set([win]), locales:new Set(['latn', 'latn-ha', 'ipa', 'latn-afr']), style:'sans' },
 { name:"Corbel",			system:new Set([win]), locales:new Set(['latn']), style:'sans' },
@@ -560,13 +560,14 @@ fontInfo = {
 "Alkalami": { notes:"For Kano region of Nigeria and in Niger.\nDesign used for writing on wooden boards in the Kano region of Nigeria and in Niger." },
 "Alkalami Light": { notes:"For Kano region of Nigeria and in Niger.\nDesign used for writing on wooden boards in the Kano region of Nigeria and in Niger." },
 "Amiri": { notes: "Naskh style classical Arabic typeface for typesetting books and other running text."},
+"Arial": { notes:"For arab*, armn, cyrl, grek, hebr, latn. Versatile design used for reports, presentations, magazines etc, and display use in newspapers, advertising and promotions. (* modulated strokes)" },
 "Arian Grqi": { notes:"Design is traditional book style." },
 "Annapurna SIL": { notes:"For all S. Asian devanagari scripts.\nDesign inspired by traditional calligraphic forms, highly readable, reasonably compact, visually attractive." },
-"Arial Unicode MS": { notes:"For Arab, Beng, Cyrl, Deva, Grek, Gujr, Guru, Hani, Hang, Hebr, Jpan, Latn, Mlym, Taml, Telu, Thai." },
+"Arial Unicode MS": { notes:"For Arab, Beng*, Cyrl, Deva*, Grek, Gujr*, Guru, Hani, Hang, Hebr, Jpan, Latn, Mlym*, Taml*, Telu*, Thai. (* modulated strokes.)" },
 "Aparajita": { notes:"For Hindi." },
 "Awami Nastaliq": { notes:"[GRAPHITE] For a wide variety of languages of southwest Asia, including but not limited to Urdu, aimed at minority language support." },
 "Brill": { notes: "For Latin with full range of diacritics and IPA, Greek, Cyrillic."},
-"Calibri": { notes:"For Arab, Armn, Cyrl, Geok, Geor, Grek, Hebr, Latn.\nDesign proportions allow high impact in tightly set lines of big/small text with a warm and soft character." },
+"Calibri": { notes:"For Arab*, Armn, Cyrl, Geok, Geor, Grek, Hebr, Latn.\nDesign proportions allow high impact in tightly set lines of big/small text with a warm and soft character.  (* modulated strokes)" },
 "Cambria": { notes:"For Armn, Cyrl, Grek, Latn.\nDesigned for on-screen reading and to look good when printed at small sizes. It has very even spacing and proportions." },
 "Chandas": { notes:"For Sanskrit + all deva languages, incl. Hindi, Konkani, Marathi, Nepali.\nDesign, Southern (Mumbai) style glyphs, extensive conjuncts for Sanskrit, Vedic accents." },
 "Charis SIL": { notes: "For latn, cyrl.\nDesign optimized for readability, and holds up well in less-than-ideal reproduction environments."},
