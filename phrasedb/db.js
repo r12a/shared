@@ -1,5 +1,10 @@
 phraseDB = {
-'ak': { name: 'Amharic', 
+'aii': { name: 'Assyrian Neo-Aramaic', 
+		text: "ܟܠܲܝܗܝ ܐ݇ܢܵܫܹ̈ܐ ܦܝܼܫܹܐ ܝܢܵܐ ܒܸܪܝܵܐ ܚܹܐܪܹ̈ܐ ܘܫܵܘܝܸ̈ܐ ܒܐܝܼܩܵܪܵܐ ܘܲܒܙܸܕܩܹ̈ܐ. ܘܦܝܼܫܹܐ ܝܢܵܐ ܝܗܝܼܒܹܐ ܗܵܘܢܵܐ ܘܬܹܐܕܬܵܐ ܘܦܝܼܫܬܵܐ ܝܠܵܗ̇ ܣܒܝܼܪܬܵܐ ܡܸܢܲܝܗܝ ܕܦܵܠܚܝܼ ܚܲܕ ܥܲܡ ܗ̇ܘ ܐ݇ܚܹܪ݇ܢܵܐ ܒܲܚܕܵܐ ܪܘܼܚܵܐ ܕܐܲܚܘܼܬܵܐ.",
+		dir:"rtl",
+		},
+
+'ak': { name: 'Akan', 
 		text: "Nnipa nyinaa yɛ pɛ. Na wɔde adwene ne nyansa na abɔ obiara. Ɛno nti, ɛsɛ sɛ obiara dɔ ne yɔnko, bu ne yɔnko, di ne yɔnko ni.",
 		source: "UDHR §1",
 		},
@@ -62,7 +67,7 @@ phraseDB = {
 		sourceURL: "https://unicode.org/udhr/d/udhr_chr_uppercase.html"
 		},
 
-'chr-x-lc': { name: 'Cherokee',
+'chr-x-lc': { name: 'Cherokee (cased)',
 		text: "Ꮒꭶꮣ ꭰꮒᏼꮻ ꭴꮎꮥꮕꭲ ꭴꮎꮪꮣꮄꮣ ꭰꮄ ꭱꮷꮃꭽꮙ ꮎꭲ ꭰꮲꮙꮩꮧ ꭰꮄ ꭴꮒꮂ ꭲᏻꮎꮫꮧꭲ. Ꮎꮝꭹꮎꮓ ꭴꮅꮝꭺꮈꮤꮕꭹ ꭴꮰꮿꮝꮧ ꮕᏸꮅꮫꭹ ꭰꮄ ꭰꮣꮕꮦꮯꮣꮝꮧ ꭰꮄ ꭱꮅꮝꮧ ꮟᏼꮻꭽ ꮒꮪꮎꮣꮫꮎꮥꭼꭹ ꮎ ꮧꮎꮣꮕꮯ ꭰꮣꮕꮩ ꭼꮧ.",
 		source: "UDHR §1",
 		sourceURL: "https://unicode.org/udhr/d/udhr_chr_cased.html"
@@ -72,16 +77,30 @@ phraseDB = {
 		text: "ⲥⲟⲩⲙⲟⲥⲉ ⲣⲱⲙⲉ ⲛⲓⲙ ⲉⲩϣⲏϣ ⲉ ⲛⲉⲩⲉⲣⲏⲩ ϩⲛ ⲟⲩⲇⲓⲕⲁⲓⲟⲥⲩⲛⲏ. ⲟⲩⲛ ϭⲟⲙ ⲙⲙⲟⲩ ⲉⲧⲣⲉⲩⲙⲉⲉⲩⲉ ⲁⲩⲱ ϣϣⲉ ⲉⲧⲣⲉⲩ-ⲙⲛⲧⲙⲁⲓⲥⲟⲛ.",
 		},
 
+'crk': { name: 'Plains Cree',
+		text: "ᐁᑯᓯ ᒫᑲ ᐁᑎᑵ ᐊᓂᒪ ᑳ ᐃᑘᐟ ᐊᐘ ᐅᐢᑭᓃᑭᐤ, ᒥᔼᓯᐣ, ᑮᐢᐱᐣ ᑕ ᑲᑵ ᓂᓯᑐᐦᑕᒣᐠ ᐁᑿ ᒦᓇ ᑕ ᑲᑵ ᒥᑐᓂ ᐑᒋᐦᐃᓱᔦᐠ ᐊᓂᒪ, ᐆᒪ ᓀᐦᐃᔭᐍᐏᐣ ᑭᐢᐱᐣ ᑭᓅᐦᑌ ᑭᐢᑫᔨᐦᑌᓈᐚᐤ᙮",
+		},
+
 'cy': { name: 'Welsh',
 		text: "Genir pawb yn rhydd ac yn gydradd â’i gilydd mewn urddas a hawliau. Fe’u cynysgaeddir â rheswm a chydwybod, a dylai pawb ymddwyn y naill at y llall mewn ysbryd cymodlon.",
 		source: "UDHR §1",
 		sourceURL: "https://unicode.org/udhr/d/udhr_cym.html"
 		},
 
+'dgr': { name: 'Tłı̨chǫ (Dogrib)', 
+		text: "Dıı  sah nàé t’à. Dıı deh nı̨ı̨lı̨. Dıı ndè nàgoèhdǫ-le nı̨dè Asıı ts’àgoèt’ǫ hǫı̨lı̨ ha nele.",
+		source: "UDHR §1",
+		sourceURL: "https://unicode.org/udhr/d/udhr_div.html"
+		},
+
 'dv': { name: 'Dhivehi', 
 		text: "ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ. ހެޔޮ ވިސްނުމާއި، ހެޔޮބުއްދީގެ ބާރު އެމީހުންނަށް ލިބިގެންވެއެވެ. އަދި އެކަކު އަނެކަކާމެދު އެމީހުން މުޢާމަލާތް ކުރަންވާނީ، އުޚުއްވަތްތެރިކަމުގެ ރޫޙެއްގައެވެ.",
 		source: "UDHR §1",
 		sourceURL: "https://unicode.org/udhr/d/udhr_div.html"
+		},
+
+'dz': { name: 'Dzongka', 
+		text: "འགྲོ་བ་མི་ཚུ་ག་ར་དལ་དབང་གི་ཐོག་ལས་སྐྱེས་ཏེ་ཡོདཔ་ལས་ ག་ར་ལུ་བརྩི་མཐོང་དང་ཐོབ་དབང་འདྲ་མཉམ་སྦེ་ཡོད། མི་ཚུ་ག་ར་སྨྲ་ཤེས་དོན་གོ་བའི་མཚན་ཉིད་དང་ལྡནམ་ལས་ ག་ར་གིས་ལཱ་ག་ཅི་ར་འབད་རུང་ གཅིག་གིས་གཅིག་ལུ་སྤུན་ཆའི་འདུ་ཤེས་བསྐྱེད་ཐོག་ལས་ལཱ་འབད་དགོ།",
 		},
 
 'el': { name: 'Greek', 
@@ -100,7 +119,7 @@ phraseDB = {
 		text: "𐑷𐑤 𐑣𐑿𐑥𐑩𐑯 𐑚𐑰𐑦𐑙𐑟 𐑸 𐑚𐑹𐑯 𐑓𐑮𐑰 𐑯 𐑰𐑒𐑢𐑩𐑤 𐑦𐑯 𐑛𐑦𐑜𐑯𐑦𐑑𐑰 𐑯 𐑮𐑲𐑑𐑕. 𐑞𐑱 𐑸 𐑧𐑯𐑛𐑬𐑛 𐑢𐑦𐑞 𐑮𐑰𐑟𐑯 𐑯 𐑒𐑪𐑯𐑖𐑩𐑯𐑕 𐑯 𐑖𐑫𐑛 𐑨𐑒𐑑 𐑑𐑩𐑢𐑹𐑛𐑟 𐑢𐑳𐑯 𐑩𐑯𐑳𐑞𐑼 𐑦𐑯 𐑩 𐑕𐑐𐑦𐑮𐑦𐑑 𐑝 𐑚𐑮𐑳𐑞𐑼𐑣𐑫𐑛.",
 		},
 
-'fa': { name: 'Farsi', 
+'fa': { name: 'Persian', 
 		text: "مادهٔ اول تمام افراد بشر آزاد بدنیا میایند و از لحاظ حیثیت و حقوق با هم برابرند. همه دارای عقل و وجدان میباشند و باید نسبت بیکدیگر با روح برادری رفتار کنند.",
 		source: "UDHR §1",
 		sourceURL: "https://unicode.org/udhr/d/udhr_pes.html"
@@ -278,6 +297,10 @@ phraseDB = {
 		sourceURL: "https://unicode.org/udhr/d/udhr_mal.html"
 		},
 
+'mak': { name: 'Makasar',
+		text: "𑻯𑻱𑻦𑻴𑻷𑻪𑻦𑻵𑻠𑻱𑻳𑻷𑻨𑻳𑻣𑻶𑻦𑻵𑻭𑻪𑻳𑻷𑻱𑻨𑻨𑻸29𑻣𑻭𑻠𑻭𑻷𑻪𑻠𑻭𑻴𑻯𑻣𑻴𑻮𑻶𑻨𑻷𑻱𑻰𑻮𑻣𑻷𑻨𑻤𑻠𑻭𑻳𑻠𑻭𑻱𑻵𑻢𑻷  𑻨𑻴𑻲𑻮𑻶𑻱𑻳𑻠𑻯𑻴𑻢𑻰𑻵𑻷  𑻪𑻶𑻣𑻮𑻶𑻶𑻭𑻶𑻷",
+		},
+
 'mni': { name: 'Manipuri',
 		text: "ꯃꯤꯑꯣꯏꯕ ꯈꯨꯗꯤꯡꯃꯛ ꯄꯣꯛꯄ ꯃꯇꯝꯗ ꯅꯤꯡꯇꯝꯃ, ꯑꯃꯗꯤ ꯏꯖꯖꯠꯑꯃꯁꯨꯡ ꯍꯛ ꯃꯥꯟꯅꯅ ꯂꯩꯖꯩ꯫ꯃꯈꯣꯏ ꯄꯨꯝꯅꯃꯛ ꯋꯥꯈꯜ ꯂꯧꯁꯤꯡ ꯁꯦꯡꯏ, ꯑꯐ ꯐꯠꯇ ꯈꯡꯏ, ꯑꯗꯨꯅꯑꯃꯅ ꯑꯃꯒ ꯂꯣꯌꯅꯕꯗ ꯃꯆꯤꯟ ꯃꯅꯥꯑꯣꯒꯨꯝꯅ ꯂꯣꯌꯅꯒꯗꯕꯅꯤ꯫",
 		},
@@ -296,6 +319,10 @@ phraseDB = {
 		text: "सबै व्यक्ति हरू जन्मजात स्वतन्त्र हुन ती सबैको समान अधिकार र महत्व छ। निजहरूमा विचार शक्ति र सद्धिचार भएकोले निजहरूले आपसमा भातृत्वको भावना बाट व्यवहार गर्नु पर्छ।",
 		source: "UDHR §1",
 		sourceURL: "https://unicode.org/udhr/d/udhr_nep.html"
+		},
+
+'nod': { name: 'Northern Thai',
+		text: "ᨣᩢ᩠ᨶᩉᩮᩖᩨᨠᩥ᩠ᨶ ᨣᩢᩐᩢᩣᨡᩣ᩠ᨿᨸᩮ᩠ᨶᨦᩫ᩠ᨶ ᨠᩮ᩠ᨷᩉᩬᨾᩋᩬᨾᩅᩱᩢᨯ᩠᩶ᨦᨶᩦ᩶ ᨴᩩᨠᪧᨸᩦᨾᩣᨷᩢᨡᩣ᩠ᨯ ᨧᩥ᩠᩵ᨦᨠ᩠ᨴᩣᩴᩉᩨ᩶ᨡᩮᩢᩣᨻᩳ᩵ᨾᩯ᩵ᩃᩪᨠ ᨷᩢᨯᩱ᩶ᨠᩢ᩠᩶ᨶᩈᩢ᩠ᨦᩈᩢ᩠ᨠᨩᩮᩬᩨ",
 		},
 
 'nqo': { name: 'N’Ko',
@@ -338,6 +365,12 @@ phraseDB = {
 'saz': { name: 'Saurashtra',
 		text: "ꢫꢿ ꢤꢪ꣄ꢪꢵ ꢲꢿꢡꢸꢦ꣄ꢦꢩꢮꢵ ꢡꢿꢱꢀ ꢲꢿꢡꢸꢀ ꢡꢢꢵꢔꢡꣂ ꢃꢲ ꣎ ꢡꢿꢱꢛ꣄ꢗ ꢫꣂ ꢥꢶꢬꣂꢤꣂ ꢍꢮꢀ ꢮꢵꢣꢷ ꢪꢲꢵꢱꢪꢠꣂ ꣏",
 		sourceURL: "http://aksharamukha.appspot.com/describe/Saurashtra"
+		},
+
+'shn': { name: 'Shan',
+		text: "ၵူၼ်းၵူႊၵေႃႉၼႆႉ ပဵၼ်ဢၼ်ၵိူတ်ႇမႃးလူၺ်ႈၵုင်ႇမုၼ်ဢၼ်လွတ်ႈလႅဝ်းၽဵင်ႇပဵင်းၵၼ် လႄႈ သုၼ်ႇလႆႈဢၼ် လွတ်ႈလႅဝ်းၽဵင်ႇ ပဵင်းၵၼ်။ ၶဝ်ၼႆႉ မီးၺၢၼ်ႇဢၼ်မေႃထတ်းသၢင် လႄႈ ၸႂ်ဢၼ်ႁူႉၸၵ်းၾိင်ႈတိုဝ်းၵမ် ၼၼ်ႉလႄႈ ထုၵ်ႇဝႆႉၸႂ်ပီႈဢွၵ်ႇ ၼွင်ႉၶႆႇၵၼ်သေ တိတ်းတေႃႇၵၼ်။",
+		source: "UDHR §1",
+		sourceURL: "https://unicode.org/udhr/d/udhr_shn.html"
 		},
 
 'si': { name: 'Sinhala',
@@ -391,6 +424,11 @@ phraseDB = {
 		sourceURL: "https://unicode.org/udhr/d/udhr_tha.html"
 		},
 
+'tru': { name: 'Turoyo', 
+		text: "ܐܘ ܢܳܫܐ ܟܷܬܠܶܗ ܚܰܡܫܐ ܪܷܓ݂ܫܶܐ: ܚܙܳܝܐ ܒܰܥ ܥܰܝܢܶܐ، ܫܡܳܥܐ ܒܰܢ ܐܰܕ݂ܢܶܐ، ܢܩܳܚܐ ܒܘ ܢܚܝܪܐ، ܓܝܳܫܐ ܒܰܢ ܐܝܕ݂ܶܐ ܘܛܥܳܡܐ ܒܘ ܠܝܫܳܢܐ.",
+		dir:"rtl",
+		},
+
 'vai': { name: 'Vai',
 		text: "ꕉꕜꕮ ꔔꘋ ꖸ ꔰ ꗋꘋ ꕮꕨ ꔔꘋ ꖸ ꕎ ꕉꖸꕊ ꕴꖃ ꕃꔤꘂ ꗱ, ꕉꖷ ꗪꗡ ꔻꔤ ꗏꗒꗡ ꕎ ꗪ ꕉꖸꕊ ꖏꕎ. ꕉꕡ ꖏ ꗳꕮꕊ ꗏ ꕪ ꗓ ꕉꖷ ꕉꖸ ꕘꕞ ꗪ. ꖏꖷ ꕉꖸꔧ ꖏ ꖸ ꕚꕌꘂ ꗷꔤ ꕞ ꘃꖷ ꘉꔧ ꗠꖻ ꕞ ꖴꘋ ꔳꕩ ꕉꖸ ꗳ.",
 		source: "UDHR §1",
@@ -403,10 +441,10 @@ phraseDB = {
 		sourceURL: "https://unicode.org/udhr/d/udhr_ven.html"
 		},
 
-'yi': { name: 'Yoruba',
-		text: "Gbogbo ènìyàn ni a bí ní òmìnira; iyì àti è̩tó̩ kò̩ò̩kan sì dó̩gba. Wó̩n ní è̩bùn ti làákàyè àti ti è̩rí‐o̩kàn, ó sì ye̩ kí wo̩n ó máa hùwà sí ara wo̩n gé̩gé̩ bí o̩mo̩ ìyá.",
+'vi': { name: 'Vietnamese',
+		text: "Mọi người đều có quyền rời khỏi bất cứ nước nào, kể cả nước mình, cũng như có quyền trở về nước mình.",
 		source: "UDHR §1",
-		sourceURL: "https://unicode.org/udhr/d/udhr_yor.html"
+		sourceURL: "https://unicode.org/udhr/d/udhr_vie.html"
 		},
 
 'yo': { name: 'Yoruba',
