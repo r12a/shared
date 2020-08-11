@@ -290,6 +290,7 @@ var fontDB = [
 { name:"Noto Sans Adlam New",system:new Set([goog]), locales:new Set(['adlm']), style:'sans' },
 { name:"Noto Sans Arabic",	system:new Set([goog]), locales:new Set(['arab', 'arab-arb', 'arab-afr', 'arab-fa', 'arab-ha', 'arab-sans']), style:'sans' },
 { name:"Noto Sans Armenian",system:new Set([goog]), locales:new Set(['armn']), style:'sans' },
+{ name:"Noto Sans Bamum",system:new Set([goog]), locales:new Set(['bamu']), style:'sans' },
 { name:"Noto Sans Bassa Vah",system:new Set([goog]), locales:new Set(['bass']), style:'sans' },
 { name:"Noto Sans Bengali",	system:new Set([goog]), locales:new Set(['beng']), style:'sans' },
 { name:"Noto Sans Buginese",system:new Set([goog]), locales:new Set(['bugi']), style:'sans' },
