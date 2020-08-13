@@ -15,9 +15,9 @@ var spreadsheet = `
 ꛝ		p	pi	pⁱ	pi	syllable				U+A6DD: BAMUM LETTER PI	bamum
 ꛝ꛰	s	P	pin	pⁱ̃	pĩ	syllable				U+A6DD U+A6F0: BAMUM LETTER PI, BAMUM COMBINING MARK KOQNDON	
 ꛈ		p	py	pʲ	py	syllable				U+A6C8: BAMUM LETTER PUE	bamum
-ꛈ꛰	s	P	püʔ	p̃ʸˀ	pyʔ	syllable				U+A6C8 U+A6F0: BAMUM LETTER PUE, BAMUM COMBINING MARK KOQNDON	
-ꛅ꛰	s	P	pɯʔ	p̃ᵚˀ	pɯʔ	syllable				U+A6C5 U+A6F0: BAMUM LETTER PEUX, BAMUM COMBINING MARK KOQNDON	
-ꛅ		p	pɯx	p̃ᵚˣ	pɯx	syllable				U+A6C5: BAMUM LETTER PEUX	bamum
+ꛈ꛰	s	P	püʔ	pʸˀ	pyʔ	syllable				U+A6C8 U+A6F0: BAMUM LETTER PUE, BAMUM COMBINING MARK KOQNDON	
+ꛅ꛰	s	P	pɯʔ	pᵚˀ	pɯʔ	syllable				U+A6C5 U+A6F0: BAMUM LETTER PEUX, BAMUM COMBINING MARK KOQNDON	
+ꛅ		p	pɯx	pᵚˣ	pɯx	syllable				U+A6C5: BAMUM LETTER PEUX	bamum
 ꛗ꛰	s	P	puʔ	pᵘˀ	puʔ	syllable				U+A6D7 U+A6F0: BAMUM LETTER PUAE, BAMUM COMBINING MARK KOQNDON	
 ꛗ		p	puə	pᵘᵊ	pwə	syllable				U+A6D7: BAMUM LETTER PUAE	bamum
 ꛊ		p	pe	pᵉ	pe	syllable				U+A6CA: BAMUM LETTER PEE	bamum
@@ -32,14 +32,14 @@ var spreadsheet = `
 											
 ꛤ꛱	s	T	t	t	t	syllable				U+A6E4 U+A6F1: BAMUM LETTER TI, BAMUM COMBINING MARK TUKWENTIS	
 ꛤ		t	ti	tⁱ	ti	syllable				U+A6E4: BAMUM LETTER TI	bamum
-ꛤ꛰	s	T	tɯ	t̃ᵚ	tɯ	syllable				U+A6E4 U+A6F0: BAMUM LETTER TI, BAMUM COMBINING MARK KOQNDON	
+ꛤ꛰	s	T	tɯ	tᵚ	tɯ	syllable				U+A6E4 U+A6F0: BAMUM LETTER TI, BAMUM COMBINING MARK KOQNDON	
 ꛫꚧ꛰	s	T	tu	tᵘ	tu	digraph				U+A6EB U+A6A7 U+A6F0: BAMUM LETTER NTUU, BAMUM LETTER O, BAMUM COMBINING MARK KOQNDON	
 ꛫ꛰	s	T	tuʔ	tᵘˀ	tuʔ	syllable				U+A6EB U+A6F0: BAMUM LETTER NTUU, BAMUM COMBINING MARK KOQNDON	
 ꚦ		t	te	tᵉ	te	syllable				U+A6A6: BAMUM LETTER TAE	bamum
 ꛇ꛰	s	T	teʔ	tᵉˀ	teʔ	syllable				U+A6C7 U+A6F0: BAMUM LETTER NTEE, BAMUM COMBINING MARK KOQNDON	
-ꛪ		t	tɛn	tᵋ̃	tɛ̃	syllable				U+A6EA: BAMUM LETTER TEN	bamum
+ꛪ		t	tɛn	tᵋ̃	tɛ̃	syllable & digit 5				U+A6EA: BAMUM LETTER TEN	bamum
 ꛪ꛰	s	T	tɛn	tᵋ̃	tɛ̃	syllable				U+A6EA U+A6F0: BAMUM LETTER TEN, BAMUM COMBINING MARK KOQNDON	
-ꛨ		t	tɛt	tᵋᵗ	tɛt	syllable				U+A6E8: BAMUM LETTER TET	bamum
+ꛨ		t	tɛt	tᵋᵗ	tɛt	syllable & digit 3				U+A6E8: BAMUM LETTER TET	bamum
 ꛨ꛰	s	T	tɛt	tᵋᵗ	tɛt	syllable				U+A6E8 U+A6F0: BAMUM LETTER TET, BAMUM COMBINING MARK KOQNDON	
 ꚦꚧ	s	T	tɔ	tᵓ	tɔ	digraph				U+A6A6 U+A6A7: BAMUM LETTER TAE, BAMUM LETTER O	
 ꚦ꛰	s	T	tɔʔ	tᵓˀ	tɔʔ	syllable				U+A6A6 U+A6F0: BAMUM LETTER TAE, BAMUM COMBINING MARK KOQNDON	
@@ -54,7 +54,7 @@ var spreadsheet = `
 ꛟ꛱	s	K	k	k	k	syllable				U+A6DF U+A6F1: BAMUM LETTER KO, BAMUM COMBINING MARK TUKWENTIS	
 ꛥ		k	ki	kⁱ	ki	syllable				U+A6E5: BAMUM LETTER KI	bamum
 ꛥ꛰	s	K	kiʔ	kⁱˀ	kiʔ	syllable				U+A6E5 U+A6F0: BAMUM LETTER KI, BAMUM COMBINING MARK KOQNDON	
-ꛄ		k	kɯx	k̃ᵚˣ	kɯx	syllable				U+A6C4: BAMUM LETTER KEUX	bamum
+ꛄ		k	kɯx	kᵚˣ	kɯx	syllable				U+A6C4: BAMUM LETTER KEUX	bamum
 ꚣ		k	ku	kᵘ	ku	syllable				U+A6A3: BAMUM LETTER KU	bamum
 ꚣ꛰	s	K	kuʔ	kᵘˀ	kuʔ	syllable				U+A6A3 U+A6F0: BAMUM LETTER KU, BAMUM COMBINING MARK KOQNDON	
 ꚻ꛰	s	K	keʔ	kᵉˀ	keʔ	syllable				U+A6BB U+A6F0: BAMUM LETTER KET, BAMUM COMBINING MARK KOQNDON	
@@ -69,7 +69,7 @@ var spreadsheet = `
 ꚡ		k	ka	kᵃ	ka	syllable				U+A6A1: BAMUM LETTER KA	bamum
 ꚡ꛰	s	K	kaʔ	kᵃˀ	kaʔ	syllable				U+A6A1 U+A6F0: BAMUM LETTER KA, BAMUM COMBINING MARK KOQNDON	
 											
-ꛩ		k	kpa	kᵖᵃ	kpa	syllable				U+A6E9: BAMUM LETTER KPA	bamum
+ꛩ		k	kpa	kᵖᵃ	kpa	syllable & digit 4				U+A6E9: BAMUM LETTER KPA	bamum
 											
 ꛔꚤ	s	G	gi	gⁱ	gi	digraph				U+A6D4 U+A6A4: BAMUM LETTER NGGA, BAMUM LETTER EE	
 ꛔꚧ	s	G	guei	gᵘᵉⁱ	gwei	digraph				U+A6D4 U+A6A7: BAMUM LETTER NGGA, BAMUM LETTER O	
@@ -80,7 +80,7 @@ var spreadsheet = `
 											
 											
 ꛘ꛱	s	F	f	f	f	syllable				U+A6D8 U+A6F1: BAMUM LETTER FU, BAMUM COMBINING MARK TUKWENTIS	
-ꛮ꛰	s	F	fü	f̃ʸ	fy	syllable				U+A6EE U+A6F0: BAMUM LETTER KOVUU, BAMUM COMBINING MARK KOQNDON	
+ꛮ꛰	s	F	fü	fʸ	fy	syllable				U+A6EE U+A6F0: BAMUM LETTER KOVUU, BAMUM COMBINING MARK KOQNDON	
 ꛘ		f	fu	fᵘ	fu	syllable				U+A6D8: BAMUM LETTER FU	bamum
 ꛘ꛰	s	F	fuʔ	fᵘˀ	fuʔ	syllable				U+A6D8 U+A6F0: BAMUM LETTER FU, BAMUM COMBINING MARK KOQNDON	
 ꛋ		f	fe	fᵉ	fe	syllable				U+A6CB: BAMUM LETTER FEE	bamum
@@ -88,23 +88,23 @@ var spreadsheet = `
 ꛘꚧ	s	F	fɔ	fᵓ	fɔ	digraph				U+A6D8 U+A6A7: BAMUM LETTER FU, BAMUM LETTER O	
 ꛙ		f	fɔm	fᵓᵐ	fɔm	syllable				U+A6D9: BAMUM LETTER FOM	bamum
 ꛭ꛰	s	F	faʔ	fᵃˀ	faʔ	syllable				U+A6ED U+A6F0: BAMUM LETTER FAAMAE, BAMUM COMBINING MARK KOQNDON	
-ꛭ		f	faa	fᵃᵃ	faː	syllable				U+A6ED: BAMUM LETTER FAAMAE	bamum
+ꛭ		f	faa	fᵃᵃ	faː	syllable & digit 8				U+A6ED: BAMUM LETTER FAAMAE	bamum
 											
 ꛮꚩ	s	V	vi	vⁱ	vi	digraph				U+A6EE U+A6A9: BAMUM LETTER KOVUU, BAMUM LETTER I	
-ꛮ		v	vü	ṽʸ	vy	syllable				U+A6EE: BAMUM LETTER KOVUU	bamum
+ꛮ		v	vü	vʸ	vy	syllable & digit 9				U+A6EE: BAMUM LETTER KOVUU	bamum
 ꚧ꛰ꚢ	s	V	vu	vᵘ	vu	digraph				U+A6A7 U+A6F0 U+A6A2: BAMUM LETTER O, BAMUM COMBINING MARK KOQNDON, BAMUM LETTER U	
 ꛮꚤ	s	V	ve	vᵉ	ve	digraph				U+A6EE U+A6A4: BAMUM LETTER KOVUU, BAMUM LETTER EE	
 											
 ꚷ꛱	s	S	s	s	s	syllable				U+A6B7 U+A6F1: BAMUM LETTER SI, BAMUM COMBINING MARK TUKWENTIS	
 ꚷ		s	si	sⁱ	si	syllable				U+A6B7: BAMUM LETTER SI	bamum
 ꚷ꛰	s	S	siʔ	sⁱˀ	siʔ	syllable				U+A6B7 U+A6F0: BAMUM LETTER SI, BAMUM COMBINING MARK KOQNDON	
-ꚷꚧ꛰	s	S	sü	s̃ʸ	sy	digraph				U+A6B7 U+A6A7 U+A6F0: BAMUM LETTER SI, BAMUM LETTER O, BAMUM COMBINING MARK KOQNDON	
-ꚹ꛰	s	S	sɯʔ	s̃ᵚˀ	sɯʔ	syllable				U+A6B9 U+A6F0: BAMUM LETTER SEUX, BAMUM COMBINING MARK KOQNDON	
-ꚹ		s	sɯx	s̃ᵚˣ	sɯx	syllable				U+A6B9: BAMUM LETTER SEUX	bamum
+ꚷꚧ꛰	s	S	sü	sʸ	sy	digraph				U+A6B7 U+A6A7 U+A6F0: BAMUM LETTER SI, BAMUM LETTER O, BAMUM COMBINING MARK KOQNDON	
+ꚹ꛰	s	S	sɯʔ	sᵚˀ	sɯʔ	syllable				U+A6B9 U+A6F0: BAMUM LETTER SEUX, BAMUM COMBINING MARK KOQNDON	
+ꚹ		s	sɯx	sᵚˣ	sɯx	syllable				U+A6B9: BAMUM LETTER SEUX	bamum
 ꚴ꛰	s	S	suʔ	sᵘˀ	suʔ	syllable				U+A6B4 U+A6F0: BAMUM LETTER SUU, BAMUM COMBINING MARK KOQNDON	
 ꚴ		s	suu	sᵘᵘ	suu	syllable				U+A6B4: BAMUM LETTER SUU	bamum
 ꚷꚤ	s	S	se	sᵉ	se	digraph				U+A6B7 U+A6A4: BAMUM LETTER SI, BAMUM LETTER EE	
-ꛬ		s	sa	sᵃ	sa	syllable				U+A6EC: BAMUM LETTER SAMBA	bamum
+ꛬ		s	sa	sᵃ	sa	syllable & digit 7				U+A6EC: BAMUM LETTER SAMBA	bamum
 ꛬ꛰	s	S	saʔ	sᵃˀ	saʔ	syllable				U+A6EC U+A6F0: BAMUM LETTER SAMBA, BAMUM COMBINING MARK KOQNDON	
 											
 ꚭ꛰	s	Z	z	z	z	syllable				U+A6AD U+A6F0: BAMUM LETTER RIEE, BAMUM COMBINING MARK KOQNDON	
@@ -113,15 +113,15 @@ var spreadsheet = `
 ꛖ꛱	s	X	ʃ	ʃ	ʃ	syllable				U+A6D6 U+A6F1: BAMUM LETTER SHO, BAMUM COMBINING MARK TUKWENTIS	
 ꚶ꛰	s	X	ʃiʔ	ʃⁱˀ	ʃiʔ	syllable				U+A6B6 U+A6F0: BAMUM LETTER SHII, BAMUM COMBINING MARK KOQNDON	
 ꚶ		x	ʃii	ʃⁱⁱ	ʃiː	syllable				U+A6B6: BAMUM LETTER SHII	bamum
-ꚶꛉ꛰	s	X	ʃü	ʃ̃ʸ	ʃy	digraph				U+A6B6 U+A6C9 U+A6F0: BAMUM LETTER SHII, BAMUM LETTER WUE, BAMUM COMBINING MARK KOQNDON	
-ꚸ		x	ʃɯx	ʃ̃ᵚˣ	ʃɯx	syllable				U+A6B8: BAMUM LETTER SHEUX	bamum
+ꚶꛉ꛰	s	X	ʃü	ʃʸ	ʃy	digraph				U+A6B6 U+A6C9 U+A6F0: BAMUM LETTER SHII, BAMUM LETTER WUE, BAMUM COMBINING MARK KOQNDON	
+ꚸ		x	ʃɯx	ʃᵚˣ	ʃɯx	syllable				U+A6B8: BAMUM LETTER SHEUX	bamum
 ꛖ		x	ʃɔ	ʃᵓ	ʃɔ	syllable				U+A6D6: BAMUM LETTER SHO	bamum
 ꛖ꛰	s	X	ʃɔʔ	ʃᵓˀ	ʃɔʔ	syllable				U+A6D6 U+A6F0: BAMUM LETTER SHO, BAMUM COMBINING MARK KOQNDON	
 ꛀ		x	ʃu	ʃᵘ	ʃu	syllable				U+A6C0: BAMUM LETTER SHU	bamum
 ꛀ꛰	s	X	ʃuʔ	ʃᵘˀ	ʃuʔ	syllable				U+A6C0 U+A6F0: BAMUM LETTER SHU, BAMUM COMBINING MARK KOQNDON	
 ꛃ꛰	s	X	ʃaʔ	ʃᵃˀ	ʃaʔ	syllable				U+A6C3 U+A6F0: BAMUM LETTER NSHA, BAMUM COMBINING MARK KOQNDON	
 											
-ꛄ꛰	s	g	ɣɯ	ɣ̃ᵚ	ɣɯ	syllable				U+A6C4 U+A6F0: BAMUM LETTER KEUX, BAMUM COMBINING MARK KOQNDON	
+ꛄ꛰	s	g	ɣɯ	ɣᵚ	ɣɯ	syllable				U+A6C4 U+A6F0: BAMUM LETTER KEUX, BAMUM COMBINING MARK KOQNDON	
 ꛯ		G	ɣɔm	ɣᵓᵐ	ɣɔm	syllable				U+A6EF: BAMUM LETTER KOGHOM	bamum
 											
 ꚳ		m	m	m	m	syllable				U+A6B3: BAMUM LETTER M	bamum
@@ -134,13 +134,13 @@ var spreadsheet = `
 ꚯ		m	mee	mᵉᵉ	meː	syllable				U+A6AF: BAMUM LETTER MEEEE	bamum
 ꛢ		m	mɛn	mᵋ̃	mɛ̃	syllable				U+A6E2: BAMUM LETTER MEN	bamum
 ꛢ꛰	s	M	mɛn	mᵋ̃	mɛ̃	syllable				U+A6E2 U+A6F0: BAMUM LETTER MEN, BAMUM COMBINING MARK KOQNDON	
-ꛦ		m	mɔ	mᵓ	mɔ	syllable				U+A6E6: BAMUM LETTER MO	bamum
+ꛦ		m	mɔ	mᵓ	mɔ	syllable & digit 1				U+A6E6: BAMUM LETTER MO	bamum
 ꛦ꛰	s	M	mɔn	mᵓ̃	mɔ̃	syllable				U+A6E6 U+A6F0: BAMUM LETTER MO, BAMUM COMBINING MARK KOQNDON	bamum
 ꛣ		m	ma	mᵃ	ma	syllable				U+A6E3: BAMUM LETTER MA	bamum
 ꛣ꛰	s	M	maʔ	mᵃˀ	maʔ	syllable				U+A6E3 U+A6F0: BAMUM LETTER MA, BAMUM COMBINING MARK KOQNDON	
 											
 ꛠ		m	mbɛn	mᵇᵋ̃	mbɛ̃	syllable				U+A6E0: BAMUM LETTER MBEN	bamum
-ꛧ		m	mbaa	mᵇᵃᵃ	mbaː	syllable				U+A6E7: BAMUM LETTER MBAA	bamum
+ꛧ		m	mbaa	mᵇᵃᵃ	mbaː	syllable & digit 2				U+A6E7: BAMUM LETTER MBAA	bamum
 ꛧ꛰	s	M	mbaʔ	mᵇᵃˀ	mbaʔ	syllable				U+A6E7 U+A6F0: BAMUM LETTER MBAA, BAMUM COMBINING MARK KOQNDON	
 ꛙ꛰	s	M	mvɔp	mᵛᵓᵖ	mvɔp	syllable				U+A6D9 U+A6F0: BAMUM LETTER FOM, BAMUM COMBINING MARK KOQNDON	
 											
@@ -155,7 +155,7 @@ var spreadsheet = `
 ꛛ		n	nan	nᵃ̃	nã	syllable				U+A6DB: BAMUM LETTER NA	bamum
 											
 											
-ꛫ		q	ntuu	nᵗᵘᵘ	ntuu	syllable				U+A6EB: BAMUM LETTER NTUU	bamum
+ꛫ		q	ntuu	nᵗᵘᵘ	ntuu	syllable & digit 6				U+A6EB: BAMUM LETTER NTUU	bamum
 ꛇ		q	nte	nᵗᵉ	nte	syllable				U+A6C7: BAMUM LETTER NTEE	bamum
 ꚱ꛱	s	Q	nd	nᵈ	nd	syllable				U+A6B1 U+A6F1: BAMUM LETTER NDAA, BAMUM COMBINING MARK TUKWENTIS	
 ꚱ		q	nda	nᵈᵃ	nda	syllable				U+A6B1: BAMUM LETTER NDAA	bamum
@@ -193,9 +193,9 @@ var spreadsheet = `
 ꚬ		r	rii	rⁱⁱ	riː	syllable				U+A6AC: BAMUM LETTER RII	bamum
 ꚬ꛰	s	R	riʔ	rⁱˀ	riʔ	syllable				U+A6AC U+A6F0: BAMUM LETTER RII, BAMUM COMBINING MARK KOQNDON	
 ꚭ		r	rie	rⁱᵉ	rie	syllable				U+A6AD: BAMUM LETTER RIEE	bamum
-ꛑꚧ꛰	s	R	rü	r̃ʸ	ry	digraph				U+A6D1 U+A6A7 U+A6F0: BAMUM LETTER RAE, BAMUM LETTER O, BAMUM COMBINING MARK KOQNDON	
-ꛐ꛰	s	R	rɯʔ	r̃ᵚˀ	rɯʔ	syllable				U+A6D0 U+A6F0: BAMUM LETTER REUX, BAMUM COMBINING MARK KOQNDON	
-ꛐ		r	rɯx	r̃ᵚˣ	rɯx	syllable				U+A6D0: BAMUM LETTER REUX	bamum
+ꛑꚧ꛰	s	R	rü	rʸ	ry	digraph				U+A6D1 U+A6A7 U+A6F0: BAMUM LETTER RAE, BAMUM LETTER O, BAMUM COMBINING MARK KOQNDON	
+ꛐ꛰	s	R	rɯʔ	rᵚˀ	rɯʔ	syllable				U+A6D0 U+A6F0: BAMUM LETTER REUX, BAMUM COMBINING MARK KOQNDON	
+ꛐ		r	rɯx	rᵚˣ	rɯx	syllable				U+A6D0: BAMUM LETTER REUX	bamum
 ꛌ		r	ru	rᵘ	ru	syllable				U+A6CC: BAMUM LETTER RU	bamum
 ꛌ꛰	s	R	ruʔ	rᵘˀ	ruʔ	syllable				U+A6CC U+A6F0: BAMUM LETTER RU, BAMUM COMBINING MARK KOQNDON	
 ꚥ		r	re	rᵉ	re	syllable				U+A6A5: BAMUM LETTER REE	bamum
@@ -220,7 +220,7 @@ var spreadsheet = `
 ꚪ꛰	s	L	laʔ	lᵃˀ	laʔ	syllable				U+A6AA U+A6F0: BAMUM LETTER LA, BAMUM COMBINING MARK KOQNDON	
 											
 ꚾ꛱	s	Y	y	j	j	syllable				U+A6BE U+A6F1: BAMUM LETTER NJUAE, BAMUM COMBINING MARK TUKWENTIS	
-ꚸ꛰	s	Y	yɯx	j̃ᵚˣ	jɯx	syllable				U+A6B8 U+A6F0: BAMUM LETTER SHEUX, BAMUM COMBINING MARK KOQNDON	
+ꚸ꛰	s	Y	yɯx	jᵚˣ	jɯx	syllable				U+A6B8 U+A6F0: BAMUM LETTER SHEUX, BAMUM COMBINING MARK KOQNDON	
 ꛁ		y	yu	jᵘ	ju	syllable				U+A6C1: BAMUM LETTER YUQ	bamum
 ꛁ꛰	s	Y	yun	jᵘ̃	jũ	syllable				U+A6C1 U+A6F0: BAMUM LETTER YUQ, BAMUM COMBINING MARK KOQNDON	
 ꚾ꛰	s	Y	yuən	jᵘᵊ̃	juə̃	syllable				U+A6BE U+A6F0: BAMUM LETTER NJUAE, BAMUM COMBINING MARK KOQNDON	
@@ -241,9 +241,11 @@ var spreadsheet = `
 ꛴		:		:		punctuation				U+A6F4: BAMUM COLON	bamum
 ꛵		,		,		punctuation				U+A6F5: BAMUM COMMA	bamum
 ꛶		;		;		punctuation				U+A6F6: BAMUM SEMICOLON	bamum
-꛷		?		?		punctuation				U+A6F7: BAMUM QUESTION MARK	bamum										
-										
-
+꛷		?		?		punctuation				U+A6F7: BAMUM QUESTION MARK	bamum
+											
+											
+											
+ꛯ		0		0		digit 0				U+A6EF U+0020: BAMUM LETTER KOGHOM	bamum
 
 
 `
