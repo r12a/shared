@@ -1,4 +1,4 @@
-// Selections available when using the Font Lister app, used by Script Links page
+// Selections available when using the Samples app, used by Script Links page
 var sampleScriptsIndex = {  
     'adlm': { name: "Adlam", langs:['fuf-adlm']},
     'arab': { name: "Arabic", langs:['arb','ha-arab','ks-arab', 'fa', 'ur']}, 
@@ -43,12 +43,14 @@ var sampleScriptsIndex = {
     'mlym': { name: "Malayalam", langs:['ml']},
     'mtei': { name: "Meetei Mayek", langs:['mni']},
     'mymr': { name: "Myanmar", langs:['my', 'shn']},
+    'newa': { name: "Newar", langs:['new']},
     'nkoo': { name: "N’Ko", langs:['nqo']},
     'osge': { name: "Osage", langs:['osa']},
     'olck': { name: "Ol Chiki", langs:['sat']},
     'orya': { name: "Oriya", langs:['ory']},
     'osma': { name: "Osmanya", langs:['so-osma']},
     'phag': { name: "PhagsPa", langs:['sa-phag']},
+    'rohg': { name: "Hanifi Rohingya", langs:['rhg']},
     'runr': { name: "Runic", langs:['non-runr']},
     'saur': { name: "Saurashtra", langs:['saz']},
     'shaw': { name: "Shavian", langs:['en-shaw']},
