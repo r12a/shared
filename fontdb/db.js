@@ -330,6 +330,7 @@ var fontDB = [
 { name:"Noto Sans Osmanya",	system:new Set([goog]), locales:new Set(['osma']), style:'sans' },
 { name:"Noto Sans PhagsPa",system:new Set([goog]), locales:new Set(['phag']), style:'sans' },
 { name:"Noto Sans Runic",	system:new Set([goog]), locales:new Set(['runr']), style:'sans' },
+{ name:"Noto Sans Samaritan",system:new Set([goog]), locales:new Set(['samr']), style:'sans' },
 { name:"Noto Sans Saurashtra",system:new Set([goog]), locales:new Set(['saur']), style:'sans' },
 { name:"Noto Sans Shavian",	system:new Set([goog]), locales:new Set(['shaw']), style:'sans' },
 { name:"Noto Sans Sinhala",	system:new Set([goog]), locales:new Set(['sinh']), style:'sans' },

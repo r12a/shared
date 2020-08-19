@@ -52,6 +52,7 @@ var sampleScriptsIndex = {
     'phag': { name: "PhagsPa", langs:['sa-phag']},
     'rohg': { name: "Hanifi Rohingya", langs:['rhg']},
     'runr': { name: "Runic", langs:['non-runr']},
+    'samr': { name: "Samaritan", langs:['smp']},
     'saur': { name: "Saurashtra", langs:['saz']},
     'shaw': { name: "Shavian", langs:['en-shaw']},
     'sinh': { name: "Sinhala", langs:['si']},

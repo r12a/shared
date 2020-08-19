@@ -376,6 +376,12 @@ phraseDB = {
 		sourceURL: "https://unicode.org/udhr/d/udhr_rus.html"
 		},
 
+'smp': { name: 'Samaritan',
+		text: "ࠊࠋ⸱ࠄࠀࠍࠔࠉࠌ⸱ࠍࠅࠋࠃࠅ⸱ࠇࠐࠔࠉࠌ⸱ࠅࠄࠌ⸱ࠀࠇࠃ⸱ࠊࠌࠅ⸱ࠄࠔࠍࠉ⸱ࠓࠊࠓࠅࠃ⸱ࠅࠓࠀࠔࠓ⸱ࠌࠂࠉࠏ⸱ࠋࠄࠊ࠽ࠉࠔ⸱ࠍࠊࠍ⸱ࠀࠇࠃ⸱ࠌࠄࠌ⸱ࠂࠍࠍ⸱ࠅࠍࠁ⸱ࠅࠏࠍࠉࠄࠌ⸱ࠍࠏࠋࠉࠄࠌ⸱ࠋࠏࠔࠅࠕ⸱ࠀࠇࠃ⸱ࠋࠌࠏࠍ⸱ࠓࠏࠄࠅ⸱ࠁࠓࠅࠇ⸱ࠈࠅࠁࠄ⸱ࠊࠌࠅ⸱ࠀࠇࠉࠌ࠽",
+		source: "UDHR §1",
+		sourceURL: "https://www.omniglot.com/writing/samaritan.htm"
+		},
+
 'sa-phag': { name: 'Sanskrit',
 		text: "ꡀꡁꡂꡃ ꡄꡅꡆꡇ ꡈꡉꡊꡋ ꡌꡍꡎꡏ ...",
 		},
