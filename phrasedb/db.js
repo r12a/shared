@@ -317,6 +317,12 @@ phraseDB = {
 		text: "𑻯𑻱𑻦𑻴𑻷𑻪𑻦𑻵𑻠𑻱𑻳𑻷𑻨𑻳𑻣𑻶𑻦𑻵𑻭𑻪𑻳𑻷𑻱𑻨𑻨𑻸29𑻣𑻭𑻠𑻭𑻷𑻪𑻠𑻭𑻴𑻯𑻣𑻴𑻮𑻶𑻨𑻷𑻱𑻰𑻮𑻣𑻷𑻨𑻤𑻠𑻭𑻳𑻠𑻭𑻱𑻵𑻢𑻷  𑻨𑻴𑻲𑻮𑻶𑻱𑻳𑻠𑻯𑻴𑻢𑻰𑻵𑻷  𑻪𑻶𑻣𑻮𑻶𑻶𑻭𑻶𑻷",
 		},
 
+'mis-Hatr': { name: 'Hatran',
+		text: "𐣮𐣫𐣬𐣠 𐣣𐣩 𐣴𐣬𐣴𐣯𐣲𐣡 𐣪𐣬𐣣𐣠 𐣡𐣣 𐣠𐣣𐣩 𐣣𐣩 𐣠𐣲𐣩𐣬 𐣫𐣤 𐣯𐣲𐣡𐣴𐣬𐣠 𐣡𐣣 𐣠𐣧𐣵𐣤 𐣯𐣫 𐣧𐣩𐣤𐣩 𐣥𐣯𐣫 𐣧𐣩𐣠 𐣡𐣭𐣩𐣤𐣩 𐣣𐣩 𐣪𐣬𐣣𐣠 𐣥𐣯𐣫 𐣧𐣩𐣠 𐣬𐣭 𐣣𐣩 𐣣𐣧𐣬 𐣫𐣤 𐣪𐣫𐣤 𐣡𐣠𐣣𐣣 𐣣 𐣼𐣿𐣽𐣼𐣻",
+		source: "Hatran inscription H 405.",
+		sourceURL: "http://std.dkuug.dk/JTC1/SC2/WG2/docs/n4324.pdf p7"
+		},
+
 'mni': { name: 'Manipuri',
 		text: "ꯃꯤꯑꯣꯏꯕ ꯈꯨꯗꯤꯡꯃꯛ ꯄꯣꯛꯄ ꯃꯇꯝꯗ ꯅꯤꯡꯇꯝꯃ, ꯑꯃꯗꯤ ꯏꯖꯖꯠꯑꯃꯁꯨꯡ ꯍꯛ ꯃꯥꯟꯅꯅ ꯂꯩꯖꯩ꯫ꯃꯈꯣꯏ ꯄꯨꯝꯅꯃꯛ ꯋꯥꯈꯜ ꯂꯧꯁꯤꯡ ꯁꯦꯡꯏ, ꯑꯐ ꯐꯠꯇ ꯈꯡꯏ, ꯑꯗꯨꯅꯑꯃꯅ ꯑꯃꯒ ꯂꯣꯌꯅꯕꯗ ꯃꯆꯤꯟ ꯃꯅꯥꯑꯣꯒꯨꯝꯅ ꯂꯣꯌꯅꯒꯗꯕꯅꯤ꯫",
 		},
@@ -491,6 +497,18 @@ phraseDB = {
 		text: "Gbogbo ènìyàn ni a bí ní òmìnira; iyì àti è̩tó̩ kò̩ò̩kan sì dó̩gba. Wó̩n ní è̩bùn ti làákàyè àti ti è̩rí‐o̩kàn, ó sì ye̩ kí wo̩n ó máa hùwà sí ara wo̩n gé̩gé̩ bí o̩mo̩ ìyá.",
 		source: "UDHR §1",
 		sourceURL: "https://unicode.org/udhr/d/udhr_yor.html"
+		},
+
+'xly': { name: 'Elymaic',
+		text: "𐿱𐿫𐿬𐿠 𐿦𐿭𐿤 𐿶 𐿥𐿳𐿥𐿣 𐿭𐿠 𐿮𐿩𐿡 𐿪𐿥𐿳𐿮𐿩𐿠 𐿡𐿳 𐿡𐿫𐿣𐿥𐿴𐿠 𐿶 𐿳𐿡𐿠𐿭𐿩 𐿥𐿠𐿮𐿩𐿳𐿩𐿠 𐿥𐿠𐿵𐿩𐿨𐿪𐿠 𐿶 𐿡𐿵𐿳𐿯𐿠𐿡𐿳 𐿡𐿠𐿮𐿩 𐿭𐿠𐿮𐿩𐿡 𐿪𐿥𐿳𐿮𐿠",
+		source: "Tang-i Sarvak inscription #1",
+		sourceURL: "https://www.unicode.org/L2/L2017/17226-elymaean.pdf p21"
+		},
+
+'xpr': { name: 'Inscriptional Parthian',
+		text: "𐭅𐭕𐭀𐭅𐭍𐭉𐭆𐭍𐭄𐭋𐭉 𐭒𐭉𐭃𐭉𐭆𐭍 𐭀𐭋𐭇𐭀 𐭔𐭇𐭉𐭐𐭅𐭇𐭓 𐭌𐭋𐭓𐭉𐭍𐭌𐭋𐭀 𐭀𐭓𐭉𐭀𐭍𐭅 𐭀𐭍𐭀𐭓𐭉𐭀𐭍𐭌𐭍𐭅𐭔𐭉𐭇𐭓 𐭌𐭍 𐭉𐭀𐭆𐭕𐭍𐭏𐭓𐭉 𐭌𐭉𐭃𐭉𐭆𐭍𐭀𐭋𐭇𐭀 𐭀𐭓𐭕𐭇𐭔𐭕𐭂 𐭌𐭋𐭓𐭉𐭍𐭌𐭋𐭓𐭀",
+		source: "Inscription from Hajjibad in Parthian script, from Nyberg 1964",
+		sourceURL: "https://www.unicode.org/L2/L2007/07207r-n3286r-parthian-pahlavi.pdf p13"
 		},
 
 'zgh': { name: 'Standard Moroccan Tamazight',
