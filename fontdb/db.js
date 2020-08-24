@@ -313,6 +313,7 @@ var fontDB = [
 { name:"Noto Sans Hebrew",	system:new Set([goog]), locales:new Set(['hebr']), style:'sans' },
 { name:"Noto Sans Javanese",system:new Set([goog, mac]), locales:new Set(['java']), style:'sans' },
 { name:"Noto Sans Imperial Aramaic",system:new Set([goog]), locales:new Set(['armi']), style:'sans' },
+{ name:"Noto Sans Inscriptional Pahlavi",system:new Set([goog]), locales:new Set(['phli']), style:'sans' },
 { name:"Noto Sans Inscriptional Parthian",system:new Set([goog]), locales:new Set(['prti']), style:'sans' },
 { name:"Noto Sans Kannada",	system:new Set([goog, mac, ios]), locales:new Set(['knda']), style:'sans' },
 { name:"Noto Sans Khmer",	system:new Set([goog]), locales:new Set(['khmr']), style:'sans' },
