@@ -1,5 +1,5 @@
 var spreadsheet = `
-𐤀		}	ʾ	ʔ	ʔ	consonant			ʾālep		U+10900: PHOENICIAN LETTER ALF	phoenician
+𐤀		a	ʾ	ʔ	ʔ	consonant			ʾālep		U+10900: PHOENICIAN LETTER ALF	phoenician
 												
 𐤐		p	p	p	p	consonant			pē		U+10910: PHOENICIAN LETTER PE	phoenician
 𐤁		b	b	b	b	consonant			bēt		U+10901: PHOENICIAN LETTER BET	phoenician
