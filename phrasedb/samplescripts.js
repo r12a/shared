@@ -54,6 +54,7 @@ var sampleScriptsIndex = {
     'osma': { name: "Osmanya", langs:['so-osma']},
     'phag': { name: "PhagsPa", langs:['sa-phag']},
     'phnx': { name: "Phoenician", langs:['phn']},
+    'phli': { name: "Pahlavi (Inscriptional)", langs:['pal']},
     'prti': { name: "Parthian (Inscriptional)", langs:['xpr']},
     'rohg': { name: "Hanifi Rohingya", langs:['rhg']},
     'runr': { name: "Runic", langs:['non-runr']},
