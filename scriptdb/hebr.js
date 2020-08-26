@@ -2,16 +2,16 @@ var spreadsheet = `
 א		}	'  ∅	ʔ	ʔ ∅	consonant		1	ˈalɛf	אָלֶף	U+05D0: HEBREW LETTER ALEF	hebrew
 												
 פּ	s	p	p	f̣	p				pe, pej	פֵּא, פה	U+05E4 U+05BC: HEBREW LETTER PE, POINT DAGESH OR MAPIQ	
-בּ	s	b	b	ṿ	b				bet	בֵּית	U+05D1 U+05BC: HEBREW LETTER BET, POINT DAGESH OR MAPIQ	
+בּ	s	b	b	vˑ	b				bet	בֵּית	U+05D1 U+05BC: HEBREW LETTER BET, POINT DAGESH OR MAPIQ	
 ט		t	t	t	t	consonant		9	tet	טֵית	U+05D8: HEBREW LETTER TET	hebrew
 ת		t	t	ṫ	t	consonant		400	θav θaf	תו	U+05EA: HEBREW LETTER TAV	hebrew
-תּ	s	t	t	ṭ̇	t				tav, taf	תּו	U+05EA U+05BC: HEBREW LETTER TAV, POINT DAGESH OR MAPIQ	
+תּ	s	t	t	ṫˑ	t				tav, taf	תּו	U+05EA U+05BC: HEBREW LETTER TAV, POINT DAGESH OR MAPIQ	
 ד		d	d	d	d	consonant		4	ˈdalɛt, ˈdalɛd	דָּלֶת	U+05D3: HEBREW LETTER DALET	hebrew
 ק		k	k	k	k	consonant		100	kuf, kof	קוֹף	U+05E7: HEBREW LETTER QOF	hebrew
-כּ	s	k	k	ẋ̣	k				kaf	כַּף	U+05DB U+05BC: HEBREW LETTER KAF, POINT DAGESH OR MAPIQ	
-ךּ	s	k	k	x̣̽	k				kaf sofit	כַּף סוֹפִית	U+05DA U+05BC: HEBREW LETTER FINAL KAF, POINT DAGESH OR MAPIQ	
+כּ	s	k	k	ẋˑ	k				kaf	כַּף	U+05DB U+05BC: HEBREW LETTER KAF, POINT DAGESH OR MAPIQ	
+ךּ	s	k	k	x̽ˑ	k				kaf sofit	כַּף סוֹפִית	U+05DA U+05BC: HEBREW LETTER FINAL KAF, POINT DAGESH OR MAPIQ	
 ג		g	g	g	ɡ	consonant		3	gimel	גִּימֵל	U+05D2: HEBREW LETTER GIMEL	hebrew
-ע		}	'  ∅	ʔ̇	ʔ ∅	consonant		70	ajin, a.in	עַיִן	U+05E2: HEBREW LETTER AYIN	hebrew
+ע		}	'	ʔ̇	ʔ ∅	consonant		70	ajin, a.in	עַיִן	U+05E2: HEBREW LETTER AYIN	hebrew
 												
 צ		t	ts	ʦ	ʦ	consonant		90	ʦadi	צַדִי, צדיק	U+05E6: HEBREW LETTER TSADI	hebrew
 ץ		t	ts	ʦ̽	ʦ	word-final consonant variant			ʦadi sofit	צַדִי סוֹפִית, צדיק סופית	U+05E5: HEBREW LETTER FINAL TSADI	hebrew
@@ -71,7 +71,7 @@ var spreadsheet = `
 ֽ		:¶		ː	ː		archaic				U+05BD: HEBREW POINT METEG​	hebrew
 												
 												
-ּ		/		̣		hard consonant diacritic			dagesh/mappiq	דָּגֵשׁ	U+05BC: HEBREW POINT DAGESH OR MAPIQ​	hebrew
+ּ		/		ˑ		hard consonant diacritic			dagesh/mappiq	דָּגֵשׁ	U+05BC: HEBREW POINT DAGESH OR MAPIQ​	hebrew
 ֽ						biblical stress marker			meteg	מֶתֶג	U+05BD: HEBREW POINT METEG​	hebrew
 ־		-		-		hyphen			maqaf	מַקָּף‬	U+05BE: HEBREW PUNCTUATION MAQAF	hebrew
 ֿ						fricative indicator			rafe	רפה	U+05BF: HEBREW POINT RAFE​	hebrew
@@ -160,5 +160,5 @@ var cols = {
 "ucsName": 11,
 "block": 12,
 
-"othertranscriptions": [[3, 'Israeli Academy']]
+"othertranscriptions": [[3, 'Acad.']]
 }
