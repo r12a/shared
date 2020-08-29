@@ -11,6 +11,7 @@ var spreadsheet = `
 כּ	s	k	k	ẋˑ	k				kaf	כַּף	U+05DB U+05BC: HEBREW LETTER KAF, POINT DAGESH OR MAPIQ	
 ךּ	s	k	k	x̽ˑ	k				kaf sofit	כַּף סוֹפִית	U+05DA U+05BC: HEBREW LETTER FINAL KAF, POINT DAGESH OR MAPIQ	
 ג		g	g	g	ɡ	consonant		3	gimel	גִּימֵל	U+05D2: HEBREW LETTER GIMEL	hebrew
+גּ	s	g	g	gˑ	ɡ						U+05D2 U+05BC: HEBREW LETTER GIMEL, POINT DAGESH OR MAPIQ	
 ע		}	'	ʔ̇	ʔ ∅	consonant		70	ajin, a.in	עַיִן	U+05E2: HEBREW LETTER AYIN	hebrew
 												
 צ		t	ts	ʦ	ʦ	consonant		90	ʦadi	צַדִי, צדיק	U+05E6: HEBREW LETTER TSADI	hebrew
