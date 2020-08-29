@@ -301,6 +301,7 @@ var fontDB = [
 { name:"Noto Sans Cherokee",system:new Set([goog]), locales:new Set(['cher']), style:'sans' },
 { name:"Noto Sans Coptic",	system:new Set([goog]), locales:new Set(['copt']), style:'sans' },
 { name:"Noto Sans Devanagari",system:new Set([goog]), locales:new Set(['deva', 'deva-hi', 'deva-ks']), style:'sans' },
+{ name:"Noto Sans Egyptian Hieroglyphs",system:new Set([goog]), locales:new Set(['egyp']), style:'sans' },
 { name:"Noto Sans Elymaic",	system:new Set([goog]), locales:new Set(['elym']), style:'sans' },
 { name:"Noto Sans Ethiopic",system:new Set([goog]), locales:new Set(['ethi']), style:'sans' },
 { name:"Noto Sans Georgian",system:new Set([goog]), locales:new Set(['geor']), style:'sans' },
@@ -366,7 +367,7 @@ var fontDB = [
 { name:"Raavi",				system:new Set([win]), locales:new Set(['guru']), style:'sans', wd:true },
 { name:"Sathu",				system:new Set([mac]), locales:new Set(['thai']), style:'sans' },
 { name:"Segoe UI",			system:new Set([win]), locales:new Set(['arab', 'arab-arb', 'cyrl', 'geor', 'grek','hebr', 'arab-fa', 'arab-ha', 'lisu']), style:'sans' },
-{ name:"Segoe UI Historic",	system:new Set([win]), locales:new Set(['runr', 'shaw', 'syrc']), style:'sans' },
+{ name:"Segoe UI Historic",	system:new Set([win]), locales:new Set(['runr', 'shaw', 'syrc', 'armi', 'phli', 'prti', 'phnx', 'ugar', 'cprt', 'glag', 'goth', 'copt', 'ogam', 'ital', 'egyp', 'cari', 'xsux', 'lyci', 'lydi', 'xpeo', 'sarb', 'orhk', 'brah', 'khar']), style:'sans' },
 { name:"Shree Devanagari 714",system:new Set([mac]), locales:new Set(['deva', 'deva-hi', 'deva-ks']), style:'sans' },
 { name:"Shruti",			system:new Set([win]), locales:new Set(['gujr']), style:'sans', wd:true },
 { name:"Silom",				system:new Set([mac]), locales:new Set(['thai']), style:'sans' },
@@ -386,7 +387,6 @@ var fontDB = [
 { name:"Utsaah",			system:new Set([win]), locales:new Set(['deva', 'deva-hi', 'deva-ks']), style:'sans', wd:true },
 { name:"Verdana",			system:new Set([win, mac, ios]), locales:new Set(['latn', 'cyrl', 'grek']), style:'sans' },
 { name:"Vrinda",			system:new Set([win]), locales:new Set(['beng']), style:'sans', wd:true },
-
 
 
 /* loopless */
