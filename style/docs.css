@@ -95,6 +95,7 @@ h2 {
 	margin-bottom: 1em;
 	border-bottom: 1px solid #eee;
 	text-transform: lowercase;
+	font-size: 200%;
 	}
 h2 a:link { 
 	text-decoration: none;
