@@ -95,7 +95,8 @@ h2 {
 	margin-bottom: 1em;
 	border-bottom: 1px solid #eee;
 	text-transform: lowercase;
-	font-size: 200%;
+	font-size: 270%;
+	line-height: 1;
 	}
 h2 a:link { 
 	text-decoration: none;
@@ -775,3 +776,10 @@ body {
     }
 }
 
+
+.info::before {
+    content: url(../../shared/images/info.png);
+    position: absolute;
+	margin-left: -4%;
+	margin-top: .25em;
+	}
