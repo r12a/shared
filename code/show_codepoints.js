@@ -191,7 +191,19 @@ function showNameDetails (chars, clang, base, target, panel, list, translit) {
     a.target = "_blank"
     a.appendChild(document.createTextNode('Send to UniView'))
     p.appendChild(a)
+    
+    p.appendChild(document.createTextNode(' \u00A0 • \u00A0 '))
+	
+	// add a trigger to produce a list with phonetics
+    a = document.createElement('span')
+    a.onclick = "makePhoneticList"
+    a.appendChild(document.createTextNode('P'))
+	a.style.cursor = 'pointer'
+	a.addEventListener('click', function(){ alert(getPhonemeList());}, false)
+    p.appendChild(a)
+
 	panel.appendChild(p)
+
 	
 	// add a close button
 	p = document.createElement('p')
@@ -248,3 +260,19 @@ function listAll (node, lang) {
     out = out.replace(/•/g,'')
     showNameDetails(out, lang, window.base, 'c', document.getElementById('panel'), 'list' )
     }
+
+
+function getPhonemeList () {
+	inp = document.getElementById('title').textContent
+	out = ''
+	notfound = ''
+	list = inp.split(' ')
+	for (i=0;i<list.length; i++) {
+		char = list[i].replace(/-|–/g,'')
+		//if (spreadsheetRows[list[i]]) out += spreadsheetRows[list[i]][cols.ipaLoc] + '\t' + list[i] + '\n'
+		if (spreadsheetRows[char] || char === 'x') out += spreadsheetRows[char][cols.ipaLoc] + '\t' + list[i] + '\n'
+		else notfound += list[i] + '\n'
+		}
+	if (notfound !== '') out += '\n\nNot found:\n'+notfound
+	return out
+	}
