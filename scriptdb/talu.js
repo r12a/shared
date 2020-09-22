@@ -81,14 +81,15 @@ var spreadsheet = `
 ᦸ		o	ɔ	ɔ ɔː	dependent vowel						U+19B8: NEW TAI LUE VOWEL SIGN OA	newtailue
 ᦰ		}	ʔ	a ʔ	vowel shortener						U+19B0: NEW TAI LUE VOWEL SIGN VOWEL SHORTENER	newtailue
 												
--ᦲᦰ	s	i	-iʔ	iʔ							U+19B2 U+19B0: NEW TAI LUE VOWEL SIGN II, VOWEL SIGN VOWEL SHORTENER	
--ᦹᦰ	s	e	-ɯʔ	ɯʔ							U+19B9 U+19B0: NEW TAI LUE VOWEL SIGN UE, VOWEL SIGN VOWEL SHORTENER	
--ᦸᦰ	s	e	-ɔʔ	ɔʔ							U+19B8 U+19B0: NEW TAI LUE VOWEL SIGN OA, VOWEL SIGN VOWEL SHORTENER	
-ᦵ-ᦰ	s	o	e͕-ʔ	eʔ							U+19B5 U+19B0: NEW TAI LUE VOWEL SIGN E, VOWEL SIGN VOWEL SHORTENER	
-ᦵ-ᦲ	s	o	e͕-i	ɤ ɤː							U+19B5 U+19B2: NEW TAI LUE VOWEL SIGN E, VOWEL SIGN II	
-ᦶ-ᦰ	s	e	ɛ͕-ʔ	ɛʔ							U+19B6 U+19B0: NEW TAI LUE VOWEL SIGN AE, VOWEL SIGN VOWEL SHORTENER	
-ᦷ-ᦰ	s	e	o͕-ʔ	oʔ							U+19B7 U+19B0: NEW TAI LUE VOWEL SIGN O, VOWEL SIGN VOWEL SHORTENER	
-ᦵ-ᦲᦰ	s	u	e͕-iʔ	ɤʔ							U+19B5 U+19B2 U+19B0: NEW TAI LUE VOWEL SIGN E, VOWEL SIGN II, VOWEL SIGN VOWEL SHORTENER	
+ᦲᦰ	s	i	-iʔ	iʔ							U+19B2 U+19B0: NEW TAI LUE VOWEL SIGN II, VOWEL SIGN VOWEL SHORTENER	
+ᦹᦰ	s	e	-ɯʔ	ɯʔ							U+19B9 U+19B0: NEW TAI LUE VOWEL SIGN UE, VOWEL SIGN VOWEL SHORTENER	
+ᦸᦰ	s	e	-ɔʔ	ɔʔ							U+19B8 U+19B0: NEW TAI LUE VOWEL SIGN OA, VOWEL SIGN VOWEL SHORTENER	
+ᦵᦰ	s	o	e͕-ʔ	eʔ							U+19B5 U+19B0: NEW TAI LUE VOWEL SIGN E, VOWEL SIGN VOWEL SHORTENER	
+ᦵᦲ	s	o	e͕-i	ɤ ɤː							U+19B5 U+19B2: NEW TAI LUE VOWEL SIGN E, VOWEL SIGN II	
+ᦶᦰ	s	e	ɛ͕-ʔ	ɛʔ							U+19B6 U+19B0: NEW TAI LUE VOWEL SIGN AE, VOWEL SIGN VOWEL SHORTENER	
+ᦷᦰ	s	e	o͕-ʔ	oʔ							U+19B7 U+19B0: NEW TAI LUE VOWEL SIGN O, VOWEL SIGN VOWEL SHORTENER	
+ᦵᦲᦰ	s	u	e͕-iʔ	ɤʔ							U+19B5 U+19B2 U+19B0: NEW TAI LUE VOWEL SIGN E, VOWEL SIGN II, VOWEL SIGN VOWEL SHORTENER	
+
 												
 ᦻ		a	aʲ	aːi̯	dipthong						U+19BB: NEW TAI LUE VOWEL SIGN AAY	newtailue
 ᦿ		u	ɯʲ	ɯi̯	dipthong						U+19BF: NEW TAI LUE VOWEL SIGN UEY	newtailue
@@ -96,7 +97,7 @@ var spreadsheet = `
 ᦽ		o	oʲ	oi̯	dipthong						U+19BD: NEW TAI LUE VOWEL SIGN OY	newtailue
 ᦾ		o	ɔʲ	ɔi̯	dipthong						U+19BE: NEW TAI LUE VOWEL SIGN OAY	newtailue
 ᧀ		e	əʲ	əi̯	dipthong						U+19C0: NEW TAI LUE VOWEL SIGN IY	newtailue
-ᦵ-ᧀ	s	v	e͕-əʲ	ɤi̯							U+19B5 U+19B2 U+19B0: NEW TAI LUE VOWEL SIGN E, VOWEL SIGN IY	
+ᦵᧀ	s	v	e͕-əʲ	ɤi̯							U+19B5 U+19B2 U+19B0: NEW TAI LUE VOWEL SIGN E, VOWEL SIGN IY	
 												
 												
 												

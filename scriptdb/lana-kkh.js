@@ -120,15 +120,26 @@ var spreadsheet = `
 ᩣ		a	ā	-aː -aː-	dependent vowel						ᩣ			U+1A63: TAI THAM VOWEL SIGN AA​	taitham
 ᩤ		a	ä	-aː-	dependent vowel						ᩤ			U+1A64: TAI THAM VOWEL SIGN TALL AA​	taitham
 															
+ᩓ᩠ᩅ		s	lₔ˖w̱	lɛːw	ligature+vowel									U+1A53 U+1A60 U+1A45: TAI THAM LETTER LAE, SIGN SAKOT, LETTER WA	
 															
-ᩱ		a	aʲ	-aj	dependent vowel						ᩱ			U+1A71: TAI THAM VOWEL SIGN AI​	taitham
-ᩱ᩠ᨿ	s		aʲ˖y̱	aj	vowel-sign sequence									U+1A71 U+1A60 U+1A3F: TAI THAM VOWEL SIGN AI,  SIGN SAKOT,  LETTER LOW YA​	
-ᩮ᩠ᨿ	s		ē˖y̱	ia	vowel-sign sequence									U+1A6E U+1A60 U+1A3F: TAI THAM VOWEL SIGN E,  SIGN SAKOT,  LETTER LOW YA​	
-ᩭ		o	ōʲ	-ɔːj	dependent vowel						ᩭ			U+1A6D: TAI THAM VOWEL SIGN OY​	taitham
-ᩮᩢᩣ	s		ēáā	aw	vowel-sign sequence									U+1A6E U+1A62 U+1A63: TAI THAM VOWEL SIGN E,  VOWEL SIGN MAI SAT,  VOWEL SIGN AA​	
-᩠ᩅ᩠ᨿ	s		˖w̱˖y̱	-ɔːj	vowel-sign sequence									U+1A60 U+1A45 U+1A60 U+1A3F: TAI THAM SIGN SAKOT,  LETTER WA,  SIGN SAKOT,  LETTER LOW YA​	
-ᩴ᩠ᨿ	s		ŋ̊˖y̱	eːw	vowel-sign sequence									U+1A74 U+1A60 U+1A3F: TAI THAM SIGN MAI KANG,  SIGN SAKOT,  LETTER LOW YA​	
 															
+ᩮ᩠ᨿ	s		ē˖y̱	ia	composite vowel									U+1A6E U+1A60 U+1A3F: TAI THAM VOWEL SIGN E, SIGN SAKOT, LETTER LOW YA​	
+ᩧ᩠ᨿ	s		ɯ˖y̱	ɯj	composite vowel									U+1A67 U+1A60 U+1A3F: TAI THAM VOWEL SIGN UE, SIGN SAKOT, LETTER LOW YA​	
+ᩨ᩠ᨿ	s		ɯ̄˖y̱	ɯːj	composite vowel									U+1A68 U+1A60 U+1A3F: TAI THAM VOWEL SIGN UUE, SIGN SAKOT, LETTER LOW YA​	
+ᩩᨿ	s		uy̱	uj	composite vowel									U+1A69 U+1A3F: TAI THAM VOWEL SIGN U, LETTER LOW YA​	
+ᩮᩅ	s		ēw̱	eːw	composite vowel									U+1A6E U+1A45: TAI THAM VOWEL SIGN E, LETTER WA​	
+ᩮᩤ	s		ēä	eːw	composite vowel									U+1A6E U+1A64: TAI THAM VOWEL SIGN E, VOWEL SIGN TALL AA​	
+ᩴ᩠ᨿ	s		ŋ̊˖y̱	eːw	composite vowel									U+1A74 U+1A60 U+1A3F: TAI THAM SIGN MAI KANG, SIGN SAKOT, LETTER LOW YA​	
+ᩮᩬᩨᩡ᩠ᨿ	s		ēɔ̄ɯ̄a˖y̱	ɤj	composite vowel									U+1A6E U+1A6C U+1A68 U+1A61 U+1A60 U+1A3F: TAI THAM VOWEL SIGN E, VOWEL SIGN OA BELOW, VOWEL SIGN UUE, VOWEL SIGN A, SIGN SAKOT, LETTER LOW YA​	
+ᩮᩬᩨ᩠ᨿ	s		ēɔ̄ɯ̄˖y̱	ɤːj	composite vowel									U+1A6E U+1A6C U+1A68 U+1A60 U+1A3F: TAI THAM VOWEL SIGN E, VOWEL SIGN OA BELOW, VOWEL SIGN UUE, SIGN SAKOT, LETTER LOW YA​	
+ᩯᩅ			ɛw̱	ɛːw	composite vowel									U+1A6F U+1A45: TAI THAM VOWEL SIGN AE, LETTER WA​	
+ᩭ		o	ōʲ	-ɔːj	composite vowel						ᩭ			U+1A6D: TAI THAM VOWEL SIGN OY​	taitham
+᩠ᩅ᩠ᨿ	s		˖w̱˖y̱	-ɔːj	composite vowel									U+1A60 U+1A45 U+1A60 U+1A3F: TAI THAM SIGN SAKOT, LETTER WA, SIGN SAKOT, LETTER LOW YA​	
+ᩱ		a	aʲ	-aj	composite vowel						ᩱ			U+1A71: TAI THAM VOWEL SIGN AI​	taitham
+ᩱ᩠ᨿ	s		aʲ˖y̱	aj	composite vowel									U+1A71 U+1A60 U+1A3F: TAI THAM VOWEL SIGN AI, SIGN SAKOT, LETTER LOW YA​	
+ᩣ᩠ᨿ	s		ā˖y̱	aːj	composite vowel									U+1A63 U+1A60 U+1A3F: TAI THAM VOWEL SIGN AA, SIGN SAKOT, LETTER LOW YA​	
+ᩮᩢᩣ	s		ēáā	aw	composite vowel									U+1A6E U+1A62 U+1A63: TAI THAM VOWEL SIGN E, VOWEL SIGN MAI SAT, VOWEL SIGN AA​	
+ᩮᩢᩤ	s		ēáä	aw	composite vowel									U+1A6E U+1A62 U+1A64: TAI THAM VOWEL SIGN E, VOWEL SIGN MAI SAT, VOWEL SIGN TALL AA​																
 															
 															
 ᩵		^	¹		tone mark						᩵			U+1A75: TAI THAM SIGN TONE-1​	taitham
@@ -187,22 +198,6 @@ var spreadsheet = `
 ᪗		§	7̣		ecclesiastic digit						᪗			U+1A97: TAI THAM THAM DIGIT SEVEN	taitham
 ᪘		§	8̣		ecclesiastic digit						᪘			U+1A98: TAI THAM THAM DIGIT EIGHT	taitham
 ᪙		§	9̣		ecclesiastic digit						᪙			U+1A99: TAI THAM THAM DIGIT NINE	taitham
-															
-															
-															
-															
-															
-															
-															
-ᩰᩢ	x		o	o	compound vowel									U+1A70 U+1A62: TAI THAM VOWEL SIGN OO, VOWEL SIGN MAI SAT​	
-ᩮᩣ	x		ō	oː	compound vowel									U+1A6E U+1A63: TAI THAM VOWEL SIGN E, VOWEL SIGN AA​	
-ᩬᩴ	x		ɔ̄	ɔː	compound vowel									U+1A6C U+1A74: TAI THAM VOWEL SIGN OA BELOW, SIGN MAI KANG​	
-ᩮ᩠ᨿᩡ	x		iaʔ	iaʔ										U+1A6E U+1A60 U+1A3F U+1A61: TAI THAM VOWEL SIGN E, SIGN SAKOT, LETTER LOW YA, VOWEL SIGN A​	
-ᩮᩬᩥᩋ	x		ɯa	ɯa										U+1A6E U+1A6C U+1A65 U+1A4B: TAI THAM VOWEL SIGN E, VOWEL SIGN OA BELOW, VOWEL SIGN I, LETTER A​	
-ᩮᩬᩥᩋᩡ	x		ɯaʔ	ɯaʔ										U+1A6E U+1A6C U+1A65 U+1A4B U+1A61: TAI THAM VOWEL SIGN E, VOWEL SIGN OA BELOW, VOWEL SIGN I, LETTER A, VOWEL SIGN A​	
-ᩮᩬᩥ	x		ɤː	ɤː/ɨa-										U+1A6E U+1A6C U+1A65: TAI THAM VOWEL SIGN E, VOWEL SIGN OA BELOW, VOWEL SIGN I​	
-ᩮᩬᩥᩡ	x		ɤʔ	ɤʔ										U+1A6E U+1A6C U+1A65 U+1A61: TAI THAM VOWEL SIGN E, VOWEL SIGN OA BELOW, VOWEL SIGN I, VOWEL SIGN A​	
-ᩢ᩠ᨿ	x		aj	aj										U+1A62 U+1A60 U+1A3F: TAI THAM VOWEL SIGN MAI SAT, SIGN SAKOT, LETTER LOW YA​	
 
 
 

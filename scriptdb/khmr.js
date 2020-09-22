@@ -86,11 +86,21 @@ var spreadsheet = `
 ឿ		i	ẏa	ɨᵊ	ɨə	ɨᵊ	vowel sign						sraʔ ʔɨə	ស្រៈ អឿ	U+17BF: KHMER VOWEL SIGN YA​	khmer
 ៀ		i	ia	iᵊ	iə	iᵊ	vowel sign						sraʔ ʔiə	ស្រៈ អៀ	U+17C0: KHMER VOWEL SIGN IE​	khmer
 																
-ាំ	s	a		ām̽	am oə̆m	āṃ	multi-part vowel								U+17B6 U+17C6: KHMER VOWEL SIGN AA,SIGN NIKAHIT​	
-ុំ	s	u		um̽	om um	uṃ	multi-part vowel								U+17BB U+17C6: KHMER VOWEL SIGN U,SIGN NIKAHIT​	
-ុះ	s	u		uh̽	oh uh	uḥ	multi-part vowel								U+17BB U+17C7: KHMER VOWEL SIGN U,SIGN REAHMUK​	
-េះ	s	e		eh̽	eh ih	eḥ	multi-part vowel								U+17C1 U+17C7: KHMER VOWEL SIGN E,SIGN REAHMUK​	
-ោះ	s	o		oh̽	ɑh uə̆h	oḥ	multi-part vowel								U+17C4 U+17C7: KHMER VOWEL SIGN OO,SIGN REAHMUK​	
+ាំ	s	a		ām̽	am oə̆m	āṃ	multi-part vowel								U+17B6 U+17C6: KHMER VOWEL SIGN AA, SIGN NIKAHIT​
+ុំ	s	u		um̽	om um	uṃ	multi-part vowel								U+17BB U+17C6: KHMER VOWEL SIGN U, SIGN NIKAHIT​
+ុះ	s	u		uh̽	oh uh	uḥ	multi-part vowel								U+17BB U+17C7: KHMER VOWEL SIGN U, SIGN REAHMUK​
+េះ	s	e		eh̽	eh ih	eḥ	multi-part vowel								U+17C1 U+17C7: KHMER VOWEL SIGN E, SIGN REAHMUK​
+ោះ	s	o		oh̽	ɑh uə̆h	oḥ	multi-part vowel								U+17C4 U+17C7: KHMER VOWEL SIGN OO, SIGN REAHMUK​
+ា់	s			ā˘	a eə̆ oə̆										U+17B6 U+17CB: KHMER VOWEL SIGN AA, SIGN BANTOC​
+ាំង	s			ām̽ŋ	aŋ eə̆ŋ										U+17B6 U+17C6 U+1784: KHMER VOWEL SIGN AA, SIGN NIKAHIT, LETTER NGO​
+ិះ	s			ih̽	eh ih										U+17B7 U+17C7: KHMER VOWEL SIGN I, SIGN REAHMUK​
+ឹះ	s			ɨh̽	əh										U+17B9 U+17C7: KHMER VOWEL SIGN Y, SIGN REAHMUK​
+ូវ	s			ūv̱	əw ɨw										U+17BC U+179C: KHMER VOWEL SIGN UU, LETTER VO​
+ើះ	s			aᵊh̽	əh										U+17BE U+17C7: KHMER VOWEL SIGN OE, SIGN REAHMUK​
+ែះ	s			æh̽	eh										U+17C2 U+17C7: KHMER VOWEL SIGN AE, SIGN REAHMUK​
+័រ	s			ăṟ	ɔə										U+17D0 U+179A: KHMER SIGN SAMYOK SANNYA, LETTER RO​
+ិយ	s			iy̱	iː										U+17B7 U+1799: KHMER VOWEL SIGN I, LETTER YO​
+័យ	s			ăy̱	aj ɨj										U+17D0 U+1799: KHMER SIGN SAMYOK SANNYA, LETTER YO​
 																
 																
 ្		*		͓		͓	coeng sign						cəːŋ	ជើង	U+17D2: KHMER SIGN COENG​	khmer
