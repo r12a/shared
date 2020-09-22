@@ -116,7 +116,7 @@ var fontDB = [
 { name:"Noto Serif Hebrew",	system:new Set([goog]), locales:new Set(['hebr']), style:'serif' },
 { name:"Noto Serif Kannada",system:new Set([goog, mac]), locales:new Set(['knda']), style:'serif', md:true },
 { name:"Noto Serif Malayalam",system:new Set([goog]), locales:new Set(['mlym']), style:'serif' },
-{ name:"Noto Serif Myanmar",system:new Set([goog, mac]), locales:new Set(['mymr']), style:'serif' },
+{ name:"Noto Serif Myanmar",system:new Set([goog, mac]), locales:new Set(['mymr', 'mymr-shn']), style:'serif' },
 { name:"Noto Serif Sinhala",system:new Set([goog]), locales:new Set(['sinh']), style:'serif' },
 { name:"Noto Serif Tamil",	system:new Set([goog]), locales:new Set(['taml']), style:'serif' },
 { name:"Noto Serif Telugu",	system:new Set([goog]), locales:new Set(['telu']), style:'serif' },
