@@ -109,11 +109,11 @@ var spreadsheet = `
 												
 												
 												
-ꪹ-ꪱ	s	i	ɨᵊ-ā	aːw	aʷ						U+AAB9 U+AAB1: TAI VIET VOWEL UEA, VOWEL AA	
-ꪹ-ꪸ	s	i	ɨᵊ-iᵊ	e	e						U+AAB9 U+AAB8: TAI VIET VOWEL UEA, VOWEL IA	
-ꪹ-ꪷ	s	i	ɨᵊ-ɔ	ə	ə						U+AAB9 U+AAB7: TAI VIET VOWEL UEA, MAI KHIT	
-ꪵ-ꪫ	s	e	ɛ-w	ʷɛ	ɛ						U+AAB5 U+AAAB: TAI VIET VOWEL E, LETTER HIGH VO	
--ꪚꪾ	s	a	-aᵖ	ap	aᵖ						U+002D U+AA9A U+AABE: TAI VIET LETTER LOW BO, VOWEL AM	
+ꪹꪱ	s	i	ɨᵊ-ā	aːw	aʷ						U+AAB9 U+AAB1: TAI VIET VOWEL UEA, VOWEL AA	
+ꪹꪸ	s	i	ɨᵊ-iᵊ	e	e						U+AAB9 U+AAB8: TAI VIET VOWEL UEA, VOWEL IA	
+ꪹꪷ	s	i	ɨᵊ-ɔ	ə	ə						U+AAB9 U+AAB7: TAI VIET VOWEL UEA, MAI KHIT	
+ꪵꪫ	s	e	ɛ-w	ʷɛ	ɛ						U+AAB5 U+AAAB: TAI VIET VOWEL E, LETTER HIGH VO	
+ꪚꪾ	s	a	-aᵖ	ap	aᵖ						U+002D U+AA9A U+AABE: TAI VIET LETTER LOW BO, VOWEL AM	
 
 
 `

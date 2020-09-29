@@ -231,7 +231,13 @@ var spreadsheet = `
 											
 											
 											
-											
+หว	s	w	hw̱	w	w	high class consonant				U+0E2B U+0E27: THAI CHARACTER HO HIP, THAI CHARACTER WO WAEN	
+หร	s		hṟ	r	r	high class consonant				U+0E2B U+0E23: THAI CHARACTER HO HIP, THAI CHARACTER RO RUA	
+หล	s		hḻ	l	l	high class consonant				U+0E2B U+0E25: THAI CHARACTER HO HIP, THAI CHARACTER LO LING	
+หย	s		hy̱	j	y	high class consonant				U+0E2B U+0E22: THAI CHARACTER HO HIP, THAI CHARACTER YO YAK	
+หญ	s		hẏ̱	j	y	high class consonant				U+0E2B U+0E0D: THAI CHARACTER HO HIP, THAI CHARACTER YO YING	
+
+
 											
 เียะ	s	i	e-īy̱a	iə	ia					U+0E40 U+0E35 U+0E22 U+0E30: THAI CHARACTER SARA E, SARA II, YO YAK, SARA A	
 เีย	s	i	e-īy̱	iːə	ia					U+0E40 U+0E35 U+0E22: THAI CHARACTER SARA E, SARA II, YO YAK	
