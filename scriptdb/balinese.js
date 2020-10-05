@@ -1,42 +1,42 @@
 var spreadsheet = `
+ᬩ		b	b	b	b	consonant		ᬩ ᭄ᬩ			U+1B29: BALINESE LETTER BA	balinese
+ᬘ		c	c	c	c	consonant		ᬘ ᭄ᬘ			U+1B18: BALINESE LETTER CA	balinese
+ᬤ		d	d	d	d	consonant		ᬤ ᭄ᬤ			U+1B24: BALINESE LETTER DA	balinese
 ᬓ		k	k	k	k	consonant		ᬓ ᭄ᬓ			U+1B13: BALINESE LETTER KA​	balinese
 ᬕ		g	g	g	ɡ	consonant		ᬕ ᭄ᬕ			U+1B15: BALINESE LETTER GA	balinese
-ᬗ		n	ng	ŋ	ŋ	consonant		ᬗ ᭄ᬗ			U+1B17: BALINESE LETTER NGA	balinese
-ᬘ		c	c	c	c	consonant		ᬘ ᭄ᬘ			U+1B18: BALINESE LETTER CA	balinese
 ᬚ		d	j	ʤ	ʤ	consonant		ᬚ ᭄ᬚ			U+1B1A: BALINESE LETTER JA	balinese
-ᬜ		n	ñ	ɲ	ɲ	consonant		ᬜ ᭄ᬜ			U+1B1C: BALINESE LETTER NYA	balinese
-ᬢ		t	t	t	t	consonant		ᬢ ᭄ᬢ			U+1B22: BALINESE LETTER TA	balinese
-ᬤ		d	d	d	d	consonant		ᬤ ᭄ᬤ			U+1B24: BALINESE LETTER DA	balinese
-ᬦ		n	n	n	n	consonant		ᬦ ᭄ᬦ			U+1B26: BALINESE LETTER NA	balinese
-ᬧ		p	p	p	p	consonant		ᬧ ᭄ᬧ			U+1B27: BALINESE LETTER PA	balinese
-ᬩ		b	b	b	b	consonant		ᬩ ᭄ᬩ			U+1B29: BALINESE LETTER BA	balinese
-ᬫ		m	m	m	m	consonant		ᬫ ᭄ᬫ			U+1B2B: BALINESE LETTER MA	balinese
-ᬬ		y	y	y	j	consonant		ᬬ ᭄ᬬ			U+1B2C: BALINESE LETTER YA	balinese
-ᬭ		r	r	r	r	consonant		ᬭ ᭄ᬭ	ra / guwung		U+1B2D: BALINESE LETTER RA	balinese
-ᬮ		l	l	l	l	consonant		ᬮ ᭄ᬮ			U+1B2E: BALINESE LETTER LA	balinese
-ᬯ		w	w	w	w	consonant		ᬯ ᭄ᬯ			U+1B2F: BALINESE LETTER WA	balinese
-ᬲ		S	s	s	s	consonant		ᬲ ᭄ᬲ			U+1B32: BALINESE LETTER SA	balinese
 ᬳ		h	h ∅	h	h ∅	consonant		ᬳ ᭄ᬳ			U+1B33: BALINESE LETTER HA	balinese
+ᬮ		l	l	l	l	consonant		ᬮ ᭄ᬮ			U+1B2E: BALINESE LETTER LA	balinese
+ᬫ		m	m	m	m	consonant		ᬫ ᭄ᬫ			U+1B2B: BALINESE LETTER MA	balinese
+ᬦ		n	n	n	n	consonant		ᬦ ᭄ᬦ			U+1B26: BALINESE LETTER NA	balinese
+ᬗ		n	ng	ŋ	ŋ	consonant		ᬗ ᭄ᬗ			U+1B17: BALINESE LETTER NGA	balinese
+ᬜ		n	ñ	ɲ	ɲ	consonant		ᬜ ᭄ᬜ			U+1B1C: BALINESE LETTER NYA	balinese
+ᬧ		p	p	p	p	consonant		ᬧ ᭄ᬧ			U+1B27: BALINESE LETTER PA	balinese
+ᬭ		r	r	r	r	consonant		ᬭ ᭄ᬭ	ra / guwung		U+1B2D: BALINESE LETTER RA	balinese
+ᬲ		s	s	s	s	consonant		ᬲ ᭄ᬲ			U+1B32: BALINESE LETTER SA	balinese
+ᬢ		t	t	t	t	consonant		ᬢ ᭄ᬢ			U+1B22: BALINESE LETTER TA	balinese
+ᬯ		w	w	w	w	consonant		ᬯ ᭄ᬯ			U+1B2F: BALINESE LETTER WA	balinese
+ᬬ		y	y	y	j	consonant		ᬬ ᭄ᬬ			U+1B2C: BALINESE LETTER YA	balinese
 												
 												
-ᬞ		T¶		T	t	consonant		ᬞ ᭄ᬞ			U+1B1E: BALINESE LETTER TA MURDA MAHAPRANA	balinese
-ᬟ		D	ḍ	D	d	consonant		ᬟ ᭄ᬟ			U+1B1F: BALINESE LETTER DA MURDA ALPAPRANA	balinese
-ᬠ		D		Ḋ	d	consonant		ᬠ ᭄ᬠ			U+1B20: BALINESE LETTER DA MURDA MAHAPRANA	balinese
-ᬔ		K		K	k	consonant	very rare	ᬔ ᭄ᬔ			U+1B14: BALINESE LETTER KA MAHAPRANA	balinese
 ᬙ		C	c ch	C	t͡ʃ	consonant	only found in subjoined form	ᬙ ᭄ᬙ			U+1B19: BALINESE LETTER CA LACA	balinese
 ᭄ᬙ	s	C	c ch	͓C	t͡ʃ	consonant	very rare	ᬙ ᭄ᬙ			U+1B44 U+1B19: BALINESE ADEG ADEG, LETTER CA LACA​	balinese
+ᬟ		D	ḍ	D	d	consonant		ᬟ ᭄ᬟ			U+1B1F: BALINESE LETTER DA MURDA ALPAPRANA	balinese
+ᬠ		D		Ḋ	d	consonant		ᬠ ᭄ᬠ			U+1B20: BALINESE LETTER DA MURDA MAHAPRANA	balinese
 ᬛ		D		ʤ̇	d͡ʒ	consonant	one word only	ᬛ ᭄ᬛ			U+1B1B: BALINESE LETTER JA JERA	balinese
+ᬔ		K		K	k	consonant	very rare	ᬔ ᭄ᬔ			U+1B14: BALINESE LETTER KA MAHAPRANA	balinese
+ᬞ		T¶		T	t	consonant		ᬞ ᭄ᬞ			U+1B1E: BALINESE LETTER TA MURDA MAHAPRANA	balinese
 												
 												
+ᬪ		B	b bh	b̂	n	consonant	kawi	ᬪ ᭄ᬪ	ba kembang		U+1B2A: BALINESE LETTER BA KEMBANG	balinese
+ᬥ		D	dh	d̂	d	consonant	kawi	ᬥ ᭄ᬥ	da madu		U+1B25: BALINESE LETTER DA MADU	balinese
 ᬖ		G	g gh	ĝ	ɡ	consonant	kawi	ᬖ ᭄ᬖ	ga gora		U+1B16: BALINESE LETTER GA GORA	balinese
 ᬝ		T	ṭ	t̂	t	consonant	kawi	ᬝ ᭄ᬝ	ta latik		U+1B1D: BALINESE LETTER TA LATIK	balinese
-ᬡ		N	n ṇ	n̂	n	consonant	kawi	ᬡ ᭄ᬡ	na rambat		U+1B21: BALINESE LETTER NA RAMBAT	balinese
 ᬣ		T	t th	ṫ̂	t	consonant	kawi	ᬣ ᭄ᬣ	ta tawa		U+1B23: BALINESE LETTER TA TAWA	balinese
-ᬥ		D	dh	d̂	d	consonant	kawi	ᬥ ᭄ᬥ	da madu		U+1B25: BALINESE LETTER DA MADU	balinese
+ᬡ		N	n ṇ	n̂	n	consonant	kawi	ᬡ ᭄ᬡ	na rambat		U+1B21: BALINESE LETTER NA RAMBAT	balinese
 ᬨ		P	p ph	p̂	p	consonant	kawi	ᬨ ᭄ᬨ	pa kapal		U+1B28: BALINESE LETTER PA KAPAL	balinese
-ᬪ		B	b bh	b̂	n	consonant	kawi	ᬪ ᭄ᬪ	ba kembang		U+1B2A: BALINESE LETTER BA KEMBANG	balinese
 ᬰ		S	s ṣ	ŝ	s	consonant	kawi	ᬰ ᭄ᬰ	sa saga		U+1B30: BALINESE LETTER SA SAGA	balinese
-ᬱ		s	s ś	ṡ̂	s	consonant	kawi	ᬱ ᭄ᬱ	sa sapa		U+1B31: BALINESE LETTER SA SAPA	balinese
+ᬱ		S	s ś	ṡ̂	s	consonant	kawi	ᬱ ᭄ᬱ	sa sapa		U+1B31: BALINESE LETTER SA SAPA	balinese
 												
 												
 ᭅ											U+1B45: BALINESE LETTER KAF SASAK	balinese
@@ -50,10 +50,10 @@ var spreadsheet = `
 												
 ᬋ		R	rĕ	r̥̣	rə	vocalic		ᬋ ᭄ᬋ	ra repa		U+1B0B: BALINESE LETTER RA REPA	balinese
 ᬌ		R	rö	r̥̣̄	rəː	vocalic					U+1B0C: BALINESE LETTER RA REPA TEDUNG	balinese
-ᬍ		L	lĕ	l̥̣	lə	vocalic					U+1B0D: BALINESE LETTER LA LENGA	balinese
-ᬎ		L	lö	l̥̣̄	ləː	vocalic					U+1B0E: BALINESE LETTER LA LENGA TEDUNG	balinese
 ᬺ		R	rĕ	r̥	rə	vowel sign/semi-vowel/medial consonant			guwung macelek		U+1B3A: BALINESE VOWEL SIGN RA REPA​	balinese
 ᬻ		R	rö	r̥̄	rəː	vowel sign/semi-vowel/medial consonant			guwung macelek tedong		U+1B3B: BALINESE VOWEL SIGN RA REPA TEDUNG	balinese
+ᬍ		L	lĕ	l̥̣	lə	vocalic					U+1B0D: BALINESE LETTER LA LENGA	balinese
+ᬎ		L	lö	l̥̣̄	ləː	vocalic					U+1B0E: BALINESE LETTER LA LENGA TEDUNG	balinese
 ᬼ		L	lĕ	l̥	lə	vocalic					U+1B3C: BALINESE VOWEL SIGN LA LENGA​	balinese
 ᬽ		L	lö	l̥̄	ləː	vocalic					U+1B3D: BALINESE VOWEL SIGN LA LENGA TEDUNG	balinese
 												
@@ -71,27 +71,27 @@ var spreadsheet = `
 												
 ᬅ		A	a	ạ	a	independent vowel			a kara		U+1B05: BALINESE LETTER AKARA	balinese
 ᬆ		A	ā	ɑ̣̄	ɑː	independent vowel			a kara tedong		U+1B06: BALINESE LETTER AKARA TEDUNG	balinese
+ᬐ		A	ai	ạʲ	aːi	independent vowel			airsania		U+1B10: BALINESE LETTER AIKARA	balinese
+ᬒ		A	au	ạʷ	aːu	independent vowel			o kara tedong		U+1B12: BALINESE LETTER OKARA TEDUNG	balinese
 ᬇ		I	i	ị	i	independent vowel			i kara		U+1B07: BALINESE LETTER IKARA	balinese
 ᬈ		I	ī	ị̄	iː 	independent vowel			i kara tedong		U+1B08: BALINESE LETTER IKARA TEDUNG	balinese
 ᬉ		U	u	ụ	u	independent vowel			u kara		U+1B09: BALINESE LETTER UKARA	balinese
 ᬊ		U	ū	ụ̄	uː	independent vowel			u kara tedong		U+1B0A: BALINESE LETTER UKARA TEDUNG	balinese
 ᬏ		E	e	ẹ	e ɛ	independent vowel			e kara		U+1B0F: BALINESE LETTER EKARA	balinese
-ᬐ		A	ai	ạʲ	aːi	independent vowel			airsania		U+1B10: BALINESE LETTER AIKARA	balinese
 ᬑ		O	o	ọ	o ɔ	independent vowel			o kara		U+1B11: BALINESE LETTER OKARA	balinese
-ᬒ		A	au	ạʷ	aːu	independent vowel			o kara tedong		U+1B12: BALINESE LETTER OKARA TEDUNG	balinese
 												
 												
 ᬵ		a	ā	ɑ̄	ɑː	vowel sign			tedong		U+1B35: BALINESE VOWEL SIGN TEDUNG​	balinese
+ᬿ		a	ai	aʲ	aːi	vowel sign			taleng-repa		U+1B3F: BALINESE VOWEL SIGN TALING REPA​	balinese
+ᭁ		a	au	aʷ	aːu	vowel sign			taleng-repa tedong		U+1B41: BALINESE VOWEL SIGN TALING REPA TEDUNG​	balinese
 ᬶ		i	i	i	i	vowel sign			ulu		U+1B36: BALINESE VOWEL SIGN ULU​	balinese
 ᬷ		i	ī	ī	iː	vowel sign			ulu-sari		U+1B37: BALINESE VOWEL SIGN ULU SARI​	balinese
 ᬸ		u	u	u	u	vowel sign			suku		U+1B38: BALINESE VOWEL SIGN SUKU​	balinese
 ᬹ		u	ū	ū	uː	vowel sign			suku-ilut		U+1B39: BALINESE VOWEL SIGN SUKU ILUT​	balinese
 ᬾ		e	e	e	e ɛ	vowel sign			taleng		U+1B3E: BALINESE VOWEL SIGN TALING​	balinese
-ᬿ		a	ai	aʲ	aːi	vowel sign			taleng-repa		U+1B3F: BALINESE VOWEL SIGN TALING REPA​	balinese
-ᭀ		o	o	o	o ɔ	vowel sign			taleng tedong		U+1B40: BALINESE VOWEL SIGN TALING TEDUNG​	balinese
-ᭁ		a	au	aʷ	aːu	vowel sign			taleng-repa tedong		U+1B41: BALINESE VOWEL SIGN TALING REPA TEDUNG​	balinese
-ᭂ		e	ĕ	ə 	ə	vowel sign			pepet		U+1B42: BALINESE VOWEL SIGN PEPET​	balinese
+ᭂ		e	ĕ	ə	ə	vowel sign			pepet		U+1B42: BALINESE VOWEL SIGN PEPET​	balinese
 ᭃ		e	ö	ə̄	əː	vowel sign			pepet tedong		U+1B43: BALINESE VOWEL SIGN PEPET TEDUNG​	balinese
+ᭀ		o	o	o	o ɔ	vowel sign			taleng tedong		U+1B40: BALINESE VOWEL SIGN TALING TEDUNG​	balinese
 												
 												
 ᭐		0	0	0		digit			bindu/windu		U+1B50: BALINESE DIGIT ZERO	balinese
@@ -145,7 +145,6 @@ var spreadsheet = `
 \u1B3E\u1B35	d	o		o	o ɔ	compound vowel			ᭀ		U+1B3E U+1B35: BALINESE VOWEL SIGN TALING, VOWEL SIGN TEDUNG​	
 \u1B3F\u1B35	d	a		aʷ	aːu	compound vowel			ᭁ		U+1B3F U+1B35: BALINESE VOWEL SIGN TALING REPA, VOWEL SIGN TEDUNG​	
 \u1B42\u1B35	d	e		ə̄	əː 	compound vowel			ᭃ		U+1B42 U+1B35: BALINESE VOWEL SIGN PEPET, VOWEL SIGN TEDUNG​	
-
 
 
 
