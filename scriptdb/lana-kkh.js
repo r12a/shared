@@ -31,6 +31,8 @@ var spreadsheet = `
 ᨱ		n	ṉ̇	na᷇ -n	low class consonant						ᨱ ᩅ᩠ᨱ			U+1A31: TAI THAM LETTER RANA	taitham
 ᨬ		n	ɲ̱	ja᷇	low class consonant					ᩉ᩠ᨬ	ᨬ ᩅ᩠ᨬ			U+1A2C: TAI THAM LETTER NYA	taitham
 ᨦ		n	ŋ̱	ŋa᷇ -ŋ	low class consonant					ᩉ᩠ᨦ	ᨦ ᩅ᩠ᨦ			U+1A26: TAI THAM LETTER NGA	taitham
+ᩉ᩠ᨾ	s	m	h˖m̱	má	high class consonant				ᨾ					U+1A49 U+1A60 U+1A3E: TAI THAM LETTER HIGH HA, SIGN SAKOT, LETTER MA	
+ᩉ᩠ᨶ	s	n	h˖ṉ	ná	high class consonant				ᨶ					U+1A49 U+1A60 U+1A36: TAI THAM LETTER HIGH HA, SIGN SAKOT, LETTER NA	
 															
 ᨺ		f	f	fá	high class consonant				ᨼ		ᨺ -			U+1A3A: TAI THAM LETTER HIGH FA	taitham
 ᨼ		f	f̱	fa᷇	low class consonant					ᨺ	ᨼ -			U+1A3C: TAI THAM LETTER LOW FA	taitham
@@ -47,6 +49,8 @@ var spreadsheet = `
 ᩊ		l	ḻ̇	la᷇ -n	low class consonant						ᩊ ᩅ᩠ᩊ			U+1A4A: TAI THAM LETTER LLA	taitham
 ᩀ		y	y̯	já	mid class consonant				ᨿ		ᩀ -			U+1A40: TAI THAM LETTER HIGH YA	taitham
 ᨿ		y	y̱	ja᷇ -j	low class consonant					ᩉ᩠ᨿ	ᨿ ᩅ᩠ᨿ			U+1A3F: TAI THAM LETTER LOW YA	taitham
+ᩉᩖ	s	l	hl̆	lá	high class consonant				ᩃ					U+1A49 U+1A56: TAI THAM LETTER HIGH HA, CONSONANT SIGN MEDIAL LA	
+ᩉ᩠ᨿ	s	y	h˖y̱	yá	high class consonant				ᨿ					U+1A49 U+1A60 U+1A3F: TAI THAM LETTER HIGH HA, SIGN SAKOT, LETTER LOW YA	
 															
 															
 															
