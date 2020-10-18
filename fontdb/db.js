@@ -558,6 +558,7 @@ Fonts that don't seem to work:
 { name:"JG Bassa Vah Unicode",system:new Set([other]), locales:new Set(['bass']) },
 { name:"Makassar",			system:new Set([other]), locales:new Set(['bugi']) },
 { name:"MakasarGraphite",	system:new Set([other]), locales:new Set(['maka']) },
+{ name:"Hariphunchai",		system:new Set([other]), locales:new Set(['lana-nod']) },
 
 
 
