@@ -34,7 +34,8 @@ function shownames_setImgOnclick ( node, base, target ) {
 function shownames_setOnclick ( node, base, target ) {
     var list = ''
     if (node.classList.contains('list')) list = 'y'
-	node.onclick = function(){ showNameDetails(node.firstChild.data, getLanguage(node), base, target, document.getElementById('panel'), list, getTransliteration(node)) }
+//	node.onclick = function(){ showNameDetails(node.firstChild.data, getLanguage(node), base, target, document.getElementById('panel'), list, getTransliteration(node)) }
+	node.onclick = function(){ showNameDetails(node.textContent, getLanguage(node), base, target, document.getElementById('panel'), list, getTransliteration(node)) }
 	}
 
 
@@ -212,6 +213,7 @@ function showNameDetails (chars, clang, base, target, panel, list, translit) {
 	img.src = '/scripts/block/images/close.png'
 	img.alt = 'Close'
 	img.style.cursor = 'pointer'
+	img.id = 'character_panel_close_button'
 	shownames_setClose(img)
 	p.appendChild(img)	
 	panel.appendChild(p)
