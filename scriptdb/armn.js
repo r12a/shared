@@ -98,22 +98,29 @@ var spreadsheet = `
 ֊		-	-		-	-	soft hyphen						miowt‛jan_gic		U+058A: ARMENIAN HYPHEN	armenian
 																
 																
-ﬓ	f	m	mⁿ		m	mn	ligature	infrequent	մն						U+FB13: ARMENIAN SMALL LIGATURE MEN NOW	armenian
-ﬔ	f	m	mᵉ		m	me	ligature	infrequent	մե						U+FB14: ARMENIAN SMALL LIGATURE MEN ECH	armenian
-ﬕ	f	m	mⁱ		m	mi	ligature	infrequent	մի						U+FB15: ARMENIAN SMALL LIGATURE MEN INI	armenian
-ﬖ	f	v	vⁿ		v	vn	ligature	infrequent	վն						U+FB16: ARMENIAN SMALL LIGATURE VEW NOW	armenian
-ﬗ	f	m	mˣ		m	mx	ligature	infrequent	մխ						U+FB17: ARMENIAN SMALL LIGATURE MEN XEH	armenian
+ու	s	u	ɔw	u	u	u									U+0578 U+0582: ARMENIAN SMALL LETTER VO, SMALL LETTER YIWN	
+Ու	s	u	ɔ̣w	u	u	u									U+0548 U+0582: ARMENIAN CAPITAL LETTER VO, SMALL LETTER YIWN	
+ՈՒ	s	u	ɔ̣ẉ	u	u	u									U+0548 U+0552: ARMENIAN CAPITAL LETTER VO, CAPITAL LETTER YIWN	
+մն	s	m	mn	mn	m	mn	ligated form								U+0574 U+0576: ARMENIAN SMALL LETTER MEN,  SMALL LETTER NOW	
+մե	s	m	me	me	m	me	ligated form								U+0574 U+0565: ARMENIAN SMALL LETTER MEN,  SMALL LETTER ECH	
+մի	s	m	mi	mi	m	mi	ligated form								U+0574 U+056B: ARMENIAN SMALL LETTER MEN,  SMALL LETTER INI	
+վն	s	v	vn	vn	v	vn	ligated form								U+057E U+0576: ARMENIAN SMALL LETTER VEW,  SMALL LETTER NOW	
+մխ	s	m	mx	mx	m	mx	ligated form								U+0574 U+056D: ARMENIAN SMALL LETTER MEN,  SMALL LETTER XEH	
+ﬓ	f		mⁿ	mn		mn	ligature	deprecated	մն						U+FB13: ARMENIAN SMALL LIGATURE MEN NOW	armenian
+ﬔ	f		mᵉ	me		me	ligature	deprecated	մե						U+FB14: ARMENIAN SMALL LIGATURE MEN ECH	armenian
+ﬕ	f		mⁱ	mi		mi	ligature	deprecated	մի						U+FB15: ARMENIAN SMALL LIGATURE MEN INI	armenian
+ﬖ	f		vⁿ	vn		vn	ligature	deprecated	վն						U+FB16: ARMENIAN SMALL LIGATURE VEW NOW	armenian
+ﬗ	f		mˣ	mx		mx	ligature	deprecated	մխ						U+FB17: ARMENIAN SMALL LIGATURE MEN XEH	armenian																
 																
-																
-																
-ՙ	x	[	ʿ				mistaken encoding	Do not use.							U+0559: ARMENIAN MODIFIER LETTER LEFT HALF RING	armenian
-՚	x	[	′				apostrophe	deprecated					apat'arts		U+055A: ARMENIAN APOSTROPHE	armenian
-՟	x	+	¨				abbreviation mark	archaic, obsolete					pativ		U+055F: ARMENIAN ABBREVIATION MARK	armenian
+ՙ		[	ʿ				mistaken encoding	Do not use.							U+0559: ARMENIAN MODIFIER LETTER LEFT HALF RING	armenian
+՚		[	′				apostrophe	deprecated					apat'arts		U+055A: ARMENIAN APOSTROPHE	armenian
+՟		+	¨				abbreviation mark	archaic, obsolete					pativ		U+055F: ARMENIAN ABBREVIATION MARK	armenian
 																
 																
 ֍							symbol	infrequent							U+058D: RIGHT-FACING ARMENIAN ETERNITY SIGN	armenian
 ֎							symbol	infrequent							U+058E: LEFT-FACING ARMENIAN ETERNITY SIGN	armenian
-֏		#	"	¤"				currency symbol	infrequent					dram		U+058F: ARMENIAN DRAM SIGN	currencysymbols
+֏		#	"	¤"				currency symbol	infrequent					dram		U+058F: ARMENIAN DRAM SIGN	armenian
+
 
 
 
