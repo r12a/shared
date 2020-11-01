@@ -48,6 +48,30 @@ function createtoc (maxlevel) {
 							aa.innerHTML = h3
 						hh.appendChild(aa)
 						hh.className = 'toc2'
+						
+						//if (maxlevel && maxlevel > 3) {
+							// check for h4s and add self-links
+							var h4s = h3s[k].parentNode.querySelectorAll('h4');
+							for (var m=0; m<h4s.length; m++) {
+								if (!h4s[m].className.match(/notoc/)) {
+									//h4 = h4s[m].innerHTML
+
+									// create a self link
+									selflink = document.createElement('a')
+									selflink.className = 'selflink'
+									selflink.href = '#'+h4s[m].parentNode.id
+									h4s[m].appendChild(selflink)
+
+									//var hh = document.createElement('div')
+									//aa = document.createElement('a')
+									//	aa.href = '#'+h4s[m].parentNode.id
+									//	aa.innerHTML = h4
+									//hh.appendChild(aa)
+									//hh.className = 'toc3'
+									}
+								}
+								//h.appendChild(hh);
+							//}
 						}
 					h.appendChild(hh);
 					}
