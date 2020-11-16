@@ -129,8 +129,8 @@ var fontDB = [
 { name:"Raanana",			system:new Set([mac]), locales:new Set(['hebr']), style:'serif' },
 { name:"Sakkal Majalla",	system:new Set([win]), locales:new Set(['arab', 'arab-arb', 'arab-afr', 'arab-fa']), style:'serif', wd:true },
 { name:"Sanskrit Text",		system:new Set([win]), locales:new Set(['deva']), style:'serif', wd:true },
-{ name:"Scheherazade",		system:new Set([sil]), locales:new Set(['arab', 'arab-arb', 'arab-afr', 'arab-fa', 'arab-ha', 'arab-ug', 'arab-ur']), style:'serif' },
-{ name:"Scheherazade New",	system:new Set([sil]), locales:new Set(['arab', 'arab-arb', 'arab-afr', 'arab-fa', 'arab-ha', 'arab-ug', 'arab-ur']), style:'serif' },
+{ name:"Scheherazade",		system:new Set([sil]), locales:new Set(['arab', 'arab-arb', 'arab-afr', 'arab-fa', 'arab-ha', 'arab-ug', 'arab-ur', 'arab-ks']), style:'serif' },
+{ name:"Scheherazade New",	system:new Set([sil]), locales:new Set(['arab', 'arab-arb', 'arab-afr', 'arab-fa', 'arab-ha', 'arab-ug', 'arab-ur', 'arab-ks']), style:'serif' },
 { name:"Shonar Bangla",		system:new Set([win]), locales:new Set(['beng']), style:'serif', wd:true },
 { name:"Simplified Arabic",	system:new Set([win]), locales:new Set(['arab', 'arab-arb', 'arab-afr', 'arab-fa', 'arab-ha', 'arab-ug']), style:'serif', wd:true },
 { name:"Sinhala MN",		system:new Set([mac]), locales:new Set(['sinh']), style:'serif' },
@@ -419,10 +419,9 @@ var fontDB = [
 { name:"Aldhabi",			system:new Set([win]), locales:new Set(['arab', 'arab-arb', 'arab-fa', 'arab-ur']), style:'diwani', wd:true },
 
 /* nastaliq */
-{ name:"Aldhabi",			system:new Set([win]), locales:new Set(['arab', 'arab-arb', 'arab-fa', 'arab-ur']), style:'nastaliq' },
-{ name:"Awami Nastaliq",	system:new Set([sil]), locales:new Set(['arab', 'arab-ur']), style:'nastaliq' },
+{ name:"Awami Nastaliq",	system:new Set([sil]), locales:new Set(['arab', 'arab-ur', 'arab-ks']), style:'nastaliq' },
 { name:"Farisi",			system:new Set([mac]), locales:new Set(['arab', 'arab-arb', 'arab-fa']), style:'nastaliq' },
-{ name:"Noto Nastaliq Urdu",system:new Set([goog, mac, ios]), locales:new Set(['arab', 'arab-ur']), style:'nastaliq' },
+{ name:"Noto Nastaliq Urdu",system:new Set([goog, mac, ios]), locales:new Set(['arab', 'arab-ur', 'arab-ks']), style:'nastaliq' },
 { name:"Urdu Typesetting",	system:new Set([win]), locales:new Set(['arab', 'arab-ur']), style:'nastaliq', wd:true },
 
 /* slanted */
