@@ -9,7 +9,7 @@ var spreadsheet = `
 ᚠ		f	f	f	f	consonant					U+16A0: RUNIC LETTER FEHU FEOH FE F	runic
 ᚦ		þ	th	TH	t	consonant					U+16A6: RUNIC LETTER THURISAZ THURS THORN	runic
 ᛋ		s	s	S	s	consonant					U+16CB: RUNIC LETTER SIGEL LONG-BRANCH-SOL S	runic
-ᛦ		z	z	Z	z	consonant					U+16E6: RUNIC LETTER LONG-BRANCH-YR	
+ᛣ		z	z	Z	z	consonant					U+16E6: RUNIC LETTER LONG-BRANCH-YR	
 ᛲ		ʃ	sh	SH	s	consonant					U+16F2: RUNIC LETTER SH	
 ᚻ		h	h	h	h	consonant					U+16BB: RUNIC LETTER HAEGL H	runic
 ᛗ		m	m	M	m	consonant					U+16D7: RUNIC LETTER MANNAZ MAN M	runic
