@@ -62,6 +62,7 @@ var spreadsheet = `
 															
 															
 ௹		#		{rupee}				rupee sign					rupai	U+0BF9: TAMIL RUPEE SIGN	tamil
+₹		#		{rupee}				rupee sign						U+20B9 INDIAN RUPEE SIGN	
 ௐ		$		{om}				om					ōm̐	U+0BD0: TAMIL OM	tamil
 ௵		$		{year}				year					varudam	U+0BF5: TAMIL YEAR SIGN	tamil
 ௴		$		{month}				month					mātam	U+0BF4: TAMIL MONTH SIGN	tamil
@@ -92,14 +93,14 @@ var spreadsheet = `
 															
 															
 															
-।		|	.	|		|	,							U+0964: DEVANAGARI DANDA	devanagari
-॥		|	¶	¶		|	[							U+0965: DEVANAGARI DOUBLE DANDA	devanagari
-,		,		,										U+002C: COMMA	punctuation
-:		:¶		:										U+003A: COLON	punctuation
-“		<		“										U+201C: LEFT DOUBLE QUOTATION MARK	punctuation
-”		>		”										U+201D: RIGHT DOUBLE QUOTATION MARK	punctuation
-‘		<		‘										U+2018: LEFT SINGLE QUOTATION MARK	punctuation
-’		>		’										U+2019: RIGHT SINGLE QUOTATION MARK	punctuation
+।		|	.	|		|	,	phrase delimiter	infrequent					U+0964: DEVANAGARI DANDA	devanagari
+॥		|	¶	¶		|	[	phrase delimiter	infrequent					U+0965: DEVANAGARI DOUBLE DANDA	devanagari
+,		,		,				comma						U+002C: COMMA	punctuation
+:		:¶		:				colon						U+003A: COLON	punctuation
+“		<		“				quotation mark						U+201C: LEFT DOUBLE QUOTATION MARK	punctuation
+”		>		”				quotation mark						U+201D: RIGHT DOUBLE QUOTATION MARK	punctuation
+‘		<		‘				quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	punctuation
+’		>		’				quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	punctuation
 															
 															
 															
@@ -117,6 +118,42 @@ var spreadsheet = `
 க்ஷ	s	K	kṣ	k͓ʂ	kʂ	k	k	ligature						U+0B95 U+0BCD U+0BB7: TAMIL LETTER KA, SIGN VIRAMA, LETTER SSA	
 ஶ்ரீ	s	S		ʃ͓ɾī	ʃ͓ɾī			ligature						U+0BB6 U+0BCD U+0BB0 U+0BC0: TAMIL LETTER SHA, SIGN VIRAMA, LETTER RA, VOWEL SIGN II	
 ஸ்ரீ	s	S		s͓ɾī	ʃ͓ɾī			ligature	not recommended by Unicode, but common					U+0BB8 U+0BCD U+0BB0 U+0BC0: TAMIL LETTER SA, SIGN VIRAMA, LETTER RA, VOWEL SIGN II	
+															
+															
+															
+\u200C			ₓ					zero-width non-joiner						U+200C: ZERO WIDTH NON-JOINER	
+\u200D			₊					zero-width joiner						U+200D: ZERO WIDTH JOINER	
+\u2067			ʳˡⁱ					rtl isolate						U+2067: RIGHT-TO-LEFT ISOLATE	
+\u2066			ˡʳⁱ					ltr isolate						U+2066: LEFT-TO-RIGHT ISOLATE	
+\u2068			ᶠˢⁱ					first-strong isolate						U+2068: FIRST STRONG ISOLATE	
+\u2069			ᵖᵈⁱ					pop direction isolate						U+2069: POP DIRECTIONAL ISOLATE	
+\u202B			ʳˡᵉ					rtl embed						U+202B: RIGHT-TO-LEFT EMBEDDING	
+\u202A			ˡʳᵉ					ltr embed						U+202A: LEFT-TO-RIGHT EMBEDDING	
+\u202C			ᵖᵈᶠ					pop direction						U+202C: POP DIRECTIONAL FORMATTING	
+\u200F			ʳˡᵐ					rtl mark						U+200F: RIGHT-TO-LEFT MARK	
+\u200E			ˡʳᵐ					ltr mark						U+200E: LEFT-TO-RIGHT MARK	
+\u034F			ᶜᵍʲ					combining grapheme joiner						U+034F: COMBINING GRAPHEME JOINER​	
+\u061C			ᵃˡᵐ					arabic letter mark						U+061C: ARABIC LETTER MARK	
+															
+															
+«		"	“					quotation mark						U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
+»		"	”					quotation mark						U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
+ʼ								apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
+;								semicolon						U+003B: SEMICOLON	
+.								full stop						U+002E: FULL STOP	
+?								question mark						U+003F: QUESTION MARK	
+!								exclamation mark						U+0021: EXCLAMATION MARK	
+(								parenthesis						U+0028: LEFT PARENTHESIS	
+)								parenthesis						U+0029: RIGHT PARENTHESIS	
+…								ellipsis						U+2026: HORIZONTAL ELLIPSIS	
+–								en dash						U+2013: EN DASH	
+—								em dash						U+2014: EM DASH	
+															
+§								section sign						U+00A7: SECTION SIGN	
+†								dagger						U+2020: DAGGER	
+‡								double dagger						U+2021: DOUBLE DAGGER	
+′								prime						U+2032: PRIME	
+″								double prime						U+2033: DOUBLE PRIME	
 
 
 `

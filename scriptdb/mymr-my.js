@@ -138,7 +138,26 @@ var spreadsheet = `
 													
 \u1025\u102E	s	U	u	ụ̇	ʔù	ဦ						U+1025 U+102E: MYANMAR LETTER U, VOWEL SIGN II	
 
-
+\u034F			ᶜᵍʲ			combining grapheme joiner						U+034F: COMBINING GRAPHEME JOINER​	
+													
+													
+,						comma						U+002C: COMMA	
+;						semicolon						U+003B: SEMICOLON	
+:						colon						U+003A: COLON	
+.						full stop						U+002E: FULL STOP	
+?						question mark						U+003F: QUESTION MARK	
+!						exclamation mark						U+0021: EXCLAMATION MARK	
+(						parenthesis						U+0028: LEFT PARENTHESIS	
+)						parenthesis						U+0029: RIGHT PARENTHESIS	
+…						ellipsis						U+2026: HORIZONTAL ELLIPSIS	
+–						en dash						U+2013: EN DASH	
+—						em dash						U+2014: EM DASH	
+													
+§						section sign						U+00A7: SECTION SIGN	
+†						dagger						U+2020: DAGGER	
+‡						double dagger						U+2021: DOUBLE DAGGER	
+′						prime						U+2032: PRIME	
+″						double prime						U+2033: DOUBLE PRIME	
 
 
 `

@@ -118,7 +118,7 @@ var spreadsheet = `
 ൞													U+0D5E: MALAYALAM FRACTION ONE FIFTH	malayalam
 														
 														
-൹							date sign						U+0D79: MALAYALAM DATE MARK	malayalam
+൹							date sign	usage fading					U+0D79: MALAYALAM DATE MARK	malayalam
 ൏													U+0D4F: MALAYALAM SIGN PARA	malayalam
 														
 														
@@ -132,8 +132,8 @@ var spreadsheet = `
 														
 														
 														
-।		.	.		.								U+0964: DEVANAGARI DANDA	devanagari
-॥		|	¶		[								U+0965: DEVANAGARI DOUBLE DANDA	devanagari
+।		.	.		.		phrase separator	for older texts					U+0964: DEVANAGARI DANDA	devanagari
+॥		|	¶		[		phrase separator	for older texts					U+0965: DEVANAGARI DOUBLE DANDA	devanagari
 														
 														
 ഽ		x	ˣ			’	avagraha				praślēṣam	പ്രശ്ലേഷം	U+0D3D: MALAYALAM SIGN AVAGRAHA	malayalam
@@ -148,6 +148,48 @@ var spreadsheet = `
 \u{D47}\u{D3E}	s	a	ēā	ai̯	a	ai	ോ						U+0D47 U+0D3E: MALAYALAM VOWEL SIGN EE, VOWEL SIGN AA​	
 \u{D46}\u{D57}	s	a	eaʷ	au̯	a	au	ൌ						U+0D46 U+0D57: MALAYALAM VOWEL SIGN E, AU LENGTH MARK​	
 റ്റ	s	t	ṙ͓ṙ	tt	t	ṯṯ							U+0D31 U+0D4D U+0D31: MALAYALAM LETTER RRA, SIGN VIRAMA, LETTER RRA	
+
+
+\u200C			ₓ				zero-width non-joiner						U+200C: ZERO WIDTH NON-JOINER	
+\u200D			₊				zero-width joiner						U+200D: ZERO WIDTH JOINER	
+\u2067			ʳˡⁱ				rtl isolate						U+2067: RIGHT-TO-LEFT ISOLATE	
+\u2066			ˡʳⁱ				ltr isolate						U+2066: LEFT-TO-RIGHT ISOLATE	
+\u2068			ᶠˢⁱ				first-strong isolate						U+2068: FIRST STRONG ISOLATE	
+\u2069			ᵖᵈⁱ				pop direction isolate						U+2069: POP DIRECTIONAL ISOLATE	
+\u202B			ʳˡᵉ				rtl embed						U+202B: RIGHT-TO-LEFT EMBEDDING	
+\u202A			ˡʳᵉ				ltr embed						U+202A: LEFT-TO-RIGHT EMBEDDING	
+\u202C			ᵖᵈᶠ				pop direction						U+202C: POP DIRECTIONAL FORMATTING	
+\u200F			ʳˡᵐ				rtl mark						U+200F: RIGHT-TO-LEFT MARK	
+\u200E			ˡʳᵐ				ltr mark						U+200E: LEFT-TO-RIGHT MARK	
+\u034F			ᶜᵍʲ				combining grapheme joiner						U+034F: COMBINING GRAPHEME JOINER​	
+\u061C			ᵃˡᵐ				arabic letter mark						U+061C: ARABIC LETTER MARK	
+														
+														
+“							quotation mark						U+201C: LEFT DOUBLE QUOTATION MARK	
+”							quotation mark						U+201D: RIGHT DOUBLE QUOTATION MARK	
+‘							quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
+’							quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
+«		"	“				quotation mark						U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
+»		"	”				quotation mark						U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
+ʼ							apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
+,							comma						U+002C: COMMA	
+;							semicolon						U+003B: SEMICOLON	
+:							colon						U+003A: COLON	
+.							full stop						U+002E: FULL STOP	
+?							question mark						U+003F: QUESTION MARK	
+!							exclamation mark						U+0021: EXCLAMATION MARK	
+(							parenthesis						U+0028: LEFT PARENTHESIS	
+)							parenthesis						U+0029: RIGHT PARENTHESIS	
+…							ellipsis						U+2026: HORIZONTAL ELLIPSIS	
+–							en dash						U+2013: EN DASH	
+—							em dash						U+2014: EM DASH	
+														
+§							section sign						U+00A7: SECTION SIGN	
+†							dagger						U+2020: DAGGER	
+‡							double dagger						U+2021: DOUBLE DAGGER	
+′							prime						U+2032: PRIME	
+″							double prime						U+2033: DOUBLE PRIME	
+
 
 
 `

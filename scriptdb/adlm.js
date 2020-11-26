@@ -95,41 +95,41 @@ var spreadsheet = `
 															
 															
 															
-𞤭		i	i	i	i	vowel				𞤭 𞤭𞤭𞤭	i		U+1E92D: ADLAM SMALL LETTER I		adlam
-𞤵		u	u	u	u	vowel				𞤵 𞤵𞤵𞤵	ou		U+1E935: ADLAM SMALL LETTER U		adlam
-𞤫		e	ɛ	ɛ	e	vowel				𞤫 𞤫𞤫𞤫	è		U+1E92B: ADLAM SMALL LETTER E		adlam
-𞤮		o	ɔ	ɔ	ô o	vowel				𞤮 𞤮𞤮𞤮	ö		U+1E92E: ADLAM SMALL LETTER O		adlam
-𞤢		a	a	a	a	vowel				𞤢 𞤢𞤢𞤢	alif		U+1E922: ADLAM SMALL LETTER ALIF		adlam
+𞤭		i	i	i	i	vowel		𞤋		𞤭 𞤭𞤭𞤭	i		U+1E92D: ADLAM SMALL LETTER I		adlam
+𞤵		u	u	u	u	vowel		𞤓		𞤵 𞤵𞤵𞤵	ou		U+1E935: ADLAM SMALL LETTER U		adlam
+𞤫		e	ɛ	ɛ	e	vowel		𞤉		𞤫 𞤫𞤫𞤫	è		U+1E92B: ADLAM SMALL LETTER E		adlam
+𞤮		o	ɔ	ɔ	ô o	vowel		𞤌		𞤮 𞤮𞤮𞤮	ö		U+1E92E: ADLAM SMALL LETTER O		adlam
+𞤢		a	a	a	a	vowel		𞤀		𞤢 𞤢𞤢𞤢	alif		U+1E922: ADLAM SMALL LETTER ALIF		adlam
 															
 															
-𞤫𞥊	s	e	ɛ˙	e	e	extended vowel							U+1E92B U+1E94A: ADLAM SMALL LETTER E, NUKTA		adlam
-𞤮𞥊	s	o	ɔ˙	o	o	extended vowel							U+1E92E U+1E94A: ADLAM SMALL LETTER O, NUKTA		adlam
+𞤫𞥊	s	e	ɛ˙	e	e	extended vowel		𞤉𞥊					U+1E92B U+1E94A: ADLAM SMALL LETTER E, NUKTA		adlam
+𞤮𞥊	s	o	ɔ˙	o	o	extended vowel		𞤌𞥊					U+1E92E U+1E94A: ADLAM SMALL LETTER O, NUKTA		adlam
 															
 															
-𞤭𞥅	s	i	iː	iː	ii	long vowel							U+1E92D U+1E945: ADLAM SMALL LETTER I,  VOWEL LENGTHENER		
-𞤵𞥅	s	u	uː	uː	uu	long vowel							U+1E935 U+1E945: ADLAM SMALL LETTER U,  VOWEL LENGTHENER		
-𞤫𞥊𞥅	s	e	ɛ˙ː	eː	ee	long vowel							U+1E92B U+1E94A U+1E945: ADLAM SMALL LETTER E,  NUKTA,  VOWEL LENGTHENER		
-𞤮𞥊𞥅	s	o	ɔ˙ː	oː	oo	long vowel							U+1E92E U+1E94A U+1E945: ADLAM SMALL LETTER O,  NUKTA,  VOWEL LENGTHENER		
-𞤫𞥅	s	e	ɛː	ɛː	ee	long vowel							U+1E92B U+1E945: ADLAM SMALL LETTER E,  VOWEL LENGTHENER		
-𞤮𞥅	s	o	ɔː	ɔː	ôô oo	long vowel							U+1E92E U+1E945: ADLAM SMALL LETTER O,  VOWEL LENGTHENER		
-𞤢𞥄	s	a	aˉ	aː	aa	long vowel							U+1E922 U+1E944: ADLAM SMALL LETTER ALIF,  ALIF LENGTHENER		
+𞤭𞥅	s	i	iː	iː	ii	long vowel		𞤋𞥅					U+1E92D U+1E945: ADLAM SMALL LETTER I,  VOWEL LENGTHENER		
+𞤵𞥅	s	u	uː	uː	uu	long vowel		𞤓𞥅					U+1E935 U+1E945: ADLAM SMALL LETTER U,  VOWEL LENGTHENER		
+𞤫𞥊𞥅	s	e	ɛ˙ː	eː	ee	long vowel		𞤉𞥊𞥅					U+1E92B U+1E94A U+1E945: ADLAM SMALL LETTER E,  NUKTA,  VOWEL LENGTHENER		
+𞤮𞥊𞥅	s	o	ɔ˙ː	oː	oo	long vowel		𞤌𞥊𞥅					U+1E92E U+1E94A U+1E945: ADLAM SMALL LETTER O,  NUKTA,  VOWEL LENGTHENER		
+𞤫𞥅	s	e	ɛː	ɛː	ee	long vowel		𞤉𞥅					U+1E92B U+1E945: ADLAM SMALL LETTER E,  VOWEL LENGTHENER		
+𞤮𞥅	s	o	ɔː	ɔː	ôô oo	long vowel		𞤌𞥅					U+1E92E U+1E945: ADLAM SMALL LETTER O,  VOWEL LENGTHENER		
+𞤢𞥄	s	a	aˉ	aː	aa	long vowel		𞤀𞥄					U+1E922 U+1E944: ADLAM SMALL LETTER ALIF,  ALIF LENGTHENER		
 															
 															
-𞤋		I	I	i	I	uppercase vowel				𞤋 𞤋𞤋𞤋	i		U+1E90B: ADLAM CAPITAL LETTER I		adlam
-𞤓		U	U	u	U	uppercase vowel				𞤓 𞤓𞤓𞤓	ou		U+1E913: ADLAM CAPITAL LETTER U		adlam
-𞤉𞥊	s	E	Ɛ˙	e	E	uppercase vowel							U+1E92B U+1E94A: ADLAM SMALL LETTER E, NUKTA		
-𞤌𞥊	s	O	Ɔ˙	o	O	uppercase vowel							U+1E92E U+1E94A: ADLAM SMALL LETTER O, NUKTA		
-𞤉		E	Ɛ	ɛ	E	uppercase vowel				𞤉 𞤉𞤉𞤉	è		U+1E909: ADLAM CAPITAL LETTER E		adlam
-𞤌		O	Ɔ	ɔ	Ô O	uppercase vowel				𞤌 𞤌𞤌𞤌	ö		U+1E90C: ADLAM CAPITAL LETTER O		adlam
-𞤀		A	A	a	A	uppercase vowel				𞤀 𞤀𞤀𞤀	alif		U+1E900: ADLAM CAPITAL LETTER ALIF		adlam
+𞤋		I	I	i	I	uppercase vowel			𞤭	𞤋 𞤋𞤋𞤋	i		U+1E90B: ADLAM CAPITAL LETTER I		adlam
+𞤓		U	U	u	U	uppercase vowel			𞤵	𞤓 𞤓𞤓𞤓	ou		U+1E913: ADLAM CAPITAL LETTER U		adlam
+𞤉𞥊	s	E	Ɛ˙	e	E	uppercase vowel			𞤫𞥊				U+1E92B U+1E94A: ADLAM SMALL LETTER E, NUKTA		
+𞤌𞥊	s	O	Ɔ˙	o	O	uppercase vowel			𞤮𞥊				U+1E92E U+1E94A: ADLAM SMALL LETTER O, NUKTA		
+𞤉		E	Ɛ	ɛ	E	uppercase vowel			𞤫	𞤉 𞤉𞤉𞤉	è		U+1E909: ADLAM CAPITAL LETTER E		adlam
+𞤌		O	Ɔ	ɔ	Ô O	uppercase vowel			𞤮	𞤌 𞤌𞤌𞤌	ö		U+1E90C: ADLAM CAPITAL LETTER O		adlam
+𞤀		A	A	a	A	uppercase vowel			𞤢	𞤀 𞤀𞤀𞤀	alif		U+1E900: ADLAM CAPITAL LETTER ALIF		adlam
 															
-𞤋𞥅		I	Iː	iː	II	uppercase long vowel							U+1E90B U+1E945: ADLAM CAPITAL LETTER I.  VOWEL LENGTHENER		adlam
-𞤓𞥅		U	Uː	uː	UU	uppercase long vowel							U+1E913 U+1E945: ADLAM CAPITAL LETTER U.  VOWEL LENGTHENER		adlam
-𞤉𞥊𞥅	s	E	Ɛ˙ː	eː	EE	uppercase long vowel							U+1E909 U+1E94A U+1E945: ADLAM CAPITAL LETTER E.  NUKTA.  VOWEL LENGTHENER		
-𞤌𞥊𞥅	s	O	Ɔ˙ː	oː	OO	uppercase long vowel							U+1E90C U+1E94A U+1E945: ADLAM CAPITAL LETTER O.  NUKTA.  VOWEL LENGTHENER		
-𞤉𞥅		E	Ɛː	ɛː	EE	uppercase long vowel							U+1E909 U+1E945: ADLAM CAPITAL LETTER E.  VOWEL LENGTHENER		adlam
-𞤌𞥅		O	Ɔː	ɔː	ÔÔ OO	uppercase long vowel							U+1E90C U+1E945: ADLAM CAPITAL LETTER O.  VOWEL LENGTHENER		adlam
-𞤀𞥄		A	Aˉ	aː	AA	uppercase long vowel							U+1E900 U+1E944: ADLAM CAPITAL LETTER ALIF.  ALIF LENGTHENER		adlam															
+𞤋𞥅		I	Iː	iː	II	uppercase long vowel			𞤭𞥅				U+1E90B U+1E945: ADLAM CAPITAL LETTER I.  VOWEL LENGTHENER		adlam
+𞤓𞥅		U	Uː	uː	UU	uppercase long vowel			𞤵𞥅				U+1E913 U+1E945: ADLAM CAPITAL LETTER U.  VOWEL LENGTHENER		adlam
+𞤉𞥊𞥅	s	E	Ɛ˙ː	eː	EE	uppercase long vowel			𞤫𞥊𞥅				U+1E909 U+1E94A U+1E945: ADLAM CAPITAL LETTER E.  NUKTA.  VOWEL LENGTHENER		
+𞤌𞥊𞥅	s	O	Ɔ˙ː	oː	OO	uppercase long vowel			𞤮𞥊𞥅				U+1E90C U+1E94A U+1E945: ADLAM CAPITAL LETTER O.  NUKTA.  VOWEL LENGTHENER		
+𞤉𞥅		E	Ɛː	ɛː	EE	uppercase long vowel			𞤫𞥅				U+1E909 U+1E945: ADLAM CAPITAL LETTER E.  VOWEL LENGTHENER		adlam
+𞤌𞥅		O	Ɔː	ɔː	ÔÔ OO	uppercase long vowel			𞤮𞥅				U+1E90C U+1E945: ADLAM CAPITAL LETTER O.  VOWEL LENGTHENER		adlam
+𞤀𞥄		A	Aˉ	aː	AA	uppercase long vowel			𞤢𞥄				U+1E900 U+1E944: ADLAM CAPITAL LETTER ALIF.  ALIF LENGTHENER		adlam
 															
 															
 															
@@ -150,8 +150,11 @@ var spreadsheet = `
 𞥟		?	¿			question mark							U+1E95F: ADLAM INITIAL QUESTION MARK		adlam
 ⹁		,	,			comma							U+2E41: REVERSED COMMA		
 ⁏		;	;			semicolon							U+204F: REVERSED SEMICOLON		
+:						colon							U+003A: COLON		
 ؟		?	?			question mark							U+061F: ARABIC QUESTION MARK		arabic
-															
+!						exclamation mark							U+0021: EXCLAMATION MARK		
+“						quotation mark							U+201C: LEFT DOUBLE QUOTATION MARK		
+”						quotation mark							U+201D: RIGHT DOUBLE QUOTATION MARK																	
 															
 															
 															

@@ -290,6 +290,35 @@ var spreadsheet = `
 -อ	s	}	ʔ̯	ɔː	' o	consonant used as vowel		o ang	อ อ่าง	U+0E2D: THAI CHARACTER O ANG	
 
 
+\u200C			ₓ			zero-width non-joiner				U+200C: ZERO WIDTH NON-JOINER	
+\u200D			₊			zero-width joiner				U+200D: ZERO WIDTH JOINER	
+\u034F			ᶜᵍʲ			combining grapheme joiner				U+034F: COMBINING GRAPHEME JOINER​	
+											
+											
+«		"	“			quotation mark				U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
+»		"	”			quotation mark				U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
+ʼ						apostrophe				U+02BC: MODIFIER LETTER APOSTROPHE	
+,						comma				U+002C: COMMA	
+;						semicolon				U+003B: SEMICOLON	
+:						colon				U+003A: COLON	
+.						full stop				U+002E: FULL STOP	
+?						question mark				U+003F: QUESTION MARK	
+!						exclamation mark				U+0021: EXCLAMATION MARK	
+(						parenthesis				U+0028: LEFT PARENTHESIS	
+)						parenthesis				U+0029: RIGHT PARENTHESIS	
+…						ellipsis				U+2026: HORIZONTAL ELLIPSIS	
+–						en dash				U+2013: EN DASH	
+—						em dash				U+2014: EM DASH	
+											
+§						section sign				U+00A7: SECTION SIGN	
+†						dagger				U+2020: DAGGER	
+‡						double dagger				U+2021: DOUBLE DAGGER	
+′						prime				U+2032: PRIME	
+″						double prime				U+2033: DOUBLE PRIME	
+‐						hyphen				U+2010 HYPHEN	
+‑						non-breaking hyphen				U+2011 NON-BREAKING HYPHEN	
+
+
 
 `
 

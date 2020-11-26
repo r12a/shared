@@ -69,6 +69,7 @@ var spreadsheet = `
 													
 ـ		_	_				baseline extender	infrequent		tatweel		U+0640: ARABIC TATWEEL	arabic
 ،		,	,				comma					U+060C: ARABIC COMMA	arabic
+۔	x	.	.				full stop	infrequent				U+06D4: ARABIC FULL STOP	arabic
 ؛		;	;				semi-colon					U+061B: ARABIC SEMICOLON	arabic
 ؟		?	?				question mark					U+061F: ARABIC QUESTION MARK	arabic
 ٪		%	%				percent sign					U+066A: ARABIC PERCENT SIGN	arabic
@@ -81,6 +82,11 @@ var spreadsheet = `
 »		>	”				quotation mark					U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	latin
 ‹		<	‘				quotation mark					U+2018: LEFT SINGLE QUOTATION MARK	latin
 ›		>	’				quotation mark					U+2019: RIGHT SINGLE QUOTATION MARK	latin
+‘							quotation mark					U+2018: LEFT SINGLE QUOTATION MARK	
+’							quotation mark					U+2019: RIGHT SINGLE QUOTATION MARK	
+“							quotation mark					U+201C: LEFT DOUBLE QUOTATION MARK	
+”							quotation mark					U+201D: RIGHT DOUBLE QUOTATION MARK	
+—												U+2014: EM DASH	
 													
 													
 ٠		0	0				digit					U+0660: ARABIC-INDIC DIGIT ZERO	arabic
@@ -133,6 +139,28 @@ var spreadsheet = `
 													
 اللّٰه	s		Allāh				ligature	infrequent				U+0627 U+0644 U+0644 U+0651 U+0670 U+0647: ARABIC LETTER ALEF, LAM, LAM, SHADDA, SUPERSCRIPT ALEF, HEH														
 													
+
+
+
+ʼ							apostrophe					U+02BC: MODIFIER LETTER APOSTROPHE	
+,							comma					U+002C: COMMA	
+;							semicolon					U+003B: SEMICOLON	
+:							colon					U+003A: COLON	
+.							full stop					U+002E: FULL STOP	
+?							question mark					U+003F: QUESTION MARK	
+!							exclamation mark					U+0021: EXCLAMATION MARK	
+(							parenthesis					U+0028: LEFT PARENTHESIS	
+)							parenthesis					U+0029: RIGHT PARENTHESIS	
+…							ellipsis					U+2026: HORIZONTAL ELLIPSIS	
+–							en dash					U+2013: EN DASH	
+													
+§							section sign					U+00A7: SECTION SIGN	
+†							dagger					U+2020: DAGGER	
+‡							double dagger					U+2021: DOUBLE DAGGER	
+′							prime					U+2032: PRIME	
+″							double prime					U+2033: DOUBLE PRIME	
+‐							hyphen					U+2010 HYPHEN	
+‑							non-breaking hyphen					U+2011 NON-BREAKING HYPHEN	
 
 
 `

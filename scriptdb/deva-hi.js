@@ -95,8 +95,8 @@ var spreadsheet = `
 															
 ॐ							om symbol						U+0950: DEVANAGARI OM		devanagari
 ऽ		\	´		\	'	elision marker						U+093D: DEVANAGARI SIGN AVAGRAHA		devanagari
-₹		±	¤				currency symbol						U+20B9: INDIAN RUPEE SIGN		currencysymbols
-															
+₹		±	¤				currency symbol						U+20B9: INDIAN RUPEE SIGN		devanagari
+₨		±	¤				currency symbol						U+20A8 RUPEE SIGN		devanagari															
 															
 															
 ्		*	͓		*		virama				halant		U+094D: DEVANAGARI SIGN VIRAMA​		devanagari
@@ -106,11 +106,9 @@ var spreadsheet = `
 															
 															
 															
-।		.	.		.	.					purna viram		U+0964: DEVANAGARI DANDA		devanagari
-॥		|	¶		|	¶							U+0965: DEVANAGARI DOUBLE DANDA		devanagari
-॰		+	¨										U+0970: DEVANAGARI ABBREVIATION SIGN		devanagari
-															
-															
+।		.	.		.	.	danda				purna viram		U+0964: DEVANAGARI DANDA		devanagari
+॥		|	¶		|	¶	double danda						U+0965: DEVANAGARI DOUBLE DANDA		devanagari
+॰		+	¨				abbreviation sign						U+0970: DEVANAGARI ABBREVIATION SIGN		devanagari															
 															
 															
 															
@@ -118,6 +116,22 @@ var spreadsheet = `
 \u200D		=	₊				zero-width joiner						U+200D: ZERO WIDTH JOINER		punctuation
 															
 															
+‘							quotation mark						U+2018: LEFT SINGLE QUOTATION MARK		
+’							quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK		
+“							quotation mark						U+201C: LEFT DOUBLE QUOTATION MARK		
+”							quotation mark						U+201D: RIGHT DOUBLE QUOTATION MARK		
+ʼ							apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE		
+,							comma						U+002C: COMMA		
+;							semicolon						U+003B: SEMICOLON		
+:							colon						U+003A: COLON		
+.							full stop						U+002E: FULL STOP		
+?							question mark						U+003F: QUESTION MARK		
+!							exclamation mark						U+0021: EXCLAMATION MARK		
+(							parenthesis						U+0028: LEFT PARENTHESIS		
+)							parenthesis						U+0029: RIGHT PARENTHESIS		
+…							ellipsis						U+2026: HORIZONTAL ELLIPSIS		
+–							en dash						U+2013: EN DASH		
+—							em dash						U+2014: EM DASH																	
 															
 															
 															

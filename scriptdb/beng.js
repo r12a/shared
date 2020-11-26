@@ -115,22 +115,59 @@ var spreadsheet = `
 															
 															
 															
+।		.	.		.	.	danda							U+0964: DEVANAGARI DANDA	devanagari
+॥		¶	¶		¶		double danda							U+0965: DEVANAGARI DOUBLE DANDA	devanagari
+৽							abbreviation marker							U+09FD: BENGALI ABBREVIATION SIGN	bengali
+«		"	“		"		quotation mark							U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	punctuation
+»		"	”		"		quotation mark							U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	punctuation
 															
 															
 															
 															
-।		.	.		.	.								U+0964: DEVANAGARI DANDA	devanagari
-॥		¶	¶		¶									U+0965: DEVANAGARI DOUBLE DANDA	devanagari
-॰														U+0970: DEVANAGARI ABBREVIATION SIGN	devanagari
-«		"	“		"									U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	punctuation
-»		"	”		"									U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	punctuation
-\u200D		=	₊				formatting character							U+200D ZERO WIDTH JOINER	punctuation
-\u200C		=	ₓ				formatting character							U+200C ZERO WIDTH NON-JOINER	punctuation
 															
 															
-ড়	s	r	ɽ	ɽ	r	ɽ	consonant+nukta							U+09A1 U+09BC: BENGALI LETTER DDA, SIGN NUKTA	
-ঢ়	s	r	ɽ̇	ɽʱ	r	ɽ	consonant+nukta							U+09A2 U+09BC: BENGALI LETTER DDHA, SIGN NUKTA	
-য়	s	y	ẏ	j ɛ w	y	ẏ	consonant+nukta							U+09AF U+09BC: BENGALI LETTER YA, SIGN NUKTA	
+\u200C			ₓ				zero-width non-joiner							U+200C: ZERO WIDTH NON-JOINER	
+\u200D			₊				zero-width joiner							U+200D: ZERO WIDTH JOINER	
+\u2067			ʳˡⁱ				rtl isolate							U+2067: RIGHT-TO-LEFT ISOLATE	
+\u2066			ˡʳⁱ				ltr isolate							U+2066: LEFT-TO-RIGHT ISOLATE	
+\u2068			ᶠˢⁱ				first-strong isolate							U+2068: FIRST STRONG ISOLATE	
+\u2069			ᵖᵈⁱ				pop direction isolate							U+2069: POP DIRECTIONAL ISOLATE	
+\u202B			ʳˡᵉ				rtl embed							U+202B: RIGHT-TO-LEFT EMBEDDING	
+\u202A			ˡʳᵉ				ltr embed							U+202A: LEFT-TO-RIGHT EMBEDDING	
+\u202C			ᵖᵈᶠ				pop direction							U+202C: POP DIRECTIONAL FORMATTING	
+\u200F			ʳˡᵐ				rtl mark							U+200F: RIGHT-TO-LEFT MARK	
+\u200E			ˡʳᵐ				ltr mark							U+200E: LEFT-TO-RIGHT MARK	
+\u034F			ᶜᵍʲ				combining grapheme joiner							U+034F: COMBINING GRAPHEME JOINER​	
+\u061C			ᵃˡᵐ				arabic letter mark							U+061C: ARABIC LETTER MARK	
+															
+															
+“							quotation mark							U+201C: LEFT DOUBLE QUOTATION MARK	
+”							quotation mark							U+201D: RIGHT DOUBLE QUOTATION MARK	
+‘							quotation mark							U+2018: LEFT SINGLE QUOTATION MARK	
+’							quotation mark							U+2019: RIGHT SINGLE QUOTATION MARK	
+ʼ							apostrophe							U+02BC: MODIFIER LETTER APOSTROPHE	
+,							comma							U+002C: COMMA	
+;							semicolon							U+003B: SEMICOLON	
+:							colon							U+003A: COLON	
+.							full stop							U+002E: FULL STOP	
+?							question mark							U+003F: QUESTION MARK	
+!							exclamation mark							U+0021: EXCLAMATION MARK	
+(							parenthesis							U+0028: LEFT PARENTHESIS	
+)							parenthesis							U+0029: RIGHT PARENTHESIS	
+…							ellipsis							U+2026: HORIZONTAL ELLIPSIS	
+–							en dash							U+2013: EN DASH	
+—							em dash							U+2014: EM DASH	
+															
+§							section sign							U+00A7: SECTION SIGN	
+†							dagger							U+2020: DAGGER	
+‡							double dagger							U+2021: DOUBLE DAGGER	
+′							prime							U+2032: PRIME	
+″							double prime							U+2033: DOUBLE PRIME	
+															
+															
+ড়	s	r	ɖˑ	ɽ	r	ɽ	consonant+nukta							U+09A1 U+09BC: BENGALI LETTER DDA, SIGN NUKTA	
+ঢ়	s	r	ɖʰˑ	ɽʱ	r	ɽ	consonant+nukta							U+09A2 U+09BC: BENGALI LETTER DDHA, SIGN NUKTA	
+য়	s	y	ʲˑ	j ɛ w	y	ẏ	consonant+nukta							U+09AF U+09BC: BENGALI LETTER YA, SIGN NUKTA	
 ক্ষ	s	k	k͓ʃ̇	kʃ			conjunct							U+0995 U+09CD U+09B7: BENGALI LETTER KA, SIGN VIRAMA​,  LETTER SSA	
 ্য	s	Y	͓ʲ	a			conjunct							U+09CD U+09AF: BENGALI SIGN VIRAMA​, LETTER YA	
 

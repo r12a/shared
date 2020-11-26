@@ -169,7 +169,7 @@ var cols = {
 "ucsName":14,
 "block":15,
 
-//"othertranscriptions": [[4, 'ISO 15919']]
+"othertranscriptions": [[7, 'Latin']]
 }
 
 
