@@ -275,7 +275,7 @@ function showNameDetails (chars, clang, base, target, panel, list, translit) {
 		if (charData[charArray[c]]) {
             blockname = getScriptGroup(dec, false)
             blockfile = getScriptGroup(dec, true)
-            
+
 			out += '<div>'
 			if (blockfile) {
 				out += '<a target="'+target+'" href="'
@@ -286,7 +286,10 @@ function showNameDetails (chars, clang, base, target, panel, list, translit) {
 				out += ' U+'+hex + ' '+charData[charArray[c]]
 				out += '</a>'
 				}
-			else out += ' U+'+hex+' '+charData[charArray[c]]
+			else {
+				out += '<img src="'+'/c/'+blockname+"/"+hex+'.png'+'" alt="'+charArray[c]+'">'
+				out += ' U+'+hex+' '+charData[charArray[c]]
+				}
 			}
 		else {
 			out += '<img src="/c/Basic_Latin/005F.png" alt="U+'+hex+'"> U+'+hex+' No data for this character'
