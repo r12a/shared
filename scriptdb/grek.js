@@ -4,7 +4,7 @@ var spreadsheet = `
 ϊ		i	ï	i	vowel + dialytika			Ϊ			U+03CA: GREEK SMALL LETTER IOTA WITH DIALYTIKA	greek
 ΐ		i	ḯ	i	vowel + dialytika + tonos						U+0390: GREEK SMALL LETTER IOTA WITH DIALYTIKA AND TONOS	greek
 Ι		I	I	i ç ʝ ɲ	vowel		ι		iota	ιώτα	U+0399: GREEK CAPITAL LETTER IOTA	greek
-Ί		I	Í	i	vowel + tonos		ί				U+038A: GREEK CAPITAL LETTER IOTA WITH TONOS	greek
+Ί		i	Í	i	vowel + tonos		ί				U+038A: GREEK CAPITAL LETTER IOTA WITH TONOS	greek
 Ϊ		I	Ï	i	vowel + dialytika		ϊ				U+03AA: GREEK CAPITAL LETTER IOTA WITH DIALYTIKA	greek
 η		i	i	i	vowel			Η	eta	ήτα	U+03B7: GREEK SMALL LETTER ETA	greek
 ή		i	í	i	vowel + tonos			Ή			U+03AE: GREEK SMALL LETTER ETA WITH TONOS	greek
@@ -78,10 +78,67 @@ var spreadsheet = `
 												
 \u037E		?	?		question mark						U+037E: GREEK QUESTION MARK	greek
 \u0387		;	;		semicolon						U+0387: GREEK ANO TELEIA	greek
-												
+·			·		middle dot						U+00B7 MIDDLE DOT													
 												
 \u0301		[	ˊ		acute accent						U+0301: COMBINING ACUTE ACCENT​	
 \u0308		[	¨		diaeresis						U+0308: COMBINING DIAERESIS​	
+̀											U+0300: COMBINING GRAVE ACCENT​	
+̆											U+0306: COMBINING BREVE​	
+̍											U+030D: COMBINING VERTICAL LINE ABOVE​	
+̓											U+0313: COMBINING COMMA ABOVE​	
+̔											U+0314: COMBINING REVERSED COMMA ABOVE​	
+͂											U+0342: COMBINING GREEK PERISPOMENI​	
+̓											U+0313: COMBINING COMMA ABOVE​	
+̈́											U+0308 U+0301: COMBINING DIAERESIS, COMBINING ACUTE ACCENT​	
+ͅ											U+0345: COMBINING GREEK YPOGEGRAMMENI​													
+												
+												
+												
+												
+												
+												
+\u200B					zero-width space						U+200B ZERO WIDTH SPACE	
+\u200C			ₓ		zero-width non-joiner						U+200C: ZERO WIDTH NON-JOINER	
+\u200D			₊		zero-width joiner						U+200D: ZERO WIDTH JOINER	
+\u034F			ᶜᵍʲ		combining grapheme joiner						U+034F: COMBINING GRAPHEME JOINER​	
+\u2067			ʳˡⁱ		rtl isolate						U+2067: RIGHT-TO-LEFT ISOLATE	
+\u2066			ˡʳⁱ		ltr isolate						U+2066: LEFT-TO-RIGHT ISOLATE	
+\u2068			ᶠˢⁱ		first-strong isolate						U+2068: FIRST STRONG ISOLATE	
+\u2069			ᵖᵈⁱ		pop direction isolate						U+2069: POP DIRECTIONAL ISOLATE	
+\u202B			ʳˡᵉ		rtl embed						U+202B: RIGHT-TO-LEFT EMBEDDING	
+\u202A			ˡʳᵉ		ltr embed						U+202A: LEFT-TO-RIGHT EMBEDDING	
+\u202C			ᵖᵈᶠ		pop direction						U+202C: POP DIRECTIONAL FORMATTING	
+\u200F			ʳˡᵐ		rtl mark						U+200F: RIGHT-TO-LEFT MARK	
+\u200E			ˡʳᵐ		ltr mark						U+200E: LEFT-TO-RIGHT MARK	
+\u061C			ᵃˡᵐ		arabic letter mark						U+061C: ARABIC LETTER MARK	
+												
+												
+“		<			quotation mark						U+201C: LEFT DOUBLE QUOTATION MARK	
+”		>			quotation mark						U+201D: RIGHT DOUBLE QUOTATION MARK	
+‘		<			quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
+’		>			quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
+«		"	“		quotation mark						U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
+»		"	”		quotation mark						U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
+ʼ					apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
+,					comma						U+002C: COMMA	
+;					semicolon						U+003B: SEMICOLON	
+:					colon						U+003A: COLON	
+.					full stop						U+002E: FULL STOP	
+?					question mark						U+003F: QUESTION MARK	
+!					exclamation mark						U+0021: EXCLAMATION MARK	
+(					parenthesis						U+0028: LEFT PARENTHESIS	
+)					parenthesis						U+0029: RIGHT PARENTHESIS	
+…					ellipsis						U+2026: HORIZONTAL ELLIPSIS	
+–					en dash						U+2013: EN DASH	
+—					em dash						U+2014: EM DASH	
+												
+§					section sign						U+00A7: SECTION SIGN	
+†					dagger						U+2020: DAGGER	
+‡					double dagger						U+2021: DOUBLE DAGGER	
+′					prime						U+2032: PRIME	
+″					double prime						U+2033: DOUBLE PRIME	
+‐					hyphen						U+2010 HYPHEN	
+‑					non-breaking hyphen						U+2011 NON-BREAKING HYPHEN	
 
 
 `
