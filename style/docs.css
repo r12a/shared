@@ -784,3 +784,27 @@ body {
 	margin-top: .25em;
 	}
 .eg-highlight { color: chocolate; }
+
+
+
+
+#refs .fnDef {
+    font-size: 80%;
+    color: chocolate;
+    vertical-align: unset;
+    margin-inline-start: -2em;
+	position: absolute;
+	font-style: normal;
+	text-align: end;
+	left: -1em;
+	font-weight: bold;
+	}
+#refs p {
+	margin-inline-start: 12%;
+	position: relative;
+	line-height: 1.5;
+	}
+
+
+
+
