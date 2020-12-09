@@ -16,13 +16,13 @@ var spreadsheet = `
 ᐸ		p	pa	pᵃ	pa		syllable				U+1438: CANADIAN SYLLABICS PA	cans
 ᐹ		p	pā	pᵃ̱	paː		syllable				U+1439: CANADIAN SYLLABICS PAA	cans
 ᵖ		P	x	ᵖ			keyboard filler					
-ᐻ		P	pwe	pʷᵉ	pweː		syllable				U+143B: CANADIAN SYLLABICS WEST-CREE PWE	cans
-ᐽ		P	pwi	pʷⁱ	pwɪ		syllable				U+143D: CANADIAN SYLLABICS WEST-CREE PWI	cans
-ᐿ		P	pwī	pʷⁱ̠	pwiː		syllable				U+143F: CANADIAN SYLLABICS WEST-CREE PWII	cans
-ᑁ		P	pwo	pʷᵒ	pwʊ		syllable				U+1441: CANADIAN SYLLABICS WEST-CREE PWO	cans
-ᑃ		P	pwō	pʷᵒ̱	pwoː		syllable				U+1443: CANADIAN SYLLABICS WEST-CREE PWOO	cans
-ᑅ		P	pwa	pʷᵃ	pwa		syllable				U+1445: CANADIAN SYLLABICS WEST-CREE PWA	cans
-ᑇ		P	pwā	pʷᵃ̱	pwaː		syllable				U+1447: CANADIAN SYLLABICS WEST-CREE PWAA	cans
+ᐻ		P	pwe	pʷᵉ	pʷeː		syllable				U+143B: CANADIAN SYLLABICS WEST-CREE PWE	cans
+ᐽ		P	pwi	pʷⁱ	pʷɪ		syllable				U+143D: CANADIAN SYLLABICS WEST-CREE PWI	cans
+ᐿ		P	pwī	pʷⁱ̠	pʷiː		syllable				U+143F: CANADIAN SYLLABICS WEST-CREE PWII	cans
+ᑁ		P	pwo	pʷᵒ	pʷʊ		syllable				U+1441: CANADIAN SYLLABICS WEST-CREE PWO	cans
+ᑃ		P	pwō	pʷᵒ̱	pʷoː		syllable				U+1443: CANADIAN SYLLABICS WEST-CREE PWOO	cans
+ᑅ		P	pwa	pʷᵃ	pʷa		syllable				U+1445: CANADIAN SYLLABICS WEST-CREE PWA	cans
+ᑇ		P	pwā	pʷᵃ̱	pʷaː		syllable				U+1447: CANADIAN SYLLABICS WEST-CREE PWAA	cans
 												
 ᐟ		t	t	t	t		final consonant				U+141F: CANADIAN SYLLABICS FINAL ACUTE	cans
 ᑌ		t	te	tᵉ	teː		syllable				U+144C: CANADIAN SYLLABICS TE	cans
@@ -33,13 +33,13 @@ var spreadsheet = `
 ᑕ		t	ta	tᵃ	ta		syllable				U+1455: CANADIAN SYLLABICS TA	cans
 ᑖ		t	tā	tᵃ̱	taː		syllable				U+1456: CANADIAN SYLLABICS TAA	cans
 ᵗ		T	x	ᵗ			keyboard filler					
-ᑘ		T	twe	tʷᵉ	tweː		syllable				U+1458: CANADIAN SYLLABICS WEST-CREE TWE	cans
-ᑚ		T	twi	tʷⁱ	twɪ		syllable				U+145A: CANADIAN SYLLABICS WEST-CREE TWI	cans
-ᑜ		T	twī	tʷⁱ̠	twiː		syllable				U+145C: CANADIAN SYLLABICS WEST-CREE TWII	cans
-ᑞ		T	two	tʷᵒ	twʊ		syllable				U+145E: CANADIAN SYLLABICS WEST-CREE TWO	cans
-ᑠ		T	twō	tʷᵒ̱	twoː		syllable				U+1460: CANADIAN SYLLABICS WEST-CREE TWOO	cans
-ᑢ		T	twa	tʷᵃ	twa		syllable				U+1462: CANADIAN SYLLABICS WEST-CREE TWA	cans
-ᑤ		T	twā	tʷᵃ̱	twaː		syllable				U+1464: CANADIAN SYLLABICS WEST-CREE TWAA	cans
+ᑘ		T	twe	tʷᵉ	tʷeː		syllable				U+1458: CANADIAN SYLLABICS WEST-CREE TWE	cans
+ᑚ		T	twi	tʷⁱ	tʷɪ		syllable				U+145A: CANADIAN SYLLABICS WEST-CREE TWI	cans
+ᑜ		T	twī	tʷⁱ̠	tʷiː		syllable				U+145C: CANADIAN SYLLABICS WEST-CREE TWII	cans
+ᑞ		T	two	tʷᵒ	tʷʊ		syllable				U+145E: CANADIAN SYLLABICS WEST-CREE TWO	cans
+ᑠ		T	twō	tʷᵒ̱	tʷoː		syllable				U+1460: CANADIAN SYLLABICS WEST-CREE TWOO	cans
+ᑢ		T	twa	tʷᵃ	tʷa		syllable				U+1462: CANADIAN SYLLABICS WEST-CREE TWA	cans
+ᑤ		T	twā	tʷᵃ̱	tʷaː		syllable				U+1464: CANADIAN SYLLABICS WEST-CREE TWAA	cans
 												
 ᐠ		k	k	k	k		final consonant				U+1420: CANADIAN SYLLABICS FINAL GRAVE	cans
 ᑫ		k	ke	kᵉ	keː		syllable				U+146B: CANADIAN SYLLABICS KE	cans
@@ -50,30 +50,30 @@ var spreadsheet = `
 ᑲ		k	ka	kᵃ	ka		syllable				U+1472: CANADIAN SYLLABICS KA	cans
 ᑳ		k	kā	kᵃ̱	kaː		syllable				U+1473: CANADIAN SYLLABICS KAA	cans
 ᕽ		K	hk	kᶣ	hk		special consonant				U+157D CANADIAN SYLLABICS HK	cans
-ᑵ		K	kwe	kʷᵉ	kweː		syllable				U+1475: CANADIAN SYLLABICS WEST-CREE KWE	cans
-ᑷ		K	kwi	kʷⁱ	kwɪ		syllable				U+1477: CANADIAN SYLLABICS WEST-CREE KWI	cans
-ᑹ		K	kwī	kʷⁱ̠	kwiː		syllable				U+1479: CANADIAN SYLLABICS WEST-CREE KWII	cans
-ᑻ		K	kwo	kʷᵒ	kwʊ		syllable				U+147B: CANADIAN SYLLABICS WEST-CREE KWO	cans
-ᑽ		K	kwō	kʷᵒ̱	kwoː		syllable				U+147D: CANADIAN SYLLABICS WEST-CREE KWOO	cans
-ᑿ		K	kwa	kʷᵃ	kwa		syllable				U+147F: CANADIAN SYLLABICS WEST-CREE KWA	cans
-ᒁ		K	kwā	kʷᵃ̱	kwaː		syllable				U+1481: CANADIAN SYLLABICS WEST-CREE KWAA	cans
+ᑵ		K	kwe	kʷᵉ	kʷeː		syllable				U+1475: CANADIAN SYLLABICS WEST-CREE KWE	cans
+ᑷ		K	kwi	kʷⁱ	kʷɪ		syllable				U+1477: CANADIAN SYLLABICS WEST-CREE KWI	cans
+ᑹ		K	kwī	kʷⁱ̠	kʷiː		syllable				U+1479: CANADIAN SYLLABICS WEST-CREE KWII	cans
+ᑻ		K	kwo	kʷᵒ	kʷʊ		syllable				U+147B: CANADIAN SYLLABICS WEST-CREE KWO	cans
+ᑽ		K	kwō	kʷᵒ̱	kʷoː		syllable				U+147D: CANADIAN SYLLABICS WEST-CREE KWOO	cans
+ᑿ		K	kwa	kʷᵃ	kʷa		syllable				U+147F: CANADIAN SYLLABICS WEST-CREE KWA	cans
+ᒁ		K	kwā	kʷᵃ̱	kʷaː		syllable				U+1481: CANADIAN SYLLABICS WEST-CREE KWAA	cans
 												
-ᐨ		c	c	c	ʦ ʧ		final consonant				U+1428: CANADIAN SYLLABICS FINAL SHORT HORIZONTAL STROKE	cans
-ᒉ		c	ce	cᵉ	ʦeː ʧeː		syllable				U+1489: CANADIAN SYLLABICS CE	cans
-ᒋ		c	ci	cⁱ	ʦɪ ʧɪ		syllable				U+148B: CANADIAN SYLLABICS CI	cans
-ᒌ		c	cī	cⁱ̠	ʦiː ʧiː		syllable				U+148C: CANADIAN SYLLABICS CII	cans
-ᒍ		c	co	cᵒ	ʦʊ ʧʊ		syllable				U+148D: CANADIAN SYLLABICS CO	cans
-ᒎ		c	cō	cᵒ̱	ʦoː ʧoː		syllable				U+148E: CANADIAN SYLLABICS COO	cans
-ᒐ		c	ca	cᵃ	ʦa ʧa		syllable				U+1490: CANADIAN SYLLABICS CA	cans
-ᒑ		c	cā	cᵃ̱	ʦaː ʧaː		syllable				U+1491: CANADIAN SYLLABICS CAA	cans
+ᐨ		c	c	c	t͡s		final consonant				U+1428: CANADIAN SYLLABICS FINAL SHORT HORIZONTAL STROKE	cans
+ᒉ		c	ce	cᵉ	t͡seː		syllable				U+1489: CANADIAN SYLLABICS CE	cans
+ᒋ		c	ci	cⁱ	t͡sɪ		syllable				U+148B: CANADIAN SYLLABICS CI	cans
+ᒌ		c	cī	cⁱ̠	t͡siː		syllable				U+148C: CANADIAN SYLLABICS CII	cans
+ᒍ		c	co	cᵒ	t͡sʊ		syllable				U+148D: CANADIAN SYLLABICS CO	cans
+ᒎ		c	cō	cᵒ̱	t͡soː		syllable				U+148E: CANADIAN SYLLABICS COO	cans
+ᒐ		c	ca	cᵃ	t͡sa		syllable				U+1490: CANADIAN SYLLABICS CA	cans
+ᒑ		c	cā	cᵃ̱	t͡saː		syllable				U+1491: CANADIAN SYLLABICS CAA	cans
 ᶜ		C	x	ᶜ			keyboard filler					
-ᒓ		C	cwe	cʷᵉ	ʦweː ʧweː		syllable				U+1493: CANADIAN SYLLABICS WEST-CREE CWE	cans
-ᒕ		C	cwi	cʷⁱ	ʦwɪ ʧwɪ		syllable				U+1495: CANADIAN SYLLABICS WEST-CREE CWI	cans
-ᒗ		C	cwī	cʷⁱ̠	ʦwiː ʧwiː		syllable				U+1497: CANADIAN SYLLABICS WEST-CREE CWII	cans
-ᒙ		C	cwo	cʷᵒ	ʦwʊ ʧwʊ		syllable				U+1499: CANADIAN SYLLABICS WEST-CREE CWO	cans
-ᒛ		C	cwō	cʷᵒ̱	ʦwoː ʧwoː		syllable				U+149B: CANADIAN SYLLABICS WEST-CREE CWOO	cans
-ᒝ		C	cwa	cʷᵃ	ʦwa ʧwa		syllable				U+149D: CANADIAN SYLLABICS WEST-CREE CWA	cans
-ᒟ		C	cwā	cʷᵃ̱	ʦwaː ʧwaː		syllable				U+149F: CANADIAN SYLLABICS WEST-CREE CWAA	cans
+ᒓ		C	cwe	cʷᵉ	t͡sʷeː		syllable				U+1493: CANADIAN SYLLABICS WEST-CREE CWE	cans
+ᒕ		C	cwi	cʷⁱ	t͡sʷɪ		syllable				U+1495: CANADIAN SYLLABICS WEST-CREE CWI	cans
+ᒗ		C	cwī	cʷⁱ̠	t͡sʷiː		syllable				U+1497: CANADIAN SYLLABICS WEST-CREE CWII	cans
+ᒙ		C	cwo	cʷᵒ	t͡sʷʊ		syllable				U+1499: CANADIAN SYLLABICS WEST-CREE CWO	cans
+ᒛ		C	cwō	cʷᵒ̱	t͡sʷoː		syllable				U+149B: CANADIAN SYLLABICS WEST-CREE CWOO	cans
+ᒝ		C	cwa	cʷᵃ	t͡sʷa		syllable				U+149D: CANADIAN SYLLABICS WEST-CREE CWA	cans
+ᒟ		C	cwā	cʷᵃ̱	t͡sʷaː		syllable				U+149F: CANADIAN SYLLABICS WEST-CREE CWAA	cans
 												
 ᒼ		m	m	m	m		final consonant				U+14BC: CANADIAN SYLLABICS WEST-CREE M	cans
 ᒣ		m	me	mᵉ	meː		syllable				U+14A3: CANADIAN SYLLABICS ME	cans
@@ -84,13 +84,13 @@ var spreadsheet = `
 ᒪ		m	ma	mᵃ	ma		syllable				U+14AA: CANADIAN SYLLABICS MA	cans
 ᒫ		m	mā	mᵃ̱	maː		syllable				U+14AB: CANADIAN SYLLABICS MAA	cans
 ᒽ		M	mw	mʷ	mʷ		final consonant				U+14BD: CANADIAN SYLLABICS MH	cans
-ᒭ		M	mwe	mʷᵉ	mweː		syllable				U+14AD: CANADIAN SYLLABICS WEST-CREE MWE	cans
-ᒯ		M	mwi	mʷⁱ	mwɪ		syllable				U+14AF: CANADIAN SYLLABICS WEST-CREE MWI	cans
-ᒱ		M	mwī	mʷⁱ̠	mwiː		syllable				U+14B1: CANADIAN SYLLABICS WEST-CREE MWII	cans
-ᒳ		M	mwo	mʷᵒ	mwʊ		syllable				U+14B3: CANADIAN SYLLABICS WEST-CREE MWO	cans
-ᒵ		M	mwō	mʷᵒ̱	mwoː		syllable				U+14B5: CANADIAN SYLLABICS WEST-CREE MWOO	cans
-ᒷ		M	mwa	mʷᵃ	mwa		syllable				U+14B7: CANADIAN SYLLABICS WEST-CREE MWA	cans
-ᒹ		M	mwā	mʷᵃ̱	mwaː		syllable				U+14B9: CANADIAN SYLLABICS WEST-CREE MWAA	cans
+ᒭ		M	mwe	mʷᵉ	mʷeː		syllable				U+14AD: CANADIAN SYLLABICS WEST-CREE MWE	cans
+ᒯ		M	mwi	mʷⁱ	mʷɪ		syllable				U+14AF: CANADIAN SYLLABICS WEST-CREE MWI	cans
+ᒱ		M	mwī	mʷⁱ̠	mʷiː		syllable				U+14B1: CANADIAN SYLLABICS WEST-CREE MWII	cans
+ᒳ		M	mwo	mʷᵒ	mʷʊ		syllable				U+14B3: CANADIAN SYLLABICS WEST-CREE MWO	cans
+ᒵ		M	mwō	mʷᵒ̱	mʷoː		syllable				U+14B5: CANADIAN SYLLABICS WEST-CREE MWOO	cans
+ᒷ		M	mwa	mʷᵃ	mʷa		syllable				U+14B7: CANADIAN SYLLABICS WEST-CREE MWA	cans
+ᒹ		M	mwā	mʷᵃ̱	mʷaː		syllable				U+14B9: CANADIAN SYLLABICS WEST-CREE MWAA	cans
 												
 ᐣ		n	n	n	n		final consonant				U+1423: CANADIAN SYLLABICS FINAL RIGHT HALF RING	cans
 ᓀ		n	ne	nᵉ	neː		syllable				U+14C0: CANADIAN SYLLABICS NE	cans
@@ -101,13 +101,13 @@ var spreadsheet = `
 ᓇ		n	na	nᵃ	na		syllable				U+14C7: CANADIAN SYLLABICS NA	cans
 ᓈ		n	nā	nᵃ̱	naː		syllable				U+14C8: CANADIAN SYLLABICS NAA	cans
 ⁿ		N	x	ⁿ			keyboard filler					
-ᓊ		N	nwe	nʷᵉ	nweː		syllable				U+14CA: CANADIAN SYLLABICS WEST-CREE NWE	cans
-ᣇ		N	nwi	nʷⁱ	nwɪ		syllable				U+18C7: CANADIAN SYLLABICS OJIBWAY NWI	cans
-ᣉ		N	nwī	nʷⁱ̠	nwiː		syllable				U+18C9: CANADIAN SYLLABICS OJIBWAY NWII	cans
-ᣋ		N	nwo	nʷᵒ	nwʊ		syllable				U+18CB: CANADIAN SYLLABICS OJIBWAY NWO	cans
-ᣍ		N	nwō	nʷᵒ̱	nwoː		syllable				U+18CD: CANADIAN SYLLABICS OJIBWAY NWOO	cans
-ᓌ		N	nwa	nʷᵃ	nwa		syllable				U+14CC: CANADIAN SYLLABICS WEST-CREE NWA	cans
-ᓎ		N	nwā	nʷᵃ̱	nwaː		syllable				U+14CE: CANADIAN SYLLABICS WEST-CREE NWAA	cans
+ᓊ		N	nwe	nʷᵉ	nʷeː		syllable				U+14CA: CANADIAN SYLLABICS WEST-CREE NWE	cans
+ᣇ		N	nwi	nʷⁱ	nʷɪ		syllable				U+18C7: CANADIAN SYLLABICS OJIBWAY NWI	cans
+ᣉ		N	nwī	nʷⁱ̠	nʷiː		syllable				U+18C9: CANADIAN SYLLABICS OJIBWAY NWII	cans
+ᣋ		N	nwo	nʷᵒ	nʷʊ		syllable				U+18CB: CANADIAN SYLLABICS OJIBWAY NWO	cans
+ᣍ		N	nwō	nʷᵒ̱	nʷoː		syllable				U+18CD: CANADIAN SYLLABICS OJIBWAY NWOO	cans
+ᓌ		N	nwa	nʷᵃ	nʷa		syllable				U+14CC: CANADIAN SYLLABICS WEST-CREE NWA	cans
+ᓎ		N	nwā	nʷᵃ̱	nʷaː		syllable				U+14CE: CANADIAN SYLLABICS WEST-CREE NWAA	cans
 												
 ᐢ		s	s	s	s		final consonant				U+1422: CANADIAN SYLLABICS FINAL TOP HALF RING	cans
 ᓭ		s	se	sᵉ	seː		syllable				U+14ED: CANADIAN SYLLABICS SE	cans
@@ -118,13 +118,13 @@ var spreadsheet = `
 ᓴ		s	sa	sᵃ	sa		syllable				U+14F4: CANADIAN SYLLABICS SA	cans
 ᓵ		s	sā	sᵃ̱	saː		syllable				U+14F5: CANADIAN SYLLABICS SAA	cans
 ˢ		S	x	ˢ			keyboard filler					
-ᓷ		S	swe	sʷᵉ	sweː		syllable				U+14F7: CANADIAN SYLLABICS WEST-CREE SWE	cans
-ᓹ		S	swi	sʷⁱ	swɪ		syllable				U+14F9: CANADIAN SYLLABICS WEST-CREE SWI	cans
-ᓻ		S	swī	sʷⁱ̠	swiː		syllable				U+14FB: CANADIAN SYLLABICS WEST-CREE SWII	cans
-ᓽ		S	swo	sʷᵒ	swʊ		syllable				U+14FD: CANADIAN SYLLABICS WEST-CREE SWO	cans
-ᓿ		S	swō	sʷᵒ̱	swoː		syllable				U+14FF: CANADIAN SYLLABICS WEST-CREE SWOO	cans
-ᔁ		S	swa	sʷᵃ	swa		syllable				U+1501: CANADIAN SYLLABICS WEST-CREE SWA	cans
-ᔃ		S	swā	sʷᵃ̱	swaː		syllable				U+1503: CANADIAN SYLLABICS WEST-CREE SWAA	cans
+ᓷ		S	swe	sʷᵉ	sʷeː		syllable				U+14F7: CANADIAN SYLLABICS WEST-CREE SWE	cans
+ᓹ		S	swi	sʷⁱ	sʷɪ		syllable				U+14F9: CANADIAN SYLLABICS WEST-CREE SWI	cans
+ᓻ		S	swī	sʷⁱ̠	sʷiː		syllable				U+14FB: CANADIAN SYLLABICS WEST-CREE SWII	cans
+ᓽ		S	swo	sʷᵒ	sʷʊ		syllable				U+14FD: CANADIAN SYLLABICS WEST-CREE SWO	cans
+ᓿ		S	swō	sʷᵒ̱	sʷoː		syllable				U+14FF: CANADIAN SYLLABICS WEST-CREE SWOO	cans
+ᔁ		S	swa	sʷᵃ	sʷa		syllable				U+1501: CANADIAN SYLLABICS WEST-CREE SWA	cans
+ᔃ		S	swā	sʷᵃ̱	sʷaː		syllable				U+1503: CANADIAN SYLLABICS WEST-CREE SWAA	cans
 												
 ᕒ		r	r	r	r		special character				U+1552: CANADIAN SYLLABICS MEDIAL R	cans
 ᕑ		r	r	r	r		special character				U+1551 CANADIAN SYLLABICS WEST-CREE R	cans
@@ -140,14 +140,15 @@ var spreadsheet = `
 ᔫ		y	yō	jᵒ̱	joː		syllable				U+152B: CANADIAN SYLLABICS YOO	cans
 ᔭ		y	ya	jᵃ	ja		syllable				U+152D: CANADIAN SYLLABICS YA	cans
 ᔮ		y	yā	jᵃ̱	jaː		syllable				U+152E: CANADIAN SYLLABICS YAA	cans
-ᣞ		Y	y	ý	j		final consonant				U+18DE CANADIAN SYLLABICS FINAL SMALL RING	cans
-ᔰ		Y	ywe	jʷᵉ	jwe		syllable				U+1530: CANADIAN SYLLABICS WEST-CREE YWE	cans
-ᔲ		Y	ywi	jʷⁱ	jwɪ		syllable				U+1532: CANADIAN SYLLABICS WEST-CREE YWI	cans
-ᔴ		Y	ywī	jʷⁱ̠	jwiː		syllable				U+1534: CANADIAN SYLLABICS WEST-CREE YWII	cans
-ᔶ		Y	ywo	jʷᵒ	jwʊ		syllable				U+1536: CANADIAN SYLLABICS WEST-CREE YWO	cans
-ᔸ		Y	ywō	jʷᵒ̱	jwoː		syllable				U+1538: CANADIAN SYLLABICS WEST-CREE YWOO	cans
-ᔺ		Y	ywa	jʷᵃ	jwa		syllable				U+153A: CANADIAN SYLLABICS WEST-CREE YWA	cans
-ᔼ		Y	ywā	jʷᵃ̱	jwaː		syllable				U+153C: CANADIAN SYLLABICS WEST-CREE YWAA	cans
+ᣞ			y	ý	j		final consonant	used for Swampy Cree & Ojibwe			U+18DE CANADIAN SYLLABICS FINAL SMALL RING	cans
+ᣟ		Y	y	ý	j		final consonant				U+18DF CANADIAN SYLLABICS FINAL RAISED DOT	cans
+ᔰ		Y	ywe	jʷᵉ	jʷe		syllable				U+1530: CANADIAN SYLLABICS WEST-CREE YWE	cans
+ᔲ		Y	ywi	jʷⁱ	jʷɪ		syllable				U+1532: CANADIAN SYLLABICS WEST-CREE YWI	cans
+ᔴ		Y	ywī	jʷⁱ̠	jʷiː		syllable				U+1534: CANADIAN SYLLABICS WEST-CREE YWII	cans
+ᔶ		Y	ywo	jʷᵒ	jʷʊ		syllable				U+1536: CANADIAN SYLLABICS WEST-CREE YWO	cans
+ᔸ		Y	ywō	jʷᵒ̱	jʷoː		syllable				U+1538: CANADIAN SYLLABICS WEST-CREE YWOO	cans
+ᔺ		Y	ywa	jʷᵃ	jʷa		syllable				U+153A: CANADIAN SYLLABICS WEST-CREE YWA	cans
+ᔼ		Y	ywā	jʷᵃ̱	jʷaː		syllable				U+153C: CANADIAN SYLLABICS WEST-CREE YWAA	cans
 												
 ᐤ		w	w	w	w		final consonant				U+1424: CANADIAN SYLLABICS FINAL RING	cans
 ᐍ		w	we	wᵉ	weː		syllable				U+140D: CANADIAN SYLLABICS WEST-CREE WE	cans
@@ -165,6 +166,53 @@ var spreadsheet = `
 \u202F		§	 								U+202F NARROW NO-BREAK SPACE	
 \u2003		§	 								U+2003 EM SPACE	
 ᙮		.	.	.							U+166E CANADIAN SYLLABICS FULL STOP	cans
+												
+												
+												
+												
+												
+\u200B							zero-width space				U+200B ZERO WIDTH SPACE	
+\u200C			ₓ				zero-width non-joiner				U+200C: ZERO WIDTH NON-JOINER	
+\u200D			₊				zero-width joiner				U+200D: ZERO WIDTH JOINER	
+\u034F			ᶜᵍʲ				combining grapheme joiner				U+034F: COMBINING GRAPHEME JOINER​	
+\u2067			ʳˡⁱ				rtl isolate				U+2067: RIGHT-TO-LEFT ISOLATE	
+\u2066			ˡʳⁱ				ltr isolate				U+2066: LEFT-TO-RIGHT ISOLATE	
+\u2068			ᶠˢⁱ				first-strong isolate				U+2068: FIRST STRONG ISOLATE	
+\u2069			ᵖᵈⁱ				pop direction isolate				U+2069: POP DIRECTIONAL ISOLATE	
+\u202B			ʳˡᵉ				rtl embed				U+202B: RIGHT-TO-LEFT EMBEDDING	
+\u202A			ˡʳᵉ				ltr embed				U+202A: LEFT-TO-RIGHT EMBEDDING	
+\u202C			ᵖᵈᶠ				pop direction				U+202C: POP DIRECTIONAL FORMATTING	
+\u200F			ʳˡᵐ				rtl mark				U+200F: RIGHT-TO-LEFT MARK	
+\u200E			ˡʳᵐ				ltr mark				U+200E: LEFT-TO-RIGHT MARK	
+\u061C			ᵃˡᵐ				arabic letter mark				U+061C: ARABIC LETTER MARK	
+												
+												
+“				<			quotation mark				U+201C: LEFT DOUBLE QUOTATION MARK	
+”				>			quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK	
+‘				<			quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	
+’				>			quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
+«			“	"			quotation mark				U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
+»			”	"			quotation mark				U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
+ʼ							apostrophe				U+02BC: MODIFIER LETTER APOSTROPHE	
+,							comma				U+002C: COMMA	
+;							semicolon				U+003B: SEMICOLON	
+:							colon				U+003A: COLON	
+.							full stop				U+002E: FULL STOP	
+?							question mark				U+003F: QUESTION MARK	
+!							exclamation mark				U+0021: EXCLAMATION MARK	
+(							parenthesis				U+0028: LEFT PARENTHESIS	
+)							parenthesis				U+0029: RIGHT PARENTHESIS	
+…							ellipsis				U+2026: HORIZONTAL ELLIPSIS	
+–							en dash				U+2013: EN DASH	
+—							em dash				U+2014: EM DASH	
+												
+§							section sign				U+00A7: SECTION SIGN	
+†							dagger				U+2020: DAGGER	
+‡							double dagger				U+2021: DOUBLE DAGGER	
+′							prime				U+2032: PRIME	
+″							double prime				U+2033: DOUBLE PRIME	
+‐							hyphen				U+2010 HYPHEN	
+‑							non-breaking hyphen				U+2011 NON-BREAKING HYPHEN	
 
 
 
@@ -195,6 +243,6 @@ var cols = {
 "ucsName": 11,
 "block": 12,
 
-"othertranscriptions": [[5, 'Latin']]
+"othertranscriptions": [[2, 'Latin']]
 }
 
