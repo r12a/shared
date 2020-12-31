@@ -146,6 +146,19 @@ var spreadsheet = `
 \u1B3F\u1B35	d	a		aʷ	aːu	compound vowel			ᭁ		U+1B3F U+1B35: BALINESE VOWEL SIGN TALING REPA, VOWEL SIGN TEDUNG​	
 \u1B42\u1B35	d	e		ə̄	əː 	compound vowel			ᭃ		U+1B42 U+1B35: BALINESE VOWEL SIGN PEPET, VOWEL SIGN TEDUNG​	
 
+ᬳᬶ	s		ā	hi	i	medial standalone vowel					U+1B33 U+1B36: BALINESE LETTER HA VOWEL SIGN ULU	
+ᬳᬷ	s		ai	hī	iː	medial standalone vowel					U+1B33 U+1B37: BALINESE LETTER HA VOWEL SIGN ULU SARI	
+ᬳᬸ	s		au	hu	u	medial standalone vowel					U+1B33 U+1B38: BALINESE LETTER HA VOWEL SIGN SUKU	
+ᬳᬹ	s		i	hū	uː	medial standalone vowel					U+1B33 U+1B39: BALINESE LETTER HA VOWEL SIGN SUKU ILUT	
+ᬳᬾ	s		ī	he	e ɛ	medial standalone vowel					U+1B33 U+1B3E: BALINESE LETTER HA VOWEL SIGN TALING	
+ᬳᭀ	s		u	ho	o ɔ	medial standalone vowel					U+1B33 U+1B40: BALINESE LETTER HA VOWEL SIGN TALING TEDUNG	
+ᬳᭂ	s		ū	hə	ə	medial standalone vowel					U+1B33 U+1B42: BALINESE LETTER HA VOWEL SIGN PEPET	
+ᬳᭃ	s		e	hə̄	əː	medial standalone vowel					U+1B33 U+1B43: BALINESE LETTER HA VOWEL SIGN PEPET TEDUNG	
+ᬳᬵ	s		ĕ	hɑ̄	ɑː	medial standalone vowel					U+1B33 U+1B35: BALINESE LETTER HA VOWEL SIGN TEDUNG	
+ᬳᬿ	s		ö	haʲ	aːi	medial standalone vowel					U+1B33 U+1B3F: BALINESE LETTER HA VOWEL SIGN TALING REPA	
+ᬳᭁ	s		o	haʷ	aːu	medial standalone vowel					U+1B33 U+1B41: BALINESE LETTER HA VOWEL SIGN TALING REPA TEDUNG	
+
+
 
 
 `
