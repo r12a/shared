@@ -96,7 +96,7 @@ function setFigRefs () {
     for (let i=0;i<figs.length;i++) {
         if (figs[i].querySelector('figcaption') !== null) figures[figs[i].id] = ++counter
         }
-    console.log('figures',figures)
+    //console.log('figures',figures)
 	
 	var figrefs = document.querySelectorAll('.figref')
     for (let i=0;i<figrefs.length;i++) {
