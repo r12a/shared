@@ -42,8 +42,8 @@ var spreadsheet = `
 ᨕᨗ	s	i	ǝ̣i	i	i					U+1A15 U+1A17: BUGINESE LETTER A, VOWEL SIGN I	
 ᨕᨘ	s	u	ǝ̣u	u	u					U+1A15 U+1A18: BUGINESE LETTER A, VOWEL SIGN U	
 ᨕᨙ	s	e	ǝ̣e	e	e					U+1A15 U+1A19: BUGINESE LETTER A, VOWEL SIGN E	
-ᨕ	s	o	ǝ̣	o	o					U+1A15: BUGINESE LETTER A	
-ᨕ	s	e	ǝ̣	ə	ə					U+1A15: BUGINESE LETTER A	
+ᨕᨚ	s	o	ǝ̣o	o	o					U+1A15 U+1A1A: BUGINESE LETTER A, VOWEL SIGN O	
+ᨕᨛ	s	e	ǝ̣ə	ə	ə					U+1A15 U+1A1B: BUGINESE LETTER A, VOWEL SIGN AE	
 
 
 `
