@@ -54,14 +54,25 @@ var spreadsheet = `
 ဪ		O	au	ɔ̣̇	ʔɔ̀	independent vowel						U+102A: MYANMAR LETTER AU	myanmar
 													
 													
-ာ		a	a	a	-a	vowel sign						U+102C: MYANMAR VOWEL SIGN AA​	myanmar
-ါ		a	a	ä	-a	vowel sign						U+102B: MYANMAR VOWEL SIGN TALL AA​	myanmar
 ိ		i	i.	i	-i -eɪ-	vowel sign			ဣ			U+102D: MYANMAR VOWEL SIGN I​	myanmar
 ီ		i	i	ï	-i	vowel sign			ဤ			U+102E: MYANMAR VOWEL SIGN II​	myanmar
 ု		u	u.	u	-u -oʊ-	vowel sign			ဥ			U+102F: MYANMAR VOWEL SIGN U​	myanmar
 ူ		u	u	u̇	-u	vowel sign			ဦ			U+1030: MYANMAR VOWEL SIGN UU​	myanmar
 ေ		e	e	e	-e	vowel sign			ဧ			U+1031: MYANMAR VOWEL SIGN E​	myanmar
 ဲ		e	ai:	ɛ	-ɛ	vowel sign						U+1032: MYANMAR VOWEL SIGN AI​	myanmar
+ာ		a	a	a	-a	vowel sign						U+102C: MYANMAR VOWEL SIGN AA​	myanmar
+ါ		a	a	ä	-a	vowel sign						U+102B: MYANMAR VOWEL SIGN TALL AA​	myanmar
+													
+													
+အိ	s	i	i.	ʔi	-i -eɪ-	standalone vowel						U+1021 U+102D: MYANMAR LETTER A, VOWEL SIGN I	
+အီ	s	i	i	ʔï	-i	standalone vowel						U+1021 U+102E: MYANMAR LETTER A, VOWEL SIGN II	
+အု	s	u	u.	ʔu	-u -oʊ-	standalone vowel						U+1021 U+102F: MYANMAR LETTER A, VOWEL SIGN U	
+အူ	s	u	u	ʔu̇	-u	standalone vowel						U+1021 U+1030: MYANMAR LETTER A, VOWEL SIGN UU	
+အေ	s	e	e	ʔe	-e	standalone vowel						U+1021 U+1031: MYANMAR LETTER A, VOWEL SIGN E	
+အဲ	s	e	ai:	ʔɛ	-ɛ	standalone vowel						U+1021 U+1032: MYANMAR LETTER A, VOWEL SIGN AI	
+အာ	s	a	a	ʔa	-a	standalone vowel						U+1021 U+102C: MYANMAR LETTER A, VOWEL SIGN AA	
+အါ	s	a	a	ʔä	-a	standalone vowel						U+1021 U+102B: MYANMAR LETTER A, VOWEL SIGN TALL AA	
+
 													
 													
 ်		\\		ˣ		asat				əθaʔ	အသတ်	U+103A: MYANMAR SIGN ASAT​	myanmar
