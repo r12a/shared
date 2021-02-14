@@ -397,7 +397,7 @@ var charArray = [... chars]
 
 for (let i=0;i<charArray.length;i++) {
 	if (spreadsheetRows[charArray[i]]) {
-		out += '<tr><th class="cdChar" onclick="this.parentNode.parentNode.parentNode.style.display=\'none\'"><span class="ex" lang="fuf">'+charArray[i]+'</span></th>'
+		out += '<tr><th class="cdChar" onclick="this.parentNode.parentNode.parentNode.style.display=\'none\'"><span class="ex" lang="fuf">'+charArray[i]+'</span><br><span class="cdCharClose">x</span></th>'
 		out += '<td class="cdData">'
 		out += '<p class="cdHeader"><span class="uname cdTitle">'+spreadsheetRows[charArray[i]][cols['ucsName']]+'</span> '
 	
