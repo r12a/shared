@@ -16,6 +16,7 @@ var sampleScriptsIndex = {
     'copt': { name: "Coptic", langs:['cop']},
     'cyrl': { name: "Cyrillic", langs:['kk', 'ky', 'ru']},
     'deva': { name: "Devanagari", langs:['hi', 'ks-deva', 'npi']},
+    'dsrt': { name: "English (Deseret)", langs:['en-dsrt']},
     'egyp': { name: "Egyptian hieroglyphs", langs:['egy']},
     'elym': { name: "Elymaic", langs:['xly']},
     'ethi': { name: "Ethiopic", langs:['am']},

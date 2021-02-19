@@ -104,6 +104,7 @@ var fontDB = [
 { name:"New Peninim MT",	system:new Set([mac]), locales:new Set(['hebr']), style:'serif' },
 { name:"Noto Sans Adlam",	system:new Set([goog]), locales:new Set(['adlm']), style:'serif' },
 { name:"Noto Sans Adlam Unjoined",system:new Set([goog]), locales:new Set(['adlm']), style:'serif' },
+{ name:"Noto Sans Deseret",	system:new Set([goog]), locales:new Set(['dsrt']), style:'sans' },
 { name:"Noto Sans Limbu",	system:new Set([goog]), locales:new Set(['limb']), style:'serif' },
 { name:"Noto Sans Old Persian",system:new Set([goog]), locales:new Set(['xpeo']), style:'serif' },
 { name:"Noto Sans Oriya",	system:new Set([goog, mac, ios]), locales:new Set(['orya']), style:'serif' },
