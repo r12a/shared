@@ -79,5 +79,6 @@ var sampleScriptsIndex = {
     'tfng': { name: "Tifinagh", langs:['zgh']},
     'ugar': { name: "Ugaritic", langs:['uga']},
     'vaii': { name: "Vai", langs:['vai']},
+    'xpeo': { name: "Old Persian", langs:['peo']},
     'yiii': { name: "Yi", langs:['ii']},
     }
