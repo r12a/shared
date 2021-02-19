@@ -403,6 +403,12 @@ phraseDB = {
 		sourceURL: "http://std.dkuug.dk/jtc1/sc2/wg2/docs/n3286.pdf p14"
 		},
 
+'peo': { name: 'Old Persian',
+		text: "𐏑𐎶𐎼𐎫𐎡𐎹𐏐𐎶𐎦𐎢𐏁𐏐𐎠𐏃𐏐𐎥𐎢𐎶𐎠𐎫𐏐𐎴𐎠𐎶",
+		source: "Copied from the Behistun inscription by Roozbeh Pournader.",
+		sourceURL: "https://twitter.com/roozbehp/status/1362601828962082817"
+		},
+
 'phn': { name: 'Phoenician',
 		text: "𐤀𐤍𐤊 𐤟 𐤌𐤔𐤏 𐤟 𐤁𐤍 𐤟 𐤊𐤌𐤔𐤌𐤋𐤊 𐤟 𐤌𐤋𐤊 𐤟 𐤌𐤀𐤁 𐤟 𐤄𐤃𐤉𐤁𐤍𐤉 | 𐤊𐤁𐤉 𐤟 𐤌𐤋𐤊 𐤟 𐤏𐤋 𐤟 𐤌𐤀𐤁 𐤟 𐤔𐤋𐤔𐤍 𐤟 𐤔𐤕 𐤟 𐤅𐤀𐤍𐤊 𐤟 𐤌𐤋𐤊𐤕𐤉 𐤟 𐤀𐤇𐤓 𐤟 𐤀𐤁𐤉 |",
 		source: "Unknown",
