@@ -550,6 +550,12 @@ phraseDB = {
 		sourceURL: "https://www.unicode.org/L2/L2017/17226-elymaean.pdf p21"
 		},
 
+'xmn': { name: 'Manichaean Middle Persian',
+		text: "𐫀𐫁𐫡𐫅𐫡 𐫖𐫍𐫏 𐫀𐫇𐫅 𐫇𐫏𐫍𐫖𐫅𐫡 𐫀𐫝 𐫶𐫶𐫶𐫶 𐫀𐫁𐫀𐫡𐫏𐫃𐫀𐫗 𐫀𐫇𐫓",
+		source: "Fragment of text from manuscript M7981/II/R/i/23/, cited in the Unicode proposal, L2/11-123R, figure 6.",
+		sourceURL: "https://www.unicode.org/L2/L2011/11123r-n4029r-manichaean.pdf fig. 6"
+		},
+
 'xpr': { name: 'Inscriptional Parthian',
 		text: "𐭅𐭕𐭀𐭅𐭍𐭉𐭆𐭍𐭄𐭋𐭉 𐭒𐭉𐭃𐭉𐭆𐭍 𐭀𐭋𐭇𐭀 𐭔𐭇𐭉𐭐𐭅𐭇𐭓 𐭌𐭋𐭓𐭉𐭍𐭌𐭋𐭀 𐭀𐭓𐭉𐭀𐭍𐭅 𐭀𐭍𐭀𐭓𐭉𐭀𐭍𐭌𐭍𐭅𐭔𐭉𐭇𐭓 𐭌𐭍 𐭉𐭀𐭆𐭕𐭍𐭏𐭓𐭉 𐭌𐭉𐭃𐭉𐭆𐭍𐭀𐭋𐭇𐭀 𐭀𐭓𐭕𐭇𐭔𐭕𐭂 𐭌𐭋𐭓𐭉𐭍𐭌𐭋𐭓𐭀",
 		source: "Inscription from Hajjibad in Parthian script, from Nyberg 1964",
