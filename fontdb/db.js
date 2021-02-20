@@ -107,7 +107,7 @@ var fontDB = [
 { name:"Noto Sans Limbu",	system:new Set([goog]), locales:new Set(['limb']), style:'serif' },
 { name:"Noto Sans Old Persian",system:new Set([goog]), locales:new Set(['xpeo']), style:'serif' },
 { name:"Noto Sans Oriya",	system:new Set([goog, mac, ios]), locales:new Set(['orya']), style:'serif' },
-{ name:"Noto Sans Siddham",	system:new Set([goog]), locales:new Set(['sidd']), style:'sans' },
+{ name:"Noto Sans Siddham",	system:new Set([goog]), locales:new Set(['sidd']), style:'serif' },
 { name:"Noto Sans Tai Viet",system:new Set([goog]), locales:new Set(['tavt']), style:'serif' },
 { name:"Noto Serif",		system:new Set([goog]), locales:new Set(['latn', 'latn-ha', 'latn-afr', 'ipa', 'cyrl', 'grek']), style:'serif' },
 { name:"Noto Serif Armenian",system:new Set([goog]), locales:new Set(['armn']), style:'serif' },
