@@ -164,7 +164,7 @@ phraseDB = {
 'fa': { name: 'Persian', 
 		text: "مادهٔ اول تمام افراد بشر آزاد بدنیا میایند و از لحاظ حیثیت و حقوق با هم برابرند. همه دارای عقل و وجدان میباشند و باید نسبت بیکدیگر با روح برادری رفتار کنند.",
 		source: "UDHR §1",
-		sourceURL: "https://unicode.org/udhr/d/udhr_pes.html"
+		sourceURL: "https://unicode.org/udhr/d/udhr_pes_1.html"
 		},
 
 'fuf-adlm': { name: 'Fula', 
@@ -220,7 +220,7 @@ phraseDB = {
 		text: "𑢹𑣉𑣉 𑣎𑣋𑣁𑣜 𑣔𑣉 𑢮𑣁𑣜𑣌𑣀𑣑, 𑢩𑣑𑣂𑣞𑣁, 𑢹𑣞𑣃𑣜 𑣞𑣄 𑢷𑣊𑣋𑣁𑣚 𑣜𑣈 𑣕𑣆𑣓 10 𑣈𑣈𑣀𑣋𑣈𑣚 𑢹𑣉𑣉 𑣎𑣕𑣂 𑣌𑣉 𑣁𑣄 𑣚𑣈𑣄𑣌𑣎𑣂 𑣕𑣓𑣁. 𑢡𑣅𑣁𑣜 𑣔𑣉 𑢹𑣉𑣉 𑣎𑣋𑣁𑣜 𑢦𑣊𑣚𑣂𑣞, 𑢴𑣈𑣉𑣓𑣁𑣋𑣜𑣂, 𑢩𑣑𑣂𑣅𑣁, 𑢷𑣁𑣊𑣚𑣁 𑣈𑣖𑣁𑣓 𑣌𑣉 𑣕𑣈 𑣉𑣚𑣉𑣄 𑣕𑣆𑣌𑣈𑣓𑣁, 𑣓𑣁𑣄 𑣔𑣉 𑢹𑣗𑣁𑣜𑣊 𑢯𑣂𑣕𑣂 𑣕𑣈 𑣋𑣈 𑣉𑣚𑣉𑣄 𑣕𑣓𑣁.",
 		contributor: "Vinodh Rajan",
 		source: "OFDN",
-		sourceurl: "https://theofdn.org/oer/ho/"
+		sourceURL: "https://theofdn.org/oer/ho/"
 		},
 
 'hy': { name: 'Hungarian',
@@ -443,7 +443,7 @@ phraseDB = {
 		transcription: "kothu jahi viprayahea maṇa sañoyaṇa savi adikamea ta namaruvasa aṣajamaṇa akijaṇa naṇuvadadi dukhu",
 		contributor: "Vinodh Rajan",
 		source: "Gandhari version of Dharmapada",
-		sourceurl: "https://www.ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm"
+		sourceURL: "https://www.ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm"
 		},
 
 'phn': { name: 'Phoenician',
@@ -458,7 +458,7 @@ phraseDB = {
 		translation: "Thus spoke king Devanampiya Piyadasi : “Kings of the olden time have gone to heaven under these very desires. How then among mankind may religion (or growth in grace) be increased? Yea, through the conversion of the humbly-born shall religion increase”",
 		contributor: "Vinodh Rajan",
 		source: "Corpus Inscriptionum Indicarum, Vol I – Inscription of Asoka, Alexander Cunningham, 1877",
-		sourceurl: "https://archive.org/details/inscriptionsaso00hultgoog"
+		sourceURL: "https://archive.org/details/inscriptionsaso00hultgoog"
 		},
 
 'rhg': { name: 'Rohingya',
