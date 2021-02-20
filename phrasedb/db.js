@@ -578,6 +578,13 @@ phraseDB = {
 		sourceURL: "https://www.unicode.org/L2/L2007/07207r-n3286r-parthian-pahlavi.pdf p13"
 		},
 
+'xsa': { name: 'Sabaean',
+		text: "𐩡𐩢𐩺𐩲𐩻𐩩𐩽𐩪𐩷𐩧𐩬𐩽𐩫𐩨𐩧𐩽𐩰𐩺𐩦𐩬𐩽𐩨𐩬𐩺𐩽𐩥𐩠𐩥𐩻𐩧𐩽𐩥𐩦𐩤𐩧𐩽𐩢𐩧𐩩𐩬𐩠𐩬𐩽𐩹𐩩𐩺𐩦𐩡𐩻𐩬𐩽𐩫𐩡𐩥𐩩𐩬𐩽𐩡𐩬𐩭𐩡𐩺𐩠𐩥𐩽𐩣𐩷𐩧𐩩𐩥𐩣𐩥𐩠𐩧𐩠𐩽𐩨𐩲𐩻𐩩𐩧𐩽𐩥𐩨𐩽𐩱𐩡𐩣𐩤𐩠",
+		translation: "Lḥyʿṯt S¹ṭrn, kabir of Fayshān, built, and laid foundations and completed two canals, those of the three dams for his two palm groves Mṭrt and Mwhrh; by ʿAthtar and by Almaqah.",
+		source: "A construction inscription housed in British Museum, in early middle Sabaic language.",
+		contributor: "Roozbeh Pournader"
+		},
+
 'zgh': { name: 'Standard Moroccan Tamazight',
 		text: "ⵉⵎⴷⴰⵏⴻⵏ, ⴰⴽⴽⴻⵏ ⵎⴰ ⵍⵍⴰⵏ ⵜⵜⵍⴰⵍⴻⵏ ⴷ ⵉⵍⴻⵍⵍⵉⵢⴻⵏ ⵎⵙⴰⵡⴰⵏ ⴷⵉ ⵍⵃⵡⴻⵕⵎⴰ ⴷ ⵢⵉⵣⴻⵔⴼⴰⵏ-ⵖⵓⵔ ⵙⴻⵏ ⵜⴰⵎⵙⴰⴽⵡⵉⵜ ⴷ ⵍⴰⵇⵓⴻⵍ ⵓ ⵢⴻⵙⵙⴻⴼⴽ ⴰⴷ-ⵜⵉⵍⵉ ⵜⴻⴳⵎⴰⵜⵜ ⴳⴰⵔ ⴰⵙⴻⵏ.",
 		source: "UDHR §1",

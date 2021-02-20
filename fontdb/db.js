@@ -351,6 +351,7 @@ var fontDB = [
 { name:"Noto Sans Ogham",	system:new Set([goog]), locales:new Set(['ogam']), style:'sans' },
 { name:"Noto Sans Old Hungarian",system:new Set([goog]), locales:new Set(['hung']), style:'sans' },
 { name:"Noto Sans Ol Chiki",system:new Set([goog]), locales:new Set(['olck']), style:'sans' },
+{ name:"Noto Sans Old South Arabian",system:new Set([goog]), locales:new Set(['sarb']), style:'sans' },
 { name:"Noto Sans Osage",	system:new Set([goog]), locales:new Set(['osge']), style:'sans' },
 { name:"Noto Sans Osmanya",	system:new Set([goog]), locales:new Set(['osma']), style:'sans' },
 { name:"Noto Sans Palmyrene",system:new Set([goog]), locales:new Set(['palm']), style:'sans' },
