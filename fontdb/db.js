@@ -361,6 +361,7 @@ var fontDB = [
 { name:"Noto Sans Runic",	system:new Set([goog]), locales:new Set(['runr']), style:'sans' },
 { name:"Noto Sans Samaritan",system:new Set([goog]), locales:new Set(['samr']), style:'sans' },
 { name:"Noto Sans Saurashtra",system:new Set([goog]), locales:new Set(['saur']), style:'sans' },
+{ name:"Noto Sans Sharada",	system:new Set([goog]), locales:new Set(['shrd']), style:'sans' },
 { name:"Noto Sans Shavian",	system:new Set([goog]), locales:new Set(['shaw']), style:'sans' },
 { name:"Noto Sans Sinhala",	system:new Set([goog]), locales:new Set(['sinh']), style:'sans' },
 { name:"Noto Sans Sundanese",system:new Set([goog]), locales:new Set(['sund']), style:'sans' },
