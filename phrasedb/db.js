@@ -330,6 +330,14 @@ phraseDB = {
 		sourceURL: "https://www.omniglot.com/writing/mende.htm"
 		},
 
+'mga': { name: 'Middle Irish',
+		text: "᚛ᚌᚔᚚ ᚓ ᚈᚔᚄᚓᚇ ᚔᚅ ᚃᚐᚔᚇᚉᚆᚓ᚜ ᚛ᚇᚘᚐ ᚋᚁᚐ ᚌᚐᚄᚉᚓᚇᚐᚉᚆ᚜ ᚛ᚌᚓᚔᚄ ᚃᚐᚔᚏ ᚐᚏ ᚈᚆᚓᚉᚆᚈ ᚇᚔᚅᚇ ᚃᚐᚔᚇᚉᚆᚔ᚜ ᚛ᚉᚓᚅ ᚉᚆᚑᚋᚏᚐᚉ ᚅᚑᚓᚅᚃᚆᚔᚏ ᚇᚑ ᚃᚆᚒᚐᚉᚏᚐ᚜",
+		translation: "Whoever comes to this meadow, if he be armed, he is forbidden to leave the meadow, without requesting single combat.",
+		source: "Book of Leinster",
+		contributor: "Roozbeh Pournader",
+		sourceURL: ""
+		},
+
 'mid': { name: 'Neo-Mandaic',
 		text: "ࡊࡋ ࡁࡓ ࡀࡍࡀࡔࡀ ࡌࡉࡕࡋࡉࡓ ࡔࡀࡅࡉࡀ ࡁࡏࡒࡀࡓࡀ ࡅࡀࡂࡓࡉࡀ࡞",
 		},

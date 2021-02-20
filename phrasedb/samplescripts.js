@@ -52,6 +52,7 @@ var sampleScriptsIndex = {
     'nbat': { name: "Nabataean", langs:['arc-nbat']},
     'newa': { name: "Newar", langs:['new']},
     'nkoo': { name: "N’Ko", langs:['nqo']},
+    'ogam': { name: "Ogham", langs:['mga']},
     'osge': { name: "Osage", langs:['osa']},
     'olck': { name: "Ol Chiki", langs:['sat']},
     'orya': { name: "Oriya", langs:['ory']},
