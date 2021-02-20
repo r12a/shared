@@ -77,6 +77,15 @@ phraseDB = {
 		sourceURL: "https://unicode.org/udhr/d/udhr_bod.html"
 		},
 
+'pra': { name: 'Prakrit (Brahmi)',
+		text: "𑀤𑁂𑀯𑀸𑀦𑀁𑀧𑀺𑀬𑁂 𑀧𑀺𑀬𑀤𑀲𑀺 𑀮𑀸𑀚𑀸 𑀳𑁂𑀯𑀁 𑀆𑀳𑀸 𑀬𑁂 𑀅𑀢𑀺𑀓𑀁𑀢𑀁 𑀅𑀁𑀢𑀮𑀁 𑀮𑀸𑀚𑀸𑀦𑁂 𑀳𑀼𑀲 𑀳𑁂𑀯𑀁 𑀇𑀙𑀺𑀲𑀼 𑀓𑀣𑀁 𑀚𑀦𑁂 𑀥𑀁𑀫𑀯𑀠𑀺𑀬𑀸 𑀯𑀸𑀠𑁂𑀬 𑀦𑁄𑀘𑀼𑀚𑀦𑁂 𑀅𑀦𑀼𑀮𑀼𑀧𑀸𑀬𑀸 𑀥𑀁𑀫𑀯𑀠𑀺𑀬𑀸 𑀯𑀠𑀺𑀣𑀸 𑀏𑀢𑀁",
+		transcription: "devānaṁpiye piyadasi lājā hevaṁ āhā ye atikaṁtaṁ aṁtalaṁ lājāne husa hevaṁ ichisu kathaṁ jane dhaṁmavaḍhiyā vāḍheya nocujane anulupāyā dhaṁmavaḍhiyā vaḍhithā etaṁ",
+		translation: "Thus spoke king Devanampiya Piyadasi : “Kings of the olden time have gone to heaven under these very desires. How then among mankind may religion (or growth in grace) be increased? Yea, through the conversion of the humbly-born shall religion increase”",
+		contributor: "Vinodh Rajan",
+		source: "Corpus Inscriptionum Indicarum, Vol I – Inscription of Asoka, Alexander Cunningham, 1877",
+		sourceurl: "https://archive.org/details/inscriptionsaso00hultgoog"
+		},
+
 'bsq': { name: 'Bassa',
 		text: "𖫞𖫫𖫰 𖫐𖫭𖫱𖫐-𖫗𖫭𖫰𖫞𖫭𖫰 𖫑𖫫𖫱 𖫔𖫬𖫱𖫞𖫬𖫱𖫭𖫱𖫐-𖫕𖫭𖫰 𖫔𖫪𖫰𖫐𖫬𖫲𖫐, 𖫞𖫫𖫰𖫬𖫱 𖫕𖫨𖫲𖫐𖫪𖫳𖫐-𖫕𖫪𖫱 𖫒𖫫𖫰𖫭𖫰𖫐 𖫛𖫩𖫰𖫞𖫩𖫰𖫬𖫲 𖫔𖫬𖫰𖫭𖫱𖫐-𖫛𖫨𖫲𖫐𖫵"
 		},
@@ -485,6 +494,12 @@ phraseDB = {
 
 'sa-tirh': { name: 'Sanskrit (Tirhuta)',
 		text: "𑒂𑒬𑓂𑒔𑒩𑓂𑒨𑓀 𑒬𑒳𑒠𑓂𑒡𑒮𑒞𑓂𑒞𑓂𑒫𑒮𑓂𑒨 𑒪𑒼𑒏𑒹 𑒪𑒼𑒏𑒰𑒢𑒳𑒫𑒩𑓂𑒞𑒱𑒢𑒼। 𑒬𑒱𑒏𑓂𑒭𑒱𑒞𑓁 𑒮𑒩𑓂𑒫𑒬𑒰𑒮𑓂𑒞𑓂𑒩𑒹𑒭𑒳 𑒪𑒱𑒣𑒱𑒬𑒰𑒪𑒰𑒧𑒳𑒣𑒰𑒑𑒞𑓁। 𑒨𑒹𑒭𑒰𑒧𑒯𑓀 𑒢𑒰𑒧𑒡𑒹𑒨𑓀 𑒪𑒱𑒣𑒲𑒢𑒰𑓀 𑒢 𑒣𑓂𑒩𑒖𑒰𑒢𑒧𑒱। 𑒞𑒞𑓂𑒩𑒻𑒭 𑒬𑒱𑒏𑓂𑒭𑒱𑒞𑓁 𑒮𑒢𑓂𑒞𑒼 𑒪𑒱𑒣𑒱𑒬𑒰𑒪𑒰𑒧𑒳𑒣𑒰𑒑𑒞𑓁।",
+		transcription: "āścaryaṃ śuddhasattvasya loke lokānuvartino. śikṣitaḥ sarvaśāstreṣu lipiśālāmupāgataḥ. yeṣāmahaṃ nāmadheyaṃ lipīnāṃ na prajānami. tatraiṣa śikṣitaḥ santo lipiśālāmupāgataḥ.",
+		contributor: "Vinodh Rajan"
+		},
+
+'sa-zanb': { name: 'Sanskrit (Zanabazar Square)',
+		text: "𑨀𑨊𑨮𑩇𑨣𑨫𑩇𑨪𑨸 𑨮𑨂𑨛𑩇𑨜𑨰𑨙𑩇𑨙𑩇𑨭𑨰𑩇𑨪 𑨬𑨆𑨋𑨄 𑨬𑨆𑨋𑨊𑨝𑨂𑨭𑨫𑩇𑨙𑨁𑨝𑨆𑩂 𑨮𑨁𑨲𑨁𑨙𑨹 𑨰𑨫𑩇𑨭𑨮𑨊𑨰𑩇𑨙𑩇𑨫𑨄𑨯𑨂 𑨬𑨁𑨞𑨁𑨮𑨊𑨬𑨊𑨢𑨂𑨞𑨊𑨍𑨙𑨹𑩂 𑨪𑨄𑨯𑨊𑨢𑨱𑨸 𑨝𑨊𑨢𑨜𑨄𑨪𑨸 𑨬𑨁𑨞𑨁𑨊𑨝𑨊𑨸 𑨝 𑨞𑩇𑨫𑨥𑨊𑨝𑨢𑨁𑩂 𑨙𑨙𑩇𑨫𑨄𑨊𑨯 𑨮𑨁𑨲𑨁𑨙𑨹 𑨰𑨝𑩇𑨙𑨆 𑨬𑨁𑨞𑨁𑨮𑨊𑨬𑨊𑨢𑨂𑨞𑨊𑨍𑨙𑨹𑩂",
 		transcription: "āścaryaṃ śuddhasattvasya loke lokānuvartino. śikṣitaḥ sarvaśāstreṣu lipiśālāmupāgataḥ. yeṣāmahaṃ nāmadheyaṃ lipīnāṃ na prajānami. tatraiṣa śikṣitaḥ santo lipiśālāmupāgataḥ.",
 		contributor: "Vinodh Rajan"
 		},

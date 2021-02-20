@@ -9,6 +9,7 @@ var sampleScriptsIndex = {
     'bamu': { name: "Bamum", langs:['bax']}, 
     'bass': { name: "Bassa Vah", langs:['bsq']}, 
     'beng': { name: "Bengali", langs:['bn']},
+    'brah': { name: "Brahmi", langs:['pra']},
     'bugi': { name: "Buginese", langs:['bug']},
     'buhd': { name: "Buhid", langs:['bku-buhd']},
     'cans': { name: "UCAS", langs:['ike', 'crk']},
@@ -91,4 +92,5 @@ var sampleScriptsIndex = {
     'vaii': { name: "Vai", langs:['vai']},
     'xpeo': { name: "Old Persian", langs:['peo']},
     'yiii': { name: "Yi", langs:['ii']},
+    'zanb': { name: "Zanabazar Square", langs:['sa-zanb']},
     }
