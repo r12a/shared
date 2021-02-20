@@ -364,6 +364,7 @@ var fontDB = [
 { name:"Noto Sans Sharada",	system:new Set([goog]), locales:new Set(['shrd']), style:'sans' },
 { name:"Noto Sans Shavian",	system:new Set([goog]), locales:new Set(['shaw']), style:'sans' },
 { name:"Noto Sans Sinhala",	system:new Set([goog]), locales:new Set(['sinh']), style:'sans' },
+{ name:"Noto Sans Siddham",	system:new Set([goog]), locales:new Set(['sidd']), style:'sans' },
 { name:"Noto Sans Sundanese",system:new Set([goog]), locales:new Set(['sund']), style:'sans' },
 { name:"Noto Sans Syriac Eastern",system:new Set([goog]), locales:new Set(['syrc']), style:'sans' },
 { name:"Noto Sans Syriac Estrangela",system:new Set([goog]), locales:new Set(['syrc']), style:'sans' },

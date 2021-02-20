@@ -71,6 +71,7 @@ var sampleScriptsIndex = {
     'saur': { name: "Saurashtra", langs:['saz']},
     'shaw': { name: "Shavian", langs:['en-shaw']},
     'shrd': { name: "Sharada", langs:['sa-shrd']},
+    'sidd': { name: "Siddham", langs:['sa-sidd']},
     'sinh': { name: "Sinhala", langs:['si']},
     'sund': { name: "Sundanese", langs:['su']},
     'syrc': { name: "Syriac", langs:['aii', 'syc', 'tru']},
