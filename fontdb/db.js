@@ -382,6 +382,7 @@ var fontDB = [
 { name:"Noto Sans Tirhuta",	system:new Set([goog]), locales:new Set(['tirh']), style:'sans' },
 { name:"Noto Sans Ugaritic",system:new Set([goog]), locales:new Set(['ugar']), style:'sans' },
 { name:"Noto Sans Vai",		system:new Set([goog]), locales:new Set(['vaii']), style:'sans' },
+{ name:"Noto Sans Warang Citi",system:new Set([goog]), locales:new Set(['wara']), style:'sans' },
 { name:"Noto Sans Yi",		system:new Set([goog]), locales:new Set(['yiii']), style:'sans' },
 { name:"Noto Sans Zanabazar Square",system:new Set([goog]), locales:new Set(['zanb']), style:'sans' },
 { name:"Noto Serif Khmer",	system:new Set([goog]), locales:new Set(['khmr']), style:'sans' },

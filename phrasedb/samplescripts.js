@@ -90,6 +90,7 @@ var sampleScriptsIndex = {
     'tfng': { name: "Tifinagh", langs:['zgh']},
     'ugar': { name: "Ugaritic", langs:['uga']},
     'vaii': { name: "Vai", langs:['vai']},
+    'wara': { name: "Warang Citi", langs:['hoc']},
     'xpeo': { name: "Old Persian", langs:['peo']},
     'yiii': { name: "Yi", langs:['ii']},
     'zanb': { name: "Zanabazar Square", langs:['sa-zanb']},
