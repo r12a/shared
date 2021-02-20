@@ -4,6 +4,7 @@ var sampleScriptsIndex = {
     'arab': { name: "Arabic", langs:['arb','ha-arab','ks-arab', 'fa', 'ur']}, 
     'armn': { name: "Armenian", langs:['hy']},
     'armi': { name: "Imperial Aramaic", langs:['arc']},
+    'avst': { name: "Avestan", langs:['ae']},
     'bali': { name: "Balinese", langs:['ban']}, 
     'bamu': { name: "Bamum", langs:['bax']}, 
     'bass': { name: "Bassa Vah", langs:['bsq']}, 

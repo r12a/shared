@@ -304,6 +304,7 @@ var fontDB = [
 { name:"Noto Sans Anatolian Hieroglyphs",system:new Set([goog]), locales:new Set(['hluw']), style:'sans' },
 { name:"Noto Sans Arabic",	system:new Set([goog]), locales:new Set(['arab', 'arab-arb', 'arab-afr', 'arab-fa', 'arab-ha', 'arab-sans']), style:'sans' },
 { name:"Noto Sans Armenian",system:new Set([goog]), locales:new Set(['armn']), style:'sans' },
+{ name:"Noto Sans Avestan",	system:new Set([goog]), locales:new Set(['avst']), style:'sans' },
 { name:"Noto Sans Balinese",system:new Set([goog]), locales:new Set(['bali']), style:'sans' },
 { name:"Noto Sans Bamum",system:new Set([goog]), locales:new Set(['bamu']), style:'sans' },
 { name:"Noto Sans Bassa Vah",system:new Set([goog]), locales:new Set(['bass']), style:'sans' },
