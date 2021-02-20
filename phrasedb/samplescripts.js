@@ -33,6 +33,7 @@ var sampleScriptsIndex = {
     'hatr': { name: "Hatran", langs:['mis-Hatr']},
     'kore': { name: "Hangul", langs:['ko']},
     'hebr': { name: "Hebrew", langs:['he']},
+    'hluw': { name: "Anatolian Hieroglyphs", langs:['hlu']},
     'hung': { name: "Old Hungarian", langs:['ohu']},
     'jpan': { name: "Japanese", langs:['ja']},
     'java': { name: "Javanese", langs:['jv']},

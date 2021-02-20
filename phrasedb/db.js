@@ -212,6 +212,14 @@ phraseDB = {
 		sourceURL: "https://unicode.org/udhr/d/udhr_hin.html"
 		},
 
+'hlu': { name: 'Luwian (Anatolian Hieroglyphs)',
+		text: "𔗷𔗬𔑈𔓯𔐤𔗷𔖶𔔆𔗐𔓱𔑣𔓢𔑈𔓷𔖻𔗔𔑏𔖱𔗷𔖶𔑦𔗬𔓯𔓷",
+		transcription: "a=wa api-n wattaniy-ati pihammi-s sarra awi-ha ",
+		translation: "And I came over glorified from those lands.",
+		source: "Karkamiš A11b+c, line 14, in Wikipedia, Luwian language",
+		sourceURL: "https://en.wikipedia.org/wiki/Luwian_language#Syntax"
+		},
+
 'hnn': { name: 'Hanunoo',
 		text: "ᜣᜥ᜴ ᜫᜨᜳᜣ᜴ ᜰᜲ ᜪᜲᜮᜯᜨ᜴ ᜵ ᜨᜤ᜴ᜰᜲᜮᜳᜥ᜴ ᜰ ᜩᜰᜳᜠᜰᜨ᜴ ᜵ ᜫᜤ᜴ᜧᜮᜨ᜴ᜥᜲᜨ᜴ ᜬᜲ ᜢᜮᜨ᜴ ᜶",
 		},
