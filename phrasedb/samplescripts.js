@@ -22,6 +22,7 @@ var sampleScriptsIndex = {
     'elym': { name: "Elymaic", langs:['xly']},
     'ethi': { name: "Ethiopic", langs:['am']},
     'geor': { name: "Georgian", langs:['ka']},
+    'gran': { name: "Grantha", langs:['sa-gran']},
     'grek': { name: "Greek", langs:['el']},
     'gujr': { name: "Gujarati", langs:['gu']},
     'gong': { name: "Gunjala Gondi", langs:['gon']},
