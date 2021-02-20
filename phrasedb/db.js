@@ -77,15 +77,6 @@ phraseDB = {
 		sourceURL: "https://unicode.org/udhr/d/udhr_bod.html"
 		},
 
-'pra': { name: 'Prakrit (Brahmi)',
-		text: "𑀤𑁂𑀯𑀸𑀦𑀁𑀧𑀺𑀬𑁂 𑀧𑀺𑀬𑀤𑀲𑀺 𑀮𑀸𑀚𑀸 𑀳𑁂𑀯𑀁 𑀆𑀳𑀸 𑀬𑁂 𑀅𑀢𑀺𑀓𑀁𑀢𑀁 𑀅𑀁𑀢𑀮𑀁 𑀮𑀸𑀚𑀸𑀦𑁂 𑀳𑀼𑀲 𑀳𑁂𑀯𑀁 𑀇𑀙𑀺𑀲𑀼 𑀓𑀣𑀁 𑀚𑀦𑁂 𑀥𑀁𑀫𑀯𑀠𑀺𑀬𑀸 𑀯𑀸𑀠𑁂𑀬 𑀦𑁄𑀘𑀼𑀚𑀦𑁂 𑀅𑀦𑀼𑀮𑀼𑀧𑀸𑀬𑀸 𑀥𑀁𑀫𑀯𑀠𑀺𑀬𑀸 𑀯𑀠𑀺𑀣𑀸 𑀏𑀢𑀁",
-		transcription: "devānaṁpiye piyadasi lājā hevaṁ āhā ye atikaṁtaṁ aṁtalaṁ lājāne husa hevaṁ ichisu kathaṁ jane dhaṁmavaḍhiyā vāḍheya nocujane anulupāyā dhaṁmavaḍhiyā vaḍhithā etaṁ",
-		translation: "Thus spoke king Devanampiya Piyadasi : “Kings of the olden time have gone to heaven under these very desires. How then among mankind may religion (or growth in grace) be increased? Yea, through the conversion of the humbly-born shall religion increase”",
-		contributor: "Vinodh Rajan",
-		source: "Corpus Inscriptionum Indicarum, Vol I – Inscription of Asoka, Alexander Cunningham, 1877",
-		sourceurl: "https://archive.org/details/inscriptionsaso00hultgoog"
-		},
-
 'bsq': { name: 'Bassa',
 		text: "𖫞𖫫𖫰 𖫐𖫭𖫱𖫐-𖫗𖫭𖫰𖫞𖫭𖫰 𖫑𖫫𖫱 𖫔𖫬𖫱𖫞𖫬𖫱𖫭𖫱𖫐-𖫕𖫭𖫰 𖫔𖫪𖫰𖫐𖫬𖫲𖫐, 𖫞𖫫𖫰𖫬𖫱 𖫕𖫨𖫲𖫐𖫪𖫳𖫐-𖫕𖫪𖫱 𖫒𖫫𖫰𖫭𖫰𖫐 𖫛𖫩𖫰𖫞𖫩𖫰𖫬𖫲 𖫔𖫬𖫰𖫭𖫱𖫐-𖫛𖫨𖫲𖫐𖫵"
 		},
@@ -447,10 +438,27 @@ phraseDB = {
 		sourceURL: "https://twitter.com/roozbehp/status/1362601828962082817"
 		},
 
+'pgd': { name: 'Ghandari',
+		text: "𐨐𐨆𐨠𐨂 𐨗𐨱𐨁 𐨬𐨁𐨤𐨿𐨪𐨩𐨱𐨅𐨀 𐨨𐨞 𐨯𐨙𐨆𐨩𐨞 𐨯𐨬𐨁 𐨀𐨡𐨁𐨐𐨨𐨅𐨀 𐨟 𐨣𐨨𐨪𐨂𐨬𐨯 𐨀𐨮𐨗𐨨𐨞 𐨀𐨐𐨁𐨗𐨞 𐨣𐨞𐨂𐨬𐨡𐨡𐨁 𐨡𐨂𐨑𐨂",
+		transcription: "kothu jahi viprayahea maṇa sañoyaṇa savi adikamea ta namaruvasa aṣajamaṇa akijaṇa naṇuvadadi dukhu",
+		contributor: "Vinodh Rajan",
+		source: "Gandhari version of Dharmapada",
+		sourceurl: "https://www.ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm"
+		},
+
 'phn': { name: 'Phoenician',
 		text: "𐤀𐤍𐤊 𐤟 𐤌𐤔𐤏 𐤟 𐤁𐤍 𐤟 𐤊𐤌𐤔𐤌𐤋𐤊 𐤟 𐤌𐤋𐤊 𐤟 𐤌𐤀𐤁 𐤟 𐤄𐤃𐤉𐤁𐤍𐤉 | 𐤊𐤁𐤉 𐤟 𐤌𐤋𐤊 𐤟 𐤏𐤋 𐤟 𐤌𐤀𐤁 𐤟 𐤔𐤋𐤔𐤍 𐤟 𐤔𐤕 𐤟 𐤅𐤀𐤍𐤊 𐤟 𐤌𐤋𐤊𐤕𐤉 𐤟 𐤀𐤇𐤓 𐤟 𐤀𐤁𐤉 |",
 		source: "Unknown",
 		sourceURL: "Arthur Christian. Débuts de l'imprimerie en France: L'Imprimerie Nationale; L’Hôtel deRohan at http://std.dkuug.dk/jtc1/sc2/wg2/docs/n2787.pdf p8"
+		},
+
+'pra': { name: 'Prakrit (Brahmi)',
+		text: "𑀤𑁂𑀯𑀸𑀦𑀁𑀧𑀺𑀬𑁂 𑀧𑀺𑀬𑀤𑀲𑀺 𑀮𑀸𑀚𑀸 𑀳𑁂𑀯𑀁 𑀆𑀳𑀸 𑀬𑁂 𑀅𑀢𑀺𑀓𑀁𑀢𑀁 𑀅𑀁𑀢𑀮𑀁 𑀮𑀸𑀚𑀸𑀦𑁂 𑀳𑀼𑀲 𑀳𑁂𑀯𑀁 𑀇𑀙𑀺𑀲𑀼 𑀓𑀣𑀁 𑀚𑀦𑁂 𑀥𑀁𑀫𑀯𑀠𑀺𑀬𑀸 𑀯𑀸𑀠𑁂𑀬 𑀦𑁄𑀘𑀼𑀚𑀦𑁂 𑀅𑀦𑀼𑀮𑀼𑀧𑀸𑀬𑀸 𑀥𑀁𑀫𑀯𑀠𑀺𑀬𑀸 𑀯𑀠𑀺𑀣𑀸 𑀏𑀢𑀁",
+		transcription: "devānaṁpiye piyadasi lājā hevaṁ āhā ye atikaṁtaṁ aṁtalaṁ lājāne husa hevaṁ ichisu kathaṁ jane dhaṁmavaḍhiyā vāḍheya nocujane anulupāyā dhaṁmavaḍhiyā vaḍhithā etaṁ",
+		translation: "Thus spoke king Devanampiya Piyadasi : “Kings of the olden time have gone to heaven under these very desires. How then among mankind may religion (or growth in grace) be increased? Yea, through the conversion of the humbly-born shall religion increase”",
+		contributor: "Vinodh Rajan",
+		source: "Corpus Inscriptionum Indicarum, Vol I – Inscription of Asoka, Alexander Cunningham, 1877",
+		sourceurl: "https://archive.org/details/inscriptionsaso00hultgoog"
 		},
 
 'rhg': { name: 'Rohingya',

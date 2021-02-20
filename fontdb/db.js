@@ -336,6 +336,7 @@ var fontDB = [
 { name:"Noto Sans Inscriptional Parthian",system:new Set([goog]), locales:new Set(['prti']), style:'sans' },
 { name:"Noto Sans Javanese",system:new Set([goog, mac]), locales:new Set(['java']), style:'sans' },
 { name:"Noto Sans Kannada",	system:new Set([goog, mac, ios]), locales:new Set(['knda']), style:'sans' },
+{ name:"Noto Sans Kharoshthi",system:new Set([goog]), locales:new Set(['khar']), style:'sans' },
 { name:"Noto Sans Khmer",	system:new Set([goog]), locales:new Set(['khmr']), style:'sans' },
 { name:"Noto Sans Lao",		system:new Set([goog]), locales:new Set(['laoo']), style:'sans' },
 { name:"Noto Sans Lepcha",	system:new Set([goog]), locales:new Set(['lepc']), style:'sans' },

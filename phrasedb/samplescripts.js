@@ -37,6 +37,7 @@ var sampleScriptsIndex = {
     'jpan': { name: "Japanese", langs:['ja']},
     'java': { name: "Javanese", langs:['jv']},
     'khmr': { name: "Khmer", langs:['km']},
+    'khar': { name: "Kharoshthi", langs:['pgd']},
     'knda': { name: "Kannada", langs:['kn']},
     'laoo': { name: "Lao", langs:['lo']},
     'lana': { name: "Tai Tham", langs:['kkh', 'nod']},
