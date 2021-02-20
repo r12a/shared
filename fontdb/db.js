@@ -386,6 +386,7 @@ var fontDB = [
 { name:"Noto Sans Warang Citi",system:new Set([goog]), locales:new Set(['wara']), style:'sans' },
 { name:"Noto Sans Yi",		system:new Set([goog]), locales:new Set(['yiii']), style:'sans' },
 { name:"Noto Sans Zanabazar Square",system:new Set([goog]), locales:new Set(['zanb']), style:'sans' },
+{ name:"Noto Serif Grantha",system:new Set([goog]), locales:new Set(['gran']), style:'sans' },
 { name:"Noto Serif Khmer",	system:new Set([goog]), locales:new Set(['khmr']), style:'sans' },
 { name:"Nuosu SIL",			system:new Set([sil]), locales:new Set(['yiii']), style:'sans' },
 { name:"October Condensed Devanagari",system:new Set([mac]), locales:new Set(['deva']), style:'sans', md:true },
