@@ -24,6 +24,7 @@ var sampleScriptsIndex = {
     'egyp': { name: "Egyptian hieroglyphs", langs:['egy']},
     'elym': { name: "Elymaic", langs:['xly']},
     'ethi': { name: "Ethiopic", langs:['am']},
+    'glag': { name: "Glagolitic", langs:['cu-glag']},
     'geor': { name: "Georgian", langs:['ka']},
     'gran': { name: "Grantha", langs:['sa-gran']},
     'grek': { name: "Greek", langs:['el']},

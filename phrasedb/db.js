@@ -111,6 +111,12 @@ phraseDB = {
 		text: "ᐁᑯᓯ ᒫᑲ ᐁᑎᑵ ᐊᓂᒪ ᑳ ᐃᑘᐟ ᐊᐘ ᐅᐢᑭᓃᑭᐤ, ᒥᔼᓯᐣ, ᑮᐢᐱᐣ ᑕ ᑲᑵ ᓂᓯᑐᐦᑕᒣᐠ ᐁᑿ ᒦᓇ ᑕ ᑲᑵ ᒥᑐᓂ ᐑᒋᐦᐃᓱᔦᐠ ᐊᓂᒪ, ᐆᒪ ᓀᐦᐃᔭᐍᐏᐣ ᑭᐢᐱᐣ ᑭᓅᐦᑌ ᑭᐢᑫᔨᐦᑌᓈᐚᐤ᙮",
 		},
 
+'cu-glag': { name: 'Old Church Slavonic (Glagolitic)',
+		text: "ⰵⰲⰰⰳⰵⰾⰻⰵ ⱉⱅⱐ ⰾⱆⰽⰺ: ⱆⰱⱁ· ⰿⱀⱁⰸⰻ ⱀⰰⱍⱔⱎⱔ· ⱍⰻⱀⰻⱅⰻ ⱂⱁⰲⱑⱄⱅⱏ· ⱁ ⰹⰸⰲⱑⱄⱅⱐⱀⱏⱈⱐ ⰲⱐ ⱀⰰⱄⱐ ⰲⰵⱎⱅⰵⱈⱐ· ⱑⰽⱁⰶⰵ ⱂⱃⱑⰴⰰⱎⰵ ⱀⰰⰿⱐ· ⰱⱏⰲⱏⱎⰵⰹ ⰹⱄⰽⱁⱀⰻ ⱄⰰⰿⱁⰲⰻⰴⱏⱌⰻ· ⰺ ⱄⰾⱆⰳⰹ ⱄⰾⱁⰲⰵⱄⰻ.",
+		source: "Codex Zographensis (10th - 11th C), gol 131. In Daniels, Writing Systems of the World, pp353-4.",
+		translation: "The Gospel according to Luke: For inasmuch as many have begun to compile a narrative about things known to us. Just as they were handed down to us by those who were from the beginning eyewitnesses and servants of the word."
+		},
+
 'cy': { name: 'Welsh',
 		text: "Genir pawb yn rhydd ac yn gydradd â’i gilydd mewn urddas a hawliau. Fe’u cynysgaeddir â rheswm a chydwybod, a dylai pawb ymddwyn y naill at y llall mewn ysbryd cymodlon.",
 		source: "UDHR §1",
