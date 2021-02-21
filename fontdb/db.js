@@ -318,6 +318,7 @@ var fontDB = [
 { name:"Noto Sans Chakma",	system:new Set([goog]), locales:new Set(['cakm']), style:'sans' },
 { name:"Noto Sans Cherokee",system:new Set([goog]), locales:new Set(['cher']), style:'sans' },
 { name:"Noto Sans Coptic",	system:new Set([goog]), locales:new Set(['copt']), style:'sans' },
+{ name:"Noto Sans Cypriot",	system:new Set([goog]), locales:new Set(['cprt']), style:'sans' },
 { name:"Noto Sans Deseret",	system:new Set([goog]), locales:new Set(['dsrt']), style:'sans' },
 { name:"Noto Sans Devanagari",system:new Set([goog]), locales:new Set(['deva', 'deva-hi', 'deva-ks']), style:'sans' },
 { name:"Noto Sans Egyptian Hieroglyphs",system:new Set([goog]), locales:new Set(['egyp']), style:'sans' },

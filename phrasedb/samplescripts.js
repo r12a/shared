@@ -17,6 +17,7 @@ var sampleScriptsIndex = {
     'cakm': { name: "Chakma", langs:['ccp']},
     'cher': { name: "Cherokee", langs:['chr', 'chr-x-lc']},
     'copt': { name: "Coptic", langs:['cop']},
+    'cprt': { name: "Cypriot Syllabary", langs:['omn-cprt']},
     'cyrl': { name: "Cyrillic", langs:['kk', 'ky', 'ru']},
     'deva': { name: "Devanagari", langs:['hi', 'ks-deva', 'npi']},
     'dsrt': { name: "English (Deseret)", langs:['en-dsrt']},
