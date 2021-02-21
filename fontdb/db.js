@@ -374,6 +374,7 @@ var fontDB = [
 { name:"Noto Sans Syriac Western",system:new Set([goog]), locales:new Set(['syrc']), style:'sans' },
 { name:"Noto Sans Syriac",	system:new Set([goog]), locales:new Set(['syrc']), style:'sans' },
 { name:"Noto Sans Tagbanwa",system:new Set([goog]), locales:new Set(['tagb']), style:'sans' },
+{ name:"Noto Sans Tagalog",	system:new Set([goog]), locales:new Set(['tglg']), style:'sans' },
 { name:"Noto Sans Tai Le",	system:new Set([goog]), locales:new Set(['tale']), style:'sans' },
 { name:"Noto Sans Tai Tham",system:new Set([goog]), locales:new Set(['lana', 'lana-kkh', 'lana-nod']), style:'sans' },
 { name:"Noto Sans Telugu",	system:new Set([goog]), locales:new Set(['telu']), style:'sans' },

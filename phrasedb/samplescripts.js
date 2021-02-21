@@ -85,6 +85,7 @@ var sampleScriptsIndex = {
     'taml': { name: "Tamil", langs:['ta']},
     'tavt': { name: "Tai Viet", langs:['blt']},
     'telu': { name: "Telugu", langs:['te']},
+    'tglg': { name: "Tagalog", langs:['tgl']},
     'thaa': { name: "Thaana", langs:['dv']},
     'thai': { name: "Thai", langs:['th']},
     'tibt': { name: "Tibetan", langs:['bo', 'dz']},
