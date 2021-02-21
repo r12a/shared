@@ -327,6 +327,7 @@ var fontDB = [
 { name:"Noto Sans Georgian",system:new Set([goog]), locales:new Set(['geor']), style:'sans' },
 { name:"Noto Sans Grantha",	system:new Set([goog]), locales:new Set(['gran']), style:'sans' },
 { name:"Noto Sans Glagolitic",system:new Set([goog]), locales:new Set(['glag']), style:'sans' },
+{ name:"Noto Sans Gothic",system:new Set([goog]), locales:new Set(['goth']), style:'sans' },
 { name:"Noto Sans Gujarati",system:new Set([goog]), locales:new Set(['gujr']), style:'sans' },
 { name:"Noto Sans Gunjala Gondi",system:new Set([goog]), locales:new Set(['gong']), style:'sans' },
 { name:"Noto Sans Gurmukhi",system:new Set([goog]), locales:new Set(['guru']), style:'sans' },
