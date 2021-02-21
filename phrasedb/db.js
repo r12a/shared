@@ -487,9 +487,17 @@ phraseDB = {
 		sourceURL: "https://www.omniglot.com/writing/samaritan.htm"
 		},
 
+'sa-bhks': { name: 'Sanskrit (Bhaiksuki)',
+		text: "𑰁𑰫𑰿𑰓𑰨𑰿𑰧𑰽𑱃𑰫𑰲𑰟𑰿𑰠𑰭𑰝𑰿𑰝𑰿𑰪𑰭𑰿𑰧𑱃𑰩𑰺𑰎𑰸𑱃𑰩𑰺𑰎𑰯𑰡𑰲𑰪𑰨𑰿𑰝𑰰𑰡𑰺𑱁𑱃𑰫𑰰𑰎𑰿𑰬𑰰𑰝𑰾𑱃𑰭𑰨𑰿𑰪𑰫𑰯𑰭𑰿𑰝𑰿𑰨𑰸𑰬𑰲𑱃𑰩𑰰𑰢𑰰𑰫𑰯𑰩𑰯𑰦𑰲𑰢𑰯𑰐𑰝𑰾𑱁𑱃𑰧𑰸𑰬𑰯𑰦𑰮𑰽𑱃𑰡𑰯𑰦𑰠𑰸𑰧𑰽𑱃𑰩𑰰𑰢𑰱𑰡𑰯𑰽𑱃𑰡𑱃𑰢𑰿𑰨𑰕𑰯𑰡𑰦𑰰𑱁𑱃𑰝𑰝𑰿𑰨𑰹𑰬𑱃𑰫𑰰𑰎𑰿𑰬𑰰𑰝𑰾𑱃𑰭𑰡𑰿𑰝𑰺𑱃𑰩𑰰𑰢𑰰𑰫𑰯𑰩𑰯𑰦𑰲𑰢𑰯𑰐𑰝𑰾𑱁",
+		translation: "How wonderful! Even though the Pure Being Is learned in all topics in the world, He follows the conventions of the world. Thus he has come to school. He has learned scripts Even the names of which I have not heard, Yet he has come to school.",
+		source: "https://read.84000.co/translation/toh95.html#UT22084-046-001-557 (Verse 10.10 and Verse 10.11)",
+		contributor: "Vinodh Rajan"
+		},
+
 'sa-gran': { name: 'Sanskrit (Grantha)',
 		text: "𑌆𑌶𑍍𑌚𑌰𑍍𑌯𑌂 𑌶𑍁𑌦𑍍𑌧𑌸𑌤𑍍𑌤𑍍𑌵𑌸𑍍𑌯 𑌲𑍋𑌕𑍇 𑌲𑍋𑌕𑌾𑌨𑍁𑌵𑌰𑍍𑌤𑌿𑌨𑍋। 𑌶𑌿𑌕𑍍𑌷𑌿𑌤𑌃 𑌸𑌰𑍍𑌵𑌶𑌾𑌸𑍍𑌤𑍍𑌰𑍇𑌷𑍁 𑌲𑌿𑌪𑌿𑌶𑌾𑌲𑌾𑌮𑍁𑌪𑌾𑌗𑌤𑌃। 𑌯𑍇𑌷𑌾𑌮𑌹𑌂 𑌨𑌾𑌮𑌧𑍇𑌯𑌂 𑌲𑌿𑌪𑍀𑌨𑌾𑌂 𑌨 𑌪𑍍𑌰𑌜𑌾𑌨𑌮𑌿। 𑌤𑌤𑍍𑌰𑍈𑌷 𑌶𑌿𑌕𑍍𑌷𑌿𑌤𑌃 𑌸𑌨𑍍𑌤𑍋 𑌲𑌿𑌪𑌿𑌶𑌾𑌲𑌾𑌮𑍁𑌪𑌾𑌗𑌤𑌃।",
 		transcription: "āścaryaṃ śuddhasattvasya loke lokānuvartino. śikṣitaḥ sarvaśāstreṣu lipiśālāmupāgataḥ. yeṣāmahaṃ nāmadheyaṃ lipīnāṃ na prajānami. tatraiṣa śikṣitaḥ santo lipiśālāmupāgataḥ.",
+		translation: "How wonderful! Even though the Pure Being Is learned in all topics in the world, He follows the conventions of the world. Thus he has come to school. He has learned scripts Even the names of which I have not heard, Yet he has come to school.",
 		contributor: "Vinodh Rajan"
 		},
 
@@ -500,30 +508,35 @@ phraseDB = {
 'sa-shrd': { name: 'Sanskrit (Sharada)',
 		text: "𑆄𑆯𑇀𑆖𑆫𑇀𑆪𑆁 𑆯𑆶𑆢𑇀𑆣𑆱𑆠𑇀𑆠𑇀𑆮𑆱𑇀𑆪 𑆬𑆾𑆑𑆼 𑆬𑆾𑆑𑆳𑆤𑆶𑆮𑆫𑇀𑆠𑆴𑆤𑆾𑇅 𑆯𑆴𑆑𑇀𑆰𑆴𑆠𑆂 𑆱𑆫𑇀𑆮𑆯𑆳𑆱𑇀𑆠𑇀𑆫𑆼𑆰𑆶 𑆬𑆴𑆥𑆴𑆯𑆳𑆬𑆳𑆩𑆶𑆥𑆳𑆓𑆠𑆂𑇅 𑆪𑆼𑆰𑆳𑆩𑆲𑆁 𑆤𑆳𑆩𑆣𑆼𑆪𑆁 𑆬𑆴𑆥𑆵𑆤𑆳𑆁 𑆤 𑆥𑇀𑆫𑆘𑆳𑆤𑆩𑆴𑇅 𑆠𑆠𑇀𑆫𑆽𑆰 𑆯𑆴𑆑𑇀𑆰𑆴𑆠𑆂 𑆱𑆤𑇀𑆠𑆾 𑆬𑆴𑆥𑆴𑆯𑆳𑆬𑆳𑆩𑆶𑆥𑆳𑆓𑆠𑆂𑇅",
 		transcription: "āścaryaṃ śuddhasattvasya loke lokānuvartino. śikṣitaḥ sarvaśāstreṣu lipiśālāmupāgataḥ. yeṣāmahaṃ nāmadheyaṃ lipīnāṃ na prajānami. tatraiṣa śikṣitaḥ santo lipiśālāmupāgataḥ.",
+		translation: "How wonderful! Even though the Pure Being Is learned in all topics in the world, He follows the conventions of the world. Thus he has come to school. He has learned scripts Even the names of which I have not heard, Yet he has come to school.",
 		contributor: "Vinodh Rajan"
 		},
 
 'sa-sidd': { name: 'Sanskrit (Siddham)',
 		text: "𑖁𑖫𑖿𑖓𑖨𑖿𑖧𑖽 𑖫𑖲𑖟𑖿𑖠𑖭𑖝𑖿𑖝𑖿𑖪𑖭𑖿𑖧 𑖩𑖺𑖎𑖸 𑖩𑖺𑖎𑖯𑖡𑖲𑖪𑖨𑖿𑖝𑖰𑖡𑖺𑗂 𑖫𑖰𑖎𑖿𑖬𑖰𑖝𑖾 𑖭𑖨𑖿𑖪𑖫𑖯𑖭𑖿𑖝𑖿𑖨𑖸𑖬𑖲 𑖩𑖰𑖢𑖰𑖫𑖯𑖩𑖯𑖦𑖲𑖢𑖯𑖐𑖝𑖾𑗂 𑖧𑖸𑖬𑖯𑖦𑖮𑖽 𑖡𑖯𑖦𑖠𑖸𑖧𑖽 𑖩𑖰𑖢𑖱𑖡𑖯𑖽 𑖡 𑖢𑖿𑖨𑖕𑖯𑖡𑖦𑖰𑗂 𑖝𑖝𑖿𑖨𑖹𑖬 𑖫𑖰𑖎𑖿𑖬𑖰𑖝𑖾 𑖭𑖡𑖿𑖝𑖺 𑖩𑖰𑖢𑖰𑖫𑖯𑖩𑖯𑖦𑖲𑖢𑖯𑖐𑖝𑖾𑗂",
 		transcription: "āścaryaṃ śuddhasattvasya loke lokānuvartino. śikṣitaḥ sarvaśāstreṣu lipiśālāmupāgataḥ. yeṣāmahaṃ nāmadheyaṃ lipīnāṃ na prajānami. tatraiṣa śikṣitaḥ santo lipiśālāmupāgataḥ.",
+		translation: "How wonderful! Even though the Pure Being Is learned in all topics in the world, He follows the conventions of the world. Thus he has come to school. He has learned scripts Even the names of which I have not heard, Yet he has come to school.",
 		contributor: "Vinodh Rajan"
 		},
 
 'sa-soyo': { name: 'Sanskrit (Soyombo)',
 		text: "𑩐𑩛 𑪈𑩵 𑩼𑪙𑩻𑪖 𑩿𑩒 𑩭𑪙𑩮 𑪁 𑩫𑪘𑪙𑩾 𑪁𑪙𑩻 𑩽𑩖 𑩜𑩔 𑩽𑩖 𑩜𑩛 𑩯𑩒 𑩾 𑩼𑪙𑩫𑩑 𑩯𑩖 𑪛 𑩿𑩑 𑪃𑩑 𑩫𑪗 𑪁 𑩼𑪙𑩾 𑩿𑩛 𑪁𑪙𑩫𑪙𑩼𑩔 𑪀𑩒 𑩽𑩑 𑩰𑩑 𑩿𑩛 𑩽𑩛 𑩴𑩒 𑩰𑩛 𑩞 𑩫𑪗 𑪛 𑩻𑩔 𑪀𑩛 𑩴 𑪂𑪖 𑩯𑩛 𑩴 𑩮𑩔 𑩻𑪖 𑩽𑩑 𑩰𑩑𑩛 𑩯𑩛𑪖 𑩯 𑩰𑪙𑩼 𑩷𑩛 𑩯 𑩴𑩑 𑪛 𑩫 𑩫𑪙𑩼𑩗 𑪀 𑩿𑩑 𑪃𑩑 𑩫𑪗 𑪁 𑩯𑪙𑩫𑩖 𑩽𑩑 𑩰𑩑 𑩿𑩛 𑩽𑩛 𑩴𑩒 𑩰𑩛 𑩞 𑩫𑪗 𑪛",
 		transcription: "āścaryaṃ śuddhasattvasya loke lokānuvartino. śikṣitaḥ sarvaśāstreṣu lipiśālāmupāgataḥ. yeṣāmahaṃ nāmadheyaṃ lipīnāṃ na prajānami. tatraiṣa śikṣitaḥ santo lipiśālāmupāgataḥ.",
+		translation: "How wonderful! Even though the Pure Being Is learned in all topics in the world, He follows the conventions of the world. Thus he has come to school. He has learned scripts Even the names of which I have not heard, Yet he has come to school.",
 		contributor: "Vinodh Rajan"
 		},
 
 'sa-tirh': { name: 'Sanskrit (Tirhuta)',
 		text: "𑒂𑒬𑓂𑒔𑒩𑓂𑒨𑓀 𑒬𑒳𑒠𑓂𑒡𑒮𑒞𑓂𑒞𑓂𑒫𑒮𑓂𑒨 𑒪𑒼𑒏𑒹 𑒪𑒼𑒏𑒰𑒢𑒳𑒫𑒩𑓂𑒞𑒱𑒢𑒼। 𑒬𑒱𑒏𑓂𑒭𑒱𑒞𑓁 𑒮𑒩𑓂𑒫𑒬𑒰𑒮𑓂𑒞𑓂𑒩𑒹𑒭𑒳 𑒪𑒱𑒣𑒱𑒬𑒰𑒪𑒰𑒧𑒳𑒣𑒰𑒑𑒞𑓁। 𑒨𑒹𑒭𑒰𑒧𑒯𑓀 𑒢𑒰𑒧𑒡𑒹𑒨𑓀 𑒪𑒱𑒣𑒲𑒢𑒰𑓀 𑒢 𑒣𑓂𑒩𑒖𑒰𑒢𑒧𑒱। 𑒞𑒞𑓂𑒩𑒻𑒭 𑒬𑒱𑒏𑓂𑒭𑒱𑒞𑓁 𑒮𑒢𑓂𑒞𑒼 𑒪𑒱𑒣𑒱𑒬𑒰𑒪𑒰𑒧𑒳𑒣𑒰𑒑𑒞𑓁।",
 		transcription: "āścaryaṃ śuddhasattvasya loke lokānuvartino. śikṣitaḥ sarvaśāstreṣu lipiśālāmupāgataḥ. yeṣāmahaṃ nāmadheyaṃ lipīnāṃ na prajānami. tatraiṣa śikṣitaḥ santo lipiśālāmupāgataḥ.",
+		translation: "How wonderful! Even though the Pure Being Is learned in all topics in the world, He follows the conventions of the world. Thus he has come to school. He has learned scripts Even the names of which I have not heard, Yet he has come to school.",
 		contributor: "Vinodh Rajan"
 		},
 
 'sa-zanb': { name: 'Sanskrit (Zanabazar Square)',
 		text: "𑨀𑨊𑨮𑩇𑨣𑨫𑩇𑨪𑨸 𑨮𑨂𑨛𑩇𑨜𑨰𑨙𑩇𑨙𑩇𑨭𑨰𑩇𑨪 𑨬𑨆𑨋𑨄 𑨬𑨆𑨋𑨊𑨝𑨂𑨭𑨫𑩇𑨙𑨁𑨝𑨆𑩂 𑨮𑨁𑨲𑨁𑨙𑨹 𑨰𑨫𑩇𑨭𑨮𑨊𑨰𑩇𑨙𑩇𑨫𑨄𑨯𑨂 𑨬𑨁𑨞𑨁𑨮𑨊𑨬𑨊𑨢𑨂𑨞𑨊𑨍𑨙𑨹𑩂 𑨪𑨄𑨯𑨊𑨢𑨱𑨸 𑨝𑨊𑨢𑨜𑨄𑨪𑨸 𑨬𑨁𑨞𑨁𑨊𑨝𑨊𑨸 𑨝 𑨞𑩇𑨫𑨥𑨊𑨝𑨢𑨁𑩂 𑨙𑨙𑩇𑨫𑨄𑨊𑨯 𑨮𑨁𑨲𑨁𑨙𑨹 𑨰𑨝𑩇𑨙𑨆 𑨬𑨁𑨞𑨁𑨮𑨊𑨬𑨊𑨢𑨂𑨞𑨊𑨍𑨙𑨹𑩂",
 		transcription: "āścaryaṃ śuddhasattvasya loke lokānuvartino. śikṣitaḥ sarvaśāstreṣu lipiśālāmupāgataḥ. yeṣāmahaṃ nāmadheyaṃ lipīnāṃ na prajānami. tatraiṣa śikṣitaḥ santo lipiśālāmupāgataḥ.",
+		translation: "How wonderful! Even though the Pure Being Is learned in all topics in the world, He follows the conventions of the world. Thus he has come to school. He has learned scripts Even the names of which I have not heard, Yet he has come to school.",
 		contributor: "Vinodh Rajan"
 		},
 

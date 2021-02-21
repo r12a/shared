@@ -9,6 +9,7 @@ var sampleScriptsIndex = {
     'bamu': { name: "Bamum", langs:['bax']}, 
     'bass': { name: "Bassa Vah", langs:['bsq']}, 
     'beng': { name: "Bengali", langs:['bn']},
+    'bhks': { name: "Bhaiksuki", langs:['sa-bhks']},
     'brah': { name: "Brahmi", langs:['pra']},
     'bugi': { name: "Buginese", langs:['bug']},
     'buhd': { name: "Buhid", langs:['bku-buhd']},

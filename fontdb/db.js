@@ -309,6 +309,7 @@ var fontDB = [
 { name:"Noto Sans Balinese",system:new Set([goog]), locales:new Set(['bali']), style:'sans' },
 { name:"Noto Sans Bamum",system:new Set([goog]), locales:new Set(['bamu']), style:'sans' },
 { name:"Noto Sans Bassa Vah",system:new Set([goog]), locales:new Set(['bass']), style:'sans' },
+{ name:"Noto Sans Bhaiksuki",system:new Set([goog]), locales:new Set(['bhks']), style:'sans' },
 { name:"Noto Sans Bengali",	system:new Set([goog]), locales:new Set(['beng']), style:'sans' },
 { name:"Noto Sans Brahmi",	system:new Set([goog]), locales:new Set(['brah']), style:'sans' },
 { name:"Noto Sans Buginese",system:new Set([goog]), locales:new Set(['bugi']), style:'sans' },
