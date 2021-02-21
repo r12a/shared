@@ -667,10 +667,26 @@ phraseDB = {
 		sourceURL: "https://unicode.org/udhr/d/udhr_yor.html"
 		},
 
+'xlc': { name: 'Lycian',
+		text: "𐊁𐊂𐊚𐊑𐊏𐊚⁚𐊓𐊕𐊑𐊏𐊀𐊇𐊒⁚𐊎𐊚𐊏 𐊁𐊓𐊕𐊑𐊏𐊀𐊇𐊀𐊗𐊚⁚𐊛𐊀𐊏𐊀𐊅𐊀𐊈𐊀⁚𐊛𐊕𐊓𐊓𐊆𐊍𐊀𐊅𐊆⁚𐊁𐊛𐊂𐊆⁚𐊖𐊁𐊗𐊆𐊅𐊁𐊆𐊎𐊁",
+		transcription: "ebẽñnẽ prñnawu mẽn. e prñnawatẽ hanadaza hrppi ladi ehbi setideime",
+		translation: "Hanadaza built this building for his wife and sons.",
+		source: "Wikipedia. No original source named.",
+		sourceURL: "https://en.wikipedia.org/wiki/Lycian_language"
+		},
+
+'xld': { name: 'Lydian',
+		text: "𐤠𐤨𐤦𐤯 𐤲𐤤𐤣 𐤱𐤠𐤳𐤱𐤶𐤫𐤰 𐤠𐤨𐤠𐤯 𐤲𐤯 𐤱𐤠𐤨𐤠𐤫𐤯𐤭𐤬𐤥 𐤠𐤣𐤪𐤯𐤦𐤮 𐤲𐤦𐤮 𐤣𐤦𐤯𐤬𐤩𐤩𐤠𐤣 𐤱𐤠𐤨𐤪𐤯𐤦𐤯𐤦𐤫 𐤲𐤯𐤣𐤵𐤫𐤨 𐤠𐤭𐤯𐤦𐤪𐤰𐤨 𐤨𐤠𐤯𐤮𐤠𐤭𐤩𐤬𐤨𐤦𐤣 𐤠𐤨𐤦𐤯 𐤤𐤣𐤨𐤬𐤨 𐤶𐤯𐤲𐤭𐤠𐤯𐤠𐤣 𐤨𐤬𐤯𐤠𐤣 𐤠𐤪𐤰 𐤪𐤦𐤯𐤭𐤦𐤣𐤠𐤮𐤯𐤠𐤳 𐤱𐤶𐤯𐤠𐤪𐤫𐤦𐤣𐤫 𐤠𐤨𐤳 𐤲𐤦𐤮 𐤶𐤪𐤫 𐤰𐤫 𐤡𐤠𐤸𐤣𐤫𐤠𐤳𐤬𐤣 𐤡𐤰𐤨 𐤦𐤫 𐤪𐤶𐤯𐤭𐤦𐤣 𐤡𐤰𐤨 𐤡𐤦𐤣𐤶𐤫 𐤲𐤦𐤨 𐤦𐤫𐤯 𐤠𐤨𐤪𐤯 𐤲𐤤𐤣 𐤶𐤪𐤤𐤣 𐤶𐤯𐤠𐤪𐤳 𐤰𐤫 𐤠𐤣𐤠𐤣 𐤠𐤭𐤯𐤦𐤪𐤰𐤳 𐤡𐤦𐤱𐤤𐤭𐤳𐤯",
+		transcription: "ak-it qed fašfênu ak-at qt fakantrov ak-m-t-is qis ditollad bitad fak-m-t-it-in qtdãn-k artimu-k katsarlokid ak-it edkok êtqratad kot-ad amu mitridastaš fêtamnidn ak-š qis êmn êtamn un bavdnašod buk in mêtrid buk bidên qik int akmt qed êmed êtamš un ak-ad artimuš biferšt",
+		translation: "This is what I have and give to gods, and who takes it, will get acquainted with Artemis, who will decide what to do with him.",
+		source: "The Grammar of the Lydian Language. Reconstructed from a Latin transcription. There could be errors!",
+		sourceURL: "https://babaev.tripod.com/archive/grammar22.html#6"
+		},
+
 'xly': { name: 'Elymaic',
 		text: "𐿱𐿫𐿬𐿠 𐿦𐿭𐿤 𐿶 𐿥𐿳𐿥𐿣 𐿭𐿠 𐿮𐿩𐿡 𐿪𐿥𐿳𐿮𐿩𐿠 𐿡𐿳 𐿡𐿫𐿣𐿥𐿴𐿠 𐿶 𐿳𐿡𐿠𐿭𐿩 𐿥𐿠𐿮𐿩𐿳𐿩𐿠 𐿥𐿠𐿵𐿩𐿨𐿪𐿠 𐿶 𐿡𐿵𐿳𐿯𐿠𐿡𐿳 𐿡𐿠𐿮𐿩 𐿭𐿠𐿮𐿩𐿡 𐿪𐿥𐿳𐿮𐿠",
-		source: "Tang-i Sarvak inscription #1",
-		sourceURL: "https://www.unicode.org/L2/L2017/17226-elymaean.pdf p21"
+		source: "Tang-i Sarvak inscription #1, in Unicode paper, p21",
+		sourceURL: "https://www.unicode.org/L2/L2017/17226-elymaean.pdf"
 		},
 
 'xmn': { name: 'Manichaean Middle Persian',

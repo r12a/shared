@@ -50,6 +50,8 @@ var sampleScriptsIndex = {
     'lepc': { name: "Lepcha", langs:['lep']},
     'limb': { name: "Limbu", langs:['lif']},
     'lisu': { name: "Lisu", langs:['lis']},
+    'lyci': { name: "Lycian", langs:['xlc']},
+    'lydi': { name: "Lydian", langs:['xld']},
     'maka': { name: "Makasar", langs:['mak']},
     'mand': { name: "Mandaic", langs:['mid']},
     'mani': { name: "Manichaean", langs:['xmn']},
