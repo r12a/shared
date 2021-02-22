@@ -179,6 +179,14 @@ phraseDB = {
 		sourceURL: "https://unicode.org/udhr/d/udhr_fuf_adlm.html"
 		},
 
+'gmy': { name: 'Mycenaean Greek',
+		text: "𐀴𐀪𐀡𐀆𐄀𐁁𐀐𐀄𐄀𐀐𐀩𐀯𐀍𐄀𐀸𐀐 𐃠 𐄈 𐀴𐀪𐀡𐄀𐀁𐀕𐄀𐀡𐀆𐄀𐀃𐀺𐀸 𐃠 𐄇 𐀴𐀪𐀡𐄀𐀐𐀩𐀯𐀍𐄀𐀸𐀐𐄀𐀀𐀢𐄀𐀐𐀏𐀄𐀕𐀜[ \𐀐𐀩𐁀 𐃠[/   𐀤𐀵 𐃢 𐄉 𐀇𐀞𐄀𐀕𐀿𐀁𐄀𐀤𐀵𐀫𐀸 𐃡 𐄇 𐀇𐀞𐀁𐄀𐀕𐀿𐀁𐄀𐀴𐀪𐀃𐀸𐀁 𐃡 𐄈 𐀇𐀞𐄀𐀕𐀹𐀍𐄀𐀤𐀵𐀫𐀸 𐃡 𐄇 [   𐀇𐀞𐄀𐀕𐀹𐀍𐄀𐀴𐀪𐀍𐀸 𐃡 𐄇 𐀇𐀞𐄀𐀕𐀹𐀍𐄀𐀀𐀜𐀸 𐃡 𐄇",
+		transcription: "ti-ri-po-de ai-ke-u ke-re-si-jo we-ke *201VAS 2  ti-ri-po e-me po-de o-wo-we *201VAS 1 ti-ri-po ke-re-si-jo we-ke a-pu ke-ka-u-me-no[ \ke-re-a2 *201VAS[/   qe-to *203VAS 3 di-pa me-zo-e qe-to-ro-we *202VAS 1  di-pa-e me-zo-e ti-ri-o-we-e *202VAS 2  di-pa me-wi-jo qe-to-ro-we *202VAS 1 [   di-pa me-wi-jo ti-ri-jo-we *202VAS 1 di-pa me-wi-jo a-no-we *202VAS 1",
+		translation: "Two Aigeus tripods of Cretan workmanship; one tripod with one foot with one handle; one tripod of Cretan workmanship burnt from \the legs/ [   three pithos jars; one bigger goblet with four handles; two bigger goblets with three handles; one smaller goblet with four handles [   one smaller goblet with three handles; one smaller goblet with no handles.",
+		source: "PY Ta 641 (palm-leaf tablet)",
+		contributor: "@tech189"
+		},
+
 'gon': { name: 'Gondi',
 		text: "𑵮𑵺𑶋 𑵭𑶌𑶉 𑶅𑶊𑵵𑶐 𑶅𑶋𑶉𑵺 𑵽𑶊𑵭 𑵺𑵶𑶍𑶂 𑵮𑶍𑶂𑶋𑵬𑵺 𑵮𑶎𑵳𑶋𑵳𑶐 𑵮𑶊𑵮𑵺𑵶 𑵳𑶐𑵸 𑵡𑶀𑶋 𑵱𑶐𑵳𑶋𑵸𑶊𑶈𑵺𑶐 𑶉𑶊𑶐𑶂𑶋𑵳𑵬𑶊𑶐 𑵬𑶐𑵭 𑵮𑶊𑶐 𑵸𑵺 𑵰𑶎𑶈 𑵱𑶊𑵵𑶋 𑶇𑶊𑶈𑶐 𑶉𑶊𑵬 𑶉𑶌𑵺𑶐𑵱𑶐 𑵮𑶍𑶈𑵰𑶊𑶐𑶂𑶋 𑵮𑵳𑵳𑶐 𑶀𑵱𑶍𑶉𑵺 𑵶𑶊𑵽𑶊𑶐 𑵰𑶊𑶐𑶉 𑶇𑶋𑵱𑶐𑶅𑶈𑶊𑶐𑵺𑵶 𑵱𑶂𑶋𑵳 𑵱𑶊𑵱𑵺 𑵰𑶋𑵬𑶂",
 		},

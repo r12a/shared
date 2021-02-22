@@ -344,6 +344,7 @@ var fontDB = [
 { name:"Noto Sans Khmer",	system:new Set([goog]), locales:new Set(['khmr']), style:'sans' },
 { name:"Noto Sans Lao",		system:new Set([goog]), locales:new Set(['laoo']), style:'sans' },
 { name:"Noto Sans Lepcha",	system:new Set([goog]), locales:new Set(['lepc']), style:'sans' },
+{ name:"Noto Sans Linear B",system:new Set([goog]), locales:new Set(['linb']), style:'sans' },
 { name:"Noto Sans Lisu",	system:new Set([goog]), locales:new Set(['lisu']), style:'sans' },
 { name:"Noto Sans Lycian",	system:new Set([goog]), locales:new Set(['lyci']), style:'sans' },
 { name:"Noto Sans Lydian",	system:new Set([goog]), locales:new Set(['lydi']), style:'sans' },

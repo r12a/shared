@@ -49,6 +49,7 @@ var sampleScriptsIndex = {
     'latn': { name: "Latin", langs:['ak', 'cy', 'dgr', 'en-GB-fonipa', 'ha-NE', 'ha-NG', 've', 'vi', 'yo']},
     'lepc': { name: "Lepcha", langs:['lep']},
     'limb': { name: "Limbu", langs:['lif']},
+    'linb': { name: "Linear B", langs:['gmy']},
     'lisu': { name: "Lisu", langs:['lis']},
     'lyci': { name: "Lycian", langs:['xlc']},
     'lydi': { name: "Lydian", langs:['xld']},
