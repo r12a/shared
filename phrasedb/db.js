@@ -676,11 +676,11 @@ phraseDB = {
 		},
 
 'xld': { name: 'Lydian',
-		text: "𐤠𐤨𐤦𐤯 𐤲𐤤𐤣 𐤱𐤠𐤳𐤱𐤶𐤫𐤰 𐤠𐤨𐤠𐤯 𐤲𐤯 𐤱𐤠𐤨𐤠𐤫𐤯𐤭𐤬𐤥 𐤠𐤣𐤪𐤯𐤦𐤮 𐤲𐤦𐤮 𐤣𐤦𐤯𐤬𐤩𐤩𐤠𐤣 𐤱𐤠𐤨𐤪𐤯𐤦𐤯𐤦𐤫 𐤲𐤯𐤣𐤵𐤫𐤨 𐤠𐤭𐤯𐤦𐤪𐤰𐤨 𐤨𐤠𐤯𐤮𐤠𐤭𐤩𐤬𐤨𐤦𐤣 𐤠𐤨𐤦𐤯 𐤤𐤣𐤨𐤬𐤨 𐤶𐤯𐤲𐤭𐤠𐤯𐤠𐤣 𐤨𐤬𐤯𐤠𐤣 𐤠𐤪𐤰 𐤪𐤦𐤯𐤭𐤦𐤣𐤠𐤮𐤯𐤠𐤳 𐤱𐤶𐤯𐤠𐤪𐤫𐤦𐤣𐤫 𐤠𐤨𐤳 𐤲𐤦𐤮 𐤶𐤪𐤫 𐤰𐤫 𐤡𐤠𐤸𐤣𐤫𐤠𐤳𐤬𐤣 𐤡𐤰𐤨 𐤦𐤫 𐤪𐤶𐤯𐤭𐤦𐤣 𐤡𐤰𐤨 𐤡𐤦𐤣𐤶𐤫 𐤲𐤦𐤨 𐤦𐤫𐤯 𐤠𐤨𐤪𐤯 𐤲𐤤𐤣 𐤶𐤪𐤤𐤣 𐤶𐤯𐤠𐤪𐤳 𐤰𐤫 𐤠𐤣𐤠𐤣 𐤠𐤭𐤯𐤦𐤪𐤰𐤳 𐤡𐤦𐤱𐤤𐤭𐤳𐤯",
-		transcription: "ak-it qed fašfênu ak-at qt fakantrov ak-m-t-is qis ditollad bitad fak-m-t-it-in qtdãn-k artimu-k katsarlokid ak-it edkok êtqratad kot-ad amu mitridastaš fêtamnidn ak-š qis êmn êtamn un bavdnašod buk in mêtrid buk bidên qik int akmt qed êmed êtamš un ak-ad artimuš biferšt",
-		translation: "This is what I have and give to gods, and who takes it, will get acquainted with Artemis, who will decide what to do with him.",
-		source: "The Grammar of the Lydian Language. Reconstructed from a Latin transcription. There could be errors!",
-		sourceURL: "https://babaev.tripod.com/archive/grammar22.html#6"
+		text: "𐤠𐤨𐤯𐤦𐤫 𐤫𐤵𐤲𐤦𐤳 𐤲𐤤𐤩𐤷𐤨 𐤱𐤶𐤫𐤳𐤷𐤦𐤱𐤦𐤣 𐤱𐤠𐤨𐤪𐤷 𐤠𐤭𐤯𐤦𐤪𐤰𐤮 𐤦𐤡𐤮𐤦𐤪𐤳𐤦𐤳 𐤠𐤭𐤯𐤦𐤪𐤰𐤨 𐤨𐤰𐤩𐤰𐤪𐤳𐤦𐤳 𐤠𐤠𐤭𐤠𐤷 𐤡𐤦𐤭𐤠𐤷𐤨 𐤨𐤷𐤦𐤣𐤠𐤷 𐤨𐤬𐤱𐤰𐤷𐤨 𐤲𐤦𐤭𐤠𐤷 𐤲𐤤𐤩𐤷𐤨 𐤡𐤦𐤩𐤷 𐤥𐤹𐤡𐤠𐤲𐤶𐤫𐤯",
+		transcription: "ak-t-in nãqis qelλ-k fẽnsλifid fak-mλ artimuś ibśimsis artimu-k kulumsis aaraλ biraλ-k kλidaλ kofuλ-k qiraλ qelλ-k bilλ wcbaqẽnt ",
+		translation: "Yea, if anyone to anything does damage, then to him Artemis of the Ephesians and Artemis of Coloe [will destroy] the yard and house, land and water, property and estate that are his, She [Artemis] will destroy!",
+		source: "Sardis necropolis discovered a bilingual inscription in Lydian and Aramaic, in Wikipedia.",
+		sourceURL: "https://en.wikipedia.org/wiki/Lydian_language#The_Lydian_bilingual"
 		},
 
 'xly': { name: 'Elymaic',
