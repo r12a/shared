@@ -621,6 +621,13 @@ phraseDB = {
 		sourceURL: "https://unicode.org/udhr/d/udhr_sin.html"
 		},
 
+'skr': { name: 'Saraiki',
+		text: "𑊀 𑊥𑊢𑊆𑊤𑊒 𑊢𑊦𑊕𑊤𑊣 𑊀𑊥𑊘 𑊛𑊖 𑊖𑊒 𑊚𑊤 𑊛𑊤 𑊗𑊀 𑊖𑊒 𑊢𑊌 𑊀𑊤 𑊖𑊒 𑊘𑊣𑊠𑊈 𑊥𑊢𑊆𑊤𑊊 𑊌𑊦 𑊖𑊦 𑊘𑊚𑊁𑊤𑊊 𑊄𑊢 𑊤𑊧𑊚𑊩",
+		transcription: "Ai saragwitš rahaṇwala asda pita teḍa naw pawitra tha teḍa radž awa teḍa dilmaṭha saragwitš džaha taha dunyawatiš kara wangna.",
+		source: "The Lord's Prayer, in Omniglot",
+		sourceURL: "https://www.omniglot.com/writing/multani.htm"
+		},
+
 'su': { name: 'Sundanese',
 		text: "ᮙᮛᮔᮨᮂᮔ ᮓᮤᮘᮨᮛᮨ ᮃᮊᮜ᮪ ᮏᮩᮀ ᮠᮒᮨ ᮔᮥᮛᮔᮤ, ᮎᮙ᮪ᮕᮥᮁ-ᮌᮅᮜ᮪ ᮏᮩᮀ ᮞᮞᮙᮔ ᮃᮚ ᮓᮤᮔ ᮞᮥᮙᮔᮨᮒ᮪ ᮓᮥᮓᮥᮜᮥᮛᮔ᮪.",
 		},
