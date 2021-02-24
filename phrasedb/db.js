@@ -633,6 +633,15 @@ phraseDB = {
 		text: "ܟܠ ܒܪܢܫܐ ܒܪܝܠܗ ܚܐܪܐ ܘܒܪܒܪ ܓܘ ܐܝܩܪܐ ܘܙܕܩܐ. ܘܦܝܫܝܠܗ ܝܗܒܐ ܗܘܢܐ ܘܐܢܝܬ. ܒܘܕ ܕܐܗܐ ܓܫܩܬܝ ܥܠ ܐܚܪܢܐ ܓܪܓ ܗܘܝܐ ܒܚܕ ܪܘܚܐ ܕܐܚܢܘܬܐ.",
 		},
 
+'syl': { name: 'Sylheti',
+		text: "ꠢꠇꠟ ꠝꠣꠘꠥꠡ ꠡꠣꠗꠤꠘꠜꠣꠛꠦ ꠢꠝꠣꠘ ꠁꠎ꠆ꠎꠔ ꠀꠞ ꠢꠇ ꠟꠁꠀ ꠙꠄꠖꠣ ‘ꠅꠄ। ꠔꠣꠁꠘꠔꠣꠁꠘꠞ ꠛꠤꠛꠦꠇ ꠀꠞ ꠀꠇꠟ ꠀꠍꠦ। ꠅꠔꠣꠞ ꠟꠣꠉꠤ ꠢꠇꠟꠞ ꠄꠇꠎꠘꠦ ꠀꠞꠇꠎꠘꠞ ꠟꠉꠦ ꠛꠤꠞꠣꠖꠞꠤꠞ ꠝꠘ ꠟꠁꠀ ꠀꠌꠞꠘ ꠇꠞꠣ ꠃꠌꠤꠔ।",
+		transcription: "Hoxol manuṣ ṣadínbábe homan ijjot ar hox loia foeda óe. Taintainor bibex ar axol asé. Otar lagi hoxlor exzone aroxzonor loge biradorir mon loia asoron xora usit",
+		ipa: "ɦɔxɔl manuʃ ʃad̪ínbábɛ ɦɔman id͡ʑd͡ʑɔt̪ aɾ ɦɔx lɔia fɔe̯d̪a ɔ́e̯ ‖ t̪aɪnt̪aɪnɔɾ bibex aɾ axɔl asé ‖ ɔt̪aɾ lagi ɦɔxlɔɾ ɛxzɔne arɔxzɔnɔɾ lɔgɛ birad̪ɔɾiɾ mɔn lɔia asɔɾɔn xɔɾa usit̪",
+		translation: "All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience. Therefore, they should act towards one another in a spirit of brotherhood",
+		source: "Article 1 of the Universal Declaration of Human Rights, in Wikipedia",
+		sourceURL: "https://en.wikipedia.org/wiki/Sylheti_Nagri#Sample_texts"
+		},
+
 'ur': { name: 'Urdu',
 		text: "تمام انسان آزاد اور حقوق و عزت کے اعتبار سے برابر پیدا ہوئے ہیں۔ انہیں ضمیر اور عقل ودیعت ہوئی ہے۔ اس لئے انہیں ایک دوسرے کے ساتھ بھائی چارے کا سلوک کرنا چاہیئے۔",
 		source: "UDHR §1",

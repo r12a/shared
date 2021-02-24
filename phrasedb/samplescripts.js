@@ -89,6 +89,7 @@ var sampleScriptsIndex = {
     'sinh': { name: "Sinhala", langs:['si']},
     'soyo': { name: "Soyombo", langs:['sa-soyo']},
     'sund': { name: "Sundanese", langs:['su']},
+    'sylo': { name: "Syloti Nagri", langs:['syl']},
     'syrc': { name: "Syriac", langs:['aii', 'syc', 'tru']},
     'tale': { name: "Tai Le", langs:['tdd']},
     'tagb': { name: "Tagbanwa", langs:['tbw']},
