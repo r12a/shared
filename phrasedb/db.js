@@ -241,6 +241,22 @@ phraseDB = {
 		sourceURL: "https://en.wikipedia.org/wiki/Luwian_language#Syntax"
 		},
 
+'hmn-hmng': { name: 'Hmong (Pahawh Hmong)',
+		text: "𖬑𖬦𖬰 𖬇𖬰𖬧𖬵 𖬁𖬲𖬬 𖬇𖬲𖬤 𖬓𖬲𖬞 𖬐𖬰𖬦 𖬉 𖬘𖬲𖬤 𖬀𖬰𖬝𖬵 𖬔𖬟𖬰 𖬂𖬲𖬤𖬵 𖬅𖬲𖬨𖬵 𖬓𖬲𖬥𖬰 𖬄𖬲𖬟 𖬒𖬲𖬯𖬵 𖬋𖬯. 𖬎𖬶𖬞 𖬖𖬰𖬮 𖬓𖬜𖬰 𖬆𖬰𖬞 𖬖𖬞𖬰 𖬎𖬲𖬟𖬰 𖬔𖬟𖬰 𖬆𖬰𖬞 𖬔𖬤𖬵 𖬔𖬟𖬰 𖬂𖬮𖬰 𖬁𖬲𖬞 𖬐𖬲𖬤 𖬆𖬝𖬰 𖬒𖬲𖬯 𖬅𖬮𖬰 𖬉𖬰 𖬎𖬰𖬩𖬵 𖬂𖬲𖬮𖬰 𖬁𖬲𖬞 𖬎𖬰𖬩𖬵 𖬒𖬲𖬯𖬵 𖬉 𖬅𖬮𖬰 𖬙 𖬂𖬰𖬧𖬵.",
+		transcription: "Txhua tus neeg yug los muaj kev ywj pheej thiab sib npaug zos hauv txoj cai. Lawv xaj nrog lub laj thawj thiab lub siab thiab ib leeg yuav tsum coj ua ke ntawm ib leeg ntawm txoj kev ua kwv tij. ",
+		translation: "All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.",
+		source: "Universal Declaration of Human Rights Article 1, in Wikipedia.",
+		sourceURL: "https://en.wikipedia.org/wiki/Hmong_language#Samples"
+		},
+
+'hmn-hmnp': { name: 'Hmong (Nyiakeng Puachue Hmong)',
+		text: "𞄔𞄄𞄧𞄤𞄃𞄧𞄴𞄅𞄫𞄵𞄘𞄧𞄵𞄉𞄨𞄴 𞄀𞄧𞄲𞄤𞄎𞄪𞄳𞄘𞄬𞄲𞄚𞄄𞄲𞄫𞄃𞄄𞄦𞄰𞄤𞄊𞄦𞄰𞄜𞄤𞄵𞄨𞄋𞄨𞄴 𞄄𞄤𞄳𞄨𞄔𞄨𞄲𞄈𞄤𞄦. 𞄉𞄤𞄳𞄬𞄆𞄤𞄲 𞄑𞄨𞄵𞄉𞄧𞄰𞄉𞄤𞄲𞄃𞄄𞄤𞄲𞄬 𞄃𞄄𞄦𞄰𞄤𞄉𞄧𞄰𞄊𞄦𞄰𞄤 𞄃𞄄𞄦𞄰𞄤 𞄦𞄰𞄉𞄫𞄵𞄘𞄧𞄳𞄤𞄁𞄧𞄱𞄈𞄨𞄲 𞄧𞄤 𞄎𞄪𞄂𞄤𞄱𞄬𞄦𞄰𞄉𞄫𞄵𞄂𞄤𞄱𞄬𞄔𞄨𞄲𞄎𞄪𞄧𞄳 𞄧𞄤𞄎𞄬𞄳𞄃𞄦𞄲.",
+		transcription: "Txhua tus neeg yug los muaj kev ywj pheej thiab sib npaug zos hauv txoj cai. Lawv xaj nrog lub laj thawj thiab lub siab thiab ib leeg yuav tsum coj ua ke ntawm ib leeg ntawm txoj kev ua kwv tij. ",
+		translation: "All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.",
+		source: "Universal Declaration of Human Rights Article 1, in Wikipedia.",
+		sourceURL: "https://en.wikipedia.org/wiki/Hmong_language#Samples"
+		},
+
 'hnn': { name: 'Hanunoo',
 		text: "ᜣᜥ᜴ ᜫᜨᜳᜣ᜴ ᜰᜲ ᜪᜲᜮᜯᜨ᜴ ᜵ ᜨᜤ᜴ᜰᜲᜮᜳᜥ᜴ ᜰ ᜩᜰᜳᜠᜰᜨ᜴ ᜵ ᜫᜤ᜴ᜧᜮᜨ᜴ᜥᜲᜨ᜴ ᜬᜲ ᜢᜮᜨ᜴ ᜶",
 		},
