@@ -521,6 +521,14 @@ phraseDB = {
 		sourceURL: "https://archive.org/details/inscriptionsaso00hultgoog"
 		},
 
+'rej': { name: 'Rejang',
+		text: "ꤰꥈꤳꥎ ꤳꥈꥐ ꤾꥁꥉꥑ ꤸꥎꥑꤴꥉꤰ, ꤳ꥓ꤸꥈꥆꥐ ꥁꥋꤰ꥓-ꥁꥋꤰ꥓ ꤴꥎ ꤼ꥓ꤽꥊ.  ꤰꥈꤳꥎ ꤵꤱꥇꥒꤰ꥓-ꤷꥒ ꥆꤰꥎꥒ ꤶꥉꤰꥉꥑ ꤲꥉꥐ ꥆꤳꥊꥎ, ꤰꥎꥑꤵꥋ ꥆꥋ ꤰꥎꤾꥋꤰ꥓-ꤵꥎ ꤷꥎꥒꤰꥈꥆꤳ꥓-ꤷꥒ ꤴꥋ ꤲꥉꥐ ꤾꥈꤿꥎꥐ ꤾꥎꤸ꥓ ꥆꤼꥊ ꤼꥎꤶꤼꥈꥒꤰ꥓.",
+		transcription: "Kutê tun laher mêrdeka, tmuan hok-hok dê srai. Kutê nagiak-ba akêa peker ngen atêi, kêrno o kêlok-nê bêkuat-ba do ngen luyên lêm asai sêpasuak.",
+		translation: "All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.",
+		source: "Article 1 of the Universal Declaration of Human Rights, in Omniglot",
+		sourceURL: "https://www.omniglot.com/writing/redjang.htm"
+		},
+
 'rhg': { name: 'Rohingya',
 		text: "𐴀𐴞𐴕𐴐𐴝𐴦𐴕 𐴁𐴠𐴒𐴧𐴟𐴕 𐴀𐴝𐴎𐴝𐴊𐴢 𐴀𐴝𐴌 𐴀𐴠𐴑𐴧𐴟 𐴉𐴟𐴥𐴖𐴝𐴙𐴕𐴝 𐴇𐴡𐴥𐴑 𐴀𐴝𐴌 𐴀𐴞𐴎𐴧𐴡𐴃𐴢 𐴓𐴡𐴌 𐴉𐴡𐴘𐴊𐴝 𐴀𐴡𐴥𐴘𐴧𐴠 ۔  𐴀𐴞𐴥𐴃𐴝𐴘𐴝𐴃𐴧𐴟 𐴀𐴝𐴈𐴡𐴓 𐴀𐴝𐴌 𐴁𐴟𐴎 𐴀𐴡𐴥𐴘𐴧𐴠 ، 𐴀𐴠𐴥𐴃𐴡𐴓𐴧𐴝 𐴀𐴞𐴥𐴃𐴝𐴌𐴝𐴃𐴧𐴟 𐴀𐴠𐴑 𐴀𐴡𐴕 𐴀𐴝𐴌 𐴀𐴠𐴑 𐴎𐴡𐴕 𐴓𐴡𐴘 𐴁𐴤𐴝𐴘𐴧𐴡 𐴋𐴧𐴡𐴙𐴓𐴧𐴝 𐴔𐴝𐴦𐴔𐴠𐴓𐴝 𐴒𐴡𐴌𐴡𐴥𐴕 𐴏𐴝𐴀𐴝 ۔",
 		source: "UDHR §1",

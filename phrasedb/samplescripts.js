@@ -77,6 +77,7 @@ var sampleScriptsIndex = {
     'phnx': { name: "Phoenician", langs:['phn']},
     'phli': { name: "Pahlavi (Inscriptional)", langs:['pal']},
     'prti': { name: "Parthian (Inscriptional)", langs:['xpr']},
+    'rjng': { name: "Rejang", langs:['rej']},
     'rohg': { name: "Hanifi Rohingya", langs:['rhg']},
     'runr': { name: "Runic", langs:['non-runr']},
     'samr': { name: "Samaritan", langs:['smp']},

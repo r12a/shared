@@ -370,6 +370,7 @@ var fontDB = [
 { name:"Noto Sans Palmyrene",system:new Set([goog]), locales:new Set(['palm']), style:'sans' },
 { name:"Noto Sans PhagsPa",system:new Set([goog]), locales:new Set(['phag']), style:'sans' },
 { name:"Noto Sans Phoenician",system:new Set([goog]), locales:new Set(['phnx']), style:'sans' },
+{ name:"Noto Sans Rejang",	system:new Set([goog]), locales:new Set(['rjng']), style:'sans' },
 { name:"Noto Sans Runic",	system:new Set([goog]), locales:new Set(['runr']), style:'sans' },
 { name:"Noto Sans Samaritan",system:new Set([goog]), locales:new Set(['samr']), style:'sans' },
 { name:"Noto Sans Saurashtra",system:new Set([goog]), locales:new Set(['saur']), style:'sans' },
