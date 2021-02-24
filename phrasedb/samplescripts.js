@@ -69,6 +69,7 @@ var sampleScriptsIndex = {
     'ogam': { name: "Ogham", langs:['mga']},
     'osge': { name: "Osage", langs:['osa']},
     'olck': { name: "Ol Chiki", langs:['sat']},
+    'orkh': { name: "Old Turkish", langs:['otk']},
     'orya': { name: "Oriya", langs:['ory']},
     'osma': { name: "Osmanya", langs:['so-osma']},
     'palm': { name: "Palmyrene", langs:['arc-palm']},
