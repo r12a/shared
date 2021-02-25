@@ -60,7 +60,8 @@ phraseDB = {
 		transcription: "Inilah tulisan kita dibentuk oleh tangan-tangan kita. Alat-alta kita, sejarah kita. Kehilangan aksara ini, bermakna kehilangan diri kita sendir.",
 		translation: "These are our words, shaped By our hands, our tools, Our history. Lose them And we lose ourselves",
 		source: "Omniglot",
-		sourceURL: "https://www.omniglot.com/writing/batak.htm"
+		sourceURL: "https://www.omniglot.com/writing/batak.htm",
+		notes: "The Noto font doesn't correctly position vowel-signs in syllables that end with a vowel-killer."
 		},
 
 'bku-buhd': { name: 'Buhid',
