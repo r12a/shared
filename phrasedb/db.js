@@ -55,6 +55,14 @@ phraseDB = {
 		text: "ꛦ-ꚳꛊꚤ ꚳꚣꚧ꛱ꛦꚧ꛱ ꚳ꛰ꚴꚢ ꛲ꛗ   ꛧ-ꚳꛊꚤ ꛄꚧ꛱ ꚳ꛰ꛤ꛰ ꚩꚤ ꛲ꛗ   ꛨ-ꛅꚧ꛱ ꛣꚠ ꚳꛊꚤꚳ ꛎꛦ ꛛꚧ꛱ ꛲ꛗ   ꛩ-꛲ꚣꛤ ꛅꚧ꛱ ꛇꛛꚧ꛱ ꛤ꛰ ꛨ ꚣꛤ ꛛꚧ꛱ ꛦ꛰ꚳ꛰   ꛪ-ꛕꚠꛤ ꛅꚧ ꛈ ꛅꚧ꛱ ꛖ ꚳ꛰ꛤ꛰ ꛲ꚱꛅ꛱"
 		},
 
+'bbc': { name: 'Batak Toba',
+		text: "ᯤᯉᯪᯞᯂ᯲ᯖᯮᯞᯪᯘᯉ᯲ᯂᯪᯖ ᯑᯪᯅᯩᯉ᯲ᯖᯮᯂ᯲ᯀᯬᯞᯩᯂ᯲ᯖᯝᯉ᯲ᯖᯝᯉ᯲ᯂᯪᯖ. ᯀᯞᯖ᯲ᯀᯞᯖ᯲ᯂᯪᯖ,ᯘᯩᯐᯒᯄ᯲ᯂᯪᯖ. ᯂᯩᯄᯪᯞᯝᯉ᯲ᯀᯂᯘᯒᯤᯉᯪ,ᯅᯩᯒ᯲ᯔᯂ᯲ᯉᯂᯩᯄᯪᯞᯝᯉ᯲ᯑᯪᯒᯪᯂᯪᯖᯘᯩᯉ᯲ᯑᯪᯒᯪ.",
+		transcription: "Inilah tulisan kita dibentuk oleh tangan-tangan kita. Alat-alta kita, sejarah kita. Kehilangan aksara ini, bermakna kehilangan diri kita sendir.",
+		translation: "These are our words, shaped By our hands, our tools, Our history. Lose them And we lose ourselves",
+		source: "Omniglot",
+		sourceURL: "https://www.omniglot.com/writing/batak.htm"
+		},
+
 'bku-buhd': { name: 'Buhid',
 		text: "ᝃᝑᝓᝃᝑᝓ ᝃᝓ ᝋᝎᝄᝓ ᜵ ᝃᝊᝓᝌᝓᝊᝓᝌᝓ ᝐᝒ ᝇᝄᝓ ᜵ ᝇᝎᝒᝃ ᝐ ᝉᝍᝓᝋᝒᝌᝓ ᜵ ᝐᝒᝑᝋᝓ ᝃ ᝐ ᝊᝎ ᝊᝃᝓ ᜵ ᝀᝈ ᝂᝋᝊᝓ ᝃ ᝈᝒᝋᝓ ᜶",
 		},
