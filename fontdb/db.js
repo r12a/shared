@@ -110,6 +110,7 @@ var fontDB = [
 { name:"Noto Sans Siddham",	system:new Set([goog]), locales:new Set(['sidd']), style:'serif' },
 { name:"Noto Sans Tai Viet",system:new Set([goog]), locales:new Set(['tavt']), style:'serif' },
 { name:"Noto Serif",		system:new Set([goog]), locales:new Set(['latn', 'latn-ha', 'latn-afr', 'ipa', 'cyrl', 'grek']), style:'serif' },
+{ name:"Noto Serif Ahom",	system:new Set([goog]), locales:new Set(['ahom']), style:'sans' },
 { name:"Noto Serif Armenian",system:new Set([goog]), locales:new Set(['armn']), style:'serif' },
 { name:"Noto Serif Balinese",system:new Set([goog]), locales:new Set(['bali']), style:'serif' },
 { name:"Noto Serif Bengali",system:new Set([goog]), locales:new Set(['beng']), style:'serif' },

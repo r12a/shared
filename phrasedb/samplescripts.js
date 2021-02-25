@@ -1,6 +1,7 @@
 // Selections available when using the Samples app, used by Script Links page
 var sampleScriptsIndex = {  
     'adlm': { name: "Adlam", langs:['fuf-adlm']},
+    'ahom': { name: "Ahom", langs:['pi-ahom']}, 
     'arab': { name: "Arabic", langs:['arb','ha-arab','ks-arab', 'fa', 'ur']}, 
     'armn': { name: "Armenian", langs:['hy']},
     'armi': { name: "Imperial Aramaic", langs:['arc']},

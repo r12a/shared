@@ -521,6 +521,13 @@ phraseDB = {
 		sourceURL: "Arthur Christian. Débuts de l'imprimerie en France: L'Imprimerie Nationale; L’Hôtel deRohan at http://std.dkuug.dk/jtc1/sc2/wg2/docs/n2787.pdf p8"
 		},
 
+'pi-ahom': { name: 'Ahom (Pali)',
+		text: "𑜊𑜦𑜧 𑜔𑜉𑜫𑜉𑜡 𑜑𑜦𑜧𑜄𑜤𑜆𑜫𑜆𑜘𑜈𑜡 𑜄𑜦𑜧𑜏𑜪 𑜑𑜦𑜧𑜄𑜪𑜤 𑜄𑜌𑜡𑜕𑜄𑜦𑜡 𑜒𑜡𑜑 𑜼 𑜄𑜦𑜧𑜏𑜐𑜫𑜋 𑜊𑜦𑜡 𑜃𑜣𑜍𑜦𑜡𑜔𑜦𑜡 𑜒𑜦𑜧𑜈𑜪 𑜈𑜡𑜓𑜣 𑜉𑜑𑜡𑜏𑜉𑜃𑜦𑜡 𑜽",
+		transcription: "ye dhammā hetuppabhavā tesaṃ hetuṃ tathāgato āha . tesañca yo nirodho evaṃ vādī mahāsamaṇo ..",
+		source: "Aksharamukha : Script Converter",
+		sourceURL: "https://aksharamukha.appspot.com/describe/Ahom",
+		},
+
 'pra': { name: 'Prakrit (Brahmi)',
 		text: "𑀤𑁂𑀯𑀸𑀦𑀁𑀧𑀺𑀬𑁂 𑀧𑀺𑀬𑀤𑀲𑀺 𑀮𑀸𑀚𑀸 𑀳𑁂𑀯𑀁 𑀆𑀳𑀸 𑀬𑁂 𑀅𑀢𑀺𑀓𑀁𑀢𑀁 𑀅𑀁𑀢𑀮𑀁 𑀮𑀸𑀚𑀸𑀦𑁂 𑀳𑀼𑀲 𑀳𑁂𑀯𑀁 𑀇𑀙𑀺𑀲𑀼 𑀓𑀣𑀁 𑀚𑀦𑁂 𑀥𑀁𑀫𑀯𑀠𑀺𑀬𑀸 𑀯𑀸𑀠𑁂𑀬 𑀦𑁄𑀘𑀼𑀚𑀦𑁂 𑀅𑀦𑀼𑀮𑀼𑀧𑀸𑀬𑀸 𑀥𑀁𑀫𑀯𑀠𑀺𑀬𑀸 𑀯𑀠𑀺𑀣𑀸 𑀏𑀢𑀁",
 		transcription: "devānaṁpiye piyadasi lājā hevaṁ āhā ye atikaṁtaṁ aṁtalaṁ lājāne husa hevaṁ ichisu kathaṁ jane dhaṁmavaḍhiyā vāḍheya nocujane anulupāyā dhaṁmavaḍhiyā vaḍhithā etaṁ",
