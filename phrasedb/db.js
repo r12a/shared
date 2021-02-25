@@ -570,6 +570,13 @@ phraseDB = {
 		contributor: "Vinodh Rajan"
 		},
 
+'sa-mahj': { name: 'Sanskrit (Mahajani)',
+		text: "𑅐𑅧𑅑𑅭𑅔𑅦𑅬 𑅐𑅧𑅒𑅣𑅨𑅐𑅥𑅬 𑅐𑅧𑅒𑅙𑅚𑅓𑅥𑅬 𑅐𑅰𑅳𑅐𑅰𑅳𑅯𑅣𑅬 । 𑅐𑅧𑅓𑅕𑅐𑅭𑅤𑅬 𑅐𑅧𑅐𑅧𑅐𑅭𑅤𑅬 𑅐𑅧𑅐𑅗𑅬𑅬 𑅐𑅧𑅑𑅭𑅗𑅬𑅬 ॥ 𑅛𑅱 𑅨𑅭𑅣𑅑𑅣𑅛𑅰𑅬𑅒𑅣𑅨𑅐𑅥𑅧 𑅨𑅭𑅨𑅝𑅙𑅔𑅨𑅰𑅳𑅬𑅧 𑅰𑅳𑅑𑅯𑅬 । 𑅥𑅓𑅰𑅳𑅛𑅐𑅬𑅐𑅰 𑅰𑅧𑅪𑅒𑅥𑅦𑅰𑅣𑅧 𑅯𑅧𑅥𑅓 𑅯𑅥𑅣𑅐𑅧 𑅯𑅭𑅬 ॥",
+		transcription: "anirodham anutpādam anucchedam aśāśvatam. anekārtham anānārtham anāgamam anirgamam.. yaḥ pratītyasamutpādaṃ prapañcopaśamaṃ śivam. deśayāmāsa saṃbuddhastaṃ vande vadatāṃ varam..",
+		source: "Aksharamukha : Script Converter",
+		sourceURL: "https://aksharamukha.appspot.com/describe/Mahajani"
+		},
+
 'sa-phag': { name: 'Sanskrit (Phags Pa)',
 		text: "ꡀꡁꡂꡃ ꡄꡅꡆꡇ ꡈꡉꡊꡋ ꡌꡍꡎꡏ ...",
 		},
@@ -706,6 +713,14 @@ phraseDB = {
 		text: "𐎍𐎟𐎎𐎍𐎋𐎟𐎜𐎂𐎗𐎚 𐎀𐎈𐎊𐎟𐎗𐎂𐎎 𐎚𐎈𐎎𐎟𐎎𐎍𐎋𐎟𐎕𐎗𐎟𐎀𐎈𐎋 𐎊𐎌𐎍𐎎𐎟 𐎍𐎋𐎟𐎛𐎍𐎎 𐎚𐎙𐎗𐎋𐎟𐎚𐎌𐎍𐎎𐎋 𐎅𐎐𐎐𐎊𐎟𐎎𐎐 𐎌𐎍𐎎𐎟𐎉𐎎𐎐𐎊 𐎎𐎋𐎟𐎎𐎐𐎎𐎟𐎌𐎍𐎎 𐎗𐎂𐎎𐎟𐎉𐎉𐎁",
 		source: "P. Bordreuil, D. Pardee, A manual of Ugaritic, Eisenbrauns, Winona Lake, 2009, testo n. 26. Letter of the king of Tyre to the king of Ugarit (probably translated from Akkadian) RS 18.031 (KTU 2.38) [Transcribed from Latin transcription – may need fixing.]",
 		sourceURL: "http://mnamon.sns.it/index.php?page=Esempi&id=30&lang=en"
+		},
+
+'und-kthi': { name: 'Unknown (Kaithi)',
+		text: "𑂉𑂏𑂷 𑂮𑂴𑂧 𑂃𑂣𑂢 𑂮𑂥 𑂡𑂢-𑂮𑂧𑂹𑂣𑂞𑂹 𑂥𑂵𑂒 𑂍𑂵 𑂮𑂷𑂢𑂰 𑂍𑂲𑂢𑂪𑂅, 𑂃𑂫𑂩 𑂋𑂍𑂩𑂰 𑂈'𑂏𑂪𑂰 𑂍𑂵 𑂆𑂀𑂗𑂰 𑂢𑂲𑂨𑂩 𑂥𑂢𑂰 𑂍𑂵 𑂡𑂩𑂞𑂲 𑂧𑂵𑂀 𑂏𑂰𑂚 𑂍𑂵 𑂩𑂷𑂔 𑂋𑂍𑂩 𑂣𑂯𑂩𑂰 𑂡𑂵 𑂯𑂪𑂅.",
+		transcription: "Egō sūm apan sab dhan-sampat bēch-ke sōnā kinalaī, awar okara u' galā-ke īṅtā niyar bana-ke dharati-mēṅ gāṇ-ke rōj ōkar paharā dē-halaī.",
+		translation: "A-certain miser his-own all wealth-property having-sold gold bought, and it he having-melted a-brick like having-made the-ground-in having-buried (every)-day of-it guarding used-to-give.",
+		source: "Omniglot, quoting an example from Stotra in Kaithi Script Rajendra]",
+		sourceURL: "https://www.omniglot.com/writing/kaithi.htm"
 		},
 
 'vai': { name: 'Vai',
