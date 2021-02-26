@@ -528,6 +528,13 @@ phraseDB = {
 		sourceURL: "https://aksharamukha.appspot.com/describe/Ahom",
 		},
 
+'pi-cham': { name: 'Ahom (Pali)',
+		text: "ꨢꨯꨮ ꨖꩌꨠꨩ ꨨꨯꨮꨓꨭꩇꨚꨞꨥꨩ ꨓꨯꨮꨧꩌ ꨨꨯꨮꨓꨭꩌ ꨓꨔꨩꨈꨓꨯ ꨀꨩꨨ ꩝ ꨓꨯꨮꨧꩆꨌ ꨢꨯ ꨘꨪꨣꨯꨖꨯ ꨃꨥꩌ ꨥꨩꨕꨫ ꨠꨨꨩꨧꨠꨘꨯ ꩞",
+		transcription: "ye dhammā hetuppabhavā tesaṃ hetuṃ tathāgato āha . tesañca yo nirodho evaṃ vādī mahāsamaṇo ..",
+		source: "Aksharamukha : Script Converter",
+		sourceURL: "https://aksharamukha.appspot.com/describe/Cham",
+		},
+
 'pra': { name: 'Prakrit (Brahmi)',
 		text: "𑀤𑁂𑀯𑀸𑀦𑀁𑀧𑀺𑀬𑁂 𑀧𑀺𑀬𑀤𑀲𑀺 𑀮𑀸𑀚𑀸 𑀳𑁂𑀯𑀁 𑀆𑀳𑀸 𑀬𑁂 𑀅𑀢𑀺𑀓𑀁𑀢𑀁 𑀅𑀁𑀢𑀮𑀁 𑀮𑀸𑀚𑀸𑀦𑁂 𑀳𑀼𑀲 𑀳𑁂𑀯𑀁 𑀇𑀙𑀺𑀲𑀼 𑀓𑀣𑀁 𑀚𑀦𑁂 𑀥𑀁𑀫𑀯𑀠𑀺𑀬𑀸 𑀯𑀸𑀠𑁂𑀬 𑀦𑁄𑀘𑀼𑀚𑀦𑁂 𑀅𑀦𑀼𑀮𑀼𑀧𑀸𑀬𑀸 𑀥𑀁𑀫𑀯𑀠𑀺𑀬𑀸 𑀯𑀠𑀺𑀣𑀸 𑀏𑀢𑀁",
 		transcription: "devānaṁpiye piyadasi lājā hevaṁ āhā ye atikaṁtaṁ aṁtalaṁ lājāne husa hevaṁ ichisu kathaṁ jane dhaṁmavaḍhiyā vāḍheya nocujane anulupāyā dhaṁmavaḍhiyā vaḍhithā etaṁ",

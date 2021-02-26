@@ -318,6 +318,7 @@ var fontDB = [
 { name:"Noto Sans Buhid",	system:new Set([goog]), locales:new Set(['buhd']), style:'sans' },
 { name:"Noto Sans Canadian Aboriginal",	system:new Set([goog]), locales:new Set(['cans']), style:'sans' },
 { name:"Noto Sans Chakma",	system:new Set([goog]), locales:new Set(['cakm']), style:'sans' },
+{ name:"Noto Sans Cham",	system:new Set([goog]), locales:new Set(['cham']), style:'sans' },
 { name:"Noto Sans Cherokee",system:new Set([goog]), locales:new Set(['cher']), style:'sans' },
 { name:"Noto Sans Coptic",	system:new Set([goog]), locales:new Set(['copt']), style:'sans' },
 { name:"Noto Sans Cypriot",	system:new Set([goog]), locales:new Set(['cprt']), style:'sans' },

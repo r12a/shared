@@ -17,6 +17,7 @@ var sampleScriptsIndex = {
     'buhd': { name: "Buhid", langs:['bku-buhd']},
     'cans': { name: "UCAS", langs:['ike', 'crk']},
     'cakm': { name: "Chakma", langs:['ccp']},
+    'cham': { name: "Cham", langs:['pi-cham']},
     'cher': { name: "Cherokee", langs:['chr', 'chr-x-lc']},
     'copt': { name: "Coptic", langs:['cop']},
     'cprt': { name: "Cypriot Syllabary", langs:['omn-cprt']},
