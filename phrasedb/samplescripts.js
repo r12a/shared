@@ -94,6 +94,7 @@ var sampleScriptsIndex = {
     'shaw': { name: "Shavian", langs:['en-shaw']},
     'shrd': { name: "Sharada", langs:['sa-shrd']},
     'sidd': { name: "Siddham", langs:['sa-sidd']},
+    'sind': { name: "Khudawadi", langs:['sa-sind']},
     'sinh': { name: "Sinhala", langs:['si']},
     'soyo': { name: "Soyombo", langs:['sa-soyo']},
     'sund': { name: "Sundanese", langs:['su']},

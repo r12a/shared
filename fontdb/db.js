@@ -348,6 +348,7 @@ var fontDB = [
 { name:"Noto Sans Kharoshthi",system:new Set([goog]), locales:new Set(['khar']), style:'sans' },
 { name:"Noto Sans Khmer",	system:new Set([goog]), locales:new Set(['khmr']), style:'sans' },
 { name:"Noto Sans Khojki",	system:new Set([goog]), locales:new Set(['khoj']), style:'sans' },
+{ name:"Noto Sans Khudawadi",system:new Set([goog]), locales:new Set(['sind']), style:'sans' },
 { name:"Noto Sans Lao",		system:new Set([goog]), locales:new Set(['laoo']), style:'sans' },
 { name:"Noto Sans Lepcha",	system:new Set([goog]), locales:new Set(['lepc']), style:'sans' },
 { name:"Noto Sans Linear B",system:new Set([goog]), locales:new Set(['linb']), style:'sans' },
