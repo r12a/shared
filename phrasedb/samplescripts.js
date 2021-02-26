@@ -51,6 +51,7 @@ var sampleScriptsIndex = {
     'khar': { name: "Kharoshthi", langs:['pgd']},
     'knda': { name: "Kannada", langs:['kn']},
     'kthi': { name: "Kaithi", langs:['und-kthi']},
+    'khoj': { name: "Khojki", langs:['sa-khoj']},
     'laoo': { name: "Lao", langs:['lo']},
     'lana': { name: "Tai Tham", langs:['kkh', 'nod']},
     'latn': { name: "Latin", langs:['ak', 'cy', 'dgr', 'en-GB-fonipa', 'ha-NE', 'ha-NG', 've', 'vi', 'yo']},
