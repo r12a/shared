@@ -658,6 +658,13 @@ phraseDB = {
 		sourceURL: "https://aksharamukha.appspot.com/describe/Khudawadi"
 		},
 
+'sa-sora': { name: 'Sanskrit (Sora Sompeng)',
+		text: "𑃦𑃨𑃙𑃤𑃝𑃦𑃔𑃨𑃠𑃖 𑃦𑃨𑃙𑃥𑃑𑃛𑃢𑃔𑃨𑃖 𑃦𑃨𑃙𑃥𑃓𑃓𑃠𑃣𑃔𑃨𑃖 𑃦𑃨𑃐𑃠𑃢𑃐𑃠𑃚𑃑𑃖 . 𑃦𑃨𑃙𑃣𑃟𑃢𑃝𑃑𑃠𑃖 𑃦𑃨𑃙𑃢𑃙𑃢𑃝𑃑𑃠𑃖 𑃦𑃨𑃙𑃢𑃕𑃖𑃖 𑃦𑃨𑃙𑃤𑃝𑃕𑃖𑃖 .. 𑃜𑃞 𑃛𑃝𑃑𑃤𑃑𑃜𑃐𑃖𑃥𑃑𑃛𑃢𑃔𑃨𑃖 𑃛𑃝𑃛𑃡𑃓𑃦𑃛𑃐𑃠𑃖𑃖 𑃐𑃠𑃤𑃚𑃖 . 𑃔𑃨𑃣𑃐𑃠𑃜𑃢𑃖𑃢𑃐 𑃐𑃖𑃒𑃥𑃔𑃨𑃔𑃨𑃠𑃐𑃑𑃖 𑃚𑃙𑃔𑃨𑃣 𑃚𑃔𑃨𑃑𑃢𑃖 𑃚𑃝𑃖 ..",
+		transcription: "anirodham anutpādam anucchedam aśāśvatam. anekārtham anānārtham anāgamam anirgamam.. yaḥ pratītyasamutpādaṃ prapañcopaśamaṃ śivam. deśayāmāsa saṃbuddhastaṃ vande vadatāṃ varam..",
+		source: "Aksharamukha : Script Converter",
+		sourceURL: "https://aksharamukha.appspot.com/describe/SoraSompeng"
+		},
+
 'sa-soyo': { name: 'Sanskrit (Soyombo)',
 		text: "𑩐𑩛 𑪈𑩵 𑩼𑪙𑩻𑪖 𑩿𑩒 𑩭𑪙𑩮 𑪁 𑩫𑪘𑪙𑩾 𑪁𑪙𑩻 𑩽𑩖 𑩜𑩔 𑩽𑩖 𑩜𑩛 𑩯𑩒 𑩾 𑩼𑪙𑩫𑩑 𑩯𑩖 𑪛 𑩿𑩑 𑪃𑩑 𑩫𑪗 𑪁 𑩼𑪙𑩾 𑩿𑩛 𑪁𑪙𑩫𑪙𑩼𑩔 𑪀𑩒 𑩽𑩑 𑩰𑩑 𑩿𑩛 𑩽𑩛 𑩴𑩒 𑩰𑩛 𑩞 𑩫𑪗 𑪛 𑩻𑩔 𑪀𑩛 𑩴 𑪂𑪖 𑩯𑩛 𑩴 𑩮𑩔 𑩻𑪖 𑩽𑩑 𑩰𑩑𑩛 𑩯𑩛𑪖 𑩯 𑩰𑪙𑩼 𑩷𑩛 𑩯 𑩴𑩑 𑪛 𑩫 𑩫𑪙𑩼𑩗 𑪀 𑩿𑩑 𑪃𑩑 𑩫𑪗 𑪁 𑩯𑪙𑩫𑩖 𑩽𑩑 𑩰𑩑 𑩿𑩛 𑩽𑩛 𑩴𑩒 𑩰𑩛 𑩞 𑩫𑪗 𑪛",
 		transcription: "āścaryaṃ śuddhasattvasya loke lokānuvartino. śikṣitaḥ sarvaśāstreṣu lipiśālāmupāgataḥ. yeṣāmahaṃ nāmadheyaṃ lipīnāṃ na prajānami. tatraiṣa śikṣitaḥ santo lipiśālāmupāgataḥ.",
@@ -677,6 +684,13 @@ phraseDB = {
 		transcription: "āścaryaṃ śuddhasattvasya loke lokānuvartino. śikṣitaḥ sarvaśāstreṣu lipiśālāmupāgataḥ. yeṣāmahaṃ nāmadheyaṃ lipīnāṃ na prajānami. tatraiṣa śikṣitaḥ santo lipiśālāmupāgataḥ.",
 		translation: "How wonderful! Even though the Pure Being Is learned in all topics in the world, He follows the conventions of the world. Thus he has come to school. He has learned scripts Even the names of which I have not heard, Yet he has come to school.",
 		contributor: "Vinodh Rajan"
+		},
+
+'sa-wcho': { name: 'Sanskrit (Wancho)',
+		text: "𞋁𞋉𞋜𞋗𞋕𞋄𞋁𞋘 𞋁𞋉𞋞𞋋𞋊𞋀𞋄𞋁𞋘 𞋁𞋉𞋞𞋃𞋃𞋛𞋄𞋁𞋘 𞋁𞋏𞋀𞋏𞋓𞋁𞋋𞋁𞋘 . 𞋁𞋉𞋛𞋔𞋀𞋗𞋌𞋁𞋘 𞋁𞋉𞋀𞋉𞋀𞋗𞋌𞋁𞋘 𞋁𞋉𞋀𞋅𞋁𞋘𞋁𞋘 𞋁𞋉𞋜𞋗𞋅𞋁𞋘𞋁𞋘 .. 𞋆𞋁𞋫 𞋊𞋗𞋁𞋋𞋜𞋋𞋆𞋁𞋎𞋁𞋘𞋞𞋋𞋊𞋀𞋄𞋤 𞋊𞋗𞋁𞋊𞋁𞋩𞋃𞋕𞋊𞋁𞋏𞋁𞋘𞋤 𞋏𞋜𞋓𞋁𞋘 . 𞋄𞋛𞋏𞋁𞋆𞋀𞋘𞋀𞋎𞋁 𞋎𞋤𞋂𞋞𞋄𞋄𞋁𞋎𞋋𞋤 𞋓𞋁𞋉𞋄𞋛 𞋓𞋁𞋄𞋁𞋋𞋣 𞋓𞋁𞋗𞋁𞋘 ..",
+		transcription: "anirodham anutpādam anucchedam aśāśvatam. anekārtham anānārtham anāgamam anirgamam.. yaḥ pratītyasamutpādaṃ prapañcopaśamaṃ śivam. deśayāmāsa saṃbuddhastaṃ vande vadatāṃ varam..",
+		source: "Aksharamukha : Script Converter",
+		sourceURL: "https://aksharamukha.appspot.com/describe/Wancho"
 		},
 
 'sa-zanb': { name: 'Sanskrit (Zanabazar Square)',
