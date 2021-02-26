@@ -35,6 +35,7 @@ var sampleScriptsIndex = {
     'grek': { name: "Greek", langs:['el']},
     'gujr': { name: "Gujarati", langs:['gu']},
     'gong': { name: "Gunjala Gondi", langs:['gon']},
+    'gonm': { name: "Masaram Gondi", langs:['sa-gonm']},
     'guru': { name: "Gurmukhi", langs:['pa']},
     'hano': { name: "Hanunoo", langs:['hnn']},
     'hani': { name: "Chinese", langs:['zh-hans', 'zh-hant']},
