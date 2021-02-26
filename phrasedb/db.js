@@ -605,6 +605,13 @@ phraseDB = {
 		sourceURL: "https://aksharamukha.appspot.com/describe/Mahajani"
 		},
 
+'sa-marc': { name: 'Sanskrit (Marchen)',
+		text: "𑲏𑱽𑲱𑲊𑲴𑱼𑲮𑲁 𑲏𑱽𑲲𑱺𑲞𑲰𑱼𑲁 𑲏𑱽𑲲𑲂𑲣𑲳𑱼𑲁 𑲏𑲌𑲰𑲌𑲥𑱺𑲁 𑱱 𑲏𑱽𑲳𑱲𑲰𑲊𑲛𑲁 𑲏𑱽𑲰𑱽𑲰𑲊𑲛𑲁 𑲏𑱽𑲰𑱴𑲁𑲁 𑲏𑱽𑲱𑲊𑲔𑲁𑲁 𑱱𑱱 𑲉𑲎 𑱾𑲪𑱺𑲱𑲰𑱺𑲩𑲍𑲁𑲲𑱺𑲞𑲰𑱼𑲵 𑱾𑲪𑱾𑱹𑲢𑲴𑱾𑲌𑲁𑲵 𑲌𑲱𑲅𑲁 𑱱 𑱼𑲳𑲌𑲉𑲰𑲁𑲰𑲍 𑲍𑲵𑲀𑲲𑱼𑲜𑲮𑲍𑲚𑲵 𑲅𑱽𑲜𑲳 𑲅𑱼𑱺𑲰𑲵 𑲅𑲊𑲁 𑱱𑱱",
+		transcription: "anirodham anutpādam anucchedam aśāśvatam. anekārtham anānārtham anāgamam anirgamam.. yaḥ pratītyasamutpādaṃ prapañcopaśamaṃ śivam. deśayāmāsa saṃbuddhastaṃ vande vadatāṃ varam..",
+		source: "Aksharamukha : Script Converter",
+		sourceURL: "https://aksharamukha.appspot.com/describe/Marchen"
+		},
+
 'sa-phag': { name: 'Sanskrit (Phags Pa)',
 		text: "ꡀꡁꡂꡃ ꡄꡅꡆꡇ ꡈꡉꡊꡋ ꡌꡍꡎꡏ ...",
 		},

@@ -359,6 +359,7 @@ var fontDB = [
 { name:"Noto Sans Malayalam",system:new Set([goog]), locales:new Set(['mlym']), style:'sans' },
 { name:"Noto Sans Mandaic",	system:new Set([goog]), locales:new Set(['mand']), style:'sans' },
 { name:"Noto Sans Manichaean",system:new Set([goog]), locales:new Set(['mani']), style:'sans' },
+{ name:"Noto Sans Marchen",	system:new Set([goog]), locales:new Set(['marc']), style:'sans' },
 { name:"Noto Sans Meetei Mayek",system:new Set([goog]), locales:new Set(['mtei']), style:'sans' },
 { name:"Noto Sans Mongolian",system:new Set([goog]), locales:new Set(['mong']), style:'sans' },
 { name:"Noto Sans Mende Kikakui",system:new Set([goog]), locales:new Set(['mend']), style:'sans' },
