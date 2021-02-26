@@ -86,6 +86,13 @@ phraseDB = {
 		sourceURL: "https://unicode.org/udhr/d/udhr_bod.html"
 		},
 
+'bo-phag': { name: 'Tibetan (Phags Pa)',
+		text: "〔ꡳꡡ〕ꡳꡎꡜꡖꡱꡟ ꡛꡧꡖ ꡜꡖ ᠅ ꡳꡡ ꡋ ꡏꡡ ꡎꡜ ꡂ ꡓ〔ꡈꡠ〕ꡛꡘ ꡓ ꡈꡱꡗꡞ ꡙꡡ ꡀꡨ᠃ ꡎꡱ ꡈꡞ〔ꡓꡞ〕ꡚꡞꡚ ꡩꡖ ꡗ᠃ ꡎꡟꡊ ꡊꡜꡖ ꡗ ꡈꡠ ꡋ ꡏ 〔…〕ꡗ ꡉꡖ ꡳꡡ ꡳꡎꡜꡖꡱꡟ ꡳꡎꡜꡖꡘꡟ ꡳꡎꡜꡖꡘꡟ ꡚꡡ ꡊꡜ ꡗ ꡚꡡ ꡊꡜ ꡗ᠃ ꡓꡞ ꡚꡡ ꡊꡜ ꡗ ꡓꡞ ꡚꡡ ꡊꡜ ꡗ᠃ ꡝ ꡛ ꡏ᠂ ꡛ ꡏꡋ ꡈ᠃",
+		transcription: "〔oṃ〕bhrūm̐svāhā᠅oṃnamobhagava〔te〕sarvatryilokya brati〔vi〕śiśṭāya buddhāyatenama〔…〕yathāoṃbhrūm̐bhrūm̐bhrūm̐śodhayaśodhaya viśodhayaviśodhaya asama samanta",
+		source: "Aksharamukha : Script Converter",
+		sourceURL: "https://aksharamukha.appspot.com/describe/PhagsPa"
+		},
+
 'bsq': { name: 'Bassa',
 		text: "𖫞𖫫𖫰 𖫐𖫭𖫱𖫐-𖫗𖫭𖫰𖫞𖫭𖫰 𖫑𖫫𖫱 𖫔𖫬𖫱𖫞𖫬𖫱𖫭𖫱𖫐-𖫕𖫭𖫰 𖫔𖫪𖫰𖫐𖫬𖫲𖫐, 𖫞𖫫𖫰𖫬𖫱 𖫕𖫨𖫲𖫐𖫪𖫳𖫐-𖫕𖫪𖫱 𖫒𖫫𖫰𖫭𖫰𖫐 𖫛𖫩𖫰𖫞𖫩𖫰𖫬𖫲 𖫔𖫬𖫰𖫭𖫱𖫐-𖫛𖫨𖫲𖫐𖫵"
 		},
@@ -634,7 +641,10 @@ phraseDB = {
 		},
 
 'sa-phag': { name: 'Sanskrit (Phags Pa)',
-		text: "ꡀꡁꡂꡃ ꡄꡅꡆꡇ ꡈꡉꡊꡋ ꡌꡍꡎꡏ ...",
+		text: "ꡝ ꡋꡞ ꡘꡡ ꡊꡜꡏ ᠂ ꡝ ꡋꡟꡈ ꡌꡖ ꡊꡏ ᠂ ꡝ ꡋꡟꡐ ꡑꡠ ꡊꡏ ᠂ ꡝ ꡚꡖ ꡚꡧ ꡈꡏ ᠂ ꡶ ꡝ ꡋꡠ ꡀꡖꡘ ꡉꡏ ᠂ ꡝ ꡋꡖ ꡋꡖꡘ ꡉꡏ ᠂ ꡝ ꡋꡖ ꡂ ꡏꡏ ᠂ ꡝ ꡋꡞꡘ ꡂ ꡏꡏ ᠂ ꡷ ꡗꡜ ᠂ ꡌꡱ ꡈꡖꡞ ꡈꡨ ꡛ ꡏꡟꡈ ꡌꡖ ꡳꡊ ᠂ ꡌꡱ ꡌꡇ ꡐꡡ ꡌ ꡚ ꡳꡏ ᠂ ꡚꡞ ꡓꡏ ᠂ ꡶ ꡊꡠ ꡚ ꡗꡖ ꡏꡖ ꡛ ᠂ ꡳꡛ ꡎꡟꡊ ꡊꡜꡛ ꡳꡈ ᠂ ꡓꡋ ꡊꡠ ᠂ ꡓ ꡊ ꡳꡈꡖ ᠂ ꡓ ꡘꡏ ᠂ ꡷",
+		transcription: "anirodham anutpādam anucchedam aśāśvatam. anekārtham anānārtham anāgamam anirgamam.. yaḥ pratītyasamutpādaṃ prapañcopaśamaṃ śivam. deśayāmāsa saṃbuddhastaṃ vande vadatāṃ varam..",
+		source: "Aksharamukha : Script Converter",
+		sourceURL: "https://aksharamukha.appspot.com/describe/PhagsPa"
 		},
 
 'sa-shrd': { name: 'Sanskrit (Sharada)',

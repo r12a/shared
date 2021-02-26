@@ -85,7 +85,7 @@ var sampleScriptsIndex = {
     'orya': { name: "Oriya", langs:['ory']},
     'osma': { name: "Osmanya", langs:['so-osma']},
     'palm': { name: "Palmyrene", langs:['arc-palm']},
-    'phag': { name: "PhagsPa", langs:['sa-phag']},
+    'phag': { name: "PhagsPa", langs:['sa-phag', 'bo-phag']},
     'phnx': { name: "Phoenician", langs:['phn']},
     'phli': { name: "Pahlavi (Inscriptional)", langs:['pal']},
     'prti': { name: "Parthian (Inscriptional)", langs:['xpr']},
