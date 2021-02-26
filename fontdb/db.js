@@ -402,6 +402,7 @@ var fontDB = [
 { name:"Noto Sans Tai Le",	system:new Set([goog]), locales:new Set(['tale']), style:'sans' },
 { name:"Noto Sans Tai Tham",system:new Set([goog]), locales:new Set(['lana', 'lana-kkh', 'lana-nod']), style:'sans' },
 { name:"Noto Sans Telugu",	system:new Set([goog]), locales:new Set(['telu']), style:'sans' },
+{ name:"Noto Sans Takri",	system:new Set([goog]), locales:new Set(['takr']), style:'sans' },
 { name:"Noto Sans Thaana",	system:new Set([goog]), locales:new Set(['thaa']), style:'sans' },
 { name:"Noto Sans Tibetan",	system:new Set([goog]), locales:new Set(['tibt']), style:'sans' },
 { name:"Noto Sans Tifinagh",system:new Set([goog]), locales:new Set(['tfng', 'tfng-ber']), style:'sans' },

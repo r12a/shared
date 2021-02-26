@@ -106,6 +106,7 @@ var sampleScriptsIndex = {
     'syrc': { name: "Syriac", langs:['aii', 'syc', 'tru']},
     'tale': { name: "Tai Le", langs:['tdd']},
     'tagb': { name: "Tagbanwa", langs:['tbw']},
+    'takr': { name: "Takri", langs:['sa-takr']},
     'talu': { name: "New Tai Lü", langs:['khb']},
     'taml': { name: "Tamil", langs:['ta']},
     'tavt': { name: "Tai Viet", langs:['blt']},
