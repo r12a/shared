@@ -23,6 +23,7 @@ var sampleScriptsIndex = {
     'cprt': { name: "Cypriot Syllabary", langs:['omn-cprt']},
     'cyrl': { name: "Cyrillic", langs:['kk', 'ky', 'ru']},
     'deva': { name: "Devanagari", langs:['hi', 'ks-deva', 'npi']},
+    'dogr': { name: "Dogra", langs:['sa-dogr']},
     'dsrt': { name: "English (Deseret)", langs:['en-dsrt']},
     'egyp': { name: "Egyptian hieroglyphs", langs:['egy']},
     'elym': { name: "Elymaic", langs:['xly']},

@@ -404,6 +404,7 @@ var fontDB = [
 { name:"Noto Sans Warang Citi",system:new Set([goog]), locales:new Set(['wara']), style:'sans' },
 { name:"Noto Sans Yi",		system:new Set([goog]), locales:new Set(['yiii']), style:'sans' },
 { name:"Noto Sans Zanabazar Square",system:new Set([goog]), locales:new Set(['zanb']), style:'sans' },
+{ name:"Noto Serif Dogra",	system:new Set([goog]), locales:new Set(['dogr']), style:'sans' },
 { name:"Noto Serif Grantha",system:new Set([goog]), locales:new Set(['gran']), style:'sans' },
 { name:"Noto Serif Khmer",	system:new Set([goog]), locales:new Set(['khmr']), style:'sans' },
 { name:"Noto Serif Hmong Nyiakeng",system:new Set([goog]), locales:new Set(['hmnp']), style:'sans' },
