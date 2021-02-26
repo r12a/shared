@@ -68,6 +68,7 @@ var sampleScriptsIndex = {
     'mani': { name: "Manichaean", langs:['xmn']},
     'marc': { name: "Marchen", langs:['sa-marc']},
     'mend': { name: "Mende Kikakui", langs:['men']},
+    'modi': { name: "Modi", langs:['sa-modi']},
     'mong': { name: "Mongolian", langs:['khk']},
     'mlym': { name: "Malayalam", langs:['ml']},
     'mtei': { name: "Meetei Mayek", langs:['mni']},

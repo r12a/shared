@@ -619,6 +619,13 @@ phraseDB = {
 		sourceURL: "https://aksharamukha.appspot.com/describe/Marchen"
 		},
 
+'sa-modi': { name: 'Sanskrit (Modi)',
+		text: "𑘀𑘡𑘲𑘨𑘻𑘠𑘦𑘿 𑘀𑘡𑘳𑘝𑘿𑘢𑘰𑘟𑘦𑘿 𑘀𑘡𑘳𑘓𑘿𑘔𑘹𑘟𑘦𑘿 𑘀𑘫𑘰𑘫𑘿𑘪𑘝𑘦𑘿 𑙁 𑘀𑘡𑘹𑘎𑘰𑘨𑘿𑘞𑘦𑘿 𑘀𑘡𑘰𑘡𑘰𑘨𑘿𑘞𑘦𑘿 𑘀𑘡𑘰𑘐𑘦𑘦𑘿 𑘀𑘡𑘲𑘨𑘿𑘐𑘦𑘦𑘿 𑙂 𑘧𑘾 𑘢𑘿𑘨𑘝𑘲𑘝𑘿𑘧𑘭𑘦𑘳𑘝𑘿𑘢𑘰𑘟𑘽 𑘢𑘿𑘨𑘢𑘗𑘿𑘓𑘻𑘢𑘫𑘦𑘽 𑘫𑘲𑘪𑘦𑘿 𑙁 𑘟𑘹𑘫𑘧𑘰𑘦𑘰𑘭 𑘭𑘽𑘤𑘳𑘟𑘿𑘠𑘭𑘿𑘝𑘽 𑘪𑘡𑘿𑘟𑘹 𑘪𑘟𑘝𑘰𑘽 𑘪𑘨𑘦𑘿 𑙂",
+		transcription: "anirodham anutpādam anucchedam aśāśvatam. anekārtham anānārtham anāgamam anirgamam.. yaḥ pratītyasamutpādaṃ prapañcopaśamaṃ śivam. deśayāmāsa saṃbuddhastaṃ vande vadatāṃ varam..",
+		source: "Aksharamukha : Script Converter",
+		sourceURL: "https://aksharamukha.appspot.com/describe/Modi"
+		},
+
 'sa-phag': { name: 'Sanskrit (Phags Pa)',
 		text: "ꡀꡁꡂꡃ ꡄꡅꡆꡇ ꡈꡉꡊꡋ ꡌꡍꡎꡏ ...",
 		},
