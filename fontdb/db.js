@@ -364,6 +364,7 @@ var fontDB = [
 { name:"Noto Sans Meetei Mayek",system:new Set([goog]), locales:new Set(['mtei']), style:'sans' },
 { name:"Noto Sans Modi",	system:new Set([goog]), locales:new Set(['modi']), style:'sans' },
 { name:"Noto Sans Mongolian",system:new Set([goog]), locales:new Set(['mong']), style:'sans' },
+{ name:"Noto Sans Mro",		system:new Set([goog]), locales:new Set(['mroo']), style:'sans' },
 { name:"Noto Sans Mende Kikakui",system:new Set([goog]), locales:new Set(['mend']), style:'sans' },
 { name:"Noto Sans Multani",	system:new Set([goog]), locales:new Set(['mult']), style:'sans' },
 { name:"Noto Sans Myanmar",	system:new Set([goog, mac, ios]), locales:new Set(['mymr', 'mymr-shn']), style:'sans' },
