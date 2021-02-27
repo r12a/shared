@@ -130,6 +130,7 @@ var fontDB = [
 { name:"Noto Serif Telugu",	system:new Set([goog]), locales:new Set(['telu']), style:'serif' },
 { name:"Noto Serif Tibetan",system:new Set([goog]), locales:new Set(['tibt']), style:'serif' },
 { name:"Noto Serif Thai",	system:new Set([yes,goog]), locales:new Set(['thai']), style:'serif' },
+{ name:"Noto Serif Yezidi",	system:new Set([goog]), locales:new Set(['yezi']), style:'serif' },
 { name:"Nyala",				system:new Set([win]), locales:new Set(['ethi']), style:'serif', wd:true },
 { name:"Oriya MN",			system:new Set([mac]), locales:new Set(['orya']), style:'serif' },
 { name:"Palatino Linotype",	system:new Set([win]), locales:new Set(['cyrl', 'grek']), style:'serif' },

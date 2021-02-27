@@ -125,4 +125,5 @@ var sampleScriptsIndex = {
     'xpeo': { name: "Old Persian", langs:['peo'], font: ['xpeo'] },
     'yiii': { name: "Yi", langs:['ii'], font: ['yiii'] },
     'zanb': { name: "Zanabazar Square", langs:['sa-zanb'], font: ['zanb'] },
+    'yezi': { name: "Yezidi", langs:['ku-yezi'], font: ['yezi'] },
     }

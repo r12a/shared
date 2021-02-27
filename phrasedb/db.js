@@ -376,6 +376,13 @@ phraseDB = {
 		sourceURL: "http://www.koshur.org/Reader/2.9.html"
 		},
 
+'ku-yezi': { name: 'Kurmanji (Yezidi)',
+		text: "𐺀𐺣𐺨 𐺠𐺨 𐺣𐺨𐺒 𐺦𐺡𐺨 𐺋𐺡𐺜 𐺁𐺣𐺦 𐺡𐺠𐺝 𐺄𐺀𐺣𐺣𐺑𐺦 𐺀𐺣𐺦 𐺝𐺦 𐺗𐺁𐺕𐺀𐺣𐺣𐺑𐺨 𐺁𐺣𐺀𐺡𐺄𐺀𐺠𐺡𐺦 𐺢𐺀𐺍𐺋 𐺄𐺀𐺝𐺣 𐺜𐺣𐺡𐺨 𐺧𐺀𐺓𐺨 𐺊𐺣𐺨 𐺆𐺣𐺨 𐺁𐺝𐺀𐺄𐺣𐺦 𐺣𐺄𐺨𐺀𐺢 𐺁𐺐𐺨𐺢𐺨 𐺣𐺠𐺆 𐺣𐺦𐺡𐺣𐺑𐺍𐺐",
+		source: "Yezidi manuscript sample in Proposal for encoding the Yezidi script in the SMP of the UCS",
+		sourceURL: "https://www.unicode.org/L2/L2019/19051-yezidi.pdf",
+		notes: "Very unsure about the correctness of this text, copied from an image."
+		},
+
 'ky':  { name: 'Kyrghyz',
 		text: "Бардык адамдар өз беделинде жана укуктарында эркин жана тең укуктуу болуп жаралат. Алардын аң‐сезими менен абийири бар жана бири‐бирине бир туугандык мамилекылууга тийиш.",
 		source: "UDHR §1",
