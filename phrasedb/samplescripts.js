@@ -48,6 +48,7 @@ var sampleScriptsIndex = {
     'hung': { name: "Old Hungarian", langs:['ohu'], font: ['hung'] },
     'jpan': { name: "Japanese", langs:['ja'], font: ['jpan'] },
     'java': { name: "Javanese", langs:['jv'], font: ['java'] },
+    'kali': { name: "Kayah Li", langs:['kar-kali'], font: ['kali'] },
     'khmr': { name: "Khmer", langs:['km'], font: ['khmr'] },
     'khar': { name: "Kharoshthi", langs:['pgd'], font: ['khar'] },
     'knda': { name: "Kannada", langs:['kn'], font: ['knda'] },
