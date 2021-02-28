@@ -257,6 +257,13 @@ phraseDB = {
 		sourceURL: "https://en.wikipedia.org/wiki/Luwian_language#Syntax"
 		},
 
+'hmd-plrd': { name: 'A-Hmao (Miao)',
+		text: "𖼐𖽪𖾐 𖼞𖽪 𖼷𖽷 𖽐𖼊𖽪𖾏 𖼷𖽷 𖼊𖽡 𖽐𖼞𖽻𖾏. 𖼽𖽘 𖼮𖽷𖾑 𖼨𖽑𖽪𖾐. 𖽐𖼊𖽪𖾏 𖼎𖽻 𖼡𖽑𖽔𖾑 𖼀𖽱 𖼎𖽻, 𖼡𖽻𖾐 𖽐𖼊𖽪𖾏 𖼀𖽡𖾐 𖼳𖽔𖾐 𖼡𖽔𖾑 𖼳𖽷𖾐 𖼷𖽷 𖼮𖽡. 𖼡𖽻𖾐 𖽐𖼊𖽪𖾏 𖼀𖽡𖾐 𖼳𖽔𖾐 𖼞𖽪 𖼖𖽡𖽝𖾐 𖽐𖼚𖽻 𖼳𖽷𖾐 𖼎𖽑𖽪𖾐 𖼞𖽡𖾐 𖼄𖽱𖾐 𖼽𖽠 𖼮𖽡𖽙𖾏 𖼚𖽘𖾐 𖼐𖽑𖽪𖾐 𖼷𖽷 𖼮𖽡. 𖼊𖽡𖾐 𖼎𖽻 𖼡𖽑𖽔𖾑 𖼀𖽱 𖼎𖽻, 𖽐𖼚𖽡𖽝𖾏 𖼊𖽡𖾐 𖼊𖽜𖾐 𖼐𖽜𖾐 𖼡𖽔𖾑 𖼳𖽷𖾐 𖼷𖽷 𖼮𖽡.",
+		translation: "Work which make sky make earth song. Yang Zhi sang. Sky came together beginning came together, sky above who made thus. sky above was Lie-ndlao-shi-tru king. Yeu-jio-dlang-hnu made thus earth cam together beginning came together, world people who made thus.",
+		source: "Miao translated songs.",
+		sourceURL: "https://www.archives.ecs.soton.ac.uk/miao/songs/TranslatedSongs/m101/m101tx.pdf"
+		},
+
 'hmn-hmng': { name: 'Hmong (Pahawh Hmong)',
 		text: "𖬑𖬦𖬰 𖬇𖬰𖬧𖬵 𖬁𖬲𖬬 𖬇𖬲𖬤 𖬓𖬲𖬞 𖬐𖬰𖬦 𖬉 𖬘𖬲𖬤 𖬀𖬰𖬝𖬵 𖬔𖬟𖬰 𖬂𖬲𖬤𖬵 𖬅𖬲𖬨𖬵 𖬓𖬲𖬥𖬰 𖬄𖬲𖬟 𖬒𖬲𖬯𖬵 𖬋𖬯. 𖬎𖬶𖬞 𖬖𖬰𖬮 𖬓𖬜𖬰 𖬆𖬰𖬞 𖬖𖬞𖬰 𖬎𖬲𖬟𖬰 𖬔𖬟𖬰 𖬆𖬰𖬞 𖬔𖬤𖬵 𖬔𖬟𖬰 𖬂𖬮𖬰 𖬁𖬲𖬞 𖬐𖬲𖬤 𖬆𖬝𖬰 𖬒𖬲𖬯 𖬅𖬮𖬰 𖬉𖬰 𖬎𖬰𖬩𖬵 𖬂𖬲𖬮𖬰 𖬁𖬲𖬞 𖬎𖬰𖬩𖬵 𖬒𖬲𖬯𖬵 𖬉 𖬅𖬮𖬰 𖬙 𖬂𖬰𖬧𖬵.",
 		transcription: "Txhua tus neeg yug los muaj kev ywj pheej thiab sib npaug zos hauv txoj cai. Lawv xaj nrog lub laj thawj thiab lub siab thiab ib leeg yuav tsum coj ua ke ntawm ib leeg ntawm txoj kev ua kwv tij. ",

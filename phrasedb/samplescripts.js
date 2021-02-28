@@ -89,6 +89,7 @@ var sampleScriptsIndex = {
     'phag': { name: "PhagsPa", langs:['sa-phag', 'bo-phag'], font:['phag'] },
     'phnx': { name: "Phoenician", langs:['phn'], font: ['phnx'] },
     'phli': { name: "Pahlavi (Inscriptional)", langs:['pal'], font: ['phli'] },
+    'plrd': { name: "Miao", langs:['hmd-plrd'], font: ['plrd'] },
     'prti': { name: "Parthian (Inscriptional)", langs:['xpr'], font: ['prti'] },
     'rjng': { name: "Rejang", langs:['rej'], font: ['rjng'] },
     'rohg': { name: "Hanifi Rohingya", langs:['rhg'], font: ['rohg'] },
