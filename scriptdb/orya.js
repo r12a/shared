@@ -23,7 +23,7 @@ var spreadsheet = `
 ଝ		d͡ʒʰ	jʰ	jh	j	d͡ʒʰ jʰ	affricate					U+0B1D: ORIYA LETTER JHA	oriya
 ଯ		d͡ʒ	ʤ	ẏ	y	ʤ ẏ	afficate			antaḥstha ja		U+0B2F: ORIYA LETTER YA	oriya
 													
-ଵ			v		v		fricative					U+0B35: ORIYA LETTER VA	oriya
+ଵ		v	v	v	v		fricative					U+0B35: ORIYA LETTER VA	oriya
 ସ		s	s	s	s		fricative			dantya sa	ଦନ୍ତ୍ୟ	U+0B38: ORIYA LETTER SA	oriya
 ଷ		s	ṣ	ṣ	s	ṣ	fricative			murddhanya sa	ମୂର୍ଦ୍ଧନ୍ୟ	U+0B37: ORIYA LETTER SSA	oriya
 ଶ		s	ś	ś	s	ś	fricative			talabya sa	ତାଲବ୍ୟ	U+0B36: ORIYA LETTER SHA	oriya
@@ -65,17 +65,17 @@ var spreadsheet = `
 													
 													
 													
-ଇ		i	ị	i	i	ị	independent vowel					U+0B07 U+0020: ORIYA LETTER I	oriya
-ଈ		i	ị̄	ī	i	ị̄	independent vowel					U+0B08: ORIYA LETTER II	oriya
-ଉ		u	ụ	u	u	ụ	independent vowel					U+0B09: ORIYA LETTER U	oriya
-ଊ		u	ụ̄	ū	u	ụ̄	independent vowel					U+0B0A: ORIYA LETTER UU	oriya
-ଏ		e	ẹ	e	e	ẹ	independent vowel					U+0B0F: ORIYA LETTER E	oriya
-ଓ		o	ọ	o	o	ọ	independent vowel					U+0B13: ORIYA LETTER O	oriya
-ଅ		ɔ	ɔ̣	a	a	ɔ ɔ̣	independent vowel					U+0B05: ORIYA LETTER A	oriya
-ଆ		a	ạ̄	ā	ā		independent vowel					U+0B06 U+0020: ORIYA LETTER AA	oriya
-													
-ଐ		ɔi	ɔ̣ʲ	ai	a	ɔ̣ʲ	independent vowel					U+0B10: ORIYA LETTER AI	oriya
-ଔ		ɔu	ɔ̣ᵘ	au	a	ɔ̣ᵘ	independent vowel					U+0B14: ORIYA LETTER AU	oriya
+ଇ		i	ị	i	I	ị	independent vowel					U+0B07 U+0020: ORIYA LETTER I
+ଈ		i	ị̄	ī	I	ị̄	independent vowel					U+0B08: ORIYA LETTER II
+ଉ		u	ụ	u	U	ụ	independent vowel					U+0B09: ORIYA LETTER U
+ଊ		u	ụ̄	ū	U	ụ̄	independent vowel					U+0B0A: ORIYA LETTER UU
+ଏ		e	ẹ	e	E	ẹ	independent vowel					U+0B0F: ORIYA LETTER E
+ଓ		o	ọ	o	O	ọ	independent vowel					U+0B13: ORIYA LETTER O
+ଅ		ɔ	ɔ̣	a	A	ɔ ɔ̣	independent vowel					U+0B05: ORIYA LETTER A
+ଆ		a	ạ̄	ā	A		independent vowel					U+0B06 U+0020: ORIYA LETTER AA
+												
+ଐ		ɔi	ɔ̣ʲ	ai	A	ɔ̣ʲ	independent vowel					U+0B10: ORIYA LETTER AI
+ଔ		ɔu	ɔ̣ᵘ	au	A	ɔ̣ᵘ	independent vowel					U+0B14: ORIYA LETTER AU
 													
 													
 ୃ		ru	r̥	r̥	R	r̥	vocalic					U+0B43: ORIYA VOWEL SIGN VOCALIC R​	oriya
