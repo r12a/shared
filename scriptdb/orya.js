@@ -2,7 +2,7 @@ var spreadsheet = `
 													
 ପ		p	p	p	p		plosive					U+0B2A: ORIYA LETTER PA	oriya
 ଫ		pʰ	pʰ	ph	p	pʰ	plosive					U+0B2B: ORIYA LETTER PHA	oriya
-ବ		b	bʰ	b	b	bʰ	plosive					U+0B2C: ORIYA LETTER BA	oriya
+ବ		b	b	b	b	bʰ	plosive					U+0B2C: ORIYA LETTER BA	oriya
 ଭ		bʰ	bʰ	bh	b		plosive					U+0B2D: ORIYA LETTER BHA	oriya
 ତ		t	t	t	t		plosive					U+0B24: ORIYA LETTER TA	oriya
 ଥ		tʰ	tʰ	th	t	tʰ	plosive					U+0B25: ORIYA LETTER THA	oriya
