@@ -1,20 +1,20 @@
 var spreadsheet = `
 													
 ପ		p	p	p	p		plosive					U+0B2A: ORIYA LETTER PA	oriya
-ଫ		pʰ	pʰ	ph	p	pʰ	plosive					U+0B2B: ORIYA LETTER PHA	oriya
 ବ		b	b	b	b	bʰ	plosive					U+0B2C: ORIYA LETTER BA	oriya
+ଫ		pʰ	pʰ	ph	p	pʰ	plosive					U+0B2B: ORIYA LETTER PHA	oriya
 ଭ		bʰ	bʰ	bh	b		plosive					U+0B2D: ORIYA LETTER BHA	oriya
 ତ		t	t	t	t		plosive					U+0B24: ORIYA LETTER TA	oriya
-ଥ		tʰ	tʰ	th	t	tʰ	plosive					U+0B25: ORIYA LETTER THA	oriya
 ଦ		d	d	d	d		plosive					U+0B26: ORIYA LETTER DA	oriya
+ଥ		tʰ	tʰ	th	t	tʰ	plosive					U+0B25: ORIYA LETTER THA	oriya
 ଧ		dʰ	dʰ	dh	d	dʰ	plosive					U+0B27: ORIYA LETTER DHA	oriya
 ଟ		ʈ	ʈ	ṭ	t	ʈ ṭ	plosive					U+0B1F: ORIYA LETTER TTA	oriya
-ଠ		ʈʰ	ʈʰ	ṭh	t	ʈʰ ṭh	plosive					U+0B20: ORIYA LETTER TTHA	oriya
 ଡ		ɖ	ɖ	ḍ	d	ɖ ḍ	plosive					U+0B21: ORIYA LETTER DDA	oriya
+ଠ		ʈʰ	ʈʰ	ṭh	t	ʈʰ ṭh	plosive					U+0B20: ORIYA LETTER TTHA	oriya
 ଢ		ɖʰ	ɖʰ	ḍh	d	ɖʰ ḍh	plosive					U+0B22: ORIYA LETTER DDHA	oriya
 କ		k	k	k	k		plosive					U+0B15: ORIYA LETTER KA	oriya
-ଖ		kʰ	kʰ	kh	k	kʰ	plosive					U+0B16: ORIYA LETTER KHA	oriya
 ଗ		g	g	g	g		plosive					U+0B17: ORIYA LETTER GA	oriya
+ଖ		kʰ	kʰ	kh	k	kʰ	plosive					U+0B16: ORIYA LETTER KHA	oriya
 ଘ		gʰ	gʰ	gh	g	gʰ	plosive					U+0B18: ORIYA LETTER GHA	oriya
 													
 ଚ		t͡ʃ	c	c	c	t͡ʃ	affricate					U+0B1A: ORIYA LETTER CA	oriya
@@ -45,10 +45,11 @@ var spreadsheet = `
 ଳ		ɭ	ɭ	ḷ	l	ɭ ḷ	liquid					U+0B33: ORIYA LETTER LLA	oriya
 ୟ		j	y	y	y		liquid					U+0B5F: ORIYA LETTER YYA	oriya
 													
-କ୍ଷ	s	ks		kṣ								U+0B15 U+0B4D U+0B37: ORIYA LETTER KA, SIGN VIRAMA, LETTER SSA	
+କ୍ଷ	s	kʰj	k͓ṣ	kṣ								U+0B15 U+0B4D U+0B37: ORIYA LETTER KA, SIGN VIRAMA, LETTER SSA	
+୍ବ	s	w b	͓b	w b								U+0B4D U+0B2C: ORIYA SIGN VIRAMA​, LETTER BA	
 													
 													
-ି		i	i	i	i		vowel-sign					U+0B3F: ORIYA VOWEL SIGN I​	oriya
+ି		i	i	i	i	ô	vowel-sign					U+0B3F: ORIYA VOWEL SIGN I​	oriya
 ୀ		i	ī	ī	i	ī	vowel-sign					U+0B40: ORIYA VOWEL SIGN II​	oriya
 ୁ		u	u	u	u		vowel-sign					U+0B41 U+0020: ORIYA VOWEL SIGN U	oriya
 ୂ		u	ū	ū	u	ū	vowel-sign					U+0B42: ORIYA VOWEL SIGN UU​	oriya
@@ -65,17 +66,17 @@ var spreadsheet = `
 													
 													
 													
-ଇ		i	ị	i	I	ị	independent vowel					U+0B07 U+0020: ORIYA LETTER I
-ଈ		i	ị̄	ī	I	ị̄	independent vowel					U+0B08: ORIYA LETTER II
-ଉ		u	ụ	u	U	ụ	independent vowel					U+0B09: ORIYA LETTER U
-ଊ		u	ụ̄	ū	U	ụ̄	independent vowel					U+0B0A: ORIYA LETTER UU
-ଏ		e	ẹ	e	E	ẹ	independent vowel					U+0B0F: ORIYA LETTER E
-ଓ		o	ọ	o	O	ọ	independent vowel					U+0B13: ORIYA LETTER O
-ଅ		ɔ	ɔ̣	a	A	ɔ ɔ̣	independent vowel					U+0B05: ORIYA LETTER A
-ଆ		a	ạ̄	ā	A		independent vowel					U+0B06 U+0020: ORIYA LETTER AA
-												
-ଐ		ɔi	ɔ̣ʲ	ai	A	ɔ̣ʲ	independent vowel					U+0B10: ORIYA LETTER AI
-ଔ		ɔu	ɔ̣ᵘ	au	A	ɔ̣ᵘ	independent vowel					U+0B14: ORIYA LETTER AU
+ଇ		i	ị	i	I	ị	independent vowel					U+0B07 U+0020: ORIYA LETTER I	oriya
+ଈ		i	ị̄	ī	I	ị̄	independent vowel					U+0B08: ORIYA LETTER II	oriya
+ଉ		u	ụ	u	U	ụ	independent vowel					U+0B09: ORIYA LETTER U	oriya
+ଊ		u	ụ̄	ū	U	ụ̄	independent vowel					U+0B0A: ORIYA LETTER UU	oriya
+ଏ		e	ẹ	e	E	ẹ	independent vowel					U+0B0F: ORIYA LETTER E	oriya
+ଓ		o	ọ	o	O	ọ	independent vowel					U+0B13: ORIYA LETTER O	oriya
+ଅ		ɔ	ɔ̣	a	A	ɔ ɔ̣	independent vowel					U+0B05: ORIYA LETTER A	oriya
+ଆ		a	ạ̄	ā	A		independent vowel					U+0B06 U+0020: ORIYA LETTER AA	oriya
+													
+ଐ		ɔi	ɔ̣ʲ	ai	A	ɔ̣ʲ	independent vowel					U+0B10: ORIYA LETTER AI	oriya
+ଔ		ɔu	ɔ̣ᵘ	au	A	ɔ̣ᵘ	independent vowel					U+0B14: ORIYA LETTER AU	oriya
 													
 													
 ୃ		ru	r̥	r̥	R	r̥	vocalic					U+0B43: ORIYA VOWEL SIGN VOCALIC R​	oriya
@@ -127,7 +128,6 @@ var spreadsheet = `
 .			.		.		full stop					U+002E: FULL STOP	
 ⋯			⋯		.		ellipsis					U+22EF: MIDLINE HORIZONTAL ELLIPSIS	
 ,			,		,		comma					U+002C: COMMA	
-⹁			⹁		,		comma					U+2E41: REVERSED COMMA	
 :			:		:		colon					U+003A: COLON	
 ;			;		;		semicolon					U+003B: SEMICOLON	
 !			!		!		exclamation mark					U+0021: EXCLAMATION MARK	
@@ -183,20 +183,20 @@ var spreadsheet = `
 													
 													
 													
-୦			0̣	0	±		digit					U+0B66: ORIYA DIGIT ZERO	
-୧ 			1̣	1	±		digit					U+0B67 U+0020: ORIYA DIGIT ONE, SPACE	
-୨			2̣	2	±		digit					U+0B68: ORIYA DIGIT TWO	
-୩			3̣	3	±		digit					U+0B69: ORIYA DIGIT THREE	
-୪			4̣	4	±		digit					U+0B6A: ORIYA DIGIT FOUR	
-୫			5̣	5	±		digit					U+0B6B: ORIYA DIGIT FIVE	
-୬			6̣	6	±		digit					U+0B6C: ORIYA DIGIT SIX	
-୭			7̣	7	±		digit					U+0B6D: ORIYA DIGIT SEVEN	
-୮			8̣	8	±		digit					U+0B6E: ORIYA DIGIT EIGHT	
-୯			9̣	9	±		digit					U+0B6F: ORIYA DIGIT NINE	
+୦			0̣	0	±		digit			śūnya	ଶୂନ୍ୟ	U+0B66: ORIYA DIGIT ZERO	
+୧			1̣	1	±		digit			eka 	ଏକ	U+0B67: ORIYA DIGIT ONE	
+୨			2̣	2	±		digit			dui	ଦୁଇ	U+0B68: ORIYA DIGIT TWO	
+୩			3̣	3	±		digit			tini	ତିନି	U+0B69: ORIYA DIGIT THREE	
+୪			4̣	4	±		digit			cāri	ଚାରି	U+0B6A: ORIYA DIGIT FOUR	
+୫			5̣	5	±		digit			pāñca	ପାଞ୍ଚ	U+0B6B: ORIYA DIGIT FIVE	
+୬			6̣	6	±		digit			cha'a 	ଛଅ	U+0B6C: ORIYA DIGIT SIX	
+୭			7̣	7	±		digit			sāta	ସାତ	U+0B6D: ORIYA DIGIT SEVEN	
+୮			8̣	8	±		digit			āṭha	ଆଠ	U+0B6E: ORIYA DIGIT EIGHT	
+୯			9̣	9	±		digit			na'a	ନଅ	U+0B6F: ORIYA DIGIT NINE	
 													
 													
 ୲			¼		#		quarter					U+0B72: ORIYA FRACTION ONE QUARTER	
-୳ 			½		#		half					U+0B73 U+0020: ORIYA FRACTION ONE HALF, SPACE	
+୳			½		#		half					U+0B73 U+0020: ORIYA FRACTION ONE HALF, SPACE	
 ୴			¾		#		three-quarters					U+0B74: ORIYA FRACTION THREE QUARTERS	
 ୶			{1/8}				one eighth					U+0B76: ORIYA FRACTION ONE EIGHTH	
 ୵			{1/16}				one sixteenth					U+0B75: ORIYA FRACTION ONE SIXTEENTH	
