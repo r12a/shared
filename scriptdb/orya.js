@@ -1,6 +1,6 @@
 var spreadsheet = `
 													
-ପ		p	p	p	p		plosive					U+0B2A: ORIYA LETTER PA	oriya
+ପ		p	p	p	p	ɔ	plosive					U+0B2A: ORIYA LETTER PA	oriya
 ବ		b	b	b	b	bʰ	plosive					U+0B2C: ORIYA LETTER BA	oriya
 ଫ		pʰ	pʰ	ph	p	pʰ	plosive					U+0B2B: ORIYA LETTER PHA	oriya
 ଭ		bʰ	bʰ	bh	b		plosive					U+0B2D: ORIYA LETTER BHA	oriya
@@ -72,7 +72,7 @@ var spreadsheet = `
 ଊ		u	ụ̄	ū	U	ụ̄	independent vowel					U+0B0A: ORIYA LETTER UU	oriya
 ଏ		e	ẹ	e	E	ẹ	independent vowel					U+0B0F: ORIYA LETTER E	oriya
 ଓ		o	ọ	o	O	ọ	independent vowel					U+0B13: ORIYA LETTER O	oriya
-ଅ		ɔ	ɔ̣	a	A	ɔ ɔ̣	independent vowel					U+0B05: ORIYA LETTER A	oriya
+ଅ		ɔ	ɔ̣	a	A	ɔ̣	independent vowel					U+0B05: ORIYA LETTER A	oriya
 ଆ		a	ạ̄	ā	A		independent vowel					U+0B06 U+0020: ORIYA LETTER AA	oriya
 													
 ଐ		ɔi	ɔ̣ʲ	ai	A	ɔ̣ʲ	independent vowel					U+0B10: ORIYA LETTER AI	oriya
@@ -123,7 +123,7 @@ var spreadsheet = `
 ୰			°		@		deceased sign; name of deity			iswara		U+0B70: ORIYA ISSHAR	oriya
 													
 													
-।			|		|		section divider			purṇṇacheda	ପୂର୍ଣ୍ଣଛେଦ	U+0964: DEVANAGARI DANDA	
+।			|	.	|		section divider			purṇṇacheda	ପୂର୍ଣ୍ଣଛେଦ	U+0964: DEVANAGARI DANDA	
 ॥			‖		|		section divider			double purṇṇacheda		U+0965: DEVANAGARI DOUBLE DANDA	
 .			.		.		full stop					U+002E: FULL STOP	
 ⋯			⋯		.		ellipsis					U+22EF: MIDLINE HORIZONTAL ELLIPSIS	
