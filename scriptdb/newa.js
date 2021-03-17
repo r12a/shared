@@ -62,12 +62,12 @@ var spreadsheet = `
 𑑟														U+1145F: NEWA LETTER VEDIC ANUSVARA	newa
 															
 															
-𑐶		i	i	i	i		vowel sign				𑐂			U+11436: NEWA VOWEL SIGN I​	newa
-𑐷		iː	ī	ī	i	iː ī	long vowel-sign				𑐃			U+11437: NEWA VOWEL SIGN II​	newa
-𑐶𑑃	s	ĩ	i˜			ĩ	nasalised vowel-sign							U+11436 U+11443: NEWA VOWEL SIGN I, SIGN CANDRABINDU​	
-𑐶𑑄	s	ĩː	iⁿͫ			ĩː	long nasalised vowel-sign							U+11436 U+11444: NEWA VOWEL SIGN I, SIGN ANUSVARA​	
-𑐸		u	u	u	u		vowel sign				𑐄			U+11438: NEWA VOWEL SIGN U​	newa
-𑐹		uː	ū	ū	u	uː ū	long vowel-sign				𑐅			U+11439: NEWA VOWEL SIGN UU​	newa
+𑐶		i	i	i	i	iː ĩ ĩː	vowel sign				𑐂			U+11436: NEWA VOWEL SIGN I​	newa
+𑐷		iː	ī	ī	i	ī	long vowel-sign				𑐃			U+11437: NEWA VOWEL SIGN II​	newa
+𑐶𑑃	s	ĩ	i˜				nasalised vowel-sign							U+11436 U+11443: NEWA VOWEL SIGN I, SIGN CANDRABINDU​	
+𑐶𑑄	s	ĩː	iⁿͫ				long nasalised vowel-sign							U+11436 U+11444: NEWA VOWEL SIGN I, SIGN ANUSVARA​	
+𑐸		u	u	u	u	uː ũ ũː	vowel sign				𑐄			U+11438: NEWA VOWEL SIGN U​	newa
+𑐹		uː	ū	ū	u	ū	long vowel-sign				𑐅			U+11439: NEWA VOWEL SIGN UU​	newa
 𑐸𑑃	s	ũ	u˜				nasalised vowel-sign							U+11438 U+11443: NEWA VOWEL SIGN U, SIGN CANDRABINDU​	
 𑐸𑑄	s	ũː	uⁿͫ				long nasalised vowel-sign							U+11438 U+11444: NEWA VOWEL SIGN U, SIGN ANUSVARA​	
 𑐾		e	ē	ē	e¶	ē	vowel sign				𑐊			U+1143E: NEWA VOWEL SIGN E​	newa
@@ -78,8 +78,8 @@ var spreadsheet = `
 𑑀𑑅	s	oː	ōh̽				long vowel-sign							U+11440 U+11445: NEWA VOWEL SIGN O, SIGN VISARGA​	
 𑑀𑑃	s	õ	ō˜				nasalised vowel-sign							U+11440 U+11443: NEWA VOWEL SIGN O, SIGN CANDRABINDU​	
 𑑀𑑄	s	õː	ōⁿͫ				long nasalised vowel-sign							U+11440 U+11444: NEWA VOWEL SIGN O, SIGN ANUSVARA​	
-𑑅		aː ɦ	h̽	ḥ	h	ɦ ḥ	voiceless breath						visarga	U+11445: NEWA SIGN VISARGA​	newa
-𑐵		æ	æ	ā	a	aː ā	vowel sign				𑐁			U+11435: NEWA VOWEL SIGN AA​	newa
+𑑅		aː	h̽	ḥ	h	ɦ ḥ	voiceless breath					𑐮𑐶𑐦𑐸𑐟𑐶	lifuti	U+11445: NEWA SIGN VISARGA​	newa
+𑐵		æ	æ	ā	a	aː ā æ æː æ̃ æ̃ː	vowel sign				𑐁			U+11435: NEWA VOWEL SIGN AA​	newa
 𑐵𑑅	s	æː	æh̽			æː	long vowel-sign							U+11435 U+11445: NEWA VOWEL SIGN AA, SIGN VISARGA​	
 𑐵𑑃	s	æ̃	æ˜			æ̃	nasalised vowel-sign							U+11435 U+11443: NEWA VOWEL SIGN AA, SIGN CANDRABINDU​	
 𑐵𑑄	s	æ̃ː	æⁿͫ			æ̃ː	long nasalised vowel-sign							U+11435 U+11444: NEWA VOWEL SIGN AA, SIGN ANUSVARA​	
@@ -127,7 +127,7 @@ var spreadsheet = `
 𑐺		ru	r̥	r̥	R	r̥ r̥	vowel sign				𑐆			U+1143A: NEWA VOWEL SIGN VOCALIC R​	newa
 𑐻		ruː	r̥̄	r̥̄	R	r̥̄ r̥̄	vowel sign				𑐇			U+1143B: NEWA VOWEL SIGN VOCALIC RR​	newa
 𑐼		lu	l̥	l̥	R	l̥ l̥	vowel sign				𑐈			U+1143C: NEWA VOWEL SIGN VOCALIC L​	newa
-		luː	l̥̄	l̥̄	R	l̥̄ l̥̄	vowel sign				𑐉			U+1143D: NEWA VOWEL SIGN VOCALIC LL​	newa
+𑐽		luː	l̥̄	l̥̄	R	l̥̄ l̥̄	vowel sign				𑐉			U+1143D: NEWA VOWEL SIGN VOCALIC LL​	newa
 															
 𑐆		ru	r̥̣	r̥	R	r̥̣ r̥	independent vowel			𑐺				U+11406: NEWA LETTER VOCALIC R	newa
 𑐇		ruː	r̥̣̄	r̥̄	R	r̥̣̄ r̥̄	independent vowel			𑐻				U+11407: NEWA LETTER VOCALIC RR	newa
