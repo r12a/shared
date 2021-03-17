@@ -48,8 +48,8 @@ var spreadsheet = `
 													
 													
 													
-ᱽ			°	’	[	̚	voice protector				ahad	U+1C7D: OL CHIKI AHAD	olck
-ᱼ			⁎		[		glottaliser				phārkā	U+1C7C: OL CHIKI PHAARKAA	olck
+ᱽ			°	’	[	̚	deglottaliser				ahad	U+1C7D: OL CHIKI AHAD	olck
+ᱼ			⁎		[		glottal protector				phārkā	U+1C7C: OL CHIKI PHAARKAA	olck
 													
 													
 ᱸ			˜	m̐	[	m̐	nasalisation marker				mũ ṭuḍăg	U+1C78: OL CHIKI MU TTUDDAG	olck
