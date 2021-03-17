@@ -9,10 +9,10 @@ var spreadsheet = `
 ᱜ		ɡ k̚	g	g	g	k̚ k’ ɡ	consonant				ag	U+1C5C: OL CHIKI LETTER AG	olck
 													
 ᱪ		c	c	c	c		consonant				uch	U+1C6A: OL CHIKI LETTER UC	olck
-ᱡ		ɟ c’	j	j	j	ɟ c̚ c’	consonant				aaj	U+1C61: OL CHIKI LETTER AAJ	olck
+ᱡ		ɟ c̚	j	j	j	ɟ c̚ c’	consonant				aaj	U+1C61: OL CHIKI LETTER AAJ	olck
 													
 ᱥ		s	s	s	s		consonant				is	U+1C65: OL CHIKI LETTER IS	olck
-ᱦ		ʔ h	h	ẖ	h	ʔ ẖ	consonant				ih	U+1C66: OL CHIKI LETTER IH	olck
+ᱦ		h ʔ	h	ẖ	h	ʔ ẖ	consonant				ih	U+1C66: OL CHIKI LETTER IH	olck
 ᱷ		ʰ	ʰ	h	h	ʰ					oh	U+1C77: OL CHIKI LETTER OH	olck
 													
 ᱢ		m	m	m	m		consonant				aam	U+1C62: OL CHIKI LETTER AAM	olck
@@ -48,8 +48,8 @@ var spreadsheet = `
 													
 													
 													
-ᱽ			°	'	[	̚	deglottaliser				ahad	U+1C7D: OL CHIKI AHAD	olck
-ᱼ			⁎		[		glottal protector				phārkā	U+1C7C: OL CHIKI PHAARKAA	olck
+ᱽ			°	’	[	̚	voice protector				ahad	U+1C7D: OL CHIKI AHAD	olck
+ᱼ			⁎		[		glottaliser				phārkā	U+1C7C: OL CHIKI PHAARKAA	olck
 													
 													
 ᱸ			˜	m̐	[	m̐	nasalisation marker				mũ ṭuḍăg	U+1C78: OL CHIKI MU TTUDDAG	olck
@@ -62,15 +62,15 @@ var spreadsheet = `
 ᱻ			ː		:	ː	vowel lengther				relā	U+1C7B: OL CHIKI RELAA	olck
 													
 													
-᱾			|	.	|		minor break				mucăd	U+1C7E: OL CHIKI PUNCTUATION MUCAAD	olck
+᱾			|	.	|		minor break			ᱢᱩᱪᱟᱹᱫ	mucət’	U+1C7E: OL CHIKI PUNCTUATION MUCAAD	olck
 ᱿			‖	|	|		major break				double mucăd	U+1C7F: OL CHIKI PUNCTUATION DOUBLE MUCAAD	olck
 .			.		.		full stop					U+002E: FULL STOP	
 ⋯			⋯		.		ellipsis					U+22EF: MIDLINE HORIZONTAL ELLIPSIS	
-,			,		,		comma					U+002C: COMMA	
+,			,		,		comma			ᱠᱮᱪᱮᱫ	kecet’	U+002C: COMMA	
 :			:		:		colon					U+003A: COLON	
-;			;		;		semicolon					U+003B: SEMICOLON	
+;			;		;		semicolon			ᱛᱚᱯᱟᱜ	tɔpak’	U+003B: SEMICOLON	
 !			!		!		exclamation mark					U+0021: EXCLAMATION MARK	
-?			?		?		question mark					U+003F: QUESTION MARK	
+?			?		?		question mark			ᱠᱩᱠᱞᱤ	kukli	U+003F: QUESTION MARK	
 													
 													
 													
@@ -81,8 +81,8 @@ var spreadsheet = `
 													
 													
 													
-(			(		(		parenthesis					U+0028: LEFT PARENTHESIS	
-[			[		(		bracket					U+005B: LEFT SQUARE BRACKET	
+(			(		(		parenthesis			ᱦᱟᱹᱲᱩᱵ	hərup’	U+0028: LEFT PARENTHESIS	
+[			[		(		bracket			ᱦᱟᱹᱲᱩᱵ	hərup’	U+005B: LEFT SQUARE BRACKET	
 )			)		)		parenthesis					U+0029: RIGHT PARENTHESIS	
 ]			]		)		bracket					U+005D: RIGHT SQUARE BRACKET	
 													
