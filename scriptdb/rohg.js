@@ -25,16 +25,17 @@ var spreadsheet = `
 𐴚		ŋ	ŋ	N	nga	x	ŋ	nasal				nga = gan	U+10D1A: HANIFI ROHINGYA LETTER NGA	rohg
 														
 𐴖		w v	ʋ	w	w	w	ʋ	liquid				wa	U+10D16: HANIFI ROHINGYA LETTER WA	rohg
-𐴗		u	u	w	w	[		liquid				kinna wa	U+10D17: HANIFI ROHINGYA LETTER KINNA WA	rohg
 𐴌		ɾ	ɾ	r	r	r	ɾ	liquid				ra	U+10D0C: HANIFI ROHINGYA LETTER RA	rohg
 𐴍		ɽ	ɽ	r	rr	/	ɽ	liquid				rra	U+10D0D: HANIFI ROHINGYA LETTER RRA	rohg
 𐴓		l	l	l	l	l		liquid				la	U+10D13: HANIFI ROHINGYA LETTER LA	rohg
 𐴘		j	j	y	y	y		liquid				ya	U+10D18: HANIFI ROHINGYA LETTER YA	rohg
-𐴙		i	i	y	y	]		liquid				kinna ya	U+10D19: HANIFI ROHINGYA LETTER KINNA YA	rohg
+														
+𐴗		w	ŵ	w	w	[		semivowel				kinna wa	U+10D17: HANIFI ROHINGYA LETTER KINNA WA	rohg
+𐴙		j	ĵ	j	y	]		semivowel				kinna ya	U+10D19: HANIFI ROHINGYA LETTER KINNA YA	rohg
 														
 														
 														
-𐴀		ɔ ∅	‸	q	a	a	ɔ ʔ ∅	consonant				a	U+10D00: HANIFI ROHINGYA LETTER A	rohg
+𐴀		ɔ ∅	‸	q	a	a	ɔ ʔ ∅	vowel or vowel carrier				a	U+10D00: HANIFI ROHINGYA LETTER A	rohg
 𐴞		i	i	i	i	i	iː ĩ	vowel				i-for	U+10D1E: HANIFI ROHINGYA VOWEL I	rohg
 𐴀𐴞	s	i	‸i		i			standalone vowel					U+10D00 U+10D1E: HANIFI ROHINGYA LETTER A, VOWEL I	
 𐴟		u	u	u	u	u	uː ũ	vowel				u-for	U+10D1F: HANIFI ROHINGYA VOWEL U	rohg
@@ -142,7 +143,6 @@ var spreadsheet = `
 														
 														
 %			%	%				percentage mark						
-
 
 
 `
