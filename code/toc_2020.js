@@ -119,6 +119,7 @@ function setSectionRefs () {
     for (let i=0;i<secrefs.length;i++) {
         var id = secrefs[i].textContent
         if (document.getElementById(id) === null) console.log('Section not found: ',id)
+        else if (document.getElementById(id).querySelector('h2, h3,h4') === null) console.log('Section has no descendants: ', id)
         else {
             secrefs[i].innerHTML = document.getElementById(id).querySelector('h2, h3,h4').innerHTML
             secrefs[i].href = '#'+id
