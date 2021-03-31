@@ -157,7 +157,6 @@ var spreadsheet = `
 ‡			‡		‡			double dagger						U+2021: DOUBLE DAGGER	
 ′			′		′			prime						U+2032: PRIME	
 ″			″		″			double prime						U+2033: DOUBLE PRIME	
-/						L									
 															
 															
 															
