@@ -446,6 +446,10 @@ function showCharDetailsInPanel (evt) {
 	
 	addExamples(lang)
 	autoTransliterate(evt.target.lang)
+    var links = panel.querySelectorAll('.codepoint a')
+	for (i=0;i<links.length;i++) links[i].onclick = showCharDetailsInPanel
+	setFootnoteRefs()
+
 	/*
 	convertTranscriptionData(evt.target)
 	*/
