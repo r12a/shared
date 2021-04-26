@@ -25,9 +25,9 @@ body {
     font-size: 17px;
     line-height: 1.75;
 	background-color: white;
-	color: #666;
+	color: #333;
 	text-align: justify;
-	font-weight: 400;
+	font-weight: normal;
 	}
 
 strong {
