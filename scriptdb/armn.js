@@ -1,125 +1,192 @@
 var spreadsheet = `
-բ		b	b	b pʰ	b	b	consonant				Բ	2	bɛn/pʰɛn	բեն	U+0562: ARMENIAN SMALL LETTER BEN	armenian
-գ		g	g	ɡ kʰ	g	g	consonant				Գ	3	gim/kʰim	գիմ	U+0563: ARMENIAN SMALL LETTER GIM	armenian
-դ		d	d	d tʰ	d	d	consonant				Դ	4	dɑ/tʰɑ	դա	U+0564: ARMENIAN SMALL LETTER DA	armenian
-զ		z	z	z	z	z	consonant				Զ	6	za	զա	U+0566: ARMENIAN SMALL LETTER ZA	armenian
-թ		t	tʰ	tʰ	t	t’	consonant				Թ	9	tʰo	թո	U+0569: ARMENIAN SMALL LETTER TO	armenian
-ժ		z	ʒ	ʒ	z	ž	consonant				Ժ	10	ʒɛ	ժե	U+056A: ARMENIAN SMALL LETTER ZHE	armenian
-լ		l	l	l	l	l	consonant				Լ	30	ljun/lʏn	լյուն	U+056C: ARMENIAN SMALL LETTER LIWN	armenian
-խ		x	x	χ	x	x	consonant				Խ	40	χɛ	խե	U+056D: ARMENIAN SMALL LETTER XEH	armenian
-ծ		t	ʦ	t͡s d͡z	t	ts	consonant				Ծ	50	tsɑ/dzɑ	ծա	U+056E: ARMENIAN SMALL LETTER CA	armenian
-կ		k	k	k ɡ	k	k	consonant				Կ	60	kɛn/ɡɛn	կեն	U+056F: ARMENIAN SMALL LETTER KEN	armenian
-հ		h	h	h	h	h	consonant				Հ	70	ho	հօ	U+0570: ARMENIAN SMALL LETTER HO	armenian
-ձ		d	ʣ	d͡z t͡sʰ	d	dz	consonant				Ձ	80	dzɑ/tsʰɑ	ձա	U+0571: ARMENIAN SMALL LETTER JA	armenian
-ղ		r	ʁ	ʁ	r	ṙ	consonant				Ղ	90	ʁɑt/ʁɑd	ղատ	U+0572: ARMENIAN SMALL LETTER GHAD	armenian
-ճ		t	ʧ	t͡ʃ d͡ʒ	t	tš	consonant				Ճ	100	tʃɛ/dʒɛ	ճե	U+0573: ARMENIAN SMALL LETTER CHEH	armenian
-մ		m	m	m	m	m	consonant				Մ	200	mɛn	մեն	U+0574: ARMENIAN SMALL LETTER MEN	armenian
-յ		y	y	h j	j	j	consonant				Յ	300	ji/hi	հի	U+0575: ARMENIAN SMALL LETTER YI	armenian
-ն		n	n	n ŋ	n	n	consonant				Ն	400	nu	նու	U+0576: ARMENIAN SMALL LETTER NOW	armenian
-շ		s	ʃ	ʃ	s	š	consonant				Շ	500	ʃɑ	շա	U+0577: ARMENIAN SMALL LETTER SHA	armenian
-չ		t	ʧʰ	t͡ʃ ʰ	t	tš’	consonant				Չ	700	ʧʰɑ	չա	U+0579: ARMENIAN SMALL LETTER CHA	armenian
-պ		p	p	p b	p	p	consonant				Պ	800	pɛ/bɛ	պե	U+057A: ARMENIAN SMALL LETTER PEH	armenian
-ջ		d	ʤ	d͡ʒ t͡ʃʰ	d	dž	consonant				Ջ	900	dʒɛ/tʃʰɛ	ջե	U+057B: ARMENIAN SMALL LETTER JHEH	armenian
-ռ		r	ṙ	r ɾ	r	r	consonant				Ռ	1000	rɑ/ɾɑ	ռա	U+057C: ARMENIAN SMALL LETTER RA	armenian
-ս		s	s	s	s	s	consonant				Ս	2000	sɛ	սե	U+057D: ARMENIAN SMALL LETTER SEH	armenian
-վ		v	v	v	v	v	consonant				Վ	3000	vɛv	վեվ	U+057E: ARMENIAN SMALL LETTER VEW	armenian
-տ		t	t	t d	t	t	consonant				Տ	4000	tjun/dʏn	տյուն	U+057F: ARMENIAN SMALL LETTER TIWN	armenian
-ր		r	r	ɾ	r	r’	consonant				Ր	5000	ɾɛ	րե	U+0580: ARMENIAN SMALL LETTER REH	armenian
-ց		t	ʦʰ	t͡sʰ	t	ts’	consonant				Ց	6000	tsʰo	ցո	U+0581: ARMENIAN SMALL LETTER CO	armenian
-ւ		w	w	v	w	w	consonant				Ւ	7000	hʏn	վյուն	U+0582: ARMENIAN SMALL LETTER YIWN	armenian
-փ		p	pʰ	pʰ	p	p’	consonant				Փ	8000	pʰjuɾ/pʰʏɾ	փյուր	U+0583: ARMENIAN SMALL LETTER PIWR	armenian
-ք		k	kʰ	kʰ	k	k’	consonant				Ք	9000	kʰɛ	քե	U+0584: ARMENIAN SMALL LETTER KEH	armenian
-ֆ		f	f	f	f	f	consonant				Ֆ		fɛ	ֆե	U+0586: ARMENIAN SMALL LETTER FEH	armenian
-																
-Բ		B	ḅ	b pʰ	B	B	consonant			բ			bɛn/pʰɛn	բեն	U+0532: ARMENIAN CAPITAL LETTER BEN	armenian
-Գ		G	g̣	ɡ kʰ	G	G	consonant			գ			gim/kʰim	գիմ	U+0533: ARMENIAN CAPITAL LETTER GIM	armenian
-Դ		D	ḍ	d tʰ	D	D	consonant			դ			dɑ/tʰɑ	դա	U+0534: ARMENIAN CAPITAL LETTER DA	armenian
-Զ		Z	ẓ	z	Z	Z	consonant			զ			za	զա	U+0536: ARMENIAN CAPITAL LETTER ZA	armenian
-Թ		T	ṭʰ	tʰ	T	T’	consonant			թ			tʰo	թո	U+0539: ARMENIAN CAPITAL LETTER TO	armenian
-Ժ		Z	ʒ̣	ʒ	Z	Ž	consonant			ժ			ʒɛ	ժե	U+053A: ARMENIAN CAPITAL LETTER ZHE	armenian
-Լ		L	ḷ	l	L	L	consonant			լ			ljun/lʏn	լյուն	U+053C: ARMENIAN CAPITAL LETTER LIWN	armenian
-Խ		X	x̣	χ	X	X	consonant			խ			χɛ	խե	U+053D: ARMENIAN CAPITAL LETTER XEH	armenian
-Ծ		T	ʦ̣	t͡s d͡z	T	Ts’	consonant			ծ			tsɑ/dzɑ	ծա	U+053E: ARMENIAN CAPITAL LETTER CA	armenian
-Կ		K	ḳ	k ɡ	K	K	consonant			կ			kɛn/ɡɛn	կեն	U+053F: ARMENIAN CAPITAL LETTER KEN	armenian
-Հ		H	ḥ	h	H	H	consonant			հ			ho	հօ	U+0540: ARMENIAN CAPITAL LETTER HO	armenian
-Ձ		D	ʣ̣	d͡z t͡sʰ	D	Dz	consonant			ձ			dzɑ/tsʰɑ	ձա	U+0541: ARMENIAN CAPITAL LETTER JA	armenian
-Ղ		R	ʁ̣	ʁ	R	Ṙ	consonant			ղ			ʁɑt/ʁɑd	ղատ	U+0542: ARMENIAN CAPITAL LETTER GHAD	armenian
-Ճ		T	ʧ̣	t͡ʃ d͡ʒ	T	Tš	consonant			ճ			tʃɛ/dʒɛ	ճե	U+0543: ARMENIAN CAPITAL LETTER CHEH	armenian
-Մ		M	ṃ	m	M	M	consonant			մ			mɛn	մեն	U+0544: ARMENIAN CAPITAL LETTER MEN	armenian
-Յ		Y	ỵ	h j	J	J	consonant			յ			ji/hi	հի	U+0545: ARMENIAN CAPITAL LETTER YI	armenian
-Ն		N	ṇ	n ŋ	N	N	consonant			ն			nu	նու	U+0546: ARMENIAN CAPITAL LETTER NOW	armenian
-Շ		S	ʃ̣	ʃ	S	Š	consonant			շ			ʃɑ	շա	U+0547: ARMENIAN CAPITAL LETTER SHA	armenian
-Չ		T	ʧ̣ʰ	t͡ʃʰ	T	Tš’	consonant			չ			ʧʰɑ	չա	U+0549: ARMENIAN CAPITAL LETTER CHA	armenian
-Պ		P	p̣	p b	P	P	consonant			պ			pɛ/bɛ	պե	U+054A: ARMENIAN CAPITAL LETTER PEH	armenian
-Ջ		D	ʤ̣	d͡ʒ t͡ʃʰ	D	Dž	consonant			ջ			dʒɛ/tʃʰɛ	ջե	U+054B: ARMENIAN CAPITAL LETTER JHEH	armenian
-Ռ		R	ṛ̇	r ɾ	R	R	consonant			ռ			rɑ/ɾɑ	ռա	U+054C: ARMENIAN CAPITAL LETTER RA	armenian
-Ս		S	ṣ	s	S	S	consonant			ս			sɛ	սե	U+054D: ARMENIAN CAPITAL LETTER SEH	armenian
-Վ		V	ṿ	v	V	V	consonant			վ			vɛv	վեվ	U+054E: ARMENIAN CAPITAL LETTER VEW	armenian
-Տ		T	ṭ	t d	T	T	consonant			տ			tjun/dʏn	տյուն	U+054F: ARMENIAN CAPITAL LETTER TIWN	armenian
-Ր		R	ṛ	ɾ	R	R’	consonant			ր			ɾɛ	րե	U+0550: ARMENIAN CAPITAL LETTER REH	armenian
-Ց		T	ʦ̣ʰ	t͡sʰ	T	Ts’	consonant			ց			tsʰo	ցո	U+0551: ARMENIAN CAPITAL LETTER CO	armenian
-Ւ		w	ẉ	v	W	W	consonant			ւ			hʏn	վյուն	U+0552: ARMENIAN CAPITAL LETTER YIWN	armenian
-Փ		P	p̣ʰ	pʰ	P	P’	consonant			փ			pʰjuɾ/pʰʏɾ	փյուր	U+0553: ARMENIAN CAPITAL LETTER PIWR	armenian
-Ք		K	ḳʰ	kʰ	K	K’	consonant			ք			kʰɛ	քե	U+0554: ARMENIAN CAPITAL LETTER KEH	armenian
-Ֆ		F	f̣	f	F	F	consonant			ֆ			fɛ	ֆե	U+0556: ARMENIAN CAPITAL LETTER FEH	armenian
-																
-																
-																
-																
-																
-ա		a	a	ɑ	a	a	vowel				Ա	1	ajb/ajpʰ	այբ	U+0561: ARMENIAN SMALL LETTER AYB	armenian
-ե		e	e	ɛ jɛ	e	e	vowel				Ե	5	jɛtʃʰ	եչ	U+0565: ARMENIAN SMALL LETTER ECH	armenian
-է		e	ɛ	ɛ	e	ē	vowel				Է	7	ɛ	է	U+0567: ARMENIAN SMALL LETTER EH	armenian
-ը		e	ə	ə	e	ë	vowel				Ը	8	ətʰ	ըթ	U+0568: ARMENIAN SMALL LETTER ET	armenian
-ի		i	i	i	i	i	vowel				Ի	20	ini	ինի	U+056B: ARMENIAN SMALL LETTER INI	armenian
-ո		o	ɔ	ɔ ʋɔ	o	o	vowel				Ո	600	ʋɔ	ո	U+0578: ARMENIAN SMALL LETTER VO	armenian
-և		e	eʷ	ev jev	e	ew	vowel						jev	և	U+0587: ARMENIAN SMALL LIGATURE ECH YIWN	armenian
-օ		o	o	o	o	o	vowel				Օ		o	օ	U+0585: ARMENIAN SMALL LETTER OH	armenian
-																
-Ա		A	ạ	ɑ	A	A	vowel			ա			ajb/ajpʰ	այբ	U+0531: ARMENIAN CAPITAL LETTER AYB	armenian
-Ե		E	ẹ	ɛ jɛ	E	E	vowel			ե			jɛtʃʰ	եչ	U+0535: ARMENIAN CAPITAL LETTER ECH	armenian
-Է		E	ɛ̣	ɛ	E	Ē	vowel			է			ɛ	է	U+0537: ARMENIAN CAPITAL LETTER EH	armenian
-Ը		E	ə̣	ə	E	Ë	vowel			ը			ətʰ	ըթ	U+0538: ARMENIAN CAPITAL LETTER ET	armenian
-Ի		I	ị	i	I	I	vowel			ի			ini	ինի	U+053B: ARMENIAN CAPITAL LETTER INI	armenian
-Ո		O	ɔ̣	ɔ ʋɔ	O	O	vowel			ո			ʋɔ	ո	U+0548: ARMENIAN CAPITAL LETTER VO	armenian
-Օ		O	ọ	o	O	O	vowel			օ			o	օ	U+0555: ARMENIAN CAPITAL LETTER OH	armenian
-																
-																
-																
-,		,	,		,	,	comma						storaket		U+002C: COMMA	
-․		:	:		:	:	colon						mijaket		U+2024: ONE DOT LEADER	
-՝		;	;		;	;	(semi) colon						bowt’		U+055D: ARMENIAN COMMA	armenian
-։		.	.		.	.	full stop						verǰakēt		U+0589: ARMENIAN FULL STOP	armenian
-«		<	“		<	“	quotation mark								U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	punctuation
-»		>	”		>	”	quotation mark								U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	punctuation
-՞		?	?		?	?	question mark						hartsakan nshan		U+055E: ARMENIAN QUESTION MARK	armenian
-՜		!	!		!	!	exclamation mark						yerkaratsman nshan		U+055C: ARMENIAN EXCLAMATION MARK	armenian
-՛		!	ⸯ		!	!	emphasis mark						shesht		U+055B: ARMENIAN EMPHASIS MARK	armenian
-֊		-	-		-	-	soft hyphen						miowt‛jan_gic		U+058A: ARMENIAN HYPHEN	armenian
-																
-																
-ու	s	u	ɔw	u	u	u									U+0578 U+0582: ARMENIAN SMALL LETTER VO, SMALL LETTER YIWN	
-Ու	s	u	ɔ̣w	u	u	u									U+0548 U+0582: ARMENIAN CAPITAL LETTER VO, SMALL LETTER YIWN	
-ՈՒ	s	u	ɔ̣ẉ	u	u	u									U+0548 U+0552: ARMENIAN CAPITAL LETTER VO, CAPITAL LETTER YIWN	
-մն	s	m	mn	mn	m	mn	ligated form								U+0574 U+0576: ARMENIAN SMALL LETTER MEN,  SMALL LETTER NOW	
-մե	s	m	me	me	m	me	ligated form								U+0574 U+0565: ARMENIAN SMALL LETTER MEN,  SMALL LETTER ECH	
-մի	s	m	mi	mi	m	mi	ligated form								U+0574 U+056B: ARMENIAN SMALL LETTER MEN,  SMALL LETTER INI	
-վն	s	v	vn	vn	v	vn	ligated form								U+057E U+0576: ARMENIAN SMALL LETTER VEW,  SMALL LETTER NOW	
-մխ	s	m	mx	mx	m	mx	ligated form								U+0574 U+056D: ARMENIAN SMALL LETTER MEN,  SMALL LETTER XEH	
-ﬓ	f		mⁿ	mn		mn	ligature	deprecated	մն						U+FB13: ARMENIAN SMALL LIGATURE MEN NOW	armenian
-ﬔ	f		mᵉ	me		me	ligature	deprecated	մե						U+FB14: ARMENIAN SMALL LIGATURE MEN ECH	armenian
-ﬕ	f		mⁱ	mi		mi	ligature	deprecated	մի						U+FB15: ARMENIAN SMALL LIGATURE MEN INI	armenian
-ﬖ	f		vⁿ	vn		vn	ligature	deprecated	վն						U+FB16: ARMENIAN SMALL LIGATURE VEW NOW	armenian
-ﬗ	f		mˣ	mx		mx	ligature	deprecated	մխ						U+FB17: ARMENIAN SMALL LIGATURE MEN XEH	armenian																
-																
-ՙ		[	ʿ				mistaken encoding	Do not use.							U+0559: ARMENIAN MODIFIER LETTER LEFT HALF RING	armenian
-՚		[	′				apostrophe	deprecated					apat'arts		U+055A: ARMENIAN APOSTROPHE	armenian
-՟		+	¨				abbreviation mark	archaic, obsolete					pativ		U+055F: ARMENIAN ABBREVIATION MARK	armenian
-																
-																
-֍							symbol	infrequent							U+058D: RIGHT-FACING ARMENIAN ETERNITY SIGN	armenian
-֎							symbol	infrequent							U+058E: LEFT-FACING ARMENIAN ETERNITY SIGN	armenian
-֏		#	"	¤"				currency symbol	infrequent					dram		U+058F: ARMENIAN DRAM SIGN	armenian
+պ		p	p		p	p	b	lowercase plosive				Պ	800	պե	pɛ/bɛ	U+057A: ARMENIAN SMALL LETTER PEH	armenian
+Պ		P	P		P	p̣	B	uppercase plosive			պ			պե	pɛ/bɛ	U+054A: ARMENIAN CAPITAL LETTER PEH	armenian
+բ		b pʰ	b		b	b	p	lowercase plosive				Բ	2	բեն	bɛn/pʰɛn	U+0562: ARMENIAN SMALL LETTER BEN	armenian
+Բ		B Pʰ	B		B	ḅ	P	uppercase plosive			բ			բեն	bɛn/pʰɛn	U+0532: ARMENIAN CAPITAL LETTER BEN	armenian
+փ		pʰ	p’	pʰ p’	p	pʰ	'	lowercase plosive				Փ	8000	փյուր	pʰjuɾ/pʰʏɾ	U+0583: ARMENIAN SMALL LETTER PIWR	armenian
+Փ		Pʰ	P’		P	p̣ʰ	"	uppercase plosive			փ			փյուր	pʰjuɾ/pʰʏɾ	U+0553: ARMENIAN CAPITAL LETTER PIWR	armenian
+տ		t	t		t	t	d	lowercase plosive				Տ	4000	տյուն	tjun/dʏn	U+057F: ARMENIAN SMALL LETTER TIWN	armenian
+Տ		T	T		T	ṭ	D	uppercase plosive			տ			տյուն	tjun/dʏn	U+054F: ARMENIAN CAPITAL LETTER TIWN	armenian
+դ		d tʰ	d		d	d	t	lowercase plosive				Դ	4	դա	dɑ/tʰɑ	U+0564: ARMENIAN SMALL LETTER DA	armenian
+Դ		D Tʰ	D		D	ḍ	T	uppercase plosive			դ			դա	dɑ/tʰɑ	U+0534: ARMENIAN CAPITAL LETTER DA	armenian
+թ		tʰ	t’	tʰ t’	t	tʰ	;	lowercase plosive				Թ	9	թո	tʰo	U+0569: ARMENIAN SMALL LETTER TO	armenian
+Թ		Tʰ	T’		T	ṭʰ	:	uppercase plosive			թ			թո	tʰo	U+0539: ARMENIAN CAPITAL LETTER TO	armenian
+կ		k	k		k	k	g	lowercase plosive				Կ	60	կեն	kɛn/ɡɛn	U+056F: ARMENIAN SMALL LETTER KEN	armenian
+Կ		K	K		K	ḳ	G	uppercase plosive			կ			կեն	kɛn/ɡɛn	U+053F: ARMENIAN CAPITAL LETTER KEN	armenian
+գ		ɡ kʰ	g		g	g	c	lowercase plosive				Գ	3	գիմ	gim/kʰim	U+0563: ARMENIAN SMALL LETTER GIM	armenian
+Գ		G Kʰ	G		G	g̣	C	uppercase plosive			գ			գիմ	gim/kʰim	U+0533: ARMENIAN CAPITAL LETTER GIM	armenian
+ք		kʰ	k’	kʰ k’	k	kʰ	k	lowercase plosive				Ք	9000	քե	kʰɛ	U+0584: ARMENIAN SMALL LETTER KEH	armenian
+Ք		Kʰ	K’		K	ḳʰ	K	uppercase plosive			ք			քե	kʰɛ	U+0554: ARMENIAN CAPITAL LETTER KEH	armenian
+																	
+ճ		t͡ʃ	tš	t͡ʃ d͡ʒ tš	t	ʧ	j	lowercase affricate				Ճ	100	ճե	tʃɛ/dʒɛ	U+0573: ARMENIAN SMALL LETTER CHEH	armenian
+Ճ		T͡Ʃ	Tš		T	ʧ̣	J	uppercase affricate			ճ			ճե	tʃɛ/dʒɛ	U+0543: ARMENIAN CAPITAL LETTER CHEH	armenian
+ջ		d͡ʒ t͡ʃʰ	dž	dž	d	ʤ	]	lowercase affricate				Ջ	900	ջե	dʒɛ/tʃʰɛ	U+057B: ARMENIAN SMALL LETTER JHEH	armenian
+Ջ		D͡Ʒ T͡Ʃʰ	Dž		D	ʤ̣	}	uppercase affricate			ջ			ջե	dʒɛ/tʃʰɛ	U+054B: ARMENIAN CAPITAL LETTER JHEH	armenian
+չ		t͡ʃʰ	tš’	t͡ʃʰ tš’	t	ʧʰ	[	lowercase affricate				Չ	700	չա	ʧʰɑ	U+0579: ARMENIAN SMALL LETTER CHA	armenian
+Չ		T͡Ʃʰ	Tš’		T	ʧ̣ʰ	{	uppercase affricate			չ			չա	ʧʰɑ	U+0549: ARMENIAN CAPITAL LETTER CHA	armenian
+ծ		t͡s	ts	t͡s d͡z ts	t	ʦ	/	lowercase affricate				Ծ	50	ծա	tsɑ/dzɑ	U+056E: ARMENIAN SMALL LETTER CA	armenian
+Ծ		T͡S	Ts’		T	ʦ̣	?	uppercase affricate			ծ			ծա	tsɑ/dzɑ	U+053E: ARMENIAN CAPITAL LETTER CA	armenian
+ձ		d͡z t͡sʰ	dz	dz	d	ʣ	2	lowercase affricate				Ձ	80	ձա	dzɑ/tsʰɑ	U+0571: ARMENIAN SMALL LETTER JA	armenian
+Ձ		D͡Z T͡Sʰ	Dz		D	ʣ̣	@	uppercase affricate			ձ			ձա	dzɑ/tsʰɑ	U+0541: ARMENIAN CAPITAL LETTER JA	armenian
+ց		t͡sʰ	ts’	t͡sʰ ts’	t	ʦʰ	x	lowercase affricate				Ց	6000	ցո	tsʰo	U+0581: ARMENIAN SMALL LETTER CO	armenian
+Ց		T͡Sʰ	Ts’		T	ʦ̣ʰ	X	uppercase affricate			ց			ցո	tsʰo	U+0551: ARMENIAN CAPITAL LETTER CO	armenian
+
+																	
+ֆ		f	f		f	f	f	lowercase fricative				Ֆ		ֆե	fɛ	U+0586: ARMENIAN SMALL LETTER FEH	armenian
+Ֆ		F	F		F	f̣	F	uppercase fricative			ֆ			ֆե	fɛ	U+0556: ARMENIAN CAPITAL LETTER FEH	armenian
+վ		v	v		v	v	w	lowercase fricative				Վ	3000	վեվ	vɛv	U+057E: ARMENIAN SMALL LETTER VEW	armenian
+Վ		V	V		V	ṿ	W	uppercase fricative			վ			վեվ	vɛv	U+054E: ARMENIAN CAPITAL LETTER VEW	armenian
+ւ		v	w		w	w	v	lowercase fricative				Ւ	7000	վյուն	hʏn	U+0582: ARMENIAN SMALL LETTER YIWN	armenian
+Ւ		V	W		w	ẉ	V	uppercase fricative			ւ			վյուն	hʏn	U+0552: ARMENIAN CAPITAL LETTER YIWN	armenian
+ս		s	s		s	s	s	lowercase fricative				Ս	2000	սե	sɛ	U+057D: ARMENIAN SMALL LETTER SEH	armenian
+Ս		S	S		S	ṣ	S	uppercase fricative			ս			սե	sɛ	U+054D: ARMENIAN CAPITAL LETTER SEH	armenian
+զ		z	z		z	z	z	lowercase fricative				Զ	6	զա	za	U+0566: ARMENIAN SMALL LETTER ZA	armenian
+Զ		Z	Z		Z	ẓ	Z	uppercase fricative			զ			զա	za	U+0536: ARMENIAN CAPITAL LETTER ZA	armenian
+շ		ʃ	š	ʃ š	s	ʃ	,	lowercase fricative				Շ	500	շա	ʃɑ	U+0577: ARMENIAN SMALL LETTER SHA	armenian
+Շ		Ʃ	Š		S	ʃ̣	<	uppercase fricative			շ			շա	ʃɑ	U+0547: ARMENIAN CAPITAL LETTER SHA	armenian
+ժ		ʒ	ž	ʒ ž	z	ʒ	=	lowercase fricative				Ժ	10	ժե	ʒɛ	U+056A: ARMENIAN SMALL LETTER ZHE	armenian
+Ժ		Ʒ	Ž		Z	ʒ̣	+	uppercase fricative			ժ			ժե	ʒɛ	U+053A: ARMENIAN CAPITAL LETTER ZHE	armenian
+խ		χ	x		x	x	q	lowercase fricative				Խ	40	խե	χɛ	U+056D: ARMENIAN SMALL LETTER XEH	armenian
+Խ		Χ	X		X	x̣	Q	uppercase fricative			խ			խե	χɛ	U+053D: ARMENIAN CAPITAL LETTER XEH	armenian
+հ		h	h		h	h	h	lowercase fricative				Հ	70	հօ	ho	U+0570: ARMENIAN SMALL LETTER HO	armenian
+Հ		H	H		H	ḥ	H	uppercase fricative			հ			հօ	ho	U+0540: ARMENIAN CAPITAL LETTER HO	armenian
+																	
+																	
+մ		m	m		m	m	m	lowercase nasal				Մ	200	մեն	mɛn	U+0574: ARMENIAN SMALL LETTER MEN	armenian
+Մ		M	M		M	ṃ	M	uppercase nasal			մ			մեն	mɛn	U+0544: ARMENIAN CAPITAL LETTER MEN	armenian
+ն		n ŋ	n	ŋ	n	n	n	lowercase nasal				Ն	400	նու	nu	U+0576: ARMENIAN SMALL LETTER NOW	armenian
+Ն		N Ŋ	N		N	ṇ	N	uppercase nasal			ն			նու	nu	U+0546: ARMENIAN CAPITAL LETTER NOW	armenian
+																	
+լ		l	l		l	l	l	lowercase approximant				Լ	30	լյուն	ljun/lʏn	U+056C: ARMENIAN SMALL LETTER LIWN	armenian
+Լ		L	L		L	ḷ	L	uppercase approximant			լ			լյուն	ljun/lʏn	U+053C: ARMENIAN CAPITAL LETTER LIWN	armenian
+ր		ɾ	r’	r’	r	r	r	lowercase approximant				Ր	5000	րե	ɾɛ	U+0580: ARMENIAN SMALL LETTER REH	armenian
+Ր		ɾ	R’		R	ṛ	R	uppercase approximant			ր			րե	ɾɛ	U+0550: ARMENIAN CAPITAL LETTER REH	armenian
+ռ		r	r	ɾ	r	ṙ	-	lowercase approximant				Ռ	1000	ռա	rɑ/ɾɑ	U+057C: ARMENIAN SMALL LETTER RA	armenian
+Ռ		R	R		R	ṛ̇	_	uppercase approximant			ռ			ռա	rɑ/ɾɑ	U+054C: ARMENIAN CAPITAL LETTER RA	armenian
+ղ		ʁ	ṙ	ʁ ṙ	r	ʁ	.	lowercase approximant				Ղ	90	ղատ	ʁɑt/ʁɑd	U+0572: ARMENIAN SMALL LETTER GHAD	armenian
+Ղ		ʁ	Ṙ		R	ʁ̣	>	uppercase approximant			ղ			ղատ	ʁɑt/ʁɑd	U+0542: ARMENIAN CAPITAL LETTER GHAD	armenian
+յ		h j	j		y	y	3	lowercase approximant				Յ	300	հի	ji/hi	U+0575: ARMENIAN SMALL LETTER YI	armenian
+Յ		H J	J		Y	ỵ	#	uppercase approximant			յ			հի	ji/hi	U+0545: ARMENIAN CAPITAL LETTER YI	armenian
+																	
+																	
+																	
+																	
+																	
+ա		ɑ	a	ɑ	a	a	a	lowercase vowel				Ա	1	այբ	ajb/ajpʰ	U+0561: ARMENIAN SMALL LETTER AYB	armenian
+Ա		Ɑ	A		A	ạ	A	uppercase vowel			ա			այբ	ajb/ajpʰ	U+0531: ARMENIAN CAPITAL LETTER AYB	armenian
+ե		ɛ jɛ	e		e	e		lowercase vowel				Ե	5	եչ	jɛtʃʰ	U+0565: ARMENIAN SMALL LETTER ECH	armenian
+Ե		Ɛ JƐ	E		E	ẹ		uppercase vowel			ե			եչ	jɛtʃʰ	U+0535: ARMENIAN CAPITAL LETTER ECH	armenian
+է		ɛ	ē	ɛ ē	e	ɛ	e	lowercase vowel				Է	7	է	ɛ	U+0567: ARMENIAN SMALL LETTER EH	armenian
+Է		Ɛ	Ē		E	ɛ̣	E	uppercase vowel			է			է	ɛ	U+0537: ARMENIAN CAPITAL LETTER EH	armenian
+ը		ə	ë	ə ë	e	ə	u	lowercase vowel				Ը	8	ըթ	ətʰ	U+0568: ARMENIAN SMALL LETTER ET	armenian
+Ը		Ə	Ë		E	ə̣	U	uppercase vowel			ը			ըթ	ətʰ	U+0538: ARMENIAN CAPITAL LETTER ET	armenian
+ի		i	i	ə	i	i	i	lowercase vowel				Ի	20	ինի	ini	U+056B: ARMENIAN SMALL LETTER INI	armenian
+Ի		I	I		I	ị	I	uppercase vowel			ի			ինի	ini	U+053B: ARMENIAN CAPITAL LETTER INI	armenian
+ո		ɔ ʋɔ	o	ɔ ʋɔ	o	ɔ	o	lowercase vowel				Ո	600	ո	ʋɔ	U+0578: ARMENIAN SMALL LETTER VO	armenian
+Ո		Ɔ ƲƆ	O		O	ɔ̣	O	uppercase vowel			ո			ո	ʋɔ	U+0548: ARMENIAN CAPITAL LETTER VO	armenian
+և		ev jev	ew		e	eʷ	&	lowercase vowel						և	jev	U+0587: ARMENIAN SMALL LIGATURE ECH YIWN	armenian
+օ		o	o		o	o	0	lowercase vowel	infrequent			Օ		օ	o	U+0585: ARMENIAN SMALL LETTER OH	armenian
+Օ		O	O		O	ọ	)	uppercase vowel	infrequent		օ			օ	o	U+0555: ARMENIAN CAPITAL LETTER OH	armenian
+																	
+																	
+																	
+																	
+																	
+ու	s	u	u		u	ɔw		ligated form								U+0578 U+0582: ARMENIAN SMALL LETTER VO, SMALL LETTER YIWN	
+Ու	s	u	u		u	ɔ̣w		ligated form								U+0548 U+0582: ARMENIAN CAPITAL LETTER VO, SMALL LETTER YIWN	
+ՈՒ	s	u	u		u	ɔ̣ẉ		ligated form								U+0548 U+0552: ARMENIAN CAPITAL LETTER VO, CAPITAL LETTER YIWN	
+մն	s	mn	mn		m	mn		ligated form								U+0574 U+0576: ARMENIAN SMALL LETTER MEN,  SMALL LETTER NOW	
+մե	s	me	me		m	me		ligated form								U+0574 U+0565: ARMENIAN SMALL LETTER MEN,  SMALL LETTER ECH	
+մի	s	mi	mi		m	mi		ligated form								U+0574 U+056B: ARMENIAN SMALL LETTER MEN,  SMALL LETTER INI	
+վն	s	vn	vn		v	vn		ligated form								U+057E U+0576: ARMENIAN SMALL LETTER VEW,  SMALL LETTER NOW	
+մխ	s	mx	mx		m	mx		ligated form								U+0574 U+056D: ARMENIAN SMALL LETTER MEN,  SMALL LETTER XEH	
+ﬓ	f	mn	mn			mⁿ		ligature	deprecated	մն						U+FB13: ARMENIAN SMALL LIGATURE MEN NOW	armenian
+ﬔ	f	me	me			mᵉ		ligature	deprecated	մե						U+FB14: ARMENIAN SMALL LIGATURE MEN ECH	armenian
+ﬕ	f	mi	mi			mⁱ		ligature	deprecated	մի						U+FB15: ARMENIAN SMALL LIGATURE MEN INI	armenian
+ﬖ	f	vn	vn			vⁿ		ligature	deprecated	վն						U+FB16: ARMENIAN SMALL LIGATURE VEW NOW	armenian
+ﬗ	f	mx	mx			mˣ		ligature	deprecated	մխ						U+FB17: ARMENIAN SMALL LIGATURE MEN XEH	armenian
+																	
+																	
+																	
+ՙ					[	ʿ		mistaken encoding	Do not use.							U+0559: ARMENIAN MODIFIER LETTER LEFT HALF RING	armenian
+՚					[	′	\	apostrophe	deprecated						apat'arts	U+055A: ARMENIAN APOSTROPHE	armenian
+																	
+																	
+֍								symbol	infrequent							U+058D: RIGHT-FACING ARMENIAN ETERNITY SIGN	armenian
+֎								symbol	infrequent							U+058E: LEFT-FACING ARMENIAN ETERNITY SIGN	armenian
+֏					#	"	¤"		currency symbol	infrequent						dram	U+058F: ARMENIAN DRAM SIGN	armenian
+																	
+																	
+																	
+																	
+																	
+՛			!		!	ⸯ	4	emphasis mark							shesht	U+055B: ARMENIAN EMPHASIS MARK	armenian
+★																U+2605: BLACK STAR	
+																	
+																	
+																	
+՟					+	¨		abbreviation mark	archaic, obsolete						pativ	U+055F: ARMENIAN ABBREVIATION MARK	armenian
+																	
+																	
+֊			-		-	-		soft hyphen							miowt‛jan_gic	U+058A: ARMENIAN HYPHEN	armenian
+։			.		.	.	1	full stop							verǰakēt	U+0589: ARMENIAN FULL STOP	armenian
+,			,		,	,	5	comma							storaket	U+002C: COMMA	
+.			.		.	.	7	full stop								U+002E: FULL STOP	
+․			:		:	:		colon							mijaket	U+2024: ONE DOT LEADER	
+՝			;		;	;		(semi) colon							bowt’	U+055D: ARMENIAN COMMA	armenian
+՜			!		!	!		exclamation mark							yerkaratsman nshan	U+055C: ARMENIAN EXCLAMATION MARK	armenian
+՞			?		?	?	|	question mark							hartsakan nshan	U+055E: ARMENIAN QUESTION MARK	armenian
+																	
+																	
+…			…		.	…	!	ellipsis								U+2026: HORIZONTAL ELLIPSIS	
+																	
+																	
+																	
+«			“		<	«	8	quotation mark								U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	punctuation
+»			”		>	»	9	quotation mark								U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	punctuation
+‹			‘		<	‹		quotation mark								U+2018: LEFT SINGLE QUOTATION MARK	
+›			’		>	›		quotation mark								U+2019: RIGHT SINGLE QUOTATION MARK	
+“			“		<	 “		quotation mark								U+201C: LEFT DOUBLE QUOTATION MARK	
+”			”		>	”		quotation mark								U+201D: RIGHT DOUBLE QUOTATION MARK	
+‘			‘		<	‘		quotation mark								U+2018: LEFT SINGLE QUOTATION MARK	
+’			’		>	’		quotation mark								U+2019: RIGHT SINGLE QUOTATION MARK	
+																	
+																	
+																	
+(			(		(	(	*	parenthesis								U+0028: LEFT PARENTHESIS	
+[			[		(	[		bracket								U+005B: LEFT SQUARE BRACKET	
+)			)		)	)	(	parenthesis								U+0029: RIGHT PARENTHESIS	
+]			]		)	]		bracket								U+005D: RIGHT SQUARE BRACKET	
+																	
+																	
+-			-		-	-	6	hyphen								U+2010: HYPHEN	
+‑			‑		-	‑		non-breaking hyphen								U+2011: NON-BREAKING HYPHEN	
+–			–		-	–	%	en dash								U+2013: EN DASH	
+—			—		-	—	^	em dash								U+2014: EM DASH	
+																	
+																	
+																	
+ʼ			ʼ			ʼ		apostrophe								U+02BC: MODIFIER LETTER APOSTROPHE	
+§			§			§		section sign								U+00A7: SECTION SIGN	
+†			†			†		dagger								U+2020: DAGGER	
+‡			‡			‡		double dagger								U+2021: DOUBLE DAGGER	
+′			′			′		prime								U+2032: PRIME	
+″			″			″		double prime								U+2033: DOUBLE PRIME	
+																	
+																	
+																	
+																	
+																	
+																	
+\u200C					=	ₓ		zwnj								U+200C: ZERO WIDTH NON-JOINER	
+\u200D					=	₊		zwj								U+200D: ZERO WIDTH JOINER	
+																	
+																	
+																	
+																	
+																	
+%					%	%		percentage mark								U+0025: PERCENT SIGN	
+‰					%	‰		per mille mark								U+2030: PER MILLE SIGN	
 
 
 
@@ -130,30 +197,32 @@ var spreadsheet = `
 
 var cols = {
 "class": 1,
-"key":2,
-"transLoc": 3,
-"ipaLoc": 4,
-"transckey": 5,
-"transcription":6,
-"typeLoc": 7,
-"statusLoc": 8,
+"ipaLoc": 2,
+"transcription":3,
+"latin": 4,
+"key":5,
+"transLoc": 6,
+"kbd": 7,
+"typeLoc": 8,
+"statusLoc": 9,
 "equiv": 9,
 "dvowel": 0,
 "ivowel": 0,
 "subj":0,
 "ltone":0,
 "htone":0,
-"lc":10,
-"uc":11,
+"lc":11,
+"uc":12,
 "meaning":0,
 "shape": 0,
-"numLoc": 12,
-"nameLoc": 13,
+"numLoc": 13,
 "nnameLoc": 14,
-"ucsName": 15,
-"block": 16,
+"nameLoc": 15,
+"ucsName": 16,
+"block": 17,
+"transckey": 5,
 
-"othertranscriptions": [[6, 'ISO 9985']]
+"othertranscriptions": [[3, 'ISO 9985']]
 }
 
 
