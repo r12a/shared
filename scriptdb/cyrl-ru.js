@@ -1,28 +1,29 @@
 var spreadsheet = `
-п		p	p		p	p	g	plosive			П	пэ	pɛ	U+043F: CYRILLIC SMALL LETTER PE	cyrillic
-б		b	b		b	b	,	plosive			Б	бэ	bɛ	U+0431: CYRILLIC SMALL LETTER BE	cyrillic
-т		t 	t		t	t	n	plosive			Т	тэ	tɛ	U+0442: CYRILLIC SMALL LETTER TE	cyrillic
-д		d	d		d	d	l	plosive			Д	дэ	dɛ	U+0434: CYRILLIC SMALL LETTER DE	cyrillic
-к		k	k		k	k	r	plosive			К	ка	ka	U+043A: CYRILLIC SMALL LETTER KA	cyrillic
-г		g	g		g	g	u	plosive			Г	гэ	ɡɛ	U+0433: CYRILLIC SMALL LETTER GHE	cyrillic
+п		p pʲ	p		p	p	g	plosive			П	пэ	pɛ	U+043F: CYRILLIC SMALL LETTER PE	cyrillic
+б		b bʲ	b		b	b	,	plosive			Б	бэ	bɛ	U+0431: CYRILLIC SMALL LETTER BE	cyrillic
+т		t tʲ	t		t	t	n	plosive			Т	тэ	tɛ	U+0442: CYRILLIC SMALL LETTER TE	cyrillic
+д		d dʲ	d		d	d	l	plosive			Д	дэ	dɛ	U+0434: CYRILLIC SMALL LETTER DE	cyrillic
+к		k kʲ	k		k	k	r	plosive			К	ка	ka	U+043A: CYRILLIC SMALL LETTER KA	cyrillic
+г		ɡ ɡʲ	g	ɡ	g	ɡ	u	plosive			Г	гэ	ɡɛ	U+0433: CYRILLIC SMALL LETTER GHE	cyrillic
 															
 ц		t͡s	c	t͡s	t	ʦ	w	affricate			Ц	цэ	ʦɛ	U+0446: CYRILLIC SMALL LETTER TSE	cyrillic
 ч		t͡ɕ	č	t͡ɕ	t	ʨ	x	affricate			Ч	чэ	ʨɛ	U+0447: CYRILLIC SMALL LETTER CHE	cyrillic
 															
-ф		f	f		f	f	a	fricative			Ф	эф	ɛf	U+0444: CYRILLIC SMALL LETTER EF	cyrillic
-в		v	v		v	v	d	fricative			В	вэ	vɛ	U+0432: CYRILLIC SMALL LETTER VE	cyrillic
-с		s	s		s	s	c	fricative			С	эс	ɛs	U+0441: CYRILLIC SMALL LETTER ES	cyrillic
-з		z	z		z	z	p	fricative			З	зэ	zɛ	U+0437: CYRILLIC SMALL LETTER ZE	cyrillic
+ф		f fʲ	f		f	f	a	fricative			Ф	эф	ɛf	U+0444: CYRILLIC SMALL LETTER EF	cyrillic
+в		v vʲ	v		v	v	d	fricative			В	вэ	vɛ	U+0432: CYRILLIC SMALL LETTER VE	cyrillic
+с		s sʲ	s		s	s	c	fricative			С	эс	ɛs	U+0441: CYRILLIC SMALL LETTER ES	cyrillic
+з		z zʲ	z		z	z	p	fricative			З	зэ	zɛ	U+0437: CYRILLIC SMALL LETTER ZE	cyrillic
 щ		ɕɕ	ŝ	ɕ	s	ʂ̂	o	fricative			Щ	ща	ɕɕæ	U+0449: CYRILLIC SMALL LETTER SHCHA	cyrillic
 ш		ʂ	š	ʂ	s	ʂ	i	fricative			Ш	шæ	ʂa	U+0448: CYRILLIC SMALL LETTER SHA	cyrillic
 ж		ʐ	ž	ʐ	z	ʐ	;	fricative			Ж	жэ	ʐɛ	U+0436: CYRILLIC SMALL LETTER ZHE	cyrillic
-х		x	h		x	x	[	fricative			Х	ха	xa	U+0445: CYRILLIC SMALL LETTER HA	cyrillic
+х		x xʲ	h		x	x	[	fricative			Х	ха	xa	U+0445: CYRILLIC SMALL LETTER HA	cyrillic
 															
-м		m	m		m	m	v	nasal			М	эм	ɛm	U+043C: CYRILLIC SMALL LETTER EM	cyrillic
-н		n	n		n	n	y	nasal			Н	эн	ɛn	U+043D: CYRILLIC SMALL LETTER EN	cyrillic
+м		m mʲ	m		m	m	v	nasal			М	эм	ɛm	U+043C: CYRILLIC SMALL LETTER EM	cyrillic
+н		n nʲ	n		n	n	y	nasal			Н	эн	ɛn	U+043D: CYRILLIC SMALL LETTER EN	cyrillic
 															
-р		r	r		r	r	h	approximant			Р	эр	ɛr	U+0440: CYRILLIC SMALL LETTER ER	cyrillic
-л		ɫ l	l	ɫ	l	l	k	approximant			Л	эль	ɛlʲ	U+043B: CYRILLIC SMALL LETTER EL	cyrillic
+р		r rʲ	r		r	r	h	approximant			Р	эр	ɛr	U+0440: CYRILLIC SMALL LETTER ER	cyrillic
+л		ɫ lʲ	l	ɫ	l	l	k	approximant			Л	эль	ɛlʲ	U+043B: CYRILLIC SMALL LETTER EL	cyrillic
+
 й		j	ī	ī	y	y	q	semivowel			Й	и краткое	i ˈkratkəjɪ	U+0439: CYRILLIC SMALL LETTER SHORT I	cyrillic
 															
 и		i ɪ ɨ	i	ɨ ɪ	i	i	b	vowel			И	и	i	U+0438: CYRILLIC SMALL LETTER I	cyrillic
