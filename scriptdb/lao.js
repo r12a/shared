@@ -73,7 +73,7 @@ var spreadsheet = `
 ິວ	s	-IW	IU		I	-iw̱							U+0EB4 U+0EA7: LAO VOWEL SIGN I, LETTER WO	iu	
 ີວ	s	-IːW	ĪU		I	-īw̱							U+0EB5 U+0EA7: LAO VOWEL SIGN II, LETTER WO		
 ເ-ັຍະ	s	-IA			I	ē-äɲ̱a							U+0EC0 U+0EB1 U+0E8D U+0EB0: LAO VOWEL SIGN E, VOWEL SIGN MAI KAN, LETTER NYO, VOWEL SIGN A	ia	
-ຽວ	s		ĪEO		I	-iᵊw̱							U+0EBD U+0EA7: LAO SEMIVOWEL SIGN NYO, LETTER WO	iao	
+ຽວ	s	-IːƏ̯W	ĪEO		I	-iᵊw̱							U+0EBD U+0EA7: LAO SEMIVOWEL SIGN NYO, LETTER WO	iao	
 ເ-ັຽວ	s		ĪEO		I	ē-äiᵊw̱							U+0EC0 U+0EB1 U+0EBD U+0EA7: LAO VOWEL SIGN E, VOWEL SIGN MAI KAN, SEMIVOWEL SIGN NYO, LETTER WO		
 															
 ເ-ຶອ	s	-ƜƏ̯	ƯA		U	ē-ɯʔ							U+0EC0 U+0EB6 U+0EAD: LAO VOWEL SIGN E, VOWEL SIGN Y, LETTER O	ʉa	
@@ -92,6 +92,7 @@ var spreadsheet = `
 ເ-ີຍ	s	-ɤːj	Œ̄Y		V	ē-īɲ̱							U+0EC0 U+0EB5 U+0E8D: LAO VOWEL SIGN E, VOWEL SIGN II, LETTER NYO	əəi	
 															
 ໂ-ະ	s	-O	O		O	ō-a							U+0EC2 U+0EB0: LAO VOWEL SIGN O, VOWEL SIGN A	o	
+ອຍ	s	-OːJ	OI		O	ʔɲ̱							U+0EAD U+0E8D: LAO LETTER O, LETTER NYO		
 															
 ແ-ະ	s	-Ɛ	Æ		E	ɛ̄-a							U+0EC1 U+0EB0: LAO VOWEL SIGN EI, VOWEL SIGN A	ɛ	
 ແ-ັ	s	-Ɛ-	Æ		E	ɛ̄-ä							U+0EC1 U+0EB1: LAO VOWEL SIGN EI, VOWEL SIGN MAI KAN		
@@ -104,8 +105,7 @@ var spreadsheet = `
 າຍ	s	-AːJ	ĀI		A	-āɲ̱							U+0EB2 U+0E8D: LAO VOWEL SIGN AA, LETTER NYO	aao	
 າຽ	s	-AːJ	ĀI		A	-āiᵊ							U+0EB2 U+0EBD: LAO VOWEL SIGN AA, SEMIVOWEL SIGN NYO		
 ເ-ົາ	s	-AW	AO		A	ē-oā							U+0EC0 U+0EBB U+0EB2: LAO VOWEL SIGN E, VOWEL SIGN MAI KON, VOWEL SIGN AA	aao	
-															
-															
+າວ	s	-AːW	AO		A	āw̱							U+0EB2 U+0EA7: LAO VOWEL SIGN AA, LETTER WO																	
 															
 															
 															
