@@ -1,167 +1,216 @@
 var spreadsheet = `
-پ		p	p	p	p		consonant			پ پپپ	pē	پے	U+067E: ARABIC LETTER PEH	arabic
-ب		b	b	b	b		consonant			ب ببب	beː	بے	U+0628: ARABIC LETTER BEH	arabic
-ت		t¶	t	t	t		consonant			ت تتت	teː	تے	U+062A: ARABIC LETTER TEH	arabic
-ط		t	ṯ	ṫ	t	ṯ ṫ	consonant			ط ططط	tɔj	طۄے	U+0637: ARABIC LETTER TAH	arabic
-د		d¶	d	d	d		consonant			د ـد	daːl	دال	U+062F: ARABIC LETTER DAL	arabic
-ٹ		t	ṭ	ʈ	ʈ	ṭ ʈ	consonant			ٹ ٹٹٹ	ṭeː	ٹے	U+0679: ARABIC LETTER TTEH	arabic
-ڈ		d	ḍ	ɖ	ɖ	ḍ ɖ	consonant			ڈ ـڈ	ɖaːl	ڈال	U+0688: ARABIC LETTER DDAL	arabic
-ک		k	k	k	k		consonant			ک ککک	kiːf	كیٖف	U+06A9: ARABIC LETTER KEHEH	arabic
-ق		k	q	ḱ	k	ḱ	consonant			ق ققق	kaːf	قاف	U+0642: ARABIC LETTER QAF	arabic
-گ		g	g	g	ɡ		consonant			گ گگگ	gaːf	گاف	U+06AF: ARABIC LETTER GAF	arabic
-غ		g	g͟h	ġ	ɡ	g͟h ġ	consonant			غ غغغ	gəːn	غٲن	U+063A: ARABIC LETTER GHAIN	arabic
-ع		}	ʿ	ʔ	ʔ ∅	ʿ ʔ	consonant			ع ععع	'əːn	عٲن	U+0639: ARABIC LETTER AIN	arabic
-														
-ژ		t	ts	ʦ	t͡s	ts t͡s	consonant			ژ ـژ	t͡seː	ژے	U+0698: ARABIC LETTER JEH	arabic
-چ		c	c	ʧ	t͡ʃ	ʧ t͡ʃ	consonant			چ چچچ	chīm	چیٖم	U+0686: ARABIC LETTER TCHEH	arabic
-ج		j	j	ʤ	d͡ʒ	ʤ d͡ʒ	consonant			ج ججج	jīm 	جیٖم	U+062C: ARABIC LETTER JEEM	arabic
-														
-پھ	s	P	ph	pʰ	pʰ	pʰ	aspirated consonant			پھ پھپھپھ			U+067E U+06BE: ARABIC LETTER PEH, LETTER HEH DOACHASHMEE	arabic
-تھ	s	T¶	th	tʰ	tʰ	tʰ	aspirated consonant			تھ تھتھتھ			U+062A U+06BE: ARABIC LETTER TEH, LETTER HEH DOACHASHMEE	arabic
-ٹھ	s	T	ṭh	ʈʰ	ʈʰ	ʈʰ	aspirated consonant			ٹھ ٹھٹھٹھ			U+0679 U+06BE: ARABIC LETTER TTEH, LETTER HEH DOACHASHMEE	arabic
-خ		K	k͟h	x	kʰ x	kʰ k͟h	aspirated consonant			خ خخخ	kʰeː	خے	U+062E: ARABIC LETTER KHAH	arabic
-کھ	s	K	kh	kʰ	kʰ		aspirated consonant			کھ کھکھکھ			U+06A9 U+06BE: ARABIC LETTER KEHEH, LETTER HEH DOACHASHMEE	arabic
-ژھ	s	T	tsh	ʦʰ	t͡sʰ	t͡sʰ ʦʰ	aspirated consonant			ژھ ژھژھژھ			U+0698 U+06BE: ARABIC LETTER JEH, LETTER HEH DOACHASHMEE	arabic
-چھ	s	C	ch	ʧʰ	t͡ʃʰ	t͡ʃʰ ʧʰ	aspirated consonant			چھ چھچھچھ			U+0686 U+06BE: ARABIC LETTER TCHEH, LETTER HEH DOACHASHMEE	arabic
-														
-														
-														
-ف		f	f	f	f pʰ		consonant			ف ففف	feː	فے	U+0641: ARABIC LETTER FEH	arabic
-و		w	v	w	v -w oː		consonant/vowel			و ـو	waːw	واو	U+0648: ARABIC LETTER WAW	arabic
-س		s¶	s	s	s		consonant			س سسس	siːn	سیٖن	U+0633: ARABIC LETTER SEEN	arabic
-ث		s	s̱	ṡ	s	s̱ ṡ	consonant			ث ثثث	seː	ثے	U+062B: ARABIC LETTER THEH	arabic
-ص		s	ṣ	ś	s	ṣ ś	consonant			ص صصص	sɔːd	صۄاد	U+0635: ARABIC LETTER SAD	arabic
-ز		z	z	ż	z	ż	consonant			ز ـز	zeː	زے	U+0632: ARABIC LETTER ZAIN	arabic
-ذ		z	ẕ	z	z	ẕ	consonant			ذ ـذ	zaːl	ذال	U+0630: ARABIC LETTER THAL	arabic
-ض		z	z̤	ź	z	z̤ ź	consonant			ض ضضض	zɔːd	ضۄاد	U+0636: ARABIC LETTER DAD	arabic
-ظ		z	ẓ	ẑ	z	ẓ ẑ	consonant			ظ ظظظ	zɔj	ظۄے	U+0638: ARABIC LETTER ZAH	arabic
-ش		s	ś	ʃ	ʃ	ʃ	consonant			ش ششش	ʃiːn	شیٖن	U+0634: ARABIC LETTER SHEEN	arabic
-ح		h	ḥ	ħ	h	ḥ ħ	consonant			ح ححح	baṛī heː	حے	U+062D: ARABIC LETTER HAH	arabic
-ہ		h	h	h	h		consonant			ہ ہہہ	ʧʰoʈiː heː	ہے	U+06C1: ARABIC LETTER HEH GOAL	arabic
-ھ		h	h	ʰ	ʰ	ʰ	aspiration marker			ھ ـھ	he		U+06BE: ARABIC LETTER HEH DOACHASHMEE	arabic
-														
-														
-م		m	m	m	m		consonant			م ممم	miːm	میٖم	U+0645: ARABIC LETTER MEEM	arabic
-ن		n¶	n  ̃	n	n  ̃	 ̃	consonant			ن ننن	nuːn	نوٗن	U+0646: ARABIC LETTER NOON	arabic
-														
-ر		r	r	r	r		consonant			ر ـر	reː	رے	U+0631: ARABIC LETTER REH	arabic
-ڑ		r	ṛ	ɽ	ɽ	ṛ ɽ	consonant			ڑ ـڑ	ɽeː	ڑے	U+0691: ARABIC LETTER RREH	arabic
-ل		l	l	l	l		consonant			ل للل	laːm	لام	U+0644: ARABIC LETTER LAM	arabic
-ی		y	y	y	j iː e		consonant/vowel			ی ییی	jeː	یے	U+06CC: ARABIC LETTER FARSI YEH	arabic
-ؠ		y	ẏ	ʲ	ʲ	ʲ ẏ	palatalisation marker			ؠ ؠؠؠ	ʧʰoʈiː jeː	چھوٹی یے	U+0620: ARABIC LETTER KASHMIRI YEH	arabic
-														
-														
-														
-														
-ں		n		ñ	ñ		nasalisation marker	tbc			noon ghunna		U+06BA: ARABIC LETTER NOON GHUNNA	arabic
-														
-														
-														
-														
-اِ	s	i	i	i	i		initial vowel						U+0627 U+0650: ARABIC LETTER ALEF, KASRA	arabic
-ِ		i	i	i	i		medial/final vowel						U+0650: ARABIC KASRA​	arabic
-ایٖ	s		ī	ạ̄yˌ	iː	iː ī	initial vowel						U+0627 U+06CC U+0656: ARABIC LETTER ALEF, LETTER FARSI YEH, SUBSCRIPT ALEF	
-یٖ	s	i	ī	ī	iː		medial vowel			یٖ یٖیٖیٖ			U+06CC U+0656: ARABIC LETTER FARSI YEH, SUBSCRIPT ALEF	arabic
-ٖ	o			ˌ			vowel diacritic	used with یٖـ					U+0656: ARABIC SUBSCRIPT ALEF​	arabic
-إ	dc	i	u'	ɨ	ɨ	ɨ	initial vowel		\u{627}\u{655}	أ ـأ			U+0625: ARABIC LETTER ALEF WITH HAMZA BELOW	arabic
-ٕ		i	u'	ɨ	ɨ		medial/final vowel						U+0655: ARABIC HAMZA BELOW​	arabic
-اٟ	s	i	ū'	ạ̄ɨ̄	ɨː	ɨː	initial vowel						U+0627 U+065F: ARABIC LETTER ALEF, WAVY HAMZA BELOW	
-ٳ	xp	i	ū'	ɨ̸̄	ɨː		precomposed vowel	deprecated	\u{627}\u{65F}				U+0673: ARABIC LETTER ALEF WITH WAVY HAMZA BELOW	arabic
-ٟ		i	ū'	ɨ̄	ɨː		medial/final vowel						U+065F: ARABIC WAVY HAMZA BELOW​	arabic
-اُ	s		u	ạ̄u	u		initial vowel						U+0627 U+064F: ARABIC LETTER ALEF, DAMMA	
-ُ		u	u	u	u		medial/final vowel						U+064F: ARABIC DAMMA​	arabic
-اوٗ	s		ū	ạ̄w˔	uː	uː	initial vowel						U+0627 U+0648 U+0657: ARABIC LETTER ALEF, LETTER WAW, INVERTED DAMMA	
-وٗ	s	u	ū	w˔	uː	ū	medial/final vowel						U+0648 U+0657: ARABIC LETTER WAW, INVERTED DAMMA	arabic
-ٗ	o			˔			vowel diacritic	used with وٗ					U+0657: ARABIC INVERTED DAMMA​	arabic
-														
-اێ	s		e	ạ̄e	e		initial vowel						U+0627 U+06CE: ARABIC LETTER ALEF, LETTER YEH WITH SMALL V	
-ێ		e¶	e	e	e		medial vowel						U+06CE: ARABIC LETTER YEH WITH SMALL V	arabic
-ٚے	s		e	ᵉē	e		final vowel						U+065A U+06D2: ARABIC VOWEL SIGN SMALL V ABOVE, LETTER YEH BARREE​	
-ٚ			e	ᵉ		ᵉ	vowel diacritic	used for final e with yeh baree, or in decomposed text with yeh					U+065A: ARABIC VOWEL SIGN SMALL V ABOVE​	
-ای	s		ē	ạ̄y	eː	eː ē	initial vowel						U+0627 U+06CC: ARABIC LETTER ALEF, LETTER FARSI YEH	
-ے		e	ē y	ē	eː		final vowel			ے ـے	jeː	یے	U+06D2: ARABIC LETTER YEH BARREE	arabic
-اۆ	s		o	ạ̄o	o		initial vowel						U+0627 U+06C6: ARABIC LETTER ALEF, LETTER OE	
-ۆ	f	o	o	o	o		medial/final vowel			ۆ ـۆ			U+06C6: ARABIC LETTER OE	arabic
-او	s		ō	ạ̄w	oː	oː	initial vowel						U+0627 U+0648: ARABIC LETTER ALEF, LETTER WAW	
-														
-اۄ	s		ɔ	ạ̄ɔ	ɔ	ɔ	initial vowel						U+0627 U+06C4: ARABIC LETTER ALEF, LETTER WAW WITH RING	
-ۄ		o	ɔ	ɔ	ɔ		medial/final vowel			ۄ ـۄ			U+06C4: ARABIC LETTER WAW WITH RING	arabic
-ۄآ	s	o	ɔ̄	ɔã	ɔː	ɔː ɔ̄	final vowel						U+06C4 U+0622: ARABIC LETTER WAW WITH RING, LETTER ALEF WITH MADDA ABOVE	arabic
-														
-														
-أ	dc	e	ạ	ə	ə	ə ạ	initial vowel		\u{627}\u{654}	أ ـأ			U+0623: ARABIC LETTER ALEF WITH HAMZA ABOVE	arabic
-ٔ		e	ạ	ᵊ	ə		medial/final vowel						U+0654: ARABIC HAMZA ABOVE​	arabic
-ؤ	dc	e		u͑	wə		precomposed CV sequence		\u{648}\u{654}	ؤ ـؤ			U+0624: ARABIC LETTER WAW WITH HAMZA ABOVE	arabic
-ۓ	dc	e		ɛ͑	?		precomposed CV sequence		\u{6D2}\u{654}	ۓ ـۓ			U+06D3: ARABIC LETTER YEH BARREE WITH HAMZA ABOVE	arabic
-ۂ	dc			h͑	hə		precomposed CV sequence		\u{6C1}\u{654}	ۂ ـۂ			U+06C2: ARABIC LETTER HEH GOAL WITH HAMZA ABOVE	arabic
-ځ	x			ħ͑	hə		precomposed Pashto character	should not be used	حٔ	ځ ځځځ			U+0681: ARABIC LETTER HAH WITH HAMZA ABOVE	arabic
-ݬ	x			r͑	rə		precomposed Ormuri character	should not be used(?)	رٔ	ݬ ـݬ			U+076C: ARABIC LETTER REH WITH HAMZA ABOVE	arabic
-ࢡ	x			b͑	bə		precomposed Fulfulde character	should not be used	بٔ	ࢡ ࢡࢡࢡ			U+08A1: ARABIC LETTER BEH WITH HAMZA ABOVE	arabic
-ٲ	f	e	ạ̄	ə̄	əː	əː ạ̄ ə̄	initial/medial/final vowel						U+0672: ARABIC LETTER ALEF WITH WAVY HAMZA ABOVE	arabic
-														
-اَ	s		a	ạ̄a	a		initial vowel						U+0627 U+064E: ARABIC LETTER ALEF, FATHA	
-َ		a	a	a	a		medial/final vowel						U+064E: ARABIC FATHA​	arabic
-آ	dc	A	ā	ã	aː	aː ā	initial vowel		\u0627\u0653	آ ـآ			U+0622: ARABIC LETTER ALEF WITH MADDA ABOVE	arabic
-ا		a	ā	ạ̄	aː ∅		medial/final vowel			ا ـا			U+0627: ARABIC LETTER ALEF	arabic
-ٓ	o	[		˜			vowel diacritic	used in decomposed text with آ					U+0653: ARABIC MADDAH ABOVE​	arabic
-														
-														
-														
-ْ	i	*		͓			vowel killer	infrequent					U+0652: ARABIC SUKUN​	arabic
-ۡ	i			ʿ			jazm vowel killer	infrequent					U+06E1: ARABIC SMALL HIGH DOTLESS HEAD OF KHAH​	arabic
-ّ	i	w		˖			gemination marker	infrequent					U+0651: ARABIC SHADDA​	arabic
-														
-														
-														
-۰		0	0	0			digit						U+06F0: EXTENDED ARABIC-INDIC DIGIT ZERO	arabic
-۱		1	1	1			digit						U+06F1: EXTENDED ARABIC-INDIC DIGIT ONE	arabic
-۲		2	2	2			digit						U+06F2: EXTENDED ARABIC-INDIC DIGIT TWO	arabic
-۳		3	3	3			digit						U+06F3: EXTENDED ARABIC-INDIC DIGIT THREE	arabic
-۴		4	4	4			digit						U+06F4: EXTENDED ARABIC-INDIC DIGIT FOUR	arabic
-۵		5	5	5			digit						U+06F5: EXTENDED ARABIC-INDIC DIGIT FIVE	arabic
-۶		6	6	6			digit						U+06F6: EXTENDED ARABIC-INDIC DIGIT SIX	arabic
-۷		7	7	7			digit						U+06F7: EXTENDED ARABIC-INDIC DIGIT SEVEN	arabic
-۸		8	8	8			digit						U+06F8: EXTENDED ARABIC-INDIC DIGIT EIGHT	arabic
-۹		9	9	9			digit						U+06F9: EXTENDED ARABIC-INDIC DIGIT NINE	arabic
-														
-														
-ऽ	-	\	'	ˣ			elision marker	infrequent					U+093D: DEVANAGARI SIGN AVAGRAHA	devanagari
-₹	-	±		¤			currency symbol	infrequent					U+20B9: INDIAN RUPEE SIGN	currencysymbols
-														
-														
-														
-														
-؟		?		?									U+061F: ARABIC QUESTION MARK	arabic
-؛		;		;									U+061B: ARABIC SEMICOLON	arabic
-،		,		,									U+060C: ARABIC COMMA	arabic
-۔		.		.									U+06D4: ARABIC FULL STOP	arabic
-														
-														
-														
-														
-\u200C		=		ₓ			zero-width non-joiner						U+200C: ZERO WIDTH NON-JOINER	punctuation
-\u200D		=		₊			zero-width joiner						U+200D: ZERO WIDTH JOINER	punctuation
-\u2067				ʳˡⁱ			rtl isolate						U+2067: RIGHT-TO-LEFT ISOLATE	punctuation
-\u2066				ˡʳⁱ			ltr isolate						U+2066: LEFT-TO-RIGHT ISOLATE	punctuation
-\u2068				ᶠˢⁱ			first-strong isolate						U+2068: FIRST STRONG ISOLATE	punctuation
-\u2069				ᵖᵈⁱ			pop direction isolate						U+2069: POP DIRECTIONAL ISOLATE	punctuation
-\u202B				ʳˡᵉ			rtl embed						U+202B: RIGHT-TO-LEFT EMBEDDING	punctuation
-\u202A				ˡʳᵉ			ltr embed						U+202A: LEFT-TO-RIGHT EMBEDDING	punctuation
-\u202C				ᵖᵈᶠ			pop direction						U+202C: POP DIRECTIONAL FORMATTING	punctuation
-\u200F				ʳˡᵐ			rtl mark						U+200F: RIGHT-TO-LEFT MARK	punctuation
-\u200E				ˡʳᵐ			ltr mark						U+200E: LEFT-TO-RIGHT MARK	punctuation
-\u034F				ᶜᵍʲ			combining grapheme joiner						U+034F: COMBINING GRAPHEME JOINER​	punctuation
-\u061C				ᵃˡᵐ			arabic letter mark						U+061C: ARABIC LETTER MARK	arabic
-														
-														
-														
-														
-ي	-			y̶			non-native letter	incorrect usage					U+064A: ARABIC LETTER YEH	arabic
-ئ	-			y̶͑			non-native letter	incorrect usage					U+0626: ARABIC LETTER YEH WITH HAMZA ABOVE	arabic
-ك	-			k̸			non-native letter	incorrect usage					U+0643: ARABIC LETTER KAF	arabic
-ٮ	-			b̸			non-native letter	incorrect usage					U+066E: ARABIC LETTER DOTLESS BEH	arabic
-۪	-			˳			non-native diacritic	incorrect usage					U+06EA: ARABIC EMPTY CENTRE LOW STOP​	arabic
-
+پ		p	p		p	p		plosive			پ پپپ	پے	pē	U+067E: ARABIC LETTER PEH	arabic
+ب		b	b		b	b		plosive			ب ببب	بے	beː	U+0628: ARABIC LETTER BEH	arabic
+ت		t	t		t¶	t		plosive			ت تتت	تے	teː	U+062A: ARABIC LETTER TEH	arabic
+ط		t	ṯ	ṯ	t	ṫ		plosive			ط ططط	طۄے	tɔj	U+0637: ARABIC LETTER TAH	arabic
+د		d	d		d¶	d		plosive			د ـد	دال	daːl	U+062F: ARABIC LETTER DAL	arabic
+ٹ		ʈ	ṭ	ʈ ṭ	t	ʈ		plosive			ٹ ٹٹٹ	ٹے	ṭeː	U+0679: ARABIC LETTER TTEH	arabic
+ڈ		ɖ	ḍ	ɖ ḍ	d	ɖ		plosive			ڈ ـڈ	ڈال	ɖaːl	U+0688: ARABIC LETTER DDAL	arabic
+ک		k	k		k	k		plosive			ک ککک	كیٖف	kiːf	U+06A9: ARABIC LETTER KEHEH	arabic
+ق		k	q		k	ḱ		plosive			ق ققق	قاف	kaːf	U+0642: ARABIC LETTER QAF	arabic
+گ		ɡ	g	ɡ	g	g		plosive			گ گگگ	گاف	gaːf	U+06AF: ARABIC LETTER GAF	arabic
+غ		ɡ	g͟h	g͟h	g	ġ		plosive			غ غغغ	غٲن	gəːn	U+063A: ARABIC LETTER GHAIN	arabic
+															
+ژ		t͡s	ts	ts t͡s	t	ʦ		affricate			ژ ـژ	ژے	t͡seː	U+0698: ARABIC LETTER JEH	arabic
+چ		t͡ʃ	c	ʧ t͡ʃ	c	ʧ		affricate			چ چچچ	چیٖم	chīm	U+0686: ARABIC LETTER TCHEH	arabic
+ج		d͡ʒ	j	ʤ d͡ʒ	j	ʤ		affricate			ج ججج	جیٖم	jīm 	U+062C: ARABIC LETTER JEEM	arabic
+															
+پھ	s	pʰ	ph	pʰ	P	pʰ		aspirated plosive			پھ پھپھپھ			U+067E U+06BE: ARABIC LETTER PEH, LETTER HEH DOACHASHMEE	arabic
+تھ	s	tʰ	th	tʰ	T¶	tʰ		aspirated plosive			تھ تھتھتھ			U+062A U+06BE: ARABIC LETTER TEH, LETTER HEH DOACHASHMEE	arabic
+ٹھ	s	ʈʰ	ṭh	ʈʰ	T	ʈʰ		aspirated plosive			ٹھ ٹھٹھٹھ			U+0679 U+06BE: ARABIC LETTER TTEH, LETTER HEH DOACHASHMEE	arabic
+خ		kʰ x	k͟h	kʰ k͟h	K	x		aspirated plosive			خ خخخ	خے	kʰeː	U+062E: ARABIC LETTER KHAH	arabic
+کھ	s	kʰ	kh		K	kʰ		aspirated plosive			کھ کھکھکھ			U+06A9 U+06BE: ARABIC LETTER KEHEH, LETTER HEH DOACHASHMEE	arabic
+ژھ	s	t͡sʰ	tsh	t͡sʰ ʦʰ	T	ʦʰ		aspirated affricate			ژھ ژھژھژھ			U+0698 U+06BE: ARABIC LETTER JEH, LETTER HEH DOACHASHMEE	arabic
+چھ	s	t͡ʃʰ	ch	t͡ʃʰ ʧʰ	C	ʧʰ		aspirated affricate			چھ چھچھچھ			U+0686 U+06BE: ARABIC LETTER TCHEH, LETTER HEH DOACHASHMEE	arabic
+															
+															
+															
+ف		f pʰ	f		f	f		fricative	loan words		ف ففف	فے	feː	U+0641: ARABIC LETTER FEH	arabic
+س		s	s		s¶	s		fricative			س سسس	سیٖن	siːn	U+0633: ARABIC LETTER SEEN	arabic
+ث		s	s̱	s̱	s	ṡ		fricative			ث ثثث	ثے	seː	U+062B: ARABIC LETTER THEH	arabic
+ص		s	ṣ	ṣ	s	ś		fricative			ص صصص	صۄاد	sɔːd	U+0635: ARABIC LETTER SAD	arabic
+ز		z	z		z	ż		fricative			ز ـز	زے	zeː	U+0632: ARABIC LETTER ZAIN	arabic
+ذ		z	ẕ	ẕ	z	z		fricative			ذ ـذ	ذال	zaːl	U+0630: ARABIC LETTER THAL	arabic
+ض		z	z̤	z̤	z	ź		fricative			ض ضضض	ضۄاد	zɔːd	U+0636: ARABIC LETTER DAD	arabic
+ظ		z	ẓ	ẓ	z	ẑ		fricative			ظ ظظظ	ظۄے	zɔj	U+0638: ARABIC LETTER ZAH	arabic
+ش		ʃ	ś	ʃ ś	s	ʃ		fricative			ش ششش	شیٖن	ʃiːn	U+0634: ARABIC LETTER SHEEN	arabic
+ہ		h	h		h	h		fricative			ہ ہہہ	ہے	ʧʰoʈiː heː	U+06C1: ARABIC LETTER HEH GOAL	arabic
+ھ		ʰ	h	ʰ	h	ʰ		aspiration marker			ھ ـھ		he	U+06BE: ARABIC LETTER HEH DOACHASHMEE	arabic
+ح		h	ḥ	ḥ	h	ħ		fricative			ح ححح	حے	baṛī heː	U+062D: ARABIC LETTER HAH	arabic
+															
+															
+م		m	m		m	m		nasal			م ممم	میٖم	miːm	U+0645: ARABIC LETTER MEEM	arabic
+ن		n  ̃	n  ̃	 ̃	n¶	n		nasal/nasalisation marker			ن ننن	نوٗن	nuːn	U+0646: ARABIC LETTER NOON	arabic
+															
+و		w ʋ oː	v		w	w		approximant/vowel			و ـو	واو	waːw	U+0648: ARABIC LETTER WAW	arabic
+ر		r	r		r	r		approximant			ر ـر	رے	reː	U+0631: ARABIC LETTER REH	arabic
+ڑ		ɽ	ṛ	ṛ ɽ	r	ɽ		approximant			ڑ ـڑ	ڑے	ɽeː	U+0691: ARABIC LETTER RREH	arabic
+ل		l	l		l	l		approximant			ل للل	لام	laːm	U+0644: ARABIC LETTER LAM	arabic
+ی		j e iː	y		y	y		approximant/vowel			ی ییی	یے	jeː	U+06CC: ARABIC LETTER FARSI YEH	arabic
+ؠ		ʲ	ẏ	ʲ ẏ	y	ʲ		palatalisation marker			ؠ ؠؠؠ	چھوٹی یے	ʧʰoʈiː jeː	U+0620: ARABIC LETTER KASHMIRI YEH	arabic
+															
+															
+															
+															
+ں		̃			n	ñ		nasalisation marker	tbc				noon ghunna	U+06BA: ARABIC LETTER NOON GHUNNA	arabic															
+															
+															
+															
+ِ		i	i		i	i		medial/final vowel						U+0650: ARABIC KASRA​	arabic
+اِ	s	I	i			ạ̄i		initial vowel						U+0627 U+0650: ARABIC LETTER ALEF, KASRA	arabic
+ایٖ	s	iː	ī	iː ī		ạ̄yˌ		initial vowel						U+0627 U+06CC U+0656: ARABIC LETTER ALEF, LETTER FARSI YEH, SUBSCRIPT ALEF	
+یٖ	s	iː	ī		i	yˌ		medial vowel			یٖ یٖیٖیٖ			U+06CC U+0656: ARABIC LETTER FARSI YEH, SUBSCRIPT ALEF	arabic
+ٖ	o					ˌ		vowel diacritic	used with یٖـ					U+0656: ARABIC SUBSCRIPT ALEF​	arabic
+إ	dc	ɨ	u'	ɨ		ạ̄ɨ		initial vowel		\u{627}\u{655}	أ ـأ			U+0625: ARABIC LETTER ALEF WITH HAMZA BELOW	arabic
+ٕ		ɨ	u'		i	ɨ		medial/final vowel						U+0655: ARABIC HAMZA BELOW​	arabic
+اٟ	s	ɨː	ū'	ɨː		ạ̄ɨ̄		initial vowel						U+0627 U+065F: ARABIC LETTER ALEF, WAVY HAMZA BELOW	
+ٟ		ɨː	ū'		i	ɨ̄		medial/final vowel						U+065F: ARABIC WAVY HAMZA BELOW​	arabic
+ٳ	xp	ɨː	ū'			ɨ̸̄		precomposed vowel	deprecated	\u{627}\u{65F}				U+0673: ARABIC LETTER ALEF WITH WAVY HAMZA BELOW	arabic
+اُ	s	u	u			ạ̄u		initial vowel						U+0627 U+064F: ARABIC LETTER ALEF, DAMMA	
+ُ		u	u		u	u		medial/final vowel						U+064F: ARABIC DAMMA​	arabic
+اوٗ	s	uː	ū	uː		ạ̄w˔		initial vowel						U+0627 U+0648 U+0657: ARABIC LETTER ALEF, LETTER WAW, INVERTED DAMMA	
+وٗ	s	uː	ū	ū	u	w˔		medial/final vowel						U+0648 U+0657: ARABIC LETTER WAW, INVERTED DAMMA	arabic
+ٗ	o					˔		vowel diacritic	used with وٗ					U+0657: ARABIC INVERTED DAMMA​	arabic
+															
+اێ	s	e	e			ạ̄e		initial vowel						U+0627 U+06CE: ARABIC LETTER ALEF, LETTER YEH WITH SMALL V	
+ێ		e	e		e¶	e		medial vowel						U+06CE: ARABIC LETTER YEH WITH SMALL V	arabic
+ٚے	s	e	e			ᵉē		final vowel						U+065A U+06D2: ARABIC VOWEL SIGN SMALL V ABOVE, LETTER YEH BARREE​	
+ٚ			e	ᵉ		ᵉ		vowel diacritic	used for final e with yeh baree, or in decomposed text with yeh					U+065A: ARABIC VOWEL SIGN SMALL V ABOVE​	
+ای	s	eː	ē	eː ē		ạ̄y		initial vowel						U+0627 U+06CC: ARABIC LETTER ALEF, LETTER FARSI YEH	
+ے		eː	ē y		e	ē		final vowel			ے ـے	یے	jeː	U+06D2: ARABIC LETTER YEH BARREE	arabic
+اۆ	s	o	o			ạ̄o		initial vowel						U+0627 U+06C6: ARABIC LETTER ALEF, LETTER OE	
+ۆ	f	o	o		o	o		medial/final vowel			ۆ ـۆ			U+06C6: ARABIC LETTER OE	arabic
+او	s	oː	ō	oː		ạ̄w		initial vowel						U+0627 U+0648: ARABIC LETTER ALEF, LETTER WAW	
+															
+اۄ	s	ɔ	ɔ	ɔ		ạ̄ɔ		initial vowel						U+0627 U+06C4: ARABIC LETTER ALEF, LETTER WAW WITH RING	
+ۄ		ɔ	ɔ		o	ɔ		medial/final vowel			ۄ ـۄ			U+06C4: ARABIC LETTER WAW WITH RING	arabic
+ۄآ	s	ɔː	ɔ̄	ɔː ɔ̄	o	ɔã		final vowel						U+06C4 U+0622: ARABIC LETTER WAW WITH RING, LETTER ALEF WITH MADDA ABOVE	arabic
+															
+															
+أ	dc	ə	ạ	ə ạ		ə		initial vowel		\u{627}\u{654}	أ ـأ			U+0623: ARABIC LETTER ALEF WITH HAMZA ABOVE	arabic
+ٔ		ə	ạ		e	ᵊ		medial/final vowel						U+0654: ARABIC HAMZA ABOVE​	arabic
+ؤ	dc	wə			w	u͑		precomposed CV sequence		\u{648}\u{654}	ؤ ـؤ			U+0624: ARABIC LETTER WAW WITH HAMZA ABOVE	arabic
+ۓ	dc	?			e	ɛ͑		precomposed CV sequence		\u{6D2}\u{654}	ۓ ـۓ			U+06D3: ARABIC LETTER YEH BARREE WITH HAMZA ABOVE	arabic
+ۂ	dc	hə				h͑		precomposed CV sequence		\u{6C1}\u{654}	ۂ ـۂ			U+06C2: ARABIC LETTER HEH GOAL WITH HAMZA ABOVE	arabic
+ځ	x	hə				ħ͑		precomposed Pashto character	should not be used	حٔ	ځ ځځځ			U+0681: ARABIC LETTER HAH WITH HAMZA ABOVE	arabic
+ݬ	x	rə				r͑		precomposed Ormuri character	should not be used(?)	رٔ	ݬ ـݬ			U+076C: ARABIC LETTER REH WITH HAMZA ABOVE	arabic
+ࢡ	x	bə				b͑		precomposed Fulfulde character	should not be used	بٔ	ࢡ ࢡࢡࢡ			U+08A1: ARABIC LETTER BEH WITH HAMZA ABOVE	arabic
+ٲ	f	əː	ạ̄	əː ạ̄ ə̄	e	ə̄		initial/medial/final vowel						U+0672: ARABIC LETTER ALEF WITH WAVY HAMZA ABOVE	arabic
+															
+اَ	s	a	a			ạ̄a		initial vowel						U+0627 U+064E: ARABIC LETTER ALEF, FATHA	
+َ		a	a		a	a		medial/final vowel						U+064E: ARABIC FATHA​	arabic
+آ	dc	aː	ā	aː ā	A	ã		initial vowel		\u0627\u0653	آ ـآ			U+0622: ARABIC LETTER ALEF WITH MADDA ABOVE	arabic
+ا		aː ∅	ā		a	ạ̄		medial/final vowel			ا ـا			U+0627: ARABIC LETTER ALEF	arabic
+ٓ	o				[	˜		vowel diacritic	used in decomposed text with آ					U+0653: ARABIC MADDAH ABOVE​	arabic
+															
+															
+ع		ʔ ∅	ʿ	ʿ ʔ	}	ʔ		plosive			ع ععع	عٲن	'əːn	U+0639: ARABIC LETTER AIN	arabic
+															
+															
+															
+ْ	i				*	͓		vowel killer						U+0652: ARABIC SUKUN​	arabic
+															
+															
+ّ	i				&	˖		gemination marker	infrequent					U+0651: ARABIC SHADDA​	arabic
+															
+															
+۔			.		.	.		full stop						U+06D4: ARABIC FULL STOP	arabic
+.			.		.	.		full stop						U+002E: FULL STOP	
+،			,		,	,		comma						U+060C: ARABIC COMMA	arabic
+:			:		:	:		colon						U+003A: COLON	
+؛			;		;	;		semicolon						U+061B: ARABIC SEMICOLON	arabic
+!			!		!	!		exclamation mark						U+0021: EXCLAMATION MARK	
+؟			?		?	?		question mark						U+061F: ARABIC QUESTION MARK	arabic
+															
+															
+…			…		.	…		ellipsis						U+2026: HORIZONTAL ELLIPSIS	
+															
+															
+															
+«			“		<	«		quotation mark						U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
+»			”		>	»		quotation mark						U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
+‹			‘		<	‹		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
+›			’		>	›		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
+“			“		<	 “		quotation mark						U+201C: LEFT DOUBLE QUOTATION MARK	
+”			”		>	”		quotation mark						U+201D: RIGHT DOUBLE QUOTATION MARK	
+‘			‘		<	‘		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
+’			’		>	’		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
+															
+															
+															
+(			(		(	(		parenthesis						U+0028: LEFT PARENTHESIS	
+[			[		(	[		bracket						U+005B: LEFT SQUARE BRACKET	
+)			)		)	)		parenthesis						U+0029: RIGHT PARENTHESIS	
+]			]		)	]		bracket						U+005D: RIGHT SQUARE BRACKET	
+															
+															
+-			-		-	-		hyphen						U+2010: HYPHEN	
+‑			‑		-	‑		non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
+–			–		-	–		en dash						U+2013: EN DASH	
+—			—		-	—		em dash						U+2014: EM DASH	
+															
+															
+															
+ـ			_		_	_		baseline extender							
+															
+															
+ʼ			ʼ			ʼ		apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
+§			§			§		section sign						U+00A7: SECTION SIGN	
+†			†			†		dagger						U+2020: DAGGER	
+‡			‡			‡		double dagger						U+2021: DOUBLE DAGGER	
+′			′			′		prime						U+2032: PRIME	
+″			″			″		double prime						U+2033: DOUBLE PRIME	
+															
+															
+															
+															
+															
+															
+\u200B					]	␣		zero-width space						U+200B: ZERO WIDTH SPACE	arabic
+\u200C					=	ₓ		zwnj						U+200C: ZERO WIDTH NON-JOINER	arabic
+\u200D					=	₊		zwj						U+200D: ZERO WIDTH JOINER	arabic
+\u2067					=	ʳˡⁱ		rtl isolate						U+2067: RIGHT-TO-LEFT ISOLATE	arabic
+\u2066					=	ˡʳⁱ		ltr isolate						U+2066: LEFT-TO-RIGHT ISOLATE	arabic
+\u2068					=	ᶠˢⁱ		first-strong isolate						U+2068: FIRST STRONG ISOLATE	arabic
+\u2069					=	ᵖᵈⁱ		pop direction isolate						U+2069: POP DIRECTIONAL ISOLATE	arabic
+\u202B					=	ʳˡᵉ		rtl embed						U+202B: RIGHT-TO-LEFT EMBEDDING	arabic
+\u202A					=	ˡʳᵉ		ltr embed						U+202A: LEFT-TO-RIGHT EMBEDDING	arabic
+\u202C					=	ᵖᵈᶠ		pop direction						U+202C: POP DIRECTIONAL FORMATTING	arabic
+\u200F					=	ʳˡᵐ		rtl mark						U+200F: RIGHT-TO-LEFT MARK	arabic
+\u200E					=	ˡʳᵐ		ltr mark						U+200E: LEFT-TO-RIGHT MARK	arabic
+\u034F					=	ᶜᵍʲ		combining grapheme joiner						U+034F: COMBINING GRAPHEME JOINER​	arabic
+\u061C					=	ᵃˡᵐ		arabic letter mark						U+061C: ARABIC LETTER MARK	arabic
+															
+															
+															
+															
+۰			0		0	0		digit						U+06F0: EXTENDED ARABIC-INDIC DIGIT ZERO	arabic
+۱			1		1	1		digit						U+06F1: EXTENDED ARABIC-INDIC DIGIT ONE	arabic
+۲			2		2	2		digit						U+06F2: EXTENDED ARABIC-INDIC DIGIT TWO	arabic
+۳			3		3	3		digit						U+06F3: EXTENDED ARABIC-INDIC DIGIT THREE	arabic
+۴			4		4	4		digit						U+06F4: EXTENDED ARABIC-INDIC DIGIT FOUR	arabic
+۵			5		5	5		digit						U+06F5: EXTENDED ARABIC-INDIC DIGIT FIVE	arabic
+۶			6		6	6		digit						U+06F6: EXTENDED ARABIC-INDIC DIGIT SIX	arabic
+۷			7		7	7		digit						U+06F7: EXTENDED ARABIC-INDIC DIGIT SEVEN	arabic
+۸			8		8	8		digit						U+06F8: EXTENDED ARABIC-INDIC DIGIT EIGHT	arabic
+۹			9		9	9		digit						U+06F9: EXTENDED ARABIC-INDIC DIGIT NINE	arabic
+															
+															
+					#	‛		thousands separator							
+					#	·		decimal separator							
+					#	/		date separator							
+₹					#	¤		currency symbol	infrequent					U+20B9: INDIAN RUPEE SIGN	arabic
+					#	¢									
+					#	#		number symbol							
+					#	¼		quarter							
+					#	½		half							
+					#	¾		three-quarters							
+					#	{10} etc		extended number							
+															
+															
+															
+٪					%	%		percentage mark						U+066A: ARABIC PERCENT SIGN	
+‰					%	‰		per mille mark						U+2030: PER MILLE SIGN	
 
 
 
@@ -171,29 +220,30 @@ var spreadsheet = `
 
 var cols = {
 "class": 1,
-"key":2,
+"ipaLoc": 2,
 "transcription":3,
-"transLoc":4,
-"transckey": 0,
-"ipaLoc": 5,
-"latin": 6,
-"typeLoc": 7,
-"statusLoc": 8,
-"equiv": 9,
+"latin": 4,
+"key":5,
+"transLoc":6,
+"kbd": 7,
+"typeLoc": 8,
+"statusLoc": 9,
+"equiv": 10,
 "dvowel": 0,
 "ivowel": 0,
 "subj":0,
 "ltone":0,
 "htone":0,
+"transckey": 0,
 "lc":0,
 "uc":0,
 "meaning":0,
-"shape": 10,
-"nameLoc": 11,
+"shape": 11,
 "nnameLoc": 12,
+"nameLoc": 13,
 "numLoc": 0,
-"ucsName": 13,
-"block": 14,
+"ucsName": 14,
+"block": 15,
 
 "othertranscriptions": [[3, 'LOC']]
 }
