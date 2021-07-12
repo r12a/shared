@@ -2,41 +2,30 @@ var spreadsheet = `
 پ		p	p		p	p		plosive			پ پپپ	پے	pē	U+067E: ARABIC LETTER PEH	arabic
 ب		b	b		b	b		plosive			ب ببب	بے	beː	U+0628: ARABIC LETTER BEH	arabic
 ت		t	t		t¶	t		plosive			ت تتت	تے	teː	U+062A: ARABIC LETTER TEH	arabic
-ط		t	ṯ	ṯ	t	ṫ		plosive			ط ططط	طۄے	tɔj	U+0637: ARABIC LETTER TAH	arabic
 د		d	d		d¶	d		plosive			د ـد	دال	daːl	U+062F: ARABIC LETTER DAL	arabic
 ٹ		ʈ	ṭ	ʈ ṭ	t	ʈ		plosive			ٹ ٹٹٹ	ٹے	ṭeː	U+0679: ARABIC LETTER TTEH	arabic
 ڈ		ɖ	ḍ	ɖ ḍ	d	ɖ		plosive			ڈ ـڈ	ڈال	ɖaːl	U+0688: ARABIC LETTER DDAL	arabic
 ک		k	k		k	k		plosive			ک ککک	كیٖف	kiːf	U+06A9: ARABIC LETTER KEHEH	arabic
-ق		k	q		k	ḱ		plosive			ق ققق	قاف	kaːf	U+0642: ARABIC LETTER QAF	arabic
 گ		ɡ	g	ɡ	g	g		plosive			گ گگگ	گاف	gaːf	U+06AF: ARABIC LETTER GAF	arabic
-غ		ɡ	g͟h	g͟h	g	ġ		plosive			غ غغغ	غٲن	gəːn	U+063A: ARABIC LETTER GHAIN	arabic
 															
-ژ		t͡s	ts	ts t͡s	t	ʦ		affricate			ژ ـژ	ژے	t͡seː	U+0698: ARABIC LETTER JEH	arabic
-چ		t͡ʃ	c	ʧ t͡ʃ	c	ʧ		affricate			چ چچچ	چیٖم	chīm	U+0686: ARABIC LETTER TCHEH	arabic
-ج		d͡ʒ	j	ʤ d͡ʒ	j	ʤ		affricate			ج ججج	جیٖم	jīm 	U+062C: ARABIC LETTER JEEM	arabic
+ژ		t͡s	ts	ts t͡s	c	ʦ		affricate			ژ ـژ	ژے	t͡seː	U+0698: ARABIC LETTER JEH	arabic
+چ		t͡ʃ	c	ʧ t͡ʃ	C	ʧ		affricate			چ چچچ	چیٖم	chīm	U+0686: ARABIC LETTER TCHEH	arabic
+ج		d͡ʒ	j	ʤ d͡ʒ	J	ʤ		affricate			ج ججج	جیٖم	jīm 	U+062C: ARABIC LETTER JEEM	arabic
 															
 پھ	s	pʰ	ph	pʰ	P	pʰ		aspirated plosive			پھ پھپھپھ			U+067E U+06BE: ARABIC LETTER PEH, LETTER HEH DOACHASHMEE	arabic
 تھ	s	tʰ	th	tʰ	T¶	tʰ		aspirated plosive			تھ تھتھتھ			U+062A U+06BE: ARABIC LETTER TEH, LETTER HEH DOACHASHMEE	arabic
 ٹھ	s	ʈʰ	ṭh	ʈʰ	T	ʈʰ		aspirated plosive			ٹھ ٹھٹھٹھ			U+0679 U+06BE: ARABIC LETTER TTEH, LETTER HEH DOACHASHMEE	arabic
-خ		kʰ x	k͟h	kʰ k͟h	K	x		aspirated plosive			خ خخخ	خے	kʰeː	U+062E: ARABIC LETTER KHAH	arabic
 کھ	s	kʰ	kh		K	kʰ		aspirated plosive			کھ کھکھکھ			U+06A9 U+06BE: ARABIC LETTER KEHEH, LETTER HEH DOACHASHMEE	arabic
 ژھ	s	t͡sʰ	tsh	t͡sʰ ʦʰ	T	ʦʰ		aspirated affricate			ژھ ژھژھژھ			U+0698 U+06BE: ARABIC LETTER JEH, LETTER HEH DOACHASHMEE	arabic
 چھ	s	t͡ʃʰ	ch	t͡ʃʰ ʧʰ	C	ʧʰ		aspirated affricate			چھ چھچھچھ			U+0686 U+06BE: ARABIC LETTER TCHEH, LETTER HEH DOACHASHMEE	arabic
 															
 															
 															
-ف		f pʰ	f		f	f		fricative	loan words		ف ففف	فے	feː	U+0641: ARABIC LETTER FEH	arabic
 س		s	s		s¶	s		fricative			س سسس	سیٖن	siːn	U+0633: ARABIC LETTER SEEN	arabic
-ث		s	s̱	s̱	s	ṡ		fricative			ث ثثث	ثے	seː	U+062B: ARABIC LETTER THEH	arabic
-ص		s	ṣ	ṣ	s	ś		fricative			ص صصص	صۄاد	sɔːd	U+0635: ARABIC LETTER SAD	arabic
 ز		z	z		z	ż		fricative			ز ـز	زے	zeː	U+0632: ARABIC LETTER ZAIN	arabic
-ذ		z	ẕ	ẕ	z	z		fricative			ذ ـذ	ذال	zaːl	U+0630: ARABIC LETTER THAL	arabic
-ض		z	z̤	z̤	z	ź		fricative			ض ضضض	ضۄاد	zɔːd	U+0636: ARABIC LETTER DAD	arabic
-ظ		z	ẓ	ẓ	z	ẑ		fricative			ظ ظظظ	ظۄے	zɔj	U+0638: ARABIC LETTER ZAH	arabic
 ش		ʃ	ś	ʃ ś	s	ʃ		fricative			ش ششش	شیٖن	ʃiːn	U+0634: ARABIC LETTER SHEEN	arabic
 ہ		h	h		h	h		fricative			ہ ہہہ	ہے	ʧʰoʈiː heː	U+06C1: ARABIC LETTER HEH GOAL	arabic
-ھ		ʰ	h	ʰ	h	ʰ		aspiration marker			ھ ـھ		he	U+06BE: ARABIC LETTER HEH DOACHASHMEE	arabic
-ح		h	ḥ	ḥ	h	ħ		fricative			ح ححح	حے	baṛī heː	U+062D: ARABIC LETTER HAH	arabic
+ھ		ʰ	h	ʰ	H	ʰ		aspiration marker			ھ ـھ		he	U+06BE: ARABIC LETTER HEH DOACHASHMEE	arabic
 															
 															
 م		m	m		m	m		nasal			م ممم	میٖم	miːm	U+0645: ARABIC LETTER MEEM	arabic
@@ -44,15 +33,27 @@ var spreadsheet = `
 															
 و		w ʋ oː	v		w	w		approximant/vowel			و ـو	واو	waːw	U+0648: ARABIC LETTER WAW	arabic
 ر		r	r		r	r		approximant			ر ـر	رے	reː	U+0631: ARABIC LETTER REH	arabic
-ڑ		ɽ	ṛ	ṛ ɽ	r	ɽ		approximant			ڑ ـڑ	ڑے	ɽeː	U+0691: ARABIC LETTER RREH	arabic
 ل		l	l		l	l		approximant			ل للل	لام	laːm	U+0644: ARABIC LETTER LAM	arabic
 ی		j e iː	y		y	y		approximant/vowel			ی ییی	یے	jeː	U+06CC: ARABIC LETTER FARSI YEH	arabic
-ؠ		ʲ	ẏ	ʲ ẏ	y	ʲ		palatalisation marker			ؠ ؠؠؠ	چھوٹی یے	ʧʰoʈiː jeː	U+0620: ARABIC LETTER KASHMIRI YEH	arabic
+ؠ		ʲ	ẏ	ʲ ẏ	Y	ʲ		palatalisation marker			ؠ ؠؠؠ	چھوٹی یے	ʧʰoʈiː jeː	U+0620: ARABIC LETTER KASHMIRI YEH	arabic
 															
 															
 															
+ں		 ̃			n	ñ		nasalisation marker	tbc				noon ghunna	U+06BA: ARABIC LETTER NOON GHUNNA	arabic
 															
-ں		̃			n	ñ		nasalisation marker	tbc				noon ghunna	U+06BA: ARABIC LETTER NOON GHUNNA	arabic															
+															
+ط		t	ṯ	ṯ	T	ṫ		plosive			ط ططط	طۄے	tɔj	U+0637: ARABIC LETTER TAH	arabic
+ق		k	q		K	ḱ		plosive			ق ققق	قاف	kaːf	U+0642: ARABIC LETTER QAF	arabic
+غ		ɡ	g͟h	g͟h	G	ġ		plosive			غ غغغ	غٲن	gəːn	U+063A: ARABIC LETTER GHAIN	arabic
+خ		kʰ x	k͟h	kʰ k͟h	K	x		aspirated plosive			خ خخخ	خے	kʰeː	U+062E: ARABIC LETTER KHAH	arabic
+ف		f pʰ	f		F	f		fricative	loan words		ف ففف	فے	feː	U+0641: ARABIC LETTER FEH	arabic
+ث		s	s̱	s̱	S	ṡ		fricative			ث ثثث	ثے	seː	U+062B: ARABIC LETTER THEH	arabic
+ص		s	ṣ	ṣ	S	ś		fricative			ص صصص	صۄاد	sɔːd	U+0635: ARABIC LETTER SAD	arabic
+ذ		z	ẕ	ẕ	Z	z		fricative			ذ ـذ	ذال	zaːl	U+0630: ARABIC LETTER THAL	arabic
+ض		z	z̤	z̤	Z	ź		fricative			ض ضضض	ضۄاد	zɔːd	U+0636: ARABIC LETTER DAD	arabic
+ظ		z	ẓ	ẓ	Z	ẑ		fricative			ظ ظظظ	ظۄے	zɔj	U+0638: ARABIC LETTER ZAH	arabic
+ح		h	ḥ	ḥ	H	ħ		fricative			ح ححح	حے	baṛī heː	U+062D: ARABIC LETTER HAH	arabic
+ڑ		ɽ	ṛ	ṛ ɽ	R	ɽ		approximant			ڑ ـڑ	ڑے	ɽeː	U+0691: ARABIC LETTER RREH	arabic
 															
 															
 															
@@ -99,12 +100,13 @@ var spreadsheet = `
 															
 اَ	s	a	a			ạ̄a		initial vowel						U+0627 U+064E: ARABIC LETTER ALEF, FATHA	
 َ		a	a		a	a		medial/final vowel						U+064E: ARABIC FATHA​	arabic
+ا		aː ∅	ā		A	ạ̄		medial/final vowel			ا ـا			U+0627: ARABIC LETTER ALEF	arabic
 آ	dc	aː	ā	aː ā	A	ã		initial vowel		\u0627\u0653	آ ـآ			U+0622: ARABIC LETTER ALEF WITH MADDA ABOVE	arabic
-ا		aː ∅	ā		a	ạ̄		medial/final vowel			ا ـا			U+0627: ARABIC LETTER ALEF	arabic
 ٓ	o				[	˜		vowel diacritic	used in decomposed text with آ					U+0653: ARABIC MADDAH ABOVE​	arabic
 															
-															
 ع		ʔ ∅	ʿ	ʿ ʔ	}	ʔ		plosive			ع ععع	عٲن	'əːn	U+0639: ARABIC LETTER AIN	arabic
+															
+															
 															
 															
 															
@@ -211,7 +213,18 @@ var spreadsheet = `
 															
 ٪					%	%		percentage mark						U+066A: ARABIC PERCENT SIGN	
 ‰					%	‰		per mille mark						U+2030: PER MILLE SIGN	
-
+															
+															
+															
+															
+															
+															
+															
+ي	-					y̶		non-native letter	incorrect usage					U+064A: ARABIC LETTER YEH	arabic
+ئ	-					y̶͑		non-native letter	incorrect usage					U+0626: ARABIC LETTER YEH WITH HAMZA ABOVE	arabic
+ك	-					k̸		non-native letter	incorrect usage					U+0643: ARABIC LETTER KAF	arabic
+ٮ	-					b̸		non-native letter	incorrect usage					U+066E: ARABIC LETTER DOTLESS BEH	arabic
+۪	-					˳		non-native diacritic	incorrect usage					U+06EA: ARABIC EMPTY CENTRE LOW STOP​	arabic
 
 
 `
