@@ -29,7 +29,7 @@ var spreadsheet = `
 															
 															
 م		m	m		m	m		nasal			م ممم	میٖم	miːm	U+0645: ARABIC LETTER MEEM	arabic
-ن		n  ̃	n  ̃	 ̃	n¶	n		nasal/nasalisation marker			ن ننن	نوٗن	nuːn	U+0646: ARABIC LETTER NOON	arabic
+ن		n ̃	n ̃	 ̃	n¶	n		nasal/nasalisation marker			ن ننن	نوٗن	nuːn	U+0646: ARABIC LETTER NOON	arabic
 															
 و		w ʋ oː	v		w	w		approximant/vowel			و ـو	واو	waːw	U+0648: ARABIC LETTER WAW	arabic
 ر		r	r		r	r		approximant			ر ـر	رے	reː	U+0631: ARABIC LETTER REH	arabic
@@ -39,7 +39,7 @@ var spreadsheet = `
 															
 															
 															
-ں		 ̃			n	ñ		nasalisation marker	tbc				noon ghunna	U+06BA: ARABIC LETTER NOON GHUNNA	arabic
+ں		̃			n	ñ		nasalisation marker	tbc				noon ghunna	U+06BA: ARABIC LETTER NOON GHUNNA	arabic
 															
 															
 ط		t	ṯ	ṯ	T	ṫ		plosive			ط ططط	طۄے	tɔj	U+0637: ARABIC LETTER TAH	arabic
@@ -58,15 +58,15 @@ var spreadsheet = `
 															
 															
 ِ		i	i		i	i		medial/final vowel						U+0650: ARABIC KASRA​	arabic
-اِ	s	I	i			ạ̄i		initial vowel						U+0627 U+0650: ARABIC LETTER ALEF, KASRA	arabic
+اِ	s	i	i			ạ̄i		initial vowel						U+0627 U+0650: ARABIC LETTER ALEF, KASRA	arabic
 ایٖ	s	iː	ī	iː ī		ạ̄yˌ		initial vowel						U+0627 U+06CC U+0656: ARABIC LETTER ALEF, LETTER FARSI YEH, SUBSCRIPT ALEF	
 یٖ	s	iː	ī		i	yˌ		medial vowel			یٖ یٖیٖیٖ			U+06CC U+0656: ARABIC LETTER FARSI YEH, SUBSCRIPT ALEF	arabic
 ٖ	o					ˌ		vowel diacritic	used with یٖـ					U+0656: ARABIC SUBSCRIPT ALEF​	arabic
-إ	dc	ɨ	u'	ɨ		ạ̄ɨ		initial vowel		\u{627}\u{655}	أ ـأ			U+0625: ARABIC LETTER ALEF WITH HAMZA BELOW	arabic
-ٕ		ɨ	u'		i	ɨ		medial/final vowel						U+0655: ARABIC HAMZA BELOW​	arabic
-اٟ	s	ɨː	ū'	ɨː		ạ̄ɨ̄		initial vowel						U+0627 U+065F: ARABIC LETTER ALEF, WAVY HAMZA BELOW	
-ٟ		ɨː	ū'		i	ɨ̄		medial/final vowel						U+065F: ARABIC WAVY HAMZA BELOW​	arabic
-ٳ	xp	ɨː	ū'			ɨ̸̄		precomposed vowel	deprecated	\u{627}\u{65F}				U+0673: ARABIC LETTER ALEF WITH WAVY HAMZA BELOW	arabic
+إ	dc	Ɨ	u'	ɨ		ạ̄ɨ		initial vowel		\u{627}\u{655}	أ ـأ			U+0625: ARABIC LETTER ALEF WITH HAMZA BELOW	arabic
+ٕ		Ɨ	u'		i	ɨ		medial/final vowel						U+0655: ARABIC HAMZA BELOW​	arabic
+اٟ	s	Ɨː	ū'	ɨː		ạ̄ɨ̄		initial vowel						U+0627 U+065F: ARABIC LETTER ALEF, WAVY HAMZA BELOW	
+ٟ		Ɨː	ū'		i	ɨ̄		medial/final vowel						U+065F: ARABIC WAVY HAMZA BELOW​	arabic
+ٳ	xp	Ɨː	ū'			ɨ̸̄		precomposed vowel	deprecated	\u{627}\u{65F}				U+0673: ARABIC LETTER ALEF WITH WAVY HAMZA BELOW	arabic
 اُ	s	u	u			ạ̄u		initial vowel						U+0627 U+064F: ARABIC LETTER ALEF, DAMMA	
 ُ		u	u		u	u		medial/final vowel						U+064F: ARABIC DAMMA​	arabic
 اوٗ	s	uː	ū	uː		ạ̄w˔		initial vowel						U+0627 U+0648 U+0657: ARABIC LETTER ALEF, LETTER WAW, INVERTED DAMMA	
@@ -88,15 +88,15 @@ var spreadsheet = `
 ۄآ	s	ɔː	ɔ̄	ɔː ɔ̄	o	ɔã		final vowel						U+06C4 U+0622: ARABIC LETTER WAW WITH RING, LETTER ALEF WITH MADDA ABOVE	arabic
 															
 															
-أ	dc	ə	ạ	ə ạ		ə		initial vowel		\u{627}\u{654}	أ ـأ			U+0623: ARABIC LETTER ALEF WITH HAMZA ABOVE	arabic
-ٔ		ə	ạ		e	ᵊ		medial/final vowel						U+0654: ARABIC HAMZA ABOVE​	arabic
+أ	dc	Ə	ạ	ə ạ		ə		initial vowel		\u{627}\u{654}	أ ـأ			U+0623: ARABIC LETTER ALEF WITH HAMZA ABOVE	arabic
+ٔ		Ə	ạ		e	ᵊ		medial/final vowel						U+0654: ARABIC HAMZA ABOVE​	arabic
+ٲ	f	Əː	ạ̄	əː ạ̄ ə̄	e	ə̄		initial/medial/final vowel						U+0672: ARABIC LETTER ALEF WITH WAVY HAMZA ABOVE	arabic
 ؤ	dc	wə			w	u͑		precomposed CV sequence		\u{648}\u{654}	ؤ ـؤ			U+0624: ARABIC LETTER WAW WITH HAMZA ABOVE	arabic
 ۓ	dc	?			e	ɛ͑		precomposed CV sequence		\u{6D2}\u{654}	ۓ ـۓ			U+06D3: ARABIC LETTER YEH BARREE WITH HAMZA ABOVE	arabic
 ۂ	dc	hə				h͑		precomposed CV sequence		\u{6C1}\u{654}	ۂ ـۂ			U+06C2: ARABIC LETTER HEH GOAL WITH HAMZA ABOVE	arabic
 ځ	x	hə				ħ͑		precomposed Pashto character	should not be used	حٔ	ځ ځځځ			U+0681: ARABIC LETTER HAH WITH HAMZA ABOVE	arabic
 ݬ	x	rə				r͑		precomposed Ormuri character	should not be used(?)	رٔ	ݬ ـݬ			U+076C: ARABIC LETTER REH WITH HAMZA ABOVE	arabic
 ࢡ	x	bə				b͑		precomposed Fulfulde character	should not be used	بٔ	ࢡ ࢡࢡࢡ			U+08A1: ARABIC LETTER BEH WITH HAMZA ABOVE	arabic
-ٲ	f	əː	ạ̄	əː ạ̄ ə̄	e	ə̄		initial/medial/final vowel						U+0672: ARABIC LETTER ALEF WITH WAVY HAMZA ABOVE	arabic
 															
 اَ	s	a	a			ạ̄a		initial vowel						U+0627 U+064E: ARABIC LETTER ALEF, FATHA	
 َ		a	a		a	a		medial/final vowel						U+064E: ARABIC FATHA​	arabic
@@ -225,7 +225,6 @@ var spreadsheet = `
 ك	-					k̸		non-native letter	incorrect usage					U+0643: ARABIC LETTER KAF	arabic
 ٮ	-					b̸		non-native letter	incorrect usage					U+066E: ARABIC LETTER DOTLESS BEH	arabic
 ۪	-					˳		non-native diacritic	incorrect usage					U+06EA: ARABIC EMPTY CENTRE LOW STOP​	arabic
-
 
 `
 
