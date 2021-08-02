@@ -233,8 +233,8 @@ var spreadsheet = `
 															
 															
 \u200B					]	␣		zero-width space						U+200B: ZERO WIDTH SPACE	
-\u200C					=	ₓ		zwnj						U+200C: ZERO WIDTH NON-JOINER	
-\u200D					=	₊		zwj						U+200D: ZERO WIDTH JOINER	
+\u200C					=	ₓ	X	zwnj						U+200C: ZERO WIDTH NON-JOINER	
+\u200D					=	₊	Z	zwj						U+200D: ZERO WIDTH JOINER	
 \u2067					=	ʳˡⁱ		rtl isolate						U+2067: RIGHT-TO-LEFT ISOLATE	
 \u2066					=	ˡʳⁱ		ltr isolate						U+2066: LEFT-TO-RIGHT ISOLATE	
 \u2068					=	ᶠˢⁱ		first-strong isolate						U+2068: FIRST STRONG ISOLATE	
@@ -242,8 +242,8 @@ var spreadsheet = `
 \u202B					=	ʳˡᵉ		rtl embed						U+202B: RIGHT-TO-LEFT EMBEDDING	
 \u202A					=	ˡʳᵉ		ltr embed						U+202A: LEFT-TO-RIGHT EMBEDDING	
 \u202C					=	ᵖᵈᶠ		pop direction						U+202C: POP DIRECTIONAL FORMATTING	
-\u200F					=	ʳˡᵐ		rtl mark						U+200F: RIGHT-TO-LEFT MARK	
-\u200E					=	ˡʳᵐ		ltr mark						U+200E: LEFT-TO-RIGHT MARK	
+\u200F					=	ʳˡᵐ	M	rtl mark						U+200F: RIGHT-TO-LEFT MARK	
+\u200E					=	ˡʳᵐ	V	ltr mark						U+200E: LEFT-TO-RIGHT MARK	
 \u034F					=	ᶜᵍʲ		combining grapheme joiner						U+034F: COMBINING GRAPHEME JOINER​	
 \u061C					=	ᵃˡᵐ		arabic letter mark						U+061C: ARABIC LETTER MARK	
 															
