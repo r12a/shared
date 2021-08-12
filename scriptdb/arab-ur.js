@@ -89,7 +89,6 @@ var spreadsheet = `
 															
 أ	x					ɑ͑	h	consonant+vowel			أ ـأ			U+0623: ARABIC LETTER ALEF WITH HAMZA ABOVE	arabic
 ۓ	x	e ɛ				ɛ͑	C	izafat			ۓ		ɪzɑːfat	U+06D3: ARABIC LETTER YEH BARREE WITH HAMZA ABOVE	arabic
-ۀ	x					h͑					ۀ ـۀ			U+06C0: ARABIC LETTER HEH WITH YEH ABOVE	arabic
 															
 															
 ٰ		aː			a	ɑ̇		superscript alef	with word-final ی					U+0670: ARABIC LETTER SUPERSCRIPT ALEF​	arabic
