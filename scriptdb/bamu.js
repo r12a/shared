@@ -11,6 +11,8 @@ var spreadsheet = `
 ꚠ		a	a	a	a	a aː	syllable				U+A6A0: BAMUM LETTER A	bamum
 ꚠ꛰	s	A	aʔ	aˀ	aʔ	aʔ	syllable				U+A6A0 U+A6F0: BAMUM LETTER A,  COMBINING MARK KOQNDON	bamum
 												
+												
+												
 ꛝ		p	pi	pⁱ	pi	ɯ ɛ ɛ̃	syllable				U+A6DD: BAMUM LETTER PI	bamum
 ꛝ꛰	s	P	pin	pⁱ̃	pĩ		syllable				U+A6DD U+A6F0: BAMUM LETTER PI,  COMBINING MARK KOQNDON	bamum
 ꛈ		p	py	pʲ	py		syllable				U+A6C8: BAMUM LETTER PUE	bamum
@@ -242,7 +244,6 @@ var spreadsheet = `
 ꛵		,		,			punctuation				U+A6F5: BAMUM COMMA	bamum
 ꛶		;		;			punctuation				U+A6F6: BAMUM SEMICOLON	bamum
 ꛷		?		?			punctuation				U+A6F7: BAMUM QUESTION MARK	bamum											
-											
 
 
 
