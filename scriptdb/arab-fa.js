@@ -1,76 +1,78 @@
 var spreadsheet = `
-ا		ɒː æ e o ∅	ā a o e	ɒː æ ∅	A	ɑ		vowel carrier/vowel		ا ـا	الف	ʾalef	U+0627: ARABIC LETTER ALEF	arabic
-آ		ɒː	ā	ā	A	ɑ̄		glottal stop		آ ـآ			U+0622: ARABIC LETTER ALEF WITH MADDA ABOVE	arabic
-ء		ʔ	’	ʔ	}	ʔ		glottal stop		ء	همزه	hamza	U+0621: ARABIC LETTER HAMZA	arabic
-أ		ʔ	’		A	ɑ͑		glottal stop		أ ـأ	همزه	hamza	U+0623: ARABIC LETTER ALEF WITH HAMZA ABOVE	arabic
+ا		ɒː æ e o ∅	ā a o e	ɒː æ ∅	A	ɑ	h	vowel carrier/vowel		ا ـا	الف	ʾalef	U+0627: ARABIC LETTER ALEF	🗸
+آ		ɒː	ā	ā	A	ɑ̄	H	glottal stop		آ ـآ			U+0622: ARABIC LETTER ALEF WITH MADDA ABOVE	🗸
+														
+ء		ʔ	’	ʔ	}	ʔ	M	glottal stop		ء	همزه	hamza	U+0621: ARABIC LETTER HAMZA	🗸
+أ		ʔ	’		A	ɑ͑	G	glottal stop	rare	أ ـأ	همزه	hamza	U+0623: ARABIC LETTER ALEF WITH HAMZA ABOVE	🗸
 یٔ	s	ʔ	’		y	yʿ		glottal stop		ئ ئئئ	همزه	hamza	U+06CC U+0654: ARABIC LETTER FARSI YEH, HAMZA ABOVE	
-ئ		ʔ	’			y͑		glottal stop	incorrect character	ئ ئئئ	همزه	hamza	U+0626: ARABIC LETTER YEH WITH HAMZA ABOVE	arabic
-ؤ		ʔ	’		w	w͑		glottal stop		ؤ ـؤ	همزه	hamza	U+0624: ARABIC LETTER WAW WITH HAMZA ABOVE	arabic
+ئ		ʔ	’		Y	y͑	S	glottal stop	incorrect character	ئ ئئئ	همزه	hamza	U+0626: ARABIC LETTER YEH WITH HAMZA ABOVE	🗸
+ي		j iː			Y	ŷ	D	consonant+vowel	non-native	ي ييي			U+064A: ARABIC LETTER YEH	🗸
+ؤ		ʔ	’		w	w͑	A	glottal stop		ؤ ـؤ	همزه	hamza	U+0624: ARABIC LETTER WAW WITH HAMZA ABOVE	🗸
 														
-پ		p	p		p	p		stop		پ پپپ	پِ	pe	U+067E: ARABIC LETTER PEH	arabic
-ب		b	b		b	b		stop		ب ببب	بِ	be	U+0628: ARABIC LETTER BEH	arabic
-ت		t	t		t	t		stop		ت تتت	تِ	te	U+062A: ARABIC LETTER TEH	arabic
-د		d	d		d	d		stop		د ـد	دال	dāl	U+062F: ARABIC LETTER DAL	arabic
-ط		t	t		T	t̂		stop		ط ططط	طی	ṭā	U+0637: ARABIC LETTER TAH	arabic
-ک		k	k		k	k		stop		ک ککک	کاف	kāf	U+06A9: ARABIC LETTER KEHEH	arabic
-گ		g	g		g¶	g		stop		گ گگگ	گاف	ɡāf	U+06AF: ARABIC LETTER GAF	arabic
-ق		q ɢ	q	ɢ	q	q		stop		ق ققق	قاف	qāf	U+0642: ARABIC LETTER QAF	arabic
+پ		p	p		p	p	m	stop		پ پپپ	پِ	pe	U+067E: ARABIC LETTER PEH	🗸
+ب		b	b		b	b	f	stop		ب ببب	بِ	be	U+0628: ARABIC LETTER BEH	🗸
+ت		t	t		t	t	j	stop		ت تتت	تِ	te	U+062A: ARABIC LETTER TEH	🗸
+د		d	d		d	d	n	stop		د ـد	دال	dāl	U+062F: ARABIC LETTER DAL	🗸
+ط		t	t		T	t̂	x	stop		ط ططط	طی	ṭā	U+0637: ARABIC LETTER TAH	🗸
+ک		k	k		k	k	;	stop		ک ککک	کاف	kāf	U+06A9: ARABIC LETTER KEHEH	🗸
+گ		g	g		g¶	g	'	stop		گ گگگ	گاف	ɡāf	U+06AF: ARABIC LETTER GAF	🗸
+ق		q ɢ	q	ɢ	q	q	r	stop		ق ققق	قاف	qāf	U+0642: ARABIC LETTER QAF	🗸
 														
-چ		t͡ʃ	č	t͡ʃ č	c	ʧ		affricate		چ چچچ	چِ	če	U+0686: ARABIC LETTER TCHEH	arabic
-ج		d͡ʒ	j	d͡ʒ	j	ʤ		affricate		ج ججج	جیم	jim	U+062C: ARABIC LETTER JEEM	arabic
+چ		t͡ʃ	č	t͡ʃ č	c	ʧ	]	affricate		چ چچچ	چِ	če	U+0686: ARABIC LETTER TCHEH	🗸
+ج		d͡ʒ	j	d͡ʒ	j	ʤ	[	affricate		ج ججج	جیم	jim	U+062C: ARABIC LETTER JEEM	🗸
 														
-ف		f	f		f	f		fricative		ف ففف	فِ	fe	U+0641: ARABIC LETTER FEH	arabic
-و		v u o ow	v u		v	v		fricative/mater lectionis		و ـو	واو	vāv	U+0648: ARABIC LETTER WAW	arabic
-س		s	s		s¶	s		fricative		س سسس	سین	sin	U+0633: ARABIC LETTER SEEN	arabic
-ث		s	s		s	ṡ		fricative		ث ثثث	ثِ	se	U+062B: ARABIC LETTER THEH	arabic
-ص		s	s		S	ŝ		fricative		ص صصص	صاد	sād	U+0635: ARABIC LETTER SAD	arabic
-ذ		z	z		z	ż		fricative		ذ ـذ	ذال	zāl	U+0630: ARABIC LETTER THAL	arabic
-ز		z	z		z¶	z		fricative		ز ـز	زِ	ze	U+0632: ARABIC LETTER ZAIN	arabic
-ض		z	z		Z	ẑ		fricative		ض ضضض	ضاد	zād	U+0636: ARABIC LETTER DAD	arabic
-ظ		z	z		Z	ž		consonant		ظ ظظظ	ظی	ẓā	U+0638: ARABIC LETTER ZAH	arabic
-ش		ʃ	š	ʃ	s	ʃ		fricative		ش ششش	شین	šin	U+0634: ARABIC LETTER SHEEN	arabic
-ژ		ʒ	ž	ʒ	z	ʒ		fricative		ژ ـژ	ژِ	že	U+0698: ARABIC LETTER JEH	arabic
-خ		x	x		x	x		fricative		خ خخخ	خِ	xe	U+062E: ARABIC LETTER KHAH	arabic
-ع		ʔ ∅	a ’		{	ʔ̇		fricative		ع ععع	عین	ʿeyn	U+0639: ARABIC LETTER AIN	arabic
-ه		h e	h e	ɛ	h¶	h		fricative		ه ههه	هِ	he do-češm	U+0647: ARABIC LETTER HEH	arabic
-ح		h	h		h	ħ		fricative		ح ححح	حِ	he	U+062D: ARABIC LETTER HAH	arabic
+ف		f	f		f	f	t	fricative		ف ففف	فِ	fe	U+0641: ARABIC LETTER FEH	🗸
+و		v u o ow	v u		v	v	,	fricative/mater lectionis		و ـو	واو	vāv	U+0648: ARABIC LETTER WAW	🗸
+س		s	s		s¶	s	s	fricative		س سسس	سین	sin	U+0633: ARABIC LETTER SEEN	🗸
+ث		s	s		s	ṡ	e	fricative		ث ثثث	ثِ	se	U+062B: ARABIC LETTER THEH	🗸
+ص		s	s		S	ŝ	w	fricative		ص صصص	صاد	sād	U+0635: ARABIC LETTER SAD	🗸
+ذ		z	z		z	ż	b	fricative		ذ ـذ	ذال	zāl	U+0630: ARABIC LETTER THAL	🗸
+ز		z	z		z¶	z	c	fricative		ز ـز	زِ	ze	U+0632: ARABIC LETTER ZAIN	🗸
+ض		z	z		Z	ẑ	q	fricative		ض ضضض	ضاد	zād	U+0636: ARABIC LETTER DAD	🗸
+ظ		z	z		Z	ž	z	consonant		ظ ظظظ	ظی	ẓā	U+0638: ARABIC LETTER ZAH	🗸
+ش		ʃ	š	ʃ	s	ʃ	a	fricative		ش ششش	شین	šin	U+0634: ARABIC LETTER SHEEN	🗸
+ژ		ʒ	ž	ʒ	z	ʒ	C	fricative		ژ ـژ	ژِ	že	U+0698: ARABIC LETTER JEH	🗸
+خ		x	x		x	x	o	fricative		خ خخخ	خِ	xe	U+062E: ARABIC LETTER KHAH	🗸
+ع		ʔ ∅	a ’		{	ʔ̇	u	fricative		ع ععع	عین	ʿeyn	U+0639: ARABIC LETTER AIN	🗸
+ه		h e	h e	ɛ	h¶	h	i	fricative		ه ههه	هِ	he do-češm	U+0647: ARABIC LETTER HEH	🗸
+ح		h	h		h	ħ	p	fricative		ح ححح	حِ	he	U+062D: ARABIC LETTER HAH	🗸
 														
-م		m	m		m	m		nasal		م ممم	میم	mim	U+0645: ARABIC LETTER MEEM	arabic
-ن		n	n		n	n		nasal		ن ننن	نون	nun	U+0646: ARABIC LETTER NOON	arabic
+م		m	m		m	m	l	nasal		م ممم	میم	mim	U+0645: ARABIC LETTER MEEM	🗸
+ن		n	n		n	n	k	nasal		ن ننن	نون	nun	U+0646: ARABIC LETTER NOON	🗸
 														
-ر		r	r		r	r		trill		ر ـر	رِ	re	U+0631: ARABIC LETTER REH	arabic
-ل		l	l		l	l		lateral		ل للل	لام	lām	U+0644: ARABIC LETTER LAM	arabic
-ی		j iː	y i		y¶	y		approximant/mater lectionis		ی ییی	یِ	ye	U+06CC: ARABIC LETTER FARSI YEH	arabic
+ر		r	r		r	r	v	trill		ر ـر	رِ	re	U+0631: ARABIC LETTER REH	🗸
+ل		l	l		l	l	g	lateral		ل للل	لام	lām	U+0644: ARABIC LETTER LAM	🗸
+ی		j iː	y i	iː	y¶	y	d	approximant/mater lectionis		ی ییی	یِ	ye	U+06CC: ARABIC LETTER FARSI YEH	🗸
 														
-غ		ɢ ɣ	ġ	ɣ	g	ɣ		consonant		ع ععع	غین	ġeyn	U+063A: ARABIC LETTER GHAIN	arabic
-														
-														
-														
-ِ		e			i	i		vowel			زیر	zir	U+0650: ARABIC KASRA​	arabic
-ُ		o			u	u		vowel			پیش	piš	U+064F: ARABIC DAMMA​	arabic
-َ		æ		æ	a	a		vowel			زِبَر	zebar	U+064E: ARABIC FATHA​	arabic
-														
-ً		an			a	aⁿ		vowel			تنوین نصب	tanvin e nasb	U+064B: ARABIC FATHATAN​	arabic
-ٔ		ʔ			[	ʿ		hamza					U+0654: ARABIC HAMZA ABOVE​	arabic
-														
-														
-ة		h - ɛ æ			t	ẗ		consonant+vowel		ة ـة			U+0629: ARABIC LETTER TEH MARBUTA	arabic
-إ	dc	ʔi			A	ɑ̂		consonant+vowel	non-native	إ ـإ			U+0625: ARABIC LETTER ALEF WITH HAMZA BELOW	arabic
-ى		ɑː			A	â		vowel	non-native	ى ـى			U+0649: ARABIC LETTER ALEF MAKSURA	arabic
-ي		j iː			Y	ŷ		consonant+vowel	non-native	ي ييي			U+064A: ARABIC LETTER YEH	arabic
-ك		k			K	k̂		consonant	non-native	ك ككك			U+0643: ARABIC LETTER KAF	arabic
-ڤ		β						fricative	archaic				U+06A4: ARABIC LETTER VEH	arabic
-ٌ		un			u	uⁿ		vowel			تنوین رفع	tanvin e rafe	U+064C: ARABIC DAMMATAN​	arabic
-ٍ		in			i	iⁿ		vowel			تنوین جرّ	tanvin e jarr	U+064D: ARABIC KASRATAN​	arabic
-ْ					*	͓		vowel absence marker			سکون	sokun	U+0652: ARABIC SUKUN​	arabic
-ٕ		ʔ			[	˓		hamza					U+0655: ARABIC HAMZA BELOW​	arabic
+غ		ɢ ɣ	ġ	ɣ	g	ɣ	y	consonant		ع ععع	غین	ġeyn	U+063A: ARABIC LETTER GHAIN	🗸
 														
 														
 														
+ِ		e			i	i	Y	vowel			زیر	zir	U+0650: ARABIC KASRA​	🗸
+ُ		o			u	u	T	vowel			پیش	piš	U+064F: ARABIC DAMMA​	🗸
+َ		æ		æ	a	a	U	vowel			زِبَر	zebar	U+064E: ARABIC FATHA​	🗸
+														
+ً		an			a	aⁿ	R	vowel			تنوین نصب	tanvin e nasb	U+064B: ARABIC FATHATAN​	🗸
+ٔ		ʔ			[	ʿ	N	hamza					U+0654: ARABIC HAMZA ABOVE​	🗸
+ٓ	o				}	~	X	maddah diacritic	used with ا				U+0653: ARABIC MADDAH ABOVE​	🗸
+														
+														
+ة		h - ɛ æ			t	ẗ	J	consonant+vowel	infrequent	ة ـة			U+0629: ARABIC LETTER TEH MARBUTA	🗸
+إ	dc	ʔi			A	ɑ̂	F	consonant+vowel	non-native	إ ـإ			U+0625: ARABIC LETTER ALEF WITH HAMZA BELOW	🗸
+ى		ɑː		ɑː	A	â		vowel	non-native	ى ـى			U+0649: ARABIC LETTER ALEF MAKSURA	🗸
+ك		k			K	k̂	Z	consonant	non-native	ك ككك			U+0643: ARABIC LETTER KAF	🗸
+ڤ		β		β				fricative	archaic				U+06A4: ARABIC LETTER VEH	🗸
+ٌ		un			u	uⁿ	W	vowel			تنوین رفع	tanvin e rafe	U+064C: ARABIC DAMMATAN​	🗸
+ٍ		in			i	iⁿ	E	vowel			تنوین جرّ	tanvin e jarr	U+064D: ARABIC KASRATAN​	🗸
+ْ					*	͓	Q	vowel absence marker			سکون	sokun	U+0652: ARABIC SUKUN​	🗸
+ٕ		ʔ			[	˓		hamza					U+0655: ARABIC HAMZA BELOW​	🗸
 														
 														
 														
-﷼					#	¤		currency sign	infrequent				U+FDFC: RIAL SIGN	
+														
+														
+														
+﷼					#	¤	$	currency sign	infrequent				U+FDFC: RIAL SIGN	
 														
 														
 														
@@ -82,57 +84,57 @@ var spreadsheet = `
 														
 														
 														
-ٔ					}	ʿ		hamza					U+0654: ARABIC HAMZA ABOVE​	arabic
-ٕ					}	˓		hamza					U+0655: ARABIC HAMZA BELOW​	arabic
-ٓ	o				}	~		maddah diacritic	used with ا				U+0653: ARABIC MADDAH ABOVE​	arabic
-٭					[	*		punctuation	infrequent				U+066D: ARABIC FIVE POINTED STAR	arabic
+ٕ					}	˓		hamza	not used				U+0655: ARABIC HAMZA BELOW​	🗸
+٭					[	*		punctuation	infrequent				U+066D: ARABIC FIVE POINTED STAR	🗸
 														
 														
 														
-ْ					*	͓		vowel absence marker			سُكُون	sukūn	U+0652: ARABIC SUKUN​	arabic
+ْ					*	͓		vowel absence marker			سُكُون	sukūn	U+0652: ARABIC SUKUN​	🗸
 														
 														
-ّ						˖		gemination mark			تشدید	tašdid	U+0651: ARABIC SHADDA​	
-														
-														
-														
-.			.		.	.		full stop					U+002E: FULL STOP	arabic
-۔			.		.	.		full stop	infrequent				U+06D4: ARABIC FULL STOP	arabic
-،			,		,	,		comma					U+060C: ARABIC COMMA	arabic
-:			:		:	:		colon					U+003A: COLON	arabic
-؛					;	;		semicolon					U+061B: ARABIC SEMICOLON	arabic
-!			!		!	!		exclamation mark					U+0021: EXCLAMATION MARK	arabic
-؟			?		?	?		question mark					U+061F: ARABIC QUESTION MARK	arabic
-														
-														
-…			…		.	…		ellipsis					U+2026: HORIZONTAL ELLIPSIS	arabic
+ّ						˖	I	gemination mark			تشدید	tašdid	U+0651: ARABIC SHADDA​	🗸
 														
 														
 														
-«			“		<	«		quotation mark			گیومه		U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	arabic
-»			”		>	»		quotation mark			گیومه		U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	arabic
-‹			‘		<	‹		quotation mark					U+2018: LEFT SINGLE QUOTATION MARK	arabic
-›			’		>	›		quotation mark					U+2019: RIGHT SINGLE QUOTATION MARK	arabic
-“			“		<	 “		quotation mark					U+201C: LEFT DOUBLE QUOTATION MARK	arabic
-”			”		>	”		quotation mark					U+201D: RIGHT DOUBLE QUOTATION MARK	arabic
-‘			‘		<	‘		quotation mark					U+2018: LEFT SINGLE QUOTATION MARK	arabic
-’			’		>	’		quotation mark					U+2019: RIGHT SINGLE QUOTATION MARK	arabic
+.			.		.	.		full stop					U+002E: FULL STOP	🗸
+۔			.		.	.		full stop	infrequent				U+06D4: ARABIC FULL STOP	🗸
+،			,		,	,	&	comma					U+060C: ARABIC COMMA	🗸
+:			:		:	:		colon					U+003A: COLON	🗸
+؛					;	;	"	semicolon					U+061B: ARABIC SEMICOLON	🗸
+!			!		!	!		exclamation mark					U+0021: EXCLAMATION MARK	
+؟			?		?	?	/	question mark					U+061F: ARABIC QUESTION MARK	🗸
+														
+														
+…			…		.	…		ellipsis					U+2026: HORIZONTAL ELLIPSIS	🗸
 														
 														
 														
-(			(		(	(		parenthesis					U+0028: LEFT PARENTHESIS	arabic
-[			[		(	[		bracket					U+005B: LEFT SQUARE BRACKET	arabic
-)			)		)	)		parenthesis					U+0029: RIGHT PARENTHESIS	arabic
-]			]		)	]		bracket					U+005D: RIGHT SQUARE BRACKET	arabic
+«			“		<	«	K	quotation mark			گیومه		U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	🗸
+»			”		>	»	L	quotation mark			گیومه		U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	🗸
+‹			‘		<	‹		quotation mark					U+2018: LEFT SINGLE QUOTATION MARK	🗸
+›			’		>	›		quotation mark					U+2019: RIGHT SINGLE QUOTATION MARK	🗸
+“			“		<	 “		quotation mark					U+201C: LEFT DOUBLE QUOTATION MARK	🗸
+”			”		>	”		quotation mark					U+201D: RIGHT DOUBLE QUOTATION MARK	🗸
+‘			‘		<	‘		quotation mark					U+2018: LEFT SINGLE QUOTATION MARK	🗸
+’			’		>	’		quotation mark					U+2019: RIGHT SINGLE QUOTATION MARK	🗸
 														
 														
--			-		-	-		hyphen					U+2010: HYPHEN	arabic
-‑			‑		-	‑		non-breaking hyphen					U+2011: NON-BREAKING HYPHEN	arabic
-–			–		-	–		en dash					U+2013: EN DASH	arabic
-—			—		-	—		em dash					U+2014: EM DASH	arabic
+														
+(			(		(	(	)	parenthesis					U+0028: LEFT PARENTHESIS	🗸
+[			[		(	[	P	bracket					U+005B: LEFT SQUARE BRACKET	
+)			)		)	)	(	parenthesis					U+0029: RIGHT PARENTHESIS	🗸
+]			]		)	]	O	bracket					U+005D: RIGHT SQUARE BRACKET	
+{			{			{	}	bracket					U+007B: LEFT CURLY BRACKET	
+}			}			}	{	bracket					U+007D: RIGHT CURLY BRACKET	
 														
 														
-ـ					_	_		baseline extender	infrequent				U+0640: ARABIC TATWEEL	arabic
+-			-		-	-		hyphen					U+2010: HYPHEN	
+‑			‑		-	‑		non-breaking hyphen					U+2011: NON-BREAKING HYPHEN	
+–			–		-	–		en dash					U+2013: EN DASH	🗸
+—			—		-	—		em dash					U+2014: EM DASH	🗸
+														
+														
+ـ					_	_		baseline extender	infrequent				U+0640: ARABIC TATWEEL	🗸
 														
 														
 ʼ			ʼ			ʼ		apostrophe					U+02BC: MODIFIER LETTER APOSTROPHE	
@@ -164,28 +166,34 @@ var spreadsheet = `
 														
 														
 														
-۰			0		±	0̣		digit			صِفر	sefr	U+06F0: EXTENDED ARABIC-INDIC DIGIT ZERO	
-۱			1		±	1̣		digit			یِک	yek	U+06F1: EXTENDED ARABIC-INDIC DIGIT ONE	
-۲			2		±	2̣		digit			دُو	do	U+06F2: EXTENDED ARABIC-INDIC DIGIT TWO	
-۳			3		±	3̣		digit			سِه	se	U+06F3: EXTENDED ARABIC-INDIC DIGIT THREE	
-۴			4		±	4̣		digit			چَهَار	čahār	U+06F4: EXTENDED ARABIC-INDIC DIGIT FOUR	
-۵			5		±	5̣		digit			پَنج	panj	U+06F5: EXTENDED ARABIC-INDIC DIGIT FIVE	
-۶			6		±	6̣		digit			شِش	šeš	U+06F6: EXTENDED ARABIC-INDIC DIGIT SIX	
-۷			7		±	7̣		digit			هَفت	haft	U+06F7: EXTENDED ARABIC-INDIC DIGIT SEVEN	
-۸			8		±	8̣		digit			هَشت	hašt	U+06F8: EXTENDED ARABIC-INDIC DIGIT EIGHT	
-۹			9		±	9̣		digit			نُه	noh	U+06F9: EXTENDED ARABIC-INDIC DIGIT NINE	
+۰			0		±	0̣	0	digit			صِفر	sefr	U+06F0: EXTENDED ARABIC-INDIC DIGIT ZERO	🗸
+۱			1		±	1̣	1	digit			یِک	yek	U+06F1: EXTENDED ARABIC-INDIC DIGIT ONE	🗸
+۲			2		±	2̣	2	digit			دُو	do	U+06F2: EXTENDED ARABIC-INDIC DIGIT TWO	🗸
+۳			3		±	3̣	3	digit			سِه	se	U+06F3: EXTENDED ARABIC-INDIC DIGIT THREE	🗸
+۴			4		±	4̣	4	digit			چَهَار	čahār	U+06F4: EXTENDED ARABIC-INDIC DIGIT FOUR	🗸
+۵			5		±	5̣	5	digit			پَنج	panj	U+06F5: EXTENDED ARABIC-INDIC DIGIT FIVE	🗸
+۶			6		±	6̣	6	digit			شِش	šeš	U+06F6: EXTENDED ARABIC-INDIC DIGIT SIX	🗸
+۷			7		±	7̣	7	digit			هَفت	haft	U+06F7: EXTENDED ARABIC-INDIC DIGIT SEVEN	🗸
+۸			8		±	8̣	8	digit			هَشت	hašt	U+06F8: EXTENDED ARABIC-INDIC DIGIT EIGHT	🗸
+۹			9		±	9̣	9	digit			نُه	noh	U+06F9: EXTENDED ARABIC-INDIC DIGIT NINE	🗸
 														
 														
-٬					#	‛		thousands separator					U+066C: ARABIC THOUSANDS SEPARATOR	arabic
-٫					#	·		decimal separator					U+066B: ARABIC DECIMAL SEPARATOR	arabic
-؍					#	/		date separator	infrequent				U+060D: ARABIC DATE SEPARATOR	arabic
+٬					#	‛	@	thousands separator					U+066C: ARABIC THOUSANDS SEPARATOR	🗸
+٫					#	·	#	decimal separator					U+066B: ARABIC DECIMAL SEPARATOR	🗸
+؍					#	/		date separator	infrequent				U+060D: ARABIC DATE SEPARATOR	🗸
 														
 														
 														
-٪					%	٪		percent sign					U+066A: ARABIC PERCENT SIGN	arabic
-؉					%	؉		per mille sign					U+0609 ARABIC-INDIC PER MILLE SIGN	arabic
-%					%	%		percentage mark					U+0025: PERCENT SIGN	arabic
-‰					%	‰		per mille sign					U+2030: PER MILLE SIGN	arabic
+٪					%	٪	%	percent sign					U+066A: ARABIC PERCENT SIGN	🗸
+؉					%	؉		per mille sign					U+0609 ARABIC-INDIC PER MILLE SIGN	🗸
+%					%	%		percentage mark					U+0025: PERCENT SIGN	🗸
+‰					%	‰		per mille sign					U+2030: PER MILLE SIGN	🗸
+														
+														
+														
+ٰ						–	V						U+0670: ARABIC LETTER SUPERSCRIPT ALEF​	🗸														
+
+
 
 
 `
@@ -200,6 +208,7 @@ var cols = {
 "kbd": 7,
 "typeLoc": 8,
 "statusLoc": 9,
+
 "dvowel": 0,
 "ivowel": 0,
 "subj":0,
@@ -210,11 +219,11 @@ var cols = {
 "meaning":0,
 "shape": 10,
 "numLoc": 0,
+
 "nnameLoc": 11,
 "nameLoc": 12,
 "ucsName": 13,
 "block": 14,
-"transckey": 0,
 
 "othertranscriptions": [[3, 'UN']]
 }
