@@ -1,80 +1,80 @@
 var spreadsheet = `
-ⵒ		p	p		p	p		پ	plosive	foreign sound	ⵢⴰⵒ	yap	U+2D52: TIFINAGH LETTER YAP	tifinagh
-ⵜ		t	t		t	t		ت	plosive		ⵢⴰⵜ	yat	U+2D5C: TIFINAGH LETTER YAT	tifinagh
-ⵟ		tˁ	ṭ	tˁ ṭ	t	tˁ		ط	plosive		ⵢⴰⵟ	yaṭ	U+2D5F: TIFINAGH LETTER YATT	tifinagh
-ⵞ	-	t͡ʃ	ch tš	t͡ʃ tš	t	ʧ		تش	affricate	touareg/kabyle	ⵢⴰⵞ	yatš	U+2D5E: TIFINAGH LETTER YACH	tifinagh
-ⴽ		k	k		k	k		ک	plosive		ⵢⴰⴽ	yak	U+2D3D: TIFINAGH LETTER YAK	tifinagh
-ⴾ	-	k	k		k	k̇		ک	plosive	touareg	ⵢⴰⴾ	yak	U+2D3E: TIFINAGH LETTER TUAREG YAK	tifinagh
-ⵇ		q qʷ ɢ	q	qʷ ɢ	q	q		ق	plosive		ⵢⴰⵇ	yaq	U+2D47: TIFINAGH LETTER YAQ	tifinagh
-ⵈ	-	q qʷ	q		q	q̇		ق	plosive	touareg	ⵢⴰⵈ	yaq	U+2D48: TIFINAGH LETTER TUAREG YAQ	tifinagh
+ⵒ		p	p		p	p		پ	plosive	foreign sound	ⵢⴰⵒ	yap	U+2D52: TIFINAGH LETTER YAP	🗸
+ⵜ		t	t		t	t		ت	plosive		ⵢⴰⵜ	yat	U+2D5C: TIFINAGH LETTER YAT	🗸
+ⵟ		tˁ	ṭ	tˁ ṭ	t	tˁ		ط	plosive		ⵢⴰⵟ	yaṭ	U+2D5F: TIFINAGH LETTER YATT	🗸
+ⵞ	-	t͡ʃ	ch tš	t͡ʃ tš	t	ʧ		تش	affricate	touareg/kabyle	ⵢⴰⵞ	yatš	U+2D5E: TIFINAGH LETTER YACH	🗸
+ⴽ		k	k		k	k		ک	plosive		ⵢⴰⴽ	yak	U+2D3D: TIFINAGH LETTER YAK	🗸
+ⴾ	-	k	k		k	k̇		ک	plosive	touareg	ⵢⴰⴾ	yak	U+2D3E: TIFINAGH LETTER TUAREG YAK	🗸
+ⵇ		q qʷ ɢ	q	qʷ ɢ	q	q		ق	plosive		ⵢⴰⵇ	yaq	U+2D47: TIFINAGH LETTER YAQ	🗸
+ⵈ	-	q qʷ	q		q	q̇		ق	plosive	touareg	ⵢⴰⵈ	yaq	U+2D48: TIFINAGH LETTER TUAREG YAQ	🗸
 														
-ⴱ		b	b		b	b		ب	plosive		ⵢⴰⴱ	yab	U+2D31: TIFINAGH LETTER YAB	tifinagh
-ⴷ		d	d		d	d		د	plosive		ⵢⴰⴷ	yad	U+2D37: TIFINAGH LETTER YAD	tifinagh
-ⴹ		dˁ	ḍ	dˁ ḍ	d	dˁ		ض	plosive		ⵢⴰⴹ	yaḍ	U+2D39: TIFINAGH LETTER YADD	tifinagh
-ⴵ	-	d͡ʒ	dj	d͡ʒ	d	ʤ		ج	affricate	touareg/kabyle	ⵢⴰⴵ	yadj	U+2D35: TIFINAGH LETTER BERBER ACADEMY YAJ	tifinagh
-ⴶ	-	d͡ʒ	dj		d	ʤ̇		ج	affricate	touareg/kabyle	ⵢⴰⴶ	yadj	U+2D36: TIFINAGH LETTER YAJ	tifinagh
-ⴳ		ɡ	g	ɡ	g	g		گ	plosive		ⵢⴰⴳ	yag	U+2D33: TIFINAGH LETTER YAG	tifinagh
-														
-														
-ⴼ		f	f		f	f		ف	fricative		ⵢⴰⴼ	yaf	U+2D3C: TIFINAGH LETTER YAF	tifinagh
-ⵝ		θ	t	θ	Q	θ		ت	fricative	extended	ⵢⴰⵝ	yat fricative	U+2D5D: TIFINAGH LETTER YATH	tifinagh
-ⵙ		s	s		s	s		س	fricative		ⵢⴰⵙ	yas	U+2D59: TIFINAGH LETTER YAS	tifinagh
-ⵚ		sˁ	ṣ ts	sˁ ṣ ts	s	sˁ		ص	fricative		ⵢⴰⵚ	yaṣ	U+2D5A: TIFINAGH LETTER YASS	tifinagh
-ⵛ		ʃ	š sh	ʃ š sh	s	ʃ		ش	fricative		ⵢⴰⵛ	yaš	U+2D5B: TIFINAGH LETTER YASH	tifinagh
-ⴿ		x	k		c	x		ک	fricative	extended	ⵢⴰⴿ	yak fricative	U+2D3F: TIFINAGH LETTER YAKHH	tifinagh
-ⵅ		χ	x kh	χ	x	χ		خ	fricative		ⵢⴰⵅ	yax	U+2D45: TIFINAGH LETTER YAKH	tifinagh
-ⵆ	-	χ	kh x		x	χ̇		خ	fricative	touareg	ⵢⴰⵆ	yax	U+2D46: TIFINAGH LETTER TUAREG YAKH	tifinagh
-ⵃ		ħ	ḥ	ħ ḥ	h	ħ		ح	fricative		ⵢⴰⵃ	yaḥ	U+2D43: TIFINAGH LETTER YAHH	tifinagh
-ⵀ		h	h b		h	h		ھ ب	fricative		ⵢⴰⵀ	yah	U+2D40: TIFINAGH LETTER YAH	tifinagh
-ⵁ	-	h	h		h	ḣ		ھ	fricative	Berber Academy	ⵢⴰⵁ	yah	U+2D41: TIFINAGH LETTER BERBER ACADEMY YAH	tifinagh
-ⵂ	-	h	h		h	ḧ		ھ	fricative	touareg	ⵢⴰⵂ	yah	U+2D42: TIFINAGH LETTER TUAREG YAH	tifinagh
-														
-ⴲ		β	b	β	b	β		ٻ	fricative	extended	ⵢⴰⴲ	yab fricative	U+2D32: TIFINAGH LETTER YABH	tifinagh
-ⵠ		v	v		v	v		ۋ	fricative	foreign sound	ⵢⴰⵠ	yav	U+2D60: TIFINAGH LETTER YAV	tifinagh
-ⴸ		ð	d	ð	d	ð		ذ	fricative	extended	ⵢⴰⴸ	yad fricative	U+2D38: TIFINAGH LETTER YADH	tifinagh
-ⴺ		ðˁ	ḍ	ðˁ ḍ	d	ðˁ		ظ	fricative	extended	ⵢⴰⴺ	yaḍ fricative	U+2D3A: TIFINAGH LETTER YADDH	tifinagh
-ⵣ		z	z		z	z		ز	fricative		ⵢⴰⵣ	yaz	U+2D63: TIFINAGH LETTER YAZ	tifinagh
-ⵤ	-	z	z		z	ż		ز	fricative	tawellemet	ⵢⴰⵤ	yaz	U+2D64: TIFINAGH LETTER TAWELLEMET YAZ	tifinagh
-ⵥ		zˁ	ẓ dz	zˁ ẓ	z	zˁ		ژ	fricative		ⵢⴰⵥ	yaẓ	U+2D65: TIFINAGH LETTER YAZZ	tifinagh
-ⵊ		ʒ	j	ʒ	z	ʒ		ج	fricative		ⵢⴰⵊ	yaj	U+2D4A: TIFINAGH LETTER YAZH	tifinagh
-ⵋ	-	ʒ	j		z	ʒ̇		ج	fricative	ahaggar	ⵢⴰⵋ	yaj	U+2D4B: TIFINAGH LETTER AHAGGAR YAZH	tifinagh
-ⵌ	-	ʒ	ẓ dz		z	ʒ̈		ژ	fricative	touareg	ⵢⴰⵌ	yaj	U+2D4C: TIFINAGH LETTER TUAREG YAZH	tifinagh
-ⴴ		ʝ	g	ʝ	j	ʝ		ڲ	fricative	extended	ⵢⴰⴴ	yag fricative	U+2D34: TIFINAGH LETTER YAGHH	tifinagh
-ⵖ		ʁ ɣ	ɣ gh	ʁ ɣ	r	ʁ		غ	fricative		ⵢⴰⵖ	yaγ	U+2D56: TIFINAGH LETTER YAGH	tifinagh
-ⵗ	-	ʁ	gh γ		r	ʁ̇		غ	fricative	touareg	ⵢⴰⵗ	yay	U+2D57: TIFINAGH LETTER TUAREG YAGH	tifinagh
-ⵘ	-	ʁ	gh γ j		r	ʁ̈		غ ج	fricative	aïr	ⵢⴰⵘ	yaγ	U+2D58: TIFINAGH LETTER AYER YAGH	tifinagh
-ⵄ		ʕ	' ɛ	ʕ ' ɛ	{	ʕ		ع	fricative		ⵢⴰⵄ	yaε	U+2D44: TIFINAGH LETTER YAA	tifinagh
+ⴱ		b	b		b	b		ب	plosive		ⵢⴰⴱ	yab	U+2D31: TIFINAGH LETTER YAB	🗸
+ⴷ		d	d		d	d		د	plosive		ⵢⴰⴷ	yad	U+2D37: TIFINAGH LETTER YAD	🗸
+ⴹ		dˁ	ḍ	dˁ ḍ	d	dˁ		ض	plosive		ⵢⴰⴹ	yaḍ	U+2D39: TIFINAGH LETTER YADD	🗸
+ⴵ	-	d͡ʒ	dj	d͡ʒ	d	ʤ		ج	affricate	touareg/kabyle	ⵢⴰⴵ	yadj	U+2D35: TIFINAGH LETTER BERBER ACADEMY YAJ	🗸
+ⴶ	-	d͡ʒ	dj		d	ʤ̇		ج	affricate	touareg/kabyle	ⵢⴰⴶ	yadj	U+2D36: TIFINAGH LETTER YAJ	🗸
+ⴳ		ɡ	g	ɡ	g	g		گ	plosive		ⵢⴰⴳ	yag	U+2D33: TIFINAGH LETTER YAG	🗸
 														
 														
-ⵎ		m	m		m	m		م	nasal		ⵢⴰⵎ	yam	U+2D4E: TIFINAGH LETTER YAM	tifinagh
-ⵏ		n	n		n	n		ن	nasal		ⵢⴰⵏ	yan	U+2D4F: TIFINAGH LETTER YAN	tifinagh
-ⵐ	-	ɲ	ny	ɲ	n	ɲ		ني	nasal	touareg	ⵢⴰⵐ	yagn	U+2D50: TIFINAGH LETTER TUAREG YAGN	tifinagh
-ⵑ	-	ŋ	ng	ŋ	n	ŋ		ڭ	nasal	touareg	ⵢⴰⵑ	yang	U+2D51: TIFINAGH LETTER TUAREG YANG	tifinagh
+ⴼ		f	f		f	f		ف	fricative		ⵢⴰⴼ	yaf	U+2D3C: TIFINAGH LETTER YAF	🗸
+ⵝ		θ	t	θ	Q	θ		ت	fricative	extended	ⵢⴰⵝ	yat fricative	U+2D5D: TIFINAGH LETTER YATH	🗸
+ⵙ		s	s		s	s		س	fricative		ⵢⴰⵙ	yas	U+2D59: TIFINAGH LETTER YAS	🗸
+ⵚ		sˁ	ṣ ts	sˁ ṣ ts	s	sˁ		ص	fricative		ⵢⴰⵚ	yaṣ	U+2D5A: TIFINAGH LETTER YASS	🗸
+ⵛ		ʃ	š sh	ʃ š sh	s	ʃ		ش	fricative		ⵢⴰⵛ	yaš	U+2D5B: TIFINAGH LETTER YASH	🗸
+ⴿ		x	k		c	x		ک	fricative	extended	ⵢⴰⴿ	yak fricative	U+2D3F: TIFINAGH LETTER YAKHH	🗸
+ⵅ		χ	x kh	χ	x	χ		خ	fricative		ⵢⴰⵅ	yax	U+2D45: TIFINAGH LETTER YAKH	🗸
+ⵆ	-	χ	kh x		x	χ̇		خ	fricative	touareg	ⵢⴰⵆ	yax	U+2D46: TIFINAGH LETTER TUAREG YAKH	🗸
+ⵃ		ħ	ḥ	ħ ḥ	h	ħ		ح	fricative		ⵢⴰⵃ	yaḥ	U+2D43: TIFINAGH LETTER YAHH	🗸
+ⵀ		h	h b		h	h		ھ ب	fricative		ⵢⴰⵀ	yah	U+2D40: TIFINAGH LETTER YAH	🗸
+ⵁ	-	h	h		h	ḣ		ھ	fricative	Berber Academy	ⵢⴰⵁ	yah	U+2D41: TIFINAGH LETTER BERBER ACADEMY YAH	🗸
+ⵂ	-	h	h		h	ḧ		ھ	fricative	touareg	ⵢⴰⵂ	yah	U+2D42: TIFINAGH LETTER TUAREG YAH	🗸
+														
+ⴲ		β	b	β	b	β		ٻ	fricative	extended	ⵢⴰⴲ	yab fricative	U+2D32: TIFINAGH LETTER YABH	🗸
+ⵠ		v	v		v	v		ۋ	fricative	foreign sound	ⵢⴰⵠ	yav	U+2D60: TIFINAGH LETTER YAV	🗸
+ⴸ		ð	d	ð	d	ð		ذ	fricative	extended	ⵢⴰⴸ	yad fricative	U+2D38: TIFINAGH LETTER YADH	🗸
+ⴺ		ðˁ	ḍ	ðˁ ḍ	d	ðˁ		ظ	fricative	extended	ⵢⴰⴺ	yaḍ fricative	U+2D3A: TIFINAGH LETTER YADDH	🗸
+ⵣ		z	z		z	z		ز	fricative		ⵢⴰⵣ	yaz	U+2D63: TIFINAGH LETTER YAZ	🗸
+ⵤ	-	z	z		z	ż		ز	fricative	tawellemet	ⵢⴰⵤ	yaz	U+2D64: TIFINAGH LETTER TAWELLEMET YAZ	🗸
+ⵥ		zˁ	ẓ dz	zˁ ẓ	z	zˁ		ژ	fricative		ⵢⴰⵥ	yaẓ	U+2D65: TIFINAGH LETTER YAZZ	🗸
+ⵊ		ʒ	j	ʒ	z	ʒ		ج	fricative		ⵢⴰⵊ	yaj	U+2D4A: TIFINAGH LETTER YAZH	🗸
+ⵋ	-	ʒ	j		z	ʒ̇		ج	fricative	ahaggar	ⵢⴰⵋ	yaj	U+2D4B: TIFINAGH LETTER AHAGGAR YAZH	🗸
+ⵌ	-	ʒ	ẓ dz		z	ʒ̈		ژ	fricative	touareg	ⵢⴰⵌ	yaj	U+2D4C: TIFINAGH LETTER TUAREG YAZH	🗸
+ⴴ		ʝ	g	ʝ	j	ʝ		ڲ	fricative	extended	ⵢⴰⴴ	yag fricative	U+2D34: TIFINAGH LETTER YAGHH	🗸
+ⵖ		ʁ ɣ	ɣ gh	ʁ ɣ	r	ʁ		غ	fricative		ⵢⴰⵖ	yaγ	U+2D56: TIFINAGH LETTER YAGH	🗸
+ⵗ	-	ʁ	gh γ		r	ʁ̇		غ	fricative	touareg	ⵢⴰⵗ	yay	U+2D57: TIFINAGH LETTER TUAREG YAGH	🗸
+ⵘ	-	ʁ	gh γ j		r	ʁ̈		غ ج	fricative	aïr	ⵢⴰⵘ	yaγ	U+2D58: TIFINAGH LETTER AYER YAGH	🗸
+ⵄ		ʕ	' ɛ	ʕ ' ɛ	{	ʕ		ع	fricative		ⵢⴰⵄ	yaε	U+2D44: TIFINAGH LETTER YAA	🗸
 														
 														
-ⵡ		w	w		w	w		ۉ	approximant		ⵢⴰⵡ	yaw	U+2D61: TIFINAGH LETTER YAW	tifinagh
-ⵔ		r rˤ	r		r	r		ر	trill/flap		ⵢⴰⵔ	yar	U+2D54: TIFINAGH LETTER YAR	tifinagh
-ⵕ		rˤ	ṛ	rˤ	r	rˤ		ڕ	approximant		ⵢⴰⵕ	yaṛ	U+2D55: TIFINAGH LETTER YARR	tifinagh
-ⵍ		l ɫ	l	ɫ	l	l		ل	approximant		ⵢⴰⵍ	yal	U+2D4D: TIFINAGH LETTER YAL	tifinagh
-ⵢ		j	y		j	y		ي	approximant		ⵢⴰⵢ	yay	U+2D62: TIFINAGH LETTER YAY	tifinagh
+ⵎ		m	m		m	m		م	nasal		ⵢⴰⵎ	yam	U+2D4E: TIFINAGH LETTER YAM	🗸
+ⵏ		n	n		n	n		ن	nasal		ⵢⴰⵏ	yan	U+2D4F: TIFINAGH LETTER YAN	🗸
+ⵐ	-	ɲ	ny	ɲ	n	ɲ		ني	nasal	touareg	ⵢⴰⵐ	yagn	U+2D50: TIFINAGH LETTER TUAREG YAGN	🗸
+ⵑ	-	ŋ	ng	ŋ	n	ŋ		ڭ	nasal	touareg	ⵢⴰⵑ	yang	U+2D51: TIFINAGH LETTER TUAREG YANG	🗸
 														
 														
-														
-ⵉ		i	i	ɪ ɨ	i	i		ي	vowel		ⵢⵉ	yi	U+2D49: TIFINAGH LETTER YI	tifinagh
-ⵓ		u	u w	ʊ	u	ʊ		و ۉ	vowel		ⵢⵓ	yu	U+2D53: TIFINAGH LETTER YU	tifinagh
-														
-ⴻ		ə	e	ə	e	ə		ه	vowel		ⵢⴻⵢ	yey	U+2D3B: TIFINAGH LETTER YEY	tifinagh
-ⵦ	-	eː	e	eː	e	ė			vowel	touareg		ye	U+2D66: TIFINAGH LETTER YE	tifinagh
-ⵧ	-	oː	o	oː	o	o			vowel	touareg		yo	U+2D67: TIFINAGH LETTER YO	tifinagh
-														
-ⴰ		a	a	æ	a	a		ا‬	vowel		ⵢⴰ	ya	U+2D30: TIFINAGH LETTER YA	tifinagh
-														
-														
-ⵯ		ʷ	ʷ	ʷ	w	ʷ		ٗ	labiovelarisation mark		ⵜⴰⵎⴰⵜⴰⵔⵜ	tamatart	U+2D6F: TIFINAGH MODIFIER LETTER LABIALIZATION MARK	tifinagh
+ⵡ		w	w		w	w		ۉ	approximant		ⵢⴰⵡ	yaw	U+2D61: TIFINAGH LETTER YAW	🗸
+ⵔ		r rˤ	r		r	r		ر	trill/flap		ⵢⴰⵔ	yar	U+2D54: TIFINAGH LETTER YAR	🗸
+ⵕ		rˤ	ṛ	rˤ	r	rˤ		ڕ	approximant		ⵢⴰⵕ	yaṛ	U+2D55: TIFINAGH LETTER YARR	🗸
+ⵍ		l ɫ	l	ɫ	l	l		ل	approximant		ⵢⴰⵍ	yal	U+2D4D: TIFINAGH LETTER YAL	🗸
+ⵢ		j	y		j	y		ي	approximant		ⵢⴰⵢ	yay	U+2D62: TIFINAGH LETTER YAY	🗸
 														
 														
 														
-⵿	-				*	͓			consonant joiner	touareg			U+2D7F: TIFINAGH CONSONANT JOINER​	tifinagh
+ⵉ		i	i	ɪ ɨ	i	i		ي	vowel		ⵢⵉ	yi	U+2D49: TIFINAGH LETTER YI	🗸
+ⵓ		u	u w	ʊ	u	ʊ		و ۉ	vowel		ⵢⵓ	yu	U+2D53: TIFINAGH LETTER YU	🗸
+														
+ⴻ		ə	e	ə	e	ə		ه	vowel		ⵢⴻⵢ	yey	U+2D3B: TIFINAGH LETTER YEY	🗸
+ⵦ	-	eː	e	eː	e	ė			vowel	touareg		ye	U+2D66: TIFINAGH LETTER YE	🗸
+ⵧ	-	oː	o	oː	o	o			vowel	touareg		yo	U+2D67: TIFINAGH LETTER YO	🗸
+														
+ⴰ		a	a	æ	a	a		ا‬	vowel		ⵢⴰ	ya	U+2D30: TIFINAGH LETTER YA	🗸
+														
+														
+ⵯ		ʷ	ʷ	ʷ	w	ʷ		ٗ	labiovelarisation mark		ⵜⴰⵎⴰⵜⴰⵔⵜ	tamatart	U+2D6F: TIFINAGH MODIFIER LETTER LABIALIZATION MARK	🗸
+														
+														
+														
+⵿	-				*	͓			consonant joiner	touareg			U+2D7F: TIFINAGH CONSONANT JOINER​	🗸
 														
 														
 														
@@ -100,7 +100,7 @@ var spreadsheet = `
 														
 														
 														
-⵰	-		 • 		|	 ¶	.		phrase separator	west africa	ⵜⴰⵣⴰⵔⴰⵙⵜ	tazarast	U+2D70: TIFINAGH SEPARATOR MARK	tifinagh
+⵰	-		 • 		|	 ¶	.		phrase separator	west africa	ⵜⴰⵣⴰⵔⴰⵙⵜ	tazarast	U+2D70: TIFINAGH SEPARATOR MARK	🗸
 .			.		.	.			full stop				U+002E: FULL STOP	
 ,			,		,	,			comma				U+002C: COMMA	
 :			:		:	:			colon				U+003A: COLON	
@@ -167,7 +167,6 @@ var spreadsheet = `
 ‰					%	‰			per mille mark				U+2030: PER MILLE SIGN	
 
 
-
 `
 
 
@@ -184,6 +183,7 @@ var cols = {
 "transckey": 8,
 "typeLoc": 9,
 "statusLoc": 10,
+
 "dvowel": 0,
 "ivowel": 0,
 "subj":0,
@@ -194,6 +194,7 @@ var cols = {
 "meaning":0,
 "shape": 0,
 "numLoc": 0,
+
 "nameLoc": 11,
 "nnameLoc": 12,
 "ucsName": 13,

@@ -1,7 +1,7 @@
 var spreadsheet = `
-¡		latin-1 punctuation/symbol	letter	U+00A1: INVERTED EXCLAMATION MARK	latin
-¢		latin-1 punctuation/symbol	letter	U+00A2: CENT SIGN	latin
-£		latin-1 punctuation/symbol	letter	U+00A3: POUND SIGN	latin
+¡		latin-1 punctuation/symbol	letter	U+00A1: INVERTED EXCLAMATION MARK	
+¢		latin-1 punctuation/symbol	letter	U+00A2: CENT SIGN	
+£		latin-1 punctuation/symbol	letter	U+00A3: POUND SIGN	
 ¤		latin-1 punctuation/symbol	letter	U+00A4: CURRENCY SIGN	
 ¥		latin-1 punctuation/symbol	letter	U+00A5: YEN SIGN	
 ¦		latin-1 punctuation/symbol	letter	U+00A6: BROKEN BAR	
@@ -227,7 +227,7 @@ var spreadsheet = `
 					
 					
 ƀ		non-European/historic	letter	U+0180: LATIN SMALL LETTER B WITH STROKE	
-Ɓ		non-European/historic	letter	U+0181: LATIN CAPITAL LETTER B WITH HOOK	
+Ɓ		non-European/historic	letter	U+0181: LATIN CAPITAL LETTER B WITH HOOK	🗸
 Ƃ		non-European/historic	letter	U+0182: LATIN CAPITAL LETTER B WITH TOPBAR	
 ƃ		non-European/historic	letter	U+0183: LATIN SMALL LETTER B WITH TOPBAR	
 Ƅ		non-European/historic	letter	U+0184: LATIN CAPITAL LETTER TONE SIX	
@@ -236,7 +236,7 @@ var spreadsheet = `
 Ƈ		non-European/historic	letter	U+0187: LATIN CAPITAL LETTER C WITH HOOK	
 ƈ		non-European/historic	letter	U+0188: LATIN SMALL LETTER C WITH HOOK	
 Ɖ		non-European/historic	letter	U+0189: LATIN CAPITAL LETTER AFRICAN D	
-Ɗ		non-European/historic	letter	U+018A: LATIN CAPITAL LETTER D WITH HOOK	
+Ɗ		non-European/historic	letter	U+018A: LATIN CAPITAL LETTER D WITH HOOK	🗸
 Ƌ		non-European/historic	letter	U+018B: LATIN CAPITAL LETTER D WITH TOPBAR	
 ƌ		non-European/historic	letter	U+018C: LATIN SMALL LETTER D WITH TOPBAR	
 ƍ		non-European/historic	letter	U+018D: LATIN SMALL LETTER TURNED DELTA	
@@ -250,8 +250,8 @@ var spreadsheet = `
 ƕ		non-European/historic	letter	U+0195: LATIN SMALL LETTER HV	
 Ɩ		non-European/historic	letter	U+0196: LATIN CAPITAL LETTER IOTA	
 Ɨ		non-European/historic	letter	U+0197: LATIN CAPITAL LETTER I WITH STROKE	
-Ƙ		non-European/historic	letter	U+0198: LATIN CAPITAL LETTER K WITH HOOK	
-ƙ		non-European/historic	letter	U+0199: LATIN SMALL LETTER K WITH HOOK	
+Ƙ		non-European/historic	letter	U+0198: LATIN CAPITAL LETTER K WITH HOOK	🗸
+ƙ		non-European/historic	letter	U+0199: LATIN SMALL LETTER K WITH HOOK	🗸
 ƚ		non-European/historic	letter	U+019A: LATIN SMALL LETTER L WITH BAR	
 ƛ		non-European/historic	letter	U+019B: LATIN SMALL LETTER LAMBDA WITH STROKE	
 Ɯ		non-European/historic	letter	U+019C: LATIN CAPITAL LETTER TURNED M	
@@ -277,8 +277,8 @@ var spreadsheet = `
 ư		non-European/historic	letter	U+01B0: LATIN SMALL LETTER U WITH HORN	
 Ʊ		non-European/historic	letter	U+01B1: LATIN CAPITAL LETTER UPSILON	
 Ʋ		non-European/historic	letter	U+01B2: LATIN CAPITAL LETTER V WITH HOOK	
-Ƴ		non-European/historic	letter	U+01B3: LATIN CAPITAL LETTER Y WITH HOOK	
-ƴ		non-European/historic	letter	U+01B4: LATIN SMALL LETTER Y WITH HOOK	
+Ƴ		non-European/historic	letter	U+01B3: LATIN CAPITAL LETTER Y WITH HOOK	🗸
+ƴ		non-European/historic	letter	U+01B4: LATIN SMALL LETTER Y WITH HOOK	🗸
 Ƶ		non-European/historic	letter	U+01B5: LATIN CAPITAL LETTER Z WITH STROKE	
 ƶ		non-European/historic	letter	U+01B6: LATIN SMALL LETTER Z WITH STROKE	
 Ʒ		non-European/historic	letter	U+01B7: LATIN CAPITAL LETTER EZH	
@@ -1879,6 +1879,8 @@ var spreadsheet = `
 ⁭		punctuation	deprecated	U+206D: ACTIVATE ARABIC FORM SHAPING	
 ⁮		punctuation	deprecated	U+206E: NATIONAL DIGIT SHAPES	
 ⁯		punctuation	deprecated	U+206F: NOMINAL DIGIT SHAPES	
+
+
 
 
 

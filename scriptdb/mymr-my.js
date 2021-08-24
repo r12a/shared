@@ -208,6 +208,7 @@ var cols = {
 "meaning":0,
 "shape": 0,
 "numLoc": 0,
+
 "nnameLoc": 12,
 "nameLoc": 13,
 "ucsName": 14,

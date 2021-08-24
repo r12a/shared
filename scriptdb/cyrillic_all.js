@@ -1,11 +1,11 @@
 var spreadsheet = `
 Ѐ		capital letter	cyrillic extension	U+0400: CYRILLIC CAPITAL LETTER IE WITH GRAVE	
-Ё		capital letter	cyrillic extension	U+0401: CYRILLIC CAPITAL LETTER IO	
+Ё		capital letter	cyrillic extension	U+0401: CYRILLIC CAPITAL LETTER IO	🗸
 Ђ		capital letter	cyrillic extension	U+0402: CYRILLIC CAPITAL LETTER DJE	
 Ѓ		capital letter	cyrillic extension	U+0403: CYRILLIC CAPITAL LETTER GJE	
 Є		capital letter	cyrillic extension	U+0404: CYRILLIC CAPITAL LETTER UKRAINIAN IE	
-Ѕ		capital letter	cyrillic extension	U+0405: CYRILLIC CAPITAL LETTER DZE	
-І		capital letter	cyrillic extension	U+0406: CYRILLIC CAPITAL LETTER BYELORUSSIAN-UKRAINIAN I	
+Ѕ		capital letter	cyrillic extension	U+0405: CYRILLIC CAPITAL LETTER DZE	🗸
+І		capital letter	cyrillic extension	U+0406: CYRILLIC CAPITAL LETTER BYELORUSSIAN-UKRAINIAN I	🗸
 Ї		capital letter	cyrillic extension	U+0407: CYRILLIC CAPITAL LETTER YI	
 Ј		capital letter	cyrillic extension	U+0408: CYRILLIC CAPITAL LETTER JE	
 Љ		capital letter	cyrillic extension	U+0409: CYRILLIC CAPITAL LETTER LJE	
@@ -15,77 +15,77 @@ var spreadsheet = `
 Ѝ		capital letter	cyrillic extension	U+040D: CYRILLIC CAPITAL LETTER I WITH GRAVE	
 Ў		capital letter	cyrillic extension	U+040E: CYRILLIC CAPITAL LETTER SHORT U	
 Џ		capital letter	cyrillic extension	U+040F: CYRILLIC CAPITAL LETTER DZHE	
-А		capital letter	basic Russian alphabet	U+0410: CYRILLIC CAPITAL LETTER A	
-Б		capital letter	basic Russian alphabet	U+0411: CYRILLIC CAPITAL LETTER BE	
-В		capital letter	basic Russian alphabet	U+0412: CYRILLIC CAPITAL LETTER VE	
-Г		capital letter	basic Russian alphabet	U+0413: CYRILLIC CAPITAL LETTER GHE	
-Д		capital letter	basic Russian alphabet	U+0414: CYRILLIC CAPITAL LETTER DE	
-Е		capital letter	basic Russian alphabet	U+0415: CYRILLIC CAPITAL LETTER IE	
-Ж		capital letter	basic Russian alphabet	U+0416: CYRILLIC CAPITAL LETTER ZHE	
-З		capital letter	basic Russian alphabet	U+0417: CYRILLIC CAPITAL LETTER ZE	
-И		capital letter	basic Russian alphabet	U+0418: CYRILLIC CAPITAL LETTER I	
-Й		capital letter	basic Russian alphabet	U+0419: CYRILLIC CAPITAL LETTER SHORT I	
-К		capital letter	basic Russian alphabet	U+041A: CYRILLIC CAPITAL LETTER KA	
-Л		capital letter	basic Russian alphabet	U+041B: CYRILLIC CAPITAL LETTER EL	
-М		capital letter	basic Russian alphabet	U+041C: CYRILLIC CAPITAL LETTER EM	
-Н		capital letter	basic Russian alphabet	U+041D: CYRILLIC CAPITAL LETTER EN	
-О		capital letter	basic Russian alphabet	U+041E: CYRILLIC CAPITAL LETTER O	
-П		capital letter	basic Russian alphabet	U+041F: CYRILLIC CAPITAL LETTER PE	
-Р		capital letter	basic Russian alphabet	U+0420: CYRILLIC CAPITAL LETTER ER	
-С		capital letter	basic Russian alphabet	U+0421: CYRILLIC CAPITAL LETTER ES	
-Т		capital letter	basic Russian alphabet	U+0422: CYRILLIC CAPITAL LETTER TE	
-У		capital letter	basic Russian alphabet	U+0423: CYRILLIC CAPITAL LETTER U	
-Ф		capital letter	basic Russian alphabet	U+0424: CYRILLIC CAPITAL LETTER EF	
-Х		capital letter	basic Russian alphabet	U+0425: CYRILLIC CAPITAL LETTER HA	
-Ц		capital letter	basic Russian alphabet	U+0426: CYRILLIC CAPITAL LETTER TSE	
-Ч		capital letter	basic Russian alphabet	U+0427: CYRILLIC CAPITAL LETTER CHE	
-Ш		capital letter	basic Russian alphabet	U+0428: CYRILLIC CAPITAL LETTER SHA	
-Щ		capital letter	basic Russian alphabet	U+0429: CYRILLIC CAPITAL LETTER SHCHA	
-Ъ		capital letter	basic Russian alphabet	U+042A: CYRILLIC CAPITAL LETTER HARD SIGN	
-Ы		capital letter	basic Russian alphabet	U+042B: CYRILLIC CAPITAL LETTER YERU	
-Ь		capital letter	basic Russian alphabet	U+042C: CYRILLIC CAPITAL LETTER SOFT SIGN	
-Э		capital letter	basic Russian alphabet	U+042D: CYRILLIC CAPITAL LETTER E	
-Ю		capital letter	basic Russian alphabet	U+042E: CYRILLIC CAPITAL LETTER YU	
-Я		capital letter	basic Russian alphabet	U+042F: CYRILLIC CAPITAL LETTER YA	
-а		small letter	basic Russian alphabet	U+0430: CYRILLIC SMALL LETTER A	
-б		small letter	basic Russian alphabet	U+0431: CYRILLIC SMALL LETTER BE	
-в		small letter	basic Russian alphabet	U+0432: CYRILLIC SMALL LETTER VE	
-г		small letter	basic Russian alphabet	U+0433: CYRILLIC SMALL LETTER GHE	
-д		small letter	basic Russian alphabet	U+0434: CYRILLIC SMALL LETTER DE	
-е		small letter	basic Russian alphabet	U+0435: CYRILLIC SMALL LETTER IE	
-ж		small letter	basic Russian alphabet	U+0436: CYRILLIC SMALL LETTER ZHE	
-з		small letter	basic Russian alphabet	U+0437: CYRILLIC SMALL LETTER ZE	
-и		small letter	basic Russian alphabet	U+0438: CYRILLIC SMALL LETTER I	
-й		small letter	basic Russian alphabet	U+0439: CYRILLIC SMALL LETTER SHORT I	
-к		small letter	basic Russian alphabet	U+043A: CYRILLIC SMALL LETTER KA	
-л		small letter	basic Russian alphabet	U+043B: CYRILLIC SMALL LETTER EL	
-м		small letter	basic Russian alphabet	U+043C: CYRILLIC SMALL LETTER EM	
-н		small letter	basic Russian alphabet	U+043D: CYRILLIC SMALL LETTER EN	
-о		small letter	basic Russian alphabet	U+043E: CYRILLIC SMALL LETTER O	
-п		small letter	basic Russian alphabet	U+043F: CYRILLIC SMALL LETTER PE	
-р		small letter	basic Russian alphabet	U+0440: CYRILLIC SMALL LETTER ER	
-с		small letter	basic Russian alphabet	U+0441: CYRILLIC SMALL LETTER ES	
-т		small letter	basic Russian alphabet	U+0442: CYRILLIC SMALL LETTER TE	
-у		small letter	basic Russian alphabet	U+0443: CYRILLIC SMALL LETTER U	
-ф		small letter	basic Russian alphabet	U+0444: CYRILLIC SMALL LETTER EF	
-х		small letter	basic Russian alphabet	U+0445: CYRILLIC SMALL LETTER HA	
-ц		small letter	basic Russian alphabet	U+0446: CYRILLIC SMALL LETTER TSE	
-ч		small letter	basic Russian alphabet	U+0447: CYRILLIC SMALL LETTER CHE	
-ш		small letter	basic Russian alphabet	U+0448: CYRILLIC SMALL LETTER SHA	
-щ		small letter	basic Russian alphabet	U+0449: CYRILLIC SMALL LETTER SHCHA	
-ъ		small letter	basic Russian alphabet	U+044A: CYRILLIC SMALL LETTER HARD SIGN	
-ы		small letter	basic Russian alphabet	U+044B: CYRILLIC SMALL LETTER YERU	
-ь		small letter	basic Russian alphabet	U+044C: CYRILLIC SMALL LETTER SOFT SIGN	
-э		small letter	basic Russian alphabet	U+044D: CYRILLIC SMALL LETTER E	
-ю		small letter	basic Russian alphabet	U+044E: CYRILLIC SMALL LETTER YU	
-я		small letter	basic Russian alphabet	U+044F: CYRILLIC SMALL LETTER YA	
+А		capital letter	basic Russian alphabet	U+0410: CYRILLIC CAPITAL LETTER A	🗸
+Б		capital letter	basic Russian alphabet	U+0411: CYRILLIC CAPITAL LETTER BE	🗸
+В		capital letter	basic Russian alphabet	U+0412: CYRILLIC CAPITAL LETTER VE	🗸
+Г		capital letter	basic Russian alphabet	U+0413: CYRILLIC CAPITAL LETTER GHE	🗸
+Д		capital letter	basic Russian alphabet	U+0414: CYRILLIC CAPITAL LETTER DE	🗸
+Е		capital letter	basic Russian alphabet	U+0415: CYRILLIC CAPITAL LETTER IE	🗸
+Ж		capital letter	basic Russian alphabet	U+0416: CYRILLIC CAPITAL LETTER ZHE	🗸
+З		capital letter	basic Russian alphabet	U+0417: CYRILLIC CAPITAL LETTER ZE	🗸
+И		capital letter	basic Russian alphabet	U+0418: CYRILLIC CAPITAL LETTER I	🗸
+Й		capital letter	basic Russian alphabet	U+0419: CYRILLIC CAPITAL LETTER SHORT I	🗸
+К		capital letter	basic Russian alphabet	U+041A: CYRILLIC CAPITAL LETTER KA	🗸
+Л		capital letter	basic Russian alphabet	U+041B: CYRILLIC CAPITAL LETTER EL	🗸
+М		capital letter	basic Russian alphabet	U+041C: CYRILLIC CAPITAL LETTER EM	🗸
+Н		capital letter	basic Russian alphabet	U+041D: CYRILLIC CAPITAL LETTER EN	🗸
+О		capital letter	basic Russian alphabet	U+041E: CYRILLIC CAPITAL LETTER O	🗸
+П		capital letter	basic Russian alphabet	U+041F: CYRILLIC CAPITAL LETTER PE	🗸
+Р		capital letter	basic Russian alphabet	U+0420: CYRILLIC CAPITAL LETTER ER	🗸
+С		capital letter	basic Russian alphabet	U+0421: CYRILLIC CAPITAL LETTER ES	🗸
+Т		capital letter	basic Russian alphabet	U+0422: CYRILLIC CAPITAL LETTER TE	🗸
+У		capital letter	basic Russian alphabet	U+0423: CYRILLIC CAPITAL LETTER U	🗸
+Ф		capital letter	basic Russian alphabet	U+0424: CYRILLIC CAPITAL LETTER EF	🗸
+Х		capital letter	basic Russian alphabet	U+0425: CYRILLIC CAPITAL LETTER HA	🗸
+Ц		capital letter	basic Russian alphabet	U+0426: CYRILLIC CAPITAL LETTER TSE	🗸
+Ч		capital letter	basic Russian alphabet	U+0427: CYRILLIC CAPITAL LETTER CHE	🗸
+Ш		capital letter	basic Russian alphabet	U+0428: CYRILLIC CAPITAL LETTER SHA	🗸
+Щ		capital letter	basic Russian alphabet	U+0429: CYRILLIC CAPITAL LETTER SHCHA	🗸
+Ъ		capital letter	basic Russian alphabet	U+042A: CYRILLIC CAPITAL LETTER HARD SIGN	🗸
+Ы		capital letter	basic Russian alphabet	U+042B: CYRILLIC CAPITAL LETTER YERU	🗸
+Ь		capital letter	basic Russian alphabet	U+042C: CYRILLIC CAPITAL LETTER SOFT SIGN	🗸
+Э		capital letter	basic Russian alphabet	U+042D: CYRILLIC CAPITAL LETTER E	🗸
+Ю		capital letter	basic Russian alphabet	U+042E: CYRILLIC CAPITAL LETTER YU	🗸
+Я		capital letter	basic Russian alphabet	U+042F: CYRILLIC CAPITAL LETTER YA	🗸
+а		small letter	basic Russian alphabet	U+0430: CYRILLIC SMALL LETTER A	🗸
+б		small letter	basic Russian alphabet	U+0431: CYRILLIC SMALL LETTER BE	🗸
+в		small letter	basic Russian alphabet	U+0432: CYRILLIC SMALL LETTER VE	🗸
+г		small letter	basic Russian alphabet	U+0433: CYRILLIC SMALL LETTER GHE	🗸
+д		small letter	basic Russian alphabet	U+0434: CYRILLIC SMALL LETTER DE	🗸
+е		small letter	basic Russian alphabet	U+0435: CYRILLIC SMALL LETTER IE	🗸
+ж		small letter	basic Russian alphabet	U+0436: CYRILLIC SMALL LETTER ZHE	🗸
+з		small letter	basic Russian alphabet	U+0437: CYRILLIC SMALL LETTER ZE	🗸
+и		small letter	basic Russian alphabet	U+0438: CYRILLIC SMALL LETTER I	🗸
+й		small letter	basic Russian alphabet	U+0439: CYRILLIC SMALL LETTER SHORT I	🗸
+к		small letter	basic Russian alphabet	U+043A: CYRILLIC SMALL LETTER KA	🗸
+л		small letter	basic Russian alphabet	U+043B: CYRILLIC SMALL LETTER EL	🗸
+м		small letter	basic Russian alphabet	U+043C: CYRILLIC SMALL LETTER EM	🗸
+н		small letter	basic Russian alphabet	U+043D: CYRILLIC SMALL LETTER EN	🗸
+о		small letter	basic Russian alphabet	U+043E: CYRILLIC SMALL LETTER O	🗸
+п		small letter	basic Russian alphabet	U+043F: CYRILLIC SMALL LETTER PE	🗸
+р		small letter	basic Russian alphabet	U+0440: CYRILLIC SMALL LETTER ER	🗸
+с		small letter	basic Russian alphabet	U+0441: CYRILLIC SMALL LETTER ES	🗸
+т		small letter	basic Russian alphabet	U+0442: CYRILLIC SMALL LETTER TE	🗸
+у		small letter	basic Russian alphabet	U+0443: CYRILLIC SMALL LETTER U	🗸
+ф		small letter	basic Russian alphabet	U+0444: CYRILLIC SMALL LETTER EF	🗸
+х		small letter	basic Russian alphabet	U+0445: CYRILLIC SMALL LETTER HA	🗸
+ц		small letter	basic Russian alphabet	U+0446: CYRILLIC SMALL LETTER TSE	🗸
+ч		small letter	basic Russian alphabet	U+0447: CYRILLIC SMALL LETTER CHE	🗸
+ш		small letter	basic Russian alphabet	U+0448: CYRILLIC SMALL LETTER SHA	🗸
+щ		small letter	basic Russian alphabet	U+0449: CYRILLIC SMALL LETTER SHCHA	🗸
+ъ		small letter	basic Russian alphabet	U+044A: CYRILLIC SMALL LETTER HARD SIGN	🗸
+ы		small letter	basic Russian alphabet	U+044B: CYRILLIC SMALL LETTER YERU	🗸
+ь		small letter	basic Russian alphabet	U+044C: CYRILLIC SMALL LETTER SOFT SIGN	🗸
+э		small letter	basic Russian alphabet	U+044D: CYRILLIC SMALL LETTER E	🗸
+ю		small letter	basic Russian alphabet	U+044E: CYRILLIC SMALL LETTER YU	🗸
+я		small letter	basic Russian alphabet	U+044F: CYRILLIC SMALL LETTER YA	🗸
 ѐ		small letter	cyrillic extension	U+0450: CYRILLIC SMALL LETTER IE WITH GRAVE	
-ё		small letter	cyrillic extension	U+0451: CYRILLIC SMALL LETTER IO	
+ё		small letter	cyrillic extension	U+0451: CYRILLIC SMALL LETTER IO	🗸
 ђ		small letter	cyrillic extension	U+0452: CYRILLIC SMALL LETTER DJE	
 ѓ		small letter	cyrillic extension	U+0453: CYRILLIC SMALL LETTER GJE	
 є		small letter	cyrillic extension	U+0454: CYRILLIC SMALL LETTER UKRAINIAN IE	
-ѕ		small letter	cyrillic extension	U+0455: CYRILLIC SMALL LETTER DZE	
-і		small letter	cyrillic extension	U+0456: CYRILLIC SMALL LETTER BYELORUSSIAN-UKRAINIAN I	
+ѕ		small letter	cyrillic extension	U+0455: CYRILLIC SMALL LETTER DZE	🗸
+і		small letter	cyrillic extension	U+0456: CYRILLIC SMALL LETTER BYELORUSSIAN-UKRAINIAN I	🗸
 ї		small letter	cyrillic extension	U+0457: CYRILLIC SMALL LETTER YI	
 ј		small letter	cyrillic extension	U+0458: CYRILLIC SMALL LETTER JE	
 љ		small letter	cyrillic extension	U+0459: CYRILLIC SMALL LETTER LJE	
@@ -97,26 +97,26 @@ var spreadsheet = `
 џ		small letter	cyrillic extension	U+045F: CYRILLIC SMALL LETTER DZHE	
 Ѡ		capital letter	historic	U+0460: CYRILLIC CAPITAL LETTER OMEGA	
 ѡ		small letter	historic	U+0461: CYRILLIC SMALL LETTER OMEGA	
-Ѣ		capital letter	historic	U+0462: CYRILLIC CAPITAL LETTER YAT	
-ѣ		small letter	historic	U+0463: CYRILLIC SMALL LETTER YAT	
+Ѣ		capital letter	historic	U+0462: CYRILLIC CAPITAL LETTER YAT	🗸
+ѣ		small letter	historic	U+0463: CYRILLIC SMALL LETTER YAT	🗸
 Ѥ		capital letter	historic	U+0464: CYRILLIC CAPITAL LETTER IOTIFIED E	
 ѥ		small letter	historic	U+0465: CYRILLIC SMALL LETTER IOTIFIED E	
-Ѧ		capital letter	historic	U+0466: CYRILLIC CAPITAL LETTER LITTLE YUS	
-ѧ		small letter	historic	U+0467: CYRILLIC SMALL LETTER LITTLE YUS	
-Ѩ		capital letter	historic	U+0468: CYRILLIC CAPITAL LETTER IOTIFIED LITTLE YUS	
-ѩ		small letter	historic	U+0469: CYRILLIC SMALL LETTER IOTIFIED LITTLE YUS	
-Ѫ		capital letter	historic	U+046A: CYRILLIC CAPITAL LETTER BIG YUS	
-ѫ		small letter	historic	U+046B: CYRILLIC SMALL LETTER BIG YUS	
-Ѭ		capital letter	historic	U+046C: CYRILLIC CAPITAL LETTER IOTIFIED BIG YUS	
-ѭ		small letter	historic	U+046D: CYRILLIC SMALL LETTER IOTIFIED BIG YUS	
-Ѯ		capital letter	historic	U+046E: CYRILLIC CAPITAL LETTER KSI	
-ѯ		small letter	historic	U+046F: CYRILLIC SMALL LETTER KSI	
-Ѱ		capital letter	historic	U+0470: CYRILLIC CAPITAL LETTER PSI	
-ѱ		small letter	historic	U+0471: CYRILLIC SMALL LETTER PSI	
-Ѳ		capital letter	historic	U+0472: CYRILLIC CAPITAL LETTER FITA	
-ѳ		small letter	historic	U+0473: CYRILLIC SMALL LETTER FITA	
-Ѵ		capital letter	historic	U+0474: CYRILLIC CAPITAL LETTER IZHITSA	
-ѵ		small letter	historic	U+0475: CYRILLIC SMALL LETTER IZHITSA	
+Ѧ		capital letter	historic	U+0466: CYRILLIC CAPITAL LETTER LITTLE YUS	🗸
+ѧ		small letter	historic	U+0467: CYRILLIC SMALL LETTER LITTLE YUS	🗸
+Ѩ		capital letter	historic	U+0468: CYRILLIC CAPITAL LETTER IOTIFIED LITTLE YUS	🗸
+ѩ		small letter	historic	U+0469: CYRILLIC SMALL LETTER IOTIFIED LITTLE YUS	🗸
+Ѫ		capital letter	historic	U+046A: CYRILLIC CAPITAL LETTER BIG YUS	🗸
+ѫ		small letter	historic	U+046B: CYRILLIC SMALL LETTER BIG YUS	🗸
+Ѭ		capital letter	historic	U+046C: CYRILLIC CAPITAL LETTER IOTIFIED BIG YUS	🗸
+ѭ		small letter	historic	U+046D: CYRILLIC SMALL LETTER IOTIFIED BIG YUS	🗸
+Ѯ		capital letter	historic	U+046E: CYRILLIC CAPITAL LETTER KSI	🗸
+ѯ		small letter	historic	U+046F: CYRILLIC SMALL LETTER KSI	🗸
+Ѱ		capital letter	historic	U+0470: CYRILLIC CAPITAL LETTER PSI	🗸
+ѱ		small letter	historic	U+0471: CYRILLIC SMALL LETTER PSI	🗸
+Ѳ		capital letter	historic	U+0472: CYRILLIC CAPITAL LETTER FITA	🗸
+ѳ		small letter	historic	U+0473: CYRILLIC SMALL LETTER FITA	🗸
+Ѵ		capital letter	historic	U+0474: CYRILLIC CAPITAL LETTER IZHITSA	🗸
+ѵ		small letter	historic	U+0475: CYRILLIC SMALL LETTER IZHITSA	🗸
 Ѷ		capital letter	historic	U+0476: CYRILLIC CAPITAL LETTER IZHITSA WITH DOUBLE GRAVE ACCENT	
 ѷ		small letter	historic	U+0477: CYRILLIC SMALL LETTER IZHITSA WITH DOUBLE GRAVE ACCENT	
 Ѹ		capital digraph	historic	U+0478: CYRILLIC CAPITAL LETTER UK	
@@ -174,7 +174,7 @@ var spreadsheet = `
 Ҭ		capital letter	extended Cyrillic	U+04AC: CYRILLIC CAPITAL LETTER TE WITH DESCENDER	
 ҭ		small letter	extended Cyrillic	U+04AD: CYRILLIC SMALL LETTER TE WITH DESCENDER	
 Ү		capital letter	extended Cyrillic	U+04AE: CYRILLIC CAPITAL LETTER STRAIGHT U	
-ү		small letter	extended Cyrillic	U+04AF: CYRILLIC SMALL LETTER STRAIGHT U	
+ү		small letter	extended Cyrillic	U+04AF: CYRILLIC SMALL LETTER STRAIGHT U	🗸
 Ұ		capital letter	extended Cyrillic	U+04B0: CYRILLIC CAPITAL LETTER STRAIGHT U WITH STROKE	
 ұ		small letter	extended Cyrillic	U+04B1: CYRILLIC SMALL LETTER STRAIGHT U WITH STROKE	
 Ҳ		capital letter	extended Cyrillic	U+04B2: CYRILLIC CAPITAL LETTER HA WITH DESCENDER	
@@ -232,7 +232,7 @@ var spreadsheet = `
 Ӧ		capital letter	extended Cyrillic	U+04E6: CYRILLIC CAPITAL LETTER O WITH DIAERESIS	
 ӧ		small letter	extended Cyrillic	U+04E7: CYRILLIC SMALL LETTER O WITH DIAERESIS	
 Ө		capital letter	extended Cyrillic	U+04E8: CYRILLIC CAPITAL LETTER BARRED O	
-ө		small letter	extended Cyrillic	U+04E9: CYRILLIC SMALL LETTER BARRED O	
+ө		small letter	extended Cyrillic	U+04E9: CYRILLIC SMALL LETTER BARRED O	🗸
 Ӫ		capital letter	extended Cyrillic	U+04EA: CYRILLIC CAPITAL LETTER BARRED O WITH DIAERESIS	
 ӫ		small letter	extended Cyrillic	U+04EB: CYRILLIC SMALL LETTER BARRED O WITH DIAERESIS	
 Ӭ		capital letter	extended Cyrillic	U+04EC: CYRILLIC CAPITAL LETTER E WITH DIAERESIS	
@@ -448,7 +448,6 @@ var spreadsheet = `
 ᲆ		small letter variant	historic	U+1C86: CYRILLIC SMALL LETTER TALL HARD SIGN	
 ᲇ		small letter variant	historic	U+1C87: CYRILLIC SMALL LETTER TALL YAT	
 ᲈ		small letter variant	historic	U+1C88: CYRILLIC SMALL LETTER UNBLENDED UK	
-
 
 
 `
