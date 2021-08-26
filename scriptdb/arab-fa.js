@@ -193,6 +193,9 @@ var spreadsheet = `
 														
 ٰ						–	V						U+0670: ARABIC LETTER SUPERSCRIPT ALEF​	🗸														
 
+\u0020					\u0020			space					U+0020: SPACE	
+\u200B					\u0020			zero-width space					U+200B: ZERO WIDTH SPACE	
+\u2003					\u0020			em space					U+2003: EM SPACE	
 
 
 

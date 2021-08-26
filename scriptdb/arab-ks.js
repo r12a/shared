@@ -75,14 +75,12 @@ var spreadsheet = `
 															
 اێ	s	e	e			ạ̄e		initial vowel						U+0627 U+06CE: ARABIC LETTER ALEF, LETTER YEH WITH SMALL V	
 یٚ	s	e	e		e¶			medial vowel			یٚ یٚیٚیٚ			U+06CC U+065A: ARABIC LETTER FARSI YEH, VOWEL SIGN SMALL V ABOVE	
-ێ		e	e		e¶	e		precomposed vowel for Kurdish	use decomposed sequence		ێ ێێێ			U+06CE: ARABIC LETTER YEH WITH SMALL V	🗸
 ٚے	s	e	e			ᵉē		final vowel						U+065A U+06D2: ARABIC VOWEL SIGN SMALL V ABOVE, LETTER YEH BARREE​	
 ٚ			e	ᵉ		ᵉ		vowel diacritic						U+065A: ARABIC VOWEL SIGN SMALL V ABOVE​	🗸
 ای	s	eː	ē	eː ē		ạ̄y		initial vowel						U+0627 U+06CC: ARABIC LETTER ALEF, LETTER FARSI YEH	
 ے		eː	ē y		e	ē		final vowel			ے ـے	یے	jeː	U+06D2: ARABIC LETTER YEH BARREE	🗸
 اۆ	s	o	o			ạ̄o		initial vowel						U+0627 U+06C6: ARABIC LETTER ALEF, LETTER OE	
 وٚ	s	o	o		o	wᵉ		vowel			ۆ ـۆ			U+0648 U+065A: ARABIC LETTER WAW, VOWEL SIGN SMALL V ABOVE	
-ۆ	f	o	o		o	o		precomposed vowel for Uighur, Kurdish, Kazakh, Azerbaijani, Bosnian	use decomposed sequence		ۆ ـۆ			U+06C6: ARABIC LETTER OE	🗸
 او	s	oː	ō	oː		ạ̄w		initial vowel						U+0627 U+0648: ARABIC LETTER ALEF, LETTER WAW	
 															
 اۄ	s	ɔ	ɔ	ɔ		ạ̄ɔ		initial vowel						U+0627 U+06C4: ARABIC LETTER ALEF, LETTER WAW WITH RING	
@@ -96,9 +94,6 @@ var spreadsheet = `
 ؤ	dc	wə			w	u͑		precomposed CV sequence		\u{648}\u{654}	ؤ ـؤ			U+0624: ARABIC LETTER WAW WITH HAMZA ABOVE	🗸
 ۓ	dc	?			e	ɛ͑		precomposed CV sequence		\u{6D2}\u{654}	ۓ ـۓ			U+06D3: ARABIC LETTER YEH BARREE WITH HAMZA ABOVE	🗸
 ۂ	dc	hə				h͑		precomposed CV sequence		\u{6C1}\u{654}	ۂ ـۂ			U+06C2: ARABIC LETTER HEH GOAL WITH HAMZA ABOVE	🗸
-ځ	x	hə				ħ͑		precomposed Pashto character	use decomposed sequence	حٔ	ځ ځځځ			U+0681: ARABIC LETTER HAH WITH HAMZA ABOVE	🗸
-ݬ	x	rə				r͑		precomposed Ormuri character	use decomposed sequence	رٔ	ݬ ـݬ			U+076C: ARABIC LETTER REH WITH HAMZA ABOVE	🗸
-ࢡ	x	bə				b͑		precomposed Fulfulde character	use decomposed sequence	بٔ	ࢡ ࢡࢡࢡ			U+08A1: ARABIC LETTER BEH WITH HAMZA ABOVE	🗸
 															
 اَ	s	a	a			ạ̄a		initial vowel						U+0627 U+064E: ARABIC LETTER ALEF, FATHA	
 َ		a	a		a	a		medial/final vowel						U+064E: ARABIC FATHA​	🗸
@@ -107,6 +102,19 @@ var spreadsheet = `
 ٓ	o				[	˜		vowel diacritic	used in decomposed text with آ					U+0653: ARABIC MADDAH ABOVE​	🗸
 															
 ع		ʔ ∅	ʿ	ʿ ʔ	}	ʔ		plosive			ع ععع	عٲن	'əːn	U+0639: ARABIC LETTER AIN	🗸
+															
+															
+															
+															
+ࢡ						b͇		Fulfulde character	do not use !	بٔ				U+08A1: ARABIC LETTER BEH WITH HAMZA ABOVE	🗸
+ݬ						r͇		Ormuri character	do not use !	رٔ				U+076C: ARABIC LETTER REH WITH HAMZA ABOVE	🗸
+ځ						ħ͇		Pashto character	do not use !	حٔ				U+0681: ARABIC LETTER HAH WITH HAMZA ABOVE	🗸
+ۆ						o͇		vowel for Uighur, Kurdish, Kazakh, Azerbaijani, Bosnian	do not use !	وٚ				U+06C6: ARABIC LETTER OE	🗸
+ێ						e͇		vowel for Kurdish	do not use !	یٚ				U+06CE: ARABIC LETTER YEH WITH SMALL V	🗸
+															
+															
+															
+															
 															
 															
 															
