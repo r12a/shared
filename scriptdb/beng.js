@@ -117,7 +117,7 @@ var spreadsheet = `
 																	
 																	
 ়			ˑ	[		]		consonant extender						nukta	U+09BC: BENGALI SIGN NUKTA​	🗸	
-্			͓	*		d		virama					হসন্ত	hɔʃonto	U+09CD: BENGALI SIGN VIRAMA​	🗸	
+্			͓	§		d		virama					হসন্ত	hɔʃonto	U+09CD: BENGALI SIGN VIRAMA​	🗸	
 																	
 																	
 																	
