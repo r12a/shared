@@ -7,6 +7,9 @@ var spreadsheet = `
 ۆ								vowel					U+06C6: ARABIC LETTER OE	🗸
 ۊ													U+06CA: ARABIC LETTER WAW WITH TWO DOTS ABOVE	🗸
 ێ								vowel					U+06CE: ARABIC LETTER YEH WITH SMALL V	🗸
+ࢬ								vowel	Rohingya				U+08AC: ARABIC LETTER ROHINGYA YEH	🗸
+م								consonant					U+0645: ARABIC LETTER MEEM	🗸
+ݪ								consonant					U+076A: ARABIC LETTER LAM WITH BAR	🗸
 														
 ڽ		ɲ						nasal		ڽڽڽ ڽ			U+06BD: ARABIC LETTER NOON WITH THREE DOTS ABOVE	🗸
 														
@@ -16,6 +19,16 @@ var spreadsheet = `
 و								approximant/mater lectionis					U+0648: ARABIC LETTER WAW	🗸
 ڒ		ɾ						flap	variant				U+0692: ARABIC LETTER REH WITH SMALL V	🗸
 ڔ								consonant	variant				U+0694: ARABIC LETTER REH WITH DOT BELOW	🗸
+ٵ								letter with high hamza	deprecated				U+0675: ARABIC LETTER HIGH HAMZA ALEF	🗸
+ٶ								letter with high hamza	deprecated				U+0676: ARABIC LETTER HIGH HAMZA WAW	🗸
+ٸ								letter with high hamza	deprecated				U+0678: ARABIC LETTER HIGH HAMZA YEH	🗸
+														
+؞								punctuation					U+061E: ARABIC TRIPLE DOT PUNCTUATION MARK	🗸
+؅								punctuation					U+0605: ARABIC NUMBER MARK ABOVE	🗸
+														
+؋								currency symbol					U+060B: AFGHANI SIGN	🗸
+۝								number sign					U+06DD: ARABIC END OF AYAH	🗸
+࣢								number sign					U+08E2: ARABIC DISPUTED END OF AYAH	🗸
 
 
 
