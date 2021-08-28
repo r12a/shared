@@ -263,7 +263,7 @@ var spreadsheet = `
 															
 ٬					#	‛		thousands separator						U+066C: ARABIC THOUSANDS SEPARATOR	🗸
 ٫					#	·		decimal separator						U+066B: ARABIC DECIMAL SEPARATOR	🗸
-					#	/		date separator							
+؍					#	/		date separator						U+060D: ARABIC DATE SEPARATOR	🗸
 ؁					#	/		calendar indicator					sənh	U+0601: ARABIC SIGN SANAH	🗸
 ؄					#	/		era marker						U+0604: ARABIC SIGN SAMVAT	🗸
 					#	¤		currency symbol							
