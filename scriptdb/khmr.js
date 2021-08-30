@@ -1,90 +1,90 @@
 var spreadsheet = `
-ត		t ᵃ ɗ- t- -t	t	ᵃ ɗ	t	t	t	a-series consonant				ត ្ត		tɑː	U+178F: KHMER LETTER TA	khmer
-ច		c ᵃ -c	ch		c	c	c	a-series consonant				ច ្ច		cɑː	U+1785: KHMER LETTER CA	khmer
-ក		k ᵃ kʰ- -k	k	kʰ	k	k	k	a-series consonant				ក ្ក		kɑː	U+1780: KHMER LETTER KA	khmer
+ត		t ᵃ ɗ- t- -t	t	ᵃ ɗ	t	t	t	a-series consonant				ត ្ត		tɑː	U+178F: KHMER LETTER TA	🗸
+ច		c ᵃ -c	ch		c	c	c	a-series consonant				ច ្ច		cɑː	U+1785: KHMER LETTER CA	🗸
+ក		k ᵃ kʰ- -k	k	kʰ	k	k	k	a-series consonant				ក ្ក		kɑː	U+1780: KHMER LETTER KA	🗸
 																
-ព		p ᵒ -p	p	ᵒ	p	p̱	B	o-series consonant				ព ្ព		pɔː	U+1796: KHMER LETTER PO	khmer
-ទ		t ᵒ -t	t		t	ṯ	T	o-series consonant				ទ ្ទ		tɔː	U+1791: KHMER LETTER TO	khmer
-ជ		c ᵒ -c	ch		c	c̱	C	o-series consonant				ជ ្ជ		cɔː	U+1787: KHMER LETTER CO	khmer
-គ		k ᵒ kʰ- -k	k		k	ḵ	K	o-series consonant				គ ្គ		kɔː	U+1782: KHMER LETTER KO	khmer
+ព		p ᵒ -p	p	ᵒ	p	p̱	B	o-series consonant				ព ្ព		pɔː	U+1796: KHMER LETTER PO	🗸
+ទ		t ᵒ -t	t		t	ṯ	T	o-series consonant				ទ ្ទ		tɔː	U+1791: KHMER LETTER TO	🗸
+ជ		c ᵒ -c	ch		c	c̱	C	o-series consonant				ជ ្ជ		cɔː	U+1787: KHMER LETTER CO	🗸
+គ		k ᵒ kʰ- -k	k		k	ḵ	K	o-series consonant				គ ្គ		kɔː	U+1782: KHMER LETTER KO	🗸
 																
-ផ		pʰ ᵃ p- -p	ph	pʰ	p	pʰ	p	a-series consonant				ផ ្ផ*		pʰɑː	U+1795: KHMER LETTER PHA	khmer
-ថ		tʰ ᵃ t- -t	th	tʰ	t	tʰ	f	a-series consonant				ថ ្ថ		tʰɑː	U+1790: KHMER LETTER THA	khmer
-ឋ		tʰ ᵃ t- -t	th		t	ṫʰ	z	a-series consonant				ឋ ្ឋ*		tʰɑː	U+178B: KHMER LETTER TTHA	khmer
-ឆ		cʰ ᵃ	chh		C	cʰ	q	a-series consonant				ឆ ្ឆ*		cʰɑː	U+1786: KHMER LETTER CHA	khmer
-ខ		kʰ ᵃ k- -k	kh		K	kʰ	x	a-series consonant				ខ ្ខ		kʰɑː	U+1781: KHMER LETTER KHA	khmer
+ផ		pʰ ᵃ p- -p	ph	pʰ	p	pʰ	p	a-series consonant				ផ ្ផ*		pʰɑː	U+1795: KHMER LETTER PHA	🗸
+ថ		tʰ ᵃ t- -t	th	tʰ	t	tʰ	f	a-series consonant				ថ ្ថ		tʰɑː	U+1790: KHMER LETTER THA	🗸
+ឋ		tʰ ᵃ t- -t	th		t	ṫʰ	z	a-series consonant				ឋ ្ឋ*		tʰɑː	U+178B: KHMER LETTER TTHA	🗸
+ឆ		cʰ ᵃ	chh		C	cʰ	q	a-series consonant				ឆ ្ឆ*		cʰɑː	U+1786: KHMER LETTER CHA	🗸
+ខ		kʰ ᵃ k- -k	kh		K	kʰ	x	a-series consonant				ខ ្ខ		kʰɑː	U+1781: KHMER LETTER KHA	🗸
 																
-ភ		pʰ ᵒ p- -p	ph		p	p̱ʰ	P	o-series consonant				ភ ្ភ		pʰɔː	U+1797: KHMER LETTER PHO	khmer
-ធ		tʰ ᵒ t- -t	th		t	ṯʰ	F	o-series consonant				ធ ្ធ*		tʰɔː	U+1792: KHMER LETTER THO	khmer
-ឍ		tʰ ᵒ -t	th		t	ṯ̇ʰ	Z	o-series consonant	rare			ឍ ្ឍ*		tʰɔː	U+178D: KHMER LETTER TTHO	khmer
-ឈ		cʰ ᵒ	chh		C	c̱ʰ	Q	o-series consonant				ឈ ្ឈ*		cʰɔː	U+1788: KHMER LETTER CHO	khmer
-ឃ		kʰ ᵒ k- -k	kh		K	ḵʰ	X	o-series consonant				ឃ ្ឃ*		kʰɔː	U+1783: KHMER LETTER KHO	khmer
+ភ		pʰ ᵒ p- -p	ph		p	p̱ʰ	P	o-series consonant				ភ ្ភ		pʰɔː	U+1797: KHMER LETTER PHO	🗸
+ធ		tʰ ᵒ t- -t	th		t	ṯʰ	F	o-series consonant				ធ ្ធ*		tʰɔː	U+1792: KHMER LETTER THO	🗸
+ឍ		tʰ ᵒ -t	th		t	ṯ̇ʰ	Z	o-series consonant	rare			ឍ ្ឍ*		tʰɔː	U+178D: KHMER LETTER TTHO	🗸
+ឈ		cʰ ᵒ	chh		C	c̱ʰ	Q	o-series consonant				ឈ ្ឈ*		cʰɔː	U+1788: KHMER LETTER CHO	🗸
+ឃ		kʰ ᵒ k- -k	kh		K	ḵʰ	X	o-series consonant				ឃ ្ឃ*		kʰɔː	U+1783: KHMER LETTER KHO	🗸
 																
-ប		ɓ ᵃ p- -p	b	ɓ	b	b	b	a-series consonant				ប ្ប		ɓɑː	U+1794: KHMER LETTER BA	khmer
-ដ		ɗ ᵃ -t	d		d	ɗ	d	a-series consonant				ដ ្ដ		ɗɑː	U+178A: KHMER LETTER DA	khmer
-ឌ		ɗ ᵒ -t	d		d	ɗ̱	D	o-series consonant	rare			ឌ ្ឌ*		ɗɔː	U+178C: KHMER LETTER DO	khmer
+ប		ɓ ᵃ p- -p	b	ɓ	b	b	b	a-series consonant				ប ្ប		ɓɑː	U+1794: KHMER LETTER BA	🗸
+ដ		ɗ ᵃ -t	d		d	ɗ	d	a-series consonant				ដ ្ដ		ɗɑː	U+178A: KHMER LETTER DA	🗸
+ឌ		ɗ ᵒ -t	d		d	ɗ̱	D	o-series consonant	rare			ឌ ្ឌ*		ɗɔː	U+178C: KHMER LETTER DO	🗸
 																
-ម		m ᵒ -m	m		m	m̱	m	o-series consonant				ម ្ម		mɔː	U+1798: KHMER LETTER MO	khmer
-ណ		n ᵃ -n	n		n	n	N	a-series consonant				ណ ្ណ*		nɑː	U+178E: KHMER LETTER NNO	khmer
-ន		n ᵒ -n	n		n	ṉ	n	o-series consonant				ន ្ន		nɔː	U+1793: KHMER LETTER NO	khmer
-ញ		ɲ ᵒ -ɲ	nh	ɲ	n	ɲ	J	o-series consonant				ញ ្ញ		ɲɔː	U+1789: KHMER LETTER NYO	khmer
-ង		ŋ ᵒ -ŋ	ng	ŋ	N	ŋ	g	o-series consonant				ង ្ង		ŋɔː	U+1784: KHMER LETTER NGO	khmer
+ម		m ᵒ -m	m		m	m̱	m	o-series consonant				ម ្ម		mɔː	U+1798: KHMER LETTER MO	🗸
+ណ		n ᵃ -n	n		n	n	N	a-series consonant				ណ ្ណ*		nɑː	U+178E: KHMER LETTER NNO	🗸
+ន		n ᵒ -n	n		n	ṉ	n	o-series consonant				ន ្ន		nɔː	U+1793: KHMER LETTER NO	🗸
+ញ		ɲ ᵒ -ɲ	nh	ɲ	n	ɲ	J	o-series consonant				ញ ្ញ		ɲɔː	U+1789: KHMER LETTER NYO	🗸
+ង		ŋ ᵒ -ŋ	ng	ŋ	N	ŋ	g	o-series consonant				ង ្ង		ŋɔː	U+1784: KHMER LETTER NGO	🗸
 																
-វ		ʋ ᵒ -w	v	ʋ	v	v̱	v	o-series consonant				វ ្វ		ʋɔː	U+179C: KHMER LETTER VO	khmer
-ស		s ᵃ s- -h	s		s	s	s	a-series consonant				ស ្ស		sɑː	U+179F: KHMER LETTER SA	khmer
-ហ		h ᵃ ∅-	h	∅	h	h	h	a-series consonant				ហ ្ហ		hɑː	U+17A0: KHMER LETTER HA	khmer
+វ		ʋ ᵒ -w	v	ʋ	v	v̱	v	o-series consonant				វ ្វ		ʋɔː	U+179C: KHMER LETTER VO	🗸
+ស		s ᵃ s- -h	s		s	s	s	a-series consonant				ស ្ស		sɑː	U+179F: KHMER LETTER SA	🗸
+ហ		h ᵃ ∅-	h	∅	h	h	h	a-series consonant				ហ ្ហ		hɑː	U+17A0: KHMER LETTER HA	🗸
 																
-រ		r ᵒ -∅	r		r	ṟ	r	o-series consonant				រ ្រ		rɔː	U+179A: KHMER LETTER RO	khmer
-ឡ		l ᵃ	l		l	l	L	a-series consonant				ឡ ្ឡ**		lɑː	U+17A1: KHMER LETTER LA	khmer
-ល		l ᵒ -l	l		l	ḻ	l	o-series consonant				ល ្ល		lɔː	U+179B: KHMER LETTER LO	khmer
-យ		j ᵒ -iː	y	iː	y	y̱	y	o-series consonant				យ ្យ		jɔː	U+1799: KHMER LETTER YO	khmer
+រ		r ᵒ -∅	r		r	ṟ	r	o-series consonant				រ ្រ		rɔː	U+179A: KHMER LETTER RO	🗸
+ឡ		l ᵃ	l		l	l	L	a-series consonant				ឡ ្ឡ**		lɑː	U+17A1: KHMER LETTER LA	🗸
+ល		l ᵒ -l	l		l	ḻ	l	o-series consonant				ល ្ល		lɔː	U+179B: KHMER LETTER LO	🗸
+យ		j ᵒ -iː	y	iː	y	y̱	y	o-series consonant				យ ្យ		jɔː	U+1799: KHMER LETTER YO	🗸
 																
-អ		ʔ ᵃ	’	ʔ	}	ʔ	G	a-series consonant				អ ្អ		ʔɑː	U+17A2: KHMER LETTER QA	khmer
-																
-																
-ំ		m	ṃ	ṃ	m	m̽	M	anusvara					និគ្គហិត	nikkɔːhet	U+17C6: KHMER SIGN NIKAHIT​	khmer
-ះ		h	ḥ	ḥ	h	h̽	H	visarga					រះមុខ	reə̆hmuk	U+17C7: KHMER SIGN REAHMUK​	khmer
+អ		ʔ ᵃ	’	ʔ	}	ʔ	G	a-series consonant				អ ្អ		ʔɑː	U+17A2: KHMER LETTER QA	🗸
 																
 																
-ឝ	x	ɕ		ɕ	c	ɕ	s	consonant	obsolete						U+179D: KHMER LETTER SHA	khmer
-ឞ	x	ʂ		ʂ	s	ʂ	d	consonant	obsolete						U+179E: KHMER LETTER SSO	khmer
+ំ		m	ṃ	ṃ	m	m̽	M	anusvara					និគ្គហិត	nikkɔːhet	U+17C6: KHMER SIGN NIKAHIT​	🗸
+ះ		h	ḥ	ḥ	h	h̽	H	visarga					រះមុខ	reə̆hmuk	U+17C7: KHMER SIGN REAHMUK​	🗸
 																
 																
-ឥ		ʔə ʔɨ ʔəj	i	ə ɨ	I	ị	-	independent vowel		ិ			ស្រៈឥ	sraʔ ʔeʔ	U+17A5: KHMER INDEPENDENT VOWEL QI	khmer
-ឦ		ʔəj	ī	ī	I	ị̄	,	independent vowel		ី			ស្រៈឦ	sraʔ ʔəj	U+17A6: KHMER INDEPENDENT VOWEL QII	khmer
-ឪ		ʔəw	ýu	ý	I	ɨ̣	]	independent vowel		ឹ			ស្រៈឪ	sraʔ ʔəw	U+17AA: KHMER INDEPENDENT VOWEL QUUV	khmer
-ឧ		ʔo ʔu ʔao	u		U	ụ	}	independent vowel		ុ			ស្រៈឧ	sraʔ ʔo	U+17A7: KHMER INDEPENDENT VOWEL QU	khmer
-ឩ		ou ʔuː	ū	uː ū	U	ụ̄	]	independent vowel		ូ			ស្រៈឩ	sraʔ ʔou	U+17A9: KHMER INDEPENDENT VOWEL QUU	khmer
-ឯ		ʔae ʔɛː ʔeː	ae		A	æ̣	?	independent vowel		ែ			ស្រៈឯ	sraʔ ʔae	U+17AF: KHMER INDEPENDENT VOWEL QE	khmer
-ឰ		ʔaj	ai		A	ạʲ	(	independent vowel		ៃ			ស្រៈឰ	sraʔ ʔaj	U+17B0: KHMER INDEPENDENT VOWEL QAI	khmer
-ឱ		ʔao	o		O	ọ	<	independent vowel		ោ			ស្រៈឱ	sraʔ ʔao	U+17B1: KHMER INDEPENDENT VOWEL QOO TYPE ONE	khmer
-ឳ		ʔaw	au		A	ạʷ	)	independent vowel		ៅ			ស្រៈឳ	sraʔ ʔaw	U+17B3: KHMER INDEPENDENT VOWEL QAU	khmer
-ឲ		ʔao	âu	â	A	ạᵒ	=	independent vowel					ស្រៈឲ	sraʔ ʔao	U+17B2: KHMER INDEPENDENT VOWEL QOO TYPE TWO	khmer
+ឝ	x	ɕ		ɕ	c	ɕ	s	consonant	obsolete						U+179D: KHMER LETTER SHA	🗸
+ឞ	x	ʂ		ʂ	s	ʂ	d	consonant	obsolete						U+179E: KHMER LETTER SSO	🗸
 																
 																
-ឫ		ra ~ ru			R	r̥	A	vocalic					ស្រៈឫ	sraʔ ra	U+17AB: KHMER INDEPENDENT VOWEL RY	khmer
-ឬ		raː ~ ruː			R	r̥̄	R	vocalic					ស្រៈឬ	sraʔ raː	U+17AC: KHMER INDEPENDENT VOWEL RYY	khmer
-ឭ		la ~ lu			L	l̥	\	vocalic					ស្រៈឭ	sraʔ la	U+17AD: KHMER INDEPENDENT VOWEL LY	khmer
-ឮ		laː ~ luː			L	l̥̄	|	vocalic					ស្រៈឮ	sraʔ laː	U+17AE: KHMER INDEPENDENT VOWEL LYY	khmer
+ឥ		ʔə ʔɨ ʔəj	i	ə ɨ	I	ị	-	independent vowel		ិ			ស្រៈឥ	sraʔ ʔeʔ	U+17A5: KHMER INDEPENDENT VOWEL QI	🗸
+ឦ		ʔəj	ī	ī	I	ị̄	,	independent vowel		ី			ស្រៈឦ	sraʔ ʔəj	U+17A6: KHMER INDEPENDENT VOWEL QII	🗸
+ឪ		ʔəw	ýu	ý	I	ɨ̣	]	independent vowel		ឹ			ស្រៈឪ	sraʔ ʔəw	U+17AA: KHMER INDEPENDENT VOWEL QUUV	🗸
+ឧ		ʔo ʔu ʔao	u		U	ụ	}	independent vowel		ុ			ស្រៈឧ	sraʔ ʔo	U+17A7: KHMER INDEPENDENT VOWEL QU	🗸
+ឩ		ou ʔuː	ū	uː ū	U	ụ̄	]	independent vowel		ូ			ស្រៈឩ	sraʔ ʔou	U+17A9: KHMER INDEPENDENT VOWEL QUU	🗸
+ឯ		ʔae ʔɛː ʔeː	ae		A	æ̣	?	independent vowel		ែ			ស្រៈឯ	sraʔ ʔae	U+17AF: KHMER INDEPENDENT VOWEL QE	🗸
+ឰ		ʔaj	ai		A	ạʲ	(	independent vowel		ៃ			ស្រៈឰ	sraʔ ʔaj	U+17B0: KHMER INDEPENDENT VOWEL QAI	🗸
+ឱ		ʔao	o		O	ọ	<	independent vowel		ោ			ស្រៈឱ	sraʔ ʔao	U+17B1: KHMER INDEPENDENT VOWEL QOO TYPE ONE	🗸
+ឳ		ʔaw	au		A	ạʷ	)	independent vowel		ៅ			ស្រៈឳ	sraʔ ʔaw	U+17B3: KHMER INDEPENDENT VOWEL QAU	🗸
+ឲ		ʔao	âu	â	A	ạᵒ	=	independent vowel					ស្រៈឲ	sraʔ ʔao	U+17B2: KHMER INDEPENDENT VOWEL QOO TYPE TWO	🗸
 																
 																
-ា		aː iə	ā	ā	a	ā	a	vowel sign					ស្រៈ អា	s͓rà ʼā	U+17B6: KHMER VOWEL SIGN AA​	khmer
-ៈ		aʔ eə̆ʔ		ə̆	a	a	V	short vowel					យុគលពិន្ទុ	juʔkɔluə̆ʔpintuʔ	U+17C8: KHMER SIGN YUUKALEAPINTU​	khmer
-ិ		ə e ɨ i	i		i	i	i	vowel sign			ឥ		ស្រៈ អិ	sraʔ ʔi	U+17B7: KHMER VOWEL SIGN I​	khmer
-ី		əj iː	ī		i	ī	I	vowel sign			ឦ		ស្រៈ អី	sraʔ ʔəj	U+17B8: KHMER VOWEL SIGN II​	khmer
-ឹ		ə ɨ	ẏ		i	ɨ	w	vowel sign			ឪ		ស្រៈ អឹ	sraʔ ʔə	U+17B9: KHMER VOWEL SIGN Y​	khmer
-ឺ		əɨ ɨː	ȳ	ȳ	i	ɨ̄	W	vowel sign					ស្រៈ អឺ	sraʔ ʔəɨ	U+17BA: KHMER VOWEL SIGN YY​	khmer
-ុ		o u	u		u	u	u	vowel sign			ឧ		ស្រៈ អុ	sraʔ ʔo	U+17BB: KHMER VOWEL SIGN U​	khmer
-ូ		ou uː	ū	ū	u	ū	U	vowel sign			ឩ		ស្រៈ អូ	sraʔ ʔū	U+17BC: KHMER VOWEL SIGN UU​	khmer
-េ		ei eː	e		e	e	e	vowel sign					ស្រៈ អេ	sraʔ ʔei	U+17C1: KHMER VOWEL SIGN E​	khmer
-ែ		ae ɛː	ae	ɛː	a	æ	E	vowel sign			ឯ		ស្រៈ អែ	sraʔ ʔae	U+17C2: KHMER VOWEL SIGN AE​	khmer
-ៃ		aj ɨj	ai		a	aʲ	S	vowel sign			ឰ		ស្រៈ អៃ	sraʔ ʔaj	U+17C3: KHMER VOWEL SIGN AI​	khmer
-ោ		ao oː	o		o	o	o	vowel sign			ឱ		ស្រៈ អោ	sraʔ ʔao	U+17C4: KHMER VOWEL SIGN OO​	khmer
-ៅ		aw ɨw	au		a	aʷ	O	vowel sign			ឳ		ស្រៈ អៅ	sraʔ ʔaw	U+17C5: KHMER VOWEL SIGN AU​	khmer
-ួ		uə	ua		u	uᵊ	Y	vowel sign					ស្រៈ អួ	sraʔ ʔua	U+17BD: KHMER VOWEL SIGN UA​	khmer
-ើ		aə əː	oe		a	aᵊ	;	vowel sign					ស្រៈ អើ	sraʔ ʔaə	U+17BE: KHMER VOWEL SIGN OE​	khmer
-ឿ		ɨə	ẏa		i	ɨᵊ	{	vowel sign					ស្រៈ អឿ	sraʔ ʔɨə	U+17BF: KHMER VOWEL SIGN YA​	khmer
-ៀ		iə	ia		i	iᵊ	[	vowel sign					ស្រៈ អៀ	sraʔ ʔiə	U+17C0: KHMER VOWEL SIGN IE​	khmer
+ឫ		ra ~ ru			R	r̥	A	vocalic					ស្រៈឫ	sraʔ ra	U+17AB: KHMER INDEPENDENT VOWEL RY	🗸
+ឬ		raː ~ ruː			R	r̥̄	R	vocalic					ស្រៈឬ	sraʔ raː	U+17AC: KHMER INDEPENDENT VOWEL RYY	🗸
+ឭ		la ~ lu			L	l̥	\	vocalic					ស្រៈឭ	sraʔ la	U+17AD: KHMER INDEPENDENT VOWEL LY	🗸
+ឮ		laː ~ luː			L	l̥̄	|	vocalic					ស្រៈឮ	sraʔ laː	U+17AE: KHMER INDEPENDENT VOWEL LYY	🗸
+																
+																
+ា		aː iə	ā	ā	a	ā	a	vowel sign					ស្រៈ អា	s͓rà ʼā	U+17B6: KHMER VOWEL SIGN AA​	🗸
+ៈ		aʔ eə̆ʔ		ə̆	a	a	V	short vowel					យុគលពិន្ទុ	juʔkɔluə̆ʔpintuʔ	U+17C8: KHMER SIGN YUUKALEAPINTU​	🗸
+ិ		ə e ɨ i	i		i	i	i	vowel sign			ឥ		ស្រៈ អិ	sraʔ ʔi	U+17B7: KHMER VOWEL SIGN I​	🗸
+ី		əj iː	ī		i	ī	I	vowel sign			ឦ		ស្រៈ អី	sraʔ ʔəj	U+17B8: KHMER VOWEL SIGN II​	🗸
+ឹ		ə ɨ	ẏ		i	ɨ	w	vowel sign			ឪ		ស្រៈ អឹ	sraʔ ʔə	U+17B9: KHMER VOWEL SIGN Y​	🗸
+ឺ		əɨ ɨː	ȳ	ȳ	i	ɨ̄	W	vowel sign					ស្រៈ អឺ	sraʔ ʔəɨ	U+17BA: KHMER VOWEL SIGN YY​	🗸
+ុ		o u	u		u	u	u	vowel sign			ឧ		ស្រៈ អុ	sraʔ ʔo	U+17BB: KHMER VOWEL SIGN U​	🗸
+ូ		ou uː	ū	ū	u	ū	U	vowel sign			ឩ		ស្រៈ អូ	sraʔ ʔū	U+17BC: KHMER VOWEL SIGN UU​	🗸
+េ		ei eː	e		e	e	e	vowel sign					ស្រៈ អេ	sraʔ ʔei	U+17C1: KHMER VOWEL SIGN E​	🗸
+ែ		ae ɛː	ae	ɛː	a	æ	E	vowel sign			ឯ		ស្រៈ អែ	sraʔ ʔae	U+17C2: KHMER VOWEL SIGN AE​	🗸
+ៃ		aj ɨj	ai		a	aʲ	S	vowel sign			ឰ		ស្រៈ អៃ	sraʔ ʔaj	U+17C3: KHMER VOWEL SIGN AI​	🗸
+ោ		ao oː	o		o	o	o	vowel sign			ឱ		ស្រៈ អោ	sraʔ ʔao	U+17C4: KHMER VOWEL SIGN OO​	🗸
+ៅ		aw ɨw	au		a	aʷ	O	vowel sign			ឳ		ស្រៈ អៅ	sraʔ ʔaw	U+17C5: KHMER VOWEL SIGN AU​	🗸
+ួ		uə	ua		u	uᵊ	Y	vowel sign					ស្រៈ អួ	sraʔ ʔua	U+17BD: KHMER VOWEL SIGN UA​	🗸
+ើ		aə əː	oe		a	aᵊ	;	vowel sign					ស្រៈ អើ	sraʔ ʔaə	U+17BE: KHMER VOWEL SIGN OE​	🗸
+ឿ		ɨə	ẏa		i	ɨᵊ	{	vowel sign					ស្រៈ អឿ	sraʔ ʔɨə	U+17BF: KHMER VOWEL SIGN YA​	🗸
+ៀ		iə	ia		i	iᵊ	[	vowel sign					ស្រៈ អៀ	sraʔ ʔiə	U+17C0: KHMER VOWEL SIGN IE​	🗸
 																
 ាំ	s	am oə̆m			a	ām̽		multi-part vowel							U+17B6 U+17C6: KHMER VOWEL SIGN AA, SIGN NIKAHIT​	
 ុំ	s	om um			u	um̽		multi-part vowel							U+17BB U+17C6: KHMER VOWEL SIGN U, SIGN NIKAHIT​	
@@ -103,53 +103,53 @@ var spreadsheet = `
 ័យ	s	aj ɨj				ăy̱									U+17D0 U+1799: KHMER SIGN SAMYOK SANNYA, LETTER YO​	
 																
 																
-្					*	͓	j	coeng sign					ជើង	cəːŋ	U+17D2: KHMER SIGN COENG​	khmer
-៑					\	¯		virama	infrequent				វិរាម	ʋiriəm	U+17D1: KHMER SIGN VIRIAM​	khmer
+្					*	͓	j	coeng sign					ជើង	cəːŋ	U+17D2: KHMER SIGN COENG​	🗸
+៑					\	¯		virama	infrequent				វិរាម	ʋiriəm	U+17D1: KHMER SIGN VIRIAM​	🗸
 																
 																
-៌					[	ʳ	_	consonant silencer	infrequent				របាទ	rɔɓaːt	U+17CC: KHMER SIGN ROBAT​	khmer
-៍					\	˟	^	syllable silencer					ទណ្ឌឃាត	tɔnɗɔkʰiət	U+17CD: KHMER SIGN TOANDAKHIAT​	khmer
-់					[	˘	'	vowel shortener					បន្តក់	ɓɑntɑk	U+17CB: KHMER SIGN BANTOC​	khmer
-័					a	ă	&	vowel changer					សំយោគសញ្ញា	sanjoːksaɲɲaː	U+17D0: KHMER SIGN SAMYOK SANNYA​	khmer
-៝					e	ᵊ		final vowel retainer	infrequent						U+17DD: KHMER SIGN ATTHACAN​	khmer
-៎					!	ⸯ	+	exclamation sign	infrequent				កាកបាទ	kaːkɑɓaːt	U+17CE: KHMER SIGN KAKABAT​	khmer
-៏					[	⁎	*	word specifier	infrequent				លេខអស្ដា	leːk ʔahsɗaː	U+17CF: KHMER SIGN AHSDA​	khmer
-៉					[	″		consonant shifter					មូសិកទន្ត	museʔkətoə̯n	U+17C9: KHMER SIGN MUUSIKATOAN​	khmer
-៊					[	′	/	consonant shifter					ត្រីសព្ទ	trəisaɓ	U+17CA: KHMER SIGN TRIISAP​	khmer
+៌					[	ʳ	_	consonant silencer	infrequent				របាទ	rɔɓaːt	U+17CC: KHMER SIGN ROBAT​	🗸
+៍					\	˟	^	syllable silencer					ទណ្ឌឃាត	tɔnɗɔkʰiət	U+17CD: KHMER SIGN TOANDAKHIAT​	🗸
+់					[	˘	'	vowel shortener					បន្តក់	ɓɑntɑk	U+17CB: KHMER SIGN BANTOC​	🗸
+័					a	ă	&	vowel changer					សំយោគសញ្ញា	sanjoːksaɲɲaː	U+17D0: KHMER SIGN SAMYOK SANNYA​	🗸
+៝					e	ᵊ		final vowel retainer	infrequent						U+17DD: KHMER SIGN ATTHACAN​	🗸
+៎					!	ⸯ	+	exclamation sign	infrequent				កាកបាទ	kaːkɑɓaːt	U+17CE: KHMER SIGN KAKABAT​	🗸
+៏					[	⁎	*	word specifier	infrequent				លេខអស្ដា	leːk ʔahsɗaː	U+17CF: KHMER SIGN AHSDA​	🗸
+៉					[	″		consonant shifter					មូសិកទន្ត	museʔkətoə̯n	U+17C9: KHMER SIGN MUUSIKATOAN​	🗸
+៊					[	′	/	consonant shifter					ត្រីសព្ទ	trəisaɓ	U+17CA: KHMER SIGN TRIISAP​	🗸
 																
 																
 																
 																
-៖					:	:	:	colon					ចំណុចពីរគូស	cɑmnoc piː kuːh	U+17D6: KHMER SIGN CAMNUC PII KUUH	khmer
-។					.	.	.	full stop					ខ័ណ្ឌ	kʰan	U+17D4: KHMER SIGN KHAN	khmer
-៕					|	¶	>	section terminator					បរិយោសាន	ɓɑːrijaosaːn	U+17D5: KHMER SIGN BARIYOOSAN	khmer
-៙					§	»	6	text start					ភ្នែកមាន់	pnɛːkmoə̆n	U+17D9: KHMER SIGN PHNAEK MUAN	khmer
-៚					§	«	7	text end					គោមូត្រ	koːmout	U+17DA: KHMER SIGN KOOMUUT	khmer
-ៗ					&	&	@	repetition sign					ស្ទួន / លេខទោ	stuən / leːktoː	U+17D7: KHMER SIGN LEK TOO	khmer
-៘					.	...		etc.	deprecated				។ល។ / ល៉ៈ	lanəŋla / laʔ	U+17D8: KHMER SIGN BEYYAL	khmer
+៖					:	:	:	colon					ចំណុចពីរគូស	cɑmnoc piː kuːh	U+17D6: KHMER SIGN CAMNUC PII KUUH	🗸
+។					.	.	.	full stop					ខ័ណ្ឌ	kʰan	U+17D4: KHMER SIGN KHAN	🗸
+៕					|	¶	>	section terminator					បរិយោសាន	ɓɑːrijaosaːn	U+17D5: KHMER SIGN BARIYOOSAN	🗸
+៙					§	»	6	text start					ភ្នែកមាន់	pnɛːkmoə̆n	U+17D9: KHMER SIGN PHNAEK MUAN	🗸
+៚					§	«	7	text end					គោមូត្រ	koːmout	U+17DA: KHMER SIGN KOOMUUT	🗸
+ៗ					&	&	@	repetition sign					ស្ទួន / លេខទោ	stuən / leːktoː	U+17D7: KHMER SIGN LEK TOO	🗸
+៘					.	...		etc.	deprecated				។ល។ / ល៉ៈ	lanəŋla / laʔ	U+17D8: KHMER SIGN BEYYAL	🗸
 ។ល។	s					...		etc.							U+17D4 U+179B U+17D4: KHMER SIGN KHAN, LETTER LO, SIGN KHAN	
 																
 																
-៛					±	¤	$	currency symbol					សញ្ញារៀល	saɲ ɲaː riəl	U+17DB: KHMER CURRENCY SYMBOL RIEL	khmer
-ៜ					\	ˣ	a	marker for omitted Sanskrit vowel	archaic, rare					avakraha sannya	U+17DC: KHMER SIGN AVAKRAHASANYA	khmer
+៛					±	¤	$	currency symbol					សញ្ញារៀល	saɲ ɲaː riəl	U+17DB: KHMER CURRENCY SYMBOL RIEL	🗸
+ៜ					\	ˣ	a	marker for omitted Sanskrit vowel	archaic, rare					avakraha sannya	U+17DC: KHMER SIGN AVAKRAHASANYA	🗸
 																
 																
-៓	x					°		lunar date sign	deprecated						U+17D3: KHMER SIGN BATHAMASAT​	khmer
-ឨ	x	ʔok				U	[	independent vowel	obsolete						U+17A8: KHMER INDEPENDENT VOWEL QUK	khmer
-ឣ	x					A		independent vowel	strongly deprecated						U+17A3: KHMER INDEPENDENT VOWEL QAQ	khmer
-ឤ	x					Ä		independent vowel	strongly deprecated						U+17A4: KHMER INDEPENDENT VOWEL QAA	khmer
+៓	x					°		lunar date sign	deprecated						U+17D3: KHMER SIGN BATHAMASAT​	🗸
+ឨ	x	ʔok				U	[	independent vowel	obsolete						U+17A8: KHMER INDEPENDENT VOWEL QUK	🗸
+ឣ	x					A		independent vowel	strongly deprecated						U+17A3: KHMER INDEPENDENT VOWEL QAQ	🗸
+ឤ	x					Ä		independent vowel	strongly deprecated						U+17A4: KHMER INDEPENDENT VOWEL QAA	🗸
 																
 																
-០					0	0	0	digit					សូន	soun	U+17E0: KHMER DIGIT ZERO	khmer
-១					1	1	1	digit					មួយ	muəj	U+17E1: KHMER DIGIT ONE	khmer
-២					2	2	2	digit					ពីរ	piː	U+17E2: KHMER DIGIT TWO	khmer
-៣					3	3	3	digit					បី	ɓəj	U+17E3: KHMER DIGIT THREE	khmer
-៤					4	4	4	digit					បួន	ɓuən	U+17E4: KHMER DIGIT FOUR	khmer
-៥					5	5	5	digit					ប្រាំ	pram	U+17E5: KHMER DIGIT FIVE	khmer
-៦					6	6	6	digit					ប្រាំមួយ	prammuəj	U+17E6: KHMER DIGIT SIX	khmer
-៧					7	7	7	digit					ប្រាំពីរ	prampiː / prampɨl	U+17E7: KHMER DIGIT SEVEN	khmer
-៨					8	8	8	digit					ប្រាំបី	pramɓəj	U+17E8: KHMER DIGIT EIGHT	khmer
-៩					9	9	9	digit					ប្រាំបួន	pramɓuən	U+17E9: KHMER DIGIT NINE	khmer
+០					0	0	0	digit					សូន	soun	U+17E0: KHMER DIGIT ZERO	🗸
+១					1	1	1	digit					មួយ	muəj	U+17E1: KHMER DIGIT ONE	🗸
+២					2	2	2	digit					ពីរ	piː	U+17E2: KHMER DIGIT TWO	🗸
+៣					3	3	3	digit					បី	ɓəj	U+17E3: KHMER DIGIT THREE	🗸
+៤					4	4	4	digit					បួន	ɓuən	U+17E4: KHMER DIGIT FOUR	🗸
+៥					5	5	5	digit					ប្រាំ	pram	U+17E5: KHMER DIGIT FIVE	🗸
+៦					6	6	6	digit					ប្រាំមួយ	prammuəj	U+17E6: KHMER DIGIT SIX	🗸
+៧					7	7	7	digit					ប្រាំពីរ	prampiː / prampɨl	U+17E7: KHMER DIGIT SEVEN	🗸
+៨					8	8	8	digit					ប្រាំបី	pramɓəj	U+17E8: KHMER DIGIT EIGHT	🗸
+៩					9	9	9	digit					ប្រាំបួន	pramɓuən	U+17E9: KHMER DIGIT NINE	🗸
 																
 																
 																
@@ -236,6 +236,7 @@ var spreadsheet = `
 																
 																
 "						–	#								U+0022: QUOTATION MARK	
+
 																
 																
 `
@@ -252,23 +253,22 @@ var cols = {
 "typeLoc": 8,
 "statusLoc": 9,
 
-"typeLoc": 10,
-"statusLoc": 11,
 "equiv": 0,
-"dvowel": 12,
-"ivowel": 13,
+"dvowel": 10,
+"ivowel": 11,
 "subj":0,
 "ltone":0,
 "htone":0,
 "lc":0,
 "uc":0,
 "meaning":0,
-"shape": 14,
+"shape": 12,
 "numLoc": 0,
-"nnameLoc": 15,
-"nameLoc": 16,
-"ucsName": 17,
-"block": 18,
+
+"nnameLoc": 13,
+"nameLoc": 14,
+"ucsName": 15,
+"block": 16,
 
 "othertranscriptions": [[3, 'UNEGN']]
 }
