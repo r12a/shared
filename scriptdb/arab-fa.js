@@ -2,12 +2,12 @@ var spreadsheet = `
 ا		ɒː æ e o ∅	ā a o e	ɒː æ ∅	A	ɑ	h	vowel carrier/vowel		ا ـا	الف	ʾalef	U+0627: ARABIC LETTER ALEF	🗸
 آ		ɒː	ā	ā	A	ɑ̄	H	glottal stop		آ ـآ			U+0622: ARABIC LETTER ALEF WITH MADDA ABOVE	🗸
 														
-ء		ʔ	’	ʔ	}	ʔ	M	glottal stop		ء	همزه	hamza	U+0621: ARABIC LETTER HAMZA	🗸
-أ		ʔ	’		A	ɑ͑	G	glottal stop	rare	أ ـأ	همزه	hamza	U+0623: ARABIC LETTER ALEF WITH HAMZA ABOVE	🗸
-یٔ	s	ʔ	’		y	yʿ		glottal stop		ئ ئئئ	همزه	hamza	U+06CC U+0654: ARABIC LETTER FARSI YEH, HAMZA ABOVE	
-ئ		ʔ	’		Y	y͑	S	glottal stop	incorrect character	ئ ئئئ	همزه	hamza	U+0626: ARABIC LETTER YEH WITH HAMZA ABOVE	🗸
+ء		ʔ	’	ʔ	}	ʔ	M	glottal stop		ء	همزه	hæmze	U+0621: ARABIC LETTER HAMZA	🗸
+أ		ʔ	’		A	ɑ͑	G	glottal stop	rare	أ ـأ	همزه	hæmze	U+0623: ARABIC LETTER ALEF WITH HAMZA ABOVE	🗸
+یٔ	s	ʔ	’		y	yʿ		glottal stop		ئ ئئئ	همزه	hæmze	U+06CC U+0654: ARABIC LETTER FARSI YEH, HAMZA ABOVE	
+ئ		ʔ	’		Y	y͑	S	glottal stop	incorrect character	ئ ئئئ	همزه	hæmze	U+0626: ARABIC LETTER YEH WITH HAMZA ABOVE	🗸
 ي		j iː			Y	ŷ	D	consonant+vowel	non-native	ي ييي			U+064A: ARABIC LETTER YEH	🗸
-ؤ		ʔ	’		w	w͑	A	glottal stop		ؤ ـؤ	همزه	hamza	U+0624: ARABIC LETTER WAW WITH HAMZA ABOVE	🗸
+ؤ		ʔ	’		w	w͑	A	glottal stop		ؤ ـؤ	همزه	hæmze	U+0624: ARABIC LETTER WAW WITH HAMZA ABOVE	🗸
 														
 پ		p	p		p	p	m	stop		پ پپپ	پِ	pe	U+067E: ARABIC LETTER PEH	🗸
 ب		b	b		b	b	f	stop		ب ببب	بِ	be	U+0628: ARABIC LETTER BEH	🗸
@@ -58,21 +58,31 @@ var spreadsheet = `
 														
 														
 ة		h - ɛ æ			t	ẗ	J	consonant+vowel	infrequent	ة ـة			U+0629: ARABIC LETTER TEH MARBUTA	🗸
-إ	dc	ʔi			A	ɑ̂	F	consonant+vowel	non-native	إ ـإ			U+0625: ARABIC LETTER ALEF WITH HAMZA BELOW	🗸
-ى		ɑː		ɑː	A	â		vowel	non-native	ى ـى			U+0649: ARABIC LETTER ALEF MAKSURA	🗸
-ك		k			K	k̂	Z	consonant	non-native	ك ككك			U+0643: ARABIC LETTER KAF	🗸
 ڤ		β		β				fricative	archaic				U+06A4: ARABIC LETTER VEH	🗸
 ٌ		un			u	uⁿ	W	vowel			تنوین رفع	tanvin e rafe	U+064C: ARABIC DAMMATAN​	🗸
 ٍ		in			i	iⁿ	E	vowel			تنوین جرّ	tanvin e jarr	U+064D: ARABIC KASRATAN​	🗸
 ْ					*	͓	Q	vowel absence marker			سکون	sokun	U+0652: ARABIC SUKUN​	🗸
-ٕ		ʔ			[	˓		hamza					U+0655: ARABIC HAMZA BELOW​	🗸
+														
+														
+														
+														
+ۀ						–		confusable	do not use for Persian				U+06C0: ARABIC LETTER HEH WITH YEH ABOVE	
+ە						–		confusable	do not use for Persian				U+06D5: ARABIC LETTER AE	
+ہ						–		confusable	do not use for Persian				U+06C1: ARABIC LETTER HEH GOAL	
+ۂ						–		confusable	do not use for Persian				U+06C2: ARABIC LETTER HEH GOAL WITH HAMZA ABOVE	
+ئ						–		confusable	do not use for Persian				U+0626: ARABIC LETTER YEH WITH HAMZA ABOVE	
+ࢨ						–		confusable	do not use for Persian				U+08A8: ARABIC LETTER YEH WITH TWO DOTS BELOW AND HAMZA ABOVE	
+ي						–		confusable	do not use for Persian				U+064A: ARABIC LETTER YEH	
+ۃ						–		confusable	do not use for Persian				U+06C3: ARABIC LETTER TEH MARBUTA GOAL	
+ك						–		confusable	do not use for Persian				U+0643: ARABIC LETTER KAF	
 														
 														
 														
 														
 														
 														
-﷼					#	¤	$	currency sign	infrequent				U+FDFC: RIAL SIGN	
+														
+﷼					#	¤	$	currency sign	do not use for Persian				U+FDFC: RIAL SIGN	
 														
 														
 														
@@ -191,8 +201,8 @@ var spreadsheet = `
 														
 														
 														
-ٰ						–	V						U+0670: ARABIC LETTER SUPERSCRIPT ALEF​	🗸														
-
+ٰ						–	V						U+0670: ARABIC LETTER SUPERSCRIPT ALEF​	🗸
+														
 \u0020					\u0020			space					U+0020: SPACE	
 \u200B					\u0020			zero-width space					U+200B: ZERO WIDTH SPACE	
 \u2003					\u0020			em space					U+2003: EM SPACE	
