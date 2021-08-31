@@ -16,7 +16,7 @@ var spreadsheet = `
 ط		t	t		T	t̂	x	stop		ط ططط	طی	ṭā	U+0637: ARABIC LETTER TAH	🗸
 ک		k	k		k	k	;	stop		ک ککک	کاف	kāf	U+06A9: ARABIC LETTER KEHEH	🗸
 گ		g	g		g¶	g	'	stop		گ گگگ	گاف	ɡāf	U+06AF: ARABIC LETTER GAF	🗸
-ق		q ɢ	q	ɢ	q	q	r	stop		ق ققق	قاف	qāf	U+0642: ARABIC LETTER QAF	🗸
+ق		ɢ	q	ɢ	q	ɢ	r	stop		ق ققق	قاف	qāf	U+0642: ARABIC LETTER QAF	🗸
 														
 چ		t͡ʃ	č	t͡ʃ č	c	ʧ	]	affricate		چ چچچ	چِ	če	U+0686: ARABIC LETTER TCHEH	🗸
 ج		d͡ʒ	j	d͡ʒ	j	ʤ	[	affricate		ج ججج	جیم	jim	U+062C: ARABIC LETTER JEEM	🗸
