@@ -315,6 +315,9 @@ var spreadsheet = `
 
 
 
+latinPanel = '̃ aː ā æ æː æ̃ æ̃ː ạ ã ãː bʱ cʰ ɕ dʱ d͡ʑ d͡ʑʱ ɖ ḍ ɖʱ ḍh ē eː ẽ ẽː ɛ̄ əĩ əũ ɛ̣̄ ɡ ɡʱ ɦ ḥ iː ĩ ĩː ī ị ị̄ ɟ ɟʱ kʰ lʰ l̥ l̥̄ l̥̣ l̥̣̄ mʰ ṁ ŋ ṅ nʰ ŋʰ ṅh ɳ ṇ ɲ ñ ɲʰ ñh oː ō ɔ̄ ọ̄ ɔ̣̄ pʰ rʰ r̥ r̥̄ r̥̣ r̥̣̄ ś ʂ ṣ tʰ t͡ɕ t͡ɕʰ ʈ ṭ ʈʰ ṭh uː ũ ũː ū ụ ụ̄ vʰ wʰ'
+
+
 
 var cols = {
 "class": 1,

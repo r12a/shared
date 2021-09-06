@@ -290,6 +290,10 @@ var spreadsheet = `
 
 
 
+latinPanel = '˩˩ ˩˥ ˥˩ ˧˧ aː eː ɛː iː kʰ ŋ ɔː oː pʰ tʰ t͡ɕ t͡ɕʰ uː ɯ ɯː'
+
+
+
 var cols = {
 "class": 1,
 "ipaLoc": 2,

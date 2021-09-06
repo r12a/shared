@@ -34,6 +34,9 @@ var spreadsheet = `
 
 
 
+latinPanel = 'ŋ ɳ'
+
+
 var cols = {
 "class": 1,
 "ipaLoc": 2,

@@ -502,6 +502,9 @@ romaji5				ō
 `
 
 
+latinPanel = 'ː ā ā bᵃ bⁱ bᵘ bᵉ bᵒ b̄ᵃ b̄ⁱ b̄ᵘ b̄ᵉ b̄ᵒ ɕ ç cⁱ c̄ⁱ d͡z d͡ʑ d͡ʒi dᵃ dᵘ d͡zu dᵉ dᵒ d̄ᵃ d̄ᵘ d̄ᵉ d̄ᵒ ē ē ɸ gᵃ gⁱ gᵘ gᵉ gᵒ ḡᵃ ḡⁱ ḡᵘ ḡᵉ ḡᵒ hᵃ hⁱ hᵘ hᵉ hᵒ h̄ᵃ h̄ⁱ h̄ᵘ h̄ᵉ h̄ᵒ ī ī jⁱ j̄ⁱ kᵃ kⁱ kᵘ kᵉ kᵒ k̄ᵃ k̄ⁱ k̄ᵘ k̄ᵉ k̄ᵒ mᵃ mⁱ mᵘ mᵉ mᵒ m̄ᵃ m̄ⁱ m̄ᵘ m̄ᵉ m̄ᵒ ɲ ŋ ɴ nᵃ nⁱ nᵘ nᵉ nᵒ n̄ᵃ n̄ⁱ n̄ᵘ n̄ᵉ n̄ᵒ n̄ ō ō pᵃ pⁱ pᵘ pᵉ pᵒ p̄ᵃ p̄ⁱ p̄ᵘ p̄ᵉ p̄ᵒ rᵃ rⁱ rᵘ rᵉ rᵒ r̄ᵃ r̄ⁱ r̄ᵘ r̄ᵉ r̄ᵒ sᵃ sⁱ ʃi sᵘ sᵉ sᵒ s̄ᵃ s̄ⁱ s̄ᵘ s̄ᵉ s̄ᵒ t͡s t͡ɕ tᵃ t͡ʃi tᵘ t͡su tᵉ tᵒ t̄ᵃ t̄ᵘ t̄ᵉ t̄ᵒ ū ū vᵘ v̄ᵘ wᵃ wⁱ wᵉ wᵒ w̄ᵃ w̄ⁱ w̄ᵉ w̄ᵒ yᵃ yᵘ yᵒ ȳᵃ ȳᵘ ȳᵒ ʑ zᵃ zᵘ zᵉ zᵒ z̄ᵃ z̄ᵘ z̄ᵉ z̄ᵒ'
+
+
 
 
 var cols = {

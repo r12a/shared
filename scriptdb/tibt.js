@@ -282,6 +282,9 @@ var spreadsheet = `
 `
 
 
+latinPanel = 'ā bʰ ʤ ʣ ɖ ɖʰ d̪ʱ ʣʰ gʰ ḥ ī kʰ ḷ ḹ ŋ ɲ ɳ pʰ ɽ ṛ ṝ ʂ ʧ ʧʰ tʰ ʦʰ ʈ ʈʰ ū'
+
+
 
 var cols = {
 "class": 1,

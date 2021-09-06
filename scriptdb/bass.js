@@ -104,6 +104,10 @@ var spreadsheet = `
 
 
 
+latinPanel = '́ ̀ ̄ ᷅ ᵃ ᵃ̃ “ ” « » ̃ ̂ ˦ ˨ ˧ ˨˧ ˥˩ ã ɓ ɗ ɖ dʲ ẽ ᵉ ᵉ̃ ɛ ɛ̃ ᵋ ᵋ̃ ɡ ɡ͡b ħʷ hʷ ĩ ɟ k͡p kᵖ ɲ õ ᵒ ᵒ̃ ɔ ɔ̃ ɾ ũ ᵘ ᵘ̃ xʷ'
+
+
+
 
 var cols = {
 "class": 1,

@@ -286,6 +286,10 @@ var spreadsheet = `
 `
 
 
+latinPanel = 'ɑː ā ḍ ɖ d͡ʒ ɛ eː ɛː g͟h ɦ ḥ ʰ iː ɪ k͟h ṉ ∅ ɔ ṛ ɽ ṣ s̱ ʃ t̤ ṭ ʈ t͡ʃ uː ū ʋ ɣ ẓ z̤ ẕ ʒ'
+
+
+
 var cols = {
 "class": 1,
 "ipaLoc": 2,

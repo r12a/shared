@@ -135,6 +135,9 @@ var spreadsheet = `
 `
 
 
+latinPanel = 'ɑ ä ā d͡ʒ ɖ ḍ ə ə̀ ē ɛ ġ ɦ ḥ ɪ ī kʰ ɭ ḷ m̐ ṃ ṁ ŋə ṅ ɲ ñ ɳ ṇ ∅ ɔ pʰ ɽ ṛ ʃ ś t͡ʃ t͡ʃʰ ʈ ṭ ʈʰ tʰ ʊ ū ʋ ɣ'
+
+
 var cols = {
 "class": 1,
 "ipaLoc": 2,

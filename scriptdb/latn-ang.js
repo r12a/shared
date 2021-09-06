@@ -102,6 +102,10 @@ U		u			¶U	U	U	vowel			U+0055: LATIN CAPITAL LETTER U
 
 
 
+latinPanel = 'ɑ ɑː æ æː ð eː ɡ iː oː œ θ t͡ʃ uː'
+
+
+
 
 var cols = {
 "class": 1,

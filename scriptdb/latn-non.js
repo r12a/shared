@@ -93,6 +93,9 @@ A		a			A	A	A	vowel				U+0041: LATIN CAPITAL LETTER A
 
 
 
+latinPanel = 'aː æː ð eː iː oː ɔ œ œː θ ʀ t͡s uː yː'
+
+
 
 var cols = {
 "class": 1,

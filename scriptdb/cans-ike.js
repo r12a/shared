@@ -195,6 +195,11 @@ var spreadsheet = `
 `
 
 
+
+latinPanel = '– “ ‘ ” ’ « » aː iː ɬ ɫ ŋ ʁ uː ɣ —'
+
+
+
 var cols = {
 "class": 1,
 "key":2,

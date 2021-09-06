@@ -48,6 +48,10 @@ var spreadsheet = `
 
 
 
+latinPanel = 'ˡʳᵐ ᵃˡᵐ ˡʳⁱ ˡʳᵉ ᵖᵈⁱ ᵖᵈᶠ ʿ ʳˡᵐ ʳˡⁱ ʳˡᵉ ħ ḥ sˤ ṣ ʃ š tˤ ṭ ʕ ʔ ʾ'
+
+
+
 
 var cols = {
 "class": 1,

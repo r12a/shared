@@ -156,6 +156,10 @@ O		o			O	O		vowel				U+004F: LATIN CAPITAL LETTER O
 
 
 
+latinPanel = '̃ ã ẽ ĩ kʷ kʰ kʷʰ kʼ kʷʼ ɮ ɬ ᵐb ʍ ⁿd õ ɹ ʃ tʰ tʼ t͡s t͡ɬ t͡ʃ t͡sʰ t͡ɬʰ t͡ʃʰ t͡sʼ t͡ɬʼ ɣ ʒ ʔ'
+
+
+
 
 var cols = {
 "class": 1,

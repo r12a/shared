@@ -210,6 +210,8 @@ var spreadsheet = `
 `
 
 
+latinPanel = 'ɢ ɖ dˡ d͡z ə ʰ ɨ kʰ l̥ m̥ n̥ ŋ ŋ̊ ɳ ɴ ∅ pʰ qʰ ʂ tʰ ʈ ʈʰ t͡s t͡sʰ ʈ͡ʂ ʈ͡ʂʰ t͡ɕ t͡ɕʰ tˡ tˡʰ ʉ ɯ χ ɣ ʑ ʐ ʔ'
+
 
 
 var cols = {

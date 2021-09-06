@@ -187,6 +187,10 @@ var spreadsheet = `
 `
 
 
+latinPanel = 'ḍ ð d͡ʑ ɛ è ḭ ì ɪ ʲ kʰ ŋ ɲ ɴ ṇ ∅ ɔ́ ɔ̀ pʰ θ ɹ sʰ ʃ tʰ t͡ɕ t͡ɕʰ ṵ ù ʊ ʔ'
+
+
+
 var cols = {
 "class": 1,
 "ipaLoc": 2,

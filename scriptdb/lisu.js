@@ -125,6 +125,9 @@ var spreadsheet = `
 `
 
 
+latinPanel = '˥˥ ˧˥ ˦˦ ˧˧ ˦˨ ˧˩ ɑ ä ɕ d͡z ʥ ɛ ə ɦ kʰ ŋ ø pʰ tʰ t͡s ʦʰ ʨ ʨʰ ɯ ɣ ʒ ʑ'
+
+
 
 var cols = {
 "class": 1,

@@ -244,6 +244,10 @@ Y		i˧	i˧		Y	Y	Y	mid-tone vowel		i dài; i-cờ-rét	i˧zaːj˧˩, i˧kəː˧r�
 
 
 
+latinPanel = '˨˩ ˧˥ ˧˥ˀ ˨˩˥ ˧˩ ˩˧ ˧˨ˀ ă ɗ ɛ ə ə̆ ɨ ʲk kʷ ŋ ʲŋ ɔ ʂ tʰ tɕ ɣ'
+
+
+
 var cols = {
 "class": 1,
 "ipaLoc": 2,

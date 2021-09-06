@@ -149,6 +149,8 @@ var spreadsheet = `
 `
 
 
+latinPanel = '̃ aː ā bʱ č ḍ d͡ʒ dʱ ɖʱ eː ē ə əː ɡ gʱ iː ī ɨ ɨː ĭ ʲ ɟʰ kʰ ṁ ŋ ɳ ñ ö ȫ oː ō ɔː pʰ r̥ r̥̄ ʃ š ʂ t͡s t͡ʃ ʈ ṭ tʰ t͡sʰ ʈʰ t͡ʃʰ ü ǖ uː ū ŭ'
+
 var cols = {
 "class": 1,
 "ipaLoc": 2,

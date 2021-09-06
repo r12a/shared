@@ -186,6 +186,9 @@ var spreadsheet = `
 `
 
 
+latinPanel = 'ə̃ kʰ kʷ kʷʰ ɬ tʰ tˡ tˡʰ t͡s t͡ʃ ʔ'
+
+
 
 var cols = {
 "class": 1,

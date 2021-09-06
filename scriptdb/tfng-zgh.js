@@ -171,6 +171,10 @@ var spreadsheet = `
 
 
 
+latinPanel = 'ɢ æ β dˁ ḍ d͡ʒ ð ðˁ ɛ ə eː ɡ ħ ḥ ɪ ɨ ʝ ɫ ɲ ŋ oː qʷ θ ʁ rˤ sˁ ṣ ʃ š tˁ ṭ t͡ʃ tš ʊ ʷ χ xʷ ɣ ɣʷ zˁ ẓ ʒ ʕ'
+
+
+
 
 var cols = {
 "class": 1,

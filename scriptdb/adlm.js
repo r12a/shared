@@ -265,6 +265,9 @@ var spreadsheet = `
 `
 
 
+latinPanel = 'Ɓ Ɗ Ɠ Ñ Ŋ Ô Ƴ aː ɓ ɗ d͡ʒ dˤ ɛ eː ɛː g͡b ɠ ɦ iː k͡p ɲ ñ ŋ ɔ ô oː ɔː θ ɾ ʃ sˤ t͡ʃ tˤ uː ʼy ƴ ɣ zˤ ʕ ʔ ʔʲ'
+
+
 
 
 var cols = {
@@ -296,6 +299,3 @@ var cols = {
 
 "othertranscriptions": [[3, 'Latin']]
 }
-
-
-

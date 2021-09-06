@@ -148,6 +148,10 @@ var spreadsheet = `
 
 
 
+latinPanel = 'æː aː bʰ dʰ ɖ ḍ ɖʰ ḍh d͡ʒ d͡z d͡ʒʰ ē eː ɡʰ ḥ iː ī kʰ l̥ l̥̄ ṁ ɲ ñ ɳ ṇ oː ō pʰ ɽ ṛ r̥ r̥̄ ʃ ś ʂ ṣ tʰ ʈ ṭ ʈʰ ṭh t͡ʃ t͡s t͡ʃʰ uː ū ʋ ʐ'
+
+
+
 var cols = {
 "class": 1,
 "key":2,

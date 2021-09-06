@@ -250,6 +250,9 @@ var spreadsheet = `
 `
 
 
+latinPanel = 'aː aʔ eʔ ə ɛ ɛ̃ ə̃ ĩ iː iʔ ᵐb ᵐv ⁿt ⁿd ᵑk ᵑg ⁿʒ ᵑm ɲ ŋ ɔ ɔʔ ʃ uː ü ɯ yʔ ɣ ʒ ʔ'
+
+
 var cols = {
 "class": 1,
 "key":2,

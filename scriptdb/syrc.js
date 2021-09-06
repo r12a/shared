@@ -175,6 +175,9 @@ var spreadsheet = `
 
 
 
+latinPanel = 'ɑ ȃ ă ā â å ḇ č ð ḏ d͡ʒ ɛ ĕ ē ɡ ḡ ǧ ħ ḥ î ɪ ī jʰ ḵ ∅ ô ō p̄ θ sˤ ṣ ʃ š tˤ ṭ ṯ t͡ʃ û ū ɣ ʒ ʕ ʔ ʾ'
+
+
 
 var cols = {
 "class": 1,

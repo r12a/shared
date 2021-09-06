@@ -54,6 +54,9 @@ var spreadsheet = `
 
 
 
+latinPanel = 'ɸ hʷ kʷ ʍ ∅ þ θ'
+
+
 
 var cols = {
 "class": 1,

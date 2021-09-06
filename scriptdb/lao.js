@@ -243,6 +243,11 @@ _							R
 `
 
 
+
+latinPanel = '˨˦ ˦ ˥˧ ˧ ǣ aː ā ə eː ē ɛː iː ī iːə̯ īa kʰ ɲ ŋ ɔː oː ō ǭ pʰ tʰ t͡ɕ uː ūa ư ư̄ ū ʋ ɤ ɯ ɯː ʔ'
+
+
+
 var cols = {
 "class": 1,
 "ipaLoc": 2,

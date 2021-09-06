@@ -59,15 +59,15 @@ l			l¶	l	l	Alveolar lateral approximant	U+006C: LATIN SMALL LETTER L
 ʎ			y	ʎ	L	Palatal lateral approximant	U+028E: LATIN SMALL LETTER TURNED Y	
 ʟ			l	ʟ	5	Velar lateral approximant	U+029F: LATIN LETTER SMALL CAPITAL L	
 ɫ			l	ɫ	5	Velarized voiced alveolar lateral approximant	U+026B: LATIN SMALL LETTER L WITH MIDDLE TILDE	
-ƥ			b	ƥ		Unvoiced bilabial implosive	U+01A5: LATIN SMALL LETTER P WITH HOOK	
+ƥ			b	ƥ		Unvoiced bilabial implosive (obsolete)	U+01A5: LATIN SMALL LETTER P WITH HOOK	
 ɓ			b	ɓ	6	Voiced bilabial implosive	U+0253: LATIN SMALL LETTER B WITH HOOK	
-ƭ			t	ƭ		Unvoiced alveolar implosive	U+01AD: LATIN SMALL LETTER T WITH HOOK	
+ƭ			t	ƭ		Unvoiced alveolar implosive  (obsolete)	U+01AD: LATIN SMALL LETTER T WITH HOOK	
 ɗ			d	ɗ	[	Voiced alveolar implosive	U+0257: LATIN SMALL LETTER D WITH HOOK	
-ƈ			c	ƈ		Unvoiced palatal implosive	U+0188: LATIN SMALL LETTER C WITH HOOK	
+ƈ			c	ƈ		Unvoiced palatal implosive (obsolete)	U+0188: LATIN SMALL LETTER C WITH HOOK	
 ʄ			s	ʄ		Voiced palatal implosive	U+0284: LATIN SMALL LETTER DOTLESS J WITH STROKE AND HOOK	
-ƙ			k	ƙ		Unvoiced velar implosive	U+0199: LATIN SMALL LETTER K WITH HOOK	
+ƙ			k	ƙ		Unvoiced velar implosive (obsolete)	U+0199: LATIN SMALL LETTER K WITH HOOK	
 ɠ			g	ɠ	9	Voiced velar implosive	U+0260: LATIN SMALL LETTER G WITH HOOK	
-ʠ			d	ʠ		Unvoiced uvular implosive	U+02A0: LATIN SMALL LETTER Q WITH HOOK	
+ʠ			d	ʠ		Unvoiced uvular implosive (obsolete)	U+02A0: LATIN SMALL LETTER Q WITH HOOK	
 ʛ			g	ʛ		Voiced uvular implosive	U+029B: LATIN LETTER SMALL CAPITAL G WITH HOOK	
 ʘ			q	ʘ	o	Bilabial click	U+0298: LATIN LETTER BILABIAL CLICK	
 ǀ			|	ǀ		Dental click	U+01C0: LATIN LETTER DENTAL CLICK	
@@ -85,18 +85,24 @@ w			w¶	w	w	Voiced labial velar approximant	U+0077: LATIN SMALL LETTER W
 ɧ			h	ɧ		Simultaneous unvoiced postalveolar & velar fricative	U+0267: LATIN SMALL LETTER HENG WITH HOOK	
 ɺ			r	ɺ		Voiced alveolar lateral flap	U+027A: LATIN SMALL LETTER TURNED R WITH LONG LEG	
 								
-t͡ʃ			T	t͡ʃ		Voiceless postalveolar affricate	U+0074 U+0361 U+0283: LATIN SMALL LETTER T, COMBINING DOUBLE INVERTED BREVE, SMALL LETTER ESH	
-ʧ			T	ʧ		Voiceless postalveolar affricate	U+02A7: LATIN SMALL LETTER TESH DIGRAPH	
-t͡ɕ			T	t͡ɕ		Voiceless alveolo-palatal affricate	U+0074 U+0361 U+0255: LATIN SMALL LETTER T, COMBINING DOUBLE INVERTED BREVE, SMALL LETTER C WITH CURL	
-ʨ			T	ʨ		Voiceless alveolo-palatal affricate	U+02A8: LATIN SMALL LETTER TC DIGRAPH WITH CURL	
-t͡s			T	t͡s		Voiceless dental affricate	U+0074 U+0361 U+0073: LATIN SMALL LETTER T, COMBINING DOUBLE INVERTED BREVE, SMALL LETTER S	
-ʦ			T	ʦ		Voiceless dental affricate	U+02A6: LATIN SMALL LETTER TS DIGRAPH	
-d͡ʒ			D	d͡ʒ		Voiced postalveolar affricate	U+0064 U+0361 U+0292: LATIN SMALL LETTER D, COMBINING DOUBLE INVERTED BREVE, SMALL LETTER EZH	
-ʤ			D	ʤ		Voiced postalveolar affricate	U+02A4: LATIN SMALL LETTER DEZH DIGRAPH	
-d͡ʑ			D	d͡ʑ		Voiced alveolo-palatal affricate	U+0064 U+0361 U+0291: LATIN SMALL LETTER D, COMBINING DOUBLE INVERTED BREVE, SMALL LETTER Z WITH CURL	
-ʥ			D	ʥ		Voiced alveolo-palatal affricate	U+02A5: LATIN SMALL LETTER DZ DIGRAPH WITH CURL	
-d͡z			D	d͡z		Voiced dental affricate	U+0064 U+0361 U+007A: LATIN SMALL LETTER D, COMBINING DOUBLE INVERTED BREVE, SMALL LETTER Z	
-ʣ			D	ʣ		Voiced dental affricate	U+02A3: LATIN SMALL LETTER DZ DIGRAPH	
+t͡ʃ	s		T	t͡ʃ		Voiceless postalveolar affricate	U+0074 U+0361 U+0283: LATIN SMALL LETTER T, COMBINING DOUBLE INVERTED BREVE, SMALL LETTER ESH	
+ʧ	s		T	ʧ		Voiceless postalveolar affricate (obsolete)	U+02A7: LATIN SMALL LETTER TESH DIGRAPH	
+t͡ɕ	s		T	t͡ɕ		Voiceless alveolo-palatal affricate	U+0074 U+0361 U+0255: LATIN SMALL LETTER T, COMBINING DOUBLE INVERTED BREVE, SMALL LETTER C WITH CURL	
+ʨ	s		T	ʨ		Voiceless alveolo-palatal affricate (obsolete)	U+02A8: LATIN SMALL LETTER TC DIGRAPH WITH CURL	
+t͡s	s		T	t͡s		Voiceless dental affricate	U+0074 U+0361 U+0073: LATIN SMALL LETTER T, COMBINING DOUBLE INVERTED BREVE, SMALL LETTER S	
+ʦ	s		T	ʦ		Voiceless dental affricate (obsolete)	U+02A6: LATIN SMALL LETTER TS DIGRAPH	
+d͡ʒ	s		D	d͡ʒ		Voiced postalveolar affricate	U+0064 U+0361 U+0292: LATIN SMALL LETTER D, COMBINING DOUBLE INVERTED BREVE, SMALL LETTER EZH	
+ʤ	s		D	ʤ		Voiced postalveolar affricate (obsolete)	U+02A4: LATIN SMALL LETTER DEZH DIGRAPH	
+d͡ʑ	s		D	d͡ʑ		Voiced alveolo-palatal affricate	U+0064 U+0361 U+0291: LATIN SMALL LETTER D, COMBINING DOUBLE INVERTED BREVE, SMALL LETTER Z WITH CURL	
+ʥ	s		D	ʥ		Voiced alveolo-palatal affricate (obsolete)	U+02A5: LATIN SMALL LETTER DZ DIGRAPH WITH CURL	
+d͡z	s		D	d͡z		Voiced dental affricate	U+0064 U+0361 U+007A: LATIN SMALL LETTER D, COMBINING DOUBLE INVERTED BREVE, SMALL LETTER Z	
+ʣ	s		D	ʣ		Voiced dental affricate (obsolete)	U+02A3: LATIN SMALL LETTER DZ DIGRAPH	
+ʈ͡ʂ	s		T	ʈ͡ʂ		Voiceless retroflex affricate	U+0288 U+0361 U+0282: LATIN SMALL LETTER T WITH RETROFLEX HOOK, COMBINING DOUBLE INVERTED BREVE, SMALL LETTER S WITH HOOK	
+ɖ͡ʐ	s		D	ɖ͡ʐ		Voiced retroflex affricate	U+0256 U+0361 U+0290: LATIN SMALL LETTER D WITH TAIL, COMBINING DOUBLE INVERTED BREVE, SMALL LETTER Z WITH RETROFLEX HOOK	
+t͡p	s		T	t͡p		Voiceless labial-alveolar coarticulation	U+0074 U+0361 U+0070: LATIN SMALL LETTER T, COMBINING DOUBLE INVERTED BREVE, SMALL LETTER P	
+d͡b	s		D	d͡b		Voiced labial-alveolar coarticulation	U+0064 U+0361 U+0062: LATIN SMALL LETTER D, COMBINING DOUBLE INVERTED BREVE, SMALL LETTER B	
+k͡p	s		K	k͡p		Voiceless labial-velar coarticulation	U+006B U+0361 U+0070: LATIN SMALL LETTER K, COMBINING DOUBLE INVERTED BREVE, SMALL LETTER P	
+ɡ͡b	s		G	ɡ͡b		Voiced labial-velar coarticulation	U+0261 U+0361 U+0062: LATIN SMALL LETTER SCRIPT G, COMBINING DOUBLE INVERTED BREVE, SMALL LETTER B	
 ∅			o	∅		Null	U+2205: EMPTY SET	
 								
 i			i¶	i	i	High front vowel unrounded	U+0069: LATIN SMALL LETTER I	
@@ -253,6 +259,7 @@ a			a¶	a	a	Low front vowel unrounded	U+0061: LATIN SMALL LETTER A
 ,				–	,		U+002C: COMMA	
 .				–	.		U+002E: FULL STOP	
 →				–	>		U+2192: RIGHTWARDS ARROW	
+
 
 
 `

@@ -500,6 +500,11 @@ var spreadsheet = `
 
 `
 
+
+latinPanel = 'ä bʷ č č̣ d͡ʒ ə fʷ ɡ ǧ gʷ ḥ ḫ hʷ ɨ ḳ kʼ kʼʷ kʼʰ kʼʰʷ kʷ mʷ ñ ɲ ŋ ŋʷ p̣ pʼ pʷ ś š ʃ ṣ ṣ́ tʼ t͡ʃ ṭ t͡s t͡sʼ xʷ ž ʒ ¶ ʾ ʔ'
+
+
+
 var cols = {
 "class": 1,
 "key":2,

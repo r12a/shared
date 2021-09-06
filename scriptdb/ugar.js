@@ -59,6 +59,9 @@ var spreadsheet = `
 
 
 
+latinPanel = 'ʿ ð ḏ ġ ḫ ħ ḥ θ θˠ sˠ ṣ ʃ š tˠ ṭ ṯ ɣ ẓ ʕ ʔ ʾi ʾu'
+
+
 
 var cols = {
 "class": 1,

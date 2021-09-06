@@ -229,6 +229,9 @@ var spreadsheet = `
 `
 
 
+latinPanel = 'ā ɑː aːi aːu ḍ d͡ʒ ə əː ĕ ɛ iː ī ɲ ñ ŋ ∅ ö ɔ t͡ʃ uː ū'
+
+
 
 var cols = {
 "class": 1,

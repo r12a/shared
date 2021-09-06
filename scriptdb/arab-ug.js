@@ -66,6 +66,11 @@ var spreadsheet = `
 
 `
 
+
+latinPanel = 'æ ɑ ʤ ɛ ë ɨ ŋ ɔ ø ö ʁ ʃ ʧ ʊ ü χ ʒ'
+
+
+
 var cols = {
 "class": 1,
 "ipaLoc": 2,

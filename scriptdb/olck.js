@@ -141,6 +141,10 @@ var spreadsheet = `
 `
 
 
+latinPanel = 'ː ã ā ă c̚ c’ ɖ ḍ ẽ ə ə̃ ɛ ɛ̃ ĕ ɡ ẖ ʰ ĩ ɟ k̚ k’ ṃ m̐ ɲ ñ ɳ ṇ ŋ ṅ õ ɔ ɔ̃ ŏ p̚ p’ ɽ ṛ t̚ t’ ʈ ṭ ũ w̃ ʔ'
+
+
+
 
 
 var cols = {

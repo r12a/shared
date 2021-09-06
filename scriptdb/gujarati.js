@@ -121,6 +121,9 @@ var spreadsheet = `
 
 
 
+latinPanel = 'ä ɑ ā æ bʰ ɕ ʤ ʤʰ ɖ ḍ ɖʰ dʰ ə ɛ ē ê ɡʰ ɦ ḥ ɨ ī kʰ l̥ l̥̄ m̐ ṁ ŋ ṅ ɲ ñ ɳ ṇ ɔ ō ô r̥ r̥̄ ʃ ś ṣ ʧ ʧʰ ʈ ṭ ʈʰ tʰ ū ʋ'
+
+
 
 var cols = {
 "class": 1,
