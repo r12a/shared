@@ -199,8 +199,8 @@ var cols = {
 "shape": 0,
 "numLoc": 0,
 
-"nameLoc": 11,
-"nnameLoc": 12,
+"nameLoc": 12,
+"nnameLoc": 11,
 "ucsName": 13,
 "block": 14,
 
