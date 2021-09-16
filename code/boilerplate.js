@@ -1,3 +1,7 @@
+/* jshint strict: false */
+/* globals */
+
+
 function bp_header (icon, pageType, pathToRoot) {
 	return '<div id="wai-start" class="hide">'
 		+ '<p>Use accesskey "n" to jump to the internal navigation links at any point. Right now you can</p>'
