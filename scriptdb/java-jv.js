@@ -231,11 +231,12 @@ var cols = {
 "uc":0,
 "meaning":0,
 "shape": 12,
+"conj": 13,
 "numLoc": 0,
-"nnameLoc": 13,
-"nameLoc": 14,
-"ucsName": 15,
-"block": 16,
+"nnameLoc": 14,
+"nameLoc": 15,
+"ucsName": 16,
+"block": 17,
 
-//"othertranscriptions": [[4, 'ISO 15919']]
+"othertranscriptions": [[3, 'Latin']]
 }
