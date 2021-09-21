@@ -152,8 +152,8 @@ var cols = {
 "numLoc": 0,
 "nameLoc": 0,
 "nnameLoc": 0,
-"ucsName": 10,
-"block": 11,
+"ucsName": 12,
+"block": 13,
 
 //"othertranscriptions": [[3, 'ISO 9985']]
 }
