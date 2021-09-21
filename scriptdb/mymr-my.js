@@ -38,7 +38,7 @@ var spreadsheet = `
 															
 ျ		j ʲ	y	ʲ	Y	y̆	s	medial consonant						U+103B: MYANMAR CONSONANT SIGN MEDIAL YA​	myanmar
 ြ		j ʲ	r		R	j̆	j	medial consonant						U+103C: MYANMAR CONSONANT SIGN MEDIAL RA​	myanmar
-ွ		w	w		W	w̆	G	medial consonant						U+103D: MYANMAR CONSONANT SIGN MEDIAL WA​	myanmar
+ွ		w ʊ	w		W	w̆	G	medial consonant/vowel						U+103D: MYANMAR CONSONANT SIGN MEDIAL WA​	myanmar
 ှ		–̥ -ʃ	h	ʃ	H	h̆	S	medial consonant						U+103E: MYANMAR CONSONANT SIGN MEDIAL HA​	myanmar
 															
 															
