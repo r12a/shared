@@ -112,6 +112,7 @@ var spreadsheet = `
 ۆ						o͇		vowel for Uighur, Kurdish, Kazakh, Azerbaijani, Bosnian	do not use !	وٚ				U+06C6: ARABIC LETTER OE	🗸
 ێ						e͇		vowel for Kurdish	do not use !	یٚ				U+06CE: ARABIC LETTER YEH WITH SMALL V	🗸
 															
+ٛ						–		inverted v	do not use !					U+065B: ARABIC VOWEL SIGN INVERTED SMALL V ABOVE​																
 															
 															
 															
@@ -163,7 +164,7 @@ var spreadsheet = `
 															
 															
 															
-ـ			_		_	_		baseline extender							🗸
+ـ			_		_	_		baseline extender	infrequent					U+0640: ARABIC TATWEEL	🗸
 															
 															
 ʼ			ʼ			ʼ		apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
