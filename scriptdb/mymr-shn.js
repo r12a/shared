@@ -1,23 +1,23 @@
 var spreadsheet = `
-ၵ		ka	k		k	k	u	consonant				U+1075: MYANMAR LETTER SHAN KA	myanmar
-ၶ		kʰa	kh	kʰ	k	kʰ	c	consonant				U+1076: MYANMAR LETTER SHAN KHA	myanmar
-င		ŋa	ng	ŋ	N	ŋ	i	consonant				U+1004: MYANMAR LETTER NGA	myanmar
-ၸ		ʨa	ts	ʨ	c	c	q	consonant				U+1078: MYANMAR LETTER SHAN CA	myanmar
-ၺ		ɲa	ny	ɲ	n	ɲ	n	consonant				U+107A: MYANMAR LETTER SHAN NYA	myanmar
-တ		ta	t		t	t	w	consonant				U+1010: MYANMAR LETTER TA	myanmar
-ထ		tʰa	th	tʰ	t	tʰ	x	consonant				U+1011: MYANMAR LETTER THA	myanmar
-ၼ		na	n		n¶	n	e	consonant				U+107C: MYANMAR LETTER SHAN NA	myanmar
-ပ		pa	p		p	p	y	consonant				U+1015: MYANMAR LETTER PA	myanmar
-ၽ		pʰa	ph	pʰ	p	pʰ	z	consonant				U+107D: MYANMAR LETTER SHAN PHA	myanmar
-ၾ		fa	f		f	f		consonant				U+107E: MYANMAR LETTER SHAN FA	myanmar
-မ		ma	m		m	m	r	consonant				U+1019: MYANMAR LETTER MA	myanmar
-ယ		ja	y		y	y	b	consonant				U+101A: MYANMAR LETTER YA	myanmar
-ရ		ra	r		r	r	I	consonant				U+101B: MYANMAR LETTER RA	myanmar
-လ		la	l		l	l	v	consonant				U+101C: MYANMAR LETTER LA	myanmar
-ဝ		wa	w		w	w	o	consonant				U+101D: MYANMAR LETTER WA	myanmar
-သ		sa	s		s	s	O	consonant				U+101E: MYANMAR LETTER SA	myanmar
-ႁ		ha	h		h	h	p	consonant				U+1081: MYANMAR LETTER SHAN HA	myanmar
-ဢ		ʔa	a	ʔ	}	ʔ	t	consonant				U+1022: MYANMAR LETTER SHAN A	myanmar
+ၵ		k	k		k	k	u	consonant				U+1075: MYANMAR LETTER SHAN KA	myanmar
+ၶ		kʰ	kh	kʰ	k	kʰ	c	consonant				U+1076: MYANMAR LETTER SHAN KHA	myanmar
+င		ŋ	ng	ŋ	N	ŋ	i	consonant				U+1004: MYANMAR LETTER NGA	myanmar
+ၸ		ʨ	ts	ʨ	c	c	q	consonant				U+1078: MYANMAR LETTER SHAN CA	myanmar
+ၺ		ɲ -j	ny	ɲ	n	ɲ	n	consonant / diphthong glide				U+107A: MYANMAR LETTER SHAN NYA	myanmar
+တ		t	t		t	t	w	consonant				U+1010: MYANMAR LETTER TA	myanmar
+ထ		tʰ	th	tʰ	t	tʰ	x	consonant				U+1011: MYANMAR LETTER THA	myanmar
+ၼ		n	n		n¶	n	e	consonant				U+107C: MYANMAR LETTER SHAN NA	myanmar
+ပ		p	p		p	p	y	consonant				U+1015: MYANMAR LETTER PA	myanmar
+ၽ		pʰ	ph	pʰ	p	pʰ	z	consonant				U+107D: MYANMAR LETTER SHAN PHA	myanmar
+ၾ		f	f		f	f		consonant				U+107E: MYANMAR LETTER SHAN FA	myanmar
+မ		m	m		m	m	r	consonant				U+1019: MYANMAR LETTER MA	myanmar
+ယ		j	y		y	y	b	consonant				U+101A: MYANMAR LETTER YA	myanmar
+ရ		r	r		r	r	I	consonant				U+101B: MYANMAR LETTER RA	myanmar
+လ		l	l		l	l	v	consonant				U+101C: MYANMAR LETTER LA	myanmar
+ဝ		w	w		w	w	o	consonant / vowel				U+101D: MYANMAR LETTER WA	myanmar
+သ		s	s		s	s	O	consonant				U+101E: MYANMAR LETTER SA	myanmar
+ႁ		h	h		h	h	p	consonant				U+1081: MYANMAR LETTER SHAN HA	myanmar
+ဢ		ʔa ʔ-	a	ʔ	}	ʔ	t	standalone vowel carrier				U+1022: MYANMAR LETTER SHAN A	myanmar
 													
 													
 ၿ		b	b		b	b	Y	consonant	rare, for non-Shan sounds			U+107F: MYANMAR LETTER SHAN BA	myanmar
@@ -27,50 +27,50 @@ var spreadsheet = `
 ၹ		z	z		z	z		consonant	rare, for non-Shan sounds			U+1079: MYANMAR LETTER SHAN ZA	myanmar
 													
 													
-ျ		ʲ		ʲ	y	y̆	B	medial consonant				U+103B: MYANMAR CONSONANT SIGN MEDIAL YA​	myanmar
-ြ		ʳ		ʳ	r	r̆	T	medial consonant				U+103C: MYANMAR CONSONANT SIGN MEDIAL RA​	myanmar
-ႂ		ʷ	w	ʷ	w	w̆	G	medial consonant				U+1082: MYANMAR CONSONANT SIGN SHAN MEDIAL WA​	myanmar
+ျ		-j-	y	ʲ	y	y̆	B	medial consonant				U+103B: MYANMAR CONSONANT SIGN MEDIAL YA​	myanmar
+ြ		-r-	r	ʳ	r	r̆	T	medial consonant				U+103C: MYANMAR CONSONANT SIGN MEDIAL RA​	myanmar
+ႂ		-w- -ɰ	w	ʷ	w	w̆	G	medial consonant				U+1082: MYANMAR CONSONANT SIGN SHAN MEDIAL WA​	myanmar
 													
 													
 													
 ိ		-i-	i		i	i		vowel sign				U+102D: MYANMAR VOWEL SIGN I​	myanmar
 ီ		-iː	ii	iː	i	ī	D	vowel sign				U+102E: MYANMAR VOWEL SIGN II​	myanmar
-ို	s	-ɯ-	eu	ɯ		iu	d					U+102D U+102F: MYANMAR VOWEL SIGN I, VOWEL SIGN U​	
-ိုဝ်	s	-ɯ	eu			iuwˣ						U+102D U+102F U+101D U+103A: MYANMAR VOWEL SIGN I, VOWEL SIGN U, LETTER WA, SIGN ASAT​	
+ို	s	-ɯ-	eu	ɯ		iu	d	composite vowel				U+102D U+102F: MYANMAR VOWEL SIGN I, VOWEL SIGN U​	
+ိုဝ်	s	-ɯː	eu			iuwˣ		composite vowel				U+102D U+102F U+101D U+103A: MYANMAR VOWEL SIGN I, VOWEL SIGN U, LETTER WA, SIGN ASAT​	
 ု		-u-	u		u	u	k	vowel sign				U+102F: MYANMAR VOWEL SIGN U​	myanmar
-ူ		-o- -uː	o uu		u	ū	l	vowel sign				U+1030: MYANMAR VOWEL SIGN UU​	myanmar
-ေ		-e	e		e	e	a	vowel sign				U+1031: MYANMAR VOWEL SIGN E​	myanmar
+ူ		-uː -o-	o uu		u	ū	l	vowel sign				U+1030: MYANMAR VOWEL SIGN UU​	myanmar
+ေ		-eː	e		e	e	a	vowel sign				U+1031: MYANMAR VOWEL SIGN E​	myanmar
 ဵ		-e-	e		e	ė	A	vowel sign				U+1035: MYANMAR VOWEL SIGN E ABOVE​	myanmar
-ူဝ်	s	-o	o			ūwˣ						U+1030 U+101D U+103A: MYANMAR VOWEL SIGN UU, LETTER WA, SIGN ASAT​	
-ႄ		-ɛ	ae	ɛ	a	ɛ	s	vowel sign				U+1084: MYANMAR VOWEL SIGN SHAN E​	myanmar
+ူဝ်	s	-oː	o			ūwˣ		composite vowel				U+1030 U+101D U+103A: MYANMAR VOWEL SIGN UU, LETTER WA, SIGN ASAT​	
+ႄ		-ɛː	ae	ɛ	a	ɛ	s	vowel sign				U+1084: MYANMAR VOWEL SIGN SHAN E​	myanmar
 ႅ		-ɛ-	ae		a	ɛ̇	S	vowel sign				U+1085: MYANMAR VOWEL SIGN SHAN E ABOVE​	myanmar
 ွ		-ɔ-	aw o	ɔ	o	ɔ	g	vowel sign				U+103D: MYANMAR CONSONANT SIGN MEDIAL WA​	myanmar
-ေႃ	s	-ɔ	aw o			ea						U+1031 U+1083: MYANMAR VOWEL SIGN E, VOWEL SIGN SHAN AA​	
-ိူဝ်	s	-ə		ə								U+102D U+1030 U+101D U+103A: MYANMAR VOWEL SIGN I, VOWEL SIGN UU, LETTER WA, SIGN ASAT​	
-ိူ	s	-ə-	oe			iū						U+102D U+1030: MYANMAR VOWEL SIGN I, VOWEL SIGN UU​	
+ေႃ	s	-ɔː	aw o			ea		composite vowel				U+1031 U+1083: MYANMAR VOWEL SIGN E, VOWEL SIGN SHAN AA​	
+ိူ	s	-ɤ-	oe	ɤ ɤː		iū		composite vowel				U+102D U+1030: MYANMAR VOWEL SIGN I, VOWEL SIGN UU​	
+ိူဝ်	s	-ɤː		ə				composite vowel				U+102D U+1030 U+101D U+103A: MYANMAR VOWEL SIGN I, VOWEL SIGN UU, LETTER WA, SIGN ASAT​	
 ႃ		-ɑː	aa	ɑː	a	a	M	vowel sign				U+1083: MYANMAR VOWEL SIGN SHAN AA​	myanmar
 ၢ		-ɑː-	aa		a	ā	m	vowel sign				U+1062: MYANMAR VOWEL SIGN SGAW KAREN EU​	myanmar
 													
 ႟					o	o	N	vowel				U+109F: MYANMAR SYMBOL SHAN EXCLAMATION	myanmar
 													
 													
-ိဝ်	s	-iu	iu			iwˣ						U+102D U+101D U+103A: MYANMAR VOWEL SIGN I, LETTER WA, SIGN ASAT​	
-ိုၺ်	s	-ɨi	uei uey			iuɲˣ						U+102D U+102F U+107A U+103A: MYANMAR VOWEL SIGN I, VOWEL SIGN U, LETTER SHAN NYA, SIGN ASAT​	
-ုၺ်	s	-ui	ui			uɲˣ						U+102F U+107A U+103A: MYANMAR VOWEL SIGN U, LETTER SHAN NYA, SIGN ASAT​	
+ိဝ်	s	-iu	iu			iwˣ		composite vowel				U+102D U+101D U+103A: MYANMAR VOWEL SIGN I, LETTER WA, SIGN ASAT​	
+ိုၺ်	s	-ɨj	uei uey			iuɲˣ		composite vowel				U+102D U+102F U+107A U+103A: MYANMAR VOWEL SIGN I, VOWEL SIGN U, LETTER SHAN NYA, SIGN ASAT​	
+ုၺ်	s	-uj	ui			uɲˣ		composite vowel				U+102F U+107A U+103A: MYANMAR VOWEL SIGN U, LETTER SHAN NYA, SIGN ASAT​	
 													
-ဵဝ်	s	-eu	eo			ėwˣ							
-ူၺ်	s	-oi	ohi uai			ūɲˣ						U+1030 U+107A U+103A: MYANMAR VOWEL SIGN UU, LETTER SHAN NYA, SIGN ASAT​	
+ဵဝ်	s	-eu	eo			ėwˣ		composite vowel					
+ူၺ်	s	-oj	ohi uai			ūɲˣ		composite vowel				U+1030 U+107A U+103A: MYANMAR VOWEL SIGN UU, LETTER SHAN NYA, SIGN ASAT​	
 													
-ိူၺ်	s	-əi	oei oey			iūɲˣ						U+102D U+1030 U+107A U+103A: MYANMAR VOWEL SIGN I, VOWEL SIGN UU, LETTER SHAN NYA, SIGN ASAT​	
+ိူၺ်	s	-ɤj	oei oey			iūɲˣ		composite vowel				U+102D U+1030 U+107A U+103A: MYANMAR VOWEL SIGN I, VOWEL SIGN UU, LETTER SHAN NYA, SIGN ASAT​	
 													
-ႅဝ်	s	-ɛw	aeo			ɛ̇wˣ						U+1085 U+101D U+103A: MYANMAR VOWEL SIGN SHAN E ABOVE, LETTER WA, SIGN ASAT​	
-ွႆ	s	-ɔi	oi oy			ɔaʲ						U+103D U+1086: MYANMAR CONSONANT SIGN MEDIAL WA, VOWEL SIGN SHAN FINAL Y​	
-ႆ		-ai	ai		a	aʲ	J	vowel sign				U+1086: MYANMAR VOWEL SIGN SHAN FINAL Y​	myanmar
-ၢႆ	s	-aːi	aai			āaʲ						U+1062 U+1086: MYANMAR VOWEL SIGN SGAW KAREN EU, VOWEL SIGN SHAN FINAL Y​	
-ဝ်	s	-au	aw			wˣ	f					U+101D U+103A: MYANMAR LETTER WA, SIGN ASAT	
-ၢဝ်	s	-aːw	aaw			āwˣ						U+1062 U+101D U+103A: MYANMAR VOWEL SIGN SGAW KAREN EU, LETTER WA, SIGN ASAT​	
-ႂ်	s	-aɯ	aɨ			w̆ˣ	F					U+1082 U+103A: MYANMAR CONSONANT SIGN SHAN MEDIAL WA, SIGN ASAT​	
+ႅဝ်	s	-ɛw	aeo			ɛ̇wˣ		composite vowel				U+1085 U+101D U+103A: MYANMAR VOWEL SIGN SHAN E ABOVE, LETTER WA, SIGN ASAT​	
+ွႆ	s	-ɔi	oi oy			ɔaʲ		composite vowel				U+103D U+1086: MYANMAR CONSONANT SIGN MEDIAL WA, VOWEL SIGN SHAN FINAL Y​	
+ၢႆ	s	-aːi	aai			āaʲ		composite vowel				U+1062 U+1086: MYANMAR VOWEL SIGN SGAW KAREN EU, VOWEL SIGN SHAN FINAL Y​	
+ဝ်	s	-au	aw			wˣ	f	composite vowel				U+101D U+103A: MYANMAR LETTER WA, SIGN ASAT	
+ၢဝ်	s	-aːw	aaw			āwˣ		composite vowel				U+1062 U+101D U+103A: MYANMAR VOWEL SIGN SGAW KAREN EU, LETTER WA, SIGN ASAT​	
+ႂ်	s	-aɰ	aɨ			w̆ˣ	F	composite vowel				U+1082 U+103A: MYANMAR CONSONANT SIGN SHAN MEDIAL WA, SIGN ASAT​	
 													
+ႆ		-j	ai		a	ʲ	J	diphthong glide				U+1086: MYANMAR VOWEL SIGN SHAN FINAL Y​	myanmar
 													
 													
 ်					\	ˣ		asat				U+103A: MYANMAR SIGN ASAT​	myanmar
@@ -194,7 +194,7 @@ var spreadsheet = `
 
 
 
-latinPanel = 'ʳ ˩ ˧˨ ˥ ˦˨ˀ ˧˦˧ ɑː ɛ ə iː ʲ kʰ ŋ ɲ ɔ pʰ θ ʨ tʰ ʷ ɯ ʔ'
+latinPanel = 'ʳ ˩ ˧˨ ˥ ˦˨ˀ ˧˦˧ ɑː ɛ ə iː ʲ kʰ ŋ ɲ ɔ pʰ θ ʨ tʰ ʷ ɯ ʔ ɤ ɤː'
 
 
 
