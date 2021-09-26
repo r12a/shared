@@ -15,6 +15,8 @@ pageWebfonts = ["Myanmar3 WF", "Noto Sans Myanmar WF"]
 defaultSize = '24px'
 
 
+autoIndex = true
+
 
 // block settings
 
