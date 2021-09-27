@@ -7,7 +7,7 @@ explainerDir='bengali/'
 blockDir='bengali/'
 pickerDir='beng/'
 scriptSummaryTableName='lo'
-charUsageBCP='lo'
+charUsageBCP='bn'
 orthogName = 'Bengali'
 indic = true
 
@@ -24,4 +24,5 @@ lang = 'bn'
 direction = ''
 
 
+autoIndex = true
 
