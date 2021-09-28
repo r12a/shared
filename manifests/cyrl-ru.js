@@ -15,6 +15,11 @@ pageWebfonts = ["Gentium Plus WF"]
 defaultSize = '24px'
 
 
+
+autoIndex = true
+
+
+
 // block settings
 
 languageName = 'Russian'
