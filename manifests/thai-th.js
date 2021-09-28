@@ -15,6 +15,9 @@ pageWebfonts = ["Noto Serif Thai WF"]
 defaultSize = '24px'
 
 
+autoIndex = true
+
+
 
 // block settings
 
