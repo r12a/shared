@@ -39,13 +39,13 @@ var spreadsheet = `
 य		j	y		y	y	/	consonant						U+092F: DEVANAGARI LETTER YA	devanagari
 															
 															
-\u0958	p	q	q		q	q	k							U+0958: DEVANAGARI LETTER QA	devanagari
-\u0959	p	x	k͟h	k͟h	x	x								U+0959: DEVANAGARI LETTER KHHA	devanagari
-\u095A	p	ɣ	ġ	ɣ ġ	y	ɣ	i							U+095A: DEVANAGARI LETTER GHHA	devanagari
-\u095B	p	z	z		z	z	p							U+095B: DEVANAGARI LETTER ZA	devanagari
-\u095C	p	ɽ	ṛ	ɽ ṛ	r	ɽ								U+095C: DEVANAGARI LETTER DDDHA	devanagari
-\u095D	p	ɽʱ	ṛh	ɽʱ ṛh	r	ɽʱ								U+095D: DEVANAGARI LETTER RHA	devanagari
-\u095E	p	f	f		f	f								U+095E: DEVANAGARI LETTER FA	devanagari
+\u0958	p	q	q		q	q	k	consonant	decomposed sequence recommended					U+0958: DEVANAGARI LETTER QA	devanagari
+\u0959	p	x	k͟h	k͟h	x	x		consonant	decomposed sequence recommended					U+0959: DEVANAGARI LETTER KHHA	devanagari
+\u095A	p	ɣ	ġ	ɣ ġ	y	ɣ	i	consonant	decomposed sequence recommended					U+095A: DEVANAGARI LETTER GHHA	devanagari
+\u095B	p	z	z		z	z	p	consonant	decomposed sequence recommended					U+095B: DEVANAGARI LETTER ZA	devanagari
+\u095C	p	ɽ	ṛ	ɽ ṛ	r	ɽ		consonant	decomposed sequence recommended					U+095C: DEVANAGARI LETTER DDDHA	devanagari
+\u095D	p	ɽʱ	ṛh	ɽʱ ṛh	r	ɽʱ		consonant	decomposed sequence recommended					U+095D: DEVANAGARI LETTER RHA	devanagari
+\u095E	p	f	f		f	f		consonant	decomposed sequence recommended					U+095E: DEVANAGARI LETTER FA	devanagari
 															
 															
 ं		m n ŋ	ṁ	ṁ	m	ⁿͫ	x	final nasal					anusvara	U+0902: DEVANAGARI SIGN ANUSVARA​	devanagari
@@ -62,6 +62,8 @@ var spreadsheet = `
 ऐ		ɛː	ai	ɛː	E	ɛ̣̄	W	independent vowel		ै				U+0910: DEVANAGARI LETTER AI	devanagari
 ओ		oː	ō	oː ō	O	ọ̄	A	independent vowel		ो				U+0913: DEVANAGARI LETTER O	devanagari
 औ		ɔː	au	ɔː	O	ɔ̣̄	Q	independent vowel		ौ				U+0914: DEVANAGARI LETTER AU	devanagari
+ऍ		æ				æ̣		independent vowel		ॅ				U+090D: DEVANAGARI LETTER CANDRA E	devanagari
+ऑ		ɔ				ɔ̣	|	independent vowel		ॉ				U+0911: DEVANAGARI LETTER CANDRA O	devanagari
 															
 															
 ा		aː	ā		a	ā	e	vowel sign			आ			U+093E: DEVANAGARI VOWEL SIGN AA​	devanagari
@@ -73,6 +75,8 @@ var spreadsheet = `
 ै		ɛː	ai		e¶	ɛ̄	w	vowel sign			ऐ			U+0948: DEVANAGARI VOWEL SIGN AI​	devanagari
 ो		oː	ō		o	ō	a	vowel sign			ओ			U+094B: DEVANAGARI VOWEL SIGN O​	devanagari
 ौ		ɔː	au		o	ɔ̄	q	vowel sign			औ			U+094C: DEVANAGARI VOWEL SIGN AU​	devanagari
+ॅ		æ				æ	@	vowel-sign						U+0945: DEVANAGARI VOWEL SIGN CANDRA E​	devanagari
+ॉ		ɔ				ɔ	\	vowel-sign			ऑ			U+0949: DEVANAGARI VOWEL SIGN CANDRA O​	devanagari
 															
 															
 ृ		ri	r̥		R	r̥	=	vowel sign			ऋ			U+0943: DEVANAGARI VOWEL SIGN VOCALIC R​	devanagari
@@ -158,8 +162,7 @@ var spreadsheet = `
 															
 ॊ						–	§							U+094A: DEVANAGARI VOWEL SIGN SHORT O​	
 ऒ						–	±							U+0912: DEVANAGARI LETTER SHORT O	
-ऽ						–	2							U+093D: DEVANAGARI SIGN AVAGRAHA	
-ॅ						–	@							U+0945: DEVANAGARI VOWEL SIGN CANDRA E​	
+ऽ						ː	2	vowel lengthener						U+093D: DEVANAGARI SIGN AVAGRAHA	devanagari
 ्र						–	#							U+094D U+0930: DEVANAGARI SIGN VIRAMA, LETTER RA​	
 र्						–	$							U+0930 U+094D: DEVANAGARI LETTER RA, SIGN VIRAMA	
 ज्ञ						–	%							U+091C U+094D U+091E: DEVANAGARI LETTER JA, SIGN VIRAMA, LETTER NYA	
@@ -168,8 +171,6 @@ var spreadsheet = `
 श्र						–	*							U+0936 U+094D U+0930: DEVANAGARI LETTER SHA, SIGN VIRAMA, LETTER RA	
 ॢ						–	_							U+0962: DEVANAGARI VOWEL SIGN VOCALIC L​	
 ऱ						–	J							U+0931: DEVANAGARI LETTER RRA	
-ॉ						–	\							U+0949: DEVANAGARI VOWEL SIGN CANDRA O​	
-ऑ						–	|							U+0911: DEVANAGARI LETTER CANDRA O	
 ॆॆ						–	z							U+0946 U+0946: DEVANAGARI VOWEL SIGN SHORT E, VOWEL SIGN SHORT E​	
 ऎ						–	Z							U+090E: DEVANAGARI LETTER SHORT E	
 ऩ						–	V							U+0929: DEVANAGARI LETTER NNNA	
@@ -182,7 +183,7 @@ var spreadsheet = `
 `
 
 
-latinPanel = 'aː ā bʱ dʱ ɖ ḍ ɖʱ ḍh d͡ʒ d͡ʒʱ ə eː ē ɛː ɡʱ ġ ɦ ḥ ɪ iː ī kʰ k͟h ɭ̆ ḷ ṁ ɳ ṇ ɲ ñ ŋ ṅ oː ō ɔː pʰ ɽ ṛ ɽʱ ṛh riː r̥̄ ʃ ś ṣ tʰ ṭ ʈʰ ṭh t͡ʃ t͡ʃʰ ʊ uː ū ʋ ɣ'
+latinPanel = 'aː ā æ bʱ dʱ ɖ ḍ ɖʱ ḍh d͡ʒ d͡ʒʱ ə eː ē ɛː ɡʱ ġ ɦ ḥ ɪ iː ī kʰ k͟h ɭ̆ ḷ ṁ ɳ ṇ ɲ ñ ŋ ṅ oː ō ɔː pʰ ɽ ṛ ɽʱ ṛh riː r̥̄ ʃ ś ṣ tʰ ṭ ʈʰ ṭh t͡ʃ t͡ʃʰ ʊ uː ū ʋ ɣ'
 
 
 var cols = {
