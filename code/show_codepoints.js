@@ -283,6 +283,7 @@ function makeDetails (chars) {
             if (spreadsheetRows[charArray[i]][cols['typeLoc']]) out += '<span class="charType">'+spreadsheetRows[charArray[i]][cols['typeLoc']]+'</span>'
             if (spreadsheetRows[charArray[i]][cols['statusLoc']]) out += ' &nbsp; <span class="usageType">('+spreadsheetRows[charArray[i]][cols['statusLoc']]+')</span>'
             if (spreadsheetRows[charArray[i]][cols['ipaLoc']]) out += ' &nbsp; <span class="charIPA ipa">'+spreadsheetRows[charArray[i]][cols['ipaLoc']]+'</span>'
+            if (spreadsheetRows[charArray[i]][cols['class']]) out += ' &nbsp; <span class="charGC">'+spreadsheetRows[charArray[i]][cols['class']]+'</span>'
             out += '</span></p>'
 
             if (charDetails[charArray[i]]) out += charDetails[charArray[i]]
