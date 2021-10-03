@@ -1,86 +1,86 @@
 var spreadsheet = `
-ป		p -p	p		p	p̯	x	mid class plosive			ป ปลา	po pla	U+0E1B: THAI CHARACTER PO PLA	thai
-พ		pʰ -p	ph -p		p	p̱ʰ	r	low class plosive			พ พาน	pho phan	U+0E1E: THAI CHARACTER PHO PHAN	thai
-ภ		pʰ -p	ph -p		p	ṗ̱ʰ	4	low class plosive			ภ สำเภา	pho sam-phao	U+0E20: THAI CHARACTER PHO SAMPHAO	thai
-ผ		pʰ	ph	pʰ	p	pʰ	z	high class plosive			ผ ผึ้ง	po pheung	U+0E1C: THAI CHARACTER PHO PHUNG	thai
-บ		b -p	b -p		b	b̯	[	mid class plosive			บ ใบไม้	bo baimai	U+0E1A: THAI CHARACTER BO BAIMAI	thai
-ท		tʰ -t	th -t		t	ṯʰ	m	low class plosive			ท ทหาร	tho thahan	U+0E17: THAI CHARACTER THO THAHAN	thai
-ต		t -t	t		t	t̯	9	mid class plosive			ต เต่า	to tao	U+0E15: THAI CHARACTER TO TAO	thai
-ถ		tʰ -t	th -t		t	tʰ	5	high class plosive			ถ ถุง	tho thung	U+0E16: THAI CHARACTER THO THUNG	thai
-ธ		tʰ -t	th -t		t	ṯ̇ʰ	T	low class plosive			ธ ธง	tho thong	U+0E18: THAI CHARACTER THO THONG	thai
-ฐ		tʰ -t	th -t	tʰ	t	ṭʰ	{	high class plosive			ฐ ฐาน	tho than	U+0E10: THAI CHARACTER THO THAN	thai
-ฏ		t -t	t		t	ṭ̯	D	mid class plosive			ฏ ปฏัก	to pa-tak	U+0E0F: THAI CHARACTER TO PATAK	thai
-ฒ		tʰ -t	th -t		t	ṭ̱̇ʰ	<	low class plosive			ฒ ผู้เฒ่า	tho phu-thao	U+0E12: THAI CHARACTER THO PHUTHAO	thai
-ฑ		tʰ -t	th -t		t	ṭ̱ʰ	R	low class plosive			ฑ มณโฑ	tho montho	U+0E11: THAI CHARACTER THO NANGMONTHO	thai
-ด		d -t	d -t		d	d̯	f	mid class plosive			ด เด็ก	do dek	U+0E14: THAI CHARACTER DO DEK	thai
-ฎ		d -t	d -t		d	ḍ̯	E	mid class plosive			ฎ ชฎา	do cha-da	U+0E0E: THAI CHARACTER DO CHADA	thai
-ก		k -k	k -k		k	k̯	d	mid class plosive			ก ไก่	ko kai 	U+0E01: THAI CHARACTER KO KAI	thai
-ค		kʰ -k	kh -k		k	ḵʰ	8	low class plosive			ค ควาย	kho khwāi 	U+0E04: THAI CHARACTER KHO KHWAI	thai
-ข		kʰ -k	kh -k	kʰ	k	kʰ	-	high class plosive			ข ไข่	kho khai 	U+0E02: THAI CHARACTER KHO KHAI	thai
-ฆ		kʰ -k	kh -k		k	ḵ̇ʰ	S	low class plosive			ฆ ระฆัง	kho ra-khang	U+0E06: THAI CHARACTER KHO RAKHANG	thai
-ฃ		kʰ -k	kh -k		k	k̈ʰ	\	high class plosive	obsolete		ฃ ขวด	kho khūat 	U+0E03: THAI CHARACTER KHO KHUAT	thai
-ฅ		kʰ -k	kh -k		k	ḵ̈ʰ	|	low class plosive	obsolete		ฅ คน	kho khon	U+0E05: THAI CHARACTER KHO KHON	thai
+ป	Lo	p -p	p		p	p̯	x	mid class plosive			ป ปลา	po pla	U+0E1B: THAI CHARACTER PO PLA	🗸
+พ	Lo	pʰ -p	ph -p		p	p̱ʰ	r	low class plosive			พ พาน	pho phan	U+0E1E: THAI CHARACTER PHO PHAN	🗸
+ภ	Lo	pʰ -p	ph -p		p	ṗ̱ʰ	4	low class plosive			ภ สำเภา	pho sam-phao	U+0E20: THAI CHARACTER PHO SAMPHAO	🗸
+ผ	Lo	pʰ	ph	pʰ	p	pʰ	z	high class plosive			ผ ผึ้ง	po pheung	U+0E1C: THAI CHARACTER PHO PHUNG	🗸
+บ	Lo	b -p	b -p		b	b̯	[	mid class plosive			บ ใบไม้	bo baimai	U+0E1A: THAI CHARACTER BO BAIMAI	🗸
+ท	Lo	tʰ -t	th -t		t	ṯʰ	m	low class plosive			ท ทหาร	tho thahan	U+0E17: THAI CHARACTER THO THAHAN	🗸
+ต	Lo	t -t	t		t	t̯	9	mid class plosive			ต เต่า	to tao	U+0E15: THAI CHARACTER TO TAO	🗸
+ถ	Lo	tʰ -t	th -t		t	tʰ	5	high class plosive			ถ ถุง	tho thung	U+0E16: THAI CHARACTER THO THUNG	🗸
+ธ	Lo	tʰ -t	th -t		t	ṯ̇ʰ	T	low class plosive			ธ ธง	tho thong	U+0E18: THAI CHARACTER THO THONG	🗸
+ฐ	Lo	tʰ -t	th -t	tʰ	t	ṭʰ	{	high class plosive			ฐ ฐาน	tho than	U+0E10: THAI CHARACTER THO THAN	🗸
+ฏ	Lo	t -t	t		t	ṭ̯	D	mid class plosive			ฏ ปฏัก	to pa-tak	U+0E0F: THAI CHARACTER TO PATAK	🗸
+ฒ	Lo	tʰ -t	th -t		t	ṭ̱̇ʰ	<	low class plosive			ฒ ผู้เฒ่า	tho phu-thao	U+0E12: THAI CHARACTER THO PHUTHAO	🗸
+ฑ	Lo	tʰ -t	th -t		t	ṭ̱ʰ	R	low class plosive			ฑ มณโฑ	tho montho	U+0E11: THAI CHARACTER THO NANGMONTHO	🗸
+ด	Lo	d -t	d -t		d	d̯	f	mid class plosive			ด เด็ก	do dek	U+0E14: THAI CHARACTER DO DEK	🗸
+ฎ	Lo	d -t	d -t		d	ḍ̯	E	mid class plosive			ฎ ชฎา	do cha-da	U+0E0E: THAI CHARACTER DO CHADA	🗸
+ก	Lo	k -k	k -k		k	k̯	d	mid class plosive			ก ไก่	ko kai 	U+0E01: THAI CHARACTER KO KAI	🗸
+ค	Lo	kʰ -k	kh -k		k	ḵʰ	8	low class plosive			ค ควาย	kho khwāi 	U+0E04: THAI CHARACTER KHO KHWAI	🗸
+ข	Lo	kʰ -k	kh -k	kʰ	k	kʰ	-	high class plosive			ข ไข่	kho khai 	U+0E02: THAI CHARACTER KHO KHAI	🗸
+ฆ	Lo	kʰ -k	kh -k		k	ḵ̇ʰ	S	low class plosive			ฆ ระฆัง	kho ra-khang	U+0E06: THAI CHARACTER KHO RAKHANG	🗸
+ฃ	Lo	kʰ -k	kh -k		k	k̈ʰ	\	high class plosive	obsolete		ฃ ขวด	kho khūat 	U+0E03: THAI CHARACTER KHO KHUAT	🗸
+ฅ	Lo	kʰ -k	kh -k		k	ḵ̈ʰ	|	low class plosive	obsolete		ฅ คน	kho khon	U+0E05: THAI CHARACTER KHO KHON	🗸
 														
-จ		t͡ɕ -t	ch -t	t͡ɕ	c	c̯	0	mid class affricate			จ จาน	cho chan	U+0E08: THAI CHARACTER CHO CHAN	thai
-ช		t͡ɕʰ -t	ch -t		c	c̱ʰ	=	low class affricate			ช ช้าง	cho chang	U+0E0A: THAI CHARACTER CHO CHANG	thai
-ฉ		t͡ɕʰ	ch	t͡ɕʰ	c	cʰ	C	high class affricate			ฉ ฉิ่ง	cho ching	U+0E09: THAI CHARACTER CHO CHING	thai
-ฌ		t͡ɕʰ	ch		c	ċ̱ʰ	G	low class affricate			ฌ เฌอ	cho choe	U+0E0C: THAI CHARACTER CHO CHOE	thai
+จ	Lo	t͡ɕ -t	ch -t	t͡ɕ	c	c̯	0	mid class affricate			จ จาน	cho chan	U+0E08: THAI CHARACTER CHO CHAN	🗸
+ช	Lo	t͡ɕʰ -t	ch -t		c	c̱ʰ	=	low class affricate			ช ช้าง	cho chang	U+0E0A: THAI CHARACTER CHO CHANG	🗸
+ฉ	Lo	t͡ɕʰ	ch	t͡ɕʰ	c	cʰ	C	high class affricate			ฉ ฉิ่ง	cho ching	U+0E09: THAI CHARACTER CHO CHING	🗸
+ฌ	Lo	t͡ɕʰ	ch		c	ċ̱ʰ	G	low class affricate			ฌ เฌอ	cho choe	U+0E0C: THAI CHARACTER CHO CHOE	🗸
 														
-ม		m	m		m	m̱	,	low class nasal			ม ม้า	mo ma	U+0E21: THAI CHARACTER MO MA	thai
-น		n	n		n	ṉ	o	low class nasal			น หนู	no nu	U+0E19: THAI CHARACTER NO NU	thai
-ง		ŋ	ng	ŋ	n	ŋ̱	'	low class nasal			ง งู	ngo ngu	U+0E07: THAI CHARACTER NGO NGU	thai
-ณ		n	n		n	ṇ̱	I	low class nasal			ณ เณร	no nen	U+0E13: THAI CHARACTER NO NEN	thai
+ม	Lo	m	m		m	m̱	,	low class nasal			ม ม้า	mo ma	U+0E21: THAI CHARACTER MO MA	🗸
+น	Lo	n	n		n	ṉ	o	low class nasal			น หนู	no nu	U+0E19: THAI CHARACTER NO NU	🗸
+ง	Lo	ŋ	ng	ŋ	n	ŋ̱	'	low class nasal			ง งู	ngo ngu	U+0E07: THAI CHARACTER NGO NGU	🗸
+ณ	Lo	n	n		n	ṇ̱	I	low class nasal			ณ เณร	no nen	U+0E13: THAI CHARACTER NO NEN	🗸
 														
-ฟ		f	f		f	f̱	a	low class fricative			ฝ ฝา	fo fa	U+0E1F: THAI CHARACTER FO FAN	thai
-ฝ		f -p	f -p		f	f	/	high class fricative			ฟ ฟัน	fo fan	U+0E1D: THAI CHARACTER FO FA	thai
-ห		h	h		h	h	s	high class fricative			ห หีบ	ho hip	U+0E2B: THAI CHARACTER HO HIP	thai
-ฮ		h	h		h	ẖ	V	low class fricative			ฮ นกฮูก	ho nok-huk	U+0E2E: THAI CHARACTER HO NOKHUK	thai
-ส		s -t	s -t		s	s	l	high class fricative			ส เสือ	so suea	U+0E2A: THAI CHARACTER SO SUA	thai
-ศ		s -t	s -t		s	ś	L	high class fricative			ศ ศาลา	so sala	U+0E28: THAI CHARACTER SO SALA	thai
-ซ		s -t	s -t		s	ṡ̱	:	low class fricative			ซ โซ่	so so	U+0E0B: THAI CHARACTER SO SO	thai
-ษ		s -t	s -t		s	ṣ	K	high class fricative			ษ ฤๅษี	so rue-si	U+0E29: THAI CHARACTER SO RUSI	thai
-														
-														
-ว		w	w		w	w̱	;	low class approximant			ว แหวน	wo waen	U+0E27: THAI CHARACTER WO WAEN	thai
-ร		r -n	r -n		r	ṟ	i	low class approximant			ร เรือ	ro ruea	U+0E23: THAI CHARACTER RO RUA	thai
-ล		l -n	l -n		l	ḻ	]	low class approximant			ล ลิง	lo ling	U+0E25: THAI CHARACTER LO LING	thai
-ฬ		l -n	l -n		l	ḻ̇	>	low class approximant			ฬ จุฬา	lo chu-la	U+0E2C: THAI CHARACTER LO CHULA	thai
-ย		j (-n)	y (-n)		y	y̱	p	low class approximant			ย ยักษ์	yo yak	U+0E22: THAI CHARACTER YO YAK	thai
-ญ		j -n	y -n		y	ẏ̱	P	low class approximant			ญ หญิง	yo ying	U+0E0D: THAI CHARACTER YO YING	thai
-														
-อ		- ɔː	' o	ɔː	}	ʔ̯	v	mid class vowel carrier/vowel			อ อ่าง	o ang	U+0E2D: THAI CHARACTER O ANG	thai
+ฟ	Lo	f	f		f	f̱	a	low class fricative			ฝ ฝา	fo fa	U+0E1F: THAI CHARACTER FO FAN	🗸
+ฝ	Lo	f -p	f -p		f	f	/	high class fricative			ฟ ฟัน	fo fan	U+0E1D: THAI CHARACTER FO FA	🗸
+ห	Lo	h	h		h	h	s	high class fricative			ห หีบ	ho hip	U+0E2B: THAI CHARACTER HO HIP	🗸
+ฮ	Lo	h	h		h	ẖ	V	low class fricative			ฮ นกฮูก	ho nok-huk	U+0E2E: THAI CHARACTER HO NOKHUK	🗸
+ส	Lo	s -t	s -t		s	s	l	high class fricative			ส เสือ	so suea	U+0E2A: THAI CHARACTER SO SUA	🗸
+ศ	Lo	s -t	s -t		s	ś	L	high class fricative			ศ ศาลา	so sala	U+0E28: THAI CHARACTER SO SALA	🗸
+ซ	Lo	s -t	s -t		s	ṡ̱	:	low class fricative			ซ โซ่	so so	U+0E0B: THAI CHARACTER SO SO	🗸
+ษ	Lo	s -t	s -t		s	ṣ	K	high class fricative			ษ ฤๅษี	so rue-si	U+0E29: THAI CHARACTER SO RUSI	🗸
 														
 														
+ว	Lo	w	w		w	w̱	;	low class approximant			ว แหวน	wo waen	U+0E27: THAI CHARACTER WO WAEN	🗸
+ร	Lo	r -n	r -n		r	ṟ	i	low class approximant			ร เรือ	ro ruea	U+0E23: THAI CHARACTER RO RUA	🗸
+ล	Lo	l -n	l -n		l	ḻ	]	low class approximant			ล ลิง	lo ling	U+0E25: THAI CHARACTER LO LING	🗸
+ฬ	Lo	l -n	l -n		l	ḻ̇	>	low class approximant			ฬ จุฬา	lo chu-la	U+0E2C: THAI CHARACTER LO CHULA	🗸
+ย	Lo	j (-n)	y (-n)		y	y̱	p	low class approximant			ย ยักษ์	yo yak	U+0E22: THAI CHARACTER YO YAK	🗸
+ญ	Lo	j -n	y -n		y	ẏ̱	P	low class approximant			ญ หญิง	yo ying	U+0E0D: THAI CHARACTER YO YING	🗸
 														
-														
-ิ		i	i		i	i	b	short vowel			พินทุอิ	phinthu i	U+0E34: THAI CHARACTER SARA I​	thai
-ี		iː	i	iː	i	ī	u	long vowel			ฝนทอง	fong thong	U+0E35: THAI CHARACTER SARA II​	thai
-ึ		ɯ	ue	ɯ	W	ɯ	7	short vowel			นิคหิต	nikkhahit	U+0E36: THAI CHARACTER SARA UE​	thai
-ื		ɯː	ue	ɯː	W	ɯ̄	n	long vowel			ฟันหนู	fan nu	U+0E37: THAI CHARACTER SARA UEE​	thai
-ุ		u	u		u	u	6	short vowel			ตีนเหยียด	tin yiat	U+0E38: THAI CHARACTER SARA U​	thai
-ู		uː	u	uː	u	ū	^	long vowel			ตีนคู้	tin khu	U+0E39: THAI CHARACTER SARA UU​	thai
-เ		eː	e	eː	e	e	g	prescript long vowel			ไม้หน้า	mai na	U+0E40: THAI CHARACTER SARA E	thai
-โ		oː	o	oː	o	o	F	prescript long vowel			ไม้โอ	mai o	U+0E42: THAI CHARACTER SARA O	thai
-แ		ɛː	ae	ɛː	E	ɛ	c	prescript long vowel					U+0E41: THAI CHARACTER SARA AE	thai
-า		aː	a	aː	a	ā	k	vowel			ลากข้าง	lak khang	U+0E32: THAI CHARACTER SARA AA	thai
-ั		-a-	a		a	ä	y	vowel			ไม้หันอากาศ	mai han a-kat	U+0E31: THAI CHARACTER MAI HAN-AKAT​	thai
-ะ		a	a		a	a	t	vowel			วิสรรชนีย์	wisanchani	U+0E30: THAI CHARACTER SARA A	thai
-ใ		aj	ai		a	äʲ	.	prescript long vowel			ไม้ม้วน	mai muan	U+0E43: THAI CHARACTER SARA AI MAIMUAN	thai
-ไ		aj	ai		a	aʲ	w	prescript long vowel			ไม้มลาย	mai malai	U+0E44: THAI CHARACTER SARA AI MAIMALAI	thai
-ำ		am			a	aᵐ	e	vowel					U+0E33: THAI CHARACTER SARA AM	thai
-ํ						º	Y	nikahit					U+0E4D: THAI CHARACTER NIKHAHIT​	
-														
-														
-ฤ		rɯ ri			r	r̥	A	vocalic			ตัว ฤ	tua rue	U+0E24: THAI CHARACTER RU	thai
-ฦ		lɯ			l	l̥	?	vocalic					U+0E26: THAI CHARACTER LU	thai
-ๅ		ɯː			W	ɯ̃	1	vocalic vowel lengthener					U+0E45: THAI CHARACTER LAKKHANGYAO	thai
+อ	Lo	- ɔː	' o	ɔː	}	ʔ̯	v	mid class vowel carrier/vowel			อ อ่าง	o ang	U+0E2D: THAI CHARACTER O ANG	🗸
 														
 														
 														
-่		̀		˩˩	^	¹	j	tone mark			ไม้เอก	májèːk	U+0E48: THAI CHARACTER MAI EK​	thai
-้		̂		˩˥	^	²	h	tone mark			ไม้โท	májtʰoː	U+0E49: THAI CHARACTER MAI THO​	thai
-๊		́		˥˩	^	³	U	tone mark			ไม้ตรี	májtriː	U+0E4A: THAI CHARACTER MAI TRI​	thai
-๋		̌		˧˧	^	⁴	J	tone mark			ไม้จัตวา	májtɕàttàwaː	U+0E4B: THAI CHARACTER MAI CHATTAWA​	thai
+														
+ิ	Mn	i	i		i	i	b	short vowel			พินทุอิ	phinthu i	U+0E34: THAI CHARACTER SARA I​	🗸
+ี	Mn	iː	i	iː	i	ī	u	long vowel			ฝนทอง	fong thong	U+0E35: THAI CHARACTER SARA II​	🗸
+ึ	Mn	ɯ	ue	ɯ	W	ɯ	7	short vowel			นิคหิต	nikkhahit	U+0E36: THAI CHARACTER SARA UE​	🗸
+ื	Mn	ɯː	ue	ɯː	W	ɯ̄	n	long vowel			ฟันหนู	fan nu	U+0E37: THAI CHARACTER SARA UEE​	🗸
+ุ	Mn	u	u		u	u	6	short vowel			ตีนเหยียด	tin yiat	U+0E38: THAI CHARACTER SARA U​	🗸
+ู	Mn	uː	u	uː	u	ū	^	long vowel			ตีนคู้	tin khu	U+0E39: THAI CHARACTER SARA UU​	🗸
+เ	Lo	eː	e	eː	e	e	g	prescript long vowel			ไม้หน้า	mai na	U+0E40: THAI CHARACTER SARA E	🗸
+โ	Lo	oː	o	oː	o	o	F	prescript long vowel			ไม้โอ	mai o	U+0E42: THAI CHARACTER SARA O	🗸
+แ	Lo	ɛː	ae	ɛː	E	ɛ	c	prescript long vowel					U+0E41: THAI CHARACTER SARA AE	🗸
+า	Lo	aː	a	aː	a	ā	k	vowel			ลากข้าง	lak khang	U+0E32: THAI CHARACTER SARA AA	🗸
+ั	Mn	-a-	a		a	ä	y	vowel			ไม้หันอากาศ	mai han a-kat	U+0E31: THAI CHARACTER MAI HAN-AKAT​	🗸
+ะ	Lo	a	a		a	a	t	vowel			วิสรรชนีย์	wisanchani	U+0E30: THAI CHARACTER SARA A	🗸
+ใ	Lo	aj	ai		a	äʲ	.	prescript long vowel			ไม้ม้วน	mai muan	U+0E43: THAI CHARACTER SARA AI MAIMUAN	🗸
+ไ	Lo	aj	ai		a	aʲ	w	prescript long vowel			ไม้มลาย	mai malai	U+0E44: THAI CHARACTER SARA AI MAIMALAI	🗸
+ำ	Lo	am			a	aᵐ	e	vowel					U+0E33: THAI CHARACTER SARA AM	🗸
+ํ	Mn					º	Y	nikahit					U+0E4D: THAI CHARACTER NIKHAHIT​	🗸
+														
+														
+ฤ	Lo	rɯ ri			r	r̥	A	vocalic			ตัว ฤ	tua rue	U+0E24: THAI CHARACTER RU	🗸
+ฦ	Lo	lɯ			l	l̥	?	vocalic					U+0E26: THAI CHARACTER LU	🗸
+ๅ	Lo	ɯː			W	ɯ̃	1	vocalic vowel lengthener					U+0E45: THAI CHARACTER LAKKHANGYAO	🗸
+														
+														
+														
+่	Mn	̀		˩˩	^	¹	j	tone mark			ไม้เอก	májèːk	U+0E48: THAI CHARACTER MAI EK​	🗸
+้	Mn	̂		˩˥	^	²	h	tone mark			ไม้โท	májtʰoː	U+0E49: THAI CHARACTER MAI THO​	🗸
+๊	Mn	́		˥˩	^	³	U	tone mark			ไม้ตรี	májtriː	U+0E4A: THAI CHARACTER MAI TRI​	🗸
+๋	Mn	̌		˧˧	^	⁴	J	tone mark			ไม้จัตวา	májtɕàttàwaː	U+0E4B: THAI CHARACTER MAI CHATTAWA​	🗸
 				˦˥										
 														
 														
@@ -190,100 +190,100 @@ var spreadsheet = `
 				ɤ̌	v	ɤ̌								
 														
 														
-๏					-	•		bullet					U+0E4F: THAI CHARACTER FONGMAN	thai
+๏	Po				-	•		bullet					U+0E4F: THAI CHARACTER FONGMAN	🗸
 														
 														
 														
-็		ɔː			[	˘	H	vowel shortener			ไม้ไต่คู้	mai tai khu	U+0E47: THAI CHARACTER MAITAIKHU​	thai
+็	Mn	ɔː			[	˘	H	vowel shortener			ไม้ไต่คู้	mai tai khu	U+0E47: THAI CHARACTER MAITAIKHU​	🗸
 														
 														
-‍ଁ		̃	̃		[	˜		nasalisation						
+‍ଁ	Mn	̃	̃		[	˜		nasalisation						
 														
 														
-ฺ					§	͓	B	virama	Pali				U+0E3A: THAI CHARACTER PHINTHU​	
-๎					\	ʿ		cluster mark	archaic				U+0E4E: THAI CHARACTER YAMAKKAN​	thai
+ฺ	Mn				§	͓	B	virama	Pali				U+0E3A: THAI CHARACTER PHINTHU​	🗸
+๎	Mn				\	ʿ		cluster mark	archaic				U+0E4E: THAI CHARACTER YAMAKKAN​	🗸
 														
 														
-์					*	˟	N	cancellation mark			การันต์/ไม้ทัณฑฆาต	kaːran/májtʰantʰákʰâːt	U+0E4C: THAI CHARACTER THANTHAKHAT​	thai
+์	Mn				*	˟	N	cancellation mark			การันต์/ไม้ทัณฑฆาต	kaːran/májtʰantʰákʰâːt	U+0E4C: THAI CHARACTER THANTHAKHAT​	🗸
 ‍ଽ					]	′		elision						
 														
 														
-ๆ					&	&	q	repetition symbol			ไม้ยมก	májjàmòk	U+0E46: THAI CHARACTER MAIYAMOK	thai
+ๆ	Lm				&	&	q	repetition symbol			ไม้ยมก	májjàmòk	U+0E46: THAI CHARACTER MAIYAMOK	🗸
 														
 														
-ฯ					+	¨	O	abbreviation symbol/phrase terminator			พยาลน้อย/ไปยาลเล็ก	pʰájaːnnɔ́ːj/pajjaːnlék	U+0E2F: THAI CHARACTER PAIYANNOI	thai
+ฯ	Po				+	¨	O	abbreviation symbol/phrase terminator			พยาลน้อย/ไปยาลเล็ก	pʰájaːnnɔ́ːj/pajjaːnlék	U+0E2F: THAI CHARACTER PAIYANNOI	🗸
 														
 														
-\u200B					]	␣		ZWSP					U+200B ZERO WIDTH SPACE	thai
+\u200B	Cf				]	␣		ZWSP					U+200B ZERO WIDTH SPACE	
 														
 														
-๚					|	¶		section end marker					U+0E5A: THAI CHARACTER ANGKHANKHU	thai
-๛					|	|		chapter/document start marker					U+0E5B: THAI CHARACTER KHOMUT	thai
-.			.		.	.	"	full stop					U+002E: FULL STOP	
-,			,		,	,	}	comma					U+002C: COMMA	
-:			:		:	:		colon					U+003A: COLON	
-;			;		;	;		semicolon					U+003B: SEMICOLON	
-!			!		!	!		exclamation mark					U+0021: EXCLAMATION MARK	
-?			?		?	?	M	question mark					U+003F: QUESTION MARK	
+๚	Po				|	¶		section end marker					U+0E5A: THAI CHARACTER ANGKHANKHU	🗸
+๛	Po				|	|		chapter/document start marker					U+0E5B: THAI CHARACTER KHOMUT	🗸
+.	Po		.		.	.	"	full stop					U+002E: FULL STOP	
+,	Po		,		,	,	}	comma					U+002C: COMMA	
+:	Po		:		:	:		colon					U+003A: COLON	
+;	Po		;		;	;		semicolon					U+003B: SEMICOLON	
+!	Po		!		!	!		exclamation mark					U+0021: EXCLAMATION MARK	
+?	Po		?		?	?	M	question mark					U+003F: QUESTION MARK	
 														
 														
-…			…		.	…		ellipsis					U+2026: HORIZONTAL ELLIPSIS	
+…	Po		…		.	…		ellipsis					U+2026: HORIZONTAL ELLIPSIS	
 														
 														
-«			“		<	«		quotation mark					U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
-»			”		>	»		quotation mark					U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
-‹			‘		<	‹		quotation mark					U+2018: LEFT SINGLE QUOTATION MARK	thai
-›			’		>	›		quotation mark					U+2019: RIGHT SINGLE QUOTATION MARK	thai
-“			“		<	 “		quotation mark					U+201C: LEFT DOUBLE QUOTATION MARK	thai
-”			”		>	”		quotation mark					U+201D: RIGHT DOUBLE QUOTATION MARK	thai
-‘			‘		<	‘		quotation mark					U+2018: LEFT SINGLE QUOTATION MARK	thai
-’			’		>	’		quotation mark					U+2019: RIGHT SINGLE QUOTATION MARK	thai
+«	Pi		“		<	«		quotation mark					U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
+»	Pf		”		>	»		quotation mark					U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
+‹	Pi		‘		<	‹		quotation mark					U+2018: LEFT SINGLE QUOTATION MARK	
+›	Pf		’		>	›		quotation mark					U+2019: RIGHT SINGLE QUOTATION MARK	
+“	Pi		“		<	 “		quotation mark					U+201C: LEFT DOUBLE QUOTATION MARK	
+”	Pf		”		>	”		quotation mark					U+201D: RIGHT DOUBLE QUOTATION MARK	
+‘	Pi		‘		<	‘		quotation mark					U+2018: LEFT SINGLE QUOTATION MARK	
+’	Pf		’		>	’		quotation mark					U+2019: RIGHT SINGLE QUOTATION MARK	
 														
-(			(		(	(	Z	parenthesis					U+0028: LEFT PARENTHESIS	thai
-[			[		(	[		bracket					U+005B: LEFT SQUARE BRACKET	thai
-)			)		)	)	X	parenthesis					U+0029: RIGHT PARENTHESIS	thai
-]			]		)	]		bracket					U+005D: RIGHT SQUARE BRACKET	thai
-														
-														
--			-		-	-		hyphen					U+2010: HYPHEN	thai
-‑			‑		-	‑		non-breaking hyphen					U+2011: NON-BREAKING HYPHEN	thai
-–			–		-	–		en dash					U+2013: EN DASH	thai
-—			—		-	—		em dash					U+2014: EM DASH	thai
+(	Ps		(		(	(	Z	parenthesis					U+0028: LEFT PARENTHESIS	
+)	Pe		)		)	)	X	parenthesis					U+0029: RIGHT PARENTHESIS	
+[	Ps		[		(	[		bracket					U+005B: LEFT SQUARE BRACKET	
+]	Pe		]		)	]		bracket					U+005D: RIGHT SQUARE BRACKET	
 														
 														
-														
-ʼ			ʼ			ʼ		apostrophe					U+02BC: MODIFIER LETTER APOSTROPHE	
-§			§			§		section sign					U+00A7: SECTION SIGN	
-†			†			†		dagger					U+2020: DAGGER	
-‡			‡			‡		double dagger					U+2021: DOUBLE DAGGER	
-′			′			′		prime					U+2032: PRIME	
-″			″			″		double prime					U+2033: DOUBLE PRIME	
-														
-														
-\u200B					]	␣		zero-width space					U+200B: ZERO WIDTH SPACE	thai
-\u200C					=	ₓ		zwnj					U+200C: ZERO WIDTH NON-JOINER	
-\u200D					=	₊		zwj					U+200D: ZERO WIDTH JOINER	
-\u034F					=	ᶜᵍʲ		combining grapheme joiner					U+034F: COMBINING GRAPHEME JOINER​	thai
-														
-														
-๐		0	0		0	0̣	Q	digit					U+0E50: THAI DIGIT ZERO	thai
-๑		1	1		1	1̣	@	digit					U+0E51: THAI DIGIT ONE	thai
-๒		2	2		2	2̣	#	digit					U+0E52: THAI DIGIT TWO	thai
-๓		3	3		3	3̣	$	digit					U+0E53: THAI DIGIT THREE	thai
-๔		4	4		4	4̣	%	digit					U+0E54: THAI DIGIT FOUR	thai
-๕		5	5		5	5̣	*	digit					U+0E55: THAI DIGIT FIVE	thai
-๖		6	6		6	6̣	(	digit					U+0E56: THAI DIGIT SIX	thai
-๗		7	7		7	7̣	)	digit					U+0E57: THAI DIGIT SEVEN	thai
-๘		8	8		8	8̣	_	digit					U+0E58: THAI DIGIT EIGHT	thai
-๙		9	9		9	9̣	+	digit					U+0E59: THAI DIGIT NINE	thai
-														
-														
-฿					#	¤	&	currency sign					U+0E3F: THAI CURRENCY SYMBOL BAHT	thai
+-	Pd		-		-	-		hyphen					U+2010: HYPHEN	
+‑	Pd		‑		-	‑		non-breaking hyphen					U+2011: NON-BREAKING HYPHEN	
+–	Pd		–		-	–		en dash					U+2013: EN DASH	
+—	Pd		—		-	—		em dash					U+2014: EM DASH	
 														
 														
 														
-%					%	%		percentage mark					U+0025: PERCENT SIGN	thai
-‰					%	‰		per mille mark					U+2030: PER MILLE SIGN	thai
+ʼ	Lm		ʼ			ʼ		apostrophe					U+02BC: MODIFIER LETTER APOSTROPHE	
+§	Po		§			§		section sign					U+00A7: SECTION SIGN	
+†	Po		†			†		dagger					U+2020: DAGGER	
+‡	Po		‡			‡		double dagger					U+2021: DOUBLE DAGGER	
+′	Po		′			′		prime					U+2032: PRIME	
+″	Po		″			″		double prime					U+2033: DOUBLE PRIME	
+														
+														
+\u200B	Cf				]	␣		zero-width space					U+200B: ZERO WIDTH SPACE	
+\u200C	Cf				=	ₓ		zwnj					U+200C: ZERO WIDTH NON-JOINER	
+\u200D	Cf				=	₊		zwj					U+200D: ZERO WIDTH JOINER	
+\u034F					=	ᶜᵍʲ		combining grapheme joiner					U+034F: COMBINING GRAPHEME JOINER​	
+														
+														
+๐	Nd	0	0		0	0̣	Q	digit					U+0E50: THAI DIGIT ZERO	🗸
+๑	Nd	1	1		1	1̣	@	digit					U+0E51: THAI DIGIT ONE	🗸
+๒	Nd	2	2		2	2̣	#	digit					U+0E52: THAI DIGIT TWO	🗸
+๓	Nd	3	3		3	3̣	$	digit					U+0E53: THAI DIGIT THREE	🗸
+๔	Nd	4	4		4	4̣	%	digit					U+0E54: THAI DIGIT FOUR	🗸
+๕	Nd	5	5		5	5̣	*	digit					U+0E55: THAI DIGIT FIVE	🗸
+๖	Nd	6	6		6	6̣	(	digit					U+0E56: THAI DIGIT SIX	🗸
+๗	Nd	7	7		7	7̣	)	digit					U+0E57: THAI DIGIT SEVEN	🗸
+๘	Nd	8	8		8	8̣	_	digit					U+0E58: THAI DIGIT EIGHT	🗸
+๙	Nd	9	9		9	9̣	+	digit					U+0E59: THAI DIGIT NINE	🗸
+														
+														
+฿	Sc				#	¤	&	currency sign					U+0E3F: THAI CURRENCY SYMBOL BAHT	🗸
+														
+														
+														
+%	Po				%	%		percentage mark					U+0025: PERCENT SIGN	thai
+‰	Po				%	‰		per mille mark					U+2030: PER MILLE SIGN	thai
 
 
 `
