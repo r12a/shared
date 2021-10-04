@@ -16,6 +16,10 @@ defaultSize = '32px'
 
 
 
+autoIndex = true
+
+
+
 // block settings
 
 languageName = 'Arabic'
