@@ -1,12 +1,12 @@
 
-langTag='fa'
+langTag='pes'
 scriptTag='arab'
-notesLangtag='fa'
+notesLangtag='pes'
 
 explainerDir='arabic/arab-fa'
 blockDir='arabic/'
 pickerDir='arab-fa/'
-scriptSummaryTableName='fa'
+scriptSummaryTableName='pes'
 charUsageBCP='pes'
 orthogName = 'Arabic'
 indic = false
@@ -16,9 +16,12 @@ defaultSize = '24px'
 
 
 
+autoIndex = true
+
+
 // block settings
 
 languageName = 'Persian'
-letterClassName = 'fa'
-lang = 'fa'
+letterClassName = 'pes'
+lang = 'pes'
 direction = 'rtl'
