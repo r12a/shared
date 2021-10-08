@@ -1,89 +1,89 @@
 var spreadsheet = `
-ߔ		p	p		p	p	p	plosive				U+07D4: NKO LETTER PA	nko
-ߕ		t	t		t	t	t	plosive				U+07D5: NKO LETTER TA	nko
-ߗ		t͡ʃ	ch	t͡ʃ	t	ʧ	c	affricate				U+07D7: NKO LETTER CHA	nko
-ߞ		k	k		k	k	k	plosive				U+07DE: NKO LETTER KA	nko
+ߔ	Lo	p	p		p	p	p	plosive				U+07D4: NKO LETTER PA	nko
+ߕ	Lo	t	t		t	t	t	plosive				U+07D5: NKO LETTER TA	nko
+ߗ	Lo	t͡ʃ	ch	t͡ʃ	t	ʧ	c	affricate				U+07D7: NKO LETTER CHA	nko
+ߞ	Lo	k	k		k	k	k	plosive				U+07DE: NKO LETTER KA	nko
 													
-ߓ		b	b		b	b	b	plosive				U+07D3: NKO LETTER BA	nko
-ߘ		d	d		d	d	d	plosive				U+07D8: NKO LETTER DA	nko
-ߖ		d͡ʒ	j	d͡ʒ	d	ʤ	j	affricate				U+07D6: NKO LETTER JA	nko
-ߜ		ɡ͡b	gb	ɡ͡b	g	gᵇ	g	plosive				U+07DC: NKO LETTER GBA	nko
+ߓ	Lo	b	b		b	b	b	plosive				U+07D3: NKO LETTER BA	nko
+ߘ	Lo	d	d		d	d	d	plosive				U+07D8: NKO LETTER DA	nko
+ߖ	Lo	d͡ʒ	j	d͡ʒ	d	ʤ	j	affricate				U+07D6: NKO LETTER JA	nko
+ߜ	Lo	ɡ͡b	gb	ɡ͡b	g	gᵇ	g	plosive				U+07DC: NKO LETTER GBA	nko
 													
-ߝ		f	f		f	f	f	fricative				U+07DD: NKO LETTER FA	nko
-ߛ		s	s		s	s	s	fricative				U+07DB: NKO LETTER SA	nko
-ߤ		h	h		h	h	h	fricative				U+07E4: NKO LETTER HA	nko
+ߝ	Lo	f	f		f	f	f	fricative				U+07DD: NKO LETTER FA	nko
+ߛ	Lo	s	s		s	s	s	fricative				U+07DB: NKO LETTER SA	nko
+ߤ	Lo	h	h		h	h	h	fricative				U+07E4: NKO LETTER HA	nko
 													
-ߡ		m	m		m	m	m	nasal				U+07E1: NKO LETTER MA	nko
-ߣ		n	n		n	n	n	nasal				U+07E3: NKO LETTER NA	nko
-ߢ		ɲ	ny	ɲ	n	ɲ		nasal				U+07E2: NKO LETTER NYA	nko
-ߒ		n̩ ŋ	n'	n̩ ŋ n'	n	ŋ	N	nasal syllable				U+07D2: NKO LETTER N	nko
+ߡ	Lo	m	m		m	m	m	nasal				U+07E1: NKO LETTER MA	nko
+ߣ	Lo	n	n		n	n	n	nasal				U+07E3: NKO LETTER NA	nko
+ߢ	Lo	ɲ	ny	ɲ	n	ɲ		nasal				U+07E2: NKO LETTER NYA	nko
+ߒ	Lo	n̩ ŋ	n'	n̩ ŋ n'	n	ŋ	N	nasal syllable				U+07D2: NKO LETTER N	nko
 													
-ߥ		w	w		w	w	w	approximant				U+07E5: NKO LETTER WA	nko
-ߙ		r	r		r	r	r	trill				U+07D9: NKO LETTER RA	nko
-ߚ		rː	rr		r	ṙ	R	trill				U+07DA: NKO LETTER RRA	nko
-ߟ		l	l		l	l	l	approximant				U+07DF: NKO LETTER LA	nko
-ߠ		ł	nw	ł	l	ł		abstract consonant				U+07E0: NKO LETTER NA WOLOSO	nko
-ߦ		j	y		y	y	y	approximant				U+07E6: NKO LETTER YA	nko
-ߧ		ñ	yw	ñ	j	j		abstract consonant				U+07E7: NKO LETTER NYA WOLOSO	nko
-													
-													
-ߨ	x	d͡ʒ				ʤ̄		consonant	archaic			U+07E8: NKO LETTER JONA JA	nko
-ߩ	x	t͡ʃ				ʧ̄		consonant	archaic			U+07E9: NKO LETTER JONA CHA	nko
-ߪ	x	r rː		rː		r̄		consonant	archaic			U+07EA: NKO LETTER JONA RA	nko
+ߥ	Lo	w	w		w	w	w	approximant				U+07E5: NKO LETTER WA	nko
+ߙ	Lo	r	r		r	r	r	trill				U+07D9: NKO LETTER RA	nko
+ߚ	Lo	rː	rr		r	ṙ	R	trill				U+07DA: NKO LETTER RRA	nko
+ߟ	Lo	l	l		l	l	l	approximant				U+07DF: NKO LETTER LA	nko
+ߠ	Lo	ł	nw	ł	l	ł		abstract consonant				U+07E0: NKO LETTER NA WOLOSO	nko
+ߦ	Lo	j	y		y	y	y	approximant				U+07E6: NKO LETTER YA	nko
+ߧ	Lo	ñ	yw	ñ	j	j		abstract consonant				U+07E7: NKO LETTER NYA WOLOSO	nko
 													
 													
-ߌ		i	y		i	i	i	vowel				U+07CC: NKO LETTER I	nko
-ߎ		u	u		i	u	u	vowel				U+07CE: NKO LETTER U	nko
-ߋ		e	ee		e	e	E	vowel				U+07CB: NKO LETTER EE	nko
-ߏ		o	oo		o	o	O	vowel				U+07CF: NKO LETTER OO	nko
-ߍ		ɛ	e	ɛ	e	ɛ	e	vowel				U+07CD: NKO LETTER E	nko
-ߐ		ɔ	o	ɔ	o	ɔ	o	vowel				U+07D0: NKO LETTER O	nko
-ߊ		a	a		a	a	a	vowel				U+07CA: NKO LETTER A	nko
-ߑ					*	˖	§	vowel killer				U+07D1: NKO LETTER DAGBASINNA	nko
+ߨ	Lo	d͡ʒ				ʤ̄		consonant	archaic			U+07E8: NKO LETTER JONA JA	nko
+ߩ	Lo	t͡ʃ				ʧ̄		consonant	archaic			U+07E9: NKO LETTER JONA CHA	nko
+ߪ	Lo	r rː		rː		r̄		consonant	archaic			U+07EA: NKO LETTER JONA RA	nko
 													
 													
-߫					^	¹		tone mark				U+07EB: NKO COMBINING SHORT HIGH TONE​	nko
-߬					^	²	±	tone mark				U+07EC: NKO COMBINING SHORT LOW TONE​	nko
-߭					^	³		tone mark				U+07ED: NKO COMBINING SHORT RISING TONE​	nko
-߮					^	⁴	^	tone mark				U+07EE: NKO COMBINING LONG DESCENDING TONE​	nko
-߯					^	⁵	.	tone mark				U+07EF: NKO COMBINING LONG HIGH TONE​	nko
-߰					^	⁶	#	tone mark				U+07F0: NKO COMBINING LONG LOW TONE​	nko
-߱					^	⁷	<	tone mark				U+07F1: NKO COMBINING LONG RISING TONE​	nko
-ߴ					^	⁸		tone mark				U+07F4: NKO HIGH TONE APOSTROPHE	nko
-ߵ					^	⁹		tone mark				U+07F5: NKO LOW TONE APOSTROPHE	nko
+ߌ	Lo	i	y		i	i	i	vowel				U+07CC: NKO LETTER I	nko
+ߎ	Lo	u	u		i	u	u	vowel				U+07CE: NKO LETTER U	nko
+ߋ	Lo	e	ee		e	e	E	vowel				U+07CB: NKO LETTER EE	nko
+ߏ	Lo	o	oo		o	o	O	vowel				U+07CF: NKO LETTER OO	nko
+ߍ	Lo	ɛ	e	ɛ	e	ɛ	e	vowel				U+07CD: NKO LETTER E	nko
+ߐ	Lo	ɔ	o	ɔ	o	ɔ	o	vowel				U+07D0: NKO LETTER O	nko
+ߊ	Lo	a	a		a	a	a	vowel				U+07CA: NKO LETTER A	nko
+ߑ	Lo				*	˖	§	vowel killer				U+07D1: NKO LETTER DAGBASINNA	nko
 													
 													
-߸					,	,	,	comma				U+07F8: NKO COMMA	nko
-߹					!	!	!	exclamation mark				U+07F9: NKO EXCLAMATION MARK	nko
-ߺ					_	_		baseline extender				U+07FA: NKO LAJANYALAN	nko
-													
-،					,	⹁		arabic comma				U+060C: ARABIC COMMA	arabic
-؛					;	;		arabic semicolon				U+061B: ARABIC SEMICOLON	arabic
-؟					?	?		arabic question mark				U+061F: ARABIC QUESTION MARK	arabic
-٪					%	%		arabic percent sign				U+066A: ARABIC PERCENT SIGN	arabic
-													
-													
-߲					[	˜		nasalisation mark				U+07F2: NKO COMBINING NASALIZATION MARK​	nko
-߳					/	ˑ	%	repertoire extension				U+07F3: NKO COMBINING DOUBLE DOT ABOVE​	nko
-߽					+	¨		abbreviation mark		ߘߊ߲ߕߦߊߟߊ߲	dantayalan	U+07FD NKO DANTAYALAN	nko
+߫	Mn​				^	¹		tone mark				U+07EB: NKO COMBINING SHORT HIGH TONE​	nko
+߬	Mn​				^	²	±	tone mark				U+07EC: NKO COMBINING SHORT LOW TONE​	nko
+߭	Mn​				^	³		tone mark				U+07ED: NKO COMBINING SHORT RISING TONE​	nko
+߮	Mn​				^	⁴	^	tone mark				U+07EE: NKO COMBINING LONG DESCENDING TONE​	nko
+߯	Mn​				^	⁵	.	tone mark				U+07EF: NKO COMBINING LONG HIGH TONE​	nko
+߰	Mn​				^	⁶	#	tone mark				U+07F0: NKO COMBINING LONG LOW TONE​	nko
+߱	Mn​				^	⁷	<	tone mark				U+07F1: NKO COMBINING LONG RISING TONE​	nko
+ߴ	Lm				^	⁸		tone mark				U+07F4: NKO HIGH TONE APOSTROPHE	nko
+ߵ	Lm				^	⁹		tone mark				U+07F5: NKO LOW TONE APOSTROPHE	nko
 													
 													
-߶						–	/	grammatical marker				U+07F6: NKO SYMBOL OO DENNEN	nko
-߷					|	¶		major section terminator				U+07F7: NKO SYMBOL GBAKURUNEN	nko
-߾					#	¤		dorome currency sign				U+07FE: NKO DOROME SIGN	nko
-߿					#	¢		taman currency sign				U+07FF: NKO TAMAN SIGN	nko
+߸	Po				,	,	,	comma				U+07F8: NKO COMMA	nko
+߹	Po				!	!	!	exclamation mark				U+07F9: NKO EXCLAMATION MARK	nko
+ߺ	Lm				_	_		baseline extender				U+07FA: NKO LAJANYALAN	nko
+													
+،	Po				,	⹁		arabic comma				U+060C: ARABIC COMMA	arabic
+؛	Po				;	;		arabic semicolon				U+061B: ARABIC SEMICOLON	arabic
+؟	Po				?	?		arabic question mark				U+061F: ARABIC QUESTION MARK	arabic
+٪	Po				%	%		arabic percent sign				U+066A: ARABIC PERCENT SIGN	arabic
 													
 													
-߀			0		0	0	0	digit				U+07C0: NKO DIGIT ZERO	nko
-߁			1		1	1	1	digit				U+07C1: NKO DIGIT ONE	nko
-߂			2		2	2	2	digit				U+07C2: NKO DIGIT TWO	nko
-߃			3		3	3	3	digit				U+07C3: NKO DIGIT THREE	nko
-߄			4		4	4	4	digit				U+07C4: NKO DIGIT FOUR	nko
-߅			5		5	5	5	digit				U+07C5: NKO DIGIT FIVE	nko
-߆			6		6	6	6	digit				U+07C6: NKO DIGIT SIX	nko
-߇			7		7	7	7	digit				U+07C7: NKO DIGIT SEVEN	nko
-߈			8		8	8	8	digit				U+07C8: NKO DIGIT EIGHT	nko
-߉			9		9	9	9	digit				U+07C9: NKO DIGIT NINE	nko
+߲	Mn​				[	˜		nasalisation mark				U+07F2: NKO COMBINING NASALIZATION MARK​	nko
+߳	Mn​				/	ˑ	%	repertoire extension				U+07F3: NKO COMBINING DOUBLE DOT ABOVE​	nko
+߽	Mn​				+	¨		abbreviation mark		ߘߊ߲ߕߦߊߟߊ߲	dantayalan	U+07FD NKO DANTAYALAN	nko
+													
+													
+߶	So					–	/	grammatical marker				U+07F6: NKO SYMBOL OO DENNEN	nko
+߷	Po				|	¶		major section terminator				U+07F7: NKO SYMBOL GBAKURUNEN	nko
+߾	Sc				#	¤		dorome currency sign				U+07FE: NKO DOROME SIGN	nko
+߿	Sc				#	¢		taman currency sign				U+07FF: NKO TAMAN SIGN	nko
+													
+													
+߀	Nd		0		0	0	0	digit				U+07C0: NKO DIGIT ZERO	nko
+߁	Nd		1		1	1	1	digit				U+07C1: NKO DIGIT ONE	nko
+߂	Nd		2		2	2	2	digit				U+07C2: NKO DIGIT TWO	nko
+߃	Nd		3		3	3	3	digit				U+07C3: NKO DIGIT THREE	nko
+߄	Nd		4		4	4	4	digit				U+07C4: NKO DIGIT FOUR	nko
+߅	Nd		5		5	5	5	digit				U+07C5: NKO DIGIT FIVE	nko
+߆	Nd		6		6	6	6	digit				U+07C6: NKO DIGIT SIX	nko
+߇	Nd		7		7	7	7	digit				U+07C7: NKO DIGIT SEVEN	nko
+߈	Nd		8		8	8	8	digit				U+07C8: NKO DIGIT EIGHT	nko
+߉	Nd		9		9	9	9	digit				U+07C9: NKO DIGIT NINE	nko
 													
 													
 													
@@ -120,7 +120,6 @@ var spreadsheet = `
 ߊ߳	s	ʕa		ʕ	A	aˑ		vowel	non-native عَ			U+07CA U+07F3: NKO LETTER A, COMBINING DOUBLE DOT ABOVE	
 ߋ߳	s	ǝ		ǝ	E	eˑ		vowel	non-native			U+07CB U+07F3: NKO LETTER EE, COMBINING DOUBLE DOT ABOVE	
 ߎ߳	s	y			U	uˑ		vowel	non-native			U+07CE U+07F3: NKO LETTER U, COMBINING DOUBLE DOT ABOVE	
-
 
 
 

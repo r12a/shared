@@ -1,5 +1,5 @@
 var spreadsheet = `
-ऽ								letter					U+093D: DEVANAGARI SIGN AVAGRAHA	✓
+ऽ	Lo							letter					U+093D: DEVANAGARI SIGN AVAGRAHA	✓
 
 
 `
