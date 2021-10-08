@@ -70,7 +70,7 @@ function getTransliteration (node) {
 
 
 
-function showNameDetails (chars, clang, base, target, panel, list, translit) {
+function showNameDetailsOLD (chars, clang, base, target, panel, list, translit) {
 // get the list of characters for an example and display their names
 // called by onclick created by shownames_setOnclick & shownames_setImgOnclick & listAll
 // chars (string), alt text of example
@@ -181,6 +181,260 @@ function showNameDetails (chars, clang, base, target, panel, list, translit) {
 	}
 
 
+
+
+function transliteratePanel (str, lang) {
+// transliterate the rb tags in the panel
+str = ' '+str
+
+var strArray = [...str]
+var exclusions = new Set(['(',')','[',']','.',' '])
+
+// fudge because in notes autoTranslitArray has a language level which is not present in pickers
+if (autoTranslitArray[lang]) {
+    for (i=0;i<strArray.length;i++) {
+        if (exclusions.has(strArray[i])) continue
+        if (! autoTranslitArray[lang][strArray[i]]) continue
+        re = new RegExp(strArray[i],'g')
+        str = str.replace(re, autoTranslitArray[lang][strArray[i]])
+        
+        }
+    }
+else {
+        for (i=0;i<strArray.length;i++) {
+        if (exclusions.has(strArray[i])) continue
+        if (! autoTranslitArray[strArray[i]]) continue
+        re = new RegExp(strArray[i],'g')
+        str = str.replace(re, autoTranslitArray[strArray[i]])
+        }
+    }
+
+return str.trim()
+}
+
+
+
+function transliteratePanel (str, lang) {
+// transliterate the rb tags in the panel
+
+var strArray = [...str]
+str = ''
+
+var exclusions = new Set(['(',')','[',']','.',' '])
+
+// fudge because in notes autoTranslitArray has a language level which is not present in pickers
+if (autoTranslitArray[lang]) {
+    for (i=0;i<strArray.length;i++) {
+        if (autoTranslitArray[lang][strArray[i]]) str += autoTranslitArray[lang][strArray[i]]
+        else if (strArray[i] === ' ') str += ''
+        else str += '–'
+        }
+    }
+else {
+    for (i=0;i<strArray.length;i++) {
+        if (autoTranslitArray[strArray[i]]) str += autoTranslitArray[strArray[i]]
+        else str += ''
+        }
+    }
+
+return str.trim()
+}
+
+
+
+
+
+
+
+function showNameDetails (chars, clang, base, target, panel, list, translit) {
+// get the list of characters for an example and display their names
+// called by onclick created by shownames_setOnclick & shownames_setImgOnclick & listAll
+// chars (string), alt text of example
+// clang (string), lang attribute value of example img
+// base (string), path for link to character detail
+// target (string), name of the window to display results in, usually 'c' or ''; given the latter, link goes to same window
+// list (string), if not null, indicates that spaces and nbsp should be ignored
+// local out charArray chardiv charimg thename thelink hex dec blockname blockfile c
+// global charData pickerDir
+// calls getScriptGroup
+
+
+	// check whether the calling page has set a base and target window
+	if(typeof base === 'undefined' || base === '') { base = '/uniview/?char=' }
+	if(typeof target === 'undefined') { target = '' }
+	if(typeof list === 'undefined') { list = null }
+	if(typeof translit === 'undefined') { translit = '' }
+	
+	 chars = chars
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#039;");
+	  
+	// clear and show the panel
+	panel.innerHTML = ''
+	panel.style.display = 'block'
+    var dir = ''
+    if (typeof window.direction === 'string') dir = window.direction
+    else if (template && typeof template.direction === 'string') dir = template.direction
+    
+    
+	var out = '<div id="ruby">'
+	
+    
+    
+    
+    
+	// add the example to the panel as a title
+	//out += '<div class="ex" lang="'+clang+'" id="title">'+chars+'</div>'
+    var characterList = [...chars]
+    console.log('characterList',characterList)
+    var graphemes = []
+    var ptr = -1
+    for (var c=0;c<characterList.length;c++) {
+        if (window.marks.has(characterList[c]) && c !== 0) graphemes[ptr] += characterList[c]
+        else {
+            ptr++
+            graphemes[ptr] = characterList[c]
+            }
+        }
+    console.log('graphemes',graphemes)
+    var transcriptions = []
+    for (var t=0;t<graphemes.length;t++) {
+        transcriptions[t] = transliteratePanel(graphemes[t], clang)
+        }
+    console.log('transcriptions',transcriptions)
+    
+    var ruby = '<ruby>'
+    for (t=0;t<graphemes.length;t++) ruby += ' <rb>'+graphemes[t]+'</rb><rt>'+transcriptions[t]+'</rt>'
+    ruby += '</ruby>'
+
+	out += `<div dir="${ dir }" class="ex" lang="${ clang }" id="title">${ ruby }</div>`
+	//out += `<div dir="${ window.direction }" class="ex" lang="${ clang }" id="title">${ ruby } <img src="/shared/images/copy.png" alt="Click to copy." style="float:inline-end;" onclick="copyTranscription()"></div>`
+
+	//out += '<div class="ex" lang="'+clang+'" id="title">'+ruby+'</div>'
+    
+	// add a line for transliteration
+	//if (translit !== '') out += '<div class="trans" id="transInPanel">'+translit+'</div>'
+    
+    
+    
+    
+    
+    // add instructions line
+	out += '<p id="advice">Click on name for details.</p>'
+	
+	// create a list of characters
+	//var charArray = []
+	if (list) chars = chars.replace(/ /g,'').replace(/\u00A0/g,'') // remove spaces if list
+    var charArray = [...chars]
+    
+
+	var chardiv, charimg, thename, thelink, hex, dec, blockname, blockfile
+
+    out += '<div id="listOfCharacters">'
+	for (var c=0; c<charArray.length; c++) { 
+        dec = charArray[c].codePointAt(0)
+        hex = dec.toString(16)
+        while (hex.length < 4) { hex = '0'+hex }
+        hex = hex.toUpperCase()
+        
+		if (charData[charArray[c]]) {
+            blockname = getScriptGroup(dec, false)
+            blockfile = getScriptGroup(dec, true)
+
+			out += '<div class="panelCharacter">'
+			if (blockfile) {
+				out += '<a target="'+target+'" href="'
+				if (base === '/uniview/?char=') out += base+hex
+				else out += '/scripts/'+blockfile+'/block#char'+hex
+				out += '">'
+				out += '<img src="'+'/c/'+blockname+"/"+hex+'.png'+'" alt="'+charArray[c]+'">'
+				out += ' U+'+hex + ' '+charData[charArray[c]]
+				out += '</a>\n'
+				}
+			else {
+				out += '<img src="'+'/c/'+blockname+"/"+hex+'.png'+'" alt="'+charArray[c]+'">'
+				out += ' U+'+hex+' '+charData[charArray[c]]+'\n'
+				}
+			}
+		else {
+			out += '<img src="/c/Basic_Latin/005F.png" alt="U+'+hex+'"> U+'+hex+' No data for this character'
+			}
+		out += '</div>'
+		}
+	out += '</div>'
+	
+    
+	// write out the bottom line
+	out += '<p style="text-align:left; margin-block-start: 1em;" id="panelSharingLine">'
+    out += '<img src="/scripts/common28/icons/share_transp.png" alt="Send to:" onclick="document.getElementById(\'panelShare\').style.display=\'block\'"> \u00A0 '
+    out += '<img src="/scripts/common28/icons/copy.png" onclick="copyPanelList()" alt="Copy:"> \u00A0 '
+    
+    /*
+	// add a link to analysestring
+	out += '<a href="/app-analysestring/?chars='+chars+'" target="_blank">Details</a>'
+	out += ' • '
+
+	// add a link to uniview
+	out += '<a target="_blank" href="/uniview/?charlist='+chars+'">UniView</a>'
+	out += ' • '
+	
+	// add a link to the character app named in window.pickerDir
+    if (window.pickerDir) {
+	   out += '<a target="_blank" href="/pickers/'+window.pickerDir+'/?text='+chars+'">CApp</a>'
+	   out += ' • '
+       }
+    */
+	
+	// add a trigger to produce a list with phonetics
+    out += '<textarea id="panelCopyField" style="height:1px;width:1px;margin-inline-start:1em;"></textarea>'
+	//out += ' <span onclick="alert(getPhonemeList());" style="pointer:cursor;">P</span>'
+	
+	// add a close button
+	out += '<p style="text-align:right"><img src="/scripts/block/images/close.png" style="cursor:pointer;" id="character_panel_close_button" alt="Close"'
+	out += ' onclick="document.getElementById(\'panel\').style.display = \'none\'"'
+	out += '></p>'
+
+	//out += '</div>'
+
+
+
+
+    out += '<div id="panelShare" style="display:none;">'
+    
+	// add a link to analysestring
+	out += `<div><a href="/app-analysestring/?chars=${ chars }" target="_blank" onclick="document.getElementById('panelShare').style.display='none'">Details</a></div>`
+
+	// add a link to uniview
+	out += `<div><a target="_blank" href="/uniview/?charlist=${ chars }" onclick="document.getElementById('panelShare').style.display='none'">UniView</a></div>`
+	
+	// add a link to the character app named in window.pickerDir
+    if (window.pickerDir) {
+	   out += `<div><a target="_blank" href="/pickers/${ window.pickerDir }?text=${ chars }" onclick="document.getElementById('panelShare').style.display='none'">Character App</a></div>`
+       }
+
+    out += '<p style="text-align:right"><img src="/scripts/block/images/close.png" style="cursor:pointer;" id="character_panelshare_close_button" alt="Close"'
+	out += ` onclick="document.getElementById('panelShare').style.display='none'"`
+	out += '></p>'
+    out += '</div>'
+
+	panel.innerHTML = out
+	}
+
+
+function copyPanelList () {
+    var lines = document.getElementById('listOfCharacters').querySelectorAll('.panelCharacter')
+    var imgs = document.getElementById('listOfCharacters').querySelectorAll('img')
+    var out = ''
+    for (var i=0;i<lines.length;i++) out += imgs[i].alt+' '+lines[i].textContent
+	var node = document.getElementById('panelCopyField')
+    node.value = out
+	node.focus()
+	document.execCommand('selectAll')
+	document.execCommand('copy')
+	}
 
 
 function getScriptGroup (charNum, blockfile) {
