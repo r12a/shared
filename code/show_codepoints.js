@@ -29,12 +29,15 @@ function initialiseShowNames (base, target) {
 
 
 function shownames_setImgOnclick ( node, base, target ) {
+    if (trace) console.log('shownames_setImgOnclick(', node.textContent, base, target,')')
     // called from initialiseShowNames
     
-	node.onclick = function(){ showNameDetails(node.alt, node.lang, base, target, document.getElementById('panel') ) }
+	//node.onclick = function(){ showNameDetails(node.alt, node.lang, base, target, document.getElementById('panel') ) }
+	node.onclick = function(){ showNameDetails(node.alt, getLanguage(node), base, target, document.getElementById('panel') ) }
 	}
 
 function shownames_setOnclick ( node, base, target ) {
+    if (trace) console.log('shownames_setOnclick(', node.textContent, base, target,')')
     // called from initialiseShowNames
     // local list
     
@@ -257,7 +260,7 @@ function showNameDetails (chars, clang, base, target, panel, list, translit) {
 // local out charArray chardiv charimg thename thelink hex dec blockname blockfile c
 // global charData pickerDir
 // calls getScriptGroup
-
+console.log('showNameDetails(',chars, clang, base, target, panel, list, translit,')')
 
 	// check whether the calling page has set a base and target window
 	if(typeof base === 'undefined' || base === '') { base = '/uniview/?char=' }
@@ -289,7 +292,7 @@ function showNameDetails (chars, clang, base, target, panel, list, translit) {
 	// add the example to the panel as a title
 	//out += '<div class="ex" lang="'+clang+'" id="title">'+chars+'</div>'
     var characterList = [...chars]
-    console.log('characterList',characterList)
+    //console.log('characterList',characterList)
     var graphemes = []
     var ptr = -1
     for (var c=0;c<characterList.length;c++) {
@@ -299,12 +302,12 @@ function showNameDetails (chars, clang, base, target, panel, list, translit) {
             graphemes[ptr] = characterList[c]
             }
         }
-    console.log('graphemes',graphemes)
+    //console.log('graphemes',graphemes)
     var transcriptions = []
     for (var t=0;t<graphemes.length;t++) {
         transcriptions[t] = transliteratePanel(graphemes[t], clang)
         }
-    console.log('transcriptions',transcriptions)
+    //console.log('transcriptions',transcriptions)
     
     var ruby = '<ruby>'
     for (t=0;t<graphemes.length;t++) ruby += ' <rb>'+graphemes[t]+'</rb><rt>'+transcriptions[t]+'</rt>'
@@ -415,6 +418,11 @@ function showNameDetails (chars, clang, base, target, panel, list, translit) {
 	   out += `<div><a target="_blank" href="/pickers/${ window.pickerDir }?text=${ chars }" onclick="document.getElementById('panelShare').style.display='none'">Character App</a></div>`
        }
 
+    // add a link to the Wiktionary lemma page
+    if (typeof window.languageName === 'undefined') var fragid = ''
+    else fragid = '#'+window.languageName
+    out += `<a target="${ target }" href="https://en.wiktionary.org/wiki/${ chars }${ fragid }">Wiktionary</a>`
+	
     out += '<p style="text-align:right"><img src="/scripts/block/images/close.png" style="cursor:pointer;" id="character_panelshare_close_button" alt="Close"'
 	out += ` onclick="document.getElementById('panelShare').style.display='none'"`
 	out += '></p>'
