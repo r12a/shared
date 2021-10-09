@@ -15,6 +15,11 @@ pageWebfonts = ["Noto Serif Mongolian WF"]
 defaultSize = '24px'
 
 
+
+autoIndex = true
+
+
+
 // block settings
 
 languageName = 'Mongolian'
