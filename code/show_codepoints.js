@@ -5,6 +5,7 @@
 // shared/code/scriptGroups.js
 // shared/code/all-names.js
 
+trace = false
 
 
 function initialiseShowNames (base, target) {
