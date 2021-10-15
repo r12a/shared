@@ -61,7 +61,7 @@ var spreadsheet = `
 𐴦	Mn​	•	³	^	•	N		tone mark				ṭānā	U+10D26: HANIFI ROHINGYA SIGN TANA​	rohg
 														
 														
-𐴢	Lo	•	͓	*	•	§		vowel silencer				sakin	U+10D22: HANIFI ROHINGYA MARK SAKIN	rohg
+𐴢	Lo	•	͞	*	•	§		vowel silencer				sakin	U+10D22: HANIFI ROHINGYA MARK SAKIN	rohg
 														
 														
 														

@@ -45,8 +45,8 @@ var spreadsheet = `
 ଳ	Lo	ɭ	ɭ	ḷ	l	ɭ ḷ	liquid					U+0B33: ORIYA LETTER LLA	oriya
 ୟ	Lo	j	y	y	y		liquid					U+0B5F: ORIYA LETTER YYA	oriya
 													
-କ୍ଷ		kʰj	k͓ṣ	kṣ								U+0B15 U+0B4D U+0B37: ORIYA LETTER KA, SIGN VIRAMA, LETTER SSA	
-୍ବ		w b	͓b	w b								U+0B4D U+0B2C: ORIYA SIGN VIRAMA​, LETTER BA	
+କ୍ଷ		kʰj	k͞ṣ	kṣ								U+0B15 U+0B4D U+0B37: ORIYA LETTER KA, SIGN VIRAMA, LETTER SSA	
+୍ବ		w b	͞b	w b								U+0B4D U+0B2C: ORIYA SIGN VIRAMA​, LETTER BA	
 													
 													
 ି	Mn​	i	i	i	i	ô	vowel-sign					U+0B3F: ORIYA VOWEL SIGN I​	oriya
@@ -108,7 +108,7 @@ var spreadsheet = `
 ଁ	Mn​	̃	˜	̃	[		nasalisation			chandrabindu	ଚନ୍ଦ୍ରବିନ୍ଦୁ	U+0B01: ORIYA SIGN CANDRABINDU​	oriya
 													
 													
-୍	Mn​		͓		*		vowel-killer			halanta	ହଳନ୍ତ	U+0B4D: ORIYA SIGN VIRAMA​	oriya
+୍	Mn​		͞		*		vowel-killer			halanta	ହଳନ୍ତ	U+0B4D: ORIYA SIGN VIRAMA​	oriya
 													
 													
 ଽ	Lo		′		]		elision; vowel prolongation			avagraha	ଅବଗ୍ରହ	U+0B3D: ORIYA SIGN AVAGRAHA	oriya

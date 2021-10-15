@@ -122,7 +122,7 @@ var spreadsheet = `
 ൏	So													U+0D4F: MALAYALAM SIGN PARA	malayalam
 															
 															
-്	Mn​					͓		virama					chandrakkala	U+0D4D: MALAYALAM SIGN VIRAMA​	malayalam
+്	Mn​					͞		virama					chandrakkala	U+0D4D: MALAYALAM SIGN VIRAMA​	malayalam
 ഀ	Mn​													U+0D00: MALAYALAM SIGN COMBINING ANUSVARA ABOVE​	malayalam
 ഁ	Mn​													U+0D01: MALAYALAM SIGN CANDRABINDU​	malayalam
 ം	Mc​													U+0D02: MALAYALAM SIGN ANUSVARA​	malayalam
@@ -147,7 +147,7 @@ var spreadsheet = `
 \u{D46}\u{D3E}		oː	ō		o	eā		ൊ						U+0D46 U+0D3E: MALAYALAM VOWEL SIGN E, VOWEL SIGN AA​	
 \u{D47}\u{D3E}		ai̯	ai		a	ēā		ോ						U+0D47 U+0D3E: MALAYALAM VOWEL SIGN EE, VOWEL SIGN AA​	
 \u{D46}\u{D57}		au̯	au		a	eaʷ		ൌ						U+0D46 U+0D57: MALAYALAM VOWEL SIGN E, AU LENGTH MARK​	
-റ്റ		tt	ṯṯ	ṯṯ	t	ṙ͓ṙ								U+0D31 U+0D4D U+0D31: MALAYALAM LETTER RRA, SIGN VIRAMA, LETTER RRA	
+റ്റ		tt	ṯṯ	ṯṯ	t	ṙ͞ṙ								U+0D31 U+0D4D U+0D31: MALAYALAM LETTER RRA, SIGN VIRAMA, LETTER RRA	
 															
 															
 															

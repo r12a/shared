@@ -43,7 +43,7 @@ var spreadsheet = `
 													
 ᯰ		-ŋ	ng	ɲ̽	N	ɲ̽	final consonant	all				U+1BF0: BATAK CONSONANT SIGN NG​	batak
 ᯱ		-h	h	h̽	h	h̽	final consonant	karo pakp sima				U+1BF1: BATAK CONSONANT SIGN H​	batak
-᯲				͓	*	͓	vowel killer	mand pakp toba				U+0020 U+1BF2: SPACE, BATAK PANGOLAT	batak
+᯲				͞	*	͞	vowel killer	mand pakp toba				U+0020 U+1BF2: SPACE, BATAK PANGOLAT	batak
 ᯳				#	*		vowel killer	karo sima				U+0020 U+1BF3: SPACE, BATAK PANONGONAN	batak
 													
 													
@@ -84,7 +84,7 @@ var spreadsheet = `
 
 
 
-latinPanel = '͓ ¹ ² ʤ d͡ʒ ɡ h̽ mᵇ nᵈ ɲ ŋ ɲ̽ t͡ʃ ʧ'
+latinPanel = '͞ ¹ ² ʤ d͡ʒ ɡ h̽ mᵇ nᵈ ɲ ŋ ɲ̽ t͡ʃ ʧ'
 
 
 

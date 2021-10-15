@@ -120,7 +120,7 @@ var spreadsheet = `
 															
 															
 															
-ْ	Mn​				*	͓		vowel killer						U+0652: ARABIC SUKUN​	🗸
+ْ	Mn​				*	͞		vowel killer						U+0652: ARABIC SUKUN​	🗸
 															
 															
 ّ	Mn​				&	˖		gemination marker	infrequent					U+0651: ARABIC SHADDA​	🗸

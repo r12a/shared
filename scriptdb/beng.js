@@ -117,7 +117,7 @@ var spreadsheet = `
 																
 																
 ়	Mn​		ˑ	[		]		consonant extender						nukta	U+09BC: BENGALI SIGN NUKTA​	🗸
-্	Mn​		͓	§		d		virama					হসন্ত	hɔʃonto	U+09CD: BENGALI SIGN VIRAMA​	🗸
+্	Mn​		͞	§		d		virama					হসন্ত	hɔʃonto	U+09CD: BENGALI SIGN VIRAMA​	🗸
 																
 																
 																
@@ -174,50 +174,50 @@ var spreadsheet = `
 ড়	s	ɽ	ɖˑ	r	ɽ	r		consonant+nukta							U+09A1 U+09BC: BENGALI LETTER DDA, SIGN NUKTA	
 ঢ়	s	ɽʱ	ɖʰˑ	r	ɽ	r		consonant+nukta							U+09A2 U+09BC: BENGALI LETTER DDHA, SIGN NUKTA	
 য়	s	j e̯	ʲˑ	y	ẏ	?		consonant+nukta							U+09AF U+09BC: BENGALI LETTER YA, SIGN NUKTA	
-্য	s	a	͓ʲ	Y				conjunct							U+09CD U+09AF: BENGALI SIGN VIRAMA​, LETTER YA	
+্য	s	a	͞ʲ	Y				conjunct							U+09CD U+09AF: BENGALI SIGN VIRAMA​, LETTER YA	
 																
-্র	s		͓r			#									U+09CD U+09B0: BENGALI SIGN VIRAMA, LETTER RA​	
-র্	s		r͓			$									U+09B0 U+09CD: BENGALI LETTER RA, SIGN VIRAMA	
-ত্র	s	tr	t͓r			^									U+09A4 U+09CD U+09B0: BENGALI LETTER TA, SIGN VIRAMA, LETTER RA	
+্র	s		͞r			#									U+09CD U+09B0: BENGALI SIGN VIRAMA, LETTER RA​	
+র্	s		r͞			$									U+09B0 U+09CD: BENGALI LETTER RA, SIGN VIRAMA	
+ত্র	s	tr	t͞r			^									U+09A4 U+09CD U+09B0: BENGALI LETTER TA, SIGN VIRAMA, LETTER RA	
 																
-্যা	s		͓ʲɑ													
+্যা	s		͞ʲɑ													
 																
 																
-ত্ব	s	tt	t͓b					conjunct							U+09A4 U+09CD U+09AC: BENGALI LETTER TA, SIGN VIRAMA, LETTER BA	
-থ্ব	s	ttʰ	tʰ͓b					conjunct							U+09A5 U+09CD U+09AC: BENGALI LETTER THA, SIGN VIRAMA, LETTER BA	
-ত্ম	s	tt	t͓m					conjunct							U+09A4 U+09CD U+09AE: BENGALI LETTER TA, SIGN VIRAMA, LETTER MA	
-ত্ম্য	s	tt	t͓m͓ʲ					conjunct							U+09A4 U+09CD U+09AE U+09CD U+09AF: BENGALI LETTER TA, SIGN VIRAMA, LETTER MA, SIGN VIRAMA, LETTER YA	
-দ্ব	s	dd	d͓b					conjunct							U+09A6 U+09CD U+09AC: BENGALI LETTER DA, SIGN VIRAMA, LETTER BA	
-দ্ব্য	s	dd	d͓b͓ʲ					conjunct							U+09A6 U+09CD U+09AC U+09CD U+09AF: BENGALI LETTER DA, SIGN VIRAMA, LETTER BA, SIGN VIRAMA, LETTER YA	
-দ্ম	s	dd	d͓m					conjunct							U+09A6 U+09CD U+09AE: BENGALI LETTER DA, SIGN VIRAMA, LETTER MA	
-ধ্ব	s	ddʰ	dʰ͓b					conjunct							U+09A7 U+09CD U+09AC: BENGALI LETTER DHA, SIGN VIRAMA, LETTER BA	
-ক্ষ	s	kʰ kːʰ	k͓ʃ̇	k		&		conjunct							U+0995 U+09CD U+09B7: BENGALI LETTER KA, SIGN VIRAMA​,  LETTER SSA	
-ক্ষ্য	s	kkʰ	k͓ʃ͓̇ʲ					conjunct							U+0995 U+09CD U+09B7 U+09CD U+09AF: BENGALI LETTER KA, SIGN VIRAMA, LETTER SSA, SIGN VIRAMA, LETTER YA	
-ক্ষ্ম	s	kkʰ	k͓ʃ͓̇m					conjunct							U+0995 U+09CD U+09B7 U+09CD U+09AE: BENGALI LETTER KA, SIGN VIRAMA, LETTER SSA, SIGN VIRAMA, LETTER MA	
-ক্ষ্ন	s	kkʰn	k͓ʃ͓̇n					conjunct							U+0995 U+09CD U+09B7 U+09CD U+09A8: BENGALI LETTER KA, SIGN VIRAMA, LETTER SSA, SIGN VIRAMA, LETTER NA	
-চ্ছ্ব	s	ccʰ	c͓cʰ͓b					conjunct							U+099A U+09CD U+099B U+09CD U+09AC: BENGALI LETTER CA, SIGN VIRAMA, LETTER CHA, SIGN VIRAMA, LETTER BA	
-জ্জ্ব	s	jj	ʤ͓ʤ͓b					conjunct							U+099C U+09CD U+099C U+09CD U+09AC: BENGALI LETTER JA, SIGN VIRAMA, LETTER JA, SIGN VIRAMA, LETTER BA	
-জ্ঞ	s	ɡ ɡɡ	ʤ͓ñ			%		conjunct							U+099C U+09CD U+099E: BENGALI LETTER JA, SIGN VIRAMA, LETTER NYA	
-শ্ব	s	ʃʃ	ʃ͓b					conjunct							U+09B6 U+09CD U+09AC: BENGALI LETTER SHA, SIGN VIRAMA, LETTER BA	
-শ্ম	s	ʃʃ	ʃ͓m					conjunct							U+09B6 U+09CD U+09AE: BENGALI LETTER SHA, SIGN VIRAMA, LETTER MA	
-শ্র	s	sr	ʃ͓r			*		conjunct							U+09B6 U+09CD U+09B0: BENGALI LETTER SHA, SIGN VIRAMA, LETTER RA	
-ষ্ম	s	ʃʃ	ʃ͓̇m					conjunct							U+09B7 U+09CD U+09AE: BENGALI LETTER SSA, SIGN VIRAMA, LETTER MA	
-স্ত	s	st	ʃ͓̈t					conjunct							U+09B8 U+09CD U+09A4: BENGALI LETTER SA, SIGN VIRAMA, LETTER TA	
-স্ত্য	s	stt	ʃ͓̈t͓ʲ					conjunct							U+09B8 U+09CD U+09A4 U+09CD U+09AF: BENGALI LETTER SA, SIGN VIRAMA, LETTER TA, SIGN VIRAMA, LETTER YA	
-স্ত্র	s	str	ʃ͓̈t͓r					conjunct							U+09B8 U+09CD U+09A4 U+09CD U+09B0: BENGALI LETTER SA, SIGN VIRAMA, LETTER TA, SIGN VIRAMA, LETTER RA	
-স্থ	s	stʰ	ʃ͓̈tʰ					conjunct							U+09B8 U+09CD U+09A5: BENGALI LETTER SA, SIGN VIRAMA, LETTER THA	
-স্ন	s	sn	ʃ͓̈n					conjunct							U+09B8 U+09CD U+09A8: BENGALI LETTER SA, SIGN VIRAMA, LETTER NA	
-স্ম	s	ʃʃ	ʃ͓̈m					conjunct							U+09B8 U+09CD U+09AE: BENGALI LETTER SA, SIGN VIRAMA, LETTER MA	
-স্মৃ	s	sri	ʃ͓̈mr̥					conjunct							U+09B8 U+09CD U+09AE U+09C3: BENGALI LETTER SA, SIGN VIRAMA, LETTER MA, VOWEL SIGN VOCALIC R	
-ম্ব	s	mm mb	m͓b					conjunct							U+09AE U+09CD U+09AC: BENGALI LETTER MA, SIGN VIRAMA, LETTER BA	
-হ্ব	s	bʱ	h͓b					conjunct							U+09B9 U+09CD U+09AC: BENGALI LETTER HA, SIGN VIRAMA, LETTER BA	
-হ্ম	s	mʱ mm	h͓m					conjunct							U+09B9 U+09CD U+09AE: BENGALI LETTER HA, SIGN VIRAMA, LETTER MA	
-হ্ন	s	nʱ nn	h͓n					conjunct							U+09B9 U+09CD U+09A8: BENGALI LETTER HA, SIGN VIRAMA, LETTER NA	
-হ্ণ	s	nʱ nn	h͓n̈					conjunct							U+09B9 U+09CD U+09A3: BENGALI LETTER HA, SIGN VIRAMA, LETTER NNA	
-ল্ম	s	ll	l͓m					conjunct							U+09B2 U+09CD U+09AE: BENGALI LETTER LA, SIGN VIRAMA, LETTER MA	
-হ্য	s	jj	h͓ʲ					conjunct							U+09B9 U+09CD U+09AF: BENGALI LETTER HA, SIGN VIRAMA, LETTER YA	
+ত্ব	s	tt	t͞b					conjunct							U+09A4 U+09CD U+09AC: BENGALI LETTER TA, SIGN VIRAMA, LETTER BA	
+থ্ব	s	ttʰ	tʰ͞b					conjunct							U+09A5 U+09CD U+09AC: BENGALI LETTER THA, SIGN VIRAMA, LETTER BA	
+ত্ম	s	tt	t͞m					conjunct							U+09A4 U+09CD U+09AE: BENGALI LETTER TA, SIGN VIRAMA, LETTER MA	
+ত্ম্য	s	tt	t͞m͞ʲ					conjunct							U+09A4 U+09CD U+09AE U+09CD U+09AF: BENGALI LETTER TA, SIGN VIRAMA, LETTER MA, SIGN VIRAMA, LETTER YA	
+দ্ব	s	dd	d͞b					conjunct							U+09A6 U+09CD U+09AC: BENGALI LETTER DA, SIGN VIRAMA, LETTER BA	
+দ্ব্য	s	dd	d͞b͞ʲ					conjunct							U+09A6 U+09CD U+09AC U+09CD U+09AF: BENGALI LETTER DA, SIGN VIRAMA, LETTER BA, SIGN VIRAMA, LETTER YA	
+দ্ম	s	dd	d͞m					conjunct							U+09A6 U+09CD U+09AE: BENGALI LETTER DA, SIGN VIRAMA, LETTER MA	
+ধ্ব	s	ddʰ	dʰ͞b					conjunct							U+09A7 U+09CD U+09AC: BENGALI LETTER DHA, SIGN VIRAMA, LETTER BA	
+ক্ষ	s	kʰ kːʰ	k͞ʃ̇	k		&		conjunct							U+0995 U+09CD U+09B7: BENGALI LETTER KA, SIGN VIRAMA​,  LETTER SSA	
+ক্ষ্য	s	kkʰ	k͞ʃ̇͞ʲ					conjunct							U+0995 U+09CD U+09B7 U+09CD U+09AF: BENGALI LETTER KA, SIGN VIRAMA, LETTER SSA, SIGN VIRAMA, LETTER YA	
+ক্ষ্ম	s	kkʰ	k͞ʃ̇͞m					conjunct							U+0995 U+09CD U+09B7 U+09CD U+09AE: BENGALI LETTER KA, SIGN VIRAMA, LETTER SSA, SIGN VIRAMA, LETTER MA	
+ক্ষ্ন	s	kkʰn	k͞ʃ̇͞n					conjunct							U+0995 U+09CD U+09B7 U+09CD U+09A8: BENGALI LETTER KA, SIGN VIRAMA, LETTER SSA, SIGN VIRAMA, LETTER NA	
+চ্ছ্ব	s	ccʰ	c͞cʰ͞b					conjunct							U+099A U+09CD U+099B U+09CD U+09AC: BENGALI LETTER CA, SIGN VIRAMA, LETTER CHA, SIGN VIRAMA, LETTER BA	
+জ্জ্ব	s	jj	ʤ͞ʤ͞b					conjunct							U+099C U+09CD U+099C U+09CD U+09AC: BENGALI LETTER JA, SIGN VIRAMA, LETTER JA, SIGN VIRAMA, LETTER BA	
+জ্ঞ	s	ɡ ɡɡ	ʤ͞ñ			%		conjunct							U+099C U+09CD U+099E: BENGALI LETTER JA, SIGN VIRAMA, LETTER NYA	
+শ্ব	s	ʃʃ	ʃ͞b					conjunct							U+09B6 U+09CD U+09AC: BENGALI LETTER SHA, SIGN VIRAMA, LETTER BA	
+শ্ম	s	ʃʃ	ʃ͞m					conjunct							U+09B6 U+09CD U+09AE: BENGALI LETTER SHA, SIGN VIRAMA, LETTER MA	
+শ্র	s	sr	ʃ͞r			*		conjunct							U+09B6 U+09CD U+09B0: BENGALI LETTER SHA, SIGN VIRAMA, LETTER RA	
+ষ্ম	s	ʃʃ	ʃ̇͞m					conjunct							U+09B7 U+09CD U+09AE: BENGALI LETTER SSA, SIGN VIRAMA, LETTER MA	
+স্ত	s	st	ʃ̈͞t					conjunct							U+09B8 U+09CD U+09A4: BENGALI LETTER SA, SIGN VIRAMA, LETTER TA	
+স্ত্য	s	stt	ʃ̈͞t͞ʲ					conjunct							U+09B8 U+09CD U+09A4 U+09CD U+09AF: BENGALI LETTER SA, SIGN VIRAMA, LETTER TA, SIGN VIRAMA, LETTER YA	
+স্ত্র	s	str	ʃ̈͞t͞r					conjunct							U+09B8 U+09CD U+09A4 U+09CD U+09B0: BENGALI LETTER SA, SIGN VIRAMA, LETTER TA, SIGN VIRAMA, LETTER RA	
+স্থ	s	stʰ	ʃ̈͞tʰ					conjunct							U+09B8 U+09CD U+09A5: BENGALI LETTER SA, SIGN VIRAMA, LETTER THA	
+স্ন	s	sn	ʃ̈͞n					conjunct							U+09B8 U+09CD U+09A8: BENGALI LETTER SA, SIGN VIRAMA, LETTER NA	
+স্ম	s	ʃʃ	ʃ̈͞m					conjunct							U+09B8 U+09CD U+09AE: BENGALI LETTER SA, SIGN VIRAMA, LETTER MA	
+স্মৃ	s	sri	ʃ̈͞mr̥					conjunct							U+09B8 U+09CD U+09AE U+09C3: BENGALI LETTER SA, SIGN VIRAMA, LETTER MA, VOWEL SIGN VOCALIC R	
+ম্ব	s	mm mb	m͞b					conjunct							U+09AE U+09CD U+09AC: BENGALI LETTER MA, SIGN VIRAMA, LETTER BA	
+হ্ব	s	bʱ	h͞b					conjunct							U+09B9 U+09CD U+09AC: BENGALI LETTER HA, SIGN VIRAMA, LETTER BA	
+হ্ম	s	mʱ mm	h͞m					conjunct							U+09B9 U+09CD U+09AE: BENGALI LETTER HA, SIGN VIRAMA, LETTER MA	
+হ্ন	s	nʱ nn	h͞n					conjunct							U+09B9 U+09CD U+09A8: BENGALI LETTER HA, SIGN VIRAMA, LETTER NA	
+হ্ণ	s	nʱ nn	h͞n̈					conjunct							U+09B9 U+09CD U+09A3: BENGALI LETTER HA, SIGN VIRAMA, LETTER NNA	
+ল্ম	s	ll	l͞m					conjunct							U+09B2 U+09CD U+09AE: BENGALI LETTER LA, SIGN VIRAMA, LETTER MA	
+হ্য	s	jj	h͞ʲ					conjunct							U+09B9 U+09CD U+09AF: BENGALI LETTER HA, SIGN VIRAMA, LETTER YA	
 																
-এ্যা	s	æ	ẹ͓ʲɑ					conjunct							U+098F U+09CD U+09AF U+09BE: BENGALI LETTER E, SIGN VIRAMA, LETTER YA, VOWEL SIGN AA	
+এ্যা	s	æ	ẹ͞ʲɑ					conjunct							U+098F U+09CD U+09AF U+09BE: BENGALI LETTER E, SIGN VIRAMA, LETTER YA, VOWEL SIGN AA	
 অ্যা	s	æ	ɔ̣͓ʲɑ					conjunct							U+0985 U+09CD U+09AF U+09BE: BENGALI LETTER A, SIGN VIRAMA, LETTER YA, VOWEL SIGN AA	
 
 

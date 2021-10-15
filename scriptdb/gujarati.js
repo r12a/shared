@@ -82,7 +82,7 @@ var spreadsheet = `
 ૱	Sc													U+0AF1: GUJARATI RUPEE SIGN	gujarati
 															
 															
-્	Mn​				*	͓	d	virama						U+0ACD: GUJARATI SIGN VIRAMA​	gujarati
+્	Mn​				*	͞	d	virama						U+0ACD: GUJARATI SIGN VIRAMA​	gujarati
 ઼	Mn​				[	̣	]	nukta						U+0ABC: GUJARATI SIGN NUKTA​	gujarati
 															
 															
@@ -104,8 +104,8 @@ var spreadsheet = `
 															
 															
 															
-ક્ષ		kʃ			k	k͓ʃ	&	consonant						U+0A95 U+0ACD U+0AB7: GUJARATI LETTER KA, SIGN VIRAMA, LETTER SSA	
-જ્ઞ		ɡn			j	ʤ͓ɲ	%	consonant						U+0A9C U+0ACD U+0A9E: GUJARATI LETTER JA, SIGN VIRAMA, LETTER NYA	
+ક્ષ		kʃ			k	k͞ʃ	&	consonant						U+0A95 U+0ACD U+0AB7: GUJARATI LETTER KA, SIGN VIRAMA, LETTER SSA	
+જ્ઞ		ɡn			j	ʤ͞ɲ	%	consonant						U+0A9C U+0ACD U+0A9E: GUJARATI LETTER JA, SIGN VIRAMA, LETTER NYA	
 															
 															
 															

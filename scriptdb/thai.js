@@ -200,7 +200,7 @@ var spreadsheet = `
 ‍ଁ	Mn	̃	̃		[	˜		nasalisation						
 														
 														
-ฺ	Mn				§	͓	B	virama	Pali				U+0E3A: THAI CHARACTER PHINTHU​	🗸
+ฺ	Mn				§	͞	B	virama	Pali				U+0E3A: THAI CHARACTER PHINTHU​	🗸
 ๎	Mn				\	ʿ		cluster mark	archaic				U+0E4E: THAI CHARACTER YAMAKKAN​	🗸
 														
 														

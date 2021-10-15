@@ -52,7 +52,7 @@ var spreadsheet = `
 ޭ	Mn​	eː	ey	eː	e	ē	t	vowel		އޭބޭ ފިލި	eybey fili	U+07AD: THAANA EYBEYFILI​	thaana
 ޮ	Mn​	ɔ	oo	ɔ	o	o	w	vowel		އޮބޮ ފިލި	obo fili	U+07AE: THAANA OBOFILI​	thaana
 ޯ	Mn​	ɔː	oa	ɔː	o	ō	/	vowel		އޯބޯ ފިލި	oaboa fili	U+07AF: THAANA OABOAFILI​	thaana
-ް	Mn​	∅			*	͓	d	vowel killer		ސުކުނ	sukun	U+07B0: THAANA SUKUN​	thaana
+ް	Mn​	∅			*	͞	d	vowel killer		ސުކުނ	sukun	U+07B0: THAANA SUKUN​	thaana
 													
 													
 ،	Po		,		,	,	F	arabic comma				U+060C: ARABIC COMMA	arabic

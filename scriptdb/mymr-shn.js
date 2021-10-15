@@ -74,7 +74,7 @@ var spreadsheet = `
 													
 													
 ်					\	ˣ		asat				U+103A: MYANMAR SIGN ASAT​	myanmar
-္					*	͓		virama				U+1039: MYANMAR SIGN VIRAMA​	myanmar
+္					*	͞		virama				U+1039: MYANMAR SIGN VIRAMA​	myanmar
 													
 													
 													

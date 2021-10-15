@@ -44,17 +44,17 @@ var spreadsheet = `
 															
 															
 𑐰	Lo	w	w	v	w		consonant	liquid						U+11430: NEWA LETTER WA	newa
-𑐴𑑂𑐰		wʰ	h͓w	vh	w	wʰ vʰ	consonant	liquid						U+11434 U+11442 U+11430: NEWA LETTER HA, SIGN VIRAMA​, LETTER WA	
+𑐴𑑂𑐰		wʰ	h͞w	vh	w	wʰ vʰ	consonant	liquid						U+11434 U+11442 U+11430: NEWA LETTER HA, SIGN VIRAMA​, LETTER WA	
 𑐬	Lo	r	r	r	r		consonant	liquid						U+1142C: NEWA LETTER RA	newa
 𑐭	Lo	rʰ	rʰ	rh	r	rʰ	consonant	liquid						U+1142D: NEWA LETTER RHA	newa
 𑐮	Lo	l	l	l	l		consonant	liquid						U+1142E: NEWA LETTER LA	newa
 𑐯	Lo	lʰ	lʰ	lh	l	lʰ	consonant	liquid						U+1142F: NEWA LETTER LHA	newa
 𑐫	Lo	j	y	y	y		consonant	liquid						U+1142B: NEWA LETTER YA	newa
-𑐴𑑂𑐫		jʰ	h͓y	yh	y		consonant	liquid						U+11434 U+11442 U+1142B: NEWA LETTER HA, SIGN VIRAMA​, LETTER YA	
+𑐴𑑂𑐫		jʰ	h͞y	yh	y		consonant	liquid						U+11434 U+11442 U+1142B: NEWA LETTER HA, SIGN VIRAMA​, LETTER YA	
 															
 															
-𑐎𑑂𑐲		t͡ʃ	k͓ʂ	ks	k		consonant							U+1140E U+11442 U+11432: NEWA LETTER KA, SIGN VIRAMA, LETTER SSA	
-𑐖𑑂𑐘		ɡj	ɟ͓ɲ	jñ	j		consonant							U+11416 U+11442 U+11418: NEWA LETTER JA, SIGN VIRAMA, LETTER NYA	
+𑐎𑑂𑐲		t͡ʃ	k͞ʂ	ks	k		consonant							U+1140E U+11442 U+11432: NEWA LETTER KA, SIGN VIRAMA, LETTER SSA	
+𑐖𑑂𑐘		ɡj	ɟ͞ɲ	jñ	j		consonant							U+11416 U+11442 U+11418: NEWA LETTER JA, SIGN VIRAMA, LETTER NYA	
 															
 															
 															
@@ -171,7 +171,7 @@ var spreadsheet = `
 𑑄	Mn​	̃ ãː	ː̃	ṁ	[	ṁ	long nasalisation					𑐳𑐶𑐤𑑅𑐦𑐸𑐟𑐶	sinhafuti	U+11444: NEWA SIGN ANUSVARA​	newa
 															
 															
-𑑂	Mn​		͓		*		vowel-killer						halant	U+11442: NEWA SIGN VIRAMA​	newa
+𑑂	Mn​		͞		*		vowel-killer						halant	U+11442: NEWA SIGN VIRAMA​	newa
 			˟		\										
 			ˣ		\										
 			¯		\										

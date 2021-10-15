@@ -39,7 +39,7 @@ var spreadsheet = `
 																
 																
 ं	Mn​	m n ŋ	ṁ	ŋ ṁ	m	m̽		final nasal						anusvara	U+0902: DEVANAGARI SIGN ANUSVARA	✓
-य्		ʲ	ⁱ	ʲ	j	y͓		palatalisation marker							U+092F DEVANAGARI LETTER YA, SIGN VIRAMA	
+य्		ʲ	ⁱ	ʲ	j	y͞		palatalisation marker							U+092F DEVANAGARI LETTER YA, SIGN VIRAMA	
 																
 																
 ि	Mc​	i	i		i	i		vowel sign				इ			U+093F: DEVANAGARI VOWEL SIGN I	✓
@@ -103,7 +103,7 @@ var spreadsheet = `
 																
 																
 ष	Lo	ʂ		ʂ		ʂ		consonant	rare, spellings retained in Sanskrit loans						U+0937: DEVANAGARI LETTER SSA	✓
-क्ष		kʂ				k͓ʂ		consonant cluster	rare, spellings retained in Sanskrit loans						U+0915 U+094D U+0937: DEVANAGARI LETTER KA, DEVANAGARI SIGN VIRAMA, DEVANAGARI LETTER SSA	
+क्ष		kʂ				k͞ʂ		consonant cluster	rare, spellings retained in Sanskrit loans						U+0915 U+094D U+0937: DEVANAGARI LETTER KA, DEVANAGARI SIGN VIRAMA, DEVANAGARI LETTER SSA	
 झ	Lo	ɟʰ		ɟʰ		jʰ		consonant	rare, spellings retained in Sanskrit loans						U+091D: DEVANAGARI LETTER JHA	✓
 ध	Lo	dʱ		dʱ		dʱ		consonant	rare, spellings retained in Sanskrit loans						U+0927: DEVANAGARI LETTER DHA	✓
 ढ	Lo	ɖʱ		ɖʱ		ɖʱ		consonant	rare, spellings retained in Sanskrit loans						U+0922: DEVANAGARI LETTER DDHA	✓
@@ -112,7 +112,7 @@ var spreadsheet = `
 ङ	Lo	ŋ		ŋ		ŋ		consonant	rare, spellings retained in Sanskrit loans						U+0919: DEVANAGARI LETTER NGA	✓
 ण	Lo	ɳ		ɳ		ɳ		consonant	rare, spellings retained in Sanskrit loans						U+0923: DEVANAGARI LETTER NNA	✓
 ञ	Lo	n		ñ		ɲ		consonant	rare, spellings retained in Sanskrit loans						U+091E: DEVANAGARI LETTER NYA	✓
-ज्ञ		ɡj				ɟ͓ɲ		consonant cluster	rare, spellings retained in Sanskrit loans						U+091C U+094D U+091E: DEVANAGARI LETTER JA, SIGN VIRAMA, LETTER NYA	
+ज्ञ		ɡj				ɟ͞ɲ		consonant cluster	rare, spellings retained in Sanskrit loans						U+091C U+094D U+091E: DEVANAGARI LETTER JA, SIGN VIRAMA, LETTER NYA	
 																
 																
 																
@@ -159,7 +159,7 @@ var spreadsheet = `
 ँ	Mn​	̃	̃	̃	[	˜		nasalisation						candrabindu/anunāsika	U+0901: DEVANAGARI SIGN CANDRABINDU	✓
 																
 																
-्	Mn​				*	͓		vowel-killer						halant	U+094D: DEVANAGARI SIGN VIRAMA	✓
+्	Mn​				*	͞		vowel-killer						halant	U+094D: DEVANAGARI SIGN VIRAMA	✓
 																
 																
 ऽ	Lo		'		]	′		elision marker							U+093D: DEVANAGARI SIGN AVAGRAHA	✓

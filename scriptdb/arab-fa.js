@@ -61,7 +61,7 @@ var spreadsheet = `
 ڤ	Lo	β		β				fricative	archaic				U+06A4: ARABIC LETTER VEH	🗸
 ٌ	Mn​	un			u	uⁿ	W	vowel			تنوین رفع	tanvin e rafe	U+064C: ARABIC DAMMATAN​	🗸
 ٍ	Mn​	in			i	iⁿ	E	vowel			تنوین جرّ	tanvin e jarr	U+064D: ARABIC KASRATAN​	🗸
-ْ	Mn​				*	͓	Q	vowel absence marker			سکون	sokun	U+0652: ARABIC SUKUN​	🗸
+ْ	Mn​				*	͞	Q	vowel absence marker			سکون	sokun	U+0652: ARABIC SUKUN​	🗸
 														
 														
 														

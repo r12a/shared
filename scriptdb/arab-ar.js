@@ -94,7 +94,7 @@ var spreadsheet = `
 															
 															
 															
-ْ	Mn​				*	͓	X	vowel absence marker				سُكُون	sukūn	U+0652: ARABIC SUKUN​	🗸
+ْ	Mn​				*	͞	X	vowel absence marker				سُكُون	sukūn	U+0652: ARABIC SUKUN​	🗸
 															
 															
 ّ	Mn​				&	˖	±	gemination mark				شَدَّة	shaddah	U+0651: ARABIC SHADDA​	🗸

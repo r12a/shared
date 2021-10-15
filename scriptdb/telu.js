@@ -122,7 +122,7 @@ var spreadsheet = `
 															
 ం	Mc​	m	m̽	m n ŋ	ṁ	ṁ	anusvara							U+0C02: TELUGU SIGN ANUSVARA​	telugu
 ః	Mc​	h	h̽	ha	ḥ	ḥ	visarga							U+0C03: TELUGU SIGN VISARGA​	telugu
-్	Mn​	*	͓				virama							U+0C4D: TELUGU SIGN VIRAMA​	telugu
+్	Mn​	*	͞				virama							U+0C4D: TELUGU SIGN VIRAMA​	telugu
 															
 ఀ	Mn​	[	˜		ḥ		candrabindu	Sanskrit only						U+0C00: TELUGU SIGN COMBINING CANDRABINDU ABOVE​	telugu
 ఁ	Mc​	[	˓				candrabindu marker	annotation						U+0C01: TELUGU SIGN CANDRABINDU​	telugu

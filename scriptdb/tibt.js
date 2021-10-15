@@ -226,7 +226,7 @@ var spreadsheet = `
 ࿃	So							sign						U+0FC3: TIBETAN CANTILLATION SIGN SBUB -CHAL	tibetan
 															
 															
-྄	Mn​				*	͓		virama					srog med	U+0F84: TIBETAN MARK HALANTA​	tibetan
+྄	Mn​				*	͞		virama					srog med	U+0F84: TIBETAN MARK HALANTA​	tibetan
 ྅	Po				:	ː		paluta						U+0F85: TIBETAN MARK PALUTA	tibetan
 															
 															

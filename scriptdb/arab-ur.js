@@ -133,7 +133,7 @@ var spreadsheet = `
 ن٘		̃	̃		[	nᵑ		nasalisation						U+0646, U+0658: ARABIC LETTER NOON, MARK NOON GHUNNA	
 															
 															
-ْ	Mn​				*	͓	]	vowel absence marker					sukuːn/ʤazm	U+0652: ARABIC SUKUN​	🗸
+ْ	Mn​				*	͞	]	vowel absence marker					sukuːn/ʤazm	U+0652: ARABIC SUKUN​	🗸
 					\	˟									
 					\	ˣ									
 					\	¯									

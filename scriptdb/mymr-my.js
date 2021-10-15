@@ -75,7 +75,7 @@ var spreadsheet = `
 															
 															
 ်	Mn				\\	ˣ	f	asat				အသတ်	əθaʔ	U+103A: MYANMAR SIGN ASAT​	myanmar
-္	Mn				*	͓	F	virama						U+1039: MYANMAR SIGN VIRAMA​	myanmar
+္	Mn				*	͞	F	virama						U+1039: MYANMAR SIGN VIRAMA​	myanmar
 															
 															
 ့	Mn		.		^	¹	h	tone mark						U+1037: MYANMAR SIGN DOT BELOW​	myanmar
@@ -143,8 +143,8 @@ var spreadsheet = `
 															
 ွှ	s	–̥w	h–w			w̆h̆								U+103D U+103E: MYANMAR CONSONANT SIGN MEDIAL WA, CONSONANT SIGN MEDIAL HA​	
 															
-္လ	s		la.		L	͓l		medial l						U+1039 U+101C: MYANMAR SIGN VIRAMA, LETTER LA​	
-င်္	s		ng		N	ŋˣ͓		kinzi						U+1004 U+103A U+1039: MYANMAR LETTER NGA, SIGN ASAT, SIGN VIRAMA	
+္လ	s		la.		L	͞l		medial l						U+1039 U+101C: MYANMAR SIGN VIRAMA, LETTER LA​	
+င်္	s		ng		N	ŋˣ͞		kinzi						U+1004 U+103A U+1039: MYANMAR LETTER NGA, SIGN ASAT, SIGN VIRAMA	
 															
 \u1025\u102E	s	ʔù	u		U	ụ̇		ဦ						U+1025 U+102E: MYANMAR LETTER U, VOWEL SIGN II	
 															

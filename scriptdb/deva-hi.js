@@ -38,9 +38,9 @@ var spreadsheet = `
 ळ	Lo	ɭ ɭ̆	ḷ	ɭ̆ ḷ	l	ɭ	N	consonant						U+0933: DEVANAGARI LETTER LLA	devanagari
 य	Lo	j	y		y	y	/	consonant						U+092F: DEVANAGARI LETTER YA	devanagari
 															
-ज्ञ	s	ɡjə	gya			ɟ͓ɲ	%	consonant letter						U+091C U+094D U+091E: DEVANAGARI LETTER JA, SIGN VIRAMA, LETTER NYA	
-त्र	s	t̪ɾə	tra			t͓r	^	consonant letter						U+0924 U+094D U+0930: DEVANAGARI LETTER TA, SIGN VIRAMA, LETTER RA	
-क्ष	s	kʂə	kṣa			k͓ʂ	&	consonant letter						U+0915 U+094D U+0937: DEVANAGARI LETTER KA, SIGN VIRAMA, LETTER SSA	
+ज्ञ	s	ɡjə	gya			ɟ͞ɲ	%	consonant letter						U+091C U+094D U+091E: DEVANAGARI LETTER JA, SIGN VIRAMA, LETTER NYA	
+त्र	s	t̪ɾə	tra			t͞r	^	consonant letter						U+0924 U+094D U+0930: DEVANAGARI LETTER TA, SIGN VIRAMA, LETTER RA	
+क्ष	s	kʂə	kṣa			k͞ʂ	&	consonant letter						U+0915 U+094D U+0937: DEVANAGARI LETTER KA, SIGN VIRAMA, LETTER SSA	
 															
 															
 क़	s	q	q		q	kˑ		consonant with nukta						U+0915 U+093C: DEVANAGARI LETTER KA SIGN NUKTA	
@@ -156,7 +156,7 @@ var spreadsheet = `
 ँ	Mn	̃	̃		N	˜	X	nasalisation				चन्द्रबिन्दु	candrabindu/anunāsika	U+0901: DEVANAGARI SIGN CANDRABINDU​	devanagari
 															
 															
-्	Mn				*	͓	d	vowel-killer					halant	U+094D: DEVANAGARI SIGN VIRAMA​	devanagari
+्	Mn				*	͞	d	vowel-killer					halant	U+094D: DEVANAGARI SIGN VIRAMA​	devanagari
 															
 															
 															
