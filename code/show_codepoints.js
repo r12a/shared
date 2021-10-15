@@ -310,21 +310,20 @@ console.log('showNameDetails(',chars, clang, base, target, panel, list, translit
         }
     //console.log('transcriptions',transcriptions)
     
-    var ruby = '<ruby>'
-    for (t=0;t<graphemes.length;t++) ruby += ' <rb>'+graphemes[t]+'</rb><rt>'+transcriptions[t]+'</rt>'
-    ruby += '</ruby>'
+    //var ruby = '<ruby>'
+    //for (t=0;t<graphemes.length;t++) ruby += ' <rb>'+graphemes[t]+'</rb><rt>'+transcriptions[t]+'</rt>'
+    //ruby += '</ruby>'
 
-	out += `<div dir="${ dir }" class="ex" lang="${ clang }" id="title">${ ruby }</div>`
-	//out += `<div dir="${ window.direction }" class="ex" lang="${ clang }" id="title">${ ruby } <img src="/shared/images/copy.png" alt="Click to copy." style="float:inline-end;" onclick="copyTranscription()"></div>`
+	//out += `<div dir="${ dir }" class="ex" lang="${ clang }" id="title">${ ruby }</div>`
+    
+    
+    var gloss = '<div class="multilineGlossedText">'
+    for (t=0;t<graphemes.length;t++) gloss += ` <div class="stack"><span class="rt" lang="gez">${ transcriptions[t] }</span><span class="rb">${ graphemes[t] }</div>`
+    gloss += '</div>'
 
-	//out += '<div class="ex" lang="'+clang+'" id="title">'+ruby+'</div>'
+	out += `<div dir="${ dir }" class="ex" lang="${ clang }" id="title">${ gloss }</div>`
     
-	// add a line for transliteration
-	//if (translit !== '') out += '<div class="trans" id="transInPanel">'+translit+'</div>'
-    
-    
-    
-    
+        
     
     // add instructions line
 	out += '<p id="advice">Click on name for details.</p>'
@@ -373,8 +372,10 @@ console.log('showNameDetails(',chars, clang, base, target, panel, list, translit
     
 	// write out the bottom line
 	out += '<p style="text-align:left; margin-block-start: 1em;" id="panelSharingLine">'
-    out += '<img src="/scripts/common28/icons/share_transp.png" alt="Send to:" onclick="document.getElementById(\'panelShare\').style.display=\'block\'"> \u00A0 '
-    out += '<img src="/scripts/common28/icons/copy.png" onclick="copyPanelList()" alt="Copy:"> \u00A0 '
+    out += '<img src="/scripts/common28/icons/share_transp.png" title="Export text to another app" alt="Send to:" onclick="document.getElementById(\'panelShare\').style.display=\'block\'"> \u00A0 '
+    out += '<img src="/scripts/common28/icons/copylist.png" onclick="copyPanelList()" title="Copy the list of code points." alt="Copy list"> \u00A0 '
+    out += `<img src="/scripts/common28/icons/copybase.png" onclick="copyPanelText('.rb')" title="Copy the base text at the top." alt="Copy base"> \u00A0 `
+    out += `<img src="/scripts/common28/icons/copyannotation.png" onclick="copyPanelText('.rt')" title="Copy the annotation text at the top." alt="Copy annotation"> \u00A0 `
     
     /*
 	// add a link to analysestring
@@ -444,6 +445,20 @@ function copyPanelList () {
 	document.execCommand('selectAll')
 	document.execCommand('copy')
 	}
+
+
+function copyPanelText (type) {
+    var text = document.getElementById('ruby').querySelectorAll(type)
+    var out = ''
+    for (var i=0;i<text.length;i++) out += text[i].textContent
+	var node = document.getElementById('panelCopyField')
+    node.value = out
+	node.focus()
+	document.execCommand('selectAll')
+	document.execCommand('copy')
+	}
+
+
 
 
 function getScriptGroup (charNum, blockfile) {
