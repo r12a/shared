@@ -11,7 +11,7 @@ charUsageBCP='ban-bali'
 orthogName = 'Balinese'
 indic = true
 
-pageWebfonts = ["Noto Serif Balinese WF", "Aksara Bali WF"]
+pageWebfonts = ["Vimala", "Noto Serif Balinese WF", "Aksara Bali WF"]
 defaultSize = '24px'
 
 
