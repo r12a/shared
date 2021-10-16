@@ -23,6 +23,13 @@ var spreadsheet = `
 ᬬ	Lo	j	y	y	y	y	y	consonant				ᬬ ᭄ᬬ			U+1B2C: BALINESE LETTER YA	✓
 																
 																
+ᬄ	Mc​	-h	h̽	h	H	h	'	final consonant						bisah	U+1B04: BALINESE SIGN BISAH​	✓
+ᬂ	Mn​	-ŋ	ŋ̇̽	ng	N	ng	]	final consonant						cecek	U+1B02: BALINESE SIGN CECEK​	✓
+ᬃ	Mn​	-r	r̽	r	R	r	[	final consonant						surang	U+1B03: BALINESE SIGN SURANG	✓
+ᬀ	Mn​	-m	m̽		M		{	final consonant						ulu ricem	U+1B00: BALINESE SIGN ULU RICEM	✓
+ᬁ	Mn​	-ŋ	ŋ̽		N		}	final consonant						ulu candra	U+1B01: BALINESE SIGN ULU CANDRA​	✓
+																
+																
 																
 																
 ᬨ	Lo	p	p̂	p	P	p ph		kawi consonant	kawi			ᬨ ᭄ᬨ		pa kapal	U+1B28: BALINESE LETTER PA KAPAL	✓
@@ -42,7 +49,7 @@ var spreadsheet = `
 ᬔ	Lo	k	K		K			honorific consonant	very rare			ᬔ ᭄ᬔ			U+1B14: BALINESE LETTER KA MAHAPRANA	✓
 ᬙ	Lo	t͡ʃ	C		C	c ch		honorific consonant	only found in subjoined form			ᬙ ᭄ᬙ			U+1B19: BALINESE LETTER CA LACA	✓
 ᭄ᬙ		t͡ʃ	͓C		C	c ch		honorific consonant	very rare			ᬙ ᭄ᬙ			U+1B44 U+1B19: BALINESE ADEG ADEG, LETTER CA LACA​	
-ᬛ	Lo	d͡ʒ	ċ	jh	C			honorific consonant	one word only			ᬛ ᭄ᬛ			U+1B1B: BALINESE LETTER JA JERA	✓
+ᬛ	Lo	d͡ʒ	ċ	jh	J			honorific consonant	one word only			ᬛ ᭄ᬛ			U+1B1B: BALINESE LETTER JA JERA	✓
 																
 ᬒᬁ																
 																
@@ -56,21 +63,14 @@ var spreadsheet = `
 ᭋ	Lo														U+1B4B: BALINESE LETTER ASYURA SASAK	✓
 																
 																
-ᬋ	Lo	rə	r̥̣	rě	R	rĕ		vocalic		ᬺ		ᬋ ᭄ᬋ		ra repa	U+1B0B: BALINESE LETTER RA REPA	✓
-ᬌ	Lo	rəː	r̥̣̄		R	rö		vocalic		ᬻ					U+1B0C: BALINESE LETTER RA REPA TEDUNG	✓
+ᬋ	Lo	rə	r̥̣	rě	r	rĕ		vocalic		ᬺ		ᬋ ᭄ᬋ		ra repa	U+1B0B: BALINESE LETTER RA REPA	✓
+ᬌ	Lo	rəː	r̥̣̄		r	rö		vocalic		ᬻ					U+1B0C: BALINESE LETTER RA REPA TEDUNG	✓
 ᬺ	Mn​	rə	r̥	rě	R	rĕ		vowel sign/semi-vowel/medial consonant			ᬋ			guwung macelek	U+1B3A: BALINESE VOWEL SIGN RA REPA​	✓
 ᬻ	Mc​	rəː	r̥̄		R	rö		vowel sign/semi-vowel/medial consonant			ᬌ			guwung macelek tedong	U+1B3B: BALINESE VOWEL SIGN RA REPA TEDUNG	✓
-ᬍ	Lo	lə	l̥̣	le	L	lĕ		vocalic		ᬼ					U+1B0D: BALINESE LETTER LA LENGA	✓
-ᬎ	Lo	ləː	l̥̣̄		L	lö		vocalic		ᬽ					U+1B0E: BALINESE LETTER LA LENGA TEDUNG	✓
+ᬍ	Lo	lə	l̥̣	le	l	lĕ		vocalic		ᬼ					U+1B0D: BALINESE LETTER LA LENGA	✓
+ᬎ	Lo	ləː	l̥̣̄		l	lö		vocalic		ᬽ					U+1B0E: BALINESE LETTER LA LENGA TEDUNG	✓
 ᬼ	Mn​	lə	l̥		L	lĕ		vocalic			ᬍ				U+1B3C: BALINESE VOWEL SIGN LA LENGA​	✓
 ᬽ	Mc​	ləː	l̥̄		L	lö		vocalic			ᬎ				U+1B3D: BALINESE VOWEL SIGN LA LENGA TEDUNG	✓
-																
-																
-ᬄ	Mc​	-h	h̽	h	h	h	'	final consonant						bisah	U+1B04: BALINESE SIGN BISAH​	✓
-ᬂ	Mn​	-ŋ	ŋ̇̽	ng	n	ng	]	final consonant						cecek	U+1B02: BALINESE SIGN CECEK​	✓
-ᬃ	Mn​	-r	r̽	r	r	r	[	final consonant						surang	U+1B03: BALINESE SIGN SURANG	✓
-ᬀ	Mn​	-m	m̽		M		{	final consonant						ulu ricem	U+1B00: BALINESE SIGN ULU RICEM	✓
-ᬁ	Mn​	-ŋ	ŋ̽		N		}	final consonant						ulu candra	U+1B01: BALINESE SIGN ULU CANDRA​	✓
 																
 																
 																
@@ -227,7 +227,6 @@ var spreadsheet = `
 
 
 
-
 `
 
 
@@ -263,7 +262,7 @@ var cols = {
 "ucsName": 15,
 "block": 16,
 
-"othertranscriptions": [[4, 'Tulisan']]
+"othertranscriptions": [[4, 'Tulisan'], [6, 'LOC']]
 }
 
 
