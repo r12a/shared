@@ -1,4 +1,6 @@
 var spreadsheet = `
+‒		a	a					inherent vowel									
+
 ꦧ	Lo	b	b		b	b	b	consonant				ꦧ ꦥ꧀ꦧ				U+A9A7: JAVANESE LETTER BA	✓
 ꦕ	Lo	t͡ʃ	c	t͡ʃ	c	ʧ	c	consonant				ꦕ ꦥ꧀ꦕ				U+A995: JAVANESE LETTER CA	✓
 ꦢ	Lo	d	d		d¶	d	d	consonant				ꦢ ꦥ꧀ꦢ				U+A9A2: JAVANESE LETTER DA	✓
