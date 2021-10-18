@@ -247,7 +247,7 @@ var cols = {
 "statusLoc": 8,
 
 "dvowel": 9,
-"ivowel": 1,
+"ivowel": 10,
 "subj":0,
 "ltone":0,
 "htone":0,
