@@ -15,6 +15,9 @@ pageWebfonts = ["Noto Sans Buginese WF"]
 defaultSize = '24px'
 
 
+autoIndex = true
+
+
 
 // block settings
 
