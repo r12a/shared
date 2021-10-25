@@ -423,7 +423,10 @@ console.log('showNameDetails(',chars, clang, base, target, panel, list, translit
     // add a link to the Wiktionary lemma page
     if (typeof window.languageName === 'undefined') var fragid = ''
     else fragid = '#'+window.languageName
-    out += `<a target="${ target }" href="https://en.wiktionary.org/wiki/${ chars }${ fragid }">Wiktionary</a>`
+    
+    if (typeof window.removeVowels === 'function') chars = removeVowels(chars)
+    
+    out += `<a target="wiktionary" href="https://en.wiktionary.org/wiki/${ chars }${ fragid }">Wiktionary</a>`
 	
     out += '<p style="text-align:right"><img src="/scripts/block/images/close.png" style="cursor:pointer;" id="character_panelshare_close_button" alt="Close"'
 	out += ` onclick="document.getElementById('panelShare').style.display='none'"`
