@@ -1,18 +1,21 @@
 @font-face {
     font-family: 'ralewaywf';
-    src: url('../webfonts/raleway-regular-webfont.woff2') format('woff2');
+    src: local('Raleway'),
+         url('../../shared/webfonts/raleway-regular-webfont.woff2');
     font-weight: normal;
     font-style: normal;
 	}
 @font-face {
     font-family: 'ralewaywf';
-    src: url('../webfonts/raleway-italic-webfont.woff2') format('woff2');
+    src: local('Raleway Italic'),
+         url('../../shared/webfonts/raleway-italic-webfont.woff2');
     font-weight: normal;
     font-style: italic;
 	}
 @font-face {
     font-family: 'ralewaywf';
-    src: url('../webfonts/raleway-bold-webfont.woff2') format('woff2');
+    src: local('Raleway Bold'),
+         url('../../shared/webfonts/raleway-bold-webfont.woff2');
     font-weight: bold;
     font-style: normal;
 	}
