@@ -372,7 +372,7 @@ console.log('showNameDetails(',chars, clang, base, target, panel, list, translit
     
 	// write out the bottom line
 	out += '<p style="text-align:left; margin-block-start: 1em;" id="panelSharingLine">'
-    out += '<img src="/scripts/common28/icons/share_transp.png" title="Export text to another app" alt="Send to:" onclick="document.getElementById(\'panelShare\').style.display=\'block\'"> \u00A0 '
+    out += '<img src="/scripts/common28/icons/share_transp.png" title="Export text to another app" alt="Send to..." onclick="document.getElementById(\'panelShare\').style.display=\'block\'"> \u00A0 '
     out += '<img src="/scripts/common28/icons/copylist.png" onclick="copyPanelList()" title="Copy the list of code points." alt="Copy list"> \u00A0 '
     out += `<img src="/scripts/common28/icons/copybase.png" onclick="copyPanelText('.rb')" title="Copy the base text at the top." alt="Copy base"> \u00A0 `
     out += `<img src="/scripts/common28/icons/copyannotation.png" onclick="copyPanelText('.rt')" title="Copy the annotation text at the top." alt="Copy annotation"> \u00A0 `
@@ -568,6 +568,14 @@ function makeDetails (chars) {
             out += '</span></p>'
 
             if (charDetails[charArray[i]]) out += charDetails[charArray[i]]
+            
+			if (cols.ivowel>0 && spreadsheetRows[charArray[i]][cols.ivowel]) {
+				out += '<p class="vowelPairing">The corresponding independent vowel is '+makeCharacterLink(spreadsheetRows[charArray[i]][cols.ivowel], lang, window.direction)+'</p>'
+				}
+			if (cols.dvowel>0 && spreadsheetRows[charArray[i]][cols.dvowel]) {
+				out += '<p class="vowelPairing">The corresponding dependent vowel is '+makeCharacterLink(spreadsheetRows[charArray[i]][cols.dvowel], lang, window.direction)+'</p>'
+				}
+
             out += '</td></tr>'
             }
         }
@@ -718,8 +726,11 @@ function makeCharacterLink (cp, lang, direction) {
 		var hex = charstr.codePointAt(0).toString(16).toUpperCase()
 		while (hex.length < 4) hex = '0'+hex 
 		
+		//if (spreadsheetRows[charstr]) {
+		//	out += '<span lang="'+lang+'">'+charstr+'</span> [<a href="block#char'+hex+'" target="c"><span class="uname">'+spreadsheetRows[cp][cols['ucsName']]+'</span></a>]'
+		//	}
 		if (spreadsheetRows[charstr]) {
-			out += '<span lang="'+lang+'">'+charstr+'</span> [<a href="block#char'+hex+'" target="c"><span class="uname">'+spreadsheetRows[cp][cols['ucsName']]+'</span></a>]'
+			out += `<span lang="${ lang }" onclick="makeFootnoteIndex('${ charstr }')">${ charstr }</span> [<a href="block#char${ hex }" target="c"><span class="uname">${ spreadsheetRows[cp][cols['ucsName']] }</span></a>]`
 			}
 		else console.log( 'Character not found in database.' )
         }
