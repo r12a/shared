@@ -182,11 +182,11 @@ var spreadsheet = `
 																	
 																	
 																	
+֏	Sc		¤		#	¤		currency symbol								U+058F: ARMENIAN DRAM SIGN	
 																	
 																	
 %	Po				%	%		percentage mark								U+0025: PERCENT SIGN	
 ‰	Po				%	‰		per mille mark								U+2030: PER MILLE SIGN	
-
 
 
 
