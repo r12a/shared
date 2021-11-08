@@ -154,7 +154,11 @@ var spreadsheet = `
 					[	⁑		feminine marker								
 																
 																
-𞥋	Lm	̃			[	˜		nasalisation mark						nyondal	U+1E94B: ADLAM NASALIZATION MARK	✓
+𞥋	Lm	̃			[	˜		nasalisation mark					𞤻𞤮𞤲𞤣𞤢𞤤	nyondal	U+1E94B: ADLAM NASALIZATION MARK	✓
+𞤲𞥋𞤣		ⁿd						prenasalised d							U+1E932 U+1E94B U+1E923: ADLAM SMALL LETTER NUN, NASALIZATION MARK, SMALL LETTER DAALI	
+𞤲𞥋𞤦		ᵐb						prenasalised b							U+1E932 U+1E94B U+1E926: ADLAM SMALL LETTER NUN, NASALIZATION MARK, SMALL LETTER BA	
+𞤲𞥋𞤶		ⁿd͡ʒ						prenasalised j							U+1E932 U+1E94B U+1E936: ADLAM SMALL LETTER NUN, NASALIZATION MARK, SMALL LETTER JIIM	
+𞤲𞥋𞤺		ᵑɡ						prenasalised g							U+1E932 U+1E94B U+1E93A: ADLAM SMALL LETTER NUN, NASALIZATION MARK, SMALL LETTER GA	
 																
 																
 𞥈	Mn​				/	˙		consonant modifier							U+1E948: ADLAM CONSONANT MODIFIER​	✓
@@ -264,7 +268,7 @@ var spreadsheet = `
 `
 
 
-latinPanel = 'Ɓ Ɗ Ɠ Ñ Ŋ Ô Ƴ aː ɓ ɗ d͡ʒ dˤ ɛ eː ɛː g͡b ɠ ɦ iː k͡p ɲ ñ ŋ ɔ ô oː ɔː θ ɾ ʃ sˤ t͡ʃ tˤ uː ʼy ƴ ɣ zˤ ʕ ʔ ʔʲ'
+latinPanel = 'Ɓ Ɗ Ɠ Ñ Ŋ Ô Ƴ aː ɓ ɗ d͡ʒ dˤ ɛ eː ɛː g͡b ɠ ɦ iː k͡p ɲ ñ ŋ ɔ ô oː ɔː θ ɾ ʃ sˤ t͡ʃ tˤ uː ʼy ƴ ɣ zˤ ʕ ʔ ʔʲ ⁿ ᵐ ᵑ'
 
 
 
