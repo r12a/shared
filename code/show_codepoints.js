@@ -619,6 +619,38 @@ function showCharDetailsInPanel (evt) {
 	}
 
 
+function showCharDetailsInPanel (evt) {
+	if (typeof charDetails === 'undefined') return
+
+	// find the language & character(s)
+	var lang
+	if (evt.target.className == 'listItem') lang = evt.target.lang
+	else if (evt.target.parentNode.parentNode.querySelector('bdi') !== null) lang = evt.target.parentNode.parentNode.querySelector('bdi').lang
+	else if (evt.target.parentNode.parentNode.querySelector('span') !== null) lang = evt.target.parentNode.parentNode.querySelector('span').lang
+	else console.log('No lang found in showCharDetailsInPanel')
+
+    var chars
+	if (evt.target.className == 'listItem') chars = evt.target.textContent
+	else if (evt.target.parentNode.parentNode.querySelector('bdi') !== null) chars = evt.target.parentNode.parentNode.querySelector('bdi').textContent
+	else if (evt.target.parentNode.parentNode.querySelector('span') !== null) chars = evt.target.parentNode.parentNode.querySelector('span').textContent
+	else console.log('No characters found in showCharDetailsInPanel')
+
+
+	var panel = document.getElementById('panel')
+	panel.innerHTML = makePanelDetails(chars,lang)
+	//document.getElementById('panel').innerHTML = charDetails[char]
+	panel.style.display = 'block'
+	
+	addExamples(lang)
+	autoTransliterate(evt.target.lang)
+    var links = panel.querySelectorAll('.codepoint a')
+	for (i=0;i<links.length;i++) links[i].onclick = showCharDetailsInPanel
+	setFootnoteRefs()
+
+	return false
+	}
+
+
 
 
 
