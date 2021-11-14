@@ -420,13 +420,18 @@ console.log('showNameDetails(',chars, clang, base, target, panel, list, translit
 	   out += `<div><a target="_blank" href="/pickers/${ window.pickerDir }?text=${ chars }" onclick="document.getElementById('panelShare').style.display='none'">Character App</a></div>`
        }
 
-    // add a link to the Wiktionary lemma page
+    // add a link to the _vocab page
     if (typeof window.languageName === 'undefined') var fragid = ''
     else fragid = '#'+window.languageName
+
+    // figure out where to find the url for the _vocab page
+    if (typeof template !== 'undefined' && typeof template.vocablocation === 'string') var url = template.vocablocation
+    else url = `${ window.lang }_vocab`
     
     if (typeof window.removeVowels === 'function') chars = removeVowels(chars)
     
-    out += `<a target="wiktionary" href="https://en.wiktionary.org/wiki/${ chars }${ fragid }">Wiktionary</a>`
+    //out += `<a target="wiktionary" href="https://en.wiktionary.org/wiki/${ chars }${ fragid }">Wiktionary</a>`
+    out += `<a target="termbase" href="${ url }?q=${ chars }">Term base</a>`
 	
     out += '<p style="text-align:right"><img src="/scripts/block/images/close.png" style="cursor:pointer;" id="character_panelshare_close_button" alt="Close"'
 	out += ` onclick="document.getElementById('panelShare').style.display='none'"`
