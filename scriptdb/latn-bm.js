@@ -16,7 +16,7 @@ p	Ll	p	p		p		consonant		pe	U+0070: LATIN SMALL LETTER P
 r	Ll	r	r		r		consonant		ɛr	U+0072: LATIN SMALL LETTER R	
 s	Ll	s	s		s		consonant		ɛs	U+0073: LATIN SMALL LETTER S	
 t	Ll	t	t		t		consonant		te	U+0074: LATIN SMALL LETTER T	
-w	Ll	w	w		w		consonant		wa	U+0077: LATIN SMALL LETTER W	
+w	Ll	w u	w		w		consonant		wa	U+0077: LATIN SMALL LETTER W	
 y	Ll	j	j		y		consonant		ye	U+0079: LATIN SMALL LETTER Y	
 z	Ll	z	z		z		consonant		ze	U+007A: LATIN SMALL LETTER Z	
 											
