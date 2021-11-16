@@ -261,7 +261,7 @@ function showNameDetails (chars, clang, base, target, panel, list, translit) {
 // local out charArray chardiv charimg thename thelink hex dec blockname blockfile c
 // global charData pickerDir
 // calls getScriptGroup
-console.log('showNameDetails(',chars, clang, base, target, panel, list, translit,')')
+//console.log('showNameDetails(',chars, clang, base, target, panel, list, translit,')')
 
 	// check whether the calling page has set a base and target window
 	if(typeof base === 'undefined' || base === '') { base = '/uniview/?char=' }
@@ -269,12 +269,13 @@ console.log('showNameDetails(',chars, clang, base, target, panel, list, translit
 	if(typeof list === 'undefined') { list = null }
 	if(typeof translit === 'undefined') { translit = '' }
 	
-	 chars = chars
+	/* chars = chars
       .replace(/&/g, "&amp;")
       .replace(/</g, "&lt;")
       .replace(/>/g, "&gt;")
       .replace(/"/g, "&quot;")
       .replace(/'/g, "&#039;");
+      */
 	  
 	// clear and show the panel
 	panel.innerHTML = ''
@@ -346,10 +347,13 @@ console.log('showNameDetails(',chars, clang, base, target, panel, list, translit
 		if (charData[charArray[c]]) {
             blockname = getScriptGroup(dec, false)
             blockfile = getScriptGroup(dec, true)
+            console.log(dec,blockfile)
+            isInBlock = spreadsheetRows[charArray[c]]?spreadsheetRows[charArray[c]][cols['block']]:''
 
 			out += '<div class="panelCharacter">'
-			if (blockfile) {
-				out += '<a target="'+target+'" href="'
+			//if (blockfile) {
+			if (isInBlock) {
+				out += `<a target="${ target }" href="`
 				if (base === '/uniview/?char=') out += base+hex
 				else out += '/scripts/'+blockfile+'/block#char'+hex
 				out += '">'
