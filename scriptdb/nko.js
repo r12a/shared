@@ -85,13 +85,13 @@ var spreadsheet = `
 												
 												
 ߷	Po	|			¶		major section terminator				U+07F7: NKO SYMBOL GBAKURUNEN	✓
-߸	Po	,			,	,	comma				U+07F8: NKO COMMA	✓
-،	Po	,			⹁		arabic comma				U+060C: ARABIC COMMA	
+߸	Po	,	,		,	,	comma				U+07F8: NKO COMMA	✓
+،	Po	,	,		⹁		arabic comma				U+060C: ARABIC COMMA	
 ؛	Po	;	;		;		arabic semicolon				U+061B: ARABIC SEMICOLON	
 :	Po	:	:		:		colon				U+003A: COLON	
 .	Po	.	.		.		full stop				U+002E: FULL STOP	
-߹	Po	!			!	!	exclamation mark				U+07F9: NKO EXCLAMATION MARK	✓
-؟	Po	?			?		arabic question mark				U+061F: ARABIC QUESTION MARK	
+߹	Po	!	!		!	!	exclamation mark				U+07F9: NKO EXCLAMATION MARK	✓
+؟	Po	?	?		?		arabic question mark				U+061F: ARABIC QUESTION MARK	
 												
 												
 …	Po	.	…		…		ellipsis				U+2026: HORIZONTAL ELLIPSIS	
@@ -106,7 +106,8 @@ var spreadsheet = `
 »	Pf	>	”		»		quotation mark				U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
 ›	Pf	>	’		›		quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
 ”	Pf	>	”		”		quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK	
-’	Pf	>	’		’		quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK													
+’	Pf	>	’		’		quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
+												
 												
 (	Ps	(	(		(		parenthesis				U+0028: LEFT PARENTHESIS	
 [	Ps	(	[		[		bracket				U+005B: LEFT SQUARE BRACKET	
@@ -192,7 +193,6 @@ var spreadsheet = `
 												
 												
 ٪	Po	%			%		arabic percent sign				U+066A: ARABIC PERCENT SIGN	
-
 
 
 
