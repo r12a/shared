@@ -156,7 +156,7 @@ function showNameDetailsOLD (chars, clang, base, target, panel, list, translit) 
     
 	// write out the bottom line
 	out += '<p style="text-align:left;" id="panelSharingLine">'
-    out += '<img src="../common/icons/share_transp.png" alt="Send to:"> \u00A0 '
+    out += '<img src="../../shared/images/share_transp.png" alt="Send to:"> \u00A0 '
 	// add a link to analysestring
 	out += '<a href="/app-analysestring/?chars='+chars+'" target="_blank">Details</a>'
 	out += ' • '
@@ -177,7 +177,7 @@ function showNameDetailsOLD (chars, clang, base, target, panel, list, translit) 
 	out += '</div>'
 	
 	// add a close button
-	out += '<p style="text-align:right"><img src="../block/images/close.png" style="cursor:pointer;" id="character_panel_close_button" alt="Close"'
+	out += '<p style="text-align:right"><img src="../../shared/images/close.png" style="cursor:pointer;" id="character_panel_close_button" alt="Close"'
 	out += ' onclick="document.getElementById(\'panel\').style.display = \'none\'"'
 	out += '></p>'
 
@@ -376,10 +376,10 @@ function showNameDetails (chars, clang, base, target, panel, list, translit) {
     
 	// write out the bottom line
 	out += '<p style="text-align:left; margin-block-start: 1em;" id="panelSharingLine">'
-    out += '<img src="../common28/icons/share_transp.png" title="Export text to another app" alt="Send to..." onclick="document.getElementById(\'panelShare\').style.display=\'block\'"> \u00A0 '
-    out += '<img src="../common28/icons/copylist.png" onclick="copyPanelList()" title="Copy the list of code points." alt="Copy list"> \u00A0 '
-    out += `<img src="../common28/icons/copybase.png" onclick="copyPanelText('.rb')" title="Copy the base text at the top." alt="Copy base"> \u00A0 `
-    out += `<img src="../common28/icons/copyannotation.png" onclick="copyPanelText('.rt')" title="Copy the annotation text at the top." alt="Copy annotation"> \u00A0 `
+    out += '<img src="../../shared/images/share_transp.png" title="Export text to another app" alt="Send to..." onclick="document.getElementById(\'panelShare\').style.display=\'block\'"> \u00A0 '
+    out += '<img src="../../shared/images/copylist.png" onclick="copyPanelList()" title="Copy the list of code points." alt="Copy list"> \u00A0 '
+    out += `<img src="../../shared/images/copybase.png" onclick="copyPanelText('.rb')" title="Copy the base text at the top." alt="Copy base"> \u00A0 `
+    out += `<img src="../../shared/images/copyannotation.png" onclick="copyPanelText('.rt')" title="Copy the annotation text at the top." alt="Copy annotation"> \u00A0 `
     
     /*
 	// add a link to analysestring
@@ -402,7 +402,7 @@ function showNameDetails (chars, clang, base, target, panel, list, translit) {
 	//out += ' <span onclick="alert(getPhonemeList());" style="pointer:cursor;">P</span>'
 	
 	// add a close button
-	out += '<p style="text-align:right"><img src="../block/images/close.png" style="cursor:pointer;" id="character_panel_close_button" alt="Close"'
+	out += '<p style="text-align:right"><img src="../../shared/images/close.png" style="cursor:pointer;" id="character_panel_close_button" alt="Close"'
 	out += ' onclick="document.getElementById(\'panel\').style.display = \'none\'"'
 	out += '></p>'
 
@@ -554,7 +554,8 @@ function makeDetails (chars) {
 
     for (var i=0;i<charArray.length;i++) {
         if (spreadsheetRows[charArray[i]]) {
-            out += '<tr><th class="cdChar" onclick="this.parentNode.parentNode.parentNode.style.display=\'none\'"><span class="ex" lang="fuf">'+charArray[i]+'</span><br><span class="cdCharClose">x</span></th>'
+            //out += '<tr><th class="cdChar" onclick="this.parentNode.parentNode.parentNode.style.display=\'none\'"><span class="ex" lang="fuf">'+charArray[i]+'</span><br><span class="cdCharClose">x</span></th>'
+            out += `<tr><th class="cdChar" onclick="this.parentNode.parentNode.parentNode.style.display='none'"><span class="ex" lang="${ window.notesLangtag }">${ charArray[i] }</span><br><span class="cdCharClose">x</span></th>`
             out += '<td class="cdData">'
 
             var temp = spreadsheetRows[charArray[i]][cols['ucsName']].split(':')
