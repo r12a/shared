@@ -160,8 +160,7 @@ A	Ll	A	A	A			vowel		a	U+0041: LATIN CAPITAL LETTER A
 											
 											
 											
-											
-											
+\u202F	Zs			ⁿⁿᵇˢᵖ			narrow no-break space			U+202F NARROW NO-BREAK SPACE												
 											
 											
 											
