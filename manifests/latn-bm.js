@@ -21,7 +21,7 @@ autoIndex = true
 
 // block settings
 
-languageName = 'Bambara'
+languageName = 'Bamanan'
 letterClassName = 'bm'
 lang = 'bm'
 direction = ''
