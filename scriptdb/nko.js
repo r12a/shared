@@ -11,7 +11,7 @@ var spreadsheet = `
 ߡ	Lo	m	m	m	m	m	nasal				U+07E1: NKO LETTER MA	✓
 ߣ	Lo	n	n	n	n	n	nasal				U+07E3: NKO LETTER NA	✓
 ߢ	Lo	n	ɲ	ɲ	ɲ		nasal				U+07E2: NKO LETTER NYA	✓
-ߒ	Lo	N	ń	n̩	ŋ̩	N	nasal syllable				U+07D2: NKO LETTER N	✓
+ߒ	Lo	N	n	n̩	ŋ̩	N	nasal syllable				U+07D2: NKO LETTER N	✓
 ߠ	Lo	N	n	n	ł		abstract consonant			ná-woloso	U+07E0: NKO LETTER NA WOLOSO	✓
 ߧ	Lo	N	y	ɲ	y		abstract consonant			ɲá-woloso	U+07E7: NKO LETTER NYA WOLOSO	✓
 ߔ	Lo	p	p	p	p	p	plosive				U+07D4: NKO LETTER PA	✓
@@ -45,8 +45,8 @@ var spreadsheet = `
 ߭	Mn​	^	̌	˨˦	ˇ		tone mark				U+07ED: NKO COMBINING SHORT RISING TONE​	✓
 ߱	Mn​	^	̀́	˨˦	˅	<	tone mark				U+07F1: NKO COMBINING LONG RISING TONE​	✓
 ߮	Mn​	^	́̀	˦˨	ˆ	^	tone mark				U+07EE: NKO COMBINING LONG DESCENDING TONE​	✓
-ߴ	Lm	^	ˊ	˦	◌́		tone mark				U+07F4: NKO HIGH TONE APOSTROPHE	✓
-ߵ	Lm	^	ˋ	˨	◌̀		tone mark				U+07F5: NKO LOW TONE APOSTROPHE	✓
+ߴ	Lm	^	’		◌́		tone mark				U+07F4: NKO HIGH TONE APOSTROPHE	✓
+ߵ	Lm	^	’		◌̀		tone mark				U+07F5: NKO LOW TONE APOSTROPHE	✓
 												
 												
 												
@@ -74,9 +74,9 @@ var spreadsheet = `
 ߖ߳	s	Z	ƶ	zˤ	ʤˑ		fricative	ظ non-native			U+07D6 U+07F3: NKO LETTER JA, COMBINING DOUBLE DOT ABOVE	
 												
 												
-ߊ߳	s	A	y	ʕa	aˑ		vowel	non-native عَ			U+07CA U+07F3: NKO LETTER A, COMBINING DOUBLE DOT ABOVE	
+ߊ߳	s	A	ʕa	ʕa	aˑ		vowel	non-native عَ			U+07CA U+07F3: NKO LETTER A, COMBINING DOUBLE DOT ABOVE	
 ߋ߳	s	E	ǝ	ǝ	eˑ		vowel	non-native			U+07CB U+07F3: NKO LETTER EE, COMBINING DOUBLE DOT ABOVE	
-ߎ߳	s	U	ʕa	y	uˑ		vowel	non-native			U+07CE U+07F3: NKO LETTER U, COMBINING DOUBLE DOT ABOVE	
+ߎ߳	s	U	y	y	uˑ		vowel	non-native			U+07CE U+07F3: NKO LETTER U, COMBINING DOUBLE DOT ABOVE	
 												
 												
 												
