@@ -3,7 +3,7 @@ b	Ll	b	b	b			consonant		be	U+0062: LATIN SMALL LETTER B
 c	Ll	c	t͡ʃ	ʧ			consonant		ce	U+0063: LATIN SMALL LETTER C	
 d	Ll	d	d	d			consonant		de	U+0064: LATIN SMALL LETTER D	
 f	Ll	f	f	f			consonant		ef	U+0066: LATIN SMALL LETTER F	
-g	Ll	g	g	g			consonant		ge	U+0067: LATIN SMALL LETTER G	
+g	Ll	g	g gʷ ɣ	g			consonant		ge	U+0067: LATIN SMALL LETTER G	
 h	Ll	h	h	h			consonant		ha	U+0068: LATIN SMALL LETTER H	
 j	Ll	j	d͡ʒ	ʤ			consonant		je	U+006A: LATIN SMALL LETTER J	
 k	Ll	k	k	k			consonant		ka	U+006B: LATIN SMALL LETTER K	
@@ -24,7 +24,7 @@ B	Ll	B	B	B			consonant		be	U+0042: LATIN CAPITAL LETTER B
 C	Ll	C	T͡Ʃ	ʧ̄			consonant		ce	U+0043: LATIN CAPITAL LETTER C	
 D	Ll	D	D	D			consonant		de	U+0044: LATIN CAPITAL LETTER D	
 F	Ll	F	F	F			consonant		ef	U+0046: LATIN CAPITAL LETTER F	
-G	Ll	G	G	G			consonant		ge	U+0047: LATIN CAPITAL LETTER G	
+G	Ll	G	G Gʷ ɣ	G			consonant		ge	U+0047: LATIN CAPITAL LETTER G	
 H	Ll	H	H	H			consonant		ha	U+0048: LATIN CAPITAL LETTER H	
 J	Ll	J	D͡Ʒ	ʤ̄			consonant		je	U+004A: LATIN CAPITAL LETTER J	
 K	Ll	K	K	K			consonant		ka	U+004B: LATIN CAPITAL LETTER K	
@@ -67,7 +67,11 @@ o	Ll	o	o	o			vowel		o	U+006F: LATIN SMALL LETTER O
 a	Ll	a	a	a			vowel		a	U+0061: LATIN SMALL LETTER A	
 á	Ll	a	a˦	á			vowel with high tone	infrequent		U+00E1: LATIN SMALL LETTER A WITH ACUTE	✓
 à	Ll	a	a˨	à			vowel with low tone	infrequent		U+00E0: LATIN SMALL LETTER A WITH GRAVE	✓
-
+ǎ	Ll	a	a˨˦	ǎ			vowel with descending tone	infrequent		U+01CE: LATIN SMALL LETTER A WITH CARON	
+ě	Ll	e	e˨˦	ě			vowel with descending tone	infrequent		U+011B: LATIN SMALL LETTER E WITH CARON	
+ǐ	Ll	i	i˨˦	ǐ			vowel with descending tone	infrequent		U+01D0: LATIN SMALL LETTER I WITH CARON	
+ǒ	Ll	o	o˨˦	ǒ			vowel with descending tone	infrequent		U+01D2: LATIN SMALL LETTER O WITH CARON	
+ǔ	Ll	u	u˨˦	ǔ			vowel with descending tone	infrequent		U+01D4: LATIN SMALL LETTER U WITH CARON	
 											
 I	Ll	I	I	I			vowel		i	U+0049: LATIN CAPITAL LETTER I	
 U	Ll	U	U	U			vowel		u	U+0055: LATIN CAPITAL LETTER U	
@@ -115,6 +119,7 @@ A	Ll	A	A	A			vowel		a	U+0041: LATIN CAPITAL LETTER A
 ›	Pf	>		›	’		quotation mark			U+2019: RIGHT SINGLE QUOTATION MARK	
 											
 											
+											
 (	Ps	(		(	(		parenthesis			U+0028: LEFT PARENTHESIS	
 [	Pe	(		[	[		bracket			U+005B: LEFT SQUARE BRACKET	
 )	Ps	)		)	)		parenthesis			U+0029: RIGHT PARENTHESIS	
@@ -138,6 +143,7 @@ A	Ll	A	A	A			vowel		a	U+0041: LATIN CAPITAL LETTER A
 											
 											
 											
+				͓							
 											
 											
 											
@@ -160,7 +166,9 @@ A	Ll	A	A	A			vowel		a	U+0041: LATIN CAPITAL LETTER A
 											
 											
 											
-\u202F	Zs			ⁿⁿᵇˢᵖ			narrow no-break space			U+202F NARROW NO-BREAK SPACE												
+											
+&#x202F;	Zs			ⁿⁿᵇˢᵖ			narrow no-break space			U+202F NARROW NO-BREAK SPACE	
+											
 											
 											
 											
@@ -173,12 +181,11 @@ A	Ll	A	A	A			vowel		a	U+0041: LATIN CAPITAL LETTER A
 
 
 
-
 `
 
 
 
-latinPanel = 'í ì ĩ iː ú ù ũ uː ɛ ɛ́ ɛ̀ ɛ̃ ɛː é è ẽ eː ɔ ɔ́ ɔ̀ ɔ̃ ɔː ó ò õ oː á à ã aː d͡ʒ ɡ ʷ m͡ ᵐ n͡ ⁿ ɲ͡ ᵑ ŋ͡ᶮ ʃ ʒ ʼ ꜜ ` ̃ ́ ̀ ̂ ̌  ˦ ˨'
+latinPanel = 'í ì ĩ iː ú ù ũ uː ɛ ɛ́ ɛ̀ ɛ̃ ɛː é è ẽ eː ɔ ɔ́ ɔ̀ ɔ̃ ɔː ó ò õ oː á à ǎ ã aː d͡ʒ ɡ ʷ m͡ ᵐ n͡ ⁿ ɲ͡ ᵑ ŋ͡ᶮ ʃ ʒ ʼ ꜜ ` ̃ ́ ̀ ̂ ̌  ˦ ˨'
 
 
 
