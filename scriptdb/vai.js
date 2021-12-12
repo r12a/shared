@@ -46,8 +46,8 @@ var spreadsheet = `
 ”	Pf		”	”	>			quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK	
 ’	Pf		’	’	>			quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
 													
-ꕉ	Lo	a	ạ	a	a			syllable				U+A549: VAI SYLLABLE A	✓
-ꕊ	Lo	ã	ạ̃	an	a			syllable				U+A54A: VAI SYLLABLE AN	✓
+ꕉ	Lo	a	a	a	a			syllable				U+A549: VAI SYLLABLE A	✓
+ꕊ	Lo	ã	a	an	a			syllable				U+A54A: VAI SYLLABLE AN	✓
 ꕑ	Lo	ba	ba	ba	b			syllable				U+A551: VAI SYLLABLE BHA	✓
 ꔆ	Lo	be	be	be	b			syllable				U+A506: VAI SYLLABLE BHEE	✓
 ꗩ	Lo	bɛ	bɛ	bɛ	b			syllable				U+A5E9: VAI SYLLABLE BHE	✓
@@ -83,10 +83,10 @@ var spreadsheet = `
 ꖅ	Lo	ɗo	ɗo	ɗo	D			syllable				U+A585: VAI SYLLABLE DOO	✓
 ꗑ	Lo	ɗɔ	ɗɔ	ɗɔ	D			syllable/logogram				U+A5D1: VAI SYLLABLE DO	✓
 ꖪ	Lo	ɗu	ɗu	ɗu	D			syllable				U+A5AA: VAI SYLLABLE DU	✓
-ꔀ	Lo	e	ẹ	e	e			syllable				U+A500: VAI SYLLABLE EE	✓
-ꔁ	Lo	ẽ	ẹ̃	en	e		i	syllable	for foriegn sounds			U+A501: VAI SYLLABLE EEN	✓
-ꗡ	Lo	ɛ	ɛ̣	ɛ	E			syllable				U+A5E1: VAI SYLLABLE E	✓
-ꗢ	Lo	ɛ̃	ɛ̣̃	ɛn	E			syllable				U+A5E2: VAI SYLLABLE EN	✓
+ꔀ	Lo	e	e	e	e			syllable				U+A500: VAI SYLLABLE EE	✓
+ꔁ	Lo	ẽ	ẽ	en	e		i	syllable	for foriegn sounds			U+A501: VAI SYLLABLE EEN	✓
+ꗡ	Lo	ɛ	ɛ	ɛ	E			syllable				U+A5E1: VAI SYLLABLE E	✓
+ꗢ	Lo	ɛ̃	ɛ̃	ɛn	E			syllable				U+A5E2: VAI SYLLABLE EN	✓
 ꕘ	Lo	fa	fa	fa	f			syllable				U+A558: VAI SYLLABLE FA	✓
 ꔌ	Lo	fe	fe	fe	f			syllable				U+A50C: VAI SYLLABLE FEE	✓
 ꗱ	Lo	fɛ	fɛ	fɛ	f			syllable				U+A5F1: VAI SYLLABLE FE	✓
@@ -138,8 +138,8 @@ var spreadsheet = `
 ꔧ	Lo	hĩ	hĩ	hin	H			syllable				U+A527: VAI SYLLABLE HIN	✓
 ꖾ	Lo	hɔ̃	hɔ̃	hɔn	H			syllable				U+A5BE: VAI SYLLABLE HON	✓
 ꖘ	Lo	hũ	hũ	hun	H			syllable				U+A598: VAI SYLLABLE HUN	✓
-ꔤ	Lo	i	ị	i	i			syllable				U+A524: VAI SYLLABLE I	✓
-ꔥ	Lo	ĩ	ị̃	in	i		i	syllable	for foriegn sounds			U+A525: VAI SYLLABLE IN	✓
+ꔤ	Lo	i	i	i	i			syllable				U+A524: VAI SYLLABLE I	✓
+ꔥ	Lo	ĩ	ĩ	in	i		i	syllable	for foriegn sounds			U+A525: VAI SYLLABLE IN	✓
 ꕧ	Lo	d͡ʒa	ʤa	ja	j			syllable				U+A567: VAI SYLLABLE JA	✓
 ꔛ	Lo	d͡ʒe	ʤe	je	j			syllable				U+A51B: VAI SYLLABLE JEE	✓
 ꘀ	Lo	d͡ʒɛ	ʤɛ	jɛ	j			syllable				U+A600: VAI SYLLABLE JE	✓
@@ -200,10 +200,10 @@ var spreadsheet = `
 ꖔ	Lo	ɲõ	ɲõ	nyon	N		i	syllable				U+A594: VAI SYLLABLE NYOO	✓
 ꗠ	Lo	ɲɔ̃	ɲɔ̃	nyɔn	N			syllable				U+A5E0: VAI SYLLABLE NYO	✓
 ꖹ	Lo	ɲũ	ɲũ	nyun	N			syllable				U+A5B9: VAI SYLLABLE NYU	✓
-ꕱ	Lo	o	ọ	o	o			syllable				U+A571: VAI SYLLABLE OO	✓
-ꕲ	Lo	õ	ọ̃	on	o		i	syllable	for foriegn sounds			U+A572: VAI SYLLABLE OON	✓
-ꖺ	Lo	ɔ	ɔ̣	ɔ	O			syllable				U+A5BA: VAI SYLLABLE O	✓
-ꖻ	Lo	ɔ̃	ɔ̣̃	ɔn	O			syllable				U+A5BB: VAI SYLLABLE ON	✓
+ꕱ	Lo	o	o	o	o			syllable				U+A571: VAI SYLLABLE OO	✓
+ꕲ	Lo	õ	ō	on	o		i	syllable	for foriegn sounds			U+A572: VAI SYLLABLE OON	✓
+ꖺ	Lo	ɔ	ɔ	ɔ	O			syllable				U+A5BA: VAI SYLLABLE O	✓
+ꖻ	Lo	ɔ̃	ɔ̃	ɔn	O			syllable				U+A5BB: VAI SYLLABLE ON	✓
 ꕔ	Lo	k͡pa	k͡pa	kpa	P			syllable				U+A554: VAI SYLLABLE KPA	✓
 ꔉ	Lo	k͡pe	k͡pe	kpe	P			syllable				U+A509: VAI SYLLABLE KPEE	✓
 ꗬ	Lo	k͡pɛ	k͡pɛ	kpɛ	P			syllable				U+A5EC: VAI SYLLABLE KPE	✓
@@ -262,8 +262,8 @@ var spreadsheet = `
 ꕿ	Lo	to	to	to	t			syllable				U+A57F: VAI SYLLABLE TOO	✓
 ꗋ	Lo	tɔ	tɔ	tɔ	t			syllable				U+A5CB: VAI SYLLABLE TO	✓
 ꖤ	Lo	tu	tu	tu	t			syllable				U+A5A4: VAI SYLLABLE TU	✓
-ꖕ	Lo	u	ụ	u	u			syllable				U+A595: VAI SYLLABLE U	✓
-ꖖ	Lo	ũ	ụ̃	un	u		i	syllable	for foriegn sounds			U+A596: VAI SYLLABLE UN	✓
+ꖕ	Lo	u	u	u	u			syllable				U+A595: VAI SYLLABLE U	✓
+ꖖ	Lo	ũ	ũ	un	u		i	syllable	for foriegn sounds			U+A596: VAI SYLLABLE UN	✓
 ꕙ	Lo	va	va	va	v			syllable				U+A559: VAI SYLLABLE VA	✓
 ꔍ	Lo	ve	ve	ve	v			syllable				U+A50D: VAI SYLLABLE VEE	✓
 ꗲ	Lo	vɛ	vɛ	vɛ	v			syllable				U+A5F2: VAI SYLLABLE VE	✓
