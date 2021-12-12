@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'ExtendedLatinWF';
+    src: /* Local commented out until the feature settings can be made to work */
+         url('../../shared/webfonts/gentiumplus-i-webfont.woff2');
+    font-weight: normal;
+    font-style: italic;
+	font-feature-settings: "ss05" 1;
+	}
+
 table.inband { margin-right: 32%; }
 table.inband td { text-align: left; }
 table.inband th { text-align: left; }
@@ -124,6 +133,35 @@ p.siblings-bottom {
 	margin-right: 7.5%;
 	text-align: left;
 	}
+
+
+
+.ipa { 
+	font-family: ExtendedLatinWF; 
+	font-size: 110%;
+    font-style: italic;
+	font-feature-settings: "ss05" 1;
+	}
+.ipa:before { 
+	content: '/'; 
+	font-family: ExtendedLatinWF; 
+	margin-right: 1.5px; 
+	margin-left: 0.2em; 
+	color: #aaa;
+    font-style: normal;
+	}
+.ipa:after { 
+	content: '/'; 
+	font-family: ExtendedLatinWF; 
+	margin-right: 0.2em; 
+	margin-left: 1.5px;  
+	color: #aaa; 
+    font-style: normal;
+    }
+
+
+
+
 
 
 @media print {
