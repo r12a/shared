@@ -15,6 +15,8 @@ pageWebfonts = ["Noto Serif Malayalam WF", "Noto Sans Malayalam WF"]
 defaultSize = '24px'
 
 
+autoIndex = true
+
 
 // block settings
 
