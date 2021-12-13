@@ -15,6 +15,9 @@ pageWebfonts = ["Noto Lisu WF"]
 defaultSize = '24px'
 
 
+autoIndex = true
+
+
 
 // block settings
 
