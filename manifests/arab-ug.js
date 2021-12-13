@@ -15,6 +15,8 @@ pageWebfonts = ["Scheherazade WF"]
 defaultSize = '24px'
 
 
+autoIndex = true
+
 
 // block settings
 
