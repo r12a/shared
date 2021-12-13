@@ -1,34 +1,34 @@
 var spreadsheet = `
-ꓑ	p	p		p	p	p	Lo		consonant				U+A4D1: LISU LETTER PA	✓
-ꓐ	b	b		b	b	b	Lo		consonant				U+A4D0: LISU LETTER BA	✓
-ꓒ	p	pʰ		pʰ	pʰ	P	Lo		consonant				U+A4D2: LISU LETTER PHA	✓
-ꓔ	t	t		t	t	t	Lo		consonant				U+A4D4: LISU LETTER TA	✓
-ꓓ	d	d		d	d	d	Lo		consonant				U+A4D3: LISU LETTER DA	✓
-ꓕ	t	tʰ		tʰ	tʰ	T	Lo		consonant				U+A4D5: LISU LETTER THA	✓
-ꓗ	k	k		k	k	k	Lo		consonant				U+A4D7: LISU LETTER KA	✓
-ꓖ	g	ɡ		ɡ	ɡ	g	Lo		consonant				U+A4D6: LISU LETTER GA	✓
-ꓘ	k	kʰ		kʰ	kʰ	K	Lo		consonant				U+A4D8: LISU LETTER KHA	✓
-ꓝ	t	t͡s		ʦ	ʦ	f	Lo		consonant				U+A4DD: LISU LETTER TSA	✓
-ꓜ	d	d͡z		ʣ	ʣ	z	Lo		consonant				U+A4DC: LISU LETTER DZA	✓
-ꓞ	t	ʦʰ		ʦʰ	ʦʰ	F	Lo		consonant				U+A4DE: LISU LETTER TSHA	✓
-ꓚ	t	ʨ		ʨ	ʨ	c	Lo		consonant				U+A4DA: LISU LETTER CA	✓
-ꓙ	d	ʥ		ʥ	ʥ	j	Lo		consonant				U+A4D9: LISU LETTER JA	✓
-ꓛ	t	ʨʰ		ʨʰ	ʨʰ	C	Lo		consonant				U+A4DB: LISU LETTER CHA	✓
-ꓩ	f	f		f	f	J	Lo		consonant				U+A4E9: LISU LETTER FA	✓
-ꓢ	s	s		s	s	s	Lo		consonant				U+A4E2: LISU LETTER SA	✓
-ꓤ	z	z		z	z	r	Lo		consonant				U+A4E4: LISU LETTER ZA	✓
-ꓣ	z	ʒ		ʒ	ʒ	R	Lo		consonant				U+A4E3: LISU LETTER ZHA	✓
-ꓫ	c	ɕ		ɕ	ɕ	x	Lo		consonant				U+A4EB: LISU LETTER SHA	✓
-ꓬ	z	ʑ		ʑ	ʑ	y	Lo		consonant/vowel				U+A4EC: LISU LETTER YA	✓
-ꓧ	x	x		x	x	h	Lo		consonant				U+A4E7: LISU LETTER XA	✓
-ꓭ	y	ɣ		ɣ	ɣ	B	Lo		consonant/vowel				U+A4ED: LISU LETTER GHA	✓
-ꓨ	h	ɦ		ɦ	ɦ	G	Lo		consonant				U+A4E8: LISU LETTER HHA	✓
-ꓦ	h	h		h	h	v	Lo		consonant				U+A4E6: LISU LETTER HA	✓
-ꓟ	m	m		m	m	m	Lo		consonant				U+A4DF: LISU LETTER MA	✓
-ꓠ	n	n		n	n	n	Lo		consonant				U+A4E0: LISU LETTER NA	✓
-ꓥ	n	ŋ		ŋ	ŋ	V	Lo		consonant				U+A4E5: LISU LETTER NGA	✓
-ꓪ	w	w		w	w	w	Lo		consonant/vowel				U+A4EA: LISU LETTER WA	✓
-ꓡ	l	l		l	l	l	Lo		consonant				U+A4E1: LISU LETTER LA	✓
+ꓑ	p	p	a	p	p	p	Lo		consonant				U+A4D1: LISU LETTER PA	✓
+ꓐ	b	b	a	b	b	b	Lo		consonant				U+A4D0: LISU LETTER BA	✓
+ꓒ	p	pʰ	a	pʰ	pʰ	P	Lo		consonant				U+A4D2: LISU LETTER PHA	✓
+ꓔ	t	t	a	t	t	t	Lo		consonant				U+A4D4: LISU LETTER TA	✓
+ꓓ	d	d	a	d	d	d	Lo		consonant				U+A4D3: LISU LETTER DA	✓
+ꓕ	t	tʰ	a	tʰ	tʰ	T	Lo		consonant				U+A4D5: LISU LETTER THA	✓
+ꓗ	k	k	a	k	k	k	Lo		consonant				U+A4D7: LISU LETTER KA	✓
+ꓖ	g	ɡ	a	ɡ	ɡ	g	Lo		consonant				U+A4D6: LISU LETTER GA	✓
+ꓘ	k	kʰ	a	kʰ	kʰ	K	Lo		consonant				U+A4D8: LISU LETTER KHA	✓
+ꓝ	t	t͡s	a	ʦ	ʦ	f	Lo		consonant				U+A4DD: LISU LETTER TSA	✓
+ꓜ	d	d͡z	a	ʣ	ʣ	z	Lo		consonant				U+A4DC: LISU LETTER DZA	✓
+ꓞ	t	ʦʰ	a	ʦʰ	ʦʰ	F	Lo		consonant				U+A4DE: LISU LETTER TSHA	✓
+ꓚ	t	ʨ	a	ʨ	ʨ	c	Lo		consonant				U+A4DA: LISU LETTER CA	✓
+ꓙ	d	ʥ	a	ʥ	ʥ	j	Lo		consonant				U+A4D9: LISU LETTER JA	✓
+ꓛ	t	ʨʰ	a	ʨʰ	ʨʰ	C	Lo		consonant				U+A4DB: LISU LETTER CHA	✓
+ꓩ	f	f	a	f	f	J	Lo		consonant				U+A4E9: LISU LETTER FA	✓
+ꓢ	s	s	a	s	s	s	Lo		consonant				U+A4E2: LISU LETTER SA	✓
+ꓤ	z	z	a	z	z	r	Lo		consonant				U+A4E4: LISU LETTER ZA	✓
+ꓣ	z	ʒ	a	ʒ	ʒ	R	Lo		consonant				U+A4E3: LISU LETTER ZHA	✓
+ꓫ	c	ɕ	a	ɕ	ɕ	x	Lo		consonant				U+A4EB: LISU LETTER SHA	✓
+ꓬ	z	ʑ	a	ʑ	ʑ	y	Lo		consonant/vowel				U+A4EC: LISU LETTER YA	✓
+ꓧ	x	x	a	x	x	h	Lo		consonant				U+A4E7: LISU LETTER XA	✓
+ꓭ	y	ɣ	a	ɣ	ɣ	B	Lo		consonant/vowel				U+A4ED: LISU LETTER GHA	✓
+ꓨ	h	ɦ	a	ɦ	ɦ	G	Lo		consonant				U+A4E8: LISU LETTER HHA	✓
+ꓦ	h	h	a	h	h	v	Lo		consonant				U+A4E6: LISU LETTER HA	✓
+ꓟ	m	m	a	m	m	m	Lo		consonant				U+A4DF: LISU LETTER MA	✓
+ꓠ	n	n	a	n	n	n	Lo		consonant				U+A4E0: LISU LETTER NA	✓
+ꓥ	n	ŋ	a	ŋ	ŋ	V	Lo		consonant				U+A4E5: LISU LETTER NGA	✓
+ꓪ	w	w	a	w	w	w	Lo		consonant/vowel				U+A4EA: LISU LETTER WA	✓
+ꓡ	l	l	a	l	l	l	Lo		consonant				U+A4E1: LISU LETTER LA	✓
 														
 														
 ꓮ	a	ɑ		ɑ	ɑ	a	Lo		vowel				U+A4EE: LISU LETTER A	✓
