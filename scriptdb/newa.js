@@ -1,313 +1,268 @@
 var spreadsheet = `
-𑐥	Lo	p	p	p	p		consonant	plosive						U+11425: NEWA LETTER PA	newa
-𑐧	Lo	b	b	b	b		consonant	plosive						U+11427: NEWA LETTER BA	newa
-𑐟	Lo	t	t	t	t¶		consonant	plosive						U+1141F: NEWA LETTER TA	newa
-𑐡	Lo	d	d	d	d¶		consonant	plosive						U+11421: NEWA LETTER DA	newa
-𑐎	Lo	k	k	k	k		consonant	plosive						U+1140E: NEWA LETTER KA	newa
-𑐐	Lo	ɡ	g	g	g	ɡ	consonant	plosive						U+11410: NEWA LETTER GA	newa
-𑐦	Lo	pʰ	pʰ	ph	P	pʰ	consonant	aspirated plosive						U+11426: NEWA LETTER PHA	newa
-𑐨	Lo	bʱ	bʱ	bh	B	bʱ	consonant	aspirated plosive						U+11428: NEWA LETTER BHA	newa
-𑐠	Lo	tʰ	tʰ	th	T¶	tʰ	consonant	aspirated plosive						U+11420: NEWA LETTER THA	newa
-𑐢	Lo	dʱ	dʱ	dh	D¶	dʱ	consonant	aspirated plosive						U+11422: NEWA LETTER DHA	newa
-𑐏	Lo	kʰ	kʰ	kh	K	kʰ	consonant	aspirated plosive						U+1140F: NEWA LETTER KHA	newa
-𑐑	Lo	ɡʱ	gʱ	gh	G	ɡʱ	consonant	aspirated plosive						U+11411: NEWA LETTER GHA	newa
-															
-															
-𑐔	Lo	t͡ɕ	c	c	c	t͡ɕ	consonant	affricate						U+11414: NEWA LETTER CA	newa
-𑐖	Lo	d͡ʑ	ɟ	j	j	d͡ʑ ɟ	consonant	affricate						U+11416: NEWA LETTER JA	newa
-𑐕	Lo	t͡ɕʰ	cʰ	ch	C	t͡ɕʰ cʰ	consonant	aspirated affricate						U+11415: NEWA LETTER CHA	newa
-𑐗	Lo	d͡ʑʱ	ɟʱ	jh	J	d͡ʑʱ ɟʱ	consonant	aspirated affricate						U+11417: NEWA LETTER JHA	newa
-															
-𑐚	Lo	ʈ	ʈ	ṭ	t	ʈ ṭ	consonant	plosive						U+1141A: NEWA LETTER TTA	newa
-𑐜	Lo	ɖ	ɖ	ḍ	d	ɖ ḍ	consonant	plosive						U+1141C: NEWA LETTER DDA	newa
-𑐛	Lo	ʈʰ	ʈʰ	ṭh	T	ʈʰ ṭh	consonant	aspirated plosive						U+1141B: NEWA LETTER TTHA	newa
-𑐝	Lo	ɖʱ	ɖʱ	ḍh	D	ɖʱ ḍh	consonant	aspirated plosive						U+1141D: NEWA LETTER DDHA	newa
-															
-															
-𑐳	Lo	s	s	s	s¶		consonant	fricative						U+11431: NEWA LETTER SHA	newa
-𑐴	Lo	h	h	h	h		consonant	fricative						U+11434: NEWA LETTER HA	newa
-															
-𑐱	Lo	ɕ	ɕ	ś	s	ɕ ś	consonant	fricative						U+11432: NEWA LETTER SSA	newa
-𑐲	Lo	ʂ	ʂ	ṣ	s	ʂ ṣ	consonant	fricative						U+11433: NEWA LETTER SA	newa
-															
-𑐩	Lo	m	m	m	m		consonant	nasal						U+11429: NEWA LETTER MA	newa
-𑐣	Lo	n	n	n	n¶		consonant	nasal						U+11423: NEWA LETTER NA	newa
-𑐒	Lo	ŋ	ŋ	ṅ	N	ŋ ṅ	consonant	nasal						U+11412: NEWA LETTER NGA	newa
-															
-𑐪	Lo	mʰ	mʰ	mh	m	mʰ	consonant	nasal						U+1142A: NEWA LETTER MHA	newa
-𑐤	Lo	nʰ	nʰ	nh	n	nʰ	consonant	nasal						U+11424: NEWA LETTER NHA	newa
-𑐓	Lo	ŋʰ	ŋʰ	ṅh	N	ŋʰ ṅh	consonant	nasal						U+11413: NEWA LETTER NGHA	newa
-															
-𑐞	Lo	ɳ	ɳ	ṇ	n	ɳ ṇ	consonant	nasal						U+1141E: NEWA LETTER NNA	newa
-𑐘	Lo	ɲ	ɲ	ñ	n	ɲ ñ	consonant	nasal						U+11418: NEWA LETTER NYA	newa
-𑐙	Lo	ɲʰ	ɲʰ	ñh	n	ɲʰ ñh	consonant	nasal						U+11419: NEWA LETTER NYHA	newa
-															
-															
-𑐰	Lo	w	w	v	w		consonant	liquid						U+11430: NEWA LETTER WA	newa
-𑐴𑑂𑐰		wʰ	h͞w	vh	w	wʰ vʰ	consonant	liquid						U+11434 U+11442 U+11430: NEWA LETTER HA, SIGN VIRAMA​, LETTER WA	
-𑐬	Lo	r	r	r	r		consonant	liquid						U+1142C: NEWA LETTER RA	newa
-𑐭	Lo	rʰ	rʰ	rh	r	rʰ	consonant	liquid						U+1142D: NEWA LETTER RHA	newa
-𑐮	Lo	l	l	l	l		consonant	liquid						U+1142E: NEWA LETTER LA	newa
-𑐯	Lo	lʰ	lʰ	lh	l	lʰ	consonant	liquid						U+1142F: NEWA LETTER LHA	newa
-𑐫	Lo	j	y	y	y		consonant	liquid						U+1142B: NEWA LETTER YA	newa
-𑐴𑑂𑐫		jʰ	h͞y	yh	y		consonant	liquid						U+11434 U+11442 U+1142B: NEWA LETTER HA, SIGN VIRAMA​, LETTER YA	
-															
-															
-𑐎𑑂𑐲		t͡ʃ	k͞ʂ	ks	k		consonant							U+1140E U+11442 U+11432: NEWA LETTER KA, SIGN VIRAMA, LETTER SSA	
-𑐖𑑂𑐘		ɡj	ɟ͞ɲ	jñ	j		consonant							U+11416 U+11442 U+11418: NEWA LETTER JA, SIGN VIRAMA, LETTER NYA	
-															
-															
-															
-𑑈	Lo													U+11448: NEWA SIGN FINAL ANUSVARA	newa
-𑑟	Lo													U+1145F: NEWA LETTER VEDIC ANUSVARA	newa
-															
-															
-𑐶	Mc​	i	i	i	i	iː ĩ ĩː	vowel sign				𑐂			U+11436: NEWA VOWEL SIGN I​	newa
-𑐷	Mc​	iː	ī	ī	i	ī	long vowel-sign				𑐃			U+11437: NEWA VOWEL SIGN II​	newa
-𑐶𑑃		ĩ	i˜				nasalised vowel-sign							U+11436 U+11443: NEWA VOWEL SIGN I, SIGN CANDRABINDU​	
-𑐶𑑄		ĩː	iⁿͫ				long nasalised vowel-sign							U+11436 U+11444: NEWA VOWEL SIGN I, SIGN ANUSVARA​	
-𑐸	Mn​	u	u	u	u	uː ũ ũː	vowel sign				𑐄			U+11438: NEWA VOWEL SIGN U​	newa
-𑐹	Mn​	uː	ū	ū	u	ū	long vowel-sign				𑐅			U+11439: NEWA VOWEL SIGN UU​	newa
-𑐸𑑃		ũ	u˜				nasalised vowel-sign							U+11438 U+11443: NEWA VOWEL SIGN U, SIGN CANDRABINDU​	
-𑐸𑑄		ũː	uⁿͫ				long nasalised vowel-sign							U+11438 U+11444: NEWA VOWEL SIGN U, SIGN ANUSVARA​	
-𑐾	Mn​	e	ē	ē	e¶	ē	vowel sign				𑐊			U+1143E: NEWA VOWEL SIGN E​	newa
-𑐾𑑅		eː	ēh̽			eː	long vowel-sign							U+1143E U+11445: NEWA VOWEL SIGN E, SIGN VISARGA​	
-𑐾𑑃		ẽ	ē˜			ẽ	nasalised vowel-sign							U+1143E U+11443: NEWA VOWEL SIGN E, SIGN CANDRABINDU​	
-𑐾𑑄		ẽː	ēⁿͫ			ẽː	long nasalised vowel-sign							U+1143E U+11444: NEWA VOWEL SIGN E, SIGN ANUSVARA​	
-𑑀	Mc​	o	ō	ō	o	oː ō	vowel sign				𑐌			U+11440: NEWA VOWEL SIGN O​	newa
-𑑀𑑅		oː	ōh̽				long vowel-sign							U+11440 U+11445: NEWA VOWEL SIGN O, SIGN VISARGA​	
-𑑀𑑃		õ	ō˜				nasalised vowel-sign							U+11440 U+11443: NEWA VOWEL SIGN O, SIGN CANDRABINDU​	
-𑑀𑑄		õː	ōⁿͫ				long nasalised vowel-sign							U+11440 U+11444: NEWA VOWEL SIGN O, SIGN ANUSVARA​	
-𑑅	Mc​	aː	h̽	ḥ	h	ɦ ḥ	voiceless breath					𑐮𑐶𑐦𑐸𑐟𑐶	lifuti	U+11445: NEWA SIGN VISARGA​	newa
-𑐵	Mc​	æ	æ	ā	a	aː ā æ æː æ̃ æ̃ː	vowel sign				𑐁			U+11435: NEWA VOWEL SIGN AA​	newa
-𑐵𑑅		æː	æh̽			æː	long vowel-sign							U+11435 U+11445: NEWA VOWEL SIGN AA, SIGN VISARGA​	
-𑐵𑑃		æ̃	æ˜			æ̃	nasalised vowel-sign							U+11435 U+11443: NEWA VOWEL SIGN AA, SIGN CANDRABINDU​	
-𑐵𑑄		æ̃ː	æⁿͫ			æ̃ː	long nasalised vowel-sign							U+11435 U+11444: NEWA VOWEL SIGN AA, SIGN ANUSVARA​	
-															
-𑐿	Mn​	əi	əⁱ	ai	e¶	æ ɛ̄	diphthong vowel sign				𑐋			U+1143F: NEWA VOWEL SIGN AI​	newa
-𑐿𑑄		əĩ	əⁱⁿͫ			əĩ	nasalised diphthong vowel-sign							U+1143F U+11444: NEWA VOWEL SIGN AI, SIGN ANUSVARA​	
-𑑁	Mc​	əu	əᵘ	au	o	ɔ̄	diphthong vowel sign				𑐍			U+11441: NEWA VOWEL SIGN AU​	newa
-𑑁𑑄		əũ	əᵘⁿͫ			əũ	nasalised diphthong vowel-sign							U+11441 U+11444: NEWA VOWEL SIGN AU, SIGN ANUSVARA​	
-															
-															
-															
-															
-															
-𑐂	Lo	i	ị	i	I	ị ị	independent vowel			𑐶				U+11402: NEWA LETTER I	newa
-𑐃	Lo	iː	ị̄	ī	I	iː ị̄	long independent vowel			𑐷				U+11403: NEWA LETTER II	newa
-𑐂𑑃		ĩ	ị˜				short nasalised independent vowel							U+11402 U+11443: NEWA LETTER I, SIGN CANDRABINDU	
-𑐂𑑄		ĩː	ịⁿͫ				long nasalised independent vowel							U+11402 U+11444: NEWA LETTER I, SIGN ANUSVARA	
-𑐄	Lo	u	ụ	u	U	ụ	independent vowel			𑐸				U+11404: NEWA LETTER U	newa
-𑐅	Lo	uː	ụ̄	ū	U	uː ụ̄	long independent vowel			𑐹				U+11405: NEWA LETTER UU	newa
-𑐄𑑃		ũ	ụ˜				short nasalised independent vowel							U+11404 U+11443: NEWA LETTER U, SIGN CANDRABINDU	
-𑐄𑑄		ũː	ụⁿͫ				long nasalised independent vowel							U+11404 U+11444: NEWA LETTER U, SIGN ANUSVARA	
-𑐊	Lo	e	ẹ̄	ē	E		independent vowel			𑐾				U+1140A: NEWA LETTER E	newa
-𑐊𑑅		eː	ẹ̄h̽			eː	long independent vowel							U+1140A U+11445: NEWA LETTER E, SIGN VISARGA	
-𑐊𑑃		ẽ	ẹ̄˜			ẽ	short nasalised independent vowel							U+1140A U+11443: NEWA LETTER E, SIGN CANDRABINDU	
-𑐊𑑄		ẽː	ẹ̄ⁿͫ			ẽː	long nasalised independent vowel							U+1140A U+11444: NEWA LETTER E, SIGN ANUSVARA	
-𑐌	Lo	o	ọ̄	ō	O	oː ọ̄	independent vowel			𑑀				U+1140C: NEWA LETTER O	newa
-𑐌𑑅		oː	ọ̄h̽				long independent vowel							U+1140C U+11445: NEWA LETTER O, SIGN VISARGA	
-𑐌𑑃		õ	ọ̄˜				short nasalised independent vowel							U+1140C U+11443: NEWA LETTER O, SIGN CANDRABINDU	
-𑐌𑑄		õː	ọ̄ⁿͫ				long nasalised independent vowel							U+1140C U+11444: NEWA LETTER O, SIGN ANUSVARA	
-𑐀	Lo	a	ạ	a	A	a ạ	independent vowel							U+11400: NEWA LETTER A	newa
-𑐀𑑅		aː	ạh̽	ā		ā	long independent vowel							U+11400 U+11445: NEWA LETTER A, SIGN VISARGA	
-𑐀𑑃		ã	ạ˜	ã		ã	short nasalised independent vowel							U+11400 U+11443: NEWA LETTER A, SIGN CANDRABINDU	
-𑐀𑑄		ãː	ạⁿͫ			ãː	long nasalised independent vowel							U+11400 U+11444: NEWA LETTER A, SIGN ANUSVARA	
-𑐁	Lo	æ	æ̣	ā	A		independent vowel			𑐵				U+11401: NEWA LETTER AA	newa
-𑐁𑑅		æː	æ̣h̽											U+11401 U+11445: NEWA LETTER AA, SIGN VISARGA	
-𑐁𑑃		æ̃	æ̣˜											U+11401 U+11443: NEWA LETTER AA, SIGN CANDRABINDU	
-𑐁𑑄		æ̃ː	æ̣ⁿͫ											U+11401 U+11444: NEWA LETTER AA, SIGN ANUSVARA	
-															
-𑐋	Lo	əi	ə̣ⁱ	ai	E	æ ɛ̣̄	diphthong independent vowel			𑐿				U+1140B: NEWA LETTER AI	newa
-𑐍	Lo	əu	ə̣ᵘ	au	O	ɔ̣̄	diphthong independent vowel			𑑁				U+1140D: NEWA LETTER AU	newa
-															
-															
-															
-															
-𑐺	Mn​	ru	r̥	r̥	R	r̥ r̥	vowel sign				𑐆			U+1143A: NEWA VOWEL SIGN VOCALIC R​	newa
-𑐻	Mn​	ruː	r̥̄	r̥̄	R	r̥̄ r̥̄	vowel sign				𑐇			U+1143B: NEWA VOWEL SIGN VOCALIC RR​	newa
-𑐼	Mn​	lu	l̥	l̥	R	l̥ l̥	vowel sign				𑐈			U+1143C: NEWA VOWEL SIGN VOCALIC L​	newa
-𑐽	Mn​	luː	l̥̄	l̥̄	R	l̥̄ l̥̄	vowel sign				𑐉			U+1143D: NEWA VOWEL SIGN VOCALIC LL​	newa
-															
-𑐆	Lo	ru	r̥̣	r̥	R	r̥̣ r̥	independent vowel			𑐺				U+11406: NEWA LETTER VOCALIC R	newa
-𑐇	Lo	ruː	r̥̣̄	r̥̄	R	r̥̣̄ r̥̄	independent vowel			𑐻				U+11407: NEWA LETTER VOCALIC RR	newa
-𑐈	Lo	lu	l̥̣	l̥	R	l̥̣ l̥	independent vowel			𑐼				U+11408: NEWA LETTER VOCALIC L	newa
-𑐉	Lo	luː	l̥̣̄	l̥̄	R	l̥̣̄ l̥̄	independent vowel			𑐽				U+11409: NEWA LETTER VOCALIC LL	newa
-															
-															
-															
-𑑊	Lo		¤		±									U+1144A: NEWA SIDDHI	newa
-𑑠	Lo													U+11460: NEWA SIGN JIHVAMULIYA	newa
-𑑡	Lo													U+11461: NEWA SIGN UPADHMANIYA	newa
-𑑞	Mn​													U+1145E: NEWA SANDHI MARK​	newa
-𑑉	Lo						om symbol							U+11449: NEWA OM	newa
-𑑎	Po													U+1144E: NEWA GAP FILLER	newa
-𑑛	Po													U+1145B: NEWA PLACEHOLDER MARK	newa
-𑑝	Po													U+1145D: NEWA INSERTION SIGN	newa
-															
-															
-															
-															
-															
-															
-			ˈ		[		superscript alef								
-			ʿ		[		hamza above								
-			˓		[		hamza below								
-			*		[		star								
-			~		[		maddah								
-			˘		[		vowel shortener								
-			⁎		[		special								
-			″		[		register change								
-			°		[		special								
-			˙		[		combining dot above								
-			ʼ		[		combining hook above								
-			ˆ		[		combining circumflex								
-			ˉ		[		combining macron								
-			̨		[		combining ogonek								
-			⁑		[		feminine marker								
-															
-															
-𑑃	Mn​	̃ ã	˜	̃	[	̃	nasalisation					𑐩𑐶𑐮𑐵𑐦𑐸𑐟𑐶	milaafuti	U+11443: NEWA SIGN CANDRABINDU​	newa
-𑑄	Mn​	̃ ãː	ː̃	ṁ	[	ṁ	long nasalisation					𑐳𑐶𑐤𑑅𑐦𑐸𑐟𑐶	sinhafuti	U+11444: NEWA SIGN ANUSVARA​	newa
-															
-															
-𑑂	Mn​		͞		*		vowel-killer						halant	U+11442: NEWA SIGN VIRAMA​	newa
-			˟		\										
-			ˣ		\										
-			¯		\										
-			ʿ		\										
-															
-															
-𑑇	Lo		′		]		elision marker							U+11447: NEWA SIGN AVAGRAHA	newa
-			‵		]										
-			ʳ		]										
-															
-															
-𑑆	Mn​		ˑ		/		consonant modifier						nukta	U+11446: NEWA SIGN NUKTA​	newa
-			˙		/		nukta								
-			ˇ		/		nukta								
-			˷		/		nukta								
-			~		/		nukta								
-															
-															
-			&		&		repetition								
-			˖		&		gemination								
-															
-			ː		:		length mark								
-															
-															
-𑑏	Po		¨		+		abbreviation marker							U+1144F: NEWA ABBREVIATION SIGN	newa
-															
-															
-			␣		]		zwsp								
-			-		]		word separator								
-															
-															
-			»		@		opening head mark								
-			«		@		closing head mark								
-			›		@		2nd opening head								
-			‹		@		2 closing head								
-			§ᵃ		@		honorific								
-			 §ᵇ		@		honorific								
-			§ᶜ		@		honorific								
-			°		@		extra								
-															
-															
-𑑋	Po		|	.	.		section divider						purna viram	U+1144B: NEWA DANDA	newa
-𑑌	Po		¶	¶	|		section divider							U+1144C: NEWA DOUBLE DANDA	newa
-			—		|		section divider								
-.	Po		.	.	.		full stop								
-⋯	Sm		⋯	⋯	.		ellipsis								
-,	Po		,	,	,		comma								
-𑑚	Po						double comma							U+1145A: NEWA DOUBLE COMMA	newa
-𑑍	Po		⹁	,	,		comma							U+1144D: NEWA COMMA	newa
-:	Po		:	:	:		colon								
-			ˉ	ˉ	:										
-;	Po		;	;	;		semicolon								
-!	Po		!	!	!		exclamation mark								
-			ⸯ	ⸯ	!		exclamation mark								
-			¡	¡	!		exclamation mark								
-?	Po		?	?	?		question mark								
-			¿	¿	?		question mark								
-															
-															
-															
-“	Pi		“	“	<		quotation mark								
-‘	Pi		‘	‘	<		quotation mark								
-”	Pf		”	”	>		quotation mark								
-’	Pf		’	’	>		quotation mark								
-															
-															
-															
-(	Ps		(	(	(		parenthesis								
-[	Ps		[	[	(		bracket								
-)	Pe		)	)	)		parenthesis								
-]	Pe		]	]	)		bracket								
-															
-															
--			-	-	-		hyphen								
-‑	Pd		‑	‑	-		non-breaking hyphen								
-–	Pd		–	–	-		en dash								
-—	Pd		—	—	-		em dash								
-															
-															
-			_	_	_		baseline extender								
-															
-ʼ	Lm		ʼ	ʼ			apostrophe								
-§	Po		§	§			section sign								
-†	Po		†	†			dagger								
-‡	Po		‡	‡			double dagger								
-′	Po		′	′			prime								
-″	Po		″	″			double prime								
-															
-															
-															
-															
-															
-															
-\u200C	Cf		ₓ		=		zwnj								
-\u200D	Cf		₊		=		zwj								
-\u2067	Cf		ʳˡⁱ		=		rtl isolate								
-\u2066	Cf		ˡʳⁱ		=		ltr isolate								
-\u2068	Cf		ᶠˢⁱ		=		first-strong isolate								
-\u2069	Cf		ᵖᵈⁱ		=		pop direction isolate								
-\u202B	Cf		ʳˡᵉ		=		rtl embed								
-\u202A	Cf		ˡʳᵉ		=		ltr embed								
-\u202C	Cf		ᵖᵈᶠ		=		pop direction								
-\u200F	Cf		ʳˡᵐ		=		rtl mark								
-\u200E	Cf		ˡʳᵐ		=		ltr mark								
-\u034F	Mn​		ᶜᵍʲ		=		combining grapheme joiner								
-\u061C	Cf		ᵃˡᵐ		=		arabic letter mark								
-															
-															
-															
-															
-𑑐	Nd		0̣	0	±		digit							U+11450: NEWA DIGIT ZERO	newa
-𑑑	Nd		1̣	1	±		digit							U+11451: NEWA DIGIT ONE	newa
-𑑒	Nd		2̣	2	±		digit							U+11452: NEWA DIGIT TWO	newa
-𑑓	Nd		3̣	3	±		digit							U+11453: NEWA DIGIT THREE	newa
-𑑔	Nd		4̣	4	±		digit							U+11454: NEWA DIGIT FOUR	newa
-𑑕	Nd		5̣	5	±		digit							U+11455: NEWA DIGIT FIVE	newa
-𑑖	Nd		6̣	6	±		digit							U+11456: NEWA DIGIT SIX	newa
-𑑗	Nd		7̣	7	±		digit							U+11457: NEWA DIGIT SEVEN	newa
-𑑘	Nd		8̣	8	±		digit							U+11458: NEWA DIGIT EIGHT	newa
-𑑙	Nd		9̣	9	±		digit							U+11459: NEWA DIGIT NINE	newa
-															
-															
-			‛		#		thousands separator								
-			·		#		decimal separator								
-			/		#		date separator								
-			¤		#		currency symbol								
-			¢		#										
-			#		#		number symbol								
-୲	No		¼		#		quarter								
-୳ 			½		#		half								
-୴	No		¾		#		three-quarters								
-			{10} etc		#		extended number								
-															
-															
-															
-%	Po		%		%		percentage mark								
+𑐥	p	p	a	p	p		Lo		consonant	plosive					U+11425: NEWA LETTER PA	✓
+𑐧	b	b	a	b	b		Lo		consonant	plosive					U+11427: NEWA LETTER BA	✓
+𑐟	t¶	t	a	t	t		Lo		consonant	plosive					U+1141F: NEWA LETTER TA	✓
+𑐡	d¶	d	a	d	d		Lo		consonant	plosive					U+11421: NEWA LETTER DA	✓
+𑐎	k	k	a	k	k		Lo		consonant	plosive					U+1140E: NEWA LETTER KA	✓
+𑐐	g	ɡ	a	g	g		Lo		consonant	plosive					U+11410: NEWA LETTER GA	✓
+𑐦	P	pʰ	a	ph	pʰ		Lo		consonant	aspirated plosive					U+11426: NEWA LETTER PHA	✓
+𑐨	B	bʱ	a	bh	bʱ		Lo		consonant	aspirated plosive					U+11428: NEWA LETTER BHA	✓
+𑐠	T¶	tʰ	a	th	tʰ		Lo		consonant	aspirated plosive					U+11420: NEWA LETTER THA	✓
+𑐢	D¶	dʱ	a	dh	dʱ		Lo		consonant	aspirated plosive					U+11422: NEWA LETTER DHA	✓
+𑐏	K	kʰ	a	kh	kʰ		Lo		consonant	aspirated plosive					U+1140F: NEWA LETTER KHA	✓
+𑐑	G	ɡʱ	a	gh	gʱ		Lo		consonant	aspirated plosive					U+11411: NEWA LETTER GHA	✓
+																
+																
+𑐔	c	t͡ɕ	a	c	c		Lo		consonant	affricate					U+11414: NEWA LETTER CA	✓
+𑐖	j	d͡ʑ	a	j	ɟ		Lo		consonant	affricate					U+11416: NEWA LETTER JA	✓
+𑐕	C	t͡ɕʰ	a	ch	cʰ		Lo		consonant	aspirated affricate					U+11415: NEWA LETTER CHA	✓
+𑐗	J	d͡ʑʱ	a	jh	ɟʱ		Lo		consonant	aspirated affricate					U+11417: NEWA LETTER JHA	✓
+																
+𑐚	t	ʈ	a	ṭ	ʈ		Lo		consonant	plosive					U+1141A: NEWA LETTER TTA	✓
+𑐜	d	ɖ	a	ḍ	ɖ		Lo		consonant	plosive					U+1141C: NEWA LETTER DDA	✓
+𑐛	T	ʈʰ	a	ṭh	ʈʰ		Lo		consonant	aspirated plosive					U+1141B: NEWA LETTER TTHA	✓
+𑐝	D	ɖʱ	a	ḍh	ɖʱ		Lo		consonant	aspirated plosive					U+1141D: NEWA LETTER DDHA	✓
+																
+																
+𑐳	s¶	s	a	s	s		Lo		consonant	fricative					U+11433: NEWA LETTER SA	✓
+𑐴	h	h	a	h	h		Lo		consonant	fricative					U+11434: NEWA LETTER HA	✓
+																
+𑐱	s	ɕ	a	ś	ɕ		Lo		consonant	fricative					U+11431: NEWA LETTER SHA	✓
+𑐲	s	ʂ	a	ṣ	ʂ		Lo		consonant	fricative					U+11432: NEWA LETTER SSA	✓
+																
+𑐩	m	m	a	m	m		Lo		consonant	nasal					U+11429: NEWA LETTER MA	✓
+𑐣	n¶	n	a	n	n		Lo		consonant	nasal					U+11423: NEWA LETTER NA	✓
+𑐒	N	ŋ	a	ṅ	ŋ		Lo		consonant	nasal					U+11412: NEWA LETTER NGA	✓
+																
+𑐪	m	mʰ	a	mh	mʰ		Lo		consonant	nasal					U+1142A: NEWA LETTER MHA	✓
+𑐤	n	nʰ	a	nh	nʰ		Lo		consonant	nasal					U+11424: NEWA LETTER NHA	✓
+𑐓	N	ŋʰ	a	ṅh	ŋʰ		Lo		consonant	nasal					U+11413: NEWA LETTER NGHA	✓
+																
+𑐞	n	ɳ	a	ṇ	ɳ		Lo		consonant	nasal					U+1141E: NEWA LETTER NNA	✓
+𑐘	n	ɲ	a	ñ	ɲ		Lo		consonant	nasal					U+11418: NEWA LETTER NYA	✓
+𑐙	n	ɲʰ	a	ñh	ɲʰ		Lo		consonant	nasal					U+11419: NEWA LETTER NYHA	✓
+																
+																
+𑐰	w	w	a	v	w		Lo		consonant	liquid					U+11430: NEWA LETTER WA	✓
+𑐴𑑂𑐰	w	wʰ	a	vh	h͓w				consonant	liquid					U+11434 U+11442 U+11430: NEWA LETTER HA, SIGN VIRAMA, LETTER WA	
+𑐬	r	r	a	r	r		Lo		consonant	liquid					U+1142C: NEWA LETTER RA	✓
+𑐭	r	rʰ	a	rh	rʰ		Lo		consonant	liquid					U+1142D: NEWA LETTER RHA	✓
+𑐮	l	l	a	l	l		Lo		consonant	liquid					U+1142E: NEWA LETTER LA	✓
+𑐯	l	lʰ	a	lh	lʰ		Lo		consonant	liquid					U+1142F: NEWA LETTER LHA	✓
+𑐫	y	j	a	y	y		Lo		consonant	liquid					U+1142B: NEWA LETTER YA	✓
+𑐴𑑂𑐫	y	jʰ	a	yh	h͓y				consonant	liquid					U+11434 U+11442 U+1142B: NEWA LETTER HA, SIGN VIRAMA, LETTER YA	
+																
+																
+𑐎𑑂𑐲	k	t͡ʃ		ks	k͓ʂ				consonant						U+1140E U+11442 U+11432: NEWA LETTER KA, SIGN VIRAMA, LETTER SSA	
+𑐖𑑂𑐘	j	ɡj		jñ	ɟ͓ɲ				consonant						U+11416 U+11442 U+11418: NEWA LETTER JA, SIGN VIRAMA, LETTER NYA	
+																
+																
+																
+𑑈							Lo								U+11448: NEWA SIGN FINAL ANUSVARA	✓
+𑑟							Lo								U+1145F: NEWA LETTER VEDIC ANUSVARA	✓
+																
+																
+𑐶	i	i		i	i		Mc​		vowel sign			𑐂			U+11436: NEWA VOWEL SIGN I​	✓
+𑐷	i	iː		ī	ī		Mc​		long vowel-sign			𑐃			U+11437: NEWA VOWEL SIGN II​	✓
+𑐶𑑃		ĩ			i˜				nasalised vowel-sign						U+11436 U+11443: NEWA VOWEL SIGN I, SIGN CANDRABINDU​	
+𑐶𑑄		ĩː			iⁿͫ				long nasalised vowel-sign						U+11436 U+11444: NEWA VOWEL SIGN I, SIGN ANUSVARA​	
+𑐸	u	u		u	u		Mn​		vowel sign			𑐄			U+11438: NEWA VOWEL SIGN U​	✓
+𑐹	u	uː		ū	ū		Mn​		long vowel-sign			𑐅			U+11439: NEWA VOWEL SIGN UU​	✓
+𑐸𑑃		ũ			u˜				nasalised vowel-sign						U+11438 U+11443: NEWA VOWEL SIGN U, SIGN CANDRABINDU​	
+𑐸𑑄		ũː			uⁿͫ				long nasalised vowel-sign						U+11438 U+11444: NEWA VOWEL SIGN U, SIGN ANUSVARA​	
+𑐾	e¶	e		ē	ē		Mn​		vowel sign			𑐊			U+1143E: NEWA VOWEL SIGN E​	✓
+𑐾𑑅		eː			ēh̽				long vowel-sign						U+1143E U+11445: NEWA VOWEL SIGN E, SIGN VISARGA​	
+𑐾𑑃		ẽ			ē˜				nasalised vowel-sign						U+1143E U+11443: NEWA VOWEL SIGN E, SIGN CANDRABINDU​	
+𑐾𑑄		ẽː			ēⁿͫ				long nasalised vowel-sign						U+1143E U+11444: NEWA VOWEL SIGN E, SIGN ANUSVARA​	
+𑑀	o	o		ō	ō		Mc​		vowel sign			𑐌			U+11440: NEWA VOWEL SIGN O​	✓
+𑑀𑑅		oː			ōh̽				long vowel-sign						U+11440 U+11445: NEWA VOWEL SIGN O, SIGN VISARGA​	
+𑑀𑑃		õ			ō˜				nasalised vowel-sign						U+11440 U+11443: NEWA VOWEL SIGN O, SIGN CANDRABINDU​	
+𑑀𑑄		õː			ōⁿͫ				long nasalised vowel-sign						U+11440 U+11444: NEWA VOWEL SIGN O, SIGN ANUSVARA​	
+𑑅	h	aː		ḥ	h̽		Mc​		voiceless breath				𑐮𑐶𑐦𑐸𑐟𑐶	lifuti	U+11445: NEWA SIGN VISARGA​	✓
+𑐵	a	æ		ā	æ		Mc​		vowel sign			𑐁			U+11435: NEWA VOWEL SIGN AA​	✓
+𑐵𑑅		æː			æh̽				long vowel-sign						U+11435 U+11445: NEWA VOWEL SIGN AA, SIGN VISARGA​	
+𑐵𑑃		æ̃			æ˜				nasalised vowel-sign						U+11435 U+11443: NEWA VOWEL SIGN AA, SIGN CANDRABINDU​	
+𑐵𑑄		æ̃ː			æⁿͫ				long nasalised vowel-sign						U+11435 U+11444: NEWA VOWEL SIGN AA, SIGN ANUSVARA​	
+																
+𑐿	e¶	əi		ai	əⁱ		Mn​		diphthong vowel sign			𑐋			U+1143F: NEWA VOWEL SIGN AI​	✓
+𑐿𑑄		əĩ			əⁱⁿͫ				nasalised diphthong vowel-sign						U+1143F U+11444: NEWA VOWEL SIGN AI, SIGN ANUSVARA​	
+𑑁	o	əu		au	əᵘ		Mc​		diphthong vowel sign			𑐍			U+11441: NEWA VOWEL SIGN AU​	✓
+𑑁𑑄		əũ			əᵘⁿͫ				nasalised diphthong vowel-sign						U+11441 U+11444: NEWA VOWEL SIGN AU, SIGN ANUSVARA​	
+																
+																
+																
+																
+																
+𑐂	I	i		i	ị		Lo		independent vowel		𑐶				U+11402: NEWA LETTER I	✓
+𑐃	I	iː		ī	ị̄		Lo		long independent vowel		𑐷				U+11403: NEWA LETTER II	✓
+𑐂𑑃		ĩ			ị˜				short nasalised independent vowel						U+11402 U+11443: NEWA LETTER I, SIGN CANDRABINDU	
+𑐂𑑄		ĩː			ịⁿͫ				long nasalised independent vowel						U+11402 U+11444: NEWA LETTER I, SIGN ANUSVARA	
+𑐄	U	u		u	ụ		Lo		independent vowel		𑐸				U+11404: NEWA LETTER U	✓
+𑐅	U	uː		ū	ụ̄		Lo		long independent vowel		𑐹				U+11405: NEWA LETTER UU	✓
+𑐄𑑃		ũ			ụ˜				short nasalised independent vowel						U+11404 U+11443: NEWA LETTER U, SIGN CANDRABINDU	
+𑐄𑑄		ũː			ụⁿͫ				long nasalised independent vowel						U+11404 U+11444: NEWA LETTER U, SIGN ANUSVARA	
+𑐊	E	e		ē	ẹ̄		Lo		independent vowel		𑐾				U+1140A: NEWA LETTER E	✓
+𑐊𑑅		eː			ẹ̄h̽				long independent vowel						U+1140A U+11445: NEWA LETTER E, SIGN VISARGA	
+𑐊𑑃		ẽ			ẹ̄˜				short nasalised independent vowel						U+1140A U+11443: NEWA LETTER E, SIGN CANDRABINDU	
+𑐊𑑄		ẽː			ẹ̄ⁿͫ				long nasalised independent vowel						U+1140A U+11444: NEWA LETTER E, SIGN ANUSVARA	
+𑐌	O	o		ō	ọ̄		Lo		independent vowel		𑑀				U+1140C: NEWA LETTER O	✓
+𑐌𑑅		oː			ọ̄h̽				long independent vowel						U+1140C U+11445: NEWA LETTER O, SIGN VISARGA	
+𑐌𑑃		õ			ọ̄˜				short nasalised independent vowel						U+1140C U+11443: NEWA LETTER O, SIGN CANDRABINDU	
+𑐌𑑄		õː			ọ̄ⁿͫ				long nasalised independent vowel						U+1140C U+11444: NEWA LETTER O, SIGN ANUSVARA	
+𑐀	A	a		a	ạ		Lo		independent vowel						U+11400: NEWA LETTER A	✓
+𑐀𑑅		aː		ā	ạh̽				long independent vowel						U+11400 U+11445: NEWA LETTER A, SIGN VISARGA	
+𑐀𑑃		ã		ã	ạ˜				short nasalised independent vowel						U+11400 U+11443: NEWA LETTER A, SIGN CANDRABINDU	
+𑐀𑑄		ãː			ạⁿͫ				long nasalised independent vowel						U+11400 U+11444: NEWA LETTER A, SIGN ANUSVARA	
+𑐁	A	æ		ā	æ̣		Lo		independent vowel		𑐵				U+11401: NEWA LETTER AA	✓
+𑐁𑑅		æː			æ̣h̽										U+11401 U+11445: NEWA LETTER AA, SIGN VISARGA	
+𑐁𑑃		æ̃			æ̣˜										U+11401 U+11443: NEWA LETTER AA, SIGN CANDRABINDU	
+𑐁𑑄		æ̃ː			æ̣ⁿͫ										U+11401 U+11444: NEWA LETTER AA, SIGN ANUSVARA	
+																
+𑐋	E	əi		ai	ə̣ⁱ		Lo		diphthong independent vowel		𑐿				U+1140B: NEWA LETTER AI	✓
+𑐍	O	əu		au	ə̣ᵘ		Lo		diphthong independent vowel		𑑁				U+1140D: NEWA LETTER AU	✓
+																
+																
+																
+																
+𑐺	R	ru		r̥	r̥		Mn​		vowel sign			𑐆			U+1143A: NEWA VOWEL SIGN VOCALIC R​	✓
+𑐻	R	ruː		r̥̄	r̥̄		Mn​		vowel sign			𑐇			U+1143B: NEWA VOWEL SIGN VOCALIC RR​	✓
+𑐼	R	lu		l̥	l̥		Mn​		vowel sign			𑐈			U+1143C: NEWA VOWEL SIGN VOCALIC L​	✓
+𑐽	R	luː		l̥̄	l̥̄		Mn​		vowel sign			𑐉			U+1143D: NEWA VOWEL SIGN VOCALIC LL​	✓
+																
+𑐆	R	ru		r̥	r̥̣		Lo		independent vowel		𑐺				U+11406: NEWA LETTER VOCALIC R	✓
+𑐇	R	ruː		r̥̄	r̥̣̄		Lo		independent vowel		𑐻				U+11407: NEWA LETTER VOCALIC RR	✓
+𑐈	R	lu		l̥	l̥̣		Lo		independent vowel		𑐼				U+11408: NEWA LETTER VOCALIC L	✓
+𑐉	R	luː		l̥̄	l̥̣̄		Lo		independent vowel		𑐽				U+11409: NEWA LETTER VOCALIC LL	✓
+																
+																
+																
+𑑊	±				¤		Lo								U+1144A: NEWA SIDDHI	✓
+𑑠							Lo								U+11460: NEWA SIGN JIHVAMULIYA	✓
+𑑡							Lo								U+11461: NEWA SIGN UPADHMANIYA	✓
+𑑞							Mn​								U+1145E: NEWA SANDHI MARK​	✓
+𑑉							Lo		om symbol						U+11449: NEWA OM	✓
+𑑎							Po								U+1144E: NEWA GAP FILLER	✓
+𑑛							Po								U+1145B: NEWA PLACEHOLDER MARK	✓
+𑑝							Po								U+1145D: NEWA INSERTION SIGN	✓
+																
+																
+																
+																
+																
+																
+𑑃	[	̃ ã		̃	˜		Mn​		nasalisation				𑐩𑐶𑐮𑐵𑐦𑐸𑐟𑐶	milaafuti	U+11443: NEWA SIGN CANDRABINDU​	✓
+𑑄	[	̃ ãː		ṁ	ː̃		Mn​		long nasalisation				𑐳𑐶𑐤𑑅𑐦𑐸𑐟𑐶	sinhafuti	U+11444: NEWA SIGN ANUSVARA​	✓
+																
+																
+𑑂	*				͞		Mn​		vowel-killer					halant	U+11442: NEWA SIGN VIRAMA​	✓
+																
+																
+𑑇	]				′		Lo		elision marker						U+11447: NEWA SIGN AVAGRAHA	✓
+																
+																
+𑑆	/				ˑ		Mn​		consonant modifier					nukta	U+11446: NEWA SIGN NUKTA​	✓
+																
+																
+																
+																
+																
+𑑏	+				¨		Po		abbreviation marker						U+1144F: NEWA ABBREVIATION SIGN	✓
+																
+																
+																
+																
+																
+																
+𑑋	.			.	|		Po		section divider					purna viram	U+1144B: NEWA DANDA	✓
+𑑌	|			¶	¶		Po		section divider						U+1144C: NEWA DOUBLE DANDA	✓
+	|				—				section divider							
+.	.			.	.		Po		full stop						U+002E: FULL STOP	
+⋯	.			⋯	⋯		Sm		ellipsis						U+22EF: MIDLINE HORIZONTAL ELLIPSIS	
+,	,			,	,		Po		comma						U+002C: COMMA	
+𑑚							Po		double comma						U+1145A: NEWA DOUBLE COMMA	✓
+𑑍	,			,	⹁		Po		comma						U+1144D: NEWA COMMA	✓
+:	:			:	:		Po		colon						U+003A: COLON	
+	:			ˉ	ˉ											
+;	;			;	;		Po		semicolon						U+003B: SEMICOLON	
+!	!			!	!		Po		exclamation mark						U+0021: EXCLAMATION MARK	
+	!			ⸯ	ⸯ				exclamation mark							
+	!			¡	¡				exclamation mark							
+?	?			?	?		Po		question mark						U+003F: QUESTION MARK	
+	?			¿	¿				question mark							
+																
+																
+																
+“	<			“	“		Pi		quotation mark						U+201C: LEFT DOUBLE QUOTATION MARK	✓
+‘	<			‘	‘		Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	✓
+”	>			”	”		Pf		quotation mark						U+201D: RIGHT DOUBLE QUOTATION MARK	✓
+’	>			’	’		Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	✓
+																
+																
+																
+(	(			(	(		Ps		parenthesis						U+0028: LEFT PARENTHESIS	
+[	(			[	[		Ps		bracket						U+005B: LEFT SQUARE BRACKET	
+)	)			)	)		Pe		parenthesis						U+0029: RIGHT PARENTHESIS	
+]	)			]	]		Pe		bracket						U+005D: RIGHT SQUARE BRACKET	
+																
+																
+-	-			-	-				hyphen						U+002D: HYPHEN-MINUS	
+‑	-			‑	‑		Pd		non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
+–	-			–	–		Pd		en dash						U+2013: EN DASH	
+—	-			—	—		Pd		em dash						U+2014: EM DASH	
+																
+																
+																
+																
+ʼ				ʼ	ʼ		Lm		apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
+§				§	§		Po		section sign						U+00A7: SECTION SIGN	
+†				†	†		Po		dagger						U+2020: DAGGER	
+‡				‡	‡		Po		double dagger						U+2021: DOUBLE DAGGER	
+′				′	′		Po		prime						U+2032: PRIME	
+″				″	″		Po		double prime						U+2033: DOUBLE PRIME	
+																
+																
+																
+																
+																
+																
+\u200C	=				ₓ		Cf		zwnj						U+200C: ZERO WIDTH NON-JOINER	
+\u200D	=				₊		Cf		zwj						U+200D: ZERO WIDTH JOINER	
+\u2067	=				ʳˡⁱ		Cf		rtl isolate						U+2067: RIGHT-TO-LEFT ISOLATE	
+\u2066	=				ˡʳⁱ		Cf		ltr isolate						U+2066: LEFT-TO-RIGHT ISOLATE	
+\u2068	=				ᶠˢⁱ		Cf		first-strong isolate						U+2068: FIRST STRONG ISOLATE	
+\u2069	=				ᵖᵈⁱ		Cf		pop direction isolate						U+2069: POP DIRECTIONAL ISOLATE	
+\u202B	=				ʳˡᵉ		Cf		rtl embed						U+202B: RIGHT-TO-LEFT EMBEDDING	
+\u202A	=				ˡʳᵉ		Cf		ltr embed						U+202A: LEFT-TO-RIGHT EMBEDDING	
+\u202C	=				ᵖᵈᶠ		Cf		pop direction						U+202C: POP DIRECTIONAL FORMATTING	
+\u200F	=				ʳˡᵐ		Cf		rtl mark						U+200F: RIGHT-TO-LEFT MARK	
+\u200E	=				ˡʳᵐ		Cf		ltr mark						U+200E: LEFT-TO-RIGHT MARK	
+\u034F	=				ᶜᵍʲ		Mn​		combining grapheme joiner						U+034F: COMBINING GRAPHEME JOINER​	
+\u061C	=				ᵃˡᵐ		Cf		arabic letter mark						U+061C: ARABIC LETTER MARK	
+																
+																
+																
+																
+𑑐	±			0	0̣		Nd		digit						U+11450: NEWA DIGIT ZERO	✓
+𑑑	±			1	1̣		Nd		digit						U+11451: NEWA DIGIT ONE	✓
+𑑒	±			2	2̣		Nd		digit						U+11452: NEWA DIGIT TWO	✓
+𑑓	±			3	3̣		Nd		digit						U+11453: NEWA DIGIT THREE	✓
+𑑔	±			4	4̣		Nd		digit						U+11454: NEWA DIGIT FOUR	✓
+𑑕	±			5	5̣		Nd		digit						U+11455: NEWA DIGIT FIVE	✓
+𑑖	±			6	6̣		Nd		digit						U+11456: NEWA DIGIT SIX	✓
+𑑗	±			7	7̣		Nd		digit						U+11457: NEWA DIGIT SEVEN	✓
+𑑘	±			8	8̣		Nd		digit						U+11458: NEWA DIGIT EIGHT	✓
+𑑙	±			9	9̣		Nd		digit						U+11459: NEWA DIGIT NINE	✓
+																
+																
+୲	#				¼		No		quarter						U+0B72: ORIYA FRACTION ONE QUARTER	
+୳ 	#				½				half						U+0B73 U+0020: ORIYA FRACTION ONE HALF, SPACE	
+୴	#				¾		No		three-quarters						U+0B74: ORIYA FRACTION THREE QUARTERS	
+	#				{10} etc				extended number							
+																
+																
+																
+%	%				%		Po		percentage mark						U+0025: PERCENT SIGN	
+
 
 
 
@@ -320,20 +275,19 @@ latinPanel = '̃ aː ā æ æː æ̃ æ̃ː ạ ã ãː bʱ cʰ ɕ dʱ d͡ʑ d͡
 
 
 var cols = {
-"class": 1,
+"key": 1,
 "ipaLoc": 2,
-"transLoc": 3,
+"ipaPlus": 3,
 "transcription": 4,
-"key": 5,
-"latin": 6,
-"transckey": 0,
+"transLoc": 5,
+"kbd": 6,
+"class": 7,
+"status": 8,
+"typeLoc": 9,
+"statusLoc": 10,
 
-"typeLoc": 7,
-"statusLoc": 8,
-
-"equiv": 9,
-"dvowel": 10,
-"ivowel": 11,
+"dvowel": 11,
+"ivowel": 12,
 "subj":0,
 "ltone":0,
 "htone":0,
@@ -343,10 +297,10 @@ var cols = {
 "shape": 0,
 "numLoc": 0,
 
-"nnameLoc": 12,
-"nameLoc": 13,
-"ucsName": 14,
-"block": 15,
+"nnameLoc": 13,
+"nameLoc": 14,
+"ucsName": 15,
+"block": 16,
 
 "othertranscriptions": [[4, 'Latin']]
 }
