@@ -15,6 +15,9 @@ pageWebfonts = ["Noto Serif Gujarati WF", "Noto Sans Gujarati WF"]
 defaultSize = '24px'
 
 
+autoIndex = true
+
+
 
 // block settings
 
