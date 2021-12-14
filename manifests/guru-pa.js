@@ -15,6 +15,9 @@ pageWebfonts = ["Noto Sans Gurmukhi WF"]
 defaultSize = '24px'
 
 
+autoIndex = true
+
+
 
 // block settings
 
