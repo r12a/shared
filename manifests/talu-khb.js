@@ -15,6 +15,10 @@ pageWebfonts = ["Noto Serif New Tai Lue WF"]
 defaultSize = '24px'
 
 
+autoIndex = true
+
+
+
 // block settings
 
 languageName = 'Tai Lü'
