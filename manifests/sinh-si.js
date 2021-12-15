@@ -15,6 +15,8 @@ pageWebfonts = ["Noto Serif Sinhala WF"]
 defaultSize = '24px'
 
 
+autoIndex = true
+
 
 // block settings
 
