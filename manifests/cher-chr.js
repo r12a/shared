@@ -15,6 +15,12 @@ pageWebfonts = ["Noto Sans Cherokee WF"]
 defaultSize = '24px'
 
 
+
+autoIndex = true
+
+
+
+
 // block settings
 
 languageName = 'Cherokee'
