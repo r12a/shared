@@ -15,6 +15,8 @@ pageWebfonts = ["Noto Sans Telugu WF", "Noto Serif Telugu WF"]
 defaultSize = '24px'
 
 
+autoIndex = true
+
 
 // block settings
 
