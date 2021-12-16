@@ -16,6 +16,11 @@ defaultSize = '24px'
 fontSwitchLangs = 'nod,kkh'
 
 
+autoIndex = true
+
+
+
+
 // block settings
 
 languageName = 'Northern Thai'

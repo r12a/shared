@@ -15,6 +15,10 @@ pageWebfonts = ["Lamphun WF", "Noto Serif Tai Tham WF", "Lanna Alif WF", "A Tai 
 defaultSize = '24px'
 
 
+
+autoIndex = true
+
+
 // block settings
 
 languageName = 'Tai Khün'
