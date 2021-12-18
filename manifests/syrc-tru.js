@@ -15,6 +15,9 @@ pageWebfonts = ["Estrangelo Edessa WF", "East Syriac Adiabene WF", "Serto Jerusa
 defaultSize = '24px'
 
 
+autoIndex = true
+
+
 
 // block settings
 
