@@ -15,6 +15,9 @@ pageWebfonts = ["Noto Sans Mandaic WF"]
 defaultSize = '24px'
 
 
+autoIndex = true
+
+
 
 // block settings
 
