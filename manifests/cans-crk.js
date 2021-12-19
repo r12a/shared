@@ -15,6 +15,10 @@ pageWebfonts = ["Noto Sans Canadian Aboriginal WF"]
 defaultSize = '24px'
 
 
+autoIndex = true
+
+
+
 // block settings
 
 languageName = 'Plains Cree'
