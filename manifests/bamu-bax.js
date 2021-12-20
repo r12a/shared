@@ -14,6 +14,9 @@ indic = false
 pageWebfonts = ["Noto Sans Bamum WF"]
 defaultSize = '24px'
 
+autoIndex = true
+
+
 
 // block settings
 
