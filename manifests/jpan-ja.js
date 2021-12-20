@@ -15,6 +15,10 @@ pageWebfonts = []
 defaultSize = '24px'
 
 
+autoIndex = true
+
+
+
 
 // block settings
 
