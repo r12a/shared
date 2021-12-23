@@ -15,6 +15,9 @@ pageWebfonts = ["Alkalami WF"]
 defaultSize = '28px'
 
 
+autoIndex = true
+
+
 
 // block settings
 
