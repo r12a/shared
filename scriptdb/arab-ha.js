@@ -76,7 +76,7 @@ var spreadsheet = `
 																
 																
 ّ	&				˖		Mn​		gemination mark						U+0651: ARABIC SHADDA​	✓
-ْ	*				͓		Mn​		vowel absence marker						U+0652: ARABIC SUKUN​	✓
+ْ	*				͞		Mn​		vowel absence marker						U+0652: ARABIC SUKUN​	✓
 																
 																
 \u200C	=				ₓ		Cf		zero-width non-joiner						U+200C: ZERO WIDTH NON-JOINER	
