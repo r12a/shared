@@ -48,6 +48,20 @@ function shownames_setOnclick ( node, base, target ) {
 	}
 
 
+function shownames_setOnclickTEST ( node, base, target ) {
+    if (trace) console.log('shownames_setOnclick(', node.textContent, base, target,')')
+    // called from initialiseShowNames
+    // local list
+    
+    var list = ''
+    if (node.classList.contains('list')) list = 'y'
+    var showIPA = false
+    console.log(node.dataset.ipa)
+    if (node.dataset.ipa) showIPA = node.dataset.ipa
+	node.onclick = function(){ showNameDetails(node.textContent, getLanguage(node), base, target, document.getElementById('panel'), list, getTransliteration(node), showIPA) }
+	}
+
+
 function getLanguage(node) {
 	// given a node, returns lang value of node or nearest parent
     // called by onclick created by shownames_setOnclick
@@ -250,7 +264,7 @@ return str.trim()
 
 
 
-function showNameDetails (chars, clang, base, target, panel, list, translit) {
+function showNameDetails (chars, clang, base, target, panel, list, translit, ipa) {
 // get the list of characters for an example and display their names
 // called by onclick created by shownames_setOnclick & shownames_setImgOnclick & listAll
 // chars (string), alt text of example
@@ -261,7 +275,7 @@ function showNameDetails (chars, clang, base, target, panel, list, translit) {
 // local out charArray chardiv charimg thename thelink hex dec blockname blockfile c
 // global charData pickerDir
 // calls getScriptGroup
-//console.log('showNameDetails(',chars, clang, base, target, panel, list, translit,')')
+//console.log('showNameDetails(',chars, clang, base, target, panel, list, translit, ipa, ')')
 
 	// check whether the calling page has set a base and target window
 	if(typeof base === 'undefined' || base === '') { base = '/uniview/?char=' }
@@ -288,7 +302,9 @@ function showNameDetails (chars, clang, base, target, panel, list, translit) {
 	var out = '<div id="ruby">'
 	
     
-    
+    // get any IPA data provided - should be pre-separated for graphemes by §
+    if (typeof ipa === 'string' && ipa !== '') ipa = ipa.split('§')
+    else ipa = false
     
     
 	// add the example to the panel as a title
@@ -319,7 +335,11 @@ function showNameDetails (chars, clang, base, target, panel, list, translit) {
     
     
     var gloss = '<div class="multilineGlossedText">'
-    for (t=0;t<graphemes.length;t++) gloss += ` <div class="stack"><span class="rt" lang="gez">${ transcriptions[t] }</span><span class="rb">${ graphemes[t] }</div>`
+    for (t=0;t<graphemes.length;t++) {
+        gloss += ` <div class="stack"><span class="rt">${ transcriptions[t] }</span><span class="rb">${ graphemes[t] }</span>`
+        if (ipa !== false) gloss += `<span class="rt">${ ipa[t] }</span>`
+        gloss += `</div>`
+        }
     gloss += '</div>'
 
 	out += `<div dir="${ dir }" class="ex" lang="${ clang }" id="title">${ gloss }</div>`
@@ -347,7 +367,7 @@ function showNameDetails (chars, clang, base, target, panel, list, translit) {
 		if (charData[charArray[c]]) {
             blockname = getScriptGroup(dec, false)
             blockfile = getScriptGroup(dec, true)
-            console.log(dec,blockfile)
+            //console.log(dec,blockfile)
             isInBlock = spreadsheetRows[charArray[c]]?spreadsheetRows[charArray[c]][cols['block']]:''
 
 			out += '<div class="panelCharacter">'
@@ -435,7 +455,7 @@ function showNameDetails (chars, clang, base, target, panel, list, translit) {
     if (typeof window.removeVowels === 'function') chars = removeVowels(chars)
     
     //out += `<a target="wiktionary" href="https://en.wiktionary.org/wiki/${ chars }${ fragid }">Wiktionary</a>`
-    out += `<a target="termbase" href="${ url }?q=${ chars }">Term base</a>`
+    out += `<a target="termbase" href="${ url }.html?q=${ chars }">Term base</a>`
 	
     out += '<p style="text-align:right"><img src="../block/images/close.png" style="cursor:pointer;" id="character_panelshare_close_button" alt="Close"'
 	out += ` onclick="document.getElementById('panelShare').style.display='none'"`
@@ -562,7 +582,7 @@ function makeDetails (chars) {
             temp = temp[0].replace(/U\+/,'')
             out += `<p class="notesLink"><a target="_blank" href="/uniview/?codepoints=${ temp }&char=${ temp }">UniView</a>`
             if (window.notesLangtag) { // add a link to the character notes file
-                out += '<br><a target="_blank" href="/scripts/'+window.blockDir+'block#'+window.notesLangtag+temp+'">Notes page</a>'
+                out += '<br><a target="_blank" href="../../scripts/'+window.blockDir+'block.html#'+window.notesLangtag+temp+'">Notes page</a>'
                 }
             out += '</p>'
             out += '<p class="cdHeader"><span class="uname cdTitle">'+spreadsheetRows[charArray[i]][cols['ucsName']]+'</span> '
@@ -721,7 +741,7 @@ for (let i=0;i<charArray.length;i++) {
 		out += '</div>'
 		}
 	}
-out += '<p style="text-align: right;"><img src="../common28/images/icons/close.png" alt="Close" style="cursor: pointer;" id="character_panel_close_button" onclick="document.getElementById(\'panel\').style.display = \'none\'"></p>'
+out += '<p style="text-align: right;"><img src="../common28/icons/close.png" alt="Close" style="cursor: pointer;" id="character_panel_close_button" onclick="document.getElementById(\'panel\').style.display = \'none\'"></p>'
 
 return out
 }
