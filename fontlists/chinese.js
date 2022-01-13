@@ -48,7 +48,7 @@
 		</optgroup>
 		
 		<optgroup label="Google fonts ">
-		<option value="Noto Sans CJK SC">Noto Sans CJK SC</option>
+		<option value="Noto Sans SC">Noto Sans SC</option>
 		<option value="Noto Serif CJK TC">Noto Serif CJK TC</option>
 		</optgroup>
 		

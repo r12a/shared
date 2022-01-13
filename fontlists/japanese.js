@@ -27,7 +27,7 @@
             </optgroup>
             
             <optgroup label="Google fonts ">
-            <option value="Noto Sans CJK JP">Noto Sans CJK JP</option>
+            <option value="Noto Sans JP">Noto Sans JP</option>
             <option value="Noto Serif CJK JP">Noto Serif CJK JP</option>
             </optgroup>
             
