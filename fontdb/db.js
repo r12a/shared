@@ -177,7 +177,7 @@ var fontDB = [
 { name:"Heiti SC",			system:new Set([mac]), locales:new Set(['hani', 'hans', 'yiii']), style:'hei' },
 { name:"Lantinghei SC",		system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'hei' },
 { name:"Microsoft YaHei",	system:new Set([win]), locales:new Set(['hani', 'hans']), style:'hei' },
-{ name:"Noto Sans CJK SC",	system:new Set([goog]), locales:new Set(['hani', 'hans']), style:'hei' },
+{ name:"Noto Sans SC",	system:new Set([goog]), locales:new Set(['hani', 'hans']), style:'hei' },
 { name:"PingFang SC",		system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'hei' },
 { name:"SimHei",			system:new Set([win, mac]), locales:new Set(['hani', 'hans']), style:'hei', wd:true },
 { name:"STHeiti",			system:new Set([mac]), locales:new Set(['hani', 'hans', 'yiii']), style:'hei', md:true },
@@ -189,7 +189,7 @@ var fontDB = [
 { name:"Lantinghei TC",		system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'hei' },
 { name:"LiHei Pro",			system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'hei', md:true },
 { name:"Microsoft JhengHei",system:new Set([win]), locales:new Set(['hani', 'hant']), style:'hei' },
-{ name:"Noto Sans CJK TC",	system:new Set([goog]), locales:new Set(['hani', 'hant']), style:'hei' },
+{ name:"Noto Sans TC",	system:new Set([goog]), locales:new Set(['hani', 'hant']), style:'hei' },
 { name:"PingFang TC",		system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'hei' },
 { name:"Yuanti TC",			system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'hei', md:true },
 
@@ -203,7 +203,7 @@ var fontDB = [
 { name:"MS Gothic",			system:new Set([win, mac]), locales:new Set(['jpan']), style:'gothic' },
 { name:"MS PGothic",		system:new Set([win, mac]), locales:new Set(['jpan']), style:'gothic' },
 { name:"MS UI Gothic",		system:new Set([win, mac]), locales:new Set(['jpan']), style:'gothic' },
-{ name:"Noto Sans CJK JP",	system:new Set([goog]), locales:new Set(['jpan']), style:'gothic' },
+{ name:"Noto Sans JP",	system:new Set([goog]), locales:new Set(['jpan']), style:'gothic' },
 { name:"YuGothic",			system:new Set([mac]), locales:new Set(['jpan']), style:'gothic', md:true },
 
 /* monoline */
@@ -213,7 +213,7 @@ var fontDB = [
 { name:"Gulim",				system:new Set([win]), locales:new Set(['kore']), style:'gothic', wd:true },
 { name:"Malgun Gothic",		system:new Set([win]), locales:new Set(['kore']), style:'gothic' },
 { name:"Nanum Gothic",		system:new Set([mac]), locales:new Set(['kore']), style:'gothic', md:true },
-{ name:"Noto Sans CJK KR",	system:new Set([goog]), locales:new Set(['kore']), style:'gothic' },
+{ name:"Noto Sans KR",	system:new Set([goog]), locales:new Set(['kore']), style:'gothic' },
 
 
 
