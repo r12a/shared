@@ -19,6 +19,14 @@
     font-weight: bold;
     font-style: normal;
 	}
+/*@font-face {
+  font-family: 'Material Icons';
+  src: local('Material Icons Outlined'),
+       url('../../shared/webfonts/materialiconsoutlined-regular-webfont.woff2');
+       format('woff2')
+  font-style: normal;
+  font-weight: normal;
+  }*/
 
 
 body {
@@ -33,6 +41,32 @@ body {
 	font-weight: normal;
 	}
 
+/*.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  / Preferred icon size /
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+
+  / Support for all WebKit browsers. /
+  -webkit-font-smoothing: antialiased;
+  / Support for Safari and Chrome. /
+  text-rendering: optimizeLegibility;
+
+  / Support for Firefox. /
+  -moz-osx-font-smoothing: grayscale;
+
+  / Support for IE. /
+  font-feature-settings: 'liga';
+  }
+*/
+
+
 strong {
     font-family: 'Helvetica Neue',  ralewaywf, "Segoe UI", sans-serif;
     font-weight: 400;
@@ -41,20 +75,20 @@ strong {
 
 
 /* set margins */
-p, h2, h3, h4, dl, div#footer, div.example, figure, details#scriptLinks { margin-left: 7.5%; margin-right: 32%; }
-ul, ol { margin-left: 9%; margin-right: 34%; }
-ul ul { margin-left: 2%; margin-right: 5%; }
-table { margin-left: 7.5%;  }
-table.inband { margin-right: 32%; }
-blockquote { margin-left: 11%; margin-right: 34%; }
+p, h2, h3, h4, dl, div#footer, div.example, figure, details#scriptLinks { margin-inline-start: 7.5%; margin-inline-end: 32%; }
+ul, ol { margin-inline-start: 9%; margin-inline-end: 34%; }
+ul ul { margin-inline-start: 2%; margin-inline-end: 5%; }
+table { margin-inline-start: 7.5%;  }
+table.inband { margin-inline-end: 32%; }
+blockquote { margin-inline-start: 11%; margin-inline-end: 34%; }
 
-li p { margin-left: 0; margin-right: 0; }
-blockquote p { margin-left: 0; margin-right: 0; }
-#footer p { margin-left: 0; margin-right: 0; }
-.example p { margin-left: 0; margin-right: 0; }
-.sidenote p { margin-left: 0; margin-right: 0; }
-.example blockquote { margin-left: 1em; margin-right: 1em; }
-dd p { margin-left: 0; margin-right: 0; }
+li p { margin-inline-start: 0; margin-inline-end: 0; }
+blockquote p { margin-inline-start: 0; margin-inline-end: 0; }
+#footer p { margin-inline-start: 0; margin-inline-end: 0; }
+.example p { margin-inline-start: 0; margin-inline-end: 0; }
+.sidenote p { margin-inline-start: 0; margin-inline-end: 0; }
+.example blockquote { margin-inline-start: 1em; margin-inline-end: 1em; }
+dd p { margin-inline-start: 0; margin-inline-end: 0; }
 
 
 
@@ -73,7 +107,7 @@ h1 {
 	font-weight: 300;
 	color: #005a9c;
 	padding: 5px;
-	padding-left: 10px;
+	padding-inline-start: 10px;
 	margin: 1em 30% 1em 6.5%;
 	line-height: 1.3;
 	}
@@ -166,9 +200,9 @@ h2 + section > h3 {
 	color: #005a9c;
 	background-color: #f5f5f5;
 	padding: 5px;
-	padding-left: 10px;
+	padding-inline-start: 10px;
 	margin: 0;
-	margin-right: 29%;
+	margin-inline-end: 29%;
 	line-height: 1.1;
 	}
 #topbar a:link { 
@@ -190,7 +224,7 @@ body.app #topbar a:visited {
 	}
 .versionnumber {
 	font-size: 50%;
-	margin-left: 10px;
+	margin-inline-start: 10px;
 	}
 
 #line {
@@ -217,7 +251,7 @@ body.app #line {
 #bp_picture {
 	margin-top: 5em;
 	margin-bottom: 0em;
-	margin-left: 20px;
+	margin-inline-start: 20px;
 	display: block;
 	}
 #bp_picture.compact {
@@ -235,7 +269,7 @@ body.app #line {
 #picture {
 	margin-top: 5em;
 	margin-bottom: 0em;
-	margin-left: 20px;
+	margin-inline-start: 20px;
 	display: block;
 	}
 #picture.compact {
@@ -257,13 +291,13 @@ body.app #line {
 	}
 .sidebar h2 {
 	margin-top: 2em;
-	margin-left: 0;
-	margin-right: 0;
-	padding-left: 0px;
+	margin-inline-start: 0;
+	margin-inline-end: 0;
+	padding-inline-start: 0px;
 	}
 .sidebar p {
-	margin-left: 1em;
-	margin-right: 1em; 
+	margin-inline-start: 1em;
+	margin-inline-end: 1em; 
 	line-height: 1.2em;
 	}
 
@@ -272,15 +306,15 @@ body.app #line {
 	margin-bottom: 1em; 
 	}
 .toc1 { 
-	margin-left: 1em; 
-	margin-right: 1em; 
+	margin-inline-start: 1em; 
+	margin-inline-end: 1em; 
 	margin-bottom: 4px; 
 	margin-top: 8px;
 	line-height: 1.2;
 	}
 .toc2 { 
-	margin-left: 1em; 
-	margin-right: 1em; 
+	margin-inline-start: 1em; 
+	margin-inline-end: 1em; 
 	font-size: 80%; 
 	margin-bottom: 2px; 
 	}
@@ -354,8 +388,8 @@ body.app #site-navigation {
 	text-decoration: none;
 	}
 #site-navigation p {
-	margin-left: 32px;
-	margin-right: 1em; 
+	margin-inline-start: 32px;
+	margin-inline-end: 1em; 
 	margin-top: 0;
 	margin-bottom: 0;
 	}
@@ -363,8 +397,8 @@ body.app #site-navigation {
 
 #sitelinks {
 	/* text-align: right;
-	margin-left: 5.5%; */
-	padding-left: 10px;
+	margin-inline-start: 5.5%; */
+	padding-inline-start: 10px;
 	margin-bottom: 5em;
 	line-height: 24px;
 	}
@@ -378,7 +412,7 @@ body.app #sitelinks {
 
 div.up { 
 	float: right; 
-	margin-right: 32%; 
+	margin-inline-end: 32%; 
 	margin-top: -5px; 
 	}
 
@@ -413,8 +447,8 @@ address {
 .smallprint p { 
 	margin-top: 5px;
 	margin-bottom: 0px;
-	margin-right: 10px;
-	margin-left: 10px;
+	margin-inline-end: 10px;
+	margin-inline-start: 10px;
 	}
 span#version {
 	padding: 8px 20px;
@@ -422,7 +456,7 @@ span#version {
 	}
 #logos {
 	float: right;
-	margin-left: 1em;
+	margin-inline-start: 1em;
 	margin-top: .25em;
 	}
 
@@ -531,8 +565,8 @@ dt {
 	}
 
 figure { 
-	margin-left: 10%; 
-	margin-right: 30%; 
+	margin-inline-start: 10%; 
+	margin-inline-end: 30%; 
 	text-align: center; 
 	margin-bottom: 5px;
 	margin: 4em 30% 3em 10%;
@@ -542,7 +576,7 @@ figure table {
 	}
 figure p { 
 	text-align: start; 
-	margin-right: 10%;  
+	margin-inline-end: 10%;  
 	/* margin-bottom: 5px; */
 	line-height: 1.4em; 
 	}
@@ -615,7 +649,7 @@ table.inband th {
 	box-shadow: 3px 3px 5px #888; 
 	padding: 1px 10px 1px 15px; 
 	border-radius: 10px; 
-	margin-left: 10px;
+	margin-inline-start: 10px;
 	}
 
 
@@ -655,23 +689,23 @@ table.inband th {
 @media (max-width: 700px) { 
 
 /* set margins */
-p, h2, h3, h4, dl, div#footer, div.example, figure { margin-left: 1em; margin-right: 1em; }
-ul, ol { margin-left: 2em; margin-right: 2em; }
-ul ul { margin-left: 2%; margin-right: 5%; }
-table { margin-left: 1em;  }
-table.inband { margin-right: 1em; }
-blockquote { margin-left: 2em; margin-right: 2em; }
+p, h2, h3, h4, dl, div#footer, div.example, figure { margin-inline-start: 1em; margin-inline-end: 1em; }
+ul, ol { margin-inline-start: 2em; margin-inline-end: 2em; }
+ul ul { margin-inline-start: 2%; margin-inline-end: 5%; }
+table { margin-inline-start: 1em;  }
+table.inband { margin-inline-end: 1em; }
+blockquote { margin-inline-start: 2em; margin-inline-end: 2em; }
 
 
-.character { margin-left:0; margin-right:0; }
+.character { margin-inline-start:0; margin-inline-end:0; }
 
-#index { margin-left:1em; margin-right:1em; }
+#index { margin-inline-start:1em; margin-inline-end:1em; }
 
 .sidebar {
 	float: none;
 	width: auto;
-	margin-left: 1em;
-	margin-right: 1em;
+	margin-inline-start: 1em;
+	margin-inline-end: 1em;
 	font-size: 90%;
 	margin-bottom: 3em;
 	}
@@ -679,7 +713,7 @@ blockquote { margin-left: 2em; margin-right: 2em; }
 	display: none;
 	}
 #topbar {
-	margin-right:0;
+	margin-inline-end:0;
 	}
 
 }
@@ -758,8 +792,8 @@ h2:hover > a.selflink, h3 > a.selflink, h4 > a.selflink, h5 > a.selflink, h6 > a
 
 .supportdocs  { margin-top: 1em; }
 .supportdocs ul { margin: 0; padding: 0; }
-.supportdocs li { margin-left: 12%; text-align: start; }
-.supportdocs p { margin-bottom: 0; margin-right: 15%; margin-left: 7.5%; }
+.supportdocs li { margin-inline-start: 12%; text-align: start; }
+.supportdocs p { margin-bottom: 0; margin-inline-end: 15%; margin-inline-start: 7.5%; }
 
 
 
@@ -785,7 +819,7 @@ body {
 .info::before {
     content: url(../../shared/images/info.png);
     position: absolute;
-	margin-left: -4%;
+	margin-inline-start: -4%;
 	margin-top: .25em;
 	}
 .eg-highlight { color: chocolate; }
