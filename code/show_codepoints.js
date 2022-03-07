@@ -5,7 +5,7 @@
 // shared/code/scriptGroups.js
 // shared/code/all-names.js
 
-trace = false
+trace = true
 
 
 function initialiseShowNames (base, target) {
@@ -38,6 +38,7 @@ function shownames_setImgOnclick ( node, base, target ) {
 	}
 
 function shownames_setOnclick ( node, base, target ) {
+return
     if (trace) console.log('shownames_setOnclick(', node.textContent, base, target,')')
     // called from initialiseShowNames
     // local list
@@ -277,6 +278,10 @@ function showNameDetails (chars, clang, base, target, panel, list, translit, ipa
 // calls getScriptGroup
 //console.log('showNameDetails(',chars, clang, base, target, panel, list, translit, ipa, ')')
 
+// to show per-grapheme ipa the ipa transcriptions should have § as grapheme separator (and syllables should be separated by '.'). Unpronounced segments are represented by – (en hyphen).  Monosyllabic words don't need any extra stuff.
+// កន្ត្រៃ|scissors|kɑː§n.§t§raj§–
+
+//console.log('showNameDetails (',chars, clang, base, target, panel, list, translit, ipa,')')
 	// check whether the calling page has set a base and target window
 	if(typeof base === 'undefined' || base === '') { base = '/uniview/?char=' }
 	if(typeof target === 'undefined') { target = '' }
@@ -337,7 +342,7 @@ function showNameDetails (chars, clang, base, target, panel, list, translit, ipa
     var gloss = '<div class="multilineGlossedText">'
     for (t=0;t<graphemes.length;t++) {
         gloss += ` <div class="stack"><span class="rt">${ transcriptions[t] }</span><span class="rb">${ graphemes[t] }</span>`
-        if (ipa !== false) gloss += `<span class="rt">${ ipa[t] }</span>`
+        if (ipa !== false) if (ipa[t]) gloss += `<span class="rt">${ ipa[t] }</span>`
         gloss += `</div>`
         }
     gloss += '</div>'
