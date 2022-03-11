@@ -42,7 +42,7 @@ function shownames_setOnclick ( node, base, target ) {
     if (trace) console.log('shownames_setOnclick(', node.textContent, base, target,')')
     // called from initialiseShowNames
     // local list
-    
+    if (node.onclick) return
     var list = ''
     if (node.classList.contains('list')) list = 'y'
 	node.onclick = function(){ showNameDetails(node.textContent, getLanguage(node), base, target, document.getElementById('panel'), list, getTransliteration(node)) }
@@ -281,7 +281,7 @@ function showNameDetails (chars, clang, base, target, panel, list, translit, ipa
 // to show per-grapheme ipa the ipa transcriptions should have § as grapheme separator (and syllables should be separated by '.'). Unpronounced segments are represented by – (en hyphen).  Monosyllabic words don't need any extra stuff.
 // កន្ត្រៃ|scissors|kɑː§n.§t§raj§–
 
-//console.log('showNameDetails (',chars, clang, base, target, panel, list, translit, ipa,')')
+console.log('showNameDetails (',chars, clang, base, target, panel, list, translit, ipa,')')
 	// check whether the calling page has set a base and target window
 	if(typeof base === 'undefined' || base === '') { base = '/uniview/?char=' }
 	if(typeof target === 'undefined') { target = '' }
@@ -337,8 +337,8 @@ function showNameDetails (chars, clang, base, target, panel, list, translit, ipa
     //ruby += '</ruby>'
 
 	//out += `<div dir="${ dir }" class="ex" lang="${ clang }" id="title">${ ruby }</div>`
-    
-    
+
+
     var gloss = '<div class="multilineGlossedText">'
     for (t=0;t<graphemes.length;t++) {
         gloss += ` <div class="stack"><span class="rt">${ transcriptions[t] }</span><span class="rb">${ graphemes[t] }</span>`
