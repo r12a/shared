@@ -38,7 +38,7 @@ function shownames_setImgOnclick ( node, base, target ) {
 	}
 
 function shownames_setOnclick ( node, base, target ) {
-return
+
     if (trace) console.log('shownames_setOnclick(', node.textContent, base, target,')')
     // called from initialiseShowNames
     // local list
@@ -342,12 +342,17 @@ function showNameDetails (chars, clang, base, target, panel, list, translit, ipa
     var gloss = '<div class="multilineGlossedText">'
     for (t=0;t<graphemes.length;t++) {
         gloss += ` <div class="stack"><span class="rt">${ transcriptions[t] }</span><span class="rb">${ graphemes[t] }</span>`
-        if (ipa !== false) if (ipa[t]) gloss += `<span class="rt">${ ipa[t] }</span>`
+        if (ipa !== false) {
+            if (ipa[t]) gloss += `<span class="rt">${ ipa[t] }</span>`
+            else gloss += `<span class="rt">&nbsp;</span>`
+            }
         gloss += `</div>`
         }
     gloss += '</div>'
 
-	out += `<div dir="${ dir }" class="ex" lang="${ clang }" id="title">${ gloss }</div>`
+	//out += `<div dir="${ dir }" class="ex" lang="${ clang }" id="title">${ gloss }</div>`
+    // removing the alternating direction so that IPA reads better
+	out += `<div dir="ltr" class="ex" lang="${ clang }" id="title">${ gloss }</div>`
     
         
     
