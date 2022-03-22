@@ -5,7 +5,7 @@
 // shared/code/scriptGroups.js
 // shared/code/all-names.js
 
-trace = true
+trace = false
 
 
 function initialiseShowNames (base, target) {
@@ -151,7 +151,7 @@ function showNameDetailsOLD (chars, clang, base, target, panel, list, translit) 
 			if (blockfile) {
 				out += '<a target="'+target+'" href="'
 				if (base === '/uniview/?char=') out += base+hex
-				else out += '/scripts/'+blockfile+'/block#char'+hex
+				else out += '/scripts/'+blockfile+'/block.html#char'+hex
 				out += '">'
 				out += '<img src="'+'/c/'+blockname+"/"+hex+'.png'+'" alt="'+charArray[c]+'">'
 				out += ' U+'+hex + ' '+charData[charArray[c]]
@@ -385,19 +385,19 @@ console.log('showNameDetails (',chars, clang, base, target, panel, list, transli
 			if (isInBlock) {
 				out += `<a target="${ target }" href="`
 				if (base === '/uniview/?char=') out += base+hex
-				else out += '/scripts/'+blockfile+'/block#char'+hex
+				else out += '/scripts/'+blockfile+'/block.html#char'+hex
 				out += '">'
-				out += '<img src="'+'/c/'+blockname+"/"+hex+'.png'+'" alt="'+charArray[c]+'">'
+				out += '<img src="'+'../../c/'+blockname+"/"+hex+'.png'+'" alt="'+charArray[c]+'">'
 				out += ' U+'+hex + ' '+charData[charArray[c]]
 				out += '</a>\n'
 				}
 			else {
-				out += '<img src="'+'/c/'+blockname+"/"+hex+'.png'+'" alt="'+charArray[c]+'">'
+				out += '<img src="'+'../../c/'+blockname+"/"+hex+'.png'+'" alt="'+charArray[c]+'">'
 				out += ' U+'+hex+' '+charData[charArray[c]]+'\n'
 				}
 			}
 		else {
-			out += '<img src="/c/Basic_Latin/005F.png" alt="U+'+hex+'"> U+'+hex+' No data for this character'
+			out += '<img src="../../c/Basic_Latin/005F.png" alt="U+'+hex+'"> U+'+hex+' No data for this character'
 			}
 		out += '</div>'
 		}
@@ -680,6 +680,7 @@ function showCharDetailsInPanel (evt) {
 	panel.innerHTML = makePanelDetails(chars,lang)
 	//document.getElementById('panel').innerHTML = charDetails[char]
 	panel.style.display = 'block'
+	panel.style.width = '50%'
 	
 	addExamples(lang)
 	autoTransliterate(evt.target.lang)
@@ -802,7 +803,7 @@ function makeCharacterLink (cp, lang, direction) {
 		//	out += '<span lang="'+lang+'">'+charstr+'</span> [<a href="block#char'+hex+'" target="c"><span class="uname">'+spreadsheetRows[cp][cols['ucsName']]+'</span></a>]'
 		//	}
 		if (spreadsheetRows[charstr]) {
-			out += `<span lang="${ lang }" onclick="makeFootnoteIndex('${ charstr }')">${ charstr }</span> [<a href="block#char${ hex }" target="c"><span class="uname">${ spreadsheetRows[cp][cols['ucsName']] }</span></a>]`
+			out += `<span lang="${ lang }" onclick="makeFootnoteIndex('${ charstr }')">${ charstr }</span> [<a href="block.html#char${ hex }" target="c"><span class="uname">${ spreadsheetRows[cp][cols['ucsName']] }</span></a>]`
 			}
 		else console.log( 'Character not found in database.' )
         }
