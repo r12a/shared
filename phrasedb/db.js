@@ -593,6 +593,7 @@ phraseDB = {
 
 'ru': { name: 'Russian',
 		text: "Все люди рождаются свободными и равными в своем достоинстве и правах. Они наделены разумом и совестью и должны поступать в отношении друг друга в духе братства.",
+		translation: "All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.",
 		source: "UDHR §1",
 		sourceURL: "https://unicode.org/udhr/d/udhr_rus.html"
 		},
@@ -785,12 +786,6 @@ phraseDB = {
 		sourceURL: "https://en.wikipedia.org/wiki/Sylheti_Nagri#Sample_texts"
 		},
 
-'ur': { name: 'Urdu',
-		text: "تمام انسان آزاد اور حقوق و عزت کے اعتبار سے برابر پیدا ہوئے ہیں۔ انہیں ضمیر اور عقل ودیعت ہوئی ہے۔ اس لئے انہیں ایک دوسرے کے ساتھ بھائی چارے کا سلوک کرنا چاہیئے۔",
-		source: "UDHR §1",
-		sourceURL: "https://unicode.org/udhr/d/udhr_urd.html"
-		},
-
 'ta': { name: 'Tamil',
 		text: "மனிதப் பிறிவியினர் சகலரும் சுதந்திரமாகவே பிறக்கின்றனர்; அவர்கள் மதிப்பிலும், உரிமைகளிலும் சமமானவர்கள், அவர்கள் நியாயத்தையும் மனச்சாட்சியையும் இயற்பண்பாகப் பெற்றவர்கள். அவர்கள் ஒருவருடனொருவர் சகோதர உணர்வுப் பாங்கில் நடந்துகொள்ளல் வேண்டும்.",
 		source: "UDHR §1",
@@ -833,6 +828,20 @@ phraseDB = {
 		text: "𐎍𐎟𐎎𐎍𐎋𐎟𐎜𐎂𐎗𐎚 𐎀𐎈𐎊𐎟𐎗𐎂𐎎 𐎚𐎈𐎎𐎟𐎎𐎍𐎋𐎟𐎕𐎗𐎟𐎀𐎈𐎋 𐎊𐎌𐎍𐎎𐎟 𐎍𐎋𐎟𐎛𐎍𐎎 𐎚𐎙𐎗𐎋𐎟𐎚𐎌𐎍𐎎𐎋 𐎅𐎐𐎐𐎊𐎟𐎎𐎐 𐎌𐎍𐎎𐎟𐎉𐎎𐎐𐎊 𐎎𐎋𐎟𐎎𐎐𐎎𐎟𐎌𐎍𐎎 𐎗𐎂𐎎𐎟𐎉𐎉𐎁",
 		source: "P. Bordreuil, D. Pardee, A manual of Ugaritic, Eisenbrauns, Winona Lake, 2009, testo n. 26. Letter of the king of Tyre to the king of Ugarit (probably translated from Akkadian) RS 18.031 (KTU 2.38) [Transcribed from Latin transcription – may need fixing.]",
 		sourceURL: "http://mnamon.sns.it/index.php?page=Esempi&id=30&lang=en"
+		},
+
+'uk': { name: 'Ukrainian',
+		text: "Всі люди народжуються вільними і рівними у своїй гідності та правах. Вони наділені розумом і совістю і повинні діяти у відношенні один до одного в дусі братерства.",
+		translation: "All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.",
+		source: "UDHR §1",
+		sourceURL: "https://unicode.org/udhr/d/udhr_ukr.html"
+		},
+
+'ur': { name: 'Urdu',
+		text: "تمام انسان آزاد اور حقوق و عزت کے اعتبار سے برابر پیدا ہوئے ہیں۔ انہیں ضمیر اور عقل ودیعت ہوئی ہے۔ اس لئے انہیں ایک دوسرے کے ساتھ بھائی چارے کا سلوک کرنا چاہیئے۔",
+		translation: "All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.",
+		source: "UDHR §1",
+		sourceURL: "https://unicode.org/udhr/d/udhr_urd.html"
 		},
 
 'und-kthi': { name: 'Unknown (Kaithi)',

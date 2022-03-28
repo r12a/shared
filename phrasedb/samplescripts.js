@@ -21,7 +21,7 @@ var sampleScriptsIndex = {
     'cher': { name: "Cherokee", langs:['chr', 'chr-x-lc'], font:['cher'] },
     'copt': { name: "Coptic", langs:['cop'], font: ['copt'] },
     'cprt': { name: "Cypriot Syllabary", langs:['omn-cprt'], font: ['cprt'] },
-    'cyrl': { name: "Cyrillic", langs:['kk', 'ky', 'ru'], font: ['cyrl'] },
+    'cyrl': { name: "Cyrillic", langs:['kk', 'ky', 'ru', 'uk'], font: ['cyrl'] },
     'deva': { name: "Devanagari", langs:['hi', 'ks-deva', 'npi'], font:['deva'] },
     'dogr': { name: "Dogra", langs:['sa-dogr'], font: ['dogr'] },
     'dsrt': { name: "English (Deseret)", langs:['en-dsrt'], font: ['dsrt'] },
