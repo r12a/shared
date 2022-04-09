@@ -215,18 +215,20 @@ latinPanel = 'aː ā aɪ aʊ β ɕ d͡ʒ ð d̪ ɖ eː ē ɡ iː ī kː ḵ ḷ 
 
 
 var cols = {
-"class": 1,
+"key": 1,
 "ipaLoc": 2,
-"transLoc": 3,
+"ipaPlus": 3,
 "transcription": 4,
-"key": 5,
+"transLoc": 5,
 "kbd": 6,
-"typeLoc": 7,
-"statusLoc": 8,
+"class": 7,
+"status": 8,
+"typeLoc": 9,
+"statusLoc": 10,
 
 "transckey": 0,
-"dvowel": 9,
-"ivowel": 10,
+"dvowel": 11,
+"ivowel": 12,
 "subj":0,
 "ltone":0,
 "htone":0,
@@ -236,10 +238,10 @@ var cols = {
 "shape": 0,
 "numLoc": 0,
 
-"nnameLoc": 11,
-"nameLoc": 12,
-"ucsName": 13,
-"block": 14,
+"nameLoc": 13,
+"nnameLoc": 14,
+"ucsName": 15,
+"block": 16,
 
 "othertranscriptions": [[4, 'ISO 15919']]
 }
