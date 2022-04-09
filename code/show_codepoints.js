@@ -444,12 +444,14 @@ function makeDetails (chars) {
             out += `<tr><th class="cdChar" onclick="this.parentNode.parentNode.parentNode.style.display='none'"><span class="ex" lang="${ window.notesLangtag }">${ charArray[i] }</span><br><span class="cdCharClose">x</span></th>`
             out += '<td class="cdData">'
 
-            var temp = spreadsheetRows[charArray[i]][cols['ucsName']].split(':')
-            temp = temp[0].replace(/U\+/,'')
-            out += `<p class="notesLink"><a target="_blank" href="/uniview/?codepoints=${ temp }&char=${ temp }">UniView</a>`
+            // add out pointing links to side
+            var hex = spreadsheetRows[charArray[i]][cols['ucsName']].split(':')
+            hex = hex[0].replace(/U\+/,'')
+            out += `<p class="notesLink"><a target="_blank" href="../../uniview/index.html?codepoints=${ hex }&char=${ hex }">UniView</a>`
             if (window.notesLangtag) { // add a link to the character notes file
-                out += '<br><a target="_blank" href="../../scripts/'+window.blockDir+'block.html#'+window.notesLangtag+temp+'">Notes page</a>'
+                out += '<br><a target="_blank" href="../../scripts/'+window.blockDir+'block.html#'+window.notesLangtag+hex+'">Notes page</a>'
                 }
+            out += `<br><a target="_blank" href="https://util.unicode.org/UnicodeJsps/character.jsp?a=${ hex }">Properties</a>`
             out += '</p>'
             out += '<p class="cdHeader"><span class="uname cdTitle">'+spreadsheetRows[charArray[i]][cols['ucsName']]+'</span> '
 
@@ -559,9 +561,26 @@ var dir = 'ltr'
 
 for (let i=0;i<charArray.length;i++) {
 	if (spreadsheetRows[charArray[i]]) {
+
+        // add character
 		out += '<p class="cdChar"><span class="ex" lang="'+lang+'">'+charArray[i]+'</span></p>'
+        
+        // add out pointing links
+        var hex = spreadsheetRows[charArray[i]][cols['ucsName']].split(':')
+        hex = hex[0].replace(/U\+/,'')
+        out += `<p class="notesLink">`
+        out += `<a target="_blank" href="../../uniview/index.html?codepoints=${ hex }&char=${ hex }">UniView</a>`
+        if (window.notesLangtag) { // add a link to the character notes file
+            out += '<br><a target="_blank" href="../../scripts/'+window.blockDir+'block.html#'+window.notesLangtag+hex+'">Notes page</a>'
+            }
+        out += `<br><a target="_blank" href="https://util.unicode.org/UnicodeJsps/character.jsp?a=${ hex }">Properties</a>`
+        out += '</p>'
+
+
+        // add Unicode name
 		out += '<p class="cdHeader"><span class="uname cdTitle">'+spreadsheetRows[charArray[i]][cols['ucsName']]+'</span> '
-	
+
+        // add second line with name, type, etc.
 		if (spreadsheetRows[charArray[i]][cols['nameLoc']] && spreadsheetRows[charArray[i]][cols['nameLoc']] != '0') out += ' &nbsp; <span class="transliteratedname trans">'+spreadsheetRows[charArray[i]][cols['nameLoc']]+'</span>'
 		out += '<br>'
 
@@ -571,8 +590,10 @@ for (let i=0;i<charArray.length;i++) {
 		if (spreadsheetRows[charArray[i]][cols['ipaLoc']]) out += ' &nbsp; <span class="charIPA ipa">'+spreadsheetRows[charArray[i]][cols['ipaLoc']]+'</span>'
 		out += '</span></p>'
 
+        // dump the information in the details file
 		if (charDetails[charArray[i]]) out += '<div class="charD">'+charDetails[charArray[i]]
 
+        // add various other derived information (case pairs, etc.)
 		cchar = charArray[i]
 			// vowel correspondences
 			if (cols.ivowel>0 && spreadsheetRows[cchar][cols.ivowel]) {
