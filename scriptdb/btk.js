@@ -8,20 +8,20 @@ var spreadsheet = `
 ᯗ	t	t	a	t	t¹		Lo		consonant	karo pakp				U+1BD7: BATAK LETTER NORTHERN TA	batak
 ᯑ	d	d	a	d	d		Lo		consonant	all				U+1BD1: BATAK LETTER DA	batak
 ᯢ	d	ⁿd	a	nd	nᵈ		Lo		pre-nasalised consonant	karo				U+1BE2: BATAK LETTER NDA	batak
-ᯂ	k	k	a	k h	k		Lo		consonant	 karo pakp & toba; also HA for toba				U+1BC2: BATAK LETTER HA	batak
-ᯃ	k	k h	a	k h	k¹		Lo		consonant	sima				U+1BC3: BATAK LETTER SIMALUNGUN HA	batak
+ᯂ	k	h k	a	k h	k		Lo		consonant	 karo pakp & toba; also HA for toba				U+1BC2: BATAK LETTER HA	batak
+ᯃ	k	h -k	a	h -k	k¹		Lo		consonant	sima				U+1BC3: BATAK LETTER SIMALUNGUN HA	batak
+ᯄ᯦	k	k	a	k	h				consonant	mand				U+1BC4 U+1BE6: BATAK LETTER MANDAILING HA, SIGN TOMPI	batak
 ᯎ	g	ɡ	a	g	g		Lo		consonant	karo mand pakp toba				U+1BCE: BATAK LETTER GA	batak
 ᯏ	g	ɡ	a	g	g¹		Lo		consonant	sima				U+1BCF: BATAK LETTER SIMALUNGUN GA	batak
 															
 ᯡ	c	t͡ʃ	a	c	ʧ		Lo		consonant	karo				U+1BE1: BATAK LETTER CA	batak
-ᯚ᯦		t͡ʃ	a	c	sˑ				consonant	mand					batak
+ᯚ᯦	c	t͡ʃ	a	c	sˑ				consonant	mand				U+1BDA U+1BE6: BATAK LETTER MANDAILING SA, BATAK SIGN TOMPI	batak
 ᯐ	j	d͡ʒ	a	j	ʤ		Lo		consonant	all				U+1BD0: BATAK LETTER JA	batak
 															
 ᯘ	s	s	a	s	s		Lo		consonant	karo pakp toba; CA for pakp				U+1BD8: BATAK LETTER SA	batak
 ᯙ	s	s	a	s	s¹		Lo		consonant	sima				U+1BD9: BATAK LETTER SIMALUNGUN SA	batak
 ᯚ	s	s	a	s	s²		Lo		consonant	mand				U+1BDA: BATAK LETTER MANDAILING SA	batak
 ᯄ	h	h	a	h	h		Lo		consonant	mand				U+1BC4: BATAK LETTER MANDAILING HA	batak
-ᯄ᯦	k	k	a	k	h				consonant	mand				U+1BC4 U+1BE6: BATAK LETTER MANDAILING HA, SIGN TOMPI	batak
 															
 ᯔ	m	m	a	m	m		Lo		consonant	karo mand pakp toba				U+1BD4: BATAK LETTER MA	batak
 ᯕ	m	m	a	m	m¹		Lo		consonant	sima				U+1BD5: BATAK LETTER SIMALUNGUN MA	batak
@@ -64,8 +64,7 @@ var spreadsheet = `
 ᯧ	e	ə		e	ə		Mc​		vowel-sign	karo				U+1BE7: BATAK VOWEL SIGN E​	batak
 ᯨ	e	ə o		e	o²		Mn​		vowel-sign	pakp; O for karo				U+1BE8: BATAK VOWEL SIGN PAKPAK E​	batak
 ᯬ	o	o u		o	o		Mc​		vowel-sign	mand pakp sima toba; U for karo				U+1BEC: BATAK VOWEL SIGN O​	batak
-ᯭ	o	o		o	o¹		Mn​		vowel-sign	karo				U+1BED: BATAK VOWEL SIGN KARO O​	batak
-ᯩᯨ		ou		ou	e²e¹				vowel-sign	sima				U+1BE9 U+1BE8: BATAK VOWEL SIGN EE, VOWEL SIGN PAKPAK E​	batak
+ᯭ	o	o ou		o	o¹		Mn​		vowel-sign	karo; ou in sima				U+1BED: BATAK VOWEL SIGN KARO O​	batak
 															
 ᯦	/				ˑ		Mn​		sound changer	mandailing				U+1BE6: BATAK SIGN TOMPI	batak
 															
