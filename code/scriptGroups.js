@@ -67,7 +67,7 @@ var scriptGroups = [
 [6832,6911,"Combining Diacritical Marks Extended","",""],
 [6912,7039,"Balinese","bali", "6912:6987 6992:7008", "balinese"],
 [7040,7103,"Sundanese","sund","7040:7103", "sundanese"],
-[7104,7167,"Batak","batk",""],
+[7104,7167,"Batak","batk","1BC0:1BF3 1BFC:1BFF", "batk"],
 [7168,7247,"Lepcha","lepc",""],
 [7248,7295,"Ol Chiki","olck","7248:7295","santali"],
 [7296,7311,"Cyrillic Extended-C","cyrl","","cyrillic"],
