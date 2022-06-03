@@ -25,7 +25,7 @@ var spreadsheet = `
 																
 																
 ܖ	d	d r		d ḏ	ḋ	e	Lo		alternative consonant		ܖ ـܖ			dālaṯ rish	U+0716: SYRIAC LETTER DOTLESS DALATH RISH	✓
-ܞ	j	jʰ		jh	jʰ	'	Lo		ligature		ܞ ـܞ				U+071E: SYRIAC LETTER YUDH HE	✓
+ܞ	j	–		jh	jʰ	'	Lo		ligature		ܞ ـܞ				U+071E: SYRIAC LETTER YUDH HE	✓
 ܧ	p	p		p	ṗ	o	Lo	a	consonant	archaic CPA	ܧ ܧܧܧ				U+0727: SYRIAC LETTER REVERSED PE	✓
 																
 																
