@@ -123,6 +123,7 @@ var fontDB = [
 { name:"Noto Serif Kannada",system:new Set([goog, mac]), locales:new Set(['knda']), style:'serif', md:true },
 { name:"Noto Serif Khojki",	system:new Set([goog, mac]), locales:new Set(['khoj']), style:'serif' },
 { name:"Noto Serif Lao",	system:new Set([goog]), locales:new Set(['laoo']), style:'serif' },
+{ name:"Noto Serif Makasar",system:new Set([goog]), locales:new Set(['maka']), style:'serif' },
 { name:"Noto Serif Malayalam",system:new Set([goog]), locales:new Set(['mlym']), style:'serif' },
 { name:"Noto Serif Myanmar",system:new Set([goog, mac]), locales:new Set(['mymr', 'mymr-shn']), style:'serif' },
 { name:"Noto Serif Sinhala",system:new Set([goog]), locales:new Set(['sinh']), style:'serif' },
