@@ -87,6 +87,7 @@ var spreadsheet = `
 															
 															
 															
+															
 ٔ	Mn​	ʔ			}	ʿ		hamza						U+0654: ARABIC HAMZA ABOVE​	🗸
 ٕ	Mn​	ʔ			}	˓		hamza						U+0655: ARABIC HAMZA BELOW​	🗸
 ٓ	Mn​				}	~	G	maddah diacritic	used with ا					U+0653: ARABIC MADDAH ABOVE​	🗸
@@ -191,13 +192,24 @@ var spreadsheet = `
 ٩	Nd		9		±	9̣	9	digit				تِسْعَة	tisʕɑ	U+0669: ARABIC-INDIC DIGIT NINE	🗸
 ٠	Nd		0		±	0̣	0	digit						U+0660: ARABIC-INDIC DIGIT ZERO	🗸
 															
+1	Nd		1			1		digit				وَاحِد	wɑːħid	U+0031: DIGIT ONE	
+2	Nd		2			2		digit				اِثْنَين	ʔiθnain	U+0032: DIGIT TWO	
+3	Nd		3			3		digit				ثَلَاثَة	θɑlɑːθɑ	U+0033: DIGIT THREE	
+4	Nd		4			4		digit				أَربَعَة	ʔɑrbɑʕɑ	U+0034: DIGIT FOUR	
+5	Nd		5			5		digit				خَمْسَة	xɑmsɑ	U+0035: DIGIT FIVE	
+6	Nd		6			6		digit				سِتَّة	sittɑ	U+0036: DIGIT SIX	
+7	Nd		7			7		digit				سَبْعَة	sɑbʕɑ	U+0037: DIGIT SEVEN	
+8	Nd		8			8		digit				ثَمَانيَة	θɑmɑːnjɑ	U+0038: DIGIT EIGHT	
+9	Nd		9			9		digit				تِسْعَة	tisʕɑ	U+0039: DIGIT NINE	
+0	Nd		0			0		digit						U+0030: DIGIT ZERO	
+															
 															
 ٬	Po				#	‛		thousands separator						U+066C: ARABIC THOUSANDS SEPARATOR	🗸
 ٫	Po				#	·		decimal separator						U+066B: ARABIC DECIMAL SEPARATOR	🗸
 ؍	Po				#	/		date separator	infrequent					U+060D: ARABIC DATE SEPARATOR	🗸
 ࢐	Cf							currency symbol	Egyptian					U+0890: ARABIC POUND MARK ABOVE	🗸
 ࢑	Cf							currency symbol	Egyptian					U+0891: ARABIC PIASTRE MARK ABOVE	🗸
-﷼	Sc	ri.jaːl				{RIAL}		currency symbol	infrequent					U+FDFC: RIAL SIGN	🗸															
+﷼	Sc	ri.jaːl				{RIAL}		currency symbol	infrequent					U+FDFC: RIAL SIGN	🗸
 															
 															
 															
@@ -206,6 +218,8 @@ var spreadsheet = `
 %	Po				%	%		percentage mark						U+0025: PERCENT SIGN	🗸
 ‰	Po				%	‰		per mille sign						U+2030: PER MILLE SIGN	🗸
 
+ 	Po							space						U+0020: SPACE	🗸
+•	Po							bullet						U+2022: BULLET	🗸
 
 
 `
