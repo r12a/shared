@@ -3,7 +3,7 @@ langTag='aii'
 scriptTag='syrc'
 notesLangtag='aii'
 
-explainerDir='syriac/syrc-aii'
+explainerDir='syriac/aii'
 blockDir='syriac/'
 pickerDir='syrc-aii/'
 scriptSummaryTableName='aii'

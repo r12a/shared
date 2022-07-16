@@ -45,7 +45,7 @@ var spreadsheet = `
 ̣	[				‐̜		Mn​		disambiguation mark						U+0323: COMBINING DOT BELOW​	✓
 ݀	[			ʺ	⁑		Mn​		feminine marker						U+0740: SYRIAC FEMININE DOT​	✓
 ̄	[				‒̄		Mn​	i	extender/joiner	infrequent			ܡܲܪܗ̄ܛܵܢܵܐ	marhᵊtˤɑnɑ	U+0304: COMBINING MACRON​	✓
-̱	[				‒̱		Mn​	i	epenthetic marker	infrequent			ܡܗܲܓܝܵܢܵܐ	mhagjɑnɑ	U+0320: COMBINING MINUS SIGN BELOW​	✓
+̱	[				‒̱		Mn​	i	epenthetic marker	infrequent			ܡܗܲܓܝܵܢܵܐ	mhagjɑnɑ	U+0331 COMBINING MACRON BELOW	✓
 																
 																
 ̊	/				‐̊		Mn​		hard/soft sound marker						U+030A: COMBINING RING ABOVE​	✓
@@ -92,7 +92,7 @@ var spreadsheet = `
 \u0738\u0710\b	i	ɪ		ȋ	eʾ		s		a-vowel or i-vowel + alaph at end of word						U+0738 U+0710: SYRIAC DOTTED ZLAMA HORIZONTAL, LETTER ALAPH​	
 																
 ܒ݂	v	v		ḇ	bˑ		s				ܒ݂ ܒ݂ܒ݂ܒ݂				U+0712 U+0742: SYRIAC LETTER BETH, RUKKAKHA	
-ܓ݂	R	ʁ		ḡ	gˑ		s				ܓ݂ ܓ݂ܓ݂ܓ݂				U+0713 U+0742: SYRIAC LETTER GAMAL, RUKKAKHA	
+ܓ݂	R	ɣ		ḡ	gˑ		s				ܓ݂ ܓ݂ܓ݂ܓ݂				U+0713 U+0742: SYRIAC LETTER GAMAL, RUKKAKHA		
 ܕ݂	D	ð		ḏ	dˑ		s				ܕ݂ ܕ݂				U+0715 U+0742: SYRIAC LETTER DALATH, RUKKAKHA	
 ܟ݂	H	ħ		ḵ	kˑ		s				ܟ݂ ܟ݂ܟ݂ܟ݂				U+071F U+0742: SYRIAC LETTER KAPH, RUKKAKHA	
 ܬ݂	@	θ		ṯ	tˑ		s				ܬ݂ ܬ݂				U+072C U+0742: SYRIAC LETTER TAW, RUKKAKHA	
@@ -166,6 +166,6 @@ var cols = {
 "block": 16,
 
 //"othertranscriptions": [[7, 'ISO 9985']]
-"othertranscriptions": [[4, 'Transcription']]
+"othertranscriptions": [[4, '']]
 }
 

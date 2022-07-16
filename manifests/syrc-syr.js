@@ -3,7 +3,7 @@ langTag='syr'
 scriptTag='syrc'
 notesLangtag='syr'
 
-explainerDir='syriac/'
+explainerDir='syriac/syr'
 blockDir='syriac/'
 pickerDir='syrc/'
 scriptSummaryTableName='syc'

@@ -3,7 +3,7 @@ langTag='tru'
 scriptTag='syrc'
 notesLangtag='tru'
 
-explainerDir='syriac/syrc-tru'
+explainerDir='syriac/tru'
 blockDir='syriac/'
 pickerDir='syrc-tru/'
 scriptSummaryTableName='tru'
@@ -11,7 +11,7 @@ charUsageBCP='tru'
 orthogName = 'Syriac'
 indic = false
 
-pageWebfonts = ["Estrangelo Edessa WF", "East Syriac Adiabene WF", "Serto Jerusalem WF", "Noto Sans Syriac Estrangela", "Noto Sans Syriac Eastern", "Noto Sans Syriac Western"]
+pageWebfonts = ["Serto Jerusalem WF", "Estrangelo Edessa WF", "East Syriac Adiabene WF", "Noto Sans Syriac Estrangela", "Noto Sans Syriac Eastern", "Noto Sans Syriac Western"]
 defaultSize = '24px'
 
 
