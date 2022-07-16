@@ -16,8 +16,8 @@ function initialiseShowNames (base, target) {
 // calls shownames_setImgOnclick shownames_setOnclick
 
 	// check whether the calling page has set a base and target window
-	if(typeof base === 'undefined') { base = ''; }
-	if(typeof target === 'undefined') { target = ''; } 
+	if(typeof base === 'undefined') { base = '' }
+	if(typeof target === 'undefined') { target = '' } 
 	
 	var examples = document.querySelectorAll('.ex')
 	for (var e=0;e<examples.length;e++) {
@@ -29,16 +29,68 @@ function initialiseShowNames (base, target) {
 	}
 
 
-function shownames_setImgOnclick ( node, base, target ) {
+function shownames_setImgOnclickOLD ( node, base, target ) {
     if (trace) console.log('shownames_setImgOnclick(', node.textContent, base, target,')')
     // called from initialiseShowNames
     
 	//node.onclick = function(){ showNameDetails(node.alt, node.lang, base, target, document.getElementById('panel') ) }
-	node.onclick = function(){ showNameDetails(node.alt, getLanguage(node), base, target, document.getElementById('panel') ) }
+	node.onclick = function(){ showNameDetails(node.alt, getLanguage(node), base, target, document.getElementById('panel'), "", getTransliteration(node) ) }
+	}
+
+function shownames_setImgOnclickLESSOLD ( node, base, target ) {
+trace = true
+    if (trace) console.log('shownames_setImgOnclick(', node.textContent, base, target,')')
+    // called from initialiseShowNames
+    
+    var alt=''
+    var charInfo=''
+    var ipa=''
+    
+    alt = node.alt
+    if (alt == '') return
+    console.log('>>> ALT', alt)
+    console.log(egList)
+    console.log('<<< egList[alt]',egList[alt])
+    
+    if (egList[alt]) charInfo = egList[alt].split('|')
+    console.log('>>> charINFO', charInfo)
+    if (charInfo && charInfo[2]) node.title = charInfo[2]
+    
+	node.onclick = function(){ showNameDetails(node.alt, getLanguage(node), base, target, document.getElementById('panel'), "", node.title ) }
+    
+	//node.onclick = function(){ showNameDetails(node.alt, node.lang, base, target, document.getElementById('panel') ) }
+//	node.onclick = function(){ showNameDetails(node.alt, getLanguage(node), base, target, document.getElementById('panel'), "", getTransliteration(node) ) }
+	}
+
+function shownames_setImgOnclick ( node, base, target ) {
+trace = true
+    if (trace) console.log('shownames_setImgOnclick(', node, base, target,')')
+    // called from initialiseShowNames
+    
+    var alt=''
+    var charInfo=''
+    var ipa=''
+    
+    alt = node.alt
+    if (alt == '') return
+    console.log('>>> ALT', alt)
+    console.log(egList)
+    console.log('<<< egList[alt]',egList[alt])
+    
+    if (egList[alt]) charInfo = egList[alt].split('|')
+    console.log('>>> charINFO', charInfo)
+    if (charInfo && charInfo[2]) node.dataset.ipa = charInfo[2]
+    
+	node.onclick = function(){ showNameDetails(node.alt, getLanguage(node), base, target, document.getElementById('panel'), "", getTransliteration(node), node.dataset.ipa ) }
+    
+    // function showNameDetails (chars, clang, base, target, panel, list, translit, ipa) {
+
+    
+	//node.onclick = function(){ showNameDetails(node.alt, node.lang, base, target, document.getElementById('panel') ) }
+//	node.onclick = function(){ showNameDetails(node.alt, getLanguage(node), base, target, document.getElementById('panel'), "", getTransliteration(node) ) }
 	}
 
 function shownames_setOnclick ( node, base, target ) {
-
     if (trace) console.log('shownames_setOnclick(', node.textContent, base, target,')')
     // called from initialiseShowNames
     // local list
@@ -233,7 +285,7 @@ console.log('showNameDetails (',chars, clang, base, target, panel, list, transli
 		if (charData[charArray[c]]) {
             blockname = getScriptGroup(dec, false)
             blockfile = getScriptGroup(dec, true)
-            //console.log(dec,blockfile)
+            console.log(dec,blockfile)
             isInBlock = spreadsheetRows[charArray[c]]?spreadsheetRows[charArray[c]][cols['block']]:''
 
 			out += '<div class="panelCharacter">'
@@ -648,6 +700,29 @@ function convertTranscriptionData (node) {
 			for (var i=0;i<cols.othertranscriptions.length;i++) {
 				if (spreadsheetRows[insertTranscriptions[it].textContent] && spreadsheetRows[insertTranscriptions[it].textContent][cols.othertranscriptions[i][0]]) {
 					para += cols.othertranscriptions[i][1]+': <span class="trans">'+spreadsheetRows[insertTranscriptions[it].textContent][cols.othertranscriptions[i][0]]+'</span>'
+					if (i<cols.othertranscriptions.length-1) para += ', &nbsp; '
+					}
+				}
+			insertTranscriptions[it].innerHTML = para
+			}
+		}
+	}
+
+
+function convertTranscriptionData (node) {
+	// other transcriptions
+    // local insertTranscriptions it para i
+    // global spreadsheetRows
+	var insertTranscriptions = document.querySelectorAll('.insertTranscription')
+    console.log('>>>',insertTranscriptions.length)
+
+	// do the inserted transcription locations
+	if (insertTranscriptions.length > 0 && cols.othertranscriptions && cols.othertranscriptions.length > 0) {
+		for (var it=0;it<insertTranscriptions.length;it++) {
+			var para = ''
+			for (var i=0;i<cols.othertranscriptions.length;i++) {
+				if (spreadsheetRows[insertTranscriptions[it].textContent] && spreadsheetRows[insertTranscriptions[it].textContent][cols.othertranscriptions[i][0]]) {
+					para += cols.othertranscriptions[i][1]+': <span class="trans">‹'+spreadsheetRows[insertTranscriptions[it].textContent][cols.othertranscriptions[i][0]]+'›</span>'
 					if (i<cols.othertranscriptions.length-1) para += ', &nbsp; '
 					}
 				}
