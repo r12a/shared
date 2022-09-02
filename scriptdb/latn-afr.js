@@ -188,15 +188,21 @@ U			U	U		uppercase vowel		U+0055: LATIN CAPITAL LETTER U
 ̭			]	̭		diacritic		U+032D: COMBINING CIRCUMFLEX ACCENT BELOW​	
 ̩			]	̩		diacritic		U+0329: COMBINING VERTICAL LINE BELOW	
 ̰			]	̰		diacritic		U+0330: COMBINING TILDE BELOW	
+̯			]	̰		diacritic		U+032F: COMBINING INVERTED BREVE BELOW	
+̲			]	̰		diacritic		U+0332: COMBINING LOW LINE	
 ̊			[	̊		diacritic		U+030A: COMBINING RING ABOVE	
 ̀			[	̀		diacritic		U+0300: COMBINING GRAVE ACCENT​	
 ́			[	́		diacritic		U+0301: COMBINING ACUTE ACCENT​	
+̏			[	́		diacritic		U+030F: COMBINING DOUBLE GRAVE ACCENT	
+̋			[	́		diacritic		U+030B: COMBINING DOUBLE ACUTE ACCENT	
 ̂			[	̂		diacritic		U+0302: COMBINING CIRCUMFLEX ACCENT​	
+̍			[	̂		diacritic		U+030D: COMBINING VERTICAL LINE ABOVE	
 ̌			[	̌		diacritic		U+030C: COMBINING CARON​	
 ̃			[	̃		diacritic		U+0303: COMBINING TILDE​	
 ̄			[	̄		diacritic		U+0304: COMBINING MACRON​	
 ̇			[	̇		diacritic		U+0307: COMBINING DOT ABOVE​	
 ̈			[	̈		diacritic		U+0308: COMBINING DIAERESIS​	
+̆			[	̈		diacritic		U+0306: COMBINING BREVE	
 									
 									
 									
