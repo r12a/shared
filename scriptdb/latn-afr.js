@@ -15,7 +15,7 @@ g			¶g	g		consonant		U+0067: LATIN SMALL LETTER G
 h			¶h	h		consonant		U+0068: LATIN SMALL LETTER H	
 ɦ			h	ɦ		consonant		U+0266: LATIN SMALL LETTER H WITH HOOK	
 j			¶j	j		consonant		U+006A: LATIN SMALL LETTER J	
-ɟ			j	ɟ		consonant		U+025F: LATIN SMALL LETTER DOTLESS J WITH STROKE	
+ɉ			j	ɉ		consonant		U+0249: LATIN SMALL LETTER J WITH STROKE	
 k			¶k	k		consonant		U+006B: LATIN SMALL LETTER K	
 ƙ			k	ƙ		consonant		U+0199: LATIN SMALL LETTER K WITH HOOK	
 l			¶l	l		consonant		U+006C: LATIN SMALL LETTER L	
@@ -76,7 +76,7 @@ G			¶G	G		uppercase consonant		U+0047: LATIN CAPITAL LETTER G
 H			¶H	H		uppercase consonant		U+0048: LATIN CAPITAL LETTER H	
 Ɦ			H	Ɦ		uppercase consonant		U+A7AA: LATIN CAPITAL LETTER H WITH HOOK	
 J			¶J	J		uppercase consonant		U+004A: LATIN CAPITAL LETTER J	
-ɟ			J	ɟ		uppercase consonant		U+025F: LATIN SMALL LETTER DOTLESS J WITH STROKE	
+Ɉ			J	Ɉ		uppercase consonant		U+0248: LATIN SMALL LETTER J WITH STROKE	
 K			¶K	K		uppercase consonant		U+004B: LATIN CAPITAL LETTER K	
 Ƙ			K	Ƙ		uppercase consonant		U+0198: LATIN CAPITAL LETTER K WITH HOOK	
 L			¶L	L		uppercase consonant		U+004C: LATIN CAPITAL LETTER L	
