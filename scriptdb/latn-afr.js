@@ -39,7 +39,6 @@ t			¶t	t		consonant		U+0074: LATIN SMALL LETTER T
 v			¶v	v		consonant		U+0076: LATIN SMALL LETTER V	
 ʋ			v	ʋ		consonant		U+028B: LATIN SMALL LETTER V WITH HOOK	
 w			¶w	w		consonant		U+0077: LATIN SMALL LETTER W	
-ꞷ			w	ꞷ		consonant		U+A7B7 LATIN SMALL LETTER OMEGA	
 ⱳ			w	ⱳ		consonant		U+2C73: LATIN SMALL LETTER W WITH HOOK	
 ʷ			w	ʷ		consonant		U+02B7: MODIFIER LETTER SMALL W	
 x			x	x		consonant		U+0078: LATIN SMALL LETTER X	
@@ -48,7 +47,6 @@ y			¶y	y		consonant		U+0079: LATIN SMALL LETTER Y
 z			¶z	z		consonant		U+007A: LATIN SMALL LETTER Z	
 ʒ			z	ʒ		consonant		U+0292: LATIN SMALL LETTER EZH	
 ƹ			z	ƹ		consonant		U+01B9: LATIN SMALL LETTER EZH REVERSED	
-ɤ			y	ɤ		consonant		U+0264: LATIN SMALL LETTER RAMS HORN	
 ɣ			y	ɣ		consonant		U+0263: LATIN SMALL LETTER GAMMA	
 θ			q	θ		consonant		U+03B8: GREEK SMALL LETTER THETA	
 ʔ			}	ʔ		consonant		U+0294: LATIN LETTER GLOTTAL STOP	
@@ -101,7 +99,6 @@ V			¶V	V		uppercase consonant		U+0056: LATIN CAPITAL LETTER V
 Ʋ			V	Ʋ		uppercase consonant		U+01B2: LATIN CAPITAL LETTER V WITH HOOK	
 W			¶W	W		uppercase consonant		U+0057: LATIN CAPITAL LETTER W	
 Ⱳ			w	Ⱳ		uppercase consonant		U+2C72: LATIN CAPITAL LETTER W WITH HOOK	
-Ꞷ			W	Ꞷ		uppercase consonant		U+A7B7 LATIN CAPITAL LETTER OMEGA	
 X			W	X		uppercase consonant		U+0058: LATIN CAPITAL LETTER X	
 Y			X	Y		uppercase consonant		U+0059: LATIN CAPITAL LETTER Y	
 Ƴ			¶Y	Ƴ		uppercase consonant		U+01B3: LATIN CAPITAL LETTER Y WITH HOOK	
@@ -122,6 +119,7 @@ e			e	e		vowel		U+0065: LATIN SMALL LETTER E
 ə			e	ə		vowel		U+0259: LATIN SMALL LETTER SCHWA	
 ǝ			e	ǝ		vowel		U+01DD: LATIN SMALL LETTER TURNED E	
 ɛ			e	ɛ		vowel		U+025B: LATIN SMALL LETTER OPEN E	
+ɤ			e	ɤ		vowel		U+0264: LATIN SMALL LETTER RAMS HORN	
 i			i	i		vowel		U+0069: LATIN SMALL LETTER I	
 ɨ			i	ɨ		vowel		U+0268: LATIN SMALL LETTER I WITH STROKE	
 ɩ			i	ɩ		vowel		U+0269: LATIN SMALL LETTER IOTA	
@@ -133,6 +131,7 @@ o			o	o		vowel		U+006F: LATIN SMALL LETTER O
 u			u	u		vowel		U+0075: LATIN SMALL LETTER U	
 ʉ			u	ʉ		vowel		U+0289: LATIN SMALL LETTER U BAR	
 ʊ			u	ʊ		vowel		U+028A: LATIN SMALL LETTER UPSILON	
+ꞷ			w	ꞷ		vowel		U+A7B7 LATIN SMALL LETTER OMEGA	
 									
 A			A	A		uppercase vowel		U+0041: LATIN CAPITAL LETTER A	
 Ɑ			A	Ɑ		uppercase vowel		U+2C6D: LATIN CAPITAL LETTER ALPHA	
@@ -141,6 +140,7 @@ E			E	E		uppercase vowel		U+0045: LATIN CAPITAL LETTER E
 Ə			E	Ə		uppercase vowel		U+018F: LATIN CAPITAL LETTER SCHWA	
 Ǝ			E	Ǝ		uppercase vowel		U+018E: LATIN CAPITAL LETTER REVERSED E	
 Ɛ			E	Ɛ		uppercase vowel		U+0190: LATIN CAPITAL LETTER OPEN E	
+ɤ			E	ɤ		uppercase vowel		U+0264: LATIN SMALL LETTER RAMS HORN	
 I			I	I		uppercase vowel		U+0049: LATIN CAPITAL LETTER I	
 Ɨ			I	Ɨ		uppercase vowel		U+0197: LATIN CAPITAL LETTER I WITH STROKE	
 Ɩ			I	Ɩ		uppercase vowel		U+0196: LATIN CAPITAL LETTER IOTA	
@@ -152,6 +152,7 @@ O			O	O		uppercase vowel		U+004F: LATIN CAPITAL LETTER O
 U			U	U		uppercase vowel		U+0055: LATIN CAPITAL LETTER U	
 Ʉ			U	Ʉ		uppercase vowel		U+0244: LATIN CAPITAL LETTER U BAR	
 Ʊ			U	Ʊ		uppercase vowel		U+01B1: LATIN CAPITAL LETTER UPSILON	
+Ꞷ			W	Ꞷ		uppercase vowel		U+A7B7 LATIN CAPITAL LETTER OMEGA	
 									
 									
 									
