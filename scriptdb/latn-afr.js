@@ -25,11 +25,9 @@ n			¶n	n		consonant		U+006E: LATIN SMALL LETTER N
 ɴ			n	ɴ		consonant		U+0274: LATIN LETTER SMALL CAPITAL N	
 ŋ			n	ŋ		consonant		U+014B: LATIN SMALL LETTER ENG	
 ɲ			n	ɲ		consonant		U+0272: LATIN SMALL LETTER N WITH LEFT HOOK	
-ǌ			n	ǌ		consonant		U+01CC: LATIN SMALL LETTER NJ	
 p			¶p	p		consonant		U+0070: LATIN SMALL LETTER P	
 ƥ			p	ƥ		consonant		U+01A5: LATIN SMALL LETTER P WITH HOOK	
 q			¶q	q		consonant		U+0071: LATIN SMALL LETTER Q	
-ꝗ			q	ꝗ		consonant		U+A757: LATIN SMALL LETTER Q WITH STROKE THROUGH DESCENDER	
 r			¶r	r		consonant		U+0072: LATIN SMALL LETTER R	
 ɍ			r	ɍ		consonant		U+024D: LATIN SMALL LETTER R WITH STROKE	
 ɽ			r	ɽ		consonant		U+027D: LATIN SMALL LETTER R WITH TAIL	
@@ -40,8 +38,6 @@ t			¶t	t		consonant		U+0074: LATIN SMALL LETTER T
 ʈ			t	ʈ		consonant		U+0288: LATIN SMALL LETTER T WITH RETROFLEX HOOK	
 v			¶v	v		consonant		U+0076: LATIN SMALL LETTER V	
 ʋ			v	ʋ		consonant		U+028B: LATIN SMALL LETTER V WITH HOOK	
-ⱱ			v	ⱱ		consonant		U+2C71: LATIN SMALL LETTER V WITH RIGHT HOOK	
-ⱴ			v	ⱴ		consonant		U+2C74: LATIN SMALL LETTER V WITH CURL	
 w			¶w	w		consonant		U+0077: LATIN SMALL LETTER W	
 ꞷ			w	ꞷ		consonant		U+A7B7 LATIN SMALL LETTER OMEGA	
 ⱳ			w	ⱳ		consonant		U+2C73: LATIN SMALL LETTER W WITH HOOK	
@@ -90,11 +86,9 @@ N			¶N	N		uppercase consonant		U+004E: LATIN CAPITAL LETTER N
 ɴ			N	ɴ		uppercase consonant		U+0274: LATIN LETTER SMALL CAPITAL N	
 Ŋ			N	Ŋ		uppercase consonant		U+014A: LATIN CAPITAL LETTER ENG	
 Ɲ			N	Ɲ		uppercase consonant		U+019D: LATIN CAPITAL LETTER N WITH LEFT HOOK	
-Ǌ			N	Ǌ		uppercase consonant		U+01CA: LATIN CAPITAL LETTER NJ	
 P			¶P	P		uppercase consonant		U+0050: LATIN CAPITAL LETTER P	
 Ƥ			P	Ƥ		uppercase consonant		U+01A4: LATIN CAPITAL LETTER P WITH HOOK	
 Q			¶Q	Q		uppercase consonant		U+0051: LATIN CAPITAL LETTER Q	
-Ꝗ			Q	Ꝗ		uppercase consonant		U+A756: LATIN CAPITAL LETTER Q WITH STROKE THROUGH DESCENDER	
 R			¶R	R		uppercase consonant		U+0052: LATIN CAPITAL LETTER R	
 Ɍ			R	Ɍ		uppercase consonant		U+024C: LATIN CAPITAL LETTER R WITH STROKE	
 Ɽ			R	Ɽ		uppercase consonant		U+2C64: LATIN CAPITAL LETTER R WITH TAIL	
