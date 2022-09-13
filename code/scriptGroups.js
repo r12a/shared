@@ -314,7 +314,7 @@ var scriptGroups = [
 [127744,128511,"Miscellaneous Symbols and Pictographs","",""],
 [128512,128591,"Emoticons","",""],
 [128592,128639,"Ornamental Dingbats","",""],
-[128640,128767,"Transport and Map Symbols","",""],
+[128640,128767,"Transport And Map Symbols","",""],
 [128768,128895,"Alchemical Symbols","",""],
 [128896,129023,"Geometric Shapes Extended","",""],
 [129024,129279,"Supplemental Arrows-C","",""],
