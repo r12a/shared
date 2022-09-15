@@ -3,7 +3,7 @@ langTag='ur'
 scriptTag='arab'
 notesLangtag='ur'
 
-explainerDir='arabic/urdu'
+explainerDir='arabic/ur'
 blockDir='arabic/'
 pickerDir='arab-ur/'
 scriptSummaryTableName='ur'

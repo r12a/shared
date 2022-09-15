@@ -3,7 +3,7 @@ langTag='ks'
 scriptTag='arab'
 notesLangtag='ks'
 
-explainerDir='arabic/kashmiri'
+explainerDir='arabic/ks'
 blockDir='arabic/'
 pickerDir='arab-ks/'
 scriptSummaryTableName='ks'

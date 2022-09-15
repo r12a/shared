@@ -3,7 +3,7 @@ langTag='ha'
 scriptTag='arab'
 notesLangtag='ha'
 
-explainerDir='arabic/hausa'
+explainerDir='arabic/ha'
 blockDir='arabic/'
 pickerDir='arab-ha/'
 scriptSummaryTableName='ha-arab'

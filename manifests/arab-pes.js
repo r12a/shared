@@ -3,7 +3,7 @@ langTag='pes'
 scriptTag='arab'
 notesLangtag='pes'
 
-explainerDir='arabic/arab-fa'
+explainerDir='arabic/pes'
 blockDir='arabic/'
 pickerDir='arab-fa/'
 scriptSummaryTableName='pes'
