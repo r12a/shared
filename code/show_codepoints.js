@@ -62,7 +62,9 @@ trace = true
 //	node.onclick = function(){ showNameDetails(node.alt, getLanguage(node), base, target, document.getElementById('panel'), "", getTransliteration(node) ) }
 	}
 
-function shownames_setImgOnclick ( node, base, target ) {
+
+
+function shownames_setImgOnclickPrev ( node, base, target ) {
 trace = true
     if (trace) console.log('shownames_setImgOnclick(', node, base, target,')')
     // called from initialiseShowNames
@@ -89,6 +91,27 @@ trace = true
 	//node.onclick = function(){ showNameDetails(node.alt, node.lang, base, target, document.getElementById('panel') ) }
 //	node.onclick = function(){ showNameDetails(node.alt, getLanguage(node), base, target, document.getElementById('panel'), "", getTransliteration(node) ) }
 	}
+
+
+function shownames_setImgOnclick ( node, base, target ) {
+trace = true
+    if (trace) console.log('shownames_setImgOnclick(', node, base, target,')')
+    // called from initialiseShowNames
+    
+    var alt=''
+    var charInfo=''
+    var ipa=''
+    
+    alt = node.alt
+    if (alt == '') return
+    console.log('>>> ALT', alt)
+    console.log('>>> charINFO', charInfo)
+    if (charInfo && charInfo[2]) node.dataset.ipa = charInfo[2]
+    
+	node.onclick = function(){ showNameDetails(node.alt, getLanguage(node), base, target, document.getElementById('panel'), "", getTransliteration(node), node.dataset.ipa ) }
+	}
+
+
 
 function shownames_setOnclick ( node, base, target ) {
     if (trace) console.log('shownames_setOnclick(', node.textContent, base, target,')')
@@ -143,6 +166,10 @@ function getTransliteration (node) {
 
 function transliteratePanel (str, lang) {
 // transliterate the rb tags in the panel
+
+
+// exit if this isn't a full orthography page
+if (typeof autoTranslitArray === 'undefined') return
 
 var strArray = [...str]
 str = ''
@@ -209,7 +236,7 @@ console.log('showNameDetails (',chars, clang, base, target, panel, list, transli
 	panel.style.display = 'block'
     var dir = ''
     if (typeof window.direction === 'string') dir = window.direction
-    else if (template && typeof template.direction === 'string') dir = template.direction
+    else if (typeof template !== 'undefined' && typeof template.direction === 'string') dir = template.direction
     
     
 	var out = '<div id="ruby">'
@@ -227,7 +254,7 @@ console.log('showNameDetails (',chars, clang, base, target, panel, list, transli
     var graphemes = []
     var ptr = -1
     for (var c=0;c<characterList.length;c++) {
-        if (window.marks.has(characterList[c]) && c !== 0) graphemes[ptr] += characterList[c]
+        if (window.marks && window.marks.has(characterList[c]) && c !== 0) graphemes[ptr] += characterList[c]
         else {
             ptr++
             graphemes[ptr] = characterList[c]
@@ -367,7 +394,7 @@ console.log('showNameDetails (',chars, clang, base, target, panel, list, transli
     else fragid = '#'+window.languageName
 
     // figure out where to find the url for the _vocab page
-    if (typeof template !== 'undefined' && typeof template.vocablocation === 'string') var url = template.vocablocation
+    if (typeof template !== 'undefined' && typeof template.vocablocation === 'string') var url = `../../scripts/{$ template.vocablocation }.html`
     else url = `${ window.lang }_vocab`
     
     if (typeof window.removeVowels === 'function') chars = removeVowels(chars)
