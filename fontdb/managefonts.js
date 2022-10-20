@@ -8,6 +8,8 @@ function makeFontChanger (lang, fontlocale, webFonts, size) {
     // makeFontChanger(window.languageList.join(','), window.scriptISO, window.webfonts, window.defaultSize)
     // locals: out, temp, i
     // calls: makeFontList
+    
+    if (document.getElementById('fontsetting') === null) return
 
 	var out = '<h2 class="notoc"><a id="fonts">Fonts</a></h2>'
 	out += '<div id="fontsettingswitch" title="Click to show/hide the panel."  onclick="if (this.parentNode.className == \'open\'){this.parentNode.className=\'closed\'; this.textContent=\'◀\';} else {this.parentNode.className=\'open\';this.textContent=\'▶\';}">◀</div>'
