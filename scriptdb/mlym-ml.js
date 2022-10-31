@@ -29,7 +29,7 @@ var spreadsheet = `
 ര	r	r̪	a	r	r		Lo		consonant						U+0D30: MALAYALAM LETTER RA	✓
 റ	r	r t	a	ṙ	ṟ		Lo		consonant						U+0D31: MALAYALAM LETTER RRA	✓
 ല	l	l	a	l	l		Lo		consonant						U+0D32: MALAYALAM LETTER LA	✓
-ള	l	ɭ,	a	ɭ	ḷ		Lo		consonant						U+0D33: MALAYALAM LETTER LLA	✓
+ള	l	ɭ	a	ɭ	ḷ		Lo		consonant						U+0D33: MALAYALAM LETTER LLA	✓
 ഴ	l	ɻ	a	ɻ	ḻ		Lo		consonant						U+0D34: MALAYALAM LETTER LLLA	✓
 വ	v	ʋ	a	ʋ	v		Lo		consonant						U+0D35: MALAYALAM LETTER VA	✓
 ശ	s	ɕ ʃ	a	ʃ	ś		Lo		consonant						U+0D36: MALAYALAM LETTER SHA	✓
@@ -39,7 +39,7 @@ var spreadsheet = `
 ഺ	t	t	a	ṫ	 ṯ		Lo	a	consonant	archaic					U+0D3A: MALAYALAM LETTER TTTA	✓
 																
 																
-ൺ	N	n	a	ɳ̽	ṇ^		Lo		chillu consonant						U+0D7A: MALAYALAM LETTER CHILLU NN	✓
+ൺ	N	ɳ	a	ɳ̽	ṇ^		Lo		chillu consonant						U+0D7A: MALAYALAM LETTER CHILLU NN	✓
 ൻ	N	n	a	n̽	n^		Lo		chillu consonant						U+0D7B: MALAYALAM LETTER CHILLU N	✓
 ർ	R	r	a	r̽	r^		Lo		chillu consonant						U+0D7C: MALAYALAM LETTER CHILLU RR	✓
 ൽ	L	l	a	l̽	l^		Lo		chillu consonant						U+0D7D: MALAYALAM LETTER CHILLU L	✓
