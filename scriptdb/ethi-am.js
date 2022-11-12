@@ -1,5 +1,5 @@
 var spreadsheet = `
-፠	|				¶		Po		section mark				U+1360: ETHIOPIC SECTION MARK	✓
+፠	|				¶		Po	i	section mark				U+1360: ETHIOPIC SECTION MARK	✓
 ፡	]				-		Po		wordspace		hulätə näṭəbə	ሁለት ነጥብ	U+1361: ETHIOPIC WORDSPACE	✓
 ።	.			.	.		Po		full stop		ʾäratə näṭəbə	አራት ነጥብ	U+1362: ETHIOPIC FULL STOP	✓
 ፣	,			,	,		Po		comma		näṭäla säräzə	ነጠላ ሰረዝ	U+1363: ETHIOPIC COMMA	✓
@@ -7,8 +7,8 @@ var spreadsheet = `
 ፤	;			;	;		Po		semicolon		dərəbə säräzə	ድርብ ሰረዝ	U+1364: ETHIOPIC SEMICOLON	✓
 ፥	:			:	:		Po		colon		näṭäla säräzə	ነጠላ ሰረዝ	U+1365: ETHIOPIC COLON	✓
 ፦	:			ˉ	ˉ		Po		preface colon		ʾäsəräǧi säräzə	አስረጂ ሰረዝ	U+1366: ETHIOPIC PREFACE COLON	✓
-፧	?			?	?		Po		question mark		śosətə näṭəbə	ሦስት ነጥብ	U+1367: ETHIOPIC QUESTION MARK	✓
-፨	|				|		Po		paragraph separator				U+1368: ETHIOPIC PARAGRAPH SEPARATOR	✓
+፧	?			?	?		Po	i	question mark		śosətə näṭəbə	ሦስት ነጥብ	U+1367: ETHIOPIC QUESTION MARK	✓
+፨	|				|		Po	i	paragraph separator				U+1368: ETHIOPIC PARAGRAPH SEPARATOR	✓
 !	!			!	!		Po		exclamation mark				U+0021: EXCLAMATION MARK	
 ¡	!			¡	¡				exclamation mark					
 														
@@ -53,9 +53,9 @@ var spreadsheet = `
 ፼	$				{10000}		No		digit				U+137C: ETHIOPIC NUMBER TEN THOUSAND	✓
 														
 														
-፞	:						Mn​		vowel length mark				U+135E: ETHIOPIC COMBINING VOWEL LENGTH MARK​	✓
-፟	&						Mn​		gemination mark				U+135F: ETHIOPIC COMBINING GEMINATION MARK​	✓
-፝	&						Mn​		gemination + vowel length mark				U+135D: ETHIOPIC COMBINING GEMINATION AND VOWEL LENGTH MARK​	✓
+፞	:						Mn​	i	vowel length mark				U+135E: ETHIOPIC COMBINING VOWEL LENGTH MARK​	✓
+፟	&						Mn​	i	gemination mark				U+135F: ETHIOPIC COMBINING GEMINATION MARK​	✓
+፝	&						Mn​	i	gemination + vowel length mark				U+135D: ETHIOPIC COMBINING GEMINATION AND VOWEL LENGTH MARK​	✓
 														
 														
 ᎐	^						So		tonal mark				U+1390: ETHIOPIC TONAL MARK YIZET	
