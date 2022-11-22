@@ -7,8 +7,8 @@ var spreadsheet = `
 থ	T	Tʰ	ɔ o	TH	tʰ	L	Lo		consonant						thɔ	U+09A5: BENGALI LETTER THA	TH	✓
 দ	d¶	d	ɔ o	d	d	o	Lo		consonant						dɔ	U+09A6: BENGALI LETTER DA	d	✓
 ধ	D	Dʰ	ɔ o	DH	dʰ	O	Lo		consonant						dhɔ	U+09A7: BENGALI LETTER DHA	DH	✓
-ট	t	ʈ	ɔ o	ṭ	ʈ	'	Lo		consonant						ʈɔ	U+099F: BENGALI LETTER TTA	ʈ	✓
-ঠ	T	Ʈʰ	ɔ o	ṬH	ʈʰ	"	Lo		consonant						ʈhɔ	U+09A0: BENGALI LETTER TTHA	ƮH	✓
+ট	t	ʈ	ɔ o	ṭ	ʈ	\'	Lo		consonant						ʈɔ	U+099F: BENGALI LETTER TTA	ʈ	✓
+ঠ	T	Ʈʰ	ɔ o	ṬH	ʈʰ	\"	Lo		consonant						ʈhɔ	U+09A0: BENGALI LETTER TTHA	ƮH	✓
 ড	d	ɖ	ɔ o	ḍ	ɖ	[	Lo		consonant						ɖɔ	U+09A1: BENGALI LETTER DDA	ɖ	✓
 ঢ	D	Ɖʰ	ɔ o	ḌH	ɖʰ	{	Lo		consonant						ɖhɔ	U+09A2: BENGALI LETTER DDHA	ƉH	✓
 ক	k	k	ɔ o	k	k	k	Lo		consonant						kɔ	U+0995: BENGALI LETTER KA	k	✓
@@ -19,8 +19,8 @@ var spreadsheet = `
 চ	c	t͡ʃ	ɔ o	c	c	;	Lo		consonant						cɔ	U+099A: BENGALI LETTER CA	c	✓
 ছ	C	T͡ʃʰ	ɔ o	CH	cʰ	:	Lo		consonant						chɔ	U+099B: BENGALI LETTER CHA	C	✓
 জ	d	d͡ʒ z	ɔ o	j	ʤ	p	Lo		consonant					বর্গীয় জ	bôr͟gīyô jɔ	U+099C: BENGALI LETTER JA	j	✓
-য	y	ʤ- -æ	ɔ o	y	ʲ	/	Lo		consonant					অন্তঃস্থ য	ɔntɔɦstʰo y̌ɔ	U+09AF: BENGALI LETTER YA	y y̌ yæ	✓
 ঝ	D	D͡ʒʰ	ɔ o	JH	ʤʰ	P	Lo		consonant						jhɔ	U+099D: BENGALI LETTER JHA	JH	✓
+য	y	d͡ʒ- -æ	ɔ o	y	ʥ	/	Lo		consonant/consonant lengthener					অন্তঃস্থ য	ɔntɔɦstʰo y̌ɔ	U+09AF: BENGALI LETTER YA	y y̌ yæ	✓
 																		
 স	s¶	ʃ s	ɔ o	s	ʃ̈	m	Lo		consonant					দন্ত্য স	dɔntyô sɔ	U+09B8: BENGALI LETTER SA	s	✓
 শ	s	ʃ s	ɔ o	ś	ʃ	M	Lo		consonant					তালব্য শ	tɑlobbo ʃɔ	U+09B6: BENGALI LETTER SHA	ʃ	✓
@@ -33,9 +33,9 @@ var spreadsheet = `
 ঞ	n	n	ɔ o	ñ	ñ	}	Lo		consonant						niyô/iyô	U+099E: BENGALI LETTER NYA	ñ	✓
 ণ	n	n	ɔ o	ṇ	n̈	C	Lo		consonant					মূর্ধন্য ণ	mūrdhônyô ɳɔ	U+09A3: BENGALI LETTER NNA	ɳ	✓
 																		
-ৱ	v	w β	ɔ o	v	v		Lo		assamese consonant						wɔβo	U+09F1: BENGALI LETTER RA WITH LOWER DIAGONAL		✓
+ৱ	v	w β	ɔ o	v	v		Lo	u	consonant	assamese					wɔβo	U+09F1: BENGALI LETTER RA WITH LOWER DIAGONAL		✓
 র	r	r ɾ	ɔ o	r	r	j	Lo		consonant						rɔ	U+09B0: BENGALI LETTER RA	r	✓
-ৰ	r	ɹ	ɔ o	r	ɹ		Lo		assamese consonant						rɔ	U+09F0: BENGALI LETTER RA WITH MIDDLE DIAGONAL		✓
+ৰ	r	ɹ	ɔ o	r	ɹ		Lo	u	consonant	assamese					rɔ	U+09F0: BENGALI LETTER RA WITH MIDDLE DIAGONAL		✓
 ল	l	l	ɔ o	l	l	n	Lo		consonant						lɔ	U+09B2: BENGALI LETTER LA	l	✓
 																		
 																		
@@ -45,21 +45,21 @@ var spreadsheet = `
 																		
 																		
 ৎ	t	-t		ṯ	t̽		Lo		consonant					খণ্ড ত্‌	khɔɳɖȏ tɔ	U+09CE: BENGALI LETTER KHANDA TA	ṯ	✓
-ঁ	m	~		ṃ	m̽	X	Mn​		vowel nasalisation marker					চন্দ্রবিন্দু	t͡ʃɔndrobindu	U+0981: BENGALI SIGN CANDRABINDU​		✓
-ং	N	-ŋ		ṁ	ŋ̽	x	Mc​		final nasal					অনুস্বার/অনুস্বর	ɔnuʃbɑr/ɔnuʃbor	U+0982: BENGALI SIGN ANUSVARA​	ɱ	✓
-ঃ	h	-ɦ		ḥ	h̽	-	Mc​		final consonant/consonant lengthener					বিসর্গ	biʃɔrɡo	U+0983: BENGALI SIGN VISARGA​	ḥ	✓
+ঁ	m	̃		ṃ	˜	X	Mn		vowel nasalisation marker					চন্দ্রবিন্দু	t͡ʃɔndrobindu	U+0981: BENGALI SIGN CANDRABINDU		✓
+ং	N	-ŋ		ṁ	ŋ̽	x	Mc		final nasal					অনুস্বার/অনুস্বর	ɔnuʃbɑr/ɔnuʃbor	U+0982: BENGALI SIGN ANUSVARA	ɱ	✓
+ঃ	h	-ɦ		ḥ	h̽	-	Mc		final consonant/consonant lengthener					বিসর্গ	biʃɔrɡo	U+0983: BENGALI SIGN VISARGA	ḥ	✓
 																		
 																		
-ি	i	i e		i	i	f	Mc​		vowel sign			ই			hrɔsvô i	U+09BF: BENGALI VOWEL SIGN I​	i	✓
-ী	i	i		ī	ī	r	Mc​		vowel sign			ঈ			dīrghô ī	U+09C0: BENGALI VOWEL SIGN II​	ī	✓
-ু	u	u		u	u	g	Mn​		vowel sign			উ			hrɔsvô u	U+09C1: BENGALI VOWEL SIGN U​	u	✓
-ূ	u	u		ū	ū	t	Mn​		vowel sign			ঊ			dīrghô ū	U+09C2: BENGALI VOWEL SIGN UU​	ū	✓
-ে	e	e æ		e	e	s	Mc​		vowel sign			এ			e-kar	U+09C7: BENGALI VOWEL SIGN E​	e æ	✓
-ো	o	o ʊ ɔ		o	o	a	Mc​		vowel sign			ও			o-kar	U+09CB: BENGALI VOWEL SIGN O​	o ô	✓
-া	a	a æ		ā	ɑ	e	Mc​		vowel sign			আ			a-kar	U+09BE: BENGALI VOWEL SIGN AA​	a	✓
+ি	i	i e		i	i	f	Mc		vowel sign			ই			hrɔsvô i	U+09BF: BENGALI VOWEL SIGN I	i	✓
+ী	i	i		ī	ī	r	Mc		vowel sign			ঈ			dīrghô ī	U+09C0: BENGALI VOWEL SIGN II	ī	✓
+ু	u	u		u	u	g	Mn		vowel sign			উ			hrɔsvô u	U+09C1: BENGALI VOWEL SIGN U	u	✓
+ূ	u	u		ū	ū	t	Mn		vowel sign			ঊ			dīrghô ū	U+09C2: BENGALI VOWEL SIGN UU	ū	✓
+ে	e	e æ		e	e	s	Mc		vowel sign			এ			e-kar	U+09C7: BENGALI VOWEL SIGN E	e æ	✓
+ো	o	o ʊ ɔ		o	o	a	Mc		vowel sign			ও			o-kar	U+09CB: BENGALI VOWEL SIGN O	o ô	✓
+া	a	a æ		ā	ɑ	e	Mc		vowel sign			আ			a-kar	U+09BE: BENGALI VOWEL SIGN AA	a	✓
 																		
-ৈ	o	oi̯		ai	oʲ	w	Mc​		vowel sign			ঐ			oǐ-kar	U+09C8: BENGALI VOWEL SIGN AI​	oĭ	✓
-ৌ	o	ou̯		au	oʷ	q	Mc​		vowel sign			ঔ			oǔ-kar	U+09CC: BENGALI VOWEL SIGN AU​	oŭ	✓
+ৈ	o	oi̯		ai	oʲ	w	Mc		vowel sign			ঐ			oǐ-kar	U+09C8: BENGALI VOWEL SIGN AI	oĭ	✓
+ৌ	o	ou̯		au	oʷ	q	Mc		vowel sign			ঔ			oǔ-kar	U+09CC: BENGALI VOWEL SIGN AU	oŭ	✓
 																		
 																		
 ই	I	I I̯		I	ị	F	Lo		independent vowel		ি			হ্রস্ব ই	hrɔʃʃo i	U+0987: BENGALI LETTER I	I	✓
@@ -75,12 +75,12 @@ var spreadsheet = `
 ঔ	O	OU̯		AU	ọʷ	Q	Lo		independent vowel		ৌ				oǔ-kar	U+0994: BENGALI LETTER AU	OŬ	✓
 																		
 																		
-ৃ	R	RI		R̥	r̥	=	Mn​		vocalic vowel sign			ঋ				U+09C3: BENGALI VOWEL SIGN VOCALIC R​	ṛ	✓
-ৄ	R			R̥̄	r̥̄		Mn​	a	vocalic vowel sign	archaic		ৠ				U+09C4: BENGALI VOWEL SIGN VOCALIC RR​		✓
+ৃ	R	RI		R̥	r̥	=	Mn		vocalic vowel sign			ঋ				U+09C3: BENGALI VOWEL SIGN VOCALIC R	ṛ	✓
+ৄ	R			R̥̄	r̥̄		Mn	a	vocalic vowel sign	archaic		ৠ				U+09C4: BENGALI VOWEL SIGN VOCALIC RR		✓
 ঋ	R	RI		R̥	r̥̣	+	Lo		independent vocalic		ৃ					U+098B: BENGALI LETTER VOCALIC R	Ṛ	✓
 ৠ	R				r̥̣̄		Lo	a	independent vocalic	archaic	ৄ					U+09E0: BENGALI LETTER VOCALIC RR		✓
-ৢ	L	LI		L̥	l̥		Mn​	a	vocalic vowel sign	archaic		ঌ				U+09E2: BENGALI VOWEL SIGN VOCALIC L​		✓
-ৣ	L			L̥̄	l̥̄		Mn​	a	vocalic vowel sign	archaic		ৡ				U+09E3: BENGALI VOWEL SIGN VOCALIC LL​		✓
+ৢ	L	LI		L̥	l̥		Mn	a	vocalic vowel sign	archaic		ঌ				U+09E2: BENGALI VOWEL SIGN VOCALIC L		✓
+ৣ	L			L̥̄	l̥̄		Mn	a	vocalic vowel sign	archaic		ৡ				U+09E3: BENGALI VOWEL SIGN VOCALIC LL		✓
 ঌ	L	LI		L̥	l̥̣		Lo	a	independent vocalic	archaic	ৢ					U+098C: BENGALI LETTER VOCALIC L		✓
 ৡ	L				l̥̣̄		Lo	a	independent vocalic	archaic	ৣ					U+09E1: BENGALI LETTER VOCALIC LL		✓
 																		
@@ -102,22 +102,22 @@ var spreadsheet = `
 																		
 																		
 ৺							So		death symbol							U+09FA: BENGALI ISSHAR		✓
-৳							Sc								৲	U+09F3: BENGALI RUPEE SIGN		✓
-৲							Sc								৳	U+09F2: BENGALI RUPEE MARK		✓
-ঽ				'			Lo									U+09BD: BENGALI SIGN AVAGRAHA		✓
-ৗ	:				ː	:	Mc​	d	length mark	deprecated						U+09D7: BENGALI AU LENGTH MARK​		✓
+৳							Sc		rupee sign	 					৲	U+09F3: BENGALI RUPEE SIGN		✓
+৲							Sc		rupee mark						৳	U+09F2: BENGALI RUPEE MARK		✓
+ঽ	:				ː		Lo		vowel lengthener							U+09BD: BENGALI SIGN AVAGRAHA		✓
+ৗ	:				ː	:	Mc	d	length mark	deprecated						U+09D7: BENGALI AU LENGTH MARK		✓
 																		
-৴							No									U+09F4: BENGALI CURRENCY NUMERATOR ONE		✓
-৵							No									U+09F5: BENGALI CURRENCY NUMERATOR TWO		✓
-৶							No									U+09F6: BENGALI CURRENCY NUMERATOR THREE		✓
-৷							No									U+09F7: BENGALI CURRENCY NUMERATOR FOUR		✓
-৸							No									U+09F8: BENGALI CURRENCY NUMERATOR ONE LESS THAN THE DENOMINATOR		✓
-৹							No									U+09F9: BENGALI CURRENCY DENOMINATOR SIXTEEN		✓
+৴							No		currency numerator							U+09F4: BENGALI CURRENCY NUMERATOR ONE		✓
+৵							No		currency numerator							U+09F5: BENGALI CURRENCY NUMERATOR TWO		✓
+৶							No		currency numerator							U+09F6: BENGALI CURRENCY NUMERATOR THREE		✓
+৷							No		currency numerator							U+09F7: BENGALI CURRENCY NUMERATOR FOUR		✓
+৸							No		currency numerator							U+09F8: BENGALI CURRENCY NUMERATOR ONE LESS THAN THE DENOMINATOR		✓
+৹							No		currency numerator							U+09F9: BENGALI CURRENCY DENOMINATOR SIXTEEN		✓
 																		
 																		
 																		
-়	[				ˑ	]	Mn​		consonant extender						nukta	U+09BC: BENGALI SIGN NUKTA​		✓
-্	§				͞	d	Mn​		virama					হসন্ত	hɔʃonto	U+09CD: BENGALI SIGN VIRAMA​		✓
+়	[				ˑ	]	Mn		nukta						nukta	U+09BC: BENGALI SIGN NUKTA		✓
+্	§				͞	d	Mn		virama					হসন্ত	hɔʃonto	U+09CD: BENGALI SIGN VIRAMA		✓
 																		
 																		
 																		
@@ -143,14 +143,14 @@ var spreadsheet = `
 \u202C					ᵖᵈᶠ		Cf		pop direction							U+202C: POP DIRECTIONAL FORMATTING		
 \u200F					ʳˡᵐ		Cf		rtl mark							U+200F: RIGHT-TO-LEFT MARK		
 \u200E					ˡʳᵐ		Cf		ltr mark							U+200E: LEFT-TO-RIGHT MARK		
-\u034F					ᶜᵍʲ		Mn		combining grapheme joiner							U+034F: COMBINING GRAPHEME JOINER​		
+\u034F					ᶜᵍʲ		Mn		combining grapheme joiner							U+034F: COMBINING GRAPHEME JOINER		
 \u061C					ᵃˡᵐ		Cf		arabic letter mark							U+061C: ARABIC LETTER MARK		
 																		
 																		
 “							Pi		quotation mark							U+201C: LEFT DOUBLE QUOTATION MARK		✓
 ”							Pf		quotation mark							U+201D: RIGHT DOUBLE QUOTATION MARK		✓
-‘							Pi		quotation mark							U+2018: LEFT SINGLE QUOTATION MARK		✓
-’							Pf		quotation mark							U+2019: RIGHT SINGLE QUOTATION MARK		✓
+							Pi		quotation mark							U+2018: LEFT SINGLE QUOTATION MARK		✓
+							Pf		quotation mark							U+2019: RIGHT SINGLE QUOTATION MARK		✓
 ʼ							Lm		apostrophe							U+02BC: MODIFIER LETTER APOSTROPHE		✓
 ,							Po		comma							U+002C: COMMA		✓
 ;							Po		semicolon							U+003B: SEMICOLON		✓
@@ -174,13 +174,13 @@ var spreadsheet = `
 ড়	r	ɽ		ɽ	ɖˑ	r	s		consonant+nukta							U+09A1 U+09BC: BENGALI LETTER DDA, SIGN NUKTA	ɽ	
 ঢ়	r	ɽʱ		ɽ	ɖʰˑ	r	s		consonant+nukta							U+09A2 U+09BC: BENGALI LETTER DDHA, SIGN NUKTA	ⱤH	
 য়	y	j e̯		ẏ	ʲˑ	?	s		consonant+nukta							U+09AF U+09BC: BENGALI LETTER YA, SIGN NUKTA	y	
-্য	Y	a			͓ʲ		s		conjunct							U+09CD U+09AF: BENGALI SIGN VIRAMA​, LETTER YA		
+্যা		æ			͓ʥɑ		s		vowel								æ yæ	
+্য	Y	æ			͓ʥ		s		conjunct							U+09CD U+09AF: BENGALI SIGN VIRAMA , LETTER YA		
 																		
-্র					͓r	#	s									U+09CD U+09B0: BENGALI SIGN VIRAMA, LETTER RA​		
+্র					͓r	#	s									U+09CD U+09B0: BENGALI SIGN VIRAMA, LETTER RA		
 র্					r͓	$	s									U+09B0 U+09CD: BENGALI LETTER RA, SIGN VIRAMA		
 ত্র		tr			t͓r	^	s									U+09A4 U+09CD U+09B0: BENGALI LETTER TA, SIGN VIRAMA, LETTER RA		
 																		
-্যা					͓ʲɑ		s										æ yæ	
 																		
 																		
 ত্ব		tt			t͓b		s		conjunct							U+09A4 U+09CD U+09AC: BENGALI LETTER TA, SIGN VIRAMA, LETTER BA		
@@ -191,7 +191,7 @@ var spreadsheet = `
 দ্ব্য		dd			d͓b͓ʲ		s		conjunct							U+09A6 U+09CD U+09AC U+09CD U+09AF: BENGALI LETTER DA, SIGN VIRAMA, LETTER BA, SIGN VIRAMA, LETTER YA		
 দ্ম		dd			d͓m		s		conjunct							U+09A6 U+09CD U+09AE: BENGALI LETTER DA, SIGN VIRAMA, LETTER MA		
 ধ্ব		ddʰ			dʰ͓b		s		conjunct							U+09A7 U+09CD U+09AC: BENGALI LETTER DHA, SIGN VIRAMA, LETTER BA		
-ক্ষ	k	kʰ kːʰ			k͓ʃ̇	&	s		conjunct							U+0995 U+09CD U+09B7: BENGALI LETTER KA, SIGN VIRAMA​,  LETTER SSA		
+ক্ষ	k	kʰ kːʰ			k͓ʃ̇	&	s		conjunct							U+0995 U+09CD U+09B7: BENGALI LETTER KA, SIGN VIRAMA, LETTER SSA		
 ক্ষ্য		kkʰ			k͓ʃ͓̇ʲ		s		conjunct							U+0995 U+09CD U+09B7 U+09CD U+09AF: BENGALI LETTER KA, SIGN VIRAMA, LETTER SSA, SIGN VIRAMA, LETTER YA		
 ক্ষ্ম		kkʰ			k͓ʃ͓̇m		s		conjunct							U+0995 U+09CD U+09B7 U+09CD U+09AE: BENGALI LETTER KA, SIGN VIRAMA, LETTER SSA, SIGN VIRAMA, LETTER MA		
 ক্ষ্ন		kkʰn			k͓ʃ͓̇n		s		conjunct							U+0995 U+09CD U+09B7 U+09CD U+09A8: BENGALI LETTER KA, SIGN VIRAMA, LETTER SSA, SIGN VIRAMA, LETTER NA		
@@ -219,8 +219,6 @@ var spreadsheet = `
 																		
 এ্যা		æ			ẹ͓ʲɑ		s		conjunct							U+098F U+09CD U+09AF U+09BE: BENGALI LETTER E, SIGN VIRAMA, LETTER YA, VOWEL SIGN AA		
 অ্যা		æ			ɔ̣͓ʲɑ		s		conjunct							U+0985 U+09CD U+09AF U+09BE: BENGALI LETTER A, SIGN VIRAMA, LETTER YA, VOWEL SIGN AA		
-
-
 
 `
 
