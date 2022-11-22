@@ -11,7 +11,7 @@ charUsageBCP='bn'
 orthogName = 'Bengali'
 indic = true
 
-pageWebfonts = ["Noto Sans Bengali WF"]
+pageWebfonts = ["Noto Serif Bengali WF", "Noto Sans Bengali WF"]
 defaultSize = '24px'
 
 
