@@ -312,7 +312,7 @@ console.log('showNameDetails (',chars, clang, base, target, panel, list, transli
 		if (charData[charArray[c]]) {
             blockname = getScriptGroup(dec, false)
             blockfile = getScriptGroup(dec, true)
-            console.log(dec,blockfile)
+            //console.log(dec,blockfile)
             isInBlock = spreadsheetRows[charArray[c]]?spreadsheetRows[charArray[c]][cols['block']]:''
 
 			out += '<div class="panelCharacter">'
@@ -379,14 +379,17 @@ console.log('showNameDetails (',chars, clang, base, target, panel, list, transli
     out += '<div id="panelShare" style="display:none;">'
     
 	// add a link to analysestring
-	out += `<div><a href="/app-analysestring/?chars=${ chars }" target="_blank" onclick="document.getElementById('panelShare').style.display='none'">Details</a></div>`
+	out += `<div><a href="../../app-analysestring/index.html?chars=${ chars }" target="_blank" onclick="document.getElementById('panelShare').style.display='none'">Details</a></div>`
 
 	// add a link to uniview
-	out += `<div><a target="_blank" href="/uniview/?charlist=${ chars }" onclick="document.getElementById('panelShare').style.display='none'">UniView</a></div>`
+	out += `<div><a target="_blank" href="../../uniview/index.html?charlist=${ chars }" onclick="document.getElementById('panelShare').style.display='none'">UniView</a></div>`
+	
+	// add a link to the grapheme segmenter app
+	out += `<div><a target="_blank" href="../apps/graphemes/index.html?gc=${ chars }" onclick="document.getElementById('panelShare').style.display='none'" title="Send the string to the grapheme segmenter app.">Graphemes</a></div>`
 	
 	// add a link to the character app named in window.pickerDir
     if (window.pickerDir) {
-	   out += `<div><a target="_blank" href="/pickers/${ window.pickerDir }?text=${ chars }" onclick="document.getElementById('panelShare').style.display='none'">Character App</a></div>`
+	   out += `<div><a target="_blank" href="../../pickers/${ window.pickerDir }index.html?text=${ chars }" onclick="document.getElementById('panelShare').style.display='none'">Character App</a></div>`
        }
 
     // add a link to the _vocab page
