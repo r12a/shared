@@ -4,8 +4,8 @@ var spreadsheet = `
 ഗ	g	g	a	g	g		Lo		consonant						U+0D17: MALAYALAM LETTER GA	✓
 ഘ	G	gʰ	a	gʰ	gh		Lo		consonant						U+0D18: MALAYALAM LETTER GHA	✓
 ങ	N	ŋ	a	ŋ	ṅ		Lo		consonant						U+0D19: MALAYALAM LETTER NGA	✓
-ച	c	ʧ	a	c	c		Lo		consonant						U+0D1A: MALAYALAM LETTER CA	✓
-ഛ	C	ʧʰ	a	cʰ	ch		Lo		consonant						U+0D1B: MALAYALAM LETTER CHA	✓
+ച	c	t͡ʃ	a	c	c		Lo		consonant						U+0D1A: MALAYALAM LETTER CA	✓
+ഛ	C	t͡ʃʰ	a	cʰ	ch		Lo		consonant						U+0D1B: MALAYALAM LETTER CHA	✓
 ജ	j	ɟ	a	j	j		Lo		consonant						U+0D1C: MALAYALAM LETTER JA	✓
 ഝ	J	ɟʰ	a	jʰ	jh		Lo		consonant						U+0D1D: MALAYALAM LETTER JHA	✓
 ഞ	n	ɲ	a	ɲ	ñ		Lo		consonant						U+0D1E: MALAYALAM LETTER NYA	✓
@@ -36,10 +36,10 @@ var spreadsheet = `
 ഷ	s	ʂ	a	ʂ	ṣ		Lo		consonant						U+0D37: MALAYALAM LETTER SSA	✓
 സ	s¶	s	a	s	s		Lo		consonant						U+0D38: MALAYALAM LETTER SA	✓
 ഹ	h	ɦ	a	h	h		Lo		consonant						U+0D39: MALAYALAM LETTER HA	✓
-ഺ	t	t	a	ṫ	 ṯ		Lo	a	consonant	archaic					U+0D3A: MALAYALAM LETTER TTTA	✓
+ഺ	t	t	a	ṫ	ṯ		Lo	a	consonant	archaic					U+0D3A: MALAYALAM LETTER TTTA	✓
 																
 																
-ൺ	N	ɳ	a	ɳ̽	ṇ^		Lo		chillu consonant						U+0D7A: MALAYALAM LETTER CHILLU NN	✓
+ൺ	N	n	a	ɳ̽	ṇ^		Lo		chillu consonant						U+0D7A: MALAYALAM LETTER CHILLU NN	✓
 ൻ	N	n	a	n̽	n^		Lo		chillu consonant						U+0D7B: MALAYALAM LETTER CHILLU N	✓
 ർ	R	r	a	r̽	r^		Lo		chillu consonant						U+0D7C: MALAYALAM LETTER CHILLU RR	✓
 ൽ	L	l	a	l̽	l^		Lo		chillu consonant						U+0D7D: MALAYALAM LETTER CHILLU L	✓
@@ -47,9 +47,9 @@ var spreadsheet = `
 ൿ	K	k	a	k̽	k^		Lo		chillu consonant						U+0D7F: MALAYALAM LETTER CHILLU K	✓
 																
 																
-ം	m	m		m̽	ṃ		Mc​		anusvara						U+0D02: MALAYALAM SIGN ANUSVARA​	✓
-ഀ							Mn​								U+0D00: MALAYALAM SIGN COMBINING ANUSVARA ABOVE​	✓
-ഃ	h	ɦ		h̽	ḥ		Mc​		visarga						U+0D03: MALAYALAM SIGN VISARGA​	✓
+ം	m	m		m̽	ṃ		Mc		anusvara						U+0D02: MALAYALAM SIGN ANUSVARA	✓
+ഀ							Mn								U+0D00: MALAYALAM SIGN COMBINING ANUSVARA ABOVE	✓
+ഃ	h	ɦ		h̽	ḥ		Mc		visarga						U+0D03: MALAYALAM SIGN VISARGA	✓
 																
 																
 																
@@ -67,34 +67,34 @@ var spreadsheet = `
 ഔ	A	au̯		ạʷ	au		Lo		independent vowel		ൗ				U+0D14: MALAYALAM LETTER AU	✓
 																
 																
-ാ	a	aː		ā	ā		Mc​		vowel sign			ആ			U+0D3E: MALAYALAM VOWEL SIGN AA​	✓
-ി	i	i		i	i		Mc​		vowel sign			ഇ			U+0D3F: MALAYALAM VOWEL SIGN I​	✓
-ീ	i	iː		ī	ī		Mc​		vowel sign			ഈ			U+0D40: MALAYALAM VOWEL SIGN II​	✓
-ു	u	u		u	u		Mn​		vowel sign			ഉ			U+0D41: MALAYALAM VOWEL SIGN U​	✓
-ൂ	u	uː		ū	ū		Mn​		vowel sign			ഊ			U+0D42: MALAYALAM VOWEL SIGN UU​	✓
-െ	e¶	e		e	e		Mc​		vowel sign			എ			U+0D46: MALAYALAM VOWEL SIGN E​	✓
-േ	e	eː		ē	ē		Mc​		vowel sign			ഏ			U+0D47: MALAYALAM VOWEL SIGN EE​	✓
-ൊ	o	o		o	o		Mc​		vowel sign			ഒ			U+0D4A: MALAYALAM VOWEL SIGN O​	✓
-ോ	o	oː		ō	ō		Mc​		vowel sign			ഓ			U+0D4B: MALAYALAM VOWEL SIGN OO​	✓
-ൈ	a	ai̯		aʲ	ai		Mc​		vowel sign			ഐ			U+0D48: MALAYALAM VOWEL SIGN AI​	✓
-ൗ	a	au̯		aʷ	au		Mc​		vowel sign			ഔ			U+0D57: MALAYALAM AU LENGTH MARK​	✓
-ൌ	a	au̯		ȧʷ	au		Mc​	a	historic vowel sign	archaic					U+0D4C: MALAYALAM VOWEL SIGN AU​	✓
+ാ	a	aː		ā	ā		Mc		vowel sign			ആ			U+0D3E: MALAYALAM VOWEL SIGN AA	✓
+ി	i	i		i	i		Mc		vowel sign			ഇ			U+0D3F: MALAYALAM VOWEL SIGN I	✓
+ീ	i	iː		ī	ī		Mc		vowel sign			ഈ			U+0D40: MALAYALAM VOWEL SIGN II	✓
+ു	u	u		u	u		Mn		vowel sign			ഉ			U+0D41: MALAYALAM VOWEL SIGN U	✓
+ൂ	u	uː		ū	ū		Mn		vowel sign			ഊ			U+0D42: MALAYALAM VOWEL SIGN UU	✓
+െ	e¶	e		e	e		Mc		vowel sign			എ			U+0D46: MALAYALAM VOWEL SIGN E	✓
+േ	e	eː		ē	ē		Mc		vowel sign			ഏ			U+0D47: MALAYALAM VOWEL SIGN EE	✓
+ൊ	o	o		o	o		Mc		vowel sign			ഒ			U+0D4A: MALAYALAM VOWEL SIGN O	✓
+ോ	o	oː		ō	ō		Mc		vowel sign			ഓ			U+0D4B: MALAYALAM VOWEL SIGN OO	✓
+ൈ	a	ai̯		aʲ	ai		Mc		vowel sign			ഐ			U+0D48: MALAYALAM VOWEL SIGN AI	✓
+ൗ	a	au̯		aʷ	au		Mc		vowel sign			ഔ			U+0D57: MALAYALAM AU LENGTH MARK	✓
+ൌ	a	au̯		ȧʷ	au		Mc	a	historic vowel sign	archaic					U+0D4C: MALAYALAM VOWEL SIGN AU	✓
 																
 																
 ഋ	R	rɨ		r̥̣	r̥̣		Lo		independent vowel		ൃ				U+0D0B: MALAYALAM LETTER VOCALIC R	✓
 ൠ	R	rɨː		r̥̣̄	r̥̣̄		Lo	r	independent vowel	very rare	ൄ				U+0D60: MALAYALAM LETTER VOCALIC RR	✓
 ഌ	L	lɨ		l̥̣	l̥̣		Lo	r	independent vowel	(in one Sanskrit word only)	ൢ				U+0D0C: MALAYALAM LETTER VOCALIC L	✓
 ൡ	L	lɨː		l̥̣̄	l̥̣̄		Lo	r	independent vowel	very rare	ൣ				U+0D61: MALAYALAM LETTER VOCALIC LL	✓
-ൃ	R	rɨ		r̥	r̥		Mn​		vowel sign			ഋ			U+0D43: MALAYALAM VOWEL SIGN VOCALIC R​	✓
-ൄ	R	rɨː		r̥̄	r̥̄		Mn​	r	vowel sign	very rare		ൠ			U+0D44: MALAYALAM VOWEL SIGN VOCALIC RR​	✓
-ൢ	L	lɨ		l̥	l̥		Mn​	r	vowel sign	very rare		ഌ			U+0D62: MALAYALAM VOWEL SIGN VOCALIC L​	✓
-ൣ	L	lɨː		l̥̄	l̥̄		Mn​	r	vowel sign	very rare		ൡ			U+0D63: MALAYALAM VOWEL SIGN VOCALIC LL​	✓
+ൃ	R	rɨ		r̥	r̥		Mn		vowel sign			ഋ			U+0D43: MALAYALAM VOWEL SIGN VOCALIC R	✓
+ൄ	R	rɨː		r̥̄	r̥̄		Mn	r	vowel sign	very rare		ൠ			U+0D44: MALAYALAM VOWEL SIGN VOCALIC RR	✓
+ൢ	L	lɨ		l̥	l̥		Mn	r	vowel sign	very rare		ഌ			U+0D62: MALAYALAM VOWEL SIGN VOCALIC L	✓
+ൣ	L	lɨː		l̥̄	l̥̄		Mn	r	vowel sign	very rare		ൡ			U+0D63: MALAYALAM VOWEL SIGN VOCALIC LL	✓
 																
 																
 ൏				~			So	a	measure of rice						U+0D4F: MALAYALAM SIGN PARA	✓
 																
 																
-ഽ				ˣ	’		Lo		avagraha				പ്രശ്ലേഷം	praślēṣam	U+0D3D: MALAYALAM SIGN AVAGRAHA	✓
+ഽ				ˣ	\’		Lo		avagraha				പ്രശ്ലേഷം	praślēṣam	U+0D3D: MALAYALAM SIGN AVAGRAHA	✓
 ൎ				⁎			Lo	a	repha	pre 1970s reform					U+0D4E: MALAYALAM LETTER DOT REPH	✓
 ൟ							Lo	a							U+0D5F: MALAYALAM LETTER ARCHAIC II	✓
 																
@@ -102,9 +102,9 @@ var spreadsheet = `
 																
 																
 																
-\u{D46}\u{D3E}	o	oː		eā	ō				ൊ						U+0D46 U+0D3E: MALAYALAM VOWEL SIGN E, VOWEL SIGN AA​	
-\u{D47}\u{D3E}	a	ai̯		ēā	ai				ോ						U+0D47 U+0D3E: MALAYALAM VOWEL SIGN EE, VOWEL SIGN AA​	
-\u{D46}\u{D57}	a	au̯		eaʷ	au				ൌ						U+0D46 U+0D57: MALAYALAM VOWEL SIGN E, AU LENGTH MARK​	
+\u{D46}\u{D3E}	o	oː		eā	ō				ൊ						U+0D46 U+0D3E: MALAYALAM VOWEL SIGN E, VOWEL SIGN AA	
+\u{D47}\u{D3E}	a	ai̯		ēā	ai				ോ						U+0D47 U+0D3E: MALAYALAM VOWEL SIGN EE, VOWEL SIGN AA	
+\u{D46}\u{D57}	a	au̯		eaʷ	au				ൌ						U+0D46 U+0D57: MALAYALAM VOWEL SIGN E, AU LENGTH MARK	
 റ്റ	t	tt		ṙ͓ṙ	ṯṯ										U+0D31 U+0D4D U+0D31: MALAYALAM LETTER RRA, SIGN VIRAMA, LETTER RRA	
 																
 																
@@ -120,21 +120,21 @@ var spreadsheet = `
 ;	;			;	;		Po		semicolon						U+003B: SEMICOLON	
 !	!			!	!		Po		exclamation mark						U+0021: EXCLAMATION MARK	
 ?	?			?	?		Po		question mark						U+003F: QUESTION MARK	
-ʼ	'			ʼ	ʼ		Lm		apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
+ʼ	\'			ʼ	ʼ		Lm		apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
 																
 																
 …	.			…	…		Po		ellipsis						U+2026: HORIZONTAL ELLIPSIS	
 																
 																
 																
+‘	<			‘	‘		Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
+’	>			’	’		Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
 «	<			«	“		Pi		quotation mark						U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
 ‹	<			‹	‘		Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
-“	<			 “	“		Pi		quotation mark						U+201C: LEFT DOUBLE QUOTATION MARK	
-‘	<			‘	‘		Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
+“	<			“	“		Pi		quotation mark						U+201C: LEFT DOUBLE QUOTATION MARK	
 »	>			»	”		Pf		quotation mark						U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
 ›	>			›	’		Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
 ”	>			”	”		Pf		quotation mark						U+201D: RIGHT DOUBLE QUOTATION MARK	
-’	>			’	’		Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
 																
 																
 																
@@ -151,13 +151,13 @@ var spreadsheet = `
 																
 																
 																
-ഁ	[	̃		˜	̃		Mn​		nasalisation						U+0D01: MALAYALAM SIGN CANDRABINDU​	✓
+ഁ	[	̃		˜	̃		Mn		nasalisation						U+0D01: MALAYALAM SIGN CANDRABINDU	✓
 																
 																
 																
-്	*			͞			Mn​		virama					chandrakkala	U+0D4D: MALAYALAM SIGN VIRAMA​	✓
-഻	\			˟			Mn​								U+0D3B: MALAYALAM SIGN VERTICAL BAR VIRAMA​	✓
-഼	\			ˣ			Mn​								U+0D3C: MALAYALAM SIGN CIRCULAR VIRAMA​	✓
+്	*			͞			Mn		virama					chandrakkala	U+0D4D: MALAYALAM SIGN VIRAMA	✓
+഻	\			˟			Mn								U+0D3B: MALAYALAM SIGN VERTICAL BAR VIRAMA	✓
+഼	\			ˣ			Mn								U+0D3C: MALAYALAM SIGN CIRCULAR VIRAMA	✓
 																
 																
 																
@@ -175,7 +175,7 @@ var spreadsheet = `
 \u200B	=			␣			Cf		zero-width space						U+200B: ZERO WIDTH SPACE	
 \u200C	=			ᶻʷⁿʲ			Cf		zero-width non-joiner						U+200C: ZERO WIDTH NON-JOINER	
 \u200D	=			ᶻʷʲ			Cf		zero-width joiner						U+200D: ZERO WIDTH JOINER	
-\u034F	=			ᶜᵍʲ			Mn​		combining grapheme joiner						U+034F: COMBINING GRAPHEME JOINER​	
+\u034F	=			ᶜᵍʲ			Mn		combining grapheme joiner						U+034F: COMBINING GRAPHEME JOINER	
 \u2060	=			ʷʲ			Cf		word joiner						U+2060 WORD JOINER	
 																
 																
@@ -216,11 +216,43 @@ var spreadsheet = `
 																
 %	%			%			Po		percentage mark						U+0025: PERCENT SIGN	
 ‰	%			‰			Po		per mille mark						U+2030: PER MILLE SIGN	
-
-
-
-
-`
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																`
 
 
 
