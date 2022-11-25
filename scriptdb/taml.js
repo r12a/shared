@@ -1,6 +1,4 @@
-var spreadsheet = `
-taml-ta	key	ipa	ipa+	translit	ISO	kbd	class	status	type	usage	vs	iv	native name	name	ucs name	block
-	_			_	_				baseline extender							
+var spreadsheet = `taml-ta	key	ipa	ipa+	translit	ISO	kbd	class	status	type	usage	vs	iv	native name	name	ucs name	block
 -	-			-	-				hyphen						U+2010: HYPHEN	
 ‑	-			‑	‑		Pd		non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
 –	-			–	–		Pd		en dash						U+2013: EN DASH	
@@ -122,44 +120,43 @@ taml-ta	key	ipa	ipa+	translit	ISO	kbd	class	status	type	usage	vs	iv	native name	
 ₨				–			Sc	a	rupee symbol						U+20A8: RUPEE SIGN	
 																
 																
+`																
 																
-`
-
-
-latinPanel = 'aː ā aɪ aʊ β ɕ d͡ʒ ð d̪ ɖ eː ē ɡ iː ī kː ḵ ḷ ḻ ṉ ŋ ṅ ɲ ñ ɳ ṇ n̪ oː ō pː ɽ ɾ ṟ ɻ ṛ ʂ ṣ ʃ ś t͡ʃ tːʃ t̪ t̪ː ʈː uː ū ʋ ɣ ʒ ẓ'
-
-
-
-var cols = {
-"key": 1,
-"ipaLoc": 2,
-"ipaPlus": 3,
-"transLoc": 4,
-"transcription": 5,
-"kbd": 6,
-"class": 7,
-"status": 8,
-"typeLoc": 9,
-"statusLoc": 10,
-
-"transckey": 0,
-"dvowel": 11,
-"ivowel": 12,
-"subj":0,
-"ltone":0,
-"htone":0,
-"lc":0,
-"uc":0,
-"meaning":0,
-"shape": 0,
-"numLoc": 0,
-
-"nameLoc": 13,
-"nnameLoc": 14,
-"ucsName": 15,
-"block": 16,
-
-"othertranscriptions": [[5, 'ISO 15919']]
-}
-
-
+																
+latinPanel = 'aː ā aɪ aʊ β ɕ d͡ʒ ð d̪ ɖ eː ē ɡ iː ī kː ḵ ḷ ḻ ṉ ŋ ṅ ɲ ñ ɳ ṇ n̪ oː ō pː ɽ ɾ ṟ ɻ ṛ ʂ ṣ ʃ ś t͡ʃ tːʃ t̪ t̪ː ʈː uː ū ʋ ɣ ʒ ẓ'																
+																
+																
+																
+var cols = {																
+key: 1,																
+ipaLoc: 2,																
+ipaPlus: 3,																
+transLoc: 4,																
+transcription: 5,																
+kbd: 6,																
+class: 7,																
+status: 8,																
+typeLoc: 9,																
+statusLoc: 10,																
+																
+transckey: 0,																
+dvowel: 11,																
+ivowel: 12,																
+subj:0,																
+ltone:0,																
+htone:0,																
+lc:0,																
+uc:0,																
+meaning:0,																
+shape: 0,																
+numLoc: 0,																
+																
+nameLoc: 13,																
+nnameLoc: 14,																
+ucsName: 15,																
+block: 16,																
+																
+othertranscriptions: [[5, 'ISO 15919']]																
+}																
+																
+																
