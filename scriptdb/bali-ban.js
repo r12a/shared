@@ -25,16 +25,16 @@ var spreadsheet = `bali-ban	key	ipa	ipa+	translit	tulisan bali	kbd	class	status	
 ᬴	/			ˑ			Mn		nukta						rerekan	U+1B34: BALINESE SIGN REREKAN		✓
 %	%			%			Po		percentage mark							U+0025: PERCENT SIGN		
 ‰	%			‰			Po		per mille mark							U+2030: PER MILLE SIGN		
-0	±	0		0̣	0	0	Nd		digit						bindu/windu	U+1B50: BALINESE DIGIT ZERO	0	✓
-1	±	1		1̣	1	1	Nd		digit						siki/besik	U+1B51: BALINESE DIGIT ONE	1	✓
-2	±	2		2̣	2	2	Nd		digit						kalih/dua	U+1B52: BALINESE DIGIT TWO	2	✓
-3	±	3		3̣	3	3	Nd		digit						tiga/telu	U+1B53: BALINESE DIGIT THREE	3	✓
-4	±	4		4̣	4	4	Nd		digit						papat	U+1B54: BALINESE DIGIT FOUR	4	✓
-5	±	5		5̣	5	5	Nd		digit						lima	U+1B55: BALINESE DIGIT FIVE	5	✓
-6	±	6		6̣	6	6	Nd		digit						nem	U+1B56: BALINESE DIGIT SIX	6	✓
-7	±	7		7̣	7	7	Nd		digit						pitu	U+1B57: BALINESE DIGIT SEVEN	7	✓
-8	±	8		8̣	8	8	Nd		digit						kutus	U+1B58: BALINESE DIGIT EIGHT	8	✓
-9	±	9		9̣	9	9	Nd		digit						sanga/sia	U+1B59: BALINESE DIGIT NINE	9	✓
+᭐	±	0		0̣	0	0	Nd		digit						bindu/windu	U+1B50: BALINESE DIGIT ZERO	0	✓
+᭑	±	1		1̣	1	1	Nd		digit						siki/besik	U+1B51: BALINESE DIGIT ONE	1	✓
+᭒	±	2		2̣	2	2	Nd		digit						kalih/dua	U+1B52: BALINESE DIGIT TWO	2	✓
+᭓	±	3		3̣	3	3	Nd		digit						tiga/telu	U+1B53: BALINESE DIGIT THREE	3	✓
+᭔	±	4		4̣	4	4	Nd		digit						papat	U+1B54: BALINESE DIGIT FOUR	4	✓
+᭕	±	5		5̣	5	5	Nd		digit						lima	U+1B55: BALINESE DIGIT FIVE	5	✓
+᭖	±	6		6̣	6	6	Nd		digit						nem	U+1B56: BALINESE DIGIT SIX	6	✓
+᭗	±	7		7̣	7	7	Nd		digit						pitu	U+1B57: BALINESE DIGIT SEVEN	7	✓
+᭘	±	8		8̣	8	8	Nd		digit						kutus	U+1B58: BALINESE DIGIT EIGHT	8	✓
+᭙	±	9		9̣	9	9	Nd		digit						sanga/sia	U+1B59: BALINESE DIGIT NINE	9	✓
 «	<			«			Pi		quotation mark							U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	“	
 ‹	<			‹			Pi		quotation mark							U+2018: LEFT SINGLE QUOTATION MARK		
 “	<			“			Pi		quotation mark							U+201C: LEFT DOUBLE QUOTATION MARK	“	
