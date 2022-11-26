@@ -24,16 +24,16 @@ var spreadsheet = `deva-hi	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 %	%			%			Po		percentage mark						U+0025: PERCENT SIGN	
 ‰	%			‰			Po		per mille mark						U+2030: PER MILLE SIGN	
 ॰	+			¨			Po		abbreviation marker						U+0970: DEVANAGARI ABBREVIATION SIGN	✓
-0	±			0̣	0	0	Nd		digit						U+0966: DEVANAGARI DIGIT ZERO	✓
-1	±			1̣	1	1	Nd		digit						U+0967: DEVANAGARI DIGIT ONE	✓
-2	±			2̣	2	2	Nd		digit						U+0968: DEVANAGARI DIGIT TWO	✓
-3	±			3̣	3	3	Nd		digit						U+0969: DEVANAGARI DIGIT THREE	✓
-4	±			4̣	4	4	Nd		digit						U+096A: DEVANAGARI DIGIT FOUR	✓
-5	±			5̣	5	5	Nd		digit						U+096B: DEVANAGARI DIGIT FIVE	✓
-6	±			6̣	6	6	Nd		digit						U+096C: DEVANAGARI DIGIT SIX	✓
-7	±			7̣	7	7	Nd		digit						U+096D: DEVANAGARI DIGIT SEVEN	✓
-8	±			8̣	8	8	Nd		digit						U+096E: DEVANAGARI DIGIT EIGHT	✓
-9	±			9̣	9	9	Nd		digit						U+096F: DEVANAGARI DIGIT NINE	✓
+०	±			0̣	0	0	Nd		digit						U+0966: DEVANAGARI DIGIT ZERO	✓
+१	±			1̣	1	1	Nd		digit						U+0967: DEVANAGARI DIGIT ONE	✓
+२	±			2̣	2	2	Nd		digit						U+0968: DEVANAGARI DIGIT TWO	✓
+३	±			3̣	3	3	Nd		digit						U+0969: DEVANAGARI DIGIT THREE	✓
+४	±			4̣	4	4	Nd		digit						U+096A: DEVANAGARI DIGIT FOUR	✓
+५	±			5̣	5	5	Nd		digit						U+096B: DEVANAGARI DIGIT FIVE	✓
+६	±			6̣	6	6	Nd		digit						U+096C: DEVANAGARI DIGIT SIX	✓
+७	±			7̣	7	7	Nd		digit						U+096D: DEVANAGARI DIGIT SEVEN	✓
+८	±			8̣	8	8	Nd		digit						U+096E: DEVANAGARI DIGIT EIGHT	✓
+९	±			9̣	9	9	Nd		digit						U+096F: DEVANAGARI DIGIT NINE	✓
 “	<			“	“		Pi		quotation mark						U+201C: LEFT DOUBLE QUOTATION MARK	✓
 \‘	<			\‘	\‘		Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	✓
 \u200C	=			ᶻʷⁿʲ			Cf		zwnj						U+200C: ZERO WIDTH NON-JOINER	
