@@ -118,9 +118,9 @@ var spreadsheet = `bali-ban	key	ipa	ipa+	translit	tulisan bali	kbd	class	status	
 ᬰ	S	s	a ə	ṣ	s sy	%	Lo	u	kawi consonant	kawi			ᬰ ᭄ᬰ		sa saga	U+1B30: BALINESE LETTER SA SAGA	s ṣ	✓
 ᬱ	S	s	a ə	s̱	s ṣ	$	Lo	u	kawi consonant	kawi			ᬱ ᭄ᬱ		sa sapa	U+1B31: BALINESE LETTER SA SAPA	s ś	✓
 ᬢ	t	t	a ə	t	t	t	Lo		consonant				ᬢ ᭄ᬢ			U+1B22: BALINESE LETTER TA	t	✓
+ᬞ	T¶	t	a ə	T	t		Lo		honorific consonant				ᬞ ᭄ᬞ			U+1B1E: BALINESE LETTER TA MURDA MAHAPRANA		✓
 ᬝ	T	t	a ə	ṭ	t ṭ		Lo	u	kawi consonant	kawi			ᬝ ᭄ᬝ		ta latik	U+1B1D: BALINESE LETTER TA LATIK	ṭ	✓
 ᬣ	T	t	a ə	ṯ	t th	@	Lo	u	kawi consonant	kawi			ᬣ ᭄ᬣ		ta tawa	U+1B23: BALINESE LETTER TA TAWA	t th	✓
-ᬞ	T¶	t	a ə	T	t		Lo		honorific consonant				ᬞ ᭄ᬞ			U+1B1E: BALINESE LETTER TA MURDA MAHAPRANA		✓
 ᬸ	u	u		u	u	u	Mn		vowel sign			ᬉ			suku	U+1B38: BALINESE VOWEL SIGN SUKU	u	✓
 ᬹ	u	uː		ū	u	U	Mn		vowel sign			ᬊ			suku-ilut	U+1B39: BALINESE VOWEL SIGN SUKU ILUT	ū	✓
 ᬉ	U	U		ụ	u	*	Lo		independent vowel		ᬸ				u kara	U+1B09: BALINESE LETTER UKARA	U	✓
@@ -135,13 +135,13 @@ var spreadsheet = `bali-ban	key	ipa	ipa+	translit	tulisan bali	kbd	class	status	
 																		
 ᬒᬁ																		
 																		
-ᭅ							Lo									U+1B45: BALINESE LETTER KAF SASAK		✓
-ᭆ							Lo									U+1B46: BALINESE LETTER KHOT SASAK		✓
-ᭇ							Lo									U+1B47: BALINESE LETTER TZIR SASAK		✓
-ᭈ							Lo									U+1B48: BALINESE LETTER EF SASAK		✓
-ᭉ							Lo									U+1B49: BALINESE LETTER VE SASAK		✓
-ᭊ							Lo									U+1B4A: BALINESE LETTER ZAL SASAK		✓
-ᭋ							Lo									U+1B4B: BALINESE LETTER ASYURA SASAK		✓
+ᭅ							Lo	u	consonant	sasak						U+1B45: BALINESE LETTER KAF SASAK		✓
+ᭆ							Lo	u	consonant	sasak						U+1B46: BALINESE LETTER KHOT SASAK		✓
+ᭇ							Lo	u	consonant	sasak						U+1B47: BALINESE LETTER TZIR SASAK		✓
+ᭈ							Lo	u	consonant	sasak						U+1B48: BALINESE LETTER EF SASAK		✓
+ᭉ							Lo	u	consonant	sasak						U+1B49: BALINESE LETTER VE SASAK		✓
+ᭊ							Lo	u	consonant	sasak						U+1B4A: BALINESE LETTER ZAL SASAK		✓
+ᭋ							Lo	u	consonant	sasak						U+1B4B: BALINESE LETTER ASYURA SASAK		✓
 																		
 ᬳᬶ		i		hi	i				medial standalone vowel							U+1B33 U+1B36: BALINESE LETTER HA VOWEL SIGN ULU	i	
 ᬳᬷ		iː		hī					medial standalone vowel							U+1B33 U+1B37: BALINESE LETTER HA VOWEL SIGN ULU SARI	ī	
