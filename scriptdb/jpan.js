@@ -730,36 +730,24 @@ latinPanel = 'ː ā ā bᵃ bⁱ bᵘ bᵉ bᵒ b̄ᵃ b̄ⁱ b̄ᵘ b̄ᵉ b̄
 
 
 
-var cols = {
-"key": 1,
-"ipaLoc": 2,
-"ipaPlus": 3,
-"transcription": 0,
-"transLoc": 5,
-"kbd": 0,
-"class": 7,
-"status": 8,
-"typeLoc": 9,
-"statusLoc": 10,
-
-"dvowel": 0,
-"ivowel": 0,
-"subj":0,
-"ltone":0,
-"htone":0,
-"lc":0,
-"uc":0,
-"meaning":0,
-"shape": 0,
-"numLoc": 0,
-
-"nameLoc": 0,
-"nnameLoc": 0,
-"ucsName": 11,
-"block": 12,
-
-//"othertranscriptions": [[6, 'Latin']]
-}
-
+var cols = {														
+key: 1,														
+ipaLoc: 2,														
+ipaPlus: 3,														
+transLoc: 4,														
+transcription: 5,														
+kbd: 6,														
+class: 7,														
+status: 8,														
+typeLoc: 9,														
+statusLoc: 10,														
+														
+nnameLoc: 11,														
+nameLoc: 12,														
+ucsName: 13,														
+block: 14,														
+														
+//othertranscriptions: [[5, 'LOC']]														
+}														
 
 
