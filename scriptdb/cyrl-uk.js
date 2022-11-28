@@ -1,7 +1,7 @@
-var spreadsheet = `
-́	[	ˈ		ˈ			Mn​		stress accent	used in dictionaries, etc.					U+0301: COMBINING ACUTE ACCENT​	✓
-̆				_			Mn​		diacritic	orphan, found only in decomposed text					U+0306: COMBINING BREVE​	✓
-̈				_			Mn​		diacritic	orphan, found only in decomposed text					U+0308: COMBINING DIAERESIS​	✓
+var spreadsheet = `cyrl-uk	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	lcase	ucase	native name	latin name	ucs name	block
+́	[	ˈ		ˈ			Mn		stress accent	used in dictionaries, etc.					U+0301: COMBINING ACUTE ACCENT	✓
+̆				_			Mn	o	diacritic	found only in decomposed text					U+0306: COMBINING BREVE	✓
+̈				_			Mn	o	diacritic	found only in decomposed text					U+0308: COMBINING DIAERESIS	✓
 -	-			-	-				hyphen						U+002D: HYPHEN-MINUS	
 ‑	-			‑	‑		Pd		non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
 –	-			–	–		Pd		en dash						U+2013: EN DASH	
@@ -13,11 +13,11 @@ var spreadsheet = `
 ?	?			?	?		Po		question mark						U+003F: QUESTION MARK	
 .	.			.	.		Po		full stop						U+002E: FULL STOP	
 …	.			…	…		Po		ellipsis						U+2026: HORIZONTAL ELLIPSIS	
-‘	<			‘	‘		Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
-‚	>			’	’		Ps		quotation mark						U+201A: SINGLE LOW-9 QUOTATION MARK	
-‹	<			‹	‘		Pi		quotation mark						U+2039: SINGLE LEFT-POINTING ANGLE QUOTATION MARK	
-›	>			›	’		Pf		quotation mark						U+203A: SINGLE RIGHT-POINTING ANGLE QUOTATION MARK	
-“	<			 “	“		Pi		quotation mark						U+201C: LEFT DOUBLE QUOTATION MARK	
+\‘	<						Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
+\‚	>						Ps		quotation mark						U+201A: SINGLE LOW-9 QUOTATION MARK	
+‹	<			‹			Pi		quotation mark						U+2039: SINGLE LEFT-POINTING ANGLE QUOTATION MARK	
+›	>			›			Pf		quotation mark						U+203A: SINGLE RIGHT-POINTING ANGLE QUOTATION MARK	
+“	<			“	“		Pi		quotation mark						U+201C: LEFT DOUBLE QUOTATION MARK	
 „	>			”	”		Ps		quotation mark						U+201E: DOUBLE LOW-9 QUOTATION MARK	
 «	<			«	“		Pi		quotation mark						U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
 »	>			»	”		Pf		quotation mark						U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
@@ -36,6 +36,7 @@ var spreadsheet = `
 №	#			#			So		number symbol						U+2116: NUMERO SIGN	
 ʼ	\'			ʼ	ʼ		Lm		hard sign				апостроф	ɑˈpɔstrɔf	U+02BC: MODIFIER LETTER APOSTROPHE	✓
 \'				ʼ	ʼ		Lm		hard sign				апостроф	ɑˈpɔstrɔf		
+																
 а	a	a ɐ		a	a		Ll		vowel			А	а	ɑ	U+0430: CYRILLIC SMALL LETTER A	✓
 А	A	A Ɐ		ạ	A		Lu		vowel		а		а	a	U+0410: CYRILLIC CAPITAL LETTER A	✓
 б	b	b		b	b		Ll		consonant			Б	бе	bɛ	U+0431: CYRILLIC SMALL LETTER BE	✓
@@ -44,7 +45,7 @@ var spreadsheet = `
 В	V	W Ʋ U̯		ṿ	V		Lu		consonant		в		вэ	vɛ	U+0412: CYRILLIC CAPITAL LETTER VE	✓
 г	h	ɦ		ɦ	h		Ll		consonant			Г	гэ	ɦɛ	U+0433: CYRILLIC SMALL LETTER GHE	✓
 Г	H	Ɦ		ɦ̣	H		Lu		consonant		г		гэ	ɦɛ	U+0413: CYRILLIC CAPITAL LETTER GHE	✓
-ґ	g	g		ɡ	g		Ll		consonant			Ґ 	ґэ	ɡɛ	U+0491: CYRILLIC SMALL LETTER GHE WITH UPTURN	✓
+ґ	g	g		ɡ	g		Ll		consonant			Ґ	ґэ	ɡɛ	U+0491: CYRILLIC SMALL LETTER GHE WITH UPTURN	✓
 Ґ	G	G		g̣	G				consonant		ґ		ґэ	ɡɛ	U+0490 U+0020: CYRILLIC CAPITAL LETTER GHE WITH UPTURN	✓
 д	d	d	dʲ	d	d		Ll		consonant			Д	дэ	dɛ	U+0434: CYRILLIC SMALL LETTER DE	✓
 Д	D	D	dʲ	ḍ	D		Lu		consonant		д		дэ	dɛ	U+0414: CYRILLIC CAPITAL LETTER DE	✓
@@ -105,43 +106,32 @@ var spreadsheet = `
 																
 дж		d͡ʒ							affricate						U+0434 U+0436: CYRILLIC SMALL LETTER DE, LETTER ZHE	
 дз		d͡z							affricate						U+0434 U+0437: CYRILLIC SMALL LETTER DE, LETTER ZE	
-
-
-
-`
-
-
-latinPanel = 'ɐ ɕ d͡ʒ d͡z ɛ ɡ ɦ i̯ ɪ ʲ ɫ ɔ ʃ t͡s t͡ʃ ʃt͡ʃ u̯ ʊ ʋ ʒ'
-
-
-
-var cols = {
-"key": 1,
-"ipaLoc": 2,
-"ipaPlus": 3,
-"transLoc": 4,
-"transcription": 5,
-"kbd": 6,
-"class": 7,
-"status": 8,
-"typeLoc": 9,
-"statusLoc": 10,
-
-"dvowel": 0,
-"ivowel": 0,
-"subj":0,
-"ltone":0,
-"htone":0,
-"lc":11,
-"uc":12,
-"meaning":0,
-"shape": 0,
-"numLoc": 0,
-
-"nameLoc": 13,
-"nnameLoc": 14,
-"ucsName": 15,
-"block": 16,
-
-"othertranscriptions": [[5, 'Uk. Nat. Trans.']]
-}
+																
+`																
+																
+latinPanel = 'ɐ ɕ d͡ʒ d͡z ɛ ɡ ɦ i̯ ɪ ʲ ɫ ɔ ʃ t͡s t͡ʃ ʃt͡ʃ u̯ ʊ ʋ ʒ'																
+																
+																
+var cols = {																
+key: 1,																
+ipaLoc: 2,																
+ipaPlus: 3,																
+transLoc: 4,																
+transcription: 5,																
+kbd: 6,																
+class: 7,																
+status: 8,																
+typeLoc: 9,																
+statusLoc: 10,																
+																
+lc:11,																
+uc:12,																
+																
+nnameLoc: 13,																
+nameLoc: 14,																
+ucsName: 15,																
+block: 16,																
+																
+othertranscriptions: [[5, 'Uk. Nat. Trans.']]																
+}																
+																
