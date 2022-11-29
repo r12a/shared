@@ -1,89 +1,62 @@
-var spreadsheet = `
-ᛈ		p	p		p	p		plosive		peorð, peord	(unknown)	U+16C8: RUNIC LETTER PERTHO PEORTH P	🗸
-ᛒ		b	b		b	b		plosive		beorc, berc	birch tree	U+16D2: RUNIC LETTER BERKANAN BEORC BJARKAN B	🗸
-ᛏ		t	t		t	t		plosive		ti, Tiw	Tiw? planet Mars?	U+16CF: RUNIC LETTER TIWAZ TIR TYR T	🗸
-ᛞ		d	d		d	ḏ		plosive		dæg	day	U+16DE: RUNIC LETTER DAGAZ DAEG D	🗸
-ᚳ		k kʲ t͡ʃ	c	kʲ t͡ʃ	c	c̱		plosive		cēn, cen	torch	U+16B3: RUNIC LETTER CEN	🗸
-ᚷ		ɡ ɣ j x? ɡʲ?	g	ɡ ɣ ɡʲ ?	g	g		plosive		gyfu	gift	U+16B7: RUNIC LETTER GEBO GYFU G	🗸
-													
-ᛉ		ks	x		x	x		affricate		eolh, ilcs	elk-sedge?	U+16C9: RUNIC LETTER ALGIZ EOLHX	🗸
-													
-ᚠ		f v	f		f	f		fricative		feoh, feh	wealth	U+16A0: RUNIC LETTER FEHU FEOH FE F	🗸
-ᚦ		θ ð	þ	θ ð	q	þ		fricative		þorn, ðorn	thorn	U+16A6: RUNIC LETTER THURISAZ THURS THORN	🗸
-ᛋ		s z	s		s	s		fricative		sigel, sygil	sun	U+16CB: RUNIC LETTER SIGEL LONG-BRANCH-SOL S	🗸
-ᚻ		h x ç	h	ç	h	h		fricative		hægl	hail (precipitation)	U+16BB: RUNIC LETTER HAEGL H	🗸
-													
-ᛗ		m	m		m	m		nasal		mann, mon	man	U+16D7: RUNIC LETTER MANNAZ MAN M	🗸
-ᚾ		n	n		n	n		nasal		næd, nēod	need (plight)	U+16BE: RUNIC LETTER NAUDIZ NYD NAUD N	🗸
-ᛝ		ŋg ŋ	ŋ̱	ŋ	n	ŋ̱		nasal		Ing	Ing (Ingui-Frea)?	U+16DD: RUNIC LETTER ING	🗸
-													
-ᚹ		w	w		w	w		approximant		ƿynn, wynn	mirth	U+16B9: RUNIC LETTER WUNJO WYNN W	🗸
-ᚱ		r	r		r	r		approximant		rād, rada	riding	U+16B1: RUNIC LETTER RAIDO RAD REID R	🗸
-ᛚ		l	l		l	l		approximant		lagu	body of water	U+16DA: RUNIC LETTER LAUKAZ LAGU LOGR L	🗸
-ᛄ		j	j		j	j̱		approximant		gær, gēar	year	U+16C4: RUNIC LETTER GER	🗸
-													
-ᛁ		i iː	i	i iː	i	i		vowel		īs	ice	U+16C1: RUNIC LETTER ISAZ IS ISS I	🗸
-ᛇ		i iː x ç	ï ʒ	ï ʒ	i	ɨ		consonant/vowel		ih, īw	yew tree	U+16C7: RUNIC LETTER IWAZ EOH	🗸
-ᚣ		y yː	y	yː	y	y̱		vowel		ȳr	yew bow?	U+16A3: RUNIC LETTER YR	🗸
-ᚢ		u uː	u	uː	u	u		vowel		ūr	aurochs	U+16A2: RUNIC LETTER URUZ UR U	🗸
-ᛖ		e eː	e		e	e̱		vowel		eh	horse	U+16D6: RUNIC LETTER EHWAZ EH E	🗸
-ᚩ		o oː	o	oː	o	o		vowel		ōs	god or mouth (Latin)	U+16A9: RUNIC LETTER OS O	🗸
-ᛟ		ø øː	œ	ø øː	o	œ̱		vowel		ēðel, oedil	inherited land, native country	U+16DF: RUNIC LETTER OTHALAN ETHEL O	🗸
-ᚫ		æ æː	æ	æ æː	a	æ̱		vowel		æsc	ash tree	U+16AB: RUNIC LETTER AESC	🗸
-ᚪ		ɑ ɑː	a	ɑ ɑː	a	a̱		vowel		āc	oak tree	U+16AA: RUNIC LETTER AC A	🗸
-ᛠ		æɑ æːɑ	ea		e	e̱ᵃ		vowel		ēar	grave soil?	U+16E0: RUNIC LETTER EAR	🗸
-													
-													
-													
-													
-ᛣ		k	k		k	k		plosive	infrequent	calc	chalk? chalice? sandal?	U+16E3: RUNIC LETTER CALC	🗸
-ᚸ		g ɣ	ḡ	ḡ	g	g̱̈		plosive	infrequent	gar	spear	U+16B8: RUNIC LETTER GAR	🗸
-ᛢ		k?	q		q	q		plosive	infrequent	cweorð	unknown	U+16E2: RUNIC LETTER CWEORTH	🗸
-ᛥ		st	–		s	sᵗ		affricate	infrequent	stan	stone	U+16E5: RUNIC LETTER STAN	🗸
-ᛡ		io iːo	–		j	j		approximant	infrequent	īor	eel?	U+16E1: RUNIC LETTER IOR	🗸
-ᛤ		k	k̄	k̄	k	k̄		plosive	infrequent	unknown	unknown	U+16E4: RUNIC LETTER CEALC	🗸
-ᚴ		s z	s		s	s̄		fricative	alternate shape			U+16B4: RUNIC LETTER KAUN K	🗸
-													
-													
-													
-ᛋᚳ	s	sk ʃ	sc	ʃ	S	sc̱		digraph				U+16CB U+16B3: RUNIC LETTER SIGEL LONG-BRANCH-SOL S, LETTER CEN	
-
-
-
-`
-
-
-latinPanel = 'æ æː ɑ ɑː ç ð ɡ ɡʲ ḡ iː ï kʲ k̄ ŋ oː ø øː θ ʃ t͡ʃ uː ɣ yː ʒ'
-
-
-
-var cols = {
-"class": 1,
-"ipaLoc": 2,
-"transcription": 3,
-"latin": 4,
-"key": 5,
-"transLoc": 6,
-"kbd": 7,
-"typeLoc": 8,
-"statusLoc": 9,
-
-"equiv": 0,
-"dvowel": 0,
-"ivowel": 0,
-"subj":0,
-"ltone":0,
-"htone":0,
-"lc":0,
-"uc":0,
-"meaning":11,
-"shape": 0,
-"numLoc": 0,
-
-"nnameLoc": 0,
-"nameLoc": 10,
-"ucsName": 12,
-"block": 13,
-
-"othertranscriptions": [[3, 'Latin']]
-}
+var spreadsheet = `runr-ang	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	native name	latin name	ucs name	block
+ᚫ	a	æ æː		æ	æ				vowel		æsc	ash tree	U+16AB: RUNIC LETTER AESC	✓
+ᚪ	a	ɑ ɑː		ɑ	a				vowel		āc	oak tree	U+16AA: RUNIC LETTER AC A	✓
+ᛒ	b	b		b	b				consonant		beorc	birch tree	U+16D2: RUNIC LETTER BERKANAN BEORC BJARKAN B	✓
+ᚳ	c	k kʲ t͡ʃ		c	c				consonant		cēn	torch	U+16B3: RUNIC LETTER CEN	✓
+ᛞ	d	d		d	d				consonant		dag	day	U+16DE: RUNIC LETTER DAGAZ DAEG D	✓
+ᛖ	e	e eː		e	e				vowel		eh	steed	U+16D6: RUNIC LETTER EHWAZ EH E	✓
+ᛠ	e	e͡a		eᵃ	ea				diphthong		ēar	grave soil?	U+16E0: RUNIC LETTER EAR	✓
+ᚠ	f	f v		f	f				consonant		feoh	wealth, cattle	U+16A0: RUNIC LETTER FEHU FEOH FE F	✓
+ᚷ	g	ɡ ɣ		g	g				consonant		gyfu	gift	U+16B7: RUNIC LETTER GEBO GYFU G	✓
+ᚸ	g	ɡ ɣ		g̱̈	ḡ				consonant	manuscripts, Ruthwell Cross, Bewcastle Cross?	gar	spear	U+16B8: RUNIC LETTER GAR	✓
+ᚻ	h	h x ç		h	h				consonant		hægl	hail	U+16BB: RUNIC LETTER HAEGL H	✓
+ᛁ	i	i iː		i	i				vowel		īs	ice	U+16C1: RUNIC LETTER ISAZ IS ISS I	✓
+ᛡ	i	io iːo		iᵒ	-				diphthong		īor	beaver? eel?	U+16E1: RUNIC LETTER IOR	✓
+ᛇ	i	eo eːo? iː? x ç		ɨ	ï ʒ				diphthong		ēoh	yew tree	U+16C7: RUNIC LETTER IWAZ EOH	✓
+ᛡ	j	j		j	j				consonant		gēr	year	U+16E1: RUNIC LETTER IOR	✓
+ᛄ	j	j		j̱	j				consonant	alternate shape	gēr	year	U+16C4: RUNIC LETTER GER	✓
+ᛣ	k	k		k	k				consonant	manuscripts & Ruthwell Cross, etc.	calc	chalk? chalice? sandal?	U+16E3: RUNIC LETTER CALC	✓
+ᛤ	k	k		k̈	k̄				consonant	Ruthwell Cross only	unknown	unknown	U+16E4: RUNIC LETTER CEALC	✓
+ᛚ	l	l		l	l				consonant		lagu	lake	U+16DA: RUNIC LETTER LAUKAZ LAGU LOGR L	✓
+ᛗ	m	m		m	m				consonant		mann	man	U+16D7: RUNIC LETTER MANNAZ MAN M	✓
+ᚾ	n	n		n	n				consonant		nȳd	need	U+16BE: RUNIC LETTER NAUDIZ NYD NAUD N	✓
+ᛝ	n	ŋ		ŋ	ŋ				consonant		Ing	Ing (Ingui-Frea)?	U+16DD: RUNIC LETTER ING	✓
+ᛟ	o	ø øː		œ	œ				vowel		ēðel	homeland, estate	U+16DF: RUNIC LETTER OTHALAN ETHEL O	✓
+ᚩ	o	o oː		o	o				vowel		ōs	god/mouth	U+16A9: RUNIC LETTER OS O	✓
+ᛈ	p	p		p	p				consonant		peorð	unknown	U+16C8: RUNIC LETTER PERTHO PEORTH P	✓
+ᚦ	p	θ ð		þ	þ				consonant		þorn	thorn	U+16A6: RUNIC LETTER THURISAZ THURS THORN	✓
+ᛢ	q	k		ḵ	q				consonant	manuscripts	cweorð	unknown	U+16E2: RUNIC LETTER CWEORTH	✓
+ᚱ	r	r		r	r				consonant		rād	riding	U+16B1: RUNIC LETTER RAIDO RAD REID R	✓
+ᛋ	s	s z		s	s				consonant		sigel	sun/sail	U+16CB: RUNIC LETTER SIGEL LONG-BRANCH-SOL S	✓
+ᛥ	s	st		sᵗ	-				consonant	manuscripts	stan	stone	U+16E5: RUNIC LETTER STAN	✓
+ᚴ	s	s z		ṡ	s				consonant	alternate shape	sigel	sun/sail	U+16B4: RUNIC LETTER KAUN K	✓
+ᛏ	t	t		t	t				consonant		Tī, Tīr	Mars?	U+16CF: RUNIC LETTER TIWAZ TIR TYR T	✓
+ᚢ	u	u uː		u	u				vowel		ūr	aurochs	U+16A2: RUNIC LETTER URUZ UR U	✓
+ᚹ	w	w		w	w				consonant		ƿynn	mirth	U+16B9: RUNIC LETTER WUNJO WYNN W	✓
+ᛉ	x	ks		kˢ	x				consonant		eolhx	elk's	U+16C9: RUNIC LETTER ALGIZ EOLHX	✓
+ᚣ	y	y yː		y	y				vowel		ȳr	yew bow?	U+16A3: RUNIC LETTER YR	✓
+														
+`														
+														
+latinPanel = 'æ æː ɑ ɑː ç ð ɡ ɡʲ ḡ iː ï kʲ k̄ ŋ oː ø øː θ ʃ t͡ʃ uː ɣ yː ʒ'														
+														
+var cols = {														
+key: 1,														
+ipaLoc: 2,														
+ipaPlus: 3,														
+transLoc: 4,														
+transcription: 5,														
+kbd: 6,														
+class: 7,														
+status: 8,														
+typeLoc: 9,														
+statusLoc: 10,														
+														
+nnameLoc: 11,														
+nameLoc: 12,														
+ucsName: 13,														
+block: 14,														
+														
+othertranscriptions: [[5, 'Latin']]														
+}														
+														
