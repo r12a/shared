@@ -1,92 +1,67 @@
-var spreadsheet = `
-𐊓		p b	p		p	p		consonant				U+10293: LYCIAN LETTER P	
-𐊂		β	b	β	b	b		consonant				U+10282: LYCIAN LETTER B	
-𐊗		t d	t		t	t		consonant				U+10297: LYCIAN LETTER T	
-𐊅		ð	d	ð	d	ð		consonant				U+10285: LYCIAN LETTER D	
-𐊔		k	κ	κ	k	κ		consonant				U+10294: LYCIAN LETTER KK	
-𐊌		k	q		q	q		consonant				U+1028C: LYCIAN LETTER Q	
-𐊋		kʲ ɡʲ	k	kʲ ɡʲ	k	kʲ		consonant				U+1028B: LYCIAN LETTER K	
-𐊃		kʷ	β	kʷ	k	kʷ		consonant	pronunciation not certain			U+10283: LYCIAN LETTER BH	
-𐊄		ɣ	g	ɣ	g	g		consonant				U+10284: LYCIAN LETTER G	
-𐊜		q	χ	χ	x	χ		consonant				U+1029C: LYCIAN LETTER X	
-													
-𐊈		t͡s	z	t͡s	z	ʦ		consonant				U+10288: LYCIAN LETTER Z	
-𐊘		t͡ʃ	τ	t͡ʃ τ	t	τ		consonant				U+10298: LYCIAN LETTER TT	
-													
-𐊉		θ	θ	θ	θ	θ		consonant				U+10289: LYCIAN LETTER TH	
-𐊖		s	s		s	s		consonant				U+10296: LYCIAN LETTER S	
-𐊛		h	h		h	h		consonant				U+1029B: LYCIAN LETTER H	
-													
-𐊎		m	m		m	m		consonant				U+1028E: LYCIAN LETTER M	
-𐊏		n	n		n	n		consonant				U+1028F: LYCIAN LETTER N	
-𐊐		m̩ əm m.	m̃	m̩ m̃	m	m̃		consonant				U+10290: LYCIAN LETTER MM	
-𐊑		n̩ ən n.	ñ	n̩ ñ	n	ñ		consonant				U+10291: LYCIAN LETTER NN	
-													
-𐊇		w	w		w	w		consonant				U+10287: LYCIAN LETTER W	
-𐊕		r r̩ ər	r	r̩	r	r		consonant				U+10295: LYCIAN LETTER R	
-𐊍		l l̩ əl	l	l̩	l	l		consonant				U+1028D: LYCIAN LETTER L	
-𐊊		j	j y		y	y		consonant				U+1028A: LYCIAN LETTER J	
-													
-													
-													
-													
-													
-𐊆		i ĩ	i	ĩ	i	i		vowel				U+10286: LYCIAN LETTER I	
-𐊒		u ũ	u	ũ	u	u		vowel				U+10292: LYCIAN LETTER U	
-𐊁		e	e	ə	e	e		vowel				U+10281: LYCIAN LETTER E	
-𐊀		a	a		a	a		vowel				U+10280: LYCIAN LETTER A	
-𐊙		ã	ã	ã	a	ã		nasalised vowel				U+10299: LYCIAN LETTER AN	
-𐊚		ẽ	ẽ	ẽ	e	ẽ		nasalised vowel				U+1029A: LYCIAN LETTER EN	
-													
-													
-													
-													
-⁚								word separator				U+205A: TWO DOT PUNCTUATION	
-,					,	,		comma				U+002C: COMMA	
-․					:	:		colon				U+2024: ONE DOT LEADER	
-՝					;	;		(semi) colon				U+055D: ARMENIAN COMMA	
-։					.	.		full stop				U+0589: ARMENIAN FULL STOP	
-«					<	“		quotation mark				U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
-»					>	”		quotation mark				U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
-՞					?	?		question mark				U+055E: ARMENIAN QUESTION MARK	
-՜					!	!		exclamation mark				U+055C: ARMENIAN EXCLAMATION MARK	
-՛					!	ⸯ		emphasis mark				U+055B: ARMENIAN EMPHASIS MARK	
-֊					-	-		soft hyphen				U+058A: ARMENIAN HYPHEN	
-
-`
-
-
-
-latinPanel = 'ã β ð ə ẽ ɡʲ ĩ kʲ kʷ l̩ m̩ m̃ n̩ ñ θ r̩ t͡s t͡ʃ ũ χ ɣ'
-
-
-
-
-var cols = {
-"class": 1,
-"ipaLoc": 2,
-"transcription":3,
-"latin": 4,
-"key":5,
-"transLoc":6,
-"kbd": 7,
-"typeLoc": 8,
-"statusLoc": 9,
-
-"dvowel": 0,
-"ivowel": 0,
-"subj":0,
-"ltone":0,
-"htone":0,
-"lc":0,
-"uc":0,
-"meaning":0,
-"shape": 0,
-"numLoc": 0,
-"nameLoc": 0,
-"nnameLoc": 0,
-"ucsName": 12,
-"block": 13,
-
-//"othertranscriptions": [[6, 'ISO 9985']]
-}
+var spreadsheet = `lyci-xlc	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	native name	latin name	ucs name	block
+֊	-			-			Pd		soft hyphen				U+058A: ARMENIAN HYPHEN	
+,	,			,			Po		comma				U+002C: COMMA	
+՝	;			;			Po		(semi) colon				U+055D: ARMENIAN COMMA	
+․	:			:			Po		colon				U+2024: ONE DOT LEADER	
+՜	!			!			Po		exclamation mark				U+055C: ARMENIAN EXCLAMATION MARK	
+՛	!			ⸯ			Po		emphasis mark				U+055B: ARMENIAN EMPHASIS MARK	
+՞	?			?			Po		question mark				U+055E: ARMENIAN QUESTION MARK	
+։	.			.			Po		full stop				U+0589: ARMENIAN FULL STOP	
+«	<			“			Pi		quotation mark				U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
+»	>			”			Pf		quotation mark				U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
+𐊀	a	a		a	a		Lo		vowel				U+10280: LYCIAN LETTER A	
+𐊙	a	ã		ã	ã		Lo		nasalised vowel				U+10299: LYCIAN LETTER AN	
+𐊂	b	β		b	b		Lo		consonant				U+10282: LYCIAN LETTER B	
+𐊅	d	ð		ð	d		Lo		consonant				U+10285: LYCIAN LETTER D	
+𐊁	e	e		e	e		Lo		vowel				U+10281: LYCIAN LETTER E	
+𐊚	e	ẽ		ẽ	ẽ		Lo		nasalised vowel				U+1029A: LYCIAN LETTER EN	
+𐊄	g	ɣ		g	g		Lo		consonant				U+10284: LYCIAN LETTER G	
+𐊛	h	h		h	h		Lo		consonant				U+1029B: LYCIAN LETTER H	
+𐊆	i	i ĩ		i	i		Lo		vowel				U+10286: LYCIAN LETTER I	
+𐊔	k	k		κ	κ		Lo		consonant				U+10294: LYCIAN LETTER KK	
+𐊋	k	kʲ ɡʲ		kʲ	k		Lo		consonant				U+1028B: LYCIAN LETTER K	
+𐊃	k	kʷ		kʷ	β		Lo		consonant	pronunciation not certain			U+10283: LYCIAN LETTER BH	
+𐊍	l	l l̩ əl		l	l		Lo		consonant				U+1028D: LYCIAN LETTER L	
+𐊎	m	m		m	m		Lo		consonant				U+1028E: LYCIAN LETTER M	
+𐊐	m	m̩ əm m.		m̃	m̃		Lo		consonant				U+10290: LYCIAN LETTER MM	
+𐊏	n	n		n	n		Lo		consonant				U+1028F: LYCIAN LETTER N	
+𐊑	n	n̩ ən n.		ñ	ñ		Lo		consonant				U+10291: LYCIAN LETTER NN	
+𐊓	p	p b		p	p		Lo		consonant				U+10293: LYCIAN LETTER P	
+𐊌	q	k		q	q		Lo		consonant				U+1028C: LYCIAN LETTER Q	
+𐊕	r	r r̩ ər		r	r		Lo		consonant				U+10295: LYCIAN LETTER R	
+𐊖	s	s		s	s		Lo		consonant				U+10296: LYCIAN LETTER S	
+𐊗	t	t d		t	t		Lo		consonant				U+10297: LYCIAN LETTER T	
+𐊘	t	t͡ʃ		τ	τ		Lo		consonant				U+10298: LYCIAN LETTER TT	
+𐊒	u	u ũ		u	u		Lo		vowel				U+10292: LYCIAN LETTER U	
+𐊇	w	w		w	w		Lo		consonant				U+10287: LYCIAN LETTER W	
+𐊜	x	q		χ	χ		Lo		consonant				U+1029C: LYCIAN LETTER X	
+𐊊	y	j		y	j y		Lo		consonant				U+1028A: LYCIAN LETTER J	
+𐊈	z	t͡s		ʦ	z		Lo		consonant				U+10288: LYCIAN LETTER Z	
+𐊉	θ	θ		θ	θ		Lo		consonant				U+10289: LYCIAN LETTER TH	
+														
+⁚							Po		word separator				U+205A: TWO DOT PUNCTUATION	
+														
+`														
+														
+latinPanel = 'ã β ð ə ẽ ɡʲ ĩ kʲ kʷ l̩ m̩ m̃ n̩ ñ θ r̩ t͡s t͡ʃ ũ χ ɣ'														
+														
+var cols = {														
+key: 1,														
+ipaLoc: 2,														
+ipaPlus: 3,														
+transLoc: 4,														
+transcription: 5,														
+kbd: 6,														
+class: 7,														
+status: 8,														
+typeLoc: 9,														
+statusLoc: 10,														
+														
+nnameLoc: 11,														
+nameLoc: 12,														
+ucsName: 13,														
+block: 14,														
+														
+othertranscriptions: [[5, 'Latin']]														
+}														
+														
