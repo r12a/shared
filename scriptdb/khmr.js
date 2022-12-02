@@ -1,36 +1,35 @@
 var spreadsheet = `khmr-km	key	ipa	ipa+	translit	ungen	kbd	class	status	type	usage	dvowel	ivowel	shape	native name	name	ucs name	
+\u200B	=			ᶻʷˢᵖ			Cf		zero-width space							U+200B: ZERO WIDTH SPACE	
 -	-			-	-		Pd		hyphen							U+2010: HYPHEN	
 ‑	-			‑	‑		Pd		non-breaking hyphen							U+2011: NON-BREAKING HYPHEN	
 –	-			–	–		Pd		en dash							U+2013: EN DASH	
 —	-			—	—		Pd		em dash							U+2014: EM DASH	
 ,	,			,	,		Po		comma							U+002C: COMMA	
 ;	;			;	;		Po		semicolon							U+003B: SEMICOLON	
-:	:			—	:		Po		colon							U+003A: COLON	
-៖	:			:		:	Po		colon					ចំណុចពីរគូស	cɑmnoc piː kuːh	U+17D6: KHMER SIGN CAMNUC PII KUUH	✓
+:	:			:	:		Po		colon							U+003A: COLON	
+៖	:			:̣		:	Po		colon					ចំណុចពីរគូស	cɑmnoc piː kuːh	U+17D6: KHMER SIGN CAMNUC PII KUUH	✓
 !	!			!	!		Po		exclamation mark							U+0021: EXCLAMATION MARK	
-៎	!			ⸯ		+	Mn	i	exclamation sign					កាកបាទ	kaːkɑɓaːt	U+17CE: KHMER SIGN KAKABAT	✓
+៎	!			!̣		+	Mn	i	exclamation sign					កាកបាទ	kaːkɑɓaːt	U+17CE: KHMER SIGN KAKABAT	✓
 ?	?			?	?		Po		question mark							U+003F: QUESTION MARK	
 .	.			.	.		Po		full stop							U+002E: FULL STOP	
 …	.			…	…		Po		ellipsis							U+2026: HORIZONTAL ELLIPSIS	
-៘	.			⋯	⋯		Po	d	etc.					។ល។ / ល៉ៈ	lanəŋla / laʔ	U+17D8: KHMER SIGN BEYYAL	✓
+៘	.			⋯̇	⋯		Po	d	etc.					។ល។ / ល៉ៈ	lanəŋla / laʔ	U+17D8: KHMER SIGN BEYYAL	✓
 (	(			(	(		Ps		parenthesis							U+0028: LEFT PARENTHESIS	
 [	(			[	[		Pe		bracket							U+005B: LEFT SQUARE BRACKET	
 )	)			)	)		Ps		parenthesis							U+0029: RIGHT PARENTHESIS	
 ]	)			]	]		Pe		bracket							U+005D: RIGHT SQUARE BRACKET	
 ់	[			˘			Mn		vowel shortener					បន្តក់	ɓɑntɑk	U+17CB: KHMER SIGN BANTOC	✓
-៏	[	ɑː		⁎		*	Mn	i	word specifier					លេខអស្ដា	leːk ʔahsɗaː	U+17CF: KHMER SIGN AHSDA	✓
-៉	[			″			Mn		consonant shifter					មូសិកទន្ត	museʔkətoə̯n	U+17C9: KHMER SIGN MUUSIKATOAN	✓
-៊	[			′		/	Mn		consonant shifter					ត្រីសព្ទ	trəisaɓ	U+17CA: KHMER SIGN TRIISAP	✓
-៌	[			ʳ		_	Mn	i	consonant silencer					របាទ	rɔɓaːt	U+17CC: KHMER SIGN ROBAT	✓
-\u200B	]			␣			Cf		zero-width space							U+200B: ZERO WIDTH SPACE	
+៉	[			ꜜ			Mn		consonant shifter					មូសិកទន្ត	museʔkətoə̯n	U+17C9: KHMER SIGN MUUSIKATOAN	✓
+៊	[			ꜛ		/	Mn		consonant shifter					ត្រីសព្ទ	trəisaɓ	U+17CA: KHMER SIGN TRIISAP	✓
+៌	[			˟		_	Mn	i	consonant silencer					របាទ	rɔɓaːt	U+17CC: KHMER SIGN ROBAT	✓
 អ	}	ʔ	ɑː	ʔ		G	Lo		a-series consonant				អ ្អ		ʔɑː	U+17A2: KHMER LETTER QA	✓
 ្អ	}	ʔ	ɑː	͞ʔ					a-series consonant						ʔɑː	U+17D2 U+17A2: KHMER SIGN COENG, LETTER QA	
-៙	§			»		6	Po		text start					ភ្នែកមាន់	pnɛːkmoə̆n	U+17D9: KHMER SIGN PHNAEK MUAN	✓
-៚	§			«		7	Po		text end					គោមូត្រ	koːmout	U+17DA: KHMER SIGN KOOMUUT	✓
+៙	@			⟦		6	Po		text start					ភ្នែកមាន់	pnɛːkmoə̆n	U+17D9: KHMER SIGN PHNAEK MUAN	✓
+៚	@			⟧		7	Po		text end					គោមូត្រ	koːmout	U+17DA: KHMER SIGN KOOMUUT	✓
 ្	*			͞		j	Mn		coeng sign					ជើង	cəːŋ	U+17D2: KHMER SIGN COENG	✓
-៑	\			¯			Mn	i	virama					វិរាម	ʋiriəm	U+17D1: KHMER SIGN VIRIAM	✓
-ៜ	\			ˣ		a	Lo	r	marker for omitted Sanskrit vowel						avakraha sannya	U+17DC: KHMER SIGN AVAKRAHASANYA	✓
-៍	\			˟		^	Mn		syllable silencer					ទណ្ឌឃាត	tɔnɗɔkʰiət	U+17CD: KHMER SIGN TOANDAKHIAT	✓
+៍	\			ˣ		^	Mn		syllable silencer					ទណ្ឌឃាត	tɔnɗɔkʰiət	U+17CD: KHMER SIGN TOANDAKHIAT	✓
+៑	\			ˣ̣			Mn	i	virama					វិរាម	ʋiriəm	U+17D1: KHMER SIGN VIRIAM	✓
+ៜ	\			˟		a	Lo	r	marker for omitted Sanskrit vowel						avakraha sannya	U+17DC: KHMER SIGN AVAKRAHASANYA	✓
 ៗ	&			&		@	Lm		repetition sign					ស្ទួន / លេខទោ	stuən / leːktoː	U+17D7: KHMER SIGN LEK TOO	✓
 %	%			%			Po		percentage mark							U+0025: PERCENT SIGN	
 ‰	%			‰			Po		per mille mark							U+2030: PER MILLE SIGN	
@@ -44,24 +43,27 @@ var spreadsheet = `khmr-km	key	ipa	ipa+	translit	ungen	kbd	class	status	type	usa
 ៧	±			7̣		7	Nd		digit					ប្រាំពីរ	prampiː / prampɨl	U+17E7: KHMER DIGIT SEVEN	✓
 ៨	±			8̣		8	Nd		digit					ប្រាំបី	pramɓəj	U+17E8: KHMER DIGIT EIGHT	✓
 ៩	±			9̣		9	Nd		digit					ប្រាំបួន	pramɓuən	U+17E9: KHMER DIGIT NINE	✓
-៛	±			¤		$	Sc		currency symbol					សញ្ញារៀល	saɲ ɲaː riəl	U+17DB: KHMER CURRENCY SYMBOL RIEL	✓
+៛	#			¤		$	Sc		currency symbol					សញ្ញារៀល	saɲ ɲaː riəl	U+17DB: KHMER CURRENCY SYMBOL RIEL	✓
 «	<			«	“		Pi		quotation mark							U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
 ‹	<			‹			Pi		quotation mark							U+2018: LEFT SINGLE QUOTATION MARK	
 “	<			“	“		Pi		quotation mark							U+201C: LEFT DOUBLE QUOTATION MARK	
-\‘	<						Pi		quotation mark							U+2018: LEFT SINGLE QUOTATION MARK	
+\‘	<			\‘			Pi		quotation mark							U+2018: LEFT SINGLE QUOTATION MARK	
+»	>			»	”		Pf		quotation mark							U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
+›	>			›			Pf		quotation mark							U+2019: RIGHT SINGLE QUOTATION MARK	
+”	>			”	”		Pf		quotation mark							U+201D: RIGHT DOUBLE QUOTATION MARK	
+\’	>			\’			Pf		quotation mark							U+2019: RIGHT SINGLE QUOTATION MARK	
 \u200C	=			ᶻʷⁿʲ			Cf		zero-width non-joiner							U+200C: ZERO WIDTH NON-JOINER	
 \u200D	=			ᶻʷʲ			Cf		zero-width joiner							U+200D: ZERO WIDTH JOINER	
 \u034F	=			ᶜᵍʲ			Mn		combining grapheme joiner							U+034F: COMBINING GRAPHEME JOINER	
 \u2060	=			ʷʲ			Cf		word joiner							U+2060 WORD JOINER	
-»	>			»	”		Pf		quotation mark							U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
-›	>			›			Pf		quotation mark							U+2019: RIGHT SINGLE QUOTATION MARK	
-”	>			”	”		Pf		quotation mark							U+201D: RIGHT DOUBLE QUOTATION MARK	
-\’	>						Pf		quotation mark							U+2019: RIGHT SINGLE QUOTATION MARK	
-។	|			|	.	.	Po		full stop					ខ័ណ្ឌ	kʰan	U+17D4: KHMER SIGN KHAN	✓
-៕	|			¶		>	Po		section terminator					បរិយោសាន	ɓɑːrijaosaːn	U+17D5: KHMER SIGN BARIYOOSAN	✓
+។	.			.	.	.	Po		full stop					ខ័ណ្ឌ	kʰan	U+17D4: KHMER SIGN KHAN	✓
+៕	|			|		>	Po		section terminator					បរិយោសាន	ɓɑːrijaosaːn	U+17D5: KHMER SIGN BARIYOOSAN	✓
+																	
 ា	a	aː iə		ā	ā	a	Mc		vowel sign					ស្រៈ អា	srà ʼā	U+17B6: KHMER VOWEL SIGN AA	✓
 ៈ	a	aʔ eə̆ʔ		a		V	Mc		short vowel					យុគលពិន្ទុ	juʔkɔluə̆ʔpintuʔ	U+17C8: KHMER SIGN YUUKALEAPINTU	✓
 ែ	a	ae ɛː		æ	ae	E	Mc		vowel sign			ឯ		ស្រៈ អែ	sraʔ ʔae	U+17C2: KHMER VOWEL SIGN AE	✓
+័	a	a eə̆ oə̯		ă		&	Mn		vowel changer/vowel sign					សំយោគសញ្ញា	sanjoːksaɲɲaː	U+17D0: KHMER SIGN SAMYOK SANNYA	✓
+៏	a	ɑː		ɑ̄		*	Mn	i	vowel sign/word specifier					លេខអស្ដា	leːk ʔahsɗaː	U+17CF: KHMER SIGN AHSDA	✓
 ៃ	a	aj ɨj		aʲ	ai	S	Mc		vowel sign			ឰ		ស្រៈ អៃ	sraʔ ʔaj	U+17C3: KHMER VOWEL SIGN AI	✓
 ៅ	a	aw ɨw		aʷ	au	O	Mc		vowel sign			ឳ		ស្រៈ អៅ	sraʔ ʔaw	U+17C5: KHMER VOWEL SIGN AU	✓
 ើ	a	aə əː		aᵊ	oe	;	Mc		vowel sign					ស្រៈ អើ	sraʔ ʔaə	U+17BE: KHMER VOWEL SIGN OE	✓
@@ -70,7 +72,6 @@ var spreadsheet = `khmr-km	key	ipa	ipa+	translit	ungen	kbd	class	status	type	usa
 ឰ	A	ʔaj		ạʲ	ai	(	Lo		independent vowel		ៃ			ស្រៈឰ	sraʔ ʔaj	U+17B0: KHMER INDEPENDENT VOWEL QAI	✓
 ឳ	A	ʔaw		ạʷ	au	)	Lo		independent vowel		ៅ			ស្រៈឳ	sraʔ ʔaw	U+17B3: KHMER INDEPENDENT VOWEL QAU	✓
 ឲ	A	ʔao		ạᵒ	âu	=	Lo		independent vowel					ស្រៈឲ	sraʔ ʔao	U+17B2: KHMER INDEPENDENT VOWEL QOO TYPE TWO	✓
-័	a			ă		&	Mn		vowel changer					សំយោគសញ្ញា	sanjoːksaɲɲaː	U+17D0: KHMER SIGN SAMYOK SANNYA	✓
 ប	b	ɓ p- -p	ɑː	b	b	b	Lo		a-series consonant				ប ្ប		ɓɑː	U+1794: KHMER LETTER BA	✓
 ្ប	b	ɓ p- -p	ɑː	͞b	b				a-series consonant						ɓɑː	U+17D2 U+1794: KHMER SIGN COENG, LETTER BA	
 ច	c	c -c	ɑː	c	ch	c	Lo		a-series consonant				ច ្ច		cɑː	U+1785: KHMER LETTER CA	✓
@@ -186,15 +187,14 @@ var spreadsheet = `khmr-km	key	ipa	ipa+	translit	ungen	kbd	class	status	type	usa
 \u17B4				–			Mn	d	inherent vowel mark							U+17B4: KHMER VOWEL INHERENT AQ	
 \u17B5				–			Mn	d	inherent vowel mark							U+17B5: KHMER VOWEL INHERENT AA	
 																	
-ʼ							Lm		apostrophe							U+02BC: MODIFIER LETTER APOSTROPHE	
+ʼ	\'			\'			Lm		apostrophe							U+02BC: MODIFIER LETTER APOSTROPHE	
 ។ល។				.ḻ.	…				etc.							U+17D4 U+179B U+17D4: KHMER SIGN KHAN, LETTER LO, SIGN KHAN	
 																	
-ʼ				ʼ	ʼ		Lm		apostrophe							U+02BC: MODIFIER LETTER APOSTROPHE	
-§				§	§		Po		section sign							U+00A7: SECTION SIGN	
-†				†	†		Po		dagger							U+2020: DAGGER	
-‡				‡	‡		Po		double dagger							U+2021: DOUBLE DAGGER	
-′				′	′		Po		prime							U+2032: PRIME	
-″				″	″		Po		double prime							U+2033: DOUBLE PRIME	
+§	*			§	§		Po		section sign							U+00A7: SECTION SIGN	
+†	*			†	†		Po		dagger							U+2020: DAGGER	
+‡	*			‡	‡		Po		double dagger							U+2021: DOUBLE DAGGER	
+′	'			′	′		Po		prime							U+2032: PRIME	
+″	"			″	″		Po		double prime							U+2033: DOUBLE PRIME	
 "				–		#	Po									U+0022: QUOTATION MARK	
 																	
 អិ		ə e ɨ i		ʔi					standalone vowel							U+17A2 U+17B7: KHMER LETTER QA, VOWEL SIGN I	
@@ -257,5 +257,4 @@ block: 17,
 																	
 othertranscriptions: [[5, 'UNGEN']]																	
 }																	
-																	
 																	
