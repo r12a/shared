@@ -276,9 +276,9 @@ console.log('showNameDetails (',chars, clang, base, target, panel, list, transli
 
     var gloss = '<div class="multilineGlossedText">'
     for (t=0;t<graphemes.length;t++) {
-        gloss += ` <div class="stack"><span class="rt">${ transcriptions[t] }</span><span class="rb">${ graphemes[t] }</span>`
+        gloss += ` <div class="stack"><span class="rt translitGloss" lang="und-fonipa">${ transcriptions[t] }</span><span class="rb">${ graphemes[t] }</span>`
         if (ipa !== false) {
-            if (ipa[t]) gloss += `<span class="rt">${ ipa[t] }</span>`
+            if (ipa[t]) gloss += `<span class="rt IPAGloss" lang="und-fonipa">${ ipa[t] }</span>`
             else gloss += `<span class="rt">&nbsp;</span>`
             }
         gloss += `</div>`
