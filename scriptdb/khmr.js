@@ -21,7 +21,7 @@ var spreadsheet = `khmr-km	key	ipa	ipa+	translit	ungen	kbd	class	status	type	usa
 ់	[			˘			Mn		vowel shortener					បន្តក់	ɓɑntɑk	U+17CB: KHMER SIGN BANTOC	✓
 ៉	[			ꜜ			Mn		consonant shifter					មូសិកទន្ត	museʔkətoə̯n	U+17C9: KHMER SIGN MUUSIKATOAN	✓
 ៊	[			ꜛ		/	Mn		consonant shifter					ត្រីសព្ទ	trəisaɓ	U+17CA: KHMER SIGN TRIISAP	✓
-៌	[			˟		_	Mn	i	consonant silencer					របាទ	rɔɓaːt	U+17CC: KHMER SIGN ROBAT	✓
+៌	[	rə ∅		ʳ		_	Mn	i	consonant silencer					របាទ	rɔɓaːt	U+17CC: KHMER SIGN ROBAT	✓
 អ	}	ʔ	ɑː	ʔ		G	Lo		a-series consonant				អ ្អ		ʔɑː	U+17A2: KHMER LETTER QA	✓
 ្អ	}	ʔ	ɑː	͞ʔ					a-series consonant						ʔɑː	U+17D2 U+17A2: KHMER SIGN COENG, LETTER QA	
 ៙	@			⟦		6	Po		text start					ភ្នែកមាន់	pnɛːkmoə̆n	U+17D9: KHMER SIGN PHNAEK MUAN	✓
