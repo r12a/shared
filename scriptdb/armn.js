@@ -1,4 +1,5 @@
 var spreadsheet = `armn-hy	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	equiv	lc	uc	# value	native name	latin name	ucs name	block
+\u0020	 						Zs		space								U+0020: SPACE	
 ֊	-			-	-		Pd		soft hyphen							miowt‛jan_gic	U+058A: ARMENIAN HYPHEN	✓
 -	-			-	-	6			hyphen								U+2010: HYPHEN	
 ‑	-			‑	‑		Pd		non-breaking hyphen								U+2011: NON-BREAKING HYPHEN	
@@ -7,7 +8,7 @@ var spreadsheet = `armn-hy	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ,	,			,	,	5	Po		comma							storaket	U+002C: COMMA	
 ՝	;			;	;		Po		(semi) colon							bowt’	U+055D: ARMENIAN COMMA	✓
 ․	:			:	:		Po		colon							mijaket	U+2024: ONE DOT LEADER	
-՛	!			ⸯ	!	4	Po		emphasis mark							shesht	U+055B: ARMENIAN EMPHASIS MARK	✓
+՛	!			!̣	!	4	Po		emphasis mark							shesht	U+055B: ARMENIAN EMPHASIS MARK	✓
 ՜	!			!	!		Po		exclamation mark							yerkaratsman nshan	U+055C: ARMENIAN EXCLAMATION MARK	✓
 ՞	?			?	?	|	Po		question mark							hartsakan nshan	U+055E: ARMENIAN QUESTION MARK	✓
 ։	.			.	.	1	Po		full stop							verǰakēt	U+0589: ARMENIAN FULL STOP	✓
@@ -19,8 +20,7 @@ var spreadsheet = `armn-hy	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ]	)			]	]		Pe		bracket								U+005D: RIGHT SQUARE BRACKET	
 ՙ	[			ʿ			Lm	d	mistaken encoding	Do not use.							U+0559: ARMENIAN MODIFIER LETTER LEFT HALF RING	✓
 ՚	[			′		\	Po	d	apostrophe	deprecated						apat'arts	U+055A: ARMENIAN APOSTROPHE	✓
-֏	#			¤			Sc	i	currency symbol							dram	U+058F: ARMENIAN DRAM SIGN	✓
-֏	#			¤	¤		Sc		currency symbol								U+058F: ARMENIAN DRAM SIGN	
+֏	#			¤	¤		Sc	i	currency symbol							dram	U+058F: ARMENIAN DRAM SIGN	✓
 %	%			%			Po		percentage mark								U+0025: PERCENT SIGN	
 ‰	%			‰			Po		per mille mark								U+2030: PER MILLE SIGN	
 ՟	+			¨			Po	a	abbreviation mark	obsolete						pativ	U+055F: ARMENIAN ABBREVIATION MARK	✓
@@ -136,6 +136,17 @@ var spreadsheet = `armn-hy	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ‡				‡	‡		Po		double dagger								U+2021: DOUBLE DAGGER	
 ′				′	′		Po		prime								U+2032: PRIME	
 ″				″	″		Po		double prime								U+2033: DOUBLE PRIME	
+0	0			0	0		Nd		digit								U+0030: DIGIT ZERO	
+1	1			1	1		Nd		digit								U+0031: DIGIT ONE	
+2	2			2	2		Nd		digit								U+0032: DIGIT TWO	
+3	3			3	3		Nd		digit								U+0033: DIGIT THREE	
+4	4			4	4		Nd		digit								U+0034: DIGIT FOUR	
+5	5			5	5		Nd		digit								U+0035: DIGIT FIVE	
+6	6			6	6		Nd		digit								U+0036: DIGIT SIX	
+7	7			7	7		Nd		digit								U+0037: DIGIT SEVEN	
+8	8			8	8		Nd		digit								U+0038: DIGIT EIGHT	
+9	9			9	9		Nd		digit								U+0039: DIGIT NINE	
+																		
 																		
 `																		
 																		
@@ -168,126 +179,3 @@ block: 18,
 																		
 othertranscriptions: [[5, 'ISO-9985']]																		
 }																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
-																		
