@@ -566,9 +566,10 @@ dt {
 
 figure { 
 	margin-inline-start: 10%; 
-	margin-inline-end: 30%; 
+	margin-inline-end: 30%;
+    margin-block: 3rem;
 	text-align: center; 
-	margin-bottom: 5px;
+	/* margin-bottom: 5px;
 	margin: 4em 30% 3em 10%;
 	}
 figure table { 
