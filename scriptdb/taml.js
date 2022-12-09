@@ -1,4 +1,5 @@
 var spreadsheet = `taml-ta	key	ipa	ipa+	translit	ISO	kbd	class	status	type	usage	vs	iv	native name	name	ucs name	block
+\u0020	 						Zs		space						U+0020: SPACE	
 -	-			-	-				hyphen						U+2010: HYPHEN	
 ‑	-			‑	‑		Pd		non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
 –	-			–	–		Pd		en dash						U+2013: EN DASH	
@@ -119,6 +120,17 @@ var spreadsheet = `taml-ta	key	ipa	ipa+	translit	ISO	kbd	class	status	type	usage
 𑌻				–			Mn	u	nukta	not used for Tamil					U+1133B: COMBINING BINDU BELOW	
 ₨				–			Sc	a	rupee symbol						U+20A8: RUPEE SIGN	
 																
+0	0			0	0		Nd		digit						U+0030: DIGIT ZERO	
+1	1			1	1		Nd		digit						U+0031: DIGIT ONE	
+2	2			2	2		Nd		digit						U+0032: DIGIT TWO	
+3	3			3	3		Nd		digit						U+0033: DIGIT THREE	
+4	4			4	4		Nd		digit						U+0034: DIGIT FOUR	
+5	5			5	5		Nd		digit						U+0035: DIGIT FIVE	
+6	6			6	6		Nd		digit						U+0036: DIGIT SIX	
+7	7			7	7		Nd		digit						U+0037: DIGIT SEVEN	
+8	8			8	8		Nd		digit						U+0038: DIGIT EIGHT	
+9	9			9	9		Nd		digit						U+0039: DIGIT NINE	
+																
 																
 `																
 																
@@ -158,5 +170,4 @@ block: 16,
 																
 othertranscriptions: [[5, 'ISO 15919']]																
 }																
-																
 																
