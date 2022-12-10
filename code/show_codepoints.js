@@ -167,6 +167,7 @@ function getTransliteration (node) {
 function transliteratePanel (str, lang) {
 // transliterate the rb tags in the panel
 
+if (trace) console.log('transliteratePanel(',str,lang,') AutoTransliteArray', autoTranslitArray)
 
 // exit if this isn't a full orthography page
 if (typeof autoTranslitArray === 'undefined') return
@@ -218,7 +219,7 @@ function showNameDetails (chars, clang, base, target, panel, list, translit, ipa
 
 console.log('showNameDetails (',chars, clang, base, target, panel, list, translit, ipa,')')
 	// check whether the calling page has set a base and target window
-	if(typeof base === 'undefined' || base === '') { base = '/uniview/?char=' }
+	if(typeof base === 'undefined' || base === '') { base = '../../uniview/index.html?char=' }
 	if(typeof target === 'undefined') { target = '' }
 	if(typeof list === 'undefined') { list = null }
 	if(typeof translit === 'undefined') { translit = '' }
@@ -241,7 +242,6 @@ console.log('showNameDetails (',chars, clang, base, target, panel, list, transli
     
 	var out = '<div id="ruby">'
 	
-    
     // get any IPA data provided - should be pre-separated for graphemes by §
     if (typeof ipa === 'string' && ipa !== '') ipa = ipa.split('§')
     else ipa = false
