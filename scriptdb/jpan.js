@@ -1,496 +1,416 @@
 var spreadsheet = `jpan-ja	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	native name	latin name	ucs name	block
-「									quotation mark				U+300C: LEFT CORNER BRACKET	✓
-」									quotation mark				U+300D: RIGHT CORNER BRACKET	✓
-『									quotation mark				U+300E: LEFT WHITE CORNER BRACKET	✓
-』									quotation mark				U+300F: RIGHT WHITE CORNER BRACKET	✓
-“									quotation mark				U+201C: LEFT DOUBLE QUOTATION MARK	✓
-”									quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK	✓
-\‘				\‘	\‘				quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	✓
-\’				\’	\’				quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	✓
-′									quotation mark				U+2032: PRIME	✓
-″									quotation mark				U+2033: DOUBLE PRIME	✓
-＇				＇	＇				apostrophe	fullwidth			U+FF07: FULLWIDTH APOSTROPHE	
+\u3000				␣	 				ideographic space				U+3000 IDEOGRAPHIC SPACE	✓
+\u0020	 				 		Zs		space				U+0020: SPACE	
 														
-（	<								brackets				U+FF08: FULLWIDTH LEFT PARENTHESIS	✓
-）	>								brackets				U+FF09: FULLWIDTH RIGHT PARENTHESIS	✓
-《	<								brackets				U+300A: LEFT DOUBLE ANGLE BRACKET	✓
-》	>								brackets				U+300B: RIGHT DOUBLE ANGLE BRACKET	✓
-〈	<								brackets				U+3008: LEFT ANGLE BRACKET	✓
-〉	>								brackets				U+3009: RIGHT ANGLE BRACKET	✓
-【	<								brackets				U+3010: LEFT BLACK LENTICULAR BRACKET	✓
-】	>								brackets				U+3011: RIGHT BLACK LENTICULAR BRACKET	✓
-〖	<								brackets				U+3016: LEFT WHITE LENTICULAR BRACKET	✓
-〗	>								brackets				U+3017: RIGHT WHITE LENTICULAR BRACKET	✓
-〔	<								brackets				U+3014: LEFT TORTOISE SHELL BRACKET	✓
-〕	>								brackets				U+3015: RIGHT TORTOISE SHELL BRACKET	✓
-［	<								brackets				U+FF3B: FULLWIDTH LEFT SQUARE BRACKET	✓
-］	>								brackets				U+FF3D: FULLWIDTH RIGHT SQUARE BRACKET	✓
-｛	<								brackets				U+FF5B: FULLWIDTH LEFT CURLY BRACKET	✓
-｝	>								brackets				U+FF5D: FULLWIDTH RIGHT CURLY BRACKET	✓
+「	<			«	“		Ps		quotation mark				U+300C: LEFT CORNER BRACKET	✓
+『	<			‹	“		Ps		quotation mark				U+300E: LEFT WHITE CORNER BRACKET	✓
+｢	<			«̣	“		Ps		punctuation	halfwidth			U+FF62: HALFWIDTH LEFT CORNER BRACKET	✓
+“	<			“	“		Pi		quotation mark				U+201C: LEFT DOUBLE QUOTATION MARK	✓
+\‘	<			\‘	\‘		Pi		quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	✓
+」	>			»	”		Pe		quotation mark				U+300D: RIGHT CORNER BRACKET	✓
+』	>			›	”		Pe		quotation mark				U+300F: RIGHT WHITE CORNER BRACKET	✓
+｣	>			»̣	”		Pe		punctuation	halfwidth			U+FF63: HALFWIDTH RIGHT CORNER BRACKET	✓
+”	>			”	”		Pf		quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK	✓
+\’	>			\’	\’		Pf		quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	✓
+′							Po		quotation mark				U+2032: PRIME	✓
+″							Po		quotation mark				U+2033: DOUBLE PRIME	✓
+〝							Ps		quotation mark	fullwidth			U+301D: REVERSED DOUBLE PRIME QUOTATION MARK	✓
+〞							Pe		quotation mark	fullwidth			U+301E: DOUBLE PRIME QUOTATION MARK	✓
+〟							Pe		quotation mark	fullwidth			U+301F: LOW DOUBLE PRIME QUOTATION MARK	✓
 														
-														
-⸺									dashes				U+2E3A: TWO-EM DASH	✓
-—									dashes				U+2014: EM DASH	✓
--									dashes				U+002D: HYPHEN-MINUS	✓
-–									dashes				U+2013: EN DASH	✓
-…	.			⋯					dashes				U+2026: HORIZONTAL ELLIPSIS	✓
-～				~ʷ					dashes				U+FF5E: FULLWIDTH TILDE	✓
-														
-														
-？	?			?ʷ					quotation marks & apostrophe				U+FF1F: FULLWIDTH QUESTION MARK	✓
-⁇	?								quotation marks & apostrophe				U+2047: DOUBLE QUESTION MARK	✓
-！	!			!ʷ					quotation marks & apostrophe				U+FF01: FULLWIDTH EXCLAMATION MARK	✓
-‼	!								quotation marks & apostrophe				U+203C: DOUBLE EXCLAMATION MARK	✓
-⁈	?								quotation marks & apostrophe				U+2048: QUESTION EXCLAMATION MARK	✓
-⁉	!								quotation marks & apostrophe				U+2049: EXCLAMATION QUESTION MARK	✓
+（	(			(	(		Ps		bracket	fullwidth			U+FF08: FULLWIDTH LEFT PARENTHESIS	✓
+）	)			)	)		Pe		bracket	fullwidth			U+FF09: FULLWIDTH RIGHT PARENTHESIS	✓
+［	(			[	[		Ps		bracket	fullwidth			U+FF3B: FULLWIDTH LEFT SQUARE BRACKET	✓
+］	)			]	]		Pe		bracket	fullwidth			U+FF3D: FULLWIDTH RIGHT SQUARE BRACKET	✓
+〔	(			[˙	[		Ps		bracket	fullwidth			U+3014: LEFT TORTOISE SHELL BRACKET	✓
+〕	)			]˙	]		Pe		bracket	fullwidth			U+3015: RIGHT TORTOISE SHELL BRACKET	✓
+【	(			[¯	[		Ps		bracket	fullwidth			U+3010: LEFT BLACK LENTICULAR BRACKET	✓
+】	)			]¯	]		Pe		bracket	fullwidth			U+3011: RIGHT BLACK LENTICULAR BRACKET	✓
+〖	(			[¨	[		Ps		bracket	fullwidth			U+3016: LEFT WHITE LENTICULAR BRACKET	✓
+〗	)			]¨	]		Pe		bracket	fullwidth			U+3017: RIGHT WHITE LENTICULAR BRACKET	✓
+｛	(			{	{		Ps		bracket	fullwidth			U+FF5B: FULLWIDTH LEFT CURLY BRACKET	✓
+｝	)			}	}		Pe		bracket	fullwidth			U+FF5D: FULLWIDTH RIGHT CURLY BRACKET	✓
+《	(			(¯	[		Ps		bracket	fullwidth			U+300A: LEFT DOUBLE ANGLE BRACKET	✓
+》	)			 )¯	]		Pe		bracket	fullwidth			U+300B: RIGHT DOUBLE ANGLE BRACKET	✓
+〈	(			(¨	[		Ps		bracket	fullwidth			U+3008: LEFT ANGLE BRACKET	✓
+〉	)			)¨	]		Pe		bracket	fullwidth			U+3009: RIGHT ANGLE BRACKET	✓
+(				(˙	(		Ps		bracket				U+0028: LEFT PARENTHESIS	
+)				)˙	)		Pe		bracket				U+0029: RIGHT PARENTHESIS	
+[				[¨	[		Ps		bracket				U+005B: LEFT SQUARE BRACKET	
+]				]¨	]		Pe		bracket				U+005D: RIGHT SQUARE BRACKET	
+{				{˙	{		Ps		bracket				U+007B: LEFT CURLY BRACKET	
+}				}˙	}		Pe		bracket				U+007D: RIGHT CURLY BRACKET	
 														
 														
-，	,			,ʷ					general punctuation				U+FF0C: FULLWIDTH COMMA	✓
-、	,			,ⁱ					general punctuation				U+3001: IDEOGRAPHIC COMMA	✓
-：	:			:ʷ					general punctuation				U+FF1A: FULLWIDTH COLON	✓
-；	;			;ʷ					general punctuation				U+FF1B: FULLWIDTH SEMICOLON	✓
-。	.			.ⁱ					general punctuation				U+3002: IDEOGRAPHIC FULL STOP	✓
-．	.			.ʷ					general punctuation				U+FF0E: FULLWIDTH FULL STOP	✓
-·	.								general punctuation				U+00B7: MIDDLE DOT	✓
-・									general punctuation				U+30FB: KATAKANA MIDDLE DOT	✓
+⸺	-			⸺	—		Pd		dash				U+2E3A: TWO-EM DASH	✓
+—	-			—	—		Pd		dash				U+2014: EM DASH	✓
+–	-			–	–		Pd		dash				U+2013: EN DASH	✓
+-	-			-	-				dash				U+002D: HYPHEN-MINUS	✓
+－	-			-͇	-		Pd		dash	fullwidth			U+FF0D: FULLWIDTH HYPHEN-MINUS	✓
+～	-			-̣	-		Sm		dash	fullwidth			U+FF5E: FULLWIDTH TILDE	✓
+〜	-			-͈	-		Pd		wave dash				U+301C: WAVE DASH	✓
+゠	-			-̱	-		Pd		dash	fullwidth			U+30A0: KATAKANA-HIRAGANA DOUBLE HYPHEN	✓
+〰					-		Pd		wavy dash				U+3030: WAVY DASH	✓
+‐				–	-		Pd		punctuation				U+2010: HYPHEN	✓
+―				–	-		Pd		punctuation				U+2015: HORIZONTAL BAR	✓
+‖				–	-		Po		punctuation				U+2016: DOUBLE VERTICAL LINE	✓
+														
+ー	_			ː			Lm		vowel lengthener				U+30FC: KATAKANA-HIRAGANA PROLONGED SOUND MARK	✓
+														
+？	?			？	？		Po		question mark	fullwidth			U+FF1F: FULLWIDTH QUESTION MARK	✓
+?				?̣	？		Po		question mark				U+003F: QUESTION MARK	
+⁇	?			⁇	??		Po		question mark	fullwidth			U+2047: DOUBLE QUESTION MARK	✓
+！	!			!	!		Po		exclamation mark	fullwidth			U+FF01: FULLWIDTH EXCLAMATION MARK	✓
+!				!̣	!		Po		exclamation mark				U+0021: EXCLAMATION MARK	
+‼	!			‼	!!		Po		exclamation mark	fullwidth			U+203C: DOUBLE EXCLAMATION MARK	✓
+⁈	?			⁈	?!		Po		interrobang	fullwidth			U+2048: QUESTION EXCLAMATION MARK	✓
+⁉	!			⁉	!?		Po		interrobang	fullwidth			U+2049: EXCLAMATION QUESTION MARK	✓
+														
+、	,			,	,		Po		comma	fullwidth			U+3001: IDEOGRAPHIC COMMA	✓
+，	,			,̣	,		Po		comma	fullwidth			U+FF0C: FULLWIDTH COMMA	✓
+､	,			,̱	,		Po		comma	halfwidth			U+FF64: HALFWIDTH IDEOGRAPHIC COMMA	✓
+,				,͈	,		Po		comma				U+002C: COMMA	
+：	:			:	:		Po		colon	fullwidth			U+FF1A: FULLWIDTH COLON	✓
+:				:̣	:		Po		colon				U+003A: COLON	
+；	;			;	;		Po		semicolon	fullwidth			U+FF1B: FULLWIDTH SEMICOLON	✓
+;				;̣	;		Po		semicolon				U+003B: SEMICOLON	
+。	.			.	.		Po		full stop	fullwidth			U+3002: IDEOGRAPHIC FULL STOP	✓
+．	.			.̣	.		Po		fullstop	fullwidth			U+FF0E: FULLWIDTH FULL STOP	✓
+｡	.			.̱	.		Po		full stop	halfwidth			U+FF61: HALFWIDTH IDEOGRAPHIC FULL STOP	
+.				.͈	.		Po		full stop				U+002E: FULL STOP	
+														
+·	.			·	·		Po		middle dot				U+00B7: MIDDLE DOT	✓
+・				・	·		Po		middle dot	fullwidth			U+30FB: KATAKANA MIDDLE DOT	✓
+…	.			…	…		Po		ellipsis				U+2026: HORIZONTAL ELLIPSIS	✓
+‥	.			‥			Po		two dot leader				U+2025: TWO DOT LEADER	✓
+／	/			/	/		Po		solidus	fullwidth			U+FF0F FULLWIDTH SOLIDUS	✓
+/				/̣	/		Po		solidus				U+002F: SOLIDUS	
+＼				–			Po		punctuation	fullwidth			U+FF3C: FULLWIDTH REVERSE SOLIDUS	✓
+\\				–			Po		punctuation				U+005C: REVERSE SOLIDUS	
+														
+\u2060	=			ʷʲ			Cf		word joiner				U+2060: WORD JOINER	✓
+〾	=			~			So		ideographic variation indicator				U+303E: IDEOGRAPHIC VARIATION INDICATOR	✓
+〿							So		ideographic half fill space				U+303F: IDEOGRAPHIC HALF FILL SPACE	✓
+														
+＇				＇	＇		Po		apostrophe	fullwidth			U+FF07: FULLWIDTH APOSTROPHE	✓
+＂							Po		quotation mark	fullwidth			U+FF02: FULLWIDTH QUOTATION MARK	✓
+														
+＆	&			&	&		Po		ampersand	fullwidth			U+FF06: FULLWIDTH AMPERSAND	✓
+〃	&			&̣	&		Po		ditto mark				U+3003: DITTO MARK	✓
+々	&			˖	&		Lm		iteration mark	ideographic			U+3005: IDEOGRAPHIC ITERATION MARK	✓
+〻	&			˖̣	&		Lm		iteration mark	vertical			U+303B: VERTICAL IDEOGRAPHIC ITERATION MARK	✓
+ゝ	&			˖̱	&		Lm		iteration mark	hiragana			U+309D: HIRAGANA ITERATION MARK	✓
+ゞ	&			˖͈	&		Lm		iteration mark	hiragana			U+309E: HIRAGANA VOICED ITERATION MARK	✓
+ヽ	&			 ˖͇	&		Lm		iteration mark	katakana			U+30FD: KATAKANA ITERATION MARK	✓
+ヾ	&			˖̥	&		Lm		iteration mark	katakana			U+30FE: KATAKANA VOICED ITERATION MARK	✓
+														
+※	*			※			Po		reference mark				U+203B: REFERENCE MARK	✓
+＊	*			*	*		Po		asterisk	fullwidth			U+FF0A: FULLWIDTH ASTERISK	✓
+*				*̣	*		Po		asterisk				U+002A: ASTERISK	✓
+§	*			§			Po		section sign				U+00A7: SECTION SIGN	✓
+¶	*			¶			Po		pilcrow sign				U+00B6: PILCROW SIGN	✓
+†	*			†			Po		dagger				U+2020: DAGGER	✓
+‡	*			‡			Po		double dagger				U+2021: DOUBLE DAGGER	✓
+														
+〒				〒			So		postal mark				U+3012: POSTAL MARK	✓
+〠				〠			So		postal mark face				U+3020: POSTAL MARK FACE	✓
+〶				〶			So		postal mark circled				U+3036: CIRCLED POSTAL MARK	✓
+〷				〷			So		telegraphic line feed separator				U+3037: IDEOGRAPHIC TELEGRAPH LINE FEED SEPARATOR SYMBOL	✓
+〓				〓			So		get mark				U+3013: GETA MARK	✓
+														
+〆				〆			Lo		ideographic closing mark				U+3006: IDEOGRAPHIC CLOSING MARK	✓
+〼				〼			Lo		masu mark				U+303C: MASU MARK	✓
+〽				〽			Po		part alternation mark				U+303D: PART ALTERNATION MARK	✓
+ゟ				–			Lo		hiragana				U+309F: HIRAGANA DIGRAPH YORI	✓
+ヿ							Lo		katakana				U+30FF: KATAKANA DIGRAPH KOTO	✓
 														
 														
-0	0			0									U+0030: DIGIT ZERO	
-1	1			1									U+0031: DIGIT ONE	
-2	2			2									U+0032: DIGIT TWO	
-3	3			3									U+0033: DIGIT THREE	
-4	4			4									U+0034: DIGIT FOUR	
-5	5			5									U+0035: DIGIT FIVE	
-6	6			6									U+0036: DIGIT SIX	
-7	7			7									U+0037: DIGIT SEVEN	
-8	8			8									U+0038: DIGIT EIGHT	
-9	9			9									U+0039: DIGIT NINE	
 														
+％	%			％	%		Po		punctuation	fullwidth			U+FF05: FULLWIDTH PERCENT SIGN	✓
+%				%̣	%		Po		punctuation				U+0025: PERCENT SIGN	
+‰	%			‰	‰		Po		punctuation				U+2030: PER MILLE SIGN	✓
 														
-０	0			0					fullwidth digits				U+FF10: FULLWIDTH DIGIT ZERO	✓
-１	1			1					fullwidth digits				U+FF11: FULLWIDTH DIGIT ONE	✓
-２	2			2					fullwidth digits				U+FF12: FULLWIDTH DIGIT TWO	✓
-３	3			3					fullwidth digits				U+FF13: FULLWIDTH DIGIT THREE	✓
-４	4			4					fullwidth digits				U+FF14: FULLWIDTH DIGIT FOUR	✓
-５	5			5					fullwidth digits				U+FF15: FULLWIDTH DIGIT FIVE	✓
-６	6			6					fullwidth digits				U+FF16: FULLWIDTH DIGIT SIX	✓
-７	7			7					fullwidth digits				U+FF17: FULLWIDTH DIGIT SEVEN	✓
-８	8			8					fullwidth digits				U+FF18: FULLWIDTH DIGIT EIGHT	✓
-９	9			9					fullwidth digits				U+FF19: FULLWIDTH DIGIT NINE	✓
-														
-														
-\u2060									format character				U+2060: WORD JOINER	✓
-														
-														
-－	:			ː									U+FF0D: FULLWIDTH HYPHEN-MINUS	✓
-													U+FF07: FULLWIDTH APOSTROPHE	✓
-＂													U+FF02: FULLWIDTH QUOTATION MARK	✓
-‥													U+2025: TWO DOT LEADER	✓
-〃													U+3003: DITTO MARK	✓
-※													U+203B: REFERENCE MARK	✓
-・													U+30FB: KATAKANA MIDDLE DOT	✓
-゠													U+30A0: KATAKANA-HIRAGANA DOUBLE HYPHEN	✓
-														
-														
-														
-\u3000									CJK symbols & punctuation				U+3000 IDEOGRAPHIC SPACE	✓
-〃									CJK symbols & punctuation				U+3003: DITTO MARK	✓
-々									CJK symbols & punctuation				U+3005: IDEOGRAPHIC ITERATION MARK	✓
-〆									CJK symbols & punctuation				U+3006: IDEOGRAPHIC CLOSING MARK	✓
-〇									CJK symbols & punctuation				U+3007: IDEOGRAPHIC NUMBER ZERO	✓
-														
-〒									CJK symbols				U+3012: POSTAL MARK	✓
-〓									CJK symbols				U+3013: GETA MARK	✓
-														
-〜									CJK punctuation				U+301C: WAVE DASH	✓
-〝									CJK punctuation				U+301D: REVERSED DOUBLE PRIME QUOTATION MARK	✓
-〞									CJK punctuation				U+301E: DOUBLE PRIME QUOTATION MARK	✓
-〟									CJK punctuation				U+301F: LOW DOUBLE PRIME QUOTATION MARK	✓
-														
-〠									CJK symbol				U+3020: POSTAL MARK FACE	✓
-														
-〡									suzhou numerals				U+3021: HANGZHOU NUMERAL ONE	✓
-〢									suzhou numerals				U+3022: HANGZHOU NUMERAL TWO	✓
-〣									suzhou numerals				U+3023: HANGZHOU NUMERAL THREE	✓
-〤									suzhou numerals				U+3024: HANGZHOU NUMERAL FOUR	✓
-〥									suzhou numerals				U+3025: HANGZHOU NUMERAL FIVE	✓
-〦									suzhou numerals				U+3026: HANGZHOU NUMERAL SIX	✓
-〧									suzhou numerals				U+3027: HANGZHOU NUMERAL SEVEN	✓
-〨									suzhou numerals				U+3028: HANGZHOU NUMERAL EIGHT	✓
-〩									suzhou numerals				U+3029: HANGZHOU NUMERAL NINE	✓
-														
-〪									combining tone marks				U+302A: IDEOGRAPHIC LEVEL TONE MARK	✓
-〫									combining tone marks				U+302B: IDEOGRAPHIC RISING TONE MARK	✓
-〬									combining tone marks				U+302C: IDEOGRAPHIC DEPARTING TONE MARK	✓
-〭									combining tone marks				U+302D: IDEOGRAPHIC ENTERING TONE MARK	✓
-														
-														
-														
-〰									other CJK punctuation				U+3030: WAVY DASH	✓
-														
-〶									other CJK symbols				U+3036: CIRCLED POSTAL MARK	✓
-〷									other CJK symbols				U+3037: IDEOGRAPHIC TELEGRAPH LINE FEED SEPARATOR SYMBOL	✓
-														
-〸									additional suzhou numerals				U+3038: HANGZHOU NUMERAL TEN	✓
-〹									additional suzhou numerals				U+3039: HANGZHOU NUMERAL TWENTY	✓
-〺									additional suzhou numerals				U+303A: HANGZHOU NUMERAL THIRTY	✓
-														
-〻									other CJK punctuation				U+303B: VERTICAL IDEOGRAPHIC ITERATION MARK	✓
-〼									other CJK punctuation				U+303C: MASU MARK	✓
-〽									other CJK punctuation				U+303D: PART ALTERNATION MARK	✓
-														
-〾									special CJK indicators				U+303E: IDEOGRAPHIC VARIATION INDICATOR	✓
-〿									special CJK indicators				U+303F: IDEOGRAPHIC HALF FILL SPACE	✓
+＠	@			@	@		Po		at sign	fullwidth			U+FF20: FULLWIDTH COMMERCIAL AT	✓
+@	@			@̣	@		Po		at sign				U+0040: COMMERCIAL AT	
 														
 														
 														
 														
-／													U+FF0F FULLWIDTH SOLIDUS	✓
 														
 														
-														
-A	A			A									U+0041: LATIN CAPITAL LETTER A	
-B	B			B									U+0042: LATIN CAPITAL LETTER B	
-C	C			C									U+0043: LATIN CAPITAL LETTER C	
-D	D			D									U+0044: LATIN CAPITAL LETTER D	
-E	E			E									U+0045: LATIN CAPITAL LETTER E	
-F	F			F									U+0046: LATIN CAPITAL LETTER F	
-G	G			G									U+0047: LATIN CAPITAL LETTER G	
-H	H			H									U+0048: LATIN CAPITAL LETTER H	
-I	I			I									U+0049: LATIN CAPITAL LETTER I	
-J	J			J									U+004A: LATIN CAPITAL LETTER J	
-K	K			K									U+004B: LATIN CAPITAL LETTER K	
-L	L			L									U+004C: LATIN CAPITAL LETTER L	
-M	M			M									U+004D: LATIN CAPITAL LETTER M	
-N	N			N									U+004E: LATIN CAPITAL LETTER N	
-O	O			O									U+004F: LATIN CAPITAL LETTER O	
-P	P			P									U+0050: LATIN CAPITAL LETTER P	
-Q	Q			Q									U+0051: LATIN CAPITAL LETTER Q	
-R	R			R									U+0052: LATIN CAPITAL LETTER R	
-S	S			S									U+0053: LATIN CAPITAL LETTER S	
-T	T			T									U+0054: LATIN CAPITAL LETTER T	
-U	U			U									U+0055: LATIN CAPITAL LETTER U	
-V	V			V									U+0056: LATIN CAPITAL LETTER V	
-W	W			W									U+0057: LATIN CAPITAL LETTER W	
-X	X			X									U+0058: LATIN CAPITAL LETTER X	
-Y	Y			Y									U+0059: LATIN CAPITAL LETTER Y	
-Z	Z			Z									U+005A: LATIN CAPITAL LETTER Z	
-a	a			a									U+0061: LATIN SMALL LETTER A	
-b	b			b									U+0062: LATIN SMALL LETTER B	
-c	c			c									U+0063: LATIN SMALL LETTER C	
-d	d			d									U+0064: LATIN SMALL LETTER D	
-e	e			e									U+0065: LATIN SMALL LETTER E	
-f	f			f									U+0066: LATIN SMALL LETTER F	
-g	g			g									U+0067: LATIN SMALL LETTER G	
-h	h			h									U+0068: LATIN SMALL LETTER H	
-i	i			i									U+0069: LATIN SMALL LETTER I	
-j	j			j									U+006A: LATIN SMALL LETTER J	
-k	k			k									U+006B: LATIN SMALL LETTER K	
-l	l			l									U+006C: LATIN SMALL LETTER L	
-m	m			m									U+006D: LATIN SMALL LETTER M	
-n	n			n									U+006E: LATIN SMALL LETTER N	
-o	o			o									U+006F: LATIN SMALL LETTER O	
-p	p			p									U+0070: LATIN SMALL LETTER P	
-q	q			q									U+0071: LATIN SMALL LETTER Q	
-r	r			r									U+0072: LATIN SMALL LETTER R	
-s	s			s									U+0073: LATIN SMALL LETTER S	
-t	t			t									U+0074: LATIN SMALL LETTER T	
-u	u			u									U+0075: LATIN SMALL LETTER U	
-v	v			v									U+0076: LATIN SMALL LETTER V	
-w	w			w									U+0077: LATIN SMALL LETTER W	
-x	x			x									U+0078: LATIN SMALL LETTER X	
-y	y			y									U+0079: LATIN SMALL LETTER Y	
-z	z			z									U+007A: LATIN SMALL LETTER Z	
-														
-														
-														
-														
-Ａ	A			A					fullwidth				U+FF21: FULLWIDTH LATIN CAPITAL LETTER A	✓
-Ｂ	B			B					fullwidth				U+FF22: FULLWIDTH LATIN CAPITAL LETTER B	✓
-Ｃ	C			C					fullwidth				U+FF23: FULLWIDTH LATIN CAPITAL LETTER C	✓
-Ｄ	D			D					fullwidth				U+FF24: FULLWIDTH LATIN CAPITAL LETTER D	✓
-Ｅ	E			E					fullwidth				U+FF25: FULLWIDTH LATIN CAPITAL LETTER E	✓
-Ｆ	F			F					fullwidth				U+FF26: FULLWIDTH LATIN CAPITAL LETTER F	✓
-Ｇ	G			G					fullwidth				U+FF27: FULLWIDTH LATIN CAPITAL LETTER G	✓
-Ｈ	H			H					fullwidth				U+FF28: FULLWIDTH LATIN CAPITAL LETTER H	✓
-Ｉ	I			I					fullwidth				U+FF29: FULLWIDTH LATIN CAPITAL LETTER I	✓
-Ｊ	J			J					fullwidth				U+FF2A: FULLWIDTH LATIN CAPITAL LETTER J	✓
-Ｋ	K			K					fullwidth				U+FF2B: FULLWIDTH LATIN CAPITAL LETTER K	✓
-Ｌ	L			L					fullwidth				U+FF2C: FULLWIDTH LATIN CAPITAL LETTER L	✓
-Ｍ	M			M					fullwidth				U+FF2D: FULLWIDTH LATIN CAPITAL LETTER M	✓
-Ｎ	N			N					fullwidth				U+FF2E: FULLWIDTH LATIN CAPITAL LETTER N	✓
-Ｏ	O			O					fullwidth				U+FF2F: FULLWIDTH LATIN CAPITAL LETTER O	✓
-Ｐ	P			P					fullwidth				U+FF30: FULLWIDTH LATIN CAPITAL LETTER P	✓
-Ｑ	Q			Q					fullwidth				U+FF31: FULLWIDTH LATIN CAPITAL LETTER Q	✓
-Ｒ	R			R					fullwidth				U+FF32: FULLWIDTH LATIN CAPITAL LETTER R	✓
-Ｓ	S			S					fullwidth				U+FF33: FULLWIDTH LATIN CAPITAL LETTER S	✓
-Ｔ	T			T					fullwidth				U+FF34: FULLWIDTH LATIN CAPITAL LETTER T	✓
-Ｕ	U			U					fullwidth				U+FF35: FULLWIDTH LATIN CAPITAL LETTER U	✓
-Ｖ	V			V					fullwidth				U+FF36: FULLWIDTH LATIN CAPITAL LETTER V	✓
-Ｗ	W			W					fullwidth				U+FF37: FULLWIDTH LATIN CAPITAL LETTER W	✓
-Ｘ	X			X					fullwidth				U+FF38: FULLWIDTH LATIN CAPITAL LETTER X	✓
-Ｙ	Y			Y					fullwidth				U+FF39: FULLWIDTH LATIN CAPITAL LETTER Y	✓
-Ｚ	Z			Z					fullwidth				U+FF3A: FULLWIDTH LATIN CAPITAL LETTER Z	✓
-ａ	a			a					fullwidth				U+FF41: FULLWIDTH LATIN SMALL LETTER A	✓
-ｂ	b			b					fullwidth				U+FF42: FULLWIDTH LATIN SMALL LETTER B	✓
-ｃ	c			c					fullwidth				U+FF43: FULLWIDTH LATIN SMALL LETTER C	✓
-ｄ	d			d					fullwidth				U+FF44: FULLWIDTH LATIN SMALL LETTER D	✓
-ｅ	e			e					fullwidth				U+FF45: FULLWIDTH LATIN SMALL LETTER E	✓
-ｆ	f			f					fullwidth				U+FF46: FULLWIDTH LATIN SMALL LETTER F	✓
-ｇ	g			g					fullwidth				U+FF47: FULLWIDTH LATIN SMALL LETTER G	✓
-ｈ	h			h					fullwidth				U+FF48: FULLWIDTH LATIN SMALL LETTER H	✓
-ｉ	i			i					fullwidth				U+FF49: FULLWIDTH LATIN SMALL LETTER I	✓
-ｊ	j			j					fullwidth				U+FF4A: FULLWIDTH LATIN SMALL LETTER J	✓
-ｋ	k			k					fullwidth				U+FF4B: FULLWIDTH LATIN SMALL LETTER K	✓
-ｌ	l			l					fullwidth				U+FF4C: FULLWIDTH LATIN SMALL LETTER L	✓
-ｍ	m			m					fullwidth				U+FF4D: FULLWIDTH LATIN SMALL LETTER M	✓
-ｎ	n			n					fullwidth				U+FF4E: FULLWIDTH LATIN SMALL LETTER N	✓
-ｏ	o			o					fullwidth				U+FF4F: FULLWIDTH LATIN SMALL LETTER O	✓
-ｐ	p			p					fullwidth				U+FF50: FULLWIDTH LATIN SMALL LETTER P	✓
-ｑ	q			q					fullwidth				U+FF51: FULLWIDTH LATIN SMALL LETTER Q	✓
-ｒ	r			r					fullwidth				U+FF52: FULLWIDTH LATIN SMALL LETTER R	✓
-ｓ	s			s					fullwidth				U+FF53: FULLWIDTH LATIN SMALL LETTER S	✓
-ｔ	t			t					fullwidth				U+FF54: FULLWIDTH LATIN SMALL LETTER T	✓
-ｕ	u			u					fullwidth				U+FF55: FULLWIDTH LATIN SMALL LETTER U	✓
-ｖ	v			v					fullwidth				U+FF56: FULLWIDTH LATIN SMALL LETTER V	✓
-ｗ	w			w					fullwidth				U+FF57: FULLWIDTH LATIN SMALL LETTER W	✓
-ｘ	x			x					fullwidth				U+FF58: FULLWIDTH LATIN SMALL LETTER X	✓
-ｙ	y			y					fullwidth				U+FF59: FULLWIDTH LATIN SMALL LETTER Y	✓
-ｚ	z			z					fullwidth				U+FF5A: FULLWIDTH LATIN SMALL LETTER Z	✓
-														
-														
-														
-IPA1		d͡z												
-IPA2		t͡s												
-IPA3		t͡ɕ												
-IPA4		d͡ʑ												
-IPA5		ɕ												
-IPA6		ʑ												
-IPA7		ç												
-IPA8		ɲ												
-IPA9		ŋ												
-IPA10		ɴ												
-IPA11		ɸ												
-														
-romaji1		ā												
-romaji2		ī												
-romaji3		ū												
-romaji4		ē												
-romaji5		ō												
-														
-														
-														
-														
-一				1					number				U+4E00 [CJK Unified Ideograph]	
-二				2					number				U+4E8C [CJK Unified Ideograph]	
-三				3					number				U+4E09 [CJK Unified Ideograph]	
-四				4					number				U+56DB [CJK Unified Ideograph]	
-五				5					number				U+4E94 [CJK Unified Ideograph]	
-六				6					number				‎U+516D [CJK Unified Ideograph]	
-七				7					number				U+4E03 [CJK Unified Ideograph]	
-八				8					number				U+516B [CJK Unified Ideograph]	
-九				9					number				U+4E5D [CJK Unified Ideograph]	
-〇				0					number				U+3007 IDEOGRAPHIC NUMBER ZERO	✓
-十				{10}					number				U+5341 [CJK Unified Ideograph]	
-百				{100}					number				‎U+767E [CJK Unified Ideograph]	
-千				{1000}					number				U+5343 [CJK Unified Ideograph]	
-万				{10000}					number				U+4E07 [CJK Unified Ideograph]	
-														
-														
-														
-あ	a	a		a					hiragana				U+3042: HIRAGANA LETTER A	kana
-い	i	i		i					hiragana				U+3044: HIRAGANA LETTER I	kana
-う	u	u		u					hiragana				U+3046: HIRAGANA LETTER U	kana
-え	e	e		e					hiragana				U+3048: HIRAGANA LETTER E	kana
-お	o	o		o					hiragana				U+304A: HIRAGANA LETTER O	kana
-か	k	ka		kᵃ					hiragana				U+304B: HIRAGANA LETTER KA	kana
-が	g	ga		gᵃ					hiragana				U+304C: HIRAGANA LETTER GA	kana
-き	k	ki		kⁱ					hiragana				U+304D: HIRAGANA LETTER KI	kana
-ぎ	g	gi		gⁱ					hiragana				U+304E: HIRAGANA LETTER GI	kana
-く	k	ku		kᵘ					hiragana				U+304F: HIRAGANA LETTER KU	kana
-ぐ	g	gu		gᵘ					hiragana				U+3050: HIRAGANA LETTER GU	kana
-け	k	ke		kᵉ					hiragana				U+3051: HIRAGANA LETTER KE	kana
-げ	g	ge		gᵉ					hiragana				U+3052: HIRAGANA LETTER GE	kana
-こ	k	go		kᵒ					hiragana				U+3053: HIRAGANA LETTER KO	kana
-ご	g	go		gᵒ					hiragana				U+3054: HIRAGANA LETTER GO	kana
-さ	s	sa		sᵃ					hiragana				U+3055: HIRAGANA LETTER SA	kana
-ざ	z	za		zᵃ					hiragana				U+3056: HIRAGANA LETTER ZA	kana
-し	s	ʃi		sⁱ					hiragana				U+3057: HIRAGANA LETTER SI	kana
-じ	z	d͡ʒi		jⁱ					hiragana				U+3058: HIRAGANA LETTER ZI	kana
-す	s	su		sᵘ					hiragana				U+3059: HIRAGANA LETTER SU	kana
-ず	z	zu		zᵘ					hiragana				U+305A: HIRAGANA LETTER ZU	kana
-せ	s	se		sᵉ					hiragana				U+305B: HIRAGANA LETTER SE	kana
-ぜ	z	ze		zᵉ					hiragana				U+305C: HIRAGANA LETTER ZE	kana
-そ	s	so		sᵒ					hiragana				U+305D: HIRAGANA LETTER SO	kana
-ぞ	z	zo		zᵒ					hiragana				U+305E: HIRAGANA LETTER ZO	kana
-た	t	ta		tᵃ					hiragana				U+305F: HIRAGANA LETTER TA	kana
-だ	d	da		dᵃ					hiragana				U+3060: HIRAGANA LETTER DA	kana
-ち	t	t͡ʃi		cⁱ					hiragana				U+3061: HIRAGANA LETTER TI	kana
-ぢ	d	d͡ʒi		jⁱ					hiragana				U+3062: HIRAGANA LETTER DI	kana
-つ	t	t͡su		tᵘ					hiragana				U+3064: HIRAGANA LETTER TU	kana
-づ	d	d͡zu		dᵘ					hiragana				U+3065: HIRAGANA LETTER DU	kana
-て	t	te		tᵉ					hiragana				U+3066: HIRAGANA LETTER TE	kana
-で	d	de		dᵉ					hiragana				U+3067: HIRAGANA LETTER DE	kana
-と	t	to		tᵒ					hiragana				U+3068: HIRAGANA LETTER TO	kana
-ど	d	do		dᵒ					hiragana				U+3069: HIRAGANA LETTER DO	kana
-な	n	na		nᵃ					hiragana				U+306A: HIRAGANA LETTER NA	kana
-に	n	ni		nⁱ					hiragana				U+306B: HIRAGANA LETTER NI	kana
-ぬ	n	nu		nᵘ					hiragana				U+306C: HIRAGANA LETTER NU	kana
-ね	n	ne		nᵉ					hiragana				U+306D: HIRAGANA LETTER NE	kana
-の	n	no		nᵒ					hiragana				U+306E: HIRAGANA LETTER NO	kana
-は	h	ha wa		hᵃ					hiragana				U+306F: HIRAGANA LETTER HA	kana
-ば	b	ba		bᵃ					hiragana				U+3070: HIRAGANA LETTER BA	kana
-ぱ	p	pa		pᵃ					hiragana				U+3071: HIRAGANA LETTER PA	kana
-ひ	h	hi		hⁱ					hiragana				U+3072: HIRAGANA LETTER HI	kana
-び	b	bi		bⁱ					hiragana				U+3073: HIRAGANA LETTER BI	kana
-ぴ	p	pi		pⁱ					hiragana				U+3074: HIRAGANA LETTER PI	kana
-ふ	h	hu		hᵘ					hiragana				U+3075: HIRAGANA LETTER HU	kana
-ぶ	b	bu		bᵘ					hiragana				U+3076: HIRAGANA LETTER BU	kana
-ぷ	p	pu		pᵘ					hiragana				U+3077: HIRAGANA LETTER PU	kana
-へ	h	he		hᵉ					hiragana				U+3078: HIRAGANA LETTER HE	kana
-べ	b	be		bᵉ					hiragana				U+3079: HIRAGANA LETTER BE	kana
-ぺ	p	pe		pᵉ					hiragana				U+307A: HIRAGANA LETTER PE	kana
-ほ	h	ho		hᵒ					hiragana				U+307B: HIRAGANA LETTER HO	kana
-ぼ	b	bo		bᵒ					hiragana				U+307C: HIRAGANA LETTER BO	kana
-ぽ	p	po		pᵒ					hiragana				U+307D: HIRAGANA LETTER PO	kana
-ま	m	ma		mᵃ					hiragana				U+307E: HIRAGANA LETTER MA	kana
-み	m	mi		mⁱ					hiragana				U+307F: HIRAGANA LETTER MI	kana
-む	m	mu		mᵘ					hiragana				U+3080: HIRAGANA LETTER MU	kana
-め	m	me		mᵉ					hiragana				U+3081: HIRAGANA LETTER ME	kana
-も	m	mo		mᵒ					hiragana				U+3082: HIRAGANA LETTER MO	kana
-や	y	ja		yᵃ					hiragana				U+3084: HIRAGANA LETTER YA	kana
-ゆ	y	ju		yᵘ					hiragana				U+3086: HIRAGANA LETTER YU	kana
-よ	y	jo		yᵒ					hiragana				U+3088: HIRAGANA LETTER YO	kana
-ら	r	ra		rᵃ					hiragana				U+3089: HIRAGANA LETTER RA	kana
-り	r	ri		rⁱ					hiragana				U+308A: HIRAGANA LETTER RI	kana
-る	r	ru		rᵘ					hiragana				U+308B: HIRAGANA LETTER RU	kana
-れ	r	re		rᵉ					hiragana				U+308C: HIRAGANA LETTER RE	kana
-ろ	r	ro		rᵒ					hiragana				U+308D: HIRAGANA LETTER RO	kana
-わ	w	wa		wᵃ					hiragana				U+308F: HIRAGANA LETTER WA	kana
-ゐ	w	wi		wⁱ					hiragana				U+3090: HIRAGANA LETTER WI	kana
-ゑ	w	we		wᵉ					hiragana				U+3091: HIRAGANA LETTER WE	kana
-を	w	wo o		wᵒ					hiragana				U+3092: HIRAGANA LETTER WO	kana
-ん	n	n		n					hiragana				U+3093: HIRAGANA LETTER N	kana
-ゔ	v	vu		vᵘ					hiragana				U+3094: HIRAGANA LETTER VU	kana
-ぁ	a	a		ₐ					hiragana				U+3041: HIRAGANA LETTER SMALL A	kana
-ぃ	i	i		ᵢ					hiragana				U+3043: HIRAGANA LETTER SMALL I	kana
-ぅ	u	u		ᵤ					hiragana				U+3045: HIRAGANA LETTER SMALL U	kana
-ぇ	e	e		ₑ					hiragana				U+3047: HIRAGANA LETTER SMALL E	kana
-ぉ	o	o		ₒ					hiragana				U+3049: HIRAGANA LETTER SMALL O	kana
-っ	t			ₜ					hiragana				U+3063: HIRAGANA LETTER SMALL TU	kana
-ゃ	y	ja		ᵧᵃ					hiragana				U+3083: HIRAGANA LETTER SMALL YA	kana
-ゅ	y	ju		ᵧᵘ					hiragana				U+3085: HIRAGANA LETTER SMALL YU	kana
-ょ	y	jo		ᵧᵒ					hiragana				U+3087: HIRAGANA LETTER SMALL YO	kana
-ゎ	w			–					hiragana				U+308E: HIRAGANA LETTER SMALL WA	kana
-ゕ	k			–					hiragana				U+3095: HIRAGANA LETTER SMALL KA	kana
-ゖ	k			–					hiragana				U+3096: HIRAGANA LETTER SMALL KE	kana
-゙				–					hiragana				U+3099: COMBINING KATAKANA-HIRAGANA VOICED SOUND MARK	kana
-゚				–					hiragana				U+309A: COMBINING KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK	kana
-゛				–					hiragana				U+309B: KATAKANA-HIRAGANA VOICED SOUND MARK	kana
-゜				–					hiragana				U+309C: KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK	kana
-ゝ	&			&					hiragana				U+309D: HIRAGANA ITERATION MARK	kana
-ゞ	&			&ᵛ					hiragana				U+309E: HIRAGANA VOICED ITERATION MARK	kana
-ゟ				–					hiragana				U+309F: HIRAGANA DIGRAPH YORI	kana
+あ	a	a		a	a		Lo		hiragana				U+3042: HIRAGANA LETTER A	✓
+ぁ	a	a		ₐ	a		Lo		hiragana				U+3041: HIRAGANA LETTER SMALL A	✓
+ａ	a	a		a	a		Ll		fullwidth				U+FF41: FULLWIDTH LATIN SMALL LETTER A	✓
+ア	A	a		ā	a		Lo		katakana				U+30A2: KATAKANA LETTER A	✓
+ァ	A	a		ₐ̄	a		Lo		katakana				U+30A1: KATAKANA LETTER SMALL A	✓
+Ａ	A	a		A	a		Lu		fullwidth				U+FF21: FULLWIDTH LATIN CAPITAL LETTER A	✓
+ば	b	ba		bᵃ	ba		Lo		hiragana				U+3070: HIRAGANA LETTER BA	✓
+び	b	bi		bⁱ	bi		Lo		hiragana				U+3073: HIRAGANA LETTER BI	✓
+ぶ	b	bu		bᵘ	bu		Lo		hiragana				U+3076: HIRAGANA LETTER BU	✓
+べ	b	be		bᵉ	be		Lo		hiragana				U+3079: HIRAGANA LETTER BE	✓
+ぼ	b	bo		bᵒ	bo		Lo		hiragana				U+307C: HIRAGANA LETTER BO	✓
+ｂ	b	b		b	b		Ll		fullwidth				U+FF42: FULLWIDTH LATIN SMALL LETTER B	✓
+バ	B	ba		b̄ᵃ	ba		Lo		katakana				U+30D0: KATAKANA LETTER BA	✓
+ビ	B	bi		b̄ⁱ	bi		Lo		katakana				U+30D3: KATAKANA LETTER BI	✓
+ブ	B	bu		b̄ᵘ	bu		Lo		katakana				U+30D6: KATAKANA LETTER BU	✓
+ベ	B	be		b̄ᵉ	be		Lo		katakana				U+30D9: KATAKANA LETTER BE	✓
+ボ	B	bo		b̄ᵒ	bo		Lo		katakana				U+30DC: KATAKANA LETTER BO	✓
+Ｂ	B	b		B	b		Lu		fullwidth				U+FF22: FULLWIDTH LATIN CAPITAL LETTER B	✓
+Ｃ	C	c		C	c		Lu		fullwidth				U+FF23: FULLWIDTH LATIN CAPITAL LETTER C	✓
+ｃ	c	c		c	c		Ll		fullwidth				U+FF43: FULLWIDTH LATIN SMALL LETTER C	✓
+だ	d	da		dᵃ	da		Lo		hiragana				U+3060: HIRAGANA LETTER DA	✓
+ぢ	d	d͡ʒi		jⁱ	ji		Lo		hiragana				U+3062: HIRAGANA LETTER DI	✓
+づ	d	d͡zu		dᵘ	zu		Lo		hiragana				U+3065: HIRAGANA LETTER DU	✓
+で	d	de		dᵉ	de		Lo		hiragana				U+3067: HIRAGANA LETTER DE	✓
+ど	d	do		dᵒ	do		Lo		hiragana				U+3069: HIRAGANA LETTER DO	✓
+ダ	D	da		d̄ᵃ	da		Lo		katakana				U+30C0: KATAKANA LETTER DA	✓
+ヂ	D	d͡ʒi		j̄ⁱ	ji		Lo		katakana				U+30C2: KATAKANA LETTER DI	✓
+ヅ	D	d͡zu		d̄ᵘ	zu		Lo		katakana				U+30C5: KATAKANA LETTER DU	✓
+デ	D	de		d̄ᵉ	de		Lo		katakana				U+30C7: KATAKANA LETTER DE	✓
+ド	D	do		d̄ᵒ	do		Lo		katakana				U+30C9: KATAKANA LETTER DO	✓
+Ｄ	D	d		D	d		Lu		fullwidth				U+FF24: FULLWIDTH LATIN CAPITAL LETTER D	✓
+ｄ	d	d		d	d		Ll		fullwidth				U+FF44: FULLWIDTH LATIN SMALL LETTER D	✓
+え	e	e		e	e		Lo		hiragana				U+3048: HIRAGANA LETTER E	✓
+ぇ	e	e		ₑ	e		Lo		hiragana				U+3047: HIRAGANA LETTER SMALL E	✓
+エ	E	e		ē	e		Lo		katakana				U+30A8: KATAKANA LETTER E	✓
+ェ	E	e		ₑ̄	e		Lo		katakana				U+30A7: KATAKANA LETTER SMALL E	✓
+Ｅ	E	e		E	e		Lu		fullwidth				U+FF25: FULLWIDTH LATIN CAPITAL LETTER E	✓
+ｅ	e	e		e	e		Ll		fullwidth				U+FF45: FULLWIDTH LATIN SMALL LETTER E	✓
+Ｆ	F	f		F	f		Lu		fullwidth				U+FF26: FULLWIDTH LATIN CAPITAL LETTER F	✓
+ｆ	f	f		f	f		Ll		fullwidth				U+FF46: FULLWIDTH LATIN SMALL LETTER F	✓
+が	g	ga		gᵃ	ga		Lo		hiragana				U+304C: HIRAGANA LETTER GA	✓
+ぎ	g	gi		gⁱ	gi		Lo		hiragana				U+304E: HIRAGANA LETTER GI	✓
+ぐ	g	gu		gᵘ	gu		Lo		hiragana				U+3050: HIRAGANA LETTER GU	✓
+げ	g	ge		gᵉ	ge		Lo		hiragana				U+3052: HIRAGANA LETTER GE	✓
+ご	g	go		gᵒ	go		Lo		hiragana				U+3054: HIRAGANA LETTER GO	✓
+ガ	G	ga		ḡᵃ	ga		Lo		katakana				U+30AC: KATAKANA LETTER GA	✓
+ギ	G	gi		ḡⁱ	gi		Lo		katakana				U+30AE: KATAKANA LETTER GI	✓
+グ	G	gu		ḡᵘ	gu		Lo		katakana				U+30B0: KATAKANA LETTER GU	✓
+ゲ	G	ge		ḡᵉ	ge		Lo		katakana				U+30B2: KATAKANA LETTER GE	✓
+ゴ	G	go		ḡᵒ	go		Lo		katakana				U+30B4: KATAKANA LETTER GO	✓
+Ｇ	G	g		G	g		Lu		fullwidth				U+FF27: FULLWIDTH LATIN CAPITAL LETTER G	✓
+ｇ	g	g		g	g		Ll		fullwidth				U+FF47: FULLWIDTH LATIN SMALL LETTER G	✓
+は	h	ha wa		hᵃ	ha wa		Lo		hiragana				U+306F: HIRAGANA LETTER HA	✓
+ひ	h	hi		hⁱ	hi		Lo		hiragana				U+3072: HIRAGANA LETTER HI	✓
+ふ	h	hu		hᵘ	fu hu		Lo		hiragana				U+3075: HIRAGANA LETTER HU	✓
+へ	h	he		hᵉ	he e		Lo		hiragana				U+3078: HIRAGANA LETTER HE	✓
+ほ	h	ho		hᵒ	ho		Lo		hiragana				U+307B: HIRAGANA LETTER HO	✓
+ハ	H	ha		h̄ᵃ	ha		Lo		katakana				U+30CF: KATAKANA LETTER HA	✓
+ヒ	H	hi		h̄ⁱ	hi		Lo		katakana				U+30D2: KATAKANA LETTER HI	✓
+フ	H	hu		h̄ᵘ	hu		Lo		katakana				U+30D5: KATAKANA LETTER HU	✓
+ヘ	H	he		h̄ᵉ	he		Lo		katakana				U+30D8: KATAKANA LETTER HE	✓
+ホ	H	ho		h̄ᵒ	ho		Lo		katakana				U+30DB: KATAKANA LETTER HO	✓
+Ｈ	H	h		H	h		Lu		fullwidth				U+FF28: FULLWIDTH LATIN CAPITAL LETTER H	✓
+ｈ	h	h		h	h		Ll		fullwidth				U+FF48: FULLWIDTH LATIN SMALL LETTER H	✓
+い	i	i		i	i		Lo		hiragana				U+3044: HIRAGANA LETTER I	✓
+ぃ	i	i		ᵢ	i		Lo		hiragana				U+3043: HIRAGANA LETTER SMALL I	✓
+イ	I	i		ī	i		Lo		katakana				U+30A4: KATAKANA LETTER I	✓
+ィ	I	i		ᵢ̄	i		Lo		katakana				U+30A3: KATAKANA LETTER SMALL I	✓
+Ｉ	I	i		I	i		Lu		fullwidth				U+FF29: FULLWIDTH LATIN CAPITAL LETTER I	✓
+ｉ	i	i		i	i		Ll		fullwidth				U+FF49: FULLWIDTH LATIN SMALL LETTER I	✓
+Ｊ	J	j		J	j		Lu		fullwidth				U+FF2A: FULLWIDTH LATIN CAPITAL LETTER J	✓
+ｊ	j	j		j	j		Ll		fullwidth				U+FF4A: FULLWIDTH LATIN SMALL LETTER J	✓
+か	k	ka		kᵃ	ka		Lo		hiragana				U+304B: HIRAGANA LETTER KA	✓
+き	k	ki		kⁱ	ki		Lo		hiragana				U+304D: HIRAGANA LETTER KI	✓
+く	k	ku		kᵘ	ku		Lo		hiragana				U+304F: HIRAGANA LETTER KU	✓
+け	k	ke		kᵉ	ke		Lo		hiragana				U+3051: HIRAGANA LETTER KE	✓
+こ	k	ko		kᵒ	ko		Lo		hiragana				U+3053: HIRAGANA LETTER KO	✓
+ゕ	k			–			Lo		hiragana				U+3095: HIRAGANA LETTER SMALL KA	✓
+ゖ	k			–			Lo		hiragana				U+3096: HIRAGANA LETTER SMALL KE	✓
+カ	K	ka		k̄ᵃ	ka		Lo		katakana				U+30AB: KATAKANA LETTER KA	✓
+キ	K	ki		k̄ⁱ	ki		Lo		katakana				U+30AD: KATAKANA LETTER KI	✓
+ク	K	ku		k̄ᵘ	ku		Lo		katakana				U+30AF: KATAKANA LETTER KU	✓
+ケ	K	ke		k̄ᵉ	ke		Lo		katakana				U+30B1: KATAKANA LETTER KE	✓
+コ	K	ko		k̄ᵒ	ko		Lo		katakana				U+30B3: KATAKANA LETTER KO	✓
+ヵ	K			–			Lo		katakana				U+30F5: KATAKANA LETTER SMALL KA	✓
+ヶ	K			–			Lo		katakana				U+30F6: KATAKANA LETTER SMALL KE	✓
+Ｋ	K	k		K	k		Lu		fullwidth				U+FF2B: FULLWIDTH LATIN CAPITAL LETTER K	✓
+ｋ	k	k		k	k		Ll		fullwidth				U+FF4B: FULLWIDTH LATIN SMALL LETTER K	✓
+Ｌ	L	l		L	l		Lu		fullwidth				U+FF2C: FULLWIDTH LATIN CAPITAL LETTER L	✓
+ｌ	l	l		l	l		Ll		fullwidth				U+FF4C: FULLWIDTH LATIN SMALL LETTER L	✓
+ま	m	ma		mᵃ	ma		Lo		hiragana				U+307E: HIRAGANA LETTER MA	✓
+み	m	mi		mⁱ	mi		Lo		hiragana				U+307F: HIRAGANA LETTER MI	✓
+む	m	mu		mᵘ	mu		Lo		hiragana				U+3080: HIRAGANA LETTER MU	✓
+め	m	me		mᵉ	me		Lo		hiragana				U+3081: HIRAGANA LETTER ME	✓
+も	m	mo		mᵒ	mo		Lo		hiragana				U+3082: HIRAGANA LETTER MO	✓
+マ	M	ma		m̄ᵃ	ma		Lo		katakana				U+30DE: KATAKANA LETTER MA	✓
+ミ	M	mi		m̄ⁱ	mi		Lo		katakana				U+30DF: KATAKANA LETTER MI	✓
+ム	M	mu		m̄ᵘ	mu		Lo		katakana				U+30E0: KATAKANA LETTER MU	✓
+メ	M	me		m̄ᵉ	me		Lo		katakana				U+30E1: KATAKANA LETTER ME	✓
+モ	M	mo		m̄ᵒ	mo		Lo		katakana				U+30E2: KATAKANA LETTER MO	✓
+Ｍ	M	m		M	m		Lu		fullwidth				U+FF2D: FULLWIDTH LATIN CAPITAL LETTER M	✓
+ｍ	m	m		m	m		Ll		fullwidth				U+FF4D: FULLWIDTH LATIN SMALL LETTER M	✓
+な	n	na		nᵃ	na		Lo		hiragana				U+306A: HIRAGANA LETTER NA	✓
+に	n	ni		nⁱ	ni		Lo		hiragana				U+306B: HIRAGANA LETTER NI	✓
+ぬ	n	nu		nᵘ	nu		Lo		hiragana				U+306C: HIRAGANA LETTER NU	✓
+ね	n	ne		nᵉ	ne		Lo		hiragana				U+306D: HIRAGANA LETTER NE	✓
+の	n	no		nᵒ	no		Lo		hiragana				U+306E: HIRAGANA LETTER NO	✓
+ん	n	n		n	n		Lo		hiragana				U+3093: HIRAGANA LETTER N	✓
+ナ	N	na		n̄ᵃ	na		Lo		katakana				U+30CA: KATAKANA LETTER NA	✓
+ニ	N	ni		n̄ⁱ	ni		Lo		katakana				U+30CB: KATAKANA LETTER NI	✓
+ヌ	N	nu		n̄ᵘ	nu		Lo		katakana				U+30CC: KATAKANA LETTER NU	✓
+ネ	N	ne		n̄ᵉ	ne		Lo		katakana				U+30CD: KATAKANA LETTER NE	✓
+ノ	N	no		n̄ᵒ	no		Lo		katakana				U+30CE: KATAKANA LETTER NO	✓
+ン	N	n		n̄	n		Lo		katakana				U+30F3: KATAKANA LETTER N	✓
+Ｎ	N	n		N	n		Lu		fullwidth				U+FF2E: FULLWIDTH LATIN CAPITAL LETTER N	✓
+ｎ	n	n		n	n		Ll		fullwidth				U+FF4E: FULLWIDTH LATIN SMALL LETTER N	✓
+お	o	o		o	o		Lo		hiragana				U+304A: HIRAGANA LETTER O	✓
+ぉ	o	o		ₒ	o		Lo		hiragana				U+3049: HIRAGANA LETTER SMALL O	✓
+オ	O	o		ō	o		Lo		katakana				U+30AA: KATAKANA LETTER O	✓
+ォ	O	o		ₒ̄	o		Lo		katakana				U+30A9: KATAKANA LETTER SMALL O	✓
+Ｏ	O	o		O	o		Lu		fullwidth				U+FF2F: FULLWIDTH LATIN CAPITAL LETTER O	✓
+ｏ	o	o		o	o		Ll		fullwidth				U+FF4F: FULLWIDTH LATIN SMALL LETTER O	✓
+ぱ	p	pa		pᵃ	pa		Lo		hiragana				U+3071: HIRAGANA LETTER PA	✓
+ぴ	p	pi		pⁱ	pi		Lo		hiragana				U+3074: HIRAGANA LETTER PI	✓
+ぷ	p	pu		pᵘ	pu		Lo		hiragana				U+3077: HIRAGANA LETTER PU	✓
+ぺ	p	pe		pᵉ	pe		Lo		hiragana				U+307A: HIRAGANA LETTER PE	✓
+ぽ	p	po		pᵒ	po		Lo		hiragana				U+307D: HIRAGANA LETTER PO	✓
+パ	P	pa		p̄ᵃ	pa		Lo		katakana				U+30D1: KATAKANA LETTER PA	✓
+ピ	P	pi		p̄ⁱ	pi		Lo		katakana				U+30D4: KATAKANA LETTER PI	✓
+プ	P	pu		p̄ᵘ	pu		Lo		katakana				U+30D7: KATAKANA LETTER PU	✓
+ペ	P	pe		p̄ᵉ	pe		Lo		katakana				U+30DA: KATAKANA LETTER PE	✓
+ポ	P	po		p̄ᵒ	po		Lo		katakana				U+30DD: KATAKANA LETTER PO	✓
+Ｐ	P	p		P	p		Lu		fullwidth				U+FF30: FULLWIDTH LATIN CAPITAL LETTER P	✓
+ｐ	p	p		p	p		Ll		fullwidth				U+FF50: FULLWIDTH LATIN SMALL LETTER P	✓
+Ｑ	Q	q		Q	q		Lu		fullwidth				U+FF31: FULLWIDTH LATIN CAPITAL LETTER Q	✓
+ｑ	q	q		q	q		Ll		fullwidth				U+FF51: FULLWIDTH LATIN SMALL LETTER Q	✓
+ら	r	ra		rᵃ	ra		Lo		hiragana				U+3089: HIRAGANA LETTER RA	✓
+り	r	ri		rⁱ	ri		Lo		hiragana				U+308A: HIRAGANA LETTER RI	✓
+る	r	ru		rᵘ	ru		Lo		hiragana				U+308B: HIRAGANA LETTER RU	✓
+れ	r	re		rᵉ	re		Lo		hiragana				U+308C: HIRAGANA LETTER RE	✓
+ろ	r	ro		rᵒ	ro		Lo		hiragana				U+308D: HIRAGANA LETTER RO	✓
+ラ	R	ra		r̄ᵃ	ra		Lo		katakana				U+30E9: KATAKANA LETTER RA	✓
+リ	R	ri		r̄ⁱ	ri		Lo		katakana				U+30EA: KATAKANA LETTER RI	✓
+ル	R	ru		r̄ᵘ	ru		Lo		katakana				U+30EB: KATAKANA LETTER RU	✓
+レ	R	re		r̄ᵉ	re		Lo		katakana				U+30EC: KATAKANA LETTER RE	✓
+ロ	R	ro		r̄ᵒ	ro		Lo		katakana				U+30ED: KATAKANA LETTER RO	✓
+Ｒ	R	r		R	r		Lu		fullwidth				U+FF32: FULLWIDTH LATIN CAPITAL LETTER R	✓
+ｒ	r	r		r	r		Ll		fullwidth				U+FF52: FULLWIDTH LATIN SMALL LETTER R	✓
+さ	s	sa		sᵃ	sa		Lo		hiragana				U+3055: HIRAGANA LETTER SA	✓
+し	s	ʃi		sⁱ	shi		Lo		hiragana				U+3057: HIRAGANA LETTER SI	✓
+す	s	su		sᵘ	su		Lo		hiragana				U+3059: HIRAGANA LETTER SU	✓
+せ	s	se		sᵉ	se		Lo		hiragana				U+305B: HIRAGANA LETTER SE	✓
+そ	s	so		sᵒ	so		Lo		hiragana				U+305D: HIRAGANA LETTER SO	✓
+サ	S	sa		s̄ᵃ	sa		Lo		katakana				U+30B5: KATAKANA LETTER SA	✓
+シ	S	ʃi		s̄ⁱ	shi		Lo		katakana				U+30B7: KATAKANA LETTER SI	✓
+ス	S	su		s̄ᵘ	su		Lo		katakana				U+30B9: KATAKANA LETTER SU	✓
+セ	S	se		s̄ᵉ	se		Lo		katakana				U+30BB: KATAKANA LETTER SE	✓
+ソ	S	so		s̄ᵒ	so		Lo		katakana				U+30BD: KATAKANA LETTER SO	✓
+Ｓ	S	s		S	s		Lu		fullwidth				U+FF33: FULLWIDTH LATIN CAPITAL LETTER S	✓
+ｓ	s	s		s	s		Ll		fullwidth				U+FF53: FULLWIDTH LATIN SMALL LETTER S	✓
+た	t	ta		tᵃ	ta		Lo		hiragana				U+305F: HIRAGANA LETTER TA	✓
+ち	t	t͡ʃi		cⁱ	chi		Lo		hiragana				U+3061: HIRAGANA LETTER TI	✓
+つ	t	t͡su		tᵘ	tsu		Lo		hiragana				U+3064: HIRAGANA LETTER TU	✓
+て	t	te		tᵉ	te		Lo		hiragana				U+3066: HIRAGANA LETTER TE	✓
+と	t	to		tᵒ	to		Lo		hiragana				U+3068: HIRAGANA LETTER TO	✓
+っ	t	ᵗ		ₜ	ᵗ		Lo		hiragana				U+3063: HIRAGANA LETTER SMALL TU	✓
+タ	T	ta		t̄ᵃ	ta		Lo		katakana				U+30BF: KATAKANA LETTER TA	✓
+チ	T	t͡ʃi		c̄ⁱ	chi		Lo		katakana				U+30C1: KATAKANA LETTER TI	✓
+ツ	T	t͡su		t̄ᵘ	tsu		Lo		katakana				U+30C4: KATAKANA LETTER TU	✓
+テ	T	te		t̄ᵉ	te		Lo		katakana				U+30C6: KATAKANA LETTER TE	✓
+ト	T	to		t̄ᵒ	to		Lo		katakana				U+30C8: KATAKANA LETTER TO	✓
+ッ	T	ᵗ		ₜ̄	ᵗ		Lo		katakana				U+30C3: KATAKANA LETTER SMALL TU	✓
+Ｔ	T	t		T	t		Lu		fullwidth				U+FF34: FULLWIDTH LATIN CAPITAL LETTER T	✓
+ｔ	t	t		t	t		Ll		fullwidth				U+FF54: FULLWIDTH LATIN SMALL LETTER T	✓
+う	u	u		u	u		Lo		hiragana				U+3046: HIRAGANA LETTER U	✓
+ぅ	u	u		ᵤ	u		Lo		hiragana				U+3045: HIRAGANA LETTER SMALL U	✓
+ウ	U	u		ū	u		Lo		katakana				U+30A6: KATAKANA LETTER U	✓
+ゥ	U	u		ᵤ̄	u		Lo		katakana				U+30A5: KATAKANA LETTER SMALL U	✓
+Ｕ	U	u		U	u		Lu		fullwidth				U+FF35: FULLWIDTH LATIN CAPITAL LETTER U	✓
+ｕ	u	u		u	u		Ll		fullwidth				U+FF55: FULLWIDTH LATIN SMALL LETTER U	✓
+ゔ	v	vu		vᵘ	vu		Lo		hiragana				U+3094: HIRAGANA LETTER VU	✓
+ヴ	V	vu		v̄ᵘ	vu		Lo		katakana				U+30F4: KATAKANA LETTER VU	✓
+ヷ	V	va		vᵃ	va		Lo		katakana				U+30F7: KATAKANA LETTER VA	✓
+ヸ	V	vi		vⁱ	vi		Lo		katakana				U+30F8: KATAKANA LETTER VI	✓
+ヹ	V	ve		vᵉ	ve		Lo		katakana				U+30F9: KATAKANA LETTER VE	✓
+ヺ	V	vo		vᵒ	vo		Lo		katakana				U+30FA: KATAKANA LETTER VO	✓
+Ｖ	V	v		V	v		Lu		fullwidth				U+FF36: FULLWIDTH LATIN CAPITAL LETTER V	✓
+ｖ	v	v		v	v		Ll		fullwidth				U+FF56: FULLWIDTH LATIN SMALL LETTER V	✓
+わ	w	wa		wᵃ	wa		Lo		hiragana				U+308F: HIRAGANA LETTER WA	✓
+ゐ	w	wi		wⁱ	wi		Lo		hiragana				U+3090: HIRAGANA LETTER WI	✓
+ゑ	w	we		wᵉ	we		Lo		hiragana				U+3091: HIRAGANA LETTER WE	✓
+を	w	wo o		wᵒ	o wo		Lo		hiragana				U+3092: HIRAGANA LETTER WO	✓
+ゎ	w	ʷ		ʷ	w		Lo		hiragana				U+308E: HIRAGANA LETTER SMALL WA	✓
+ワ	W	wa		w̄ᵃ	wa		Lo		katakana				U+30EF: KATAKANA LETTER WA	✓
+ヰ	W	wi		w̄ⁱ	wi		Lo		katakana				U+30F0: KATAKANA LETTER WI	✓
+ヱ	W	we		w̄ᵉ	we		Lo		katakana				U+30F1: KATAKANA LETTER WE	✓
+ヲ	W	wo		w̄ᵒ	o wo		Lo		katakana				U+30F2: KATAKANA LETTER WO	✓
+ヮ	W	ʷ		ʷ	w		Lo		katakana				U+30EE: KATAKANA LETTER SMALL WA	✓
+Ｗ	W	w		W	w		Lu		fullwidth				U+FF37: FULLWIDTH LATIN CAPITAL LETTER W	✓
+ｗ	w	w		w	w		Ll		fullwidth				U+FF57: FULLWIDTH LATIN SMALL LETTER W	✓
+Ｘ	X	x		X	x		Lu		fullwidth				U+FF38: FULLWIDTH LATIN CAPITAL LETTER X	✓
+ｘ	x	x		x	x		Ll		fullwidth				U+FF58: FULLWIDTH LATIN SMALL LETTER X	✓
+や	y	ja		yᵃ	ya		Lo		hiragana				U+3084: HIRAGANA LETTER YA	✓
+ゆ	y	ju		yᵘ	yu		Lo		hiragana				U+3086: HIRAGANA LETTER YU	✓
+よ	y	jo		yᵒ	yo		Lo		hiragana				U+3088: HIRAGANA LETTER YO	✓
+ゃ	y	ja		ᵧᵃ	ya		Lo		hiragana				U+3083: HIRAGANA LETTER SMALL YA	✓
+ゅ	y	ju		ᵧᵘ	yu		Lo		hiragana				U+3085: HIRAGANA LETTER SMALL YU	✓
+ょ	y	jo		ᵧᵒ	yo		Lo		hiragana				U+3087: HIRAGANA LETTER SMALL YO	✓
+ヤ	Y	ja		ȳᵃ	ya		Lo		katakana				U+30E4: KATAKANA LETTER YA	✓
+ユ	Y	ju		ȳᵘ	yu		Lo		katakana				U+30E6: KATAKANA LETTER YU	✓
+ヨ	Y	jo		ȳᵒ	yo		Lo		katakana				U+30E8: KATAKANA LETTER YO	✓
+ャ	Y	ja		ᵧ̄ᵃ	ya		Lo		katakana				U+30E3: KATAKANA LETTER SMALL YA	✓
+ュ	Y	ju		ᵧ̄ᵘ	yu		Lo		katakana				U+30E5: KATAKANA LETTER SMALL YU	✓
+ョ	Y	jo		ᵧ̄ᵒ	yo		Lo		katakana				U+30E7: KATAKANA LETTER SMALL YO	✓
+Ｙ	Y	y		Y	y		Lu		fullwidth				U+FF39: FULLWIDTH LATIN CAPITAL LETTER Y	✓
+ｙ	y	y		y	y		Ll		fullwidth				U+FF59: FULLWIDTH LATIN SMALL LETTER Y	✓
+ざ	z	za		zᵃ	za		Lo		hiragana				U+3056: HIRAGANA LETTER ZA	✓
+じ	z	d͡ʒi		jⁱ	ji zi		Lo		hiragana				U+3058: HIRAGANA LETTER ZI	✓
+ず	z	zu		zᵘ	zu		Lo		hiragana				U+305A: HIRAGANA LETTER ZU	✓
+ぜ	z	ze		zᵉ	ze		Lo		hiragana				U+305C: HIRAGANA LETTER ZE	✓
+ぞ	z	zo		zᵒ	zo		Lo		hiragana				U+305E: HIRAGANA LETTER ZO	✓
+ザ	Z	za		z̄ᵃ	za		Lo		katakana				U+30B6: KATAKANA LETTER ZA	✓
+ジ	Z	d͡ʒi		j̄ⁱ	ji zi		Lo		katakana				U+30B8: KATAKANA LETTER ZI	✓
+ズ	Z	zu		z̄ᵘ	zu		Lo		katakana				U+30BA: KATAKANA LETTER ZU	✓
+ゼ	Z	ze		z̄ᵉ	ze		Lo		katakana				U+30BC: KATAKANA LETTER ZE	✓
+ゾ	Z	zo		z̄ᵒ	zo		Lo		katakana				U+30BE: KATAKANA LETTER ZO	✓
+Ｚ	Z	z		Z	z		Lu		fullwidth				U+FF3A: FULLWIDTH LATIN CAPITAL LETTER Z	✓
+ｚ	z	z		z	z		Ll		fullwidth				U+FF5A: FULLWIDTH LATIN SMALL LETTER Z	✓
+゙	[			¨			Mn​		combining voicing mark				U+3099: COMBINING KATAKANA-HIRAGANA VOICED SOUND MARK	✓
+゚	[			°			Mn​		combining semi-voiced mark				U+309A: COMBINING KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK	✓
+゛	[			¨̣			Sk		spacing voicing mark				U+309B: KATAKANA-HIRAGANA VOICED SOUND MARK	✓
+゜	[			°̣			Sk		spacing semi-voiced mark				U+309C: KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK	✓
 														
 														
 														
 														
-゠									katakana				U+30A0: KATAKANA-HIRAGANA DOUBLE HYPHEN	kana
-ア	A	a		ā					katakana				U+30A2: KATAKANA LETTER A	kana
-イ	I	i		ī					katakana				U+30A4: KATAKANA LETTER I	kana
-ウ	U	u		ū					katakana				U+30A6: KATAKANA LETTER U	kana
-エ	E	e		ē					katakana				U+30A8: KATAKANA LETTER E	kana
-オ	O	o		ō					katakana				U+30AA: KATAKANA LETTER O	kana
-カ	K	ka		k̄ᵃ					katakana				U+30AB: KATAKANA LETTER KA	kana
-ガ	G	ga		ḡᵃ					katakana				U+30AC: KATAKANA LETTER GA	kana
-キ	K	ki		k̄ⁱ					katakana				U+30AD: KATAKANA LETTER KI	kana
-ギ	G	gi		ḡⁱ					katakana				U+30AE: KATAKANA LETTER GI	kana
-ク	K	ku		k̄ᵘ					katakana				U+30AF: KATAKANA LETTER KU	kana
-グ	G	gu		ḡᵘ					katakana				U+30B0: KATAKANA LETTER GU	kana
-ケ	K	ke		k̄ᵉ					katakana				U+30B1: KATAKANA LETTER KE	kana
-ゲ	G	ge		ḡᵉ					katakana				U+30B2: KATAKANA LETTER GE	kana
-コ	K	go		k̄ᵒ					katakana				U+30B3: KATAKANA LETTER KO	kana
-ゴ	G	go		ḡᵒ					katakana				U+30B4: KATAKANA LETTER GO	kana
-サ	S	sa		s̄ᵃ					katakana				U+30B5: KATAKANA LETTER SA	kana
-ザ	Z	za		z̄ᵃ					katakana				U+30B6: KATAKANA LETTER ZA	kana
-シ	S	ʃi		s̄ⁱ					katakana				U+30B7: KATAKANA LETTER SI	kana
-ジ	Z	d͡ʒi		j̄ⁱ					katakana				U+30B8: KATAKANA LETTER ZI	kana
-ス	S	su		s̄ᵘ					katakana				U+30B9: KATAKANA LETTER SU	kana
-ズ	Z	zu		z̄ᵘ					katakana				U+30BA: KATAKANA LETTER ZU	kana
-セ	S	se		s̄ᵉ					katakana				U+30BB: KATAKANA LETTER SE	kana
-ゼ	Z	ze		z̄ᵉ					katakana				U+30BC: KATAKANA LETTER ZE	kana
-ソ	S	so		s̄ᵒ					katakana				U+30BD: KATAKANA LETTER SO	kana
-ゾ	Z	zo		z̄ᵒ					katakana				U+30BE: KATAKANA LETTER ZO	kana
-タ	T	ta		t̄ᵃ					katakana				U+30BF: KATAKANA LETTER TA	kana
-ダ	D	da		d̄ᵃ					katakana				U+30C0: KATAKANA LETTER DA	kana
-チ	T	t͡ʃi		c̄ⁱ					katakana				U+30C1: KATAKANA LETTER TI	kana
-ヂ	D	d͡ʒi		j̄ⁱ					katakana				U+30C2: KATAKANA LETTER DI	kana
-ツ	T	t͡su		t̄ᵘ					katakana				U+30C4: KATAKANA LETTER TU	kana
-ヅ	D	d͡zu		d̄ᵘ					katakana				U+30C5: KATAKANA LETTER DU	kana
-テ	T	te		t̄ᵉ					katakana				U+30C6: KATAKANA LETTER TE	kana
-デ	D	de		d̄ᵉ					katakana				U+30C7: KATAKANA LETTER DE	kana
-ト	T	to		t̄ᵒ					katakana				U+30C8: KATAKANA LETTER TO	kana
-ド	D	do		d̄ᵒ					katakana				U+30C9: KATAKANA LETTER DO	kana
-ナ	N	na		n̄ᵃ					katakana				U+30CA: KATAKANA LETTER NA	kana
-ニ	N	ni		n̄ⁱ					katakana				U+30CB: KATAKANA LETTER NI	kana
-ヌ	N	nu		n̄ᵘ					katakana				U+30CC: KATAKANA LETTER NU	kana
-ネ	N	ne		n̄ᵉ					katakana				U+30CD: KATAKANA LETTER NE	kana
-ノ	N	no		n̄ᵒ					katakana				U+30CE: KATAKANA LETTER NO	kana
-ハ	H	ha		h̄ᵃ					katakana				U+30CF: KATAKANA LETTER HA	kana
-バ	B	ba		b̄ᵃ					katakana				U+30D0: KATAKANA LETTER BA	kana
-パ	P	pa		p̄ᵃ					katakana				U+30D1: KATAKANA LETTER PA	kana
-ヒ	H	hi		h̄ⁱ					katakana				U+30D2: KATAKANA LETTER HI	kana
-ビ	B	bi		b̄ⁱ					katakana				U+30D3: KATAKANA LETTER BI	kana
-ピ	P	pi		p̄ⁱ					katakana				U+30D4: KATAKANA LETTER PI	kana
-フ	H	hu		h̄ᵘ					katakana				U+30D5: KATAKANA LETTER HU	kana
-ブ	B	bu		b̄ᵘ					katakana				U+30D6: KATAKANA LETTER BU	kana
-プ	P	pu		p̄ᵘ					katakana				U+30D7: KATAKANA LETTER PU	kana
-ヘ	H	he		h̄ᵉ					katakana				U+30D8: KATAKANA LETTER HE	kana
-ベ	B	be		b̄ᵉ					katakana				U+30D9: KATAKANA LETTER BE	kana
-ペ	P	pe		p̄ᵉ					katakana				U+30DA: KATAKANA LETTER PE	kana
-ホ	H	ho		h̄ᵒ					katakana				U+30DB: KATAKANA LETTER HO	kana
-ボ	B	bo		b̄ᵒ					katakana				U+30DC: KATAKANA LETTER BO	kana
-ポ	P	po		p̄ᵒ					katakana				U+30DD: KATAKANA LETTER PO	kana
-マ	M	ma		m̄ᵃ					katakana				U+30DE: KATAKANA LETTER MA	kana
-ミ	M	mi		m̄ⁱ					katakana				U+30DF: KATAKANA LETTER MI	kana
-ム	M	mu		m̄ᵘ					katakana				U+30E0: KATAKANA LETTER MU	kana
-メ	M	me		m̄ᵉ					katakana				U+30E1: KATAKANA LETTER ME	kana
-モ	M	mo		m̄ᵒ					katakana				U+30E2: KATAKANA LETTER MO	kana
-ヤ	Y	ja		ȳᵃ					katakana				U+30E4: KATAKANA LETTER YA	kana
-ユ	Y	ju		ȳᵘ					katakana				U+30E6: KATAKANA LETTER YU	kana
-ヨ	Y	jo		ȳᵒ					katakana				U+30E8: KATAKANA LETTER YO	kana
-ラ	R	ra		r̄ᵃ					katakana				U+30E9: KATAKANA LETTER RA	kana
-リ	R	ri		r̄ⁱ					katakana				U+30EA: KATAKANA LETTER RI	kana
-ル	R	ru		r̄ᵘ					katakana				U+30EB: KATAKANA LETTER RU	kana
-レ	R	re		r̄ᵉ					katakana				U+30EC: KATAKANA LETTER RE	kana
-ロ	R	ro		r̄ᵒ					katakana				U+30ED: KATAKANA LETTER RO	kana
-ワ	W	wa		w̄ᵃ					katakana				U+30EF: KATAKANA LETTER WA	kana
-ヰ	W	wi		w̄ⁱ					katakana				U+30F0: KATAKANA LETTER WI	kana
-ヱ	W	we		w̄ᵉ					katakana				U+30F1: KATAKANA LETTER WE	kana
-ヲ	W	wo		w̄ᵒ					katakana				U+30F2: KATAKANA LETTER WO	kana
-ン	N	n		n̄					katakana				U+30F3: KATAKANA LETTER N	kana
-ヴ	V	vu		v̄ᵘ					katakana				U+30F4: KATAKANA LETTER VU	kana
-ァ	A	a		ₐ̄					katakana				U+30A1: KATAKANA LETTER SMALL A	kana
-ィ	I	i		ᵢ̄					katakana				U+30A3: KATAKANA LETTER SMALL I	kana
-ゥ	U	u		ᵤ̄					katakana				U+30A5: KATAKANA LETTER SMALL U	kana
-ェ	E	e		ₑ̄					katakana				U+30A7: KATAKANA LETTER SMALL E	kana
-ォ	O	o		ₒ̄					katakana				U+30A9: KATAKANA LETTER SMALL O	kana
-ッ	T			ₜ̄					katakana				U+30C3: KATAKANA LETTER SMALL TU	kana
-ャ	Y	ja		ᵧ̄ᵃ					katakana				U+30E3: KATAKANA LETTER SMALL YA	kana
-ュ	Y	ju		ᵧ̄ᵘ					katakana				U+30E5: KATAKANA LETTER SMALL YU	kana
-ョ	Y	jo		ᵧ̄ᵒ					katakana				U+30E7: KATAKANA LETTER SMALL YO	kana
-ヮ	W								katakana				U+30EE: KATAKANA LETTER SMALL WA	kana
-ヵ	K								katakana				U+30F5: KATAKANA LETTER SMALL KA	kana
-ヶ	K								katakana				U+30F6: KATAKANA LETTER SMALL KE	kana
-ヷ	V								katakana				U+30F7: KATAKANA LETTER VA	kana
-ヸ	V								katakana				U+30F8: KATAKANA LETTER VI	kana
-ヹ	V								katakana				U+30F9: KATAKANA LETTER VE	kana
-ヺ	V								katakana				U+30FA: KATAKANA LETTER VO	kana
-・	]			-					katakana				U+30FB: KATAKANA MIDDLE DOT	kana
-ー	_			ː					katakana				U+30FC: KATAKANA-HIRAGANA PROLONGED SOUND MARK	kana
-ヽ	&			˖					katakana				U+30FD: KATAKANA ITERATION MARK	kana
-ヾ	&			˖ᵛ					katakana				U+30FE: KATAKANA VOICED ITERATION MARK	kana
-ヿ									katakana				U+30FF: KATAKANA DIGRAPH KOTO	kana
+1	1			1	1		Nd		digit				U+0031: DIGIT ONE	
+2	2			2	2		Nd		digit				U+0032: DIGIT TWO	
+3	3			3	3		Nd		digit				U+0033: DIGIT THREE	
+4	4			4	4		Nd		digit				U+0034: DIGIT FOUR	
+5	5			5	5		Nd		digit				U+0035: DIGIT FIVE	
+6	6			6	6		Nd		digit				U+0036: DIGIT SIX	
+7	7			7	7		Nd		digit				U+0037: DIGIT SEVEN	
+8	8			8	8		Nd		digit				U+0038: DIGIT EIGHT	
+9	9			9	9		Nd		digit				U+0039: DIGIT NINE	
+0	0			0	0		Nd		digit				U+0030: DIGIT ZERO	
+														
+１	±			1̣	1		Nd		digit	fullwidth			U+FF11: FULLWIDTH DIGIT ONE	✓
+２	±			2̣	2		Nd		digit	fullwidth			U+FF12: FULLWIDTH DIGIT TWO	✓
+３	±			3̣	3		Nd		digit	fullwidth			U+FF13: FULLWIDTH DIGIT THREE	✓
+４	±			4̣	4		Nd		digit	fullwidth			U+FF14: FULLWIDTH DIGIT FOUR	✓
+５	±			5̣	5		Nd		digit	fullwidth			U+FF15: FULLWIDTH DIGIT FIVE	✓
+６	±			6̣	6		Nd		digit	fullwidth			U+FF16: FULLWIDTH DIGIT SIX	✓
+７	±			7̣	7		Nd		digit	fullwidth			U+FF17: FULLWIDTH DIGIT SEVEN	✓
+８	±			8̣	8		Nd		digit	fullwidth			U+FF18: FULLWIDTH DIGIT EIGHT	✓
+９	±			9̣	9		Nd		digit	fullwidth			U+FF19: FULLWIDTH DIGIT NINE	✓
+０	±			0̣	0		Nd		digit	fullwidth			U+FF10: FULLWIDTH DIGIT ZERO	✓
+														
+一	$			{1}	0		Lo		ideographic number				U+4E00 [CJK Unified Ideograph]	
+二	$			{2}	1		Lo		ideographic number				U+4E8C [CJK Unified Ideograph]	
+三	$			{3}	2		Lo		ideographic number				U+4E09 [CJK Unified Ideograph]	
+四	$			{4}	3		Lo		ideographic number				U+56DB [CJK Unified Ideograph]	
+五	$			{5}	4		Lo		ideographic number				U+4E94 [CJK Unified Ideograph]	
+六	$			{6}	5		Lo		ideographic number				‎U+516D [CJK Unified Ideograph]	
+七	$			{7}	6		Lo		ideographic number				U+4E03 [CJK Unified Ideograph]	
+八	$			{8}	7		Lo		ideographic number				U+516B [CJK Unified Ideograph]	
+九	$			{9}	8		Lo		ideographic number				U+4E5D [CJK Unified Ideograph]	
+〇	$			{0}	9		Lo		ideographic number				U+3007 IDEOGRAPHIC NUMBER ZERO	✓
+＃	#			#			Lo		hash	fullwidth			U+FF03: FULLWIDTH NUMBER SIGN	
+十	#			{10}			Lo		ideographic number				U+5341 [CJK Unified Ideograph]	
+百	#			{100}			Lo		ideographic number				‎U+767E [CJK Unified Ideograph]	
+千	#			{1000}			Lo		ideographic number				U+5343 [CJK Unified Ideograph]	
+万	#			{10000}			Lo		ideographic number				U+4E07 [CJK Unified Ideograph]	
 														
 														
 														
@@ -617,108 +537,121 @@ romaji5		ō
 														
 														
 ･				–			Po		halfwidth katakana				U+FF65: HALFWIDTH KATAKANA MIDDLE DOT	
-ｦ				–			Lo		halfwidth katakana				U+FF66: HALFWIDTH KATAKANA LETTER WO	
-ｧ				–			Lo		halfwidth katakana				U+FF67: HALFWIDTH KATAKANA LETTER SMALL A	
-ｨ				–			Lo		halfwidth katakana				U+FF68: HALFWIDTH KATAKANA LETTER SMALL I	
-ｩ				–			Lo		halfwidth katakana				U+FF69: HALFWIDTH KATAKANA LETTER SMALL U	
-ｪ				–			Lo		halfwidth katakana				U+FF6A: HALFWIDTH KATAKANA LETTER SMALL E	
-ｫ				–			Lo		halfwidth katakana				U+FF6B: HALFWIDTH KATAKANA LETTER SMALL O	
-ｬ				–			Lo		halfwidth katakana				U+FF6C: HALFWIDTH KATAKANA LETTER SMALL YA	
-ｭ				–			Lo		halfwidth katakana				U+FF6D: HALFWIDTH KATAKANA LETTER SMALL YU	
-ｮ				–			Lo		halfwidth katakana				U+FF6E: HALFWIDTH KATAKANA LETTER SMALL YO	
+ｦ				–	wo		Lo		halfwidth katakana				U+FF66: HALFWIDTH KATAKANA LETTER WO	
+ｧ				–	a		Lo		halfwidth katakana				U+FF67: HALFWIDTH KATAKANA LETTER SMALL A	
+ｨ				–	i		Lo		halfwidth katakana				U+FF68: HALFWIDTH KATAKANA LETTER SMALL I	
+ｩ				–	u		Lo		halfwidth katakana				U+FF69: HALFWIDTH KATAKANA LETTER SMALL U	
+ｪ				–	e		Lo		halfwidth katakana				U+FF6A: HALFWIDTH KATAKANA LETTER SMALL E	
+ｫ				–	o		Lo		halfwidth katakana				U+FF6B: HALFWIDTH KATAKANA LETTER SMALL O	
+ｬ				–	ya		Lo		halfwidth katakana				U+FF6C: HALFWIDTH KATAKANA LETTER SMALL YA	
+ｭ				–	yu		Lo		halfwidth katakana				U+FF6D: HALFWIDTH KATAKANA LETTER SMALL YU	
+ｮ				–	yo		Lo		halfwidth katakana				U+FF6E: HALFWIDTH KATAKANA LETTER SMALL YO	
 ｯ				–			Lo		halfwidth katakana				U+FF6F: HALFWIDTH KATAKANA LETTER SMALL TU	
-ｰ				–			Lm		halfwidth katakana				U+FF70: HALFWIDTH KATAKANA-HIRAGANA PROLONGED SOUND MARK	
-ｱ				–			Lo		halfwidth katakana				U+FF71: HALFWIDTH KATAKANA LETTER A	
-ｲ				–			Lo		halfwidth katakana				U+FF72: HALFWIDTH KATAKANA LETTER I	
-ｳ				–			Lo		halfwidth katakana				U+FF73: HALFWIDTH KATAKANA LETTER U	
-ｴ				–			Lo		halfwidth katakana				U+FF74: HALFWIDTH KATAKANA LETTER E	
-ｵ				–			Lo		halfwidth katakana				U+FF75: HALFWIDTH KATAKANA LETTER O	
-ｶ				–			Lo		halfwidth katakana				U+FF76: HALFWIDTH KATAKANA LETTER KA	
-ｷ				–			Lo		halfwidth katakana				U+FF77: HALFWIDTH KATAKANA LETTER KI	
-ｸ				–			Lo		halfwidth katakana				U+FF78: HALFWIDTH KATAKANA LETTER KU	
-ｹ				–			Lo		halfwidth katakana				U+FF79: HALFWIDTH KATAKANA LETTER KE	
-ｺ				–			Lo		halfwidth katakana				U+FF7A: HALFWIDTH KATAKANA LETTER KO	
-ｻ				–			Lo		halfwidth katakana				U+FF7B: HALFWIDTH KATAKANA LETTER SA	
-ｼ				–			Lo		halfwidth katakana				U+FF7C: HALFWIDTH KATAKANA LETTER SI	
-ｽ				–			Lo		halfwidth katakana				U+FF7D: HALFWIDTH KATAKANA LETTER SU	
-ｾ				–			Lo		halfwidth katakana				U+FF7E: HALFWIDTH KATAKANA LETTER SE	
-ｿ				–			Lo		halfwidth katakana				U+FF7F: HALFWIDTH KATAKANA LETTER SO	
-ﾀ				–			Lo		halfwidth katakana				U+FF80: HALFWIDTH KATAKANA LETTER TA	
-ﾁ				–			Lo		halfwidth katakana				U+FF81: HALFWIDTH KATAKANA LETTER TI	
-ﾂ				–			Lo		halfwidth katakana				U+FF82: HALFWIDTH KATAKANA LETTER TU	
-ﾃ				–			Lo		halfwidth katakana				U+FF83: HALFWIDTH KATAKANA LETTER TE	
-ﾄ				–			Lo		halfwidth katakana				U+FF84: HALFWIDTH KATAKANA LETTER TO	
-ﾅ				–			Lo		halfwidth katakana				U+FF85: HALFWIDTH KATAKANA LETTER NA	
-ﾆ				–			Lo		halfwidth katakana				U+FF86: HALFWIDTH KATAKANA LETTER NI	
-ﾇ				–			Lo		halfwidth katakana				U+FF87: HALFWIDTH KATAKANA LETTER NU	
-ﾈ				–			Lo		halfwidth katakana				U+FF88: HALFWIDTH KATAKANA LETTER NE	
-ﾉ				–			Lo		halfwidth katakana				U+FF89: HALFWIDTH KATAKANA LETTER NO	
-ﾊ				–			Lo		halfwidth katakana				U+FF8A: HALFWIDTH KATAKANA LETTER HA	
-ﾋ				–			Lo		halfwidth katakana				U+FF8B: HALFWIDTH KATAKANA LETTER HI	
-ﾌ				–			Lo		halfwidth katakana				U+FF8C: HALFWIDTH KATAKANA LETTER HU	
-ﾍ				–			Lo		halfwidth katakana				U+FF8D: HALFWIDTH KATAKANA LETTER HE	
-ﾎ				–			Lo		halfwidth katakana				U+FF8E: HALFWIDTH KATAKANA LETTER HO	
-ﾏ				–			Lo		halfwidth katakana				U+FF8F: HALFWIDTH KATAKANA LETTER MA	
-ﾐ				–			Lo		halfwidth katakana				U+FF90: HALFWIDTH KATAKANA LETTER MI	
-ﾑ				–			Lo		halfwidth katakana				U+FF91: HALFWIDTH KATAKANA LETTER MU	
-ﾒ				–			Lo		halfwidth katakana				U+FF92: HALFWIDTH KATAKANA LETTER ME	
-ﾓ				–			Lo		halfwidth katakana				U+FF93: HALFWIDTH KATAKANA LETTER MO	
-ﾔ				–			Lo		halfwidth katakana				U+FF94: HALFWIDTH KATAKANA LETTER YA	
-ﾕ				–			Lo		halfwidth katakana				U+FF95: HALFWIDTH KATAKANA LETTER YU	
-ﾖ				–			Lo		halfwidth katakana				U+FF96: HALFWIDTH KATAKANA LETTER YO	
-ﾗ				–			Lo		halfwidth katakana				U+FF97: HALFWIDTH KATAKANA LETTER RA	
-ﾘ				–			Lo		halfwidth katakana				U+FF98: HALFWIDTH KATAKANA LETTER RI	
-ﾙ				–			Lo		halfwidth katakana				U+FF99: HALFWIDTH KATAKANA LETTER RU	
-ﾚ				–			Lo		halfwidth katakana				U+FF9A: HALFWIDTH KATAKANA LETTER RE	
-ﾛ				–			Lo		halfwidth katakana				U+FF9B: HALFWIDTH KATAKANA LETTER RO	
-ﾜ				–			Lo		halfwidth katakana				U+FF9C: HALFWIDTH KATAKANA LETTER WA	
-ﾝ				–			Lo		halfwidth katakana				U+FF9D: HALFWIDTH KATAKANA LETTER N	
+ｰ				–	-		Lm		halfwidth katakana				U+FF70: HALFWIDTH KATAKANA-HIRAGANA PROLONGED SOUND MARK	
+ｱ				–	a		Lo		halfwidth katakana				U+FF71: HALFWIDTH KATAKANA LETTER A	
+ｲ				–	i		Lo		halfwidth katakana				U+FF72: HALFWIDTH KATAKANA LETTER I	
+ｳ				–	u		Lo		halfwidth katakana				U+FF73: HALFWIDTH KATAKANA LETTER U	
+ｴ				–	e		Lo		halfwidth katakana				U+FF74: HALFWIDTH KATAKANA LETTER E	
+ｵ				–	o		Lo		halfwidth katakana				U+FF75: HALFWIDTH KATAKANA LETTER O	
+ｶ				–	ka		Lo		halfwidth katakana				U+FF76: HALFWIDTH KATAKANA LETTER KA	
+ｷ				–	ki		Lo		halfwidth katakana				U+FF77: HALFWIDTH KATAKANA LETTER KI	
+ｸ				–	ku		Lo		halfwidth katakana				U+FF78: HALFWIDTH KATAKANA LETTER KU	
+ｹ				–	ke		Lo		halfwidth katakana				U+FF79: HALFWIDTH KATAKANA LETTER KE	
+ｺ				–	ko		Lo		halfwidth katakana				U+FF7A: HALFWIDTH KATAKANA LETTER KO	
+ｻ				–	sa		Lo		halfwidth katakana				U+FF7B: HALFWIDTH KATAKANA LETTER SA	
+ｼ				–	shi		Lo		halfwidth katakana				U+FF7C: HALFWIDTH KATAKANA LETTER SI	
+ｽ				–	su		Lo		halfwidth katakana				U+FF7D: HALFWIDTH KATAKANA LETTER SU	
+ｾ				–	se		Lo		halfwidth katakana				U+FF7E: HALFWIDTH KATAKANA LETTER SE	
+ｿ				–	so		Lo		halfwidth katakana				U+FF7F: HALFWIDTH KATAKANA LETTER SO	
+ﾀ				–	ta		Lo		halfwidth katakana				U+FF80: HALFWIDTH KATAKANA LETTER TA	
+ﾁ				–	chi		Lo		halfwidth katakana				U+FF81: HALFWIDTH KATAKANA LETTER TI	
+ﾂ				–	tu		Lo		halfwidth katakana				U+FF82: HALFWIDTH KATAKANA LETTER TU	
+ﾃ				–	te		Lo		halfwidth katakana				U+FF83: HALFWIDTH KATAKANA LETTER TE	
+ﾄ				–	to		Lo		halfwidth katakana				U+FF84: HALFWIDTH KATAKANA LETTER TO	
+ﾅ				–	na		Lo		halfwidth katakana				U+FF85: HALFWIDTH KATAKANA LETTER NA	
+ﾆ				–	ni		Lo		halfwidth katakana				U+FF86: HALFWIDTH KATAKANA LETTER NI	
+ﾇ				–	nu		Lo		halfwidth katakana				U+FF87: HALFWIDTH KATAKANA LETTER NU	
+ﾈ				–	ne		Lo		halfwidth katakana				U+FF88: HALFWIDTH KATAKANA LETTER NE	
+ﾉ				–	no		Lo		halfwidth katakana				U+FF89: HALFWIDTH KATAKANA LETTER NO	
+ﾊ				–	ha		Lo		halfwidth katakana				U+FF8A: HALFWIDTH KATAKANA LETTER HA	
+ﾋ				–	hi		Lo		halfwidth katakana				U+FF8B: HALFWIDTH KATAKANA LETTER HI	
+ﾌ				–	hu		Lo		halfwidth katakana				U+FF8C: HALFWIDTH KATAKANA LETTER HU	
+ﾍ				–	he		Lo		halfwidth katakana				U+FF8D: HALFWIDTH KATAKANA LETTER HE	
+ﾎ				–	ho		Lo		halfwidth katakana				U+FF8E: HALFWIDTH KATAKANA LETTER HO	
+ﾏ				–	ma		Lo		halfwidth katakana				U+FF8F: HALFWIDTH KATAKANA LETTER MA	
+ﾐ				–	mi		Lo		halfwidth katakana				U+FF90: HALFWIDTH KATAKANA LETTER MI	
+ﾑ				–	mu		Lo		halfwidth katakana				U+FF91: HALFWIDTH KATAKANA LETTER MU	
+ﾒ				–	me		Lo		halfwidth katakana				U+FF92: HALFWIDTH KATAKANA LETTER ME	
+ﾓ				–	mo		Lo		halfwidth katakana				U+FF93: HALFWIDTH KATAKANA LETTER MO	
+ﾔ				–	ya		Lo		halfwidth katakana				U+FF94: HALFWIDTH KATAKANA LETTER YA	
+ﾕ				–	yu		Lo		halfwidth katakana				U+FF95: HALFWIDTH KATAKANA LETTER YU	
+ﾖ				–	yo		Lo		halfwidth katakana				U+FF96: HALFWIDTH KATAKANA LETTER YO	
+ﾗ				–	ra		Lo		halfwidth katakana				U+FF97: HALFWIDTH KATAKANA LETTER RA	
+ﾘ				–	ri		Lo		halfwidth katakana				U+FF98: HALFWIDTH KATAKANA LETTER RI	
+ﾙ				–	ru		Lo		halfwidth katakana				U+FF99: HALFWIDTH KATAKANA LETTER RU	
+ﾚ				–	re		Lo		halfwidth katakana				U+FF9A: HALFWIDTH KATAKANA LETTER RE	
+ﾛ				–	ro		Lo		halfwidth katakana				U+FF9B: HALFWIDTH KATAKANA LETTER RO	
+ﾜ				–	wa		Lo		halfwidth katakana				U+FF9C: HALFWIDTH KATAKANA LETTER WA	
+ﾝ				–	n		Lo		halfwidth katakana				U+FF9D: HALFWIDTH KATAKANA LETTER N	
 ﾞ				–			Lm		halfwidth katakana				U+FF9E: HALFWIDTH KATAKANA VOICED SOUND MARK	
 ﾟ				–			Lm		halfwidth katakana				U+FF9F: HALFWIDTH KATAKANA SEMI-VOICED SOUND MARK	
 														
-														
-§				–			Po		punctuation				U+00A7: SECTION SIGN	
-¶				–			Po		punctuation				U+00B6: PILCROW SIGN	
-‐				–			Pd		punctuation				U+2010: HYPHEN	
-―				–			Pd		punctuation				U+2015: HORIZONTAL BAR	
-‖				–			Po		punctuation				U+2016: DOUBLE VERTICAL LINE	
-†				–			Po		punctuation				U+2020: DAGGER	
-‡				–			Po		punctuation				U+2021: DOUBLE DAGGER	
-‰				–			Po		punctuation				U+2030: PER MILLE SIGN	
-＃				–			Po		punctuation				U+FF03: FULLWIDTH NUMBER SIGN	
-％				–			Po		punctuation				U+FF05: FULLWIDTH PERCENT SIGN	
-＆				–			Po		punctuation				U+FF06: FULLWIDTH AMPERSAND	
-＊				–			Po		punctuation				U+FF0A: FULLWIDTH ASTERISK	
-＠				–			Po		punctuation				U+FF20: FULLWIDTH COMMERCIAL AT	
-＼				–			Po		punctuation				U+FF3C: FULLWIDTH REVERSE SOLIDUS	
-､				–			Po		punctuation				U+FF64: HALFWIDTH IDEOGRAPHIC COMMA	
-｡				–			Po		punctuation				U+FF61: HALFWIDTH IDEOGRAPHIC FULL STOP	
-｢				–			Ps		punctuation				U+FF62: HALFWIDTH LEFT CORNER BRACKET	
-｣				–			Pe		punctuation				U+FF63: HALFWIDTH RIGHT CORNER BRACKET	
-!				–			Po		punctuation				U+0021: EXCLAMATION MARK	
-%				–			Po		punctuation				U+0025: PERCENT SIGN	
-(				–			Ps		punctuation				U+0028: LEFT PARENTHESIS	
-)				–			Pe		punctuation				U+0029: RIGHT PARENTHESIS	
-*				–			Po		punctuation				U+002A: ASTERISK	
-,				–			Po		punctuation				U+002C: COMMA	
-.				–			Po		punctuation				U+002E: FULL STOP	
-/				–			Po		punctuation				U+002F: SOLIDUS	
-:				–			Po		punctuation				U+003A: COLON	
-;				–			Po		punctuation				U+003B: SEMICOLON	
-?				–			Po		punctuation				U+003F: QUESTION MARK	
-@				–			Po		punctuation				U+0040: COMMERCIAL AT	
-[				–			Ps		punctuation				U+005B: LEFT SQUARE BRACKET	
-\\				–			Po		punctuation				U+005C: REVERSE SOLIDUS	
-]				–			Pe		punctuation				U+005D: RIGHT SQUARE BRACKET	
-{				–			Ps		punctuation				U+007B: LEFT CURLY BRACKET	
-}				–			Pe		punctuation				U+007D: RIGHT CURLY BRACKET	
+a		a		a	a		Ll						U+0061: LATIN SMALL LETTER A	✓
+A		a		A	a		Lu						U+0041: LATIN CAPITAL LETTER A	✓
+b		b		b	b		Ll						U+0062: LATIN SMALL LETTER B	✓
+B		b		B	b		Lu						U+0042: LATIN CAPITAL LETTER B	✓
+C		c		C	c		Lu						U+0043: LATIN CAPITAL LETTER C	✓
+c		c		c	c		Ll						U+0063: LATIN SMALL LETTER C	✓
+D		d		D	d		Lu						U+0044: LATIN CAPITAL LETTER D	✓
+d		d		d	d		Ll						U+0064: LATIN SMALL LETTER D	✓
+E		e		E	e		Lu						U+0045: LATIN CAPITAL LETTER E	✓
+e		e		e	e		Ll						U+0065: LATIN SMALL LETTER E	✓
+F		f		F	f		Lu						U+0046: LATIN CAPITAL LETTER F	✓
+f		f		f	f		Ll						U+0066: LATIN SMALL LETTER F	✓
+G		g		G	g		Lu						U+0047: LATIN CAPITAL LETTER G	✓
+g		g		g	g		Ll						U+0067: LATIN SMALL LETTER G	✓
+H		h		H	h		Lu						U+0048: LATIN CAPITAL LETTER H	✓
+h		h		h	h		Ll						U+0068: LATIN SMALL LETTER H	✓
+I		i		I	i		Lu						U+0049: LATIN CAPITAL LETTER I	✓
+i		i		i	i		Ll						U+0069: LATIN SMALL LETTER I	✓
+J		j		J	j		Lu						U+004A: LATIN CAPITAL LETTER J	✓
+j		j		j	j		Ll						U+006A: LATIN SMALL LETTER J	✓
+K		k		K	k		Lu						U+004B: LATIN CAPITAL LETTER K	✓
+k		k		k	k		Ll						U+006B: LATIN SMALL LETTER K	✓
+L		l		L	l		Lu						U+004C: LATIN CAPITAL LETTER L	✓
+l		l		l	l		Ll						U+006C: LATIN SMALL LETTER L	✓
+M		m		M	m		Lu						U+004D: LATIN CAPITAL LETTER M	✓
+m		m		m	m		Ll						U+006D: LATIN SMALL LETTER M	✓
+N		n		N	n		Lu						U+004E: LATIN CAPITAL LETTER N	✓
+n		n		n	n		Ll						U+006E: LATIN SMALL LETTER N	✓
+O		o		O	o		Lu						U+004F: LATIN CAPITAL LETTER O	✓
+o		o		o	o		Ll						U+006F: LATIN SMALL LETTER O	✓
+P		p		P	p		Lu						U+0050: LATIN CAPITAL LETTER P	✓
+p		p		p	p		Ll						U+0070: LATIN SMALL LETTER P	✓
+Q		q		Q	q		Lu						U+0051: LATIN CAPITAL LETTER Q	✓
+q		q		q	q		Ll						U+0071: LATIN SMALL LETTER Q	✓
+R		r		R	r		Lu						U+0052: LATIN CAPITAL LETTER R	✓
+r		r		r	r		Ll						U+0072: LATIN SMALL LETTER R	✓
+S		s		S	s		Lu						U+0053: LATIN CAPITAL LETTER S	✓
+s		s		s	s		Ll						U+0073: LATIN SMALL LETTER S	✓
+T		t		T	t		Lu						U+0054: LATIN CAPITAL LETTER T	✓
+t		t		t	t		Ll						U+0074: LATIN SMALL LETTER T	✓
+U		u		U	u		Lu						U+0055: LATIN CAPITAL LETTER U	✓
+u		u		u	u		Ll						U+0075: LATIN SMALL LETTER U	✓
+V		v		V	v		Lu						U+0056: LATIN CAPITAL LETTER V	✓
+v		v		v	v		Ll						U+0076: LATIN SMALL LETTER V	✓
+W		w		W	w		Lu						U+0057: LATIN CAPITAL LETTER W	✓
+w		w		w	w		Ll						U+0077: LATIN SMALL LETTER W	✓
+X		x		X	x		Lu						U+0058: LATIN CAPITAL LETTER X	✓
+x		x		x	x		Ll						U+0078: LATIN SMALL LETTER X	✓
+Y		y		Y	y		Lu						U+0059: LATIN CAPITAL LETTER Y	✓
+y		y		y	y		Ll						U+0079: LATIN SMALL LETTER Y	✓
+Z		z		Z	z		Lu						U+005A: LATIN CAPITAL LETTER Z	✓
+z		z		z	z		Ll						U+007A: LATIN SMALL LETTER Z	✓
 														
 `														
 														
-														
-latinPanel = 'ː ā ā bᵃ bⁱ bᵘ bᵉ bᵒ b̄ᵃ b̄ⁱ b̄ᵘ b̄ᵉ b̄ᵒ ɕ ç cⁱ c̄ⁱ d͡z d͡ʑ d͡ʒi dᵃ dᵘ d͡zu dᵉ dᵒ d̄ᵃ d̄ᵘ d̄ᵉ d̄ᵒ ē ē ɸ gᵃ gⁱ gᵘ gᵉ gᵒ ḡᵃ ḡⁱ ḡᵘ ḡᵉ ḡᵒ hᵃ hⁱ hᵘ hᵉ hᵒ h̄ᵃ h̄ⁱ h̄ᵘ h̄ᵉ h̄ᵒ ī ī jⁱ j̄ⁱ kᵃ kⁱ kᵘ kᵉ kᵒ k̄ᵃ k̄ⁱ k̄ᵘ k̄ᵉ k̄ᵒ mᵃ mⁱ mᵘ mᵉ mᵒ m̄ᵃ m̄ⁱ m̄ᵘ m̄ᵉ m̄ᵒ ɲ ŋ ɴ nᵃ nⁱ nᵘ nᵉ nᵒ n̄ᵃ n̄ⁱ n̄ᵘ n̄ᵉ n̄ᵒ n̄ ō ō pᵃ pⁱ pᵘ pᵉ pᵒ p̄ᵃ p̄ⁱ p̄ᵘ p̄ᵉ p̄ᵒ rᵃ rⁱ rᵘ rᵉ rᵒ r̄ᵃ r̄ⁱ r̄ᵘ r̄ᵉ r̄ᵒ sᵃ sⁱ ʃi sᵘ sᵉ sᵒ s̄ᵃ s̄ⁱ s̄ᵘ s̄ᵉ s̄ᵒ t͡s t͡ɕ tᵃ t͡ʃi tᵘ t͡su tᵉ tᵒ t̄ᵃ t̄ᵘ t̄ᵉ t̄ᵒ ū ū vᵘ v̄ᵘ wᵃ wⁱ wᵉ wᵒ w̄ᵃ w̄ⁱ w̄ᵉ w̄ᵒ yᵃ yᵘ yᵒ ȳᵃ ȳᵘ ȳᵒ ʑ zᵃ zᵘ zᵉ zᵒ z̄ᵃ z̄ᵘ z̄ᵉ z̄ᵒ'														
-														
-														
+latinPanel = 'ː ā ɕ ç d͡z d͡ʑ d͡z ē ɸ ɡ ī ɲ ŋ ɴ ō ʃ t͡s t͡ɕ t͡ʃ ū ʑ ʒ ʲ'														
 														
 var cols = {														
 key: 1,														
@@ -737,7 +670,5 @@ nameLoc: 12,
 ucsName: 13,														
 block: 14,														
 														
-//othertranscriptions: [[5, 'LOC']]														
+othertranscriptions: [[5, 'Hepburn']]														
 }														
-														
-														
