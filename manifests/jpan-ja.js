@@ -4,11 +4,11 @@ scriptTag='jpan'
 notesLangtag='ja'
 
 explainerDir='jpan'
-blockDir=''
-pickerDir=''
+blockDir='jpan/'
+pickerDir='jpan/'
 scriptSummaryTableName='ja'
-charUsageBCP=''
-orthogName = 'Japanese (Kanji, Kana, Romaji)'
+charUsageBCP='ja'
+orthogName = 'Japanese'
 indic = false
 
 pageWebfonts = []
@@ -26,3 +26,7 @@ languageName = 'Japanese'
 letterClassName = 'ja'
 lang = 'ja'
 direction = ''
+
+
+
+// getDBInfo(template.blocklocation,defaults.language,template.direction, false); 
