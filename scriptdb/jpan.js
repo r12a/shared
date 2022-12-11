@@ -97,12 +97,17 @@ var spreadsheet = `jpan-ja	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 														
 ＆	&			&	&		Po		ampersand	fullwidth			U+FF06: FULLWIDTH AMPERSAND	✓
 〃	&			&̣	&		Po		ditto mark				U+3003: DITTO MARK	✓
-々	&			˖	&		Lm		iteration mark	ideographic			U+3005: IDEOGRAPHIC ITERATION MARK	✓
-〻	&			˖̣	&		Lm		iteration mark	vertical			U+303B: VERTICAL IDEOGRAPHIC ITERATION MARK	✓
+々	&			˖	&		Lm		iteration mark	horizontal ideographic	漢字返し/ノマ	kanjigaeshi/noma	U+3005: IDEOGRAPHIC ITERATION MARK	✓
+〻	&			˖̣	&		Lm	i	iteration mark	vertical ideographic	二の字点 	ni no jiten	U+303B: VERTICAL IDEOGRAPHIC ITERATION MARK	✓
 ゝ	&			˖̱	&		Lm		iteration mark	hiragana			U+309D: HIRAGANA ITERATION MARK	✓
-ゞ	&			˖͈	&		Lm		iteration mark	hiragana			U+309E: HIRAGANA VOICED ITERATION MARK	✓
+ゞ	&			˖͈	&		Lm		iteration mark	voiced hiragana			U+309E: HIRAGANA VOICED ITERATION MARK	✓
 ヽ	&			 ˖͇	&		Lm		iteration mark	katakana			U+30FD: KATAKANA ITERATION MARK	✓
-ヾ	&			˖̥	&		Lm		iteration mark	katakana			U+30FE: KATAKANA VOICED ITERATION MARK	✓
+ヾ	&			˖̥	&		Lm		iteration mark	voiced katakana			U+30FE: KATAKANA VOICED ITERATION MARK	✓
+〱	&			&̱	&		Lm	r	iteration mark	vertical phrase	くの字点	kunojiten	U+3031: VERTICAL KANA REPEAT MARK	
+〲	&			&͈	&		Lm	r	iteration mark	vertical phrase voiced			U+3032: VERTICAL KANA REPEAT WITH VOICED SOUND MARK	
+〳				&͇			Lm		half iteration mark	vertical phrase			U+3033: VERTICAL KANA REPEAT MARK UPPER HALF	
+〴				&̥			Lm		half iteration mark	vertical phrase voiced			U+3034: VERTICAL KANA REPEAT WITH VOICED SOUND MARK UPPER HALF	
+〵							Lm		half iteration mark	vertical phrase			U+3035: VERTICAL KANA REPEAT MARK LOWER HALF	
 														
 ※	*			※			Po		reference mark				U+203B: REFERENCE MARK	✓
 ＊	*			*	*		Po		asterisk	fullwidth			U+FF0A: FULLWIDTH ASTERISK	✓
@@ -651,7 +656,7 @@ z		z		z	z		Ll						U+007A: LATIN SMALL LETTER Z	✓
 														
 `														
 														
-latinPanel = 'ː ā ɕ ç d͡z d͡ʑ d͡z ē ɸ ɡ ī ɲ ŋ ɴ ō ʃ t͡s t͡ɕ t͡ʃ ū ʑ ʒ ʲ'														
+latinPanel = 'ː ā ɕ ç d͡z d͡ʑ d͡z d͡ʒ ē ɸ ɡ ī ɲ ŋ ɴ ō ʃ t͡s t͡ɕ t͡ʃ ū ʑ ʒ ʲ'														
 														
 var cols = {														
 key: 1,														
