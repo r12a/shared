@@ -103,13 +103,13 @@ var spreadsheet = `jpan-ja	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ゞ	&			˖͈	&		Lm		iteration mark	voiced hiragana			U+309E: HIRAGANA VOICED ITERATION MARK	✓
 ヽ	&			 ˖͇	&		Lm		iteration mark	katakana			U+30FD: KATAKANA ITERATION MARK	✓
 ヾ	&			˖̥	&		Lm		iteration mark	voiced katakana			U+30FE: KATAKANA VOICED ITERATION MARK	✓
-〱	&			&̱	&		Lm	r	iteration mark	vertical phrase	くの字点	kunojiten	U+3031: VERTICAL KANA REPEAT MARK	
-〲	&			&͈	&		Lm	r	iteration mark	vertical phrase voiced			U+3032: VERTICAL KANA REPEAT WITH VOICED SOUND MARK	
-〳				&͇			Lm		half iteration mark	vertical phrase			U+3033: VERTICAL KANA REPEAT MARK UPPER HALF	
-〴				&̥			Lm		half iteration mark	vertical phrase voiced			U+3034: VERTICAL KANA REPEAT WITH VOICED SOUND MARK UPPER HALF	
-〵							Lm		half iteration mark	vertical phrase			U+3035: VERTICAL KANA REPEAT MARK LOWER HALF	
+〱	&			&̱	&		Lm	r	iteration mark	vertical phrase	くの字点	kunojiten	U+3031: VERTICAL KANA REPEAT MARK	✓
+〲	&			&͈	&		Lm	r	iteration mark	vertical phrase voiced			U+3032: VERTICAL KANA REPEAT WITH VOICED SOUND MARK	✓
+〳				&͇			Lm	r	half iteration mark	vertical phrase			U+3033: VERTICAL KANA REPEAT MARK UPPER HALF	✓
+〴				&̥			Lm	r	half iteration mark	vertical phrase voiced			U+3034: VERTICAL KANA REPEAT WITH VOICED SOUND MARK UPPER HALF	✓
+〵							Lm	r	half iteration mark	vertical phrase			U+3035: VERTICAL KANA REPEAT MARK LOWER HALF	✓
 														
-※	*			※			Po		reference mark				U+203B: REFERENCE MARK	✓
+※	*			※			Po		reference mark		米印	komejirushi	U+203B: REFERENCE MARK	✓
 ＊	*			*	*		Po		asterisk	fullwidth			U+FF0A: FULLWIDTH ASTERISK	✓
 *				*̣	*		Po		asterisk				U+002A: ASTERISK	✓
 §	*			§			Po		section sign				U+00A7: SECTION SIGN	✓
@@ -121,14 +121,14 @@ var spreadsheet = `jpan-ja	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 〠				〠			So		postal mark face				U+3020: POSTAL MARK FACE	✓
 〶				〶			So		postal mark circled				U+3036: CIRCLED POSTAL MARK	✓
 〷				〷			So		telegraphic line feed separator				U+3037: IDEOGRAPHIC TELEGRAPH LINE FEED SEPARATOR SYMBOL	✓
-〓				〓			So		get mark				U+3013: GETA MARK	✓
+〓				〓			So		geta mark				U+3013: GETA MARK	✓
 														
-〆				〆			Lo		ideographic closing mark				U+3006: IDEOGRAPHIC CLOSING MARK	✓
-〼				〼			Lo		masu mark				U+303C: MASU MARK	✓
-〽				〽			Po		part alternation mark				U+303D: PART ALTERNATION MARK	✓
-ゟ				–			Lo		hiragana				U+309F: HIRAGANA DIGRAPH YORI	✓
-ヿ							Lo		katakana				U+30FF: KATAKANA DIGRAPH KOTO	✓
+〆		ʃime		〆	shime		Lo	i	logogram abbreviation				U+3006: IDEOGRAPHIC CLOSING MARK	✓
+〼		masu		〼	masu		Lo	i	masu shorthand				U+303C: MASU MARK	✓
+ゟ		yori		ゟ	yori		Lo	i	logogram abbreviation				U+309F: HIRAGANA DIGRAPH YORI	✓
+ヿ		koto		ヿ	koto		Lo	i	logogram abbreviation				U+30FF: KATAKANA DIGRAPH KOTO	✓
 														
+〽				〽			Po	r	part alternation mark		庵点 /  歌記号	ioriten / utakigō	U+303D: PART ALTERNATION MARK	✓
 														
 														
 ％	%			％	%		Po		punctuation	fullwidth			U+FF05: FULLWIDTH PERCENT SIGN	✓
@@ -228,7 +228,7 @@ var spreadsheet = `jpan-ja	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ケ	K	ke		k̄ᵉ	ke		Lo		katakana				U+30B1: KATAKANA LETTER KE	✓
 コ	K	ko		k̄ᵒ	ko		Lo		katakana				U+30B3: KATAKANA LETTER KO	✓
 ヵ	K			–			Lo		katakana				U+30F5: KATAKANA LETTER SMALL KA	✓
-ヶ	K			–			Lo		katakana				U+30F6: KATAKANA LETTER SMALL KE	✓
+ヶ	K	ka ko		ḳᵃ	ka ko		Lo		counter shorthand				U+30F6: KATAKANA LETTER SMALL KE	✓
 Ｋ	K	k		K	k		Lu		fullwidth				U+FF2B: FULLWIDTH LATIN CAPITAL LETTER K	✓
 ｋ	k	k		k	k		Ll		fullwidth				U+FF4B: FULLWIDTH LATIN SMALL LETTER K	✓
 Ｌ	L	l		L	l		Lu		fullwidth				U+FF2C: FULLWIDTH LATIN CAPITAL LETTER L	✓
@@ -326,19 +326,19 @@ var spreadsheet = `jpan-ja	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ゔ	v	vu		vᵘ	vu		Lo		hiragana				U+3094: HIRAGANA LETTER VU	✓
 ヴ	V	vu		v̄ᵘ	vu		Lo		katakana				U+30F4: KATAKANA LETTER VU	✓
 ヷ	V	va		vᵃ	va		Lo		katakana				U+30F7: KATAKANA LETTER VA	✓
-ヸ	V	vi		vⁱ	vi		Lo		katakana				U+30F8: KATAKANA LETTER VI	✓
-ヹ	V	ve		vᵉ	ve		Lo		katakana				U+30F9: KATAKANA LETTER VE	✓
+ヸ	V	vi		vⁱ	vi		Lo	a	katakana				U+30F8: KATAKANA LETTER VI	✓
+ヹ	V	ve		vᵉ	ve		Lo	a	katakana				U+30F9: KATAKANA LETTER VE	✓
 ヺ	V	vo		vᵒ	vo		Lo		katakana				U+30FA: KATAKANA LETTER VO	✓
 Ｖ	V	v		V	v		Lu		fullwidth				U+FF36: FULLWIDTH LATIN CAPITAL LETTER V	✓
 ｖ	v	v		v	v		Ll		fullwidth				U+FF56: FULLWIDTH LATIN SMALL LETTER V	✓
 わ	w	wa		wᵃ	wa		Lo		hiragana				U+308F: HIRAGANA LETTER WA	✓
-ゐ	w	wi		wⁱ	wi		Lo		hiragana				U+3090: HIRAGANA LETTER WI	✓
-ゑ	w	we		wᵉ	we		Lo		hiragana				U+3091: HIRAGANA LETTER WE	✓
+ゐ	w	wi		wⁱ	wi		Lo	r	hiragana				U+3090: HIRAGANA LETTER WI	✓
+ゑ	w	we		wᵉ	we		Lo	r	hiragana				U+3091: HIRAGANA LETTER WE	✓
 を	w	wo o		wᵒ	o wo		Lo		hiragana				U+3092: HIRAGANA LETTER WO	✓
 ゎ	w	ʷ		ʷ	w		Lo		hiragana				U+308E: HIRAGANA LETTER SMALL WA	✓
 ワ	W	wa		w̄ᵃ	wa		Lo		katakana				U+30EF: KATAKANA LETTER WA	✓
-ヰ	W	wi		w̄ⁱ	wi		Lo		katakana				U+30F0: KATAKANA LETTER WI	✓
-ヱ	W	we		w̄ᵉ	we		Lo		katakana				U+30F1: KATAKANA LETTER WE	✓
+ヰ	W	wi		w̄ⁱ	wi		Lo	r	katakana				U+30F0: KATAKANA LETTER WI	✓
+ヱ	W	we		w̄ᵉ	we		Lo	r	katakana				U+30F1: KATAKANA LETTER WE	✓
 ヲ	W	wo		w̄ᵒ	o wo		Lo		katakana				U+30F2: KATAKANA LETTER WO	✓
 ヮ	W	ʷ		ʷ	w		Lo		katakana				U+30EE: KATAKANA LETTER SMALL WA	✓
 Ｗ	W	w		W	w		Lu		fullwidth				U+FF37: FULLWIDTH LATIN CAPITAL LETTER W	✓
@@ -371,10 +371,10 @@ var spreadsheet = `jpan-ja	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ゾ	Z	zo		z̄ᵒ	zo		Lo		katakana				U+30BE: KATAKANA LETTER ZO	✓
 Ｚ	Z	z		Z	z		Lu		fullwidth				U+FF3A: FULLWIDTH LATIN CAPITAL LETTER Z	✓
 ｚ	z	z		z	z		Ll		fullwidth				U+FF5A: FULLWIDTH LATIN SMALL LETTER Z	✓
-゙	[			¨			Mn​		combining voicing mark				U+3099: COMBINING KATAKANA-HIRAGANA VOICED SOUND MARK	✓
-゚	[			°			Mn​		combining semi-voiced mark				U+309A: COMBINING KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK	✓
-゛	[			¨̣			Sk		spacing voicing mark				U+309B: KATAKANA-HIRAGANA VOICED SOUND MARK	✓
-゜	[			°̣			Sk		spacing semi-voiced mark				U+309C: KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK	✓
+゙	[			¨			Mn​	i	combining voicing mark				U+3099: COMBINING KATAKANA-HIRAGANA VOICED SOUND MARK	✓
+゚	[			°			Mn​	i	combining semi-voiced mark				U+309A: COMBINING KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK	✓
+゛	[			¨̣			Sk	r	spacing voicing mark				U+309B: KATAKANA-HIRAGANA VOICED SOUND MARK	✓
+゜	[			°̣			Sk	r	spacing semi-voiced mark				U+309C: KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK	✓
 														
 														
 														
@@ -656,7 +656,7 @@ z		z		z	z		Ll						U+007A: LATIN SMALL LETTER Z	✓
 														
 `														
 														
-latinPanel = 'ː ā ɕ ç d͡z d͡ʑ d͡z d͡ʒ ē ɸ ɡ ī ɲ ŋ ɴ ō ʃ t͡s t͡ɕ t͡ʃ ū ʑ ʒ ʲ'														
+latinPanel = 'ː ā ɕ ç d͡z d͡ʑ d͡z d͡ʒ ē ɸ ɡ ī ɲ ŋ ɴ ō ʃ t͡s t͡ɕ t͡ʃ ū ʑ ʒ ʲ ‹ › ⁱ ᵘ ᵚ'														
 														
 var cols = {														
 key: 1,														
