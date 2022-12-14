@@ -18,9 +18,9 @@ var spreadsheet = `deva-hi	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 \u200B	]			␣			Cf		zero-width space						U+200B: ZERO WIDTH SPACE	
 ्	*			͞		d	Mn		vowel-killer					halant	U+094D: DEVANAGARI SIGN VIRAMA	✓
 ़	/			ˑ		]	Mn		consonant modifier					nukta	U+093C: DEVANAGARI SIGN NUKTA	✓
-ऽ	\			ː		2	Lo		vowel lengthener						U+093D: DEVANAGARI SIGN AVAGRAHA	✓
+ऽ	\			ː		2	Lo	i	vowel lengthener						U+093D: DEVANAGARI SIGN AVAGRAHA	✓
 ₹	#			¤		4	Sc		currency symbol						U+20B9: INDIAN RUPEE SIGN	✓
-₨	#			¢			Sc		currency symbol						U+20A8 RUPEE SIGN	✓
+₨	#			¢			Sc	u	currency symbol						U+20A8 RUPEE SIGN	✓
 %	%			%			Po		percentage mark						U+0025: PERCENT SIGN	
 ‰	%			‰			Po		per mille mark						U+2030: PER MILLE SIGN	
 ॰	+			¨			Po		abbreviation marker						U+0970: DEVANAGARI ABBREVIATION SIGN	✓
@@ -93,7 +93,7 @@ var spreadsheet = `deva-hi	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ँ	N	̃		˜	̃	X	Mn		nasalisation				चन्द्रबिन्दु	candrabindu/anunāsika	U+0901: DEVANAGARI SIGN CANDRABINDU	✓
 ो	o	oː		ō	ō	a	Mc		vowel sign			ओ			U+094B: DEVANAGARI VOWEL SIGN O	✓
 ौ	o	ɔː		ɔ̄	au	q	Mc		vowel sign			औ			U+094C: DEVANAGARI VOWEL SIGN AU	✓
-ॐ	o	oːm		@		x	Lo		symbol						U+0950: DEVANAGARI OM	✓
+ॐ	o	oːm		@		x	Lo	i	symbol						U+0950: DEVANAGARI OM	✓
 ओ	O	oː		ọ̄	ō	A	Lo		independent vowel		ो				U+0913: DEVANAGARI LETTER O	✓
 औ	O	ɔː		ɔ̣̄	au	Q	Lo		independent vowel		ौ				U+0914: DEVANAGARI LETTER AU	✓
 प	p	p	ə	p	p	h	Lo		consonant						U+092A: DEVANAGARI LETTER PA	✓
@@ -135,11 +135,11 @@ var spreadsheet = `deva-hi	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 त्र		t̪ɾə		t͓r	tra	^	s		consonant letter						U+0924 U+094D U+0930: DEVANAGARI LETTER TA, SIGN VIRAMA, LETTER RA	
 क्ष		kʂə		k͓ʂ	kṣa	&	s		consonant letter						U+0915 U+094D U+0937: DEVANAGARI LETTER KA, SIGN VIRAMA, LETTER SSA	
 																
-ॅ	a	æ		æ		@	Mn		vowel-sign			ऍ			U+0945: DEVANAGARI VOWEL SIGN CANDRA E	✓
-ॉ	o	ɔ		ɔ		\	Mc		vowel-sign			ऑ			U+0949: DEVANAGARI VOWEL SIGN CANDRA O	✓
+ॅ	a	æ		æ		@	Mn	l	vowel-sign			ऍ			U+0945: DEVANAGARI VOWEL SIGN CANDRA E	✓
+ॉ	o	ɔ		ɔ		\	Mc	l	vowel-sign			ऑ			U+0949: DEVANAGARI VOWEL SIGN CANDRA O	✓
 																
-ऍ	A	æ		æ̣			Lo		independent vowel		ॅ				U+090D: DEVANAGARI LETTER CANDRA E	✓
-ऑ	O	ɔ		ɔ̣		|	Lo		independent vowel		ॉ				U+0911: DEVANAGARI LETTER CANDRA O	✓
+ऍ	A	æ		æ̣			Lo	l	independent vowel		ॅ				U+090D: DEVANAGARI LETTER CANDRA E	✓
+ऑ	O	ɔ		ɔ̣		|	Lo	l	independent vowel		ॉ				U+0911: DEVANAGARI LETTER CANDRA O	✓
 																
 अं		ə̃		ạⁿͫ	an		s		independent vowel						U+0905 U+0902: DEVANAGARI LETTER A, SIGN ANUSVARA	
 अः		ə(ɦ)		ạh̽	aḥ		s		independent vowel						U+0905 U+0903: DEVANAGARI LETTER A, SIGN VISARGA	

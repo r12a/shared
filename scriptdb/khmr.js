@@ -1,4 +1,5 @@
 var spreadsheet = `khmr-km	key	ipa	ipa+	translit	ungen	kbd	class	status	type	usage	dvowel	ivowel	shape	native name	name	ucs name	
+\u0020	 			 	 				space								
 \u200B	=			ᶻʷˢᵖ			Cf		zero-width space							U+200B: ZERO WIDTH SPACE	
 -	-			-	-		Pd		hyphen							U+2010: HYPHEN	
 ‑	-			‑	‑		Pd		non-breaking hyphen							U+2011: NON-BREAKING HYPHEN	
@@ -112,7 +113,7 @@ var spreadsheet = `khmr-km	key	ipa	ipa+	translit	ungen	kbd	class	status	type	usa
 ឡ	l	l	ɑː	l	l	L	Lo		a-series consonant				ឡ ្ឡ**		lɑː	U+17A1: KHMER LETTER LA	✓
 ល	l	l -l	ɔː	ḻ	l	l	Lo		o-series consonant				ល ្ល		lɔː	U+179B: KHMER LETTER LO	✓
 ឭ	L	la ~ lu		l̥		\	Lo		vocalic					ស្រៈឭ	sraʔ la	U+17AD: KHMER INDEPENDENT VOWEL LY	✓
-ឮ	L	laː ~ luː		l̥̄		|	Lo		vocalic					ស្រៈឮ	sraʔ laː	U+17AE: KHMER INDEPENDENT VOWEL LYY	✓
+ឮ	L	laː ~ luː		l̥̄		|	Lo	r	vocalic					ស្រៈឮ	sraʔ laː	U+17AE: KHMER INDEPENDENT VOWEL LYY	✓
 ្ឡ	l	l	ɑː	͞l	l				a-series consonant						lɑː	U+17D2 U+17A1: KHMER SIGN COENG, LETTER LA	
 ្ល	l	l -l	ɔː	͞ḻ	l				o-series consonant						lɔː	U+17D2 U+179B: KHMER SIGN COENG, LETTER LO	
 ម	m	m -m	ɔː	m̱	m	m	Lo		o-series consonant				ម ្ម		mɔː	U+1798: KHMER LETTER MO	✓
@@ -137,7 +138,7 @@ var spreadsheet = `khmr-km	key	ipa	ipa+	translit	ungen	kbd	class	status	type	usa
 ្ភ	p	pʰ p- -p	ɔː	͞p̱ʰ	ph				o-series consonant						pʰɔː	U+17D2 U+1797: KHMER SIGN COENG, LETTER PHO	
 រ	r	r -∅	ɔː	ṟ	r	r	Lo		o-series consonant				រ ្រ		rɔː	U+179A: KHMER LETTER RO	✓
 ឫ	R	ra ~ ru		r̥		A	Lo		vocalic					ស្រៈឫ	sraʔ ra	U+17AB: KHMER INDEPENDENT VOWEL RY	✓
-ឬ	R	raː ~ ruː		r̥̄		R	Lo		vocalic					ស្រៈឬ	sraʔ raː	U+17AC: KHMER INDEPENDENT VOWEL RYY	✓
+ឬ	R	raː ~ ruː		r̥̄		R	Lo	r	vocalic					ស្រៈឬ	sraʔ raː	U+17AC: KHMER INDEPENDENT VOWEL RYY	✓
 ្រ	r	r -∅	ɔː	͞ṟ	r				o-series consonant						rɔː	U+17D2 U+179A: KHMER SIGN COENG, LETTER RO	
 ស	s	s s- -h	ɑː	s	s	s	Lo		a-series consonant				ស ្ស		sɑː	U+179F: KHMER LETTER SA	✓
 ្ស	s	s s- -h	ɑː	͞s	s				a-series consonant						sɑː	U+17D2 U+179F: KHMER SIGN COENG, LETTER SA	
@@ -230,7 +231,7 @@ var spreadsheet = `khmr-km	key	ipa	ipa+	translit	ungen	kbd	class	status	type	usa
 `																	
 																	
 																	
-latinPanel = `« » Ä à á â æ ñ ô ý ā ă ī ŋ ś ū ȳ ɑ ɓ ɔ ɕ ɗ ə ɛ ɨ ɲ ʂ ʋ ʔ ʰ ʲ ʳ ʷ ʼ ː ᵃ ᵊ ᵒ ḍ ḥ ḵ ḷ ḻ ṃ ṅ ṇ ṉ ṟ ṣ ṫ ṭ ṯ ẏ ạ ị ọ ụ ​ – ‘ ’ ′ ″ ₔ ∅ ⸯ`																	
+latinPanel = `« » Ä à á â æ ñ ô ý ā ă ī ŋ ś ū ȳ ɑ ɓ ɔ ɕ ɗ ə ɛ ɨ ɲ ʂ ʋ ʔ ʰ ʲ ʳ ʷ ʼ ː ᵃ ᵊ ᵒ ḍ ḥ ḵ ḷ ḻ ṃ ṅ ṇ ṉ ṟ ṣ ṫ ṭ ṯ ẏ ạ ị ọ ụ ​ – ‘ ’ ′ ″ ₔ ∅ ⸯ ‹ ›`																	
 																	
 																	
 																	
