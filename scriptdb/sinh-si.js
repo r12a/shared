@@ -1,5 +1,4 @@
-var spreadsheet = `
-sinh-si	key	ipa	ipa+	translit	ISO	kbd	class	status	type	usage	dvowel	ivowel	native name	name	ucs name	block
+var spreadsheet = `sinh-si	key	ipa	ipa+	translit	ISO	kbd	class	status	type	usage	dvowel	ivowel	native name	name	ucs name	block
 -	-			-	-		Pd		hyphen						U+2010: HYPHEN	
 ‑	-			‑	‑		Pd		non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
 –	-			–	–		Pd		en dash						U+2013: EN DASH	
@@ -133,7 +132,7 @@ sinh-si	key	ipa	ipa+	translit	ISO	kbd	class	status	type	usage	dvowel	ivowel	nati
 ඍ	R	ri ru		r̥̣		R	Lo		miśra independent vowel		ෘ				U+0D8D: SINHALA LETTER IRUYANNA	✓
 ඎ	R	riː ruː		r̥̣̄			Lo	a	miśra independent vowel		ෲ				U+0D8E: SINHALA LETTER IRUUYANNA	✓
 ෘ	R	ri ru		r̥		D	Mc		miśra vowel sign			ඍ	ගැටය සහිත ඇලපිල්ල	gæʈaya sahita æ̣lapil͓la	U+0DD8: SINHALA VOWEL SIGN GAETTA-PILLA	✓
-ෲ	R	riː ruː		r̥̄			Mc		miśra vowel sign			ඎ	ගැටය සහිත ඇලපිලි දෙක	gæʈaya sahita æ̣lapili deka	U+0DF2: SINHALA VOWEL SIGN DIGA GAETTA-PILLA	✓
+ෲ	R	riː ruː		r̥̄			Mc	a	miśra vowel sign			ඎ	ගැටය සහිත ඇලපිලි දෙක	gæʈaya sahita æ̣lapili deka	U+0DF2: SINHALA VOWEL SIGN DIGA GAETTA-PILLA	✓
 ස	s	s	a ə	s	s	i	Lo		śuddha consonant						U+0DC3: SINHALA LETTER DANTAJA SAYANNA	✓
 ශ	s	ʃ	a ə	ʃ	ś	Y	Lo		miśra consonant						U+0DC1: SINHALA LETTER TAALUJA SAYANNA	✓
 ෂ	s	ʃ	a ə	ʃ̇	ṣ	I	Lo		miśra consonant						U+0DC2: SINHALA LETTER MUURDHAJA SAYANNA	✓
@@ -161,49 +160,31 @@ sinh-si	key	ipa	ipa+	translit	ISO	kbd	class	status	type	usage	dvowel	ivowel	nati
 ′				′	′		Po		prime						U+2032: PRIME	
 ″				″	″		Po		double prime						U+2033: DOUBLE PRIME	
 																
+`																
+																
+latinPanel = 'aː ā æ æː ǣ ɑ d͡ʒ ɖ ḍ ə eː ē ɡn ɦ iː ī jñ ᵐb m̌b ᵑɡ ňg ṇ ⁿɖ ňḍ ⁿd ňd ɲ ŋ ṅ ñ oː ō ʃ ś ṣ t͡ʃ ʈ ṭ uː ū ʋ'																
 																
 																
 																
+var cols = {																
+key: 1,																
+ipaLoc: 2,																
+ipaPlus: 3,																
+transLoc: 4,																
+transcription: 5,																
+kbd: 6,																
+class: 7,																
+status: 8,																
+typeLoc: 9,																
+statusLoc: 10,																
 																
+dvowel: 11,																
+ivowel: 12,																
 																
-
-
-
-`
-
-
-latinPanel = 'aː ā æ æː ǣ ɑ d͡ʒ ɖ ḍ ə eː ē ɡn ɦ iː ī jñ ᵐb m̌b ᵑɡ ňg ṇ ⁿɖ ňḍ ⁿd ňd ɲ ŋ ṅ ñ oː ō ʃ ś ṣ t͡ʃ ʈ ṭ uː ū ʋ'
-
-
-
-var cols = {
-"key": 1,
-"ipaLoc": 2,
-"ipaPlus": 3,
-"transLoc": 4,
-"transcription": 5,
-"kbd": 6,
-"class": 7,
-"status": 8,
-"typeLoc": 9,
-"statusLoc": 10,
-
-"dvowel": 11,
-"ivowel": 12,
-"subj":0,
-"ltone":0,
-"htone":0,
-"lc":0,
-"uc":0,
-"meaning":0,
-"shape": 0,
-"numLoc": 0,
-
-"nnameLoc": 13,
-"nameLoc": 14,
-"ucsName": 15,
-"block": 16,
-
-"othertranscriptions": [[5, 'ISO 15919']]
-}
-
+nnameLoc: 13,																
+nameLoc: 14,																
+ucsName: 15,																
+block: 16,																
+																
+othertranscriptions: [[5,'ISO 15919']]																
+}																

@@ -28,14 +28,15 @@ var spreadsheet = `beng-bn	key	ipa	ipa+	translit	iso	kbd	class	status	type	usage
 \u200C	\=			ₓ			Cf		zero-width non-joiner							U+200C: ZERO WIDTH NON-JOINER		
 \u200D	\=			₊			Cf		zero-width joiner							U+200D: ZERO WIDTH JOINER		
 \u034F	\=			ᶜᵍʲ			Mn		combining grapheme joiner							U+034F: COMBINING GRAPHEME JOINER		
-৳	#			¤			Sc		rupee sign	 					৲	U+09F3: BENGALI RUPEE SIGN		✓
-৲	#			¢			Sc		rupee mark						৳	U+09F2: BENGALI RUPEE MARK		✓
-৴	#			{CN1}			No		currency numerator							U+09F4: BENGALI CURRENCY NUMERATOR ONE		✓
-৵	#			{CN2}			No		currency numerator							U+09F5: BENGALI CURRENCY NUMERATOR TWO		✓
-৶	#			{CN3}			No		currency numerator							U+09F6: BENGALI CURRENCY NUMERATOR THREE		✓
-৷	#			{CN4}			No		currency numerator							U+09F7: BENGALI CURRENCY NUMERATOR FOUR		✓
-৸	#			{CN5}			No		currency numerator							U+09F8: BENGALI CURRENCY NUMERATOR ONE LESS THAN THE DENOMINATOR		✓
-৹	#			{CN6}			No		currency numerator							U+09F9: BENGALI CURRENCY DENOMINATOR SIXTEEN		✓
+৻				–			Sc	u								U+09FB: BENGALI GANDA MARK		
+৳	#			¤			Sc		rupee sign	 						U+09F3: BENGALI RUPEE SIGN		✓
+৲	#			¢			Sc	u	rupee mark							U+09F2: BENGALI RUPEE MARK		✓
+৴	#			{CN1}			No	a	currency numerator							U+09F4: BENGALI CURRENCY NUMERATOR ONE		✓
+৵	#			{CN2}			No	a	currency numerator							U+09F5: BENGALI CURRENCY NUMERATOR TWO		✓
+৶	#			{CN3}			No	a	currency numerator							U+09F6: BENGALI CURRENCY NUMERATOR THREE		✓
+৷	#			{CN4}			No	a	currency numerator							U+09F7: BENGALI CURRENCY NUMERATOR FOUR		✓
+৸	#			{CN5}			No	a	currency numerator							U+09F8: BENGALI CURRENCY NUMERATOR ONE LESS THAN THE DENOMINATOR		✓
+৹	#			{CN6}			No	a	currency numerator							U+09F9: BENGALI CURRENCY DENOMINATOR SIXTEEN		✓
 ৽	+			¨			Po		abbreviation marker							U+09FD: BENGALI ABBREVIATION SIGN		✓
 “	<			“	“		Pi		quotation mark							U+201C: LEFT DOUBLE QUOTATION MARK		✓
 \‘	<			\‘	\‘		Pi		quotation mark							U+2018: LEFT SINGLE QUOTATION MARK		✓
@@ -93,8 +94,8 @@ var spreadsheet = `beng-bn	key	ipa	ipa+	translit	iso	kbd	class	status	type	usage
 ৰ	r	ɹ	ɔ o	ɹ	r		Lo	u	consonant	assamese					rɔ	U+09F0: BENGALI LETTER RA WITH MIDDLE DIAGONAL		✓
 ড়	r	ɽ		ɖˑ	ɽ	r	s		consonant+nukta							U+09A1 U+09BC: BENGALI LETTER DDA, SIGN NUKTA	ɽ	
 ঢ়	r	ɽʱ		ɖʰˑ	ɽ	r	s		consonant+nukta							U+09A2 U+09BC: BENGALI LETTER DDHA, SIGN NUKTA	ⱤH	
-\u09DC	r	ɽ	ɔ o	ɽ	ɽ		Lo		precomposed consonant				ড়		ɽɔ	U+09DC: BENGALI LETTER RRA		
-\u09DD	r	ɽʱ	ɔ o	ɽ̇	ɽ		Lo		precomposed consonant				ঢ়		ɽhɔ	U+09DD: BENGALI LETTER RHA		
+\u09DC	r	ɽ	ɔ o	ɽ	ɽ		Lo	i	precomposed consonant				ড়		ɽɔ	U+09DC: BENGALI LETTER RRA		
+\u09DD	r	ɽʱ	ɔ o	ɽ̇	ɽ		Lo	i	precomposed consonant				ঢ়		ɽhɔ	U+09DD: BENGALI LETTER RHA		
 ৃ	R	RI		r̥	R̥	=	Mn		vocalic vowel sign			ঋ				U+09C3: BENGALI VOWEL SIGN VOCALIC R	ṛ	✓
 ৄ	R			r̥̄	R̥̄		Mn	a	vocalic vowel sign			ৠ				U+09C4: BENGALI VOWEL SIGN VOCALIC RR		✓
 ঋ	R	RI		r̥̣	R̥	+	Lo		independent vocalic		ৃ					U+098B: BENGALI LETTER VOCALIC R	Ṛ	✓
@@ -113,7 +114,7 @@ var spreadsheet = `beng-bn	key	ipa	ipa+	translit	iso	kbd	class	status	type	usage
 ঊ	U	U		ụ̄	Ū	T	Lo		independent vowel		ূ			দীর্ঘ ঊ	dīrghô ū	U+098A: BENGALI LETTER UU	Ū	✓
 ৱ	v	w β	ɔ o	v	v		Lo	u	consonant	assamese					wɔβo	U+09F1: BENGALI LETTER RA WITH LOWER DIAGONAL		✓
 য	y	d͡ʒ- -æ	ɔ o	ʥ	y	/	Lo		consonant/consonant lengthener					অন্তঃস্থ য	ɔntɔɦstʰo y̌ɔ	U+09AF: BENGALI LETTER YA	y y̌ yæ	✓
-\u09DF	y	j e̯	ɔ o	ẏ	ẏ		Lo		precomposed consonant				য়	অন্তঃস্থ য়	ɔntɔɦstʰo ɔ	U+09DF: BENGALI LETTER YYA		
+\u09DF	y	j e̯	ɔ o	ẏ	ẏ		Lo	i	precomposed consonant				য়	অন্তঃস্থ য়	ɔntɔɦstʰo ɔ	U+09DF: BENGALI LETTER YYA		
 য়	y	j e̯		ʲˑ	ẏ	?	s		consonant+nukta							U+09AF U+09BC: BENGALI LETTER YA, SIGN NUKTA	y	
 ্য	Y	æ		͓ʥ			s		conjunct							U+09CD U+09AF: BENGALI SIGN VIRAMA , LETTER YA		
 ʼ				ʼ	ʼ		Lm		apostrophe							U+02BC: MODIFIER LETTER APOSTROPHE		✓

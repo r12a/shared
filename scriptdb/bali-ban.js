@@ -94,12 +94,12 @@ var spreadsheet = `bali-ban	key	ipa	ipa+	translit	tulisan bali	kbd	class	status	
 \u1B0D\u1B35	L	ləː		l̥̣̄					compound vowel						ᬎ	U+1B0D U+1B35: BALINESE LETTER LA LENGA, VOWEL SIGN TEDUNG		
 \u1B3C\u1B35	L	ləː		l̥̄					compound vowel						ᬽ	U+1B3C U+1B35: BALINESE VOWEL SIGN LA LENGA, VOWEL SIGN TEDUNG		
 ᬫ	m	m	a ə	m	m	m	Lo		consonant				ᬫ ᭄ᬫ			U+1B2B: BALINESE LETTER MA	m	✓
-ᬀ	M	-m		m̽		{	Mn		final consonant						ulu ricem	U+1B00: BALINESE SIGN ULU RICEM		✓
+ᬀ	M	-m		m̽		{	Mn	i	final consonant						ulu ricem	U+1B00: BALINESE SIGN ULU RICEM		✓
 ᬦ	n	n	a ə	n	n	n	Lo		consonant				ᬦ ᭄ᬦ			U+1B26: BALINESE LETTER NA	n	✓
 ᬗ	n	ŋ	a ə	ŋ	ng	;	Lo		consonant				ᬗ ᭄ᬗ			U+1B17: BALINESE LETTER NGA	ng	✓
 ᬜ	n	ɲ	a ə	ɲ	nya	x	Lo		consonant				ᬜ ᭄ᬜ			U+1B1C: BALINESE LETTER NYA	ñ	✓
 ᬂ	N	-ŋ		ŋ̽	ng	]	Mn		final consonant						cecek	U+1B02: BALINESE SIGN CECEK	ng	✓
-ᬁ	N	-ŋ		ŋ̇̽		}	Mn		final consonant						ulu candra	U+1B01: BALINESE SIGN ULU CANDRA		✓
+ᬁ	N	-ŋ		ŋ̇̽		}	Mn	i	final consonant						ulu candra	U+1B01: BALINESE SIGN ULU CANDRA		✓
 ᬡ	N	n	a ə	ṇ	n ṇ	z	Lo	u	kawi consonant	kawi			ᬡ ᭄ᬡ		na rambat	U+1B21: BALINESE LETTER NA RAMBAT	n ṇ	✓
 ᭀ	o	o ɔ		o	o	o	Mc		vowel sign			ᬑ			taleng tedong	U+1B40: BALINESE VOWEL SIGN TALING TEDUNG	o	✓
 ᬑ	O	O Ɔ		ọ	o	)	Lo		independent vowel		ᭀ				o kara	U+1B11: BALINESE LETTER OKARA	O	✓

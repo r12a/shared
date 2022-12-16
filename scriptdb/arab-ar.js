@@ -1,4 +1,5 @@
 var spreadsheet = `arab-ar	key	ipa	ipa+	translit	LOC	kbd	class	status	type	usage	equiv	shape	native name	name	ucs name	block
+\u0020							Zs		space						U+0020: SPACE	
 ـ	_			_		J	Lm	i	baseline extender					tatweel	U+0640: ARABIC TATWEEL	✓
 -	-			-	-				hyphen						U+2010: HYPHEN	
 ‑	-			‑	‑		Pd		non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
@@ -10,48 +11,38 @@ var spreadsheet = `arab-ar	key	ipa	ipa+	translit	LOC	kbd	class	status	type	usage
 !	!			!	!		Po		exclamation mark						U+0021: EXCLAMATION MARK	
 ؟	?			?	?	?	Po		question mark						U+061F: ARABIC QUESTION MARK	✓
 .	.			.	.		Po		full stop						U+002E: FULL STOP	✓
-۔	.			.	.		Po	i	full stop						U+06D4: ARABIC FULL STOP	✓
+۔	.			.̣	.		Po	i	full stop						U+06D4: ARABIC FULL STOP	✓
 …	.			…	…	"	Po		ellipsis						U+2026: HORIZONTAL ELLIPSIS	✓
 (	(			(	(		Ps		parenthesis						U+0028: LEFT PARENTHESIS	✓
 [	(			[	[	F	Ps		bracket						U+005B: LEFT SQUARE BRACKET	
-﴾	(			⁅			Pe		ornate parenthesis						U+FD3E: ORNATE LEFT PARENTHESIS	✓
+﴾	(			[˙			Pe	i	ornate parenthesis						U+FD3E: ORNATE LEFT PARENTHESIS	✓
 )	)			)	)		Pe		parenthesis						U+0029: RIGHT PARENTHESIS	✓
 ]	)			]	]	D	Pe		bracket						U+005D: RIGHT SQUARE BRACKET	
-﴿	)			⁆			Ps		ornate parenthesis						U+FD3F: ORNATE RIGHT PARENTHESIS	✓
+﴿	)			]˙			Ps	i	ornate parenthesis						U+FD3F: ORNATE RIGHT PARENTHESIS	✓
 ٭	[			*			Po	i	punctuation						U+066D: ARABIC FIVE POINTED STAR	✓
-ع	{	ʕ		ʕ	ʿ	u	Lo		fricative			ع ععع	عَين	ʕajn	U+0639: ARABIC LETTER AIN	✓
-أ	}	ʔ		ɑ͑	a u	H	Lo		glottal stop		\u{627}\u{654}	أ ـأ	أَلِفْ هَمْزة	ʔalif hamza	U+0623: ARABIC LETTER ALEF WITH HAMZA ABOVE	✓
-إ	}	ʔ		i̜	i	Y	Lo		glottal stop		\u{627}\u{655}	إ ـإ			U+0625: ARABIC LETTER ALEF WITH HAMZA BELOW	✓
-آ	}	ʔaː		ɑ̃	ā ’ā	N	Lo		glottal stop		\u{627}\u{653}	آ ـآ	أَلِفْ مَدَّة	ʔalif madda	U+0622: ARABIC LETTER ALEF WITH MADDA ABOVE	✓
-ٱ	}	a		ɑ̄	-		Lo	i	glottal stop			ٱ ـٱ	اَلِفُ ٱلْوَصْلِ	ʔalifu l-wasˤli	U+0671: ARABIC LETTER ALEF WASLA	✓
-ء	}	ʔ		ʔ		x	Lo		glottal stop			ء	هَمْزة	hamzah	U+0621: ARABIC LETTER HAMZA	✓
-ٔ	}	ʔ		ʿ			Mn		hamza						U+0654: ARABIC HAMZA ABOVE	✓
-ٕ	}	ʔ		˓			Mn		hamza						U+0655: ARABIC HAMZA BELOW	✓
-ٓ	}			~		G	Mn		maddah diacritic	used with ا					U+0653: ARABIC MADDAH ABOVE	✓
-ث	@	θ		θ	th	e	Lo		fricative			ث ثثث	ثَاء	θaːʔ	U+062B: ARABIC LETTER THEH	✓
-ْ	*			͞		X	Mn		vowel absence marker				سُكُون	sukūn	U+0652: ARABIC SUKUN	✓
-ّ	&			˖		±	Mn		gemination mark				شَدَّة	shaddah	U+0651: ARABIC SHADDA	✓
-٬	#			‛			Po		thousands separator						U+066C: ARABIC THOUSANDS SEPARATOR	✓
-٫	#			·			Po		decimal separator						U+066B: ARABIC DECIMAL SEPARATOR	✓
+ْ	*			͞		X	Mn	i	vowel absence marker				سُكُون	sukūn	U+0652: ARABIC SUKUN	✓
+ʼ	\'			ʼ	ʼ		Lm		apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
+ّ	&			˖		±	Mn	i	gemination mark				شَدَّة	shaddah	U+0651: ARABIC SHADDA	✓
+٬	#			ᵗ			Po		thousands separator						U+066C: ARABIC THOUSANDS SEPARATOR	✓
+٫	#			ᵈ			Po		decimal separator						U+066B: ARABIC DECIMAL SEPARATOR	✓
 ؍	#			/			Po	i	date separator						U+060D: ARABIC DATE SEPARATOR	✓
-٪	%			٪			Po		percent sign						U+066A: ARABIC PERCENT SIGN	✓
-؉	%			؉			Po		per mille sign						U+0609 ARABIC-INDIC PER MILLE SIGN	✓
-%	%			%			Po		percentage mark						U+0025: PERCENT SIGN	✓
-‰	%			‰			Po		per mille sign						U+2030: PER MILLE SIGN	✓
-١	±			1̣	1	1	Nd		digit				وَاحِد	wɑːħid	U+0661: ARABIC-INDIC DIGIT ONE	✓
-٢	±			2̣	2	2	Nd		digit				اِثْنَين	ʔiθnain	U+0662: ARABIC-INDIC DIGIT TWO	✓
-٣	±			3̣	3	3	Nd		digit				ثَلَاثَة	θɑlɑːθɑ	U+0663: ARABIC-INDIC DIGIT THREE	✓
-٤	±			4̣	4	4	Nd		digit				أَربَعَة	ʔɑrbɑʕɑ	U+0664: ARABIC-INDIC DIGIT FOUR	✓
-٥	±			5̣	5	5	Nd		digit				خَمْسَة	xɑmsɑ	U+0665: ARABIC-INDIC DIGIT FIVE	✓
-٦	±			6̣	6	6	Nd		digit				سِتَّة	sittɑ	U+0666: ARABIC-INDIC DIGIT SIX	✓
-٧	±			7̣	7	7	Nd		digit				سَبْعَة	sɑbʕɑ	U+0667: ARABIC-INDIC DIGIT SEVEN	✓
-٨	±			8̣	8	8	Nd		digit				ثَمَانيَة	θɑmɑːnjɑ	U+0668: ARABIC-INDIC DIGIT EIGHT	✓
-٩	±			9̣	9	9	Nd		digit				تِسْعَة	tisʕɑ	U+0669: ARABIC-INDIC DIGIT NINE	✓
-٠	±			0̣	0	0	Nd		digit						U+0660: ARABIC-INDIC DIGIT ZERO	✓
 «	<			«	“	=	Pi		quotation mark						U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	✓
 ‹	<			‹		}	Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	✓
 “	<			“	“	E	Pi		quotation mark						U+201C: LEFT DOUBLE QUOTATION MARK	✓
-\‘	<			\'		Q	Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	✓
+‘	<			\'		Q	Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	✓
+»	>			»	”	-	Pf		quotation mark						U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	✓
+›	>			›		{	Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	✓
+”	>			”	”	R	Pf		quotation mark						U+201D: RIGHT DOUBLE QUOTATION MARK	✓
+’	>			\'		W	Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	✓
+																
+*	*			*	*		Po		asterisk						U+002A ASTERISK	
+§	*			§	§		Po		section sign						U+00A7: SECTION SIGN	
+†	*			†	†		Po		dagger						U+2020: DAGGER	
+‡	*			‡	‡		Po		double dagger						U+2021: DOUBLE DAGGER	
+′	\'			′	′		Po		prime						U+2032: PRIME	
+″	"			″	″		Po		double prime						U+2033: DOUBLE PRIME	
+•	•			•			Po		bullet						U+2022: BULLET	
+/						L	Po									
 \u200C	=			ₓ			Cf		zero-width non-joiner						U+200C: ZERO WIDTH NON-JOINER	
 \u200D	=			₊			Cf		zero-width joiner						U+200D: ZERO WIDTH JOINER	
 \u2067	=			ʳˡⁱ			Cf		rtl isolate						U+2067: RIGHT-TO-LEFT ISOLATE	
@@ -65,13 +56,20 @@ var spreadsheet = `arab-ar	key	ipa	ipa+	translit	LOC	kbd	class	status	type	usage
 \u200E	=			ˡʳᵐ			Cf		ltr mark						U+200E: LEFT-TO-RIGHT MARK	
 \u034F	=			ᶜᵍʲ			Mn		combining grapheme joiner						U+034F: COMBINING GRAPHEME JOINER	
 \u061C	=			ᵃˡᵐ			Cf		arabic letter mark						U+061C: ARABIC LETTER MARK	
-»	>			»	”	-	Pf		quotation mark						U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	✓
-›	>			›		{	Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	✓
-”	>			”	”	R	Pf		quotation mark						U+201D: RIGHT DOUBLE QUOTATION MARK	✓
-\’	>			\'		W	Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	✓
-َ	a	a		a	a	Q	Mn		vowel				فَتْحَة	fatħa	U+064E: ARABIC FATHA	✓
-ً	a	an		aⁿ	an	W	Mn		vowel				فَتْحَةً	fatħatan	U+064B: ARABIC FATHATAN	✓
-ٰ	A	aː		̍		H	Mn		vowel				أَلِيف خَنْجَرِيَّة	alɪf xand͡ʒarijja	U+0670: ARABIC LETTER SUPERSCRIPT ALEF	✓
+																
+ع	{	ʕ		ʕ	ʿ	u	Lo		fricative			ع ععع	عَين	ʕajn	U+0639: ARABIC LETTER AIN	✓
+أ	}	ʔ		ɑ͑	a u	H	Lo		glottal stop		\u{627}\u{654}	أ ـأ	أَلِفْ هَمْزة	ʔalif hamza	U+0623: ARABIC LETTER ALEF WITH HAMZA ABOVE	✓
+إ	}	ʔ		i̜	i	Y	Lo		glottal stop		\u{627}\u{655}	إ ـإ			U+0625: ARABIC LETTER ALEF WITH HAMZA BELOW	✓
+آ	}	ʔaː		ɑ̃	ā ’ā	N	Lo		glottal stop		\u{627}\u{653}	آ ـآ	أَلِفْ مَدَّة	ʔalif madda	U+0622: ARABIC LETTER ALEF WITH MADDA ABOVE	✓
+ٱ	}	a		ɑ̄	-		Lo	i	glottal stop			ٱ ـٱ	اَلِفُ ٱلْوَصْلِ	ʔalifu l-wasˤli	U+0671: ARABIC LETTER ALEF WASLA	✓
+ء	}	ʔ		ʔ		x	Lo		glottal stop			ء	هَمْزة	hamzah	U+0621: ARABIC LETTER HAMZA	✓
+ٔ	}	ʔ		ʿ			Mn	i	hamza						U+0654: ARABIC HAMZA ABOVE	✓
+ٕ	}	ʔ		˓			Mn	i	hamza						U+0655: ARABIC HAMZA BELOW	✓
+ٓ	}			~		G	Mn	i	maddah diacritic	used with ا					U+0653: ARABIC MADDAH ABOVE	✓
+ث	@	θ		θ	th	e	Lo		fricative			ث ثثث	ثَاء	θaːʔ	U+062B: ARABIC LETTER THEH	✓
+َ	a	a		a	a	Q	Mn	i	vowel				فَتْحَة	fatħa	U+064E: ARABIC FATHA	✓
+ً	a	an		aⁿ	an	W	Mn	i	vowel				فَتْحَةً	fatħatan	U+064B: ARABIC FATHATAN	✓
+ٰ	A	aː		̍		H	Mn	i	vowel				أَلِيف خَنْجَرِيَّة	alɪf xand͡ʒarijja	U+0670: ARABIC LETTER SUPERSCRIPT ALEF	✓
 ى	a	aː		à	á	n	Lo		vowel			ى ـى	ألف مقصورة	ʔalif maqsˤuːra	U+0649: ARABIC LETTER ALEF MAKSURA	✓
 ة	a	- ʰ		ä	h t	m	Lo		feminine indicator			ة ـة	تاء مربوطة	taːʔ marbuːtˤɑh	U+0629: ARABIC LETTER TEH MARBUTA	✓
 ب	b	b		b	b	f	Lo		stop			ب ببب	بَاء	baːʔ	U+0628: ARABIC LETTER BEH	✓
@@ -86,8 +84,8 @@ var spreadsheet = `arab-ar	key	ipa	ipa+	translit	LOC	kbd	class	status	type	usage
 غ	g	ɣ		ɣ	gh	y	Lo		fricative			غ غغغ	غَين	ɣajn	U+063A: ARABIC LETTER GHAIN	✓
 ح	H	ħ		ħ	ḥ	p	Lo		fricative			ح ححح	حَاء	ħaːʔ	U+062D: ARABIC LETTER HAH	✓
 ه	h¶	h		h	h	i	Lo		fricative			ه ههه	هَاء	haːʔ	U+0647: ARABIC LETTER HEH	✓
-ِ	i	ɪ		i	i	A	Mn		vowel				كَسْرَة	kasra	U+0650: ARABIC KASRA	✓
-ٍ	i	ɪn		iⁿ	in	A	Mn		vowel				كَسْرَةً	kasratān	U+064D: ARABIC KASRATAN	✓
+ِ	i	ɪ		i	i	A	Mn	i	vowel				كَسْرَة	kasra	U+0650: ARABIC KASRA	✓
+ٍ	i	ɪn		iⁿ	in	A	Mn	i	vowel				كَسْرَةً	kasratān	U+064D: ARABIC KASRATAN	✓
 ج	j	d͡ʒ ʒ		ʤ	j	[	Lo		affricate/fricative			ج ججج	جِيمْ	ʤiːm	U+062C: ARABIC LETTER JEEM	✓
 ك	k	k		k	k	;	Lo		stop			ك ككك	كَاف	kaːf	U+0643: ARABIC LETTER KAF	✓
 ل	l	l		l	l	g	Lo		lateral			ل للل	لاَمْ	laːm	U+0644: ARABIC LETTER LAM	✓
@@ -103,8 +101,8 @@ var spreadsheet = `arab-ar	key	ipa	ipa+	translit	LOC	kbd	class	status	type	usage
 ش	s	ʃ		ʃ	sh	a	Lo		fricative			ش ششش	شِينْ	ʃiːn	U+0634: ARABIC LETTER SHEEN	✓
 ط	T	tˤ		ᵵ	ṭ		Lo		pharyngealised stop			ط ططط	طَاء	tˤɑːʔ	U+0637: ARABIC LETTER TAH	✓
 ت	t¶	t		t	t	j	Lo		stop			ت تتت	تَاء	taːʔ	U+062A: ARABIC LETTER TEH	✓
-ُ	u	ʊ		u	u	E	Mn		vowel				ضَمَّة	dˤamma	U+064F: ARABIC DAMMA	✓
-ٌ	u	ʊn		uⁿ	un	R	Mn		vowel				ضَمَّةً	ḍammatān	U+064C: ARABIC DAMMATAN	✓
+ُ	u	ʊ		u	u	E	Mn	i	vowel				ضَمَّة	dˤamma	U+064F: ARABIC DAMMA	✓
+ٌ	u	ʊn		uⁿ	un	R	Mn	i	vowel				ضَمَّةً	ḍammatān	U+064C: ARABIC DAMMATAN	✓
 ڤ	v	v		v	v	T	Lo	l	fricative			ڤ ڤڤڤ			U+06A4: ARABIC LETTER VEH	✓
 ؤ	W	ʔ		w͑		c	Lo		glottal stop		\u{648}\u{654}	ؤ ـؤ	وَاو هَمْزة	waːw hamza	U+0624: ARABIC LETTER WAW WITH HAMZA ABOVE	✓
 و	w¶	w (uː)		w	w ū aw	,	Lo		approximant/mater lectionis			و ـو	وَاو	waːw	U+0648: ARABIC LETTER WAW	✓
@@ -131,13 +129,21 @@ var spreadsheet = `arab-ar	key	ipa	ipa+	translit	LOC	kbd	class	status	type	usage
 ﷻ				{SALLALLAHOU ALAYHE WASALLAM}			Lo	i	ligature						U+FDFB: ARABIC LIGATURE JALLAJALALOUHOU	✓
 ﷺ				{ALAYHE WASALLAM}			Lo	i	ligature						U+FDFA: ARABIC LIGATURE SALLALLAHOU ALAYHE WASALLAM	✓
 ﷽				{In the name of God, the Most Gracious, the Most Merciful}			So	i	ligature						U+FDFD: ARABIC LIGATURE BISMILLAH AR-RAHMAN AR-RAHEEM	✓
-ʼ				ʼ	ʼ		Lm		apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
-§				§	§		Po		section sign						U+00A7: SECTION SIGN	
-†				†	†		Po		dagger						U+2020: DAGGER	
-‡				‡	‡		Po		double dagger						U+2021: DOUBLE DAGGER	
-′				′	′		Po		prime						U+2032: PRIME	
-″				″	″		Po		double prime						U+2033: DOUBLE PRIME	
-/						L	Po									
+																
+١	±			1̣	1	1	Nd		digit				وَاحِد	wɑːħid	U+0661: ARABIC-INDIC DIGIT ONE	✓
+٢	±			2̣	2	2	Nd		digit				اِثْنَين	ʔiθnain	U+0662: ARABIC-INDIC DIGIT TWO	✓
+٣	±			3̣	3	3	Nd		digit				ثَلَاثَة	θɑlɑːθɑ	U+0663: ARABIC-INDIC DIGIT THREE	✓
+٤	±			4̣	4	4	Nd		digit				أَربَعَة	ʔɑrbɑʕɑ	U+0664: ARABIC-INDIC DIGIT FOUR	✓
+٥	±			5̣	5	5	Nd		digit				خَمْسَة	xɑmsɑ	U+0665: ARABIC-INDIC DIGIT FIVE	✓
+٦	±			6̣	6	6	Nd		digit				سِتَّة	sittɑ	U+0666: ARABIC-INDIC DIGIT SIX	✓
+٧	±			7̣	7	7	Nd		digit				سَبْعَة	sɑbʕɑ	U+0667: ARABIC-INDIC DIGIT SEVEN	✓
+٨	±			8̣	8	8	Nd		digit				ثَمَانيَة	θɑmɑːnjɑ	U+0668: ARABIC-INDIC DIGIT EIGHT	✓
+٩	±			9̣	9	9	Nd		digit				تِسْعَة	tisʕɑ	U+0669: ARABIC-INDIC DIGIT NINE	✓
+٠	±			0̣	0	0	Nd		digit						U+0660: ARABIC-INDIC DIGIT ZERO	✓
+٪	%			٪			Po		percent sign						U+066A: ARABIC PERCENT SIGN	✓
+؉	%			؉			Po		per mille sign						U+0609 ARABIC-INDIC PER MILLE SIGN	✓
+%	%			%			Po		percentage mark						U+0025: PERCENT SIGN	✓
+‰	%			‰			Po		per mille sign						U+2030: PER MILLE SIGN	✓
 1				1	1		Nd		digit				وَاحِد	wɑːħid	U+0031: DIGIT ONE	
 2				2	2		Nd		digit				اِثْنَين	ʔiθnain	U+0032: DIGIT TWO	
 3				3	3		Nd		digit				ثَلَاثَة	θɑlɑːθɑ	U+0033: DIGIT THREE	
@@ -151,8 +157,6 @@ var spreadsheet = `arab-ar	key	ipa	ipa+	translit	LOC	kbd	class	status	type	usage
 ࢐							Cf	l	currency symbol	Egyptian					U+0890: ARABIC POUND MARK ABOVE	✓
 ࢑							Cf	l	currency symbol	Egyptian					U+0891: ARABIC PIASTRE MARK ABOVE	✓
 ﷼		ri.jaːl		{RIAL}			Sc	i	currency symbol						U+FDFC: RIAL SIGN	✓
-							Zs		space						U+0020: SPACE	
-•				•			Po		bullet						U+2022: BULLET	
 																
 `																
 																
@@ -174,15 +178,7 @@ typeLoc: 9,
 statusLoc: 10,																
 																
 equiv: 11,																
-ivowel: 0,																
-subj:0,																
-ltone:0,																
-htone:0,																
-lc:0,																
-uc:0,																
-meaning:0,																
 shape: 12,																
-numLoc: 0,																
 																
 nnameLoc: 13,																
 nameLoc: 14,																

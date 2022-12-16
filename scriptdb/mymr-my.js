@@ -1,5 +1,7 @@
 var spreadsheet = `mymr-my	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	dvowel	ivowel	native name	latin name	ucs name	block
-\u200B	]				␣		Cf		zero width space						U+200B: ZERO WIDTH SPACE	
+\u0020	 						Zs		space						U+0020 SPACE	
+\u2060	=			ʷʲ			Cf		word joiner						U+2060 WORD JOINER	
+\u200B	]			ᶻʷˢᵖ	␣		Cf		zero width space						U+200B: ZERO WIDTH SPACE	
 ္	*			͓	͓	F	Mn		virama						U+1039: MYANMAR SIGN VIRAMA	✓
 ်	\\			ˣ	ˣ	f	Mn		asat				အသတ်	əθaʔ	U+103A: MYANMAR SIGN ASAT	✓
 ့	^			.	¹	h	Mn		tone mark						U+1037: MYANMAR SIGN DOT BELOW	✓
