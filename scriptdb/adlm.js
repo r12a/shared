@@ -4,34 +4,28 @@ var spreadsheet = `adlm-fuf	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ‑	-			‑	‑		Pd		non-breaking hyphen							U+2011: NON-BREAKING HYPHEN	
 –	-			–	–		Pd		en dash							U+2013: EN DASH	
 —	-			—	—		Pd		em dash							U+2014: EM DASH	
-⹁	,			⹁	,		Po		comma							U+2E41: REVERSED COMMA	
+⹁	,			,̩	,		Po		comma							U+2E41: REVERSED COMMA	
 ,	,			,	,		Po		comma							U+002C: COMMA	
-⁏	;			⁏	;		Po		semicolon							U+204F: REVERSED SEMICOLON	
+⁏	;			,̣	;		Po		semicolon							U+204F: REVERSED SEMICOLON	
 ;	;			;	;		Po		semicolon							U+003B: SEMICOLON	
-𞥄	:			ˉ			Mn		alif lengthener							U+1E944: ADLAM ALIF LENGTHENER	✓
 𞥅	:			ː			Mn		vowel lengthener							U+1E945: ADLAM VOWEL LENGTHENER	✓
+𞥄	:			ː̣			Mn		alif lengthener							U+1E944: ADLAM ALIF LENGTHENER	✓
 :	:			:	:		Po		colon							U+003A: COLON	
-𞥞	!			¡			Po		exclamation mark							U+1E95E: ADLAM INITIAL EXCLAMATION MARK	✓
-!	!			!	!		Po		exclamation mark							U+0021: EXCLAMATION MARK	
-𞥟	?			¿			Po		question mark							U+1E95F: ADLAM INITIAL QUESTION MARK	✓
-؟	?			?	?		Po		question mark							U+061F: ARABIC QUESTION MARK	
+𞥞	!			!	!		Po		exclamation mark							U+1E95E: ADLAM INITIAL EXCLAMATION MARK	✓
+!	!			!̣	!		Po		exclamation mark							U+0021: EXCLAMATION MARK	
+𞥟	?			?			Po		question mark							U+1E95F: ADLAM INITIAL QUESTION MARK	✓
+؟	?			?̣	?		Po		question mark							U+061F: ARABIC QUESTION MARK	
 .	.			.	.		Po		full stop							U+002E: FULL STOP	
 …	.			…	…		Po		ellipsis							U+2026: HORIZONTAL ELLIPSIS	
 (	(			(	(		Ps		parenthesis							U+0028: LEFT PARENTHESIS	
 [	(			[	[		Ps		bracket							U+005B: LEFT SQUARE BRACKET	
 )	)			)	)		Pe		parenthesis							U+0029: RIGHT PARENTHESIS	
 ]	)			]	]		Pe		bracket							U+005D: RIGHT SQUARE BRACKET	
-𞥋	[	̃		˜			Lm		nasalisation mark					𞤻𞤮𞤲𞤣𞤢𞤤	nyondal	U+1E94B: ADLAM NASALIZATION MARK	✓
-𞤢𞥈	{	ع ʕ		aˑ					extended consonant							U+1E922 U+1E948: ADLAM SMALL LETTER ALIF, CONSONANT MODIFIER	
-𞤀𞥈	{	ع ʕ		Aˑ					uppercase extended consonant							U+1E900 U+1E948: ADLAM CAPITAL LETTER ALIF, CONSONANT MODIFIER	
+𞥋	[¶	̃		˜			Lm		nasalisation mark					𞤻𞤮𞤲𞤣𞤢𞤤	nyondal	U+1E94B: ADLAM NASALIZATION MARK	✓
 𞥇	}	ʔ		ʿ			Mn		hamza							U+1E947: ADLAM HAMZA	✓
-𞤼	¶t	t		t	t		Ll		lowercase plosive		𞤚		𞤼 𞤼𞤼𞤼		tou	U+1E93C: ADLAM SMALL LETTER TU	✓
-𞤚	¶T	t		T	T		Lu		uppercase plosive			𞤼	𞤚 𞤚𞤚𞤚		tou	U+1E91A: ADLAM CAPITAL LETTER TU	✓
-𞤴	¶y	j		y	y		Ll		lowercase approximant		𞤒		𞤴 𞤴𞤴𞤴		ya	U+1E934: ADLAM SMALL LETTER YA	✓
-𞤒	¶Y	j		Y	Y		Lu		uppercase approximant			𞤴	𞤒 𞤒𞤒𞤒		ya	U+1E912: ADLAM CAPITAL LETTER YA	✓
-𞥈	/			˙			Mn		consonant modifier							U+1E948: ADLAM CONSONANT MODIFIER	✓
-𞥉	/			ˇ			Mn		consonant modifier							U+1E949: ADLAM GEMINATE CONSONANT MODIFIER	✓
 𞥊	/			ˑ			Mn		consonant/vowel modifier							U+1E94A: ADLAM NUKTA	✓
+𞥈	/			ˑ̣			Mn		consonant modifier							U+1E948: ADLAM CONSONANT MODIFIER	✓
+𞥉	/			ˑ̱			Mn		consonant modifier							U+1E949: ADLAM GEMINATE CONSONANT MODIFIER	✓
 𞥆	&			˖			Mn		gemination mark							U+1E946: ADLAM GEMINATION MARK	✓
 %	%			%			Po		percentage mark							U+0025: PERCENT SIGN	
 ‰	%			‰			Po		per mille mark							U+2030: PER MILLE SIGN	
@@ -39,8 +33,12 @@ var spreadsheet = `adlm-fuf	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ‹	<			‹			Pi		quotation mark							U+2018: LEFT SINGLE QUOTATION MARK	
 “	<			“	“		Pi		quotation mark							U+201C: LEFT DOUBLE QUOTATION MARK	
 \‘	<			\‘	\‘		Pi		quotation mark							U+2018: LEFT SINGLE QUOTATION MARK	
-\u200C	=			ₓ			Cf		zwnj							U+200C: ZERO WIDTH NON-JOINER	✓
-\u200D	=			₊			Cf		zwj							U+200D: ZERO WIDTH JOINER	✓
+»	>			»	”		Pf		quotation mark							U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
+›	>			›			Pf		quotation mark							U+2019: RIGHT SINGLE QUOTATION MARK	
+”	>			”	”		Pf		quotation mark							U+201D: RIGHT DOUBLE QUOTATION MARK	
+\’	>			\’	\’		Pf		quotation mark							U+2019: RIGHT SINGLE QUOTATION MARK	
+\u200C	=			ᶻʷⁿʲ			Cf		zwnj							U+200C: ZERO WIDTH NON-JOINER	✓
+\u200D	=			ᶻʷʲ			Cf		zwj							U+200D: ZERO WIDTH JOINER	✓
 \u034F	=			ᶜᵍʲ			Mn		combining grapheme joiner							U+034F: COMBINING GRAPHEME JOINER	✓
 \u2067	=			ʳˡⁱ			Cf		rtl isolate							U+2067: RIGHT-TO-LEFT ISOLATE	✓
 \u2066	=			ˡʳⁱ			Cf		ltr isolate							U+2066: LEFT-TO-RIGHT ISOLATE	✓
@@ -52,24 +50,23 @@ var spreadsheet = `adlm-fuf	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 \u200F	=			ʳˡᵐ			Cf		rtl mark							U+200F: RIGHT-TO-LEFT MARK	✓
 \u200E	=			ˡʳᵐ			Cf		ltr mark							U+200E: LEFT-TO-RIGHT MARK	✓
 \u061C	=			ᵃˡᵐ			Cf		arabic letter mark							U+061C: ARABIC LETTER MARK	
-»	>			»	”		Pf		quotation mark							U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
-›	>			›			Pf		quotation mark							U+2019: RIGHT SINGLE QUOTATION MARK	
-”	>			”	”		Pf		quotation mark							U+201D: RIGHT DOUBLE QUOTATION MARK	
-\’	>			\’	\’		Pf		quotation mark							U+2019: RIGHT SINGLE QUOTATION MARK	
-𞥐	0			0	0		Nd		digit							U+1E950: ADLAM DIGIT ZERO	✓
-𞥑	1			1	1		Nd		digit							U+1E951: ADLAM DIGIT ONE	✓
-𞥒	2			2	2		Nd		digit							U+1E952: ADLAM DIGIT TWO	✓
-𞥓	3			3	3		Nd		digit							U+1E953: ADLAM DIGIT THREE	✓
-𞥔	4			4	4		Nd		digit							U+1E954: ADLAM DIGIT FOUR	✓
-𞥕	5			5	5		Nd		digit							U+1E955: ADLAM DIGIT FIVE	✓
-𞥖	6			6	6		Nd		digit							U+1E956: ADLAM DIGIT SIX	✓
-𞥗	7			7	7		Nd		digit							U+1E957: ADLAM DIGIT SEVEN	✓
-𞥘	8			8	8		Nd		digit							U+1E958: ADLAM DIGIT EIGHT	✓
-𞥙	9			9	9		Nd		digit							U+1E959: ADLAM DIGIT NINE	✓
+𞥑	±			1̣	1		Nd		digit							U+1E951: ADLAM DIGIT ONE	✓
+𞥒	±			2̣	2		Nd		digit							U+1E952: ADLAM DIGIT TWO	✓
+𞥓	±			3̣	3		Nd		digit							U+1E953: ADLAM DIGIT THREE	✓
+𞥔	±			4̣	4		Nd		digit							U+1E954: ADLAM DIGIT FOUR	✓
+𞥕	±			5̣	5		Nd		digit							U+1E955: ADLAM DIGIT FIVE	✓
+𞥖	±			6̣	6		Nd		digit							U+1E956: ADLAM DIGIT SIX	✓
+𞥗	±			7̣	7		Nd		digit							U+1E957: ADLAM DIGIT SEVEN	✓
+𞥘	±			8̣	8		Nd		digit							U+1E958: ADLAM DIGIT EIGHT	✓
+𞥙	±			9̣	9		Nd		digit							U+1E959: ADLAM DIGIT NINE	✓
+𞥐	±			0̣	0		Nd		digit							U+1E950: ADLAM DIGIT ZERO	✓
+																	
+𞤢𞥈	{	ع ʕ		aˑ̣					extended consonant							U+1E922 U+1E948: ADLAM SMALL LETTER ALIF, CONSONANT MODIFIER	
+𞤀𞥈	{	ع ʕ		Aˑ̣					uppercase extended consonant							U+1E900 U+1E948: ADLAM CAPITAL LETTER ALIF, CONSONANT MODIFIER	
 𞤢	a	a		a	a		Ll		vowel		𞤀		𞤢 𞤢𞤢𞤢		alif	U+1E922: ADLAM SMALL LETTER ALIF	✓
-𞤢𞥄	a	aː		aˉ	aa				long vowel		𞤀𞥄					U+1E922 U+1E944: ADLAM SMALL LETTER ALIF, ALIF LENGTHENER	
+𞤢𞥄	a	aː		aː̣	aa				long vowel		𞤀𞥄					U+1E922 U+1E944: ADLAM SMALL LETTER ALIF, ALIF LENGTHENER	
 𞤀	A	a		A	A		Lu		uppercase vowel			𞤢	𞤀 𞤀𞤀𞤀		alif	U+1E900: ADLAM CAPITAL LETTER ALIF	✓
-𞤀𞥄	A	aː		Aˉ	AA				uppercase long vowel			𞤢𞥄				U+1E900 U+1E944: ADLAM CAPITAL LETTER ALIF. ALIF LENGTHENER	
+𞤀𞥄	A	aː		Aː̣	AA				uppercase long vowel			𞤢𞥄				U+1E900 U+1E944: ADLAM CAPITAL LETTER ALIF. ALIF LENGTHENER	
 𞤦	b	b		b	b		Ll		lowercase plosive		𞤄		𞤦 𞤦𞤦𞤦		ba	U+1E926: ADLAM SMALL LETTER BA	✓
 𞤩	b	ɓ		ɓ	ɓ bh		Ll		lowercase plosive		𞤇		𞤩 𞤩𞤩𞤩		bhè	U+1E929: ADLAM SMALL LETTER BHE	✓
 𞤄	B	b		B	B		Lu		uppercase plosive			𞤦	𞤄 𞤄𞤄𞤄		ba	U+1E904: ADLAM CAPITAL LETTER BA	✓
@@ -140,7 +137,9 @@ var spreadsheet = `adlm-fuf	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 𞤡	S	ʃ		Ʃ	Sh		Lu		uppercase fricative			𞥃	𞤡 𞤡𞤡𞤡			U+1E921: ADLAM CAPITAL LETTER SHA	✓
 𞤧𞥈	s	ص sˤ		sˑ					extended consonant							U+1E927 U+1E948: ADLAM SMALL LETTER SINNYIIYHE, CONSONANT MODIFIER	
 𞤅𞥈	S	ص sˤ		Sˑ					uppercase extended consonant							U+1E905 U+1E948: ADLAM CAPITAL LETTER SINNYIIYHE, CONSONANT MODIFIER	
+𞤼	t¶	t		t	t		Ll		lowercase plosive		𞤚		𞤼 𞤼𞤼𞤼		tou	U+1E93C: ADLAM SMALL LETTER TU	✓
 𞤼𞥈	t	ط tˤ		tˑ					extended consonant							U+1E93C U+1E948: ADLAM SMALL LETTER TU, CONSONANT MODIFIER	
+𞤚	T¶	t		T	T		Lu		uppercase plosive			𞤼	𞤚 𞤚𞤚𞤚		tou	U+1E91A: ADLAM CAPITAL LETTER TU	✓
 𞤚𞥈	T	ط tˤ		Tˑ					uppercase extended consonant							U+1E91A U+1E948: ADLAM CAPITAL LETTER TU, CONSONANT MODIFIER	
 𞤵	u	u		u	u		Ll		vowel		𞤓		𞤵 𞤵𞤵𞤵		ou	U+1E935: ADLAM SMALL LETTER U	✓
 𞤵𞥅	u	uː		uː	uu				long vowel		𞤓𞥅					U+1E935 U+1E945: ADLAM SMALL LETTER U, VOWEL LENGTHENER	
@@ -153,9 +152,11 @@ var spreadsheet = `adlm-fuf	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 𞤿	x	x		x	x		Ll		lowercase fricative		𞤝		𞤿 𞤿𞤿𞤿		xa	U+1E93F: ADLAM SMALL LETTER KHA	✓
 𞤝	X	x		X	X		Lu		uppercase fricative			𞤿	𞤝 𞤝𞤝𞤝		xa	U+1E91D: ADLAM CAPITAL LETTER KHA	✓
 𞤰	y	ʔʲ		ƴ	ƴ yh xh ʼy		Ll		lowercase approximant		𞤎		𞤰 𞤰𞤰𞤰		yhè	U+1E930: ADLAM SMALL LETTER YHE	✓
-𞤎	Y	ʔʲ		Ƴ	Ƴ Yh		Lu		uppercase approximant			𞤰	𞤎 𞤎𞤎𞤎		yhè	U+1E90E: ADLAM CAPITAL LETTER YHE	✓
+𞤴	y¶	j		y	y		Ll		lowercase approximant		𞤒		𞤴 𞤴𞤴𞤴		ya	U+1E934: ADLAM SMALL LETTER YA	✓
 𞤺𞥈	y	غ ɣ		gˑ					extended consonant							U+1E93A U+1E948: ADLAM SMALL LETTER GA, CONSONANT MODIFIER	
 𞤸𞥈	y	ه ɦ		hˑ					extended consonant							U+1E938 U+1E948: ADLAM SMALL LETTER HA, CONSONANT MODIFIER	
+𞤒	Y¶	j		Y	Y		Lu		uppercase approximant			𞤴	𞤒 𞤒𞤒𞤒		ya	U+1E912: ADLAM CAPITAL LETTER YA	✓
+𞤎	Y	ʔʲ		Ƴ	Ƴ Yh		Lu		uppercase approximant			𞤰	𞤎 𞤎𞤎𞤎		yhè	U+1E90E: ADLAM CAPITAL LETTER YHE	✓
 𞤘𞥈	Y	غ ɣ		Gˑ					uppercase extended consonant							U+1E918 U+1E948: ADLAM CAPITAL LETTER GA, CONSONANT MODIFIER	
 𞤖𞥈	Y	ه ɦ		Hˑ					uppercase extended consonant							U+1E916 U+1E948: ADLAM CAPITAL LETTER HA, CONSONANT MODIFIER	
 𞥁	z	z		z	z		Ll		lowercase fricative		𞤟		𞥁 𞥁𞥁𞥁			U+1E941: ADLAM SMALL LETTER ZAL	✓
@@ -170,10 +171,10 @@ var spreadsheet = `adlm-fuf	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 𞤲𞥋𞤶		ⁿd͡ʒ							prenasalised j							U+1E932 U+1E94B U+1E936: ADLAM SMALL LETTER NUN, NASALIZATION MARK, SMALL LETTER JIIM	
 𞤲𞥋𞤺		ᵑɡ							prenasalised g							U+1E932 U+1E94B U+1E93A: ADLAM SMALL LETTER NUN, NASALIZATION MARK, SMALL LETTER GA	
 																	
-ʼ				ʼ	ʼ		Lm		apostrophe							U+02BC: MODIFIER LETTER APOSTROPHE	
-§				§	§		Po		section sign							U+00A7: SECTION SIGN	
-†				†	†		Po		dagger							U+2020: DAGGER	
-‡				‡	‡		Po		double dagger							U+2021: DOUBLE DAGGER	
+ʼ	\'			ˈ	ʼ		Lm		apostrophe							U+02BC: MODIFIER LETTER APOSTROPHE	
+§	*			§	§		Po		section sign							U+00A7: SECTION SIGN	
+†	*			†	†		Po		dagger							U+2020: DAGGER	
+‡	*			‡	‡		Po		double dagger							U+2021: DOUBLE DAGGER	
 ′				′	′		Po		prime							U+2032: PRIME	
 ″				″	″		Po		double prime							U+2033: DOUBLE PRIME	
 																	
@@ -215,4 +216,4 @@ block: 17,
 othertranscriptions: [[5, 'Latin']]																	
 }																	
 																	
-																	
+																
