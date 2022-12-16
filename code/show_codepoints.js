@@ -38,7 +38,6 @@ function shownames_setImgOnclickOLD ( node, base, target ) {
 	}
 
 function shownames_setImgOnclickLESSOLD ( node, base, target ) {
-trace = true
     if (trace) console.log('shownames_setImgOnclick(', node.textContent, base, target,')')
     // called from initialiseShowNames
     
