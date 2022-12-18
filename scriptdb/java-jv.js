@@ -1,4 +1,6 @@
 var spreadsheet = `java-jv	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	dvowel	ivowel	shape	conj	native name	latin name	ucs name	block
+\u200B	]			␣			Cf		zero-width space								U+200B: ZERO WIDTH SPACE	
+ꦴ									vowel lengthener	not used alone in modern javanese							A9B4: JAVANESE VOWEL SIGN TARUNG	
 ‒		a	a ɔ		a				inherent vowel									
 -	-			-	-		Pd		hyphen								U+2010: HYPHEN	
 ‑	-			‑	‑		Pd		non-breaking hyphen								U+2011: NON-BREAKING HYPHEN	
@@ -9,7 +11,6 @@ var spreadsheet = `java-jv	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ꧉	.			.		.	Po		full stop							pada lungsi	U+A9C9: JAVANESE PADA LUNGSI	✓
 ꧌	(			§		[	Po		parenthesis/quotation marks							pada piseleh	U+A9CC: JAVANESE PADA PISELEH	✓
 ꧍	)			)		]	Po		parenthesis/quotation marks							pada piseleh	U+A9CD: JAVANESE TURNED PADA PISELEH	✓
-\u200B	]			␣			Cf		zero-width space								U+200B: ZERO WIDTH SPACE	
 ꦔ꦳	}	ʔ	a ɔ	ŋˑ				l	consonant	foriegn sound							U+A994 U+A9B3: JAVANESE LETTER NGA, SIGN CECAK TELU	
 ꧀	*			͞		/	Mc		vowel-killer							pangkon	U+A9C0: JAVANESE PANGKON	✓
 ꦳	/			ˑ		M	Mn		sound changer							cecak telu	U+A9B3: JAVANESE SIGN CECAK TELU	✓
