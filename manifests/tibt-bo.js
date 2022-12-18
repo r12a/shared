@@ -11,7 +11,7 @@ charUsageBCP='bo'
 orthogName = 'Tibetan'
 indic = true
 
-pageWebfonts = ["Noto Sans Tibetan WF"]
+pageWebfonts = ["Noto Serif Tibetan WF"]
 defaultSize = '24px'
 
 

@@ -1,4 +1,7 @@
 var spreadsheet = `thai-th	key	ipa	ipa+	translit	LOC	kbd	class	status	type	usage	native name	name	ucs name	block		
+\u0020	 						Zs		space				U+0020: SPACE			
+\u200B	=			ᶻʷˢᵖ			Cf		zero-width space				U+200B: ZERO WIDTH SPACE			
+\u2060	=			ʷʲ			Cf		word joiner				U+2060 WORD JOINER			
 ๐	0	0		0̣	0	Q	Nd		digit				U+0E50: THAI DIGIT ZERO	✓		
 ๑	1	1		1̣	1	@	Nd		digit				U+0E51: THAI DIGIT ONE	✓		
 ๒	2	2		2̣	2	#	Nd		digit				U+0E52: THAI DIGIT TWO	✓		
@@ -26,7 +29,6 @@ var spreadsheet = `thai-th	key	ipa	ipa+	translit	LOC	kbd	class	status	type	usage
 )	)			)	)	X	Pe		parenthesis				U+0029: RIGHT PARENTHESIS			
 ]	)			]	]		Pe		bracket				U+005D: RIGHT SQUARE BRACKET			
 ็	[	ɔː		˘		H	Mn		vowel shortener		ไม้ไต่คู้	mai tai khu	U+0E47: THAI CHARACTER MAITAIKHU	✓		
-\u200B	]			␣			Cf		zero-width space				U+200B: ZERO WIDTH SPACE			
 -อ	}	ɔː		ʔ̯	 o	\'	s		consonant used as vowel		อ อ่าง	o ang	U+0E2D: THAI CHARACTER O ANG			
 อ	}	- ɔː	\'	ʔ̯	 o	v	Lo		vowel carrier/vowel	mid class	อ อ่าง	o ang	U+0E2D: THAI CHARACTER O ANG	✓		
 ฺ	§			͓		B	Mn	l	virama	Pali			U+0E3A: THAI CHARACTER PHINTHU	✓		

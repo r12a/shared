@@ -21,16 +21,16 @@ var spreadsheet = `mlym-ml	key	ipa	ipa+	translit	iso	kbd	class	status	type	usage
 ʼ	\'			ʼ	ʼ		Lm		apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
 %	%			%			Po		percentage mark						U+0025: PERCENT SIGN	
 ‰	%			‰			Po		per mille mark						U+2030: PER MILLE SIGN	
-൧	±	1		1̣	1		Nd		digit						U+0D67: MALAYALAM DIGIT ONE	✓
-൨	±	2		2̣	2		Nd		digit						U+0D68: MALAYALAM DIGIT TWO	✓
-൩	±	3		3̣	3		Nd		digit						U+0D69: MALAYALAM DIGIT THREE	✓
-൪	±	4		4̣	4		Nd		digit						U+0D6A: MALAYALAM DIGIT FOUR	✓
-൫	±	5		5̣	5		Nd		digit						U+0D6B: MALAYALAM DIGIT FIVE	✓
-൬	±	6		6̣	6		Nd		digit						U+0D6C: MALAYALAM DIGIT SIX	✓
-൭	±	7		7̣	7		Nd		digit						U+0D6D: MALAYALAM DIGIT SEVEN	✓
-൮	±	8		8̣	8		Nd		digit						U+0D6E: MALAYALAM DIGIT EIGHT	✓
-൯	±	9		9̣	9		Nd		digit						U+0D6F: MALAYALAM DIGIT NINE	✓
-൦	±	0		0̣	0		Nd		digit						U+0D66: MALAYALAM DIGIT ZERO	✓
+൧	±	1		1̣	1		Nd	i	digit						U+0D67: MALAYALAM DIGIT ONE	✓
+൨	±	2		2̣	2		Nd	i	digit						U+0D68: MALAYALAM DIGIT TWO	✓
+൩	±	3		3̣	3		Nd	i	digit						U+0D69: MALAYALAM DIGIT THREE	✓
+൪	±	4		4̣	4		Nd	i	digit						U+0D6A: MALAYALAM DIGIT FOUR	✓
+൫	±	5		5̣	5		Nd	i	digit						U+0D6B: MALAYALAM DIGIT FIVE	✓
+൬	±	6		6̣	6		Nd	i	digit						U+0D6C: MALAYALAM DIGIT SIX	✓
+൭	±	7		7̣	7		Nd	i	digit						U+0D6D: MALAYALAM DIGIT SEVEN	✓
+൮	±	8		8̣	8		Nd	i	digit						U+0D6E: MALAYALAM DIGIT EIGHT	✓
+൯	±	9		9̣	9		Nd	i	digit						U+0D6F: MALAYALAM DIGIT NINE	✓
+൦	±	0		0̣	0		Nd	i	digit						U+0D66: MALAYALAM DIGIT ZERO	✓
 ‘	<			‘	‘		Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
 «	<			«	“		Pi		quotation mark						U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
 ‹	<			‹	‘		Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
@@ -138,30 +138,27 @@ var spreadsheet = `mlym-ml	key	ipa	ipa+	translit	iso	kbd	class	status	type	usage
 ‡				‡	‡		Po		double dagger						U+2021: DOUBLE DAGGER	
 ′				′	′		Po		prime						U+2032: PRIME	
 ″				″	″		Po		double prime						U+2033: DOUBLE PRIME	
-൰				{10}			No		number sign						U+0D70: MALAYALAM NUMBER TEN	✓
-൱				{100}			No		number sign						U+0D71: MALAYALAM NUMBER ONE HUNDRED	✓
-൲				{1000}			No		number sign						U+0D72: MALAYALAM NUMBER ONE THOUSAND	✓
-൳				¼			No		number sign						U+0D73: MALAYALAM FRACTION ONE QUARTER	✓
-൴				½			No		number sign						U+0D74: MALAYALAM FRACTION ONE HALF	✓
-൵				¾			No		number sign						U+0D75: MALAYALAM FRACTION THREE QUARTERS	✓
-൶				{1/16}			No		fraction						U+0D76: MALAYALAM FRACTION ONE SIXTEENTH	✓
-൷				{1/8}			No		fraction						U+0D77: MALAYALAM FRACTION ONE EIGHTH	✓
-൸				{3/16}			No		fraction						U+0D78: MALAYALAM FRACTION THREE SIXTEENTHS	✓
-൘				{1/160}			No		fraction						U+0D58: MALAYALAM FRACTION ONE ONE-HUNDRED-AND-SIXTIETH	✓
-൙				{1/40}			No		fraction						U+0D59: MALAYALAM FRACTION ONE FORTIETH	✓
-൚				{3/8}			No		fraction						U+0D5A: MALAYALAM FRACTION THREE EIGHTIETHS	✓
-൛				{1/20}			No		fraction						U+0D5B: MALAYALAM FRACTION ONE TWENTIETH	✓
-൜				{1/10}			No		fraction						U+0D5C: MALAYALAM FRACTION ONE TENTH	✓
-൝				{3/20}			No		fraction						U+0D5D: MALAYALAM FRACTION THREE TWENTIETHS	✓
-൞				{1/5}			No		fraction						U+0D5E: MALAYALAM FRACTION ONE FIFTH	✓
+൰				{10}			No	a	number sign						U+0D70: MALAYALAM NUMBER TEN	✓
+൱				{100}			No	a	number sign						U+0D71: MALAYALAM NUMBER ONE HUNDRED	✓
+൲				{1000}			No	a	number sign						U+0D72: MALAYALAM NUMBER ONE THOUSAND	✓
+൳				¼			No	a	number sign						U+0D73: MALAYALAM FRACTION ONE QUARTER	✓
+൴				½			No	a	number sign						U+0D74: MALAYALAM FRACTION ONE HALF	✓
+൵				¾			No	a	number sign						U+0D75: MALAYALAM FRACTION THREE QUARTERS	✓
+൶				{1/16}			No	a	fraction						U+0D76: MALAYALAM FRACTION ONE SIXTEENTH	✓
+൷				{1/8}			No	a	fraction						U+0D77: MALAYALAM FRACTION ONE EIGHTH	✓
+൸				{3/16}			No	a	fraction						U+0D78: MALAYALAM FRACTION THREE SIXTEENTHS	✓
+൘				{1/160}			No	a	fraction						U+0D58: MALAYALAM FRACTION ONE ONE-HUNDRED-AND-SIXTIETH	✓
+൙				{1/40}			No	a	fraction						U+0D59: MALAYALAM FRACTION ONE FORTIETH	✓
+൚				{3/8}			No	a	fraction						U+0D5A: MALAYALAM FRACTION THREE EIGHTIETHS	✓
+൛				{1/20}			No	a	fraction						U+0D5B: MALAYALAM FRACTION ONE TWENTIETH	✓
+൜				{1/10}			No	a	fraction						U+0D5C: MALAYALAM FRACTION ONE TENTH	✓
+൝				{3/20}			No	a	fraction						U+0D5D: MALAYALAM FRACTION THREE TWENTIETHS	✓
+൞				{1/5}			No	a	fraction						U+0D5E: MALAYALAM FRACTION ONE FIFTH	✓
 ൹							So	r	date sign	usage fading					U+0D79: MALAYALAM DATE MARK	✓
 																
 `																
 																
-																
 latinPanel = 'aː ā ai̯ au̯ bʰ ɕ ɖ ḍ ɖʰ ḍh d̪d̪d̪ d̪ʰ eː ē gʰ ɦ iː ī ɨ ɟ ɟʰ kʰ ɭ, ḷ ḻ l̥̣ l̥̣̄ l̥ l̥̄ ŋ ṅ ɲ ñ ɳ ṇ n̪ ṉ oː ō pʰ r̪ ṟ ɻ r̥̣ r̥̣̄ r̥ r̥̄ ʃ ś ʂ ṣ ʧ ʧʰ ʈ ṭ ʈʰ ṭh t̪ t̪ʰ ṯ ṯṯ uː ū ʋ'																
-																
-																
 																
 var cols = {																
 key: 1,																
@@ -193,5 +190,3 @@ block: 16,
 																
 othertranscriptions: [[5, 'ISO-15919']]																
 }																
-																
-																
