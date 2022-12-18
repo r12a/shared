@@ -11,7 +11,7 @@ charUsageBCP='lo'
 orthogName = 'Lao'
 indic = true
 
-pageWebfonts = ["Noto Serif Lao WF"]
+pageWebfonts = ["Noto Serif Lao WF", "Noto Sans Lao WF", "Noto Sans Lao Looped WF"]
 defaultSize = '24px'
 
 

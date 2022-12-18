@@ -1,4 +1,6 @@
 var spreadsheet = `laoo-lo	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	equiv	native name	latin name	ucs name	simmala	block
+\u0020	 						Zs		space					U+0020: SPACE		
+\u200B	]			␣			Cf		zero-width space					U+200B: ZERO WIDTH SPACE		✓
 -	-			-	-	{	Po		hyphen					U+2010: HYPHEN		
 ‑	-			‑	‑		Pd		non-breaking hyphen					U+2011: NON-BREAKING HYPHEN		
 –	-			–	–		Pd		en dash					U+2013: EN DASH		
@@ -14,8 +16,7 @@ var spreadsheet = `laoo-lo	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 [	(			[	[		Ps		bracket					U+005B: LEFT SQUARE BRACKET		
 )	)			)	)	?	Pe		parenthesis					U+0029: RIGHT PARENTHESIS		
 ]	)			]	]		Pe		bracket					U+005D: RIGHT SQUARE BRACKET		
-໌	]			′		%	Mn		cancellation mark					U+0ECC: LAO CANCELLATION MARK		✓
-\u200B	]			␣			Cf		zero-width space					U+200B: ZERO WIDTH SPACE		✓
+໌	]			′		%	Mn	a	cancellation mark					U+0ECC: LAO CANCELLATION MARK		✓
 ອ	}	ʔ ɔː		ʔ	- ǭ	v	Lo		mid class vowel carrier/vowel			ອ ໂອ	ɔ̀ː ʔòː	U+0EAD: LAO LETTER O	∅	✓
 ໆ	&			&		N	Lm		repetition mark			ເຄ່ຶອງໝາຍຊ້ຳ	kʰɯaŋ-mǎːj-sâm	U+0EC6: LAO KO LA		✓
 ₭	#			¤		Z	Sc		currency symbol					U+20AD: KIP SIGN		
@@ -199,6 +200,6 @@ nameLoc: 13,
 ucsName: 14,																
 block: 16,																
 																
-othertranscriptions: [[5, 'LOC'], [15, 'Simmala']]															
+othertranscriptions: [[5, 'LOC'], [15, 'Simmala']]																
 }																
 																
