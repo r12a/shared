@@ -93,7 +93,6 @@ trace = true
 
 
 function shownames_setImgOnclick ( node, base, target ) {
-trace = true
     if (trace) console.log('shownames_setImgOnclick(', node, base, target,')')
     // called from initialiseShowNames
     
@@ -103,8 +102,8 @@ trace = true
     
     alt = node.alt
     if (alt == '') return
-    console.log('>>> ALT', alt)
-    console.log('>>> charINFO', charInfo)
+    //console.log('>>> ALT', alt)
+    //console.log('>>> charINFO', charInfo)
     if (charInfo && charInfo[2]) node.dataset.ipa = charInfo[2]
     
 	node.onclick = function(){ showNameDetails(node.alt, getLanguage(node), base, target, document.getElementById('panel'), "", getTransliteration(node), node.dataset.ipa ) }
