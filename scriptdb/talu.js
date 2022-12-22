@@ -55,8 +55,8 @@ var spreadsheet = `talu-khb	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ”	>			”	”		Pf		quotation mark						U+201D: RIGHT DOUBLE QUOTATION MARK	
 \’	>			\’	\’		Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
 																
-ᦀ	a	ʔ	a	ạ	ạ	q	Lo		high tone consonant		ᦁ				U+1980: NEW TAI LUE LETTER HIGH QA	✓
-ᦁ	a	ʔ	a	ạ̱	ạ̱	Q	Lo		low tone consonant			ᦀ			U+1981: NEW TAI LUE LETTER LOW QA	✓
+ᦀ	a	ʔ	a	ʔ	ạ	q	Lo		high tone consonant		ᦁ				U+1980: NEW TAI LUE LETTER HIGH QA	✓
+ᦁ	a	ʔ	a	ʔ̱	ạ̱	Q	Lo		low tone consonant			ᦀ			U+1981: NEW TAI LUE LETTER LOW QA	✓
 ᦺ	a	ai̯		a͕ʲ	a͕ʲ	l	Lo		dependent vowel						U+19BA: NEW TAI LUE VOWEL SIGN AY	✓
 ᦱ	a	aː		ā	ā	A	Lo		dependent vowel						U+19B1: NEW TAI LUE VOWEL SIGN AA	✓
 ᦻ	a	aːi̯		aʲ	aʲ		Lo		dipthong						U+19BB: NEW TAI LUE VOWEL SIGN AAY	✓
@@ -66,17 +66,17 @@ var spreadsheet = `talu-khb	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᦤ	d	d	a	ḏ	ḏ	D	Lo		low tone consonant			ᦡ			U+19A4: NEW TAI LUE LETTER LOW DA	✓
 ᦵ	e	e eː		e͕	e͕	e	Lo		dependent vowel						U+19B5: NEW TAI LUE VOWEL SIGN E	✓
 ᦶ	e	ɛ ɛː		ɛ͕	ɛ͕	E	Lo		dependent vowel						U+19B6: NEW TAI LUE VOWEL SIGN AE	✓
-ᦹᦰ	e	ɯʔ		-ɯʔ	-ɯʔ										U+19B9 U+19B0: NEW TAI LUE VOWEL SIGN UE, VOWEL SIGN VOWEL SHORTENER	
-ᦸᦰ	e	ɔʔ		-ɔʔ	-ɔʔ										U+19B8 U+19B0: NEW TAI LUE VOWEL SIGN OA, VOWEL SIGN VOWEL SHORTENER	
-ᦶᦰ	e	ɛʔ		ɛ͕-ʔ	ɛ͕-ʔ										U+19B6 U+19B0: NEW TAI LUE VOWEL SIGN AE, VOWEL SIGN VOWEL SHORTENER	
-ᦷᦰ	e	oʔ		o͕-ʔ	o͕-ʔ										U+19B7 U+19B0: NEW TAI LUE VOWEL SIGN O, VOWEL SIGN VOWEL SHORTENER	
+-ᦹᦰ	e	ɯʔ		-ɯʔ	-ɯʔ				composite vowel						U+19B9 U+19B0: NEW TAI LUE VOWEL SIGN UE, VOWEL SIGN VOWEL SHORTENER	
+-ᦸᦰ	e	ɔʔ		-ɔʔ	-ɔʔ				composite vowel						U+19B8 U+19B0: NEW TAI LUE VOWEL SIGN OA, VOWEL SIGN VOWEL SHORTENER	
+ᦶ-ᦰ	e	ɛʔ		ɛ͕-ʔ	ɛ͕-ʔ				composite vowel						U+19B6 U+19B0: NEW TAI LUE VOWEL SIGN AE, VOWEL SIGN VOWEL SHORTENER	
+ᦷ-ᦰ	e	oʔ		o͕-ʔ	o͕-ʔ				composite vowel						U+19B7 U+19B0: NEW TAI LUE VOWEL SIGN O, VOWEL SIGN VOWEL SHORTENER	
 ᧀ	e	əi̯		əʲ	əʲ	U	Lo		dipthong						U+19C0: NEW TAI LUE VOWEL SIGN IY	✓
 ᦚ	f	f	a	f	f	f	Lo		high tone consonant		ᦝ				U+199A: NEW TAI LUE LETTER HIGH FA	✓
 ᦝ	f	f	a	f̱	f̱	F	Lo		low tone consonant			ᦚ			U+199D: NEW TAI LUE LETTER LOW FA	✓
 ᦠ	h	h	a	h	h	h	Lo		high tone consonant		ᦣ				U+19A0: NEW TAI LUE LETTER HIGH HA	✓
 ᦣ	h	h	a	ẖ	ẖ	H	Lo		low tone consonant			ᦠ			U+19A3: NEW TAI LUE LETTER LOW HA	✓
 ᦲ	i	i iː		i	i	i	Lo		dependent vowel						U+19B2: NEW TAI LUE VOWEL SIGN II	✓
-ᦲᦰ	i	iʔ		-iʔ	-iʔ										U+19B2 U+19B0: NEW TAI LUE VOWEL SIGN II, VOWEL SIGN VOWEL SHORTENER	
+-ᦲᦰ	i	iʔ		-iʔ	-iʔ				composite vowel						U+19B2 U+19B0: NEW TAI LUE VOWEL SIGN II, VOWEL SIGN VOWEL SHORTENER	
 ᦂ	k	k	a	k	k	k	Lo		high tone consonant		ᦅ				U+1982: NEW TAI LUE LETTER HIGH KA	✓
 ᦅ	k	k	a	ḵ	ḵ	K	Lo		low tone consonant			ᦂ			U+1985: NEW TAI LUE LETTER LOW KA	✓
 ᦦ	k	kʷ	a	kʷ	kʷ	h	Lo		high tone consonant		ᦨ				U+19A6: NEW TAI LUE LETTER HIGH KVA	✓
@@ -97,8 +97,8 @@ var spreadsheet = `talu-khb	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᧃ	N	n		n̽	n̽	n	Lo		final consonant						U+19C3: NEW TAI LUE LETTER FINAL N	✓
 ᦷ	o	o oː		o͕	o͕	o	Lo		dependent vowel						U+19B7: NEW TAI LUE VOWEL SIGN O	✓
 ᦸ	o	ɔ ɔː		ɔ	ɔ	O	Lo		dependent vowel						U+19B8: NEW TAI LUE VOWEL SIGN OA	✓
-ᦵᦰ	o	eʔ		e͕-ʔ	e͕-ʔ										U+19B5 U+19B0: NEW TAI LUE VOWEL SIGN E, VOWEL SIGN VOWEL SHORTENER	
-ᦵᦲ	o	ɤ ɤː		e͕-i	e͕-i										U+19B5 U+19B2: NEW TAI LUE VOWEL SIGN E, VOWEL SIGN II	
+ᦵ-ᦰ	o	eʔ		e͕-ʔ	e͕-ʔ				composite vowel						U+19B5 U+19B0: NEW TAI LUE VOWEL SIGN E, VOWEL SIGN VOWEL SHORTENER	
+ᦵ-ᦲ	o	ɤ ɤː		e͕-i	e͕-i				composite vowel						U+19B5 U+19B2: NEW TAI LUE VOWEL SIGN E, VOWEL SIGN II	
 ᦽ	o	oi̯		oʲ	oʲ	o	Lo		dipthong						U+19BD: NEW TAI LUE VOWEL SIGN OY	✓
 ᦾ	o	ɔi̯		ɔʲ	ɔʲ	r	Lo		dipthong						U+19BE: NEW TAI LUE VOWEL SIGN OAY	✓
 ᦵ-ᦲ	o	ɔʔ		e͕-i	e͕-i				composite vowel						U+19B5 U+19B2: NEW TAI LUE VOWEL SIGN E, VOWEL SIGN II	
@@ -121,10 +121,10 @@ var spreadsheet = `talu-khb	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᦹ	u	ɯ ɯː		ɯ	ɯ	e	Lo		dependent vowel						U+19B9: NEW TAI LUE VOWEL SIGN UE	✓
 ᦳ	u	u		u	u	u	Lo		dependent vowel						U+19B3: NEW TAI LUE VOWEL SIGN U	✓
 ᦴ	u	uː		ū	ū	U	Lo		dependent vowel						U+19B4: NEW TAI LUE VOWEL SIGN UU	✓
-ᦵᦲᦰ	u	ɤʔ		e͕-iʔ	e͕-iʔ										U+19B5 U+19B2 U+19B0: NEW TAI LUE VOWEL SIGN E, VOWEL SIGN II, VOWEL SIGN VOWEL SHORTENER	
+ᦵ-ᦲᦰ	u	ɤʔ		e͕-iʔ	e͕-iʔ				composite vowel						U+19B5 U+19B2 U+19B0: NEW TAI LUE VOWEL SIGN E, VOWEL SIGN II, VOWEL SIGN VOWEL SHORTENER	
 ᦿ	u	ɯi̯		ɯʲ	ɯʲ	u	Lo		dipthong						U+19BF: NEW TAI LUE VOWEL SIGN UEY	✓
 ᦼ	u	ui̯		uʲ	uʲ	y	Lo		dipthong						U+19BC: NEW TAI LUE VOWEL SIGN UY	✓
-ᦵᧀ	v	ɤi̯		e͕-əʲ	e͕-əʲ										U+19B5 U+19B2 U+19B0: NEW TAI LUE VOWEL SIGN E, VOWEL SIGN IY	
+ᦵ-ᧀ	v	ɤi̯		e͕-əʲ	e͕-əʲ				composite vowel						U+19B5 U+19B2 U+19B0: NEW TAI LUE VOWEL SIGN E, VOWEL SIGN IY	
 ᦛ	w	w	a	w	w	v	Lo		high tone consonant		ᦞ				U+199B: NEW TAI LUE LETTER HIGH VA	✓
 ᦞ	w	w	a	w̱	w̱	V	Lo		low tone consonant			ᦛ			U+199E: NEW TAI LUE LETTER LOW VA	✓
 ᧁ	W	u̯		w̽	w̽	v	Lo		final consonant						U+19C1: NEW TAI LUE LETTER FINAL V	✓

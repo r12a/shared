@@ -68,8 +68,8 @@ var spreadsheet = `newa-new	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 𑐨	B	bʱ	a	bʱ	bh		Lo		consonant						U+11428: NEWA LETTER BHA	✓
 𑐔	c	t͡ɕ	a	c	c		Lo		consonant						U+11414: NEWA LETTER CA	✓
 𑐕	C	t͡ɕʰ	a	cʰ	ch		Lo		consonant						U+11415: NEWA LETTER CHA	✓
-𑐜	d	ɖ	a	ɖ	ḍ		Lo		consonant						U+1141C: NEWA LETTER DDA	✓
-𑐝	D	ɖʱ	a	ɖʱ	ḍh		Lo		consonant						U+1141D: NEWA LETTER DDHA	✓
+𑐜	d	ɖ	a	ɖ	ḍ		Lo	i	consonant						U+1141C: NEWA LETTER DDA	✓
+𑐝	D	ɖʱ	a	ɖʱ	ḍh		Lo	i	consonant						U+1141D: NEWA LETTER DDHA	✓
 𑐡	d¶	d	a	d	d		Lo		consonant						U+11421: NEWA LETTER DA	✓
 𑐢	D¶	dʱ	a	dʱ	dh		Lo		consonant						U+11422: NEWA LETTER DHA	✓
 𑐊	E	e		ẹ̄	ē		Lo		independent vowel		𑐾				U+1140A: NEWA LETTER E	✓
@@ -96,10 +96,10 @@ var spreadsheet = `newa-new	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 𑐪	m	mʰ	a	mʰ	mh		Lo		consonant						U+1142A: NEWA LETTER MHA	✓
 𑐒	N	ŋ	a	ŋ	ṅ		Lo		consonant						U+11412: NEWA LETTER NGA	✓
 𑐤	n	nʰ	a	nʰ	nh		Lo		consonant						U+11424: NEWA LETTER NHA	✓
-𑐓	N	ŋʰ	a	ŋʰ	ṅh		Lo		consonant						U+11413: NEWA LETTER NGHA	✓
-𑐞	n	ɳ	a	ɳ	ṇ		Lo		consonant						U+1141E: NEWA LETTER NNA	✓
-𑐘	n	ɲ	a	ɲ	ñ		Lo		consonant						U+11418: NEWA LETTER NYA	✓
-𑐙	n	ɲʰ	a	ɲʰ	ñh		Lo		consonant						U+11419: NEWA LETTER NYHA	✓
+𑐓	N	ŋʰ	a	ŋʰ	ṅh		Lo	i	consonant						U+11413: NEWA LETTER NGHA	✓
+𑐞	n	ɳ	a	ɳ	ṇ		Lo	i	consonant						U+1141E: NEWA LETTER NNA	✓
+𑐘	n	ɲ	a	ɲ	ñ		Lo	i	consonant						U+11418: NEWA LETTER NYA	✓
+𑐙	n	ɲʰ	a	ɲʰ	ñh		Lo	i	consonant						U+11419: NEWA LETTER NYHA	✓
 𑐣	n¶	n	a	n	n		Lo		consonant						U+11423: NEWA LETTER NA	✓
 𑑀	o	o		ō	ō		Mc		vowel sign			𑐌			U+11440: NEWA VOWEL SIGN O	✓
 𑑁	o	əu		əᵘ	au		Mc		diphthong vowel sign			𑐍			U+11441: NEWA VOWEL SIGN AU	✓
@@ -113,15 +113,15 @@ var spreadsheet = `newa-new	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 𑐻	R	ruː		r̥̄	r̥̄		Mn		vowel sign			𑐇			U+1143B: NEWA VOWEL SIGN VOCALIC RR	✓
 𑐼	R	lu		l̥	l̥		Mn		vowel sign			𑐈			U+1143C: NEWA VOWEL SIGN VOCALIC L	✓
 𑐽	R	luː		l̥̄	l̥̄		Mn		vowel sign			𑐉			U+1143D: NEWA VOWEL SIGN VOCALIC LL	✓
-𑐆	R	ru		r̥̣	r̥		Lo		independent vowel		𑐺				U+11406: NEWA LETTER VOCALIC R	✓
+𑐆	R	ru		r̥̣	r̥		Lo	i	independent vowel		𑐺				U+11406: NEWA LETTER VOCALIC R	✓
 𑐇	R	ruː		r̥̣̄	r̥̄		Lo		independent vowel		𑐻				U+11407: NEWA LETTER VOCALIC RR	✓
 𑐈	R	lu		l̥̣	l̥		Lo		independent vowel		𑐼				U+11408: NEWA LETTER VOCALIC L	✓
 𑐉	R	luː		l̥̣̄	l̥̄		Lo		independent vowel		𑐽				U+11409: NEWA LETTER VOCALIC LL	✓
-𑐱	s	ɕ	a	ɕ	ś		Lo		consonant						U+11431: NEWA LETTER SHA	✓
-𑐲	s	ʂ	a	ʂ	ṣ		Lo		consonant						U+11432: NEWA LETTER SSA	✓
+𑐱	s	ɕ	a	ɕ	ś		Lo	i	consonant						U+11431: NEWA LETTER SHA	✓
+𑐲	s	ʂ	a	ʂ	ṣ		Lo	i	consonant						U+11432: NEWA LETTER SSA	✓
 𑐳	s¶	s	a	s	s		Lo		consonant						U+11433: NEWA LETTER SA	✓
-𑐚	t	ʈ	a	ʈ	ṭ		Lo		consonant						U+1141A: NEWA LETTER TTA	✓
-𑐛	T	ʈʰ	a	ʈʰ	ṭh		Lo		consonant						U+1141B: NEWA LETTER TTHA	✓
+𑐚	t	ʈ	a	ʈ	ṭ		Lo	i	consonant						U+1141A: NEWA LETTER TTA	✓
+𑐛	T	ʈʰ	a	ʈʰ	ṭh		Lo	i	consonant						U+1141B: NEWA LETTER TTHA	✓
 𑐟	t¶	t	a	t	t		Lo		consonant						U+1141F: NEWA LETTER TA	✓
 𑐠	T¶	tʰ	a	tʰ	th		Lo		consonant						U+11420: NEWA LETTER THA	✓
 𑐸	u	u		u	u		Mn		vowel sign			𑐄			U+11438: NEWA VOWEL SIGN U	✓

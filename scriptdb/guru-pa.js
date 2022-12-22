@@ -16,7 +16,7 @@ var spreadsheet = `guru-pa	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 )	)			)	)		Ps		parenthesis						U+0029: RIGHT PARENTHESIS	
 ]	)			]	]		Pe		bracket						U+005D: RIGHT SQUARE BRACKET	
 ਂ	[			˜	ṁ	x	Mn		vowel nasalisation					bindi	U+0A02: GURMUKHI SIGN BINDI	✓
-ੑ	[			ˊ		\	Mn		high tone marker					udaat	U+0A51: GURMUKHI SIGN UDAAT	✓
+ੑ	[			ˊ		\	Mn	u	high tone marker					udaat	U+0A51: GURMUKHI SIGN UDAAT	✓
 ੲ	[	∅				@	Lo	d	vowel support					iɽi	U+0A72: GURMUKHI IRI	✓
 ੳ	[	∅				!	Lo	d	vowel support					uɽɑ	U+0A73: GURMUKHI URA	✓
 ‍ଁ	[	̃		˜	̃				nasalisation							

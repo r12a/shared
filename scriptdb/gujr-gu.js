@@ -19,7 +19,7 @@ var spreadsheet = `gujr-gu	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ઼	/			ˑ		]	Mn		nukta						U+0ABC: GUJARATI SIGN NUKTA	✓
 %	%			%			Po		percentage mark						U+0025: PERCENT SIGN	
 ‰	%			‰			Po		per mille mark						U+2030: PER MILLE SIGN	
-૰	+			¨			Po		abbreviation marker						U+0AF0: GUJARATI ABBREVIATION SIGN	✓
+૰	+			¨			Po	i	abbreviation marker						U+0AF0: GUJARATI ABBREVIATION SIGN	✓
 ૧	±			1̣	1	1	Nd		digit					ekado or ek	U+0AE7: GUJARATI DIGIT ONE	✓
 ૨	±			2̣	2	2	Nd		digit					bagado or bay	U+0AE8: GUJARATI DIGIT TWO	✓
 ૩	±			3̣	3	3	Nd		digit					tragado or tran	U+0AE9: GUJARATI DIGIT THREE	✓
@@ -43,8 +43,8 @@ var spreadsheet = `gujr-gu	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ›	>			›			Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
 ”	>			”	”		Pf		quotation mark						U+201D: RIGHT DOUBLE QUOTATION MARK	
 \’	>			\’	\’		Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
-।	|			|	.		Po		section divider						U+0964: DEVANAGARI DANDA	
-॥	|			¶			Po		section divider						U+0965: DEVANAGARI DOUBLE DANDA	
+।	|			|	.		Po	i	section divider						U+0964: DEVANAGARI DANDA	
+॥	|			¶			Po	i	section divider						U+0965: DEVANAGARI DOUBLE DANDA	
 આ	A	ɑ		ạ̄	ā	E	Lo		independent vowel		ા				U+0A86: GUJARATI LETTER AA	✓
 ઍ	A	æ		æ̣	ê	!	Lo		independent vowel		ૅ				U+0A8D: GUJARATI VOWEL CANDRA E	✓
 ૅ	a	æ		æ	ê	@	Mn		vowel sign			ઍ			U+0AC5: GUJARATI VOWEL SIGN CANDRA E	✓
@@ -130,7 +130,7 @@ var spreadsheet = `gujr-gu	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ર્				–		$			for keyboard						U+0AB0 U+0ACD: GUJARATI LETTER RA, SIGN VIRAMA	
 ત્ર				–		^			for keyboard						U+0AA4 U+0ACD U+0AB0: GUJARATI LETTER TA, SIGN VIRAMA, LETTER RA	
 શ્ર				–		*			for keyboard						U+0AB6 U+0ACD U+0AB0: GUJARATI LETTER SHA, SIGN VIRAMA, LETTER RA	
-																
+ઽ				–											U+0ABD: GUJARATI SIGN AVAGRAHA	
 																
 `																
 																

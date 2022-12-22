@@ -18,13 +18,13 @@ var spreadsheet = `orya-ora	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ୕	[			ˉ			Mn		overline	Kuvi					U+0B55: ORIYA SIGN OVERLINE	✓
 ଓଁ	[	om							om sign						U+0B13 U+0B01: LETTER O, SIGN CANDRABINDU	
 ଁ	[	̃		˜	̃		Mn		nasalisation				ଚନ୍ଦ୍ରବିନ୍ଦୁ	chandrabindu	U+0B01: ORIYA SIGN CANDRABINDU	✓
-ଽ	]			′			Lo		elision; vowel prolongation				ଅବଗ୍ରହ	avagraha	U+0B3D: ORIYA SIGN AVAGRAHA	✓
+ଽ	]			′			Lo	t	elision; vowel prolongation	Sanskrit			ଅବଗ୍ରହ	avagraha	U+0B3D: ORIYA SIGN AVAGRAHA	✓
 ୰	@			°			So		deceased sign; name of deity					iswara	U+0B70: ORIYA ISSHAR	✓
 ୍	*			͞			Mn		vowel-killer				ହଳନ୍ତ	halanta	U+0B4D: ORIYA SIGN VIRAMA	✓
 ଼	/			ˑ			Mn		nukta					nukta	U+0B3C: ORIYA SIGN NUKTA	✓
-୲	#			¼			No		quarter						U+0B72: ORIYA FRACTION ONE QUARTER	✓
-୳	#			½			No		half						U+0B73 U+0020: ORIYA FRACTION ONE HALF, SPACE	✓
-୴	#			¾			No		three-quarters						U+0B74: ORIYA FRACTION THREE QUARTERS	✓
+୲	#			¼			No	a	quarter						U+0B72: ORIYA FRACTION ONE QUARTER	✓
+୳	#			½			No	a	half						U+0B73 U+0020: ORIYA FRACTION ONE HALF, SPACE	✓
+୴	#			¾			No	a	three-quarters						U+0B74: ORIYA FRACTION THREE QUARTERS	✓
 %	%			%	%		Po		percentage mark						U+0025: PERCENT SIGN	
 ୦	±			0̣	0		Nd		digit				ଶୂନ୍ୟ	śūnya	U+0B66: ORIYA DIGIT ZERO	✓
 ୧	±			1̣	1		Nd		digit				ଏକ	eka	U+0B67: ORIYA DIGIT ONE	✓
@@ -139,9 +139,9 @@ var spreadsheet = `orya-ora	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ′				′	′		Po		prime						U+2032: PRIME	
 ″				″	″		Po		double prime						U+2033: DOUBLE PRIME	
 																
-୶				{1/8}			No		one eighth						U+0B76: ORIYA FRACTION ONE EIGHTH	✓
-୵				{1/16}			No		one sixteenth						U+0B75: ORIYA FRACTION ONE SIXTEENTH	✓
-୷				{3/16}			No		three sixteenths						U+0B77: ORIYA FRACTION THREE SIXTEENTHS	✓
+୶				{1/8}			No	a	one eighth						U+0B76: ORIYA FRACTION ONE EIGHTH	✓
+୵				{1/16}			No	a	one sixteenth						U+0B75: ORIYA FRACTION ONE SIXTEENTH	✓
+୷				{3/16}			No	a	three sixteenths						U+0B77: ORIYA FRACTION THREE SIXTEENTHS	✓
 																
 `																
 																

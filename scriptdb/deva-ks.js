@@ -166,7 +166,7 @@ ivowel: 13,
 																	
 nnameLoc: 14,																	
 nameLoc: 15,																	
-ucsName: 16																	
+ucsName: 16,																
 block: 17,																	
 																	
 othertranscriptions: [[5, 'Latin']]																	
