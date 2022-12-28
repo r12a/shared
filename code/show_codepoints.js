@@ -29,67 +29,6 @@ function initialiseShowNames (base, target) {
 	}
 
 
-function shownames_setImgOnclickOLD ( node, base, target ) {
-    if (trace) console.log('shownames_setImgOnclick(', node.textContent, base, target,')')
-    // called from initialiseShowNames
-    
-	//node.onclick = function(){ showNameDetails(node.alt, node.lang, base, target, document.getElementById('panel') ) }
-	node.onclick = function(){ showNameDetails(node.alt, getLanguage(node), base, target, document.getElementById('panel'), "", getTransliteration(node) ) }
-	}
-
-function shownames_setImgOnclickLESSOLD ( node, base, target ) {
-    if (trace) console.log('shownames_setImgOnclick(', node.textContent, base, target,')')
-    // called from initialiseShowNames
-    
-    var alt=''
-    var charInfo=''
-    var ipa=''
-    
-    alt = node.alt
-    if (alt == '') return
-    console.log('>>> ALT', alt)
-    console.log(egList)
-    console.log('<<< egList[alt]',egList[alt])
-    
-    if (egList[alt]) charInfo = egList[alt].split('|')
-    console.log('>>> charINFO', charInfo)
-    if (charInfo && charInfo[2]) node.title = charInfo[2]
-    
-	node.onclick = function(){ showNameDetails(node.alt, getLanguage(node), base, target, document.getElementById('panel'), "", node.title ) }
-    
-	//node.onclick = function(){ showNameDetails(node.alt, node.lang, base, target, document.getElementById('panel') ) }
-//	node.onclick = function(){ showNameDetails(node.alt, getLanguage(node), base, target, document.getElementById('panel'), "", getTransliteration(node) ) }
-	}
-
-
-
-function shownames_setImgOnclickPrev ( node, base, target ) {
-trace = true
-    if (trace) console.log('shownames_setImgOnclick(', node, base, target,')')
-    // called from initialiseShowNames
-    
-    var alt=''
-    var charInfo=''
-    var ipa=''
-    
-    alt = node.alt
-    if (alt == '') return
-    console.log('>>> ALT', alt)
-    console.log(egList)
-    console.log('<<< egList[alt]',egList[alt])
-    
-    if (egList[alt]) charInfo = egList[alt].split('|')
-    console.log('>>> charINFO', charInfo)
-    if (charInfo && charInfo[2]) node.dataset.ipa = charInfo[2]
-    
-	node.onclick = function(){ showNameDetails(node.alt, getLanguage(node), base, target, document.getElementById('panel'), "", getTransliteration(node), node.dataset.ipa ) }
-    
-    // function showNameDetails (chars, clang, base, target, panel, list, translit, ipa) {
-
-    
-	//node.onclick = function(){ showNameDetails(node.alt, node.lang, base, target, document.getElementById('panel') ) }
-//	node.onclick = function(){ showNameDetails(node.alt, getLanguage(node), base, target, document.getElementById('panel'), "", getTransliteration(node) ) }
-	}
 
 
 function shownames_setImgOnclick ( node, base, target ) {
@@ -122,18 +61,6 @@ function shownames_setOnclick ( node, base, target ) {
 	}
 
 
-function shownames_setOnclickTEST ( node, base, target ) {
-    if (trace) console.log('shownames_setOnclick(', node.textContent, base, target,')')
-    // called from initialiseShowNames
-    // local list
-    
-    var list = ''
-    if (node.classList.contains('list')) list = 'y'
-    var showIPA = false
-    console.log(node.dataset.ipa)
-    if (node.dataset.ipa) showIPA = node.dataset.ipa
-	node.onclick = function(){ showNameDetails(node.textContent, getLanguage(node), base, target, document.getElementById('panel'), list, getTransliteration(node), showIPA) }
-	}
 
 
 function getLanguage(node) {
@@ -562,39 +489,6 @@ function makeDetails (chars) {
     }
 
 
-function showCharDetailsInPanel (evt) {
-	if (typeof charDetails === 'undefined') return
-
-	// find the language & character(s)
-	var lang
-	if (evt.target.className == 'listItem') lang = evt.target.lang
-	else lang = evt.target.parentNode.parentNode.querySelector('span').lang
-	var chars
-	if (evt.target.className == 'listItem') chars = evt.target.textContent
-	else chars = evt.target.parentNode.parentNode.querySelector('span').textContent
-	
-	// get the character
-	//console.log('target',evt.target)
-	//console.log('parent',evt.target.parentNode.parentNode)
-	//console.log('query',evt.target.parentNode.parentNode.querySelector('span'))
-	//console.log('chars',chars)
-	//console.log('lang', lang)
-	//var chars = evt.target.parentNode.parentNode.querySelector('span').textContent
-	//var lang = evt.target.parentNode.parentNode.querySelector('span').lang
-
-	var panel = document.getElementById('panel')
-	panel.innerHTML = makePanelDetails(chars,lang)
-	//document.getElementById('panel').innerHTML = charDetails[char]
-	panel.style.display = 'block'
-	
-	addExamples(lang)
-	autoTransliterate(evt.target.lang)
-    var links = panel.querySelectorAll('.codepoint a')
-	for (i=0;i<links.length;i++) links[i].onclick = showCharDetailsInPanel
-	setFootnoteRefs()
-
-	return false
-	}
 
 
 function showCharDetailsInPanel (evt) {
@@ -715,26 +609,8 @@ return out
 }
 
 
-function convertTranscriptionData (node) {
-	// other transcriptions
-    // local insertTranscriptions it para i
-    // global spreadsheetRows
-	var insertTranscriptions = document.querySelectorAll('.insertTranscription')
 
-	// do the inserted transcription locations
-	if (insertTranscriptions.length > 0 && cols.othertranscriptions && cols.othertranscriptions.length > 0) {
-		for (var it=0;it<insertTranscriptions.length;it++) {
-			var para = ''
-			for (var i=0;i<cols.othertranscriptions.length;i++) {
-				if (spreadsheetRows[insertTranscriptions[it].textContent] && spreadsheetRows[insertTranscriptions[it].textContent][cols.othertranscriptions[i][0]]) {
-					para += cols.othertranscriptions[i][1]+': <span class="trans">'+spreadsheetRows[insertTranscriptions[it].textContent][cols.othertranscriptions[i][0]]+'</span>'
-					if (i<cols.othertranscriptions.length-1) para += ', &nbsp; '
-					}
-				}
-			insertTranscriptions[it].innerHTML = para
-			}
-		}
-	}
+
 
 
 function convertTranscriptionData (node) {
