@@ -51,7 +51,7 @@ function shownames_setImgOnclick ( node, base, target ) {
 
 
 function shownames_setOnclick ( node, base, target ) {
-    if (trace) console.log('shownames_setOnclick(', node.textContent, base, target,')')
+    if (trace || traceSet.has('shownames_setOnclick')) console.log('shownames_setOnclick(', node.textContent, base, target,')')
     // called from initialiseShowNames
     // local list
     if (node.onclick) return
@@ -119,6 +119,8 @@ else {
 
 return str.trim()
 }
+
+
 
 
 
@@ -200,13 +202,23 @@ console.log('showNameDetails (',chars, clang, base, target, panel, list, transli
 
 
     var gloss = '<div class="multilineGlossedText">'
-    for (t=0;t<graphemes.length;t++) {
-        gloss += ` <div class="stack"><span class="rt translitGloss" lang="und-fonipa">${ transcriptions[t] }</span><span class="rb">${ graphemes[t] }</span>`
-        if (ipa !== false) {
-            if (ipa[t]) gloss += `<span class="rt IPAGloss" lang="und-fonipa">${ ipa[t] }</span>`
-            else gloss += `<span class="rt">&nbsp;</span>`
+    for (t=-1;t<graphemes.length;t++) {
+        if (t===-1) {
+            gloss += ` <div class="stack"><span class="rt translitGloss" lang="und-fonipa"><img src="../../shared/images/copysmall.png" onclick="copyPanelText('.translitGloss')" title="Copy the transliterated annotation." alt="Copy annotation"></span><span class="rb"><img src="../../shared/images/copysmall.png" onclick="copyPanelText('.rb')" title="Copy the base text at the top." alt="Copy base"></span>`
+            if (ipa !== false) {
+                if (ipa[t+1]) gloss += `<span class="rt IPAGloss" lang="und-fonipa"><img src="../../shared/images/copysmall.png" onclick="copyPanelText('.IPAGloss')" title="Copy the IPA annotation." alt="Copy annotation"></span>`
+                else gloss += `<span class="rt">&nbsp;</span>`
+                }
+            gloss += `</div>`
             }
-        gloss += `</div>`
+        else {
+            gloss += ` <div class="stack"><span class="rt translitGloss" lang="und-fonipa">${ transcriptions[t] }</span><span class="rb">${ graphemes[t] }</span>`
+            if (ipa !== false) {
+                if (ipa[t]) gloss += `<span class="rt IPAGloss" lang="und-fonipa">${ ipa[t] }</span>`
+                else gloss += `<span class="rt">&nbsp;</span>`
+                }
+            gloss += `</div>`
+            }
         }
     gloss += '</div>'
 
@@ -266,10 +278,12 @@ console.log('showNameDetails (',chars, clang, base, target, panel, list, transli
     
 	// write out the bottom line
 	out += '<p style="text-align:left; margin-block-start: 1em;" id="panelSharingLine">'
-    out += '<img src="../../shared/images/share_transp.png" title="Export text to another app" alt="Send to..." onclick="document.getElementById(\'panelShare\').style.display=\'block\'"> \u00A0 '
-    out += '<img src="../../shared/images/copylist.png" onclick="copyPanelList()" title="Copy the list of code points." alt="Copy list"> \u00A0 '
-    out += `<img src="../../shared/images/copybase.png" onclick="copyPanelText('.rb')" title="Copy the base text at the top." alt="Copy base"> \u00A0 `
-    out += `<img src="../../shared/images/copyannotation.png" onclick="copyPanelText('.rt')" title="Copy the annotation text at the top." alt="Copy annotation"> \u00A0 `
+    //out += '<img src="../../shared/images/share_transp.png" title="Export text to another app" alt="Send to..." onclick="document.getElementById(\'panelShare\').style.display=\'block\'"> \u00A0 '
+    out += '<button onclick="document.getElementById(\'panelShare\').style.display=\'block\'">Export</button> \u00A0 '
+    //out += '<img src="../../shared/images/copylist.png" onclick="copyPanelList()" title="Copy the list of code points." alt="Copy list"> \u00A0 '
+    out += '<button onclick="copyPanelList()">Copy list</button> \u00A0 '
+    //out += `<img src="../../shared/images/copybase.png" onclick="copyPanelText('.rb')" title="Copy the base text at the top." alt="Copy base"> \u00A0 `
+    //out += `<img src="../../shared/images/copyannotation.png" onclick="copyPanelText('.rt')" title="Copy the annotation text at the top." alt="Copy annotation"> \u00A0 `
     
     /*
 	// add a link to analysestring
@@ -491,6 +505,7 @@ function makeDetails (chars) {
 
 
 
+
 function showCharDetailsInPanel (evt) {
 	if (typeof charDetails === 'undefined') return
 
@@ -516,12 +531,16 @@ function showCharDetailsInPanel (evt) {
 	
 	addExamples(lang)
 	autoTransliterate(evt.target.lang)
-    var links = panel.querySelectorAll('.codepoint a')
+    var links = panel.querySelectorAll('.codepoint a, .codepoint span.uname')
 	for (i=0;i<links.length;i++) links[i].onclick = showCharDetailsInPanel
 	setFootnoteRefs()
 
 	return false
 	}
+
+
+
+
 
 
 
