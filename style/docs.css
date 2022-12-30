@@ -512,15 +512,40 @@ samp {
 	letter-spacing:0.05em;
 	}
 .qchar:before {
-	content: '\27';
+	content: '‘';
 	font-style: normal;
 	font-size: 100%;
 	}
 .qchar:after {
-	content: '\27';
+	content: '’';
 	font-style: normal;
 	font-size: 100%;
 	}
+
+q {
+  quotes: "“" "”" "‘" "’";
+  }
+q::before {
+  content: open-quote;
+}
+q::after {
+  content: close-quote;
+}
+
+q.cite {
+  quotes: "‘" "’";
+}
+q.cite::before {
+  content: open-quote;
+}
+q.cite::after {
+  content: close-quote;
+}
+
+
+
+
+
 .uppercase {
 	text-transform: uppercase;
 	}
@@ -848,3 +873,8 @@ body {
 
 
 
+.codepoint .uname {
+    color: teal;
+    cursor: pointer;
+    font-family: menlo, monospace;
+    }
