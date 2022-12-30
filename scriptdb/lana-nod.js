@@ -5,7 +5,7 @@ var spreadsheet = `lana-nod	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 «	"			“			Pi		quotation mark									U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
 »	"			”			Pf		quotation mark									U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
 ᩿	[			˽		B	Mn		cryptogram mark						᩿			U+1A7F: TAI THAM COMBINING CRYPTOGRAMMIC DOT	✓
-ᩋ	}	ʔ	á	ʔ̯		v	Lo		mid class glottal stop						ᩋ ᩅ᩠ᩋ			U+1A4B: TAI THAM LETTER A	✓
+ᩋ	}	ʔ a	á	ʔ̯		v	Lo		mid class glottal stop						ᩋ ᩅ᩠ᩋ			U+1A4B: TAI THAM LETTER A	✓
 ᪐	§	0		0̣		-	Nd	i	ecclesiastic digit						0			U+1A90: TAI THAM THAM DIGIT ZERO	✓
 ᪑	§	1		1̣		1	Nd	i	ecclesiastic digit						1			U+1A91: TAI THAM THAM DIGIT ONE	✓
 ᪒	§	2		2̣		2	Nd	i	ecclesiastic digit						2			U+1A92: TAI THAM THAM DIGIT TWO	✓
@@ -50,17 +50,18 @@ var spreadsheet = `lana-nod	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᩢ	a	-a-		á		h	Mn		dependent vowel						ᩢ			U+1A62: TAI THAM VOWEL SIGN MAI SAT	✓
 ᩣ	a	-aː -aː-		ā		k	Mc		dependent vowel						ᩣ			U+1A63: TAI THAM VOWEL SIGN AA	✓
 ᩤ	a	-aː -aː-		ä		K	Mc		dependent vowel						ᩤ			U+1A64: TAI THAM VOWEL SIGN TALL AA	✓
+ᩡ	A	ʔ		ʔ			Mc		dependent vowel						ᩡ			U+1A61: TAI THAM VOWEL SIGN A	✓
 ᩱ	A	-aj		aʲ			Mc		dependent vowel						ᩱ			U+1A71: TAI THAM VOWEL SIGN AI	✓
 ᩱ᩠ᨿ	A	-aj		aʲ˖y̱					vowel-sign sequence									U+1A71 U+1A60 U+1A3F: TAI THAM VOWEL SIGN AI, SIGN SAKOT, LETTER LOW YA	
 ᩲ	A	-aj		ȧʲ		W	Mc	r	dependent vowel	little used					ᩲ			U+1A72: TAI THAM VOWEL SIGN THAM AI	✓
+ᩣ᩠ᨿ	A	-aj		ā͞ɲ̱̇					vowel-sign sequence									U+1A63  U+1A60 U+1A3F: TAI THAM VOWEL SIGN AA​, SIGN SAKOT​, LETTER LOW YA	
 ᩳ	A	-aw		aʷ		U	Mn	r	dependent vowel	little used					ᩳ			U+1A73: TAI THAM VOWEL SIGN OA ABOVE	✓
-ᩡ	A	ʔ		ʔ			Mc		dependent vowel						ᩡ			U+1A61: TAI THAM VOWEL SIGN A	✓
 ᩮᩢᩣ	A	-aw		ēáā					vowel-sign sequence									U+1A6E U+1A62 U+1A63: TAI THAM VOWEL SIGN E, VOWEL SIGN MAI SAT, VOWEL SIGN AA	
+ᩮᩢᩤ	A	-aw		eáä					vowel-sign sequence									U+1A6E U+1A62 U+1A63: TAI THAM VOWEL SIGN E, VOWEL SIGN MAI SAT, VOWEL SIGN TALL AA	
 ᨷ	b	b -p	a	b̯		[	Lo		mid class plosive						ᨷ ᩅ᩠ᨷ			U+1A37: TAI THAM LETTER BA	✓
 ᨧ	c	ʨ -t	á	c		0	Lo		high class plosive				ᨩ		ᨧ ᩅ᩠ᨧ			U+1A27: TAI THAM LETTER HIGH CA	✓
 ᨩ	c	ʨ -t	a᷇	c̱		=	Lo		low class affricate					ᨧ	ᨩ ᩅ᩠ᨩ			U+1A29: TAI THAM LETTER LOW CA	✓
 ᨯ	d	d -t	a	d̯		f	Lo		mid class plosive						ᨯ ᩅ᩠ᨯ			U+1A2F: TAI THAM LETTER DA	✓
-ᩑ	E	eː		ẹ		3	Lo		independent vowel			ᩮ			ᩑ			U+1A51: TAI THAM LETTER EE	✓
 ᩮ	e	-eː -eː-		e		g	Mc		dependent vowel						ᩮ			U+1A6E: TAI THAM VOWEL SIGN E	✓
 ᩮᩢ	e	-e-		ēá					vowel-sign sequence									U+1A6E U+1A62: TAI THAM VOWEL SIGN E, VOWEL SIGN MAI SAT	
 ᩮᩡ	e	-eʔ		ēa					vowel-sign sequence									U+1A6E U+1A61: TAI THAM VOWEL SIGN E, VOWEL SIGN A	
@@ -68,32 +69,30 @@ var spreadsheet = `lana-nod	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᩯᩢ	e	-ɛ-		ɛá					vowel-sign sequence									U+1A6F U+1A62: TAI THAM VOWEL SIGN AE, VOWEL SIGN MAI SAT	
 ᩯᩡ	e	-ɛʔ		ɛa					vowel-sign sequence									U+1A6F U+1A61: TAI THAM VOWEL SIGN AE, VOWEL SIGN A	
 ᩮᩥᩢ	e	-ɜ-		ēiá					vowel-sign sequence									U+1A6E U+1A65 U+1A62: TAI THAM VOWEL SIGN E, VOWEL SIGN I, VOWEL SIGN MAI SAT	
-ᩮᩬᩥᩡ	e	-ɜʔ		ēɔ̄ia					vowel-sign sequence									U+1A6E U+1A6C U+1A65 U+1A61: TAI THAM VOWEL SIGN E, VOWEL SIGN OA BELOW, VOWEL SIGN I, VOWEL SIGN A	
+ᩮᩥᩬᩡ	e	-ɜʔ		ēɔ̄ia					vowel-sign sequence									U+1A6E U+1A6C U+1A65 U+1A61: TAI THAM VOWEL SIGN E, VOWEL SIGN OA BELOW, VOWEL SIGN I, VOWEL SIGN A	
 ᩮᩥ	e	-ɜː-		ēi					vowel-sign sequence									U+1A6E U+1A65: TAI THAM VOWEL SIGN E, VOWEL SIGN I	
-ᩮᩬᩥ	e	-ɜː		ēɔ̄i					vowel-sign sequence									U+1A6E U+1A6C U+1A65: TAI THAM VOWEL SIGN E, VOWEL SIGN OA BELOW, VOWEL SIGN I	
+ᩮᩥᩬ	e	-ɜː		ēɔ̄i					vowel-sign sequence									U+1A6E U+1A6C U+1A65: TAI THAM VOWEL SIGN E, VOWEL SIGN OA BELOW, VOWEL SIGN I	
+ᩑ	E	eː		ẹ		3	Lo		independent vowel			ᩮ			ᩑ			U+1A51: TAI THAM LETTER EE	✓
 ᨺ	f	f	á	f		/	Lo		high class fricative				ᨼ		ᨺ ᩅ᩠ᨺ			U+1A3A: TAI THAM LETTER HIGH FA	✓
 ᨼ	f	f	a᷇	f̱		a	Lo		low class fricative					ᨺ	ᨼ ᩅ᩠ᨼ			U+1A3C: TAI THAM LETTER LOW FA	✓
 ᩉ	h	h	á	h		s	Lo		high class fricative				ᩌ		ᩉ ᩅ᩠ᩉ			U+1A49: TAI THAM LETTER HIGH HA	✓
 ᩌ	h	h	a᷇	ẖ		V	Lo		low class fricative					ᩉ	ᩌ ᩅ᩠ᩌ			U+1A4C: TAI THAM LETTER LOW HA	✓
-ᩍ	I	i		ị		b	Lo		independent vowel			ᩥ			ᩍ			U+1A4D: TAI THAM LETTER I	✓
-ᩎ	I	iː		ị̄		N	Lo		independent vowel			ᩦ			ᩎ			U+1A4E: TAI THAM LETTER II	✓
 ᩥ	i	-iʔ -i-		i		b	Mn		dependent vowel			ᩍ			ᩥ			U+1A65: TAI THAM VOWEL SIGN I	✓
 ᩦ	i	-iː -iː-		ī		u	Mn		dependent vowel			ᩎ			ᩦ			U+1A66: TAI THAM VOWEL SIGN II	✓
+ᩍ	I	i		ị		b	Lo		independent vowel			ᩥ			ᩍ			U+1A4D: TAI THAM LETTER I	✓
+ᩎ	I	iː		ị̄		N	Lo		independent vowel			ᩦ			ᩎ			U+1A4E: TAI THAM LETTER II	✓
 ᩠ᨿ	I	-ia		˖y̱					vowel-sign sequence									U+1A60 U+1A3F: TAI THAM SIGN SAKOT, LETTER LOW YA	
 ᩠ᨿᩮ	I	-ia		˖y̱ē					vowel-sign sequence									U+1A60 U+1A3F U+1A6E: TAI THAM SIGN SAKOT, LETTER LOW YA, VOWEL SIGN E	
 ᩠ᨿᩮᩡ	I	-iaʔ		˖y̱ēa					vowel-sign sequence									U+1A60 U+1A3F U+1A6E U+1A61: TAI THAM SIGN SAKOT, LETTER LOW YA, VOWEL SIGN E, VOWEL SIGN A	
 ᩢ᩠ᨿ	I	-ia-		á˖y̱					vowel-sign sequence									U+1A62 U+1A60 U+1A3F: TAI THAM VOWEL SIGN MAI SAT, SIGN SAKOT, LETTER LOW YA	
-ᩮᩬᩥᩢ	I	-ia-		ēɔ̄iá					vowel-sign sequence									U+1A6E U+1A6C U+1A65 U+1A62: TAI THAM VOWEL SIGN E, VOWEL SIGN OA BELOW, VOWEL SIGN I, VOWEL SIGN MAI SAT	
-ᩮᩬᩨᩢ	I	-ia-		ēɔ̄ɯ̄á					vowel-sign sequence									U+1A6E U+1A6C U+1A68 U+1A62: TAI THAM VOWEL SIGN E, VOWEL SIGN OA BELOW, VOWEL SIGN UUE, VOWEL SIGN MAI SAT	
-᩠ᩅᩫᩡ	I	-uaʔ		˖w̱ɔ̈a					vowel-sign sequence									U+1A60 U+1A45 U+1A6B U+1A61: TAI THAM SIGN SAKOT, LETTER WA, VOWEL SIGN O, VOWEL SIGN A	
-᩠ᩅᩫ	I	-uaː		˖w̱ɔ̈					vowel-sign sequence									U+1A60 U+1A45 U+1A6B: TAI THAM SIGN SAKOT, LETTER WA, VOWEL SIGN O	
-᩠ᩅᩢ	I	-ua-		˖w̱á					vowel-sign sequence									U+1A60 U+1A45 U+1A62: TAI THAM SIGN SAKOT, LETTER WA, VOWEL SIGN MAI SAT	
+ᩮᩥᩢᩬ	I	-ia-		ēɔ̄iá					vowel-sign sequence									U+1A6E U+1A6C U+1A65 U+1A62: TAI THAM VOWEL SIGN E, VOWEL SIGN OA BELOW, VOWEL SIGN I, VOWEL SIGN MAI SAT	
+ᩮᩨᩢᩬ	I	-ia-		ēɔ̄ɯ̄á					vowel-sign sequence									U+1A6E U+1A6C U+1A68 U+1A62: TAI THAM VOWEL SIGN E, VOWEL SIGN OA BELOW, VOWEL SIGN UUE, VOWEL SIGN MAI SAT	
 ᨠ	k	k -k	á	k		d	Lo		high class plosive				ᨣ		ᨠ ᩅ᩠ᨠ			U+1A20: TAI THAM LETTER HIGH KA	✓
 ᨣ	k	k -k᷇	a	ḵ		8	Lo		low class plosive					ᨠ	ᨣ ᩅ᩠ᨣ			U+1A23: TAI THAM LETTER LOW KA	✓
 ᩃ	l	l -n	a᷇	ḻ		]	Lo		low class approximant					ᩉᩖ	ᩃ ᩅ᩠ᩃ			U+1A43: TAI THAM LETTER LA	✓
 ᩊ	l	l -n	a᷇	ḻ̇		>	Lo		low class approximant						ᩊ ᩅ᩠ᩊ			U+1A4A: TAI THAM LETTER LLA	✓
 ᩖ	l	l ∅		l̆		]	Mn		medial consonant						ᩖ			U+1A56: TAI THAM CONSONANT SIGN MEDIAL LA	✓
-ᩓ	l	lɛː		lₔ		}	Lo		low tone ligature						ᩓ			U+1A53: TAI THAM LETTER LAE	✓
+ᩓ	L	lɛː		lₔ		}	Lo		low tone ligature						ᩓ			U+1A53: TAI THAM LETTER LAE	✓
 ᩄ	L	lɯː		l̥		.	Lo		vocalic						ᩄ			U+1A44: TAI THAM LETTER LUE	✓
 ᨾ	m	m -m	a᷇	m̱		,	Lo		low class nasal					ᩉ᩠ᨾ	ᨾ ᩅ᩠ᨾ			U+1A3E: TAI THAM LETTER MA	✓
 ᨶ	n	n -n	a᷇	ṉ		o	Lo		low class nasal					ᩉ᩠ᨶ	ᨶ ᩅ᩠ᨶ			U+1A36: TAI THAM LETTER NA	✓
@@ -102,21 +101,21 @@ var spreadsheet = `lana-nod	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᨦ	n	ŋ -ŋ	a᷇	ŋ̱			Lo		low class nasal					ᩉ᩠ᨦ	ᨦ ᩅ᩠ᨦ			U+1A26: TAI THAM LETTER NGA	✓
 ᩙ	N	-ŋ		ŋ̽			Mn		final consonant						ᩙ			U+1A59: TAI THAM CONSONANT SIGN FINAL NGA	✓
 ᩘ	N	-ŋ (ɔː)		ŋ̣̽		|	Mn		final consonant						ᩘ			U+1A58: TAI THAM SIGN MAI KANG LAI	✓
-ᩴ	N	-ŋ -m		ŋ̊		Y	Mn		final consonant						ᩴ		maj⁵² kaŋ¹⁵ tɔːm¹	U+1A74: TAI THAM SIGN MAI KANG	✓
+ᩴ	N	-ŋ -m ɔː		ŋ̊		Y	Mn		final consonant						ᩴ		maj⁵² kaŋ¹⁵ tɔːm¹	U+1A74: TAI THAM SIGN MAI KANG	✓
 ᩫ	o	-o-		o		y	Mn		dependent vowel						ᩫ			U+1A6B: TAI THAM VOWEL SIGN O	✓
 ᩰ	o	-oː		ō		F	Mc		dependent vowel						ᩰ			U+1A70: TAI THAM VOWEL SIGN OO	✓
 ᩬ	o	-ɔː -ɔː-		ɔ̄		v	Mn		dependent vowel						ᩬ			U+1A6C: TAI THAM VOWEL SIGN OA BELOW	✓
 ᩬᩴ	o	-ɔː		ɔ̄ŋ̊					vowel-sign sequence									U+1A6C U+1A74: TAI THAM VOWEL SIGN OA BELOW, SIGN MAI KANG	
-ᩬᩢ	o	-ɔ-		ɔ̄á					vowel-sign sequence									U+1A6C U+1A62: TAI THAM VOWEL SIGN OA BELOW, VOWEL SIGN MAI SAT	
+ᩢᩬ	o	-ɔ-		ɔ̄á					vowel-sign sequence									U+1A6C U+1A62: TAI THAM VOWEL SIGN OA BELOW, VOWEL SIGN MAI SAT	
 ᩰᩬᩡ	o	-ɔʔ		ōɔ̄a					vowel-sign sequence									U+1A70 U+1A6C U+1A61: TAI THAM VOWEL SIGN OO, VOWEL SIGN OA BELOW, VOWEL SIGN A	
 ᨸ	p	p	á	p		x	Lo		high class plosive				ᨻ		ᨸ ᩅ᩠ᨸ			U+1A38: TAI THAM LETTER HIGH PA	✓
 ᨻ	p	p -p	a᷇	p̱		r	Lo		low class plosive					ᨸ	ᨻ ᩅ᩠ᨻ			U+1A3B: TAI THAM LETTER LOW PA	✓
-᩠ᨻ	p	p -p	a᷇	p̱					low class plosive									U+1A3B: TAI THAM LETTER LOW PA	
 ᨹ	p	pʰ -p	á	pʰ		z	Lo		high class aspirated plosive				ᨽ		ᨹ ᩅ᩠ᨹ			U+1A39: TAI THAM LETTER HIGH PHA	✓
 ᨽ	p	pʰ -p	a᷇	p̱ʰ		4	Lo		low class aspirated plosive					ᨹ	ᨽ ᩅ᩠ᨽ			U+1A3D: TAI THAM LETTER LOW PHA	✓
 ᩛ	p	p, tʰ		ᵽ		+	Mn		special form						ᩛ			U+1A5B: TAI THAM CONSONANT SIGN HIGH RATHA OR LOW PA	✓
 ᩁ	r	h l -n	a᷇	ṟ		i	Lo		low class consonant					ᩉᩕ	ᩁ ᩅ᩠ᩁ			U+1A41: TAI THAM LETTER RA	✓
 ᩕ	r	ʰ l		r̆		1	Mc		medial consonant						ᩕ			U+1A55: TAI THAM CONSONANT SIGN MEDIAL RA	✓
+ᩉᩕ	r	h l -n		hr̆					high class consonant									U+1A49 U+1A55: TAI THAM LETTER HIGH HA, CONSONANT SIGN MEDIAL RA	
 ᩂ	R	lɯː		r̥		/	Lo		vocalic						ᩂ			U+1A42: TAI THAM LETTER RUE	✓
 ᩈ	s	s -t	á	s		l	Lo		high class fricative				ᨪ		ᩈ ᩅ᩠ᩈ			U+1A48: TAI THAM LETTER HIGH SA	✓
 ᩆ	s	s -t	á	ś		j	Lo		high class fricative						ᩆ ᩅ᩠ᩆ			U+1A46: TAI THAM LETTER HIGH SHA	✓
@@ -125,25 +124,28 @@ var spreadsheet = `lana-nod	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᨪ	s	s	a᷇	s̱		:	Lo		low class fricative				ᩈ		ᨪ ᩅ᩠ᨪ			U+1A2A: TAI THAM LETTER LOW SA	✓
 ᨫ	s	s	a᷇	ŝ̱		G	Lo		low class fricative					ᨨ	ᨫ ᩅ᩠ᨫ			U+1A2B: TAI THAM LETTER LOW CHA	✓
 ᩔ	s	-ss-		S		L	Lo		medial ss ligature						ᩔ			U+1A54: TAI THAM LETTER GREAT SA	✓
-ᨲ	t¶	t -t	á	t		9	Lo		high class plosive				ᨴ		ᨲ ᩅ᩠ᨲ			U+1A32: TAI THAM LETTER HIGH TA	✓
-ᨴ	t¶	t -t	a᷇	ṯ		m	Lo		low class plosive					ᨲ	ᨴ ᩅ᩠ᨴ			U+1A34: TAI THAM LETTER LOW TA	✓
-ᨳ	t¶	tʰ -t	á	tʰ		5	Lo		high class aspirated plosive				ᨵ		ᨳ ᩅ᩠ᨳ			U+1A33: TAI THAM LETTER HIGH THA	✓
-ᨵ	t¶	tʰ -t	a᷇	ṯʰ		t	Lo		low class aspirated plosive					ᨳ	ᨵ ᩅ᩠ᨵ			U+1A35: TAI THAM LETTER LOW THA	✓
+ᨲ	t	t -t	á	t		9	Lo		high class plosive				ᨴ		ᨲ ᩅ᩠ᨲ			U+1A32: TAI THAM LETTER HIGH TA	✓
+ᨴ	t	t -t	a᷇	ṯ		m	Lo		low class plosive					ᨲ	ᨴ ᩅ᩠ᨴ			U+1A34: TAI THAM LETTER LOW TA	✓
+ᨳ	t	tʰ -t	á	tʰ		5	Lo		high class aspirated plosive				ᨵ		ᨳ ᩅ᩠ᨳ			U+1A33: TAI THAM LETTER HIGH THA	✓
+ᨵ	t	tʰ -t	a᷇	ṯʰ		t	Lo		low class aspirated plosive					ᨳ	ᨵ ᩅ᩠ᨵ			U+1A35: TAI THAM LETTER LOW THA	✓
 ᨭ	t	t -t	á	ṫ		D	Lo		high class plosive						ᨭ ᩅ᩠ᨭ			U+1A2D: TAI THAM LETTER RATA	✓
 ᨮ	t	tʰ	á	ṫʰ		{	Lo		high class aspirated plosive				ᨰ		ᨮ ᩅ᩠ᨮ			U+1A2E: TAI THAM LETTER HIGH RATHA	✓
 ᨰ	t	tʰ -t	a᷇	ṯ̇ʰ		R	Lo		low class aspirated plosive					ᨰ	ᨰ ᩅ᩠ᨰ			U+1A30: TAI THAM LETTER LOW RATHA	✓
-ᩏ	U	u		ụ		2	Lo		independent vowel			ᩩ			ᩏ			U+1A4F: TAI THAM LETTER U	✓
-ᩐ	U	uː		ụ̄		6	Lo		independent vowel			ᩪ			ᩐ			U+1A50: TAI THAM LETTER UU	✓
 ᩧ	u	-ɯʔ -ɯ-		ɯ		7	Mn		dependent vowel						ᩧ			U+1A67: TAI THAM VOWEL SIGN UE	✓
 ᩨ	u	-ɯː -ɯː-		ɯ̄		n	Mn		dependent vowel						ᩨ			U+1A68: TAI THAM VOWEL SIGN UUE	✓
 ᩩ	u	-uʔ -u-		u		6	Mn		dependent vowel			ᩏ			ᩩ			U+1A69: TAI THAM VOWEL SIGN U	✓
 ᩪ	u	-uː -uː-		ū		^	Mn		dependent vowel			ᩐ			ᩪ			U+1A6A: TAI THAM VOWEL SIGN UU	✓
-ᩮᩬᩨᩋᩡ	U	-ɯa		ēɔ̄ɯ̄ʔ̯a					vowel-sign sequence									U+1A6E U+1A68 U+1A6C U+1A4B U+1A61: TAI THAM VOWEL SIGN E, VOWEL SIGN UUE, VOWEL SIGN OA BELOW, LETTER A, VOWEL SIGN A	
-ᩮᩬᩨᩋ	U	-ɯaː		ēɔ̄ɯ̄ʔ̯					vowel-sign sequence									U+1A6E U+1A68 U+1A6C U+1A4B: TAI THAM VOWEL SIGN E, VOWEL SIGN UUE, VOWEL SIGN OA BELOW, LETTER A	
-ᩮᩬᩨ	U	-ɯa-		ēɔ̄ɯ̄					vowel-sign sequence									U+1A6E U+1A6C U+1A68: TAI THAM VOWEL SIGN E, VOWEL SIGN OA BELOW, VOWEL SIGN UUE	
-᩠ᩅ	U	-ua		˖w̱		;			vowel-sign sequence									U+1A60 U+1A45: TAI THAM SIGN SAKOT, LETTER WA	
-᩠ᩅ᩠ᨿ	U	-uaj		˖w̱˖y̱					vowel-sign sequence									U+1A60 U+1A45 U+1A60 U+1A3F: TAI THAM SIGN SAKOT, LETTER WA, SIGN SAKOT, LETTER LOW YA	
+ᩮᩨᩬᩋᩡ	u	-ɯa		ēɔ̄ɯ̄ʔ̯a					vowel-sign sequence									U+1A6E U+1A68 U+1A6C U+1A4B U+1A61: TAI THAM VOWEL SIGN E, VOWEL SIGN UUE, VOWEL SIGN OA BELOW, LETTER A, VOWEL SIGN A	
+ᩮᩨᩬᩋ	u	-ɯaː		ēɔ̄ɯ̄ʔ̯					vowel-sign sequence									U+1A6E U+1A68 U+1A6C U+1A4B: TAI THAM VOWEL SIGN E, VOWEL SIGN UUE, VOWEL SIGN OA BELOW, LETTER A	
+ᩮᩨᩬ	u	-ɯa-		ēɔ̄ɯ̄					vowel-sign sequence									U+1A6E U+1A6C U+1A68: TAI THAM VOWEL SIGN E, VOWEL SIGN OA BELOW, VOWEL SIGN UUE	
+᩠ᩅ	u	-w -ua		˖w̱		;			vowel-sign sequence									U+1A60 U+1A45: TAI THAM SIGN SAKOT, LETTER WA	
+᩠ᩅ᩠ᨿ	u	-uaj		˖w̱˖y̱					vowel-sign sequence									U+1A60 U+1A45 U+1A60 U+1A3F: TAI THAM SIGN SAKOT, LETTER WA, SIGN SAKOT, LETTER LOW YA	
+ᩏ	U	u		ụ		2	Lo		independent vowel			ᩩ			ᩏ			U+1A4F: TAI THAM LETTER U	✓
+ᩐ	U	uː		ụ̄		6	Lo		independent vowel			ᩪ			ᩐ			U+1A50: TAI THAM LETTER UU	✓
 ᩅ	w	w	a᷇	w̱		;	Lo		low class approximant					ᩉ᩠ᩅ	ᩅ ᩅ᩠ᩅ			U+1A45: TAI THAM LETTER WA	✓
+᩠ᩅᩫᩡ	w	-uaʔ		˖w̱ɔ̈a					vowel-sign sequence									U+1A60 U+1A45 U+1A6B U+1A61: TAI THAM SIGN SAKOT, LETTER WA, VOWEL SIGN O, VOWEL SIGN A	
+᩠ᩅᩫ	w	-uaː		˖w̱ɔ̈					vowel-sign sequence									U+1A60 U+1A45 U+1A6B: TAI THAM SIGN SAKOT, LETTER WA, VOWEL SIGN O	
+᩠ᩅᩢ	w	-ua-		˖w̱á					vowel-sign sequence									U+1A60 U+1A45 U+1A62: TAI THAM SIGN SAKOT, LETTER WA, VOWEL SIGN MAI SAT	
 ᨡ	x	x	á	x		-	Lo		high class fricative				ᨥ		ᨡ ᩅ᩠ᨡ			U+1A21: TAI THAM LETTER HIGH KHA	✓
 ᨢ	x	x	á	ẋ			Lo		high class fricative						ᨢ ᩅ᩠ᨢ			U+1A22: TAI THAM LETTER HIGH KXA	✓
 ᨥ	x	x	a᷇	x̱		S	Lo		low class fricative					ᨡ	ᨥ ᩅ᩠ᨥ			U+1A25: TAI THAM LETTER LOW KHA	✓
@@ -169,8 +171,8 @@ var spreadsheet = `lana-nod	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᩉᩖ		l-		hl̆					consonant sequence									U+1A49 U+1A56: TAI THAM LETTER HIGH HA, CONSONANT SIGN MEDIAL LA	
 ᩉ᩠ᩃ		l-		h˖ḻ					consonant sequence									U+1A49 U+1A60 U+1A43: TAI THAM LETTER HIGH HA, SIGN SAKOT, LETTER LA	
 																			
-ᩝ		b		b̽			Mn		final consonant						ᩝ			U+1A5D: TAI THAM CONSONANT SIGN BA	✓
-ᩞ		s		s̽		l	Mn		final consonant						ᩞ			U+1A5E: TAI THAM CONSONANT SIGN SA	✓
+ᩝ		b		b̽			Mn	i	final consonant						ᩝ			U+1A5D: TAI THAM CONSONANT SIGN BA	✓
+ᩞ		s		s̽		l	Mn	i	final consonant						ᩞ			U+1A5E: TAI THAM CONSONANT SIGN SA	✓
 																			
 ᩗ				–		<	Mc								ᩗ			U+1A57: TAI THAM CONSONANT SIGN LA TANG LAI	✓
 																			
@@ -210,64 +212,9 @@ var spreadsheet = `lana-nod	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᩼				–		N	Mn											U+1A7C: TAI THAM SIGN KHUEN-LUE KARAN	✓
 ᩜ				–		,	Mn											U+1A5C: TAI THAM CONSONANT SIGN MA	✓
 																			
-ᩫ		o		ɔ̈			Mn											U+1A6B: TAI THAM VOWEL SIGN O	
-ᩴ		aŋ		ŋ̊			Mn											U+1A74: TAI THAM SIGN MAI KANG	
-ᩘ		aŋ		ŋ̣̽			Mn											U+1A58: TAI THAM SIGN MAI KANG LAI	
-ᩢ		a		á			Mn											U+1A62: TAI THAM VOWEL SIGN MAI SAT	
-᩠ᩅᩫᩡ		uaʔ		˖w̱ɔ̈a														U+1A60 U+1A45 U+1A6B U+1A61: TAI THAM SIGN SAKOT, LETTER WA, VOWEL SIGN O, VOWEL SIGN A	
-᩠ᩅᩫ		ua		˖w̱ɔ̈														U+1A60 U+1A45 U+1A6B: TAI THAM SIGN SAKOT, LETTER WA, VOWEL SIGN O	
-᩠ᩅ		ua		˖w̱														U+1A60 U+1A45: TAI THAM SIGN SAKOT, LETTER WA	
-ᩬᩴ		ɔː		ɔ̱ŋ̊														U+1A6C U+1A74: TAI THAM VOWEL SIGN OA BELOW, SIGN MAI KANG	
-ᩬ		ɔː		ɔ̱			Mn											U+1A6C: TAI THAM VOWEL SIGN OA BELOW	
-ᩡ		aʔ		a		T	Mc											U+1A61: TAI THAM VOWEL SIGN A	
-ᩣ		aː		ā			Mc											U+1A63: TAI THAM VOWEL SIGN AA	
-ᩤ		aː		ä			Mc											U+1A64: TAI THAM VOWEL SIGN TALL AA	
-ᩣᩴ		am		āŋ̊		e												U+1A63 U+1A74: TAI THAM VOWEL SIGN AA, SIGN MAI KANG	
-ᩤᩴ		am		äŋ̊														U+1A64 U+1A74: TAI THAM VOWEL SIGN TALL AA, SIGN MAI KANG	
-ᩥ		i		i			Mn											U+1A65: TAI THAM VOWEL SIGN I	
-ᩦ		iː		ī			Mn											U+1A66: TAI THAM VOWEL SIGN II	
-ᩧ		ɯ		ɯ			Mn											U+1A67: TAI THAM VOWEL SIGN UE	
-ᩨ		ɯː		ɯ̄			Mn											U+1A68: TAI THAM VOWEL SIGN UUE	
-ᩩ		u		u			Mn											U+1A69: TAI THAM VOWEL SIGN U	
-ᩪ		uː		ū			Mn											U+1A6A: TAI THAM VOWEL SIGN UU	
-ᩮᩡ		eʔ		ea														U+1A6E U+1A61: TAI THAM VOWEL SIGN E, VOWEL SIGN A	
-ᩮ		eː		e			Mc											U+1A6E: TAI THAM VOWEL SIGN E	
-ᩯᩡ		ɛʔ		ɛa														U+1A6F U+1A61: TAI THAM VOWEL SIGN AE, VOWEL SIGN A	
-ᩯ		ɛː		ɛ			Mc											U+1A6F: TAI THAM VOWEL SIGN AE	
-ᩮᩬᩥᩡ		ɜʔ		eɔ̱ia														U+1A6E U+1A6C U+1A65 U+1A61: TAI THAM VOWEL SIGN E, VOWEL SIGN OA BELOW, VOWEL SIGN I, VOWEL SIGN A	
-ᩮᩬᩥ		ɜː/ɨa-		eɔ̱i														U+1A6E U+1A6C U+1A65: TAI THAM VOWEL SIGN E, VOWEL SIGN OA BELOW, VOWEL SIGN I	
-ᩮᩬᩨᩡ		–		eɔ̱ɯ̄a														U+1A6E U+1A6C U+1A68 U+1A61: TAI THAM VOWEL SIGN E, VOWEL SIGN OA BELOW, VOWEL SIGN UUE, VOWEL SIGN A	
-ᩮᩬᩨ		–		eɔ̱ɯ̄														U+1A6E U+1A6C U+1A68: TAI THAM VOWEL SIGN E, VOWEL SIGN OA BELOW, VOWEL SIGN UUE	
-ᩮᩢᩣ		o		eáā														U+1A6E U+1A62 U+1A63: TAI THAM VOWEL SIGN E, VOWEL SIGN MAI SAT, VOWEL SIGN AA	
-ᩳ		ɔː		ɔ̂			Mn											U+1A73: TAI THAM VOWEL SIGN OA ABOVE	
-ᩮᩣ		oː		eā														U+1A6E U+1A63: TAI THAM VOWEL SIGN E, VOWEL SIGN AA	
-ᩮ᩠ᨿᩡ		iaʔ		e˖ȳa														U+1A6E U+1A60 U+1A3F U+1A61: TAI THAM VOWEL SIGN E, SIGN SAKOT, LETTER LOW YA, VOWEL SIGN A	
-᩠ᨿᩮ		ia		˖ȳe														U+1A60 U+1A3F U+1A6E: TAI THAM SIGN SAKOT, LETTER LOW YA, VOWEL SIGN E	
-᩠ᨿ		ia		˖ȳ														U+1A60 U+1A3F: TAI THAM SIGN SAKOT, LETTER LOW YA	
-ᩮᩬᩥᩋᩡ		ɨaʔ		eɔ̱iʔ̯a														U+1A6E U+1A6C U+1A65 U+1A4B U+1A61: TAI THAM VOWEL SIGN E, VOWEL SIGN OA BELOW, VOWEL SIGN I, LETTER A, VOWEL SIGN A	
-ᩮᩬᩥᩋ		ɨa		eɔ̱iʔ̯														U+1A6E U+1A6C U+1A65 U+1A4B: TAI THAM VOWEL SIGN E, VOWEL SIGN OA BELOW, VOWEL SIGN I, LETTER A	
-ᩰᩡ		oʔ		oa														U+1A70 U+1A61: TAI THAM VOWEL SIGN OO, VOWEL SIGN A	
-ᩰ		oː		o			Mc											U+1A70: TAI THAM VOWEL SIGN OO	
-ᩰᩬᩡ		ɔʔ		oɔ̱a														U+1A70 U+1A6C U+1A61: TAI THAM VOWEL SIGN OO, VOWEL SIGN OA BELOW, VOWEL SIGN A	
-ᩢ᩠ᨿ		aj		á˖ȳ														U+1A62 U+1A60 U+1A3F: TAI THAM VOWEL SIGN MAI SAT, SIGN SAKOT, LETTER LOW YA	
-ᩲ		aj		ɔ			Mc											U+1A72: TAI THAM VOWEL SIGN THAM AI	
-ᩱ		aj		aʲ		.	Mc											U+1A71: TAI THAM VOWEL SIGN AI	
-ᩱ᩠ᨿ		aj		aʲ˖ȳ														U+1A71 U+1A60 U+1A3F: TAI THAM VOWEL SIGN AI, SIGN SAKOT, LETTER LOW YA	
-ᩭ				oʲ		Q	Mc											U+1A6D: TAI THAM VOWEL SIGN OY	
-ᩥᩴ				iŋ̊														U+1A65 U+1A74: TAI THAM VOWEL SIGN I, SIGN MAI KANG	
-ᩥ᩠ᨦ				i˖ŋ̱														U+1A65 U+1A60 U+1A26: TAI THAM VOWEL SIGN I, SIGN SAKOT, LETTER NGA	
-ᩢ᩠ᨾ				á˖m̱														U+1A62 U+1A60 U+1A3E: TAI THAM VOWEL SIGN MAI SAT, SIGN SAKOT, LETTER MA	
-ᩢᨾ				ám̱														U+1A62 U+1A3E: TAI THAM VOWEL SIGN MAI SAT, LETTER MA	
-ᩰᩢ				oá														U+1A70 U+1A62: TAI THAM VOWEL SIGN OO, VOWEL SIGN MAI SAT	
-ᩮᩨ				eɯ̄														U+1A6E U+1A68: TAI THAM VOWEL SIGN E, VOWEL SIGN UUE	
-᩠ᨿᩴ				˖ȳŋ̊														U+1A60 U+1A3F U+1A74: TAI THAM SIGN SAKOT, LETTER LOW YA, SIGN MAI KANG	
-																			
 `																			
 																			
-																			
 latinPanel = 'á a᷇ aː eː ɛː ɛ ʰ iː ɲ ŋ ∅ oː ɔː ɔ pʰ ʨ tʰ uː ɯː ɯ ʔ'																			
-																			
-																			
 																			
 var cols = {																			
 key: 1,																			
