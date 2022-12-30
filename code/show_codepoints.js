@@ -5,7 +5,7 @@
 // shared/code/scriptGroups.js
 // shared/code/all-names.js
 
-trace = false
+if (typeof trace === 'undefined') trace = false
 
 
 function initialiseShowNames (base, target) {
@@ -256,8 +256,8 @@ console.log('showNameDetails (',chars, clang, base, target, panel, list, transli
 			//if (blockfile) {
 			if (isInBlock) {
 				out += `<a target="${ target }" href="`
-				if (base === '/uniview/?char=') out += base+hex
-				else out += '/scripts/'+blockfile+'/block.html#char'+hex
+				if (base === '../../uniview/index.html?char=') out += base+hex
+				else out += '../../scripts/'+blockfile+'/block.html#char'+hex
 				out += '">'
 				out += '<img src="'+'../../c/'+blockname+"/"+hex+'.png'+'" alt="'+charArray[c]+'">'
 				out += ' U+'+hex + ' '+charData[charArray[c]]
@@ -546,86 +546,90 @@ function showCharDetailsInPanel (evt) {
 
 
 
+
+
 function makePanelDetails (chars, lang) {
-// creates a string from charDetail data to put in panel
-var out = ''
-var charArray = [... chars]
-var dir = 'ltr'
+if (traceSet.has('makePanelDetails')) console.log('makePanelDetails(',chars,lang,')   Creates a string from charDetail data to put in panel.')
+    var out = ''
+    var charArray = [... chars]
+    var dir = 'ltr'
 
-for (let i=0;i<charArray.length;i++) {
-	if (spreadsheetRows[charArray[i]]) {
+    for (let i=0;i<charArray.length;i++) {
+        if (spreadsheetRows[charArray[i]]) {
 
-        // add character
-		out += '<p class="cdChar"><span class="ex" lang="'+lang+'">'+charArray[i]+'</span></p>'
-        
-        // add out pointing links
-        var hex = spreadsheetRows[charArray[i]][cols['ucsName']].split(':')
-        hex = hex[0].replace(/U\+/,'')
-        out += `<p class="notesLink">`
-        out += `<a target="_blank" href="../../uniview/index.html?codepoints=${ hex }&char=${ hex }">UniView</a>`
-        if (window.notesLangtag) { // add a link to the character notes file
-            out += '<br><a target="_blank" href="../../scripts/'+window.blockDir+'block.html#'+window.notesLangtag+hex+'">Notes page</a>'
+            // add character
+            out += '<p class="cdChar"><span class="ex" lang="'+lang+'">'+charArray[i]+'</span></p>'
+
+            // add out pointing links
+            var hex = spreadsheetRows[charArray[i]][cols['ucsName']].split(':')
+            hex = hex[0].replace(/U\+/,'')
+            out += `<p class="notesLink">`
+            out += `<a target="_blank" href="../../uniview/index.html?codepoints=${ hex }&char=${ hex }">UniView</a>`
+            if (window.notesLangtag) { // add a link to the character notes file
+                out += '<br><a target="_blank" href="../../scripts/'+window.blockDir+'block.html#'+window.notesLangtag+hex+'">Notes page</a>'
+                }
+            out += `<br><a target="_blank" href="https://util.unicode.org/UnicodeJsps/character.jsp?a=${ hex }">Properties</a>`
+            out += '</p>'
+
+
+            // add Unicode name
+            out += '<p class="cdHeader"><span class="uname cdTitle">'+spreadsheetRows[charArray[i]][cols['ucsName']]+'</span> '
+
+            // add second line with name, type, etc.
+            if (spreadsheetRows[charArray[i]][cols['nameLoc']] && spreadsheetRows[charArray[i]][cols['nameLoc']] != '0') out += ' &nbsp; <span class="transliteratedname trans">'+spreadsheetRows[charArray[i]][cols['nameLoc']]+'</span>'
+            out += '<br>'
+
+            out += '<span class="cdBasics">'
+            if (spreadsheetRows[charArray[i]][cols['typeLoc']]) out += '<span class="charType">'+spreadsheetRows[charArray[i]][cols['typeLoc']]+'</span>'
+            if (spreadsheetRows[charArray[i]][cols['statusLoc']]) out += ' &nbsp; (<span class="charType">'+spreadsheetRows[charArray[i]][cols['statusLoc']]+'</span>)'
+            if (spreadsheetRows[charArray[i]][cols['ipaLoc']]) out += ' &nbsp; <span class="charIPA ipa">'+spreadsheetRows[charArray[i]][cols['ipaLoc']]+'</span>'
+            out += '</span></p>'
+
+            // add various other derived information (case pairs, etc.)
+            cchar = charArray[i]
+
+            // vowel correspondences
+            if (cols.ivowel>0 && spreadsheetRows[cchar][cols.ivowel]) {
+                out += '<p class="vowelPairing">The corresponding independent vowel is '+makeCharacterLink(spreadsheetRows[cchar][cols.ivowel], lang, dir)+'</p>'
+                }
+            if (cols.dvowel>0 && spreadsheetRows[cchar][cols.dvowel]) {
+                out += '<p class="vowelPairing">The corresponding dependent vowel is '+makeCharacterLink(spreadsheetRows[cchar][cols.dvowel], lang, dir)+'</p>'
+                }
+
+            // upper/lowercase
+            if (cols.uc>0 && spreadsheetRows[cchar][cols.uc]) {
+                out += '<p class="charUppercase">Uppercase is '+makeCharacterLink(spreadsheetRows[cchar][cols.uc], lang, dir)+'</p>'
+                }
+            if (cols.lc>0 && spreadsheetRows[cchar][cols.lc]) {
+                out += '<p class="charLowercase">Lowercase is '+makeCharacterLink(spreadsheetRows[cchar][cols.lc], lang, dir)+'</p>'
+                }
+
+            // subjoined forms
+            if (cols.subj>0 && spreadsheetRows[cchar][cols.subj]) {
+                out += '<p class="subjPair">Subjoined form is '+makeCharacterLink(spreadsheetRows[cchar][cols.subj], lang, dir)+'</p>'
+                }
+            if (cols.fform>0 && spreadsheetRows[cchar][cols.fform]) {
+                out += '<p class="subjPair">Non-subjoined form is '+makeCharacterLink(spreadsheetRows[cchar][cols.fform], lang, dir)+'</p>'
+                }
+
+            // tone correspondences
+            if (cols.htone>0 && spreadsheetRows[cchar][cols.htone]) {
+                out += '<p class="tonePairing">High class equivalent is  '+makeCharacterLink(spreadsheetRows[cchar][cols.htone], lang, dir)+'</p>'
+                }
+            if (cols.ltone>0 && spreadsheetRows[cchar][cols.ltone]) {
+                out += '<p class="tonePairing">Low class equivalent is '+makeCharacterLink(spreadsheetRows[cchar][cols.ltone], lang, dir)+'</p>'
+                }
+
+            // dump the information in the details file
+            if (charDetails[charArray[i]]) out += '<div class="charD">'+charDetails[charArray[i]]
+
+            out += '</div>'
             }
-        out += `<br><a target="_blank" href="https://util.unicode.org/UnicodeJsps/character.jsp?a=${ hex }">Properties</a>`
-        out += '</p>'
+        }
+    out += '<p style="text-align: right;"><img src="../common28/icons/close.png" alt="Close" style="cursor: pointer;" id="character_panel_close_button" onclick="document.getElementById(\'panel\').style.display = \'none\'"></p>'
 
-
-        // add Unicode name
-		out += '<p class="cdHeader"><span class="uname cdTitle">'+spreadsheetRows[charArray[i]][cols['ucsName']]+'</span> '
-
-        // add second line with name, type, etc.
-		if (spreadsheetRows[charArray[i]][cols['nameLoc']] && spreadsheetRows[charArray[i]][cols['nameLoc']] != '0') out += ' &nbsp; <span class="transliteratedname trans">'+spreadsheetRows[charArray[i]][cols['nameLoc']]+'</span>'
-		out += '<br>'
-
-		out += '<span class="cdBasics">'
-		if (spreadsheetRows[charArray[i]][cols['typeLoc']]) out += '<span class="charType">'+spreadsheetRows[charArray[i]][cols['typeLoc']]+'</span>'
-		if (spreadsheetRows[charArray[i]][cols['statusLoc']]) out += ' &nbsp; (<span class="charType">'+spreadsheetRows[charArray[i]][cols['statusLoc']]+'</span>)'
-		if (spreadsheetRows[charArray[i]][cols['ipaLoc']]) out += ' &nbsp; <span class="charIPA ipa">'+spreadsheetRows[charArray[i]][cols['ipaLoc']]+'</span>'
-		out += '</span></p>'
-
-        // dump the information in the details file
-		if (charDetails[charArray[i]]) out += '<div class="charD">'+charDetails[charArray[i]]
-
-        // add various other derived information (case pairs, etc.)
-		cchar = charArray[i]
-			// vowel correspondences
-			if (cols.ivowel>0 && spreadsheetRows[cchar][cols.ivowel]) {
-				out += '<p class="vowelPairing">The corresponding independent vowel is '+makeCharacterLink(spreadsheetRows[cchar][cols.ivowel], lang, dir)+'</p>'
-				}
-			if (cols.dvowel>0 && spreadsheetRows[cchar][cols.dvowel]) {
-				out += '<p class="vowelPairing">The corresponding dependent vowel is '+makeCharacterLink(spreadsheetRows[cchar][cols.dvowel], lang, dir)+'</p>'
-				}
-
-			// upper/lowercase
-			if (cols.uc>0 && spreadsheetRows[cchar][cols.uc]) {
-				out += '<p class="charUppercase">Uppercase is '+makeCharacterLink(spreadsheetRows[cchar][cols.uc], lang, dir)+'</p>'
-				}
-			if (cols.lc>0 && spreadsheetRows[cchar][cols.lc]) {
-				out += '<p class="charLowercase">Lowercase is '+makeCharacterLink(spreadsheetRows[cchar][cols.lc], lang, dir)+'</p>'
-				}
-
-			// subjoined forms
-			if (cols.subj>0 && spreadsheetRows[cchar][cols.subj]) {
-				out += '<p class="subjPair">Subjoined form is '+makeCharacterLink(spreadsheetRows[cchar][cols.subj], lang, dir)+'</p>'
-				}
-			if (cols.fform>0 && spreadsheetRows[cchar][cols.fform]) {
-				out += '<p class="subjPair">Non-subjoined form is '+makeCharacterLink(spreadsheetRows[cchar][cols.fform], lang, dir)+'</p>'
-				}
-
-			// tone correspondences
-			if (cols.htone>0 && spreadsheetRows[cchar][cols.htone]) {
-				out += '<p class="tonePairing">High class equivalent is  '+makeCharacterLink(spreadsheetRows[cchar][cols.htone], lang, dir)+'</p>'
-				}
-			if (cols.ltone>0 && spreadsheetRows[cchar][cols.ltone]) {
-				out += '<p class="tonePairing">Low class equivalent is '+makeCharacterLink(spreadsheetRows[cchar][cols.ltone], lang, dir)+'</p>'
-				}
-		out += '</div>'
-		}
-	}
-out += '<p style="text-align: right;"><img src="../common28/icons/close.png" alt="Close" style="cursor: pointer;" id="character_panel_close_button" onclick="document.getElementById(\'panel\').style.display = \'none\'"></p>'
-
-return out
-}
+    return out
+    }
 
 
 
@@ -656,11 +660,15 @@ function convertTranscriptionData (node) {
 
 
 
-function makeCharacterLink (cp, lang, direction) {
+
+
+
+function makeCharacterLinkX (cp, lang, direction) {
 	// returns markup with information about cp
 	// cp: a unicode character, or sequence of unicode characters
 	// lang: the BCP47 language tag for the context
 	// direction: either rtl or ltr or ''
+    if (traceSet.has('makeCharacterLink')) console.log('makeCharacterLink(',cp,lang,direction,')')
     var chars = [...cp]
 
 	var out = '<span class="codepoint" translate="no">'
@@ -686,3 +694,34 @@ function makeCharacterLink (cp, lang, direction) {
 	
 	return out.trim()
 	}
+
+
+
+
+
+
+
+function makeCharacterLink (cp, lang, direction) {
+	// returns markup with information about cp
+	// cp: a unicode character, or sequence of unicode characters
+	// lang: the BCP47 language tag for the context
+	// direction: either rtl or ltr or ''
+    // LATEST VERSION collapses multiple chars at start
+    if (traceSet.has('makeCharacterLink')) console.log('makeCharacterLink(',cp,lang,direction,')')
+    var chars = [...cp]
+
+	var out = '<span class="codepoint" translate="no">'
+    out += `<span lang="${ lang }" onclick="makeFootnoteIndex('${ cp }')">${ cp }</span>`
+    
+    var hex = cp.codePointAt(0).toString(16).toUpperCase()
+    while (hex.length < 4) hex = '0'+hex 
+
+    if (spreadsheetRows[cp]) out += ` [<a href="block.html#char${ hex }" target="c"><span class="uname">${ spreadsheetRows[cp][cols['ucsName']] }</span></a>]`
+	else out += ' [Character(s) not found in database.]'
+
+    out += '</span> '
+	
+	return out.trim()
+	}
+
+
