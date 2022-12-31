@@ -68,10 +68,10 @@ var spreadsheet = `lana-nod	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᩯ	e	-ɛː -ɛː-		ɛ̄		c	Mc		dependent vowel						ᩯ			U+1A6F: TAI THAM VOWEL SIGN AE	✓
 ᩯᩢ	e	-ɛ-		ɛá					vowel-sign sequence									U+1A6F U+1A62: TAI THAM VOWEL SIGN AE, VOWEL SIGN MAI SAT	
 ᩯᩡ	e	-ɛʔ		ɛa					vowel-sign sequence									U+1A6F U+1A61: TAI THAM VOWEL SIGN AE, VOWEL SIGN A	
-ᩮᩥᩢ	e	-ɜ-		ēiá					vowel-sign sequence									U+1A6E U+1A65 U+1A62: TAI THAM VOWEL SIGN E, VOWEL SIGN I, VOWEL SIGN MAI SAT	
-ᩮᩥᩬᩡ	e	-ɜʔ		ēɔ̄ia					vowel-sign sequence									U+1A6E U+1A6C U+1A65 U+1A61: TAI THAM VOWEL SIGN E, VOWEL SIGN OA BELOW, VOWEL SIGN I, VOWEL SIGN A	
-ᩮᩥ	e	-ɜː-		ēi					vowel-sign sequence									U+1A6E U+1A65: TAI THAM VOWEL SIGN E, VOWEL SIGN I	
-ᩮᩥᩬ	e	-ɜː		ēɔ̄i					vowel-sign sequence									U+1A6E U+1A6C U+1A65: TAI THAM VOWEL SIGN E, VOWEL SIGN OA BELOW, VOWEL SIGN I	
+ᩮᩥᩢ	e	-ɤ-		ēiá					vowel-sign sequence									U+1A6E U+1A65 U+1A62: TAI THAM VOWEL SIGN E, VOWEL SIGN I, VOWEL SIGN MAI SAT	
+ᩮᩥᩬᩡ	e	-ɤʔ		ēɔ̄ia					vowel-sign sequence									U+1A6E U+1A6C U+1A65 U+1A61: TAI THAM VOWEL SIGN E, VOWEL SIGN OA BELOW, VOWEL SIGN I, VOWEL SIGN A	
+ᩮᩥ	e	-ɤː-		ēi					vowel-sign sequence									U+1A6E U+1A65: TAI THAM VOWEL SIGN E, VOWEL SIGN I	
+ᩮᩥᩬ	e	-ɤː		ēɔ̄i					vowel-sign sequence									U+1A6E U+1A6C U+1A65: TAI THAM VOWEL SIGN E, VOWEL SIGN OA BELOW, VOWEL SIGN I	
 ᩑ	E	eː		ẹ		3	Lo		independent vowel			ᩮ			ᩑ			U+1A51: TAI THAM LETTER EE	✓
 ᨺ	f	f	á	f		/	Lo		high class fricative				ᨼ		ᨺ ᩅ᩠ᨺ			U+1A3A: TAI THAM LETTER HIGH FA	✓
 ᨼ	f	f	a᷇	f̱		a	Lo		low class fricative					ᨺ	ᨼ ᩅ᩠ᨼ			U+1A3C: TAI THAM LETTER LOW FA	✓
