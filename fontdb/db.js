@@ -83,7 +83,6 @@ var fontDB = [
 { name:"Khmer MN",			system:new Set([mac]), locales:new Set(['khmr']), style:'serif' },
 { name:"Kokila",			system:new Set([win]), locales:new Set(['deva', 'deva-hi', 'deva-ks']), style:'serif', wd:true },
 { name:"Kokonor",			system:new Set([mac]), locales:new Set(['tibt']), style:'serif' },
-{ name:"Lamphun",			system:new Set([other]), locales:new Set(['lana','lana-nod']), style:'serif' },
 { name:"Lateef",			system:new Set([sil]), locales:new Set(['arab', 'arab-fa']), style:'serif' },
 { name:"Lava Devanagari",	system:new Set([mac]), locales:new Set(['deva']), style:'serif', md:true },
 { name:"Lava Kannada",		system:new Set([mac]), locales:new Set(['knda']), style:'serif', md:true },
@@ -552,9 +551,6 @@ var fontDB = [
 { name:"HeadlineA",			system:new Set([mac]), locales:new Set(['kore']), style:'heavy', md:true },
 
 
-/* khun */
-{ name:"A Tai Tham KH",		system:new Set([other]), locales:new Set(['lana','lana-nod']), style:'khun' },
-{ name:"A Tai Tham KH New",	system:new Set([other]), locales:new Set(['lana', 'lana-kkh', 'lana-nod']), style:'khun' },
 
 
 
@@ -638,7 +634,6 @@ Fonts that don't seem to work:
 { name:"JG Bassa Vah Unicode",system:new Set([other]), locales:new Set(['bass']) },
 { name:"Makassar",			system:new Set([other]), locales:new Set(['bugi']) },
 { name:"MakasarGraphite",	system:new Set([other]), locales:new Set(['maka']) },
-{ name:"Hariphunchai",		system:new Set([other]), locales:new Set(['lana-nod']) },
 
 
 
@@ -752,4 +747,13 @@ XenoType Tibetan New
 XTashi
 
 GUJARATI  Aakar, Rekha
+
+
+Other TAI THAM fonts:
+{ name:"Lamphun",			system:new Set([other]), locales:new Set(['lana','lana-nod']), style:'serif' },
+{ name:"Hariphunchai",		system:new Set([other]), locales:new Set(['lana-nod']) },
+khun:
+{ name:"A Tai Tham KH",		system:new Set([other]), locales:new Set(['lana','lana-nod']), style:'khun' },
+{ name:"A Tai Tham KH New",	system:new Set([other]), locales:new Set(['lana', 'lana-kkh', 'lana-nod']), style:'khun' },
+
 */
