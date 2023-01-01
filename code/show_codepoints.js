@@ -447,7 +447,9 @@ function getPhonemeList () {
 
 
 function makeDetails (chars) {
-    // draw character notes
+    if (traceSet.has('makeDetails')) console.log('makeDetails(', chars, ')  Adds  details for character(s) below a chart.')
+    // IF MAKING CHANGES HERE, MAKE THEM ALSO IN makePanelDetail FUNCTION
+    
     // global charDetails spreadsheetRows cols
     // local out charArray i 
 
@@ -475,23 +477,67 @@ function makeDetails (chars) {
 
             if (spreadsheetRows[charArray[i]][cols['nameLoc']] && spreadsheetRows[charArray[i]][cols['nameLoc']] != '0') out += ' &nbsp; <span class="transliteratedname trans">'+spreadsheetRows[charArray[i]][cols['nameLoc']]+'</span>'
             out += '<br>'
-
+            
+            // add the basic details
             out += '<span class="cdBasics">'
             if (spreadsheetRows[charArray[i]][cols['typeLoc']]) out += '<span class="charType">'+spreadsheetRows[charArray[i]][cols['typeLoc']]+'</span>'
             if (spreadsheetRows[charArray[i]][cols['statusLoc']]) out += ' &nbsp; <span class="usageType">('+spreadsheetRows[charArray[i]][cols['statusLoc']]+')</span>'
             if (spreadsheetRows[charArray[i]][cols['ipaLoc']]) out += ' &nbsp; <span class="charIPA ipa">'+spreadsheetRows[charArray[i]][cols['ipaLoc']]+'</span>'
             if (spreadsheetRows[charArray[i]][cols['class']]) out += ' &nbsp; <span class="charGC">'+spreadsheetRows[charArray[i]][cols['class']]+'</span>'
-            out += '</span></p>'
+            out += '</span><br><br>'
+
+
+            // add information about correspondences
+            var cchar = charArray[i]
+            var dir = window.blockDir
+            
+           // check for decomposable characters
+            if (cchar.normalize('NFD') != cchar) {
+                out += '<span class="decomposition">'
+                out += 'Decomposes to '+makeCharacterLink(cchar.normalize('NFD'), lang, dir)
+                if (cchar.normalize('NFD') === cchar.normalize('NFC')) out += '<br><strong>The NFC normalised form of this character is the decomposed sequence!</strong>'
+                out += '</span><br>'
+                }
+
+            
+            
+			// vowel correspondences
+			if (cols.ivowel>0 && spreadsheetRows[cchar][cols.ivowel]) {
+				out += '<span class="vowelPairing">The corresponding independent vowel is '+makeCharacterLink(spreadsheetRows[cchar][cols.ivowel], lang, dir)+'</span><br>'
+				}
+			if (cols.dvowel>0 && spreadsheetRows[cchar][cols.dvowel]) {
+				out += '<span class="vowelPairing">The corresponding dependent vowel is '+makeCharacterLink(spreadsheetRows[cchar][cols.dvowel], lang, dir)+'</span><br>'
+				}
+
+			// upper/lowercase
+			if (cols.uc>0 && spreadsheetRows[cchar][cols.uc]) {
+				out += '<span class="charUppercase">Uppercase is '+makeCharacterLink(spreadsheetRows[cchar][cols.uc], lang, dir)+'</span><br>'
+				}
+			if (cols.lc>0 && spreadsheetRows[cchar][cols.lc]) {
+				out += '<span class="charLowercase">Lowercase is '+makeCharacterLink(spreadsheetRows[cchar][cols.lc], lang, dir)+'</span><br>'
+				}
+
+			// subjoined forms
+			if (cols.subj>0 && spreadsheetRows[cchar][cols.subj]) {
+				out += '<span class="subjPair">Subjoined form is '+makeCharacterLink(spreadsheetRows[cchar][cols.subj], lang, dir)+'</span><br>'
+				}
+			if (cols.fform>0 && spreadsheetRows[cchar][cols.fform]) {
+				out += '<span class="subjPair">Non-subjoined form is '+makeCharacterLink(spreadsheetRows[cchar][cols.fform], lang, dir)+'</span><br>'
+				}
+
+			// tone correspondences
+			if (cols.htone>0 && spreadsheetRows[cchar][cols.htone]) {
+				out += '<span class="tonePairing">High class equivalent is  '+makeCharacterLink(spreadsheetRows[cchar][cols.htone], lang, dir)+'</span><br>'
+				}
+			if (cols.ltone>0 && spreadsheetRows[cchar][cols.ltone]) {
+				out += '<span class="tonePairing">Low class equivalent is '+makeCharacterLink(spreadsheetRows[cchar][cols.ltone], lang, dir)+'</span><br>'
+				}
+            
+              out += '</p>'
+    
 
             if (charDetails[charArray[i]]) out += charDetails[charArray[i]]
             
-			if (cols.ivowel>0 && spreadsheetRows[charArray[i]][cols.ivowel]) {
-				out += '<p class="vowelPairing">The corresponding independent vowel is '+makeCharacterLink(spreadsheetRows[charArray[i]][cols.ivowel], lang, window.direction)+'</p>'
-				}
-			if (cols.dvowel>0 && spreadsheetRows[charArray[i]][cols.dvowel]) {
-				out += '<p class="vowelPairing">The corresponding dependent vowel is '+makeCharacterLink(spreadsheetRows[charArray[i]][cols.dvowel], lang, window.direction)+'</p>'
-				}
-
             out += '</td></tr>'
             }
         }
@@ -546,7 +592,9 @@ function showCharDetailsInPanel (evt) {
 
 
 function makePanelDetails (chars, lang) {
-if (traceSet.has('makePanelDetails')) console.log('makePanelDetails(',chars,lang,')   Creates a string from charDetail data to put in panel.')
+    if (traceSet.has('makePanelDetails')) console.log('makePanelDetails(',chars,lang,')   Adds  details for character(s) to the panel.')
+    // IF MAKING CHANGES HERE, MAKE THEM ALSO IN makeDetail FUNCTION
+    
     var out = ''
     var charArray = [... chars]
     var dir = 'ltr'
@@ -580,10 +628,21 @@ if (traceSet.has('makePanelDetails')) console.log('makePanelDetails(',chars,lang
             if (spreadsheetRows[charArray[i]][cols['typeLoc']]) out += '<span class="charType">'+spreadsheetRows[charArray[i]][cols['typeLoc']]+'</span>'
             if (spreadsheetRows[charArray[i]][cols['statusLoc']]) out += ' &nbsp; (<span class="charType">'+spreadsheetRows[charArray[i]][cols['statusLoc']]+'</span>)'
             if (spreadsheetRows[charArray[i]][cols['ipaLoc']]) out += ' &nbsp; <span class="charIPA ipa">'+spreadsheetRows[charArray[i]][cols['ipaLoc']]+'</span>'
+            if (spreadsheetRows[charArray[i]][cols['class']]) out += ' &nbsp; <span class="charGC">'+spreadsheetRows[charArray[i]][cols['class']]+'</span>'
             out += '</span></p>'
 
             // add various other derived information (case pairs, etc.)
             cchar = charArray[i]
+
+            
+           // check for decomposable characters
+            if (cchar.normalize('NFD') != cchar) {
+                out += '<p class="decomposition">'
+                out += 'Decomposes to '+makeCharacterLink(cchar.normalize('NFD'), lang, dir)
+                if (cchar.normalize('NFD') === cchar.normalize('NFC')) out += '<br><strong>The NFC normalised form of this character is the decomposed sequence!</strong>'
+                out += '</p>'
+                }
+
 
             // vowel correspondences
             if (cols.ivowel>0 && spreadsheetRows[cchar][cols.ivowel]) {
