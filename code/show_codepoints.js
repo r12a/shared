@@ -92,7 +92,7 @@ function getTransliteration (node) {
 function transliteratePanel (str, lang) {
 // transliterate the rb tags in the panel
 
-if (trace) console.log('transliteratePanel(',str,lang,') AutoTransliteArray', autoTranslitArray)
+if (traceSet.has('transliteratePanel')) console.log('transliteratePanel(',str,lang,') AutoTranslitArray', autoTranslitArray)
 
 // exit if this isn't a full orthography page
 if (typeof autoTranslitArray === 'undefined') return
@@ -177,7 +177,6 @@ console.log('showNameDetails (',chars, clang, base, target, panel, list, transli
 	// add the example to the panel as a title
 	//out += '<div class="ex" lang="'+clang+'" id="title">'+chars+'</div>'
     var characterList = [...chars]
-    //console.log('characterList',characterList)
     var graphemes = []
     var ptr = -1
     for (var c=0;c<characterList.length;c++) {
@@ -187,19 +186,17 @@ console.log('showNameDetails (',chars, clang, base, target, panel, list, transli
             graphemes[ptr] = characterList[c]
             }
         }
-    //console.log('graphemes',graphemes)
+
     var transcriptions = []
     for (var t=0;t<graphemes.length;t++) {
         transcriptions[t] = transliteratePanel(graphemes[t], clang)
         }
-    //console.log('transcriptions',transcriptions)
     
     //var ruby = '<ruby>'
     //for (t=0;t<graphemes.length;t++) ruby += ' <rb>'+graphemes[t]+'</rb><rt>'+transcriptions[t]+'</rt>'
     //ruby += '</ruby>'
 
 	//out += `<div dir="${ dir }" class="ex" lang="${ clang }" id="title">${ ruby }</div>`
-
 
     var gloss = '<div class="multilineGlossedText">'
     for (t=-1;t<graphemes.length;t++) {
