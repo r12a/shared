@@ -72,15 +72,15 @@ var spreadsheet = `lana-nod	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᩮᩥᩬᩡ	e	-ɤʔ		ēɔ̄ia					vowel-sign sequence									U+1A6E U+1A6C U+1A65 U+1A61: TAI THAM VOWEL SIGN E, VOWEL SIGN OA BELOW, VOWEL SIGN I, VOWEL SIGN A	
 ᩮᩥ	e	-ɤː-		ēi					vowel-sign sequence									U+1A6E U+1A65: TAI THAM VOWEL SIGN E, VOWEL SIGN I	
 ᩮᩥᩬ	e	-ɤː		ēɔ̄i					vowel-sign sequence									U+1A6E U+1A6C U+1A65: TAI THAM VOWEL SIGN E, VOWEL SIGN OA BELOW, VOWEL SIGN I	
-ᩑ	E	eː		ẹ		3	Lo		independent vowel			ᩮ			ᩑ			U+1A51: TAI THAM LETTER EE	✓
+ᩑ	E	eː		ẹ		3	Lo		independent vowel		ᩮ				ᩑ			U+1A51: TAI THAM LETTER EE	✓
 ᨺ	f	f	á	f		/	Lo		high class fricative				ᨼ		ᨺ ᩅ᩠ᨺ			U+1A3A: TAI THAM LETTER HIGH FA	✓
 ᨼ	f	f	a᷇	f̱		a	Lo		low class fricative					ᨺ	ᨼ ᩅ᩠ᨼ			U+1A3C: TAI THAM LETTER LOW FA	✓
 ᩉ	h	h	á	h		s	Lo		high class fricative				ᩌ		ᩉ ᩅ᩠ᩉ			U+1A49: TAI THAM LETTER HIGH HA	✓
 ᩌ	h	h	a᷇	ẖ		V	Lo		low class fricative					ᩉ	ᩌ ᩅ᩠ᩌ			U+1A4C: TAI THAM LETTER LOW HA	✓
 ᩥ	i	-iʔ -i-		i		b	Mn		dependent vowel			ᩍ			ᩥ			U+1A65: TAI THAM VOWEL SIGN I	✓
 ᩦ	i	-iː -iː-		ī		u	Mn		dependent vowel			ᩎ			ᩦ			U+1A66: TAI THAM VOWEL SIGN II	✓
-ᩍ	I	i		ị		b	Lo		independent vowel			ᩥ			ᩍ			U+1A4D: TAI THAM LETTER I	✓
-ᩎ	I	iː		ị̄		N	Lo		independent vowel			ᩦ			ᩎ			U+1A4E: TAI THAM LETTER II	✓
+ᩍ	I	i		ị		b	Lo		independent vowel		ᩥ				ᩍ			U+1A4D: TAI THAM LETTER I	✓
+ᩎ	I	iː		ị̄		N	Lo		independent vowel		ᩦ				ᩎ			U+1A4E: TAI THAM LETTER II	✓
 ᩠ᨿ	I	-ia		˖y̱					vowel-sign sequence									U+1A60 U+1A3F: TAI THAM SIGN SAKOT, LETTER LOW YA	
 ᩠ᨿᩮ	I	-ia		˖y̱ē					vowel-sign sequence									U+1A60 U+1A3F U+1A6E: TAI THAM SIGN SAKOT, LETTER LOW YA, VOWEL SIGN E	
 ᩠ᨿᩮᩡ	I	-iaʔ		˖y̱ēa					vowel-sign sequence									U+1A60 U+1A3F U+1A6E U+1A61: TAI THAM SIGN SAKOT, LETTER LOW YA, VOWEL SIGN E, VOWEL SIGN A	
@@ -140,8 +140,8 @@ var spreadsheet = `lana-nod	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᩮᩨᩬ	u	-ɯa-		ēɔ̄ɯ̄					vowel-sign sequence									U+1A6E U+1A6C U+1A68: TAI THAM VOWEL SIGN E, VOWEL SIGN OA BELOW, VOWEL SIGN UUE	
 ᩠ᩅ	u	-w -ua		˖w̱		;			vowel-sign sequence									U+1A60 U+1A45: TAI THAM SIGN SAKOT, LETTER WA	
 ᩠ᩅ᩠ᨿ	u	-uaj		˖w̱˖y̱					vowel-sign sequence									U+1A60 U+1A45 U+1A60 U+1A3F: TAI THAM SIGN SAKOT, LETTER WA, SIGN SAKOT, LETTER LOW YA	
-ᩏ	U	u		ụ		2	Lo		independent vowel			ᩩ			ᩏ			U+1A4F: TAI THAM LETTER U	✓
-ᩐ	U	uː		ụ̄		6	Lo		independent vowel			ᩪ			ᩐ			U+1A50: TAI THAM LETTER UU	✓
+ᩏ	U	u		ụ		2	Lo		independent vowel		ᩩ				ᩏ			U+1A4F: TAI THAM LETTER U	✓
+ᩐ	U	uː		ụ̄		6	Lo		independent vowel		ᩪ				ᩐ			U+1A50: TAI THAM LETTER UU	✓
 ᩅ	w	w	a᷇	w̱		;	Lo		low class approximant					ᩉ᩠ᩅ	ᩅ ᩅ᩠ᩅ			U+1A45: TAI THAM LETTER WA	✓
 ᩠ᩅᩫᩡ	w	-uaʔ		˖w̱ɔ̈a					vowel-sign sequence									U+1A60 U+1A45 U+1A6B U+1A61: TAI THAM SIGN SAKOT, LETTER WA, VOWEL SIGN O, VOWEL SIGN A	
 ᩠ᩅᩫ	w	-uaː		˖w̱ɔ̈					vowel-sign sequence									U+1A60 U+1A45 U+1A6B: TAI THAM SIGN SAKOT, LETTER WA, VOWEL SIGN O	
