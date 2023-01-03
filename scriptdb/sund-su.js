@@ -58,7 +58,7 @@ var spreadsheet = `sund-su	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ᮄ	i	i		ị	i	I	Lo		independent vowel		ᮤ				U+1B84: SUNDANESE LETTER I	✓
 ᮤ	i	i		i	i	i	Mn		vowel sign			ᮄ		panghulu	U+1BA4: SUNDANESE VOWEL SIGN PANGHULU	✓
 ᮊ	k	k	a	k	k	k	Lo		consonant						U+1B8A: SUNDANESE LETTER KA	✓
-ᮾ	k			k̽			Lo	a	final consonant						U+1BBE: SUNDANESE LETTER FINAL K	✓
+ᮾ	k	k		k̽			Lo	a	final consonant						U+1BBE: SUNDANESE LETTER FINAL K	✓
 ᮜ	l	l	a	l	l	l	Lo		consonant						U+1B9C: SUNDANESE LETTER LA	✓
 ᮣ	l	l		l̆	l	L	Mn		medial consonant					panyiku	U+1BA3: SUNDANESE CONSONANT SIGN PANYIKU	✓
 ᮼ	l	ləu		l̥			Lo	a	vocalic						U+1BBC: SUNDANESE LETTER LEU	✓
@@ -101,11 +101,11 @@ var spreadsheet = `sund-su	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ᳀				–	.		Po	a	full stop						U+1CC0: SUNDANESE PUNCTUATION BINDU SURYA	✓
 ᳁							Po	a	bindu						U+1CC1: SUNDANESE PUNCTUATION BINDU PANGLONG	✓
 ᳂							Po	a	bindu						U+1CC2: SUNDANESE PUNCTUATION BINDU PURNAMA	✓
-᳃							Po		punctuation						U+1CC3: SUNDANESE PUNCTUATION BINDU CAKRA	✓
-᳄							Po		punctuation						U+1CC4: SUNDANESE PUNCTUATION BINDU LEU SATANGA	✓
-᳅							Po		punctuation						U+1CC5: SUNDANESE PUNCTUATION BINDU KA SATANGA	✓
-᳆							Po		punctuation						U+1CC6: SUNDANESE PUNCTUATION BINDU DA SATANGA	✓
-᳇							Po		punctuation						U+1CC7: SUNDANESE PUNCTUATION BINDU BA SATANGA	✓
+᳃							Po	a	punctuation						U+1CC3: SUNDANESE PUNCTUATION BINDU CAKRA	✓
+᳄							Po	a	punctuation						U+1CC4: SUNDANESE PUNCTUATION BINDU LEU SATANGA	✓
+᳅							Po	a	punctuation						U+1CC5: SUNDANESE PUNCTUATION BINDU KA SATANGA	✓
+᳆							Po	a	punctuation						U+1CC6: SUNDANESE PUNCTUATION BINDU DA SATANGA	✓
+᳇							Po	a	punctuation						U+1CC7: SUNDANESE PUNCTUATION BINDU BA SATANGA	✓
 																
 ʼ				ʼ	ʼ		Lm		apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
 §				§	§		Po		section sign						U+00A7: SECTION SIGN	
@@ -113,11 +113,9 @@ var spreadsheet = `sund-su	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ‡				‡	‡		Po		double dagger						U+2021: DOUBLE DAGGER	
 ′				′	′		Po		prime						U+2032: PRIME	
 ″				″	″		Po		double prime						U+2033: DOUBLE PRIME	
-																
 `																
 																
 latinPanel = 'd͡ʒ ə é ŋ ɲ t͡ʃ ɤ'																
-																
 																
 var cols = {																
 key: 1,																
@@ -131,11 +129,13 @@ status: 8,
 typeLoc: 9,																
 statusLoc: 10,																
 																
-nnameLoc: 11,																
-nameLoc: 12,																
-ucsName: 13,																
-block: 14,																
+dvowel: 11,																
+ivowel: 12,																
+																
+nnameLoc: 13,																
+nameLoc: 14,																
+ucsName: 15,																
+block: 16,																
 																
 othertranscriptions: [[5, 'Latin']]																
 }																
-																
