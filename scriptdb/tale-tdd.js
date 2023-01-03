@@ -24,16 +24,16 @@ var spreadsheet = `tale-tdd	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ၈	#	8		8̣		8	Nd	i	myanmar digit				U+1048: MYANMAR DIGIT EIGHT	
 ၉	#	9		9̣		9	Nd	i	myanmar digit				U+1049: MYANMAR DIGIT NINE	
 ၀	#	0		0̣		0	Nd	i	myanmar digit				U+1040: MYANMAR DIGIT ZERO	
-ᥰ	^	˥˥		²̱		-	Lo		tone letter				U+1970: TAI LE LETTER TONE-2	✓
-ᥱ	^	˩˩		³̱		=	Lo		tone letter				U+1971: TAI LE LETTER TONE-3	✓
-ᥲ	^	˧˩		⁴̱		[	Lo		tone letter				U+1972: TAI LE LETTER TONE-4	✓
-ᥳ	^	˥˧		⁵̱		]	Lo		tone letter				U+1973: TAI LE LETTER TONE-5	✓
-ᥴ	^	˨˦		⁶̱			Lo		tone letter				U+1974: TAI LE LETTER TONE-6	✓
-̈	^	˥˥		²			Mn	i	tone mark				U+0308: COMBINING DIAERESIS	
-̌	^	˩˩		³			Mn	i	tone mark				U+030C: COMBINING CARON	
-̀	^	˧˩		⁴			Mn	i	tone mark				U+0300: COMBINING GRAVE ACCENT	
-̇	^	˥˧		⁵			Mn	i	tone mark				U+0307: COMBINING DOT ABOVE	
-́	^	˨˦		⁶			Mn	i	tone mark				U+0301: COMBINING ACUTE ACCENT	
+ᥴ	^	˨˦		¹	¹		Lo		tone letter	mid rising			U+1974: TAI LE LETTER TONE-6	✓
+ᥰ	^	˥˥		²	²	-	Lo		tone letter	high			U+1970: TAI LE LETTER TONE-2	✓
+ᥱ	^	˩˩		³	³	=	Lo		tone letter	low			U+1971: TAI LE LETTER TONE-3	✓
+ᥲ	^	˧˩		⁴	⁴	[	Lo		tone letter	mid falling			U+1972: TAI LE LETTER TONE-4	✓
+ᥳ	^	˥˧		⁵	⁵	]	Lo		tone letter	high falling			U+1973: TAI LE LETTER TONE-5	✓
+́	^	˨˦		¹̱	¹		Mn	i	tone mark	mid rising			U+0301: COMBINING ACUTE ACCENT	
+̈	^	˥˥		²̱	²		Mn	i	tone mark	high			U+0308: COMBINING DIAERESIS	
+̌	^	˩˩		³̱	³		Mn	i	tone mark	low			U+030C: COMBINING CARON	
+̀	^	˧˩		⁴̱	⁴		Mn	i	tone mark	mid falling			U+0300: COMBINING GRAVE ACCENT	
+̇	^	˥˧		⁵̱	⁵		Mn	i	tone mark	high falling			U+0307: COMBINING DOT ABOVE	
 														
 ᥣ	a	aː		a		a	Lo		vowel				U+1963: TAI LE LETTER A	✓
 ᥬ	a	aɯ		aᵚ		c	Lo		dipthong				U+196C: TAI LE LETTER AUE	✓
@@ -68,7 +68,7 @@ var spreadsheet = `tale-tdd	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 														
 `														
 														
-latinPanel = '˥˥ ˩˩ ˧˩ ˥˧ ˨˦ aː ə ɛ kʰ ŋ ɔ pʰ t͡s t͡sʰ tʰ ʷ ɯ ʔ'														
+latinPanel = '˥˥ ˩˩ ˧˩ ˥˧ ˨˦ aː ə ɛ kʰ ŋ ɔ pʰ t͡s t͡sʰ tʰ ʷ ɯ ʔ ¹ ² ³ ⁴ ⁵'														
 														
 														
 var cols = {														
