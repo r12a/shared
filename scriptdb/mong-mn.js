@@ -2,6 +2,7 @@ var spreadsheet = `mong-mn	key	khalkha ipa	ipa+	translit	Joint Sino-Mongolian	kb
 ᠊	_			_	–		Po		baseline extender				U+180A: MONGOLIAN NIRUGU		✓	
 -	-			-	-				hyphen				U+2010: HYPHEN			
 ‑	-			‑	‑		Pd		non-breaking hyphen				U+2011: NON-BREAKING HYPHEN			
+\u1806	-			–͇			Pd		soft hyphen				U+1806: MONGOLIAN TODO SOFT HYPHEN		✓	
 –	-			–	–		Pd		en dash				U+2013: EN DASH			
 —	-			—	—		Pd		em dash				U+2014: EM DASH			
 、	,			⹁	,		Po		ideographic comma				U+3001: IDEOGRAPHIC COMMA			
@@ -103,8 +104,11 @@ var spreadsheet = `mong-mn	key	khalkha ipa	ipa+	translit	Joint Sino-Mongolian	kb
 ᠿ	z	ʐ		ž	ž		Lo	l	consonant	for transliteration			U+183F: MONGOLIAN LETTER ZRA	ж	✓	ʐ
 ᡁ	z	ʑ		ẑ	ẑ	Z	Lo	l	consonant	for transliteration			U+1841: MONGOLIAN LETTER ZHI	з	✓	ʈʂɻ
 																
-																
 ᡛ				ń	ń		Lo						U+185B: MONGOLIAN LETTER TODO NIA		✓	
+																
+ᢅ		–					Mn​						U+1885: MONGOLIAN LETTER ALI GALI BALUDA			
+ᢆ		–					Mn​						U+1886: MONGOLIAN LETTER ALI GALI THREE BALUDA			
+ᢩ		–					Mn​						U+18A9: MONGOLIAN LETTER ALI GALI DAGALGA			
 																
 ʼ				ʼ	ʼ		Lm		apostrophe				U+02BC: MODIFIER LETTER APOSTROPHE			
 §				§	§		Po		section sign				U+00A7: SECTION SIGN			
