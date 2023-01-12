@@ -135,7 +135,7 @@ return str.trim()
 
 
 function showNameDetails (chars, clang, base, target, panel, list, translit, ipa) {
-    console.log('showNameDetails (',chars, clang, base, target, panel, list, translit, ipa,') Get the list of characters for an example and display their names')
+    if (traceSet.has('showNameDetails')) console.log('showNameDetails (',chars, clang, base, target, panel, list, translit, ipa,')\n\tGet the list of characters for an example and display their names')
     // called by onclick created by shownames_setOnclick & shownames_setImgOnclick & listAll
     // chars (string), alt text of example
     // clang (string), lang attribute value of example img
@@ -155,7 +155,7 @@ function showNameDetails (chars, clang, base, target, panel, list, translit, ipa
 
 	// check whether the calling page has set a base and target window: if not base, point to UniView
 	if(typeof base === 'undefined' || base === '') { base = '../../uniview/index.html?char=' }
-	if(typeof target === 'undefined') { target = '' }
+	if(typeof target === 'undefined') { target = 'c' }
 	if(typeof list === 'undefined') { list = null }
 	if(typeof translit === 'undefined') { translit = '' }
 	  
@@ -217,7 +217,8 @@ function showNameDetails (chars, clang, base, target, panel, list, translit, ipa
 
 	//out += `<div dir="${ dir }" class="ex" lang="${ clang }" id="title">${ gloss }</div>`
     // removing the alternating direction so that IPA reads better
-	out += `<div dir="ltr" class="ex" lang="${ clang }" id="title">${ gloss }</div>`
+	//out += `<div dir="${ window.blockDirection }" class="ex" lang="${ clang }" id="title">${ gloss }</div>`
+	out += `<div dir="ltr" class="glossContainer" lang="${ clang }" id="title">${ gloss }</div>`
     
         
     
@@ -237,23 +238,26 @@ function showNameDetails (chars, clang, base, target, panel, list, translit, ipa
         while (hex.length < 4) { hex = '0'+hex }
         hex = hex.toUpperCase()
  
-        if (traceSet.has('showNameDetails')) console.log('charData: ',charData)
-        if (traceSet.has('showNameDetails')) console.log('charArray[c]: ',charArray[c])
+        //if (traceSet.has('showNameDetails')) console.log('charData: ',charData)
+        //if (traceSet.has('showNameDetails')) console.log('charArray[c]: ',charArray[c])
 
 		if (charData[charArray[c]]) {
             blockname = getScriptGroup(dec, false)
             blockfile = getScriptGroup(dec, true)
             //console.log(dec,blockfile)
             isInBlock = spreadsheetRows[charArray[c]]?spreadsheetRows[charArray[c]][cols['block']]:''
-
+            
 			out += '<div class="panelCharacter">'
 			//if (blockfile) {
 			if (isInBlock) {
-				out += `<a target="${ target }" href="`
-				if (base === '../../uniview/index.html?char=') out += base+hex
-				else out += '../../scripts/'+blockfile+'/block.html#char'+hex
+				//out += `<a target="${ target }" href="`
+				out += `<span style="display:inline-block; font-size:1.5rem; min-width: 2rem;">${ charArray[c] }</span>`
+				out += `<a target="c" href="`
+				//if (base === '../../uniview/index.html?char=') out += base+hex
+				//else out += '../../scripts/'+blockfile+'/block.html#char'+hex
+				out += '../../scripts/'+blockfile+'/block.html#char'+hex
 				out += '">'
-				out += '<img src="'+'../../c/'+blockname+"/"+hex+'.png'+'" alt="'+charArray[c]+'">'
+				//out += '<img src="'+'../../c/'+blockname+"/"+hex+'.png'+'" alt="'+charArray[c]+'">'
 				out += ' U+'+hex + ' '+charData[charArray[c]]
 				out += '</a>\n'
 				}
@@ -263,7 +267,8 @@ function showNameDetails (chars, clang, base, target, panel, list, translit, ipa
 				}
 			}
 		else {
-			out += '<img src="../../c/Basic_Latin/005F.png" alt="U+'+hex+'"> U+'+hex+' No data for this character'
+			//out += `<a target="c" href="../../uniview/index.html?charlist=${ charArray[c] }&char=${ hex }"><img src="../../c/Basic_Latin/005F.png" alt="U+${ hex }"> U+${ hex } No data for this character</a>`
+			out += `<div class="panelCharacter"><a target="c" href="../../uniview/index.html?charlist=${ charArray[c] }&char=${ hex }"><img src="../../c/${ getScriptGroup(dec, false) }/${ hex }.png" alt="${ charArray[c] }"> U+${ hex } No data for this character</a></div>`
 			}
 		out += '</div>'
 		}
@@ -308,7 +313,7 @@ function showNameDetails (chars, clang, base, target, panel, list, translit, ipa
 
     // figure out where to find the url for the _vocab page
     if (typeof template !== 'undefined' && typeof template.vocablocation === 'string') var url = `../../scripts/{$ template.vocablocation }.html`
-    else url = `${ window.lang }_vocab`
+    else url = `${ window.langTag }_vocab`
     
     if (typeof window.removeVowels === 'function') chars = removeVowels(chars)
     
@@ -363,7 +368,7 @@ function getScriptGroup (charNum, blockfile) {
     // global scriptGroups
 	
 	if(typeof blockfile === 'undefined') { blockfile = false }
-    if (blockfile) var field = 5
+    if (blockfile) var field = 3
     else field = 2
     
     // find the script group
@@ -725,11 +730,18 @@ function showCharDetailsInPanel (evt) {
 	else console.log('No characters found in showCharDetailsInPanel')
 
 
-	var panel = document.getElementById('panel')
-	panel.innerHTML = makePanelDetails(chars,lang)
+	var panel = document.getElementById('dialogBox')
+        
+	panel.innerHTML = makePanelDetails(chars,lang, dialog=true)
 	//document.getElementById('panel').innerHTML = charDetails[char]
-	panel.style.display = 'block'
-	panel.style.width = '50%'
+	panel.open = true
+    //panel.showModal()
+    
+    var closeButton = document.createElement('button')
+    closeButton.appendChild(document.createTextNode('Close'))
+    closeButton.addEventListener('click', closeDialog)
+    panel.appendChild(closeButton)
+    
 	
 	addExamples(lang)
 	autoTransliterate(evt.target.lang)
@@ -741,6 +753,9 @@ function showCharDetailsInPanel (evt) {
 	}
 
 
+function closeDialog () {
+    document.getElementById('dialogBox').open = false
+    }
 
 
 
@@ -749,8 +764,7 @@ function showCharDetailsInPanel (evt) {
 
 
 
-
-function makePanelDetails (chars, lang) {
+function makePanelDetails (chars, lang, dialog) {
     if (traceSet.has('makePanelDetails')) console.log('makePanelDetails(',chars,lang,')   Adds  details for character(s) to the panel.')
     // IF MAKING CHANGES HERE, MAKE THEM ALSO IN makeDetail FUNCTION
     
@@ -765,86 +779,12 @@ function makePanelDetails (chars, lang) {
             out += '<p class="cdChar"><span class="ex" lang="'+lang+'">'+charArray[i]+'</span></p>'
 
             out += printDetails(charArray[i])
-/*
-            // add out pointing links
-            var hex = spreadsheetRows[charArray[i]][cols['ucsName']].split(':')
-            hex = hex[0].replace(/U\+/,'')
-            out += `<p class="notesLink">`
-            out += `<a target="_blank" href="../../uniview/index.html?codepoints=${ hex }&char=${ hex }">UniView</a>`
-            if (window.notesLangtag) { // add a link to the character notes file
-                out += '<br><a target="_blank" href="../../scripts/'+window.blockDir+'block.html#'+window.notesLangtag+hex+'">Notes page</a>'
-                }
-            out += `<br><a target="_blank" href="https://util.unicode.org/UnicodeJsps/character.jsp?a=${ hex }">Properties</a>`
-            out += '</p>'
-
-
-            // add Unicode name
-            out += '<p class="cdHeader"><span class="uname cdTitle">'+spreadsheetRows[charArray[i]][cols['ucsName']]+'</span> '
-
-            // add second line with name, type, etc.
-            if (spreadsheetRows[charArray[i]][cols['nameLoc']] && spreadsheetRows[charArray[i]][cols['nameLoc']] != '0') out += ' &nbsp; <span class="transliteratedname trans">'+spreadsheetRows[charArray[i]][cols['nameLoc']]+'</span>'
-            out += '<br>'
-
-            out += '<span class="cdBasics">'
-            if (spreadsheetRows[charArray[i]][cols['typeLoc']]) out += '<span class="charType">'+spreadsheetRows[charArray[i]][cols['typeLoc']]+'</span>'
-            if (spreadsheetRows[charArray[i]][cols['statusLoc']]) out += ' &nbsp; (<span class="charType">'+spreadsheetRows[charArray[i]][cols['statusLoc']]+'</span>)'
-            if (spreadsheetRows[charArray[i]][cols['ipaLoc']]) out += ' &nbsp; <span class="charIPA ipa">'+spreadsheetRows[charArray[i]][cols['ipaLoc']]+'</span>'
-            if (spreadsheetRows[charArray[i]][cols['class']]) out += ' &nbsp; <span class="charGC">'+spreadsheetRows[charArray[i]][cols['class']]+'</span>'
-            out += '</span></p>'
-
-            // add various other derived information (case pairs, etc.)
-            cchar = charArray[i]
-
-            
-           // check for decomposable characters
-            if (cchar.normalize('NFD') != cchar) {
-                out += '<p class="decomposition">'
-                out += 'Decomposes to '+makeCharacterLink(cchar.normalize('NFD'), lang, dir)
-                if (cchar.normalize('NFD') === cchar.normalize('NFC')) out += '<br><strong>The NFC normalised form of this character is the decomposed sequence!</strong>'
-                out += '</p>'
-                }
-
-
-            // vowel correspondences
-            if (cols.ivowel>0 && spreadsheetRows[cchar][cols.ivowel]) {
-                out += '<p class="vowelPairing">The corresponding independent vowel is '+makeCharacterLink(spreadsheetRows[cchar][cols.ivowel], lang, dir)+'</p>'
-                }
-            if (cols.dvowel>0 && spreadsheetRows[cchar][cols.dvowel]) {
-                out += '<p class="vowelPairing">The corresponding dependent vowel is '+makeCharacterLink(spreadsheetRows[cchar][cols.dvowel], lang, dir)+'</p>'
-                }
-
-            // upper/lowercase
-            if (cols.uc>0 && spreadsheetRows[cchar][cols.uc]) {
-                out += '<p class="charUppercase">Uppercase is '+makeCharacterLink(spreadsheetRows[cchar][cols.uc], lang, dir)+'</p>'
-                }
-            if (cols.lc>0 && spreadsheetRows[cchar][cols.lc]) {
-                out += '<p class="charLowercase">Lowercase is '+makeCharacterLink(spreadsheetRows[cchar][cols.lc], lang, dir)+'</p>'
-                }
-
-            // subjoined forms
-            if (cols.subj>0 && spreadsheetRows[cchar][cols.subj]) {
-                out += '<p class="subjPair">Subjoined form is '+makeCharacterLink(spreadsheetRows[cchar][cols.subj], lang, dir)+'</p>'
-                }
-            if (cols.fform>0 && spreadsheetRows[cchar][cols.fform]) {
-                out += '<p class="subjPair">Non-subjoined form is '+makeCharacterLink(spreadsheetRows[cchar][cols.fform], lang, dir)+'</p>'
-                }
-
-            // tone correspondences
-            if (cols.htone>0 && spreadsheetRows[cchar][cols.htone]) {
-                out += '<p class="tonePairing">High class equivalent is  '+makeCharacterLink(spreadsheetRows[cchar][cols.htone], lang, dir)+'</p>'
-                }
-            if (cols.ltone>0 && spreadsheetRows[cchar][cols.ltone]) {
-                out += '<p class="tonePairing">Low class equivalent is '+makeCharacterLink(spreadsheetRows[cchar][cols.ltone], lang, dir)+'</p>'
-                }
-
-            // dump the information in the details file
-            if (charDetails[charArray[i]]) out += '<div class="charD">'+charDetails[charArray[i]]
-
-            out += '</div>'
-            */
             }
         }
-    out += '<p style="text-align: right;"><img src="../common28/icons/close.png" alt="Close" style="cursor: pointer;" id="character_panel_close_button" onclick="document.getElementById(\'panel\').style.display = \'none\'"></p>'
+        
+    // make the close icon
+    if (dialog) out += `<p onclick="document.getElementById(\'dialogBox\').open = false"><img src="../common28/icons/close.png" alt="Close" style="cursor: pointer;" id="character_dialog_close_button"></p>`
+    else out += '<p onclick="document.getElementById(\'panel\').style.display = \'none\'"><img src="../common28/icons/close.png" alt="Close" style="cursor: pointer;" id="character_panel_close_button"></p>'
 
     return out
     }
