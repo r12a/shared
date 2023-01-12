@@ -669,14 +669,14 @@ table.inband th {
 	display: none;
 	}
 
-.new {
+/*.new {
 	color:red; 
 	background:yellow; 
 	box-shadow: 3px 3px 5px #888; 
 	padding: 1px 10px 1px 15px; 
 	border-radius: 10px; 
 	margin-inline-start: 10px;
-	}
+	}*/
 
 
 .hidden { display:none; }
