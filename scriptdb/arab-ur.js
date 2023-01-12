@@ -1,4 +1,5 @@
 var spreadsheet = `arab-ur	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	equiv	shape	native name	latin name	ucs name	block
+\u0020							Zs		space						U+0020: SPACE	
 ـ	_			_		I	Lm		baseline extender						U+0640: ARABIC TATWEEL	✓
 -	-			-	-				hyphen						U+2010: HYPHEN	
 ‑	-			‑	‑		Pd		non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
@@ -24,6 +25,7 @@ var spreadsheet = `arab-ur	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 \u200B	]			␣			Cf		zero-width space						U+200B: ZERO WIDTH SPACE	
 ع	{	∅		ʿ	ā o e ʿ –	m	Lo		consonant			ع ععع	عین	ɛːn	U+0639: ARABIC LETTER AIN	✓
 ء	}			ʾ		H	Lo		vowel separator / calendar indicator			ء	ہمزہ	ɦəm.zɑː	U+0621: ARABIC LETTER HAMZA	✓
+ٓ	}			~		G	Mn	i	maddah diacritic	used with ا					U+0653: ARABIC MADDAH ABOVE	
 ْ	*			͓		]	Mn		vowel absence marker					sukuːn/ʤazm	U+0652: ARABIC SUKUN	✓
 ٔ	\'	ɛ ∅					Mn		izafat / vowel separator				ہمزہ	ɦəm.zɑː	U+0654: ARABIC HAMZA ABOVE	✓
 ّ	&	∅		˖		Y	Mn		gemination mark					taʃdiːd	U+0651: ARABIC SHADDA	✓
@@ -120,7 +122,7 @@ var spreadsheet = `arab-ur	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ٹ	t	ʈ		ʈ	ṭ	t	Lo		consonant			ٹ ٹٹٹ	ٹے	ʈeː	U+0679: ARABIC LETTER TTEH	✓
 تھ	T	t̪ʰ		tʰ	th										U+062A U+06BE: ARABIC LETTER TEH, HEH DOACHASHMEE	
 ٹھ	T	ʈʰ		ʈʰ	ṭh										U+0679 U+06BE: ARABIC LETTER TTEH, HEH DOACHASHMEE	
-ۃ	t			ẗ			Lo		teh marbuta	arabic loan words					U+06C3: ARABIC LETTER TEH MARBUTA GOAL	✓
+ۃ	t			ẗ			Lo	i	teh marbuta	arabic loan words					U+06C3: ARABIC LETTER TEH MARBUTA GOAL	✓
 ت	t¶	t		t	t	u	Lo		consonant			ت تتت	تے	te	U+062A: ARABIC LETTER TEH	✓
 ُ	U	u		u	u	o	Mn		vowel					peʃ	U+064F: ARABIC DAMMA	✓
 ٗ	u	u		ᵘ			Mn		vowel						U+0657: ARABIC INVERTED DAMMA	✓
@@ -141,7 +143,7 @@ var spreadsheet = `arab-ur	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 																
 \u{627}\u{653}				ɑٓ					vowel	decomposed				əlɪf mədd	U+0627, U+0653: ARABIC LETTER ALEF, MADDAH ABOVE	
 \u{64A}\u{654}		ɛ		ي‘					vowel separator / izafat	decomposed ئ					U+064A, U+0654: ARABIC LETTER YEH, HAMZA ABOVE	
-ي				ẏ		L	Lo		arabic yeh	only in decomposed text					U+064A: ARABIC LETTER YEH	
+ي				ẏ		L	Lo	i	arabic yeh	only in decomposed text					U+064A: ARABIC LETTER YEH	
 																
 \u{6C1}\u{654}		ɛ		h‘	yi				izafat	decomposed					U+06C1, U+0654: ARABIC LETTER HEH GOAL, HAMZA ABOVE	
 																
@@ -150,8 +152,8 @@ var spreadsheet = `arab-ur	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 																
 ؃							Cf		page number marker					səfəh	U+0603: ARABIC SIGN SAFHA	✓
 ؂							Cf		footnote marker						U+0602: ARABIC FOOTNOTE MARKER	✓
-؎							So		poetic verse sign						U+060E: ARABIC POETIC VERSE SIGN	✓
-؏							So		poetic line marker					misrə	U+060F: ARABIC SIGN MISRA	✓
+؎							So	i	poetic verse sign						U+060E: ARABIC POETIC VERSE SIGN	✓
+؏							So	i	poetic line marker					misrə	U+060F: ARABIC SIGN MISRA	✓
 ؐ							Mn		honorific					sallallao alae va sallam	U+0610: ARABIC SIGN SALLALLAHOU ALAYHE WASSALLAM	✓
 ؑ							Mn		honorific					alejsallam	U+0611: ARABIC SIGN ALAYHE ASSALLAM	✓
 ؒ							Mn		honorific					raːmatʊlla alee	U+0612: ARABIC SIGN RAHMATULLAH ALAYHE	✓
@@ -164,7 +166,18 @@ var spreadsheet = `arab-ur	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ‡				‡	‡		Po		double dagger						U+2021: DOUBLE DAGGER	
 ′				′	′		Po		prime						U+2032: PRIME	
 ″				″	″		Po		double prime						U+2033: DOUBLE PRIME	
+﷽							So	i							U+FDFD: ARABIC LIGATURE BISMILLAH AR-RAHMAN AR-RAHEEM	
+\u0600							Cf								U+0600 ARABIC NUMBER SIGN	
+\u0601							Cf								U+0601: ARABIC SIGN SANAH	
+\u0604							Cf								U+0604: ARABIC SIGN SAMVAT	
+\u06DD							Cf								U+06DD: ARABIC END OF AYAH	
 																
+ݬ							Lo	u	false friend	for Ormuri					U+076C: ARABIC LETTER REH WITH HAMZA ABOVE	
+ځ							Lo	u	false friend	for Pashto					U+0681: ARABIC LETTER HAH WITH HAMZA ABOVE	
+ࢡ							Lo	u	false friend	for Adamawa Fulfulde					U+08A1: ARABIC LETTER BEH WITH HAMZA ABOVE	
+ه							Lo	u	false friend	for Arabic					U+0647: ARABIC LETTER HEH	
+ة							Lo	u	false friend	for Arabic					U+0629: ARABIC LETTER TEH MARBUTA	
+ك							Lo	u	false friend	for Arabic					U+0643: ARABIC LETTER KAF	
 `																
 																
 latinPanel = 'ɑː ā ḍ ɖ d͡ʒ ɛ eː ɛː g͟h ɦ ḥ ʰ iː ɪ k͟h ṉ ∅ ɔ ṛ ɽ ṣ s̱ ʃ t̤ ṭ ʈ t͡ʃ uː ū ʋ ɣ ẓ z̤ ẕ ʒ'																
