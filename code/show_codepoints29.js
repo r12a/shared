@@ -553,6 +553,7 @@ function printDetailsX (char) {
         }
     // link to properties
     out += `<br><a target="_blank" href="https://util.unicode.org/UnicodeJsps/character.jsp?a=${ hex }">Properties</a>`
+    console.log(window.langTag)
     out += '</p>'
 
     // write the header info
@@ -643,6 +644,9 @@ function printDetails (char) {
         }
     // link to properties
     out += `<br><a target="_blank" href="https://util.unicode.org/UnicodeJsps/character.jsp?a=${ hex }">Properties</a>`
+
+    // add a link to the terms list
+    if (autoExpandExamples[window.langTag]) out += `<br><a target="_blank" href="${ window.langTag }_vocab.html?q=${ char }">Term list</a>`
     out += '</p>'
 
     // write the header info
