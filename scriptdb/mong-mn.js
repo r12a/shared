@@ -2,7 +2,7 @@ var spreadsheet = `mong-mn	key	khalkha ipa	ipa+	translit	Joint Sino-Mongolian	kb
 ᠊	_			_	–		Po		baseline extender				U+180A: MONGOLIAN NIRUGU		✓	
 -	-			-	-				hyphen				U+2010: HYPHEN			
 ‑	-			‑	‑		Pd		non-breaking hyphen				U+2011: NON-BREAKING HYPHEN			
-\u1806	-			–͇			Pd		soft hyphen				U+1806: MONGOLIAN TODO SOFT HYPHEN		✓	
+\u1806	-			–͇			Pd		hyphen				U+1806: MONGOLIAN TODO SOFT HYPHEN		✓	
 –	-			–	–		Pd		en dash				U+2013: EN DASH			
 —	-			—	—		Pd		em dash				U+2014: EM DASH			
 、	,			⹁	,		Po		ideographic comma				U+3001: IDEOGRAPHIC COMMA			
@@ -20,13 +20,13 @@ var spreadsheet = `mong-mn	key	khalkha ipa	ipa+	translit	Joint Sino-Mongolian	kb
 [	(			[	[		Ps		bracket				U+005B: LEFT SQUARE BRACKET			
 )	)			)	)		Pe		parenthesis				U+0029: RIGHT PARENTHESIS			
 ]	)			]	]		Pe		bracket				U+005D: RIGHT SQUARE BRACKET			
-\u180E	[			·	_		Cf		mvs				U+180E: MONGOLIAN VOWEL SEPARATOR			
-\u202F	]			-	-				nnbsp				U+202F NARROW NO-BREAK SPACE			
+\u180E	[			ᵐᵛˢ	_		Cf		mvs				U+180E: MONGOLIAN VOWEL SEPARATOR		✓	
+\u202F	]			ⁿⁿᵇˢᵖ	-		Zs		nnbsp				U+202F NARROW NO-BREAK SPACE		✓	
 %	%			%			Po		percentage mark				U+0025: PERCENT SIGN			
 ‰	%			‰			Po		per mille mark				U+2030: PER MILLE SIGN			
-\u180B	^			¹	\u0027		Mn		fvs1				U+180B: MONGOLIAN FREE VARIATION SELECTOR ONE			
-\u180C	^			²	"		Mn		fvs2				U+180C: MONGOLIAN FREE VARIATION SELECTOR TWO			
-\u180D	^			³	\u0060		Mn		fvs3				U+180D: MONGOLIAN FREE VARIATION SELECTOR THREE			
+\u180B	^			ᶠᵛˢ¹			Mn		fvs1				U+180B: MONGOLIAN FREE VARIATION SELECTOR ONE		✓	
+\u180C	^			ᶠᵛˢ²			Mn		fvs2				U+180C: MONGOLIAN FREE VARIATION SELECTOR TWO		✓	
+\u180D	^			ᶠᵛˢ³			Mn		fvs3				U+180D: MONGOLIAN FREE VARIATION SELECTOR THREE		✓	
 ᠐	±			0̣	0	0	Nd		digit				U+1810: MONGOLIAN DIGIT ZERO		✓	
 ᠑	±			1̣	1	1	Nd		digit				U+1811: MONGOLIAN DIGIT ONE		✓	
 ᠒	±			2̣	2	2	Nd		digit				U+1812: MONGOLIAN DIGIT TWO		✓	
@@ -44,8 +44,8 @@ var spreadsheet = `mong-mn	key	khalkha ipa	ipa+	translit	Joint Sino-Mongolian	kb
 “	<			“	“		Pi		quotation mark				U+201C: LEFT DOUBLE QUOTATION MARK			
 \‘	<			\‘	\‘		Pi		quotation mark				U+2018: LEFT SINGLE QUOTATION MARK			
 〔	<			[			Ps		bracket				U+3014: LEFT TORTOISE SHELL BRACKET			
-\u200C	=			ₓ			Cf		zwnj				U+200C: ZERO WIDTH NON-JOINER			
-\u200D	=			₊			Cf		zwj				U+200D: ZERO WIDTH JOINER			
+\u200C	=			ᶻʷⁿʲ			Cf		zwnj				U+200C: ZERO WIDTH NON-JOINER			
+\u200D	=			ᶻʷʲ			Cf		zwj				U+200D: ZERO WIDTH JOINER			
 \u2067	=			ʳˡⁱ			Cf		rtl isolate				U+2067: RIGHT-TO-LEFT ISOLATE			
 \u2066	=			ˡʳⁱ			Cf		ltr isolate				U+2066: LEFT-TO-RIGHT ISOLATE			
 \u2068	=			ᶠˢⁱ			Cf		first-strong isolate				U+2068: FIRST STRONG ISOLATE			
@@ -68,47 +68,47 @@ var spreadsheet = `mong-mn	key	khalkha ipa	ipa+	translit	Joint Sino-Mongolian	kb
 ᠅	|			|	«		Po		section mark				U+1805: MONGOLIAN FOUR DOTS		✓	
 																
 																
-ᠠ	a	a ə		a	a	a	Lo		vowel				U+1820: MONGOLIAN LETTER A	а	✓	ɑ
-ᠪ	b	p w		b	b	b	Lo		consonant				U+182A: MONGOLIAN LETTER BA	б	✓	b
-ᠴ	c	t͡ʃʰ t͡sʰ		č	č	q	Lo		consonant				U+1834: MONGOLIAN LETTER CHA	ч ц	✓	ʧʰ
-ᡂ	c	ɕ		ĉ	ĉ	C	Lo	l	consonant	for transliteration			U+1842: MONGOLIAN LETTER CHI	ч	✓	ʈʂʰɻ
-ᠳ	d	t tʰ		d	d	d	Lo		consonant				U+1833: MONGOLIAN LETTER DA	д	✓	d
-ᠵ	D	d͡ʒ d͡z		ǰ	ǰ	j	Lo		consonant				U+1835: MONGOLIAN LETTER JA	ж з	✓	ʤ
-ᠽ	d	ʣ		z	z		Lo	l	consonant	for transliteration			U+183D: MONGOLIAN LETTER ZA	з	✓	ʣ
-ᠡ	e	i e ə ∅		e	e	e	Lo		vowel				U+1821: MONGOLIAN LETTER E	є	✓	ə
-ᠧ	E	i e ə		ə	ë	e	Lo		vowel				U+1827: MONGOLIAN LETTER EE	э	✓	ə
+ᠠ	a	a	ə	a	a	a	Lo		vowel				U+1820: MONGOLIAN LETTER A	а	✓	ɑ
+ᠪ	b	p w̜		p	b	b	Lo		consonant				U+182A: MONGOLIAN LETTER BA	б	✓	b
+ᠴ	c	t͡sʰ t͡ʃʰ		ʦʰ	č	q	Lo		consonant				U+1834: MONGOLIAN LETTER CHA	ч ц	✓	ʧʰ
+ᡂ	c	ɕ		ɕ	ĉ	C	Lo	l	consonant	for transliteration			U+1842: MONGOLIAN LETTER CHI	ч	✓	ʈʂʰɻ
+ᠳ	d	t		t	d	d	Lo		consonant				U+1833: MONGOLIAN LETTER DA	д	✓	d
+ᠵ	D	t͡s t͡ʃ		ʦ	ǰ	j	Lo		consonant				U+1835: MONGOLIAN LETTER JA	ж з	✓	ʤ
+ᠽ	d	t͡s		ʦ̣	z		Lo	l	consonant	for transliteration			U+183D: MONGOLIAN LETTER ZA	з	✓	ʣ
+ᠡ	e	e i	ə ∅	e	e	e	Lo		vowel				U+1821: MONGOLIAN LETTER E	є	✓	ə
+ᠧ	E	i e	ə	i	ë	e	Lo		vowel				U+1827: MONGOLIAN LETTER EE	э	✓	ə
 ᠹ	f	f		f	f	f	Lo	l	consonant	for transliteration			U+1839: MONGOLIAN LETTER FA	ф	✓	f
-ᠭ	g	ɣ ɡ		g	g	g	Lo		consonant				U+182D: MONGOLIAN LETTER GA	г	✓	ɣ ɡ
+ᠭ	g	ɢ ɡ k	∅ ɣ	ɢ	g	g	Lo		consonant				U+182D: MONGOLIAN LETTER GA	г	✓	ɣ ɡ
 ᠾ	h	h		h	h	H	Lo	l	consonant	for transliteration			U+183E: MONGOLIAN LETTER HAA	х	✓	x
-ᠢ	i	i ə ∅		i	i	i	Lo		vowel				U+1822: MONGOLIAN LETTER I	и й ы ь	✓	i ɪ
+ᠢ	i	i	ə ∅	i	i	i	Lo		vowel				U+1822: MONGOLIAN LETTER I	и й ы ь	✓	i ɪ
 ᠺ	k	k		k	k	k	Lo	l	consonant	for transliteration			U+183A: MONGOLIAN LETTER KA	к	✓	k
 ᠻ	k	k		ḳ	ḳ	K	Lo	l	consonant	for transliteration			U+183B: MONGOLIAN LETTER KHA		✓	
 ᠯ	l	ɮ		l	l	l	Lo		consonant				U+182F: MONGOLIAN LETTER LA	л	✓	l
 ᡀ	l	lʰ		lʰ	lh		Lo	l	consonant	for transliteration			U+1840: MONGOLIAN LETTER LHA	лх	✓	lh
 ᠮ	m	m		m	m	m	Lo		consonant				U+182E: MONGOLIAN LETTER MA	м	✓	m
-ᠨ	n	n		n	n	n	Lo		consonant				U+1828: MONGOLIAN LETTER NA	н	✓	n ŋ
+ᠨ	n	n -ŋ		n	n	n	Lo		consonant				U+1828: MONGOLIAN LETTER NA	н	✓	n ŋ
 ᠩ	N	ŋ		ŋ	ng	N	Lo		consonant				U+1829: MONGOLIAN LETTER ANG	нг	✓	ŋ
-ᠣ	o	ɔ ə ∅		ɔ	o	W	Lo		vowel				U+1823: MONGOLIAN LETTER O	о	✓	ɔ
-ᠥ	O	o ə ∅		o	ö	o	Lo		vowel				U+1825: MONGOLIAN LETTER OE	ө	✓	o
-ᠫ	p	pʰ		p	p	p	Lo		consonant				U+182B: MONGOLIAN LETTER PA	п	✓	p
+ᠣ	o	ɔ	ə ∅	ɔ	o	W	Lo		vowel				U+1823: MONGOLIAN LETTER O	о	✓	ɔ
+ᠥ	O	o	ə ∅	o	ö	o	Lo		vowel				U+1825: MONGOLIAN LETTER OE	ө	✓	o
+ᠫ	p	pʰ		pʰ	p	p	Lo		consonant				U+182B: MONGOLIAN LETTER PA	п	✓	p
 ᠷ	r	r		r	r	r	Lo		consonant				U+1837: MONGOLIAN LETTER RA	р	✓	r
 ᠰ	s	s ʃ		s	s	s	Lo		consonant				U+1830: MONGOLIAN LETTER SA	с	✓	s ʃ
-ᠱ	S	ʃ		š	š	x	Lo		consonant				U+1831: MONGOLIAN LETTER SHA	ш	✓	ʃ
-ᠲ	t	t		t	t	t	Lo		consonant				U+1832: MONGOLIAN LETTER TA	т	✓	t
-ᠼ	t	ʦ		c	c	c	Lo	l	consonant	for transliteration			U+183C: MONGOLIAN LETTER TSA	ц	✓	ʦ
-ᠤ	u	ʊ ə ∅		ʊ	u	v	Lo		vowel				U+1824: MONGOLIAN LETTER U	у	✓	ʊ
-ᠦ	U	u ə		u	ü	u	Lo		vowel				U+1826: MONGOLIAN LETTER UE	ү	✓	u
-ᠸ	v	v		v	w		Lo	l	consonant	for transliteration			U+1838: MONGOLIAN LETTER WA	в	✓	w v
+ᠱ	S	ʃ		ʃ	š	x	Lo		consonant				U+1831: MONGOLIAN LETTER SHA	ш	✓	ʃ
+ᠲ	t	tʰ		tʰ	t	t	Lo		consonant				U+1832: MONGOLIAN LETTER TA	т	✓	t
+ᠼ	t	t͡sʰ		ʦʰ	c	c	Lo	l	consonant	for transliteration			U+183C: MONGOLIAN LETTER TSA	ц	✓	ʦ
+ᠤ	u	ʊ	ə ∅	ʊ	u	v	Lo		vowel				U+1824: MONGOLIAN LETTER U	у	✓	ʊ
+ᠦ	U	u	ə	u	ü	u	Lo		vowel				U+1826: MONGOLIAN LETTER UE	ү	✓	u
+ᠸ	v	w	v	w	w		Lo	l	consonant	for transliteration			U+1838: MONGOLIAN LETTER WA	в	✓	w v
 ᠬ	x	x		x	x	h	Lo		consonant				U+182C: MONGOLIAN LETTER QA	х	✓	x
-ᠶ	y	j		y	y	y	Lo		consonant				U+1836: MONGOLIAN LETTER YA	-й е* ё* ю* я*	✓	j
-ᠿ	z	ʐ		ž	ž		Lo	l	consonant	for transliteration			U+183F: MONGOLIAN LETTER ZRA	ж	✓	ʐ
-ᡁ	z	ʑ		ẑ	ẑ	Z	Lo	l	consonant	for transliteration			U+1841: MONGOLIAN LETTER ZHI	з	✓	ʈʂɻ
+ᠶ	y	j		j	y	y	Lo		consonant				U+1836: MONGOLIAN LETTER YA	-й е* ё* ю* я*	✓	j
+ᠿ	z	ʐ		ʐ	ž		Lo	l	consonant	for transliteration			U+183F: MONGOLIAN LETTER ZRA	ж	✓	ʐ
+ᡁ	z	ʑ		ʑ	ẑ	Z	Lo	l	consonant	for transliteration			U+1841: MONGOLIAN LETTER ZHI	з	✓	ʈʂɻ
 																
 ᡛ				ń	ń		Lo						U+185B: MONGOLIAN LETTER TODO NIA		✓	
 																
-ᢅ		–					Mn​						U+1885: MONGOLIAN LETTER ALI GALI BALUDA			
-ᢆ		–					Mn​						U+1886: MONGOLIAN LETTER ALI GALI THREE BALUDA			
-ᢩ		–					Mn​						U+18A9: MONGOLIAN LETTER ALI GALI DAGALGA			
+ᢅ		–					Mn​	i					U+1885: MONGOLIAN LETTER ALI GALI BALUDA			
+ᢆ		–					Mn​	i					U+1886: MONGOLIAN LETTER ALI GALI THREE BALUDA			
+ᢩ		–					Mn​	i					U+18A9: MONGOLIAN LETTER ALI GALI DAGALGA			
 																
 ʼ				ʼ	ʼ		Lm		apostrophe				U+02BC: MODIFIER LETTER APOSTROPHE			
 §				§	§		Po		section sign				U+00A7: SECTION SIGN			
