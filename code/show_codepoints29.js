@@ -197,9 +197,9 @@ function showNameDetails (chars, clang, base, target, panel, list, translit, ipa
     gloss = '<div class="multilineGlossedText">'
     for (t=-1;t<graphemes.length;t++) {
         if (t===-1) {
-            gloss += ` <div class="stack"><span class="rt translitGloss" lang="und-fonipa"><img src="../../shared/images/copysmall.png" onclick="copyPanelText('.translitGloss')" title="Copy the transliterated annotation." alt="Copy annotation"></span><span class="rb"><img src="../../shared/images/copysmall.png" onclick="copyPanelText('.rb')" title="Copy the base text at the top." alt="Copy base"></span>`
+            gloss += ` <div class="stack"><span class="rt translitGloss" lang="und-fonipa" title="Transliteration of the text."><img src="../../shared/images/copysmall.png" onclick="copyPanelText('.translitGloss')" title="Copy the transliteration." alt="Copy transliteration"></span><span class="rb"><img src="../../shared/images/copysmall.png" onclick="copyPanelText('.rb')" title="Copy the text." alt="Copy text"></span>`
             if (ipa !== false) {
-                if (ipa[t+1]) gloss += `<span class="rt IPAGloss" lang="und-fonipa"><img src="../../shared/images/copysmall.png" onclick="copyPanelText('.IPAGloss')" title="Copy the IPA annotation." alt="Copy annotation"></span>`
+                if (ipa[t+1]) gloss += `<span class="rt IPAGloss" lang="und-fonipa" title="IPA transcription of the text."><img src="../../shared/images/copysmall.png" onclick="copyPanelText('.IPAGloss')" title="Copy the IPA transcription." alt="Copy IPA"></span>`
                 else gloss += `<span class="rt">&nbsp;</span>`
                 }
             gloss += `</div>`
@@ -223,7 +223,7 @@ function showNameDetails (chars, clang, base, target, panel, list, translit, ipa
         
     
     // add instructions line
-	out += '<p id="advice">Click on name for details.</p>'
+	out += '<p id="advice" style="line-height:1;">Glosses show transliteration/text/IPA.<br>Click on character names below for detailed information.</p>'
 	
 	// create a list of characters
 	if (list) chars = chars.replace(/ /g,'').replace(/\u00A0/g,'') // remove spaces if list
