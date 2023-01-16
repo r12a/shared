@@ -3,7 +3,7 @@ langTag='nod'
 scriptTag='lana'
 notesLangtag='nod'
 
-explainerDir='taitham/nod'
+orthogFile='taitham/nod'  // path from /scripts to orthography notes file, eg. lana/nod
 blockDir='taitham/'
 pickerDir='lana-nod/'
 scriptSummaryTableName='nod'
