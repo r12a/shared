@@ -98,7 +98,7 @@ function getTransliteration (node) {
 function transliteratePanel (str, lang) {
 // transliterate the rb tags in the panel
 
-if (traceSet.has('transliteratePanel')) console.log('transliteratePanel(',str,lang,') AutoTranslitArray', autoTranslitArray)
+if (traceSet.has('transliteratePanel')) console.log('transliteratePanel(',str,lang,') AutoTranslitArray',lang, autoTranslitArray[lang])
 
 // exit if this isn't a full orthography page
 if (typeof autoTranslitArray === 'undefined') return
@@ -191,7 +191,10 @@ function showNameDetails (chars, clang, base, target, panel, list, translit, ipa
         transcriptions[t] = transliteratePanel(graphemes[t], clang)
         }
     
-    if (traceSet.has('showNameDetails')) console.log('graphemes: ',graphemes)
+    if (traceSet.has('showNameDetails')) {
+        console.log('graphemes: ',graphemes)
+        console.log('transcriptions: ',transcriptions)
+        }
 
 
     gloss = '<div class="multilineGlossedText">'
