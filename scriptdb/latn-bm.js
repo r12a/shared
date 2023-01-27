@@ -112,8 +112,8 @@ sh		ʃ		ŋ				l	consonant	loanword transliterations			U+0073 U+0068: LATIN SMALL
 ′				′	′		Po		prime				U+2032: PRIME	
 ″				″	″		Po		double prime				U+2033: DOUBLE PRIME	
 														
-&#x202F;				ⁿⁿᵇˢᵖ			Zs		narrow no-break space				U+202F NARROW NO-BREAK SPACE	
-														
+\u202F				ⁿⁿᵇˢᵖ			Zs		narrow no-break space				U+202F NARROW NO-BREAK SPACE	
+\'				\'			Po		apostrophe				U+0027: APOSTROPHE	
 `														
 														
 														
