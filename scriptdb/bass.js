@@ -3,8 +3,8 @@ var spreadsheet = `bass-bsq	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 .	.			.			Po		full stop					
 𖫤	¶h	h		h	h		Lo		consonant		yaayin		U+16AE4: BASSA VAH LETTER YEIN	✓
 𖫰	^	˦		¹	́		Mn		high tone mark				U+16AF0: BASSA VAH COMBINING HIGH TONE	✓
-𖫱	^	˨		²	̀		Mn		mid tone mark				U+16AF1: BASSA VAH COMBINING LOW TONE	✓
-𖫲	^	˧		³	̄		Mn		low tone mark				U+16AF2: BASSA VAH COMBINING MID TONE	✓
+𖫱	^	˨		²	̀		Mn		low tone mark				U+16AF1: BASSA VAH COMBINING LOW TONE	✓
+𖫲	^	˧		³	̄		Mn		mid tone mark				U+16AF2: BASSA VAH COMBINING MID TONE	✓
 𖫳	^	˨˧		⁴	̌		Mn		low-mid tone mark				U+16AF3: BASSA VAH COMBINING LOW-MID TONE	✓
 𖫴	^	˥˩		⁵	̂		Mn		high-low tone mark				U+16AF4: BASSA VAH COMBINING HIGH-LOW TONE	✓
 «	<			“			Pi		quotation mark				U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	punctuation
@@ -34,7 +34,7 @@ var spreadsheet = `bass-bsq	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 𖫩	o	o		o	o		Lo		vowel		oh		U+16AE9: BASSA VAH LETTER OO	✓
 𖫨	o	ɔ		ɔ	ɔ		Lo		vowel		auh		U+16AE8: BASSA VAH LETTER O	✓
 𖫥	p	p		p	p		Lo		consonant		pah		U+16AE5: BASSA VAH LETTER PA	✓
-𖫦	r	ɾ		r	r		Lo	l	consonant		uwada		U+16AE6: BASSA VAH LETTER WADDA	✓
+𖫦	r	ɾ		r	r		Lo	r	consonant		uwada		U+16AE6: BASSA VAH LETTER WADDA	✓
 𖫒	s	s		s	s		Lo		consonant		say		U+16AD2: BASSA VAH LETTER SE	✓
 𖫡	t	t		t	t		Lo		consonant		tau		U+16AE1: BASSA VAH LETTER TO	✓
 𖫪	u	u		u	u		Lo		vowel		uuh		U+16AEA: BASSA VAH LETTER U	✓
@@ -42,21 +42,6 @@ var spreadsheet = `bass-bsq	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 𖫛	w	w		w	w		Lo		consonant		wah		U+16ADB: BASSA VAH LETTER WA	✓
 𖫚	x	xʷ ħʷ		xʷ	xw		Lo		consonant		whah		U+16ADA: BASSA VAH LETTER HWAH	✓
 𖫜	z	z		z	z		Lo		consonant		zau		U+16ADC: BASSA VAH LETTER ZO	✓
-														
-\u200B							Cf		zero-width space				U+200B ZERO WIDTH SPACE	
-\u200C				ₓ			Cf		zero-width non-joiner				U+200C: ZERO WIDTH NON-JOINER	
-\u200D				₊			Cf		zero-width joiner				U+200D: ZERO WIDTH JOINER	
-\u034F				ᶜᵍʲ			Mn		combining grapheme joiner				U+034F: COMBINING GRAPHEME JOINER	
-\u2067				ʳˡⁱ			Cf		rtl isolate				U+2067: RIGHT-TO-LEFT ISOLATE	
-\u2066				ˡʳⁱ			Cf		ltr isolate				U+2066: LEFT-TO-RIGHT ISOLATE	
-\u2068				ᶠˢⁱ			Cf		first-strong isolate				U+2068: FIRST STRONG ISOLATE	
-\u2069				ᵖᵈⁱ			Cf		pop direction isolate				U+2069: POP DIRECTIONAL ISOLATE	
-\u202B				ʳˡᵉ			Cf		rtl embed				U+202B: RIGHT-TO-LEFT EMBEDDING	
-\u202A				ˡʳᵉ			Cf		ltr embed				U+202A: LEFT-TO-RIGHT EMBEDDING	
-\u202C				ᵖᵈᶠ			Cf		pop direction				U+202C: POP DIRECTIONAL FORMATTING	
-\u200F				ʳˡᵐ			Cf		rtl mark				U+200F: RIGHT-TO-LEFT MARK	
-\u200E				ˡʳᵐ			Cf		ltr mark				U+200E: LEFT-TO-RIGHT MARK	
-\u061C				ᵃˡᵐ			Cf		arabic letter mark				U+061C: ARABIC LETTER MARK	
 														
 ʼ							Lm		apostrophe				U+02BC: MODIFIER LETTER APOSTROPHE	
 ,							Po		comma				U+002C: COMMA	
@@ -83,7 +68,7 @@ var spreadsheet = `bass-bsq	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 `														
 														
 														
-latinPanel = '́ ̀ ̄ ᷅ ᵃ ᵃ̃ “ ” « » ̃ ̂ ˦ ˨ ˧ ˨˧ ˥˩ ã ɓ ɗ ɖ dʲ ẽ ᵉ ᵉ̃ ɛ ɛ̃ ᵋ ᵋ̃ ɡ ɡ͡b ħʷ hʷ ĩ ɟ k͡p kᵖ ɲ õ ᵒ ᵒ̃ ɔ ɔ̃ ɾ ũ ᵘ ᵘ̃ xʷ'														
+latinPanel = '́ ̀ ̄ ᷅ ᵃ ᵃ̃ “ ” « » ̃ ̂ ˦ ˨ ˧ ˨˧ ˥˩ ã ɓ ɗ ɖ dʲ ẽ ᵉ ᵉ̃ ɛ ɛ̃ ᵋ ᵋ̃ ɡ ɡ͡b ħʷ hʷ ĩ ɟ k͡p kᵖ ɲ õ ᵒ ᵒ̃ ɔ ɔ̃ ɾ ũ ᵘ ᵘ̃ xʷ á ā à ǎ â í ī ì ǐ î ú ū ù ǔ û é ē è ě ê ɛ́ ɛ̄ ɛ̀ ɛ̌ ɛ̂ á ō ò ǒ ô ɔ́ ɔ̄ ɔ̀ ɔ̌ ɔ̂'														
 														
 														
 														
