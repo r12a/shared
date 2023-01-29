@@ -351,6 +351,7 @@ function copyPanelText (type) {
     var text = document.getElementById('ruby').querySelectorAll(type)
     var out = ''
     for (var i=0;i<text.length;i++) out += text[i].textContent
+    if (type === '.IPAGloss') out = out.replace(/–/g,'').replace(/‹/g,'').replace(/›/g,'')
 	var node = document.getElementById('panelCopyField')
     node.value = out
 	node.focus()
