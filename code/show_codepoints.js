@@ -199,12 +199,14 @@ function showNameDetails (chars, clang, base, target, panel, list, translit, ipa
 
 
     // draw the glosses
+    if (location.toString().includes('picker')) var iconURL = '../../scripts/common29/icons/copytiny.svg'
+    else iconURL = '../common29/icons/copytiny.svg'
     gloss = '<div class="multilineGlossedText">'
     for (t=-1;t<graphemes.length;t++) {
         if (t===-1) {
-            gloss += `<div class="stack"><span class="rt translitGloss" lang="und-fonipa" title="Transliteration of the text."><img src="../common29/icons/copytiny.svg" onclick="copyPanelText('.translitGloss')" title="Copy the transliteration." alt="Copy transliteration"></span><span class="rb"><img src="../common29/icons/copytiny.svg" onclick="copyPanelText('.rb')" title="Copy the text." alt="Copy text"></span>`
+            gloss += `<div class="stack"><span class="rt translitGloss" lang="und-fonipa" title="Transliteration of the text."><img src="${ iconURL }" class="copyIcon" onclick="copyPanelText('.translitGloss')" title="Copy the transliteration." alt="Copy transliteration"></span><span class="rb"><img src="${ iconURL }" onclick="copyPanelText('.rb')" title="Copy the text." alt="Copy text"></span>`
             if (ipa !== false) {
-                if (ipa[t+1]) gloss += `<span class="rt IPAGloss" lang="und-fonipa" title="IPA transcription of the text."><img src="../common29/icons/copytiny.svg" onclick="copyPanelText('.IPAGloss')" title="Copy the IPA transcription." alt="Copy IPA"></span>`
+                if (ipa[t+1]) gloss += `<span class="rt IPAGloss" lang="und-fonipa" title="IPA transcription of the text."><img src="${ iconURL }" onclick="copyPanelText('.IPAGloss')" title="Copy the IPA transcription." alt="Copy IPA"></span>`
                 else gloss += `<span class="rt">&nbsp;</span>`
                 }
             gloss += `</div>`
