@@ -77,6 +77,7 @@ var spreadsheet = `cans-crk	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᐅ	o	ʊ		o	o		Lo		syllable				U+1405: CANADIAN SYLLABICS O	✓
 ᐆ	O	oː		ō	ō		Lo		syllable				U+1406: CANADIAN SYLLABICS OO	✓
 ᑊ	p	p		p	p		Lo		final consonant				U+144A: CANADIAN SYLLABICS WEST-CREE P	✓
+ᑉ	p	p		p̣	p		Lo		final consonant				U+1449: CANADIAN SYLLABICS P	
 ᐯ	p	peː		pᵉ	pe		Lo		syllable				U+142F: CANADIAN SYLLABICS PE	✓
 ᐱ	p	pɪ		pⁱ	pi		Lo		syllable				U+1431: CANADIAN SYLLABICS PI	✓
 ᐲ	p	piː		pⁱ̠	pī		Lo		syllable				U+1432: CANADIAN SYLLABICS PII	✓
