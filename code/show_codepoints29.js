@@ -98,7 +98,7 @@ function getTransliteration (node) {
 function transliteratePanel (str, lang) {
 // transliterate the rb tags in the panel
 
-if (traceSet.has('transliteratePanel')) console.log('transliteratePanel(',str,lang,') AutoTranslitArray', autoTranslitArray)
+if (traceSet.has('transliteratePanel')) console.log('transliteratePanel(',str,lang,') AutoTranslitArray',lang, autoTranslitArray[lang])
 
 // exit if this isn't a full orthography page
 if (typeof autoTranslitArray === 'undefined') return
@@ -191,15 +191,22 @@ function showNameDetails (chars, clang, base, target, panel, list, translit, ipa
         transcriptions[t] = transliteratePanel(graphemes[t], clang)
         }
     
-    if (traceSet.has('showNameDetails')) console.log('graphemes: ',graphemes)
+    if (traceSet.has('showNameDetails')) {
+        console.log('graphemes: ',graphemes)
+        console.log('transcriptions: ',transcriptions)
+        console.log('ipa: ',ipa)
+        }
 
 
+    // draw the glosses
+    if (location.toString().includes('picker')) var iconURL = '../../scripts/common29/icons/copytiny.svg'
+    else iconURL = '../common29/icons/copytiny.svg'
     gloss = '<div class="multilineGlossedText">'
     for (t=-1;t<graphemes.length;t++) {
         if (t===-1) {
-            gloss += ` <div class="stack"><span class="rt translitGloss" lang="und-fonipa" title="Transliteration of the text."><img src="../../shared/images/copysmall.png" onclick="copyPanelText('.translitGloss')" title="Copy the transliteration." alt="Copy transliteration"></span><span class="rb"><img src="../../shared/images/copysmall.png" onclick="copyPanelText('.rb')" title="Copy the text." alt="Copy text"></span>`
+            gloss += `<div class="stack"><span class="rt translitGloss" lang="und-fonipa" title="Transliteration of the text."><img src="${ iconURL }" class="copyIcon" onclick="copyPanelText('.translitGloss')" title="Copy the transliteration." alt="Copy transliteration"></span><span class="rb"><img src="${ iconURL }" onclick="copyPanelText('.rb')" title="Copy the text." alt="Copy text"></span>`
             if (ipa !== false) {
-                if (ipa[t+1]) gloss += `<span class="rt IPAGloss" lang="und-fonipa" title="IPA transcription of the text."><img src="../../shared/images/copysmall.png" onclick="copyPanelText('.IPAGloss')" title="Copy the IPA transcription." alt="Copy IPA"></span>`
+                if (ipa[t+1]) gloss += `<span class="rt IPAGloss" lang="und-fonipa" title="IPA transcription of the text."><img src="${ iconURL }" onclick="copyPanelText('.IPAGloss')" title="Copy the IPA transcription." alt="Copy IPA"></span>`
                 else gloss += `<span class="rt">&nbsp;</span>`
                 }
             gloss += `</div>`
@@ -223,7 +230,7 @@ function showNameDetails (chars, clang, base, target, panel, list, translit, ipa
         
     
     // add instructions line
-	out += '<p id="advice" style="line-height:1;">Glosses show transliteration/text/IPA.<br>Click on character names below for detailed information.</p>'
+	out += '<p id="advice" style="line-height:1;">Glosse lines are transliteration/text/IPA.<br>Click on character names below for detailed information.</p>'
 	
 	// create a list of characters
 	if (list) chars = chars.replace(/ /g,'').replace(/\u00A0/g,'') // remove spaces if list
@@ -346,6 +353,7 @@ function copyPanelText (type) {
     var text = document.getElementById('ruby').querySelectorAll(type)
     var out = ''
     for (var i=0;i<text.length;i++) out += text[i].textContent
+    if (type === '.IPAGloss') out = out.replace(/–/g,'').replace(/‹/g,'').replace(/›/g,'')
 	var node = document.getElementById('panelCopyField')
     node.value = out
 	node.focus()
