@@ -28,6 +28,7 @@ var scriptGroups = [
 [2144,2159,"Syriac Supplement","syrc",""],
 [2160,2207,"Arabic Extended-B","arab",""],
 [2208,2303,"Arabic Extended-A","arab", "arab"],
+[2304,2431,"Devanagari","deva", "deva"],
 [2432,2559,"Bengali","beng", "beng"],
 [2560,2687,"Gurmukhi","guru", "guru"],
 [2688,2815,"Gujarati","gujr","gujr"],
