@@ -129,16 +129,13 @@ var spreadsheet = `nkoo-nqo	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ߖ߳	Z	zˤ		ʤˑ	ƶ		s		fricative	ظ non-native			U+07D6 U+07F3: NKO LETTER JA, COMBINING DOUBLE DOT ABOVE	
 														
 														
-ߨ		d͡ʒ		ʤ̄			Lo		consonant	archaic			U+07E8: NKO LETTER JONA JA	✓
-ߩ		t͡ʃ		ʧ̄			Lo		consonant	archaic			U+07E9: NKO LETTER JONA CHA	✓
-ߪ		r rː		r̄			Lo		consonant	archaic			U+07EA: NKO LETTER JONA RA	✓
+ߨ		d͡ʒ		ʤ̄			Lo	a	consonant	archaic			U+07E8: NKO LETTER JONA JA	✓
+ߩ		t͡ʃ		ʧ̄			Lo	a	consonant	archaic			U+07E9: NKO LETTER JONA CHA	✓
+ߪ		r rː		r̄			Lo	a	consonant	archaic			U+07EA: NKO LETTER JONA RA	✓
 														
 `														
 														
-														
 latinPanel = '́ ̀ ̌ ̂ ̃ á à ã ǎ ɛ ɛ́ ɛ̀ ɛ̃ é è ẽ í ì ĩ ɔ ɔ́ ɔ̀ ɔ̃ ó ò õ ú ù ũ bʰ d͡ʒ dʰ dˤ ᵭ ð ǝ ɡ͡b ħ ḥ ł lʰ mʰ ɲ n̩ ŋ ñ nʰ θ rː ʀ sˤ ᵴ ʃ t͡ʃ tˤ ᵵ ɣ yʰ ʒ zˤ ƶ ʕ ’'														
-														
-														
 														
 var cols = {														
 key: 1,														
@@ -159,4 +156,3 @@ block: 14,
 														
 othertranscriptions: [[5, 'Latin']]														
 }														
-														
