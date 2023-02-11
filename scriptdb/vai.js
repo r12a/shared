@@ -22,16 +22,16 @@ var spreadsheet = `vaii	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage
 ]	)	)		]	]		Pe		bracket				U+005D: RIGHT SQUARE BRACKET	
 %	%			%			Po		percentage mark				U+0025: PERCENT SIGN	
 ‰	%			‰			Po		per mille mark				U+2030: PER MILLE SIGN	
-0	±	0		0̣	0		Nd	u	digit				U+A620: VAI DIGIT ZERO	✓
-1	±	1		1̣	1		Nd	u	digit				U+A621: VAI DIGIT ONE	✓
-2	±	2		2̣	2		Nd	u	digit				U+A622: VAI DIGIT TWO	✓
-3	±	3		3̣	3		Nd	u	digit				U+A623: VAI DIGIT THREE	✓
-4	±	4		4̣	4		Nd	u	digit				U+A624: VAI DIGIT FOUR	✓
-5	±	5		5̣	5		Nd	u	digit				U+A625: VAI DIGIT FIVE	✓
-6	±	6		6̣	6		Nd	u	digit				U+A626: VAI DIGIT SIX	✓
-7	±	7		7̣	7		Nd	u	digit				U+A627: VAI DIGIT SEVEN	✓
-8	±	8		8̣	8		Nd	u	digit				U+A628: VAI DIGIT EIGHT	✓
-9	±	9		9̣	9		Nd	u	digit				U+A629: VAI DIGIT NINE	✓
+꘠	±	0		0̣	0		Nd	u	digit				U+A620: VAI DIGIT ZERO	✓
+꘡	±	1		1̣	1		Nd	u	digit				U+A621: VAI DIGIT ONE	✓
+꘢	±	2		2̣	2		Nd	u	digit				U+A622: VAI DIGIT TWO	✓
+꘣	±	3		3̣	3		Nd	u	digit				U+A623: VAI DIGIT THREE	✓
+꘤	±	4		4̣	4		Nd	u	digit				U+A624: VAI DIGIT FOUR	✓
+꘥	±	5		5̣	5		Nd	u	digit				U+A625: VAI DIGIT FIVE	✓
+꘦	±	6		6̣	6		Nd	u	digit				U+A626: VAI DIGIT SIX	✓
+꘧	±	7		7̣	7		Nd	u	digit				U+A627: VAI DIGIT SEVEN	✓
+꘨	±	8		8̣	8		Nd	u	digit				U+A628: VAI DIGIT EIGHT	✓
+꘩	±	9		9̣	9		Nd	u	digit				U+A629: VAI DIGIT NINE	✓
 «	<			«	“		Pi		quotation mark				U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
 ‹	<			‹	\‘		Pi		quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	
 “	<			“	“		Pi		quotation mark				U+201C: LEFT DOUBLE QUOTATION MARK	
@@ -347,10 +347,8 @@ var spreadsheet = `vaii	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage
 														
 latinPanel = ' ́ ̀ ̂ ̌ “ ‘ ” ’ « » Ɓ Ɗ Ɛ Ŋ Ɔ ã à á â ǎ ɓ ɗ d͡ʒ ð ẽ è é ê ě ɛ ɛ̃ ɛ́ ɛ̀ ĩ ì í ŋ ɲ ŋ̇ õ ò ó ô ǒ ɔ ɔ̃ ɔ̀ ɔ́ θ ʃ t͡ʃ ũ̃ ù ú ʒ k͡p ɡ͡b ᵐɓ ᵐɡ͡b ⁿɗ ᶮd͡ʒ ᵑɡ'														
 														
-vowelsInSyllables = ['i', 'ĩ', 'u', 'ũ', 'e', 'o', 'ɛ', 'ɛ̃', 'ɔ', 'ɔ̃', 'a', 'ã']
+vowelsInSyllables = ['i', 'ĩ', 'u', 'ũ', 'e', 'o', 'ɛ', 'ɛ̃', 'ɔ', 'ɔ̃', 'a', 'ã']														
 														
-
-
 var cols = {														
 key: 1,														
 ipaLoc: 2,														

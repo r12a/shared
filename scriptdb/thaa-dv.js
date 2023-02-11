@@ -14,14 +14,14 @@ var spreadsheet = `thaa-dv	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ]	)			]	]		Pe		bracket				U+005D: RIGHT SQUARE BRACKET	
 														
 އ	{	∅		ʿ		j	Lo		vowel support		އަލިފު	alifu	U+0787: THAANA LETTER ALIFU	✓
-ޢ	{	ع		ʕ	ʻ	J	Lo		arabic consonant		ޢައިނު	aïnu	U+07A2: THAANA LETTER AINU	✓
+ޢ	{	ʕ		ʕ	ʻ	J	Lo		arabic consonant	ع	ޢައިނު	aïnu	U+07A2: THAANA LETTER AINU	✓
 ް	*	∅		͓		d	Mn		vowel killer		ސުކުނ	sukun	U+07B0: THAANA SUKUN	✓
 ބ	b	b		b	b	m	Lo		consonant		ބާ	baa	U+0784: THAANA LETTER BAA	✓
-ޗ	c	c		c	ch	V	Lo		consonant		ޗަވިޔަނި	chaviyani	U+0797: THAANA LETTER CHAVIYANI	✓
+ޗ	c	t͡ʃ		c	ch	V	Lo		consonant		ޗަވިޔަނި	chaviyani	U+0797: THAANA LETTER CHAVIYANI	✓
 ދ	d	d		d	dh	n	Lo		consonant		ދާލު	dhaalu	U+078B: THAANA LETTER DHAALU	✓
 ޑ	d	ɖ		ɖ	d	x	Lo		consonant		ޑަވިޔަނި	daviyani	U+0791: THAANA LETTER DAVIYANI	✓
-ޛ	D	ذ		ð	ḏ	N	Lo		arabic consonant		ޛާލު	thaalu	U+079B: THAANA LETTER THAALU	✓
-ޟ	D	ض		d̴	d̤	B	Lo		arabic consonant		ޟާޑު	daadhu	U+079F: THAANA LETTER DAADHU	✓
+ޛ	D	ð		ð	ḏ	N	Lo		arabic consonant	ذ	ޛާލު	thaalu	U+079B: THAANA LETTER THAALU	✓
+ޟ	D	d̴		d̴	d̤	B	Lo		arabic consonant	ض	ޟާޑު	daadhu	U+079F: THAANA LETTER DAADHU	✓
 ަ	e	ə		ə	a	f	Mn		vowel		އަބަ ފިލި	aba fili	U+07A6: THAANA ABAFILI	✓
 ާ	e	əː		ə̄	aa	e	Mn		vowel		އާބާ ފިލި	aabaa fili	U+07A7: THAANA AABAAFILI	✓
 ެ	e	e		e	e	g	Mn		vowel		އެބެެ ފިލި	ebe fili	U+07AC: THAANA EBEFILI	✓
@@ -29,40 +29,40 @@ var spreadsheet = `thaa-dv	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ފ	f	f		f	f	;	Lo		consonant		ފާފު	faafu	U+078A: THAANA LETTER FAAFU	✓
 ގ	g	ɡ		g	g	y	Lo		consonant		ގާފު	gaafu	U+078E: THAANA LETTER GAAFU	✓
 ހ	h	h		h	h	p	Lo		consonant		ހާ	haa	U+0780: THAANA LETTER HAA	✓
-ޙ	H	ح		ħ	ḥ	O	Lo		arabic consonant		ޙާ	hhaa	U+0799: THAANA LETTER HHAA	✓
+ޙ	H	ħ		ħ	ḥ	O	Lo		arabic consonant	ح	ޙާ	hhaa	U+0799: THAANA LETTER HHAA	✓
 ި	i	i		i	i	a	Mn		vowel		އިބި ފިލި	ibi fili	U+07A8: THAANA IBIFILI	✓
 ީ	i	iː		ī	ee	r	Mn		vowel		އީބީ ފިލި	eebee fili	U+07A9: THAANA EEBEEFILI	✓
-ޖ	j	ɟ		ɟ	j	Z	Lo		consonant		ޖަވިޔަނި	javiyani	U+0796: THAANA LETTER JAVIYANI	✓
+ޖ	j	d͡ʒ		ɟ	j	Z	Lo		consonant		ޖަވިޔަނި	javiyani	U+0796: THAANA LETTER JAVIYANI	✓
 ކ	k	k		k	k	l	Lo		consonant		ކާފު	kaafu	U+0786: THAANA LETTER KAAFU	✓
 ޅ	l	ɭ		ɭ	lh	b	Lo		consonant		ޅަވިޔަނި	lhaviyani	U+0785: THAANA LETTER LHAVIYANI	✓
 ލ	l	l		l	l	[	Lo		consonant		ލާމު	laamu	U+078D: THAANA LETTER LAAMU	✓
 މ	m	m		m	m	i	Lo		consonant		މީމު	meemu	U+0789: THAANA LETTER MEEMU	✓
 ނ	n	n		n	n	k	Lo		consonant		ނޫނު	noonu	U+0782: THAANA LETTER NOONU	✓
 ޏ	n	ɲ		ɲ	gn	C	Lo		consonant		ޏަވިޔަނި	gnaviyani	U+078F: THAANA LETTER GNAVIYANI	✓
-ޱ	N	ɳ		ɳ	ṇ		Lo		arabic consonant		ޱަވިޔަނަ	naviyani	U+07B1: THAANA LETTER NAA	✓
-ޮ	o	ɔ		o	oo	w	Mn		vowel		އޮބޮ ފިލި	obo fili	U+07AE: THAANA OBOFILI	✓
-ޯ	o	ɔː		ō	oa	/	Mn		vowel		އޯބޯ ފިލި	oaboa fili	U+07AF: THAANA OABOAFILI	✓
+ޱ	N	ɳ		ɳ	ṇ		Lo	a	obsolete consonant		ޱަވިޔަނަ	naviyani	U+07B1: THAANA LETTER NAA	✓
+ޮ	o	ɔ o		o	oo	w	Mn		vowel		އޮބޮ ފިލި	obo fili	U+07AE: THAANA OBOFILI	✓
+ޯ	o	ɔː oː		ō	oa	/	Mn		vowel		އޯބޯ ފިލި	oaboa fili	U+07AF: THAANA OABOAFILI	✓
 ޕ	p	p		p	p	X	Lo		consonant		ޕަވިޔަނި	paviyani	U+0795: THAANA LETTER PAVIYANI	✓
-ޘ	Q	ث		θ	ṯ	K	Lo		arabic consonant		ޘާ	ttaa	U+0798: THAANA LETTER TTAA	✓
-ޤ	Q	ق		q	q	T	Lo		arabic consonant		ޤާފު	qaafu	U+07A4: THAANA LETTER QAAFU	✓
+ޘ	Q	θ		θ	ṯ	K	Lo		arabic consonant	ث	ޘާ	ttaa	U+0798: THAANA LETTER TTAA	✓
+ޤ	Q	q		q	q	T	Lo		arabic consonant	ق	ޤާފު	qaafu	U+07A4: THAANA LETTER QAAFU	✓
 ރ	r	r		r	r	u	Lo		consonant		ރާ	raa	U+0783: THAANA LETTER RAA	✓
 ށ	s	ʂ		ʂ	sh	,	Lo		consonant		ށަވިޔަނަ	shaviyana	U+0781: THAANA LETTER SHAVIYANI	✓
 ސ	s	s		s	s	c	Lo		consonant		ސީނު	seenu	U+0790: THAANA LETTER SEENU	✓
-ޝ	S	ش		ʃ	š	M	Lo		arabic consonant		ޝީނު	sheenu	U+079D: THAANA LETTER SHEENU	✓
-ޞ	S	ص		s̴	ṣ	>	Lo		arabic consonant		ޞާޑު	saadhu	U+079E: THAANA LETTER SAADHU	✓
+ޝ	S	ʃ		ʃ	š	M	Lo		arabic consonant	ش	ޝީނު	sheenu	U+079D: THAANA LETTER SHEENU	✓
+ޞ	S	s̴		s̴	ṣ	>	Lo		arabic consonant	ص	ޞާޑު	saadhu	U+079E: THAANA LETTER SAADHU	✓
 ތ	t	t		t	th	o	Lo		consonant		ތާ	thaa	U+078C: THAANA LETTER THAA	✓
 ޓ	t	ʈ		ʈ	t	.	Lo		consonant		ޓަވިޔަނި	taviyani	U+0793: THAANA LETTER TAVIYANI	✓
-ޠ	T	ط		t̴	t̤	I	Lo		arabic consonant		ޓޮ	to	U+07A0: THAANA LETTER TO	✓
+ޠ	T	t̴		t̴	t̤	I	Lo		arabic consonant	ط	ޓޮ	to	U+07A0: THAANA LETTER TO	✓
 ު	u	u		u	u	s	Mn		vowel		އުބު ފިލި	ubu fili	U+07AA: THAANA UBUFILI	✓
 ޫ	u	uː		ū	oo	q	Mn		vowel		އޫބޫ ފިލި	ooboo fili	U+07AB: THAANA OOBOOFILI	✓
-ވ	v	v		v	v	h	Lo		consonant		ވާވު	vaavu	U+0788: THAANA LETTER VAAVU	✓
-ޥ	W	و		w	w	H	Lo		arabic consonant		ޥާވު	waavu	U+07A5: THAANA LETTER WAAVU	✓
-ޚ	X	خ		x	ḫ	L	Lo		arabic consonant		ޚާ	khaa	U+079A: THAANA LETTER KHAA	✓
+ވ	v	ʋ		v	v	h	Lo		consonant		ވާވު	vaavu	U+0788: THAANA LETTER VAAVU	✓
+ޥ	W	w		w	w	H	Lo		arabic consonant	و	ޥާވު	waavu	U+07A5: THAANA LETTER WAAVU	✓
+ޚ	X	x		x	ḫ	L	Lo		arabic consonant	خ	ޚާ	khaa	U+079A: THAANA LETTER KHAA	✓
 ޔ	y	j		y	y	v	Lo		consonant		ޔަވިޔަނި	yaviyani	U+0794: THAANA LETTER YAA	✓
-ޣ	Y	غ		ɣ	ǵ	U	Lo		arabic consonant		ޣައިނު	ghaïnu	U+07A3: THAANA LETTER GHAINU	✓
+ޣ	Y	ɣ		ɣ	ǵ	U	Lo		arabic consonant	غ	ޣައިނު	ghaïnu	U+07A3: THAANA LETTER GHAINU	✓
 ޒ	z	z		z	z	z	Lo		consonant		ޒަވިޔަނި	zaviyani	U+0792: THAANA LETTER ZAVIYANI	✓
-ޜ	Z	ʒ		ʒ		Y	Lo		arabic consonant		ޜާ	zaa	U+079C: THAANA LETTER ZAA	✓
-ޡ	Z	ظ		z̴		:	Lo		arabic consonant		ޡޮ	zo	U+07A1: THAANA LETTER ZO	✓
+ޜ	Z	ʒ		ʒ		Y	Lo		english consonant	ʒ	ޜާ	zaa	U+079C: THAANA LETTER ZAA	✓
+ޡ	Z	z̴		z̴		:	Lo		arabic consonant	ظ	ޡޮ	zo	U+07A1: THAANA LETTER ZO	✓
 														
 /				–		E	Po						U+002F: SOLIDUS	
 :				–		R	Po						U+003A: COLON	
@@ -75,14 +75,9 @@ var spreadsheet = `thaa-dv	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ;				–			Po						U+003B: SEMICOLON	
 \				–		<	Po						U+005C: REVERSE SOLIDUS	
 ؟				–		|	Po						U+061F: ARABIC QUESTION MARK	
-														
-														
 `														
 														
-														
-latinPanel = 'ɖ ḏ d̤ ə əː eː ǵ ḥ ḫ iː ɟ ɲ ṇ ∅ ɔ ɔː ʂ š ṣ ṯ t̤ uː ʻ ʒ'														
-														
-														
+latinPanel = 'ɖ ḏ d̤ ə əː eː ɡ ǵ ḥ ḫ ħ iː ɟ ɲ ṇ ∅ ɔ ɔː ʂ š ṣ ʃ ṯ t̤ t͡ʃ d͡ʒ uː ʋ ʻ ʒ z̴ ɣ t̴ θ ð d̴ ʕ ʔ'														
 														
 var cols = {														
 key: 1,														
@@ -103,5 +98,3 @@ block: 14,
 														
 othertranscriptions: [[5, 'Maldivian Latin']]														
 }														
-														
-														
