@@ -134,7 +134,7 @@ var scriptGroups = [
 [42240,42559,"Vai","vaii","42240:42539","vai"],
 [42560,42655,"Cyrillic Extended-B","cyrl","", "cyrillic"],
 [42656,42751,"Bamum","bamu","bamu"],
-[42752,42783,"Modifier Tone Letters","",""],
+[42752,42783,"Modifier Tone Letters","","",true],
 [42784,43007,"Latin Extended-D","latn",""],
 [43008,43055,"Syloti Nagri","sylo",""],
 [43056,43071,"Common Indic Number Forms","",""],
