@@ -142,7 +142,7 @@ var scriptGroups = [
 [43136,43231,"Saurashtra","saur",""],
 [43232,43263,"Devanagari Extended","deva",""],
 [43264,43311,"Kayah Li","kali","kali"],
-[43312,43359,"Rejang","rjng",""],
+[43312,43359,"Rejang","rjng","",true],
 [43360,43391,"Hangul Jamo Extended-A","hang",""],
 [43392,43487,"Javanese","java", "java",false],
 [43488,43519,"Myanmar Extended-B","mymr",""],
