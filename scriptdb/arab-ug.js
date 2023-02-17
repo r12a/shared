@@ -84,18 +84,15 @@ var spreadsheet = `arab-ug	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 																
 لا				–		L								U+0644 U+0627: ARABIC LETTER LAM, LETTER ALEF		
 																
-																
 ʼ				ʼ	ʼ		Lm		apostrophe					U+02BC: MODIFIER LETTER APOSTROPHE		
 §				§	§		Po		section sign					U+00A7: SECTION SIGN		
 †				†	†		Po		dagger					U+2020: DAGGER		
 ‡				‡	‡		Po		double dagger					U+2021: DOUBLE DAGGER		
 ′				′	′		Po		prime					U+2032: PRIME		
 ″				″	″		Po		double prime					U+2033: DOUBLE PRIME		
-																
 `																
 																
-latinPanel = 'æ ɑ ʤ ɛ ë ɨ ŋ ɔ ø ö ʁ ʃ ʧ ʊ ü χ ʒ'																
-																
+latinPanel = 'æ ɑ d͡ʒ ɛ ë ɨ ŋ ɔ ø ö ʁ ʃ t͡ʃ ʊ ü χ ʒ'																
 																
 var cols = {																
 key: 1,																
@@ -118,4 +115,3 @@ block: 16,
 																
 othertranscriptions: [[5, 'ULY'], [15, 'USY']]																
 }																
-																
