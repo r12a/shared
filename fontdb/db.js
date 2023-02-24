@@ -356,6 +356,8 @@ var fontDB = [
 { name:"Noto Sans Lepcha",	system:new Set([goog]), locales:new Set(['lepc']), style:'sans' },
 { name:"Noto Sans Linear B",system:new Set([goog]), locales:new Set(['linb']), style:'sans' },
 { name:"Noto Sans Lisu",	system:new Set([goog]), locales:new Set(['lisu']), style:'sans' },
+{ name:"Lisu Bosa",	system:new Set([sil]), locales:new Set(['lisu']), style:'sans' },
+{ name:"Lisu Bosa Lolo",	system:new Set([sil]), locales:new Set(['lisu']), style:'sans' },
 { name:"Noto Sans Lycian",	system:new Set([goog]), locales:new Set(['lyci']), style:'sans' },
 { name:"Noto Sans Lydian",	system:new Set([goog]), locales:new Set(['lydi']), style:'sans' },
 { name:"Noto Sans Mahajani",system:new Set([goog]), locales:new Set(['mahj']), style:'sans' },
@@ -494,6 +496,7 @@ var fontDB = [
 /* kano */
 { name:"Alkalami",			system:new Set([sil]), locales:new Set(['arab','arab-afr', 'arab-ha']), style:'kano' },
 { name:"Alkalami Light",	system:new Set([sil]), locales:new Set(['arab','arab-afr', 'arab-ha']), style:'kano' },
+{ name:"Ruwudu",			system:new Set([sil]), locales:new Set(['arab','arab-afr', 'arab-ha']), style:'kano' },
 
 /* kufi */
 { name:"Andalus",			system:new Set([win]), locales:new Set(['arab', 'arab-arb', 'arab-arb', 'arab-fa']), style:'kufi', wd:true },
