@@ -214,6 +214,7 @@ var scriptGroups = [
 [68608,68687,"Old Turkic","orhk",""],
 [68736,68863,"Old Hungarian","hung",""],
 [68864,68927,"Hanifi Rohingya","rohg","rohg"],
+[68928,69007,"Garay","gara","gara"],
 [69216,69247,"Rumi Numeral Symbols","",""],
 [69248,69311,"Yezidi","yezi",""],
 [69312,69375,"Arabic Extended-C","arab","",false],
