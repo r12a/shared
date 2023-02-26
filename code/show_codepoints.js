@@ -134,7 +134,7 @@ return str.trim()
 
 
 
-function showNameDetails (chars, clang, base, target, panel, list, translit, ipa) {
+function showNameDetailsX (chars, clang, base, target, panel, list, translit, ipa) {
     if (traceSet.has('showNameDetails')) console.log('showNameDetails (',chars, clang, base, target, panel, list, translit, ipa,')\n\tGet the list of characters for an example and display their names')
     // called by onclick created by shownames_setOnclick & shownames_setImgOnclick & listAll
     // chars (string), alt text of example
@@ -336,11 +336,286 @@ function showNameDetails (chars, clang, base, target, panel, list, translit, ipa
 	}
 
 
-function copyPanelList () {
+
+
+
+
+
+
+
+
+function showNameDetails (chars, clang, base, target, panel, list, translit, ipa) {
+    if (traceSet.has('showNameDetails')) console.log('showNameDetails (',chars, clang, base, target, panel, list, translit, ipa,')\n\tGet the list of characters for an example and display their names')
+    // called by onclick created by shownames_setOnclick & shownames_setImgOnclick & listAll
+    // chars (string), alt text of example
+    // clang (string), lang attribute value of example img
+    // base (string), path for link to character detail
+    // target (string), name of the window to display results in, usually 'c' or ''; given the latter, link goes to same window
+    // list (string), if not null, indicates that spaces and nbsp should be ignored
+    // local out charArray chardiv charimg thename thelink hex dec blockname blockfile c
+    // global charData pickerDir
+    // calls getScriptGroup
+
+    // to show per-grapheme ipa the ipa transcriptions should have § as grapheme separator (and syllables should be separated by '.'). Unpronounced segments are represented by – (en hyphen).  Monosyllabic words don't need any extra stuff.
+    // កន្ត្រៃ|scissors|kɑː§n.§t§raj§–
+
+    // locals
+    var dir, characterList, graphemes, ptr, transcriptions, gloss, charArray
+	var chardiv, charimg, thename, thelink, hex, dec, blockname, blockfile
+
+	// check whether the calling page has set a base and target window: if not base, point to UniView
+	if(typeof base === 'undefined' || base === '') { base = '../../uniview/index.html?char=' }
+	if(typeof target === 'undefined') { target = 'c' }
+	if(typeof list === 'undefined') { list = null }
+	if(typeof translit === 'undefined') { translit = '' }
+	  
+	// clear and show the panel
+	panel.innerHTML = ''
+	panel.style.display = 'block'
+    dir = ''
+    if (typeof window.direction === 'string') dir = window.direction
+    else if (typeof template !== 'undefined' && typeof template.direction === 'string') dir = template.direction
+    
+    
+	var out = '<div id="ruby">'
+	
+    // get any IPA data provided - should be pre-separated for graphemes by §
+    if (typeof ipa === 'string' && ipa !== '') ipa = ipa.split('§')
+    else ipa = false
+    
+    
+	// add the example to the panel as a title
+    characterList = [...chars]
+    graphemes = []
+    ptr = -1
+    for (var c=0;c<characterList.length;c++) {
+        if (window.marks && window.marks.has(characterList[c]) && c !== 0) graphemes[ptr] += characterList[c]
+        else {
+            ptr++
+            graphemes[ptr] = characterList[c]
+            }
+        }
+
+    transcriptions = []
+    for (var t=0;t<graphemes.length;t++) {
+        transcriptions[t] = transliteratePanel(graphemes[t], clang)
+        }
+    
+    if (traceSet.has('showNameDetails')) {
+        console.log('graphemes: ',graphemes)
+        console.log('transcriptions: ',transcriptions)
+        console.log('ipa: ',ipa)
+        }
+
+
+    // draw the glosses
+    if (location.toString().includes('picker')) var iconURL = '../../scripts/common29/icons/copytiny.svg'
+    else iconURL = '../common29/icons/copytiny.svg'
+    gloss = '<div class="multilineGlossedText">'
+    for (t=-1;t<graphemes.length;t++) {
+        if (t===-1) {
+            gloss += `<div class="stack"><span class="rt translitGloss" lang="und-fonipa" title="Transliteration of the text."><img src="${ iconURL }" class="copyIcon" onclick="copyPanelText('.translitGloss')" title="Copy the transliteration." alt="Copy transliteration"></span><span class="rb"><img src="${ iconURL }" onclick="copyPanelText('.rb')" title="Copy the text." alt="Copy text"></span>`
+            if (ipa !== false) {
+                if (ipa[t+1]) gloss += `<span class="rt IPAGloss" lang="und-fonipa" title="IPA transcription of the text."><img src="${ iconURL }" onclick="copyPanelText('.IPAGloss')" title="Copy the IPA transcription." alt="Copy IPA"></span>`
+                else gloss += `<span class="rt">&nbsp;</span>`
+                }
+            gloss += `</div>`
+            }
+        else {
+            gloss += ` <div class="stack"><span class="rt translitGloss" lang="und-fonipa">${ transcriptions[t] }</span><span class="rb">${ graphemes[t] }</span>`
+            if (ipa !== false) {
+                if (ipa[t]) gloss += `<span class="rt IPAGloss" lang="und-fonipa">${ ipa[t] }</span>`
+                else gloss += `<span class="rt">&nbsp;</span>`
+                }
+            gloss += `</div>`
+            }
+        }
+    gloss += '</div>'
+
+	//out += `<div dir="${ dir }" class="ex" lang="${ clang }" id="title">${ gloss }</div>`
+    // removing the alternating direction so that IPA reads better
+	//out += `<div dir="${ window.blockDirection }" class="ex" lang="${ clang }" id="title">${ gloss }</div>`
+	out += `<div dir="ltr" class="glossContainer" lang="${ clang }" id="title">${ gloss }</div>`
+    
+        
+    
+    // add instructions line
+	out += '<p id="advice" style="line-height:1;">Glossed lines are transliteration/text/IPA.<br>Click on character names below for detailed information.</p>'
+	
+	// create a list of characters
+	if (list) chars = chars.replace(/ /g,'').replace(/\u00A0/g,'') // remove spaces if list
+    charArray = [...chars]
+    
+    if (traceSet.has('showNameDetails')) console.log('charArray: ',charArray)
+
+    out += '<div id="listOfCharacters">'
+	for (var c=0; c<charArray.length; c++) { 
+        dec = charArray[c].codePointAt(0)
+        hex = dec.toString(16)
+        while (hex.length < 4) { hex = '0'+hex }
+        hex = hex.toUpperCase()
+ 
+        //if (traceSet.has('showNameDetails')) console.log('charData: ',charData)
+        //if (traceSet.has('showNameDetails')) console.log('charArray[c]: ',charArray[c])
+
+		if (charData[charArray[c]]) {
+            blockname = getScriptGroup(dec, false)
+            blockfile = getScriptGroup(dec, true)
+            //console.log(dec,blockfile)
+            isInBlock = spreadsheetRows[charArray[c]]?spreadsheetRows[charArray[c]][cols['block']]:''
+            
+			out += '<div class="panelCharacter">'
+			//if (blockfile) {
+			if (isInBlock) {
+				//out += `<a target="${ target }" href="`
+                // undoing this change which put characters in the list because imgs are needed in order to make the list to copy to clipboard
+                // out += `<span style="display:inline-block; font-size:1.5rem; min-width: 2rem;">${ charArray[c] }</span>`
+                out += `<img src="../../c/${ getScriptGroup(dec, false) }/large/${ hex }.png" alt="${ charArray[c] }">`
+				out += `<a target="c" href="`
+				//if (base === '../../uniview/index.html?char=') out += base+hex
+				//else out += '../../scripts/'+blockfile+'/block.html#char'+hex
+				out += '../../scripts/'+blockfile+'/block.html#char'+hex
+				out += '">'
+				//out += '<img src="'+'../../c/'+blockname+"/"+hex+'.png'+'" alt="'+charArray[c]+'">'
+				out += ' U+'+hex + ' '+charData[charArray[c]]
+				out += '</a>\n'
+				}
+			else {
+				out += '<img src="'+'../../c/'+blockname+"/large/"+hex+'.png'+'" alt="'+charArray[c]+'">'
+				out += ' U+'+hex+' '+charData[charArray[c]]+'\n'
+				}
+			}
+		else {
+			//out += `<a target="c" href="../../uniview/index.html?charlist=${ charArray[c] }&char=${ hex }"><img src="../../c/Basic_Latin/005F.png" alt="U+${ hex }"> U+${ hex } No data for this character</a>`
+			out += `<div class="panelCharacter"><a target="c" href="../../uniview/index.html?charlist=${ charArray[c] }&char=${ hex }"><img src="../../c/${ getScriptGroup(dec, false) }/large/${ hex }.png" alt="${ charArray[c] }"> U+${ hex } No data for this character</a></div>`
+			}
+		out += '</div>'
+		}
+	out += '</div>'
+	
+    
+	// write out the bottom line
+	out += '<p style="text-align:left; margin-block-start: 1em; line-height:2rem;" id="panelSharingLine">'
+    //out += '<button onclick="document.getElementById(\'panelShare\').style.display=\'block\'">Export</button> \u00A0 '
+    out += '<button onclick="copyPanelList()">Copy list</button> \u00A0 '
+	
+    out += `<button onclick="openExportWindow('../../app-analysestring/index.html?chars=${ chars }')">Details</button> \u00A0 `
+	
+    out += `<button onclick="openExportWindow('../../uniview/index.html?charlist=${ chars }')">UniView</button> \u00A0 `
+	
+    out += `<button onclick="openExportWindow('../../scripts/apps/graphemes/index.html?gc=${ chars }')">Graphemes</button> \u00A0 `
+	
+    if (window.pickerDir) {
+        out += `<button onclick="openExportWindow('../../pickers/${ window.pickerDir }/index.html?text=${ chars }')">Character App</button> \u00A0 `
+	   }
+
+    // add a link to the _vocab page
+    if (typeof window.languageName === 'undefined') var fragid = ''
+    else fragid = '#'+window.languageName
+
+    // figure out where to find the url for the _vocab page
+    var url
+    if (typeof template !== 'undefined' && typeof template.vocablocation === 'string')  url = `../../scripts/${ template.vocablocation }.html`
+    
+    else url = `${ window.langTag }_vocab`
+    
+    if (typeof window.removeVowels === 'function') chars = removeVowels(chars)
+
+    out += `<button onclick="openExportWindow('${ url }?q=${ chars }')">Terms</button> \u00A0 `
+	
+
+
+    /* THE FOLLOWING CODE USED TO OPEN A SMALL LIST WINDOW TO SELECT EXPORT OPTIONS
+        IT HAS NOW BEEN REPLACED BY BUTTONS, AND SHOULD EVENTUALLY BE REMOVED
+	// add a trigger to produce a list with phonetics
+    out += '<textarea id="panelCopyField" style="height:1px;width:1px;margin-inline-start:1em;"></textarea>'
+	//out += ' <span onclick="alert(getPhonemeList());" style="pointer:cursor;">P</span>'
+	
+	// add a close button
+	out += '<p style="text-align:right"><img src="../../shared/images/close.png" style="cursor:pointer;" id="character_panel_close_button" alt="Close"'
+	out += ' onclick="document.getElementById(\'panel\').style.display = \'none\'"'
+	out += '></p>'
+
+
+
+    out += '<div id="panelShare" style="display:none;">'
+    
+	// add a link to analysestring
+	out += `<div><a href="../../app-analysestring/index.html?chars=${ chars }" target="_blank" onclick="document.getElementById('panelShare').style.display='none'">Details</a></div>`
+
+	// add a link to uniview
+	out += `<div><a target="_blank" href="../../uniview/index.html?charlist=${ chars }" onclick="document.getElementById('panelShare').style.display='none'">UniView</a></div>`
+	
+	// add a link to the grapheme segmenter app
+	out += `<div><a target="_blank" href="../apps/graphemes/index.html?gc=${ chars }" onclick="document.getElementById('panelShare').style.display='none'" title="Send the string to the grapheme segmenter app.">Graphemes</a></div>`
+	
+	// add a link to the character app named in window.pickerDir
+    if (window.pickerDir) {
+	   out += `<div><a target="_blank" href="../../pickers/${ window.pickerDir }/index.html?text=${ chars }" onclick="document.getElementById('panelShare').style.display='none'">Character App</a></div>`
+       }
+
+    // add a link to the _vocab page
+    if (typeof window.languageName === 'undefined') var fragid = ''
+    else fragid = '#'+window.languageName
+
+    // figure out where to find the url for the _vocab page
+    if (typeof template !== 'undefined' && typeof template.vocablocation === 'string') var url = `../../scripts/{$ template.vocablocation }.html`
+    else url = `${ window.langTag }_vocab`
+    
+    if (typeof window.removeVowels === 'function') chars = removeVowels(chars)
+    
+    //out += `<a target="wiktionary" href="https://en.wiktionary.org/wiki/${ chars }${ fragid }">Wiktionary</a>`
+    out += `<a target="termbase" href="${ url }.html?q=${ chars }">Term base</a>`
+	
+    out += '<p style="text-align:right"><img src="../common28/icons/close.png" style="cursor:pointer;" id="character_panelshare_close_button" alt="Close"'
+	out += ` onclick="document.getElementById('panelShare').style.display='none'"`
+	out += '></p>'
+    END OF DECOMMISSIONED CODE */
+	
+	
+	// add a close button
+	out += '<p style="text-align:right"><img src="../../shared/images/close.png" style="cursor:pointer;" id="character_panel_close_button" alt="Close"'
+	out += ' onclick="document.getElementById(\'panel\').style.display = \'none\'"'
+	out += '></p>'
+	panel.innerHTML = out
+	}
+
+
+function openExportWindow (url) {
+	var shareWindow = window.open(url, 'analyse') 
+	analyse.focus()
+	}
+
+function copyPanelListX () {
     var lines = document.getElementById('listOfCharacters').querySelectorAll('.panelCharacter')
     var imgs = document.getElementById('listOfCharacters').querySelectorAll('img')
     var out = ''
     for (var i=0;i<lines.length;i++) out += imgs[i].alt+' '+lines[i].textContent
+	var node = document.getElementById('panelCopyField')
+    node.value = out
+	node.focus()
+	document.execCommand('selectAll')
+	document.execCommand('copy')
+	}
+
+
+function copyPanelList () {
+    var lines = document.getElementById('listOfCharacters').querySelectorAll('.panelCharacter')
+    var imgs = document.getElementById('listOfCharacters').querySelectorAll('img')
+    var out = ''
+    for (var i=0;i<lines.length;i++) {
+        console.log(imgs[i])
+        out += imgs[i].alt+' '+lines[i].textContent
+        }
+    navigator.clipboard.writeText(out)
+	}
+
+
+function copyPanelTextX (type) {
+    var text = document.getElementById('ruby').querySelectorAll(type)
+    var out = ''
+    for (var i=0;i<text.length;i++) out += text[i].textContent
+    if (type === '.IPAGloss') out = out.replace(/–/g,'').replace(/‹/g,'').replace(/›/g,'')
 	var node = document.getElementById('panelCopyField')
     node.value = out
 	node.focus()
@@ -354,11 +629,7 @@ function copyPanelText (type) {
     var out = ''
     for (var i=0;i<text.length;i++) out += text[i].textContent
     if (type === '.IPAGloss') out = out.replace(/–/g,'').replace(/‹/g,'').replace(/›/g,'')
-	var node = document.getElementById('panelCopyField')
-    node.value = out
-	node.focus()
-	document.execCommand('selectAll')
-	document.execCommand('copy')
+    navigator.clipboard.writeText(out)
 	}
 
 
