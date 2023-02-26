@@ -48,11 +48,11 @@ var spreadsheet = `gara-wo	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 \u{10D5A}	D	D		D			Lu		consonant				U+10D5A: GARAY CAPITAL LETTER DA		
 \u{10D7A}\u{10D69}	d	ⁿd		dë					prenasalised consonant				U+10D7A U+10D69: GARAY SMALL LETTER DA, SMALL LETTER E		
 \u{10D5A}\u{10D69}	D	ⁿD		Dë					prenasalised consonant				U+10D5A U+10D69: GARAY CAPITAL LETTER DA, CAPITAL LETTER E	✓	
-\u{10D4D}	e	ɛ		ɛ			Lo		vowel				U+10D4D: GARAY VOWEL SIGN EE		
+\u{10D69}	e	ɛ		ɛ	ë		Mn		vowel mark/prenasalisation marker				U+10D69: GARAY VOWEL SIGN E		
+\u{10D4D}	e	ɛ		ë			Lo		vowel				U+10D4D: GARAY VOWEL SIGN EE		
 \u{10D4D}\u{10D4E}		ɛː		ɛɛ					long vowel				U+10D4D U+10D4E: GARAY CAPITAL LETTER EE, VOWEL LENGTH MARK		
-\u{10D4D}\u{10D4D}	e	e		e					vowel				U+10D4D U+10D4D: GARAY VOWEL SIGN EE, VOWEL SIGN EE		
-\u{10D69}\u{10D4D}	e	e		e					vowel				U+10D69 U+10D4D: GARAY VOWEL SIGN E, VOWEL SIGN EE		
-\u{10D69}	e	ɛ		ë			Mn		vowel mark/prenasalisation marker				U+10D69: GARAY VOWEL SIGN E		
+\u{10D4D}\u{10D4D}		e		e					vowel				U+10D4D U+10D4D: GARAY VOWEL SIGN EE, VOWEL SIGN EE		
+\u{10D69}\u{10D4D}		e		e					vowel				U+10D69 U+10D4D: GARAY VOWEL SIGN E, VOWEL SIGN EE		
 \u{10D4D}\u{10D4D}\u{10D4E}		eː		ee					long vowel				U+10D4D U+10D4D U+10D4E: GARAY VOWEL SIGN EE, VOWEL SIGN EE, VOWEL LENGTH MARK		
 \u{10D4D}\u{10D4A}	e	ə		ə					vowel				U+10D4D U+10D4A: GARAY VOWEL SIGN EE, VOWEL SIGN A		
 \u{10D4D}\u{10D4A}\u{10D4E}		əː		əə					long vowel				U+10D4D U+10D4A U+104DE: GARAY VOWEL SIGN EE, VOWEL SIGN A, VOWEL LENGTH MARK		
