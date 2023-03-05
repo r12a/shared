@@ -250,6 +250,7 @@ var scriptGroups = [
 [72368,72383,"Unified Canadian Aboriginal Syllabics Extended-A","cans",""],
 [72384,72447,"Pau Cin Hau","pauc",""],
 [72448,72543,"Devanagari Extended-A","deva",""],
+[72640,72703,"Sunuwar","sunu","sunu"],
 [72704,72815,"Bhaiksuki","bhks",""],
 [72816,72895,"Marchen","marc",""],
 [72960,73055,"Masaram Gondi","gonm",""],
