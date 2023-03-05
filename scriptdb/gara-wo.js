@@ -3,7 +3,7 @@ var spreadsheet = `gara-wo	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 \u{10D6E}	-			‑	‑		Pd		line-break hyphen				U+10D6E: GARAY HYPHEN		
 –	-			–	–		Pd		en dash				U+2013: EN DASH		
 —	-			—	—		Pd		em dash				U+2014: EM DASH		
-\u{10D4F}	*			˟			Lo	a	vowel absence indicator				U+10D4F: GARAY SUKUN		
+\u{10D4F}	*			˟			Lo	o	vowel absence indicator				U+10D4F: GARAY SUKUN		
 \u{10D4E}	:			ː			Lo		vowel lengthener				U+10D4E: GARAY VOWEL LENGTH MARK		
 ،	,			,	,		Po		comma				U+060C: ARABIC COMMA		
 ,	,			,̣	,		Po		comma				U+002C: COMMA		
