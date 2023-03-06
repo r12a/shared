@@ -24,19 +24,19 @@ var spreadsheet = `sunu-suz	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 \u{030D}	^			ˈ	ˈ				stress mark			sotte'si		U+030D COMBINING VERTICAL LINE ABOVE	
 \u{0301}	^								high tone			ta renmaresi		U+0301 COMBINING ACUTE ACCENT	
 \u{0300}	^								low tone			di renmaresi		U+0300 COMBINING GRAVE ACCENT	
-\u{1DF5}	[			˙			Mn	o	repha			sangkirs		U+1DF5 COMBINING UP TACK ABOVE	
-\u{032D}	[			¨			Mn	o	sangrums			ra-vattu / trill mark		U+032D COMBINING CIRCUMFLEX ACCENT BELOW	
 \u{0303}	[	̃		˜	̃		Mn		nasalisation			nesante		U+0303 COMBINING TILDE	
 \u{0310}	[	̃		˜̣				o	nasal marker			taslathenk		U+0310 COMBINING CANDRABINDU	
+\u{1DF5}	[			˙			Mn	o	repha			sangkirs		U+1DF5 COMBINING UP TACK ABOVE	
+\u{032D}	[			¨			Mn	o	sangrums			ra-vattu / trill mark		U+032D COMBINING CIRCUMFLEX ACCENT BELOW	
 \u{11BE0}	}	ʔ		ʔ			Lo		glottal stop			kloko	अ ◌	U+11BE0 SUNUWAR LETTER KLOKO	
-\u{11BE1}	B	ƥ		ƥ			Lo		auspicious sign			pvo		U+11BE1 SUNUWAR SIGN PVO	
-\u{11BC8}	a	ə		ə			Lo		vowel			appho	अ	U+11BC8 SUNUWAR LETTER APPHO	
-\u{11BD6}	A	aː		a			Lo		long vowel			aal	आ	U+11BD6 SUNUWAR LETTER AAL	
+\u{11BE1}	B	ɓ̥		ƥ			Lo		auspicious sign			pvo		U+11BE1 SUNUWAR SIGN PVO	
+\u{11BC8}	A	ə		ə			Lo		vowel			appho	अ	U+11BC8 SUNUWAR LETTER APPHO	
+\u{11BD6}	a	aː		a			Lo		long vowel			aal	आ	U+11BD6 SUNUWAR LETTER AAL	
 \u{11BCE}	b	b		b			Lo		consonant			bur	ब	U+11BCE SUNUWAR LETTER BUR	
 \u{11BD5}	B	ɓ		ɓ			Lo		consonant			ava	ब	U+11BD5 SUNUWAR LETTER AVA	
 \u{11BCC}	c	t͡ʃ		ʧ			Lo		consonant			carmi	च	U+11BCC SUNUWAR LETTER CARMI	
 \u{11BDD}	C	t͡ʃʰ		ʧʰ			Lo		consonant			chelap	छ	U+11BDD SUNUWAR LETTER CHELAP	
-\u{11BC0}	d	d ɖ		d			Lo		consonant			devi	द ड	U+11BC0 SUNUWAR LETTER DEVI	
+\u{11BC0}	d	d		d			Lo		consonant			devi	द ड	U+11BC0 SUNUWAR LETTER DEVI	
 \u{11BD7}	D	ɖ		ɖ			Lo		consonant			donga	ड	U+11BD7 SUNUWAR LETTER DONGA	
 \u{11BC2}	e	e		e			Lo		vowel			eko	ए	U+11BC2 SUNUWAR LETTER EKO	
 \u{11BCA}	g	ɡ		g			Lo		consonant			gil	ग	U+11BE0 SUNUWAR LETTER KLOKO	
@@ -52,15 +52,15 @@ var spreadsheet = `sunu-suz	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 \u{11BD1}	o	o		o			Lo		vowel			otthi	ओ	U+11BD1 SUNUWAR LETTER OTTHI	
 \u{11BC9}	p	p		p			Lo		consonant			pip	प	U+11BC9 SUNUWAR LETTER PIP	
 \u{11BD9}	P	pʰ		pʰ			Lo		consonant			phar	फ	U+11BD9 SUNUWAR LETTER PHAR	
-\u{11BC4}	r	r ɽ ɭ		r			Lo		consonant			reu	र ड़	U+11BC4 SUNUWAR LETTER REU	
+\u{11BC4}	r	r ɽ		r			Lo		consonant			reu	र ड़	U+11BC4 SUNUWAR LETTER REU	
 \u{11BD2}	s	s		s			Lo		consonant			shyele	स	U+11BD2 SUNUWAR LETTER SHYELE	
 \u{11BDC}	S	ʃ		ʃ			Lo		consonant			shyer	श ष	U+11BDC SUNUWAR LETTER SHYER	
-\u{11BC1}	t	t ʈ		t			Lo		consonant			tasla	त ट	U+11BC1 SUNUWAR LETTER TASLA	
+\u{11BC1}	t	t		t			Lo		consonant			tasla	त ट	U+11BC1 SUNUWAR LETTER TASLA	
 \u{11BD8}	T	tʰ		tʰ			Lo		consonant			thari	थ	U+11BD8 SUNUWAR LETTER THARI	
 \u{11BDE}	t	ʈ		ʈ			Lo		consonant			tentu	ट	U+11BDE SUNUWAR LETTER TENTU	
 \u{11BDF}	T	ʈʰ		ʈʰ			Lo		consonant			thele	ठ	U+11BDF SUNUWAR LETTER THELE	
 \u{11BC5}	u	u		u			Lo		vowel			utthi	उ	U+11BC5 SUNUWAR LETTER UTTHI	
-\u{11BD3}	v	v		v			Lo		consonant			varca	व	U+11BD3 SUNUWAR LETTER VARCA	
+\u{11BD3}	w	w v		w			Lo		consonant			varca	व	U+11BD3 SUNUWAR LETTER VARCA	
 \u{11BD4}	y	j		y			Lo		consonant			yat	य	U+11BD4 SUNUWAR LETTER YAT	
 															
 §				§	§		Po		section sign					U+00A7: SECTION SIGN	
