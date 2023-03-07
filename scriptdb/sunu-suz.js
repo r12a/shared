@@ -21,11 +21,11 @@ var spreadsheet = `sunu-suz	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 \‘	<			\‘	\‘		Pi		quotation mark					U+2018: LEFT SINGLE QUOTATION MARK	
 ”	>			”	”		Pf		quotation mark					U+201D: RIGHT DOUBLE QUOTATION MARK	
 \’	>			\’	\’		Pf		quotation mark					U+2019: RIGHT SINGLE QUOTATION MARK	
-\u{030D}	^			ˈ	ˈ				stress mark			sotte'si		U+030D COMBINING VERTICAL LINE ABOVE	
-\u{0301}	^								high tone			ta renmaresi		U+0301 COMBINING ACUTE ACCENT	
-\u{0300}	^								low tone			di renmaresi		U+0300 COMBINING GRAVE ACCENT	
-\u{0303}	[	̃		˜	̃		Mn		nasalisation			nesante		U+0303 COMBINING TILDE	
-\u{0310}	[	̃		˜̣				o	nasal marker			taslathenk		U+0310 COMBINING CANDRABINDU	
+\u{030D}	^			ˈ	ˈ		Mn​		stress mark			sotte'si		U+030D COMBINING VERTICAL LINE ABOVE	
+\u{0301}	^			ˊ			Mn​		high tone			ta renmaresi		U+0301 COMBINING ACUTE ACCENT	
+\u{0300}	^			ˋ			Mn​		low tone			di renmaresi		U+0300 COMBINING GRAVE ACCENT	
+\u{0303}	[	̃		˜	̃		Mn​		nasalisation			nesante		U+0303 COMBINING TILDE	
+\u{0310}	[	̃		˜̣			Mn​	o	nasal marker			taslathenk		U+0310 COMBINING CANDRABINDU	
 \u{1DF5}	[			˙			Mn	o	repha			sangkirs		U+1DF5 COMBINING UP TACK ABOVE	
 \u{032D}	[			¨			Mn	o	sangrums			ra-vattu / trill mark		U+032D COMBINING CIRCUMFLEX ACCENT BELOW	
 \u{11BE0}	}	ʔ		ʔ			Lo		glottal stop			kloko	अ ◌	U+11BE0 SUNUWAR LETTER KLOKO	
