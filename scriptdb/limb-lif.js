@@ -4,6 +4,7 @@ var spreadsheet = `limb-lif	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 —	-			—	—		Pd		em dash					U+2014: EM DASH	
 ᤻	*			˟			Mn​		vowel silencer					U+193B: LIMBU SIGN SA-I	
 ᤺	:	ː		ː			Mn​		vowel lengthener					U+193A: LIMBU SIGN KEMPHRENG	
+.	,			,	,		Po		comma			cuktçɔk		U+002E: FULL STOP	
 ,	,			,̣	,		Po		comma					U+002C: COMMA	
 ;	;			;̣	;		Po		semicolon					U+003B: SEMICOLON	
 :	:			:	:		Po		colon					U+003A: COLON	
@@ -11,7 +12,6 @@ var spreadsheet = `limb-lif	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᥀	!			!̣	lo		So	o	exclamatory particle		ᤗᤥ			U+1940: LIMBU SIGN LOO	
 ᥅	?			?	?		Po		question mark					U+1945: LIMBU QUESTION MARK	
 ॥	.			.	.		Po		sentence end					U+0965: DEVANAGARI DOUBLE DANDA	
-.	.			.̣	.		Po		full stop					U+002E: FULL STOP	
 …	.			…	…		Po		ellipsis					U+2026: HORIZONTAL ELLIPSIS	
 (	(			(	(		Ps		parenthesis					U+0028: LEFT PARENTHESIS	
 [	(			[	[		Ps		bracket					U+005B: LEFT SQUARE BRACKET	
@@ -35,7 +35,7 @@ var spreadsheet = `limb-lif	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᤇ	C	t͡ʃʰ	ɔ	ʧʰ	ch		Lo		consonant				छ	U+1907: LIMBU LETTER CHA	
 ᤍ	d	d	ɔ	d	d		Lo		consonant				द ड	U+190D: LIMBU LETTER DA	
 ᤎ	d	dʰ	ɔ	dʰ	dh		Lo		consonant					U+190E: LIMBU LETTER DHA	
-ᤧ	e	ɛ		ɛ	e		Mn​		vowel					U+0020 U+1927: SPACE, LIMBU VOWEL SIGN E	
+ᤧ	e	ɛ		ɛ	e		Mn​		vowel					U+1927: LIMBU VOWEL SIGN E	
 ᤣ	E	e		e	ee		Mc​		vowel				ए	U+1923: LIMBU VOWEL SIGN EE	
 ᤃ	g	ɡ	ɔ	g	g		Lo		consonant				ग	U+1903: LIMBU LETTER GA	
 ᤄ	g	ɡʰ	ɔ	gʰ	gh		Lo		consonant					U+1904: LIMBU LETTER GHA	
@@ -50,10 +50,10 @@ var spreadsheet = `limb-lif	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᤔ	m	m	ɔ	m	m		Lo		consonant				म	U+1914: LIMBU LETTER MA	
 ᤶ	M	m		m̽	m		Mc​		final consonant					U+1936: LIMBU SMALL LETTER MA	
 ᤏ	n	n	ɔ	n	n		Lo		consonant				न ण	U+190F: LIMBU LETTER NA	
-ᤴ	N	n		n̽	n		Mc​		final consonant					U+0020 U+1934: SPACE, LIMBU SMALL LETTER NA	
+ᤴ	N	n		n̽	n		Mc​		final consonant					U+1934: LIMBU SMALL LETTER NA	
 ᤅ	N	ŋ	ɔ	ŋ	ng		Lo		consonant				ङ	U+1905: LIMBU LETTER NGA	
-ᤱ	N	ŋ		ŋ̽	ng		Mc​		final consonant					U+0020 U+1931: SPACE, LIMBU SMALL LETTER NGA	
-ᤨ	o	ɔ		ɔ	o		Mn​		vowel	optional				U+0020 U+1928: SPACE, LIMBU VOWEL SIGN O	
+ᤱ	N	ŋ		ŋ̽	ng		Mc​		final consonant					U+1931: LIMBU SMALL LETTER NGA	
+ᤨ	o	ɔ		ɔ	o		Mn​		vowel	optional				U+1928: LIMBU VOWEL SIGN O	
 ᤥ	O	o		o	oo		Mc​		vowel				ओ	U+1925: LIMBU VOWEL SIGN OO	
 ᤐ	p	p	ɔ	p	p		Lo		consonant				प	U+1910: LIMBU LETTER PA	
 ᤵ	P	p		p̽	p		Mc​		final consonant					U+1935: LIMBU SMALL LETTER PA	
