@@ -827,6 +827,17 @@ function printDetails (char) {
     // add the details from xx-details.js
     if (charDetails[char]) out += charDetails[char]
 
+ 
+    // onset-final correspondences
+    out += `<p>`
+    if (cols.onset>0 && spreadsheetRows[char][cols.onset]) {
+        out += '<span class="syllPairing">Onset equivalent is  '+makeCharacterLink(spreadsheetRows[char][cols.onset], lang, dir)+'</span><br>'
+        }
+    if (cols.finals>0 && spreadsheetRows[char][cols.finals]) {
+        out += '<span class="syllPairing">Syllable-final equivalent is '+makeCharacterLink(spreadsheetRows[char][cols.finals], lang, dir)+'</span><br>'
+        }
+    out += `</p>`
+
     return out
     }
 
@@ -948,10 +959,39 @@ function makeCharacterLink (cp, lang, direction) {
 	// lang: the BCP47 language tag for the context
 	// direction: either rtl or ltr or ''
     // LATEST VERSION collapses multiple chars at start
-    if (traceSet.has('makeCharacterLink')) console.log('makeCharacterLink(',cp,lang,direction,')')
+    if (traceSet.has('makeCharacterLink')) console.log('>>> makeCharacterLink(',cp,lang,direction,')')
     var chars = [...cp]
 
-	var out = '<span class="codepoint" translate="no">'
+    var out = '<span class="codepoint" translate="no">'
+    out += `<bdi lang="${ lang }" onclick="makeFootnoteIndex('${ cp }')">${ cp }</bdi>`
+    
+    var hex = cp.codePointAt(0).toString(16).toUpperCase()
+    while (hex.length < 4) hex = '0'+hex 
+
+    if (spreadsheetRows[cp]) out += ` [<a href="javascript:void(0)" target="c"><span class="uname">${ spreadsheetRows[cp][cols['ucsName']] }</span></a>]`
+	else out += ' [Character(s) not found in database.]'
+
+    out += '</span> '
+	
+	return out.trim()
+	}
+
+
+
+
+
+
+
+function makeCharacterLinkX (cp, lang, direction) {
+	// returns markup with information about cp
+	// cp: a unicode character, or sequence of unicode characters
+	// lang: the BCP47 language tag for the context
+	// direction: either rtl or ltr or ''
+    // LATEST VERSION collapses multiple chars at start
+    if (traceSet.has('makeCharacterLink')) console.log('>>> makeCharacterLink(',cp,lang,direction,')')
+    var chars = [...cp]
+
+    var out = '<span class="codepoint" translate="no">'
     out += `<span lang="${ lang }" onclick="makeFootnoteIndex('${ cp }')">${ cp }</span>`
     
     var hex = cp.codePointAt(0).toString(16).toUpperCase()
