@@ -375,6 +375,7 @@ var fontDB = [
 { name:"Noto Sans Multani",	system:new Set([goog]), locales:new Set(['mult']), style:'sans' },
 { name:"Noto Sans Myanmar",	system:new Set([goog, mac, ios]), locales:new Set(['mymr', 'mymr-shn']), style:'sans' },
 { name:"Noto Sans Nabataean",system:new Set([goog]), locales:new Set(['nbat']), style:'sans' },
+{ name:"Noto Sans Nag Mundari",	system:new Set([goog]), locales:new Set(['nagm']), style:'sans' },
 { name:"Noto Sans New Tai Lue",system:new Set([goog]), locales:new Set(['talu']), style:'sans' },
 { name:"Noto Sans Newa",	system:new Set([goog]), locales:new Set(['newa']), style:'sans' },
 { name:"Noto Sans Nko",		system:new Set([goog]), locales:new Set(['nkoo']), style:'sans' },
