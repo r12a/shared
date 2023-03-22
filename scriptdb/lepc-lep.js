@@ -13,8 +13,8 @@ var spreadsheet = `lepc-lep	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ,	,			,̣	,		Po		comma							U+002C: COMMA	
 ;	;			;̣	;		Po		semicolon							U+003B: SEMICOLON	
 :	:			:	:		Po		colon							U+003A: COLON	
-!	!			!	!		Po		exclamation mark								
-?	?			?	?		Po		question mark								
+!	!			!	!		Po		exclamation mark							U+0021: EXCLAMATION MARK	
+?	?			?	?		Po		question mark							U+003F: QUESTION MARK	
 …	.			…	…		Po		ellipsis							U+2026: HORIZONTAL ELLIPSIS	
 (	(			(	(		Ps		parenthesis							U+0028: LEFT PARENTHESIS	
 [	(			[	[		Ps		bracket							U+005B: LEFT SQUARE BRACKET	
@@ -59,7 +59,7 @@ var spreadsheet = `lepc-lep	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᰱ	P	p		p̽	p		Mn​		final consonant		ᰎ		ᰜᰀᰪᰱ	lakup		U+1C31: LEPCHA CONSONANT SIGN P	
 ᰐ	P	pʰ	a	pʰ	ph		Lo		consonant						फ	U+1C10: LEPCHA LETTER PHA	
 ᰛ	r	r	a	r	r		Lo		consonant			ᰲ			र ड़	U+1C1B: LEPCHA LETTER RA	
-ᰥ	R	r		r̆	r		Mc​		medial consonant							U+1C25: LEPCHA SUBJOINED LETTER RA	
+ᰥ	R	r		r̆	r		Mc​		medial consonant				ᰛᰋᰤᰫ	rathyú		U+1C25: LEPCHA SUBJOINED LETTER RA	
 ᰲ	R	r		r̽	r		Mn​		final consonant		ᰛ		ᰜᰌᰲ	ladar		U+1C32: LEPCHA CONSONANT SIGN R	
 ᰠ	s	s	a	s	s		Lo		consonant						स	U+1C20: LEPCHA LETTER SA	
 ᰡ	S	ʃ	a	ʃ	sh		Lo		consonant						श ष	U+1C21: LEPCHA LETTER SHA	
@@ -73,7 +73,7 @@ var spreadsheet = `lepc-lep	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᰟ	v	v	a	v	v		Lo		consonant							U+1C1F: LEPCHA LETTER VA	
 ᰢ	w	w	a	w	w		Lo		consonant						व	U+1C22: LEPCHA LETTER WA	
 ᰚ	y	j	a	y	y		Lo		consonant						य	U+1C1A: LEPCHA LETTER YA	
-ᰤ	Y	j	a	y̆	y		Mc​		medial consonant							U+1C24: LEPCHA SUBJOINED LETTER YA	
+ᰤ	Y	j	a	y̆	y		Mc​		medial consonant				ᰚᰋᰤᰫ	yathyú		U+1C24: LEPCHA SUBJOINED LETTER YA	
 ᰙ	z	z d͡z	a	z	z		Lo		consonant							U+1C19: LEPCHA LETTER DZA	
 																	
 ᰁ	L	kl	a	kˡ	kl		Lo		onset cluster							U+1C01: LEPCHA LETTER KLA	
