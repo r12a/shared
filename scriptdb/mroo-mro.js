@@ -29,7 +29,7 @@ var spreadsheet = `mroo-mro	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 𖩖	e	ɛ ə		ɛ	ä		Lo		vowel				U+16A56: MRO LETTER EA	✓
 𖩘	e	e		e	e		Lo		vowel				U+16A58: MRO LETTER E	
 𖩉	h	h		h	h		Lo		consonant				U+16A49: MRO LETTER HAO	✓
-𖩜	h	h		ḥ	h		Lo		consonant, fricative				U+16A5C: MRO LETTER HAI	
+𖩜	h	h hai ɛi		ḥ	h		Lo		consonant, fricative; abbreviation				U+16A5C: MRO LETTER HAI	
 𖩊	i	i		i	i		Lo		vowel				U+16A4A: MRO LETTER DAI	✓
 𖩌	k	k		k	k		Lo		consonant				U+16A4C: MRO LETTER KEAAE	✓
 𖩙	k	k		ḳ	ḳ		Lo		consonant, stop				U+16A59: MRO LETTER KO	
@@ -48,7 +48,7 @@ var spreadsheet = `mroo-mro	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 𖩓	r	r		r	r		Lo		consonant				U+16A53: MRO LETTER RO	✓
 𖩔	s	ʃ		ʃ	s		Lo		consonant. fricative				U+16A54: MRO LETTER SHI	
 𖩀	t	t		t	t		Lo		consonant				U+16A40: MRO LETTER TA	✓
-𖩞	t	t		ṭ	t		Lo		consonant, stop				U+16A5E: MRO LETTER TEK	
+𖩞	t	t tɛk		ṭ	t		Lo		consonant, stop; abbreviation				U+16A5E: MRO LETTER TEK	
 𖩕	T	tʰ		tʰ	th		Lo		consonant, stop aspirated				U+16A55: MRO LETTER THEA	✓
 𖩑	u	u o		u	u		Lo		vowel				U+16A51: MRO LETTER OO	✓
 𖩗	w	ɯ		ɯ	w		Lo		vowel				U+16A57: MRO LETTER WA	✓
