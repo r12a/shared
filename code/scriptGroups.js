@@ -267,7 +267,7 @@ var scriptGroups = [
 [78896,78943,"Egyptian Hieroglyph Format Controls","egyp",""],
 [82944,83583,"Anatolian Hieroglyphs","hluw",""],
 [92160,92735,"Bamum Supplement","bamu",""],
-[92736,92783,"Mro","mroo",""],
+[92736,92783,"Mro","mroo","mroo"],
 [92784,92879,"Tangsa","tnsa",""],
 [92880,92927,"Bassa Vah","bass","bass"],
 [92928,93071,"Pahawh Hmong","hmng",""],
