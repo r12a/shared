@@ -650,6 +650,57 @@ function showCharDetailsInPanel (evt) {
 
     var chars
 	if (evt.target.className == 'listItem') chars = evt.target.textContent
+	else if (evt.target.parentNode.parentNode.querySelector('bdi') !== null) {
+        var bdi = evt.target.parentNode.parentNode.querySelector('bdi')
+        if (bdi.querySelector('img')) chars = bdi.querySelector('img').alt
+        else chars = bdi.textContent
+        }
+	else if (evt.target.parentNode.parentNode.querySelector('span') !== null) chars = evt.target.parentNode.parentNode.querySelector('span').textContent
+	else console.log('No characters found in showCharDetailsInPanel')
+
+
+	var panel = document.getElementById('dialogBox')
+        
+	panel.innerHTML = makePanelDetails(chars,lang, dialog=true)
+	//document.getElementById('panel').innerHTML = charDetails[char]
+	panel.open = true
+    //panel.showModal()
+    
+    var closeButton = document.createElement('button')
+    closeButton.appendChild(document.createTextNode('Close'))
+    closeButton.addEventListener('click', closeDialog)
+    panel.appendChild(closeButton)
+    
+	
+	addExamples(lang)
+	autoTransliterate(evt.target.lang)
+    var links = panel.querySelectorAll('.codepoint a, .codepoint span.uname')
+	for (i=0;i<links.length;i++) links[i].onclick = showCharDetailsInPanel
+	setFootnoteRefs()
+
+	return false
+	}
+
+
+function closeDialog () {
+    document.getElementById('dialogBox').open = false
+    }
+
+
+
+
+function showCharDetailsInPanelX (evt) {
+	if (typeof charDetails === 'undefined') return
+
+	// find the language & character(s)
+	var lang
+	if (evt.target.className == 'listItem') lang = evt.target.lang
+	else if (evt.target.parentNode.parentNode.querySelector('bdi') !== null) lang = evt.target.parentNode.parentNode.querySelector('bdi').lang
+	else if (evt.target.parentNode.parentNode.querySelector('span') !== null) lang = evt.target.parentNode.parentNode.querySelector('span').lang
+	else console.log('No lang found in showCharDetailsInPanel')
+
+    var chars
+	if (evt.target.className == 'listItem') chars = evt.target.textContent
 	else if (evt.target.parentNode.parentNode.querySelector('bdi') !== null) chars = evt.target.parentNode.parentNode.querySelector('bdi').textContent
 	else if (evt.target.parentNode.parentNode.querySelector('span') !== null) chars = evt.target.parentNode.parentNode.querySelector('span').textContent
 	else console.log('No characters found in showCharDetailsInPanel')
