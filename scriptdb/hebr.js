@@ -31,7 +31,7 @@ var spreadsheet = `hebr-he	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ״	+			¨			Po		acronym indicator			גֵּרְשַׁיִם	gershayim	U+05F4: HEBREW PUNCTUATION GERSHAYIM	✓
 „	<			–		D	Ps	i	quotation mark	becoming old fashioned				U+201E: DOUBLE LOW-9 QUOTATION MARK	
 “	<			“	“		Pi	i	quotation mark					U+201C: LEFT DOUBLE QUOTATION MARK	
-\‘	<			\‘	\‘		Pi	i	quotation mark					U+2018: LEFT SINGLE QUOTATION MARK	
+‘	<			‘	‘		Pi	i	quotation mark					U+2018: LEFT SINGLE QUOTATION MARK	
 \u200C	=			ᶻʷⁿʲ			Cf		zero-width non-joiner					U+200C: ZERO WIDTH NON-JOINER	
 \u200D	=			ᶻʷʲ			Cf		zero-width joiner					U+200D: ZERO WIDTH JOINER	
 \u034F	=			ᶜᵍʲ			Mn		combining grapheme joiner					U+034F: COMBINING GRAPHEME JOINER	
@@ -47,7 +47,7 @@ var spreadsheet = `hebr-he	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 \u200E	=			ˡʳᵐ			Cf		ltr mark					U+200E: LEFT-TO-RIGHT MARK	
 \u061C	=			ᵃˡᵐ			Cf		arabic letter mark					U+061C: ARABIC LETTER MARK	
 ”	>			”	”		Pf		quotation mark					U+201D: RIGHT DOUBLE QUOTATION MARK	
-\’	>			\’	\’		Pf		quotation mark					U+2019: RIGHT SINGLE QUOTATION MARK	
+’	>			’	’		Pf		quotation mark					U+2019: RIGHT SINGLE QUOTATION MARK	
 ָ	a	a o		ā			Mn		vowel point			קָמַץ	kaˈmats	U+05B8: HEBREW POINT QAMATS	✓
 ַ	a	a		a			Mn		vowel point			פַּתַח	paˈtaħ	U+05B7: HEBREW POINT PATAH	✓
 ֲ	a	a		ă			Mn		vowel point			חֲטַף פַּתַח	ħaˈtaf paˈtaħ	U+05B2: HEBREW POINT HATAF PATAH	✓
@@ -139,6 +139,9 @@ var spreadsheet = `hebr-he	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ֭							Mn		cantillation mark					U+05AD: HEBREW ACCENT DEHI	✓
 ֮							Mn		cantillation mark					U+05AE: HEBREW ACCENT ZINOR	✓
 ֯							Mn		cantillation mark					U+05AF: HEBREW MARK MASORA CIRCLE	✓
+ׄ							Mn		cantillation mark					U+05C4: HEBREW MARK UPPER DOT	
+ׅ							Mn		cantillation mark					U+05C5: HEBREW MARK LOWER DOT	
+ׇ							Mn		cantillation mark					U+05C7: HEBREW POINT QAMATS QATAN	
 															
 ׃							Po		biblical end of verse			סוֹף פָּסוּק	sof pasuq	U+05C3: HEBREW PUNCTUATION SOF PASUQ	✓
 															
@@ -156,13 +159,10 @@ var spreadsheet = `hebr-he	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 															
 /				–		q	Po		for the keyboard					U+002F: SOLIDUS	
 לֹ				–		K			for the keyboard					U+05DC U+05B9: HEBREW LETTER LAMED, POINT HOLAM	
-															
 `															
 															
 															
 latinPanel = 'č d͡ʒ ð ǧ ∅ θ ʁ ʃ t͡s t͡ʃ χ ʒ ž ʔ'															
-															
-															
 															
 var cols = {															
 key: 1,															
@@ -185,5 +185,3 @@ block: 15,
 															
 othertranscriptions: [[5, 'Acad']]															
 }															
-															
-															
