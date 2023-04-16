@@ -59,8 +59,8 @@ var spreadsheet = `hebr-he	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ֵ	e	e ej		ē			Mn		vowel point			צֵירֵי‬	tseˈɾe	U+05B5: HEBREW POINT TSERE	✓	vowel point
 ֶ	e	e		e			Mn		vowel point			סֶגּוֹל	sɛˈɡol	U+05B6: HEBREW POINT SEGOL	✓	vowel point
 ֱ	e	e		ĕ			Mn		vowel point			חֲטַף סֶגּוֹל‬	ħaˈtaf sɛˈɡol	U+05B1: HEBREW POINT HATAF SEGOL	✓	vowel point
-פ	f	f		f	f	p	Lo		consonant		80	פֵא, פה	fe, fej	U+05E4: HEBREW LETTER PE	✓	consonant
-ף	F	f		f̽	f	;	Lo		word-final consonant variant			פֵּא סוֹפִית, פה סופית	fe/fej sofit	U+05E3: HEBREW LETTER FINAL PE	✓	consonant word-final
+פ	f	f p		f	f	p	Lo		consonant		80	פֵא, פה	fe, fej	U+05E4: HEBREW LETTER PE	✓	consonant
+ף	F	f p		f̽	f	;	Lo		word-final consonant variant			פֵּא סוֹפִית, פה סופית	fe/fej sofit	U+05E3: HEBREW LETTER FINAL PE	✓	consonant word-final
 ג	g	ɡ		g	g	d	Lo		consonant		3	גִּימֵל	gimel	U+05D2: HEBREW LETTER GIMEL	✓	consonant
 גּ	g	ɡ		gˑ	g				consonant					U+05D2 U+05BC: HEBREW LETTER GIMEL, POINT DAGESH OR MAPIQ		consonant
 ה	h	h ∅		h	h	v	Lo		consonant		5	הֵא	he, hej	U+05D4: HEBREW LETTER HE	✓	consonant
@@ -97,13 +97,13 @@ var spreadsheet = `hebr-he	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 וּ	u	u		ṿ̇										U+05D5 U+05BC: HEBREW LETTER VAV, POINT DAGESH OR MAPIQ		
 ֻ	u	u		u			Mn		vowel point			קֻבּוּץ‬	kuˈbuts	U+05BB: HEBREW POINT QUBUTS	✓	vowel point
 ו	v	v w		v̇	v	u	Lo		consonant		6	וָו	vav	U+05D5: HEBREW LETTER VAV	✓	consonant
-ב	v	v		v	v	c	Lo		consonant		2	בֵית	vet	U+05D1: HEBREW LETTER BET	✓	consonant
+ב	v	v b		v	v	c	Lo		consonant		2	בֵית	vet	U+05D1: HEBREW LETTER BET	✓	consonant
 װ	w	w		w			Lo		consonant					U+05F0: HEBREW LIGATURE YIDDISH DOUBLE VAV	✓	consonant
 ו׳	w	w		v̇´	w									U+05D5 U+05F3: HEBREW LETTER VAV, PUNCTUATION GERESH		
 וו	w	w		v̇v̇										U+05D5 U+05D5: HEBREW LETTER VAV, LETTER VAV		
 ח	x	χ		χ	ẖ	j	Lo		consonant		8	חֵית	χet	U+05D7: HEBREW LETTER HET	✓	consonant
 כ	x	x k		x	kh	f	Lo		consonant		20	כַף	χaf	U+05DB: HEBREW LETTER KAF	✓	consonant
-ך	X	x		x̽	kh	l	Lo		word-final consonant variant			כַף סוֹפִית	χaf sofit	U+05DA: HEBREW LETTER FINAL KAF	✓	word-final consonant variant
+ך	X	x k		x̽	kh	l	Lo		word-final consonant variant			כַף סוֹפִית	χaf sofit	U+05DA: HEBREW LETTER FINAL KAF	✓	word-final consonant variant
 ח׳	x	χ		x´				l	consonant	non-native		arabic خ		U+05D7 U+05F3: HEBREW LETTER HET, PUNCTUATION GERESH		consonant
 י	y	j		y	y	h	Lo		consonant		10	יוֹד	jod, jud	U+05D9: HEBREW LETTER YOD	✓	consonant
 ז	z	z		z	z	z	Lo		consonant		7	זַיִן	zajin, za.in	U+05D6: HEBREW LETTER ZAYIN	✓	consonant
