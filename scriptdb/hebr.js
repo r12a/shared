@@ -163,7 +163,7 @@ var spreadsheet = `hebr-he	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 `																
 																
 																
-latinPanel = 'č d͡ʒ ð ǧ ∅ θ ʁ ʃ t͡s t͡ʃ χ ʒ ž ʔ'																
+latinPanel = 'č d͡ʒ ð ǧ ∅ θ ʁ ʃ t͡s t͡ʃ χ ʒ ž ʔ á ó ú é í'																
 																
 var cols = {																
 key: 1,																
