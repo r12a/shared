@@ -1,7 +1,6 @@
 var spreadsheet = `arab-ur	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	equiv	shape	native name	latin name	ucs name	block
 \u0020							Zs		space						U+0020: SPACE	
 ـ	_			_		I	Lm		baseline extender						U+0640: ARABIC TATWEEL	✓
--	-			-	-				hyphen						U+2010: HYPHEN	
 ‑	-			‑	‑		Pd		non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
 –	-			–	–		Pd		en dash						U+2013: EN DASH	✓
 —	-			—	—		Pd		em dash						U+2014: EM DASH	✓
