@@ -680,7 +680,8 @@ function showCharDetailsInPanel (evt) {
     var links = panel.querySelectorAll('.codepoint a, .codepoint span.uname')
 	for (i=0;i<links.length;i++) links[i].onclick = showCharDetailsInPanel
 	setFootnoteRefs()
-
+    expandCharMarkup()
+    
 	return false
 	}
 
