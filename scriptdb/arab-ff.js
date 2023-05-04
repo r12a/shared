@@ -42,6 +42,7 @@ var spreadsheet = `arab-ff	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ط	D	ɗ		ɗ			Lo		consonant			ɗaadi	U+0637: ARABIC LETTER TAH	✓
 ٜ	e	e		e	e		Mn​		vowel			yamaleere	U+065C: ARABIC VOWEL SIGN DOT BELOW	
 ٜىٰ	E	eː		ē	ee				long vowel			yamaleere bee aliifi bodewol	U+065C U+0649 U+0670: ARABIC VOWEL SIGN DOT BELOW, LETTER ALEF MAKSURA, LETTER SUPERSCRIPT ALEF	
+ٜى	E	eː		ē	ee				long vowel	final form only			U+065C U+0649: ARABIC VOWEL SIGN DOT BELOW, LETTER ALEF MAKSURA	
 ى	E	eː		ẹ			Lo		long vowel				U+0649: ARABIC LETTER ALEF MAKSURA	
 ڢ	f	f		f	f		Lo		consonant			fee	U+06A2: ARABIC LETTER FEH WITH DOT MOVED BELOW	
 غ	g	ɡ		g	g		Lo		consonant			aŋgani	U+063A: ARABIC LETTER GHAIN	
