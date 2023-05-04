@@ -10,7 +10,7 @@ var spreadsheet = `ethi-am	key	ipa	ipa+	translit	LOC	kbd	class	status	type	usage
 ፦	:			ˉ	ˉ		Po		preface colon		ʾäsəräǧi säräzə	አስረጂ ሰረዝ	U+1366: ETHIOPIC PREFACE COLON	✓
 ፞	:						Mn​	i	vowel length mark				U+135E: ETHIOPIC COMBINING VOWEL LENGTH MARK	✓
 !	!			!	!		Po		exclamation mark				U+0021: EXCLAMATION MARK	
-¡	!			¡	¡				exclamation mark					
+¡	!			¡	¡				exclamation mark				U+00A1: INVERTED EXCLAMATION MARK	
 ፧	?			¿	?		Po	i	question mark		śosətə näṭəbə	ሦስት ነጥብ	U+1367: ETHIOPIC QUESTION MARK	✓
 ?	?			?	?		Po		question mark				U+003F: QUESTION MARK	
 ።	.			.	.		Po		full stop		ʾäratə näṭəbə	አራት ነጥብ	U+1362: ETHIOPIC FULL STOP	✓
@@ -21,6 +21,14 @@ var spreadsheet = `ethi-am	key	ipa	ipa+	translit	LOC	kbd	class	status	type	usage
 ፡	]				-		Po		wordspace		hulätə näṭəbə	ሁለት ነጥብ	U+1361: ETHIOPIC WORDSPACE	✓
 ፟	&						Mn​	i	gemination mark				U+135F: ETHIOPIC COMBINING GEMINATION MARK	✓
 ፝	&						Mn​	i	gemination + vowel length mark				U+135D: ETHIOPIC COMBINING GEMINATION AND VOWEL LENGTH MARK	✓
+«	<			«			Pi		quotation mark				U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
+‹	<			‹			Pi		quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	
+“	<			“	“		Pi		quotation mark				U+201C: LEFT DOUBLE QUOTATION MARK	
+‘	<			\‘	\‘		Pi		quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	
+»	>			»			Pf		quotation mark				U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
+›	>			›			Pf		quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
+”	>			”	”		Pf		quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK	
+’	>			\’	\’		Pf		quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
 %	%				%		Po		percentage mark				U+0025: PERCENT SIGN	
 ᎐	^						So		tonal mark				U+1390: ETHIOPIC TONAL MARK YIZET	
 ᎑	^						So		tonal mark				U+1391: ETHIOPIC TONAL MARK DERET	
