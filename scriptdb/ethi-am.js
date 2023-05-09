@@ -1,6 +1,6 @@
 var spreadsheet = `ethi-am	key	ipa	ipa+	translit	LOC	kbd	class	status	type	usage	native name	name	ucs name	
 -	-			-	-		Pd		hyphen				U+2010: HYPHEN	
-‑	-			‑	‑		Pd		non-breaking hyphen				U+2011: NON-BREAKING HYPHEN	
+‑	-			‑	‑		Pd	u	non-breaking hyphen				U+2011: NON-BREAKING HYPHEN	
 –	-			–	–		Pd		en dash				U+2013: EN DASH	
 —	-			—	—		Pd		em dash				U+2014: EM DASH	
 ፣	,			,	,		Po		comma		näṭäla säräzə	ነጠላ ሰረዝ	U+1363: ETHIOPIC COMMA	✓
@@ -30,16 +30,16 @@ var spreadsheet = `ethi-am	key	ipa	ipa+	translit	LOC	kbd	class	status	type	usage
 ”	>			”	”		Pf		quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK	
 ’	>			\’	\’		Pf		quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
 %	%				%		Po		percentage mark				U+0025: PERCENT SIGN	
-᎐	^						So		tonal mark				U+1390: ETHIOPIC TONAL MARK YIZET	
-᎑	^						So		tonal mark				U+1391: ETHIOPIC TONAL MARK DERET	
-᎒	^						So		tonal mark				U+1392: ETHIOPIC TONAL MARK RIKRIK	
-᎓	^						So		tonal mark				U+1393: ETHIOPIC TONAL MARK SHORT RIKRIK	
-᎔	^						So		tonal mark				U+1394: ETHIOPIC TONAL MARK DIFAT	
-᎕	^						So		tonal mark				U+1395: ETHIOPIC TONAL MARK KENAT	
-᎖	^						So		tonal mark				U+1396: ETHIOPIC TONAL MARK CHIRET	
-᎗	^						So		tonal mark				U+1397: ETHIOPIC TONAL MARK HIDET	
-᎘	^						So		tonal mark				U+1398: ETHIOPIC TONAL MARK DERET-HIDET	
-᎙	^						So		tonal mark				U+1399: ETHIOPIC TONAL MARK KURT	
+᎐	^						So	u	tonal mark				U+1390: ETHIOPIC TONAL MARK YIZET	
+᎑	^						So	u	tonal mark				U+1391: ETHIOPIC TONAL MARK DERET	
+᎒	^						So	u	tonal mark				U+1392: ETHIOPIC TONAL MARK RIKRIK	
+᎓	^						So	u	tonal mark				U+1393: ETHIOPIC TONAL MARK SHORT RIKRIK	
+᎔	^						So	u	tonal mark				U+1394: ETHIOPIC TONAL MARK DIFAT	
+᎕	^						So	u	tonal mark				U+1395: ETHIOPIC TONAL MARK KENAT	
+᎖	^						So	u	tonal mark				U+1396: ETHIOPIC TONAL MARK CHIRET	
+᎗	^						So	u	tonal mark				U+1397: ETHIOPIC TONAL MARK HIDET	
+᎘	^						So	u	tonal mark				U+1398: ETHIOPIC TONAL MARK DERET-HIDET	
+᎙	^						So	u	tonal mark				U+1399: ETHIOPIC TONAL MARK KURT	
 ፩	±			1	1̣		No		digit				U+1369: ETHIOPIC DIGIT ONE	✓
 ፪	±			2	2̣		No		digit				U+136A: ETHIOPIC DIGIT TWO	✓
 ፫	±			3	3̣		No		digit				U+136B: ETHIOPIC DIGIT THREE	✓

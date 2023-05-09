@@ -18,14 +18,14 @@ var spreadsheet = `syrc-aii	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ̃	/			~			Mn		repertoire extension	used with ܫ			ܡܲܓ̰ܠܝܼܵܢܵܐ	maǧliyana	U+0303: COMBINING TILDE	✓	maǧliyana
 ̰	/			˷			Mn		repertoire extension	used with ܫ, ܟ, ܓ			ܡܲܓ̰ܠܝܼܵܢܵܐ	maǧliyɑnɑ	U+0330: COMBINING TILDE BELOW	✓	maǧliyana
 ̮	/			ˇ			Mn		fricative indicator	used with ܦ			ܩܝܸܫܬܵܐ݂݂	qiʃtɑ	U+032E: COMBINING BREVE BELOW	✓	
-̊	/			‐̊			Mn		hard/soft sound marker						U+030A: COMBINING RING ABOVE	✓	
-̥	/			‐̥			Mn		hard/soft sound marker						U+0325: COMBINING RING BELOW	✓	
+̊	/			‐̊			Mn	?	hard/soft sound marker						U+030A: COMBINING RING ABOVE	✓	
+̥	/			‐̥			Mn	?	hard/soft sound marker						U+0325: COMBINING RING BELOW	✓	
 ̈	&			˖	\u030B		Mn		plural marker				ܣܝܵܡܹ̈ܐ	syame	U+0308: COMBINING DIAERESIS	✓	syame
-\u200B	=			␣			Cf		zero-width space						U+200B: ZERO WIDTH SPACE		
+\u200B	=			␣			Cf	u	zero-width space						U+200B: ZERO WIDTH SPACE		
 \u200C	=			ᶻʷⁿʲ			Cf		zero-width non-joiner						U+200C: ZERO WIDTH NON-JOINER		
 \u200D	=			ᶻʷʲ			Cf		zero-width joiner						U+200D: ZERO WIDTH JOINER		
-\u034F	=			ᶜᵍʲ			Mn		combining grapheme joiner						U+034F: COMBINING GRAPHEME JOINER		
-\u2060	=			ʷʲ			Cf		word joiner						U+2060 WORD JOINER		
+\u034F	=			ᶜᵍʲ			Mn	?	combining grapheme joiner						U+034F: COMBINING GRAPHEME JOINER		
+\u2060	=			ʷʲ			Cf	?	word joiner						U+2060 WORD JOINER		
 \u2067	=			ʳˡⁱ			Cf		rtl isolate						U+2067: RIGHT-TO-LEFT ISOLATE		
 \u2066	=			ˡʳⁱ			Cf		ltr isolate						U+2066: LEFT-TO-RIGHT ISOLATE		
 \u2068	=			ᶠˢⁱ			Cf		first-strong isolate						U+2068: FIRST STRONG ISOLATE		
@@ -36,6 +36,8 @@ var spreadsheet = `syrc-aii	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 \u200F	=			ʳˡᵐ			Cf		rtl mark						U+200F: RIGHT-TO-LEFT MARK		
 \u200E	=			ˡʳᵐ			Cf		ltr mark						U+200E: LEFT-TO-RIGHT MARK		
 \u061C	=			ᵃˡᵐ			Cf		arabic letter mark						U+061C: ARABIC LETTER MARK		
+(	(			(	(		Ps		parenthesis						U+0028 LEFT PARENTHESIS		
+)	)			)	)		Ps		parenthesis						U+0029 RIGHT PARENTHESIS		
 ܐ	A	ʔ ɑ		ʔ	ʾ ȃ		Lo		consonant/mater lectionis		ܐ ـܐ ܕܐ	1	ܐܵܠܲܦ	ɑlap	U+0710: SYRIAC LETTER ALAPH	✓	ʾālap̄
 ܵ	a	ɑ		ā	ā		Mn		vowel diacritic				ܙܩܵܦܵܐ‎	zqɑp̄ɑ	U+0735: SYRIAC ZQAPHA DOTTED	✓	zqāp̄ā
 ܲ	a	a		a	a		Mn		vowel diacritic				ܦܬܵܚܵܐ‎	ptɑxɑ	U+0732: SYRIAC PTHAHA DOTTED	✓	pṯāḥā
@@ -46,6 +48,7 @@ var spreadsheet = `syrc-aii	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ܕ	d	d		d	d		Lo		consonant		ܕ ـܕ	4	ܕܵܠܲܬ	dɑlat	U+0715: SYRIAC LETTER DALATH	✓	dālaṯ
 ܕ݂	D	ð		dˑ	ḏ		s				ܕ݂ ܕ݂				U+0715 U+0742: SYRIAC LETTER DALATH, RUKKAKHA		
 ܹ	e	e		ē	ē		Mn		vowel diacritic				ܙܠܵܡܵܐ ܩܲܫܝܵܐ‎݁/ܝܲܪܝܼܟ݂ܵܐ	zlɑmɑ qaʃjɑ/yariħɑ	U+0739: SYRIAC DOTTED ZLAMA ANGULAR	✓	rḇāṣā karyā / zlāmā qašyā
+ܹܝ	e	e		ẹ					composite vowel						U+0739 U+071D: SYRIAC DOTTED ZLAMA ANGULAR, LETTER YUDH		
 ܦ̮	f	f		pˇ			s				ܦ̮ ܦ̮ܦ̮ܦ̮				U+0726 U+032E: SYRIAC LETTER PE, COMBINING BREVE BELOW		
 ܓ	g	ɡ		g	g		Lo		consonant		ܓ ܓـܓـܓ	3	ܓܵܡܵܠ	gɑmal	U+0713: SYRIAC LETTER GAMAL	✓	gāmal
 ܗ	h	h		h	h		Lo		consonant		ܗ ـܗ	5	ܗܹܐ	he	U+0717: SYRIAC LETTER HE	✓	hē
@@ -81,37 +84,34 @@ var spreadsheet = `syrc-aii	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 																	
 ̤							Mn		phonological marker						U+0324: COMBINING DIAERESIS BELOW	✓	
 																	
-݃							Mn		accent mark						U+0743: SYRIAC TWO VERTICAL DOTS ABOVE	✓	
-݄							Mn		accent mark						U+0744: SYRIAC TWO VERTICAL DOTS BELOW	✓	
+݃							Mn	?	accent mark						U+0743: SYRIAC TWO VERTICAL DOTS ABOVE	✓	
+݄							Mn	?	accent mark						U+0744: SYRIAC TWO VERTICAL DOTS BELOW	✓	
 																	
-܀							Po		end of paragraph						U+0700: SYRIAC END OF PARAGRAPH	✓	
-܁				.	.		Po		full stop						U+0701: SYRIAC SUPRALINEAR FULL STOP	✓	
-܂				.	.		Po		full stop						U+0702: SYRIAC SUBLINEAR FULL STOP	✓	
-܃				:	:		Po		colon						U+0703: SYRIAC SUPRALINEAR COLON	✓	
-܄				:	:		Po		colon						U+0704: SYRIAC SUBLINEAR COLON	✓	
-܅				:	:		Po		colon						U+0705: SYRIAC HORIZONTAL COLON	✓	
+܀							Po	?	end of paragraph						U+0?: SYRIAC END OF PARAGRAPH	✓	
+܁				.	.		Po	?	full stop						U+0701: SYRIAC SUPRALINEAR FULL STOP	✓	
+܂				.	.		Po	?	full stop						U+0702: SYRIAC SUBLINEAR FULL STOP	✓	
+܃				:	:		Po	?	colon						U+0703: SYRIAC SUPRALINEAR COLON	✓	
+܄				:	:		Po	?	colon						U+0704: SYRIAC SUBLINEAR COLON	✓	
+܅				:	:		Po	?	colon						U+0705: SYRIAC HORIZONTAL COLON	✓	
 ܆				:	:		Po		colon						U+0706: SYRIAC COLON SKEWED LEFT	✓	
 ܇				:	:		Po		colon						U+0707: SYRIAC COLON SKEWED RIGHT	✓	
-܈				;	;		Po		phrase division						U+0708: SYRIAC SUPRALINEAR COLON SKEWED LEFT	✓	
-܉				?	?		Po		question mark						U+0709: SYRIAC SUBLINEAR COLON SKEWED RIGHT	✓	
+܈				;	;		Po	?	phrase division						U+0708: SYRIAC SUPRALINEAR COLON SKEWED LEFT	✓	
+܉				?	?		Po	?	question mark						U+0709: SYRIAC SUBLINEAR COLON SKEWED RIGHT	✓	
 																	
-܊				.	.		Po		contraction mark						U+070A: SYRIAC CONTRACTION	✓	
+܊				.	.		Po	?	contraction mark						U+070A: SYRIAC CONTRACTION	✓	
 \u070F							Cf		abbreviation mark						U+070F SYRIAC ABBREVIATION MARK		
-܋							Po		note marker						U+070B: SYRIAC HARKLEAN OBELUS	✓	
-܌							Po		note marker						U+070C: SYRIAC HARKLEAN METOBELUS	✓	
-܍							Po		note marker						U+070D: SYRIAC HARKLEAN ASTERISCUS	✓	
+܋							Po	?	note marker						U+070B: SYRIAC HARKLEAN OBELUS	✓	
+܌							Po	?	note marker						U+070C: SYRIAC HARKLEAN METOBELUS	✓	
+܍							Po	?	note marker						U+070D: SYRIAC HARKLEAN ASTERISCUS	✓	
 																	
 .							Po		full stop						U+002E: FULL STOP		
 							Zs		space						U+0020: SPACE		
-•				•			Po		bullet						U+2022: BULLET		
+•				•			Po	?	bullet						U+2022: BULLET		
 																	
 ̭							Mn								U+032D: COMBINING CIRCUMFLEX ACCENT BELOW		
-																	
 `																	
 																	
 latinPanel = 'ɑ ȃ â ḇ č ḏ ḡ ǧ ḥ ɪ ȋ î ḵ ∅ ô sˤ ṣ ʃ š tˤ ṭ ṯ û ʒ ẑ ʕ ʔ ʾ'																	
-																	
-																	
 																	
 var cols = {																	
 key: 1,																	

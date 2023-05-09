@@ -16,15 +16,15 @@ var spreadsheet = `arab-ff	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 )	)			)	)		Ps		parenthesis				U+0029: RIGHT PARENTHESIS	
 ]	)			]	]		Pe		bracket				U+005D: RIGHT SQUARE BRACKET	
 %	%			%			Po		percentage mark				U+0025: PERCENT SIGN	
-‰	%			‰			Po		per mille mark				U+2030: PER MILLE SIGN	
+‰	%			‰			Po	u	per mille mark				U+2030: PER MILLE SIGN	
 «	<			«			Pi		quotation mark				U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	✓
-‹	<			‹			Pi		quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	
-“	<			“	“		Pi		quotation mark				U+201C: LEFT DOUBLE QUOTATION MARK	
-‘	<			\‘	\‘		Pi		quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	
+‹	<			‹			Pi	u	quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	
+“	<			“	“		Pi	u	quotation mark				U+201C: LEFT DOUBLE QUOTATION MARK	
+‘	<			\‘	\‘		Pi	u	quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	
 »	>			»			Pf		quotation mark				U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	✓
-›	>			›			Pf		quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
-”	>			”	”		Pf		quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK	
-’	>			\’	\’		Pf		quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
+›	>			›			Pf	u	quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
+”	>			”	”		Pf	u	quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK	
+’	>			\’	\’		Pf	u	quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
 ْ	*			͞			Mn		vowel absence marker			howde / hownde	U+0652: ARABIC SUKUN	
 ّ	&			˖			Mn		gemination mark			siddere	U+0651: ARABIC SHADDA	
 ٰ	[			̍			Mn		vowel	used as part of ٜىٰ			U+0670: ARABIC LETTER SUPERSCRIPT ALEF	
@@ -107,7 +107,7 @@ var spreadsheet = `arab-ff	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 \u200E	=			ˡʳᵐ			Cf		ltr mark				U+200E: LEFT-TO-RIGHT MARK	
 \u034F	=			ᶜᵍʲ			Mn		combining grapheme joiner				U+034F: COMBINING GRAPHEME JOINER	
 \u061C	=			ᵃˡᵐ			Cf		arabic letter mark				U+061C: ARABIC LETTER MARK	
-◌				◌	◌								U+25CC: DOTTED CIRCLE	
+◌				◌	◌			u					U+25CC: DOTTED CIRCLE	
 `														
 														
 latinPanel = 'aː d͡ʒ eː ẹ ḥ iː oː t͡ʃ uː ā ē ŋ ƴ ɓ ɗ ɡ ɲ ɾ ʃ ʔ ʔʲ θ χ ᵐb ᵑɡ ᶮd͡ʒ ḍ ṣ ’ ⁿd'														

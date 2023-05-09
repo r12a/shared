@@ -2,9 +2,9 @@ var spreadsheet = `armn-hy	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 \u0020	 						Zs		space								U+0020: SPACE	
 ֊	-			-	-		Pd		soft hyphen							miowt‛jan_gic	U+058A: ARMENIAN HYPHEN	✓
 -	-			-	-	6			hyphen								U+2010: HYPHEN	
-‑	-			‑	‑		Pd		non-breaking hyphen								U+2011: NON-BREAKING HYPHEN	
-–	-			–	–	%	Pd		en dash								U+2013: EN DASH	
-—	-			—	—	^	Pd		em dash								U+2014: EM DASH	
+‑	-			‑	‑		Pd	?	non-breaking hyphen								U+2011: NON-BREAKING HYPHEN	
+–	-			–	–	%	Pd	?	en dash								U+2013: EN DASH	
+—	-			—	—	^	Pd	?	em dash								U+2014: EM DASH	
 ,	,			,	,	5	Po		comma							storaket	U+002C: COMMA	
 ՝	;			;	;		Po		(semi) colon							bowt’	U+055D: ARMENIAN COMMA	✓
 ․	:			:	:		Po		colon							mijaket	U+2024: ONE DOT LEADER	
@@ -15,25 +15,25 @@ var spreadsheet = `armn-hy	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 .	.			.	.	7	Po		full stop								U+002E: FULL STOP	
 …	.			…	…	!	Po		ellipsis								U+2026: HORIZONTAL ELLIPSIS	
 (	(			(	(	*	Ps		parenthesis								U+0028: LEFT PARENTHESIS	
-[	(			[	[		Ps		bracket								U+005B: LEFT SQUARE BRACKET	
+[	(			[	[		Ps	?	bracket								U+005B: LEFT SQUARE BRACKET	
 )	)			)	)	(	Pe		parenthesis								U+0029: RIGHT PARENTHESIS	
-]	)			]	]		Pe		bracket								U+005D: RIGHT SQUARE BRACKET	
-ՙ	[			ʿ			Lm	d	mistaken encoding	Do not use.							U+0559: ARMENIAN MODIFIER LETTER LEFT HALF RING	✓
-՚	[			′		\	Po	d	apostrophe	deprecated						apat'arts	U+055A: ARMENIAN APOSTROPHE	✓
+]	)			]	]		Pe	?	bracket								U+005D: RIGHT SQUARE BRACKET	
+ՙ				ʿ			Lm	d	mistaken encoding	Do not use.							U+0559: ARMENIAN MODIFIER LETTER LEFT HALF RING	✓
+՚				′		\	Po	d	apostrophe	deprecated						apat'arts	U+055A: ARMENIAN APOSTROPHE	✓
 ֏	#			¤	¤		Sc	i	currency symbol							dram	U+058F: ARMENIAN DRAM SIGN	✓
 %	%			%			Po		percentage mark								U+0025: PERCENT SIGN	
-‰	%			‰			Po		per mille mark								U+2030: PER MILLE SIGN	
+‰	%			‰			Po	?	per mille mark								U+2030: PER MILLE SIGN	
 ՟	+			¨			Po	a	abbreviation mark	obsolete						pativ	U+055F: ARMENIAN ABBREVIATION MARK	✓
 «	<			«	“	8	Pi		quotation mark								U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	✓
-‹	<			‹			Pi		quotation mark								U+2018: LEFT SINGLE QUOTATION MARK	
-“	<			“	“		Pi		quotation mark								U+201C: LEFT DOUBLE QUOTATION MARK	
-\‘	<			\‘	\‘		Pi		quotation mark								U+2018: LEFT SINGLE QUOTATION MARK	
-\u200C	=			ₓ			Cf		zwnj								U+200C: ZERO WIDTH NON-JOINER	
-\u200D	=			₊			Cf		zwj								U+200D: ZERO WIDTH JOINER	
+‹	<			‹			Pi	?	quotation mark								U+2018: LEFT SINGLE QUOTATION MARK	
+“	<			“	“		Pi	?	quotation mark								U+201C: LEFT DOUBLE QUOTATION MARK	
+‘	<			\‘	\‘		Pi	?	quotation mark								U+2018: LEFT SINGLE QUOTATION MARK	
+\u200C	=			ₓ			Cf	?	zwnj								U+200C: ? WIDTH NON-JOINER	
+\u200D	=			₊			Cf	?	zwj								U+200D: ZERO WIDTH JOINER	
 »	>			»	”	9	Pf		quotation mark								U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	✓
-›	>			›			Pf		quotation mark								U+2019: RIGHT SINGLE QUOTATION MARK	
-”	>			”	”		Pf		quotation mark								U+201D: RIGHT DOUBLE QUOTATION MARK	
-\’	>			\’	\’		Pf		quotation mark								U+2019: RIGHT SINGLE QUOTATION MARK	
+›	>			›			Pf	?	quotation mark								U+2019: RIGHT SINGLE QUOTATION MARK	
+”	>			”	”		Pf	?	quotation mark								U+201D: RIGHT DOUBLE QUOTATION MARK	
+’	>			\’	\’		Pf		quotation mark								U+2019: RIGHT SINGLE QUOTATION MARK	
 ա	a	ɑ		a	a	a	Ll		lowercase vowel				Ա	1	այբ	ajb/ajpʰ	U+0561: ARMENIAN SMALL LETTER AYB	✓
 Ա	A	Ɑ		ạ	A	A	Lu		uppercase vowel			ա			այբ	ajb/ajpʰ	U+0531: ARMENIAN CAPITAL LETTER AYB	✓
 բ	b	b pʰ		b	b	p	Ll		lowercase plosive				Բ	2	բեն	bɛn/pʰɛn	U+0562: ARMENIAN SMALL LETTER BEN	✓
@@ -129,13 +129,13 @@ var spreadsheet = `armn-hy	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ֍							So	i	symbol								U+058D: RIGHT-FACING ARMENIAN ETERNITY SIGN	✓
 ֎							So	i	symbol								U+058E: LEFT-FACING ARMENIAN ETERNITY SIGN	✓
 																		
-★							So										U+2605: BLACK STAR	
-ʼ				ʼ	ʼ		Lm		apostrophe								U+02BC: MODIFIER LETTER APOSTROPHE	
-§				§	§		Po		section sign								U+00A7: SECTION SIGN	
-†				†	†		Po		dagger								U+2020: DAGGER	
-‡				‡	‡		Po		double dagger								U+2021: DOUBLE DAGGER	
-′				′	′		Po		prime								U+2032: PRIME	
-″				″	″		Po		double prime								U+2033: DOUBLE PRIME	
+★							So	?									U+2605: BLACK STAR	
+ʼ				ʼ	ʼ		Lm	?	apostrophe								U+02BC: MODIFIER LETTER APOSTROPHE	
+§				§	§		Po	?	section sign								U+00A7: SECTION SIGN	
+†				†	†		Po	?	dagger								U+2020: DAGGER	
+‡				‡	‡		Po	?	double dagger								U+2021: DOUBLE DAGGER	
+′				′	′		Po	?	prime								U+2032: PRIME	
+″				″	″		Po	?	double prime								U+2033: DOUBLE PRIME	
 0	0			0	0		Nd		digit								U+0030: DIGIT ZERO	
 1	1			1	1		Nd		digit								U+0031: DIGIT ONE	
 2	2			2	2		Nd		digit								U+0032: DIGIT TWO	
