@@ -146,13 +146,10 @@ var spreadsheet = `mymr-my	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ၔ					–	%	Lo		for the keyboard						U+1054: MYANMAR LETTER VOCALIC L	✓
 ၕ					–	^	Lo		for the keyboard						U+1055: MYANMAR LETTER VOCALIC LL	✓
 ၑ					–	|	Lo		for the keyboard						U+1051: MYANMAR LETTER SSA	✓
-																
+\u25CC									for display						Consonant	
 `																
 																
-																
 latinPanel = 'ḍ ð d͡ʑ ɛ è ḭ ì ɪ ʲ kʰ ŋ ɲ ɴ ṇ ∅ ɔ́ ɔ̀ pʰ θ ɹ sʰ ʃ tʰ t͡ɕ t͡ɕʰ ṵ ù ʊ ʔ'																
-																
-																
 																
 var cols = {																
 key: 1,																
@@ -176,4 +173,3 @@ block: 16,
 																
 othertranscriptions: [[5, 'MLC']]																
 }																
-																
