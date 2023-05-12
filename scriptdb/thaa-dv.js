@@ -1,7 +1,7 @@
 var spreadsheet = `thaa-dv	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	native name	latin name	ucs name	block
 ،	,			,	,	F	Po		arabic comma				U+060C: ARABIC COMMA	
 ,	,			,	,		Po		comma				U+002C: COMMA	
-⹁	,			⹁	⹁		Po		comma				U+2E41: REVERSED COMMA	
+⹁	,			⹁	⹁		Po	?	comma				U+2E41: REVERSED COMMA	
 ؛	;			;	;	"	Po		arabic semicolon				U+061B: ARABIC SEMICOLON	
 ;	;			;	;		Po		semicolon				U+003B: SEMICOLON	
 :	:			:	:		Po		colon				U+003A: COLON	
@@ -9,9 +9,9 @@ var spreadsheet = `thaa-dv	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ?	?			?	?		Po		question mark				U+003F: QUESTION MARK	
 .	.			.	.		Po		full stop				U+002E: FULL STOP	
 (	(			(	(		Ps		parenthesis				U+0028: LEFT PARENTHESIS	
-[	(			[	[		Pe		bracket				U+005B: LEFT SQUARE BRACKET	
+[	(			[	[		Pe	?	bracket				U+005B: LEFT SQUARE BRACKET	
 )	)			)	)		Ps		parenthesis				U+0029: RIGHT PARENTHESIS	
-]	)			]	]		Pe		bracket				U+005D: RIGHT SQUARE BRACKET	
+]	)			]	]		Pe	?	bracket				U+005D: RIGHT SQUARE BRACKET	
 														
 އ	{	∅		ʿ		j	Lo		vowel support		އަލިފު	alifu	U+0787: THAANA LETTER ALIFU	✓
 ޢ	{	ʕ		ʕ	ʻ	J	Lo		arabic consonant	ع	ޢައިނު	aïnu	U+07A2: THAANA LETTER AINU	✓
@@ -64,17 +64,17 @@ var spreadsheet = `thaa-dv	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ޜ	Z	ʒ		ʒ		Y	Lo		english consonant	ʒ	ޜާ	zaa	U+079C: THAANA LETTER ZAA	✓
 ޡ	Z	z̴		z̴		:	Lo		arabic consonant	ظ	ޡޮ	zo	U+07A1: THAANA LETTER ZO	✓
 														
-/				–		E	Po						U+002F: SOLIDUS	
+/				–		E	Po	?					U+002F: SOLIDUS	
 :				–		R	Po						U+003A: COLON	
-<				–		A	Sm						U+003C: LESS-THAN SIGN	
->				–		S	Sm						U+003E: GREATER-THAN SIGN	
+<				–		A	Sm	?					U+003C: LESS-THAN SIGN	
+>				–		S	Sm	?					U+003E: GREATER-THAN SIGN	
 .				–		D	Po						U+002E: FULL STOP	
-,				–		d	Po						U+002C: COMMA	
-"				–		G	Po						U+0022: QUOTATION MARK	
+,				–		d	Po	?					U+002C: COMMA	
+"				–		G	Po	?					U+0022: QUOTATION MARK	
 اللّٰه				–									U+0627 U+0644 U+0644 U+0651 U+0670 U+0647: ARABIC LETTER ALEF, LETTER LAM, LETTER LAM, SHADDA, LETTER SUPERSCRIPT ALEF, LETTER HEH	
-;				–			Po						U+003B: SEMICOLON	
+;				–			Po	?					U+003B: SEMICOLON	
 \				–		<	Po						U+005C: REVERSE SOLIDUS	
-؟				–		|	Po						U+061F: ARABIC QUESTION MARK	
+؟				–		|	Po	?					U+061F: ARABIC QUESTION MARK	
 `														
 														
 latinPanel = 'ɖ ḏ d̤ ə əː eː ɡ ǵ ḥ ḫ ħ iː ɟ ɲ ṇ ∅ ɔ ɔː ʂ š ṣ ʃ ṯ t̤ t͡ʃ d͡ʒ uː ʋ ʻ ʒ z̴ ɣ t̴ θ ð d̴ ʕ ʔ'														
