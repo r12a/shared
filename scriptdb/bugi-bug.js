@@ -1,7 +1,7 @@
 var spreadsheet = `bugi-bug	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	native name	latin name	ucs name	block
 ᨞	,			,		,	Po		phrase separator			pallawa	U+1A1E: BUGINESE PALLAWA	✓
-\u200B	]			␣			Cf		zero-width space				U+200B: ZERO WIDTH SPACE	
-\u200C	=			ᶻʷⁿʲ			Cf		zero-width non-joiner				U+200C: ZERO WIDTH NON-JOINER	
+\u200B	]			␣			Cf	?	zero-width space				U+200B: ZERO WIDTH SPACE	
+\u200C	=			ᶻʷⁿʲ			Cf	?	zero-width non-joiner				U+200C: ZERO WIDTH NON-JOINER	
 \u200D	=			ᶻʷʲ			Cf		zero-width joiner				U+200D: ZERO WIDTH JOINER	
 ᨟	|			¶		.	Po		section separator				U+1A1F: BUGINESE END OF SECTION	✓
 ᨕ	a	ɑ		+	ɑ	a	Lo		vowel				U+1A15: BUGINESE LETTER A	✓
@@ -40,13 +40,9 @@ var spreadsheet = `bugi-bug	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᨐ	y	j	a	y	y	y	Lo		consonant				U+1A10: BUGINESE LETTER YA	✓
 														
 ꧏ				–		§	Lm		for the keyboard				U+A9CF: JAVANESE PANGRANGKEP	
-														
 `														
 														
-														
 latinPanel = 'ɑ ə ɟ ŋ ɲ'														
-														
-														
 														
 var cols = {														
 key: 1,														
@@ -67,5 +63,3 @@ block: 14,
 														
 othertranscriptions: [[5, 'Latin']]														
 }														
-														
-														
