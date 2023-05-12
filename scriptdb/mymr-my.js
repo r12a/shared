@@ -7,11 +7,11 @@ var spreadsheet = `mymr-my	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ့	^			.	¹	h	Mn		tone mark						U+1037: MYANMAR SIGN DOT BELOW	✓
 း	^			:	²	;	Mc		tone mark						U+1038: MYANMAR SIGN VISARGA	✓
 “	<			“	“		Pi		quotation mark						U+201C: LEFT DOUBLE QUOTATION MARK	
-\‘	<			\‘	\‘		Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
+‘	<			\‘	\‘		Pi	?	quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
 \u200C	=			ᶻʷⁿʲ	ₓ		Cf		zero width non-joiner						U+200C: ZERO WIDTH NON-JOINER	
-\u200D	=			ᶻʷʲ	₊		Cf		zero width joiner						U+200D: ZERO WIDTH JOINER	
+\u200D	=			ᶻʷʲ	₊		Cf	?	zero width joiner						U+200D: ZERO WIDTH JOINER	
 ”	>			”	”		Pf		quotation mark						U+201D: RIGHT DOUBLE QUOTATION MARK	
-\’	>			\’	\’		Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
+’	>			\’	\’		Pf	?	quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
 ၊	|			၊	,	,	Po		comma				ပုဒ်ဖြတ်, ပုဒ်ကလေး, ပုဒ်ထီး, or တစ်ချောင်းပုဒ်		U+104A: MYANMAR SIGN LITTLE SECTION	✓
 ။	|			။	.	.	Po		full stop				ပုဒ်ကြီး, ပုဒ်မ, or နှစ်ချောင်းပုဒ်		U+104B: MYANMAR SIGN SECTION	✓
 ၌	$	n̥aiʔ		hnai.	(loc)	Y	Po		symbol					ɛʔkʰəjanʰaɪʔ	U+104C: MYANMAR SYMBOL LOCATIVE	✓
@@ -120,33 +120,33 @@ var spreadsheet = `mymr-my	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 																
 ွှ		–̥w		h–w	w̆h̆		s								U+103D U+103E: MYANMAR CONSONANT SIGN MEDIAL WA, CONSONANT SIGN MEDIAL HA	
 																
-\u034F				ᶜᵍʲ					combining grapheme joiner						U+034F: COMBINING GRAPHEME JOINER	
+\u034F				ᶜᵍʲ				?	combining grapheme joiner						U+034F: COMBINING GRAPHEME JOINER	
 																
-,	,			,	,		Po		comma						U+002C: COMMA	
-;	;			;	;		Po		semicolon						U+003B: SEMICOLON	
+,	,			,	,	?	Po		comma						U+002C: COMMA	
+;	;			;	;	?	Po		semicolon						U+003B: SEMICOLON	
 :	:			:	:		Po		colon						U+003A: COLON	
-.	.			.	.		Po		full stop						U+002E: FULL STOP	
+.	.			.	.	?	Po		full stop						U+002E: FULL STOP	
 ?	?			?	?		Po		question mark						U+003F: QUESTION MARK	
-!	!			!	!		Po		exclamation mark						U+0021: EXCLAMATION MARK	
+!	!			!	!		Po	?	exclamation mark						U+0021: EXCLAMATION MARK	
 (	(			(	(		Ps		parenthesis						U+0028: LEFT PARENTHESIS	
 )	)			)	)		Ps		parenthesis						U+0029: RIGHT PARENTHESIS	
-…	.			…	…		Po		ellipsis						U+2026: HORIZONTAL ELLIPSIS	
-–	-			–	–		Pd		en dash						U+2013: EN DASH	
-—	-			—	—		Pd		em dash						U+2014: EM DASH	
+…	.			…	…		Po	?	ellipsis						U+2026: HORIZONTAL ELLIPSIS	
+–	-			–	–		Pd	?	en dash						U+2013: EN DASH	
+—	-			—	—		Pd	?	em dash						U+2014: EM DASH	
 																
-§							Po		section sign						U+00A7: SECTION SIGN	
-†							Po		dagger						U+2020: DAGGER	
-‡							Po		double dagger						U+2021: DOUBLE DAGGER	
-′							Po		prime						U+2032: PRIME	
-″							Po		double prime						U+2033: DOUBLE PRIME	
+§							Po	?	section sign						U+00A7: SECTION SIGN	
+†							Po	?	dagger						U+2020: DAGGER	
+‡							Po	?	double dagger						U+2021: DOUBLE DAGGER	
+′							Po	?	prime						U+2032: PRIME	
+″							Po	?	double prime						U+2033: DOUBLE PRIME	
 																
-ၐ					–	±	Lo		for the keyboard						U+1050: MYANMAR LETTER SHA	✓
-ၒ					–	@	Lo		for the keyboard						U+1052: MYANMAR LETTER VOCALIC R	✓
-ၓ					–	$	Lo		for the keyboard						U+1053: MYANMAR LETTER VOCALIC RR	✓
-ၔ					–	%	Lo		for the keyboard						U+1054: MYANMAR LETTER VOCALIC L	✓
-ၕ					–	^	Lo		for the keyboard						U+1055: MYANMAR LETTER VOCALIC LL	✓
-ၑ					–	|	Lo		for the keyboard						U+1051: MYANMAR LETTER SSA	✓
-\u25CC									for display						Consonant	
+ၐ					–	±	Lo	u	for the keyboard						U+1050: MYANMAR LETTER SHA	✓
+ၒ					–	@	Lo	u	for the keyboard						U+1052: MYANMAR LETTER VOCALIC R	✓
+ၓ					–	$	Lo	u	for the keyboard						U+1053: MYANMAR LETTER VOCALIC RR	✓
+ၔ					–	%	Lo	u	for the keyboard						U+1054: MYANMAR LETTER VOCALIC L	✓
+ၕ					–	^	Lo	u	for the keyboard						U+1055: MYANMAR LETTER VOCALIC LL	✓
+ၑ					–	|	Lo	u	for the keyboard						U+1051: MYANMAR LETTER SSA	✓
+\u25CC								u	for display						Consonant	
 `																
 																
 latinPanel = 'ḍ ð d͡ʑ ɛ è ḭ ì ɪ ʲ kʰ ŋ ɲ ɴ ṇ ∅ ɔ́ ɔ̀ pʰ θ ɹ sʰ ʃ tʰ t͡ɕ t͡ɕʰ ṵ ù ʊ ʔ'																
