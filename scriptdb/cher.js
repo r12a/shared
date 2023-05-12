@@ -1,35 +1,35 @@
 var spreadsheet = `cher-chr	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	lc	uc	native name	latin name	ucs name	block
 -	-			-	-		Pd		hyphen						U+2010: HYPHEN	
-‑	-			‑	‑		Pd		non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
-–	-			–	–		Pd		en dash						U+2013: EN DASH	
-—	-			—	—		Pd		em dash						U+2014: EM DASH	
+‑	-			‑	‑		Pd	?	non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
+–	-			–	–		Pd	?	en dash						U+2013: EN DASH	
+—	-			—	—		Pd	?	em dash						U+2014: EM DASH	
 ,	,			,	,		Po		comma						U+002C: COMMA	
 ;	;			;	;		Po		semicolon						U+003B: SEMICOLON	
 :	:			:	:		Po		colon						U+003A: COLON	
 !	!			!	!		Po		exclamation mark						U+0021: EXCLAMATION MARK	
 ?	?			?	?		Po		question mark						U+003F: QUESTION MARK	
 .	.			.	.		Po		full stop						U+002E: FULL STOP	
-…	.			…	…		Po		ellipsis						U+2026: HORIZONTAL ELLIPSIS	
+…	.			…	…		Po	?	ellipsis						U+2026: HORIZONTAL ELLIPSIS	
 (	(			(	(		Ps		parenthesis						U+0028: LEFT PARENTHESIS	
-[	(			[	[		Pe		bracket						U+005B: LEFT SQUARE BRACKET	
+[	(			[	[		Pe	?	bracket						U+005B: LEFT SQUARE BRACKET	
 )	)			)	)		Ps		parenthesis						U+0029: RIGHT PARENTHESIS	
-]	)			]	]		Pe		bracket						U+005D: RIGHT SQUARE BRACKET	
+]	)			]	]		Pe	?	bracket						U+005D: RIGHT SQUARE BRACKET	
 ̰	[	̃		˜	̃		Mn	i	nasalisation						U+0330: COMBINING TILDE BELOW	
 ̣	[			ˈ			Mn	i	consonant shift						U+0323: COMBINING DOT BELOW	
 ̱	*			͞			Mn	i	vowel-killer						U+0331: COMBINING MACRON BELOW	
 ̤	\			˟			Mn	i	consonant shift + vowel killer						U+0324: COMBINING DIAERESIS BELOW	
-%	%			%			Po		percentage mark						U+0025: PERCENT SIGN	
-‰	%			‰			Po		per mille mark						U+2030: PER MILLE SIGN	
-̋	^	˥		˝	̋		Mn		super high tone mark	i					U+030B: COMBINING DOUBLE ACUTE ACCENT	
-́	^	˦		ˊ	́		Mn		high tone mark	i					U+0301: COMBINING ACUTE ACCENT	
-̂	^	˦˨		ˆ	̂		Mn		falling tone mark	i					U+0302: COMBINING CIRCUMFLEX ACCENT	
-̄	^	˧		ˉ	̄		Mn		mid tone mark	i					U+0304: COMBINING MACRON	
-̀	^	˨		ˋ	̀		Mn		low tone mark	i					U+0300: COMBINING GRAVE ACCENT	
-̌	^	˨˦		ˇ	̌		Mn		rising tone mark	i					U+030C: COMBINING CARON	
+%	%			%			Po	?	percentage mark						U+0025: PERCENT SIGN	
+‰	%			‰			Po	?	per mille mark						U+2030: PER MILLE SIGN	
+̋	^	˥		˝	̋		Mn	r	super high tone mark	i					U+030B: COMBINING DOUBLE ACUTE ACCENT	
+́	^	˦		ˊ	́		Mn	r	high tone mark	i					U+0301: COMBINING ACUTE ACCENT	
+̂	^	˦˨		ˆ	̂		Mn	r	falling tone mark	i					U+0302: COMBINING CIRCUMFLEX ACCENT	
+̄	^	˧		ˉ	̄		Mn	r	mid tone mark	i					U+0304: COMBINING MACRON	
+̀	^	˨		ˋ	̀		Mn	r	low tone mark	i					U+0300: COMBINING GRAVE ACCENT	
+̌	^	˨˦		ˇ	̌		Mn	r	rising tone mark	i					U+030C: COMBINING CARON	
 “	<			“	“		Pi		quotation mark						U+201C: LEFT DOUBLE QUOTATION MARK	
-\‘	<			\‘	\‘		Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
+‘	<			\‘	\‘		Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
 ”	>			”	”		Pf		quotation mark						U+201D: RIGHT DOUBLE QUOTATION MARK	
-\’	>			\’	\’		Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
+’	>			\’	\’		Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
 Ꭰ	a	a ʔa		A	a	A	Lu		syllable		ꭰ				U+13A0: CHEROKEE LETTER A	✓
 ꭰ	A	a ʔa		a	A	a	Ll		syllable			Ꭰ			U+AB70: CHEROKEE SMALL LETTER A	✓
 Ꮣ	d	ta	ː ʔ h	Dᵃ	da	C	Lu		syllable		ꮣ				U+13D3: CHEROKEE LETTER DA	✓
@@ -210,15 +210,13 @@ var spreadsheet = `cher-chr	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᏩᏙ				–		#										
 ꮹꮩ				–		3										
 																
-ʼ				ʼ	ʼ		Lm		apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
-§				§	§		Po		section sign						U+00A7: SECTION SIGN	
-†				†	†		Po		dagger						U+2020: DAGGER	
-‡				‡	‡		Po		double dagger						U+2021: DOUBLE DAGGER	
-′				′	′		Po		prime						U+2032: PRIME	
-″				″	″		Po		double prime						U+2033: DOUBLE PRIME	
-																
+ʼ				ʼ	ʼ		Lm	?	apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
+§				§	§		Po	?	section sign						U+00A7: SECTION SIGN	
+†				†	†		Po	?	dagger						U+2020: DAGGER	
+‡				‡	‡		Po	?	double dagger						U+2021: DOUBLE DAGGER	
+′				′	′		Po	?	prime						U+2032: PRIME	
+″				″	″		Po	?	double prime						U+2033: DOUBLE PRIME	
 `																
-																
 																
 latinPanel = ' ́ ̀ ̂ ̏ ̋ ̌ ̥ ː “ ‘ ” ’ ̃ ʰ kʰ kʷ kʰʷ tʰ ɬ t͡l t͡ɬ t͡s tʰ͡s t͡ʃ tʰ͡ʃ ʔ n̥ aː à á â ã iː ì í î ĩ uː ù ú û ũ eː è é ê ẽ oː ò ó ô õ ə̃ ə̃ː'																
 																
@@ -246,5 +244,3 @@ block: 16,
 																
 othertranscriptions: [[5, 'Latin']]																
 }																
-																
-																
