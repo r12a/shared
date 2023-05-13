@@ -46,10 +46,11 @@ var spreadsheet = `syrc-axp	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ܙ	z	z		z	z		Lo		consonant		ܙ ܙܙܙ	7	ܙܵܝܢ	zɑjn	U+0719: SYRIAC LETTER ZAIN	✓	zayn
 																	
 ܁	.			.	.		Po		full stop						U+0701: SYRIAC SUPRALINEAR FULL STOP	✓	
-܂				.	.		Po	?	full stop						U+0702: SYRIAC SUBLINEAR FULL STOP	✓	
+܂				.̣	.		Po		full stop						U+0702: SYRIAC SUBLINEAR FULL STOP	✓	
 ܃	:			:	:		Po		colon						U+0703: SYRIAC SUPRALINEAR COLON	✓	
 ܄				:	:		Po	?	colon						U+0704: SYRIAC SUBLINEAR COLON	✓	
 \u070F							Cf	?	abbreviation mark						U+070F SYRIAC ABBREVIATION MARK		
+܍							Po		note marker						U+070D: SYRIAC HARKLEAN ASTERISCUS		
 							Zs		space						U+0020: SPACE		
 `																	
 																	
