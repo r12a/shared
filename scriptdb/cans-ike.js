@@ -130,7 +130,7 @@ var spreadsheet = `cans-ike	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᙴ	B	ŋŋuː		ŋᵑᵘ̱	nnguu		Lo		syllable				U+1674: CANADIAN SYLLABICS NNGOO	✓
 ᙵ	b	ŋŋa		ŋᵑᵃ	nnga		Lo		syllable				U+1675: CANADIAN SYLLABICS NNGA	✓
 ᙶ	B	ŋŋaː		ŋᵑᵃ̱	nngaa		Lo		syllable				U+1676: CANADIAN SYLLABICS NNGAA	✓
-ᖖ	b	ŋŋ		ŋᵑ	nng		Lo		final consonant				U+1596: CANADIAN SYLLABICS NNG	✓
+ᖖ	b	ŋŋ		ŋᵑ	nng		Lo	?	final consonant				U+1596: CANADIAN SYLLABICS NNG	✓
 														
 ᖠ	z	ɬi		ɫⁱ	ɫi		Lo		syllable				U+15A0: CANADIAN SYLLABICS LHI	✓
 ᖡ	Z	ɬiː		ɫⁱ̠	ɫii		Lo		syllable				U+15A1: CANADIAN SYLLABICS LHII	✓
@@ -154,23 +154,18 @@ var spreadsheet = `cans-ike	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᕺ	H	hai		hᵃⁱ	hai		Lo	r	consonant	rare			U+157A: CANADIAN SYLLABICS NUNAVIK HAA	✓
 ᕻ	h	h		h	h		Lo	r	consonant	rare			U+157B: CANADIAN SYLLABICS NUNAVIK H	✓
 														
-														
-														
-														
-														
-\u200B							Cf		zero-width space				U+200B ZERO WIDTH SPACE	
-\u200C				ₓ			Cf		zero-width non-joiner				U+200C: ZERO WIDTH NON-JOINER	
-\u200D				₊			Cf		zero-width joiner				U+200D: ZERO WIDTH JOINER	
-\u034F				ᶜᵍʲ			Mn		combining grapheme joiner				U+034F: COMBINING GRAPHEME JOINER	
-														
+\u200B							Cf	?	zero-width space				U+200B ZERO WIDTH SPACE	
+\u200C				ₓ			Cf	?	zero-width non-joiner				U+200C: ZERO WIDTH NON-JOINER	
+\u200D				₊			Cf	?	zero-width joiner				U+200D: ZERO WIDTH JOINER	
+\u034F				ᶜᵍʲ			Mn	?	combining grapheme joiner				U+034F: COMBINING GRAPHEME JOINER	
 														
 “	<						Pi		quotation mark				U+201C: LEFT DOUBLE QUOTATION MARK	
 ”	>						Pf		quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK	
-\‘	<			\‘	\‘		Pi		quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	
-\’	>			\’	\’		Pf		quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
-«	"			“			Pi		quotation mark				U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
-»	"			”			Pf		quotation mark				U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
-ʼ							Lm		apostrophe				U+02BC: MODIFIER LETTER APOSTROPHE	
+‘	<			\‘	\‘		Pi		quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	
+’	>			\’	\’		Pf		quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
+«	"			“			Pi	?	quotation mark				U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
+»	"			”			Pf	?	quotation mark				U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
+ʼ							Lm	?	apostrophe				U+02BC: MODIFIER LETTER APOSTROPHE	
 ,							Po		comma				U+002C: COMMA	
 ;							Po		semicolon				U+003B: SEMICOLON	
 :							Po		colon				U+003A: COLON	
@@ -179,24 +174,21 @@ var spreadsheet = `cans-ike	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 !							Po		exclamation mark				U+0021: EXCLAMATION MARK	
 (							Ps		parenthesis				U+0028: LEFT PARENTHESIS	
 )							Pe		parenthesis				U+0029: RIGHT PARENTHESIS	
-…							Po		ellipsis				U+2026: HORIZONTAL ELLIPSIS	
-–							Pd		en dash				U+2013: EN DASH	
-—							Pd		em dash				U+2014: EM DASH	
+…							Po	?	ellipsis				U+2026: HORIZONTAL ELLIPSIS	
+–							Pd	?	en dash				U+2013: EN DASH	
+—							Pd	?	em dash				U+2014: EM DASH	
 														
-§							Po		section sign				U+00A7: SECTION SIGN	
-†							Po		dagger				U+2020: DAGGER	
-‡							Po		double dagger				U+2021: DOUBLE DAGGER	
-′							Po		prime				U+2032: PRIME	
-″							Po		double prime				U+2033: DOUBLE PRIME	
-‐							Pd		hyphen				U+2010 HYPHEN	
-‑							Pd		non-breaking hyphen				U+2011 NON-BREAKING HYPHEN	
+§							Po	?	section sign				U+00A7: SECTION SIGN	
+†							Po	?	dagger				U+2020: DAGGER	
+‡							Po	?	double dagger				U+2021: DOUBLE DAGGER	
+′							Po	?	prime				U+2032: PRIME	
+″							Po	?	double prime				U+2033: DOUBLE PRIME	
+‐							Pd	?	hyphen				U+2010 HYPHEN	
+‑							Pd	?	non-breaking hyphen				U+2011 NON-BREAKING HYPHEN	
 														
 `														
 														
-														
 latinPanel = '– “ ‘ ” ’ « » aː iː ɬ ɫ ŋ ʁ uː ɣ —'														
-														
-														
 														
 var cols = {														
 key: 1,														
@@ -217,5 +209,3 @@ block: 14,
 														
 othertranscriptions: [[5, 'Latin']]														
 }														
-														
-														
