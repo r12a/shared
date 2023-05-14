@@ -1,7 +1,8 @@
 var spreadsheet = `cans-crk	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	native name	latin name	ucs name	block
 ᙮	.			.	.		Po						U+166E CANADIAN SYLLABICS FULL STOP	✓
-\u202F	§												U+202F NARROW NO-BREAK SPACE	
-\u2003	§												U+2003 EM SPACE	
+᐀							Pd		hyphen for line breaking				U+1400: CANADIAN SYLLABICS HYPHEN	
+\u202F	§						Zs						U+202F NARROW NO-BREAK SPACE	
+\u2003	§						Zs						U+2003 EM SPACE	
 ᐊ	a	a		a	a		Lo		syllable				U+140A: CANADIAN SYLLABICS A	✓
 ᐋ	A	aː		ā	ā		Lo		syllable				U+140B: CANADIAN SYLLABICS AA	✓
 ᐨ	c	t͡s		c	c		Lo		final consonant				U+1428: CANADIAN SYLLABICS FINAL SHORT HORIZONTAL STROKE	✓
@@ -12,7 +13,7 @@ var spreadsheet = `cans-crk	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᒎ	c	t͡soː		cᵒ̱	cō		Lo		syllable				U+148E: CANADIAN SYLLABICS COO	✓
 ᒐ	c	t͡sa		cᵃ	ca		Lo		syllable				U+1490: CANADIAN SYLLABICS CA	✓
 ᒑ	c	t͡saː		cᵃ̱	cā		Lo		syllable				U+1491: CANADIAN SYLLABICS CAA	✓
-ᶜ	C			ᶜ	x		Lm		keyboard filler					
+ᶜ	C			ᶜ	x		Lm	u	keyboard filler				U+1D9C MODIFIER LETTER SMALL C	
 ᒓ	C	t͡sʷeː		cʷᵉ	cwe		Lo		syllable				U+1493: CANADIAN SYLLABICS WEST-CREE CWE	✓
 ᒕ	C	t͡sʷɪ		cʷⁱ	cwi		Lo		syllable				U+1495: CANADIAN SYLLABICS WEST-CREE CWI	✓
 ᒗ	C	t͡sʷiː		cʷⁱ̠	cwī		Lo		syllable				U+1497: CANADIAN SYLLABICS WEST-CREE CWII	✓
@@ -41,7 +42,7 @@ var spreadsheet = `cans-crk	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᑿ	K	kʷa		kʷᵃ	kwa		Lo		syllable				U+147F: CANADIAN SYLLABICS WEST-CREE KWA	✓
 ᒁ	K	kʷaː		kʷᵃ̱	kwā		Lo		syllable				U+1481: CANADIAN SYLLABICS WEST-CREE KWAA	✓
 ᓬ	l	l		l	l		Lo		special consonant				U+14EC: CANADIAN SYLLABICS MEDIAL L	✓
-ᓫ	l	l		l	l		Lo		special consonant				U+14EB: CANADIAN SYLLABICS WEST-CREE L	✓
+ᓫ	l	l		l	l		Lo	?	special consonant				U+14EB: CANADIAN SYLLABICS WEST-CREE L	✓
 ᒼ	m	m		m	m		Lo		final consonant				U+14BC: CANADIAN SYLLABICS WEST-CREE M	✓
 ᒣ	m	meː		mᵉ	me		Lo		syllable				U+14A3: CANADIAN SYLLABICS ME	✓
 ᒥ	m	mɪ		mⁱ	mi		Lo		syllable				U+14A5: CANADIAN SYLLABICS MI	✓
@@ -50,7 +51,7 @@ var spreadsheet = `cans-crk	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᒨ	m	moː		mᵒ̱	mō		Lo		syllable				U+14A8: CANADIAN SYLLABICS MOO	✓
 ᒪ	m	ma		mᵃ	ma		Lo		syllable				U+14AA: CANADIAN SYLLABICS MA	✓
 ᒫ	m	maː		mᵃ̱	mā		Lo		syllable				U+14AB: CANADIAN SYLLABICS MAA	✓
-ᒽ	M	mʷ		mʷ	mw		Lo		final consonant				U+14BD: CANADIAN SYLLABICS MH	✓
+ᒽ	M	mʷ		mʷ	mw		Lo	?	final consonant				U+14BD: CANADIAN SYLLABICS MH	✓
 ᒭ	M	mʷeː		mʷᵉ	mwe		Lo		syllable				U+14AD: CANADIAN SYLLABICS WEST-CREE MWE	✓
 ᒯ	M	mʷɪ		mʷⁱ	mwi		Lo		syllable				U+14AF: CANADIAN SYLLABICS WEST-CREE MWI	✓
 ᒱ	M	mʷiː		mʷⁱ̠	mwī		Lo		syllable				U+14B1: CANADIAN SYLLABICS WEST-CREE MWII	✓
@@ -66,18 +67,18 @@ var spreadsheet = `cans-crk	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᓅ	n	noː		nᵒ̱	nō		Lo		syllable				U+14C5: CANADIAN SYLLABICS NOO	✓
 ᓇ	n	na		nᵃ	na		Lo		syllable				U+14C7: CANADIAN SYLLABICS NA	✓
 ᓈ	n	naː		nᵃ̱	nā		Lo		syllable				U+14C8: CANADIAN SYLLABICS NAA	✓
-ⁿ	N			ⁿ	x		Lm		keyboard filler					
+ⁿ	N			ⁿ	x		Lm	u	keyboard filler					
 ᓊ	N	nʷeː		nʷᵉ	nwe		Lo		syllable				U+14CA: CANADIAN SYLLABICS WEST-CREE NWE	✓
-ᣇ	N	nʷɪ		nʷⁱ	nwi		Lo		syllable				U+18C7: CANADIAN SYLLABICS OJIBWAY NWI	✓
-ᣉ	N	nʷiː		nʷⁱ̠	nwī		Lo		syllable				U+18C9: CANADIAN SYLLABICS OJIBWAY NWII	✓
-ᣋ	N	nʷʊ		nʷᵒ	nwo		Lo		syllable				U+18CB: CANADIAN SYLLABICS OJIBWAY NWO	✓
-ᣍ	N	nʷoː		nʷᵒ̱	nwō		Lo		syllable				U+18CD: CANADIAN SYLLABICS OJIBWAY NWOO	✓
+ᣇ	N	nʷɪ		nʷⁱ	nwi		Lo	u	syllable				U+18C7: CANADIAN SYLLABICS OJIBWAY NWI	✓
+ᣉ	N	nʷiː		nʷⁱ̠	nwī		Lo	u	syllable				U+18C9: CANADIAN SYLLABICS OJIBWAY NWII	✓
+ᣋ	N	nʷʊ		nʷᵒ	nwo		Lo	u	syllable				U+18CB: CANADIAN SYLLABICS OJIBWAY NWO	✓
+ᣍ	N	nʷoː		nʷᵒ̱	nwō		Lo	u	syllable				U+18CD: CANADIAN SYLLABICS OJIBWAY NWOO	✓
 ᓌ	N	nʷa		nʷᵃ	nwa		Lo		syllable				U+14CC: CANADIAN SYLLABICS WEST-CREE NWA	✓
 ᓎ	N	nʷaː		nʷᵃ̱	nwā		Lo		syllable				U+14CE: CANADIAN SYLLABICS WEST-CREE NWAA	✓
 ᐅ	o	ʊ		o	o		Lo		syllable				U+1405: CANADIAN SYLLABICS O	✓
 ᐆ	O	oː		ō	ō		Lo		syllable				U+1406: CANADIAN SYLLABICS OO	✓
 ᑊ	p	p		p	p		Lo		final consonant				U+144A: CANADIAN SYLLABICS WEST-CREE P	✓
-ᑉ	p	p		p̣	p		Lo		final consonant				U+1449: CANADIAN SYLLABICS P	
+ᑉ	p	p		p̣	p		Lo	?	final consonant				U+1449: CANADIAN SYLLABICS P	
 ᐯ	p	peː		pᵉ	pe		Lo		syllable				U+142F: CANADIAN SYLLABICS PE	✓
 ᐱ	p	pɪ		pⁱ	pi		Lo		syllable				U+1431: CANADIAN SYLLABICS PI	✓
 ᐲ	p	piː		pⁱ̠	pī		Lo		syllable				U+1432: CANADIAN SYLLABICS PII	✓
@@ -85,7 +86,7 @@ var spreadsheet = `cans-crk	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᐴ	p	poː		pᵒ̱	pō		Lo		syllable				U+1434: CANADIAN SYLLABICS POO	✓
 ᐸ	p	pa		pᵃ	pa		Lo		syllable				U+1438: CANADIAN SYLLABICS PA	✓
 ᐹ	p	paː		pᵃ̱	pā		Lo		syllable				U+1439: CANADIAN SYLLABICS PAA	✓
-ᵖ	P			ᵖ	x		Lm		keyboard filler					
+ᵖ	P			ᵖ	x		Lm	?	keyboard filler					
 ᐻ	P	pʷeː		pʷᵉ	pwe		Lo		syllable				U+143B: CANADIAN SYLLABICS WEST-CREE PWE	✓
 ᐽ	P	pʷɪ		pʷⁱ	pwi		Lo		syllable				U+143D: CANADIAN SYLLABICS WEST-CREE PWI	✓
 ᐿ	P	pʷiː		pʷⁱ̠	pwī		Lo		syllable				U+143F: CANADIAN SYLLABICS WEST-CREE PWII	✓
@@ -94,7 +95,7 @@ var spreadsheet = `cans-crk	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᑅ	P	pʷa		pʷᵃ	pwa		Lo		syllable				U+1445: CANADIAN SYLLABICS WEST-CREE PWA	✓
 ᑇ	P	pʷaː		pʷᵃ̱	pwā		Lo		syllable				U+1447: CANADIAN SYLLABICS WEST-CREE PWAA	✓
 ᕒ	r	r		r	r		Lo		special character				U+1552: CANADIAN SYLLABICS MEDIAL R	✓
-ᕑ	r	r		r	r		Lo		special character				U+1551 CANADIAN SYLLABICS WEST-CREE R	✓
+ᕑ	r	r		r	r		Lo	?	special character				U+1551 CANADIAN SYLLABICS WEST-CREE R	✓
 ᐢ	s	s		s	s		Lo		final consonant				U+1422: CANADIAN SYLLABICS FINAL TOP HALF RING	✓
 ᓭ	s	seː		sᵉ	se		Lo		syllable				U+14ED: CANADIAN SYLLABICS SE	✓
 ᓯ	s	sɪ		sⁱ	si		Lo		syllable				U+14EF: CANADIAN SYLLABICS SI	✓
@@ -103,7 +104,7 @@ var spreadsheet = `cans-crk	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᓲ	s	soː		sᵒ̱	sō		Lo		syllable				U+14F2: CANADIAN SYLLABICS SOO	✓
 ᓴ	s	sa		sᵃ	sa		Lo		syllable				U+14F4: CANADIAN SYLLABICS SA	✓
 ᓵ	s	saː		sᵃ̱	sā		Lo		syllable				U+14F5: CANADIAN SYLLABICS SAA	✓
-ˢ	S			ˢ	x		Lm		keyboard filler					
+ˢ	S			ˢ	x		Lm	u	keyboard filler					
 ᓷ	S	sʷeː		sʷᵉ	swe		Lo		syllable				U+14F7: CANADIAN SYLLABICS WEST-CREE SWE	✓
 ᓹ	S	sʷɪ		sʷⁱ	swi		Lo		syllable				U+14F9: CANADIAN SYLLABICS WEST-CREE SWI	✓
 ᓻ	S	sʷiː		sʷⁱ̠	swī		Lo		syllable				U+14FB: CANADIAN SYLLABICS WEST-CREE SWII	✓
@@ -119,7 +120,7 @@ var spreadsheet = `cans-crk	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᑑ	t	toː		tᵒ̱	tō		Lo		syllable				U+1451: CANADIAN SYLLABICS TOO	✓
 ᑕ	t	ta		tᵃ	ta		Lo		syllable				U+1455: CANADIAN SYLLABICS TA	✓
 ᑖ	t	taː		tᵃ̱	tā		Lo		syllable				U+1456: CANADIAN SYLLABICS TAA	✓
-ᵗ	T			ᵗ	x		Lm		keyboard filler					
+ᵗ	T			ᵗ	x		Lm	?	keyboard filler					
 ᑘ	T	tʷeː		tʷᵉ	twe		Lo		syllable				U+1458: CANADIAN SYLLABICS WEST-CREE TWE	✓
 ᑚ	T	tʷɪ		tʷⁱ	twi		Lo		syllable				U+145A: CANADIAN SYLLABICS WEST-CREE TWI	✓
 ᑜ	T	tʷiː		tʷⁱ̠	twī		Lo		syllable				U+145C: CANADIAN SYLLABICS WEST-CREE TWII	✓
@@ -152,20 +153,20 @@ var spreadsheet = `cans-crk	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᔺ	Y	jʷa		jʷᵃ	ywa		Lo		syllable				U+153A: CANADIAN SYLLABICS WEST-CREE YWA	✓
 ᔼ	Y	jʷaː		jʷᵃ̱	ywā		Lo		syllable				U+153C: CANADIAN SYLLABICS WEST-CREE YWAA	✓
 														
-ᣞ		j		ý	y		Lo		final consonant	used for Swampy Cree & Ojibwe			U+18DE CANADIAN SYLLABICS FINAL SMALL RING	✓
+ᣞ		j		ý	y		Lo	u	final consonant	used for Swampy Cree & Ojibwe			U+18DE CANADIAN SYLLABICS FINAL SMALL RING	✓
 														
-\u200B							Cf		zero-width space				U+200B ZERO WIDTH SPACE	
-\u200C					ₓ		Cf		zero-width non-joiner				U+200C: ZERO WIDTH NON-JOINER	
-\u200D					₊		Cf		zero-width joiner				U+200D: ZERO WIDTH JOINER	
-\u034F					ᶜᵍʲ		Mn		combining grapheme joiner				U+034F: COMBINING GRAPHEME JOINER	
+\u200B							Cf	?	zero-width space				U+200B ZERO WIDTH SPACE	
+\u200C					ₓ		Cf	?	zero-width non-joiner				U+200C: ZERO WIDTH NON-JOINER	
+\u200D					₊		Cf	?	zero-width joiner				U+200D: ZERO WIDTH JOINER	
+\u034F					ᶜᵍʲ		Mn	?	combining grapheme joiner				U+034F: COMBINING GRAPHEME JOINER	
 														
-“				<			Pi		quotation mark				U+201C: LEFT DOUBLE QUOTATION MARK	
-”				>			Pf		quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK	
-\‘				\‘	\‘		Pi		quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	
-\’				\’	\’		Pf		quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
-«				"	“		Pi		quotation mark				U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
-»				"	”		Pf		quotation mark				U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
-ʼ							Lm		apostrophe				U+02BC: MODIFIER LETTER APOSTROPHE	
+“				<			Pi	?	quotation mark				U+201C: LEFT DOUBLE QUOTATION MARK	
+”				>			Pf	?	quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK	
+‘				\‘	\‘		Pi	?	quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	
+’				\’	\’		Pf	?	quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
+«				"	“		Pi	?	quotation mark				U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
+»				"	”		Pf	?	quotation mark				U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
+ʼ							Lm	?	apostrophe				U+02BC: MODIFIER LETTER APOSTROPHE	
 ,							Po		comma				U+002C: COMMA	
 ;							Po		semicolon				U+003B: SEMICOLON	
 :							Po		colon				U+003A: COLON	
@@ -174,25 +175,20 @@ var spreadsheet = `cans-crk	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 !							Po		exclamation mark				U+0021: EXCLAMATION MARK	
 (							Ps		parenthesis				U+0028: LEFT PARENTHESIS	
 )							Pe		parenthesis				U+0029: RIGHT PARENTHESIS	
-…							Po		ellipsis				U+2026: HORIZONTAL ELLIPSIS	
-–							Pd		en dash				U+2013: EN DASH	
-—							Pd		em dash				U+2014: EM DASH	
+…							Po	?	ellipsis				U+2026: HORIZONTAL ELLIPSIS	
+–							Pd	?	en dash				U+2013: EN DASH	
+—							Pd	?	em dash				U+2014: EM DASH	
 														
-§							Po		section sign				U+00A7: SECTION SIGN	
-†							Po		dagger				U+2020: DAGGER	
-‡							Po		double dagger				U+2021: DOUBLE DAGGER	
-′							Po		prime				U+2032: PRIME	
-″							Po		double prime				U+2033: DOUBLE PRIME	
-‐							Pd		hyphen				U+2010 HYPHEN	
-‑							Pd		non-breaking hyphen				U+2011 NON-BREAKING HYPHEN	
-														
-														
+§							Po	?	section sign				U+00A7: SECTION SIGN	
+†							Po	?	dagger				U+2020: DAGGER	
+‡							Po	?	double dagger				U+2021: DOUBLE DAGGER	
+′							Po	?	prime				U+2032: PRIME	
+″							Po	?	double prime				U+2033: DOUBLE PRIME	
+‐							Pd	?	hyphen				U+2010 HYPHEN	
+‑							Pd	?	non-breaking hyphen				U+2011 NON-BREAKING HYPHEN	
 `														
 														
-														
 latinPanel = 'ᶜᵍʲ “ ‘ ” ’ « » ₓ ₊ aː ā eː ʰk ɪ iː ī jʷ kʷ mʷ nʷ oː ō pʷ sʷ tʷ t͡s t͡sʷ ʊ ý'														
-														
-														
 														
 var cols = {														
 key: 1,														
@@ -213,5 +209,3 @@ block: 14,
 														
 othertranscriptions: [[5, 'Latin']]														
 }														
-														
-														
