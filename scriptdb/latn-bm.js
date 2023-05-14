@@ -1,8 +1,8 @@
 var spreadsheet = `latn-bm	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	native name	latin name	ucs name	block
 -	-			-	-		Pd		hyphen				U+2010: HYPHEN	
-‑	-			‑	‑		Pd		non-breaking hyphen				U+2011: NON-BREAKING HYPHEN	
-–	-			–	–		Pd		en dash				U+2013: EN DASH	
-—	-			—	—		Pd		em dash				U+2014: EM DASH	
+‑	-			‑	‑		Pd	?	non-breaking hyphen				U+2011: NON-BREAKING HYPHEN	
+–	-			–	–		Pd	?	en dash				U+2013: EN DASH	
+—	-			—	—		Pd	?	em dash				U+2014: EM DASH	
 ,	,			,	,		Po		comma				U+002C: COMMA	
 ;	;			;	;		Po		semicolon				U+003B: SEMICOLON	
 :	:			:	:		Po		colon				U+003A: COLON	
@@ -11,24 +11,24 @@ var spreadsheet = `latn-bm	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 .	.			.	.		Po		full stop				U+002E: FULL STOP	
 …	.			…	…		Po		ellipsis				U+2026: HORIZONTAL ELLIPSIS	
 (	(			(	(		Ps		parenthesis				U+0028: LEFT PARENTHESIS	
-[	(			[	[		Pe		bracket				U+005B: LEFT SQUARE BRACKET	
+[	(			[	[		Pe	?	bracket				U+005B: LEFT SQUARE BRACKET	
 )	)			)	)		Ps		parenthesis				U+0029: RIGHT PARENTHESIS	
-]	)			]	]		Pe		bracket				U+005D: RIGHT SQUARE BRACKET	
+]	)			]	]		Pe	?	bracket				U+005D: RIGHT SQUARE BRACKET	
 %	%			%			Po		percentage mark				U+0025: PERCENT SIGN	
-‰	%			‰			Po		per mille mark				U+2030: PER MILLE SIGN	
+‰	%			‰			Po	?	per mille mark				U+2030: PER MILLE SIGN	
 ́	^	–		´			Mn	i	high tone mark				U+0301: COMBINING ACUTE ACCENT	
 ̀	^	–		\`			Mn	i	low tone mark				U+0300: COMBINING GRAVE ACCENT	
 ̌	^	–		^			Mn	r	tone mark				U+030C: COMBINING CARON	
 ̂	^	–		ˇ			Mn	r	tone mark				U+0302: COMBINING CIRCUMFLEX ACCENT	
 ʼ	+			ʼ	ʼ		Lm		apostrophe				U+02BC: MODIFIER LETTER APOSTROPHE	
 “	<			“	“		Pi		quotation mark				U+201C: LEFT DOUBLE QUOTATION MARK	
-\‘	<			\‘	\‘		Pi		quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	
+‘	<			\‘	\‘		Pi		quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	
 «	<			«	“		Pi		quotation mark				U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	✓
-‹	<			‹			Pi		quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	
+‹	<			‹			Pi	?	quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	
 ”	>			”	”		Pf		quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK	
-\’	>			\’	\’		Pf		quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
+’	>			\’	\’		Pf		quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
 »	>			»	”		Pf		quotation mark				U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	✓
-›	>			›			Pf		quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
+›	>			›			Pf	?	quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
 a	a	a		a			Ll		vowel		a		U+0061: LATIN SMALL LETTER A	
 á	a	a˦		á			Ll	i	vowel with high tone				U+00E1: LATIN SMALL LETTER A WITH ACUTE	✓
 à	a	a˨		à			Ll	i	vowel with low tone				U+00E0: LATIN SMALL LETTER A WITH GRAVE	✓
@@ -106,20 +106,17 @@ Z	Z	Z		Z			Ll		consonant		ze		U+005A: LATIN CAPITAL LETTER Z
 kh		ɣ		ɳ				l	consonant	loanword transliterations			U+006B U+0068: LATIN SMALL LETTER K, SMALL LETTER H	
 sh		ʃ		ŋ				l	consonant	loanword transliterations			U+0073 U+0068: LATIN SMALL LETTER S, SMALL LETTER H	
 														
-§				§	§		Po		section sign				U+00A7: SECTION SIGN	✓
-†				†	†		Po		dagger				U+2020: DAGGER	
-‡				‡	‡		Po		double dagger				U+2021: DOUBLE DAGGER	
-′				′	′		Po		prime				U+2032: PRIME	
-″				″	″		Po		double prime				U+2033: DOUBLE PRIME	
+§				§	§		Po	?	section sign				U+00A7: SECTION SIGN	✓
+†				†	†		Po	?	dagger				U+2020: DAGGER	
+‡				‡	‡		Po	?	double dagger				U+2021: DOUBLE DAGGER	
+′				′	′		Po	?	prime				U+2032: PRIME	
+″				″	″		Po	?	double prime				U+2033: DOUBLE PRIME	
 														
 \u202F				ⁿⁿᵇˢᵖ			Zs		narrow no-break space				U+202F NARROW NO-BREAK SPACE	
 \'				\'			Po		apostrophe				U+0027: APOSTROPHE	
 `														
 														
-														
 latinPanel = 'í ì ĩ iː ú ù ũ uː ɛ ɛ́ ɛ̀ ɛ̃ ɛː é è ẽ eː ɔ ɔ́ ɔ̀ ɔ̃ ɔː ó ò õ oː á à ǎ ã aː d͡ʒ ɡ ʷ m͡ ᵐ n͡ ⁿ ɲ͡ ᵑ ŋ͡ᶮ ʃ ʒ ʼ ꜜ ` ̃ ́ ̀ ̂ ̌  ˦ ˨'														
-														
-														
 														
 var cols = {														
 key: 1,														
@@ -140,5 +137,3 @@ block: 14,
 														
 //othertranscriptions: [[5, 'LOC']]														
 }														
-														
-														
