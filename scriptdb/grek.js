@@ -1,5 +1,5 @@
 var spreadsheet = `grek-el	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	lc	uc	native name	latin name	ucs name	block
--	-			-	-				hyphen						U+2010: HYPHEN	
+-	-			-	-			?	hyphen						U+2010: HYPHEN	
 ‑	-			‑	‑		Pd		non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	✓
 –	-			–	–		Pd		en dash						U+2013: EN DASH	✓
 —	-			—	—		Pd		em dash						U+2014: EM DASH	✓
@@ -12,22 +12,22 @@ var spreadsheet = `grek-el	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 .	.			.	.		Po		full stop				τελεία	telía	U+002E: FULL STOP	✓
 …	.			…	…		Po		ellipsis						U+2026: HORIZONTAL ELLIPSIS	✓
 (	(			(	(		Ps		parenthesis						U+0028: LEFT PARENTHESIS	✓
-[	(			[	[		Ps		bracket						U+005B: LEFT SQUARE BRACKET	
+[	(			[	[		Ps	?	bracket						U+005B: LEFT SQUARE BRACKET	
 )	)			)	)		Pe		parenthesis						U+0029: RIGHT PARENTHESIS	✓
-]	)			]	]		Pe		bracket						U+005D: RIGHT SQUARE BRACKET	
-\u0301	[			ˊ		;	Mn		tonos						U+0301: COMBINING ACUTE ACCENT	
-\u0308	[			¨		:	Mn		dialytika						U+0308: COMBINING DIAERESIS	
+]	)			]	]		Pe	?	bracket						U+005D: RIGHT SQUARE BRACKET	
+\u0301	[			ˊ		;	Mn	i	tonos						U+0301: COMBINING ACUTE ACCENT	
+\u0308	[			¨		:	Mn	i	dialytika						U+0308: COMBINING DIAERESIS	
 ͵	#			‛			Sk		thousands indicator	for greek additive numbering					U+0375: GREEK LOWER NUMERAL SIGN	✓
 ʹ	#			·			Lm		additive numbering indicator				κεραία		U+02B9: MODIFIER LETTER PRIME	
 €	#			¤			Sc		currency symbol						U+20AC: EURO SIGN	
 %	%			%			Po		percentage mark						U+0025: PERCENT SIGN	
-‰	%			‰			Po		per mille mark						U+2030: PER MILLE SIGN	
+‰	%			‰			Po	?	per mille mark						U+2030: PER MILLE SIGN	
 «	<			«	“	<	Pi		quotation mark				εισαγωγικά	isaγoγiká	U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	✓
-‹	<			‹			Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
+‹	<			‹			Pi	?	quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
 “	<			“	“		Pi		quotation mark						U+201C: LEFT DOUBLE QUOTATION MARK	✓
 \‘	<			\‘	\‘		Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
 »	>			»	”	>	Pf		quotation mark				εισαγωγικά	isaγoγiká	U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	✓
-›	>			›			Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
+›	>			›			Pf	?	quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
 ”	>			”	”		Pf		quotation mark						U+201D: RIGHT DOUBLE QUOTATION MARK	✓
 \’	>			\’	\’		Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
 α	a	a		a		a	Ll		vowel			Α	άλφα	alpha	U+03B1: GREEK SMALL LETTER ALPHA	✓
@@ -121,43 +121,38 @@ var spreadsheet = `grek-el	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 γγ		ɡ ʝ ŋɡ ŋʝ		ɣɣ					digraph						U+03B3 U+03B3: GREEK SMALL LETTER GAMMA, SMALL LETTER GAMMA	
 γκ		ɡ ʝ ŋɡ ŋʝ		ɣk					digraph						U+03B3 U+03BA: GREEK SMALL LETTER GAMMA, SMALL LETTER KAPPA	
 																
-̀							Mn		varia						U+0300: COMBINING GRAVE ACCENT	✓
-̆							Mn		breve						U+0306: COMBINING BREVE	✓
-̄							Mn		macron						U+0304 COMBINING MACRON	
-̍							Mn		line above						U+030D: COMBINING VERTICAL LINE ABOVE	✓
-̓							Mn		psili smooth breathing mark						U+0313: COMBINING COMMA ABOVE	✓
-̔							Mn		dasia rough breathing mark						U+0314: COMBINING REVERSED COMMA ABOVE	✓
-͂							Mn		perispomeni						U+0342: COMBINING GREEK PERISPOMENI	✓
+̀							Mn	u	varia						U+0300: COMBINING GRAVE ACCENT	✓
+̆							Mn	u	breve						U+0306: COMBINING BREVE	✓
+̄							Mn	u	macron						U+0304 COMBINING MACRON	
+̍							Mn	?	line above						U+030D: COMBINING VERTICAL LINE ABOVE	✓
+̓							Mn	d	psili smooth breathing mark						U+0313: COMBINING COMMA ABOVE	✓
+̔							Mn	u	dasia rough breathing mark						U+0314: COMBINING REVERSED COMMA ABOVE	✓
+͂							Mn	u	perispomeni						U+0342: COMBINING GREEK PERISPOMENI	✓
 ̈́									tonos & dialytika						U+0308 U+0301: COMBINING DIAERESIS, COMBINING ACUTE ACCENT	
-ͅ							Mn		ypogegrammeni						U+0345: COMBINING GREEK YPOGEGRAMMENI	✓
+ͅ							Mn	u	ypogegrammeni						U+0345: COMBINING GREEK YPOGEGRAMMENI	✓
 \u0344							Mn	d	tonos & dialytika						U+0344: COMBINING GREEK DIALYTIKA TONOS	
 \u0343							Mn	d	smooth breathing mark						U+0343 COMBINING GREEK KORONIS	
 																
-ϗ				–			Ll	a	letter/number	used for counter styles					U+03D7: GREEK KAI SYMBOL	
-ϡ				–			Ll	a	letter/number	used for counter styles					U+03E1: GREEK SMALL LETTER SAMPI	
-Ϡ				–			Lu	a	letter/number	used for counter styles					U+03E0: GREEK LETTER SAMPI	
-ϟ				–			Ll	a	letter/number	used for counter styles					U+03DF: GREEK SMALL LETTER KOPPA	
-Ϟ				–			Lu	a	letter/number	used for counter styles					U+03DE: GREEK LETTER KOPPA	
-ϛ				–			Ll	a	letter/number	used for counter styles					U+03DB: GREEK SMALL LETTER STIGMA	
+ϗ				–			Ll	r	letter/number	used for counter styles					U+03D7: GREEK KAI SYMBOL	
+ϡ				–			Ll	r	letter/number	used for counter styles					U+03E1: GREEK SMALL LETTER SAMPI	
+Ϡ				–			Lu	r	letter/number	used for counter styles					U+03E0: GREEK LETTER SAMPI	
+ϟ				–			Ll	r	letter/number	used for counter styles					U+03DF: GREEK SMALL LETTER KOPPA	
+Ϟ				–			Lu	r	letter/number	used for counter styles					U+03DE: GREEK LETTER KOPPA	
+ϛ				–			Ll	r	letter/number	used for counter styles					U+03DB: GREEK SMALL LETTER STIGMA	
 																
 ·				·			Po		middle dot				άνω τελεία	áno telía	U+00B7 MIDDLE DOT	✓
 																
-ʼ				ʼ	ʼ		Lm		apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
-§				§	§		Po		section sign						U+00A7: SECTION SIGN	
-†				†	†		Po		dagger						U+2020: DAGGER	
-‡				‡	‡		Po		double dagger						U+2021: DOUBLE DAGGER	
-′				′	′		Po		prime						U+2032: PRIME	
-″				″	″		Po		double prime						U+2033: DOUBLE PRIME	
+ʼ				ʼ	ʼ		Lm	?	apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
+§				§	§		Po	?	section sign						U+00A7: SECTION SIGN	
+†				†	†		Po	?	dagger						U+2020: DAGGER	
+‡				‡	‡		Po	?	double dagger						U+2021: DOUBLE DAGGER	
+′				′	′		Po	?	prime						U+2032: PRIME	
+″				″	″		Po	?	double prime						U+2033: DOUBLE PRIME	
 																
 \u0374							Lm	d	additive numbering indicator						U+0374 GREEK NUMERAL SIGN	
-																
-																
 `																
 																
-																
 latinPanel = 'ç ð ʝ k͡s ɲ p͡s θ ɣ'																
-																
-																
 																
 var cols = {																
 key: 1,																
@@ -181,5 +176,3 @@ block: 16,
 																
 //othertranscriptions: [[5, 'LOC']]																
 }																
-																
-																
