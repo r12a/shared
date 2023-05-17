@@ -1,48 +1,48 @@
 var spreadsheet = `deva-ks	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	equiv	dvowel	ivowel	native name	latin name	ucs name	block
 -	-			-	-		Pd		hyphen							U+2010: HYPHEN	
-‑	-			‑	‑		Pd		non-breaking hyphen							U+2011: NON-BREAKING HYPHEN	
-–	-			–	–		Pd		en dash							U+2013: EN DASH	
-—	-			—	—		Pd		em dash							U+2014: EM DASH	✓
+‑	-			‑	‑		Pd	?	non-breaking hyphen							U+2011: NON-BREAKING HYPHEN	
+–	-			–	–		Pd	?	en dash							U+2013: EN DASH	
+—	-			—	—		Pd	?	em dash							U+2014: EM DASH	✓
 ,	,			,	,		Po		comma							U+002C: COMMA	
-⹁	,			⹁	⹁		Po		comma							U+2E41: REVERSED COMMA	
+⹁	,			⹁	⹁		Po	?	comma							U+2E41: REVERSED COMMA	
 ;	;			;	;		Po		semicolon							U+003B: SEMICOLON	
 :	:			:	:		Po		colon							U+003A: COLON	
 !	!			!	!		Po		exclamation mark							U+0021: EXCLAMATION MARK	
 ?	?			?	?		Po		question mark							U+003F: QUESTION MARK	
-.	.			.	.		Po		full stop							U+002E: FULL STOP	
-…	.			…	…		Po		ellipsis							U+2026: HORIZONTAL ELLIPSIS	
+.	.			.	.		Po	?	full stop							U+002E: FULL STOP	
+…	.			…	…		Po	?	ellipsis							U+2026: HORIZONTAL ELLIPSIS	
 (	(			(	(		Ps		parenthesis							U+0028: LEFT PARENTHESIS	
-[	(			[	[		Pe		bracket							U+005B: LEFT SQUARE BRACKET	
+[	(			[	[		Pe	?	bracket							U+005B: LEFT SQUARE BRACKET	
 )	)			)	)		Ps		parenthesis							U+0029: RIGHT PARENTHESIS	
-]	)			]	]		Pe		bracket							U+005D: RIGHT SQUARE BRACKET	
+]	)			]	]		Pe	?	bracket							U+005D: RIGHT SQUARE BRACKET	
 ँ	[	̃		˜	̃		Mn		nasalisation						candrabindu/anunāsika	U+0901: DEVANAGARI SIGN CANDRABINDU	✓
 ऽ	]			′			Lo		elision marker							U+093D: DEVANAGARI SIGN AVAGRAHA	✓
 ्	*			͞			Mn		vowel-killer						halant	U+094D: DEVANAGARI SIGN VIRAMA	✓
 ़	/			ˑ			Mn		consonant modifier						nukta	U+093C: DEVANAGARI SIGN NUKTA	✓
-₹	#			¤			Sc		currency symbol							U+20B9: INDIAN RUPEE SIGN	✓
-%	%			%			Po		percentage mark							U+0025: PERCENT SIGN	
-‰	%			‰			Po		per mille mark							U+2030: PER MILLE SIGN	
-॰	+			¨			Po		abbreviation marker							U+0970: DEVANAGARI ABBREVIATION SIGN	✓
-“	<			“	“		Pi		quotation mark							U+201C: LEFT DOUBLE QUOTATION MARK	✓
-\‘	<			\‘	\‘		Pi		quotation mark							U+2018: LEFT SINGLE QUOTATION MARK	✓
+₹	#			¤			Sc	?	currency symbol							U+20B9: INDIAN RUPEE SIGN	✓
+%	%			%			Po	?	percentage mark							U+0025: PERCENT SIGN	
+‰	%			‰			Po	?	per mille mark							U+2030: PER MILLE SIGN	
+॰	+			¨			Po	?	abbreviation marker							U+0970: DEVANAGARI ABBREVIATION SIGN	✓
+“	<			“	“		Pi	?	quotation mark							U+201C: LEFT DOUBLE QUOTATION MARK	✓
+‘	<			\‘	\‘		Pi	?	quotation mark							U+2018: LEFT SINGLE QUOTATION MARK	✓
 \u200C	=			ᶻʷⁿʲ			Cf		zero-width non-joiner							U+200C: ZERO WIDTH NON-JOINER	
 \u200D	=			ᶻʷʲ			Cf		zero-width joiner							U+200D: ZERO WIDTH JOINER	
-\u034F	=			ᶜᵍʲ			Mn		combining grapheme joiner							U+034F: COMBINING GRAPHEME JOINER	
-\u2060	=			ʷʲ			Cf		word joiner							U+2060 WORD JOINER	
-”	>			”	”		Pf		quotation mark							U+201D: RIGHT DOUBLE QUOTATION MARK	✓
-\’	>			\’	\’		Pf		quotation mark							U+2019: RIGHT SINGLE QUOTATION MARK	✓
+\u034F	=			ᶜᵍʲ			Mn	?	combining grapheme joiner							U+034F: COMBINING GRAPHEME JOINER	
+\u2060	=			ʷʲ			Cf	?	word joiner							U+2060 WORD JOINER	
+”	>			”	”		Pf	?	quotation mark							U+201D: RIGHT DOUBLE QUOTATION MARK	✓
+’	>			\’	\’		Pf	?	quotation mark							U+2019: RIGHT SINGLE QUOTATION MARK	✓
 ।	|			|	.		Po		section divider						purna viram	U+0964: DEVANAGARI DANDA	✓
 ॥	|			¶			Po		section divider							U+0965: DEVANAGARI DOUBLE DANDA	✓
-०	0			0̣	0		Nd		digit							U+0966: DEVANAGARI DIGIT ZERO	✓
-१	1			1̣	1		Nd		digit							U+0967: DEVANAGARI DIGIT ONE	✓
-२	2			2̣	2		Nd		digit							U+0968: DEVANAGARI DIGIT TWO	✓
-३	3			3̣	3		Nd		digit							U+0969: DEVANAGARI DIGIT THREE	✓
-४	4			4̣	4		Nd		digit							U+096A: DEVANAGARI DIGIT FOUR	✓
-५	5			5̣	5		Nd		digit							U+096B: DEVANAGARI DIGIT FIVE	✓
-६	6			6̣	6		Nd		digit							U+096C: DEVANAGARI DIGIT SIX	✓
-७	7			7̣	7		Nd		digit							U+096D: DEVANAGARI DIGIT SEVEN	✓
-८	8			8̣	8		Nd		digit							U+096E: DEVANAGARI DIGIT EIGHT	✓
-९	9			9̣	9		Nd		digit							U+096F: DEVANAGARI DIGIT NINE	✓
+०	0			0̣	0		Nd	?	digit							U+0966: DEVANAGARI DIGIT ZERO	✓
+१	1			1̣	1		Nd	?	digit							U+0967: DEVANAGARI DIGIT ONE	✓
+२	2			2̣	2		Nd	?	digit							U+0968: DEVANAGARI DIGIT TWO	✓
+३	3			3̣	3		Nd	?	digit							U+0969: DEVANAGARI DIGIT THREE	✓
+४	4			4̣	4		Nd	?	digit							U+096A: DEVANAGARI DIGIT FOUR	✓
+५	5			5̣	5		Nd	?	digit							U+096B: DEVANAGARI DIGIT FIVE	✓
+६	6			6̣	6		Nd	?	digit							U+096C: DEVANAGARI DIGIT SIX	✓
+७	7			7̣	7		Nd	?	digit							U+096D: DEVANAGARI DIGIT SEVEN	✓
+८	8			8̣	8		Nd	?	digit							U+096E: DEVANAGARI DIGIT EIGHT	✓
+९	9			9̣	9		Nd	?	digit							U+096F: DEVANAGARI DIGIT NINE	✓
 																	
 																	
 ा	a	aː		ā	ā		Mc		vowel sign				आ			U+093E: DEVANAGARI VOWEL SIGN AA	✓
@@ -112,15 +112,16 @@ var spreadsheet = `deva-ks	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 \u095B	z	z		z	z		Lo	i	precomposed consonant	infrequent	ज़					U+095B: DEVANAGARI LETTER ZA	
 																	
 																	
-ॄ		riː		r̥̄	r̥̄		Mn		vowel sign				ॠ			U+0944: DEVANAGARI VOWEL SIGN VOCALIC RR	✓
-ॠ		riː		r̥̣̄	r̥̄		Lo		independent vowel			ॄ				U+0960: DEVANAGARI LETTER VOCALIC RR	✓
+ॄ		riː		r̥̄	r̥̄		Mn	?	vowel sign				ॠ			U+0944: DEVANAGARI VOWEL SIGN VOCALIC RR	✓
+ॠ		riː		r̥̣̄	r̥̄		Lo	?	independent vowel			ॄ				U+0960: DEVANAGARI LETTER VOCALIC RR	✓
 																	
-ॐ							Lo									U+0950: DEVANAGARI OM	✓
+ॐ							Lo	?								U+0950: DEVANAGARI OM	✓
 																	
 ॲ		ə		ə̸̣			Lo	a	independent vowel	archaic (incorrect in modern use)		ॅ				U+0972: DEVANAGARI LETTER CANDRA A	✓
 ॅ		ə		ə̸			Mn	a	vowel sign	archaic (incorrect in modern use)			ॲ			U+0945: DEVANAGARI VOWEL SIGN CANDRA E	✓
 ऑ		əː		ə̸̣̄			Lo	a	independent vowel	archaic (incorrect in modern use)		ॉ				U+0911: DEVANAGARI LETTER CANDRA O	✓
 ॉ		əː		ə̸̄			Mc	a	vowel sign	archaic (incorrect in modern use)			ऑ			U+0949: DEVANAGARI VOWEL SIGN CANDRA O	✓
+ऽ				–			Lo	a	vowel sign							U+093D DEVANAGARI SIGN AVAGRAHA	
 																	
 ष		ʂ		ʂ			Lo	r	consonant	rare, spellings retained in Sanskrit loans						U+0937: DEVANAGARI LETTER SSA	✓
 क्ष		kʂ		k͓ʂ				r	consonant cluster	rare, spellings retained in Sanskrit loans						U+0915 U+094D U+0937: DEVANAGARI LETTER KA, DEVANAGARI SIGN VIRAMA, DEVANAGARI LETTER SSA	
@@ -134,19 +135,15 @@ var spreadsheet = `deva-ks	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ञ		n		ɲ			Lo	r	consonant	rare, spellings retained in Sanskrit loans						U+091E: DEVANAGARI LETTER NYA	✓
 ज्ञ		ɡj		ɟ͓ɲ				r	consonant cluster	rare, spellings retained in Sanskrit loans						U+091C U+094D U+091E: DEVANAGARI LETTER JA, SIGN VIRAMA, LETTER NYA	
 																	
-ʼ				ʼ	ʼ		Lm		apostrophe							U+02BC: MODIFIER LETTER APOSTROPHE	
-§				§	§		Po		section sign							U+00A7: SECTION SIGN	
-†				†	†		Po		dagger							U+2020: DAGGER	
-‡				‡	‡		Po		double dagger							U+2021: DOUBLE DAGGER	
-′				′	′		Po		prime							U+2032: PRIME	
-″				″	″		Po		double prime							U+2033: DOUBLE PRIME	
-																	
+ʼ				ʼ	ʼ		Lm	?	apostrophe							U+02BC: MODIFIER LETTER APOSTROPHE	
+§				§	§		Po	?	section sign							U+00A7: SECTION SIGN	
+†				†	†		Po	?	dagger							U+2020: DAGGER	
+‡				‡	‡		Po	?	double dagger							U+2021: DOUBLE DAGGER	
+′				′	′		Po	?	prime							U+2032: PRIME	
+″				″	″		Po	?	double prime							U+2033: DOUBLE PRIME	
 `																	
 																	
-																	
 latinPanel = '̃ aː ā bʱ č ḍ d͡ʒ dʱ ɖʱ eː ē ə əː ɡ gʱ iː ī ɨ ɨː ĭ ʲ ɟʰ kʰ ṁ ŋ ɳ ñ ö ȫ oː ō ɔː pʰ r̥ r̥̄ ʃ š ʂ t͡s t͡ʃ ʈ ṭ tʰ t͡sʰ ʈʰ t͡ʃʰ ü ǖ uː ū ŭ'																	
-																	
-																	
 																	
 var cols = {																	
 key: 1,																	
@@ -166,9 +163,8 @@ ivowel: 13,
 																	
 nnameLoc: 14,																	
 nameLoc: 15,																	
-ucsName: 16,																
+ucsName: 16,																	
 block: 17,																	
 																	
 othertranscriptions: [[5, 'Latin']]																	
 }																	
-																	
