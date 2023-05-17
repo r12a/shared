@@ -1,11 +1,11 @@
 var spreadsheet = `java-jv	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	dvowel	ivowel	shape	conj	native name	latin name	ucs name	block
 \u200B	]			␣			Cf		zero-width space								U+200B: ZERO WIDTH SPACE	
-ꦴ									vowel lengthener	not used alone in modern javanese							A9B4: JAVANESE VOWEL SIGN TARUNG	
-‒		a	a ɔ		a				inherent vowel									
--	-			-	-		Pd		hyphen								U+2010: HYPHEN	
-‑	-			‑	‑		Pd		non-breaking hyphen								U+2011: NON-BREAKING HYPHEN	
-–	-			–	–		Pd		en dash								U+2013: EN DASH	
-—	-			—	—		Pd		em dash								U+2014: EM DASH	
+ꦴ				–			Mc		vowel lengthener	not used alone in modern javanese							A9B4: JAVANESE VOWEL SIGN TARUNG	
+‒		a	a ɔ		a			?	inherent vowel									
+-	-			-	-		Pd	?	hyphen								U+2010: HYPHEN	
+‑	-			‑	‑		Pd	?	non-breaking hyphen								U+2011: NON-BREAKING HYPHEN	
+–	-			–	–		Pd	?	en dash								U+2013: EN DASH	
+—	-			—	—		Pd	?	em dash								U+2014: EM DASH	
 ꧈	,			,		,	Po		comma/full stop							pada lingsa	U+A9C8: JAVANESE PADA LINGSA	✓
 ꧇	:			:		<	Po		colon/number indicator							pada pangkat	U+A9C7: JAVANESE PADA PANGKAT	✓
 ꧉	.			.		.	Po		full stop							pada lungsi	U+A9C9: JAVANESE PADA LUNGSI	✓
@@ -21,12 +21,12 @@ var spreadsheet = `java-jv	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ꧅	#			§ᵃ			Po		honorific symbol							pada luhur	U+A9C5: JAVANESE PADA LUHUR	✓
 ꧄	#			§ᵇ			Po		honorific symbol							pada madya	U+A9C4: JAVANESE PADA MADYA	✓
 ꧃	#			§ᶜ			Po		honorific symbol							pada andap	U+A9C3: JAVANESE PADA ANDAP	✓
-%	%			%			Po		percentage mark								U+0025: PERCENT SIGN	
-‰	%			‰			Po		per mille mark								U+2030: PER MILLE SIGN	
-\u200C	=			ᶻʷⁿʲ			Cf		zero-width non-joiner								U+200C: ZERO WIDTH NON-JOINER	
-\u200D	=			ᶻʷʲ			Cf		zero-width joiner								U+200D: ZERO WIDTH JOINER	
-\u034F	=			ᶜᵍʲ			Mn		combining grapheme joiner								U+034F: COMBINING GRAPHEME JOINER	
-\u2060	=			ʷʲ			Cf		word joiner								U+2060 WORD JOINER	
+%	%			%			Po	?	percentage mark								U+0025: PERCENT SIGN	
+‰	%			‰			Po	?	per mille mark								U+2030: PER MILLE SIGN	
+\u200C	=			ᶻʷⁿʲ			Cf	?	zero-width non-joiner								U+200C: ZERO WIDTH NON-JOINER	
+\u200D	=			ᶻʷʲ			Cf	?	zero-width joiner								U+200D: ZERO WIDTH JOINER	
+\u034F	=			ᶜᵍʲ			Mn	?	combining grapheme joiner								U+034F: COMBINING GRAPHEME JOINER	
+\u2060	=			ʷʲ			Cf	?	word joiner								U+2060 WORD JOINER	
 ꧋	|			¶		±	Po		paragraph/section start							para adeg adeg	U+A9CB: JAVANESE PADA ADEG ADEG	✓
 ꧊	|			|		§	Po		parenthesis/quotation marks							pada adeg	U+A9CA: JAVANESE PADA ADEG	✓
 ꧐	0			0̣	0	0	Nd		digit							nol	U+A9D0: JAVANESE DIGIT ZERO	✓
@@ -78,7 +78,7 @@ var spreadsheet = `java-jv	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ꦎ	O	o		ọ	o	o	Lo		independent vowel		ꦲꦺꦴ						U+A98E: JAVANESE LETTER O	✓
 ꦥ	p	p	a ɔ	p	p	p	Lo		consonant				ꦥ ꦥ꧀ꦥ	ꦥ꧀ꦥ			U+A9A5: JAVANESE LETTER PA	✓
 ꦦ	P	p	a ɔ	P	p	P	Lo		murda consonant				ꦦ ꦥ꧀ꦦ	ꦥ꧀ꦦ			U+A9A6: JAVANESE LETTER PA MURDA	✓
-ꦐ	q	q	a ɔ	q	q	k	Lo	l	consonant	sasak			ꦐ ꦥ꧀ꦐ				U+A990: JAVANESE LETTER KA SASAK	✓
+ꦐ	q	q	a ɔ	q	q	k	Lo	u	consonant	sasak			ꦐ ꦥ꧀ꦐ				U+A990: JAVANESE LETTER KA SASAK	✓
 ꦫ	r	r	a ɔ	r	r	r	Lo		consonant				ꦫ ꦥ꧀ꦫ				U+A9AB: JAVANESE LETTER RA	✓
 ꦬ	R	r	a ɔ	ṙ	r	r	Lo	a	consonant	archaic			ꦬ ꦥ꧀ꦬ			ra agung	U+A9AC: JAVANESE LETTER RA AGUNG	✓
 ꦉ	R	rə		r̥	re		Lo		independent vocalic				ꦉ ꦥ꧀ꦉ	ꦥ꧀ꦉ		pa cerek	U+A989: JAVANESE LETTER PA CEREK	✓
@@ -102,7 +102,7 @@ var spreadsheet = `java-jv	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ꦾ	y	j		y̆	y	Y	Mc		medial consonant							pengkal	U+A9BE: JAVANESE CONSONANT SIGN PENGKAL	✓
 ꦗ꦳	z	z	a ɔ	ʤˑ	z			l	consonant	foriegn sound							U+A997 U+A9B3: JAVANESE LETTER JA, SIGN CECAK TELU	
 																		
-ꦋ		lɤ		ŀ̥	leu	V	Lo	l	independent vocalic	kawi/sanskrit			ꦋ ꦥ꧀ꦋ			nga lelet raswadi	U+A98B: JAVANESE LETTER NGA LELET RASWADI	✓
+ꦋ		lɤ		ŀ̥	leu	V	Lo	u	independent vocalic	kawi/sanskrit			ꦋ ꦥ꧀ꦋ			nga lelet raswadi	U+A98B: JAVANESE LETTER NGA LELET RASWADI	✓
 																		
 ꦷ		i		ī	i		Mn	a	vowel sign	archaic							U+A9B7: JAVANESE VOWEL SIGN WULU MELIK	✓
 ꦹ		u		ū	u	u	Mn	a	vowel sign	archaic		ꦈꦴ					U+A9B9: JAVANESE VOWEL SIGN SUKU MENDUT	✓
@@ -170,23 +170,19 @@ var spreadsheet = `java-jv	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ꧀ꦭ		l		͓l	l	L	-		consonant				ꦭ ꦥ꧀ꦭ				U+A9C0 U+A9AD: JAVANESE PANGKON, LETTER LA	
 ꧀ꦪ		j		͓y	y		-		consonant				ꦪ ꦥ꧀ꦪ				U+A9C0 U+A9AA: JAVANESE PANGKON, LETTER YA	
 																		
-꧞				⁎		$	Po	i	correction mark	infrequent						pada tirta tumétés	U+A9DE: JAVANESE PADA TIRTA TUMETES	✓
-꧟				*		%	Po	i	correction mark	infrequent						pada isèn-isèn	U+A9DF: JAVANESE PADA ISEN-ISEN	✓
+꧞				⁎		$	Po	r	correction mark	infrequent						pada tirta tumétés	U+A9DE: JAVANESE PADA TIRTA TUMETES	✓
+꧟				*		%	Po	r	correction mark	infrequent						pada isèn-isèn	U+A9DF: JAVANESE PADA ISEN-ISEN	✓
 ꧋꧆꧋				¶°¶					combined punctuation								U+A9CB U+A9C6 U+A9CB: JAVANESE PADA ADEG ADEG, PADA WINDU, PADA ADEG ADEG	
 																		
-ʼ				ʼ	ʼ		Lm		apostrophe								U+02BC: MODIFIER LETTER APOSTROPHE	
-§				§	§		Po		section sign								U+00A7: SECTION SIGN	
-†				†	†		Po		dagger								U+2020: DAGGER	
-‡				‡	‡		Po		double dagger								U+2021: DOUBLE DAGGER	
-′				′	′		Po		prime								U+2032: PRIME	
-″				″	″		Po		double prime								U+2033: DOUBLE PRIME	
-																		
+ʼ				ʼ	ʼ		Lm	?	apostrophe								U+02BC: MODIFIER LETTER APOSTROPHE	
+§				§	§		Po	?	section sign								U+00A7: SECTION SIGN	
+†				†	†		Po	?	dagger								U+2020: DAGGER	
+‡				‡	‡		Po	?	double dagger								U+2021: DOUBLE DAGGER	
+′				′	′		Po	?	prime								U+2032: PRIME	
+″				″	″		Po	?	double prime								U+2033: DOUBLE PRIME	
 `																		
 																		
-																		
 latinPanel = 'aː aʲ aʷ ɖ d͡ʒ ð ə ɡ ħ ɲ ŋ ∅ ʃ t͡ʃ ʈ ɤ ɣ ʔ'																		
-																		
-																		
 																		
 var cols = {																		
 key: 1,																		
