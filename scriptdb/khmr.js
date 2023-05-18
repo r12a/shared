@@ -2,23 +2,23 @@ var spreadsheet = `khmr-km	key	ipa	ipa+	translit	ungen	kbd	class	status	type	usa
 \u0020	 			 	 				space								
 \u200B	=			ᶻʷˢᵖ			Cf		zero-width space							U+200B: ZERO WIDTH SPACE	
 -	-			-	-		Pd		hyphen							U+2010: HYPHEN	
-‑	-			‑	‑		Pd		non-breaking hyphen							U+2011: NON-BREAKING HYPHEN	
-–	-			–	–		Pd		en dash							U+2013: EN DASH	
-—	-			—	—		Pd		em dash							U+2014: EM DASH	
+‑	-			‑	‑		Pd	?	non-breaking hyphen							U+2011: NON-BREAKING HYPHEN	
+–	-			–	–		Pd	?	en dash							U+2013: EN DASH	
+—	-			—	—		Pd	?	em dash							U+2014: EM DASH	
 ,	,			,	,		Po		comma							U+002C: COMMA	
-;	;			;	;		Po		semicolon							U+003B: SEMICOLON	
-:	:			:	:		Po		colon							U+003A: COLON	
+;	;			;	;		Po	?	semicolon							U+003B: SEMICOLON	
+:	:			:	:		Po	?	colon							U+003A: COLON	
 ៖	:			:̣		:	Po		colon					ចំណុចពីរគូស	cɑmnoc piː kuːh	U+17D6: KHMER SIGN CAMNUC PII KUUH	✓
 !	!			!	!		Po		exclamation mark							U+0021: EXCLAMATION MARK	
 ៎	!			!̣		+	Mn	i	exclamation sign					កាកបាទ	kaːkɑɓaːt	U+17CE: KHMER SIGN KAKABAT	✓
 ?	?			?	?		Po		question mark							U+003F: QUESTION MARK	
 .	.			.	.		Po		full stop							U+002E: FULL STOP	
-…	.			…	…		Po		ellipsis							U+2026: HORIZONTAL ELLIPSIS	
+…	.			…	…		Po	?	ellipsis							U+2026: HORIZONTAL ELLIPSIS	
 ៘	.			⋯̇	⋯		Po	d	etc.					។ល។ / ល៉ៈ	lanəŋla / laʔ	U+17D8: KHMER SIGN BEYYAL	✓
 (	(			(	(		Ps		parenthesis							U+0028: LEFT PARENTHESIS	
-[	(			[	[		Pe		bracket							U+005B: LEFT SQUARE BRACKET	
+[	(			[	[		Pe	?	bracket							U+005B: LEFT SQUARE BRACKET	
 )	)			)	)		Ps		parenthesis							U+0029: RIGHT PARENTHESIS	
-]	)			]	]		Pe		bracket							U+005D: RIGHT SQUARE BRACKET	
+]	)			]	]		Pe	?	bracket							U+005D: RIGHT SQUARE BRACKET	
 ់	[			˘			Mn		vowel shortener					បន្តក់	ɓɑntɑk	U+17CB: KHMER SIGN BANTOC	✓
 ៉	[			ꜜ			Mn		consonant shifter					មូសិកទន្ត	museʔkətoə̯n	U+17C9: KHMER SIGN MUUSIKATOAN	✓
 ៊	[			ꜛ		/	Mn		consonant shifter					ត្រីសព្ទ	trəisaɓ	U+17CA: KHMER SIGN TRIISAP	✓
@@ -30,10 +30,10 @@ var spreadsheet = `khmr-km	key	ipa	ipa+	translit	ungen	kbd	class	status	type	usa
 ្	*			͞		j	Mn		coeng sign					ជើង	cəːŋ	U+17D2: KHMER SIGN COENG	✓
 ៍	\			ˣ		^	Mn		syllable silencer					ទណ្ឌឃាត	tɔnɗɔkʰiət	U+17CD: KHMER SIGN TOANDAKHIAT	✓
 ៑	\			ˣ̣			Mn	i	virama					វិរាម	ʋiriəm	U+17D1: KHMER SIGN VIRIAM	✓
-ៜ	\			˟		a	Lo	r	marker for omitted Sanskrit vowel						avakraha sannya	U+17DC: KHMER SIGN AVAKRAHASANYA	✓
+ៜ	\			˟		a	Lo	u	marker for omitted Sanskrit vowel						avakraha sannya	U+17DC: KHMER SIGN AVAKRAHASANYA	✓
 ៗ	&			&		@	Lm		repetition sign					ស្ទួន / លេខទោ	stuən / leːktoː	U+17D7: KHMER SIGN LEK TOO	✓
-%	%			%			Po		percentage mark							U+0025: PERCENT SIGN	
-‰	%			‰			Po		per mille mark							U+2030: PER MILLE SIGN	
+%	%			%			Po	?	percentage mark							U+0025: PERCENT SIGN	
+‰	%			‰			Po	?	per mille mark							U+2030: PER MILLE SIGN	
 ០	±			0̣		0	Nd		digit					សូន	soun	U+17E0: KHMER DIGIT ZERO	✓
 ១	±			1̣		1	Nd		digit					មួយ	muəj	U+17E1: KHMER DIGIT ONE	✓
 ២	±			2̣		2	Nd		digit					ពីរ	piː	U+17E2: KHMER DIGIT TWO	✓
@@ -45,18 +45,18 @@ var spreadsheet = `khmr-km	key	ipa	ipa+	translit	ungen	kbd	class	status	type	usa
 ៨	±			8̣		8	Nd		digit					ប្រាំបី	pramɓəj	U+17E8: KHMER DIGIT EIGHT	✓
 ៩	±			9̣		9	Nd		digit					ប្រាំបួន	pramɓuən	U+17E9: KHMER DIGIT NINE	✓
 ៛	#			¤		$	Sc		currency symbol					សញ្ញារៀល	saɲ ɲaː riəl	U+17DB: KHMER CURRENCY SYMBOL RIEL	✓
-«	<			«	“		Pi		quotation mark							U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
-‹	<			‹			Pi		quotation mark							U+2018: LEFT SINGLE QUOTATION MARK	
+«	<			«	“		Pi	?	quotation mark							U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
+‹	<			‹			Pi	?	quotation mark							U+2018: LEFT SINGLE QUOTATION MARK	
 “	<			“	“		Pi		quotation mark							U+201C: LEFT DOUBLE QUOTATION MARK	
-\‘	<			\‘			Pi		quotation mark							U+2018: LEFT SINGLE QUOTATION MARK	
-»	>			»	”		Pf		quotation mark							U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
-›	>			›			Pf		quotation mark							U+2019: RIGHT SINGLE QUOTATION MARK	
+‘	<			\‘			Pi		quotation mark							U+2018: LEFT SINGLE QUOTATION MARK	
+»	>			»	”		Pf	?	quotation mark							U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
+›	>			›			Pf	?	quotation mark							U+2019: RIGHT SINGLE QUOTATION MARK	
 ”	>			”	”		Pf		quotation mark							U+201D: RIGHT DOUBLE QUOTATION MARK	
-\’	>			\’			Pf		quotation mark							U+2019: RIGHT SINGLE QUOTATION MARK	
+’	>			\’			Pf		quotation mark							U+2019: RIGHT SINGLE QUOTATION MARK	
 \u200C	=			ᶻʷⁿʲ			Cf		zero-width non-joiner							U+200C: ZERO WIDTH NON-JOINER	
 \u200D	=			ᶻʷʲ			Cf		zero-width joiner							U+200D: ZERO WIDTH JOINER	
-\u034F	=			ᶜᵍʲ			Mn		combining grapheme joiner							U+034F: COMBINING GRAPHEME JOINER	
-\u2060	=			ʷʲ			Cf		word joiner							U+2060 WORD JOINER	
+\u034F	=			ᶜᵍʲ			Mn	?	combining grapheme joiner							U+034F: COMBINING GRAPHEME JOINER	
+\u2060	=			ʷʲ			Cf	?	word joiner							U+2060 WORD JOINER	
 ។	.			.	.	.	Po		full stop					ខ័ណ្ឌ	kʰan	U+17D4: KHMER SIGN KHAN	✓
 ៕	|			|		>	Po		section terminator					បរិយោសាន	ɓɑːrijaosaːn	U+17D5: KHMER SIGN BARIYOOSAN	✓
 																	
@@ -188,15 +188,14 @@ var spreadsheet = `khmr-km	key	ipa	ipa+	translit	ungen	kbd	class	status	type	usa
 \u17B4				–			Mn	d	inherent vowel mark							U+17B4: KHMER VOWEL INHERENT AQ	
 \u17B5				–			Mn	d	inherent vowel mark							U+17B5: KHMER VOWEL INHERENT AA	
 																	
-ʼ	\'			\'			Lm		apostrophe							U+02BC: MODIFIER LETTER APOSTROPHE	
+ʼ	\'			\'			Lm	?	apostrophe							U+02BC: MODIFIER LETTER APOSTROPHE	
 ។ល។				.ḻ.	…				etc.							U+17D4 U+179B U+17D4: KHMER SIGN KHAN, LETTER LO, SIGN KHAN	
 																	
-§	*			§	§		Po		section sign							U+00A7: SECTION SIGN	
-†	*			†	†		Po		dagger							U+2020: DAGGER	
-‡	*			‡	‡		Po		double dagger							U+2021: DOUBLE DAGGER	
-′	'			′	′		Po		prime							U+2032: PRIME	
-″	"			″	″		Po		double prime							U+2033: DOUBLE PRIME	
-"				–		#	Po									U+0022: QUOTATION MARK	
+§	*			§	§		Po	?	section sign							U+00A7: SECTION SIGN	
+†	*			†	†		Po	?	dagger							U+2020: DAGGER	
+‡	*			‡	‡		Po	?	double dagger							U+2021: DOUBLE DAGGER	
+′	'			′	′		Po	?	prime							U+2032: PRIME	
+″	"			″	″		Po	?	double prime							U+2033: DOUBLE PRIME	
 																	
 អិ		ə e ɨ i		ʔi					standalone vowel							U+17A2 U+17B7: KHMER LETTER QA, VOWEL SIGN I	
 អី		əj iː		ʔī					standalone vowel							U+17A2 U+17B8: KHMER LETTER QA, VOWEL SIGN II	
@@ -226,14 +225,9 @@ var spreadsheet = `khmr-km	key	ipa	ipa+	translit	ungen	kbd	class	status	type	usa
 ហ្វ៊		f ʋ	ɔː	h͞v̱′	hv			l	series 2 consonant	for loan words						U+17A0 U+17D2 U+179C U+17CA: KHMER LETTER HA, SIGN COENG, LETTER VO, SIGN TRIISAP	
 ហ្ស		ʒ z	ɑː	h͞s	hs			l	series 1 consonant	for loan words						U+17A0 U+17D2 U+179F: KHMER LETTER HA, SIGN COENG, LETTER SA	
 ហ្ស៊		ʒ z	ɔː	h͞s′	hs			l	series 2 consonant	for loan words						U+17A0 U+17D2 U+179F U+17CA: KHMER LETTER HA, SIGN COENG, LETTER SA, SIGN TRIISAP	
-																	
-																	
 `																	
 																	
-																	
 latinPanel = `« » Ä à á â æ ñ ô ý ā ă ī ŋ ś ū ȳ ɑ ɓ ɔ ɕ ɗ ə ɛ ɨ ɲ ʂ ʋ ʔ ʰ ʲ ʳ ʷ ʼ ː ᵃ ᵊ ᵒ ḍ ḥ ḵ ḷ ḻ ṃ ṅ ṇ ṉ ṟ ṣ ṫ ṭ ṯ ẏ ạ ị ọ ụ ​ – ‘ ’ ′ ″ ₔ ∅ ⸯ ‹ ›`																	
-																	
-																	
 																	
 var cols = {																	
 key: 1,																	
@@ -258,4 +252,3 @@ block: 17,
 																	
 othertranscriptions: [[5, 'UNGEN']]																	
 }																	
-																	
