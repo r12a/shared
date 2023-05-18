@@ -1,32 +1,30 @@
 var spreadsheet = `lepc-lep	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	onset	finals	native name	latin name	deva	ucs name	block
 -	-			-	-				hyphen							U+2010: HYPHEN	
-–	-			–	–		Pd		en dash							U+2013: EN DASH	
-—	-			—	—		Pd		em dash							U+2014: EM DASH	
-	*			˟			Mn​		vowel silencer								
-	:	ː		ː			Mn​		vowel lengthener								
-᰻	.			.̣												U+1C3B: LEPCHA PUNCTUATION TA-ROL	
-᰼	.			.̱												U+1C3C: LEPCHA PUNCTUATION NYET THYOOM TA-ROL	
-᰽	.			.͈					full stop							U+1C3D: LEPCHA PUNCTUATION CER-WA	
-᰾	.			.͇					full stop							U+1C3E: LEPCHA PUNCTUATION TSHOOK CER-WA	
-᰿	.			|				r								U+1C3F: LEPCHA PUNCTUATION TSHOOK	
+–	-			–	–		Pd	?	en dash							U+2013: EN DASH	
+—	-			—	—		Pd	?	em dash							U+2014: EM DASH	
+᰻	.			.̣			Po									U+1C3B: LEPCHA PUNCTUATION TA-ROL	
+᰼	.			.̱			Po									U+1C3C: LEPCHA PUNCTUATION NYET THYOOM TA-ROL	
+᰽	.			.͈			Po		full stop							U+1C3D: LEPCHA PUNCTUATION CER-WA	
+᰾	.			.͇			Po		full stop							U+1C3E: LEPCHA PUNCTUATION TSHOOK CER-WA	
+᰿	.			|			Po	r								U+1C3F: LEPCHA PUNCTUATION TSHOOK	
 .	.			.	.		Po		full stop							U+002E: FULL STOP	
 ,	,			,̣	,		Po		comma							U+002C: COMMA	
 ;	;			;̣	;		Po		semicolon							U+003B: SEMICOLON	
 :	:			:	:		Po		colon							U+003A: COLON	
 !	!			!	!		Po		exclamation mark							U+0021: EXCLAMATION MARK	
 ?	?			?	?		Po		question mark							U+003F: QUESTION MARK	
-…	.			…	…		Po		ellipsis							U+2026: HORIZONTAL ELLIPSIS	
+…	.			…	…		Po	?	ellipsis							U+2026: HORIZONTAL ELLIPSIS	
 (	(			(	(		Ps		parenthesis							U+0028: LEFT PARENTHESIS	
-[	(			[	[		Ps		bracket							U+005B: LEFT SQUARE BRACKET	
+[	(			[	[		Ps	?	bracket							U+005B: LEFT SQUARE BRACKET	
 )	)			)	)		Pe		parenthesis							U+0029: RIGHT PARENTHESIS	
-]	)			]	]		Pe		bracket							U+005D: RIGHT SQUARE BRACKET	
-%	%			%			Po		percentage mark							U+0025: PERCENT SIGN	
-‰	%			‰			Po		per mille mark							U+2030: PER MILLE SIGN	
+]	)			]	]		Pe	?	bracket							U+005D: RIGHT SQUARE BRACKET	
+%	%			%			Po	?	percentage mark							U+0025: PERCENT SIGN	
+‰	%			‰			Po	?	per mille mark							U+2030: PER MILLE SIGN	
 “	<			“	“		Pi		quotation mark							U+201C: LEFT DOUBLE QUOTATION MARK	
-\‘	<			\‘	\‘				quotation mark							U+2018: LEFT SINGLE QUOTATION MARK	
+‘	<			\‘	\‘		Pi		quotation mark							U+2018: LEFT SINGLE QUOTATION MARK	
 ”	>			”	”		Pf		quotation mark							U+201D: RIGHT DOUBLE QUOTATION MARK	
-\’	>			\’	\’				quotation mark							U+2019: RIGHT SINGLE QUOTATION MARK	
-᰷	/			ˑ			Mn		nukta							U+1C37: LEPCHA SIGN NUKTA	
+’	>			\’	\’		Pf		quotation mark							U+2019: RIGHT SINGLE QUOTATION MARK	
+᰷	/			ˑ			Mn​		nukta							U+1C37: LEPCHA SIGN NUKTA	
 ᰣ	[	ʔ		ʔ			Lo		vowel carrier							U+1C23: LEPCHA LETTER A	
 ᰶ	A			â	â		Mn​		vowel							U+1C36: LEPCHA SIGN RAN	
 ᰦ	a	a		 á	 á		Mc​		vowel							U+1C26: LEPCHA VOWEL SIGN AA	
@@ -50,7 +48,7 @@ var spreadsheet = `lepc-lep	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᰍ	n	n	a	n	n		Lo		consonant			ᰰ			न ण	U+1C0D: LEPCHA LETTER NA	
 ᰰ	N	n		n̽	n		Mn​		final consonant		ᰍ		ᰜᰦᰍᰪᰰ	lanun		U+1C30: LEPCHA CONSONANT SIGN N	
 ᰅ	N	ŋ	a	ŋ	ng		Lo		consonant			ᰵ			ङ	U+1C05: LEPCHA LETTER NGA	
-ᰵ	N	ŋ		ŋ̽	ng		Mc		final consonant		ᰅ		ᰜᰀᰴ	lakang		U+1C35: LEPCHA CONSONANT SIGN KANG	
+ᰵ	N	ŋ		ŋ̽	ng		Mc​		final consonant		ᰅ		ᰜᰀᰴ	lakang		U+1C35: LEPCHA CONSONANT SIGN KANG	
 ᰴ	N	ŋ		ŋ̣̽	ng		Mc​		final consonant		ᰅ		ᰉᰧᰰᰶᰌᰨ	nyíndo		U+1C34: LEPCHA CONSONANT SIGN NYIN-DO	
 ᰉ	n	ɲ		ɲ	ny		Lo		consonant							U+1C09: LEPCHA LETTER NYA	
 ᰩ	o	ɔ		ɔ	ó		Mc​		vowel							U+1C29: LEPCHA VOWEL SIGN OO	
@@ -90,11 +88,11 @@ var spreadsheet = `lepc-lep	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᰝ᰷ᰥ		ʈʰ	a	hˑr̆	thr				consonant							U+1C1D U+1C37 U+1C25: LEPCHA LETTER HA, SIGN NUKTA, SUBJOINED LETTER RA	
 ᰃ᰷ᰥ		ɖ	a	gˑr̆	dr				consonant							U+1C03 U+1C37 U+1C25: LEPCHA LETTER GA, SIGN NUKTA, SUBJOINED LETTER RA	
 																	
-§				§			Po		section sign							U+00A7: SECTION SIGN	
-†				†			Po		dagger							U+2020: DAGGER	
-‡				‡			Po		double dagger							U+2021: DOUBLE DAGGER	
-′				′			Po		prime							U+2032: PRIME	
-″				″			Po		double prime							U+2033: DOUBLE PRIME	
+§				§			Po	?	section sign							U+00A7: SECTION SIGN	
+†				†			Po	?	dagger							U+2020: DAGGER	
+‡				‡			Po	?	double dagger							U+2021: DOUBLE DAGGER	
+′				′			Po	?	prime							U+2032: PRIME	
+″				″			Po	?	double prime							U+2033: DOUBLE PRIME	
 																	
 ᱁	±	1		1̣	1		Nd		digit						१	U+1C41: LEPCHA DIGIT ONE	
 ᱂	±	2		2̣	2		Nd		digit						२	U+1C42: LEPCHA DIGIT TWO	
@@ -107,9 +105,9 @@ var spreadsheet = `lepc-lep	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᱉	±	9		9̣	9		Nd		digit						९	U+1C49: LEPCHA DIGIT NINE	
 ᱀	±	0		0̣	0		Nd		digit						०	U+1C40: LEPCHA DIGIT ZERO	
 																	
-\u200C	=			ₓ			Cf		zero-width non-joiner							U+200C: ZERO WIDTH NON-JOINER	
-\u200D	=			₊			Cf		zero-width joiner							U+200D: ZERO WIDTH JOINER	
-◌									placeholder							U+25CC: DOTTED CIRCLE	
+\u200C	=			ₓ			Cf	?	zero-width non-joiner							U+200C: ZERO WIDTH NON-JOINER	
+\u200D	=			₊			Cf	?	zero-width joiner							U+200D: ZERO WIDTH JOINER	
+◌								u	placeholder							U+25CC: DOTTED CIRCLE	
 `																	
 																	
 latinPanel = 'd͡ʒ ʰ ː pʰ tʰ t͡ʃ t͡s r̥ l̥ d͡z á â ɑ í ó ú ʲ ʔk̚ ŋ ɔ ɖ ə ɛ ɯ ɲ ʔp̚ ʔt̚ ʃ ʈ ʈʰ ʌ ʒ ʔ'																	
