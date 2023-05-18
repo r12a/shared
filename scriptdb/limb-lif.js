@@ -1,7 +1,8 @@
 var spreadsheet = `limb-lif	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	native name	latin name	deva	ucs name	block
 -	-			-	-				hyphen					U+2010: HYPHEN	
-–	-			–	–		Pd		en dash					U+2013: EN DASH	
-—	-			—	—		Pd		em dash					U+2014: EM DASH	
+															
+–	-			–	–		Pd	?	en dash					U+2013: EN DASH	
+—	-			—	—		Pd	?	em dash					U+2014: EM DASH	
 ᤻	*			˟			Mn​		vowel silencer					U+193B: LIMBU SIGN SA-I	
 ᤺	:	ː		ː			Mn​		vowel lengthener					U+193A: LIMBU SIGN KEMPHRENG	
 .	,			,	,		Po		comma			cuktçɔk		U+002E: FULL STOP	
@@ -12,13 +13,13 @@ var spreadsheet = `limb-lif	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᥀	!			!̣	lo		So	o	exclamatory particle		ᤗᤥ			U+1940: LIMBU SIGN LOO	
 ᥅	?			?	?		Po		question mark					U+1945: LIMBU QUESTION MARK	
 ॥	.			.	.		Po		sentence end					U+0965: DEVANAGARI DOUBLE DANDA	
-…	.			…	…		Po		ellipsis					U+2026: HORIZONTAL ELLIPSIS	
+…	.			…	…		Po	?	ellipsis					U+2026: HORIZONTAL ELLIPSIS	
 (	(			(	(		Ps		parenthesis					U+0028: LEFT PARENTHESIS	
-[	(			[	[		Ps		bracket					U+005B: LEFT SQUARE BRACKET	
+[	(			[	[		Ps	?	bracket					U+005B: LEFT SQUARE BRACKET	
 )	)			)	)		Pe		parenthesis					U+0029: RIGHT PARENTHESIS	
-]	)			]	]		Pe		bracket					U+005D: RIGHT SQUARE BRACKET	
-%	%			%			Po		percentage mark					U+0025: PERCENT SIGN	
-‰	%			‰			Po		per mille mark					U+2030: PER MILLE SIGN	
+]	)			]	]		Pe	?	bracket					U+005D: RIGHT SQUARE BRACKET	
+%	%			%			Po	?	percentage mark					U+0025: PERCENT SIGN	
+‰	%			‰			Po	?	per mille mark					U+2030: PER MILLE SIGN	
 “	<			“	“		Pi		quotation mark					U+201C: LEFT DOUBLE QUOTATION MARK	
 \‘	<			\‘	\‘				quotation mark					U+2018: LEFT SINGLE QUOTATION MARK	
 ”	>			”	”		Pf		quotation mark					U+201D: RIGHT DOUBLE QUOTATION MARK	
@@ -78,11 +79,11 @@ var spreadsheet = `limb-lif	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᤝ		d͡ʑɲ	a		jñ		Lo	o	conjunct	early versions of script				U+191D: LIMBU LETTER GYAN	
 ᤞ		tr	a		tr		Lo	o	conjunct	early versions of script				U+191E: LIMBU LETTER TRA	
 															
-§				§			Po		section sign					U+00A7: SECTION SIGN	
-†				†			Po		dagger					U+2020: DAGGER	
-‡				‡			Po		double dagger					U+2021: DOUBLE DAGGER	
-′				′			Po		prime					U+2032: PRIME	
-″				″			Po		double prime					U+2033: DOUBLE PRIME	
+§				§			Po	?	section sign					U+00A7: SECTION SIGN	
+†				†			Po	?	dagger					U+2020: DAGGER	
+‡				‡			Po	?	double dagger					U+2021: DOUBLE DAGGER	
+′				′			Po	?	prime					U+2032: PRIME	
+″				″			Po	?	double prime					U+2033: DOUBLE PRIME	
 															
 ᥇	±	1		1̣	1		Nd		digit				१	U+1947: LIMBU DIGIT ONE	
 ᥈	±	2		2̣	2		Nd		digit				२	U+1948: LIMBU DIGIT TWO	
@@ -95,9 +96,9 @@ var spreadsheet = `limb-lif	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᥏	±	9		9̣	9		Nd		digit				९	U+194F: LIMBU DIGIT NINE	
 ᥆	±	0		0̣	0		Nd		digit				०	U+1946: LIMBU DIGIT ZERO	
 															
-\u200C	=			ₓ			Cf		zero-width non-joiner					U+200C: ZERO WIDTH NON-JOINER	
-\u200D	=			₊			Cf		zero-width joiner					U+200D: ZERO WIDTH JOINER	
-◌									placeholder					U+25CC: DOTTED CIRCLE	
+\u200C	=			ₓ			Cf	?	zero-width non-joiner					U+200C: ZERO WIDTH NON-JOINER	
+\u200D	=			₊			Cf	?	zero-width joiner					U+200D: ZERO WIDTH JOINER	
+◌								u	placeholder					U+25CC: DOTTED CIRCLE	
 `															
 															
 latinPanel = 'ə bʰ dʰ d͡ʑʱ d͡ʒ gʰ kʰ pʰ tʰ t͡ʃ t͡ʃʰ ŋ ɔ ɛ ɡ ɡʰ ɲ ʂ ʃ ʔ ˜ ̃ ā ī ū ɛ̄ ō ɔ̄ aː iː uː ɛː ɔː oː'															
