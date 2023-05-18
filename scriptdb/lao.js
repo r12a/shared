@@ -3,8 +3,8 @@ var spreadsheet = `laoo-lo	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 \u200B	]			␣			Cf		zero-width space					U+200B: ZERO WIDTH SPACE		✓
 -	-			-	-	{	Po		hyphen					U+2010: HYPHEN		
 ‑	-			‑	‑		Pd		non-breaking hyphen					U+2011: NON-BREAKING HYPHEN		
-–	-			–	–		Pd		en dash					U+2013: EN DASH		
-—	-			—	—		Pd		em dash					U+2014: EM DASH		
+–	-			–	–		Pd	?	en dash					U+2013: EN DASH		
+—	-			—	—		Pd	?	em dash					U+2014: EM DASH		
 ,	,			,	,	F	Po		comma					U+002C: COMMA		
 ;	;			;	;	S	Po		semicolon					U+003B: SEMICOLON		
 :	:			:	:	G	Po		colon					U+003A: COLON		
@@ -13,15 +13,15 @@ var spreadsheet = `laoo-lo	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 .	.			.	.	D	Po		full stop					U+002E: FULL STOP		
 ຯ	.			…	…	D	Lo		ellipsis					U+0EAF: LAO ELLIPSIS		✓
 (	(			(	(	X	Ps		parenthesis					U+0028: LEFT PARENTHESIS		
-[	(			[	[		Ps		bracket					U+005B: LEFT SQUARE BRACKET		
+[	(			[	[		Ps	?	bracket					U+005B: LEFT SQUARE BRACKET		
 )	)			)	)	?	Pe		parenthesis					U+0029: RIGHT PARENTHESIS		
-]	)			]	]		Pe		bracket					U+005D: RIGHT SQUARE BRACKET		
+]	)			]	]		Pe	?	bracket					U+005D: RIGHT SQUARE BRACKET		
 ໌	]			′		%	Mn	a	cancellation mark					U+0ECC: LAO CANCELLATION MARK		✓
 ອ	}	ʔ ɔː		ʔ	- ǭ	v	Lo		mid class vowel carrier/vowel			ອ ໂອ	ɔ̀ː ʔòː	U+0EAD: LAO LETTER O	∅	✓
 ໆ	&			&		N	Lm		repetition mark			ເຄ່ຶອງໝາຍຊ້ຳ	kʰɯaŋ-mǎːj-sâm	U+0EC6: LAO KO LA		✓
 ₭	#			¤		Z	Sc		currency symbol					U+20AD: KIP SIGN		
-%	%			%		:	Po		percentage mark					U+0025: PERCENT SIGN		
-‰	%			‰			Po		per mille mark					U+2030: PER MILLE SIGN		
+%	%			%		:	Po	?	percentage mark					U+0025: PERCENT SIGN		
+‰	%			‰			Po	?	per mille mark					U+2030: PER MILLE SIGN		
 ່	^			¹		j	Mn		tone mark			ໄນ້ເອກ	mâj eːk	U+0EC8: LAO TONE MAI EK		✓
 ້	^			²		h	Mn		tone mark			ໄນ້ໂທ	mâj toː	U+0EC9: LAO TONE MAI THO		✓
 ໊	^			³		H	Mn		tone mark			ໄນ້ຕີ	mâj tiː	U+0ECA: LAO TONE MAI TI		✓
@@ -38,17 +38,17 @@ var spreadsheet = `laoo-lo	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ໘	±	8		8̣	8	)	Nd	i	digit			ແປດ	paet	U+0ED8: LAO DIGIT EIGHT		✓
 ໙	±	9		9̣	9	_	Nd	i	digit			ເກົ້າ	kao	U+0ED9: LAO DIGIT NINE		✓
 «	<			«	“		Pi		quotation mark					U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK		
-‹	<			‹			Pi		quotation mark					U+2018: LEFT SINGLE QUOTATION MARK		
+‹	<			‹			Pi	?	quotation mark					U+2018: LEFT SINGLE QUOTATION MARK		
 “	<			“	“		Pi		quotation mark					U+201C: LEFT DOUBLE QUOTATION MARK		
-\‘	<			\‘	\‘		Pi		quotation mark					U+2018: LEFT SINGLE QUOTATION MARK		
-\u200C	=			ₓ			Cf		zwnj					U+200C: ZERO WIDTH NON-JOINER		
-\u200D	=			₊			Cf		zwj					U+200D: ZERO WIDTH JOINER		
-\u034F	=			ᶜᵍʲ			Mn		combining grapheme joiner					U+034F: COMBINING GRAPHEME JOINER		
+‘	<			\‘	\‘		Pi		quotation mark					U+2018: LEFT SINGLE QUOTATION MARK		
+\u200C	=			ₓ			Cf	?	zwnj					U+200C: ZERO WIDTH NON-JOINER		
+\u200D	=			₊			Cf	?	zwj					U+200D: ZERO WIDTH JOINER		
+\u034F	=			ᶜᵍʲ			Mn	?	combining grapheme joiner					U+034F: COMBINING GRAPHEME JOINER		
 \u2060	=			ʷʲ			Cf		word joiner					U+2060 WORD JOINER		✓
 »	>			»	”		Pf		quotation mark					U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK		
-›	>			›			Pf		quotation mark					U+2019: RIGHT SINGLE QUOTATION MARK		
+›	>			›			Pf	?	quotation mark					U+2019: RIGHT SINGLE QUOTATION MARK		
 ”	>			”	”		Pf		quotation mark					U+201D: RIGHT DOUBLE QUOTATION MARK		
-\’	>			\’	\’		Pf		quotation mark					U+2019: RIGHT SINGLE QUOTATION MARK		
+’	>			\’	\’		Pf		quotation mark					U+2019: RIGHT SINGLE QUOTATION MARK		
 																
 																
 າ	a	aː		ā	ā	k	Lo		long vowel					U+0EB2: LAO VOWEL SIGN AA	aa	✓
@@ -108,7 +108,7 @@ var spreadsheet = `laoo-lo	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ປ	p	p-		p̯	p	x	Lo		mid class plosive			ປ ປາ	pɔ̀ː paː	U+0E9B: LAO LETTER PO	bp	✓
 ຜ	p	pʰ-		pʰ	ph	z	Lo		high class plosive			ຜ ເຜິ້ງ	pʰɔ̌ː pʰɤ̏ŋ	U+0E9C: LAO LETTER PHO SUNG	p	✓
 ພ	p	pʰ-		p̱ʰ	ph	r	Lo		low class consonant			ພ ພູ	pʰɔ́ː pʰúː	U+0E9E: LAO LETTER PHO TAM	p	✓
-ຣ	r	l -n		ṟ	r -n	I	Lo	o	low class approximant			ຣະຄັງ	rākʰáŋ	U+0EA3: LAO LETTER LO LING		✓
+ຣ	r	l -n		ṟ	r -n	I	Lo	l	low class approximant			ຣະຄັງ	rākʰáŋ	U+0EA3: LAO LETTER LO LING		✓
 ສ	s	s		s	s	l	Lo		high class fricative			ສ ເສືອ	sɔ̌ː sɯ̌ːə	U+0EAA: LAO LETTER SO SUNG	s	✓
 ຊ	s	s		s̱	x	-	Lo		low class fricative			ຊ ຊ້າງ	sɔ́ː sâːŋ	U+0E8A: LAO LETTER SO TAM	s	✓
 ຕ	t	t		t̯	t	8	Lo		mid class plosive			ຕ ຕາ	tɔ̀ː tàː	U+0E95: LAO LETTER TO	dt	✓
@@ -147,39 +147,35 @@ var spreadsheet = `laoo-lo	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 																
 ໆລໆ		la		&ḻ&	la							ເຄຶ່ອງໝາຍ ແລະອຶ່ນໆ	kʰɯaŋ-mǎːj-lɛ-ɯːn-ɯːn	U+0EC6 U+0EA5 U+0EC6: LAO KO LA, LAO LETTER LO LOOT, LAO KO LA		
 																
-ຆ							Lo			pali				U+0E86: LAO LETTER PALI GHA		✓
-ຉ							Lo			pali				U+0E89: LAO LETTER PALI CHA		✓
-ຌ							Lo			pali				U+0E8C: LAO LETTER PALI JHA		✓
-ຎ							Lo			pali				U+0E8E: LAO LETTER PALI NYA		✓
-ຏ				...			Lo			pali				U+0E8F: LAO LETTER PALI TTA		✓
-ຐ							Lo			pali				U+0E90: LAO LETTER PALI TTHA		✓
-ຑ							Lo			pali				U+0E91: LAO LETTER PALI DDA		✓
-ຒ							Lo			pali				U+0E92: LAO LETTER PALI DDHA		✓
-ຓ							Lo			pali				U+0E93: LAO LETTER PALI NNA		✓
-ຘ							Lo			pali				U+0E98: LAO LETTER PALI DHA		✓
-ຠ							Lo			pali				U+0EA0: LAO LETTER PALI BHA		✓
-ຨ							Lo			pali				U+0EA8: LAO LETTER SANSKRIT SHA		✓
-ຩ							Lo			pali				U+0EA9: LAO LETTER SANSKRIT SSA		✓
-ຬ							Lo			pali				U+0EAC: LAO LETTER PALI LLA		✓
-຺							Mn			pali				U+0EBA: LAO SIGN PALI VIRAMA		✓
+ຆ							Lo	u		pali				U+0E86: LAO LETTER PALI GHA		✓
+ຉ							Lo	u		pali				U+0E89: LAO LETTER PALI CHA		✓
+ຌ							Lo	u		pali				U+0E8C: LAO LETTER PALI JHA		✓
+ຎ							Lo	u		pali				U+0E8E: LAO LETTER PALI NYA		✓
+ຏ				...			Lo	u		pali				U+0E8F: LAO LETTER PALI TTA		✓
+ຐ							Lo	u		pali				U+0E90: LAO LETTER PALI TTHA		✓
+ຑ							Lo	u		pali				U+0E91: LAO LETTER PALI DDA		✓
+ຒ							Lo	u		pali				U+0E92: LAO LETTER PALI DDHA		✓
+ຓ							Lo	u		pali				U+0E93: LAO LETTER PALI NNA		✓
+ຘ							Lo	u		pali				U+0E98: LAO LETTER PALI DHA		✓
+ຠ							Lo	u		pali				U+0EA0: LAO LETTER PALI BHA		✓
+ຨ							Lo	u		pali				U+0EA8: LAO LETTER SANSKRIT SHA		✓
+ຩ							Lo	u		pali				U+0EA9: LAO LETTER SANSKRIT SSA		✓
+ຬ							Lo	u		pali				U+0EAC: LAO LETTER PALI LLA		✓
+຺							Mn	u		pali				U+0EBA: LAO SIGN PALI VIRAMA		✓
 																
 …					…	C	Po		ellipsis					U+2026: HORIZONTAL ELLIPSIS		
 																
-ʼ				ʼ	ʼ		Lm		apostrophe					U+02BC: MODIFIER LETTER APOSTROPHE		
-§				§	§		Po		section sign					U+00A7: SECTION SIGN		
-†				†	†		Po		dagger					U+2020: DAGGER		
-‡				‡	‡		Po		double dagger					U+2021: DOUBLE DAGGER		
-′				′	′		Po		prime					U+2032: PRIME		
-″				″	″		Po		double prime					U+2033: DOUBLE PRIME		
-*						E	Po									
-_						R	Pc									
-																
+ʼ				ʼ	ʼ		Lm	?	apostrophe					U+02BC: MODIFIER LETTER APOSTROPHE		
+§				§	§		Po	?	section sign					U+00A7: SECTION SIGN		
+†				†	†		Po	?	dagger					U+2020: DAGGER		
+‡				‡	‡		Po	?	double dagger					U+2021: DOUBLE DAGGER		
+′				′	′		Po	?	prime					U+2032: PRIME		
+″				″	″		Po	?	double prime					U+2033: DOUBLE PRIME		
+*						E	Po	?								
+_						R	Pc	?								
 `																
 																
-																
 latinPanel = '˨˦ ˦ ˥˧ ˧ ǣ aː ā ə eː ē ɛː iː ī iːə̯ īa kʰ ɲ ŋ ɔː oː ō ǭ pʰ tʰ t͡ɕ uː ūa ư ư̄ ū ʋ ɤ ɯ ɯː ʔ'																
-																
-																
 																
 var cols = {																
 key: 1,																
@@ -202,4 +198,3 @@ block: 16,
 																
 othertranscriptions: [[5, 'LOC'], [15, 'Simmala']]																
 }																
-																
