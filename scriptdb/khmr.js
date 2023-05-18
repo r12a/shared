@@ -14,7 +14,7 @@ var spreadsheet = `khmr-km	key	ipa	ipa+	translit	ungen	kbd	class	status	type	usa
 ?	?			?	?		Po		question mark							U+003F: QUESTION MARK	
 .	.			.	.		Po		full stop							U+002E: FULL STOP	
 …	.			…	…		Po	?	ellipsis							U+2026: HORIZONTAL ELLIPSIS	
-៘	.			⋯̇	⋯		Po	d	etc.					។ល។ / ល៉ៈ	lanəŋla / laʔ	U+17D8: KHMER SIGN BEYYAL	✓
+៘	.			⋯̇	⋯		Po	x	etc.					។ល។ / ល៉ៈ	lanəŋla / laʔ	U+17D8: KHMER SIGN BEYYAL	✓
 (	(			(	(		Ps		parenthesis							U+0028: LEFT PARENTHESIS	
 [	(			[	[		Pe	?	bracket							U+005B: LEFT SQUARE BRACKET	
 )	)			)	)		Ps		parenthesis							U+0029: RIGHT PARENTHESIS	
