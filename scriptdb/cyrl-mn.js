@@ -1,8 +1,8 @@
 var spreadsheet = `cyrl-mn	key	ipa	ipa+	translit	MNS 5217:2012	kbd	class	status	type	usage	lc	uc	native name	latin name	ucs name	mong	block			
 -	-			-	-		Pd		hyphen						U+2010: HYPHEN					
-‑	-			‑	‑		Pd		non-breaking hyphen						U+2011: NON-BREAKING HYPHEN					
-–	-			–	–		Pd		en dash						U+2013: EN DASH					
-—	-			—	—		Pd		em dash						U+2014: EM DASH					
+‑	-			‑	‑		Pd	?	non-breaking hyphen						U+2011: NON-BREAKING HYPHEN					
+–	-			–	–		Pd	?	en dash						U+2013: EN DASH					
+—	-			—	—		Pd	?	em dash						U+2014: EM DASH					
 ,	,			,	,	?	Po		comma						U+002C: COMMA					
 ;	;			;	;	$	Po		semicolon						U+003B: SEMICOLON					
 :	:			:	:	^	Po		colon						U+003A: COLON					
@@ -11,21 +11,21 @@ var spreadsheet = `cyrl-mn	key	ipa	ipa+	translit	MNS 5217:2012	kbd	class	status	
 .	.			.	.	/	Po		full stop						U+002E: FULL STOP					
 …	.			…	…		Po		ellipsis						U+2026: HORIZONTAL ELLIPSIS					
 (	(			(	(		Ps		parenthesis						U+0028: LEFT PARENTHESIS					
-[	(			[	[		Ps		bracket						U+005B: LEFT SQUARE BRACKET					
+[	(			[	[		Ps	?	bracket						U+005B: LEFT SQUARE BRACKET					
 )	)			)	)		Pe		parenthesis						U+0029: RIGHT PARENTHESIS					
-]	)			]	]		Pe		bracket						U+005D: RIGHT SQUARE BRACKET					
+]	)			]	]		Pe	?	bracket						U+005D: RIGHT SQUARE BRACKET					
 ₮	#			¤		$	Sc		currency symbol						U+20AE: TUGRIK SIGN		✓			
-№	#			#		!	So		number symbol						U+2116: NUMERO SIGN					
-%	%			%			Po		percentage mark						U+0025: PERCENT SIGN					
-‰	%			‰			Po		per mille mark						U+2030: PER MILLE SIGN					
+№	#			#		!	So	?	number symbol						U+2116: NUMERO SIGN					
+%	%			%			Po	?	percentage mark						U+0025: PERCENT SIGN					
+‰	%			‰			Po	?	per mille mark						U+2030: PER MILLE SIGN					
 «	<			«	“	:	Pi		quotation mark						U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK					
-‹	<			‹			Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK					
+‹	<			‹			Pi	?	quotation mark						U+2018: LEFT SINGLE QUOTATION MARK					
 “	<			“	“		Pi		quotation mark						U+201C: LEFT DOUBLE QUOTATION MARK					
-\‘	<			\‘	\‘		Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK					
+‘	<			\‘	\‘		Pi	?	quotation mark						U+2018: LEFT SINGLE QUOTATION MARK					
 »	>			»	”	;	Pf		quotation mark						U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK					
-›	>			›			Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK					
+›	>			›			Pf	?	quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK					
 „	>			”	”		Ps		quotation mark						U+201E: DOUBLE LOW-9 QUOTATION MARK					
-\‚	>			\’	\’		Ps		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK					
+‚	>			\’	\’		Ps	?	quotation mark						U+201A SINGLE LOW-9 QUOTATION MARK					
 																				
 																				
 а	a	a		a	a	g	Ll		back (-ATR) vowel			А	а		U+0430: CYRILLIC SMALL LETTER A	ᠠ	✓	a	a	ɑ
@@ -53,7 +53,7 @@ var spreadsheet = `cyrl-mn	key	ipa	ipa+	translit	MNS 5217:2012	kbd	class	status	
 ы	I	i		ɪ	y	s	Ll		vowel			Ы	эр үгийн ы		U+044B: CYRILLIC SMALL LETTER YERU	ᠢ	✓	ϊ	y	
 И	I	i		I	i	n	Lu		neutral vowel		и		и		U+0418: CYRILLIC CAPITAL LETTER I	ᠢ	✓	i	i	i ɪ
 Й	I	i̯		Ĭ	i	a	Lu		glide	for diphthongs	й		хагас и		U+0419: CYRILLIC CAPITAL LETTER SHORT I	ᠢ	✓	y	j	
-Ы	I	i		Ɪ	y	s	Lu		vowel		ы		эр үгийн ы		U+042B: CYRILLIC CAPITAL LETTER YERU	ᠢ	✓	ϊ	y	
+Ы	I	i		Ɪ	y	s	Lu	?	vowel		ы		эр үгийн ы		U+042B: CYRILLIC CAPITAL LETTER YERU	ᠢ	✓	ϊ	y	
 ж	j	d͡ʒ		ʤ	j	r	Ll		affricate			Ж	жэ		U+0436: CYRILLIC SMALL LETTER ZHE	ᠵ	✓	j	ž	ʤ
 Ж	J	d͡ʒ		ʤ̿	J	R	Lu		affricate		ж		жэ		U+0416: CYRILLIC CAPITAL LETTER ZHE	ᠵ	✓	j	ž	ʤ
 к	k	k x		k	k	[	Ll	l	plosive/fricative	for transliteration		К	ка		U+043A: CYRILLIC SMALL LETTER KA	ᠺ	✓	k	k	k
@@ -146,19 +146,15 @@ var spreadsheet = `cyrl-mn	key	ipa	ipa+	translit	MNS 5217:2012	kbd	class	status	
 ̆				–			Mn	r	diacritic	decomposed text only					U+0306: COMBINING BREVE		✓			
 ̈				–			Mn	r	diacritic	decomposed text only					U+0308: COMBINING DIAERESIS		✓			
 																				
-ʼ				ʼ	ʼ		Lm		apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE					
-§				§	§		Po		section sign						U+00A7: SECTION SIGN					
-†				†	†		Po		dagger						U+2020: DAGGER					
-‡				‡	‡		Po		double dagger						U+2021: DOUBLE DAGGER					
-′				′	′		Po		prime						U+2032: PRIME					
-″				″	″		Po		double prime						U+2033: DOUBLE PRIME					
-																				
+ʼ				ʼ	ʼ		Lm	?	apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE					
+§				§	§		Po	?	section sign						U+00A7: SECTION SIGN					
+†				†	†		Po	?	dagger						U+2020: DAGGER					
+‡				‡	‡		Po	?	double dagger						U+2021: DOUBLE DAGGER					
+′				′	′		Po	?	prime						U+2032: PRIME					
+″				″	″		Po	?	double prime						U+2033: DOUBLE PRIME					
 `																				
 																				
-																				
 latinPanel = 'aː ă d͡z d͡ʒ e ᵊ eː ɛː ɡ i̯ ĭ ⁱ iː ʲ ɮ ŋ ɔ ɵ oː ɔː ŏ ʃ t t͡s t͡ʃ ü uː ʊ ʊː w̜ ɣ'																				
-																				
-																				
 																				
 var cols = {																				
 key: 1,																				
@@ -180,6 +176,5 @@ nameLoc: 14,
 ucsName: 15,																				
 block: 17,																				
 																				
-othertranscriptions: [[5, 'MNS 5217:2012'], [16, 'Hudum']]																				
+othertranscriptions: [[5, 'MNS 5217:2012']]																				
 }																				
-																				
