@@ -1,26 +1,26 @@
 var spreadsheet = `mlym-ml	key	ipa	ipa+	translit	iso	kbd	class	status	type	usage	dvowel	ivowel	native name	name	ucs name	block
 -	-			-	-				hyphen						U+2010: HYPHEN	
-‑	-			‑	‑		Pd		non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
-–	-			–	–		Pd		en dash						U+2013: EN DASH	
-—	-			—	—		Pd		em dash						U+2014: EM DASH	
+‑	-			‑	‑		Pd	?	non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
+–	-			–	–		Pd	?	en dash						U+2013: EN DASH	
+—	-			—	—		Pd	?	em dash						U+2014: EM DASH	
 ,	,			,	,		Po		comma						U+002C: COMMA	
 ;	;			;	;		Po		semicolon						U+003B: SEMICOLON	
 :	:			:	:		Po		colon						U+003A: COLON	
 !	!			!	!		Po		exclamation mark						U+0021: EXCLAMATION MARK	
 ?	?			?	?		Po		question mark						U+003F: QUESTION MARK	
 .	.			.	.		Po		full stop						U+002E: FULL STOP	
-…	.			…	…		Po		ellipsis						U+2026: HORIZONTAL ELLIPSIS	
+…	.			…	…		Po	?	ellipsis						U+2026: HORIZONTAL ELLIPSIS	
 (	(			(	(		Ps		parenthesis						U+0028: LEFT PARENTHESIS	
-[	(			[	[		Ps		bracket						U+005B: LEFT SQUARE BRACKET	
+[	(			[	[		Ps	?	bracket						U+005B: LEFT SQUARE BRACKET	
 )	)			)	)		Pe		parenthesis						U+0029: RIGHT PARENTHESIS	
-]	)			]	]		Pe		bracket						U+005D: RIGHT SQUARE BRACKET	
-ഁ	[	̃		˜	̃		Mn		nasalisation						U+0D01: MALAYALAM SIGN CANDRABINDU	✓
+]	)			]	]		Pe	?	bracket						U+005D: RIGHT SQUARE BRACKET	
+ഁ	[	̃		˜	̃		Mn	?	nasalisation						U+0D01: MALAYALAM SIGN CANDRABINDU	✓
 ്	*			͞			Mn		virama					chandrakkala	U+0D4D: MALAYALAM SIGN VIRAMA	✓
-഻	\			˟			Mn								U+0D3B: MALAYALAM SIGN VERTICAL BAR VIRAMA	✓
-഼	\			ˣ			Mn								U+0D3C: MALAYALAM SIGN CIRCULAR VIRAMA	✓
-ʼ	\'			ʼ	ʼ		Lm		apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
-%	%			%			Po		percentage mark						U+0025: PERCENT SIGN	
-‰	%			‰			Po		per mille mark						U+2030: PER MILLE SIGN	
+഻	\			˟			Mn	?							U+0D3B: MALAYALAM SIGN VERTICAL BAR VIRAMA	✓
+഼	\			ˣ			Mn	?							U+0D3C: MALAYALAM SIGN CIRCULAR VIRAMA	✓
+ʼ	\'			ʼ	ʼ		Lm	?	apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
+%	%			%			Po	?	percentage mark						U+0025: PERCENT SIGN	
+‰	%			‰			Po	?	per mille mark						U+2030: PER MILLE SIGN	
 ൧	±	1		1̣	1		Nd	i	digit						U+0D67: MALAYALAM DIGIT ONE	✓
 ൨	±	2		2̣	2		Nd	i	digit						U+0D68: MALAYALAM DIGIT TWO	✓
 ൩	±	3		3̣	3		Nd	i	digit						U+0D69: MALAYALAM DIGIT THREE	✓
@@ -32,17 +32,17 @@ var spreadsheet = `mlym-ml	key	ipa	ipa+	translit	iso	kbd	class	status	type	usage
 ൯	±	9		9̣	9		Nd	i	digit						U+0D6F: MALAYALAM DIGIT NINE	✓
 ൦	±	0		0̣	0		Nd	i	digit						U+0D66: MALAYALAM DIGIT ZERO	✓
 ‘	<			‘	‘		Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
-«	<			«	“		Pi		quotation mark						U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
-‹	<			‹	‘		Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
+«	<			«	“		Pi	?	quotation mark						U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
+‹	<			‹	‘		Pi	?	quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
 “	<			“	“		Pi		quotation mark						U+201C: LEFT DOUBLE QUOTATION MARK	
-\u200B	=			␣			Cf		zero-width space						U+200B: ZERO WIDTH SPACE	
+\u200B	=			␣			Cf	?	zero-width space						U+200B: ZERO WIDTH SPACE	
 \u200C	=			ᶻʷⁿʲ			Cf		zero-width non-joiner						U+200C: ZERO WIDTH NON-JOINER	
 \u200D	=			ᶻʷʲ			Cf		zero-width joiner						U+200D: ZERO WIDTH JOINER	
-\u034F	=			ᶜᵍʲ			Mn		combining grapheme joiner						U+034F: COMBINING GRAPHEME JOINER	
-\u2060	=			ʷʲ			Cf		word joiner						U+2060 WORD JOINER	
+\u034F	=			ᶜᵍʲ			Mn	?	combining grapheme joiner						U+034F: COMBINING GRAPHEME JOINER	
+\u2060	=			ʷʲ			Cf	?	word joiner						U+2060 WORD JOINER	
 ’	>			’	’		Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
-»	>			»	”		Pf		quotation mark						U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
-›	>			›	’		Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
+»	>			»	”		Pf	?	quotation mark						U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
+›	>			›	’		Pf	?	quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
 ”	>			”	”		Pf		quotation mark						U+201D: RIGHT DOUBLE QUOTATION MARK	
 ।	|			|	.		Po	a	phrase separator	for older texts					U+0964: DEVANAGARI DANDA	✓
 ॥	|			¶			Po	a	phrase separator	for older texts					U+0965: DEVANAGARI DOUBLE DANDA	✓
@@ -88,8 +88,8 @@ var spreadsheet = `mlym-ml	key	ipa	ipa+	translit	iso	kbd	class	status	type	usage
 ൾ	L	ɭ	a	ɭ̽	ḷ^		Lo		chillu consonant						U+0D7E: MALAYALAM LETTER CHILLU LL	✓
 ഌ	L	lɨ		l̥̣	l̥̣		Lo	r	independent vowel	(in one Sanskrit word only)	ൢ				U+0D0C: MALAYALAM LETTER VOCALIC L	✓
 ൡ	L	lɨː		l̥̣̄	l̥̣̄		Lo	r	independent vowel	very rare	ൣ				U+0D61: MALAYALAM LETTER VOCALIC LL	✓
-ൢ	L	lɨ		l̥	l̥		Mn	r	vowel sign	very rare		ഌ			U+0D62: MALAYALAM VOWEL SIGN VOCALIC L	✓
-ൣ	L	lɨː		l̥̄	l̥̄		Mn	r	vowel sign	very rare		ൡ			U+0D63: MALAYALAM VOWEL SIGN VOCALIC LL	✓
+ൢ	L	lɨ		l̥	l̥		Mn	u	vowel sign	very rare		ഌ			U+0D62: MALAYALAM VOWEL SIGN VOCALIC L	✓
+ൣ	L	lɨː		l̥̄	l̥̄		Mn	u	vowel sign	very rare		ൡ			U+0D63: MALAYALAM VOWEL SIGN VOCALIC LL	✓
 മ	m	m	a	m	m		Lo		consonant						U+0D2E: MALAYALAM LETTER MA	✓
 ം	m	m		m̽	ṃ		Mc		anusvara						U+0D02: MALAYALAM SIGN ANUSVARA	✓
 ങ	N	ŋ	a	ŋ	ṅ		Lo		consonant						U+0D19: MALAYALAM LETTER NGA	✓
@@ -112,7 +112,7 @@ var spreadsheet = `mlym-ml	key	ipa	ipa+	translit	iso	kbd	class	status	type	usage
 ഋ	R	rɨ		r̥̣	r̥̣		Lo		independent vowel		ൃ				U+0D0B: MALAYALAM LETTER VOCALIC R	✓
 ൠ	R	rɨː		r̥̣̄	r̥̣̄		Lo	r	independent vowel	very rare	ൄ				U+0D60: MALAYALAM LETTER VOCALIC RR	✓
 ൃ	R	rɨ		r̥	r̥		Mn		vowel sign			ഋ			U+0D43: MALAYALAM VOWEL SIGN VOCALIC R	✓
-ൄ	R	rɨː		r̥̄	r̥̄		Mn	r	vowel sign	very rare		ൠ			U+0D44: MALAYALAM VOWEL SIGN VOCALIC RR	✓
+ൄ	R	rɨː		r̥̄	r̥̄		Mn	u	vowel sign	very rare		ൠ			U+0D44: MALAYALAM VOWEL SIGN VOCALIC RR	✓
 ശ	s	ɕ ʃ	a	ʃ	ś		Lo		consonant						U+0D36: MALAYALAM LETTER SHA	✓
 ഷ	s	ʂ	a	ʂ	ṣ		Lo		consonant						U+0D37: MALAYALAM LETTER SSA	✓
 സ	s¶	s	a	s	s		Lo		consonant						U+0D38: MALAYALAM LETTER SA	✓
@@ -128,16 +128,16 @@ var spreadsheet = `mlym-ml	key	ipa	ipa+	translit	iso	kbd	class	status	type	usage
 ൂ	u	uː		ū	ū		Mn		vowel sign			ഊ			U+0D42: MALAYALAM VOWEL SIGN UU	✓
 വ	v	ʋ	a	ʋ	v		Lo		consonant						U+0D35: MALAYALAM LETTER VA	✓
 യ	y	j	a	y	y		Lo		consonant						U+0D2F: MALAYALAM LETTER YA	✓
-ഀ							Mn								U+0D00: MALAYALAM SIGN COMBINING ANUSVARA ABOVE	✓
+ഀ							Mn	?							U+0D00: MALAYALAM SIGN COMBINING ANUSVARA ABOVE	✓
 ൏				~			So	a	measure of rice						U+0D4F: MALAYALAM SIGN PARA	✓
-ഽ				ˣ	\’		Lo		avagraha				പ്രശ്ലേഷം	praślēṣam	U+0D3D: MALAYALAM SIGN AVAGRAHA	✓
+ഽ				ˣ	\’		Lo	?	avagraha				പ്രശ്ലേഷം	praślēṣam	U+0D3D: MALAYALAM SIGN AVAGRAHA	✓
 ൎ				⁎			Lo	a	repha	pre 1970s reform					U+0D4E: MALAYALAM LETTER DOT REPH	✓
 ൟ							Lo	a							U+0D5F: MALAYALAM LETTER ARCHAIC II	✓
-§				§	§		Po		section sign						U+00A7: SECTION SIGN	
-†				†	†		Po		dagger						U+2020: DAGGER	
-‡				‡	‡		Po		double dagger						U+2021: DOUBLE DAGGER	
-′				′	′		Po		prime						U+2032: PRIME	
-″				″	″		Po		double prime						U+2033: DOUBLE PRIME	
+§				§	§		Po	?	section sign						U+00A7: SECTION SIGN	
+†				†	†		Po	?	dagger						U+2020: DAGGER	
+‡				‡	‡		Po	?	double dagger						U+2021: DOUBLE DAGGER	
+′				′	′		Po	?	prime						U+2032: PRIME	
+″				″	″		Po	?	double prime						U+2033: DOUBLE PRIME	
 ൰				{10}			No	a	number sign						U+0D70: MALAYALAM NUMBER TEN	✓
 ൱				{100}			No	a	number sign						U+0D71: MALAYALAM NUMBER ONE HUNDRED	✓
 ൲				{1000}			No	a	number sign						U+0D72: MALAYALAM NUMBER ONE THOUSAND	✓
@@ -154,8 +154,14 @@ var spreadsheet = `mlym-ml	key	ipa	ipa+	translit	iso	kbd	class	status	type	usage
 ൜				{1/10}			No	a	fraction						U+0D5C: MALAYALAM FRACTION ONE TENTH	✓
 ൝				{3/20}			No	a	fraction						U+0D5D: MALAYALAM FRACTION THREE TWENTIETHS	✓
 ൞				{1/5}			No	a	fraction						U+0D5E: MALAYALAM FRACTION ONE FIFTH	✓
+꠰				–			No	a	fraction						U+A830: NORTH INDIC FRACTION ONE QUARTER	
+꠱				–			No	a	fraction						U+A831: NORTH INDIC FRACTION ONE HALF	
+꠲				–			No	a	fraction						U+A832: NORTH INDIC FRACTION THREE QUARTERS	
 ൹							So	r	date sign	usage fading					U+0D79: MALAYALAM DATE MARK	✓
 																
+ൔ				–			Lo		chillu consonant						U+0D54: MALAYALAM LETTER CHILLU M	
+ൕ				–			Lo		chillu consonant						U+0D55: MALAYALAM LETTER CHILLU Y	
+ൖ				–			Lo		chillu consonant						U+0D56: MALAYALAM LETTER CHILLU LLL	
 `																
 																
 latinPanel = 'aː ā ai̯ au̯ bʰ ɕ ɖ ḍ ɖʰ ḍh d̪d̪d̪ d̪ʰ eː ē gʰ ɦ iː ī ɨ ɟ ɟʰ kʰ ɭ, ḷ ḻ l̥̣ l̥̣̄ l̥ l̥̄ ŋ ṅ ɲ ñ ɳ ṇ n̪ ṉ oː ō pʰ r̪ ṟ ɻ r̥̣ r̥̣̄ r̥ r̥̄ ʃ ś ʂ ṣ ʧ ʧʰ ʈ ṭ ʈʰ ṭh t̪ t̪ʰ ṯ ṯṯ uː ū ʋ'																
