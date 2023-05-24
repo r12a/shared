@@ -1,19 +1,19 @@
 var spreadsheet = `mymr-shn	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	native name	latin name	ucs name	block
 ꧦ	&			&			Lm		repetition marker				A9E6: MYANMAR MODIFIER LETTER SHAN REDUPLICATION	
 ၊	,			,		,	Po		comma				U+104A: MYANMAR SIGN LITTLE SECTION	✓
-၀	!			0̤			Nd		myanmar digit				U+1040: MYANMAR DIGIT ZERO	✓
-၁	!			1̤			Nd		myanmar digit				U+1041: MYANMAR DIGIT ONE	✓
-၂	!			2̤			Nd		myanmar digit				U+1042: MYANMAR DIGIT TWO	✓
-၃	!			3̤			Nd		myanmar digit				U+1043: MYANMAR DIGIT THREE	✓
-၄	!			4̤			Nd		myanmar digit				U+1044: MYANMAR DIGIT FOUR	✓
-၅	!			5̤			Nd		myanmar digit				U+1045: MYANMAR DIGIT FIVE	✓
-၆	!			6̤			Nd		myanmar digit				U+1046: MYANMAR DIGIT SIX	✓
-၇	!			7̤			Nd		myanmar digit				U+1047: MYANMAR DIGIT SEVEN	✓
-၈	!			8̤			Nd		myanmar digit				U+1048: MYANMAR DIGIT EIGHT	✓
-၉	!			9̤			Nd		myanmar digit				U+1049: MYANMAR DIGIT NINE	✓
+၀	!			0̤			Nd	i	myanmar digit				U+1040: MYANMAR DIGIT ZERO	✓
+၁	!			1̤			Nd	i	myanmar digit				U+1041: MYANMAR DIGIT ONE	✓
+၂	!			2̤			Nd	i	myanmar digit				U+1042: MYANMAR DIGIT TWO	✓
+၃	!			3̤			Nd	i	myanmar digit				U+1043: MYANMAR DIGIT THREE	✓
+၄	!			4̤			Nd	i	myanmar digit				U+1044: MYANMAR DIGIT FOUR	✓
+၅	!			5̤			Nd	i	myanmar digit				U+1045: MYANMAR DIGIT FIVE	✓
+၆	!			6̤			Nd	i	myanmar digit				U+1046: MYANMAR DIGIT SIX	✓
+၇	!			7̤			Nd	i	myanmar digit				U+1047: MYANMAR DIGIT SEVEN	✓
+၈	!			8̤			Nd	i	myanmar digit				U+1048: MYANMAR DIGIT EIGHT	✓
+၉	!			9̤			Nd	i	myanmar digit				U+1049: MYANMAR DIGIT NINE	✓
 ။	.			.		.	Po		full stop				U+104B: MYANMAR SIGN SECTION	✓
-“	“			<			Pi		quotation mark				U+201C: LEFT DOUBLE QUOTATION MARK	
-”	”			>			Pf		quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK	
+“	“			<			Pi	?	quotation mark				U+201C: LEFT DOUBLE QUOTATION MARK	
+”	”			>			Pf	?	quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK	
 ဢ	}	ʔa ʔ-	a	ʔ	a	t	Lo		standalone vowel carrier				U+1022: MYANMAR LETTER SHAN A	✓
 ႐	§			0̣		0	Nd		shan digit				U+1090: MYANMAR SHAN DIGIT ZERO	✓
 ႑	§			1̣		1	Nd		shan digit				U+1091: MYANMAR SHAN DIGIT ONE	✓
@@ -25,7 +25,7 @@ var spreadsheet = `mymr-shn	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ႗	§			7̣		7	Nd		shan digit				U+1097: MYANMAR SHAN DIGIT SEVEN	✓
 ႘	§			8̣		8	Nd		shan digit				U+1098: MYANMAR SHAN DIGIT EIGHT	✓
 ႙	§			9̣		9	Nd		shan digit				U+1099: MYANMAR SHAN DIGIT NINE	✓
-္	*			͓			Mn		virama				U+1039: MYANMAR SIGN VIRAMA	✓
+္	*			͓			Mn	?	virama				U+1039: MYANMAR SIGN VIRAMA	✓
 ်	\			ˣ			Mn		asat				U+103A: MYANMAR SIGN ASAT	✓
 ႇ	^	˩		²	,	j	Mc		low tone mark 11		ယၵ်း	ják	U+1087: MYANMAR SIGN SHAN TONE-2	✓
 ႈ	^	˧˨		³	;	;	Mc		mid tone mark 32		ယၵ်းၸမ်ႈ	ják tsam	U+1088: MYANMAR SIGN SHAN TONE-3	✓
@@ -56,7 +56,7 @@ var spreadsheet = `mymr-shn	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ၺ	n	ɲ -j	a	ɲ	ny	n	Lo		consonant / diphthong glide				U+107A: MYANMAR LETTER SHAN NYA	✓
 ၼ	n¶	n	a	n	n	e	Lo		consonant				U+107C: MYANMAR LETTER SHAN NA	✓
 ွ	o	-ɔ-		ɔ	aw o	g	Mn		vowel sign				U+103D: MYANMAR CONSONANT SIGN MEDIAL WA	✓
-႟	o			o		N	So		vowel				U+109F: MYANMAR SYMBOL SHAN EXCLAMATION	✓
+႟	o			o		N	So	?	vowel				U+109F: MYANMAR SYMBOL SHAN EXCLAMATION	✓
 ပ	p	p	a	p	p	y	Lo		consonant				U+1015: MYANMAR LETTER PA	✓
 ၽ	p	pʰ	a	pʰ	ph	z	Lo		consonant				U+107D: MYANMAR LETTER SHAN PHA	✓
 ႀ	Q	θ	a	θ	x	P	Lo	r	consonant	for non-Shan sounds			U+1080: MYANMAR LETTER SHAN THA	✓
@@ -109,50 +109,39 @@ var spreadsheet = `mymr-shn	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ုဝ်													U+102F U+101D U+103A: MYANMAR VOWEL SIGN U, LETTER WA, SIGN ASAT	
 														
 \u200B							Cf		zero-width space				U+200B ZERO WIDTH SPACE	
-\u200C				ₓ			Cf		zero-width non-joiner				U+200C: ZERO WIDTH NON-JOINER	
-\u200D				₊			Cf		zero-width joiner				U+200D: ZERO WIDTH JOINER	
-\u034F				ᶜᵍʲ			Mn		combining grapheme joiner				U+034F: COMBINING GRAPHEME JOINER	
-\u2067				ʳˡⁱ			Cf		rtl isolate				U+2067: RIGHT-TO-LEFT ISOLATE	
-\u2066				ˡʳⁱ			Cf		ltr isolate				U+2066: LEFT-TO-RIGHT ISOLATE	
-\u2068				ᶠˢⁱ			Cf		first-strong isolate				U+2068: FIRST STRONG ISOLATE	
-\u2069				ᵖᵈⁱ			Cf		pop direction isolate				U+2069: POP DIRECTIONAL ISOLATE	
-\u202B				ʳˡᵉ			Cf		rtl embed				U+202B: RIGHT-TO-LEFT EMBEDDING	
-\u202A				ˡʳᵉ			Cf		ltr embed				U+202A: LEFT-TO-RIGHT EMBEDDING	
-\u202C				ᵖᵈᶠ			Cf		pop direction				U+202C: POP DIRECTIONAL FORMATTING	
-\u200F				ʳˡᵐ			Cf		rtl mark				U+200F: RIGHT-TO-LEFT MARK	
-\u200E				ˡʳᵐ			Cf		ltr mark				U+200E: LEFT-TO-RIGHT MARK	
-\u061C				ᵃˡᵐ			Cf		arabic letter mark				U+061C: ARABIC LETTER MARK	
+\u200C				ₓ			Cf	?	zero-width non-joiner				U+200C: ZERO WIDTH NON-JOINER	
+\u200D				₊			Cf	?	zero-width joiner				U+200D: ZERO WIDTH JOINER	
+\u034F				ᶜᵍʲ			Mn	?	combining grapheme joiner				U+034F: COMBINING GRAPHEME JOINER	
 														
-\‘				\‘	\‘		Pi		quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	
-\’				\’	\’		Pf		quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
-«				"	“		Pi		quotation mark				U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
-»				"	”		Pf		quotation mark				U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
-ʼ							Lm		apostrophe				U+02BC: MODIFIER LETTER APOSTROPHE	
-,							Po		comma				U+002C: COMMA	
-;							Po		semicolon				U+003B: SEMICOLON	
-:							Po		colon				U+003A: COLON	
-.							Po		full stop				U+002E: FULL STOP	
+‘				\‘	\‘		Pi	?	quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	
+’				\’	\’		Pf	?	quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
+«				"	“		Pi	?	quotation mark				U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
+»				"	”		Pf	?	quotation mark				U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
+ʼ							Lm	?	apostrophe				U+02BC: MODIFIER LETTER APOSTROPHE	
+,							Po	?	comma				U+002C: COMMA	
+;							Po	?	semicolon				U+003B: SEMICOLON	
+:							Po	?	colon				U+003A: COLON	
+.							Po	?	full stop				U+002E: FULL STOP	
 ?							Po		question mark				U+003F: QUESTION MARK	
-!							Po		exclamation mark				U+0021: EXCLAMATION MARK	
+!							Po	?	exclamation mark				U+0021: EXCLAMATION MARK	
 (							Ps		parenthesis				U+0028: LEFT PARENTHESIS	
 )							Pe		parenthesis				U+0029: RIGHT PARENTHESIS	
-…							Po		ellipsis				U+2026: HORIZONTAL ELLIPSIS	
-–							Pd		en dash				U+2013: EN DASH	
-—							Pd		em dash				U+2014: EM DASH	
+…							Po	?	ellipsis				U+2026: HORIZONTAL ELLIPSIS	
+–							Pd	?	en dash				U+2013: EN DASH	
+—							Pd	?	em dash				U+2014: EM DASH	
 														
-§							Po		section sign				U+00A7: SECTION SIGN	
-†							Po		dagger				U+2020: DAGGER	
-‡							Po		double dagger				U+2021: DOUBLE DAGGER	
-′							Po		prime				U+2032: PRIME	
-″							Po		double prime				U+2033: DOUBLE PRIME	
-‑							Pd		non-breaking hyphen				U+2011 NON-BREAKING HYPHEN	
+§							Po	?	section sign				U+00A7: SECTION SIGN	
+†							Po	?	dagger				U+2020: DAGGER	
+‡							Po	?	double dagger				U+2021: DOUBLE DAGGER	
+′							Po	?	prime				U+2032: PRIME	
+″							Po	?	double prime				U+2033: DOUBLE PRIME	
+‑							Pd	?	non-breaking hyphen				U+2011 NON-BREAKING HYPHEN	
 														
-႞				–		R	So		for the keyboard				U+109E: MYANMAR SYMBOL SHAN ONE	✓
-ံ				–		H	Mn		for the keyboard				U+1036: MYANMAR SIGN ANUSVARA	✓
+႞				–		R	So	?	for the keyboard				U+109E: MYANMAR SYMBOL SHAN ONE	✓
+ံ				–		H	Mn	?	for the keyboard				U+1036: MYANMAR SIGN ANUSVARA	✓
 `														
 														
 latinPanel = 'ˣ ͓ ɰ w̆ ᶻ ɨ a ā ʲ ė eː iː ī ɲ y̆ y ū r̆ uː ɑː ā ɔ aw ɔː ɛ ɛ̇ ɛː ɤ kʰ a pʰ tʰ ŋ ɡ ɲ ʔ ʨ ʰ ˥ ⁴ ˦˨ˀ ⁵ ˧˦˧ ⁶ ˧˨ ³ ˩ ² θ'														
-														
 														
 var cols = {														
 key: 1,														
@@ -173,4 +162,3 @@ block: 14,
 														
 othertranscriptions: [[5, 'Latin']]														
 }														
-														

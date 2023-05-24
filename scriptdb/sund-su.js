@@ -1,23 +1,23 @@
 var spreadsheet = `sund-su	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	dvowel	ivowel	native name	latin name	ucs name	block
--	-			-	-		Pd		hyphen						U+2010: HYPHEN	
-‑	-			‑	‑		Pd		non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
-–	-			–	–		Pd		en dash						U+2013: EN DASH	
-—	-			—	—		Pd		em dash						U+2014: EM DASH	
+-	-			-	-		Pd	?	hyphen						U+2010: HYPHEN	
+‑	-			‑	‑		Pd	?	non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
+–	-			–	–		Pd	?	en dash						U+2013: EN DASH	
+—	-			—	—		Pd	?	em dash						U+2014: EM DASH	
 ,	,			,	,		Po		comma						U+002C: COMMA	
 ;	;			;	;		Po		semicolon						U+003B: SEMICOLON	
 :	:			:	:		Po		colon						U+003A: COLON	
 !	!			!	!		Po		exclamation mark						U+0021: EXCLAMATION MARK	
 ?	?			?	?		Po		question mark						U+003F: QUESTION MARK	
 .	.			.	.		Po		full stop						U+002E: FULL STOP	
-…	.			…	…		Po		ellipsis						U+2026: HORIZONTAL ELLIPSIS	
+…	.			…	…		Po	?	ellipsis						U+2026: HORIZONTAL ELLIPSIS	
 (	(			(	(		Ps		parenthesis						U+0028: LEFT PARENTHESIS	
-[	(			[	[		Pe		bracket						U+005B: LEFT SQUARE BRACKET	
+[	(			[	[		Pe	?	bracket						U+005B: LEFT SQUARE BRACKET	
 )	)			)	)		Ps		parenthesis						U+0029: RIGHT PARENTHESIS	
-]	)			]	]		Pe		bracket						U+005D: RIGHT SQUARE BRACKET	
+]	)			]	]		Pe	?	bracket						U+005D: RIGHT SQUARE BRACKET	
 ᮪	*			͞		;	Mc		vowel killer					pamaéh/patén	U+1BAA: SUNDANESE SIGN PAMAAEH	✓
 \u1BAB	\			˟			Mn	a	virama						U+1BAB: SUNDANESE SIGN VIRAMA	
-%	%			%			Po		percentage mark						U+0025: PERCENT SIGN	
-‰	%			‰			Po		per mille mark						U+2030: PER MILLE SIGN	
+%	%			%			Po	?	percentage mark						U+0025: PERCENT SIGN	
+‰	%			‰			Po	?	per mille mark						U+2030: PER MILLE SIGN	
 ᮱	±			1̣	1	1	Nd		digit						U+1BB1: SUNDANESE DIGIT ONE	✓
 ᮲	±			2̣	2	2	Nd		digit						U+1BB2: SUNDANESE DIGIT TWO	✓
 ᮳	±			3̣	3	3	Nd		digit						U+1BB3: SUNDANESE DIGIT THREE	✓
@@ -28,19 +28,19 @@ var spreadsheet = `sund-su	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ᮸	±			8̣	8	8	Nd		digit						U+1BB8: SUNDANESE DIGIT EIGHT	✓
 ᮹	±			9̣	9	9	Nd		digit						U+1BB9: SUNDANESE DIGIT NINE	✓
 ᮰	±			0̣	0	0	Nd		digit						U+1BB0: SUNDANESE DIGIT ZERO	✓
-«	<			«	“		Pi		quotation mark						U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
-‹	<			‹			Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
+«	<			«	“		Pi	?	quotation mark						U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
+‹	<			‹			Pi	?	quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
 “	<			“	“		Pi		quotation mark						U+201C: LEFT DOUBLE QUOTATION MARK	
-\‘	<			\‘	\‘		Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
-\u200B	=			␣			Cf		zero-width space						U+200B: ZERO WIDTH SPACE	
-\u200C	=			ᶻʷⁿʲ			Cf		zero-width non-joiner						U+200C: ZERO WIDTH NON-JOINER	
-\u200D	=			ᶻʷʲ			Cf		zero-width joiner						U+200D: ZERO WIDTH JOINER	
-\u034F	=			ᶜᵍʲ			Mn		combining grapheme joiner						U+034F: COMBINING GRAPHEME JOINER	
-\u2060	=			ʷʲ			Cf		word joiner						U+2060 WORD JOINER	
-»	>			»	”		Pf		quotation mark						U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
-›	>			›			Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
+‘	<			\‘	\‘		Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
+\u200B	=			␣			Cf	?	zero-width space						U+200B: ZERO WIDTH SPACE	
+\u200C	=			ᶻʷⁿʲ			Cf	?	zero-width non-joiner						U+200C: ZERO WIDTH NON-JOINER	
+\u200D	=			ᶻʷʲ			Cf	?	zero-width joiner						U+200D: ZERO WIDTH JOINER	
+\u034F	=			ᶜᵍʲ			Mn	?	combining grapheme joiner						U+034F: COMBINING GRAPHEME JOINER	
+\u2060	=			ʷʲ			Cf	?	word joiner						U+2060 WORD JOINER	
+»	>			»	”		Pf	?	quotation mark						U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
+›	>			›			Pf	?	quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
 ”	>			”	”		Pf		quotation mark						U+201D: RIGHT DOUBLE QUOTATION MARK	
-\’	>			\’	\’		Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
+’	>			\’	\’		Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
 																
 ᮃ	a	a		ạ	a	a	Lo		independent vowel						U+1B83: SUNDANESE LETTER A	✓
 ᮘ	b	b	a	b	b	b	Lo		consonant						U+1B98: SUNDANESE LETTER BA	✓
@@ -65,10 +65,10 @@ var spreadsheet = `sund-su	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ᮙ	m	m	a	m	m	m	Lo		consonant						U+1B99: SUNDANESE LETTER MA	✓
 ᮬ	m	m		m̆			Mn	a	medial consonant						U+1BAC: SUNDANESE CONSONANT SIGN PASANGAN MA	✓
 ᮿ	m	m		m̽			Lo	a	final consonant						U+1BBF: SUNDANESE LETTER FINAL M	✓
-ᮍ	n	ŋ	a	ŋ	ng	G	Lo		consonant						U+1B8D: SUNDANESE LETTER NGA	✓
-ᮑ	n	ɲ	a	ɲ	ny	J	Lo		consonant						U+1B91: SUNDANESE LETTER NYA	✓
-ᮀ	n	ŋ		ŋ̽	ng	N	Mn		syllable-final consonant					panayecek	U+1B80: SUNDANESE SIGN PANYECEK	✓
 ᮔ	n¶	n	a	n	n	n	Lo		consonant						U+1B94: SUNDANESE LETTER NA	✓
+ᮑ	n	ɲ	a	ɲ	ny	J	Lo		consonant						U+1B91: SUNDANESE LETTER NYA	✓
+ᮍ	n	ŋ	a	ŋ	ng	G	Lo		consonant						U+1B8D: SUNDANESE LETTER NGA	✓
+ᮀ	n	ŋ		ŋ̽	ng	N	Mn		syllable-final consonant					panayecek	U+1B80: SUNDANESE SIGN PANYECEK	✓
 ᮇ	o	o		ọ	o	O	Lo		independent vowel		ᮧ				U+1B87: SUNDANESE LETTER O	✓
 ᮧ	o	o		o	o	o	Mc		vowel sign			ᮇ		panolong	U+1BA7: SUNDANESE VOWEL SIGN PANOLONG	✓
 ᮕ	p	p	a	p	p	p	Lo		consonant						U+1B95: SUNDANESE LETTER PA	✓
@@ -107,12 +107,12 @@ var spreadsheet = `sund-su	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ᳆							Po	a	punctuation						U+1CC6: SUNDANESE PUNCTUATION BINDU DA SATANGA	✓
 ᳇							Po	a	punctuation						U+1CC7: SUNDANESE PUNCTUATION BINDU BA SATANGA	✓
 																
-ʼ				ʼ	ʼ		Lm		apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
-§				§	§		Po		section sign						U+00A7: SECTION SIGN	
-†				†	†		Po		dagger						U+2020: DAGGER	
-‡				‡	‡		Po		double dagger						U+2021: DOUBLE DAGGER	
-′				′	′		Po		prime						U+2032: PRIME	
-″				″	″		Po		double prime						U+2033: DOUBLE PRIME	
+ʼ				ʼ	ʼ		Lm	?	apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
+§				§	§		Po	?	section sign						U+00A7: SECTION SIGN	
+†				†	†		Po	?	dagger						U+2020: DAGGER	
+‡				‡	‡		Po	?	double dagger						U+2021: DOUBLE DAGGER	
+′				′	′		Po	?	prime						U+2032: PRIME	
+″				″	″		Po	?	double prime						U+2033: DOUBLE PRIME	
 `																
 																
 latinPanel = 'd͡ʒ ə é ŋ ɲ t͡ʃ ɤ'																

@@ -1,22 +1,22 @@
 var spreadsheet = `mroo-mro	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	native name	latin name	ucs name	block
 -	-			-	-				hyphen				U+2010: HYPHEN	✓
-–	-			–	–		Pd		en dash				U+2013: EN DASH	✓
-—	-			—	—		Pd		em dash				U+2014: EM DASH	✓
+–	-			–	–		Pd	?	en dash				U+2013: EN DASH	✓
+—	-			—	—		Pd	?	em dash				U+2014: EM DASH	✓
 𖩮	.			.̣	.		Po		full stop				U+16A6E: MRO DANDA	
 𖩯	.			.̱	.		Po		section delimiter				U+16A6F: MRO DOUBLE DANDA	
-.	.			.	.		Po		full stop				U+002E: FULL STOP	✓
-,	,			,̣	,		Po		comma				U+002C: COMMA	✓
-;	;			;̣	;		Po		semicolon				U+003B: SEMICOLON	✓
-:	:			:	:		Po		colon				U+003A: COLON	✓
-!	!			!	!		Po		exclamation mark				U+0021: EXCLAMATION MARK	✓
-?	?			?	?		Po		question mark				U+003F: QUESTION MARK	✓
-…	.			…	…		Po		ellipsis				U+2026: HORIZONTAL ELLIPSIS	✓
-(	(			(	(		Ps		parenthesis				U+0028: LEFT PARENTHESIS	✓
-[	(			[	[		Ps		bracket				U+005B: LEFT SQUARE BRACKET	✓
-)	)			)	)		Pe		parenthesis				U+0029: RIGHT PARENTHESIS	✓
-]	)			]	]		Pe		bracket				U+005D: RIGHT SQUARE BRACKET	✓
-%	%			%			Po		percentage mark				U+0025: PERCENT SIGN	✓
-‰	%			‰			Po		per mille mark				U+2030: PER MILLE SIGN	✓
+.	.			.	.		Po		full stop	ASCII			U+002E: FULL STOP	✓
+,	,			,̣	,		Po		comma	ASCII			U+002C: COMMA	✓
+;	;			;̣	;		Po		semicolon	ASCII			U+003B: SEMICOLON	✓
+:	:			:	:		Po		colon	ASCII			U+003A: COLON	✓
+!	!			!	!		Po		exclamation mark	ASCII			U+0021: EXCLAMATION MARK	✓
+?	?			?	?		Po		question mark	ASCII			U+003F: QUESTION MARK	✓
+…	.			…	…		Po	?	ellipsis				U+2026: HORIZONTAL ELLIPSIS	✓
+(	(			(	(		Ps		parenthesis	ASCII			U+0028: LEFT PARENTHESIS	✓
+[	(			[	[		Ps	?	bracket	ASCII			U+005B: LEFT SQUARE BRACKET	✓
+)	)			)	)		Pe		parenthesis	ASCII			U+0029: RIGHT PARENTHESIS	✓
+]	)			]	]		Pe	?	bracket	ASCII			U+005D: RIGHT SQUARE BRACKET	✓
+%	%			%			Po	?	percentage mark	ASCII			U+0025: PERCENT SIGN	✓
+‰	%			‰			Po	?	per mille mark				U+2030: PER MILLE SIGN	✓
 “	<			“	“		Pi		quotation mark				U+201C: LEFT DOUBLE QUOTATION MARK	✓
 ‘	<			\‘	\‘				quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	✓
 ”	>			”	”		Pf		quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK	✓
@@ -65,7 +65,7 @@ var spreadsheet = `mroo-mro	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 𖩨	±	8		8̣	8		Nd		digit				U+16A68: MRO DIGIT EIGHT	✓
 𖩩	±	9		9̣	9		Nd		digit				U+16A69: MRO DIGIT NINE	✓
 														✓
-◌									placeholder				U+25CC: DOTTED CIRCLE	✓
+◌								u	placeholder				U+25CC: DOTTED CIRCLE	✓
 `														
 														
 latinPanel = 'kʰ pʰ tʰ t͡s ä ŋ ɑ ɔ ə ɛ ɯ ʃ ʔ ʝ ḥ ḳ ḷ ḻ ṃ ṭ ’ ś'														

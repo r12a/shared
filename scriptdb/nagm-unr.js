@@ -1,7 +1,7 @@
 var spreadsheet = `nagm-unr	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	native name	latin name	ucs name	block	sortas
--	-			-	-				hyphen		\u{1E4E4}\u{1E4E0}\u{1E4E4}\u{1E4DC}	et͡ʃeɖ	U+2010: HYPHEN	✓	
-–	-			–	–		Pd		en dash				U+2013: EN DASH	✓	
-—	-			—	—		Pd		em dash				U+2014: EM DASH	✓	
+-	-			-	-			?	hyphen		\u{1E4E4}\u{1E4E0}\u{1E4E4}\u{1E4DC}	et͡ʃeɖ	U+2010: HYPHEN	✓	
+–	-			–	–		Pd	?	en dash				U+2013: EN DASH	✓	
+—	-			—	—		Pd	?	em dash				U+2014: EM DASH	✓	
 \u{1E4ED}	:	ː		ː		x	Mn​		vowel lengthener		\u{1E4DD}\u{1E4D0}\u{1E4D3}\u{1E4D0}\u{1E4E3}	toyor	U+1E4ED: NAG MUNDARI SIGN TOYOR	✓	
 \u{1E4EC}	[	̃		˜	̃	v	Mn​		nasalisation mark		\u{1E4E7}\u{1E4DF}\u{1E4EC}\u{1E4DE}\u{1E4D0}\u{1E4E3}	mũhor	U+1E4EC: NAG MUNDARI SIGN MUHOR	✓	
 .	.			.	.		Po		full stop				U+002E: FULL STOP	✓	P ASCII
@@ -10,13 +10,13 @@ var spreadsheet = `nagm-unr	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 :	:			:	:		Po		colon				U+003A: COLON	✓	P ASCII
 !	!			!	!		Po		exclamation mark				U+0021: EXCLAMATION MARK	✓	P ASCII
 ?	?			?	?		Po		question mark				U+003F: QUESTION MARK	✓	P ASCII
-…	.			…	…		Po		ellipsis				U+2026: HORIZONTAL ELLIPSIS	✓	
+…	.			…	…		Po	?	ellipsis				U+2026: HORIZONTAL ELLIPSIS	✓	
 (	(			(	(		Ps		parenthesis				U+0028: LEFT PARENTHESIS	✓	P ASCII
-[	(			[	[		Ps		bracket				U+005B: LEFT SQUARE BRACKET	✓	P ASCII
+[	(			[	[		Ps	?	bracket				U+005B: LEFT SQUARE BRACKET	✓	P ASCII
 )	)			)	)		Pe		parenthesis				U+0029: RIGHT PARENTHESIS	✓	P ASCII
-]	)			]	]		Pe		bracket				U+005D: RIGHT SQUARE BRACKET	✓	P ASCII
-%	%			%			Po		percentage mark				U+0025: PERCENT SIGN	✓	P ASCII
-‰	%			‰			Po		per mille mark				U+2030: PER MILLE SIGN	✓	
+]	)			]	]		Pe	?	bracket				U+005D: RIGHT SQUARE BRACKET	✓	P ASCII
+%	%			%			Po	?	percentage mark				U+0025: PERCENT SIGN	✓	P ASCII
+‰	%			‰			Po	?	per mille mark				U+2030: PER MILLE SIGN	✓	
 “	<			“	“		Pi		quotation mark				U+201C: LEFT DOUBLE QUOTATION MARK	✓	
 ‘	<			‘	‘				quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	✓	
 ”	>			”	”		Pf		quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK	✓	
@@ -96,7 +96,7 @@ var spreadsheet = `nagm-unr	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ୮	±						Nd		digit		ଆଠ	āṭha	U+0B6E: ORIYA DIGIT EIGHT	✓	
 ୯	±						Nd		digit		ନଅ	na'a	U+0B6F: ORIYA DIGIT NINE	✓	
 														✓	
-◌									placeholder				U+25CC: DOTTED CIRCLE	✓	
+◌								u	placeholder				U+25CC: DOTTED CIRCLE	✓	
 `															
 															
 latinPanel = 'ʔ ɖ ḍ ɡ t͡ʃ d͡ʒ ɲ ŋ ɳ ṇ ɽ ʈ ú ː ̃'															

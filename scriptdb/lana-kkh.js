@@ -1,60 +1,60 @@
 var spreadsheet = `lana-kkh	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	dvowel	ivowel	ltone	htone	shape	native name	latin name	ucs name	block
 -	-			-	-		Pd		hyphen									U+2010: HYPHEN	
-‑	-			‑	‑		Pd		non-breaking hyphen									U+2011: NON-BREAKING HYPHEN	
-–	-			–	–		Pd		en dash									U+2013: EN DASH	
-—	-			—	—		Pd		em dash									U+2014: EM DASH	
-,	,			,	,		Po		comma									U+002C: COMMA	
-;	;			;	;		Po		semicolon									U+003B: SEMICOLON	
-:	:			:	:		Po		colon									U+003A: COLON	
-᪠	!			(city)			Po		logograph						᪠			U+1AA0: TAI THAM SIGN WIANG	✓
-᪡	!			(village)			Po		logograph						᪡			U+1AA1: TAI THAM SIGN WIANGWAAK	✓
-᪢	!			(heaven)			Po		logograph						᪢			U+1AA2: TAI THAM SIGN SAWAN	✓
+‑	-			‑	‑		Pd	?	non-breaking hyphen									U+2011: NON-BREAKING HYPHEN	
+–	-			–	–		Pd	?	en dash									U+2013: EN DASH	
+—	-			—	—		Pd	?	em dash									U+2014: EM DASH	
+,	,			,	,		Po	?	comma									U+002C: COMMA	
+;	;			;	;		Po	?	semicolon									U+003B: SEMICOLON	
+:	:			:	:		Po	?	colon									U+003A: COLON	
+᪠	!			(city)			Po	i	logograph						᪠			U+1AA0: TAI THAM SIGN WIANG	✓
+᪡	!			(village)			Po	i	logograph						᪡			U+1AA1: TAI THAM SIGN WIANGWAAK	✓
+᪢	!			(heaven)			Po	i	logograph						᪢			U+1AA2: TAI THAM SIGN SAWAN	✓
 !	!			!	!		Po		exclamation mark									U+0021: EXCLAMATION MARK	
 ?	?			?	?	M	Po		question mark									U+003F: QUESTION MARK	
-…	.			…	…		Po		ellipsis									U+2026: HORIZONTAL ELLIPSIS	
-.	.			.	.		Po		full stop									U+002E: FULL STOP	
+…	.			…	…		Po	?	ellipsis									U+2026: HORIZONTAL ELLIPSIS	
+.	.			.	.		Po	?	full stop									U+002E: FULL STOP	
 (	(			(	(		Ps		parenthesis									U+0028: LEFT PARENTHESIS	
-[	(			[	[		Pe		bracket									U+005B: LEFT SQUARE BRACKET	
+[	(			[	[		Pe	?	bracket									U+005B: LEFT SQUARE BRACKET	
 )	)			)	)		Ps		parenthesis									U+0029: RIGHT PARENTHESIS	
-]	)			]	]		Pe		bracket									U+005D: RIGHT SQUARE BRACKET	
+]	)			]	]		Pe	?	bracket									U+005D: RIGHT SQUARE BRACKET	
 ᩼	]			′		N	Mn		silencer mark						᩼			U+1A7C: TAI THAM SIGN KHUEN-LUE KARAN	✓
 ᩋ	}	ʔ	a	ʔ̯		D	Lo		mid class consonant						ᩋ ᩅ᩠ᩋ			U+1A4B: TAI THAM LETTER A	✓
-᪑	§			1̣		!	Nd		ecclesiastic digit						1			U+1A91: TAI THAM THAM DIGIT ONE	✓
-᪒	§			2̣		@	Nd		ecclesiastic digit						2			U+1A92: TAI THAM THAM DIGIT TWO	✓
-᪓	§			3̣		#	Nd		ecclesiastic digit						3			U+1A93: TAI THAM THAM DIGIT THREE	✓
-᪔	§			4̣		$	Nd		ecclesiastic digit						4			U+1A94: TAI THAM THAM DIGIT FOUR	✓
-᪕	§			5̣		%	Nd		ecclesiastic digit						5			U+1A95: TAI THAM THAM DIGIT FIVE	✓
-᪖	§			6̣		&	Nd		ecclesiastic digit						6			U+1A96: TAI THAM THAM DIGIT SIX	✓
-᪗	§			7̣		*	Nd		ecclesiastic digit						7			U+1A97: TAI THAM THAM DIGIT SEVEN	✓
-᪘	§			8̣		(	Nd		ecclesiastic digit						8			U+1A98: TAI THAM THAM DIGIT EIGHT	✓
-᪙	§			9̣		)	Nd		ecclesiastic digit						9			U+1A99: TAI THAM THAM DIGIT NINE	✓
-᪐	§			0̣		_	Nd		ecclesiastic digit						0			U+1A90: TAI THAM THAM DIGIT ZERO	✓
-᪣	@			»			Po		section starter						᪣			U+1AA3: TAI THAM SIGN KEOW	✓
-᪤	@			›			Po		section starter						᪤			U+1AA4: TAI THAM SIGN HOY	✓
-᪥	@			§ᵃ			Po		section starter						᪥			U+1AA5: TAI THAM SIGN DOKMAI	✓
-᪭	@			§ᵇ			Po		section starter						᪭			U+1AAD: TAI THAM SIGN CAANG	✓
-᪦	@			«			Po		section terminator						᪦			U+1AA6: TAI THAM SIGN REVERSED ROTATED RANA	✓
-᪬	@			‹			Po		section terminator						᪬			U+1AAC: TAI THAM SIGN HANG	✓
+᪑	§			1̣		!	Nd	i	ecclesiastic digit						1			U+1A91: TAI THAM THAM DIGIT ONE	✓
+᪒	§			2̣		@	Nd	i	ecclesiastic digit						2			U+1A92: TAI THAM THAM DIGIT TWO	✓
+᪓	§			3̣		#	Nd	i	ecclesiastic digit						3			U+1A93: TAI THAM THAM DIGIT THREE	✓
+᪔	§			4̣		$	Nd	i	ecclesiastic digit						4			U+1A94: TAI THAM THAM DIGIT FOUR	✓
+᪕	§			5̣		%	Nd	i	ecclesiastic digit						5			U+1A95: TAI THAM THAM DIGIT FIVE	✓
+᪖	§			6̣		&	Nd	i	ecclesiastic digit						6			U+1A96: TAI THAM THAM DIGIT SIX	✓
+᪗	§			7̣		*	Nd	i	ecclesiastic digit						7			U+1A97: TAI THAM THAM DIGIT SEVEN	✓
+᪘	§			8̣		(	Nd	i	ecclesiastic digit						8			U+1A98: TAI THAM THAM DIGIT EIGHT	✓
+᪙	§			9̣		)	Nd	i	ecclesiastic digit						9			U+1A99: TAI THAM THAM DIGIT NINE	✓
+᪐	§			0̣		_	Nd	i	ecclesiastic digit						0			U+1A90: TAI THAM THAM DIGIT ZERO	✓
+᪣	@			»			Po	i	section starter						᪣			U+1AA3: TAI THAM SIGN KEOW	✓
+᪤	@			›			Po	i	section starter						᪤			U+1AA4: TAI THAM SIGN HOY	✓
+᪥	@			§ᵃ			Po	i	section starter						᪥			U+1AA5: TAI THAM SIGN DOKMAI	✓
+᪭	@			§ᵇ			Po	i	section starter						᪭			U+1AAD: TAI THAM SIGN CAANG	✓
+᪦	@			«			Po	i	section terminator						᪦			U+1AA6: TAI THAM SIGN REVERSED ROTATED RANA	✓
+᪬	@			‹			Po	i	section terminator						᪬			U+1AAC: TAI THAM SIGN HANG	✓
 ᩠	*			͞		j	Mn		sakot						᩠			U+1A60: TAI THAM SIGN SAKOT	✓
 ᪧ	&			&		q	Lm		repetition						ᪧ		maj⁵² ja⁴mok⁵³	U+1AA7: TAI THAM SIGN MAI YAMOK	✓
 ᩵	^			¹		J	Mn		tone mark						᩵			U+1A75: TAI THAM SIGN TONE-1	✓
 ᩶	^			²		H	Mn		tone mark						᩶			U+1A76: TAI THAM SIGN TONE-2	✓
-᩷	^			³		u	Mn		tone mark						᩷			U+1A77: TAI THAM SIGN KHUEN TONE-3	✓
-᩸	^			⁴		y	Mn		tone mark						᩸			U+1A78: TAI THAM SIGN KHUEN TONE-4	✓
-᩹	^			⁵		t	Mn		tone mark						᩹			U+1A79: TAI THAM SIGN KHUEN TONE-5	✓
-«	<			«	“		Pi		quotation mark									U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
-‹	<			‹			Pi		quotation mark									U+2018: LEFT SINGLE QUOTATION MARK	
+᩷	^			³		u	Mn	r	tone mark						᩷			U+1A77: TAI THAM SIGN KHUEN TONE-3	✓
+᩸	^			⁴		y	Mn	r	tone mark						᩸			U+1A78: TAI THAM SIGN KHUEN TONE-4	✓
+᩹	^			⁵		t	Mn	r	tone mark						᩹			U+1A79: TAI THAM SIGN KHUEN TONE-5	✓
+«	<			«	“		Pi	?	quotation mark									U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
+‹	<			‹			Pi	?	quotation mark									U+2018: LEFT SINGLE QUOTATION MARK	
 “	<			“	“		Pi		quotation mark									U+201C: LEFT DOUBLE QUOTATION MARK	
-\‘	<			\‘	\‘		Pi		quotation mark									U+2018: LEFT SINGLE QUOTATION MARK	
+‘	<			\‘	\‘		Pi	?	quotation mark									U+2018: LEFT SINGLE QUOTATION MARK	
 \u200B	=			␣			Cf		zero-width space									U+200B: ZERO WIDTH SPACE	
-\u200C	=			ᶻʷⁿʲ			Cf		zero-width non-joiner									U+200C: ZERO WIDTH NON-JOINER	
-\u200D	=			ᶻʷʲ			Cf		zero-width joiner									U+200D: ZERO WIDTH JOINER	
-\u034F	=			ᶜᵍʲ			Mn		combining grapheme joiner									U+034F: COMBINING GRAPHEME JOINER	
-\u2060	=			ʷʲ			Cf		word joiner									U+2060 WORD JOINER	
-»	>			»	”		Pf		quotation mark									U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
-›	>			›			Pf		quotation mark									U+2019: RIGHT SINGLE QUOTATION MARK	
+\u200C	=			ᶻʷⁿʲ			Cf	?	zero-width non-joiner									U+200C: ZERO WIDTH NON-JOINER	
+\u200D	=			ᶻʷʲ			Cf	?	zero-width joiner									U+200D: ZERO WIDTH JOINER	
+\u034F	=			ᶜᵍʲ			Mn	?	combining grapheme joiner									U+034F: COMBINING GRAPHEME JOINER	
+\u2060	=			ʷʲ			Cf	?	word joiner									U+2060 WORD JOINER	
+»	>			»	”		Pf	?	quotation mark									U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
+›	>			›			Pf	?	quotation mark									U+2019: RIGHT SINGLE QUOTATION MARK	
 ”	>			”	”		Pf		quotation mark									U+201D: RIGHT DOUBLE QUOTATION MARK	
-\’	>			\’	\’		Pf		quotation mark									U+2019: RIGHT SINGLE QUOTATION MARK	
+’	>			\’	\’		Pf	?	quotation mark									U+2019: RIGHT SINGLE QUOTATION MARK	
 ᪨	|			|	.	"	Po		comma-like delimiter						᪨			U+1AA8: TAI THAM SIGN KAAN	✓
 ᪩	|			¶		w	Po		full stop-like delimiter						᪩			U+1AA9: TAI THAM SIGN KAANKUU	✓
 ᪪	|			—		o	Po		phrase delimiter						᪪			U+1AAA: TAI THAM SIGN SATKAAN	✓
@@ -104,7 +104,7 @@ var spreadsheet = `lana-kkh	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᩉᩖ	l	l	á	hl̆					high class consonant				ᩃ					U+1A49 U+1A56: TAI THAM LETTER HIGH HA, CONSONANT SIGN MEDIAL LA	
 ᩖ	l	l		l̆		]	Mn		medial consonant						ᩖ			U+1A56: TAI THAM CONSONANT SIGN MEDIAL LA	✓
 ᩓ	l	lɛː		lₔ		}	Lo		low tone ligature						ᩓ			U+1A53: TAI THAM LETTER LAE	✓
-ᩄ	L	lɯː		l̥		.	Lo		vocalic						ᩄ			U+1A44: TAI THAM LETTER LUE	✓
+ᩄ	L	lɯː		l̥		.	Lo	?	vocalic						ᩄ			U+1A44: TAI THAM LETTER LUE	✓
 ᨾ	m	m -m	a᷇	m̱		,	Lo		low class consonant					ᩉ᩠ᨾ	ᨾ ᩅ᩠ᨾ			U+1A3E: TAI THAM LETTER MA	✓
 ᩉ᩠ᨾ	m	m	á	h˖m̱					high class consonant				ᨾ					U+1A49 U+1A60 U+1A3E: TAI THAM LETTER HIGH HA, SIGN SAKOT, LETTER MA	
 ᩜ	M	-m		m̽		,	Mn		secondary subjoined form						ᩜ			U+1A5C: TAI THAM CONSONANT SIGN MA	✓
@@ -131,7 +131,7 @@ var spreadsheet = `lana-kkh	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᩁ	r	r -n	a᷇	ṟ		i	Lo		low class consonant					ᩉᩕ	ᩁ ᩅ᩠ᩁ			U+1A41: TAI THAM LETTER RA	✓
 ᩕ	r	ʰ		r̆		1	Mc		medial consonant						ᩕ			U+1A55: TAI THAM CONSONANT SIGN MEDIAL RA	✓
 ᩺	R	n		r̽		i	Mn		final r/n						᩺			U+1A7A: TAI THAM SIGN RA HAAM	✓
-ᩂ	R	rɯː		r̥		/	Lo		vocalic						ᩂ			U+1A42: TAI THAM LETTER RUE	✓
+ᩂ	R	rɯː		r̥		/	Lo	?	vocalic						ᩂ			U+1A42: TAI THAM LETTER RUE	✓
 ᩈ	s	s -t	á	s		l	Lo		high class consonant				ᨪ		ᩈ ᩅ᩠ᩈ			U+1A48: TAI THAM LETTER HIGH SA	✓
 ᩆ	s	s -t	á	ś		j	Lo		high class consonant						ᩆ ᩅ᩠ᩆ			U+1A46: TAI THAM LETTER HIGH SHA	✓
 ᩇ	s	s -t	á	ṡ		k	Lo		high class consonant						ᩇ ᩅ᩠ᩇ			U+1A47: TAI THAM LETTER HIGH SSA	✓
@@ -189,21 +189,21 @@ var spreadsheet = `lana-kkh	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᩮᩢᩣ		aw		ēáā					composite vowel									U+1A6E U+1A62 U+1A63: TAI THAM VOWEL SIGN E, VOWEL SIGN MAI SAT, VOWEL SIGN AA	
 ᩮᩢᩤ		aw		ēáä					composite vowel									U+1A6E U+1A62 U+1A64: TAI THAM VOWEL SIGN E, VOWEL SIGN MAI SAT, VOWEL SIGN TALL AA	
 																			
-ʼ				ʼ	ʼ		Lm		apostrophe									U+02BC: MODIFIER LETTER APOSTROPHE	
-§				§	§		Po		section sign									U+00A7: SECTION SIGN	
-†				†	†		Po		dagger									U+2020: DAGGER	
-‡				‡	‡		Po		double dagger									U+2021: DOUBLE DAGGER	
-′				′	′		Po		prime									U+2032: PRIME	
-″				″	″		Po		double prime									U+2033: DOUBLE PRIME	
+ʼ				ʼ	ʼ		Lm	?	apostrophe									U+02BC: MODIFIER LETTER APOSTROPHE	
+§				§	§		Po	?	section sign									U+00A7: SECTION SIGN	
+†				†	†		Po	?	dagger									U+2020: DAGGER	
+‡				‡	‡		Po	?	double dagger									U+2021: DOUBLE DAGGER	
+′				′	′		Po	?	prime									U+2032: PRIME	
+″				″	″		Po	?	double prime									U+2033: DOUBLE PRIME	
 																			
-ᩲ				–		W	Mc		for the keyboard									U+1A72: TAI THAM VOWEL SIGN THAM AI	✓
+ᩲ				–		W	Mc	?	for the keyboard									U+1A72: TAI THAM VOWEL SIGN THAM AI	✓
 ᩣᩴ				–		e			for the keyboard									U+1A63 U+1A74: TAI THAM VOWEL SIGN AA, SIGN MAI KANG	
-᩻				–		E	Mn		for the keyboard									U+1A7B: TAI THAM SIGN MAI SAM	✓
+᩻				–		E	Mn	?	for the keyboard									U+1A7B: TAI THAM SIGN MAI SAM	✓
 ᩚ				–		r	Mn		for the keyboard									U+1A5A: TAI THAM CONSONANT SIGN LOW PA	✓
 ᩦ				–		u	Mn		for the keyboard									U+1A66: TAI THAM VOWEL SIGN II	✓
 ᩳ				–		U	Mn		for the keyboard									U+1A73: TAI THAM VOWEL SIGN OA ABOVE	✓
-᩿				–		B	Mn		for the keyboard									U+1A7F: TAI THAM COMBINING CRYPTOGRAMMIC DOT	✓
-ᩗ				–		<	Mc		for the keyboard									U+1A57: TAI THAM CONSONANT SIGN LA TANG LAI	✓
+᩿				–		B	Mn	?	for the keyboard									U+1A7F: TAI THAM COMBINING CRYPTOGRAMMIC DOT	✓
+ᩗ				–		<	Mc	?	for the keyboard									U+1A57: TAI THAM CONSONANT SIGN LA TANG LAI	✓
 																			
 ᩰᩢ		o		o					compound vowel	unattested in Owen								U+1A70 U+1A62: TAI THAM VOWEL SIGN OO, VOWEL SIGN MAI SAT	
 ᩮᩣ		oː		ō					compound vowel	unattested in Owen								U+1A6E U+1A63: TAI THAM VOWEL SIGN E, VOWEL SIGN AA	
@@ -214,11 +214,9 @@ var spreadsheet = `lana-kkh	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᩮᩬᩥ		ɤː/ɨa-		ɤː						unattested in Owen								U+1A6E U+1A6C U+1A65: TAI THAM VOWEL SIGN E, VOWEL SIGN OA BELOW, VOWEL SIGN I	
 ᩮᩬᩥᩡ		ɤʔ		ɤʔ						unattested in Owen								U+1A6E U+1A6C U+1A65 U+1A61: TAI THAM VOWEL SIGN E, VOWEL SIGN OA BELOW, VOWEL SIGN I, VOWEL SIGN A	
 ᩢ᩠ᨿ		aj		aj						unattested in Owen								U+1A62 U+1A60 U+1A3F: TAI THAM VOWEL SIGN MAI SAT, SIGN SAKOT, LETTER LOW YA	
-																			
 `																			
 																			
 latinPanel = 'á a᷇ aː eː ɛ ɛː iː k᷇ kʰ ŋ oː ɔ ɔː pʰ tʰ uː ɤ ɤː ɯ ɯː ʔ'																			
-																			
 																			
 var cols = {																			
 key: 1,																			
@@ -245,25 +243,3 @@ block: 19,
 																			
 othertranscriptions: [[5, 'Latin']]																			
 }																			
-																			
-																			
-																			
-																			
-																			
-																			
-																			
-																			
-																			
-																			
-																			
-																			
-																			
-																			
-																			
-																			
-																			
-																			
-																			
-																			
-																			
-																			

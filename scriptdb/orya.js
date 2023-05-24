@@ -1,8 +1,8 @@
 var spreadsheet = `orya-ora	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	dvowel	ivowel	native name	latin name	ucs name	block
--	-			-	-				hyphen						U+002D: HYPHEN-MINUS	
-‑	-			‑	‑		Pd		non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
-–	-			–	–		Pd		en dash						U+2013: EN DASH	
-—	-			—	—		Pd		em dash						U+2014: EM DASH	
+-	-			-	-			?	hyphen						U+002D: HYPHEN-MINUS	
+‑	-			‑	‑		Pd	?	non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
+–	-			–	–		Pd	?	en dash						U+2013: EN DASH	
+—	-			—	—		Pd	?	em dash						U+2014: EM DASH	
 ,	,			,	,		Po		comma						U+002C: COMMA	
 ;	;			;	;		Po		semicolon						U+003B: SEMICOLON	
 	:			ː					length mark							
@@ -12,10 +12,10 @@ var spreadsheet = `orya-ora	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 .	.			.	.		Po		full stop						U+002E: FULL STOP	
 …	.			⋯	⋯		Po		ellipsis						U+2026: HORIZONTAL ELLIPSIS	
 (	(			(	(		Ps		parenthesis						U+0028: LEFT PARENTHESIS	
-[	(			[	[		Ps		bracket						U+005B: LEFT SQUARE BRACKET	
+[	(			[	[		Ps	?	bracket						U+005B: LEFT SQUARE BRACKET	
 )	)			)	)		Pe		parenthesis						U+0029: RIGHT PARENTHESIS	
-]	)			]	]		Pe		bracket						U+005D: RIGHT SQUARE BRACKET	
-୕	[			ˉ			Mn		overline	Kuvi					U+0B55: ORIYA SIGN OVERLINE	✓
+]	)			]	]		Pe	?	bracket						U+005D: RIGHT SQUARE BRACKET	
+୕	[			ˉ			Mn	u	overline	Kuvi					U+0B55: ORIYA SIGN OVERLINE	✓
 ଓଁ	[	om							om sign						U+0B13 U+0B01: LETTER O, SIGN CANDRABINDU	
 ଁ	[	̃		˜	̃		Mn		nasalisation				ଚନ୍ଦ୍ରବିନ୍ଦୁ	chandrabindu	U+0B01: ORIYA SIGN CANDRABINDU	✓
 ଽ	]			′			Lo	t	elision; vowel prolongation	Sanskrit			ଅବଗ୍ରହ	avagraha	U+0B3D: ORIYA SIGN AVAGRAHA	✓
@@ -25,7 +25,7 @@ var spreadsheet = `orya-ora	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ୲	#			¼			No	a	quarter						U+0B72: ORIYA FRACTION ONE QUARTER	✓
 ୳	#			½			No	a	half						U+0B73 U+0020: ORIYA FRACTION ONE HALF, SPACE	✓
 ୴	#			¾			No	a	three-quarters						U+0B74: ORIYA FRACTION THREE QUARTERS	✓
-%	%			%	%		Po		percentage mark						U+0025: PERCENT SIGN	
+%	%			%	%		Po	?	percentage mark						U+0025: PERCENT SIGN	
 ୦	±			0̣	0		Nd		digit				ଶୂନ୍ୟ	śūnya	U+0B66: ORIYA DIGIT ZERO	✓
 ୧	±			1̣	1		Nd		digit				ଏକ	eka	U+0B67: ORIYA DIGIT ONE	✓
 ୨	±			2̣	2		Nd		digit				ଦୁଇ	dui	U+0B68: ORIYA DIGIT TWO	✓
@@ -37,22 +37,12 @@ var spreadsheet = `orya-ora	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ୮	±			8̣	8		Nd		digit				ଆଠ	āṭha	U+0B6E: ORIYA DIGIT EIGHT	✓
 ୯	±			9̣	9		Nd		digit				ନଅ	na'a	U+0B6F: ORIYA DIGIT NINE	✓
 “	<			“	“		Pi		quotation mark						U+201C: LEFT DOUBLE QUOTATION MARK	✓
-\‘	<			\‘	\‘		Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	✓
+‘	<			\‘	\‘		Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	✓
 \u200C	=			ₓ			Cf		zwnj						U+200C: ZERO WIDTH NON-JOINER	
 \u200D	=			₊			Cf		zwj						U+200D: ZERO WIDTH JOINER	
-\u2067	=			ʳˡⁱ			Cf		rtl isolate						U+2067: RIGHT-TO-LEFT ISOLATE	
-\u2066	=			ˡʳⁱ			Cf		ltr isolate						U+2066: LEFT-TO-RIGHT ISOLATE	
-\u2068	=			ᶠˢⁱ			Cf		first-strong isolate						U+2068: FIRST STRONG ISOLATE	
-\u2069	=			ᵖᵈⁱ			Cf		pop direction isolate						U+2069: POP DIRECTIONAL ISOLATE	
-\u202B	=			ʳˡᵉ			Cf		rtl embed						U+202B: RIGHT-TO-LEFT EMBEDDING	
-\u202A	=			ˡʳᵉ			Cf		ltr embed						U+202A: LEFT-TO-RIGHT EMBEDDING	
-\u202C	=			ᵖᵈᶠ			Cf		pop direction						U+202C: POP DIRECTIONAL FORMATTING	
-\u200F	=			ʳˡᵐ			Cf		rtl mark						U+200F: RIGHT-TO-LEFT MARK	
-\u200E	=			ˡʳᵐ			Cf		ltr mark						U+200E: LEFT-TO-RIGHT MARK	
-\u034F	=			ᶜᵍʲ			Mn		combining grapheme joiner						U+034F: COMBINING GRAPHEME JOINER	
-\u061C	=			ᵃˡᵐ			Cf		arabic letter mark						U+061C: ARABIC LETTER MARK	
+\u034F	=			ᶜᵍʲ			Mn	?	combining grapheme joiner						U+034F: COMBINING GRAPHEME JOINER	
 ”	>			”	”		Pf		quotation mark						U+201D: RIGHT DOUBLE QUOTATION MARK	✓
-\’	>			\’	\’		Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	✓
+’	>			\’	\’		Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	✓
 ।	|			|	.		Po		section divider				ପୂର୍ଣ୍ଣଛେଦ	purṇṇacheda	U+0964: DEVANAGARI DANDA	✓
 ॥	|			‖			Po		section divider					double purṇṇacheda	U+0965: DEVANAGARI DOUBLE DANDA	✓
 																
@@ -103,9 +93,9 @@ var spreadsheet = `orya-ora	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ଫ	p	pʰ	ɔ	pʰ	ph		Lo		plosive						U+0B2B: ORIYA LETTER PHA	✓
 ର	r	r	ɔ	r	r		Lo		sonorant						U+0B30: ORIYA LETTER RA	✓
 ଡ଼	r	ɽ	ɔ	rˑ	ṛ				sonorant						U+0B21 U+0B3C: ORIYA LETTER DDA, SIGN NUKTA	
-\u0B5C	r	ɽ	ɔ	rˑ	ṛ		Lo	d	sonorant	decomposed is recommended					U+0B5C: ORIYA LETTER RRA	
+\u0B5C	r	ɽ	ɔ	rˑ	ṛ		Lo	x	sonorant	decomposed is recommended					U+0B5C: ORIYA LETTER RRA	
 ଢ଼	r	ɽʰ	ɔ	rʰˑ	ṛh				sonorant						U+0B22 U+0B3C: ORIYA LETTER DDHA, SIGN NUKTA	
-\u0B5D	r	ɽʰ	ɔ	rʰˑ	ṛh		Lo	d	sonorant	decomposed is recommended					U+0B5D: ORIYA LETTER RHA	
+\u0B5D	r	ɽʰ	ɔ	rʰˑ	ṛh		Lo	x	sonorant	decomposed is recommended					U+0B5D: ORIYA LETTER RHA	
 ୃ	R	ru		r̥	r̥		Mn		vocalic			ଋ			U+0B43: ORIYA VOWEL SIGN VOCALIC R	✓
 ୄ	R	ru		r̥̄	r̥̄		Mn	r	vocalic	for Sanskrit		ୠ			U+0B44: ORIYA VOWEL SIGN VOCALIC RR	✓
 ଋ	R	ru		r̥̣	r̥		Lo	r	vocalic	for Sanskrit	ୃ				U+0B0B U+0020: ORIYA LETTER VOCALIC R	✓
@@ -123,8 +113,8 @@ var spreadsheet = `orya-ora	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ଊ	U	u		ụ̄	ū		Lo		independent vowel		ୂ				U+0B0A: ORIYA LETTER UU	✓
 ଵ	v	ʋ	ɔ	v	v		Lo		fricative						U+0B35: ORIYA LETTER VA	✓
 ୱ	w	w	ɔ	w	w		Lo		sonorant				ଅବର୍ଗ୍ୟ ବ	abargya ba	U+0B71: ORIYA LETTER WA	✓
-ୖ	x			xʲ			Mn	i	lengthening mark	decomposed text only					U+0B56: ORIYA AI LENGTH MARK	✓
-ୗ	x			xᵘ			Mc	i	lengthening mark	decomposed text only					U+0B57: ORIYA AU LENGTH MARK	✓
+ୖ	x			xʲ			Mn	x	lengthening mark	decomposed text only					U+0B56: ORIYA AI LENGTH MARK	✓
+ୗ	x			xᵘ			Mc	x	lengthening mark	decomposed text only					U+0B57: ORIYA AU LENGTH MARK	✓
 ଯ	y	d͡ʒ	ɔ	ʤ	ẏ		Lo		afficate					antaḥstha ja	U+0B2F: ORIYA LETTER YA	✓
 ୟ	y	j	ɔ	y	y		Lo		sonorant						U+0B5F: ORIYA LETTER YYA	✓
 																
@@ -132,22 +122,19 @@ var spreadsheet = `orya-ora	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 କ୍ଷ		kʰj	ɔ	k͓ṣ	kṣ				alphabetic letter						U+0B15 U+0B4D U+0B37: ORIYA LETTER KA, SIGN VIRAMA, LETTER SSA	
 ୍ବ		w b	ɔ	͓b	w b										U+0B4D U+0B2C: ORIYA SIGN VIRAMA , LETTER BA	
 																
-ʼ				ʼ	ʼ		Lm		apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
-§				§	§		Po		section sign						U+00A7: SECTION SIGN	
-†				†	†		Po		dagger						U+2020: DAGGER	
-‡				‡	‡		Po		double dagger						U+2021: DOUBLE DAGGER	
-′				′	′		Po		prime						U+2032: PRIME	
-″				″	″		Po		double prime						U+2033: DOUBLE PRIME	
+ʼ				ʼ	ʼ		Lm	?	apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
+§				§	§		Po	?	section sign						U+00A7: SECTION SIGN	
+†				†	†		Po	?	dagger						U+2020: DAGGER	
+‡				‡	‡		Po	?	double dagger						U+2021: DOUBLE DAGGER	
+′				′	′		Po	?	prime						U+2032: PRIME	
+″				″	″		Po	?	double prime						U+2033: DOUBLE PRIME	
 																
 ୶				{1/8}			No	a	one eighth						U+0B76: ORIYA FRACTION ONE EIGHTH	✓
 ୵				{1/16}			No	a	one sixteenth						U+0B75: ORIYA FRACTION ONE SIXTEENTH	✓
 ୷				{3/16}			No	a	three sixteenths						U+0B77: ORIYA FRACTION THREE SIXTEENTHS	✓
-																
 `																
 																
-																
 latinPanel = 'ā bʰ cʰ dʰ ɖ ḍ ɖʰ ḍh d͡ʒ d͡ʒʰ ʤ ẹ gʰ ɦ h̽ ḥ ī ị ị̄ jʰ kʰ ɭ ḷ l̥ l̥̄ l̥̣ l̥̣̄ m̽ ṃ ɲ ñ ɳ ṇ ṅ ɔ ô ɔʲ ɔᵘ ọ ɔ̣ ɔ̣ʲ ɔ̣ᵘ pʰ ɽ ṛ ɽʰ r̥ r̥̄ r̥̣ r̥̣̄ ṣ ś tʰ ʈ ṭ ʈʰ ṭh t͡ʃ t͡ʃʰ ū ụ ụ̄ ẏ'																
-																
 																
 var cols = {																
 key: 1,																
@@ -171,4 +158,3 @@ block: 16,
 																
 othertranscriptions: [[5, 'ALA LC']]																
 }																
-																

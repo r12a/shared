@@ -1,9 +1,9 @@
 var spreadsheet = `nkoo-nqo	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	native name	latin name	ucs name	block
 ߺ	_			_			Lm		baseline extender				U+07FA: NKO LAJANYALAN	✓
 -	-			-	-		Pd		hyphen				U+2010: HYPHEN	
-‑	-			‑	‑		Pd		non-breaking hyphen				U+2011: NON-BREAKING HYPHEN	
-–	-			–	–		Pd		en dash				U+2013: EN DASH	
-—	-			—	—		Pd		em dash				U+2014: EM DASH	
+‑	-			‑	‑		Pd	?	non-breaking hyphen				U+2011: NON-BREAKING HYPHEN	
+–	-			–	–		Pd	?	en dash				U+2013: EN DASH	
+—	-			—	—		Pd	?	em dash				U+2014: EM DASH	
 ߸	,			,	,	,	Po		comma				U+07F8: NKO COMMA	✓
 ،	,			⹁	,		Po		arabic comma				U+060C: ARABIC COMMA	
 ؛	;			;	;		Po		arabic semicolon				U+061B: ARABIC SEMICOLON	
@@ -11,7 +11,7 @@ var spreadsheet = `nkoo-nqo	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ߹	!			!	!	!	Po		exclamation mark				U+07F9: NKO EXCLAMATION MARK	✓
 ؟	?			?	?		Po		arabic question mark				U+061F: ARABIC QUESTION MARK	
 .	.			.	.		Po		full stop				U+002E: FULL STOP	
-…	.			…	…		Po		ellipsis				U+2026: HORIZONTAL ELLIPSIS	
+…	.			…	…		Po	?	ellipsis				U+2026: HORIZONTAL ELLIPSIS	
 (	(			(	(		Ps		parenthesis				U+0028: LEFT PARENTHESIS	
 [	(			[	[		Ps		bracket				U+005B: LEFT SQUARE BRACKET	
 ﴿	(			﴿	(		Ps		quotation bracket				U+FD3F: ORNATE RIGHT PARENTHESIS	
@@ -20,12 +20,12 @@ var spreadsheet = `nkoo-nqo	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ﴾	)			﴾	)		Pe		quotation bracket				U+FD3E: ORNATE LEFT PARENTHESIS	
 ߲	[	̃		˜	̃		Mn		nasalisation mark			kánnadiyalan	U+07F2: NKO COMBINING NASALIZATION MARK	✓
 ߶	]			–		/	So		grammatical marker				U+07F6: NKO SYMBOL OO DENNEN	✓
-\u200B	]			␣			Cf		zero-width space				U+200B: ZERO WIDTH SPACE	
+\u200B	]			␣			Cf	?	zero-width space				U+200B: ZERO WIDTH SPACE	
 ߑ	*			͞		§	Lo		vowel killer				U+07D1: NKO LETTER DAGBASINNA	✓
 ߳	/			ˑ		%	Mn		repertoire extension				U+07F3: NKO COMBINING DOUBLE DOT ABOVE	✓
 ߾	#			¤			Sc		dorome currency sign				U+07FE: NKO DOROME SIGN	✓
 ߿	#			¢			Sc		taman currency sign				U+07FF: NKO TAMAN SIGN	✓
-٪	%			%			Po		arabic percent sign				U+066A: ARABIC PERCENT SIGN	
+٪	%			%			Po	?	arabic percent sign				U+066A: ARABIC PERCENT SIGN	
 ߫	^	˦		ˊ	́		Mn		tone mark				U+07EB: NKO COMBINING SHORT HIGH TONE	✓
 ߯	^	˦		ʺ	́	.	Mn		tone mark				U+07EF: NKO COMBINING LONG HIGH TONE	✓
 ߬	^	˨		ˋ	̀	±	Mn		tone mark				U+07EC: NKO COMBINING SHORT LOW TONE	✓
@@ -48,13 +48,13 @@ var spreadsheet = `nkoo-nqo	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ߀	±			0̣	0	0	Nd		digit				U+07C0: NKO DIGIT ZERO	✓
 ⸜	<				“		Pi		quotation mark				U+2E1C: LEFT LOW PARAPHRASE BRACKET	
 «	<			«	“		Pi		quotation mark				U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
-‹	<			‹			Pi		quotation mark				U+2039: SINGLE LEFT-POINTING ANGLE QUOTATION MARK	
-“	<			“	“		Pi		quotation mark				U+201C: LEFT DOUBLE QUOTATION MARK	
-\‘	<			\‘	\‘		Pi		quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	
+‹	<			‹			Pi	?	quotation mark				U+2039: SINGLE LEFT-POINTING ANGLE QUOTATION MARK	
+“	<			“	“		Pi	?	quotation mark				U+201C: LEFT DOUBLE QUOTATION MARK	
+‘	<			\‘	\‘		Pi	?	quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	
 \u200C	=			ᶻʷⁿʲ			Cf		zero-width non-joiner				U+200C: ZERO WIDTH NON-JOINER	
 \u200D	=			ᶻʷʲ			Cf		zero-width joiner				U+200D: ZERO WIDTH JOINER	
-\u034F	=			ᶜᵍʲ			Mn		combining grapheme joiner				U+034F: COMBINING GRAPHEME JOINER	
-\u2060	=			ʷʲ			Cf		word joiner				U+2060 WORD JOINER	
+\u034F	=			ᶜᵍʲ			Mn	?	combining grapheme joiner				U+034F: COMBINING GRAPHEME JOINER	
+\u2060	=			ʷʲ			Cf	?	word joiner				U+2060 WORD JOINER	
 \u2067	=			ʳˡⁱ			Cf		rtl isolate				U+2067: RIGHT-TO-LEFT ISOLATE	
 \u2066	=			ˡʳⁱ			Cf		ltr isolate				U+2066: LEFT-TO-RIGHT ISOLATE	
 \u2068	=			ᶠˢⁱ			Cf		first-strong isolate				U+2068: FIRST STRONG ISOLATE	
@@ -64,12 +64,12 @@ var spreadsheet = `nkoo-nqo	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 \u202C	=			ᵖᵈᶠ			Cf		pop direction				U+202C: POP DIRECTIONAL FORMATTING	
 \u200F	=			ʳˡᵐ			Cf		rtl mark				U+200F: RIGHT-TO-LEFT MARK	
 \u200E	=			ˡʳᵐ			Cf		ltr mark				U+200E: LEFT-TO-RIGHT MARK	
-\u061C	=			ᵃˡᵐ			Cf		arabic letter mark				U+061C: ARABIC LETTER MARK	
+\u061C	=			ᵃˡᵐ			Cf	?	arabic letter mark				U+061C: ARABIC LETTER MARK	
 ⸝	>				”		Pf		quotation mark				U+2E1D: RIGHT LOW PARAPHRASE BRACKET	
 »	>			»	”		Pf		quotation mark				U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
-›	>			›			Pf		quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
-”	>			”	”		Pf		quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK	
-\’	>			\’	\’		Pf		quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
+›	>			›			Pf	?	quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
+”	>			”	”		Pf	?	quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK	
+’	>			\’	\’		Pf	?	quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
 ߷	|			¶			Po		major section terminator				U+07F7: NKO SYMBOL GBAKURUNEN	✓
 														
 														

@@ -1,27 +1,28 @@
 var spreadsheet = `arab-ur	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	equiv	shape	native name	latin name	ucs name	block
 \u0020							Zs		space						U+0020: SPACE	
-ـ	_			_		I	Lm		baseline extender						U+0640: ARABIC TATWEEL	✓
-‑	-			‑	‑		Pd		non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
+ـ	_			_		I	Lm	u	baseline extender						U+0640: ARABIC TATWEEL	✓
+-	-			-	-				hyphen						U+2010: HYPHEN	
+‑	-			‑	‑		Pd	?	non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
 –	-			–	–		Pd		en dash						U+2013: EN DASH	✓
-—	-			—	—		Pd		em dash						U+2014: EM DASH	✓
+—	-			—	—		Pd	?	em dash						U+2014: EM DASH	✓
 ،	,			⹁	,	,	Po		comma					əʃɑːrɪjɑ	U+060C: ARABIC COMMA	✓
-,	,			,	,		Po		comma						U+002C: COMMA	
+,	,			,	,		Po	?	comma						U+002C: COMMA	
 ؛	;			;	;	;	Po		semi-colon						U+061B: ARABIC SEMICOLON	✓
-;	;			;	;		Po		semicolon						U+003B: SEMICOLON	
+;	;			;	;		Po	?	semicolon						U+003B: SEMICOLON	
 :	:			:	:		Po		colon						U+003A: COLON	✓
 !	!			!	!		Po		exclamation mark						U+0021: EXCLAMATION MARK	
 ؟	?			?	?	/	Po		question mark						U+061F: ARABIC QUESTION MARK	✓
 ۔	.			.	.	.	Po		full stop						U+06D4: ARABIC FULL STOP	✓
 .	.			.	.		Po		full stop						U+002E: FULL STOP	✓
-…	.			…	…		Po		ellipsis						U+2026: HORIZONTAL ELLIPSIS	✓
-⋯	.			⋯	⋯		Sm		midline ellipsis						U+22EF: MIDLINE HORIZONTAL ELLIPSIS	
+…	.			…	…		Po	?	ellipsis						U+2026: HORIZONTAL ELLIPSIS	✓
+⋯	.			⋯	⋯		Sm	?	midline ellipsis						U+22EF: MIDLINE HORIZONTAL ELLIPSIS	
 (	(			(	(		Ps		parenthesis						U+0028: LEFT PARENTHESIS	✓
-[	(			[	[		Ps		bracket						U+005B: LEFT SQUARE BRACKET	
+[	(			[	[		Ps	?	bracket						U+005B: LEFT SQUARE BRACKET	
 )	)			)	)		Pe		parenthesis						U+0029: RIGHT PARENTHESIS	✓
-]	)			]	]		Pe		bracket						U+005D: RIGHT SQUARE BRACKET	
+]	)			]	]		Pe	?	bracket						U+005D: RIGHT SQUARE BRACKET	
 ٘	[	̃		ᵑ	̃		Mn		nasalisation mark	with word-medial ن					U+0658: ARABIC MARK NOON GHUNNA	✓
 ن٘	[	̃		nᵑ	̃				nasalisation						U+0646, U+0658: ARABIC LETTER NOON, MARK NOON GHUNNA	
-\u200B	]			␣			Cf		zero-width space						U+200B: ZERO WIDTH SPACE	
+\u200B	]			␣			Cf	?	zero-width space						U+200B: ZERO WIDTH SPACE	
 ع	{	∅		ʿ	ā o e ʿ –	m	Lo		consonant			ع ععع	عین	ɛːn	U+0639: ARABIC LETTER AIN	✓
 ء	}			ʾ		H	Lo		vowel separator / calendar indicator			ء	ہمزہ	ɦəm.zɑː	U+0621: ARABIC LETTER HAMZA	✓
 ٓ	}			~		G	Mn	i	maddah diacritic	used with ا					U+0653: ARABIC MADDAH ABOVE	
@@ -32,8 +33,8 @@ var spreadsheet = `arab-ur	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ٫	#			·			Po		decimal separator						U+066B: ARABIC DECIMAL SEPARATOR	✓
 ؍	#			/			Po		date separator						U+060D: ARABIC DATE SEPARATOR	✓
 ٪	%			%	%		Po		percent mark						U+066A: ARABIC PERCENT SIGN	✓
-%	%			%	%		Po		percentage mark						U+0025: PERCENT SIGN	✓
-‰	%			‰			Po		per mille mark						U+2030: PER MILLE SIGN	✓
+%	%			%	%		Po	?	percentage mark						U+0025: PERCENT SIGN	✓
+‰	%			‰			Po	?	per mille mark						U+2030: PER MILLE SIGN	✓
 ۰	±			0̣	0	0	Nd		digit			0		sɪfr	U+06F0: EXTENDED ARABIC-INDIC DIGIT ZERO	✓
 ۱	±			1̣	1	1	Nd		digit			1		ek	U+06F1: EXTENDED ARABIC-INDIC DIGIT ONE	✓
 ۲	±			2̣	2	2	Nd		digit			2		do	U+06F2: EXTENDED ARABIC-INDIC DIGIT TWO	✓
@@ -44,27 +45,27 @@ var spreadsheet = `arab-ur	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ۷	±			7̣	7	7	Nd		digit			7		sɑːt	U+06F7: EXTENDED ARABIC-INDIC DIGIT SEVEN	✓
 ۸	±			8̣	8	8	Nd		digit			8		ɑːʈʰ	U+06F8: EXTENDED ARABIC-INDIC DIGIT EIGHT	✓
 ۹	±			9̣	9	9	Nd		digit			9		nəʊ	U+06F9: EXTENDED ARABIC-INDIC DIGIT NINE	✓
-«	<			«	“		Pi		quotation mark						U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	✓
-‹	<			‹			Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	✓
+«	<			«	“		Pi	?	quotation mark						U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	✓
+‹	<			‹			Pi	?	quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	✓
 “	<			“	“		Pi		quotation mark						U+201C: LEFT DOUBLE QUOTATION MARK	✓
-\‘	<			\‘	\‘		Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	✓
+‘	<			\‘	\‘		Pi	?	quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	✓
 \u200C	=			ₓ		X	Cf		zwnj						U+200C: ZERO WIDTH NON-JOINER	
 \u200D	=			₊		Z	Cf		zwj						U+200D: ZERO WIDTH JOINER	
 \u2067	=			ʳˡⁱ			Cf		rtl isolate						U+2067: RIGHT-TO-LEFT ISOLATE	
 \u2066	=			ˡʳⁱ			Cf		ltr isolate						U+2066: LEFT-TO-RIGHT ISOLATE	
 \u2068	=			ᶠˢⁱ			Cf		first-strong isolate						U+2068: FIRST STRONG ISOLATE	
 \u2069	=			ᵖᵈⁱ			Cf		pop direction isolate						U+2069: POP DIRECTIONAL ISOLATE	
-\u202B	=			ʳˡᵉ			Cf		rtl embed						U+202B: RIGHT-TO-LEFT EMBEDDING	
-\u202A	=			ˡʳᵉ			Cf		ltr embed						U+202A: LEFT-TO-RIGHT EMBEDDING	
-\u202C	=			ᵖᵈᶠ			Cf		pop direction						U+202C: POP DIRECTIONAL FORMATTING	
+\u202B	=			ʳˡᵉ			Cf	x	rtl embed						U+202B: RIGHT-TO-LEFT EMBEDDING	
+\u202A	=			ˡʳᵉ			Cf	x	ltr embed						U+202A: LEFT-TO-RIGHT EMBEDDING	
+\u202C	=			ᵖᵈᶠ			Cf	x	pop direction						U+202C: POP DIRECTIONAL FORMATTING	
 \u200F	=			ʳˡᵐ		M	Cf		rtl mark						U+200F: RIGHT-TO-LEFT MARK	
 \u200E	=			ˡʳᵐ		V	Cf		ltr mark						U+200E: LEFT-TO-RIGHT MARK	
 \u034F	=			ᶜᵍʲ			Mn		combining grapheme joiner						U+034F: COMBINING GRAPHEME JOINER	
 \u061C	=			ᵃˡᵐ			Cf		arabic letter mark						U+061C: ARABIC LETTER MARK	
-»	>			»	”		Pf		quotation mark						U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	✓
-›	>			›			Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	✓
+»	>			»	”		Pf	?	quotation mark						U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	✓
+›	>			›			Pf	?	quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	✓
 ”	>			”	”		Pf		quotation mark						U+201D: RIGHT DOUBLE QUOTATION MARK	✓
-\’	>			\’	\’		Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	✓
+’	>			\’	\’		Pf	?	quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	✓
 																
 ا	a	a ɪ u ∅ ɑː		ɑ	ā ʾ –	j	Lo		vowel			ا ـا	الف	ə.lɪf	U+0627: ARABIC LETTER ALEF	✓
 آ	a	ɑː		ɑ̄	ā	J	Lo		vowel	initial only	\u{627}\u{653}	آ ـآ		əlɪf mədd	U+0622: ARABIC LETTER ALEF WITH MADDA ABOVE	✓
@@ -146,7 +147,7 @@ var spreadsheet = `arab-ur	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 																
 \u{6C1}\u{654}		ɛ		h‘	yi				izafat	decomposed					U+06C1, U+0654: ARABIC LETTER HEH GOAL, HAMZA ABOVE	
 																
-أ				ɑ͑		h	Lo		consonant+vowel			أ ـأ			U+0623: ARABIC LETTER ALEF WITH HAMZA ABOVE	✓
+أ				ɑ͑		h	Lo	u	consonant+vowel			أ ـأ			U+0623: ARABIC LETTER ALEF WITH HAMZA ABOVE	✓
 ۓ		e ɛ		ɛ͑		C	Lo		izafat			ۓ		ɪzɑːfat	U+06D3: ARABIC LETTER YEH BARREE WITH HAMZA ABOVE	✓
 																
 ؃							Cf		page number marker					səfəh	U+0603: ARABIC SIGN SAFHA	✓
@@ -159,12 +160,12 @@ var spreadsheet = `arab-ur	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ؓ							Mn		honorific					raziallaːo ano	U+0613: ARABIC SIGN RADI ALLAHOU ANHU	✓
 ؔ							Mn		author name marker						U+0614: ARABIC SIGN TAKHALLUS	✓
 																
-ʼ				ʼ	ʼ		Lm		apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
-§				§	§		Po		section sign						U+00A7: SECTION SIGN	
-†				†	†		Po		dagger						U+2020: DAGGER	
-‡				‡	‡		Po		double dagger						U+2021: DOUBLE DAGGER	
-′				′	′		Po		prime						U+2032: PRIME	
-″				″	″		Po		double prime						U+2033: DOUBLE PRIME	
+ʼ				ʼ	ʼ		Lm	?	apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
+§				§	§		Po	?	section sign						U+00A7: SECTION SIGN	
+†				†	†		Po	?	dagger						U+2020: DAGGER	
+‡				‡	‡		Po	?	double dagger						U+2021: DOUBLE DAGGER	
+′				′	′		Po	?	prime						U+2032: PRIME	
+″				″	″		Po	?	double prime						U+2033: DOUBLE PRIME	
 ﷽							So	i							U+FDFD: ARABIC LIGATURE BISMILLAH AR-RAHMAN AR-RAHEEM	
 \u0600							Cf								U+0600 ARABIC NUMBER SIGN	
 \u0601							Cf								U+0601: ARABIC SIGN SANAH	
@@ -180,7 +181,6 @@ var spreadsheet = `arab-ur	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 `																
 																
 latinPanel = 'ɑː ā ḍ ɖ d͡ʒ ɛ eː ɛː g͟h ɦ ḥ ʰ iː ɪ k͟h ṉ ∅ ɔ ṛ ɽ ṣ s̱ ʃ t̤ ṭ ʈ t͡ʃ uː ū ʋ ɣ ẓ z̤ ẕ ʒ'																
-																
 																
 var cols = {																
 key: 1,																
@@ -204,4 +204,3 @@ block: 16,
 																
 othertranscriptions: [[5, 'ALA-LC']]																
 }																
-																

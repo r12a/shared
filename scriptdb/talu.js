@@ -1,24 +1,24 @@
 var spreadsheet = `talu-khb	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	ltone	htone	native name	latin name	ucs name	block
 -	-			-	-		Pd		hyphen						U+2010: HYPHEN	
-‑	-			‑	‑		Pd		non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
-–	-			–	–		Pd		en dash						U+2013: EN DASH	
-—	-			—	—		Pd		em dash						U+2014: EM DASH	
+‑	-			‑	‑		Pd	?	non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
+–	-			–	–		Pd	?	en dash						U+2013: EN DASH	
+—	-			—	—		Pd	?	em dash						U+2014: EM DASH	
 ，	,			⹁	,	,	Po		fullwidth comma						U+FF0C: FULLWIDTH COMMA	
 、	,			–	,		Po		ideographic comma						U+3001: IDEOGRAPHIC COMMA	
-,	,			,	,		Po		comma						U+002C: COMMA	
+,	,			,	,		Po	?	comma						U+002C: COMMA	
 ；	;			;	;		Po								U+FF1B: FULLWIDTH SEMICOLON	
-;	;			–	;		Po		semicolon						U+003B: SEMICOLON	
+;	;			–	;		Po	?	semicolon						U+003B: SEMICOLON	
 ：	:			:	:		Po		fullwidth colon						U+FF1A: FULLWIDTH COLON	
-:	:			–	:		Po		colon						U+003A: COLON	
+:	:			–	:		Po	?	colon						U+003A: COLON	
 ！	!			!	!		Po		fullwidth bracket						U+FF01: FULLWIDTH EXCLAMATION MARK	
-!	!			¡	!		Po		exclamation mark						U+0021: EXCLAMATION MARK	
+!	!			¡	!		Po	?	exclamation mark						U+0021: EXCLAMATION MARK	
 ？	?			?	?	?	Po		fullwidth question mark						U+FF1F: FULLWIDTH QUESTION MARK	
-?	?			¿	¿		Po		question mark						U+003F: QUESTION MARK	
+?	?			¿	¿		Po	?	question mark						U+003F: QUESTION MARK	
 ．	.			*	.		Po		fullwidth full stop						U+FF0E: FULLWIDTH FULL STOP	
 。	.			°	.	.	Po		ideographic full stop						U+3002: IDEOGRAPHIC FULL STOP	
-.	.			.	.		Po		full stop						U+002E: FULL STOP	
-…	.			…	…		Po		ellipsis						U+2026: HORIZONTAL ELLIPSIS	
-⋯	.			⋯	⋯		Sm		midline ellipsis						U+22EF: MIDLINE HORIZONTAL ELLIPSIS	
+.	.			.	.		Po	?	full stop						U+002E: FULL STOP	
+…	.			…	…		Po	?	ellipsis						U+2026: HORIZONTAL ELLIPSIS	
+⋯	.			⋯	⋯		Sm	?	midline ellipsis						U+22EF: MIDLINE HORIZONTAL ELLIPSIS	
 （	(			(	(		Ps		fullwidth bracket						U+FF08: FULLWIDTH LEFT PARENTHESIS	
 〈	(			<	<		Ps		fullwidth bracket						U+3008: LEFT ANGLE BRACKET	
 《	(			{	{	<	Ps		fullwidth bracket						U+300A: LEFT DOUBLE ANGLE BRACKET	
@@ -27,8 +27,8 @@ var spreadsheet = `talu-khb	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 》	)			}	}	>	Pe		fullwidth bracket						U+300B: RIGHT DOUBLE ANGLE BRACKET	
 ᦰ	}	a ʔ		ʔ	ʔ	a	Lo		vowel shortener						U+19B0: NEW TAI LUE VOWEL SIGN VOWEL SHORTENER	✓
 ᧚	#			1̣	1	§	No		alternative digit						U+19DA: NEW TAI LUE THAM DIGIT ONE	✓
-%	%			%			Po		percentage mark						U+0025: PERCENT SIGN	
-‰	%			‰			Po		per mille mark						U+2030: PER MILLE SIGN	
+%	%			%			Po	?	percentage mark						U+0025: PERCENT SIGN	
+‰	%			‰			Po	?	per mille mark						U+2030: PER MILLE SIGN	
 ᧈ	^			¹	¹	w	Lo		tone mark						U+19C8: NEW TAI LUE TONE MARK-1	✓
 ᧉ	^			²	²	W	Lo		tone mark						U+19C9: NEW TAI LUE TONE MARK-2	✓
 ᧑	±			1̣	1	1	Nd		digit					sɔ́ŋ	U+19D1: NEW TAI LUE DIGIT ONE	✓
@@ -41,19 +41,19 @@ var spreadsheet = `talu-khb	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᧘	±			8̣	8	8	Nd		digit					ka᷅w	U+19D8: NEW TAI LUE DIGIT EIGHT	✓
 ᧙	±			9̣	9	9	Nd		digit					síp	U+19D9: NEW TAI LUE DIGIT NINE	✓
 ᧐	±			0̣	0	0	Nd		digit					nɯŋ	U+19D0: NEW TAI LUE DIGIT ZERO	✓
-«	<			«	“		Pi		quotation mark						U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
-‹	<			‹			Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
-“	<			“	“		Pi		quotation mark						U+201C: LEFT DOUBLE QUOTATION MARK	
-\‘	<			\‘	\‘		Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
-\u200B	=			␣			Cf		zero-width space						U+200B: ZERO WIDTH SPACE	
-\u200C	=			ᶻʷⁿʲ			Cf		zero-width non-joiner						U+200C: ZERO WIDTH NON-JOINER	
-\u200D	=			ᶻʷʲ			Cf		zero-width joiner						U+200D: ZERO WIDTH JOINER	
-\u034F	=			ᶜᵍʲ			Mn		combining grapheme joiner						U+034F: COMBINING GRAPHEME JOINER	
-\u2060	=			ʷʲ			Cf		word joiner						U+2060 WORD JOINER	
-»	>			»	”		Pf		quotation mark						U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
-›	>			›			Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
-”	>			”	”		Pf		quotation mark						U+201D: RIGHT DOUBLE QUOTATION MARK	
-\’	>			\’	\’		Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
+«	<			«	“		Pi	?	quotation mark						U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
+‹	<			‹			Pi	?	quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
+“	<			“	“		Pi	?	quotation mark						U+201C: LEFT DOUBLE QUOTATION MARK	
+‘	<			\‘	\‘		Pi	?	quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
+\u200B	=			␣			Cf	?	zero-width space						U+200B: ZERO WIDTH SPACE	
+\u200C	=			ᶻʷⁿʲ			Cf	?	zero-width non-joiner						U+200C: ZERO WIDTH NON-JOINER	
+\u200D	=			ᶻʷʲ			Cf	?	zero-width joiner						U+200D: ZERO WIDTH JOINER	
+\u034F	=			ᶜᵍʲ			Mn	?	combining grapheme joiner						U+034F: COMBINING GRAPHEME JOINER	
+\u2060	=			ʷʲ			Cf	?	word joiner						U+2060 WORD JOINER	
+»	>			»	”		Pf	?	quotation mark						U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
+›	>			›			Pf	?	quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
+”	>			”	”		Pf	?	quotation mark						U+201D: RIGHT DOUBLE QUOTATION MARK	
+’	>			\’	\’		Pf	?	quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
 																
 ᦀ	a	ʔ	a	ʔ	ạ	q	Lo		high tone consonant		ᦁ				U+1980: NEW TAI LUE LETTER HIGH QA	✓
 ᦁ	a	ʔ	a	ʔ̱	ạ̱	Q	Lo		low tone consonant			ᦀ			U+1981: NEW TAI LUE LETTER LOW QA	✓
@@ -136,17 +136,15 @@ var spreadsheet = `talu-khb	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᦍ	y	j	a	y̱	y̱	Y	Lo		low tone consonant			ᦊ			U+198D: NEW TAI LUE LETTER LOW YA	✓
 																
 																
-ʼ				ʼ	ʼ		Lm		apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
-§				§	§		Po		section sign						U+00A7: SECTION SIGN	
-†				†	†		Po		dagger						U+2020: DAGGER	
-‡				‡	‡		Po		double dagger						U+2021: DOUBLE DAGGER	
-′				′	′		Po		prime						U+2032: PRIME	
-″				″	″		Po		double prime						U+2033: DOUBLE PRIME	
-																
+ʼ				ʼ	ʼ		Lm	?	apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
+§				§	§		Po	?	section sign						U+00A7: SECTION SIGN	
+†				†	†		Po	?	dagger						U+2020: DAGGER	
+‡				‡	‡		Po	?	double dagger						U+2021: DOUBLE DAGGER	
+′				′	′		Po	?	prime						U+2032: PRIME	
+″				″	″		Po	?	double prime						U+2033: DOUBLE PRIME	
 `																
 																
 latinPanel = 'aː ɕ ɛ eː ɛː ə i̯ iː kʷ ŋ oː ɔ ɔː pʰ sʷ t͡s t͡ɕ tʰ u̯ uː ɤ ɤː ɯ ɯː xʷ ʔ'																
-																
 																
 var cols = {																
 key: 1,																
@@ -170,4 +168,3 @@ block: 16,
 																
 othertranscriptions: [[5, 'Latin']]																
 }																
-																

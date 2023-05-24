@@ -13,47 +13,48 @@ var spreadsheet = `thai-th	key	ipa	ipa+	translit	LOC	kbd	class	status	type	usage
 ๘	8	8		8̣	8	_	Nd		digit				U+0E58: THAI DIGIT EIGHT	✓		
 ๙	9	9		9̣	9	+	Nd		digit				U+0E59: THAI DIGIT NINE	✓		
 -	-			-	-		Pd		hyphen				U+2010: HYPHEN			
-‑	-			‑	‑		Pd		non-breaking hyphen				U+2011: NON-BREAKING HYPHEN			
+‑	-			‑	‑		Pd	?	non-breaking hyphen				U+2011: NON-BREAKING HYPHEN			
 –	-			–	–		Pd		en dash				U+2013: EN DASH			
 —	-			—	—		Pd		em dash				U+2014: EM DASH			
 ๏	-			•			Po		bullet				U+0E4F: THAI CHARACTER FONGMAN	✓		
 ,	,			,	,	}	Po		comma				U+002C: COMMA			
-;	;			;	;		Po		semicolon				U+003B: SEMICOLON			
+;	;			;	;		Po	?	semicolon				U+003B: SEMICOLON			
 :	:			:	:		Po		colon				U+003A: COLON			
 !	!			!	!		Po		exclamation mark				U+0021: EXCLAMATION MARK			
 ?	?			?	?	M	Po		question mark				U+003F: QUESTION MARK			
 .	.			.	.	"	Po		full stop				U+002E: FULL STOP			
 …	.			…	…		Po		ellipsis				U+2026: HORIZONTAL ELLIPSIS			
 (	(			(	(	Z	Ps		parenthesis				U+0028: LEFT PARENTHESIS			
-[	(			[	[		Ps		bracket				U+005B: LEFT SQUARE BRACKET			
+[	(			[	[		Ps	?	bracket				U+005B: LEFT SQUARE BRACKET			
 )	)			)	)	X	Pe		parenthesis				U+0029: RIGHT PARENTHESIS			
-]	)			]	]		Pe		bracket				U+005D: RIGHT SQUARE BRACKET			
+]	)			]	]		Pe	?	bracket				U+005D: RIGHT SQUARE BRACKET			
 ็	[	ɔː		˘		H	Mn		vowel shortener		ไม้ไต่คู้	mai tai khu	U+0E47: THAI CHARACTER MAITAIKHU	✓		
 -อ	}	ɔː		ʔ̯	 o	\'	s		consonant used as vowel		อ อ่าง	o ang	U+0E2D: THAI CHARACTER O ANG			
 อ	}	- ɔː	\'	ʔ̯	 o	v	Lo		vowel carrier/vowel	mid class	อ อ่าง	o ang	U+0E2D: THAI CHARACTER O ANG	✓		
-ฺ	§			͓		B	Mn	l	virama	Pali			U+0E3A: THAI CHARACTER PHINTHU	✓		
+ฺ	§			͓		B	Mn	u	virama	Pali			U+0E3A: THAI CHARACTER PHINTHU	✓		
 ์	*			˟		N	Mn		cancellation mark		การันต์/ไม้ทัณฑฆาต	kaːran/májtʰantʰákʰâːt	U+0E4C: THAI CHARACTER THANTHAKHAT	✓		
 ๎	\			ʿ			Mn	a	cluster mark				U+0E4E: THAI CHARACTER YAMAKKAN	✓		
 ๆ	&			&		q	Lm		repetition symbol		ไม้ยมก	májjàmòk	U+0E46: THAI CHARACTER MAIYAMOK	✓		
 ฿	#			¤		&	Sc		currency sign				U+0E3F: THAI CURRENCY SYMBOL BAHT	✓		
-%	%			%			Po		percentage mark				U+0025: PERCENT SIGN			
-‰	%			‰			Po		per mille mark				U+2030: PER MILLE SIGN			
+%	%			%			Po	?	percentage mark				U+0025: PERCENT SIGN			
+‰	%			‰			Po	?	per mille mark				U+2030: PER MILLE SIGN			
 ่	^	̀		¹		j	Mn		tone mark		ไม้เอก	májèːk	U+0E48: THAI CHARACTER MAI EK	✓		
 ้	^	̂		²		h	Mn		tone mark		ไม้โท	májtʰoː	U+0E49: THAI CHARACTER MAI THO	✓		
 ๊	^	́		³		U	Mn		tone mark		ไม้ตรี	májtriː	U+0E4A: THAI CHARACTER MAI TRI	✓		
 ๋	^	̌		⁴		J	Mn		tone mark		ไม้จัตวา	májtɕàttàwaː	U+0E4B: THAI CHARACTER MAI CHATTAWA	✓		
 ฯ	+			¨		O	Po		abbreviation symbol/phrase terminator		พยาลน้อย/ไปยาลเล็ก	pʰájaːnnɔ́ːj/pajjaːnlék	U+0E2F: THAI CHARACTER PAIYANNOI	✓		
-‹	<			‹	\‘		Pi		quotation mark				U+2018: LEFT SINGLE QUOTATION MARK			
+‹	<			‹	\‘		Pi	?	quotation mark				U+2018: LEFT SINGLE QUOTATION MARK			
 “	<			“	“		Pi		quotation mark				U+201C: LEFT DOUBLE QUOTATION MARK			
-«	<			«	“		Pi		quotation mark				U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK			
-\‘	<			\‘	\‘		Pi		quotation mark				U+2018: LEFT SINGLE QUOTATION MARK			
-\u034F	=			ᶜᵍʲ					combining grapheme joiner				U+034F: COMBINING GRAPHEME JOINER			
-\u200C	=			ₓ			Cf		zwnj				U+200C: ZERO WIDTH NON-JOINER			
-\u200D	=			₊			Cf		zwj				U+200D: ZERO WIDTH JOINER			
-›	>			›	\’		Pf		quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK			
+«	<			«	“		Pi	?	quotation mark				U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK			
+‘	<			\‘	\‘		Pi		quotation mark				U+2018: LEFT SINGLE QUOTATION MARK			
+\u034F	=			ᶜᵍʲ				?	combining grapheme joiner				U+034F: COMBINING GRAPHEME JOINER			
+\u200C	=			ₓ			Cf	?	zwnj				U+200C: ZERO WIDTH NON-JOINER			
+\u200D	=			₊			Cf	?	zwj				U+200D: ZERO WIDTH JOINER			
+\u2003							Zs	?	em space				U+2003 EM SPACE			
+›	>			›	\’		Pf	?	quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK			
 ”	>			”	”		Pf		quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK			
-»	>			»	”		Pf		quotation mark				U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK			
-\’	>			\’	\’		Pf		quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK			
+»	>			»	”		Pf	?	quotation mark				U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK			
+’	>			\’	\’		Pf		quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK			
 ๚	|			¶			Po		section end marker				U+0E5A: THAI CHARACTER ANGKHANKHU	✓		
 ๛	|			|			Po		chapter/document start marker				U+0E5B: THAI CHARACTER KHOMUT	✓		
 ะ	a	a		a	a	t	Lo		vowel		วิสรรชนีย์	wisanchani	U+0E30: THAI CHARACTER SARA A	✓		
@@ -162,12 +163,12 @@ var spreadsheet = `thai-th	key	ipa	ipa+	translit	LOC	kbd	class	status	type	usage
 ญ	y	j -n	o a	ẏ̱	y -n	P	Lo		consonant	low class	ญ หญิง	yo ying	U+0E0D: THAI CHARACTER YO YING	✓		
 ย	y	j (-n)	o a	y̱	y (-n)	p	Lo		consonant	low class	ย ยักษ์	yo yak	U+0E22: THAI CHARACTER YO YAK	✓		
 ํ		m		º		Y	Mn	r	final consonant	only used during justification			U+0E4D: THAI CHARACTER NIKHAHIT	✓		
-§				§	§		Po		section sign				U+00A7: SECTION SIGN			
-†				†	†		Po		dagger				U+2020: DAGGER			
-‡				‡	‡		Po		double dagger				U+2021: DOUBLE DAGGER			
-′				′	′		Po		prime				U+2032: PRIME			
-″				″	″		Po		double prime				U+2033: DOUBLE PRIME			
-ʼ				ʼ	ʼ		Lm		apostrophe				U+02BC: MODIFIER LETTER APOSTROPHE			
+§				§	§		Po	?	section sign				U+00A7: SECTION SIGN			
+†				†	†		Po	?	dagger				U+2020: DAGGER			
+‡				‡	‡		Po	?	double dagger				U+2021: DOUBLE DAGGER			
+′				′	′		Po	?	prime				U+2032: PRIME			
+″				″	″		Po	?	double prime				U+2033: DOUBLE PRIME			
+ʼ				ʼ	ʼ		Lm	?	apostrophe				U+02BC: MODIFIER LETTER APOSTROPHE			
 หง		ŋ		hŋ̱	ng		s		consonant	high class			U+0E2B U+0E07: THAI CHARACTER HO HIP, CHARACTER NGO NGU			
 หญ		j		hẏ̱	y		s		consonant	high class			U+0E2B U+0E0D: THAI CHARACTER HO HIP, THAI CHARACTER YO YING			
 หน		n		hṉ	n		s		consonant	high class			U+0E2B U+0E19: THAI CHARACTER HO HIP, CHARACTER NO NU			
@@ -175,14 +176,9 @@ var spreadsheet = `thai-th	key	ipa	ipa+	translit	LOC	kbd	class	status	type	usage
 หย		j		hy̱	y		s		consonant	high class			U+0E2B U+0E22: THAI CHARACTER HO HIP, THAI CHARACTER YO YAK			
 หร		r		hṟ	r		s		consonant	high class			U+0E2B U+0E23: THAI CHARACTER HO HIP, THAI CHARACTER RO RUA			
 หล		l		hḻ	l		s		consonant	high class			U+0E2B U+0E25: THAI CHARACTER HO HIP, THAI CHARACTER LO LING			
-																
-																
 `																
 																
-																
 latinPanel = '˩˩ ˩˥ ˥˩ ˧˧ ː ‹ › á à ǎ â ɛ́ ɛ̀ ɛ̌ ɛ̂ í ì ǐ î ɯ́ ɯ̀ ɯ̌ ɯ̂ ɤ́ ɤ̀ ɤ̌ ɤ̂ ɔ́ ɔ̀ ɔ̌ ɔ̂ ó ò ǒ ô ú ù ǔ û aː eː ɛː iː kʰ ŋ ɔː oː pʰ tʰ t͡ɕ t͡ɕʰ uː ɯ ɯː'																
-																
-																
 																
 var cols = {																
 key: 1,																
@@ -214,6 +210,3 @@ block: 14,
 																
 othertranscriptions: [[5, 'ISO-2']]																
 }																
-																
-																
-																

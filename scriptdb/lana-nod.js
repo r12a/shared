@@ -2,8 +2,8 @@ var spreadsheet = `lana-nod	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᪠	!			city			Po	i	logograph						᪠			U+1AA0: TAI THAM SIGN WIANG	✓
 ᪡	!			village			Po	i	logograph						᪡			U+1AA1: TAI THAM SIGN WIANGWAAK	✓
 ᪢	!			heaven			Po	i	logograph						᪢			U+1AA2: TAI THAM SIGN SAWAN	✓
-«	"			“			Pi		quotation mark									U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
-»	"			”			Pf		quotation mark									U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
+«	"			“			Pi	?	quotation mark									U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
+»	"			”			Pf	?	quotation mark									U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
 ᩿	[			˽		B	Mn		cryptogram mark						᩿			U+1A7F: TAI THAM COMBINING CRYPTOGRAMMIC DOT	✓
 ᩋ	}	ʔ a	á	ʔ̯		v	Lo		mid class glottal stop						ᩋ ᩅ᩠ᩋ			U+1A4B: TAI THAM LETTER A	✓
 ᪐	§	0		0̣		-	Nd	i	ecclesiastic digit						0			U+1A90: TAI THAM THAM DIGIT ZERO	✓
@@ -29,9 +29,9 @@ var spreadsheet = `lana-nod	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᩵	^			¹		J	Mn		tone mark						᩵			U+1A75: TAI THAM SIGN TONE-1	✓
 ᩶	^			²		H	Mn		tone mark						᩶			U+1A76: TAI THAM SIGN TONE-2	✓
 “	<						Pi		quotation mark									U+201C: LEFT DOUBLE QUOTATION MARK	
-\‘	<			\‘			Pi		quotation mark									U+2018: LEFT SINGLE QUOTATION MARK	
+‘	<			\‘			Pi	?	quotation mark									U+2018: LEFT SINGLE QUOTATION MARK	
 ”	>						Pf		quotation mark									U+201D: RIGHT DOUBLE QUOTATION MARK	
-\’	>			\’			Pf		quotation mark									U+2019: RIGHT SINGLE QUOTATION MARK	
+’	>			\’			Pf	?	quotation mark									U+2019: RIGHT SINGLE QUOTATION MARK	
 ᪨	|			|		"	Po		delimiter						᪨			U+1AA8: TAI THAM SIGN KAAN	✓
 ᪩	|			¶		w	Po		delimiter						᪩			U+1AA9: TAI THAM SIGN KAANKUU	✓
 ᪪	|			–		o	Po		delimiter						᪪			U+1AAA: TAI THAM SIGN SATKAAN	✓
@@ -93,7 +93,7 @@ var spreadsheet = `lana-nod	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᩊ	l	l -n	a᷇	ḻ̇		>	Lo		low class approximant						ᩊ ᩅ᩠ᩊ			U+1A4A: TAI THAM LETTER LLA	✓
 ᩖ	l	l ∅		l̆		]	Mn		medial consonant						ᩖ			U+1A56: TAI THAM CONSONANT SIGN MEDIAL LA	✓
 ᩓ	L	lɛː		lₔ		}	Lo		low tone ligature						ᩓ			U+1A53: TAI THAM LETTER LAE	✓
-ᩄ	L	lɯː		l̥		.	Lo		vocalic						ᩄ			U+1A44: TAI THAM LETTER LUE	✓
+ᩄ	L	lɯː		l̥		.	Lo	?	vocalic						ᩄ			U+1A44: TAI THAM LETTER LUE	✓
 ᨾ	m	m -m	a᷇	m̱		,	Lo		low class nasal					ᩉ᩠ᨾ	ᨾ ᩅ᩠ᨾ			U+1A3E: TAI THAM LETTER MA	✓
 ᨶ	n	n -n	a᷇	ṉ		o	Lo		low class nasal					ᩉ᩠ᨶ	ᨶ ᩅ᩠ᨶ			U+1A36: TAI THAM LETTER NA	✓
 ᨱ	n	n -n	a᷇	ṉ̇		I	Lo		low class nasal						ᨱ ᩅ᩠ᨱ			U+1A31: TAI THAM LETTER RANA	✓
@@ -116,7 +116,7 @@ var spreadsheet = `lana-nod	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᩁ	r	h l -n	a᷇	ṟ		i	Lo		low class consonant					ᩉᩕ	ᩁ ᩅ᩠ᩁ			U+1A41: TAI THAM LETTER RA	✓
 ᩕ	r	ʰ l		r̆		1	Mc		medial consonant						ᩕ			U+1A55: TAI THAM CONSONANT SIGN MEDIAL RA	✓
 ᩉᩕ	r	h l -n		hr̆					high class consonant									U+1A49 U+1A55: TAI THAM LETTER HIGH HA, CONSONANT SIGN MEDIAL RA	
-ᩂ	R	lɯː		r̥		/	Lo		vocalic						ᩂ			U+1A42: TAI THAM LETTER RUE	✓
+ᩂ	R	lɯː		r̥		/	Lo	?	vocalic						ᩂ			U+1A42: TAI THAM LETTER RUE	✓
 ᩈ	s	s -t	á	s		l	Lo		high class fricative				ᨪ		ᩈ ᩅ᩠ᩈ			U+1A48: TAI THAM LETTER HIGH SA	✓
 ᩆ	s	s -t	á	ś		j	Lo		high class fricative						ᩆ ᩅ᩠ᩆ			U+1A46: TAI THAM LETTER HIGH SHA	✓
 ᩇ	s	s -t	á	ṡ		k	Lo		high class fricative						ᩇ ᩅ᩠ᩇ			U+1A47: TAI THAM LETTER HIGH SSA	✓
@@ -174,43 +174,43 @@ var spreadsheet = `lana-nod	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᩝ		b		b̽			Mn	i	final consonant						ᩝ			U+1A5D: TAI THAM CONSONANT SIGN BA	✓
 ᩞ		s		s̽		l	Mn	i	final consonant						ᩞ			U+1A5E: TAI THAM CONSONANT SIGN SA	✓
 																			
-ᩗ				–		<	Mc								ᩗ			U+1A57: TAI THAM CONSONANT SIGN LA TANG LAI	✓
+ᩗ				–		<	Mc	?							ᩗ			U+1A57: TAI THAM CONSONANT SIGN LA TANG LAI	✓
 																			
 ᩰᩡ		-oʔ		ōa					vowel-sign sequence									U+1A70 U+1A61: TAI THAM VOWEL SIGN OO, VOWEL SIGN A	
 ᩰᩫ		-oː-		ōɔ̈					vowel-sign sequence									U+1A70 U+1A6B: TAI THAM VOWEL SIGN OO, VOWEL SIGN O	
 																			
-\u200B							Cf		zero-width space									U+200B ZERO WIDTH SPACE	
-\u200C				ₓ			Cf		zero-width non-joiner									U+200C: ZERO WIDTH NON-JOINER	
-\u200D				₊			Cf		zero-width joiner									U+200D: ZERO WIDTH JOINER	
-\u034F				ᶜᵍʲ			Mn		combining grapheme joiner									U+034F: COMBINING GRAPHEME JOINER	
+\u200B							Cf	?	zero-width space									U+200B ZERO WIDTH SPACE	
+\u200C				ₓ			Cf	?	zero-width non-joiner									U+200C: ZERO WIDTH NON-JOINER	
+\u200D				₊			Cf	?	zero-width joiner									U+200D: ZERO WIDTH JOINER	
+\u034F				ᶜᵍʲ			Mn	?	combining grapheme joiner									U+034F: COMBINING GRAPHEME JOINER	
 																			
-ʼ							Lm		apostrophe									U+02BC: MODIFIER LETTER APOSTROPHE	
-,							Po		comma									U+002C: COMMA	
-;							Po		semicolon									U+003B: SEMICOLON	
-:							Po		colon									U+003A: COLON	
-.							Po		full stop									U+002E: FULL STOP	
+ʼ							Lm	?	apostrophe									U+02BC: MODIFIER LETTER APOSTROPHE	
+,							Po	?	comma									U+002C: COMMA	
+;							Po	?	semicolon									U+003B: SEMICOLON	
+:							Po	?	colon									U+003A: COLON	
+.							Po	?	full stop									U+002E: FULL STOP	
 ?				–		M	Po		question mark									U+003F: QUESTION MARK	
 !							Po		exclamation mark									U+0021: EXCLAMATION MARK	
 (				–		Z	Ps		parenthesis									U+0028: LEFT PARENTHESIS	
 )				–		X	Pe		parenthesis									U+0029: RIGHT PARENTHESIS	
-…							Po		ellipsis									U+2026: HORIZONTAL ELLIPSIS	
-–							Pd		en dash									U+2013: EN DASH	
-—							Pd		em dash									U+2014: EM DASH	
+…							Po	?	ellipsis									U+2026: HORIZONTAL ELLIPSIS	
+–							Pd	?	en dash									U+2013: EN DASH	
+—							Pd	?	em dash									U+2014: EM DASH	
 																			
-§							Po		section sign									U+00A7: SECTION SIGN	
-†							Po		dagger									U+2020: DAGGER	
-‡							Po		double dagger									U+2021: DOUBLE DAGGER	
-′							Po		prime									U+2032: PRIME	
-″							Po		double prime									U+2033: DOUBLE PRIME	
-‐							Pd		hyphen									U+2010 HYPHEN	
-‑							Pd		non-breaking hyphen									U+2011 NON-BREAKING HYPHEN	
+§							Po	?	section sign									U+00A7: SECTION SIGN	
+†							Po	?	dagger									U+2020: DAGGER	
+‡							Po	?	double dagger									U+2021: DOUBLE DAGGER	
+′							Po	?	prime									U+2032: PRIME	
+″							Po	?	double prime									U+2033: DOUBLE PRIME	
+‐							Pd	?	hyphen									U+2010 HYPHEN	
+‑							Pd	?	non-breaking hyphen									U+2011 NON-BREAKING HYPHEN	
 																			
-᩹				–		t	Mn											U+1A79: TAI THAM SIGN KHUEN TONE-5	✓
-᩸				–		y	Mn											U+1A78: TAI THAM SIGN KHUEN TONE-4	✓
-᩷				–		u	Mn											U+1A77: TAI THAM SIGN KHUEN TONE-3	✓
-ᩒ				–		f	Lo											U+1A52: TAI THAM LETTER OO	✓
-᩼				–		N	Mn											U+1A7C: TAI THAM SIGN KHUEN-LUE KARAN	✓
-ᩜ				–		,	Mn											U+1A5C: TAI THAM CONSONANT SIGN MA	✓
+᩹				–		t	Mn	u										U+1A79: TAI THAM SIGN KHUEN TONE-5	✓
+᩸				–		y	Mn	u										U+1A78: TAI THAM SIGN KHUEN TONE-4	✓
+᩷				–		u	Mn	u										U+1A77: TAI THAM SIGN KHUEN TONE-3	✓
+ᩒ				–		f	Lo	?										U+1A52: TAI THAM LETTER OO	✓
+᩼				–		N	Mn	u										U+1A7C: TAI THAM SIGN KHUEN-LUE KARAN	✓
+ᩜ				–		,	Mn	?										U+1A5C: TAI THAM CONSONANT SIGN MA	✓
 																			
 `																			
 																			

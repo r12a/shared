@@ -1,8 +1,8 @@
 var spreadsheet = `telu-te	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	dvowel	ivowel	shape	native name	latin name	ucs name	block
 -	-			-	-		Pd		hyphen							U+2010: HYPHEN	
-‑	-			‑	‑		Pd		non-breaking hyphen							U+2011: NON-BREAKING HYPHEN	
-–	-			–	–		Pd		en dash							U+2013: EN DASH	
-—	-			—	—		Pd		em dash							U+2014: EM DASH	
+‑	-			‑	‑		Pd	?	non-breaking hyphen							U+2011: NON-BREAKING HYPHEN	
+–	-			–	–		Pd	?	en dash							U+2013: EN DASH	
+—	-			—	—		Pd	?	em dash							U+2014: EM DASH	
 ,	,			,	,		Po		comma							U+002C: COMMA	
 ;	;			;	;		Po		semicolon							U+003B: SEMICOLON	
 :	:			:	:		Po		colon							U+003A: COLON	
@@ -11,17 +11,17 @@ var spreadsheet = `telu-te	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 !	!			!	!		Po		exclamation mark							U+0021: EXCLAMATION MARK	
 ?	?			?	?		Po		question mark							U+003F: QUESTION MARK	
 .	.			.	.		Po		full stop							U+002E: FULL STOP	
-…	.			…	…		Po		ellipsis							U+2026: HORIZONTAL ELLIPSIS	
+…	.			…	…		Po	?	ellipsis							U+2026: HORIZONTAL ELLIPSIS	
 (	(			(	(		Ps		parenthesis							U+0028: LEFT PARENTHESIS	
-[	(			[	[		Pe		bracket							U+005B: LEFT SQUARE BRACKET	
+[	(			[	[		Pe	?	bracket							U+005B: LEFT SQUARE BRACKET	
 )	)			)	)		Ps		parenthesis							U+0029: RIGHT PARENTHESIS	
-]	)			]	]		Pe		bracket							U+005D: RIGHT SQUARE BRACKET	
+]	)			]	]		Pe	?	bracket							U+005D: RIGHT SQUARE BRACKET	
 ఀ	[			˜			Mn	u	candrabindu	Sanskrit only						U+0C00: TELUGU SIGN COMBINING CANDRABINDU ABOVE	✓
-ఁ	[			˓			Mc		candrabindu marker	annotation						U+0C01: TELUGU SIGN CANDRABINDU	✓
+ఁ	[			˓			Mc	?	candrabindu marker	annotation						U+0C01: TELUGU SIGN CANDRABINDU	✓
 ్	*			͞			Mn		virama							U+0C4D: TELUGU SIGN VIRAMA	✓
 ₹	#			¤			Sc		currency symbol							U+20B9 INDIAN RUPEE SIGN	
-%	%			%			Po		percentage mark							U+0025: PERCENT SIGN	
-‰	%			‰			Po		per mille mark							U+2030: PER MILLE SIGN	
+%	%			%			Po	?	percentage mark							U+0025: PERCENT SIGN	
+‰	%			‰			Po	?	per mille mark							U+2030: PER MILLE SIGN	
 ౧	±			1̣	1		Nd	i	digit							U+0C67: TELUGU DIGIT ONE	✓
 ౨	±			2̣	2		Nd	i	digit							U+0C68: TELUGU DIGIT TWO	✓
 ౩	±			3̣	3		Nd	i	digit							U+0C69: TELUGU DIGIT THREE	✓
@@ -32,19 +32,19 @@ var spreadsheet = `telu-te	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ౮	±			8̣	8		Nd	i	digit							U+0C6E: TELUGU DIGIT EIGHT	✓
 ౯	±			9̣	9		Nd	i	digit							U+0C6F: TELUGU DIGIT NINE	✓
 ౦	±			0̣	0		Nd	i	digit							U+0C66: TELUGU DIGIT ZERO	✓
-«	<			«	“		Pi		quotation mark							U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
-‹	<			‹			Pi		quotation mark							U+2018: LEFT SINGLE QUOTATION MARK	
+«	<			«	“		Pi	?	quotation mark							U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
+‹	<			‹			Pi	?	quotation mark							U+2018: LEFT SINGLE QUOTATION MARK	
 “	<			“	“		Pi		quotation mark							U+201C: LEFT DOUBLE QUOTATION MARK	
-\‘	<			\‘	\‘		Pi		quotation mark							U+2018: LEFT SINGLE QUOTATION MARK	
-\u200B	=			␣			Cf		zero-width space							U+200B: ZERO WIDTH SPACE	
+‘	<			\‘	\‘		Pi		quotation mark							U+2018: LEFT SINGLE QUOTATION MARK	
+\u200B	=			␣			Cf	?	zero-width space							U+200B: ZERO WIDTH SPACE	
 \u200C	=			ᶻʷⁿʲ			Cf		zero-width non-joiner							U+200C: ZERO WIDTH NON-JOINER	
 \u200D	=			ᶻʷʲ			Cf		zero-width joiner							U+200D: ZERO WIDTH JOINER	
-\u034F	=			ᶜᵍʲ			Mn		combining grapheme joiner							U+034F: COMBINING GRAPHEME JOINER	
-\u2060	=			ʷʲ			Cf		word joiner							U+2060 WORD JOINER	
-»	>			»	”		Pf		quotation mark							U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
-›	>			›			Pf		quotation mark							U+2019: RIGHT SINGLE QUOTATION MARK	
+\u034F	=			ᶜᵍʲ			Mn	?	combining grapheme joiner							U+034F: COMBINING GRAPHEME JOINER	
+\u2060	=			ʷʲ			Cf	?	word joiner							U+2060 WORD JOINER	
+»	>			»	”		Pf	?	quotation mark							U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
+›	>			›			Pf	?	quotation mark							U+2019: RIGHT SINGLE QUOTATION MARK	
 ”	>			”	”		Pf		quotation mark							U+201D: RIGHT DOUBLE QUOTATION MARK	
-\’	>			\’	\’		Pf		quotation mark							U+2019: RIGHT SINGLE QUOTATION MARK	
+’	>			\’	\’		Pf		quotation mark							U+2019: RIGHT SINGLE QUOTATION MARK	
 ।	|			|	.		Po	i	section divider							U+0964: DEVANAGARI DANDA	
 ॥	|			¶			Po	i	section divider							U+0965: DEVANAGARI DOUBLE DANDA	
 ౸	$			0⁴			No	a	fraction							U+0C78: TELUGU FRACTION DIGIT ZERO FOR ODD POWERS OF FOUR	✓
@@ -137,21 +137,19 @@ var spreadsheet = `telu-te	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ఌ		alu		l̥̣	l̥		Lo	u	independent vocalic	for Sanskrit	ౄ					U+0C0C: TELUGU LETTER VOCALIC L	✓
 ౡ		alu:		l̥̣̄	l̥̄		Lo	u	independent vocalic	for Sanskrit	ౣ					U+0C61: TELUGU LETTER VOCALIC LL	✓
 																	
-౷							Po									U+0C77: TELUGU SIGN SIDDHAM	✓
+౷							Po	?								U+0C77: TELUGU SIGN SIDDHAM	✓
 																	
-ఄ							Mn									U+0C04: TELUGU SIGN COMBINING ANUSVARA ABOVE	✓
+ఄ							Mn	?								U+0C04: TELUGU SIGN COMBINING ANUSVARA ABOVE	✓
 																	
-ʼ				ʼ	ʼ		Lm		apostrophe							U+02BC: MODIFIER LETTER APOSTROPHE	
-§				§	§		Po		section sign							U+00A7: SECTION SIGN	
-†				†	†		Po		dagger							U+2020: DAGGER	
-‡				‡	‡		Po		double dagger							U+2021: DOUBLE DAGGER	
-′				′	′		Po		prime							U+2032: PRIME	
-″				″	″		Po		double prime							U+2033: DOUBLE PRIME	
-																	
+ʼ				ʼ	ʼ		Lm	?	apostrophe							U+02BC: MODIFIER LETTER APOSTROPHE	
+§				§	§		Po	?	section sign							U+00A7: SECTION SIGN	
+†				†	†		Po	?	dagger							U+2020: DAGGER	
+‡				‡	‡		Po	?	double dagger							U+2021: DOUBLE DAGGER	
+′				′	′		Po	?	prime							U+2032: PRIME	
+″				″	″		Po	?	double prime							U+2033: DOUBLE PRIME	
 `																	
 																	
 latinPanel = 'æː aː bʰ dʰ ɖ ḍ ɖʰ ḍh d͡ʒ d͡z d͡ʒʰ ē eː ɡʰ ḥ iː ī kʰ l̥ l̥̄ ṁ ɲ ñ ɳ ṇ oː ō pʰ ɽ ṛ r̥ r̥̄ ʃ ś ʂ ṣ tʰ ʈ ṭ ʈʰ ṭh t͡ʃ t͡s t͡ʃʰ uː ū ʋ ʐ'																	
-																	
 																	
 var cols = {																	
 key: 1,																	
@@ -176,4 +174,3 @@ block: 17,
 																	
 othertranscriptions: [[5, 'ISO 15919']]																	
 }																	
-																	

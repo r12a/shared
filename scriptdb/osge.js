@@ -1,6 +1,6 @@
 var spreadsheet = `osge-osa	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	lcase	ucase	native name	latin name	ucs name	block
--	-			-	-				hyphen						U+2010: HYPHEN	
-‑	-			‑	‑		Pd		non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
+-	-			-	-			?	hyphen						U+2010: HYPHEN	
+‑	-			‑	‑		Pd	?	non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
 –	-			–	–		Pd		en dash						U+2013: EN DASH	✓
 —	-			—	—		Pd		em dash						U+2014: EM DASH	✓
 ,	,			,	,		Po		comma						U+002C: COMMA	
@@ -13,17 +13,17 @@ var spreadsheet = `osge-osa	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 .	.			.	.		Po		full stop						U+002E: FULL STOP	✓
 …	.			…	…		Po		ellipsis						U+2026: HORIZONTAL ELLIPSIS	✓
 (	(			(	(		Ps		parenthesis						U+0028: LEFT PARENTHESIS	✓
-[	(			[	[		Ps		bracket						U+005B: LEFT SQUARE BRACKET	
+[	(			[	[		Ps	?	bracket						U+005B: LEFT SQUARE BRACKET	
 )	)			)	)		Pe		parenthesis						U+0029: RIGHT PARENTHESIS	✓
-]	)			]	]		Pe		bracket						U+005D: RIGHT SQUARE BRACKET	
+]	)			]	]		Pe	?	bracket						U+005D: RIGHT SQUARE BRACKET	
 ͘	[	̃		˜	̨	f	Mn		vowel nasalisation						U+0358: COMBINING DOT ABOVE RIGHT	✓
 ʼ	]	ˀ		ˀ	ˀ		Lm		ejective indicator						U+02BC: MODIFIER LETTER APOSTROPHE	✓
-%	%			%			Po		percentage mark						U+0025: PERCENT SIGN	
+%	%			%			Po	?	percentage mark						U+0025: PERCENT SIGN	
 ́	^			´	́		Mn	i	high tone						U+0301: COMBINING ACUTE ACCENT	✓
 “	<			“	“		Pi		quotation mark						U+201C: LEFT DOUBLE QUOTATION MARK	✓
-\‘	<			\‘	\‘		Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	✓
+‘	<			\‘	\‘		Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	✓
 ”	>			”	”		Pf		quotation mark						U+201D: RIGHT DOUBLE QUOTATION MARK	✓
-\’	>			\’	\’		Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	✓
+’	>			\’	\’		Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	✓
 																
 𐓘	a	ɑ		a	a	a	Ll		vowel			𐒰			U+104D8: OSAGE SMALL LETTER A	✓
 𐓙	a	aɪ		aᶦ	ai		Ll		diphthong			𐒱			U+104D9: OSAGE SMALL LETTER AI	✓
@@ -121,17 +121,14 @@ var spreadsheet = `osge-osa	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ^				–			Sk	a	vowel nasalisation						U+005E: CIRCUMFLEX ACCENT	
 																
 ʼ				ʼ	ʼ		Lm		apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	✓
-§				§	§		Po		section sign						U+00A7: SECTION SIGN	
-†				†	†		Po		dagger						U+2020: DAGGER	
-‡				‡	‡		Po		double dagger						U+2021: DOUBLE DAGGER	
-′				′	′		Po		prime						U+2032: PRIME	
-″				″	″		Po		double prime						U+2033: DOUBLE PRIME	
-																
+§				§	§		Po	?	section sign						U+00A7: SECTION SIGN	
+†				†	†		Po	?	dagger						U+2020: DAGGER	
+‡				‡	‡		Po	?	double dagger						U+2021: DOUBLE DAGGER	
+′				′	′		Po	?	prime						U+2032: PRIME	
+″				″	″		Po	?	double prime						U+2033: DOUBLE PRIME	
 `																
 																
-																
 latinPanel = 'ɑ ã ą č ð dˀ ə ə̃ ę ʰp ʰt ʰk ʰt͡s ʰt͡ʃ hʲ ĩ į ɪ ɪ̃ kʲ kˀ õ ǫ pˀ ɹ ʃ š t͡s t͡sʰ t͡ʃ tsˀ ʉ ɣ ʒ ž'																
-																
 																
 var cols = {																
 key: 1,																
@@ -155,4 +152,3 @@ block: 16,
 																
 othertranscriptions: [[5, 'Latin']]																
 }																
-																

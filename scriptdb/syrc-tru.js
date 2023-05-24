@@ -1,16 +1,18 @@
 var spreadsheet = `syrc-tru	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	shape	# value	native name	latin name	ucs name	block
-ـ	_			_			Lm								U+0640 ARABIC TATWEEL	✓
+ـ	_			_			Lm	?							U+0640 ARABIC TATWEEL	✓
 ،	,			,			Po		comma						U+060C: ARABIC COMMA	✓
 ܆	,			⹁	,		Po		comma						U+0706: SYRIAC COLON SKEWED LEFT	✓
 ؛	;			;	;		Po		semi-colon						U+061B: ARABIC SEMICOLON	✓
 ܇	;			؛	;		Po		semicolon						U+0707: SYRIAC COLON SKEWED RIGHT	✓
-:	:			:	:		Po		colon						U+003A: COLON	
-!	!			!	!		Po		exclamation mark						U+0021: EXCLAMATION MARK	
+:	:			:	:		Po	?	colon						U+003A: COLON	
+!	!			!	!		Po	?	exclamation mark						U+0021: EXCLAMATION MARK	
 ؟	?			?	?		Po		question mark						U+061F: ARABIC QUESTION MARK	✓
-̇	[			‐͑			Mn		disambiguation mark						U+0307: COMBINING DOT ABOVE	✓
-̣	[			‐̜			Mn		disambiguation mark						U+0323: COMBINING DOT BELOW	✓
-̄	]			‐̄			Mn		phonological marker						U+0304: COMBINING MACRON	✓
-̠	]			‐̱			Mn		phonological marker						U+0320: COMBINING MINUS SIGN BELOW	
+(	(			(	(		Ps		parenthesis						U+0028: LEFT PARENTHESIS	
+)	)			)	)		Ps		parenthesis						U+0029: RIGHT PARENTHESIS	
+̇	[			‐͑			Mn	?	disambiguation mark						U+0307: COMBINING DOT ABOVE	✓
+̣	[			‐̜			Mn	?	disambiguation mark						U+0323: COMBINING DOT BELOW	✓
+̄	]			‐̄			Mn	?	phonological marker						U+0304: COMBINING MACRON	✓
+̠	]			‐̱			Mn	?	phonological marker						U+0320: COMBINING MINUS SIGN BELOW	
 ܥ	{	ʕ		ʕ	c		Lo		consonant		ܥ ܥـܥـܥ	70		ce	U+0725: SYRIAC LETTER E	✓
 ܐ	}	∅ o		ʾ			Lo		consonant/mater lectionis		ܐ ـܐ	1		olaf	U+0710: SYRIAC LETTER ALAPH	✓
 ̰	/			˷			Mn		repertoire extension					maǧliyana	U+0330: COMBINING TILDE BELOW	✓
@@ -18,10 +20,10 @@ var spreadsheet = `syrc-tru	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ݂	/			ˑ			Mn		soft sound marker						U+0742: SYRIAC RUKKAKHA	✓
 ݅	/			‐̂			Mn		repertoire extension						U+0745: SYRIAC THREE DOTS ABOVE	✓
 ݆	/			‐̬			Mn		repertoire extension						U+0746: SYRIAC THREE DOTS BELOW	✓
-̈	&			˖	\u030B		Mn		plural marker					syame	U+0308: COMBINING DIAERESIS	✓
-\u034F	=			ᶜᵍʲ			Mn		combining grapheme joiner						U+034F: COMBINING GRAPHEME JOINER	
+̈	&			˖	\u030B		Mn	?	plural marker					syame	U+0308: COMBINING DIAERESIS	✓
+\u034F	=			ᶜᵍʲ			Mn	?	combining grapheme joiner						U+034F: COMBINING GRAPHEME JOINER	
 \u061C	=			ᵃˡᵐ			Cf		arabic letter mark						U+061C: ARABIC LETTER MARK	
-\u200B	=			␣			Cf		zero-width space						U+200B: ZERO WIDTH SPACE	
+\u200B	=			␣			Cf	?	zero-width space						U+200B: ZERO WIDTH SPACE	
 \u200C	=			ᶻʷⁿʲ			Cf		zero-width non-joiner						U+200C: ZERO WIDTH NON-JOINER	
 \u200D	=			ᶻʷʲ			Cf		zero-width joiner						U+200D: ZERO WIDTH JOINER	
 \u200E	=			ˡʳᵐ			Cf		ltr mark						U+200E: LEFT-TO-RIGHT MARK	
@@ -29,7 +31,7 @@ var spreadsheet = `syrc-tru	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 \u202A	=			ˡʳᵉ			Cf		ltr embed						U+202A: LEFT-TO-RIGHT EMBEDDING	
 \u202B	=			ʳˡᵉ			Cf		rtl embed						U+202B: RIGHT-TO-LEFT EMBEDDING	
 \u202C	=			ᵖᵈᶠ			Cf		pop direction						U+202C: POP DIRECTIONAL FORMATTING	
-\u2060	=			ʷʲ			Cf		word joiner						U+2060 WORD JOINER	
+\u2060	=			ʷʲ			Cf	?	word joiner						U+2060 WORD JOINER	
 \u2066	=			ˡʳⁱ			Cf		ltr isolate						U+2066: LEFT-TO-RIGHT ISOLATE	
 \u2067	=			ʳˡⁱ			Cf		rtl isolate						U+2067: RIGHT-TO-LEFT ISOLATE	
 \u2068	=			ᶠˢⁱ			Cf		first-strong isolate						U+2068: FIRST STRONG ISOLATE	
@@ -70,11 +72,11 @@ var spreadsheet = `syrc-tru	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ܙ	z	z		z	z		Lo		consonant		ܙ ـܙ	7		zay	U+0719: SYRIAC LETTER ZAIN	✓
 ܙ̰	z	ʒ		z˷	ž				consonant		ܙ̰ ـܙ̰				U+0719 U+0330: SYRIAC LETTER ZAIN, COMBINING TILDE BELOW	
 .	.			.	.		Po		full stop						U+002E: FULL STOP	
-̤							Mn		phonological marker						U+0324: COMBINING DIAERESIS BELOW	✓
+̤							Mn	?	phonological marker						U+0324: COMBINING DIAERESIS BELOW	✓
 																
 																
 \u0020							Zs		space						U+0020: SPACE	
-•				•			Po		bullet						U+2022: BULLET	
+•				•			Po	?	bullet						U+2022: BULLET	
 																
 1				1	1		Nd		digit						U+0031: DIGIT ONE	
 2				2	2		Nd		digit						U+0032: DIGIT TWO	
@@ -86,11 +88,9 @@ var spreadsheet = `syrc-tru	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 8				8	8		Nd		digit						U+0038: DIGIT EIGHT	
 9				9	9		Nd		digit						U+0039: DIGIT NINE	
 0				0	0		Nd		digit						U+0030: DIGIT ZERO	
-																
 `																
 																
 latinPanel = 'ä ɒ č d͡ʒ ḏ ð ə ë ɡ ḡ ħ ḥ ∅ θ sˤ ṣ ʃ š tˤ ṭ ṯ t͡ʃ ɣ ʒ ž ʕ'																
-																
 																
 var cols = {																
 key: 1,																
@@ -114,4 +114,3 @@ block: 16,
 																
 othertranscriptions: [[5, '']]																
 }																
-																

@@ -1,22 +1,22 @@
 var spreadsheet = `sinh-si	key	ipa	ipa+	translit	ISO	kbd	class	status	type	usage	dvowel	ivowel	native name	name	ucs name	block
 -	-			-	-		Pd		hyphen						U+2010: HYPHEN	
-‑	-			‑	‑		Pd		non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
-–	-			–	–		Pd		en dash						U+2013: EN DASH	
-—	-			—	—		Pd		em dash						U+2014: EM DASH	
+‑	-			‑	‑		Pd	?	non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
+–	-			–	–		Pd	?	en dash						U+2013: EN DASH	
+—	-			—	—		Pd	?	em dash						U+2014: EM DASH	
 ,	,			,	,	"	Po		comma						U+002C: COMMA	
 ;	;			;	;	]	Po		semicolon						U+003B: SEMICOLON	
 :	:			:	:	}	Po		colon						U+003A: COLON	
 !	!			!	!		Po		exclamation mark						U+0021: EXCLAMATION MARK	
 ?	?			?	?		Po		question mark						U+003F: QUESTION MARK	
 .	.			.	.		Po		full stop						U+002E: FULL STOP	
-…	.			…	…		Po		ellipsis						U+2026: HORIZONTAL ELLIPSIS	
+…	.			…	…		Po	?	ellipsis						U+2026: HORIZONTAL ELLIPSIS	
 (	(			(	(		Ps		parenthesis						U+0028: LEFT PARENTHESIS	
-[	(			[	[		Pe		bracket						U+005B: LEFT SQUARE BRACKET	
+[	(			[	[		Pe	?	bracket						U+005B: LEFT SQUARE BRACKET	
 )	)			)	)		Ps		parenthesis						U+0029: RIGHT PARENTHESIS	
-]	)			]	]		Pe		bracket						U+005D: RIGHT SQUARE BRACKET	
+]	)			]	]		Pe	?	bracket						U+005D: RIGHT SQUARE BRACKET	
 ්‍	*			͞₊					virama+zwj						U+0DCA U+200D: SINHALA SIGN AL-LAKUNA, ZERO WIDTH JOINER	
-%	%			%			Po		percentage mark						U+0025: PERCENT SIGN	
-‰	%			‰			Po		per mille mark						U+2030: PER MILLE SIGN	
+%	%			%			Po	?	percentage mark						U+0025: PERCENT SIGN	
+‰	%			‰			Po	?	per mille mark						U+2030: PER MILLE SIGN	
 ෧	±	1		1̣	1		Nd	a	astrological digit						U+0DE7: SINHALA LITH DIGIT ONE	✓
 ෨	±	2		2̣	2		Nd	a	astrological digit						U+0DE8: SINHALA LITH DIGIT TWO	✓
 ෩	±	3		3̣	3		Nd	a	astrological digit						U+0DE9: SINHALA LITH DIGIT THREE	✓
@@ -38,21 +38,21 @@ var spreadsheet = `sinh-si	key	ipa	ipa+	translit	ISO	kbd	class	status	type	usage
 𑇲	±	90		{90}			No	a	historical number						U+111F2: SINHALA ARCHAIC NUMBER NINETY	
 𑇳	±	100		{100}			No	a	historical number						U+111F3: SINHALA ARCHAIC NUMBER ONE HUNDRED	
 𑇴	±	1000		{1000}			No	a	historical number						U+111F4: SINHALA ARCHAIC NUMBER ONE THOUSAND	
-«	<			«	“		Pi		quotation mark						U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
-‹	<			‹	\‘		Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
+«	<			«	“		Pi	?	quotation mark						U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
+‹	<			‹	\‘		Pi	?	quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
 “	<			“	“		Pi		quotation mark						U+201C: LEFT DOUBLE QUOTATION MARK	
-\‘	<			\‘	\‘		Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
-\u200B	=			␣			Cf		zero-width space						U+200B: ZERO WIDTH SPACE	
+‘	<			\‘	\‘		Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
+\u200B	=			␣			Cf	?	zero-width space						U+200B: ZERO WIDTH SPACE	
 \u200C	=			ᶻʷⁿʲ			Cf		zero-width non-joiner						U+200C: ZERO WIDTH NON-JOINER	
 \u200D	=			ᶻʷʲ			Cf		zero-width joiner						U+200D: ZERO WIDTH JOINER	
-\u034F	=			ᶜᵍʲ			Mn		combining grapheme joiner						U+034F: COMBINING GRAPHEME JOINER	
-\u2060	=			ʷʲ			Cf		word joiner						U+2060 WORD JOINER	
-»	>			»	”		Pf		quotation mark						U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
-›	>			›	\’		Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
+\u034F	=			ᶜᵍʲ			Mn	?	combining grapheme joiner						U+034F: COMBINING GRAPHEME JOINER	
+\u2060	=			ʷʲ			Cf	?	word joiner						U+2060 WORD JOINER	
+»	>			»	”		Pf	?	quotation mark						U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
+›	>			›	\’		Pf	?	quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
 ”	>			”	”		Pf		quotation mark						U+201D: RIGHT DOUBLE QUOTATION MARK	
-\’	>			\’	\’		Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
-।	|			|	.		Po		section divider						U+0964: DEVANAGARI DANDA	
-॥	|			¶			Po		section divider						U+0965: DEVANAGARI DOUBLE DANDA	
+’	>			\’	\’		Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
+।	|			|	.		Po	?	section divider						U+0964: DEVANAGARI DANDA	
+॥	|			¶			Po	?	section divider						U+0965: DEVANAGARI DOUBLE DANDA	
 ෴	|			¶			Po	a	paragraph terminator						U+0DF4: SINHALA PUNCTUATION KUNDDALIYA	✓
 𑇡	1	1		1̱	1		No	a	historical number						U+111E1: SINHALA ARCHAIC DIGIT ONE	
 𑇢	2	2		2̱	2		No	a	historical number						U+111E2: SINHALA ARCHAIC DIGIT TWO	
@@ -105,7 +105,7 @@ var spreadsheet = `sinh-si	key	ipa	ipa+	translit	ISO	kbd	class	status	type	usage
 ළ	l	l	a ə	ɭ	ḷ	<	Lo		śuddha consonant						U+0DC5: SINHALA LETTER MUURDHAJA LAYANNA	✓
 ඏ	L	li		l̥̣			Lo	a	miśra independent vowel		ෟ				U+0D8F: SINHALA LETTER ILUYANNA	✓
 ඐ	L	liː		l̥̣̄			Lo	a	miśra independent vowel		ෳ				U+0D90: SINHALA LETTER ILUUYANNA	✓
-ෟ	L	li		l̥		A	Mc	a	miśra vowel sign			ඏ	ගයනුකිත්ත	gayaṅukit͓ta	U+0DDF: SINHALA VOWEL SIGN GAYANUKITTA	✓
+ෟ	L	li		l̥		A	Mc	x	miśra vowel sign			ඏ	ගයනුකිත්ත	gayaṅukit͓ta	U+0DDF: SINHALA VOWEL SIGN GAYANUKITTA	✓
 ෳ	L	liː		l̥̄			Mc	a	miśra vowel sign			ඐ			U+0DF3: SINHALA VOWEL SIGN DIGA GAYANUKITTA	✓
 ම	m	m	a ə	m	m	u	Lo		śuddha consonant						U+0DB8: SINHALA LETTER MAYANNA	✓
 ඹ	M	ᵐb	a ə	ᵐb	m̌b	U	Lo		śuddha prenasalised consonant						U+0DB9: SINHALA LETTER AMBA BAYANNA	✓
@@ -151,15 +151,14 @@ var spreadsheet = `sinh-si	key	ipa	ipa+	translit	ISO	kbd	class	status	type	usage
 ළු				–		J									U+0DC5 U+0DD4: SINHALA LETTER MUURDHAJA LAYANNA, VOWEL SIGN KETTI PAA-PILLA	
 ්ර				–											U+0DCA U+0DBB: SINHALA SIGN AL-LAKUNA, LETTER RAYANNA	
 ර්				–		~									U+0DBB U+0DCA: SINHALA LETTER RAYANNA, SIGN AL-LAKUNA	
-\'				–		z	Po								U+0027: APOSTROPHE	
-"				–		Z	Po								U+0022: QUOTATION MARK	
-ʼ				ʼ	ʼ		Lm		apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
-§				§	§		Po		section sign						U+00A7: SECTION SIGN	
-†				†	†		Po		dagger						U+2020: DAGGER	
-‡				‡	‡		Po		double dagger						U+2021: DOUBLE DAGGER	
-′				′	′		Po		prime						U+2032: PRIME	
-″				″	″		Po		double prime						U+2033: DOUBLE PRIME	
-																
+\'				–		z		u							U+0027: APOSTROPHE	
+"				–		Z		u							U+0022: QUOTATION MARK	
+ʼ				ʼ	ʼ		Lm	?	apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
+§				§	§		Po	?	section sign						U+00A7: SECTION SIGN	
+†				†	†		Po	?	dagger						U+2020: DAGGER	
+‡				‡	‡		Po	?	double dagger						U+2021: DOUBLE DAGGER	
+′				′	′		Po	?	prime						U+2032: PRIME	
+″				″	″		Po	?	double prime						U+2033: DOUBLE PRIME	
 `																
 																
 latinPanel = 'aː ā æ æː ǣ ɑ d͡ʒ ɖ ḍ ə eː ē ɡn ɦ iː ī jñ ᵐb m̌b ᵑɡ ňg ṇ ⁿɖ ňḍ ⁿd ňd ɲ ŋ ṅ ñ oː ō ʃ ś ṣ t͡ʃ ʈ ṭ uː ū ʋ'																

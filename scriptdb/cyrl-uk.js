@@ -1,9 +1,9 @@
 var spreadsheet = `cyrl-uk	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	lcase	ucase	native name	latin name	ucs name	block
-́	[	ˈ		ˈ			Mn		stress accent	used in dictionaries, etc.					U+0301: COMBINING ACUTE ACCENT	✓
-̆				_			Mn	o	diacritic	found only in decomposed text					U+0306: COMBINING BREVE	✓
-̈				_			Mn	o	diacritic	found only in decomposed text					U+0308: COMBINING DIAERESIS	✓
--	-			-	-				hyphen						U+002D: HYPHEN-MINUS	
-‑	-			‑	‑		Pd		non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
+́	[	ˈ		ˈ			Mn	r	stress accent	used in dictionaries, etc.					U+0301: COMBINING ACUTE ACCENT	✓
+̆				_			Mn	r	diacritic	found only in decomposed text					U+0306: COMBINING BREVE	✓
+̈				_			Mn	r	diacritic	found only in decomposed text					U+0308: COMBINING DIAERESIS	✓
+-	-			-	-			?	hyphen						U+002D: HYPHEN-MINUS	
+‑	-			‑	‑		Pd	?	non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
 –	-			–	–		Pd		en dash						U+2013: EN DASH	
 —	-			—	—		Pd		em dash						U+2014: EM DASH	
 ,	,			,	,		Po		comma						U+002C: COMMA	
@@ -13,27 +13,27 @@ var spreadsheet = `cyrl-uk	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ?	?			?	?		Po		question mark						U+003F: QUESTION MARK	
 .	.			.	.		Po		full stop						U+002E: FULL STOP	
 …	.			…	…		Po		ellipsis						U+2026: HORIZONTAL ELLIPSIS	
-\‘	<						Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
-\‚	>						Ps		quotation mark						U+201A: SINGLE LOW-9 QUOTATION MARK	
-‹	<			‹			Pi		quotation mark						U+2039: SINGLE LEFT-POINTING ANGLE QUOTATION MARK	
-›	>			›			Pf		quotation mark						U+203A: SINGLE RIGHT-POINTING ANGLE QUOTATION MARK	
+‘	<						Pi	?	quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
+‚	>						Ps	?	quotation mark						U+201A: SINGLE LOW-9 QUOTATION MARK	
+‹	<			‹			Pi	?	quotation mark						U+2039: SINGLE LEFT-POINTING ANGLE QUOTATION MARK	
+›	>			›			Pf	?	quotation mark						U+203A: SINGLE RIGHT-POINTING ANGLE QUOTATION MARK	
 “	<			“	“		Pi		quotation mark						U+201C: LEFT DOUBLE QUOTATION MARK	
 „	>			”	”		Ps		quotation mark						U+201E: DOUBLE LOW-9 QUOTATION MARK	
 «	<			«	“		Pi		quotation mark						U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
 »	>			»	”		Pf		quotation mark						U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
 (	(			(	(		Ps		parenthesis						U+0028: LEFT PARENTHESIS	
 )	)			)	)		Pe		parenthesis						U+0029: RIGHT PARENTHESIS	
-[	(			[	[		Ps		bracket						U+005B: LEFT SQUARE BRACKET	
-]	)			]	]		Pe		bracket						U+005D: RIGHT SQUARE BRACKET	
-§				§	§		Po		section sign						U+00A7: SECTION SIGN	
-%	%			%	%		Po		percentage mark						U+0025: PERCENT SIGN	
-‰	%			‰			Po		per mille mark						U+2030: PER MILLE SIGN	
-†				†	†		Po		dagger						U+2020: DAGGER	
-‡				‡	‡		Po		double dagger						U+2021: DOUBLE DAGGER	
-′				′	′		Po		prime						U+2032: PRIME	
-″				″	″		Po		double prime						U+2033: DOUBLE PRIME	
-₽	#			¤			Sc		currency symbol						U+20BD: RUBLE SIGN	
-№	#			#			So		number symbol						U+2116: NUMERO SIGN	
+[	(			[	[		Ps	?	bracket						U+005B: LEFT SQUARE BRACKET	
+]	)			]	]		Pe	?	bracket						U+005D: RIGHT SQUARE BRACKET	
+§				§	§		Po	?	section sign						U+00A7: SECTION SIGN	
+%	%			%	%		Po	?	percentage mark						U+0025: PERCENT SIGN	
+‰	%			‰			Po	?	per mille mark						U+2030: PER MILLE SIGN	
+†				†	†		Po	?	dagger						U+2020: DAGGER	
+‡				‡	‡		Po	?	double dagger						U+2021: DOUBLE DAGGER	
+′				′	′		Po	?	prime						U+2032: PRIME	
+″				″	″		Po	?	double prime						U+2033: DOUBLE PRIME	
+₽	#			¤			Sc	?	currency symbol						U+20BD: RUBLE SIGN	
+№	#			#			So	?	number symbol						U+2116: NUMERO SIGN	
 ʼ	\'			ʼ	ʼ		Lm		hard sign				апостроф	ɑˈpɔstrɔf	U+02BC: MODIFIER LETTER APOSTROPHE	✓
 \'				ʼ	ʼ		Lm		hard sign				апостроф	ɑˈpɔstrɔf		
 																
@@ -106,11 +106,9 @@ var spreadsheet = `cyrl-uk	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 																
 дж		d͡ʒ							affricate						U+0434 U+0436: CYRILLIC SMALL LETTER DE, LETTER ZHE	
 дз		d͡z							affricate						U+0434 U+0437: CYRILLIC SMALL LETTER DE, LETTER ZE	
-																
 `																
 																
 latinPanel = 'ɐ ɕ d͡ʒ d͡z ɛ ɡ ɦ i̯ ɪ ʲ ɫ ɔ ʃ t͡s t͡ʃ ʃt͡ʃ u̯ ʊ ʋ ʒ'																
-																
 																
 var cols = {																
 key: 1,																
@@ -134,4 +132,3 @@ block: 16,
 																
 othertranscriptions: [[5, 'Uk. Nat. Trans.']]																
 }																
-																

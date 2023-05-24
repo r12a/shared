@@ -81,16 +81,15 @@ var spreadsheet = `tavt-blt	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 																
 .	.			.	.		Po		full stop						U+002E: FULL STOP	
 ,	,			,	,		Po		comma						U+002C: COMMA	
-;	;			;	;	;;⁏⸵	Po		semicolon						U+003B: SEMICOLON	
-!	!			!	!		Po		exclamation mark						U+0021: EXCLAMATION MARK	
-?	?			?	?		Po		question mark						U+003F: QUESTION MARK	
+;	;			;	;	;;⁏⸵	Po	?	semicolon						U+003B: SEMICOLON	
+!	!			!	!		Po	?	exclamation mark						U+0021: EXCLAMATION MARK	
+?	?			?	?		Po	?	question mark						U+003F: QUESTION MARK	
 (	(			(	(		Ps		parenthesis						U+0028: LEFT PARENTHESIS	
 )	)			)	)		Ps		parenthesis						U+0029: RIGHT PARENTHESIS	
 –	-			–	–		Pd		en dash						U+2013: EN DASH	
 `																
 																
 latinPanel = '¹ ² ¹̱ ²̱ ³ ⁴ aʲ aː ā aᵐ aⁿ aːw aʷ aᵖ ḇ c̱ cʰ c̱ʰ ḏ əʷ ɛ f̱ gʰ ḡ ẖ ɨᵊ ɨ iᵊ ḵ kʰ ḵʰ kon⁴ ḻ m̱ ŋ ŋ̄ ɲ ɲ̄ ṉ nɨŋ⁵ ɔ p̄ pʰ p̄ʰ ṟ ʃ s̱ ʨ ʨʰ ṯ tʰ ṯʰ uᵊ w̱ ʷɛ x̱ ȳ ʔ ʔ̱ ˨ ˦˥ ˦ ˥'																
-																
 																
 var cols = {																
 key: 1,																
@@ -114,4 +113,3 @@ block: 16,
 																
 othertranscriptions: [[5, 'Latin']]																
 }																
-																

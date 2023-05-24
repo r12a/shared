@@ -1,31 +1,31 @@
 var spreadsheet = `arab-ug	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	shape	native name	latin name	ucs name	USY trans	block
--	-			-	-		Pd		hyphen					U+2010: HYPHEN		
-‑	-			‑	‑		Pd		non-breaking hyphen					U+2011: NON-BREAKING HYPHEN		
-–	-			–	–		Pd		en dash					U+2013: EN DASH		✓
-—	-			—	—		Pd		em dash					U+2014: EM DASH		✓
+-	-			-	-		Pd	?	hyphen					U+2010: HYPHEN		
+‑	-			‑	‑		Pd	?	non-breaking hyphen					U+2011: NON-BREAKING HYPHEN		
+–	-			–	–		Pd	?	en dash					U+2013: EN DASH		✓
+—	-			—	—		Pd	?	em dash					U+2014: EM DASH		✓
 ،	,			,	,	,	Po		comma					U+060C: ARABIC COMMA		✓
 ؛	;			;	;	;	Po		semicolon					U+061B: ARABIC SEMICOLON		✓
 :	:			:	:		Po		colon					U+003A: COLON		✓
 !	!			!	!		Po		exclamation mark					U+0021: EXCLAMATION MARK		
 ؟	?			?	?	?	Po		question mark					U+061F: ARABIC QUESTION MARK		✓
 .	.			.	.		Po		full stop					U+002E: FULL STOP		✓
-…	.			…	…		Po		ellipsis					U+2026: HORIZONTAL ELLIPSIS		✓
+…	.			…	…		Po	?	ellipsis					U+2026: HORIZONTAL ELLIPSIS		✓
 (	(			(	(		Ps		parenthesis					U+0028: LEFT PARENTHESIS		✓
-[	(			[	[		Pe		bracket					U+005B: LEFT SQUARE BRACKET		
+[	(			[	[		Pe	?	bracket					U+005B: LEFT SQUARE BRACKET		
 )	)			)	)		Ps		parenthesis					U+0029: RIGHT PARENTHESIS		✓
-]	)			]	]		Pe		bracket					U+005D: RIGHT SQUARE BRACKET		
-ٔ	[			ʿ			Mn		hamza above	decomposed text only				U+0654: ARABIC HAMZA ABOVE		✓
+]	)			]	]		Pe	?	bracket					U+005D: RIGHT SQUARE BRACKET		
+ٔ	[			ʿ			Mn	r	hamza above	decomposed text only				U+0654: ARABIC HAMZA ABOVE		✓
 ئ	{	-		ʿ	- ’	/	Lo		consonant		ئ ئئئ			U+0626: ARABIC LETTER YEH WITH HAMZA ABOVE	-	✓
-٪	%			%	%		Po		percent sign					U+066A: ARABIC PERCENT SIGN		✓
+٪	%			%	%		Po	?	percent sign					U+066A: ARABIC PERCENT SIGN		✓
 «	<			«	“	"	Pi		quotation mark					U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK		✓
-‹	<			‹			Pi		quotation mark					U+2018: LEFT SINGLE QUOTATION MARK		✓
-“	<			“	“		Pi		quotation mark					U+201C: LEFT DOUBLE QUOTATION MARK		✓
-\‘	<			\‘	\‘		Pi		quotation mark					U+2018: LEFT SINGLE QUOTATION MARK		✓
-\u200B	=			␣			Cf		zero-width space					U+200B: ZERO WIDTH SPACE		
+‹	<			‹			Pi	?	quotation mark					U+2018: LEFT SINGLE QUOTATION MARK		✓
+“	<			“	“		Pi	?	quotation mark					U+201C: LEFT DOUBLE QUOTATION MARK		✓
+‘	<			\‘	\‘		Pi	?	quotation mark					U+2018: LEFT SINGLE QUOTATION MARK		✓
+\u200B	=			␣			Cf	?	zero-width space					U+200B: ZERO WIDTH SPACE		
 \u200C	=			ᶻʷⁿʲ			Cf		zero-width non-joiner					U+200C: ZERO WIDTH NON-JOINER		
 \u200D	=			ᶻʷʲ			Cf		zero-width joiner					U+200D: ZERO WIDTH JOINER		
 \u034F	=			ᶜᵍʲ			Mn		combining grapheme joiner					U+034F: COMBINING GRAPHEME JOINER		
-\u2060	=			ʷʲ			Cf		word joiner					U+2060 WORD JOINER		
+\u2060	=			ʷʲ			Cf	?	word joiner					U+2060 WORD JOINER		
 \u2067	=			ʳˡⁱ			Cf		rtl isolate					U+2067: RIGHT-TO-LEFT ISOLATE		
 \u2066	=			ˡʳⁱ			Cf		ltr isolate					U+2066: LEFT-TO-RIGHT ISOLATE		
 \u2068	=			ᶠˢⁱ			Cf		first-strong isolate					U+2068: FIRST STRONG ISOLATE		
@@ -37,9 +37,9 @@ var spreadsheet = `arab-ug	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 \u200E	=			ˡʳᵐ			Cf		ltr mark					U+200E: LEFT-TO-RIGHT MARK		
 \u061C	=			ᵃˡᵐ			Cf		arabic letter mark					U+061C: ARABIC LETTER MARK		
 »	>			»	”		Pf		quotation mark					U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK		✓
-›	>			›			Pf		quotation mark					U+2019: RIGHT SINGLE QUOTATION MARK		✓
-”	>			”	”		Pf		quotation mark					U+201D: RIGHT DOUBLE QUOTATION MARK		✓
-\’	>			\’	\’		Pf		quotation mark					U+2019: RIGHT SINGLE QUOTATION MARK		✓
+›	>			›			Pf	?	quotation mark					U+2019: RIGHT SINGLE QUOTATION MARK		✓
+”	>			”	”		Pf	?	quotation mark					U+201D: RIGHT DOUBLE QUOTATION MARK		✓
+’	>			\’	\’		Pf	?	quotation mark					U+2019: RIGHT SINGLE QUOTATION MARK		✓
 																
 ا	a	ɑ a		a	a	f	Lo		vowel		ا ـا			U+0627: ARABIC LETTER ALEF	а	✓
 ئا	A	ɑ a		ʿa	a									U+0626 U+0627: ARABIC LETTER YEH WITH HAMZA ABOVE, LETTER ALEF	а	
@@ -84,12 +84,12 @@ var spreadsheet = `arab-ug	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 																
 لا				–		L								U+0644 U+0627: ARABIC LETTER LAM, LETTER ALEF		
 																
-ʼ				ʼ	ʼ		Lm		apostrophe					U+02BC: MODIFIER LETTER APOSTROPHE		
-§				§	§		Po		section sign					U+00A7: SECTION SIGN		
-†				†	†		Po		dagger					U+2020: DAGGER		
-‡				‡	‡		Po		double dagger					U+2021: DOUBLE DAGGER		
-′				′	′		Po		prime					U+2032: PRIME		
-″				″	″		Po		double prime					U+2033: DOUBLE PRIME		
+ʼ				ʼ	ʼ		Lm	?	apostrophe					U+02BC: MODIFIER LETTER APOSTROPHE		
+§				§	§		Po	?	section sign					U+00A7: SECTION SIGN		
+†				†	†		Po	?	dagger					U+2020: DAGGER		
+‡				‡	‡		Po	?	double dagger					U+2021: DOUBLE DAGGER		
+′				′	′		Po	?	prime					U+2032: PRIME		
+″				″	″		Po	?	double prime					U+2033: DOUBLE PRIME		
 `																
 																
 latinPanel = 'æ ɑ d͡ʒ ɛ ë ɨ ŋ ɔ ø ö ʁ ʃ t͡ʃ ʊ ü χ ʒ'																

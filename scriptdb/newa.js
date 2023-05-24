@@ -1,37 +1,29 @@
 var spreadsheet = `newa-new	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	dvowel	ivowel	native name	latin name	ucs name	block
--	-			-	-				hyphen						U+002D: HYPHEN-MINUS	
-‑	-			‑	‑		Pd		non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
-–	-			–	–		Pd		en dash						U+2013: EN DASH	
-—	-			—	—		Pd		em dash						U+2014: EM DASH	
+-	-			-	-			?	hyphen						U+002D: HYPHEN-MINUS	
+‑	-			‑	‑		Pd	?	non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
+–	-			–	–		Pd	?	en dash						U+2013: EN DASH	
+—	-			—	—		Pd	?	em dash						U+2014: EM DASH	
 ,	,			,	,		Po		comma						U+002C: COMMA	
-𑑍	,			⹁	,		Po		comma						U+1144D: NEWA COMMA	✓
+𑑍	,			⹁	,		Po	?	comma						U+1144D: NEWA COMMA	✓
 ;	;			;	;		Po		semicolon						U+003B: SEMICOLON	
 :	:			:	:		Po		colon						U+003A: COLON	
-	:			ˉ	ˉ											
 !	!			!	!		Po		exclamation mark						U+0021: EXCLAMATION MARK	
-	!			ⸯ	ⸯ				exclamation mark							
-	!			¡	¡				exclamation mark							
 ?	?			?	?		Po		question mark						U+003F: QUESTION MARK	
-	?			¿	¿				question mark							
 𑑋	.			|	.		Po		section divider					purna viram	U+1144B: NEWA DANDA	✓
-.	.			.	.		Po		full stop						U+002E: FULL STOP	
-⋯	.			⋯	⋯		Sm		ellipsis						U+22EF: MIDLINE HORIZONTAL ELLIPSIS	
+.	.			.	.		Po	?	full stop						U+002E: FULL STOP	
+⋯	.			⋯	⋯		Sm	?	ellipsis						U+22EF: MIDLINE HORIZONTAL ELLIPSIS	
 (	(			(	(		Ps		parenthesis						U+0028: LEFT PARENTHESIS	
-[	(			[	[		Ps		bracket						U+005B: LEFT SQUARE BRACKET	
+[	(			[	[		Ps	?	bracket						U+005B: LEFT SQUARE BRACKET	
 )	)			)	)		Pe		parenthesis						U+0029: RIGHT PARENTHESIS	
-]	)			]	]		Pe		bracket						U+005D: RIGHT SQUARE BRACKET	
+]	)			]	]		Pe	?	bracket						U+005D: RIGHT SQUARE BRACKET	
 𑑃	[	̃ ã		˜	̃		Mn		nasalisation				𑐩𑐶𑐮𑐵𑐦𑐸𑐟𑐶	milaafuti	U+11443: NEWA SIGN CANDRABINDU	✓
 𑑄	[	̃ ãː		ː̃	ṁ		Mn		long nasalisation				𑐳𑐶𑐤𑑅𑐦𑐸𑐟𑐶	sinhafuti	U+11444: NEWA SIGN ANUSVARA	✓
-𑑇	]			′			Lo		elision marker						U+11447: NEWA SIGN AVAGRAHA	✓
+𑑇	]			′			Lo	?	elision marker						U+11447: NEWA SIGN AVAGRAHA	✓
 𑑂	*			͞			Mn		vowel-killer					halant	U+11442: NEWA SIGN VIRAMA	✓
-𑑆	/			ˑ			Mn		consonant modifier					nukta	U+11446: NEWA SIGN NUKTA	✓
-୲	#			¼			No		quarter						U+0B72: ORIYA FRACTION ONE QUARTER	
-୳	#			½					half						U+0B73 U+0020: ORIYA FRACTION ONE HALF, SPACE	
-୴	#			¾			No		three-quarters						U+0B74: ORIYA FRACTION THREE QUARTERS	
-	#			{10} etc					extended number							
-%	%			%			Po		percentage mark						U+0025: PERCENT SIGN	
-𑑏	+			¨			Po		abbreviation marker						U+1144F: NEWA ABBREVIATION SIGN	✓
-𑑊	±			¤			Lo								U+1144A: NEWA SIDDHI	✓
+𑑆	/			ˑ			Mn	?	consonant modifier					nukta	U+11446: NEWA SIGN NUKTA	✓
+%	%			%			Po	?	percentage mark						U+0025: PERCENT SIGN	
+𑑏	+			¨			Po	?	abbreviation marker						U+1144F: NEWA ABBREVIATION SIGN	✓
+𑑊	±			¤			Lo	?							U+1144A: NEWA SIDDHI	✓
 𑑐	±			0̣	0		Nd		digit						U+11450: NEWA DIGIT ZERO	✓
 𑑑	±			1̣	1		Nd		digit						U+11451: NEWA DIGIT ONE	✓
 𑑒	±			2̣	2		Nd		digit						U+11452: NEWA DIGIT TWO	✓
@@ -43,22 +35,12 @@ var spreadsheet = `newa-new	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 𑑘	±			8̣	8		Nd		digit						U+11458: NEWA DIGIT EIGHT	✓
 𑑙	±			9̣	9		Nd		digit						U+11459: NEWA DIGIT NINE	✓
 “	<			“	“		Pi		quotation mark						U+201C: LEFT DOUBLE QUOTATION MARK	✓
-\‘	<			\‘	\‘		Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	✓
+‘	<			\‘	\‘		Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	✓
 \u200C	=			ₓ			Cf		zwnj						U+200C: ZERO WIDTH NON-JOINER	
 \u200D	=			₊			Cf		zwj						U+200D: ZERO WIDTH JOINER	
-\u2067	=			ʳˡⁱ			Cf		rtl isolate						U+2067: RIGHT-TO-LEFT ISOLATE	
-\u2066	=			ˡʳⁱ			Cf		ltr isolate						U+2066: LEFT-TO-RIGHT ISOLATE	
-\u2068	=			ᶠˢⁱ			Cf		first-strong isolate						U+2068: FIRST STRONG ISOLATE	
-\u2069	=			ᵖᵈⁱ			Cf		pop direction isolate						U+2069: POP DIRECTIONAL ISOLATE	
-\u202B	=			ʳˡᵉ			Cf		rtl embed						U+202B: RIGHT-TO-LEFT EMBEDDING	
-\u202A	=			ˡʳᵉ			Cf		ltr embed						U+202A: LEFT-TO-RIGHT EMBEDDING	
-\u202C	=			ᵖᵈᶠ			Cf		pop direction						U+202C: POP DIRECTIONAL FORMATTING	
-\u200F	=			ʳˡᵐ			Cf		rtl mark						U+200F: RIGHT-TO-LEFT MARK	
-\u200E	=			ˡʳᵐ			Cf		ltr mark						U+200E: LEFT-TO-RIGHT MARK	
-\u034F	=			ᶜᵍʲ			Mn		combining grapheme joiner						U+034F: COMBINING GRAPHEME JOINER	
-\u061C	=			ᵃˡᵐ			Cf		arabic letter mark						U+061C: ARABIC LETTER MARK	
+\u034F	=			ᶜᵍʲ			Mn	?	combining grapheme joiner						U+034F: COMBINING GRAPHEME JOINER	
 ”	>			”	”		Pf		quotation mark						U+201D: RIGHT DOUBLE QUOTATION MARK	✓
-\’	>			\’	\’		Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	✓
+’	>			\’	\’		Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	✓
 𑑌	|			¶	¶		Po		section divider						U+1144C: NEWA DOUBLE DANDA	✓
 	|			—					section divider							
 𑐵	a	æ		æ	ā		Mc		vowel sign			𑐁			U+11435: NEWA VOWEL SIGN AA	✓
@@ -109,14 +91,14 @@ var spreadsheet = `newa-new	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 𑐦	P	pʰ	a	pʰ	ph		Lo		consonant						U+11426: NEWA LETTER PHA	✓
 𑐬	r	r	a	r	r		Lo		consonant						U+1142C: NEWA LETTER RA	✓
 𑐭	r	rʰ	a	rʰ	rh		Lo		consonant						U+1142D: NEWA LETTER RHA	✓
-𑐺	R	ru		r̥	r̥		Mn		vowel sign			𑐆			U+1143A: NEWA VOWEL SIGN VOCALIC R	✓
-𑐻	R	ruː		r̥̄	r̥̄		Mn		vowel sign			𑐇			U+1143B: NEWA VOWEL SIGN VOCALIC RR	✓
-𑐼	R	lu		l̥	l̥		Mn		vowel sign			𑐈			U+1143C: NEWA VOWEL SIGN VOCALIC L	✓
-𑐽	R	luː		l̥̄	l̥̄		Mn		vowel sign			𑐉			U+1143D: NEWA VOWEL SIGN VOCALIC LL	✓
+𑐺	R	ru		r̥	r̥		Mn	?	vowel sign			𑐆			U+1143A: NEWA VOWEL SIGN VOCALIC R	✓
+𑐻	R	ruː		r̥̄	r̥̄		Mn	?	vowel sign			𑐇			U+1143B: NEWA VOWEL SIGN VOCALIC RR	✓
+𑐼	R	lu		l̥	l̥		Mn	?	vowel sign			𑐈			U+1143C: NEWA VOWEL SIGN VOCALIC L	✓
+𑐽	R	luː		l̥̄	l̥̄		Mn	?	vowel sign			𑐉			U+1143D: NEWA VOWEL SIGN VOCALIC LL	✓
 𑐆	R	ru		r̥̣	r̥		Lo	i	independent vowel		𑐺				U+11406: NEWA LETTER VOCALIC R	✓
-𑐇	R	ruː		r̥̣̄	r̥̄		Lo		independent vowel		𑐻				U+11407: NEWA LETTER VOCALIC RR	✓
-𑐈	R	lu		l̥̣	l̥		Lo		independent vowel		𑐼				U+11408: NEWA LETTER VOCALIC L	✓
-𑐉	R	luː		l̥̣̄	l̥̄		Lo		independent vowel		𑐽				U+11409: NEWA LETTER VOCALIC LL	✓
+𑐇	R	ruː		r̥̣̄	r̥̄		Lo	?	independent vowel		𑐻				U+11407: NEWA LETTER VOCALIC RR	✓
+𑐈	R	lu		l̥̣	l̥		Lo	?	independent vowel		𑐼				U+11408: NEWA LETTER VOCALIC L	✓
+𑐉	R	luː		l̥̣̄	l̥̄		Lo	?	independent vowel		𑐽				U+11409: NEWA LETTER VOCALIC LL	✓
 𑐱	s	ɕ	a	ɕ	ś		Lo	i	consonant						U+11431: NEWA LETTER SHA	✓
 𑐲	s	ʂ	a	ʂ	ṣ		Lo	i	consonant						U+11432: NEWA LETTER SSA	✓
 𑐳	s¶	s	a	s	s		Lo		consonant						U+11433: NEWA LETTER SA	✓
@@ -133,8 +115,8 @@ var spreadsheet = `newa-new	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 𑐫	y	j	a	y	y		Lo		consonant						U+1142B: NEWA LETTER YA	✓
 𑐴𑑂𑐫	y	jʰ	a	h͓y	yh				consonant						U+11434 U+11442 U+1142B: NEWA LETTER HA, SIGN VIRAMA, LETTER YA	
 																
-𑑈							Lo								U+11448: NEWA SIGN FINAL ANUSVARA	✓
-𑑟							Lo								U+1145F: NEWA LETTER VEDIC ANUSVARA	✓
+𑑈							Lo	?							U+11448: NEWA SIGN FINAL ANUSVARA	✓
+𑑟							Lo	?							U+1145F: NEWA LETTER VEDIC ANUSVARA	✓
 																
 𑐶𑑃		ĩ		i˜					nasalised vowel-sign						U+11436 U+11443: NEWA VOWEL SIGN I, SIGN CANDRABINDU	
 𑐶𑑄		ĩː		iⁿͫ					long nasalised vowel-sign						U+11436 U+11444: NEWA VOWEL SIGN I, SIGN ANUSVARA	
@@ -170,29 +152,25 @@ var spreadsheet = `newa-new	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 𑐁𑑃		æ̃		æ̣˜											U+11401 U+11443: NEWA LETTER AA, SIGN CANDRABINDU	
 𑐁𑑄		æ̃ː		æ̣ⁿͫ											U+11401 U+11444: NEWA LETTER AA, SIGN ANUSVARA	
 																
-𑑠							Lo								U+11460: NEWA SIGN JIHVAMULIYA	✓
-𑑡							Lo								U+11461: NEWA SIGN UPADHMANIYA	✓
-𑑞							Mn								U+1145E: NEWA SANDHI MARK	✓
+𑑠							Lo	?							U+11460: NEWA SIGN JIHVAMULIYA	✓
+𑑡							Lo	?							U+11461: NEWA SIGN UPADHMANIYA	✓
+𑑞							Mn	?							U+1145E: NEWA SANDHI MARK	✓
 𑑉							Lo		om symbol						U+11449: NEWA OM	✓
-𑑎							Po								U+1144E: NEWA GAP FILLER	✓
-𑑛							Po								U+1145B: NEWA PLACEHOLDER MARK	✓
-𑑝							Po								U+1145D: NEWA INSERTION SIGN	✓
+𑑎							Po	?							U+1144E: NEWA GAP FILLER	✓
+𑑛							Po	?							U+1145B: NEWA PLACEHOLDER MARK	✓
+𑑝							Po	?							U+1145D: NEWA INSERTION SIGN	✓
 																
-𑑚							Po		double comma						U+1145A: NEWA DOUBLE COMMA	✓
+𑑚							Po	?	double comma						U+1145A: NEWA DOUBLE COMMA	✓
 																
-ʼ				ʼ	ʼ		Lm		apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
-§				§	§		Po		section sign						U+00A7: SECTION SIGN	
-†				†	†		Po		dagger						U+2020: DAGGER	
-‡				‡	‡		Po		double dagger						U+2021: DOUBLE DAGGER	
-′				′	′		Po		prime						U+2032: PRIME	
-″				″	″		Po		double prime						U+2033: DOUBLE PRIME	
-																
+ʼ				ʼ	ʼ		Lm	?	apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
+§				§	§		Po	?	section sign						U+00A7: SECTION SIGN	
+†				†	†		Po	?	dagger						U+2020: DAGGER	
+‡				‡	‡		Po	?	double dagger						U+2021: DOUBLE DAGGER	
+′				′	′		Po	?	prime						U+2032: PRIME	
+″				″	″		Po	?	double prime						U+2033: DOUBLE PRIME	
 `																
 																
-																
 latinPanel = '̃ aː ā æ æː æ̃ æ̃ː ạ ã ãː bʱ cʰ ɕ dʱ d͡ʑ d͡ʑʱ ɖ ḍ ɖʱ ḍh ē eː ẽ ẽː ɛ̄ əĩ əũ ɛ̣̄ ɡ ɡʱ ɦ ḥ iː ĩ ĩː ī ị ị̄ ɟ ɟʱ kʰ lʰ l̥ l̥̄ l̥̣ l̥̣̄ mʰ ṁ ŋ ṅ nʰ ŋʰ ṅh ɳ ṇ ɲ ñ ɲʰ ñh oː ō ɔ̄ ọ̄ ɔ̣̄ pʰ rʰ r̥ r̥̄ r̥̣ r̥̣̄ ś ʂ ṣ tʰ t͡ɕ t͡ɕʰ ʈ ṭ ʈʰ ṭh uː ũ ũː ū ụ ụ̄ vʰ wʰ'																
-																
-																
 																
 var cols = {																
 key: 1,																
@@ -216,4 +194,3 @@ block: 16,
 																
 othertranscriptions: [[5, 'Latin']]																
 }																
-																

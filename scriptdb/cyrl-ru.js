@@ -1,6 +1,6 @@
 var spreadsheet = `cyrl-ru	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	lc	uc	native name	latin name	ucs name	block
 -	-			-	-				hyphen						U+2010: HYPHEN	
-‑	-			‑	‑		Pd		non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
+‑	-			‑	‑		Pd	?	non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
 –	-			–	–		Pd		en dash						U+2013: EN DASH	
 —	-			—	—		Pd		em dash						U+2014: EM DASH	
 ,	,			,	,	?	Po		comma						U+002C: COMMA	
@@ -13,24 +13,24 @@ var spreadsheet = `cyrl-ru	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ъ	"			ʺ	ʺ	]	Ll		hard sign			Ъ	твёрдый знак	tvʲɵrdɨj znak	U+044A: CYRILLIC SMALL LETTER HARD SIGN	✓
 Ъ	"			ʺ̣	ʺ	}	Lu		hard sign		ъ		твёрдый знак	tvʲɵrdɨj znak	U+042A: CYRILLIC CAPITAL LETTER HARD SIGN	✓
 (	(			(	(		Ps		parenthesis						U+0028: LEFT PARENTHESIS	
-[	(			[	[		Ps		bracket						U+005B: LEFT SQUARE BRACKET	
+[	(			[	[		Ps	?	bracket						U+005B: LEFT SQUARE BRACKET	
 )	)			)	)		Pe		parenthesis						U+0029: RIGHT PARENTHESIS	
-]	)			]	]		Pe		bracket						U+005D: RIGHT SQUARE BRACKET	
-́	[	ˈ		ˈ			Mn		stress accent	used in dictionaries, etc.					U+0301: COMBINING ACUTE ACCENT	✓
-₽	#			¤		*	Sc		currency symbol						U+20BD: RUBLE SIGN	
-№	#			#		#	So		number symbol						U+2116: NUMERO SIGN	
-%	%			%			Po		percentage mark						U+0025: PERCENT SIGN	
-‰	%			‰			Po		per mille mark						U+2030: PER MILLE SIGN	
+]	)			]	]		Pe	?	bracket						U+005D: RIGHT SQUARE BRACKET	
+́	[	ˈ		ˈ			Mn	r	stress accent	used in dictionaries, etc.					U+0301: COMBINING ACUTE ACCENT	✓
+₽	#			¤		*	Sc	?	currency symbol						U+20BD: RUBLE SIGN	
+№	#			#		#	So	?	number symbol						U+2116: NUMERO SIGN	
+%	%			%			Po	?	percentage mark						U+0025: PERCENT SIGN	
+‰	%			‰			Po	?	per mille mark						U+2030: PER MILLE SIGN	
 ь	ʹ	ʲ		ʹ	ʹ	m	Ll		soft sign			Ь	мягкий знак	ˈmʲæxʲkʲɪj znak	U+044C: CYRILLIC SMALL LETTER SOFT SIGN	✓
 Ь	ʹ	ʲ		ʹ̣	ʹ	M	Lu		soft sign		ь		мягкий знак	ˈmʲæxʲkʲɪj znak	U+042C: CYRILLIC CAPITAL LETTER SOFT SIGN	✓
 «	<			«	“		Pi		quotation mark						U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
-‹	<			‹			Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
+‹	<			‹			Pi	?	quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
 “	<			“	“		Pi		quotation mark						U+201C: LEFT DOUBLE QUOTATION MARK	
-\‘	<			\‘	\‘		Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
+‘	<			\‘	\‘		Pi	?	quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
 »	>			»	”		Pf		quotation mark						U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
-›	>			›			Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
+›	>			›			Pf	?	quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
 „	>			”	”		Ps		quotation mark						U+201D: RIGHT DOUBLE QUOTATION MARK	
-\‚	>			\‚	\‚		Ps		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
+‚	>			\‚	\‚		Ps	?	quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
 																
 я	a	jæ jɪ æ a ɪ		jᵃ	â	z	Ll		vowel			Я	я	ja	U+044F: CYRILLIC SMALL LETTER YA	✓
 а	a	a ə ʌ		a	a	f	Ll		vowel			А	а	a	U+0430: CYRILLIC SMALL LETTER A	✓
@@ -96,44 +96,42 @@ var spreadsheet = `cyrl-ru	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 З	Z	z zʲ		ẓ	Z	P	Lu		consonant		з		зэ	zɛ	U+0417: CYRILLIC CAPITAL LETTER ZE	✓
 																
 																
-ѱ		ps					Ll		consonant						U+0471: CYRILLIC SMALL LETTER PSI	✓
-Ѱ		ps					Lu		consonant						U+0470: CYRILLIC CAPITAL LETTER PSI	✓
-ѕ		z					Ll		consonant						U+0455: CYRILLIC SMALL LETTER DZE	✓
-Ѕ		z					Lu		consonant						U+0405: CYRILLIC CAPITAL LETTER DZE	✓
-ѯ		ks					Ll		consonant						U+046F: CYRILLIC SMALL LETTER KSI	✓
-Ѯ		ks					Lu		consonant						U+046E: CYRILLIC CAPITAL LETTER KSI	✓
-ѳ		f					Ll		consonant						U+0473: CYRILLIC SMALL LETTER FITA	✓
-Ѳ		f					Lu		consonant						U+0472: CYRILLIC CAPITAL LETTER FITA	✓
+ѱ		ps					Ll	u	consonant						U+0471: CYRILLIC SMALL LETTER PSI	✓
+Ѱ		ps					Lu	u	consonant						U+0470: CYRILLIC CAPITAL LETTER PSI	✓
+ѕ		z					Ll	u	consonant						U+0455: CYRILLIC SMALL LETTER DZE	✓
+Ѕ		z					Lu	u	consonant						U+0405: CYRILLIC CAPITAL LETTER DZE	✓
+ѯ		ks					Ll	u	consonant						U+046F: CYRILLIC SMALL LETTER KSI	✓
+Ѯ		ks					Lu	u	consonant						U+046E: CYRILLIC CAPITAL LETTER KSI	✓
+ѳ		f					Ll	u	consonant						U+0473: CYRILLIC SMALL LETTER FITA	✓
+Ѳ		f					Lu	u	consonant						U+0472: CYRILLIC CAPITAL LETTER FITA	✓
 																
-ѵ		i					Ll		vowel						U+0475: CYRILLIC SMALL LETTER IZHITSA	✓
-Ѵ		i					Lu		vowel						U+0474: CYRILLIC CAPITAL LETTER IZHITSA	✓
-ѫ		ju u					Ll		vowel						U+046B: CYRILLIC SMALL LETTER BIG YUS	✓
-Ѫ		ju u					Lu		vowel						U+046A: CYRILLIC CAPITAL LETTER BIG YUS	✓
-ѧ		ja					Ll		vowel						U+0467: CYRILLIC SMALL LETTER LITTLE YUS	✓
-Ѧ		ja					Lu		vowel						U+0466: CYRILLIC CAPITAL LETTER LITTLE YUS	✓
-ѭ		ju					Ll		vowel						U+046D: CYRILLIC SMALL LETTER IOTIFIED BIG YUS	✓
-Ѭ		ju					Lu		vowel						U+046C: CYRILLIC CAPITAL LETTER IOTIFIED BIG YUS	✓
-ѩ		ja					Ll		vowel						U+0469: CYRILLIC SMALL LETTER IOTIFIED LITTLE YUS	✓
-Ѩ		ja					Lu		vowel						U+0468: CYRILLIC CAPITAL LETTER IOTIFIED LITTLE YUS	✓
-ѣ		e					Ll		vowel						U+0463: CYRILLIC SMALL LETTER YAT	✓
-Ѣ		e					Lu		vowel						U+0462: CYRILLIC CAPITAL LETTER YAT	✓
-і		i					Ll		vowel						U+0456: CYRILLIC SMALL LETTER BYELORUSSIAN-UKRAINIAN I	✓
-І		i					Lu		vowel						U+0406: CYRILLIC CAPITAL LETTER BYELORUSSIAN-UKRAINIAN I	✓
+ѵ		i					Ll	u	vowel						U+0475: CYRILLIC SMALL LETTER IZHITSA	✓
+Ѵ		i					Lu	u	vowel						U+0474: CYRILLIC CAPITAL LETTER IZHITSA	✓
+ѫ		ju u					Ll	u	vowel						U+046B: CYRILLIC SMALL LETTER BIG YUS	✓
+Ѫ		ju u					Lu	u	vowel						U+046A: CYRILLIC CAPITAL LETTER BIG YUS	✓
+ѧ		ja					Ll	u	vowel						U+0467: CYRILLIC SMALL LETTER LITTLE YUS	✓
+Ѧ		ja					Lu	u	vowel						U+0466: CYRILLIC CAPITAL LETTER LITTLE YUS	✓
+ѭ		ju					Ll	u	vowel						U+046D: CYRILLIC SMALL LETTER IOTIFIED BIG YUS	✓
+Ѭ		ju					Lu	u	vowel						U+046C: CYRILLIC CAPITAL LETTER IOTIFIED BIG YUS	✓
+ѩ		ja					Ll	u	vowel						U+0469: CYRILLIC SMALL LETTER IOTIFIED LITTLE YUS	✓
+Ѩ		ja					Lu	u	vowel						U+0468: CYRILLIC CAPITAL LETTER IOTIFIED LITTLE YUS	✓
+ѣ		e					Ll	u	vowel						U+0463: CYRILLIC SMALL LETTER YAT	✓
+Ѣ		e					Lu	u	vowel						U+0462: CYRILLIC CAPITAL LETTER YAT	✓
+і		i					Ll	u	vowel						U+0456: CYRILLIC SMALL LETTER BYELORUSSIAN-UKRAINIAN I	✓
+І		i					Lu	u	vowel						U+0406: CYRILLIC CAPITAL LETTER BYELORUSSIAN-UKRAINIAN I	✓
 																
-̆				_			Mn		diacritic	orphan, found only in decomposed text					U+0306: COMBINING BREVE	
-̈				_			Mn		diacritic	orphan, found only in decomposed text					U+0308: COMBINING DIAERESIS	
+̆				_			Mn	r	diacritic	orphan, found only in decomposed text					U+0306: COMBINING BREVE	
+̈				_			Mn	r	diacritic	orphan, found only in decomposed text					U+0308: COMBINING DIAERESIS	
 																
-ʼ				ʼ	ʼ		Lm		apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
-§				§	§		Po		section sign						U+00A7: SECTION SIGN	
-†				†	†		Po		dagger						U+2020: DAGGER	
-‡				‡	‡		Po		double dagger						U+2021: DOUBLE DAGGER	
-′				′	′		Po		prime						U+2032: PRIME	
-″				″	″		Po		double prime						U+2033: DOUBLE PRIME	
-																
+ʼ				ʼ	ʼ		Lm	?	apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
+§				§	§		Po	?	section sign						U+00A7: SECTION SIGN	
+†				†	†		Po	?	dagger						U+2020: DAGGER	
+‡				‡	‡		Po	?	double dagger						U+2021: DOUBLE DAGGER	
+′				′	′		Po	?	prime						U+2032: PRIME	
+″				″	″		Po	?	double prime						U+2033: DOUBLE PRIME	
 `																
 																
 latinPanel = 'â ɕ ë ɛ è ɡ ī ɨ ɪ ʲ ɫ ʂ t͡s t͡ɕ û ʐ'																
-																
 																
 var cols = {																
 key: 1,																
@@ -157,4 +155,3 @@ block: 16,
 																
 othertranscriptions: [[5, 'ISO 9:1995']]																
 }																
-																

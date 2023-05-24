@@ -1,29 +1,29 @@
 var spreadsheet = `latn-wo	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	native name	latin name	ucs name	block
 -	-			-	-				hyphen				U+2010: HYPHEN	
-‑	-			‑	‑		Pd		non-breaking hyphen				U+2011: NON-BREAKING HYPHEN	
-–	-			–	–		Pd		en dash				U+2013: EN DASH	
-—	-			—	—		Pd		em dash				U+2014: EM DASH	
+‑	-			‑	‑		Pd	?	non-breaking hyphen				U+2011: NON-BREAKING HYPHEN	
+–	-			–	–		Pd	?	en dash				U+2013: EN DASH	
+—	-			—	—		Pd	?	em dash				U+2014: EM DASH	
 ,	,			,	,		Po		comma				U+002C: COMMA	
 ;	;			;	;		Po		semicolon				U+003B: SEMICOLON	
 :	:			:	:		Po		colon				U+003A: COLON	
 !	!			!	!		Po		exclamation mark				U+0021: EXCLAMATION MARK	
 ?	?			?	?		Po		question mark				U+003F: QUESTION MARK	
 .	.			.	.		Po		full stop				U+002E: FULL STOP	
-…	.			…	…		Po		ellipsis				U+2026: HORIZONTAL ELLIPSIS	
+…	.			…	…		Po	?	ellipsis				U+2026: HORIZONTAL ELLIPSIS	
 (	(			(	(		Ps		parenthesis				U+0028: LEFT PARENTHESIS	
-[	(			[	[		Ps		bracket				U+005B: LEFT SQUARE BRACKET	
+[	(			[	[		Ps	?	bracket				U+005B: LEFT SQUARE BRACKET	
 )	)			)	)		Pe		parenthesis				U+0029: RIGHT PARENTHESIS	
-]	)			]	]		Pe		bracket				U+005D: RIGHT SQUARE BRACKET	
-%	%			%			Po		percentage mark				U+0025: PERCENT SIGN	
-‰	%			‰			Po		per mille mark				U+2030: PER MILLE SIGN	
-«	<			«			Pi		quotation mark				U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
-‹	<			‹			Pi		quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	
+]	)			]	]		Pe	?	bracket				U+005D: RIGHT SQUARE BRACKET	
+%	%			%			Po	?	percentage mark				U+0025: PERCENT SIGN	
+‰	%			‰			Po	?	per mille mark				U+2030: PER MILLE SIGN	
+«	<			«			Pi	?	quotation mark				U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
+‹	<			‹			Pi	?	quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	
 “	<			“	“		Pi		quotation mark				U+201C: LEFT DOUBLE QUOTATION MARK	
-\‘	<			\‘	\‘				quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	
-»	>			»			Pf		quotation mark				U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
-›	>			›			Pf		quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
+‘	<			\‘	\‘				quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	
+»	>			»			Pf	?	quotation mark				U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
+›	>			›			Pf	?	quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
 ”	>			”	”		Pf		quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK	
-\’	>			\’	\’				quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
+’	>			\’	\’				quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
 a	a	a		a			Ll		vowel				U+0061: LATIN SMALL LETTER A	
 aa		aː		aa					long vowel				U+0061 U+0061: LATIN SMALL LETTER A, SMALL LETTER A	
 à	a	aː		à			Ll		long vowel	used before long consonants			U+00E0: LATIN SMALL LETTER A WITH GRAVE	
@@ -98,18 +98,19 @@ x	x	x χ		x			Ll		consonant				U+0078: LATIN SMALL LETTER X
 X	X	x χ		X			Lu		consonant				U+0058: LATIN CAPITAL LETTER X	
 y	y	j		y			Ll		consonant				U+0079: LATIN SMALL LETTER Y	
 Y	y	j		Y			Lu		consonant				U+0059: LATIN CAPITAL LETTER Y	
-z	z	z		z			Ll		consonant				U+007A: LATIN SMALL LETTER Z	
-Z	Z	z		Z			Lu		consonant				U+005A: LATIN CAPITAL LETTER Z	
+z	z	z		z			Ll	?	consonant				U+007A: LATIN SMALL LETTER Z	
+Z	Z	z		Z			Lu	?	consonant				U+005A: LATIN CAPITAL LETTER Z	
 														
-§				§	§		Po		section sign				U+00A7: SECTION SIGN	
-†				†	†		Po		dagger				U+2020: DAGGER	
-‡				‡	‡		Po		double dagger				U+2021: DOUBLE DAGGER	
-′				′	′		Po		prime				U+2032: PRIME	
-″				″	″		Po		double prime				U+2033: DOUBLE PRIME	
+§				§	§		Po	?	section sign				U+00A7: SECTION SIGN	
+†				†	†		Po	?	dagger				U+2020: DAGGER	
+‡				‡	‡		Po	?	double dagger				U+2021: DOUBLE DAGGER	
+′				′	′		Po	?	prime				U+2032: PRIME	
+″				″	″		Po	?	double prime				U+2033: DOUBLE PRIME	
 														
-́				ˊ			Mn​	i	acute accent	only in decomposed é or ó			U+0301: COMBINING ACUTE ACCENT	
-̀				ˋ			Mn​	i	grave accent	only in decomposed à			U+0300: COMBINING GRAVE ACCENT	
-̃				˜			Mn​	i	tilde	only in decomposed ñ			U+0303: COMBINING TILDE	
+́				ˊ			Mn​	r	acute accent	only in decomposed é or ó			U+0301: COMBINING ACUTE ACCENT	
+̀				ˋ			Mn​	r	grave accent	only in decomposed à			U+0300: COMBINING GRAVE ACCENT	
+̃				˜			Mn​	r	tilde	only in decomposed ñ			U+0303: COMBINING TILDE	
+̈				̈			Mn​	r	diaeresis	only in decomposed ë			U+0308 COMBINING DIAERESIS	
 `														
 														
 latinPanel = 'aː eː iː oː uː ŋ ɔ ɔː ə əː ᵊ ɛ ɛː ɟ ɡ ɲ ɸ ɽ ɾ χ ᵐb ᵑɡ ᶮɟ ⁿd ʔ'														

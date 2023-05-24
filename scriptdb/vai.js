@@ -1,8 +1,8 @@
 var spreadsheet = `vaii	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	meaning	alt	ucs name	block
 -	-	-		-	-		Pd		hyphen				U+2010: HYPHEN	
-‑	-	‑		‑	‑		Pd		non-breaking hyphen				U+2011: NON-BREAKING HYPHEN	
-–	-	–		–	–		Pd		en dash				U+2013: EN DASH	
-—	-	—		—	—		Pd		em dash				U+2014: EM DASH	
+‑	-	‑		‑	‑		Pd	?	non-breaking hyphen				U+2011: NON-BREAKING HYPHEN	
+–	-	–		–	–		Pd	?	en dash				U+2013: EN DASH	
+—	-	—		—	—		Pd	?	em dash				U+2014: EM DASH	
 ,	,			,	,		Po		comma				U+002C: COMMA	
 ꘍	,			⹁	,		Po		comma				U+A60D: VAI COMMA	✓
 ;	;			;	;		Po		semicolon				U+003B: SEMICOLON	
@@ -12,16 +12,16 @@ var spreadsheet = `vaii	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage
 ꘎꘎	!			¡	!				exclamation mark				U+A60E U+A60E: VAI FULL STOP, VAI FULL STOP	
 ?	?			?	?		Po		question mark				U+003F: QUESTION MARK	
 ꘏	?			¿	?		Po		question mark				U+A60F: VAI QUESTION MARK	✓
-ʼ		ʼ		ʼ	ʼ		Lm		apostrophe				U+02BC: MODIFIER LETTER APOSTROPHE	
+ʼ		ʼ		ʼ	ʼ		Lm	?	apostrophe				U+02BC: MODIFIER LETTER APOSTROPHE	
 .	.			.	.		Po		full stop				U+002E: FULL STOP	
 ꘎	.			.	.		Po		full stop				U+A60E: VAI FULL STOP	✓
-…	.			…	…		Po		ellipsis				U+2026: HORIZONTAL ELLIPSIS	
+…	.			…	…		Po	?	ellipsis				U+2026: HORIZONTAL ELLIPSIS	
 (	(	(		(	(		Ps		parenthesis				U+0028: LEFT PARENTHESIS	
-[	(	(		[	[		Pe		bracket				U+005B: LEFT SQUARE BRACKET	
+[	(	(		[	[		Pe	?	bracket				U+005B: LEFT SQUARE BRACKET	
 )	)	)		)	)		Ps		parenthesis				U+0029: RIGHT PARENTHESIS	
-]	)	)		]	]		Pe		bracket				U+005D: RIGHT SQUARE BRACKET	
-%	%			%			Po		percentage mark				U+0025: PERCENT SIGN	
-‰	%			‰			Po		per mille mark				U+2030: PER MILLE SIGN	
+]	)	)		]	]		Pe	?	bracket				U+005D: RIGHT SQUARE BRACKET	
+%	%			%			Po	?	percentage mark				U+0025: PERCENT SIGN	
+‰	%			‰			Po	?	per mille mark				U+2030: PER MILLE SIGN	
 ꘠	±	0		0̣	0		Nd	u	digit				U+A620: VAI DIGIT ZERO	✓
 ꘡	±	1		1̣	1		Nd	u	digit				U+A621: VAI DIGIT ONE	✓
 ꘢	±	2		2̣	2		Nd	u	digit				U+A622: VAI DIGIT TWO	✓
@@ -32,19 +32,19 @@ var spreadsheet = `vaii	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage
 ꘧	±	7		7̣	7		Nd	u	digit				U+A627: VAI DIGIT SEVEN	✓
 ꘨	±	8		8̣	8		Nd	u	digit				U+A628: VAI DIGIT EIGHT	✓
 ꘩	±	9		9̣	9		Nd	u	digit				U+A629: VAI DIGIT NINE	✓
-«	<			«	“		Pi		quotation mark				U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
-‹	<			‹	\‘		Pi		quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	
-“	<			“	“		Pi		quotation mark				U+201C: LEFT DOUBLE QUOTATION MARK	
-\‘	<			\‘	\‘		Pi		quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	
-\u200B	=			␣			Cf		zero-width space				U+200B: ZERO WIDTH SPACE	
-\u200C	=			ᶻʷⁿʲ			Cf		zero-width non-joiner				U+200C: ZERO WIDTH NON-JOINER	
-\u200D	=			ᶻʷʲ			Cf		zero-width joiner				U+200D: ZERO WIDTH JOINER	
-\u034F	=			ᶜᵍʲ			Mn		combining grapheme joiner				U+034F: COMBINING GRAPHEME JOINER	
-\u2060	=			ʷʲ			Cf		word joiner				U+2060 WORD JOINER	
-»	>			»	”		Pf		quotation mark				U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
-›	>			›	\’		Pf		quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
-”	>			”	”		Pf		quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK	
-\’	>			\’	\’		Pf		quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
+«	<			«	“		Pi	?	quotation mark				U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
+‹	<			‹	\‘		Pi	?	quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	
+“	<			“	“		Pi	?	quotation mark				U+201C: LEFT DOUBLE QUOTATION MARK	
+‘	<			\‘	\‘		Pi	?	quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	
+\u200B	=			␣			Cf	?	zero-width space				U+200B: ZERO WIDTH SPACE	
+\u200C	=			ᶻʷⁿʲ			Cf	?	zero-width non-joiner				U+200C: ZERO WIDTH NON-JOINER	
+\u200D	=			ᶻʷʲ			Cf	?	zero-width joiner				U+200D: ZERO WIDTH JOINER	
+\u034F	=			ᶜᵍʲ			Mn	?	combining grapheme joiner				U+034F: COMBINING GRAPHEME JOINER	
+\u2060	=			ʷʲ			Cf	?	word joiner				U+2060 WORD JOINER	
+»	>			»	”		Pf	?	quotation mark				U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
+›	>			›	\’		Pf	?	quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
+”	>			”	”		Pf	?	quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK	
+’	>			\’	\’		Pf	?	quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
 														
 ꕉ	a	a		a	a		Lo		syllable				U+A549: VAI SYLLABLE A	✓
 ꕊ	a	ã		a	an		Lo		syllable				U+A54A: VAI SYLLABLE AN	✓
@@ -315,11 +315,11 @@ var spreadsheet = `vaii	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage
 ꗖ	Z	ʒɔ		ʒɔ	zhɔ		Lo	i	syllable				U+A5D6: VAI SYLLABLE ZHO	✓
 ꖯ	Z	ʒu		ʒu	zhu		Lo	i	syllable				U+A5AF: VAI SYLLABLE ZHU	✓
 														
-§		§		§	§		Po		section sign				U+00A7: SECTION SIGN	
-†		†		†	†		Po		dagger				U+2020: DAGGER	
-‡		‡		‡	‡		Po		double dagger				U+2021: DOUBLE DAGGER	
-′		′		′	′		Po		prime				U+2032: PRIME	
-″		″		″	″		Po		double prime				U+2033: DOUBLE PRIME	
+§		§		§	§		Po	?	section sign				U+00A7: SECTION SIGN	
+†		†		†	†		Po	?	dagger				U+2020: DAGGER	
+‡		‡		‡	‡		Po	?	double dagger				U+2021: DOUBLE DAGGER	
+′		′		′	′		Po	?	prime				U+2032: PRIME	
+″		″		″	″		Po	?	double prime				U+2033: DOUBLE PRIME	
 ꘗ		ɓaŋ		ƁAŊ			Lo	a	logogram		finished		U+A617: VAI SYMBOL BANG	✓
 ꘚ		ɗaŋ		ƊAŊ			Lo	a	logogram		hear, understand	ꕠꘋ	U+A61A: VAI SYMBOL DANG	✓
 (ꔔ)		ɗeŋ		ƊEŊ			Lo	a	logogram		child, small		U+A514: VAI SYLLABLE DEE	
@@ -341,9 +341,7 @@ var spreadsheet = `vaii	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage
 ꘙ		taː		TAA			Lo	a	logogram		go, carry, journey	ꕚꕌ	U+A619: VAI SYMBOL TAA	✓
 ꘕ		tiŋ		TIŊ			Lo	a	logogram		island	ꔳꘋ	U+A615: VAI SYMBOL TING	✓
 ꘝ		tɔŋ		TƆŊ			Lo	a	logogram		be named	ꗋꘋ	U+A61D: VAI SYMBOL TONG	✓
-														
 `														
-														
 														
 latinPanel = ' ́ ̀ ̂ ̌ “ ‘ ” ’ « » Ɓ Ɗ Ɛ Ŋ Ɔ ã à á â ǎ ɓ ɗ d͡ʒ ð ẽ è é ê ě ɛ ɛ̃ ɛ́ ɛ̀ ĩ ì í ŋ ɲ ŋ̇ õ ò ó ô ǒ ɔ ɔ̃ ɔ̀ ɔ́ θ ʃ t͡ʃ ũ̃ ù ú ʒ k͡p ɡ͡b ᵐɓ ᵐɡ͡b ⁿɗ ᶮd͡ʒ ᵑɡ'														
 														

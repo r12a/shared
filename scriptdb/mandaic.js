@@ -3,25 +3,25 @@ var spreadsheet = `mand-mid	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ،	,			,		K	Po		punctuation					U+060C: ARABIC COMMA	✓
 ؛	;			;		P	Po		punctuation					U+061B: ARABIC SEMICOLON	✓
 ؟	?			?		/	Po		punctuation					U+061F: ARABIC QUESTION MARK	✓
-۔	.			.			Po		punctuation					U+06D4: ARABIC FULL STOP	
+۔	.			.			Po	?	punctuation					U+06D4: ARABIC FULL STOP	
 \u085A	[			̱		-	Mn		vocalisation mark					U+085A: MANDAIC VOCALIZATION MARK	
 ࡘ	{	ʕ		ʕ	ʕ	x	Lo		consonant		ࡘࡅࡘࡅࡘ ࡘ		ayin	U+0858: MANDAIC LETTER AIN	✓
 \u0859	/			ˑ		X	Mn		affrication mark					U+0859: MANDAIC AFFRICATION MARK	
 \u085B	&			˖		~	Mn		gemination mark					U+085B: MANDAIC GEMINATION MARK	
-٪	%			%			Po		punctuation					U+066A: ARABIC PERCENT SIGN	
+٪	%			%			Po	?	punctuation					U+066A: ARABIC PERCENT SIGN	
 ࡞	|			¶		z	Po		section delimiter					U+085E: MANDAIC PUNCTUATION	✓
 \bࡏࡅ	£			\bʿu					vowel					U+005C U+0062 U+084F U+0845: REVERSE SOLIDUS, LATIN SMALL LETTER B, LETTER IN, LETTER USHENNA	
 ࡏࡉ\b	£			ʿi\b					vowel					U+084F U+0849 U+005C U+0062: MANDAIC LETTER IN, LETTER AKSA, REVERSE SOLIDUS, LATIN SMALL LETTER B	
-٠	0			0			Nd		digit					U+0660: ARABIC-INDIC DIGIT ZERO	
-١	1			1			Nd		digit					U+0661: ARABIC-INDIC DIGIT ONE	
-٢	2			2			Nd		digit					U+0662: ARABIC-INDIC DIGIT TWO	
-٣	3			3			Nd		digit					U+0663: ARABIC-INDIC DIGIT THREE	
-٤	4			4			Nd		digit					U+0664: ARABIC-INDIC DIGIT FOUR	
-٥	5			5			Nd		digit					U+0665: ARABIC-INDIC DIGIT FIVE	
-٦	6			6			Nd		digit					U+0666: ARABIC-INDIC DIGIT SIX	
-٧	7			7			Nd		digit					U+0667: ARABIC-INDIC DIGIT SEVEN	
-٨	8			8			Nd		digit					U+0668: ARABIC-INDIC DIGIT EIGHT	
-٩	9			9			Nd		digit					U+0669: ARABIC-INDIC DIGIT NINE	
+٠	0			0			Nd	?	digit					U+0660: ARABIC-INDIC DIGIT ZERO	
+١	1			1			Nd	?	digit					U+0661: ARABIC-INDIC DIGIT ONE	
+٢	2			2			Nd	?	digit					U+0662: ARABIC-INDIC DIGIT TWO	
+٣	3			3			Nd	?	digit					U+0663: ARABIC-INDIC DIGIT THREE	
+٤	4			4			Nd	?	digit					U+0664: ARABIC-INDIC DIGIT FOUR	
+٥	5			5			Nd	?	digit					U+0665: ARABIC-INDIC DIGIT FIVE	
+٦	6			6			Nd	?	digit					U+0666: ARABIC-INDIC DIGIT SIX	
+٧	7			7			Nd	?	digit					U+0667: ARABIC-INDIC DIGIT SEVEN	
+٨	8			8			Nd	?	digit					U+0668: ARABIC-INDIC DIGIT EIGHT	
+٩	9			9			Nd	?	digit					U+0669: ARABIC-INDIC DIGIT NINE	
 															
 															
 ࡀ	a	aː a		ā	ā	h	Lo		vowel		ࡀࡅࡀࡅࡀ ࡀ		a	U+0840: MANDAIC LETTER HALQA	✓
@@ -67,26 +67,22 @@ var spreadsheet = `mand-mid	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ࡑࡀ				–		q				for the keyboard				U+0851 U+0840: MANDAIC LETTER ASZ, LETTER HALQA	
 ࡋࡀ				–		b				for the keyboard				U+084B U+0840: MANDAIC LETTER AL, LETTER HALQA	
 ࡊࡀ				–		y				for the keyboard				U+084A U+0840: MANDAIC LETTER AK, LETTER HALQA	
-\‘				–		U	Pi			for the keyboard				U+2018: LEFT SINGLE QUOTATION MARK	
+‘				–		U	Pi	?		for the keyboard				U+2018: LEFT SINGLE QUOTATION MARK	
 ࡍࡀ				–		o				for the keyboard				U+084D U+0840: MANDAIC LETTER AN, LETTER HALQA	
 «				–		{	Pi			for the keyboard				U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
 »				–		}	Pf			for the keyboard				U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
-(				–		D	Ps			for the keyboard				U+0028: LEFT PARENTHESIS	
-)				–		F	Pe			for the keyboard				U+0029: RIGHT PARENTHESIS	
-/				–		L	Po			for the keyboard				U+002F: SOLIDUS	
-{				–		C	Ps			for the keyboard				U+007B: LEFT CURLY BRACKET	
-}				–		V	Pe			for the keyboard				U+007D: RIGHT CURLY BRACKET	
+(				–		D	Ps	?		for the keyboard				U+0028: LEFT PARENTHESIS	
+)				–		F	Pe	?		for the keyboard				U+0029: RIGHT PARENTHESIS	
+/				–		L	Po	?		for the keyboard				U+002F: SOLIDUS	
+{				–		C	Ps	?		for the keyboard				U+007B: LEFT CURLY BRACKET	
+}				–		V	Pe	?		for the keyboard				U+007D: RIGHT CURLY BRACKET	
 ࡐࡀ				–		m				for the keyboard				U+0850 U+0840: MANDAIC LETTER AP, LETTER HALQA	
-\’				–		M	Pf			for the keyboard				U+2019: RIGHT SINGLE QUOTATION MARK	
-.				–		<	Po			for the keyboard				U+002E: FULL STOP	
-,				–		>	Po			for the keyboard				U+002C: COMMA	
-															
+’				–		M	Pf	?		for the keyboard				U+2019: RIGHT SINGLE QUOTATION MARK	
+.				–		<	Po	?		for the keyboard				U+002E: FULL STOP	
+,				–		>	Po	?		for the keyboard				U+002C: COMMA	
 `															
 															
-															
 latinPanel = 'ʿ aː ā ḏ ð ðˤ ħuᵘ ẖ ħ iːʷ iː θ sˤ ṣ ʃ š tˤ ṭ t͡ʃ χ γ ʒ ʕ'															
-															
-															
 															
 var cols = {															
 key: 1,															
@@ -109,4 +105,3 @@ block: 15,
 															
 othertranscriptions: [[5, 'Latin']]															
 }															
-															
