@@ -315,7 +315,7 @@ function showNameDetails (chars, clang, base, target, panel, list, translit, ipa
     
     if (typeof window.removeVowels === 'function') chars = removeVowels(chars)
 
-    out += `<button onclick="openExportWindow('${ url }?q=${ chars }')">Terms</button> \u00A0 `
+    out += `<button onclick="openExportWindow('${ url }.html?q=${ chars }')">Terms</button> \u00A0 `
 	
 
 
