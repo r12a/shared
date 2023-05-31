@@ -30,35 +30,39 @@ var spreadsheet = `latn-bm	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 »	>			»	”		Pf		quotation mark				U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	✓
 ›	>			›			Pf	?	quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
 a	a	a		a			Ll		vowel		a		U+0061: LATIN SMALL LETTER A	
-á	a	a˦		á			Ll	i	vowel with high tone				U+00E1: LATIN SMALL LETTER A WITH ACUTE	✓
-à	a	a˨		à			Ll	i	vowel with low tone				U+00E0: LATIN SMALL LETTER A WITH GRAVE	✓
-ǎ	a	a˨˦		ǎ			Ll	i	vowel with descending tone				U+01CE: LATIN SMALL LETTER A WITH CARON	
+á	a	a˦		á			Ll	r	vowel with high tone				U+00E1: LATIN SMALL LETTER A WITH ACUTE	✓
+à	a	a˨		à			Ll	r	vowel with low tone				U+00E0: LATIN SMALL LETTER A WITH GRAVE	✓
+ǎ	a	a˨˦		ǎ			Ll	r	vowel with descending tone				U+01CE: LATIN SMALL LETTER A WITH CARON	
 A	A	A		A			Ll		vowel		a		U+0041: LATIN CAPITAL LETTER A	
 b	b	b		b			Ll		consonant		be		U+0062: LATIN SMALL LETTER B	
 B	B	B		B			Ll		consonant		be		U+0042: LATIN CAPITAL LETTER B	
+nb		m͡b		nb					prenasalised consonant				U+006E U+0062: LATIN SMALL LETTER N, SMALL LETTER B	
+Nb		m͡b		Nb					prenasalised consonant				U+004E U+0062: LATIN CAPITAL LETTER N, SMALL LETTER B	
 c	c	t͡ʃ		ʧ			Ll		consonant		ce		U+0063: LATIN SMALL LETTER C	
 C	C	T͡Ʃ		ʧ̄			Ll		consonant		ce		U+0043: LATIN CAPITAL LETTER C	
+nc		n͡ʃ		nc					prenasalised consonant				U+006E U+0063: LATIN SMALL LETTER N, SMALL LETTER C	
+Nc		n͡ʃ		Nc					prenasalised consonant				U+004E U+0063: LATIN CAPITAL LETTER N, SMALL LETTER C	
 d	d	d		d			Ll		consonant		de		U+0064: LATIN SMALL LETTER D	
 D	D	D		D			Ll		consonant		de		U+0044: LATIN CAPITAL LETTER D	
 ɛ	e	ɛ		ɛ			Ll		vowel		ɛ		U+025B: LATIN SMALL LETTER OPEN E	✓
 e	e	e		e			Ll		vowel		e		U+0065: LATIN SMALL LETTER E	
-ɛ́	e	ɛ˦		ɛ́				i	vowel with high tone				U+025B U+0301: LATIN SMALL LETTER OPEN E, COMBINING ACUTE ACCENT	
-ɛ̀	e	ɛ˨		ɛ̀				i	vowel with low tone				U+025B U+0300: LATIN SMALL LETTER OPEN E, COMBINING GRAVE ACCENT	
-é	e	e˦		é			Ll	i	vowel with high tone				U+00E9: LATIN SMALL LETTER E WITH ACUTE	✓
-è	e	e˨		è			Ll	i	vowel with low tone				U+00E8: LATIN SMALL LETTER E WITH GRAVE	✓
-ě	e	e˨˦		ě			Ll	i	vowel with descending tone				U+011B: LATIN SMALL LETTER E WITH CARON	
+ɛ́	e	ɛ˦		ɛ́				r	vowel with high tone				U+025B U+0301: LATIN SMALL LETTER OPEN E, COMBINING ACUTE ACCENT	
+ɛ̀	e	ɛ˨		ɛ̀				r	vowel with low tone				U+025B U+0300: LATIN SMALL LETTER OPEN E, COMBINING GRAVE ACCENT	
+é	e	e˦		é			Ll	r	vowel with high tone				U+00E9: LATIN SMALL LETTER E WITH ACUTE	✓
+è	e	e˨		è			Ll	r	vowel with low tone				U+00E8: LATIN SMALL LETTER E WITH GRAVE	✓
+ě	e	e˨˦		ě			Ll	r	vowel with descending tone				U+011B: LATIN SMALL LETTER E WITH CARON	
 E	E	E		E			Ll		vowel		e		U+0045: LATIN CAPITAL LETTER E	
 Ɛ	E	Ɛ		Ɛ			Ll		vowel		ɛ		U+0190: LATIN CAPITAL LETTER OPEN E	✓
 f	f	f		f			Ll		consonant		ef		U+0066: LATIN SMALL LETTER F	
 F	F	F		F			Ll		consonant		ef		U+0046: LATIN CAPITAL LETTER F	
-g	g	g gʷ ɣ		g			Ll		consonant		ge		U+0067: LATIN SMALL LETTER G	
-G	G	G Gʷ ɣ		G			Ll		consonant		ge		U+0047: LATIN CAPITAL LETTER G	
+g	g	ɡ ɡʷ ɣ		g			Ll		consonant		ge		U+0067: LATIN SMALL LETTER G	
+G	G	Ɡ Ɡʷ ɣ		G			Ll		consonant		ge		U+0047: LATIN CAPITAL LETTER G	
 h	h	h		h			Ll		consonant		ha		U+0068: LATIN SMALL LETTER H	
 H	H	H		H			Ll		consonant		ha		U+0048: LATIN CAPITAL LETTER H	
 i	i	i		i			Ll		vowel		i		U+0069: LATIN SMALL LETTER I	
-í	i	i˦		í			Ll	i	vowel with high tone				U+00ED: LATIN SMALL LETTER I WITH ACUTE	✓
-ì	i	i˨		ì			Ll	i	vowel with low tone				U+00EC: LATIN SMALL LETTER I WITH GRAVE	✓
-ǐ	i	i˨˦		ǐ			Ll	i	vowel with descending tone				U+01D0: LATIN SMALL LETTER I WITH CARON	
+í	i	i˦		í			Ll	r	vowel with high tone				U+00ED: LATIN SMALL LETTER I WITH ACUTE	✓
+ì	i	i˨		ì			Ll	r	vowel with low tone				U+00EC: LATIN SMALL LETTER I WITH GRAVE	✓
+ǐ	i	i˨˦		ǐ			Ll	r	vowel with descending tone				U+01D0: LATIN SMALL LETTER I WITH CARON	
 I	I	I		I			Ll		vowel		i		U+0049: LATIN CAPITAL LETTER I	
 j	j	d͡ʒ		ʤ			Ll		consonant		je		U+006A: LATIN SMALL LETTER J	
 J	J	D͡Ʒ		ʤ̄			Ll		consonant		je		U+004A: LATIN CAPITAL LETTER J	
@@ -76,25 +80,31 @@ N	N	N		N			Ll		consonant		ɛn		U+004E: LATIN CAPITAL LETTER N
 Ŋ	N	Ŋ		Ŋ			Ll		consonant		ɛŋ		U+014A: LATIN CAPITAL LETTER ENG	✓
 ɔ	o	ɔ		ɔ			Ll		vowel		ɔ		U+0254: LATIN SMALL LETTER OPEN O	✓
 o	o	o		o			Ll		vowel		o		U+006F: LATIN SMALL LETTER O	
-ɔ́	o	ɔ˦		ɔ́				i	vowel with high tone				U+0254 U+0301: LATIN SMALL LETTER OPEN O, COMBINING ACUTE ACCENT	
-ɔ̀	o	ɔ˨		ɔ̀				i	vowel with low tone				U+0254 U+0300: LATIN SMALL LETTER OPEN O, COMBINING GRAVE ACCENT	
-ó	o	o˦		ó			Ll	i	vowel with high tone				U+00F3: LATIN SMALL LETTER O WITH ACUTE	✓
-ò	o	o˨		ò			Ll	i	vowel with low tone				U+00F2: LATIN SMALL LETTER O WITH GRAVE	✓
-ǒ	o	o˨˦		ǒ			Ll	i	vowel with descending tone				U+01D2: LATIN SMALL LETTER O WITH CARON	
+ɔ́	o	ɔ˦		ɔ́				r	vowel with high tone				U+0254 U+0301: LATIN SMALL LETTER OPEN O, COMBINING ACUTE ACCENT	
+ɔ̀	o	ɔ˨		ɔ̀				r	vowel with low tone				U+0254 U+0300: LATIN SMALL LETTER OPEN O, COMBINING GRAVE ACCENT	
+ó	o	o˦		ó			Ll	r	vowel with high tone				U+00F3: LATIN SMALL LETTER O WITH ACUTE	✓
+ò	o	o˨		ò			Ll	r	vowel with low tone				U+00F2: LATIN SMALL LETTER O WITH GRAVE	✓
+ǒ	o	o˨˦		ǒ			Ll	r	vowel with descending tone				U+01D2: LATIN SMALL LETTER O WITH CARON	
 O	O	O		O			Ll		vowel		o		U+004F: LATIN CAPITAL LETTER O	
 Ɔ	O	Ɔ		Ɔ			Ll		vowel		ɔ		U+0186: LATIN CAPITAL LETTER OPEN O	✓
 p	p	p		p			Ll		consonant		pe		U+0070: LATIN SMALL LETTER P	
 P	P	P		P			Ll		consonant		pe		U+0050: LATIN CAPITAL LETTER P	
+np		m͡p		np					prenasalised consonant				U+006E U+0070: LATIN SMALL LETTER N, SMALL LETTER P	
+Np		m͡p		Np					prenasalised consonant				U+004E U+0070: LATIN CAPITAL LETTER N, SMALL LETTER P	
 r	r	r		r			Ll		consonant		ɛr		U+0072: LATIN SMALL LETTER R	
 R	R	R		R			Ll		consonant		ɛr		U+0052: LATIN CAPITAL LETTER R	
 s	s	s		s			Ll		consonant		ɛs		U+0073: LATIN SMALL LETTER S	
+ns		n͡z		ns					prenasalised consonant				U+006E U+0073: LATIN SMALL LETTER N, SMALL LETTER S	
 S	S	S		S			Ll		consonant		ɛs		U+0053: LATIN CAPITAL LETTER S	
+Ns		n͡z		Ns					prenasalised consonant				U+004E U+0073: LATIN CAPITAL LETTER N, SMALL LETTER S	
 t	t	t		t			Ll		consonant		te		U+0074: LATIN SMALL LETTER T	
 T	T	T		T			Ll		consonant		te		U+0054: LATIN CAPITAL LETTER T	
+nt		n͡t		nt					prenasalised consonant				U+006E U+0074: LATIN SMALL LETTER N, SMALL LETTER T	
+Nt		n͡t		Nt					prenasalised consonant				U+004E U+0074: LATIN CAPITAL LETTER N, SMALL LETTER T	
 u	u	u		u			Ll		vowel		u		U+0075: LATIN SMALL LETTER U	
-ú	u	u˦		ú			Ll	i	vowel with high tone				U+00FA: LATIN SMALL LETTER U WITH ACUTE	✓
-ù	u	u˨		ù			Ll	i	vowel with low tone				U+00F9: LATIN SMALL LETTER U WITH GRAVE	✓
-ǔ	u	u˨˦		ǔ			Ll	i	vowel with descending tone				U+01D4: LATIN SMALL LETTER U WITH CARON	
+ú	u	u˦		ú			Ll	r	vowel with high tone				U+00FA: LATIN SMALL LETTER U WITH ACUTE	✓
+ù	u	u˨		ù			Ll	r	vowel with low tone				U+00F9: LATIN SMALL LETTER U WITH GRAVE	✓
+ǔ	u	u˨˦		ǔ			Ll	r	vowel with descending tone				U+01D4: LATIN SMALL LETTER U WITH CARON	
 U	U	U		U			Ll		vowel		u		U+0055: LATIN CAPITAL LETTER U	
 w	w	w u		w			Ll		consonant		wa		U+0077: LATIN SMALL LETTER W	
 W	W	W		W			Ll		consonant		wa		U+0057: LATIN CAPITAL LETTER W	
@@ -103,8 +113,10 @@ Y	Y	J		J			Ll		consonant		ye		U+0059: LATIN CAPITAL LETTER Y
 z	z	z		z			Ll		consonant		ze		U+007A: LATIN SMALL LETTER Z	
 Z	Z	Z		Z			Ll		consonant		ze		U+005A: LATIN CAPITAL LETTER Z	
 														
-kh		ɣ		ɳ				l	consonant	loanword transliterations			U+006B U+0068: LATIN SMALL LETTER K, SMALL LETTER H	
-sh		ʃ		ŋ				l	consonant	loanword transliterations			U+0073 U+0068: LATIN SMALL LETTER S, SMALL LETTER H	
+kh		ɣ		kh				l	consonant	loanword transliterations			U+006B U+0068: LATIN SMALL LETTER K, SMALL LETTER H	
+sh		ʃ		sh				l	consonant	loanword transliterations			U+0073 U+0068: LATIN SMALL LETTER S, SMALL LETTER H	
+Kh		ɣ		Kh				l	consonant	loanword transliterations			U+004B U+0048: LATIN CAPITAL LETTER K, SMALL LETTER H	
+Sh		ʃ		Sh				l	consonant	loanword transliterations			U+0053 U+0048: LATIN CAPITAL LETTER S, SMALL LETTER H	
 														
 §				§	§		Po	?	section sign				U+00A7: SECTION SIGN	✓
 †				†	†		Po	?	dagger				U+2020: DAGGER	
