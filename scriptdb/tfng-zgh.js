@@ -34,14 +34,14 @@ var spreadsheet = `tfng-zgh	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 															
 ⴰ	a	a		a	a		Lo		vowel		ⵢⴰ	ya	U+2D30: TIFINAGH LETTER YA	ا‬	✓
 ⴱ	b	b		b	b		Lo		plosive		ⵢⴰⴱ	yab	U+2D31: TIFINAGH LETTER YAB	ب	✓
-ⴲ	b	β		β	b		Lo		fricative	extended	ⵢⴰⴲ	yab fricative	U+2D32: TIFINAGH LETTER YABH	ٻ	✓
-ⴿ	c	x		x	k		Lo		fricative	extended	ⵢⴰⴿ	yak fricative	U+2D3F: TIFINAGH LETTER YAKHH	ک	✓
+ⴲ	b	β		β	b		Lo	i	fricative	extended	ⵢⴰⴲ	yab fricative	U+2D32: TIFINAGH LETTER YABH	ٻ	✓
+ⴿ	c	x		x	k		Lo	i	fricative	extended	ⵢⴰⴿ	yak fricative	U+2D3F: TIFINAGH LETTER YAKHH	ک	✓
 ⴷ	d	d		d	d		Lo		plosive		ⵢⴰⴷ	yad	U+2D37: TIFINAGH LETTER YAD	د	✓
 ⴹ	d	dˁ		dˁ	ḍ		Lo		plosive		ⵢⴰⴹ	yaḍ	U+2D39: TIFINAGH LETTER YADD	ض	✓
 ⴵ	d	d͡ʒ		ʤ	dj		Lo	u	affricate	touareg/kabyle	ⵢⴰⴵ	yadj	U+2D35: TIFINAGH LETTER BERBER ACADEMY YAJ	ج	✓
 ⴶ	d	d͡ʒ		ʤ̇	dj		Lo	u	affricate	touareg/kabyle	ⵢⴰⴶ	yadj	U+2D36: TIFINAGH LETTER YAJ	ج	✓
-ⴸ	d	ð		ð	d		Lo		fricative	extended	ⵢⴰⴸ	yad fricative	U+2D38: TIFINAGH LETTER YADH	ذ	✓
-ⴺ	d	ðˁ		ðˁ	ḍ		Lo		fricative	extended	ⵢⴰⴺ	yaḍ fricative	U+2D3A: TIFINAGH LETTER YADDH	ظ	✓
+ⴸ	d	ð		ð	d		Lo	i	fricative	extended	ⵢⴰⴸ	yad fricative	U+2D38: TIFINAGH LETTER YADH	ذ	✓
+ⴺ	d	ðˁ		ðˁ	ḍ		Lo	i	fricative	extended	ⵢⴰⴺ	yaḍ fricative	U+2D3A: TIFINAGH LETTER YADDH	ظ	✓
 ⴻ	e	ə		ə	e		Lo		vowel		ⵢⴻⵢ	yey	U+2D3B: TIFINAGH LETTER YEY	ه	✓
 ⵦ	e	eː		ė	e		Lo	u	vowel	touareg		ye	U+2D66: TIFINAGH LETTER YE		✓
 ⴼ	f	f		f	f		Lo		fricative		ⵢⴰⴼ	yaf	U+2D3C: TIFINAGH LETTER YAF	ف	✓
@@ -51,7 +51,7 @@ var spreadsheet = `tfng-zgh	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ⵁ	h	h		ḣ	h		Lo	u	fricative	Berber Academy	ⵢⴰⵁ	yah	U+2D41: TIFINAGH LETTER BERBER ACADEMY YAH	ھ	✓
 ⵂ	h	h		ḧ	h		Lo	u	fricative	touareg	ⵢⴰⵂ	yah	U+2D42: TIFINAGH LETTER TUAREG YAH	ھ	✓
 ⵉ	i	i		i	i		Lo		vowel		ⵢⵉ	yi	U+2D49: TIFINAGH LETTER YI	ي	✓
-ⴴ	j	ʝ		ʝ	g		Lo		fricative	extended	ⵢⴰⴴ	yag fricative	U+2D34: TIFINAGH LETTER YAGHH	ڲ	✓
+ⴴ	j	ʝ		ʝ	g		Lo	i	fricative	extended	ⵢⴰⴴ	yag fricative	U+2D34: TIFINAGH LETTER YAGHH	ڲ	✓
 ⵢ	j	j		y	y		Lo		approximant		ⵢⴰⵢ	yay	U+2D62: TIFINAGH LETTER YAY	ي	✓
 ⴽ	k	k		k	k		Lo		plosive		ⵢⴰⴽ	yak	U+2D3D: TIFINAGH LETTER YAK	ک	✓
 ⴾ	k	k		k̇	k		Lo	u	plosive	touareg	ⵢⴰⴾ	yak	U+2D3E: TIFINAGH LETTER TUAREG YAK	ک	✓
@@ -64,7 +64,7 @@ var spreadsheet = `tfng-zgh	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ⵒ	p	p		p	p		Lo	l	plosive	foreign sound	ⵢⴰⵒ	yap	U+2D52: TIFINAGH LETTER YAP	پ	✓
 ⵇ	q	q qʷ ɢ		q	q		Lo		plosive		ⵢⴰⵇ	yaq	U+2D47: TIFINAGH LETTER YAQ	ق	✓
 ⵈ	q	q qʷ		q̇	q		Lo	u	plosive	touareg	ⵢⴰⵈ	yaq	U+2D48: TIFINAGH LETTER TUAREG YAQ	ق	✓
-ⵝ	Q	θ		θ	t		Lo		fricative	extended	ⵢⴰⵝ	yat fricative	U+2D5D: TIFINAGH LETTER YATH	ت	✓
+ⵝ	Q	θ		θ	t		Lo	i	fricative	extended	ⵢⴰⵝ	yat fricative	U+2D5D: TIFINAGH LETTER YATH	ت	✓
 ⵖ	r	ʁ ɣ		ʁ	ɣ gh		Lo		fricative		ⵢⴰⵖ	yaγ	U+2D56: TIFINAGH LETTER YAGH	غ	✓
 ⵗ	r	ʁ		ʁ̇	gh γ		Lo	u	fricative	touareg	ⵢⴰⵗ	yay	U+2D57: TIFINAGH LETTER TUAREG YAGH	غ	✓
 ⵘ	r	ʁ		ʁ̈	gh γ j		Lo	u	fricative	aïr	ⵢⴰⵘ	yaγ	U+2D58: TIFINAGH LETTER AYER YAGH	غ ج	✓
@@ -77,7 +77,7 @@ var spreadsheet = `tfng-zgh	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ⵟ	t	tˁ		tˁ	ṭ		Lo		plosive		ⵢⴰⵟ	yaṭ	U+2D5F: TIFINAGH LETTER YATT	ط	✓
 ⵞ	t	t͡ʃ		ʧ	ch tš		Lo	u	affricate	touareg/kabyle	ⵢⴰⵞ	yatš	U+2D5E: TIFINAGH LETTER YACH	تش	✓
 ⵓ	u	u		ʊ	u w		Lo		vowel		ⵢⵓ	yu	U+2D53: TIFINAGH LETTER YU	و ۉ	✓
-ⵠ	v	v		v	v		Lo		fricative	foreign sound	ⵢⴰⵠ	yav	U+2D60: TIFINAGH LETTER YAV	ۋ	✓
+ⵠ	v	v		v	v		Lo	i	fricative	foreign sound	ⵢⴰⵠ	yav	U+2D60: TIFINAGH LETTER YAV	ۋ	✓
 ⵡ	w	w		w	w		Lo		approximant		ⵢⴰⵡ	yaw	U+2D61: TIFINAGH LETTER YAW	ۉ	✓
 ⵯ	w	ʷ		ʷ	ʷ		Lm		labiovelarisation mark		ⵜⴰⵎⴰⵜⴰⵔⵜ	tamatart	U+2D6F: TIFINAGH MODIFIER LETTER LABIALIZATION MARK	ٗ	✓
 ⵅ	x	χ		χ	x kh		Lo		fricative		ⵢⴰⵅ	yax	U+2D45: TIFINAGH LETTER YAKH	خ	✓
@@ -95,14 +95,14 @@ var spreadsheet = `tfng-zgh	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ̂				ˆ			Mn	u	diacritic	notation form			U+0302: COMBINING CIRCUMFLEX ACCENT		
 ̄				ˉ			Mn	u	diacritic	notation form			U+0304: COMBINING MACRON		
 															
-ⵅⵯ		xʷ		xʷ					labiovelar consonant	regional	ⵢⴰⵅⵯ	yakhw	U+2D45 U+2D6F: TIFINAGH LETTER YAKH, MODIFIER LETTER LABIALIZATION MARK		
-ⵇⵯ		qʷ		qʷ					labiovelar consonant	regional	ⵢⴰⵇⵯ	yaqw	U+2D47 U+2D6F: TIFINAGH LETTER YAQ, MODIFIER LETTER LABIALIZATION MARK		
-ⵖⵯ		ɣʷ		ɣʷ					labiovelar consonant	regional	ⵢⴰⵖⵯ	yaghw	U+2D56 U+2D6F: TIFINAGH LETTER YAGH, MODIFIER LETTER LABIALIZATION MARK		
+ⵅⵯ		xʷ		xʷ				i	labiovelar consonant	regional	ⵢⴰⵅⵯ	yakhw	U+2D45 U+2D6F: TIFINAGH LETTER YAKH, MODIFIER LETTER LABIALIZATION MARK		
+ⵇⵯ		qʷ		qʷ				i	labiovelar consonant	regional	ⵢⴰⵇⵯ	yaqw	U+2D47 U+2D6F: TIFINAGH LETTER YAQ, MODIFIER LETTER LABIALIZATION MARK		
+ⵖⵯ		ɣʷ		ɣʷ				i	labiovelar consonant	regional	ⵢⴰⵖⵯ	yaghw	U+2D56 U+2D6F: TIFINAGH LETTER YAGH, MODIFIER LETTER LABIALIZATION MARK		
 															
-ⵜⵙ		t͡s								infrequent, may be ligated in IRCAM extended set			U+2D5C U+2D59: TIFINAGH LETTER YAT, TIFINAGH LETTER YAS		
-ⴷⵣ		d͡z								infrequent, may be ligated in IRCAM extended set			U+2D37 U+2D63: TIFINAGH LETTER YAD, TIFINAGH LETTER YAZ		
-ⵜⵛ		t͡ʃ								infrequent, may be ligated in IRCAM extended set			U+2D5C U+2D5B: TIFINAGH LETTER YAT, TIFINAGH LETTER YASH		
-ⴷⵊ		d͡ʒ								infrequent, may be ligated in IRCAM extended set			U+2D37 U+2D4A: TIFINAGH LETTER YAD, TIFINAGH LETTER YAZH		
+ⵜⵙ		t͡s						i		infrequent, may be ligated in IRCAM extended set			U+2D5C U+2D59: TIFINAGH LETTER YAT, TIFINAGH LETTER YAS		
+ⴷⵣ		d͡z						i		infrequent, may be ligated in IRCAM extended set			U+2D37 U+2D63: TIFINAGH LETTER YAD, TIFINAGH LETTER YAZ		
+ⵜⵛ		t͡ʃ						i		infrequent, may be ligated in IRCAM extended set			U+2D5C U+2D5B: TIFINAGH LETTER YAT, TIFINAGH LETTER YASH		
+ⴷⵊ		d͡ʒ						i		infrequent, may be ligated in IRCAM extended set			U+2D37 U+2D4A: TIFINAGH LETTER YAD, TIFINAGH LETTER YAZH		
 															
 ʼ				ʼ	ʼ		Lm	?	apostrophe				U+02BC: MODIFIER LETTER APOSTROPHE		
 §				§	§		Po	?	section sign				U+00A7: SECTION SIGN		
