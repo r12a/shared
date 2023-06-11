@@ -101,7 +101,6 @@ var spreadsheet = `talu-khb	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᦵ-ᦲ	o	ɤ ɤː		e͕-i	e͕-i				composite vowel						U+19B5 U+19B2: NEW TAI LUE VOWEL SIGN E, VOWEL SIGN II	
 ᦽ	o	oi̯		oʲ	oʲ	o	Lo		dipthong						U+19BD: NEW TAI LUE VOWEL SIGN OY	✓
 ᦾ	o	ɔi̯		ɔʲ	ɔʲ	r	Lo		dipthong						U+19BE: NEW TAI LUE VOWEL SIGN OAY	✓
-ᦵ-ᦲ	o	ɔʔ		e͕-i	e͕-i				composite vowel						U+19B5 U+19B2: NEW TAI LUE VOWEL SIGN E, VOWEL SIGN II	
 ᦔ	p	p	a	p	p	p	Lo		high tone consonant		ᦗ				U+1994: NEW TAI LUE LETTER HIGH PA	✓
 ᦗ	p	p	a	p̱	p̱	P	Lo		low tone consonant			ᦔ			U+1997: NEW TAI LUE LETTER LOW PA	✓
 ᦕ	p	pʰ	a	pʰ	pʰ	j	Lo		high tone consonant		ᦘ				U+1995: NEW TAI LUE LETTER HIGH PHA	✓

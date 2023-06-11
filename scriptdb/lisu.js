@@ -42,7 +42,6 @@ var spreadsheet = `lisu-lis	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ꓮ	a	ɑ		ɑ	ɑ	a	Lo		vowel				U+A4EE: LISU LETTER A	✓
 ˍ	a			ä	ä	q	Lm		vowel				U+02CD: MODIFIER LETTER LOW MACRON	
 ꓐ	b	b	a	b	b	b	Lo		consonant				U+A4D0: LISU LETTER BA	✓
-ꓫ	c	ɕ	a	ɕ	ɕ	x	Lo		consonant				U+A4EB: LISU LETTER SHA	✓
 ꓓ	d	d	a	d	d	d	Lo		consonant				U+A4D3: LISU LETTER DA	✓
 ꓜ	d	d͡z	a	ʣ	ʣ	z	Lo		consonant				U+A4DC: LISU LETTER DZA	✓
 ꓙ	d	ʥ	a	ʥ	ʥ	j	Lo		consonant				U+A4D9: LISU LETTER JA	✓
@@ -66,6 +65,7 @@ var spreadsheet = `lisu-lis	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ꓑ	p	p	a	p	p	p	Lo		consonant				U+A4D1: LISU LETTER PA	✓
 ꓒ	p	pʰ	a	pʰ	pʰ	P	Lo		consonant				U+A4D2: LISU LETTER PHA	✓
 ꓢ	s	s	a	s	s	s	Lo		consonant				U+A4E2: LISU LETTER SA	✓
+ꓫ	S	ʃ	a	ʃ	ʃ	x	Lo		consonant				U+A4EB: LISU LETTER SHA	✓
 ꓔ	t	t	a	t	t	t	Lo		consonant				U+A4D4: LISU LETTER TA	✓
 ꓕ	t	tʰ	a	tʰ	tʰ	T	Lo		consonant				U+A4D5: LISU LETTER THA	✓
 ꓝ	t	t͡s	a	ʦ	ʦ	f	Lo		consonant				U+A4DD: LISU LETTER TSA	✓
@@ -80,8 +80,8 @@ var spreadsheet = `lisu-lis	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ꓵ	y	y		y	y	U	Lo		vowel				U+A4F5: LISU LETTER UE	✓
 ꓤ	z	z	a	z	z	r	Lo		consonant				U+A4E4: LISU LETTER ZA	✓
 ꓣ	z	ʒ	a	ʒ	ʒ	R	Lo		consonant				U+A4E3: LISU LETTER ZHA	✓
-ꓬ	z	ʑ	a	ʑ	ʑ	y	Lo		consonant/vowel				U+A4EC: LISU LETTER YA	✓
-														
+ꓬ	j	j	a	j	j	y	Lo		consonant/vowel				U+A4EC: LISU LETTER YA	✓
+ꓠꓬ	n	ɲ	a	nj					digraph				U+A4E0 U+A4EC: LISU LETTER NA, LISU LETTER YA	
 														
 ꓹꓼ				²⁵		W			tone mark				U+A4F9 U+A4FC: LISU LETTER TONE NA PO, LISU LETTER TONE MYA NA	
 ʼ				ʼ	ʼ		Lm	?	apostrophe				U+02BC: MODIFIER LETTER APOSTROPHE	

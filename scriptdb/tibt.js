@@ -71,7 +71,7 @@ var spreadsheet = `tibt-bo	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 \u0F75	£	uː		ū			Mn	x	precomposed sanskrit vowel						U+0F75: TIBETAN VOWEL SIGN UU	
 \u0F76	£	ri		r̥			Mn	d	precomposed sanskrit vowel						U+0F76: TIBETAN VOWEL SIGN VOCALIC R	
 \u0F78	£	li		l̥			Mn	d	precomposed sanskrit vowel						U+0F78: TIBETAN VOWEL SIGN VOCALIC L	
-\u0F77	£	riː		r̥̄			Mn	d	precomposed sanskrit vowel	strongly deprecated					U+0F77: TIBETAN VOWEL SIGN VOCALIC RR	
+\u0F77	£	riː		r̥̄			Mn	du	precomposed sanskrit vowel	strongly deprecated					U+0F77: TIBETAN VOWEL SIGN VOCALIC RR	
 \u0F79	£	liː		l̥̄			Mn	d	precomposed sanskrit vowel	strongly deprecated					U+0F79: TIBETAN VOWEL SIGN VOCALIC LL	
 \u0F81	£	iː		ï̄			Mn	x	precomposed sanskrit vowel						U+0F81: TIBETAN VOWEL SIGN REVERSED II	
 འ	a	a		á	a		Lo		consonant		ྰ			a-chung	U+0F60: TIBETAN LETTER -A	✓
@@ -88,8 +88,8 @@ var spreadsheet = `tibt-bo	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ྕ	C	ʧ		ʧ̰	c		Mn		subjoined consonant			ཅ			U+0F95: TIBETAN SUBJOINED LETTER CA	✓
 ྖ	C	ʧʰ		ʧ̰ʰ	ch		Mn		subjoined consonant			ཆ			U+0F96: TIBETAN SUBJOINED LETTER CHA	✓
 ཛ	d	ʣ		ʣ	dz		Lo		consonant		ྫ				U+0F5B: TIBETAN LETTER DZA	✓
-ཌ	D	ɖ		ɖ			Lo		sanskrit consonant		ྜ				U+0F4C: TIBETAN LETTER DDA	✓
-ྜ	D	ɖ		ɖ̰			Mn		sanskrit consonant			ཌ			U+0F9C: TIBETAN SUBJOINED LETTER DDA	✓
+ཌ	D	ɖ		ɖ			Lo	l	sanskrit consonant		ྜ				U+0F4C: TIBETAN LETTER DDA	✓
+ྜ	D	ɖ		ɖ̰			Mn	l	sanskrit consonant			ཌ			U+0F9C: TIBETAN SUBJOINED LETTER DDA	✓
 ཌྷ	D	ɖʰ		ɖh̰			s		sanskrit consonant						U+0F4C U+0FB7: TIBETAN LETTER DDA, SUBJOINED LETTER HA	
 དྷ	D	d̪ʱ		dh̰			s		sanskrit consonant						U+0F51 U+0FB7: TIBETAN LETTER DA, SUBJOINED LETTER HA	
 ཛྷ	D	ʣʰ		ʣh̰			s		sanskrit consonant						U+0F5B U+0FB7: TIBETAN LETTER DZA, SUBJOINED LETTER HA	
@@ -138,8 +138,8 @@ var spreadsheet = `tibt-bo	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ཉ	n	ɲ		ɲ	ny		Lo		consonant		ྙ				U+0F49: TIBETAN LETTER NYA	✓
 ྔ	N	ŋ		ŋ̰	ng		Mn		subjoined consonant			ང			U+0F94: TIBETAN SUBJOINED LETTER NGA	✓
 ྙ	N	ɲ		ɲ̰	ny		Mn		subjoined consonant			ཉ			U+0F99: TIBETAN SUBJOINED LETTER NYA	✓
-ཎ	N	ɳ		ɳ			Lo		sanskrit consonant		ྞ				U+0F4E: TIBETAN LETTER NNA	✓
-ྞ	N	ɳ		ɳ̰			Mn		sanskrit consonant			ཎ			U+0F9E: TIBETAN SUBJOINED LETTER NNA	✓
+ཎ	N	ɳ		ɳ			Lo	l	sanskrit consonant		ྞ				U+0F4E: TIBETAN LETTER NNA	✓
+ྞ	N	ɳ		ɳ̰			Mn	l	sanskrit consonant			ཎ			U+0F9E: TIBETAN SUBJOINED LETTER NNA	✓
 ན	n¶	n		n	n		Lo		consonant		ྣ				U+0F53: TIBETAN LETTER NA	✓
 ྣ	N¶	n		n̰	n		Mn		subjoined consonant			ན			U+0FA3: TIBETAN SUBJOINED LETTER NA	✓
 ོ	o	o		o	o		Mn		vowel						U+0F7C: TIBETAN VOWEL SIGN O	✓
@@ -161,8 +161,8 @@ var spreadsheet = `tibt-bo	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ས	s	s		s	s		Lo		consonant		ྶ				U+0F66: TIBETAN LETTER SA	✓
 ཤ	s	ʃ		ʃ	sh		Lo		consonant		ྵ				U+0F64: TIBETAN LETTER SHA	✓
 ྶ	S	s		s̰	s		Mn		subjoined consonant			ས			U+0FB6: TIBETAN SUBJOINED LETTER SA	✓
-ྵ	S	ʃ		ʃ̰	sh		Mn		subjoined consonant			ཤ			U+0FB5: TIBETAN SUBJOINED LETTER SSA	✓
-ཥ	S	ʂ		ʂ			Lo		sanskrit consonant						U+0F65: TIBETAN LETTER SSA	✓
+ྵ	S	ʃ		ʃ̰	sh		Mn	l	subjoined consonant			ཤ			U+0FB5: TIBETAN SUBJOINED LETTER SSA	✓
+ཥ	S	ʂ		ʂ			Lo	l	sanskrit consonant						U+0F65: TIBETAN LETTER SSA	✓
 ྴ	S	ʂ		ʂ̰			Mn		sanskrit consonant						U+0FB4: TIBETAN SUBJOINED LETTER SHA	✓
 ཐ	t	tʰ		tʰ	th		Lo		consonant		ྠ				U+0F50: TIBETAN LETTER THA	✓
 ཙ	t	ʦ		ʦ	ts		Lo		consonant		ྩ				U+0F59: TIBETAN LETTER TSA	✓
@@ -170,10 +170,10 @@ var spreadsheet = `tibt-bo	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ྠ	T	tʰ		t̰ʰ	th		Mn		subjoined consonant			ཐ			U+0FA0: TIBETAN SUBJOINED LETTER THA	✓
 ྩ	T	ʦ		ʦ̰	ts		Mn		subjoined consonant			ཙ			U+0FA9: TIBETAN SUBJOINED LETTER TSA	✓
 ྪ	T	ʦʰ		ʦ̰ʰ	tsh		Mn		subjoined consonant			ཚ			U+0FAA: TIBETAN SUBJOINED LETTER TSHA	✓
-ཊ	T	ʈ		ʈ			Lo		sanskrit consonant		ྚ				U+0F4A: TIBETAN LETTER TTA	✓
-ཋ	T	ʈʰ		ʈʰ			Lo		sanskrit consonant		ྛ				U+0F4B: TIBETAN LETTER TTHA	✓
-ྚ	T	ʈ		ʈ̰			Mn		sanskrit consonant			ཊ			U+0F9A: TIBETAN SUBJOINED LETTER TTA	✓
-ྛ	T	ʈʰ		ʈ̰ʰ			Mn		sanskrit consonant			ཋ			U+0F9B: TIBETAN SUBJOINED LETTER TTHA	✓
+ཊ	T	ʈ		ʈ			Lo	l	sanskrit consonant		ྚ				U+0F4A: TIBETAN LETTER TTA	✓
+ཋ	T	ʈʰ		ʈʰ			Lo	l	sanskrit consonant		ྛ				U+0F4B: TIBETAN LETTER TTHA	✓
+ྚ	T	ʈ		ʈ̰			Mn	l	sanskrit consonant			ཊ			U+0F9A: TIBETAN SUBJOINED LETTER TTA	✓
+ྛ	T	ʈʰ		ʈ̰ʰ			Mn	l	sanskrit consonant			ཋ			U+0F9B: TIBETAN SUBJOINED LETTER TTHA	✓
 ཏ	t¶	t		t	t		Lo		consonant		ྟ				U+0F4F: TIBETAN LETTER TA	✓
 ྟ	T¶	t		t̰	t		Mn		subjoined consonant			ཏ			U+0F9F: TIBETAN SUBJOINED LETTER TA	✓
 ུ	u	u		u	u		Mn		vowel						U+0F74: TIBETAN VOWEL SIGN U	✓

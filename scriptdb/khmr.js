@@ -225,6 +225,7 @@ var spreadsheet = `khmr-km	key	ipa	ipa+	translit	ungen	kbd	class	status	type	usa
 ហ្វ៊		f ʋ	ɔː	h͞v̱′	hv			l	series 2 consonant	for loan words						U+17A0 U+17D2 U+179C U+17CA: KHMER LETTER HA, SIGN COENG, LETTER VO, SIGN TRIISAP	
 ហ្ស		ʒ z	ɑː	h͞s	hs			l	series 1 consonant	for loan words						U+17A0 U+17D2 U+179F: KHMER LETTER HA, SIGN COENG, LETTER SA	
 ហ្ស៊		ʒ z	ɔː	h͞s′	hs			l	series 2 consonant	for loan words						U+17A0 U+17D2 U+179F U+17CA: KHMER LETTER HA, SIGN COENG, LETTER SA, SIGN TRIISAP	
+◌																C	
 `																	
 																	
 latinPanel = `« » Ä à á â æ ñ ô ý ā ă ī ŋ ś ū ȳ ɑ ɓ ɔ ɕ ɗ ə ɛ ɨ ɲ ʂ ʋ ʔ ʰ ʲ ʳ ʷ ʼ ː ᵃ ᵊ ᵒ ḍ ḥ ḵ ḷ ḻ ṃ ṅ ṇ ṉ ṟ ṣ ṫ ṭ ṯ ẏ ạ ị ọ ụ ​ – ‘ ’ ′ ″ ₔ ∅ ⸯ ‹ ›`																	
