@@ -208,9 +208,9 @@ function showNameDetails (chars, clang, base, target, panel, list, translit, ipa
     gloss = '<div class="multilineGlossedText">'
     for (t=-1;t<graphemes.length;t++) {
         if (t===-1) {
-            gloss += `<div class="stack"><span class="rt translitGloss" lang="und-fonipa" title="Transliteration of the text."><img src="${ iconURL }" class="copyIcon" onclick="copyPanelText('.translitGloss')" title="Copy the transliteration." alt="Copy transliteration"></span><span class="rb"><img src="${ iconURL }" onclick="copyPanelText('.rb')" title="Copy the text." alt="Copy text"></span>`
+            gloss += `<div class="stack"><span class="rt translitGloss" lang="und-fonipa" title="Transliteration of the text."><img src="${ iconURL }" class="copyIcon" onclick="copyPanelText('.translitGloss')" title="Copy the transliteration." alt="Copy transliteration"></span><span class="rb"><img src="${ iconURL }" onclick="copyPanelText('.rb')" class="copyIcon" title="Copy the text." alt="Copy text"></span>`
             if (ipa !== false) {
-                if (ipa[t+1]) gloss += `<span class="rt IPAGloss" lang="und-fonipa" title="IPA transcription of the text."><img src="${ iconURL }" onclick="copyPanelText('.IPAGloss')" title="Copy the IPA transcription." alt="Copy IPA"></span>`
+                if (ipa[t+1]) gloss += `<span class="rt IPAGloss" lang="und-fonipa" title="IPA transcription of the text."><img class="copyIcon" src="${ iconURL }" onclick="copyPanelText('.IPAGloss')" title="Copy the IPA transcription." alt="Copy IPA"></span>`
                 else gloss += `<span class="rt">&nbsp;</span>`
                 }
             gloss += `</div>`
@@ -291,7 +291,7 @@ function showNameDetails (chars, clang, base, target, panel, list, translit, ipa
 	// write out the bottom line
 	out += '<p style="text-align:left; margin-block-start: 1em; line-height:2rem;" id="panelSharingLine">'
     //out += '<button onclick="document.getElementById(\'panelShare\').style.display=\'block\'">Export</button> \u00A0 '
-    out += '<button onclick="copyPanelList()">Copy list</button> \u00A0 '
+    out += '<button onclick="copyPanelList()" style="cursor:copy;">Copy list</button> \u00A0 '
 	
     out += `<button onclick="openExportWindow('../../app-analysestring/index.html?chars=${ chars }')">Details</button> \u00A0 `
 	
@@ -402,6 +402,11 @@ function copyPanelList () {
         out += imgs[i].alt+' '+lines[i].textContent
         }
     navigator.clipboard.writeText(out)
+    
+    document.getElementById('copyNotice').style.display = 'block';
+      setTimeout(() => {
+        document.getElementById('copyNotice').style.display = 'none'
+      }, '500')
 	}
 
 
@@ -424,6 +429,11 @@ function copyPanelText (type) {
     for (var i=0;i<text.length;i++) out += text[i].textContent
     if (type === '.IPAGloss') out = out.replace(/–/g,'').replace(/‹/g,'').replace(/›/g,'')
     navigator.clipboard.writeText(out)
+    
+    document.getElementById('copyNotice').style.display = 'block';
+      setTimeout(() => {
+        document.getElementById('copyNotice').style.display = 'none'
+      }, '500')
 	}
 
 
