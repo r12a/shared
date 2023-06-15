@@ -56,15 +56,15 @@ var spreadsheet = `bali-ban	key	ipa	ipa+	translit	tulisan bali	kbd	class	status	
 \u1B05\u1B35	A	ɑː		ɑ̣̄					compound vowel						ᬆ	U+1B05 U+1B35: BALINESE LETTER AKARA, VOWEL SIGN TEDUNG		
 \u1B11\u1B35	A	aːu		ạʷ					compound vowel						ᬒ	U+1B11 U+1B35: BALINESE LETTER OKARA, VOWEL SIGN TEDUNG		
 \u1B3F\u1B35	a	aːu		aʷ					compound vowel						ᭁ	U+1B3F U+1B35: BALINESE VOWEL SIGN TALING REPA, VOWEL SIGN TEDUNG		
-ᬩ	b	b	a ə	b	b	b	Lo		consonant				ᬩ ᭄ᬩ			U+1B29: BALINESE LETTER BA	b	✓
-ᬪ	B	b	a ə	ḅ	b bh	v	Lo		kawi consonant	kawi			ᬪ ᭄ᬪ		ba kembang	U+1B2A: BALINESE LETTER BA KEMBANG	b bh	✓
-ᬘ	c	t͡ʃ	a ə	ʧ	c	c	Lo		consonant				ᬘ ᭄ᬘ			U+1B18: BALINESE LETTER CA	c	✓
-ᬙ	C	t͡ʃ	a ə	T͡Ʃ			Lo	r	honorific consonant	only found in subjoined form			ᬙ ᭄ᬙ			U+1B19: BALINESE LETTER CA LACA	c ch	✓
-᭄ᬙ	C	t͡ʃ	a ə	͞T͡Ʃ				r	honorific consonant	very rare			ᬙ ᭄ᬙ			U+1B44 U+1B19: BALINESE ADEG ADEG, LETTER CA LACA	c ch	
-ᬤ	d	d	a ə	d	d	d	Lo		consonant				ᬤ ᭄ᬤ			U+1B24: BALINESE LETTER DA	d	✓
-ᬥ	D	d	a ə	ḍ	d ḍ dh	p	Lo		kawi consonant	kawi			ᬥ ᭄ᬥ		da madu	U+1B25: BALINESE LETTER DA MADU	dh	✓
-ᬟ	D	d	a ə	D			Lo		honorific consonant				ᬟ ᭄ᬟ			U+1B1F: BALINESE LETTER DA MURDA ALPAPRANA	ḍ	✓
-ᬠ	D	d	a ə	Ḍ			Lo		honorific consonant				ᬠ ᭄ᬠ			U+1B20: BALINESE LETTER DA MURDA MAHAPRANA		✓
+ᬩ	b	b	a ə	b	b	b	Lo		consonant				ᬩ᭄ᬩ			U+1B29: BALINESE LETTER BA	b	✓
+ᬪ	B	b	a ə	ḅ	b bh	v	Lo		kawi consonant	kawi			ᬪ᭄ᬪ		ba kembang	U+1B2A: BALINESE LETTER BA KEMBANG	b bh	✓
+ᬘ	c	t͡ʃ	a ə	ʧ	c	c	Lo		consonant				ᬘ᭄ᬘ			U+1B18: BALINESE LETTER CA	c	✓
+ᬙ	C	t͡ʃ	a ə	T͡Ʃ			Lo	r	honorific consonant	only found in subjoined form			ᬙ᭄ᬙ			U+1B19: BALINESE LETTER CA LACA	c ch	✓
+᭄ᬙ	C	t͡ʃ	a ə	͞T͡Ʃ				r	honorific consonant	very rare			ᬙ᭄ᬙ			U+1B44 U+1B19: BALINESE ADEG ADEG, LETTER CA LACA	c ch	
+ᬤ	d	d	a ə	d	d	d	Lo		consonant				ᬤ᭄ᬤ			U+1B24: BALINESE LETTER DA	d	✓
+ᬥ	D	d	a ə	ḍ	d ḍ dh	p	Lo		kawi consonant	kawi			ᬥ᭄ᬥ		da madu	U+1B25: BALINESE LETTER DA MADU	dh	✓
+ᬟ	D	d	a ə	D			Lo		honorific consonant				ᬟ᭄ᬟ			U+1B1F: BALINESE LETTER DA MURDA ALPAPRANA	ḍ	✓
+ᬠ	D	d	a ə	Ḍ			Lo		honorific consonant				ᬠ᭄ᬠ			U+1B20: BALINESE LETTER DA MURDA MAHAPRANA		✓
 ᬤ᬴	D	ɖ		dˑ					consonant+nukta							U+1B24 U+1B34: BALINESE LETTER DA, SIGN REREKAN		
 ᬾ	e	e ɛ		e	é e	e	Mc		vowel sign			ᬏ			taleng	U+1B3E: BALINESE VOWEL SIGN TALING	e	✓
 ᭂ	E	ə		ə	ě e	f	Mn		vowel sign						pepet	U+1B42: BALINESE VOWEL SIGN PEPET	ĕ	✓
@@ -72,64 +72,64 @@ var spreadsheet = `bali-ban	key	ipa	ipa+	translit	tulisan bali	kbd	class	status	
 ᬏ	E	E Ɛ		ẹ	é	(	Lo		independent vowel		ᬾ				e kara	U+1B0F: BALINESE LETTER EKARA	E	✓
 \u1B42\u1B35	e	əː		ə̄					compound vowel						ᭃ	U+1B42 U+1B35: BALINESE VOWEL SIGN PEPET, VOWEL SIGN TEDUNG		
 ᬧ᬴	F	f		pˑ	f				consonant+nukta							U+1B27 U+1B34: BALINESE LETTER PA, SIGN REREKAN	f	
-ᬕ	g	ɡ	a ə	g	g	g	Lo		consonant				ᬕ ᭄ᬕ			U+1B15: BALINESE LETTER GA	g	✓
-ᬖ	G	ɡ	a ə	g̣	gh		Lo		kawi consonant	kawi			ᬖ ᭄ᬖ		ga gora	U+1B16: BALINESE LETTER GA GORA	g gh	✓
-ᬳ	h	h ∅	a ə	h	h ∅	h	Lo		consonant				ᬳ ᭄ᬳ			U+1B33: BALINESE LETTER HA	h ∅	✓
+ᬕ	g	ɡ	a ə	g	g	g	Lo		consonant				ᬕ᭄ᬕ			U+1B15: BALINESE LETTER GA	g	✓
+ᬖ	G	ɡ	a ə	g̣	gh		Lo		kawi consonant	kawi			ᬖ᭄ᬖ		ga gora	U+1B16: BALINESE LETTER GA GORA	g gh	✓
+ᬳ	h	h ∅	a ə	h	h ∅	h	Lo		consonant				ᬳ᭄ᬳ			U+1B33: BALINESE LETTER HA	h ∅	✓
 ᬄ	H	-h		h̽	h		Mc		final consonant						bisah	U+1B04: BALINESE SIGN BISAH	h	✓
 ᬳ᬴	H	ħ		hˑ					consonant+nukta							U+1B33 U+1B34: BALINESE LETTER HA, SIGN REREKAN	h	
 ᬶ	i	i		i	i	i	Mn		vowel sign			ᬇ			ulu	U+1B36: BALINESE VOWEL SIGN ULU	i	✓
-ᬷ	i	iː		ī	i	I	Mn		vowel sign			ᬈ			ulu-sari	U+1B37: BALINESE VOWEL SIGN ULU SARI	ī	✓
+ᬷ	i	i		ī	i	I	Mn		vowel sign			ᬈ			ulu-sari	U+1B37: BALINESE VOWEL SIGN ULU SARI	ī	✓
 ᬇ	I	I		ị	i		Lo		independent vowel		ᬶ				i kara	U+1B07: BALINESE LETTER IKARA	I	✓
-ᬈ	I	Iː		ị̄			Lo		independent vowel		ᬷ				i kara tedong	U+1B08: BALINESE LETTER IKARA TEDUNG	Ī	✓
-\u1B07\u1B35	I	iː		ị̄					compound vowel						ᬈ	U+1B07 U+1B35: BALINESE LETTER IKARA, VOWEL SIGN TEDUNG		
-ᬚ	j	d͡ʒ	a ə	ʤ	j	j	Lo		consonant				ᬚ ᭄ᬚ			U+1B1A: BALINESE LETTER JA	j	✓
-ᬛ	J	d͡ʒ	a ə	D͡Ʒ	jh		Lo	r	honorific consonant	one word only			ᬛ ᭄ᬛ			U+1B1B: BALINESE LETTER JA JERA		✓
-ᬓ	k	k	a ə	k	k	k	Lo		consonant				ᬓ ᭄ᬓ			U+1B13: BALINESE LETTER KA	k	✓
-ᬔ	K	k	a ə	K			Lo	r	honorific consonant	very rare			ᬔ ᭄ᬔ			U+1B14: BALINESE LETTER KA MAHAPRANA		✓
-ᬮ	l	l	a ə	l	l	l	Lo		consonant				ᬮ ᭄ᬮ			U+1B2E: BALINESE LETTER LA	l	✓
+ᬈ	I	I		ị̄			Lo		independent vowel		ᬷ				i kara tedong	U+1B08: BALINESE LETTER IKARA TEDUNG	Ī	✓
+\u1B07\u1B35	I	i		ị̄					compound vowel						ᬈ	U+1B07 U+1B35: BALINESE LETTER IKARA, VOWEL SIGN TEDUNG		
+ᬚ	j	d͡ʒ	a ə	ʤ	j	j	Lo		consonant				ᬚ᭄ᬚ			U+1B1A: BALINESE LETTER JA	j	✓
+ᬛ	J	d͡ʒ	a ə	D͡Ʒ	jh		Lo	r	honorific consonant	one word only			ᬛ᭄ᬛ			U+1B1B: BALINESE LETTER JA JERA		✓
+ᬓ	k	k	a ə	k	k	k	Lo		consonant				ᬓ᭄ᬓ			U+1B13: BALINESE LETTER KA	k	✓
+ᬔ	K	k	a ə	K			Lo	r	honorific consonant	very rare			ᬔ᭄ᬔ			U+1B14: BALINESE LETTER KA MAHAPRANA		✓
+ᬮ	l	l	a ə	l	l	l	Lo		consonant				ᬮ᭄ᬮ			U+1B2E: BALINESE LETTER LA	l	✓
 ᬍ	l	lə		l̥̣	le		Lo		vocalic		ᬼ					U+1B0D: BALINESE LETTER LA LENGA	lĕ	✓
 ᬎ	l	ləː		l̥̣̄			Lo		vocalic		ᬽ					U+1B0E: BALINESE LETTER LA LENGA TEDUNG	lö	✓
 ᬼ	L	lə		l̥			Mn		vocalic			ᬍ				U+1B3C: BALINESE VOWEL SIGN LA LENGA	lĕ	✓
 ᬽ	L	ləː		l̥̄			Mc		vocalic			ᬎ				U+1B3D: BALINESE VOWEL SIGN LA LENGA TEDUNG	lö	✓
 \u1B0D\u1B35	L	ləː		l̥̣̄					compound vowel						ᬎ	U+1B0D U+1B35: BALINESE LETTER LA LENGA, VOWEL SIGN TEDUNG		
 \u1B3C\u1B35	L	ləː		l̥̄					compound vowel						ᬽ	U+1B3C U+1B35: BALINESE VOWEL SIGN LA LENGA, VOWEL SIGN TEDUNG		
-ᬫ	m	m	a ə	m	m	m	Lo		consonant				ᬫ ᭄ᬫ			U+1B2B: BALINESE LETTER MA	m	✓
+ᬫ	m	m	a ə	m	m	m	Lo		consonant				ᬫ᭄ᬫ			U+1B2B: BALINESE LETTER MA	m	✓
 ᬀ	M	-m		m̽		{	Mn	i	final consonant						ulu ricem	U+1B00: BALINESE SIGN ULU RICEM		✓
-ᬦ	n	n	a ə	n	n	n	Lo		consonant				ᬦ ᭄ᬦ			U+1B26: BALINESE LETTER NA	n	✓
-ᬗ	n	ŋ	a ə	ŋ	ng	;	Lo		consonant				ᬗ ᭄ᬗ			U+1B17: BALINESE LETTER NGA	ng	✓
-ᬜ	n	ɲ	a ə	ɲ	nya	x	Lo		consonant				ᬜ ᭄ᬜ			U+1B1C: BALINESE LETTER NYA	ñ	✓
+ᬦ	n	n	a ə	n	n	n	Lo		consonant				ᬦ᭄ᬦ			U+1B26: BALINESE LETTER NA	n	✓
+ᬗ	n	ŋ	a ə	ŋ	ng	;	Lo		consonant				ᬗ᭄ᬗ			U+1B17: BALINESE LETTER NGA	ng	✓
+ᬜ	n	ɲ	a ə	ɲ	nya	x	Lo		consonant				ᬜ᭄ᬜ			U+1B1C: BALINESE LETTER NYA	ñ	✓
 ᬂ	N	-ŋ		ŋ̽	ng	]	Mn		final consonant						cecek	U+1B02: BALINESE SIGN CECEK	ng	✓
 ᬁ	N	-ŋ		ŋ̇̽		}	Mn	i	final consonant						ulu candra	U+1B01: BALINESE SIGN ULU CANDRA		✓
-ᬡ	N	n	a ə	ṇ	n ṇ	z	Lo		kawi consonant	kawi			ᬡ ᭄ᬡ		na rambat	U+1B21: BALINESE LETTER NA RAMBAT	n ṇ	✓
+ᬡ	N	n	a ə	ṇ	n ṇ	z	Lo		kawi consonant	kawi			ᬡ᭄ᬡ		na rambat	U+1B21: BALINESE LETTER NA RAMBAT	n ṇ	✓
 ᭀ	o	o ɔ		o	o	o	Mc		vowel sign			ᬑ			taleng tedong	U+1B40: BALINESE VOWEL SIGN TALING TEDUNG	o	✓
 ᬑ	O	O Ɔ		ọ	o	)	Lo		independent vowel		ᭀ				o kara	U+1B11: BALINESE LETTER OKARA	O	✓
 \u1B3E\u1B35	o	o ɔ		o					compound vowel						ᭀ	U+1B3E U+1B35: BALINESE VOWEL SIGN TALING, VOWEL SIGN TEDUNG		
-ᬧ	p	p	a ə	p	p	p	Lo		consonant				ᬧ ᭄ᬧ			U+1B27: BALINESE LETTER PA	p	✓
-ᬨ	P	p	a ə	p̣	p ph		Lo		kawi consonant	kawi			ᬨ ᭄ᬨ		pa kapal	U+1B28: BALINESE LETTER PA KAPAL	p ph	✓
-ᬭ	r	r	a ə	r	r	r	Lo		consonant				ᬭ ᭄ᬭ		ra / guwung	U+1B2D: BALINESE LETTER RA	r	✓
+ᬧ	p	p	a ə	p	p	p	Lo		consonant				ᬧ᭄ᬧ			U+1B27: BALINESE LETTER PA	p	✓
+ᬨ	P	p	a ə	p̣	p ph		Lo		kawi consonant	kawi			ᬨ᭄ᬨ		pa kapal	U+1B28: BALINESE LETTER PA KAPAL	p ph	✓
+ᬭ	r	r	a ə	r	r	r	Lo		consonant				ᬭ᭄ᬭ		ra / guwung	U+1B2D: BALINESE LETTER RA	r	✓
 ᬃ	R	-r		r̽	r	[	Mn		final consonant						surang	U+1B03: BALINESE SIGN SURANG	r	✓
-ᬋ	r	rə		r̥̣	rě		Lo		vocalic		ᬺ		ᬋ ᭄ᬋ		ra repa	U+1B0B: BALINESE LETTER RA REPA	rĕ	✓
+ᬋ	r	rə		r̥̣	rě		Lo		vocalic		ᬺ		ᬋ᭄ᬋ		ra repa	U+1B0B: BALINESE LETTER RA REPA	rĕ	✓
 ᬌ	r	rəː		r̥̣̄			Lo		vocalic		ᬻ					U+1B0C: BALINESE LETTER RA REPA TEDUNG	rö	✓
 ᬺ	R	rə		r̥	rě		Mn		vowel sign/semi-vowel/medial consonant			ᬋ			guwung macelek	U+1B3A: BALINESE VOWEL SIGN RA REPA	rĕ	✓
 ᬻ	R	rəː		r̥̄			Mc		vowel sign/semi-vowel/medial consonant			ᬌ			guwung macelek tedong	U+1B3B: BALINESE VOWEL SIGN RA REPA TEDUNG	rö	✓
 \u1B0B\u1B35	R	rəː		r̥̣̄					compound vowel						ᬌ	U+1B0B U+1B35: BALINESE LETTER RA REPA, VOWEL SIGN TEDUNG		
 \u1B3A\u1B35	R	rəː		r̥̄					compound vowel						ᬻ	U+1B3A U+1B35: BALINESE VOWEL SIGN RA REPA, VOWEL SIGN TEDUNG		
-ᬲ	s	s	a ə	s	s	s	Lo		consonant				ᬲ ᭄ᬲ			U+1B32: BALINESE LETTER SA	s	✓
-ᬰ	S	s	a ə	ṣ	s sy	%	Lo		kawi consonant	kawi			ᬰ ᭄ᬰ		sa saga	U+1B30: BALINESE LETTER SA SAGA	s ṣ	✓
-ᬱ	S	s	a ə	s̱	s ṣ	$	Lo		kawi consonant	kawi			ᬱ ᭄ᬱ		sa sapa	U+1B31: BALINESE LETTER SA SAPA	s ś	✓
-ᬢ	t	t	a ə	t	t	t	Lo		consonant				ᬢ ᭄ᬢ			U+1B22: BALINESE LETTER TA	t	✓
-ᬞ	T¶	t	a ə	T	t		Lo		honorific consonant				ᬞ ᭄ᬞ			U+1B1E: BALINESE LETTER TA MURDA MAHAPRANA		✓
-ᬝ	T	t	a ə	ṭ	t ṭ		Lo		kawi consonant	kawi			ᬝ ᭄ᬝ		ta latik	U+1B1D: BALINESE LETTER TA LATIK	ṭ	✓
-ᬣ	T	t	a ə	ṯ	t th	@	Lo		kawi consonant	kawi			ᬣ ᭄ᬣ		ta tawa	U+1B23: BALINESE LETTER TA TAWA	t th	✓
+ᬲ	s	s	a ə	s	s	s	Lo		consonant				ᬲ᭄ᬲ			U+1B32: BALINESE LETTER SA	s	✓
+ᬰ	S	s	a ə	ṣ	s sy	%	Lo		kawi consonant	kawi			ᬰ᭄ᬰ		sa saga	U+1B30: BALINESE LETTER SA SAGA	s ṣ	✓
+ᬱ	S	s	a ə	s̱	s ṣ	$	Lo		kawi consonant	kawi			ᬱ᭄ᬱ		sa sapa	U+1B31: BALINESE LETTER SA SAPA	s ś	✓
+ᬢ	t	t	a ə	t	t	t	Lo		consonant				ᬢ᭄ᬢ			U+1B22: BALINESE LETTER TA	t	✓
+ᬞ	T¶	t	a ə	T	t		Lo		honorific consonant				ᬞ᭄ᬞ			U+1B1E: BALINESE LETTER TA MURDA MAHAPRANA		✓
+ᬝ	T	t	a ə	ṭ	t ṭ		Lo		kawi consonant	kawi			ᬝ᭄ᬝ		ta latik	U+1B1D: BALINESE LETTER TA LATIK	ṭ	✓
+ᬣ	T	t	a ə	ṯ	t th	@	Lo		kawi consonant	kawi			ᬣ᭄ᬣ		ta tawa	U+1B23: BALINESE LETTER TA TAWA	t th	✓
 ᬸ	u	u		u	u	u	Mn		vowel sign			ᬉ			suku	U+1B38: BALINESE VOWEL SIGN SUKU	u	✓
 ᬹ	u	uː		ū	u	U	Mn		vowel sign			ᬊ			suku-ilut	U+1B39: BALINESE VOWEL SIGN SUKU ILUT	ū	✓
 ᬉ	U	U		ụ	u	*	Lo		independent vowel		ᬸ				u kara	U+1B09: BALINESE LETTER UKARA	U	✓
-ᬊ	U	Uː		ụ̄			Lo		independent vowel		ᬹ				u kara tedong	U+1B0A: BALINESE LETTER UKARA TEDUNG	Ū	✓
-\u1B09\u1B35	U	uː		ụ̄					compound vowel						ᬊ	U+1B09 U+1B35: BALINESE LETTER UKARA, VOWEL SIGN TEDUNG		
+ᬊ	U	U		ụ̄			Lo		independent vowel		ᬹ				u kara tedong	U+1B0A: BALINESE LETTER UKARA TEDUNG	Ū	✓
+\u1B09\u1B35	U	u		ụ̄					compound vowel						ᬊ	U+1B09 U+1B35: BALINESE LETTER UKARA, VOWEL SIGN TEDUNG		
 ᬯ᬴	V	v		wˑ					consonant+nukta							U+1B2F U+1B34: BALINESE LETTER WA, SIGN REREKAN		
-ᬯ	w	w	a ə	w	w	w	Lo		consonant				ᬯ ᭄ᬯ			U+1B2F: BALINESE LETTER WA	w	✓
+ᬯ	w	w	a ə	w	w	w	Lo		consonant				ᬯ᭄ᬯ			U+1B2F: BALINESE LETTER WA	w	✓
 ᬓ᬴	X	x		kˑ					consonant+nukta							U+1B13 U+1B34: BALINESE LETTER KA, SIGN REREKAN	kh	
-ᬬ	y	j	a ə	y	y	y	Lo		consonant				ᬬ ᭄ᬬ			U+1B2C: BALINESE LETTER YA	y	✓
+ᬬ	y	j	a ə	y	y	y	Lo		consonant				ᬬ᭄ᬬ			U+1B2C: BALINESE LETTER YA	y	✓
 ᬕ᬴	Y	ɣ		gˑ					consonant+nukta							U+1B15 U+1B34: BALINESE LETTER GA, SIGN REREKAN	gh	
 ᬚ᬴	Z	z		ʤˑ					consonant+nukta							U+1B1A U+1B34: BALINESE LETTER JA, SIGN REREKAN	z	
 																		
