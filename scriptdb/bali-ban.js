@@ -17,12 +17,12 @@ var spreadsheet = `bali-ban	key	ipa	ipa+	translit	tulisan bali	kbd	class	status	
 )	)			)			Pe	?	parenthesis							U+0029: RIGHT PARENTHESIS	)	
 ]	)			]			Pe	?	bracket							U+005D: RIGHT SQUARE BRACKET	]	
 \u200B	]			␣			Cf		zero-width space							U+200B: ZERO WIDTH SPACE		
-ᬗ᬴	{	ʔ		ŋˑ					consonant+nukta							U+1B17 U+1B34: BALINESE LETTER NGA, SIGN REREKAN		
+ᬗ᬴	{	ʔ		ŋˑ				l	consonant+nukta							U+1B17 U+1B34: BALINESE LETTER NGA, SIGN REREKAN		
 ᭚	@			ᵖ>		<	Po		text start symbol						panten	U+1B5A: BALINESE PANTI		✓
 ᭛	@			ʳ>		>	Po		text start symbol						pamada	U+1B5B: BALINESE PAMADA		✓
 ᭜	@			°			Po		punctuation							U+1B5C: BALINESE WINDU		✓
 ᭄	*			͞		/	Mc		vowel-killer						adegadeg	U+1B44: BALINESE ADEG ADEG		✓
-᬴	/			ˑ			Mn		nukta						rerekan	U+1B34: BALINESE SIGN REREKAN		✓
+᬴	/			ˑ			Mn	l	nukta						rerekan	U+1B34: BALINESE SIGN REREKAN		✓
 %	%			%			Po	?	percentage mark							U+0025: PERCENT SIGN		
 ‰	%			‰			Po	?	per mille mark							U+2030: PER MILLE SIGN		
 ᭐	±	0		0̣	0	0	Nd		digit						bindu/windu	U+1B50: BALINESE DIGIT ZERO	0	✓
@@ -65,18 +65,18 @@ var spreadsheet = `bali-ban	key	ipa	ipa+	translit	tulisan bali	kbd	class	status	
 ᬥ	D	d	a ə	ḍ	d ḍ dh	p	Lo		kawi consonant	kawi			ᬥ᭄ᬥ		da madu	U+1B25: BALINESE LETTER DA MADU	dh	✓
 ᬟ	D	d	a ə	D			Lo		honorific consonant				ᬟ᭄ᬟ			U+1B1F: BALINESE LETTER DA MURDA ALPAPRANA	ḍ	✓
 ᬠ	D	d	a ə	Ḍ			Lo		honorific consonant				ᬠ᭄ᬠ			U+1B20: BALINESE LETTER DA MURDA MAHAPRANA		✓
-ᬤ᬴	D	ɖ		dˑ					consonant+nukta							U+1B24 U+1B34: BALINESE LETTER DA, SIGN REREKAN		
+ᬤ᬴	D	ɖ		dˑ				l	consonant+nukta							U+1B24 U+1B34: BALINESE LETTER DA, SIGN REREKAN		
 ᬾ	e	e ɛ		e	é e	e	Mc		vowel sign			ᬏ			taleng	U+1B3E: BALINESE VOWEL SIGN TALING	e	✓
 ᭂ	E	ə		ə	ě e	f	Mn		vowel sign						pepet	U+1B42: BALINESE VOWEL SIGN PEPET	ĕ	✓
 ᭃ	E	əː		ə̄		F	Mc		vowel sign						pepet tedong	U+1B43: BALINESE VOWEL SIGN PEPET TEDUNG	ö	✓
 ᬏ	E	E Ɛ		ẹ	é	(	Lo		independent vowel		ᬾ				e kara	U+1B0F: BALINESE LETTER EKARA	E	✓
 \u1B42\u1B35	e	əː		ə̄					compound vowel						ᭃ	U+1B42 U+1B35: BALINESE VOWEL SIGN PEPET, VOWEL SIGN TEDUNG		
-ᬧ᬴	F	f		pˑ	f				consonant+nukta							U+1B27 U+1B34: BALINESE LETTER PA, SIGN REREKAN	f	
+ᬧ᬴	F	f		pˑ	f			l	consonant+nukta							U+1B27 U+1B34: BALINESE LETTER PA, SIGN REREKAN	f	
 ᬕ	g	ɡ	a ə	g	g	g	Lo		consonant				ᬕ᭄ᬕ			U+1B15: BALINESE LETTER GA	g	✓
 ᬖ	G	ɡ	a ə	g̣	gh		Lo		kawi consonant	kawi			ᬖ᭄ᬖ		ga gora	U+1B16: BALINESE LETTER GA GORA	g gh	✓
 ᬳ	h	h ∅	a ə	h	h ∅	h	Lo		consonant				ᬳ᭄ᬳ			U+1B33: BALINESE LETTER HA	h ∅	✓
 ᬄ	H	-h		h̽	h		Mc		final consonant						bisah	U+1B04: BALINESE SIGN BISAH	h	✓
-ᬳ᬴	H	ħ		hˑ					consonant+nukta							U+1B33 U+1B34: BALINESE LETTER HA, SIGN REREKAN	h	
+ᬳ᬴	H	ħ		hˑ				l	consonant+nukta							U+1B33 U+1B34: BALINESE LETTER HA, SIGN REREKAN	h	
 ᬶ	i	i		i	i	i	Mn		vowel sign			ᬇ			ulu	U+1B36: BALINESE VOWEL SIGN ULU	i	✓
 ᬷ	i	i		ī	i	I	Mn		vowel sign			ᬈ			ulu-sari	U+1B37: BALINESE VOWEL SIGN ULU SARI	ī	✓
 ᬇ	I	I		ị	i		Lo		independent vowel		ᬶ				i kara	U+1B07: BALINESE LETTER IKARA	I	✓
@@ -126,12 +126,12 @@ var spreadsheet = `bali-ban	key	ipa	ipa+	translit	tulisan bali	kbd	class	status	
 ᬉ	U	U		ụ	u	*	Lo		independent vowel		ᬸ				u kara	U+1B09: BALINESE LETTER UKARA	U	✓
 ᬊ	U	U		ụ̄			Lo		independent vowel		ᬹ				u kara tedong	U+1B0A: BALINESE LETTER UKARA TEDUNG	Ū	✓
 \u1B09\u1B35	U	u		ụ̄					compound vowel						ᬊ	U+1B09 U+1B35: BALINESE LETTER UKARA, VOWEL SIGN TEDUNG		
-ᬯ᬴	V	v		wˑ					consonant+nukta							U+1B2F U+1B34: BALINESE LETTER WA, SIGN REREKAN		
+ᬯ᬴	V	v		wˑ				l	consonant+nukta							U+1B2F U+1B34: BALINESE LETTER WA, SIGN REREKAN		
 ᬯ	w	w	a ə	w	w	w	Lo		consonant				ᬯ᭄ᬯ			U+1B2F: BALINESE LETTER WA	w	✓
-ᬓ᬴	X	x		kˑ					consonant+nukta							U+1B13 U+1B34: BALINESE LETTER KA, SIGN REREKAN	kh	
+ᬓ᬴	X	x		kˑ				l	consonant+nukta							U+1B13 U+1B34: BALINESE LETTER KA, SIGN REREKAN	kh	
 ᬬ	y	j	a ə	y	y	y	Lo		consonant				ᬬ᭄ᬬ			U+1B2C: BALINESE LETTER YA	y	✓
-ᬕ᬴	Y	ɣ		gˑ					consonant+nukta							U+1B15 U+1B34: BALINESE LETTER GA, SIGN REREKAN	gh	
-ᬚ᬴	Z	z		ʤˑ					consonant+nukta							U+1B1A U+1B34: BALINESE LETTER JA, SIGN REREKAN	z	
+ᬕ᬴	Y	ɣ		gˑ				l	consonant+nukta							U+1B15 U+1B34: BALINESE LETTER GA, SIGN REREKAN	gh	
+ᬚ᬴	Z	z		ʤˑ				l	consonant+nukta							U+1B1A U+1B34: BALINESE LETTER JA, SIGN REREKAN	z	
 																		
 ᬒᬁ																		
 																		
