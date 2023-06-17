@@ -28,7 +28,7 @@ var spreadsheet = `mymr-my	key	ipa	ipa+	transc	translit	kbd	class	status	type	us
 ၇	7			7	7	7	Nd		digit						U+1047: MYANMAR DIGIT SEVEN	✓
 ၈	8			8	8	8	Nd		digit						U+1048: MYANMAR DIGIT EIGHT	✓
 ၉	9			9	9	9	Nd		digit						U+1049: MYANMAR DIGIT NINE	✓
-အ	a	ʔ	a ə	ʔ	a	t	Lo		consonant/indpendent vowel				အ	ʔa̰	U+1021: MYANMAR LETTER A	✓
+အ	a	ʔa	a ə	ʔ	a	t	Lo		consonant/indpendent vowel				အ	ʔa̰	U+1021: MYANMAR LETTER A	✓
 ာ	a	-a		a	a	m	Mc		vowel sign						U+102C: MYANMAR VOWEL SIGN AA	✓
 ါ	a	-a		ä	a	g	Mc		vowel sign						U+102B: MYANMAR VOWEL SIGN TALL AA	✓
 အာ	a	-a		ʔa	a		s		standalone vowel						U+1021 U+102C: MYANMAR LETTER A, VOWEL SIGN AA	
