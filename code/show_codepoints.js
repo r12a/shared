@@ -364,13 +364,17 @@ function showNameDetails (chars, clang, base, target, panel, list, translit, ipa
     out += '<p style="text-align:right"><img src="../common28/icons/close.png" style="cursor:pointer;" id="character_panelshare_close_button" alt="Close"'
 	out += ` onclick="document.getElementById('panelShare').style.display='none'"`
 	out += '></p>'
-    END OF DECOMMISSIONED CODE */
+    END OF DECOMMISSIONED CODE 
+    
+	out += '<p style="text-align:right"><img src="../../shared/images/close.png" style="cursor:pointer;" id="character_panel_close_button" alt="Close"'
+	out += ' onclick="document.getElementById(\'panel\').style.display = \'none\'"'
+	out += '></p>'*/
 	
 	
 	// add a close button
-	out += '<p style="text-align:right"><img src="../../shared/images/close.png" style="cursor:pointer;" id="character_panel_close_button" alt="Close"'
+	out += '<p id="character_panel_close_button" '
 	out += ' onclick="document.getElementById(\'panel\').style.display = \'none\'"'
-	out += '></p>'
+	out += '>X</p>'
 	panel.innerHTML = out
 	}
 
@@ -729,8 +733,10 @@ function makePanelDetails (chars, lang, dialog) {
         }
         
     // make the close icon
-    if (dialog) out += `<p onclick="document.getElementById(\'dialogBox\').open = false"><img src="../common28/icons/close.png" alt="Close" style="cursor: pointer;" id="character_dialog_close_button"></p>`
-    else out += '<p onclick="document.getElementById(\'panel\').style.display = \'none\'"><img src="../common28/icons/close.png" alt="Close" style="cursor: pointer;" id="character_panel_close_button"></p>'
+    if (dialog) out += `<p onclick="document.getElementById(\'dialogBox\').open = false" id="character_dialog_close_button">X</p>`
+    else out += '<p onclick="document.getElementById(\'panel\').style.display = \'none\'" id="character_panel_close_button">X</p>'
+    //if (dialog) out += `<p onclick="document.getElementById(\'dialogBox\').open = false"><img src="../common28/icons/close.png" alt="Close" style="cursor: pointer;" id="character_dialog_close_button"></p>`
+    //else out += '<p onclick="document.getElementById(\'panel\').style.display = \'none\'"><img src="../common28/icons/close.png" alt="Close" style="cursor: pointer;" id="character_panel_close_button"></p>'
 
     return out
     }
