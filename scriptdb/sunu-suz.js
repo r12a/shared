@@ -1,8 +1,9 @@
-var spreadsheet = `-	-			-	-				hyphen					U+2010: HYPHEN	
+var spreadsheet = `sunu-suz	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	native name	latin name	deva	ucs name	block
+-	-			-	-				hyphen					U+2010: HYPHEN	
 –	-			–	–		Pd		en dash					U+2013: EN DASH	
 —	-			—	—		Pd		em dash					U+2014: EM DASH	
-\u{0331}	*			˟			Lo	o	vowel silencer			sangmilu		U+0331 COMBINING MACRON BELOW	
-\u{003A}	:			ː			Lo	o	vowel lengthener			laissi		U+003A COLON	
+\u{0331}	*			˟			Lo		vowel silencer			sangmilu		U+0331 COMBINING MACRON BELOW	
+\u{003A}	:			ː			Lo		vowel lengthener			laissi		U+003A COLON	
 ,	,			,̣	,		Po		comma					U+002C: COMMA	
 ;	;			;̣	;		Po		semicolon					U+003B: SEMICOLON	
 :	:			:	:		Po		colon					U+003A: COLON	
@@ -17,16 +18,16 @@ var spreadsheet = `-	-			-	-				hyphen					U+2010: HYPHEN
 %	%			%			Po		percentage mark					U+0025: PERCENT SIGN	
 ‰	%			‰			Po		per mille mark					U+2030: PER MILLE SIGN	
 “	<			“	“		Pi		quotation mark					U+201C: LEFT DOUBLE QUOTATION MARK	
-\‘	<			\‘	\‘		Pi		quotation mark					U+2018: LEFT SINGLE QUOTATION MARK	
+‘	<			\‘	\‘		Pi		quotation mark					U+2018: LEFT SINGLE QUOTATION MARK	
 ”	>			”	”		Pf		quotation mark					U+201D: RIGHT DOUBLE QUOTATION MARK	
-\’	>			\’	\’		Pf		quotation mark					U+2019: RIGHT SINGLE QUOTATION MARK	
+’	>			\’	\’		Pf		quotation mark					U+2019: RIGHT SINGLE QUOTATION MARK	
 \u{030D}	^			ˈ	Z	Z	Mn​		stress mark			sotte'si		U+030D COMBINING VERTICAL LINE ABOVE	
 \u{0301}	^			ˊ	x	x	Mn​		high tone			ta renmaresi		U+0301 COMBINING ACUTE ACCENT	
 \u{0300}	^			ˋ	X	X	Mn​		low tone			di renmaresi		U+0300 COMBINING GRAVE ACCENT	
-\u{0303}	[	̃		˜	z	z	Mn​		nasalisation			nesante		U+0303 COMBINING TILDE	
-\u{0310}	[	̃		˜̣			Mn​	o	nasal marker			taslathenk		U+0310 COMBINING CANDRABINDU	
+\u{0303}	[	̃		˜	z	z	Mn​		nasalisation	Nepal		nesante		U+0303 COMBINING TILDE	
+\u{0310}	[	̃		˜̣			Mn​		nasal marker	Sikkim		taslathenk		U+0310 COMBINING CANDRABINDU	
 \u{1DF5}	[			˙			Mn	o	repha			sangkirs		U+1DF5 COMBINING UP TACK ABOVE	
-\u{032D}	[			¨			Mn	o	sangrums			ra-vattu / trill mark		U+032D COMBINING CIRCUMFLEX ACCENT BELOW	
+\u{032D}	[	r		ř			Mn		sangrums	Sikkim		ra-vattu / trill mark		U+032D COMBINING CIRCUMFLEX ACCENT BELOW	
 \u{11BE0}	}	ʔ		ʔ	v	v	Lo		glottal stop			kloko	अ ◌	U+11BE0 SUNUWAR LETTER KLOKO	
 \u{11BE1}	B	ɓ̥		ƥ	P		Lo		auspicious sign			pvo		U+11BE1 SUNUWAR SIGN PVO	
 \u{11BC8}	A	ə		ə	a	a	Lo		vowel			appho	अ	U+11BC8 SUNUWAR LETTER APPHO	
@@ -62,11 +63,11 @@ var spreadsheet = `-	-			-	-				hyphen					U+2010: HYPHEN
 \u{11BD3}	w	w v		w	w	w	Lo		consonant			varca	व	U+11BD3 SUNUWAR LETTER VARCA	
 \u{11BD4}	y	j		y	y	y	Lo		consonant			yat	य	U+11BD4 SUNUWAR LETTER YAT	
 															
-§				§	§		Po		section sign					U+00A7: SECTION SIGN	
-†				†	†		Po		dagger					U+2020: DAGGER	
-‡				‡	‡		Po		double dagger					U+2021: DOUBLE DAGGER	
-′				′	′		Po		prime					U+2032: PRIME	
-″				″	″		Po		double prime					U+2033: DOUBLE PRIME	
+§				§	§		Po	?	section sign					U+00A7: SECTION SIGN	
+†				†	†		Po	?	dagger					U+2020: DAGGER	
+‡				‡	‡		Po	?	double dagger					U+2021: DOUBLE DAGGER	
+′				′	′		Po	?	prime					U+2032: PRIME	
+″				″	″		Po	?	double prime					U+2033: DOUBLE PRIME	
 															
 \u{11BF1}	±	1		1̣	1	1	Nd		digit			ka	१	U+11BF1 SUNUWAR DIGIT ONE	
 \u{11BF2}	±	2		2̣	2	2	Nd		digit			ni'ashi	२	U+11BF2 SUNUWAR DIGIT TWO	
