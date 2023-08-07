@@ -72,7 +72,7 @@ var sampleScriptsIndex = {
     'modi': { name: "Modi", langs:['sa-modi'], font: ['modi'] },
     'mong': { name: "Mongolian", langs:['khk'], font: ['mong'] },
     'mlym': { name: "Malayalam", langs:['ml'], font: ['mlym'] },
-    'mroo': { name: "Mro", langs:['sa-mroo'], font: ['mroo'] },
+    'mroo': { name: "Mro", langs:['mro-mroo','sa-mroo'], font: ['mroo'] },
     'mtei': { name: "Meetei Mayek", langs:['mni'], font: ['mtei'] },
     'mult': { name: "Multani", langs:['skr'], font: ['mult'] },
     'mymr': { name: "Myanmar", langs:['my', 'shn'], font:['mymr'] },
