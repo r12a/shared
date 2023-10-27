@@ -17,6 +17,12 @@ phraseDB = {
 		source: "UDHR §1",
 		},
 
+'akk': { name: 'Akkadian', 
+		text: "𒀭𒆗𒀳𒀭𒁇𒀀𒈾𒀭𒀜𒋾𒀀𒇉𒈦𒄘𒃼𒀭𒅎𒀭𒀀𒇉𒀀𒌑𒋛𒀪𒀉𒁍𒁕𒀜𒋫𒀀𒈝𒀊𒁍𒀸𒅗𒇻𒈾𒀫𒀀𒈾𒆪𒀠𒁍𒌝𒀀𒇉𒌓𒄒𒉣𒀉𒋾𒀀𒊏𒀭𒌓𒀝𒆪𒌋𒀭𒆷𒈦𒇻𒀭𒆘𒀀𒁺𒀭𒀫𒌓𒀭𒈾𒀭𒇸𒀀𒉿𒈝𒀸",
+		source: "Google Noto site",
+		sourceURL: "https://fonts.google.com/noto/specimen/Noto+Sans+Cuneiform"
+		},
+
 'am': { name: 'Amharic', 
 		text: "የሰው፡ልጅ፡ሁሉ፡ሲወለድ፡ነጻና፡በክብርና፡በመብትም፡እኩልነት፡ያለው፡ነው።፡የተፈጥሮ፡ማስተዋልና፡ሕሊና፡ስላለው፡አንዱ፡ሌላውን፡በወንድማማችነት፡መንፈስ፡መመልከት፡ይገባዋል።",
 		source: "UDHR §1",
@@ -49,6 +55,12 @@ phraseDB = {
 
 'ban': { name: 'Balinese',
 		text: "ᬫᬓᬲᬫᬶ​ᬫᬦᬸᬲᬦᬾ​ᬓᬳᭂᬫ᭄ᬩᬲᬶᬦ᭄ᬫᬳᬃᬤᬶᬓ​ᬮᬦ᭄ᬧᬢᭂᬄ​ᬲᬚ᭄ᬭᭀᬦᬶᬂ​ᬓᬳᬦᬦ᭄ᬮᬦ᭄ᬓ᭄ᬯᬲ᭟ ᬳᬶᬧᬸᬦ᭄ᬓᬵᬦᬸᬕ᭄ᬭᬳᬶᬦ᭄ᬯᬶᬯᬾᬓ​ᬮᬦ᭄ᬩᬸᬤ᭄ᬥᬶ᭞ ᬧᬦ᭄ᬢᬭᬦᬶᬂ​ᬫᬦᬸᬲ​ᬫᬗ᭄ᬤᬦᬾ​ᬧᬭᬲ᭄ᬧᬭᭀᬲ᭄ᬫᬲᭂᬫᭂᬢᭀᬦᬦ᭄᭞"
+		},
+
+'bap': { name: 'Bantawa',
+		text: `𖵀𖵁𖵂𖵃𖵄\u200B𖵅𖵆𖵇𖵈𖵉\u200B𖵊𖵋𖵌𖵍𖵎\u200B𖵏𖵑𖵒𖵓𖵔\u200B𖵕𖵖𖵗𖵘𖵙\u200B𖵚𖵛𖵜𖵝𖵞\u200B𖵟𖵡𖵢𖵣𖵤\u200B𖵥𖵦𖵨𖵧𖵩\u200B𖵪𖵫𖵬𖵭𖵮𖵯`,
+		source: "Character dump. Unicode allocation pending.",
+		sourceURL: "https://r12a.github.io/uniview/index.html?block=kirat_rai"
 		},
 
 'bax': { name: 'Bamum',
@@ -101,6 +113,12 @@ phraseDB = {
 		text: "ᨔᨗᨊᨗᨊ ᨑᨘᨄ ᨈᨕᨘ ᨑᨗ ᨍᨍᨗᨕᨂᨗ ᨑᨗᨒᨗᨊᨚᨕᨙ ᨊᨄᨘᨊᨕᨗ ᨆᨊᨙᨂᨗ ᨑᨗᨕᨔᨙᨂᨙ ᨕᨒᨙᨅᨗᨑᨙ᨞"
 		},
 
+'cau': { name: 'Caucasian Albanian',
+		text: `𐔰𐔱𐔲𐔳𐔴\u200B𐔵𐔶𐔷𐔸𐔹\u200B𐔺𐔻𐔼𐔽𐔾\u200B𐔿𐕀𐕁𐕂𐕃\u200B𐕄𐕅𐕆𐕇𐕈\u200B𐕉𐕊𐕋𐕌𐕍\u200B𐕎𐕏𐕐𐕑𐕒\u200B𐕓𐕔𐕕𐕖𐕗\u200B𐕘𐕙𐕚𐕛𐕜\u200B𐕝𐕞𐕟𐕠𐕡\u200B𐕢𐕣𐕯`,
+		source: "UniView, alphabet",
+		sourceURL: "https://r12a.github.io/uniview/index.html?block=caucasian_albanian"
+		},
+
 'ccp': { name: 'Chakma',
 		text: " 𑄝𑄬𑄇𑄴 𑄟𑄚𑄪𑄌𑄴 𑄚𑄨𑄢𑄨𑄞𑄨𑄣𑄨 𑄥𑄧𑄁 𑄃𑄨𑄌𑄴𑄎𑄮𑄖𑄴 𑄃𑄳𑄃 𑄃𑄇𑄴𑄇𑄥𑄁 𑄚𑄨𑄚𑄬𑄭 𑄎𑄧𑄚𑄴𑄟𑄚𑄴𑅁 𑄖𑄢𑄢𑄴 𑄃𑄬𑄘 𑄃𑄳𑄃 𑄝𑄪𑄖𑄴𑄙𑄨 𑄃𑄊𑄬; 𑄥𑄬𑄚𑄧𑄖𑄳𑄠𑄴 𑄝𑄬𑄇𑄴𑄅𑄚𑄧𑄢𑄴 𑄃𑄬𑄇𑄴𑄎𑄧𑄚𑄴 𑄃𑄢𑄬𑄇𑄴 𑄎𑄧𑄚𑄧𑄢𑄴 𑄛𑄳𑄢𑄧𑄖𑄨 𑄉𑄧𑄟𑄴 𑄘𑄮𑄣𑄴 𑄌𑄨𑄘𑄳𑄠𑄬 𑄚𑄨𑄚𑄬𑄭 𑄌𑄧𑄣𑄚 𑄅𑄪𑄌𑄨𑄖𑄴𑅁",
 		source: "UDHR §1",
@@ -145,10 +163,28 @@ phraseDB = {
 		sourceURL: "https://unicode.org/udhr/d/udhr_div.html"
 		},
 
+'dmf': { name: 'Medefaidrin', 
+		text: "𖹝𖹰𖹯𖹼𖹫 𖹚𖹬𖹾𖹠𖹯   𖹀𖹦𖹻𖹧 𖹻 𖹫𖹠𖹦𖹤 𖹃𖹣𖹫 𖹤𖹨 𖹦𖹻𖹫𖹤 𖹣𖹫 𖹤𖹠 𖹛𖹫 𖹧𖹨𖹫𖹤𖹣 𖹫𖹤𖹣𖹧𖹨 𖹠𖹨𖹫 𖹀𖹧𖹣𖹨𖹻𖹫𖹠",
+		source: "Name of the language, followed by preview text from the Noto font site.",
+		sourceURL: "https://fonts.google.com/noto/specimen/Noto+Sans+Medefaidrin"
+		},
+
 'dv': { name: 'Dhivehi', 
 		text: "ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ. ހެޔޮ ވިސްނުމާއި، ހެޔޮބުއްދީގެ ބާރު އެމީހުންނަށް ލިބިގެންވެއެވެ. އަދި އެކަކު އަނެކަކާމެދު އެމީހުން މުޢާމަލާތް ކުރަންވާނީ، އުޚުއްވަތްތެރިކަމުގެ ރޫޙެއްގައެވެ.",
 		source: "UDHR §1",
 		sourceURL: "https://unicode.org/udhr/d/udhr_div.html"
+		},
+
+'dv-diak': { name: 'Dives Akuru', 
+		text: "𑤝𑤱𑤩𑤴𑤬𑤽 𑤥𑤌𑤳𑤧𑤳, 𑤝𑤱𑤩𑤴𑤭𑤱 𑤥𑤌𑤳𑤧𑤳",
+		source: "Alterative names for the script, from Wikipedia",
+		sourceURL: "https://en.wikipedia.org/wiki/Dhives_Akuru"
+		},
+
+'dv-diak': { name: 'Dives Akuru', 
+		text: "𑤝𑤱𑤩𑤴𑤬𑤽 𑤥𑤌𑤳𑤧𑤳, 𑤝𑤱𑤩𑤴𑤭𑤱 𑤥𑤌𑤳𑤧𑤳 𑤀𑤁𑤂𑤃𑤄\u200B𑤅𑤆𑤉𑤌𑤍\u200B𑤎𑤏𑤐𑤑𑤒\u200B𑤓𑤕𑤖𑤘𑤙\u200B𑤚𑤛𑤜𑤝𑤞\u200B𑤟𑤠𑤡𑤢𑤣\u200B𑤤𑤥𑤦𑤧𑤨\u200B𑤩𑤪𑤫𑤬𑤭\u200B𑤮𑤯",
+		source: "Alterative names for the script, from Wikipedia, and dump of letters in Unicode block.",
+		sourceURL: "https://en.wikipedia.org/wiki/Dhives_Akuru"
 		},
 
 'dz': { name: 'Dzongka', 
@@ -183,6 +219,12 @@ phraseDB = {
 		text: "𐑷𐑤 𐑣𐑿𐑥𐑩𐑯 𐑚𐑰𐑦𐑙𐑟 𐑸 𐑚𐑹𐑯 𐑓𐑮𐑰 𐑯 𐑰𐑒𐑢𐑩𐑤 𐑦𐑯 𐑛𐑦𐑜𐑯𐑦𐑑𐑰 𐑯 𐑮𐑲𐑑𐑕. 𐑞𐑱 𐑸 𐑧𐑯𐑛𐑬𐑛 𐑢𐑦𐑞 𐑮𐑰𐑟𐑯 𐑯 𐑒𐑪𐑯𐑖𐑩𐑯𐑕 𐑯 𐑖𐑫𐑛 𐑨𐑒𐑑 𐑑𐑩𐑢𐑹𐑛𐑟 𐑢𐑳𐑯 𐑩𐑯𐑳𐑞𐑼 𐑦𐑯 𐑩 𐑕𐑐𐑦𐑮𐑦𐑑 𐑝 𐑚𐑮𐑳𐑞𐑼𐑣𐑫𐑛.",
 		},
 
+'ett': { name: 'Etruscan', 
+		text: "𐌆𐌀𐌌𐌈𐌉𐌂 𐌈𐌖𐌍 𐌗𐌀𐌓𐌖𐌍 𐌘𐌄𐌓𐌔𐌖 𐌆𐌀𐌌𐌀𐌈𐌉 𐌀𐌉𐌔 𐌑𐌀𐌔 𐌐𐌖𐌉𐌀 𐌑𐌀 𐌆𐌉𐌋𐌀𐌈 𐌄𐌉𐌔𐌍𐌀 𐌂𐌉 𐌅𐌉𐌍𐌖𐌌 𐌀𐌕𐌉 𐌆𐌀𐌋 𐌓𐌀𐌔𐌍𐌀 𐌀𐌉𐌔𐌍𐌀 𐌂 𐌀𐌐𐌀 𐌄𐌉𐌔 𐌈𐌖 𐌄𐌔𐌀𐌋 𐌑𐌄𐌙 𐌂𐌋𐌀𐌍 𐌍𐌄𐌓𐌉 𐌆𐌉𐌋𐌂 𐌌𐌀𐌙𐌔 𐌕𐌖𐌓𐌏𐌍 𐌀𐌅𐌉𐌋 𐌍𐌀 𐌈𐌀𐌐𐌍𐌀 𐌌𐌀𐌙",
+		source: "Noto fonts preview text. (Assumed Etruscan, but it may not be; no lang tag used.)",
+		sourceURL: "https://fonts.google.com/noto/specimen/Noto+Sans+Old+Italic"
+		},
+
 'fa': { name: 'Persian', 
 		text: "مادهٔ اول تمام افراد بشر آزاد بدنیا میایند و از لحاظ حیثیت و حقوق با هم برابرند. همه دارای عقل و وجدان میباشند و باید نسبت بیکدیگر با روح برادری رفتار کنند.",
 		source: "UDHR §1",
@@ -190,7 +232,7 @@ phraseDB = {
 		},
 
 'fuf-adlm': { name: 'Fula', 
-		text: "𞤘𞤮𞥅𞤼𞤮 𞤳𞤢𞤤𞤢 𞤭𞤲𞤢 𞤱𞤢𞥄𞤱𞤭 𞤸𞤮𞤳𞥆𞤵𞤲𞤣𞤫 𞤸𞤮𞥅𞤪𞤫 𞤥𞤵𞤥 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭 𞤫 𞤲'𞤣𞤭𞤥𞤢 𞤺𞤵𞥅𞤶𞤭 𞤳𞤢𞥄𞤤𞤢𞥄𞤯𞤭 𞤫 𞤲𞤢𞤲𞤮𞤲𞤣𞤭𞤪𞤢𞤤𞤲𞤺𞤢𞤤 𞤼𞤢𞤱𞤢 𞤢𞤤𞤢𞥄 𞤨𞤢𞤤𞤼𞤢𞤺𞤮𞤤 𞤲'𞤺𞤵𞤪𞤵،𞤐'𞤦𞤢𞤴𞤣𞤭، 𞤤𞤫𞤻𞤮𞤤، 𞤯𞤫𞤥𞤲𞤺𞤢𞤤، 𞤣𞤭𞥅𞤲𞤫، 𞤭𞤱𞤣𞤭 𞤤𞤫𞤴𞤣𞤭 𞤱𞤢𞤤𞥆𞤢 𞤪𞤫𞤲𞥆𞤣𞤮، 𞤣𞤢𞤻𞤢𞤤، 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞤣𞤫 𞤱𞤢𞤤𞥆𞤢 𞤳𞤢𞤤𞤢 𞤲'𞤺𞤮𞤲𞤳𞤢.",
+		text: `𞤘𞤮𞥅𞤼𞤮 𞤳𞤢𞤤𞤢 𞤭𞤲𞤢 𞤱𞤢𞥄𞤱𞤭 𞤸𞤮𞤳𞥆𞤵𞤲𞤣𞤫 𞤸𞤮𞥅𞤪𞤫 𞤥𞤵𞤥 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭 𞤫 𞤲'𞤣𞤭𞤥𞤢 𞤺𞤵𞥅𞤶𞤭 𞤳𞤢𞥄𞤤𞤢𞥄𞤯𞤭 𞤫 𞤲𞤢𞤲𞤮𞤲𞤣𞤭𞤪𞤢𞤤𞤲𞤺𞤢𞤤 𞤼𞤢𞤱𞤢 𞤢𞤤𞤢𞥄 𞤨𞤢𞤤𞤼𞤢𞤺𞤮𞤤 𞤲'𞤺𞤵𞤪𞤵،𞤐'𞤦𞤢𞤴𞤣𞤭، 𞤤𞤫𞤻𞤮𞤤، 𞤯𞤫𞤥𞤲𞤺𞤢𞤤، 𞤣𞤭𞥅𞤲𞤫، 𞤭𞤱𞤣𞤭 𞤤𞤫𞤴𞤣𞤭 𞤱𞤢𞤤𞥆𞤢 𞤪𞤫𞤲𞥆𞤣𞤮، 𞤣𞤢𞤻𞤢𞤤، 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞤣𞤫 𞤱𞤢𞤤𞥆𞤢 𞤳𞤢𞤤𞤢 𞤲'𞤺𞤮𞤲𞤳𞤢.`,
 		source: "UDHR §1",
 		sourceURL: "https://unicode.org/udhr/d/udhr_fuf_adlm.html"
 		},
@@ -205,6 +247,8 @@ phraseDB = {
 
 'gon': { name: 'Gondi',
 		text: "𑵮𑵺𑶋 𑵭𑶌𑶉 𑶅𑶊𑵵𑶐 𑶅𑶋𑶉𑵺 𑵽𑶊𑵭 𑵺𑵶𑶍𑶂 𑵮𑶍𑶂𑶋𑵬𑵺 𑵮𑶎𑵳𑶋𑵳𑶐 𑵮𑶊𑵮𑵺𑵶 𑵳𑶐𑵸 𑵡𑶀𑶋 𑵱𑶐𑵳𑶋𑵸𑶊𑶈𑵺𑶐 𑶉𑶊𑶐𑶂𑶋𑵳𑵬𑶊𑶐 𑵬𑶐𑵭 𑵮𑶊𑶐 𑵸𑵺 𑵰𑶎𑶈 𑵱𑶊𑵵𑶋 𑶇𑶊𑶈𑶐 𑶉𑶊𑵬 𑶉𑶌𑵺𑶐𑵱𑶐 𑵮𑶍𑶈𑵰𑶊𑶐𑶂𑶋 𑵮𑵳𑵳𑶐 𑶀𑵱𑶍𑶉𑵺 𑵶𑶊𑵽𑶊𑶐 𑵰𑶊𑶐𑶉 𑶇𑶋𑵱𑶐𑶅𑶈𑶊𑶐𑵺𑵶 𑵱𑶂𑶋𑵳 𑵱𑶊𑵱𑵺 𑵰𑶋𑵬𑶂",
+		source: "SIL.",
+		sourceURL: "https://software.sil.org/downloads/r/narnoor/Narnoor-Font-Sample.pdf",
 		},
 
 'got': { name: 'Goth',
@@ -339,6 +383,12 @@ phraseDB = {
 		sourceURL: "https://www.kayahlibible.com/en/jonah-story-kayahli"
 		},
 
+'kaw': { name: 'Kawi',
+		text: " 𑽆𑽎𑽆𑼐𑼀𑼄𑼮𑼶𑼕𑽂𑼥𑼴𑼪𑼴𑼱𑽂𑼡𑼸𑽆𑽎𑽆𑼯𑽂𑼬𑼷𑼨𑼙𑽂𑼬𑼵𑼙𑽂𑼛𑼵𑼥𑼯𑼹𑼥𑽂𑼫𑼵𑼡𑽂𑼪𑼒𑼦𑼬𑼪𑼱𑼶𑼬𑼴𑼥𑼶𑼥𑽂𑼣𑽂𑼫𑼬𑼶𑼁𑼬𑼴𑼡𑽂𑼮𑼶𑼯𑼾𑼰𑽉𑼭𑼶𑼭𑼴𑼯𑼹𑼣𑽂𑼞𑼵𑼦𑼺𑼡𑼶𑼰𑽂𑼢𑼾𑼁𑼭𑼺𑼣𑼫𑼙𑼫𑼫𑼴𑼖𑽂𑼒𑽀𑼵𑼥𑽂𑼪𑼲𑼴𑼱𑽂𑼮𑼂𑼔𑽂𑼔𑼭𑼾𑼴𑼒𑽉𑼎𑼒𑼴𑼱𑼡𑽂𑼬𑼾𑼁𑼯𑼬𑼶𑼬𑼴𑼖𑼸𑼬𑼶𑼦𑼶𑼱𑼲𑼥𑼥𑼶𑼁𑼩𑼹𑼂𑼩𑼸𑼮𑼃𑼱𑽂𑼮𑼃𑼦𑽂𑼬𑼒𑼶𑼂𑼠𑽂𑼥𑽉𑼱𑼴𑼒𑽂𑼰𑼡𑽂𑼗𑼥𑽂𑼣𑽂𑼬𑼴𑼒𑽂𑼒𑼦𑼸𑼂𑼠𑽂𑼥𑼣𑽂𑼩𑼸𑼡𑼬𑼶𑼮𑼶𑼙𑼶𑼭𑼶𑼬𑼴𑼥𑽂𑼱𑼖𑽂𑼒𑼬𑼶𑼁𑼨𑼾𑼴𑼣𑽂𑼞𑼗𑼷𑼡𑽂𑼡𑼖𑽂𑼭𑼱𑼶𑼖𑽂𑼔𑼶𑼃𑼫𑼥𑽂𑼱𑼶𑼣𑽂𑼞𑼫𑼾𑼴𑼔𑼶𑼯𑽂𑼮𑼬𑼮𑽂𑼒𑼱𑼶𑼬𑼱𑼁𑼱𑼡𑽂𑼪𑽂𑼫𑼭𑼴𑼮𑼥𑽂𑼩𑼜𑼴𑼬𑽉𑼱𑼂𑼮𑽂𑼮𑼙𑽂𑼛𑼴𑼪𑼹𑼂𑼡𑽂𑼡𑼶𑼯𑼹𑼥𑽂𑼫𑼴𑼔𑼥𑼭𑼭𑼶𑼡𑼶𑼥𑼸𑼗𑼦𑽁𑼪𑼸𑼰𑽂𑼢𑼶𑼒𑼶𑼁𑼤𑼂𑼪𑽂𑼪𑼡𑼡𑽂𑼮𑽉𑼱𑼁𑼱𑼶𑼦𑽂𑼡𑼴𑼥𑽂𑼦𑼡𑽂𑼲𑼸𑼭𑼶𑼒𑽂𑼬𑼶𑼲𑼡𑼶𑼱𑼶𑼬𑼱𑽂𑼒𑼸𑼖𑽀𑼥𑽁𑼫𑼾𑼴𑼔𑼭𑼴𑼮𑼥𑽂𑼱𑼪𑼴𑼤𑼶𑽉𑼨𑽂𑼫𑼒𑽂𑼡𑼭𑽂𑼮𑼶𑼩𑽂𑼬𑼥𑽂𑼡𑼗𑼷𑼲𑽂𑼡𑼴𑼖𑽂𑼬𑼱𑼬𑼶𑼮𑼬𑼶𑼮𑼥𑼶𑼁𑼥𑼶𑼂𑼪𑽂𑼪𑼭𑼴𑼗𑼶𑼥𑽂𑼡𑽂𑼫𑼬𑼹𑼦𑼖𑽂𑼔𑽂𑼫𑼥𑽂𑼣𑼃𑼫𑼾𑼒𑼥𑽂𑼪𑼖𑽂𑼒𑼥𑼴𑼯𑼥𑽂𑼡𑼶𑼒𑼶𑼥𑽂𑼛𑽀𑼦𑼶𑼡𑼸𑼂𑼱𑼁𑼲𑼸𑼮𑼸𑼱𑽂𑼱𑼣𑽂𑼞𑼫𑼾𑼴𑼔𑼶𑽉𑼦𑼹𑼙𑼥𑽂𑼬𑼶𑼁𑼙𑽂𑼛𑼴𑼥𑼯𑼹𑼣𑽂𑼞𑼴𑼦𑼬𑼶𑼪𑼶𑼡𑼯𑼬𑼠𑼴𑼥𑼶𑼁𑼪𑼶𑼒𑽀𑼡𑽂𑼭𑼖𑽂𑼮𑼭𑼖𑽂𑼮𑼥𑽁𑽉 ",
+		source: "Preview text for Google fonts.",
+		sourceURL: "https://fonts.google.com/noto/specimen/Noto+Sans+Kawi"
+		},
+
 'khb': { name: 'Tai Lü',
 		text: "ᦝᧂᦑᦸᦰ ᦍᦸᧆᦑᦲᧈᦷᦢᦆᧄ ᦅᧀᦂᦱᧂᦐᦸᧂ ᦂᦱᧁ ᦙᦸᧃᦟᦱᧆᦓᧄᧉ, ᦶᦙᧈᦷᦎᦶᦂᧄᧉ ᦃᦸᧂᧈ ᦋᧄᧉ ᦶᦀᧁ ᦵᦉᧄᧉ ᦺᦜᧈ ᦺᦃ ᦋᦻᦵᦣᧀ, ᦔᦱᧂ ᦓᦲᦰ ᦋᦻ ᦈᧅ ᦺᦃ ᦺᦔ ᦡᦽᧉᦓᦲᧉ ᦑᦱᧃᦜᧂ ᦶᦎᧈ ᦂᦸᧃᧈ, ᦈᦱ ᦉᦸᧃᧈ ᦠᦹᧉ ᦵᦗᦲᧃᧈᦣᦼᧉᦡᦽᧉᦆᦱᧁᧈᦟᧂᦂᦱ, ᦎᦱᧄᦔᦱᦟᦲᦀᦸᧅᧈ ᦒᧄᦟᧁᧈᦺᦞᧉᦗᦸᦡᧂᧈᦉᦸᧄᧉ ᦡᦸᧅᧈᦺᦙᧉ ᦠᦸᧄ ᦶᦕᧈ ᦵᦙᦲᧂᦺᦑ, ᦅᧄᦺᦘᦷᦎᧅᦶᦑᧃᦺᦡᦵᦗᦲᧃᧈᦠᦱᧅᦟᦹᦌᦰ ᦌᦱᧁᧉ, ᦆᦱᧁᧈᦠᦱᧅᦂᦲᧉᦍᦱᧁᦶᦑᧉ ᦵᦖᦲᧃᦡᧂᧈᦓᧄᧉ ᦶᦙᧈᦦᦱᧂᧉᦉᦖᦳᧆᦺᦊᧈᦉᦱᦅᦸᧃ, ᦢᧆᦓᦲᦰᦂᦸᧃᦅᧄᦙᦲ ᦷᦜᧂᦜᦻᦺᦉᧈ ᦺᦢ ᦑᧂ ᦉᦾᧉ, ᦛᦱᧃ ᦛᦱᧈ ᦀᦾᧉ ᦶᦋᧈ ᦓᧄᧉᦷᦠᧆᦜᦸᧈᦷᦂᧂᦆᦸᦞᦓᦱ.",
 		},
@@ -402,9 +452,16 @@ phraseDB = {
 		sourceURL: "https://unicode.org/udhr/d/udhr_kir.html"
 		},
 
-'lep':  { name: 'Lepcha',
+'lepXXX':  { name: 'Lepcha',
 		text: "&#x1C3F;&#x1C41;&#x1C3F; &#x1C02;&#x1C2E;&#x1C26;&#x1C27;&#x1C1B;&#x1C36;&#x1C29;&#x1C15; &#x1C02;&#x1C2E;&#x1C26;&#x1C27;&#x1C1B;&#x1C36; &#x1C23;&#x1C26;&#x1C1C;&#x1C2C;&#x1C2E;&#x1C26;&#x1C0C; &#x1C27;&#x1C0C;&#x1C1C;&#x1C2C; &#x1C35;&#x1C27;&#x1C23;&#x1C36; &#x1C3F;&#x1C42;&#x1C3F; &#x1C02;&#x1C2E;&#x1C26;&#x1C27;&#x1C1B;&#x1C36; &#x1C23;&#x1C26;&#x1C29;&#x1C2E;&#x1C0D; &#x1C02;&#x1C2E;&#x1C26;&#x1C27;&#x1C1B;&#x1C36;&#x1C29;&#x1C15; &#x1C23;&#x1C26;&#x1C29;&#x1C2E;&#x1C0D; &#x1C3F;&#x1C43;&#x1C3F; &#x1C20;&#x1C1B;&#x1C35;&#x1C29; &#x1C00;&#x1C26;&#x1C1A;&#x1C2B;",
 		},
+
+'lep':	{ name: 'Lepcha',
+		text: "᱁᰿ ᰝᰦᰰᰕᰫᰛᰬ ᰃᰨ ᰣᰦᰛᰬ ᰕᰫᰵ ᰕᰬ ᰚᰴᰠᰦ ᰣᰦᰛᰧᰵᰶᰛᰬ ᰃᰦ ᰇᰬᰳ ᰓᰦᰡᰦ ᰿᱂᰿ ᰀᰦᰚᰫ ᰛᰩᰵᰍᰪᰛᰬ ᰕᰫᰵ ᰕᰬ ᰚᰴ ᰜᰧᰰᰶᰓᰫᰛᰬ ᰀᰦᰚᰫ ᰕᰪᰙᰪᰀᰦ ᰋᰧ ᰙᰩᰭᰌᰨᰭ ᰀᰦᰚᰫ ᰕᰦᰭᰛᰬ ᰕᰫᰵᰛᰬ ᰙᰨ ᰕᰬ ᰜᰧ ᰿᱃᰿ ᰡᰬᰰᰜᰦ ᰕᰫᰵ ᰜᰧᰰᰶᰓᰫ ᰀᰦᰚᰫᰠᰦ ᰣᰦᰛᰧᰵᰶᰛᰬ ᰛᰴᰠᰲᰶᰌᰨᰮ ᰜᰦ ᰀᰦᰚᰫ ᰕᰫᰵ ᰚᰴ ᰜᰧ ᰿᱄᰿ ᰝᰪᰌᰨᰠᰦ ᰡᰫ ᰂᰪᰳ ᰉᰧᰶᰢᰦᰮᰓᰫ ᰝᰪᰌᰨᰢᰦ ᰝᰪ ᰑᰦᰳᰓᰦ ᰑᰦᰳ ᰂᰪᰳᰡᰨᰓᰫ ᰡᰧᰓᰦ ᰡᰧ ᰂᰪᰳᰡᰨᰓᰫ ᰣᰨᰙᰴ ᰂᰪᰳ ᰉᰧᰶᰢᰦᰮᰓᰫ ᰝᰪᰌᰨᰮ ᰜᰦ ᰀᰦᰚᰫ ᰕᰫᰵ ᰚᰴ ᰜᰧᰢᰧᰮᰓᰫ",
+		source: 'Unknown',
+		},
+
+
 
 'lis':  { name: 'Lisu',
 		text: "ꓞꓳ ꓘꓹ ꓠꓯꓹꓼ ꓢꓲ ꓫꓬ ꓟ ꓙ ꓖꓴ ꓗꓪ ꓟꓬꓱꓽ ꓧꓳꓽ ꓢꓴ ꓠꓬ꓾ ꓞꓳ ꓘꓹ ꓗꓪ ꓟ ꓞꓳ ꓟ ꓐꓴ ꓔꓯ ꓮ ꓡꓲ ꓬꓰ ꓠꓯꓹ ꓟ꓾ ꓟꓬꓱꓽ ꓔꓯ ꓧꓳꓽ ꓪꓴꓸ ꓟꓴ ꓢꓴ ꓬꓲ ꓜꓴꓻ ꓤ (Committee) ꓕꓲ ꓜꓴꓻ ꓢꓲꓺ ꓖꓶ ꓠꓯꓹ ꓡꓳ꓿",
@@ -418,8 +475,12 @@ phraseDB = {
 		sourceURL: "https://unicode.org/udhr/d/udhr_lao.html"
 		},
 
-'lif':  { name: 'Limbu',
+'lifXXX':  { name: 'Limbu',
 		text: "ᤂᤡᤷᤗᤡ ᤕᤠ᤺ᤶᤒᤰ ᤆᤠ᤺ᤣᤰᤁᤡ ᤁᤧᤘᤠ᤹ᤒᤠ ᤔᤏᤠᤜᤠ᤹ ᤁᤢᤓᤡ᤺ᤰᤔᤠᤴ ᤔᤧᤂᤧᤵᤛᤢᤴᤏᤠᤔᤧᤴᤏᤧ ᤋᤁᤠᤳ, ᤑᤧᤈᤠ, ᤘᤠᤑᤣ᤹ ᤔᤧᤕᤠᤱᤛᤡᤱᤅᤠᤱ ᤂᤧᤴ ᤐᤡᤳᤁᤶᤒᤠᤸᤗᤧ ᤁᤢᤓᤠ᤹ᤛᤧ ᤔᤧᤗ᤺ᤴᤍᤧ ᤔᤧᤗᤥ᤺ᤰᤋᤧ॥ ᤁᤖ ᤂᤧᤴ ᤐᤡᤳᤁᤶᤒᤠ ᤘᤕᤧᤒᤠ ᤍᤧᤴ ᤕᤥ ᤔᤧᤃᤧᤖᤧᤃᤖ, ᤂᤧᤴ ᤀᤣᤖᤧᤖ ᤕᤧᤒᤧ॥ ᤛᤣᤃᤣᤒᤠ᤺ᤴ ᤛᤧᤰᤂᤠᤛᤠᤱ ᤜᤥ᤺ᤵᤋᤧ॥ ᤂᤧᤴ ᤁᤢᤓᤠ᤹ᤛᤧ ᤁᤧᤍᤠᤒᤠᤜᤠ᤹ᤖᤧ ᤂᤢᤴᤇᤡ᤹ ᤛᤠᤰᤁᤧᤴ ᤐᤥᤃᤧ॥ ",
+		},
+
+'lif':  { name: 'Limbu',
+		text: "ᤂᤡᤷᤗᤡ ᤕᤠ᤺ᤶᤒᤰ ᤆᤠᤣ᤺ᤰᤁᤡ ᤁᤧᤘᤠ᤹ᤒᤠ ᤔᤏᤠᤜᤠ᤹ ᤁᤢᤓᤡ᤺ᤰᤔᤠᤴ ᤔᤧᤂᤧᤵᤛᤢᤴᤏᤠᤔᤧᤴᤏᤧ ᤋᤁᤠᤳ, ᤑᤧᤈᤠ, ᤘᤠᤑᤣ᤹ ᤔᤧᤕᤠᤱᤛᤡᤱᤅᤠᤱ ᤂᤧᤴ ᤐᤡᤳᤁᤶᤒᤠᤸᤗᤧ ᤁᤢᤓᤠ᤹ᤛᤧ ᤔᤧᤗ᤺ᤴᤍᤧ ᤔᤧᤗᤥ᤺ᤰᤋᤧ॥ ᤁᤖ ᤂᤧᤴ ᤐᤡᤳᤁᤶᤒᤠ ᤘᤕᤧᤒᤠ ᤍᤧᤴ ᤕᤥ ᤔᤧᤃᤧᤖᤧᤃᤖ, ᤂᤧᤴ ᤀᤣᤖᤧᤖ ᤕᤧᤒᤧ॥ ᤛᤣᤃᤣᤒᤠ᤺ᤴ ᤛᤧᤰᤂᤠᤛᤠᤱ ᤜᤥ᤺ᤵᤋᤧ॥ ᤂᤧᤴ ᤁᤢᤓᤠ᤹ᤛᤧ ᤁᤧᤍᤠᤒᤠᤜᤠ᤹ᤖᤧ ᤂᤢᤴᤇᤡ᤹ ᤛᤠᤰᤁᤧᤴ ᤐᤥᤃᤧ॥",
 		},
 
 'men': { name: 'Mende',
@@ -454,6 +515,18 @@ phraseDB = {
 		text: "𐣮𐣫𐣬𐣠 𐣣𐣩 𐣴𐣬𐣴𐣯𐣲𐣡 𐣪𐣬𐣣𐣠 𐣡𐣣 𐣠𐣣𐣩 𐣣𐣩 𐣠𐣲𐣩𐣬 𐣫𐣤 𐣯𐣲𐣡𐣴𐣬𐣠 𐣡𐣣 𐣠𐣧𐣵𐣤 𐣯𐣫 𐣧𐣩𐣤𐣩 𐣥𐣯𐣫 𐣧𐣩𐣠 𐣡𐣭𐣩𐣤𐣩 𐣣𐣩 𐣪𐣬𐣣𐣠 𐣥𐣯𐣫 𐣧𐣩𐣠 𐣬𐣭 𐣣𐣩 𐣣𐣧𐣬 𐣫𐣤 𐣪𐣫𐣤 𐣡𐣠𐣣𐣣 𐣣 𐣼𐣿𐣽𐣼𐣻",
 		source: "Hatran inscription H 405.",
 		sourceURL: "http://std.dkuug.dk/JTC1/SC2/WG2/docs/n4324.pdf p7"
+		},
+
+'mis-narb': { name: 'Ancient North Arabian',
+		text: " 𐪅𐪔𐪇𐪔 𐪐𐪑𐪏 𐪌𐪉𐪚𐪇𐪑 𐪈𐪚𐪕 𐪄𐪑𐪌𐪅𐪌 𐪕𐪁𐪑 𐪃𐪗𐪅𐪗𐪑 𐪕𐪐𐪅𐪇𐪏𐪅𐪌𐪚𐪑 𐪈𐪁𐪚𐪀𐪚. 𐪅𐪋𐪁 𐪑𐪌𐪏𐪑 𐪔𐪇𐪔 𐪐𐪚𐪏𐪚 𐪌𐪉𐪚𐪇𐪑 𐪈𐪇𐪈𐪇 𐪄𐪃 𐪋𐪁 𐪐𐪅𐪇𐪏𐪅𐪌𐪚𐪑 𐪕𐪏𐪃𐪉𐪗𐪑 𐪕𐪏𐪇𐪒𐪗 𐪕𐪑𐪀𐪑 𐪈𐪅𐪕𐪄𐪑.",
+		source: "Noto fonts preview text. Not sure which language (no lang tag used).",
+		sourceURL: "https://fonts.google.com/noto/specimen/Noto+Sans+North+Arabian"
+		},
+
+'mis-nshu': { name: 'Xiangnan Tuhua',
+		text: "𛇤𛅰𛈕𛅸𛇃𛆤𛈕 𛇂𛇒𛇢𛈑𛈡𛇘𛇨𛇸𛈈𛈘𛈨𛈸𛇌𛇜𛇼𛈌𛈜𛈬",
+		source: "Noto fonts preview text, followed by a random selection of Nushu characters.",
+		sourceURL: "https://fonts.google.com/noto/specimen/Noto+Sans+Nushu"
 		},
 
 'mni': { name: 'Manipuri',
@@ -508,12 +581,25 @@ phraseDB = {
 		dir: 'rtl'
 		},
 
+'omn': { name: 'Minoan', 
+		text: "𒾙𒾚𒾛𒾜𒾝𒾞𒾟𒾠𒾡𒾢𒾣𒾤𒾥𒾦𒾧𒾨𒾩𒾪𒾫𒾬𒾭𒾮𒾯𒾰𒾱𒾲𒾳𒾴𒾵𒾶𒾷𒾸𒾹𒾺𒾻𒾼𒾽𒾾𒾿𒿀𒿁𒿂𒿃𒿄𒿅𒿆𒿇𒿈",
+		source: "Google Noto site",
+		sourceURL: "https://fonts.google.com/noto/specimen/Noto+Sans+Cypro+Minoan"
+		},
+
 'omn-cprt': { name: 'Minoan (Cypriot Syllabary)',
 		text: "𐠀𐠜𐠍𐠚 𐠃𐠙𐠪𐠒𐠚𐄀 𐠰𐠜𐠙𐠪𐠎𐠡𐠦𐠚 𐠰𐠛 𐠅𐠮𐠣𐠚𐄀 𐠊𐠩𐄀 𐠰𐠩𐄀 𐠊𐠪𐠋𐠚𐠰𐠩 𐠂𐠅𐠨𐠰𐠂𐄀 𐠰𐠩𐄀 𐠀𐠰𐠦𐠡𐠩𐄀 𐠰𐠩𐄀 𐠂 𐠭𐠂𐠔𐠊𐠂𐄀 𐠂𐠌𐠔𐠕𐠜𐠩𐄀 𐠀𐠚𐠄𐄀 𐠖𐠪𐠰𐠚",
 		translation: "They ordered Onasilos the (son) of Onasikupros the physician and the brothers to heal the men wounded in the battle without fee.",
 		source: "Idalion inscription, after Chadwick 1987: 56. In Daniels, The World's Writing Systems, p131.",
 		dir: 'rtl'
 		},
+
+'omn-lina': { name: 'Minoan?', 
+		text: "𐘀𐘁𐘂𐘃𐘄𐘅𐘆 𐘣𐘤𐘥𐘦𐘧𐘨𐘩 𐚯𐚰𐚱𐚲𐚳𐚴𐚵 𐜟𐜠𐜡𐜢𐜣𐜤𐜥 𐚨𐚩𐚪𐚫𐚬𐚭𐚮 𐛋𐛌𐛍𐛎𐛏𐛐𐛑",
+		source: "Google Noto site",
+		sourceURL: "https://fonts.google.com/noto/specimen/Noto+Sans+Linear+A"
+		},
+
 
 'ory': { name: 'Oriya',
 		text: "ଭାରତୀୟ ମହାକାଶ ଗବେଷଣା ସଂସ୍ଥା ବା ଇସ୍ରୋ ହେଉଛି ଭାରତ ସରକାରଙ୍କ ପ୍ରମୁଖ ମହାକାଶ ପ୍ରାଧିକରଣ । ଏହା ପୃଥିବୀର ଛଅଟି ବଡ ସରକାରୀ ମହାକାଶ ପ୍ରାଧିକରଣ ମଧ୍ୟରୁ ଅନ୍ୟତମ ଯଥା ।",
@@ -531,16 +617,28 @@ phraseDB = {
 		sourceURL: "https://omniglot.com/writing/orkhon.htm"
 		},
 
+'oui': { name: 'Old Uighur',
+		text: "𐽳𐽹 𐾁𐽳𐽲 𐾀𐽶𐾁𐽷𐽰𐽺 𐽰𐽱𐽶𐽾𐽷𐽰𐾁𐽶 𐽰𐽳𐽶𐾀𐽳𐽺𐽳𐽾 𐽹𐽺𐾇𐽰𐽳𐽶𐽴𐽰𐾁𐽶𐽷𐽻𐽶𐽴 𐽶𐽶𐽷 𐽰𐽳𐽶𐽻𐾀𐽳𐽺𐽷𐽶 𐽰𐽶𐽺𐽶𐽰𐽺𐽰 𐽼𐽶𐾁𐽷𐽰 𐽼𐽶𐾁𐽶𐽷𐽶𐽷 𐽼𐽳𐾁𐽹𐽰𐽲 𐽶𐽹 𐽼𐽳𐾁𐽴𐽳𐽺𐾇𐽲𐽰𐽶𐽳 𐽶𐽹𐽰 𐽰𐽾𐾀𐽹𐽶𐽿 𐽰𐽳𐽶𐽸𐽷𐽶𐾇𐽰𐽰𐽺𐽽𐽳𐾁𐽰𐽶𐽳 𐽰𐽳𐽲 𐽷𐽰𐾁𐽹𐽰𐽸𐽳𐽷 𐽰𐽳𐽶𐽸𐽷𐽶𐾇𐽲𐽰𐽶𐽳 𐽶𐽹𐽰 𐽶𐽳𐽷𐽰𐽾𐽳𐽷𐽶 𐽶𐽰𐾁𐽰𐽺𐽷𐽳𐽲 𐾁𐽰𐽾𐾀𐽰 𐽶𐽶𐽷𐽶 𐽰𐽳𐾀𐽹𐽶𐽿 𐾁𐽰𐽾 𐽶𐽳𐽷𐽰𐽾𐽳 𐾀𐽰 𐾀𐽶𐽻𐾅𐽸𐽰𐽺𐾀𐽶 𐾀𐽶𐽾𐽶𐽷 ",
+		source: "Noto fonts preview text (language assumed to be old uighur; no lang tag).",
+		sourceURL: "https://fonts.google.com/noto/specimen/Noto+Serif+Old+Uyghur"
+		},
+
 'pa': { name: 'Panjabi',
 		text: "ਸਾਰਾ ਮਨੁੱਖੀ ਪਰਿਵਾਰ ਆਪਣੀ ਮਹਿਮਾ, ਸ਼ਾਨ ਅਤੇ ਹੱਕਾਂ ਦੇ ਪੱਖੋਂ ਜਨਮ ਤੋਂ ਹੀ ਆਜ਼ਾਦ ਹੈ ਅਤੇ ਸੁਤੇ ਸਿੱਧ ਸਾਰੇ ਲੋਕ ਬਰਾਬਰ ਹਨ । ਉਨ੍ਹਾਂ ਸਭਨਾ ਨੂੰ ਤਰਕ ਅਤੇ ਜ਼ਮੀਰ ਦੀ ਸੌਗਾਤ ਮਿਲੀ ਹੋਈ ਹੈ ਅਤੇ ਉਨ੍ਹਾਂ ਨੂੰ ਭਰਾਤਰੀਭਾਵ ਦੀ ਭਾਵਨਾ ਰਖਦਿਆਂ ਆਪਸ ਵਿਚ ਵਿਚਰਣਾ ਚਾਹੀਦਾ ਹੈ ।",
 		source: "UDHR §1",
 		sourceURL: "https://unicode.org/udhr/d/udhr_pan.html"
 		},
 
-'pal': { name: 'Pahlavi',
+'pal': { name: 'Pahlavi (inscriptional)',
 		text: "𐭲𐭢𐭫𐭠𐭧𐭩 𐭦𐭭𐭤 𐭫𐭩 𐭬𐭦𐭣𐭩𐭮𐭭 𐭡𐭢𐭩 𐭱𐭧𐭯𐭥𐭧𐭥𐭩 𐭬𐭫𐭪𐭠𐭭 𐭬𐭫𐭪𐭠 𐭠𐭩𐭥𐭠𐭭 𐭥𐭠𐭭𐭩𐭥𐭠𐭭 𐭬𐭭𐭥 𐭰𐭲𐭥𐭩 𐭬𐭭 𐭩𐭦𐭲𐭠𐭭 𐭡𐭥𐭤 𐭬𐭦𐭣𐭩𐭮𐭭 𐭡𐭢𐭩 𐭠𐭥𐭲𐭠𐭭 𐭭𐭯𐭩 𐭡𐭢𐭩 𐭯𐭠𐭯𐭪𐭩 𐭬𐭫𐭪𐭠 𐭠𐭩𐭥𐭠𐭭",
 		source: "Inscription from Hajjibad in Inscriptional Pahlavi script, from Nyberg 1964",
 		sourceURL: "http://std.dkuug.dk/jtc1/sc2/wg2/docs/n3286.pdf p14"
+		},
+
+'pal-phlp': { name: 'Pahlavi (psalter)',
+		text: "𐮉𐮊 𐮇𐮃 𐮀𐮈𐮑𐮊𐮄 𐮄𐮋𐮅𐮑𐮀 𐮃𐮑𐮇𐮋𐮌𐮑𐮀 𐮅𐮃𐮀𐮌𐮈𐮑 𐮅𐮑𐮅𐮃𐮈𐮑𐮀. 𐮀𐮄𐮀 𐮄𐮋𐮅𐮑𐮀 𐮁𐮇𐮁𐮐𐮈𐮊𐮀 𐮄𐮋𐮅𐮑𐮀 𐮃𐮐𐮇𐮊𐮎𐮑𐮀 𐮃𐮑𐮅𐮃𐮈𐮑𐮀 𐮈𐮌 𐮄𐮈𐮋𐮌𐮅𐮑𐮀 𐮅𐮇𐮀𐮅𐮅𐮑𐮀 𐮁𐮌𐮅𐮎𐮐𐮀 𐮈𐮌 𐮅𐮋 𐮂𐮅 𐮐𐮅𐮑𐮎𐮅𐮑𐮀 𐮅𐮋 𐮀𐮇𐮅𐮌𐮀.",
+		source: "Noto fonts preview text.",
+		sourceURL: "https://fonts.google.com/noto/specimen/Noto+Sans+Psalter+Pahlavi"
 		},
 
 'peo': { name: 'Old Persian',
@@ -774,12 +872,26 @@ phraseDB = {
 		sourceURL: "https://www.omniglot.com/writing/multani.htm"
 		},
 
+'sog': { name: 'Sogdian',
+		text: "𐼸𐽄 𐼶𐼹 𐼰𐼷𐽂𐽄𐼳 𐼳𐼸𐼴𐽂𐼰 𐼹𐽂𐼶𐼺𐼻𐽂𐼰 𐼴𐼹𐼰𐼻𐼷𐽂 𐼴𐽂𐼴𐼹𐼷𐽂𐼰. 𐼰𐼳𐼰 𐼳𐼸𐼴𐽂𐼰 𐼱𐼶𐼱𐽁𐼷𐽄𐼰 𐼳𐼸𐼴𐽂𐼰 𐼹𐽁𐼶𐽄𐼾𐽂𐼰 𐼹𐽂𐼴𐼹𐼷𐽂𐼰 𐼷𐼻 𐼳𐼷𐼺𐼻𐼴𐽂𐼰 𐼴𐼶𐼰𐽀𐼴𐽂𐼰 𐼱𐼻𐼴𐼾𐽁𐼰 𐼷𐼻 𐼽𐼺 𐼲𐼴 𐽁𐼴𐽂𐼾𐼴𐽂𐼰 𐼽𐼺 𐼰𐼶𐽀𐼻𐼰.",
+		source: "Noto fonts preview text. (Assumed to be Sogian language; no lang tag used.)",
+		sourceURL: "https://fonts.google.com/noto/specimen/Noto+Sans+Sogdian"
+		},
+
 'su': { name: 'Sundanese',
 		text: "ᮙᮛᮔᮨᮂᮔ ᮓᮤᮘᮨᮛᮨ ᮃᮊᮜ᮪ ᮏᮩᮀ ᮠᮒᮨ ᮔᮥᮛᮔᮤ, ᮎᮙ᮪ᮕᮥᮁ-ᮌᮅᮜ᮪ ᮏᮩᮀ ᮞᮞᮙᮔ ᮃᮚ ᮓᮤᮔ ᮞᮥᮙᮔᮨᮒ᮪ ᮓᮥᮓᮥᮜᮥᮛᮔ᮪.",
 		},
 
 'so-osma': { name: 'Somali',
-		text: "𐒛𐒆𐒖𐒒𐒖𐒔𐒖 𐒊𐒖𐒑𐒑𐒛𐒒𐒂𐒕𐒈 𐒓𐒚𐒄𐒓 𐒊𐒖𐒉𐒛 𐒘𐒈𐒖𐒌𐒝 ...",
+		text: "𐒛𐒆𐒖𐒒𐒖𐒔𐒖 𐒊𐒖𐒑𐒑𐒛𐒒𐒂𐒕𐒈 𐒓𐒚𐒄𐒓 𐒊𐒖𐒉𐒛 𐒘𐒈𐒖𐒌𐒝 𐒄𐒙𐒇 𐒖𐒔 𐒏𐒖𐒒𐒖 𐒈𐒘𐒑𐒖𐒒 𐒄𐒖𐒌𐒌𐒖 𐒉𐒖𐒇𐒖𐒍𐒂𐒖 𐒘𐒕𐒙 𐒄𐒚𐒎𐒓𐒎𐒖𐒆𐒖 𐒓𐒖𐒄𐒛 𐒖𐒐𐒐𐒗 (𐒘𐒐𐒛𐒔) 𐒈𐒕𐒕𐒖𐒕 𐒖𐒎𐒝𐒒 𐒘𐒕𐒙 𐒓𐒖𐒋𐒕𐒘, 𐒓𐒛𐒒𐒖 𐒘𐒒 𐒎𐒙𐒍 𐒐𐒖 𐒖𐒇𐒏𐒛 𐒎𐒙𐒍𐒏𐒖 𐒏𐒖𐒐𐒗 𐒚𐒐𐒖 𐒊𐒖𐒎𐒑𐒛 𐒈𐒘 𐒓𐒖𐒐𐒛𐒐𐒂𐒘𐒒𐒘𐒑𐒙 𐒖𐒔.",
+		source: "Google Noto site preview text.",
+		sourceURL: "https://fonts.google.com/noto/specimen/Noto+Sans+Osmanya"
+		},
+
+'sq-elba': { name: 'Elbasan', 
+		text: "𐔟 𐔁𐔀 𐔒𐔎𐔇𐔔 𐔏𐔇 𐔠𐔖 𐔀𐔝𐔎𐔇 𐔟 𐔒𐔁𐔟𐔛𐔌𐔔𐔈 𐔄𐔍𐔝𐔈 𐔝𐔈 𐔗𐔎𐔇𐔐𐔐𐔈 𐔀𐔝𐔈. 𐔇 𐔗𐔟𐔀𐔐𐔐 𐔝𐔈 𐔁𐔍𐔙𐔔 𐔇 𐔛𐔀𐔎 𐔝𐔈 𐔗𐔀 𐔙𐔈𐔔𐔈 𐔝𐔈 𐔗𐔎𐔇𐔐𐔐𐔈, 𐔇 𐔇 𐔛𐔌𐔗𐔈𐔙𐔊𐔀 𐔔𐔍𐔛𐔍 𐔀𐔝𐔈 𐔇 𐔇 𐔒𐔁𐔟𐔐𐔖𐔍 𐔀𐔝𐔈 𐔔𐔄𐔈 𐔏𐔀𐔛𐔌𐔝𐔈 𐔛𐔇 𐔔𐔟𐔏𐔟 𐔍𐔛𐔌𐔝𐔇 𐔠𐔇𐔔𐔄𐔈 𐔗𐔙𐔇𐔎 𐔗𐔢𐔐𐔍𐔝.",
+		source: "Google Noto site",
+		sourceURL: "https://fonts.google.com/noto/specimen/Noto+Sans+Elbasan"
 		},
 
 'syc': { name: 'Syriac',
@@ -831,6 +943,12 @@ phraseDB = {
 'tru': { name: 'Turoyo', 
 		text: "ܐܘ ܢܳܫܐ ܟܷܬܠܶܗ ܚܰܡܫܐ ܪܷܓ݂ܫܶܐ: ܚܙܳܝܐ ܒܰܥ ܥܰܝܢܶܐ، ܫܡܳܥܐ ܒܰܢ ܐܰܕ݂ܢܶܐ، ܢܩܳܚܐ ܒܘ ܢܚܝܪܐ، ܓܝܳܫܐ ܒܰܢ ܐܝܕ݂ܶܐ ܘܛܥܳܡܐ ܒܘ ܠܝܫܳܢܐ.",
 		dir:"rtl",
+		},
+
+'txo': { name: 'Toto', 
+		text: "𞊡𞊛𞊥 𞊞𞊭 𞊙𞊣𞊖𞊭𞊑𞊡 𞊞𞊭 𞊥𞊑𞊡𞊔𞊪 𞊙𞊭 𞊑𞊭𞊗𞊭𞊛𞊖𞊡 𞊡𞊚𞊪 𞊙𞊦𞊘𞊒𞊦𞊘𞊔𞊪 𞊒𞊨𞊒𞊭. 𞊥𞊑𞊡 𞊞𞊭 𞊒𞊭𞊘𞊙𞊭 𞊛𞊭𞊭𞊮𞊘𞊒𞊭𞊓𞊡𞊘𞊖𞊡 𞊥𞊒𞊭 𞊛𞊥𞊥𞊮𞊘𞊖𞊙𞊭. 𞊜𞊫𞊔𞊪𞊒𞊭 𞊞𞊭 𞊝 𞊡𞊛𞊭𞊑𞊡𞊟𞊦 𞊔𞊪𞊪𞊮𞊛𞊔𞊪 𞊜𞊭𞊘𞊚𞊭𞊘𞊖𞊡 𞊠𞊦𞊮𞊘𞊜𞊭.",
+		source: "Noto fonts page preview.",
+		sourceURL: "https://fonts.google.com/noto/specimen/Noto+Serif+Toto"
 		},
 
 'uga': { name: 'Ugaritic',
@@ -893,6 +1011,18 @@ phraseDB = {
 		sourceURL: "https://en.wikipedia.org/wiki/Lycian_language"
 		},
 
+'xco': { name: 'Chorasmian',
+		text: `𐾰𐾱𐾲𐾳𐾴\u200B𐾵𐾶𐾷𐾸𐾹\u200B𐾺𐾻𐾼𐾽𐾾\u200B𐾿𐿀𐿁𐿂𐿃\u200B𐿄𐿅𐿆𐿇𐿈\u200B𐿉𐿊𐿋`,
+		source: "UniView, character dump.",
+		sourceURL: "https://r12a.github.io/uniview/index.html?block=chorasmian"
+		},
+
+'xcr': { name: 'Carian',
+		text: `𐊠𐊡𐊢𐊣𐊤 𐊥𐊦𐊧𐊨𐊩 𐊪𐊫𐊬𐊭𐊮 𐊯𐊰𐊱𐊲𐊳 𐊴𐊵𐊶𐊷𐊸 𐊹𐊺𐊻𐊼𐊽 𐊾𐊿𐋀𐋁𐋂 𐋃𐋄𐋅𐋆𐋇 𐋈𐋉𐋊𐋋𐋌 𐋍𐋎𐋏𐋐`,
+		source: "UniView, alphabet.",
+		sourceURL: "https://r12a.github.io/uniview/index.html?block=carian"
+		},
+
 'xld': { name: 'Lydian',
 		text: "𐤠𐤨𐤯𐤦𐤫 𐤫𐤵𐤲𐤦𐤳 𐤲𐤤𐤩𐤷𐤨 𐤱𐤶𐤫𐤳𐤷𐤦𐤱𐤦𐤣 𐤱𐤠𐤨𐤪𐤷 𐤠𐤭𐤯𐤦𐤪𐤰𐤮 𐤦𐤡𐤮𐤦𐤪𐤳𐤦𐤳 𐤠𐤭𐤯𐤦𐤪𐤰𐤨 𐤨𐤰𐤩𐤰𐤪𐤳𐤦𐤳 𐤠𐤠𐤭𐤠𐤷 𐤡𐤦𐤭𐤠𐤷𐤨 𐤨𐤷𐤦𐤣𐤠𐤷 𐤨𐤬𐤱𐤰𐤷𐤨 𐤲𐤦𐤭𐤠𐤷 𐤲𐤤𐤩𐤷𐤨 𐤡𐤦𐤩𐤷 𐤥𐤹𐤡𐤠𐤲𐤶𐤫𐤯",
 		transcription: "ak-t-in nãqis qelλ-k fẽnsλifid fak-mλ artimuś ibśimsis artimu-k kulumsis aaraλ biraλ-k kλidaλ kofuλ-k qiraλ qelλ-k bilλ wcbaqẽnt ",
@@ -942,6 +1072,12 @@ phraseDB = {
 		text: "人人生而自由，在尊嚴和權利上一律平等。他們賦有理性和良心，並應以兄弟關係的精神相對待。",
 		source: "UDHR §1",
 		sourceURL: "https://unicode.org/udhr/d/udhr_cmn_hant.html"
+		},
+
+'zkt': { name: 'Khitan',
+		text: "𘭔𖿤𘭢 𘲽𘱸 𘰭𘱀 𘬜𘳍𘰄 𘰭𘱀 𘯺𘮅𘭂𘯡 𘲜𘱤𘬚 𘰷𘭴 𘰝𘲥𘲦 𘲲𘯴𘱆 𘳍𘰄",
+		source: "Noto fonts preview text.",
+		sourceURL: "https://fonts.google.com/noto/specimen/Noto+Serif+Khitan+Small+Script"
 		},
 
 
