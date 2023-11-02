@@ -159,6 +159,48 @@ var spreadsheet = `arab-ar	key	ipa	ipa+	translit	LOC	kbd	class	status	type	usage
 ࢐							Cf	u	currency symbol	Egyptian					U+0890: ARABIC POUND MARK ABOVE	✓
 ࢑							Cf	u	currency symbol	Egyptian					U+0891: ARABIC PIASTRE MARK ABOVE	✓
 ﷼		ri.jaːl		{RIAL}			Sc	i	currency symbol						U+FDFC: RIAL SIGN	✓
+﵀				{RAHIMAHU ALLAAH}			So		word ligature	honorific					U+FD40: ARABIC LIGATURE RAHIMAHU ALLAAH	
+﵁				{RADI ALLAAHU ANH}			So		word ligature	honorific					U+FD41: ARABIC LIGATURE RADI ALLAAHU ANH	
+﵂				{RADI ALLAAHU ANHAA}			So		word ligature	honorific					U+FD42: ARABIC LIGATURE RADI ALLAAHU ANHAA	
+﵃				{RADI ALLAAHU ANHUM}			So		word ligature	honorific					U+FD43: ARABIC LIGATURE RADI ALLAAHU ANHUM	
+﵄				{RADI ALLAAHU ANHUMAA}			So		word ligature	honorific					U+FD44: ARABIC LIGATURE RADI ALLAAHU ANHUMAA	
+﵅				{RADI ALLAAHU ANHUNNA}			So		word ligature	honorific					U+FD45: ARABIC LIGATURE RADI ALLAAHU ANHUNNA	
+﵆				{SALLALLAAHU ALAYHI WA-AALIH}			So		word ligature	honorific					U+FD46: ARABIC LIGATURE SALLALLAAHU ALAYHI WA-AALIH	
+﵇				{ALAYHI AS-SALAAM}			So		word ligature	honorific					U+FD47: ARABIC LIGATURE ALAYHI AS-SALAAM	
+﵈				{ALAYHIM AS-SALAAM}			So		word ligature	honorific					U+FD48: ARABIC LIGATURE ALAYHIM AS-SALAAM	
+﵉				{ALAYHIMAA AS-SALAAM}			So		word ligature	honorific					U+FD49: ARABIC LIGATURE ALAYHIMAA AS-SALAAM	
+﵊				{ALAYHI AS-SALAATU WAS-SALAAM}			So		word ligature	honorific					U+FD4A: ARABIC LIGATURE ALAYHI AS-SALAATU WAS-SALAAM	
+﵋				{QUDDISA SIRRAH}			So		word ligature	honorific					U+FD4B: ARABIC LIGATURE QUDDISA SIRRAH	
+﵌				{SALLALLAHU ALAYHI WAAALIHEE WA-SALLAM}			So		word ligature	honorific					U+FD4C: ARABIC LIGATURE SALLALLAHU ALAYHI WAAALIHEE WA-SALLAM	
+﵍				{ALAYHAA AS-SALAAM}			So		word ligature	honorific					U+FD4D: ARABIC LIGATURE ALAYHAA AS-SALAAM	
+﵎				{TABAARAKA WA-TAAALAA}			So		word ligature	honorific					U+FD4E: ARABIC LIGATURE TABAARAKA WA-TAAALAA	
+﵏				{RAHIMAHUM ALLAAH}			So		word ligature	honorific					U+FD4F: ARABIC LIGATURE RAHIMAHUM ALLAAH	
+﷏				{SALAAMUHU ALAYNAA}			So		word ligature	honorific					U+FDCF: ARABIC LIGATURE SALAAMUHU ALAYNAA	
+﷾				{SUBHAANAHU WA TAAALAA}			So		word ligature	honorific					U+FDFE: ARABIC LIGATURE SUBHAANAHU WA TAAALAA	
+﷿				{AZZA WA JALL}			So		word ligature	honorific					U+FDFF: ARABIC LIGATURE AZZA WA JALL	
+ﷴ				{MOHAMMAD}			Lo		word ligature	honorific					U+FDF4: ARABIC LIGATURE MOHAMMAD ISOLATED FORM	
+﮲				{DOT ABOVE}			Sk		independent ijam symbol	pedagogical use only					U+FBB2: ARABIC SYMBOL DOT ABOVE	
+﮳				{DOT BELOW}			Sk		independent ijam symbol	pedagogical use only					U+FBB3: ARABIC SYMBOL DOT BELOW	
+﮴				{TWO DOTS ABOVE}			Sk		independent ijam symbol	pedagogical use only					U+FBB4: ARABIC SYMBOL TWO DOTS ABOVE	
+﮵				{TWO DOTS BELOW}			Sk		independent ijam symbol	pedagogical use only					U+FBB5: ARABIC SYMBOL TWO DOTS BELOW	
+﮶				{THREE DOTS ABOVE}			Sk		independent ijam symbol	pedagogical use only					U+FBB6: ARABIC SYMBOL THREE DOTS ABOVE	
+﮷				{THREE DOTS BELOW}			Sk		independent ijam symbol	pedagogical use only					U+FBB7: ARABIC SYMBOL THREE DOTS BELOW	
+﮸				{THREE DOTS POINTING DOWNWARDS ABOVE}			Sk		independent ijam symbol	pedagogical use only					U+FBB8: ARABIC SYMBOL THREE DOTS POINTING DOWNWARDS ABOVE	
+﮹				{THREE DOTS POINTING DOWNWARDS BELOW}			Sk		independent ijam symbol	pedagogical use only					U+FBB9: ARABIC SYMBOL THREE DOTS POINTING DOWNWARDS BELOW	
+﮺				{FOUR DOTS ABOVE}			Sk		independent ijam symbol	pedagogical use only					U+FBBA: ARABIC SYMBOL FOUR DOTS ABOVE	
+﮻				{FOUR DOTS BELOW}			Sk		independent ijam symbol	pedagogical use only					U+FBBB: ARABIC SYMBOL FOUR DOTS BELOW	
+﮼				{DOUBLE VERTICAL BAR BELOW}			Sk		independent ijam symbol	pedagogical use only					U+FBBC: ARABIC SYMBOL DOUBLE VERTICAL BAR BELOW	
+﮽				{TWO DOTS VERTICALLY ABOVE}			Sk		independent ijam symbol	pedagogical use only					U+FBBD: ARABIC SYMBOL TWO DOTS VERTICALLY ABOVE	
+﮾				{TWO DOTS VERTICALLY BELOW}			Sk		independent ijam symbol	pedagogical use only					U+FBBE: ARABIC SYMBOL TWO DOTS VERTICALLY BELOW	
+﮿				{RING}			Sk		independent ijam symbol	pedagogical use only					U+FBBF: ARABIC SYMBOL RING	
+﯀				{SMALL TAH ABOVE}			Sk		independent ijam symbol	pedagogical use only					U+FBC0: ARABIC SYMBOL SMALL TAH ABOVE	
+﯁				{SMALL TAH BELOW}			Sk		independent ijam symbol	pedagogical use only					U+FBC1: ARABIC SYMBOL SMALL TAH BELOW	
+﯂				{WASLA ABOVE}			Sk		independent ijam symbol	pedagogical use only					U+FBC2: ARABIC SYMBOL WASLA ABOVE	
+																
+ؐ				{SIGN SALLALLAHOU ALAYHE WASSALLAM}					honorific diacritic	honorific					U+0610: ARABIC SIGN SALLALLAHOU ALAYHE WASSALLAM	
+ؑ				{SIGN ALAYHE ASSALLAM}					honorific diacritic	honorific					U+0611: ARABIC SIGN ALAYHE ASSALLAM	
+ؒ				{SIGN RAHMATULLAH ALAYHE}					honorific diacritic	honorific					U+0612: ARABIC SIGN RAHMATULLAH ALAYHE	
+ؓ				{SIGN RADI ALLAHOU ANHU}					honorific diacritic	honorific					U+0613: ARABIC SIGN RADI ALLAHOU ANHU	
 `																
 																
 latinPanel = '’ā ’ aː ā dˤ d͡ʒ ð ðˤ ḍ ħ ʰ ḥ iː ī ɪ ∅ θ sˤ ṣ ʃ tˤ t͡ʃ ṭ uː ū ʊ ɣ ʒ zˤ ẓ ʕ ʔ'																
