@@ -156,7 +156,6 @@ var fontDB = [
 { name:"Nyala",				system:new Set([win]), locales:new Set(['ethi']), style:'serif', wd:true },
 { name:"Oriya MN",			system:new Set([mac]), locales:new Set(['orya']), style:'serif' },
 { name:"Palatino Linotype",	system:new Set([win]), locales:new Set(['cyrl', 'grek']), style:'serif' },
-{ name:"Payap Lanna",		system:new Set([sil]), locales:new Set(['lana', 'lana-kkh', 'lana-nod']), style:'serif' },
 { name:"Plantagenet Cherokee",system:new Set([mac,win]), locales:new Set(['cher']), style:'serif', wd:true },
 { name:"PT Serif",			system:new Set([mac]), locales:new Set(['cyrl']), style:'serif' },
 { name:"PT Serif Caption",	system:new Set([mac]), locales:new Set(['cyrl']), style:'serif' },
@@ -186,7 +185,6 @@ var fontDB = [
 { name:"Tiro Telugu",		system:new Set([mac]), locales:new Set(['telu', 'new']), style:'serif', md:true },
 { name:"Traditional Arabic",system:new Set([win]), locales:new Set(['arab', 'arab-arb', 'arab-fa', 'arab-ug']), style:'serif', wd:true },
 { name:"Vani",				system:new Set([win]), locales:new Set(['telu']), style:'serif', wd:true },
-
 
 
 
@@ -468,7 +466,6 @@ var fontDB = [
 { name:"Noto Sans Tagbanwa",system:new Set([goog]), locales:new Set(['tagb']), style:'sans' },
 { name:"Noto Sans Tagalog",	system:new Set([goog]), locales:new Set(['tglg']), style:'sans' },
 { name:"Noto Sans Tai Le",	system:new Set([goog]), locales:new Set(['tale']), style:'sans' },
-{ name:"Noto Sans Tai Tham",system:new Set([goog]), locales:new Set(['lana', 'lana-kkh', 'lana-nod']), style:'sans' },
 { name:"Noto Sans Tangsa",system:new Set([goog]), locales:new Set(['tnsa']), style:'sans' },
 { name:"Noto Sans Telugu",	system:new Set([goog]), locales:new Set(['telu']), style:'sans' },
 { name:"Noto Sans Takri",	system:new Set([goog]), locales:new Set(['takr']), style:'sans' },
@@ -625,6 +622,16 @@ var fontDB = [
 
 /* syriac western */
 { name:"Noto Sans Syriac Western",system:new Set([goog]), locales:new Set(['syrc']), style:'syrj' },
+
+
+
+/* lanna-thai */
+{ name:"Payap Lanna",		system:new Set([sil]), locales:new Set(['lana', 'lana-kkh', 'lana-nod']), style:'lana-thai' },
+
+
+/* lanna-khun */
+{ name:"Noto Sans Tai Tham",system:new Set([goog]), locales:new Set(['lana', 'lana-kkh', 'lana-nod']), style:'lana-khun' },
+
 
 
 
