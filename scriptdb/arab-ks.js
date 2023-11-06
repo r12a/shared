@@ -162,6 +162,7 @@ var spreadsheet = `arab-ks	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ك				k̸			Lo	u	non-native letter	incorrect usage					U+0643: ARABIC LETTER KAF	✓
 ٮ				b̸			Lo	u	non-native letter	incorrect usage					U+066E: ARABIC LETTER DOTLESS BEH	✓
 ۪				˳			Mn	u	non-native diacritic	incorrect usage					U+06EA: ARABIC EMPTY CENTRE LOW STOP	✓
+ۍ							Lo	u	non-native letter	incorrect usage					U+06CD: ARABIC LETTER YEH WITH TAIL	
 `																
 																
 latinPanel = 'ʿ ̃ ạ ạ̄ aː ā ɖ ḍ ʤ d͡ʒ ᵉ eː ē ə əː ə̄ ɡ g͟h ʰ ḥ iː ī ɨ ɨː ʲ kʰ k͟h oː ɔ ɔː ɔ̄ pʰ ṛ ɽ ʃ ś s̱ ṣ ʈ ṭ t͡s ʧ t͡ʃ tʰ ʈʰ t͡sʰ ʦʰ t͡ʃʰ ʧʰ ṯ uː ū ẏ ẕ z̤ ẓ ʔ'																
