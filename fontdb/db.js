@@ -611,6 +611,14 @@ var fontDB = [
 { name:"Urdu Typesetting",	system:new Set([win]), locales:new Set(['arab', 'arab-ur']), style:'nastaliq', wd:true },
 
 
+
+
+
+/* rashi */
+{ name:"Noto Rashi Hebrew",	system:new Set([goog]), locales:new Set(['hebr']), style:'rashi' },
+
+
+
 /* syriac estrangela */
 { name:"Estrangelo Edessa",	system:new Set([win]), locales:new Set(['syrc']), style:'syrc', wd:true },
 //{ name:"Noto Sans Syriac Estrangela",system:new Set([goog]), locales:new Set(['syrc']), style:'syrc' },
@@ -725,7 +733,6 @@ var fontDB = [
 { name:"Maku",				system:new Set([mac]), locales:new Set(['deva', 'hi', 'mt']), style:'other' },
 { name:"Mongolian Writing",	system:new Set([other]), locales:new Set(['mong']), style:'other' },
 { name:"Noteworthy",		system:new Set([mac, ios]), locales:new Set(['cyrl', 'grek', 'latn']), style:'other' },
-{ name:"Noto Rashi Hebrew",	system:new Set([goog]), locales:new Set(['hebr']), style:'other' },
 { name:"Srisakdi",			system:new Set([mac]), locales:new Set(['thai']), style:'other' },
 
 
