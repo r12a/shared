@@ -6,12 +6,13 @@ var spreadsheet = `thaa-dv	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ;	;			;	;		Po		semicolon				U+003B: SEMICOLON	
 :	:			:	:		Po		colon				U+003A: COLON	
 !	!			!	!		Po		exclamation mark				U+0021: EXCLAMATION MARK	
-?	?			?	?		Po		question mark				U+003F: QUESTION MARK	
 .	.			.	.		Po		full stop				U+002E: FULL STOP	
 (	(			(	(		Ps		parenthesis				U+0028: LEFT PARENTHESIS	
 [	(			[	[		Pe	?	bracket				U+005B: LEFT SQUARE BRACKET	
 )	)			)	)		Ps		parenthesis				U+0029: RIGHT PARENTHESIS	
 ]	)			]	]		Pe	?	bracket				U+005D: RIGHT SQUARE BRACKET	
+“	<			“	“		Pi		quotation mark				U+201C: LEFT DOUBLE QUOTATION MARK	
+”	>			”	”		Pf		quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK	
 														
 އ	{	∅		ʿ		j	Lo		vowel support		އަލިފު	alifu	U+0787: THAANA LETTER ALIFU	✓
 ޢ	{	ʕ		ʕ	ʻ	J	Lo		arabic consonant	ع	ޢައިނު	aïnu	U+07A2: THAANA LETTER AINU	✓
@@ -70,11 +71,24 @@ var spreadsheet = `thaa-dv	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 >				–		S	Sm	?					U+003E: GREATER-THAN SIGN	
 .				–		D	Po						U+002E: FULL STOP	
 ,				–		d	Po	?					U+002C: COMMA	
-"				–		G	Po	?					U+0022: QUOTATION MARK	
+"				–		G	Po						U+0022: QUOTATION MARK	
 اللّٰه				–									U+0627 U+0644 U+0644 U+0651 U+0670 U+0647: ARABIC LETTER ALEF, LETTER LAM, LETTER LAM, SHADDA, LETTER SUPERSCRIPT ALEF, LETTER HEH	
+ﷲ				–			Lo	r					U+FDF2: ARABIC LIGATURE ALLAH ISOLATED FORM	
 ;				–			Po	?					U+003B: SEMICOLON	
 \				–		<	Po						U+005C: REVERSE SOLIDUS	
-؟				–		|	Po	?					U+061F: ARABIC QUESTION MARK	
+؟				?		|	Po						U+061F: ARABIC QUESTION MARK	
+﷽							So	r					U+FDFD: ARABIC LIGATURE BISMILLAH AR-RAHMAN AR-RAHEEM	
+٠							Nd	r					U+0660: ARABIC-INDIC DIGIT ZERO	
+١							Nd	r					U+0661: ARABIC-INDIC DIGIT ONE	
+٢							Nd	r					U+0662: ARABIC-INDIC DIGIT TWO	
+٣							Nd	r					U+0663: ARABIC-INDIC DIGIT THREE	
+٤							Nd	r					U+0664: ARABIC-INDIC DIGIT FOUR	
+٥							Nd	r					U+0665: ARABIC-INDIC DIGIT FIVE	
+٦							Nd	r					U+0666: ARABIC-INDIC DIGIT SIX	
+٧							Nd	r					U+0667: ARABIC-INDIC DIGIT SEVEN	
+٨							Nd	r					U+0668: ARABIC-INDIC DIGIT EIGHT	
+٩							Nd	r					U+0669: ARABIC-INDIC DIGIT NINE	
+\u061C							Cf						U+061C: ARABIC LETTER MARK	
 `														
 														
 latinPanel = 'ɖ ḏ d̤ ə əː eː ɡ ǵ ḥ ḫ ħ iː ɟ ɲ ṇ ∅ ɔ ɔː ʂ š ṣ ʃ ṯ t̤ t͡ʃ d͡ʒ uː ʋ ʻ ʒ z̴ ɣ t̴ θ ð d̴ ʕ ʔ'														
