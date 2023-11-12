@@ -1,10 +1,12 @@
 var spreadsheet = `batk-btk	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	native name	latin name	ucs name	block
-,	,			,			Po		comma				U+002C: COMMA	
+\u0020							Zs						U+0020: SPACE	
+,	,			,			Po	?	comma				U+002C: COMMA	
+.	.			.			Po	?	full stop				U+002E: FULL STOP	
 ᯲	*			͓			Mc		vowel killer	mand pakp toba		pangolat	U+0020 U+1BF2: SPACE, BATAK PANGOLAT	✓
 ᯳	*			#			Mc		vowel killer	karo sima		pĕnĕngĕn (K), panongonan (S)	U+0020 U+1BF3: SPACE, BATAK PANONGONAN	✓
 ᯦	/			ˑ			Mn		sound changer	mandailing			U+1BE6: BATAK SIGN TOMPI	✓
-“	<			“			Pi		quotation mark				U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
-”	>			”			Pf		quotation mark				U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
+“	<			“			Pi	?	quotation mark				U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
+”	>			”			Pf	?	quotation mark				U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
 ᯼	|			¶			Po		section mark				U+1BFC: BATAK SYMBOL BINDU NA METEK	✓
 ᯽	|			|			Po						U+1BFD: BATAK SYMBOL BINDU PINARBORAS	✓
 ᯾	|			‖			Po						U+1BFE: BATAK SYMBOL BINDU JUDUL	✓
@@ -60,13 +62,9 @@ var spreadsheet = `batk-btk	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᯌ	w	w	a	w¹	w		Lo		consonant	sima (also HA and KA)			U+1BCC: BATAK LETTER SIMALUNGUN WA	✓
 ᯛ	y	j	a	y	y		Lo		consonant	karo mand pakp toba			U+1BDB: BATAK LETTER YA	✓
 ᯜ	y	j	a	y¹	y		Lo		consonant	sima			U+1BDC: BATAK LETTER SIMALUNGUN YA	✓
-														
 `														
 														
-														
 latinPanel = '͞ ¹ ² ʤ d͡ʒ ə ɡ h̽ mᵇ nᵈ ɲ ŋ ɲ̽ t͡ʃ ʧ'														
-														
-														
 														
 var cols = {														
 key: 1,														
@@ -87,4 +85,3 @@ block: 14,
 														
 othertranscriptions: [[5, 'Latin']]														
 }														
-														
