@@ -1,7 +1,8 @@
 var spreadsheet = `sunu-suz	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	native name	latin name	deva	ucs name	block
+\u0020							Zs							U+0020: SPACE	
 -	-			-	-				hyphen					U+2010: HYPHEN	
-–	-			–	–		Pd		en dash					U+2013: EN DASH	
-—	-			—	—		Pd		em dash					U+2014: EM DASH	
+–	-			–	–		Pd	?	en dash					U+2013: EN DASH	
+—	-			—	—		Pd	?	em dash					U+2014: EM DASH	
 \u{0331}	*			˟			Lo		vowel silencer			sangmilu		U+0331 COMBINING MACRON BELOW	
 \u{003A}	:			ː			Lo		vowel lengthener			laissi		U+003A COLON	
 ,	,			,̣	,		Po		comma					U+002C: COMMA	
@@ -16,7 +17,7 @@ var spreadsheet = `sunu-suz	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 )	)			)	)		Pe		parenthesis					U+0029: RIGHT PARENTHESIS	
 ]	)			]	]		Pe		bracket					U+005D: RIGHT SQUARE BRACKET	
 %	%			%			Po		percentage mark					U+0025: PERCENT SIGN	
-‰	%			‰			Po		per mille mark					U+2030: PER MILLE SIGN	
+‰	%			‰			Po	?	per mille mark					U+2030: PER MILLE SIGN	
 “	<			“	“		Pi		quotation mark					U+201C: LEFT DOUBLE QUOTATION MARK	
 ‘	<			\‘	\‘		Pi		quotation mark					U+2018: LEFT SINGLE QUOTATION MARK	
 ”	>			”	”		Pf		quotation mark					U+201D: RIGHT DOUBLE QUOTATION MARK	
@@ -27,7 +28,7 @@ var spreadsheet = `sunu-suz	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 \u{0303}	[	̃		˜	z	z	Mn​		nasalisation	Nepal		nesante		U+0303 COMBINING TILDE	
 \u{0310}	[	̃		˜̣			Mn​		nasal marker	Sikkim		taslathenk		U+0310 COMBINING CANDRABINDU	
 \u{1DF5}	[			˙			Mn	o	repha			sangkirs		U+1DF5 COMBINING UP TACK ABOVE	
-\u{032D}	[	r		ř			Mn		sangrums	Sikkim		ra-vattu / trill mark		U+032D COMBINING CIRCUMFLEX ACCENT BELOW	
+\u{032D}	[	-r-		ř			Mn		sangrums	Sikkim		ra-vattu / trill mark		U+032D COMBINING CIRCUMFLEX ACCENT BELOW	
 \u{11BE0}	}	ʔ		ʔ	v	v	Lo		glottal stop			kloko	अ ◌	U+11BE0 SUNUWAR LETTER KLOKO	
 \u{11BE1}	B	ɓ̥		ƥ	P		Lo		auspicious sign			pvo		U+11BE1 SUNUWAR SIGN PVO	
 \u{11BC8}	A	ə		ə	a	a	Lo		vowel			appho	अ	U+11BC8 SUNUWAR LETTER APPHO	
@@ -80,9 +81,8 @@ var spreadsheet = `sunu-suz	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 \u{11BF9}	±	9		9̣	9	9	Nd		digit			yan	९	U+11BF9 SUNUWAR DIGIT NINE	
 \u{11BF0}	±	0		0̣	0	0	Nd		digit			sum	०	U+11BF0 SUNUWAR DIGIT ZERO	
 															
-\u200C	=			ₓ			Cf		zero-width non-joiner					U+200C: ZERO WIDTH NON-JOINER	
-\u200D	=			₊			Cf		zero-width joiner					U+200D: ZERO WIDTH JOINER	
-															
+\u200C	=			ₓ			Cf	?	zero-width non-joiner					U+200C: ZERO WIDTH NON-JOINER	
+\u200D	=			₊			Cf	?	zero-width joiner					U+200D: ZERO WIDTH JOINER	
 `															
 															
 latinPanel = 'aː d͡ʒ kʰ pʰ tʰ t͡ʃ t͡ʃʰ ŋ ƥ ɓ ɖ ə ɡ ɭ ɽ ʃ ʈ ʈʰ ʔ ʤ ʧ ʧʰ'															
