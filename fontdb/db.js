@@ -197,6 +197,7 @@ var fontDB = [
 
 /* CJK monoline */
 /* Hei/Gothic */
+{ name:"DengXian",			system:new Set([win]), locales:new Set(['hani', 'hans']), style:'hei', wd:true },
 { name:"Hei",				system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'hei', md:true },
 { name:"Heiti SC",			system:new Set([mac]), locales:new Set(['hani', 'hans', 'yiii']), style:'hei' },
 { name:"Lantinghei SC",		system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'hei' },
@@ -738,7 +739,6 @@ var fontDB = [
 
 /* CJK OTHER */
 { name:"Baoli SC",			system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'other', md:true },
-{ name:"DengXian",			system:new Set([win]), locales:new Set(['hani', 'hans']), style:'other', wd:true },
 { name:"Hannotate SC",		system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'other', md:true },
 { name:"HanziPen SC",		system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'other' },
 { name:"Libian SC",			system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'other', md:true },
