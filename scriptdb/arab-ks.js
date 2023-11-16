@@ -1,5 +1,5 @@
 var spreadsheet = `arab-ks	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	equiv	shape	native name	latin name	ucs name	block
- 	_			_	_		Zs		space						U+020: SPACE	✓
+\u0020							Zs		space						U+0020 SPACE	
 ـ	_			_	_		Lm	r	baseline extender						U+0640: ARABIC TATWEEL	✓
 -	-			-	-				hyphen						U+2010: HYPHEN	
 ‑	-			‑	‑		Pd	?	non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
@@ -164,6 +164,7 @@ var spreadsheet = `arab-ks	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ٮ				b̸			Lo	u	non-native letter	incorrect usage					U+066E: ARABIC LETTER DOTLESS BEH	✓
 ۪				˳			Mn	u	non-native diacritic	incorrect usage					U+06EA: ARABIC EMPTY CENTRE LOW STOP	✓
 ۍ							Lo	u	non-native letter	incorrect usage					U+06CD: ARABIC LETTER YEH WITH TAIL	
+◌				–											U+25CC: DOTTED CIRCLE	
 `																
 																
 latinPanel = 'ʿ ̃ ạ ạ̄ aː ā ɖ ḍ ʤ d͡ʒ ᵉ eː ē ə əː ə̄ ɡ g͟h ʰ ḥ iː ī ɨ ɨː ʲ kʰ k͟h oː ɔ ɔː ɔ̄ pʰ ṛ ɽ ʃ ś s̱ ṣ ʈ ṭ t͡s ʧ t͡ʃ tʰ ʈʰ t͡sʰ ʦʰ t͡ʃʰ ʧʰ ṯ uː ū ẏ ẕ z̤ ẓ ʔ'																
