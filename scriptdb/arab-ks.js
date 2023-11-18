@@ -17,6 +17,7 @@ var spreadsheet = `arab-ks	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 [	(			[	[		Ps	?	bracket						U+005B: LEFT SQUARE BRACKET	
 )	)			)	)		Pe		parenthesis						U+0029: RIGHT PARENTHESIS	✓
 ]	)			]	]		Pe	?	bracket						U+005D: RIGHT SQUARE BRACKET	
+ؔ	[			{hon}			Mn		honorific	poet & other names				takhallus	U+0614: ARABIC SIGN TAKHALLUS	
 ٓ	[			˜			Mn	r	vowel diacritic	used in decomposed text with آ					U+0653: ARABIC MADDAH ABOVE	✓
 \u200B	]			␣			Cf	?	zero-width space						U+200B: ZERO WIDTH SPACE	
 ع	}	ʔ ∅		ʔ	ʿ		Lo	l	plosive			ع ععع	عٲن	əːn	U+0639: ARABIC LETTER AIN	✓
@@ -63,10 +64,11 @@ var spreadsheet = `arab-ks	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 آ	A	aː		ã	ā		Lo		initial vowel		\u0627\u0653	آ ـآ			U+0622: ARABIC LETTER ALEF WITH MADDA ABOVE	✓
 ب	b	b		b	b		Lo		plosive			ب ببب	بے	beː	U+0628: ARABIC LETTER BEH	✓
 ژ	c	t͡s		ʦ	ts		Lo		affricate			ژ ـژ	ژے	t͡seː	U+0698: ARABIC LETTER JEH	✓
-چ	C	t͡ʃ		ʧ	c		Lo		affricate			چ چچچ	چیٖم	chīm	U+0686: ARABIC LETTER TCHEH	✓
+ژھ	C	t͡sʰ		ʦʰ	tsh				aspirated affricate			ژھ ژھژھژھ			U+0698 U+06BE: ARABIC LETTER JEH, LETTER HEH DOACHASHMEE	
+چ	c	t͡ʃ		ʧ	c		Lo		affricate			چ چچچ	چیٖم	chīm	U+0686: ARABIC LETTER TCHEH	✓
 چھ	C	t͡ʃʰ		ʧʰ	ch				aspirated affricate			چھ چھچھچھ			U+0686 U+06BE: ARABIC LETTER TCHEH, LETTER HEH DOACHASHMEE	
+د	d	d		d	d		Lo		plosive			د ـد	دال	daːl	U+062F: ARABIC LETTER DAL	✓
 ڈ	d	ɖ		ɖ	ḍ		Lo		plosive			ڈ ـڈ	ڈال	ɖaːl	U+0688: ARABIC LETTER DDAL	✓
-د	d¶	d		d	d		Lo		plosive			د ـد	دال	daːl	U+062F: ARABIC LETTER DAL	✓
 ے	e	eː		ē	ē y		Lo		final vowel			ے ـے	یے	jeː	U+06D2: ARABIC LETTER YEH BARREE	✓
 ٔ	e	Ə		ᵊ	ạ		Mn		medial/final vowel						U+0654: ARABIC HAMZA ABOVE	✓
 ٲ	e	Əː		ə̄	ạ̄		Lo		initial/medial/final vowel						U+0672: ARABIC LETTER ALEF WITH WAVY HAMZA ABOVE	✓
@@ -89,8 +91,9 @@ var spreadsheet = `arab-ks	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 خ	K	kʰ x		x	k͟h		Lo	l	aspirated plosive			خ خخخ	خے	kʰeː	U+062E: ARABIC LETTER KHAH	✓
 ل	l	l		l	l		Lo		approximant			ل للل	لام	laːm	U+0644: ARABIC LETTER LAM	✓
 م	m	m		m	m		Lo		nasal			م ممم	میٖم	miːm	U+0645: ARABIC LETTER MEEM	✓
+ن	n	n ̃		n	n ̃		Lo		nasal/nasalisation marker			ن ننن	نوٗن	nuːn	U+0646: ARABIC LETTER NOON	✓
+نْ	n	̃		ñ					nasalisation marker						U+0646, U+0652: ARABIC LETTER NOON, ARABIC SUKUN	
 ں	n	̃		ñ			Lo		nasalisation marker	tbc				noon ghunna	U+06BA: ARABIC LETTER NOON GHUNNA	✓
-ن	n¶	n ̃		n	n ̃		Lo		nasal/nasalisation marker			ن ننن	نوٗن	nuːn	U+0646: ARABIC LETTER NOON	✓
 وٚ	o	o		wᵉ	o				vowel			ۆ ـۆ			U+0648 U+065A: ARABIC LETTER WAW, VOWEL SIGN SMALL V ABOVE	
 ۄ	o	ɔ		ɔ	ɔ		Lo		medial/final vowel			ۄ ـۄ			U+06C4: ARABIC LETTER WAW WITH RING	✓
 ۄآ	o	ɔː		ɔã	ɔ̄				final vowel						U+06C4 U+0622: ARABIC LETTER WAW WITH RING, LETTER ALEF WITH MADDA ABOVE	
@@ -104,7 +107,6 @@ var spreadsheet = `arab-ks	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 س	s¶	s		s	s		Lo		fricative			س سسس	سیٖن	siːn	U+0633: ARABIC LETTER SEEN	✓
 ٹ	t	ʈ		ʈ	ṭ		Lo		plosive			ٹ ٹٹٹ	ٹے	ṭeː	U+0679: ARABIC LETTER TTEH	✓
 ٹھ	T	ʈʰ		ʈʰ	ṭh				aspirated plosive			ٹھ ٹھٹھٹھ			U+0679 U+06BE: ARABIC LETTER TTEH, LETTER HEH DOACHASHMEE	
-ژھ	T	t͡sʰ		ʦʰ	tsh				aspirated affricate			ژھ ژھژھژھ			U+0698 U+06BE: ARABIC LETTER JEH, LETTER HEH DOACHASHMEE	
 ط	T	t		ṫ	ṯ		Lo	l	plosive			ط ططط	طۄے	tɔj	U+0637: ARABIC LETTER TAH	✓
 ت	t¶	t		t	t		Lo		plosive			ت تتت	تے	teː	U+062A: ARABIC LETTER TEH	✓
 تھ	T¶	tʰ		tʰ	th				aspirated plosive			تھ تھتھتھ			U+062A U+06BE: ARABIC LETTER TEH, LETTER HEH DOACHASHMEE	
@@ -131,6 +133,7 @@ var spreadsheet = `arab-ks	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 																
 اێ		e		ạ̄e	e				initial vowel						U+0627 U+06CE: ARABIC LETTER ALEF, LETTER YEH WITH SMALL V	
 ٚے		e		ᵉē	e				final vowel						U+065A U+06D2: ARABIC VOWEL SIGN SMALL V ABOVE, LETTER YEH BARREE	
+ےٚ		e		ᵉē	e				final vowel						U+06D2 U+065A LETTER YEH BARREE, ARABIC VOWEL SIGN SMALL V ABOVE	
 ٚ				ᵉ	e		Mn		vowel diacritic						U+065A: ARABIC VOWEL SIGN SMALL V ABOVE	✓
 ای		eː		ạ̄y	ē				initial vowel						U+0627 U+06CC: ARABIC LETTER ALEF, LETTER FARSI YEH	
 اۆ		o		ạ̄o	o				initial vowel						U+0627 U+06C6: ARABIC LETTER ALEF, LETTER OE	
@@ -164,7 +167,7 @@ var spreadsheet = `arab-ks	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ٮ				b̸			Lo	u	non-native letter	incorrect usage					U+066E: ARABIC LETTER DOTLESS BEH	✓
 ۪				˳			Mn	u	non-native diacritic	incorrect usage					U+06EA: ARABIC EMPTY CENTRE LOW STOP	✓
 ۍ							Lo	u	non-native letter	incorrect usage					U+06CD: ARABIC LETTER YEH WITH TAIL	
-◌				–											U+25CC: DOTTED CIRCLE	
+◌															U+25CC: DOTTED CIRCLE	
 `																
 																
 latinPanel = 'ʿ ̃ ạ ạ̄ aː ā ɖ ḍ ʤ d͡ʒ ᵉ eː ē ə əː ə̄ ɡ g͟h ʰ ḥ iː ī ɨ ɨː ʲ kʰ k͟h oː ɔ ɔː ɔ̄ pʰ ṛ ɽ ʃ ś s̱ ṣ ʈ ṭ t͡s ʧ t͡ʃ tʰ ʈʰ t͡sʰ ʦʰ t͡ʃʰ ʧʰ ṯ uː ū ẏ ẕ z̤ ẓ ʔ'																
