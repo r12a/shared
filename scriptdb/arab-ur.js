@@ -24,7 +24,7 @@ var spreadsheet = `arab-ur	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ٘	[	̃		ᵑ	̃		Mn		nasalisation mark	with word-medial ن					U+0658: ARABIC MARK NOON GHUNNA	✓
 ن٘	[	̃		nᵑ	̃				nasalisation						U+0646, U+0658: ARABIC LETTER NOON, MARK NOON GHUNNA	
 \u200B	]			␣			Cf	?	zero-width space						U+200B: ZERO WIDTH SPACE	
-ع	{	∅		ʿ	ā o e ʿ –	m	Lo		consonant			ع ععع	عین	ɛːn	U+0639: ARABIC LETTER AIN	✓
+ع	{	ə ɑː ∅ ʔ		ʿ	ā o e ʿ –	m	Lo		consonant			ع ععع	عین	ɛːn	U+0639: ARABIC LETTER AIN	✓
 ء	}			ʾ		H	Lo		vowel separator / calendar indicator			ء	ہمزہ	ɦəm.zɑː	U+0621: ARABIC LETTER HAMZA	✓
 ٓ	}			~		G	Mn	i	maddah diacritic	used with ا					U+0653: ARABIC MADDAH ABOVE	
 ْ	*			͓		]	Mn		vowel absence marker					sukuːn/ʤazm	U+0652: ARABIC SUKUN	✓
@@ -68,7 +68,7 @@ var spreadsheet = `arab-ur	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ”	>			”	”		Pf		quotation mark						U+201D: RIGHT DOUBLE QUOTATION MARK	✓
 ’	>			\’	\’		Pf	?	quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	✓
 																
-ا	a	a ɪ u ∅ ɑː		ɑ	ā ʾ –	j	Lo		vowel			ا ـا	الف	ə.lɪf	U+0627: ARABIC LETTER ALEF	✓
+ا	a	ə ɪ ʊ ∅ ɑː		ɑ	ā ʾ –	j	Lo		vowel			ا ـا	الف	ə.lɪf	U+0627: ARABIC LETTER ALEF	✓
 آ	a	ɑː		ɑ̄	ā	J	Lo		vowel	initial only	\u{627}\u{653}	آ ـآ		əlɪf mədd	U+0622: ARABIC LETTER ALEF WITH MADDA ABOVE	✓
 َ	A	ə		a	a	e	Mn		vowel					zəbər	U+064E: ARABIC FATHA	✓
 ً	A	an		aⁿ		w	Mn		vowel					an	U+064B: ARABIC FATHATAN	✓

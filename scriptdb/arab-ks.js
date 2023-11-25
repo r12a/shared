@@ -96,7 +96,7 @@ var spreadsheet = `arab-ks	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ں	n	̃		ñ			Lo		nasalisation marker	tbc				noon ghunna	U+06BA: ARABIC LETTER NOON GHUNNA	✓
 وٚ	o	o		wᵉ	o				vowel			ۆ ـۆ			U+0648 U+065A: ARABIC LETTER WAW, VOWEL SIGN SMALL V ABOVE	
 ۄ	o	ɔ		ɔ	ɔ		Lo		medial/final vowel			ۄ ـۄ			U+06C4: ARABIC LETTER WAW WITH RING	✓
-ۄآ	o	ɔː		ɔã	ɔ̄				final vowel						U+06C4 U+0622: ARABIC LETTER WAW WITH RING, LETTER ALEF WITH MADDA ABOVE	
+ۄا	o	ɔː		ɔã	ɔ̄				final vowel						U+06C4 U+0627: ARABIC LETTER WAW WITH RING, LETTER ALEF	
 پ	p	p		p	p		Lo		plosive			پ پپپ	پے	pē	U+067E: ARABIC LETTER PEH	✓
 پھ	P	pʰ		pʰ	ph				aspirated plosive			پھ پھپھپھ			U+067E U+06BE: ARABIC LETTER PEH, LETTER HEH DOACHASHMEE	
 ر	r	r		r	r		Lo		approximant			ر ـر	رے	reː	U+0631: ARABIC LETTER REH	✓
