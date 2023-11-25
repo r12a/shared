@@ -201,6 +201,7 @@ var spreadsheet = `arab-ar	key	ipa	ipa+	translit	LOC	kbd	class	status	type	usage
 ؑ				{SIGN ALAYHE ASSALLAM}					honorific diacritic	honorific					U+0611: ARABIC SIGN ALAYHE ASSALLAM	
 ؒ				{SIGN RAHMATULLAH ALAYHE}					honorific diacritic	honorific					U+0612: ARABIC SIGN RAHMATULLAH ALAYHE	
 ؓ				{SIGN RADI ALLAHOU ANHU}					honorific diacritic	honorific					U+0613: ARABIC SIGN RADI ALLAHOU ANHU	
+ؔ							Mn		author name marker	honorific					U+0614: ARABIC SIGN TAKHALLUS	
 `																
 																
 latinPanel = '’ā ’ aː ā dˤ d͡ʒ ð ðˤ ḍ ħ ʰ ḥ iː ī ɪ ∅ θ sˤ ṣ ʃ tˤ t͡ʃ ṭ uː ū ʊ ɣ ʒ zˤ ẓ ʕ ʔ'																
