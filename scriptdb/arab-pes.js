@@ -123,6 +123,7 @@ var spreadsheet = `arab-pes	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ي				–			Lo	u	confusable	do not use for Persian				U+064A: ARABIC LETTER YEH	
 ۃ				–			Lo	u	confusable	do not use for Persian				U+06C3: ARABIC LETTER TEH MARBUTA GOAL	
 ك				–			Lo	u	confusable	do not use for Persian				U+0643: ARABIC LETTER KAF	
+ى				–			Lo	u	confusable	do not use for Persian				U+0649: ARABIC LETTER ALEF MAKSURA	
 															
 لا				lɑ					ligature					U+0644 U+0627: ARABIC LETTER LAM, LETTER ALEF	
 لآ				lɑ̄					ligature					U+0644 U+0622: ARABIC LETTER LAM, LETTER ALEF WITH MADDA ABOVE	
