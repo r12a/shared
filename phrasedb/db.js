@@ -29,6 +29,12 @@ phraseDB = {
 		sourceURL: "https://unicode.org/udhr/d/udhr_amh.html"
 		},
 
+'ang': { name: 'Old English', 
+		text: "Hwæt! wē Gār-Dena in ġēar-dagum þēod-cyninga þrym gefrūnon, hūðā æþelingas ellen fremedon",
+		source: "Opening line of Beowulf.",
+		translation: "Lo! we have heard tell of the glory of the kings of the spear-wielding Danes in days of old; what lofty deeds were done by these noble lords.",
+		},
+
 'arb': { name: 'Standard Arabic', 
 		text: "يولد جميع الناس أحرارًا متساوين في الكرامة والحقوق. وقد وهبوا عقلاً وضميرًا وعليهم أن يعامل بعضهم بعضًا بروح الإخاء.",
 		source: "UDHR §1",
@@ -576,6 +582,10 @@ phraseDB = {
 
 'nod': { name: 'Northern Thai',
 		text: "ᨣᩢ᩠ᨶᩉᩮᩖᩨᨠᩥ᩠ᨶ ᨣᩢᩐᩢᩣᨡᩣ᩠ᨿᨸᩮ᩠ᨶᨦᩫ᩠ᨶ ᨠᩮ᩠ᨷᩉᩬᨾᩋᩬᨾᩅᩱᩢᨯ᩠᩶ᨦᨶᩦ᩶ ᨴᩩᨠᪧᨸᩦᨾᩣᨷᩢᨡᩣ᩠ᨯ ᨧᩥ᩠᩵ᨦᨠ᩠ᨴᩣᩴᩉᩨ᩶ᨡᩮᩢᩣᨻᩳ᩵ᨾᩯ᩵ᩃᩪᨠ ᨷᩢᨯᩱ᩶ᨠᩢ᩠᩶ᨶᩈᩢ᩠ᨦᩈᩢ᩠ᨠᨩᩮᩬᩨ",
+		},
+
+'non': { name: 'Old Norse',
+		text: "Ok sem leið at jólum, gørðusk menn þar ókátir. Bǫðvarr spurði Hǫtt hverju þat sætti; hann sagði honum at dýr eitt hafi komit þar tvá vetr í samt, mikit ok ógurligt.",
 		},
 
 'nqo': { name: 'N’Ko',

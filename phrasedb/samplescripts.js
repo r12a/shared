@@ -66,7 +66,7 @@ var sampleScriptsIndex = {
     'khoj': { name: "Khojki", langs:['sa-khoj'], font: ['khoj'] },
     'laoo': { name: "Lao", langs:['lo'], font: ['laoo'] },
     'lana': { name: "Tai Tham", langs:['kkh', 'nod'], font:['lana', 'lana-kkh', 'lana-nod'] },
-    'latn': { name: "Latin", langs:['ak', 'cy', 'dgr', 'en-GB-fonipa', 'ha-NE', 'ha-NG', 've', 'vi', 'yo'], font:['latn'] },
+    'latn': { name: "Latin", langs:['ak', 'ang', 'cy', 'dgr', 'en-GB-fonipa', 'ha-NE', 'ha-NG', 'non', 've', 'vi', 'yo'], font:['latn'] },
     'lepc': { name: "Lepcha", langs:['lep'], font: ['lepc'] },
     'limb': { name: "Limbu", langs:['lif'], font: ['limb'] },
     'lina': { name: "Linear A", langs:['omn-lina'], font: ['lina'] },
