@@ -87,6 +87,8 @@ var spreadsheet = `arab-ha	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ز	z¶	z		z	z		Lo		fricative			ز ـز			U+0632: ARABIC LETTER ZAIN	✓
 ذ	z	z		ż	z		Lo	r	fricative	alternative		ذ ـذ			U+0630: ARABIC LETTER THAL	✓
 ظ	z	z		z̄	z		Lo	r	fricative	alternative		ظ ظظظ			U+0638: ARABIC LETTER ZAH	✓
+ڢ								u		not used !					U+06A2: ARABIC LETTER FEH WITH DOT MOVED BELOW	
+ڧ								u		not used !					U+06A7: ARABIC LETTER QAF WITH DOT ABOVE	
 `																
 																
 latinPanel = '’ā ’ aː ā dˤ d͡ʒ ð ðˤ ḍ ħ ʰ ḥ iː ī ɪ ∅ θ sˤ ṣ ʃ tˤ t͡ʃ ṭ uː ū ʊ ɣ ʒ zˤ ẓ ʕ ʔ'																
