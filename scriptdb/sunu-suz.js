@@ -3,8 +3,8 @@ var spreadsheet = `sunu-suz	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 -	-			-	-				hyphen					U+2010: HYPHEN	
 –	-			–	–		Pd	?	en dash					U+2013: EN DASH	
 —	-			—	—		Pd	?	em dash					U+2014: EM DASH	
-\u{0331}	*	∅		˟			Lo		vowel silencer			sangmilu		U+0331 COMBINING MACRON BELOW	
-\u{003A}	:			ː			Lo		vowel lengthener			laissi		U+003A COLON	
+\u{0331}	*	∅		˟			Mn​		vowel silencer			sangmilu		U+0331 COMBINING MACRON BELOW	
+\u{003A}	:			ː			Po		vowel lengthener			laissi		U+003A COLON	
 ,	,			,̣	,		Po		comma					U+002C: COMMA	
 ;	;			;̣	;		Po		semicolon					U+003B: SEMICOLON	
 :	:			:	:		Po		colon					U+003A: COLON	
@@ -19,18 +19,18 @@ var spreadsheet = `sunu-suz	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 %	%			%			Po		percentage mark					U+0025: PERCENT SIGN	
 ‰	%			‰			Po	?	per mille mark					U+2030: PER MILLE SIGN	
 “	<			“	“		Pi		quotation mark					U+201C: LEFT DOUBLE QUOTATION MARK	
-‘	<			\‘	\‘		Pi		quotation mark					U+2018: LEFT SINGLE QUOTATION MARK	
+‘	<			‘	‘		Pi		quotation mark					U+2018: LEFT SINGLE QUOTATION MARK	
 ”	>			”	”		Pf		quotation mark					U+201D: RIGHT DOUBLE QUOTATION MARK	
-’	>			\’	\’		Pf		quotation mark					U+2019: RIGHT SINGLE QUOTATION MARK	
+’	>			’	’		Pf		quotation mark					U+2019: RIGHT SINGLE QUOTATION MARK	
 \u{030D}	^			ˈ	Z	Z	Mn​		stress mark			sotte'si		U+030D COMBINING VERTICAL LINE ABOVE	
 \u{0301}	^			ˊ	x	x	Mn​		high tone			ta renmaresi		U+0301 COMBINING ACUTE ACCENT	
 \u{0300}	^			ˋ	X	X	Mn​		low tone			di renmaresi		U+0300 COMBINING GRAVE ACCENT	
 \u{0303}	[	̃		˜	z	z	Mn​		nasalisation	Nepal		nesante		U+0303 COMBINING TILDE	
 \u{0310}	[	̃		˜̣			Mn​		nasal marker	Sikkim		taslathenk		U+0310 COMBINING CANDRABINDU	
-\u{1DF5}	[			˙			Mn	o	repha	obsolete		sangkirs		U+1DF5 COMBINING UP TACK ABOVE	
+\u{1DF5}	[			˙			Mn​	o	repha	obsolete		sangkirs		U+1DF5 COMBINING UP TACK ABOVE	
 \u{032D}	[	-r-		ř			Mn		sangrums	Sikkim		ra-vattu / trill mark		U+032D COMBINING CIRCUMFLEX ACCENT BELOW	
 \u{11BE0}	}	ʔ		ʔ	v	v	Lo		glottal stop			kloko	अ ◌	U+11BE0 SUNUWAR LETTER KLOKO	
-\u{11BE1}	B	ɓ		ɓ	P		Lo		auspicious sign			pvo		U+11BE1 SUNUWAR SIGN PVO	
+\u{11BE1}	B	ɓ		ɓ	P		So		auspicious sign			pvo		U+11BE1 SUNUWAR SIGN PVO	
 \u{11BC8}	A	ə		ə	a	a	Lo		vowel			appho	अ	U+11BC8 SUNUWAR LETTER APPHO	
 \u{11BD6}	a	aː		a	A	A	Lo		long vowel			aal	आ	U+11BD6 SUNUWAR LETTER AAL	
 \u{11BCE}	b	b		b	b	b	Lo		consonant			bur	ब	U+11BCE SUNUWAR LETTER BUR	
@@ -40,7 +40,7 @@ var spreadsheet = `sunu-suz	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 \u{11BC0}	d	d		d	d	d	Lo		consonant			devi	द ड	U+11BC0 SUNUWAR LETTER DEVI	
 \u{11BD7}	D	ɖ		ɖ	D	D	Lo		consonant			donga	ड	U+11BD7 SUNUWAR LETTER DONGA	
 \u{11BC2}	e	e		e	e	e	Lo		vowel			eko	ए	U+11BC2 SUNUWAR LETTER EKO	
-\u{11BCA}	g	ɡ		g	g	g	Lo		consonant			gil	ग	U+11BE0 SUNUWAR LETTER KLOKO	
+\u{11BCA}	g	ɡ		g	g	g	Lo		consonant			gil	ग	U+11BCA SUNUWAR LETTER GIL	
 \u{11BCB}	h	h		h	h	h	Lo		consonant			hamso	ह	U+11BCB SUNUWAR LETTER HAMSO	
 \u{11BC3}	i	i		i	i	i	Lo		vowel			imar	इ	U+11BC3 SUNUWAR LETTER IMAR	
 \u{11BCF}	j	d͡ʒ		ʤ	j	j	Lo		consonant			jyah	ज	U+11BCF SUNUWAR LETTER JYAH	
