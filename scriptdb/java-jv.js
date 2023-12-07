@@ -1,4 +1,5 @@
 var spreadsheet = `java-jv	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	dvowel	ivowel	shape	conj	native name	latin name	ucs name	block
+\u0020									space								U+0020: SPACE	
 \u200B	]			␣			Cf		zero-width space								U+200B: ZERO WIDTH SPACE	
 ꦴ				–			Mc		vowel lengthener	not used alone in modern javanese							A9B4: JAVANESE VOWEL SIGN TARUNG	
 ‒		a	a ɔ		a			?	inherent vowel									
