@@ -31,7 +31,7 @@ var spreadsheet = `arab-wo	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ّ	&			˖			Mn		gemination mark				U+0651: ARABIC SHADDA		
 ْ	*			˟			Mn		vowel absence indicator				U+0652: ARABIC SUKUN		
 															
-ا	A	aː		ā	aa		Lo		long vowel / vowel carrier		اَلِف	alif	U+0627: ARABIC LETTER ALEF		
+ا	A	aː ∅		ā	aa		Lo		long vowel / vowel carrier		اَلِف	alif	U+0627: ARABIC LETTER ALEF		
 ب	b	b		b	b		Lo		consonant		بࣹهْ	beh	U+0628: ARABIC LETTER BEH		
 ݒ	p	p		p	p		Lo		consonant		ݒࣹهْ	peh	U+0752: ARABIC LETTER BEH WITH THREE DOTS POINTING UPWARDS BELOW		
 ت	t	t		t	t		Lo		consonant		تࣹهْ	teh	U+062A: ARABIC LETTER TEH		
@@ -61,7 +61,7 @@ var spreadsheet = `arab-wo	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 نݖ		ᶮc			nc				prenasalised consonant	not word-initial			U+0646 U+0756: ARABIC LETTER NOON, LETTER BEH WITH SMALL V		
 نج		ᶮɟ			nj				prenasalised consonant				U+0646 U+062C: ARABIC LETTER NOON, LETTER JEEM		
 نق		ᵑq			nq				prenasalised consonant	not word-initial			U+0646 U+0642: ARABIC LETTER NOON, LETTER QAF		
-نک		ɴk			nk				prenasalised consonant				U+0646 U+06A9: ARABIC LETTER NOON, LETTER KEHEH		
+نک		ᵑk			nk				prenasalised consonant				U+0646 U+06A9: ARABIC LETTER NOON, LETTER KEHEH		
 نگ		ᵑɡ			ng				prenasalised consonant				U+0646 U+06AF: ARABIC LETTER NOON, LETTER GAF		
 															
 															
