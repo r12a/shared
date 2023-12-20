@@ -331,7 +331,12 @@ phraseDB = {
 		},
 
 'hnn': { name: 'Hanunoo',
-		text: "ᜣᜥ᜴ ᜫᜨᜳᜣ᜴ ᜰᜲ ᜪᜲᜮᜯᜨ᜴ ᜵ ᜨᜤ᜴ᜰᜲᜮᜳᜥ᜴ ᜰ ᜩᜰᜳᜠᜰᜨ᜴ ᜵ ᜫᜤ᜴ᜧᜮᜨ᜴ᜥᜲᜨ᜴ ᜬᜲ ᜢᜮᜨ᜴ ᜶",
+		//text: "ᜣᜥ᜴ ᜫᜨᜳᜣ᜴ ᜰᜲ ᜪᜲᜮᜯᜨ᜴ ᜵ ᜨᜤ᜴ᜰᜲᜮᜳᜥ᜴ ᜰ ᜩᜰᜳᜠᜰᜨ᜴ ᜵ ᜫᜤ᜴ᜧᜮᜨ᜴ᜥᜲᜨ᜴ ᜬᜲ ᜢᜮᜨ᜴ ᜶",
+		text: "ᜰᜲ ᜠᜬ᜴ᜩᜳᜧ᜴ ᜪᜬ᜴ ᜢ ᜥ ᜧᜨ᜴<br>ᜨᜳ ᜣᜥ᜴ ᜦᜲ ᜨ ᜤᜲᜨ᜴ᜧᜳ ᜫᜨ᜴<br>ᜫᜬ᜴ ᜦ ᜣᜲᜩ᜴ ᜫ ᜧᜲ ᜣᜬ᜴ ᜯᜨ᜴<br>ᜫᜳ ᜣᜥ᜴ ᜦᜲ ᜨ ᜤᜲᜨ᜴ ᜧᜳ ᜫᜨ᜴<br>ᜤ ᜰᜲ ᜬᜳᜨ᜴ ᜧᜲ ᜰ ᜠᜧ᜴ ᜥᜨ᜴<br>ᜤ ᜩᜤ᜴ ᜦᜥ᜴ᜧ ᜬᜳᜨ᜴ ᜧᜲ ᜫᜨ᜴᜶",
+		transcription: "Si ay-pod bay u- pa- dan, No kang ti- na gin-du- man, May u- lang ma- di kag-nan, May ta- kip ma di kay-wan, Mo kang ti- na gin-du- man, Ga si- yon di sa ad- ngan, Ga pag- tang-da- yon di-man.",
+		translation: "You my friend, dearest of all, thinking of you makes me sad; rivers deep are in between, forests vast keep us apart, But thinking of you with love; as if you are here nearby, standing, sitting at my side.",
+		source: "Wikipedia, Hanunoo script",
+		sourceURL: "https://en.wikipedia.org/wiki/Hanunoo_script",
 		},
 
 'hoc': { name: 'Ho',
