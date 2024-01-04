@@ -29,16 +29,16 @@ var spreadsheet = `arab-ckb	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ب	b	b		b	b		Lo		consonant		ب ببب			U+0628: ARABIC LETTER BEH	
 چ	c	t͡ʃ		c	ç		Lo		consonant		چ چچچ			U+0686: ARABIC LETTER TCHEH	
 د	d	d		d	d		Lo		consonant		د ـد			U+062F: ARABIC LETTER DAL	
-ە	e	ɛ a		ɛ	e		Lo		vowel		ە ـە			U+06D5: ARABIC LETTER AE	
+ە	e	æ ə ɛ		ɛ	e		Lo		vowel		ە ـە			U+06D5: ARABIC LETTER AE	
 ێ	E	eː		e	ê		Lo		vowel		 ێ ێێێ			U+06CE: ARABIC LETTER YEH WITH SMALL V	
-ف	f	f		f	f		Lo		consonant		ف ففف			U+06A2: ARABIC LETTER FEH WITH DOT MOVED BELOW	
+ف	f	f		f	f		Lo		consonant		ف ففف			U+0641: ARABIC LETTER FEH	
 گ	g	ɡ		g	g		Lo		consonant		گ گگگ			U+06AF: ARABIC LETTER GAF	
 ه	h	h		h	h		Lo		consonant		ه ههـ			U+0647: ARABIC LETTER HEH	
 ح	H	ħ		ħ	h		Lo		consonant		ح ححح			U+062D: ARABIC LETTER HAH	
 ھ	h	h		h	h		Lo		consonant		ھ ھھـ			U+06BE: ARABIC LETTER HEH DOACHASHMEE	
 ژ	j	ʒ		ʒ	j		Lo		consonant		ژ ـژ			U+0698: ARABIC LETTER JEH	
 ج	J	d͡ʒ		ʤ	c		Lo		consonant		 ج ججج			U+062C: ARABIC LETTER JEEM	
-ک	k	k c		k	k		Lo		consonant		ک ککک			U+06A9: ARABIC LETTER KEHEH	
+ک	k	k	c	k	k		Lo		consonant		ک ککک			U+06A9: ARABIC LETTER KEHEH	
 ل	l	l		l	l		Lo		consonant		ل للل			U+0644: ARABIC LETTER LAM	
 ڵ	L	ɫ		ɫ	ll		Lo		consonant		ڵ ـڵڵ			U+06B5: ARABIC LETTER LAM WITH SMALL V	
 م	m	m		m	m		Lo		consonant		م ممم			U+0645: ARABIC LETTER MEEM	
@@ -50,21 +50,46 @@ var spreadsheet = `arab-ckb	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ڕ	R	r		r	rr		Lo		consonant		ڕ ـڕ			U+0695: ARABIC LETTER REH WITH SMALL V BELOW	
 س	s	s		s	s		Lo		consonant		س سسس			U+0633: ARABIC LETTER SEEN	
 ش	S	ʃ		ʃ	ş		Lo		consonant		ش ششش			U+0634: ARABIC LETTER SHEEN	
-ت	t	t tʰ		t	t		Lo		consonant		ت تتت			U+062A: ARABIC LETTER TEH	
+ت	t	t	tʰ	t	t		Lo		consonant		ت تتت			U+062A: ARABIC LETTER TEH	
 و	u	ʊ w		ʊ	u		Lo		vowel		و ـو			U+0648: ARABIC LETTER WAW	
 وو	U	uː		u	û				vowel		وو ـوو			U+0648 U+0648: ARABIC LETTER WAW, LETTER WAW	
 ڤ	v	v		v	v		Lo		consonant		ڤ ڤڤڤ			U+06A4: ARABIC LETTER VEH	
 خ	x	x		x	x		Lo		consonant		خ خخخ			U+062E: ARABIC LETTER KHAH	
-غ	X	ɣ		ɣ	x		Lo		consonant		غ غغغ			U+063A: ARABIC LETTER GHAIN	
+غ	X	ɣ		ɣ	ẍ		Lo		consonant		غ غغغ			U+063A: ARABIC LETTER GHAIN	
 ی	y	j iː		i	y i		Lo		consonant		ی ییی			U+06CC: ARABIC LETTER FARSI YEH	
-ۊ	y	yː		y	–		Lo		vowel		ۊ ـۊ			U+06CA: ARABIC LETTER WAW WITH TWO DOTS ABOVE	
 ز	z	z		z	z		Lo		consonant		ز ـز			U+0632: ARABIC LETTER ZAIN	
 ع	{	ʕ		ʕ	–		Lo		consonant		ع ععع			U+0639: ARABIC LETTER AIN	
-نٚ	N	ŋ		ŋ	ň				consonant					U+0646 U+065A: ARABIC LETTER NOON, VOWEL SIGN SMALL V ABOVE	
-ئ	{	ʔ		ʔ	–				word-initial vowel carrier					U+0626: ARABIC LETTER YEH WITH HAMZA ABOVE	
+نٚ	N	ŋ		ŋ	ň			r	consonant					U+0646 U+065A: ARABIC LETTER NOON, VOWEL SIGN SMALL V ABOVE	
+ئ	{	ʔ		ʔ	–		Lo		word-initial vowel carrier					U+0626: ARABIC LETTER YEH WITH HAMZA ABOVE	
+															
+ي				í			Lo		decomposed part of standalone vowel carrier	not normally used				U+064A: ARABIC LETTER YEH	
+ٔ				ʾ			Mn​		decomposed part of standalone vowel carrier	not normally used				U+0654: ARABIC HAMZA ABOVE	
+\u065A							Mn​	u	inappropriate orphan					U+065A: ARABIC VOWEL SIGN SMALL V ABOVE	
+ك		k					Lo	u	arabic k	not normally used				U+0643: ARABIC LETTER KAF	
+ڶ		ɫ					Lo	u	consonant	poorly attested alternative				U+06B6: ARABIC LETTER LAM WITH DOT ABOVE	
+ڷ		ɫ					Lo	u	consonant	poorly attested alternative				U+06B7: ARABIC LETTER LAM WITH THREE DOTS ABOVE	
+ڒ		r					Lo	u	consonant	poorly attested alternative				U+0692: ARABIC LETTER REH WITH SMALL V	
+ڔ		r					Lo	u	consonant	poorly attested alternative				U+0694: ARABIC LETTER REH WITH DOT BELOW	
+ۊ	y	yː		y	–		Lo	r	vowel		ۊ ـۊ			U+06CA: ARABIC LETTER WAW WITH TWO DOTS ABOVE	
+ّ							Mn	u	gemination diacritic	not used				U+0651: ARABIC SHADDA	
+ْ							Mn	u	absent vowel indicator	not used				U+0652: ARABIC SUKUN	
+															
+\u200C	=			ₓ			Cf		zwnj					U+200C: ZERO WIDTH NON-JOINER	
+\u200D	=			₊			Cf		zwj					U+200D: ZERO WIDTH JOINER	
+\u2067	=			ʳˡⁱ			Cf		rtl isolate					U+2067: RIGHT-TO-LEFT ISOLATE	
+\u2066	=			ˡʳⁱ			Cf		ltr isolate					U+2066: LEFT-TO-RIGHT ISOLATE	
+\u2068	=			ᶠˢⁱ			Cf		first-strong isolate					U+2068: FIRST STRONG ISOLATE	
+\u2069	=			ᵖᵈⁱ			Cf		pop direction isolate					U+2069: POP DIRECTIONAL ISOLATE	
+\u202B	=			ʳˡᵉ			Cf		rtl embed					U+202B: RIGHT-TO-LEFT EMBEDDING	
+\u202A	=			ˡʳᵉ			Cf		ltr embed					U+202A: LEFT-TO-RIGHT EMBEDDING	
+\u202C	=			ᵖᵈᶠ			Cf		pop direction					U+202C: POP DIRECTIONAL FORMATTING	
+\u200F	=			ʳˡᵐ			Cf		rtl mark					U+200F: RIGHT-TO-LEFT MARK	
+\u200E	=			ˡʳᵐ			Cf		ltr mark					U+200E: LEFT-TO-RIGHT MARK	
+\u034F	=			ᶜᵍʲ			Mn		combining grapheme joiner					U+034F: COMBINING GRAPHEME JOINER	
+\u061C	=			ᵃˡᵐ			Cf		arabic letter mark					U+061C: ARABIC LETTER MARK	
 `															
 															
-latinPanel = 'aː d͡ʒ eː iː pˤ tʰ t͡ʃ t͡ʃʰ uː yː â ç ê î û ħ ň ŋ ş ɘ ɛ ɡ ɣ ɫ ɾ ʃ ʊ ʒ ʕ ʤ ʔ ḥ'															
+latinPanel = 'æ aː d͡ʒ eː ɪ iː pˤ tʰ t͡ʃ t͡ʃʰ oː uː yː â ç ê î û ħ ň ŋ ş ɘ ɛ ɡ ɣ ɫ ɾ ʃ ʊ ʒ ʕ ʤ ʔ ḥ'															
 															
 var cols = {															
 key: 1,															
