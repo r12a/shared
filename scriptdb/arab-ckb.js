@@ -64,15 +64,26 @@ var spreadsheet = `arab-ckb	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 															
 ي				í			Lo		decomposed part of standalone vowel carrier	not normally used				U+064A: ARABIC LETTER YEH	
 ٔ				ʾ			Mn​		decomposed part of standalone vowel carrier	not normally used				U+0654: ARABIC HAMZA ABOVE	
-\u065A							Mn​	u	inappropriate orphan					U+065A: ARABIC VOWEL SIGN SMALL V ABOVE	
-ك		k					Lo	u	arabic k	not normally used				U+0643: ARABIC LETTER KAF	
-ڶ		ɫ					Lo	u	consonant	poorly attested alternative				U+06B6: ARABIC LETTER LAM WITH DOT ABOVE	
-ڷ		ɫ					Lo	u	consonant	poorly attested alternative				U+06B7: ARABIC LETTER LAM WITH THREE DOTS ABOVE	
-ڒ		r					Lo	u	consonant	poorly attested alternative				U+0692: ARABIC LETTER REH WITH SMALL V	
-ڔ		r					Lo	u	consonant	poorly attested alternative				U+0694: ARABIC LETTER REH WITH DOT BELOW	
+\u065A				^			Mn​	u	inappropriate orphan					U+065A: ARABIC VOWEL SIGN SMALL V ABOVE	
+ك		k		ḳ			Lo	u	arabic k	not normally used				U+0643: ARABIC LETTER KAF	
+ڶ		ɫ		ĺ			Lo	u	consonant	poorly attested alternative				U+06B6: ARABIC LETTER LAM WITH DOT ABOVE	
+ڷ		ɫ		ľ			Lo	u	consonant	poorly attested alternative				U+06B7: ARABIC LETTER LAM WITH THREE DOTS ABOVE	
+ڒ		r		ṙ			Lo	u	consonant	poorly attested alternative				U+0692: ARABIC LETTER REH WITH SMALL V	
+ڔ		r		ṝ			Lo	u	consonant	poorly attested alternative				U+0694: ARABIC LETTER REH WITH DOT BELOW	
 ۊ	y	yː		y	–		Lo	r	vowel		ۊ ـۊ			U+06CA: ARABIC LETTER WAW WITH TWO DOTS ABOVE	
-ّ							Mn	u	gemination diacritic	not used				U+0651: ARABIC SHADDA	
-ْ							Mn	u	absent vowel indicator	not used				U+0652: ARABIC SUKUN	
+ّ				–			Mn	u	gemination diacritic	not used				U+0651: ARABIC SHADDA	
+ْ				–			Mn	u	absent vowel indicator	not used				U+0652: ARABIC SUKUN	
+															
+۱		1		1	1				digit					U+06F1: EXTENDED ARABIC-INDIC DIGIT ONE	
+۲		2		2	2				digit					U+06F2: EXTENDED ARABIC-INDIC DIGIT TWO	
+۳		3		3	3				digit					U+06F3: EXTENDED ARABIC-INDIC DIGIT THREE	
+۴		4		4	4				digit					U+06F4: EXTENDED ARABIC-INDIC DIGIT FOUR	
+۵		5		5	5				digit					U+06F5: EXTENDED ARABIC-INDIC DIGIT FIVE	
+۶		6		6	6				digit					U+06F6: EXTENDED ARABIC-INDIC DIGIT SIX	
+۷		7		7	7				digit					U+06F7: EXTENDED ARABIC-INDIC DIGIT SEVEN	
+۸		8		8	8				digit					U+06F8: EXTENDED ARABIC-INDIC DIGIT EIGHT	
+۹		9		9	9				digit					U+06F9: EXTENDED ARABIC-INDIC DIGIT NINE	
+۰		0		0	0				digit					U+06F0: EXTENDED ARABIC-INDIC DIGIT ZERO	
 															
 \u200C	=			ₓ			Cf		zwnj					U+200C: ZERO WIDTH NON-JOINER	
 \u200D	=			₊			Cf		zwj					U+200D: ZERO WIDTH JOINER	
