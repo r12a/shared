@@ -55,7 +55,6 @@ w	w	w		w	w		Ll		consonant				U+0077: LATIN SMALL LETTER W	و	𐺤
 x	x	x χ		x	x		Ll		consonant				U+0078: LATIN SMALL LETTER X	خ غ	𐺊 𐺘	
 y	y	j		y	y		Ll		consonant				U+0079: LATIN SMALL LETTER Y	ی	𐺨	
 z	z	z		z	z		Ll		consonant				U+007A: LATIN SMALL LETTER Z	ز	𐺏	
-ň	n	ŋ		ŋ	ň		Ll						U+0148: LATIN SMALL LETTER N WITH CARON	نٚ		
 A	A	ɑː		A	A		Lu		vowel, glottal stop				U+0041: LATIN CAPITAL LETTER A	ا	𐺀	
 B	B	b		B	B		Lu		consonant				U+0042: LATIN CAPITAL LETTER B	ب	𐺁	
 C	C	d͡ʒ		ʤ	J		Lu		consonant				U+0043: LATIN CAPITAL LETTER C	ج	𐺆	
@@ -87,9 +86,12 @@ W	W	w		W	W		Lu		consonant				U+0057: LATIN CAPITAL LETTER W	و	𐺤
 X	X	x χ		X	X		Lu		consonant				U+0058: LATIN CAPITAL LETTER X	خ غ	𐺊 𐺘	
 Y	Y	j		Y	Y		Lu		consonant				U+0059: LATIN CAPITAL LETTER Y	ی	𐺨	
 Z	Z	z		Z	Z		Lu		consonant				U+005A: LATIN CAPITAL LETTER Z	ز	𐺏	
+ň	n	ŋ		ŋ	ň		Ll	r	consonant				U+0148: LATIN SMALL LETTER N WITH CARON	نٚ		
 Ň	N	ŋ		Ŋ	Ň		Lu	r	alternate consonant for allophone	not used			U+0147: LATIN CAPITAL LETTER N WITH CARON	نٚ		
 ẍ				ẍ	ẍ		Ll	r	alternate consonant for allophone	not used			U+1E8D: LATIN SMALL LETTER X WITH DIAERESIS	غ		
 ḧ				ḧ	ḧ		Ll	r	alternate consonant for allophone	not used			U+1E27: LATIN SMALL LETTER H WITH DIAERESIS	ح		
+Ẍ				Ẍ	Ẍ		Ll	r	alternate consonant for allophone	not used			U+1E8C: LATIN CAPITAL LETTER X WITH DIAERESIS	غ		
+Ḧ				Ḧ	Ḧ		Ll	r	alternate consonant for allophone	not used			U+1E26: LATIN CAPITAL LETTER H WITH DIAERESIS	ح		
 \u0302				ˆ			Mn​	r	diacritic	only found in decomposed text			U+0302: COMBINING CIRCUMFLEX ACCENT			
 \u0327				¸			Mn​	r	diacritic	only found in decomposed text			U+0327: COMBINING CEDILLA			
 `																
