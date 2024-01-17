@@ -62,8 +62,8 @@ var spreadsheet = `arab-ckb	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 نٚ	N	ŋ		ŋ	ň			r	consonant					U+0646 U+065A: ARABIC LETTER NOON, VOWEL SIGN SMALL V ABOVE	
 ئ	{	ʔ		ʔ	–		Lo		word-initial vowel carrier					U+0626: ARABIC LETTER YEH WITH HAMZA ABOVE	
 															
-ي				í			Lo		decomposed part of standalone vowel carrier	not normally used				U+064A: ARABIC LETTER YEH	
-ٔ				ʾ			Mn​		decomposed part of standalone vowel carrier	not normally used				U+0654: ARABIC HAMZA ABOVE	
+ي				í			Lo	r	decomposed part of standalone vowel carrier	not normally used				U+064A: ARABIC LETTER YEH	
+ٔ				ʾ			Mn​	r	decomposed part of standalone vowel carrier	not normally used				U+0654: ARABIC HAMZA ABOVE	
 \u065A				^			Mn​	u	inappropriate orphan					U+065A: ARABIC VOWEL SIGN SMALL V ABOVE	
 ك		k		ḳ			Lo	u	arabic k	not normally used				U+0643: ARABIC LETTER KAF	
 ڶ		ɫ		ĺ			Lo	u	consonant	poorly attested alternative				U+06B6: ARABIC LETTER LAM WITH DOT ABOVE	
@@ -96,8 +96,8 @@ var spreadsheet = `arab-ckb	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 \u202C	=			ᵖᵈᶠ			Cf		pop direction					U+202C: POP DIRECTIONAL FORMATTING	
 \u200F	=			ʳˡᵐ			Cf		rtl mark					U+200F: RIGHT-TO-LEFT MARK	
 \u200E	=			ˡʳᵐ			Cf		ltr mark					U+200E: LEFT-TO-RIGHT MARK	
-\u034F	=			ᶜᵍʲ			Mn		combining grapheme joiner					U+034F: COMBINING GRAPHEME JOINER	
-\u061C	=			ᵃˡᵐ			Cf		arabic letter mark					U+061C: ARABIC LETTER MARK	
+\u034F	=			ᶜᵍʲ			Mn	?	combining grapheme joiner					U+034F: COMBINING GRAPHEME JOINER	
+\u061C	=			ᵃˡᵐ			Cf	?	arabic letter mark					U+061C: ARABIC LETTER MARK	
 `															
 															
 latinPanel = 'æ aː d͡ʒ eː ɪ iː pˤ tʰ t͡ʃ t͡ʃʰ oː uː yː â ç ê î û ħ ň ŋ ş ɘ ɛ ɡ ɣ ɫ ɾ ʃ ʊ ʒ ʕ ʤ ʔ ḥ'															
