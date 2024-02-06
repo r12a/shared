@@ -142,7 +142,7 @@ var spreadsheet = `cans-ike	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 														
 ᕼ	H	h		ʜ	h		Lo		extended consonant				U+157C: CANADIAN SYLLABICS NUNAVUT H	✓
 ᖯ	B	b		b	b		Lo		extended consonant				U+15AF: CANADIAN SYLLABICS AIVILIK B	✓
-\'	\'	ʔ		ʔ	ʔ		Po		extended consonant				U+0027: APOSTROPHE	
+ʼ	{	ʔ		ʔ	ʔ		Po		extended consonant				U+02BC: MODIFIER LETTER APOSTROPHE	✓
 														
 														
 ᕵ	h	hi		hⁱ	hi		Lo	r	consonant	rare			U+1575: CANADIAN SYLLABICS NUNAVIK HI	✓
@@ -165,7 +165,6 @@ var spreadsheet = `cans-ike	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ’	>			\’	\’		Pf		quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
 «	"			“			Pi	?	quotation mark				U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
 »	"			”			Pf	?	quotation mark				U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
-ʼ							Lm	?	apostrophe				U+02BC: MODIFIER LETTER APOSTROPHE	
 ,							Po		comma				U+002C: COMMA	
 ;							Po		semicolon				U+003B: SEMICOLON	
 :							Po		colon				U+003A: COLON	
@@ -174,7 +173,7 @@ var spreadsheet = `cans-ike	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 !							Po		exclamation mark				U+0021: EXCLAMATION MARK	
 (							Ps		parenthesis				U+0028: LEFT PARENTHESIS	
 )							Pe		parenthesis				U+0029: RIGHT PARENTHESIS	
-…							Po	?	ellipsis				U+2026: HORIZONTAL ELLIPSIS	
+…							Po		ellipsis				U+2026: HORIZONTAL ELLIPSIS	
 –							Pd	?	en dash				U+2013: EN DASH	
 —							Pd	?	em dash				U+2014: EM DASH	
 														
@@ -185,7 +184,6 @@ var spreadsheet = `cans-ike	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ″							Po	?	double prime				U+2033: DOUBLE PRIME	
 ‐							Pd	?	hyphen				U+2010 HYPHEN	
 ‑							Pd	?	non-breaking hyphen				U+2011 NON-BREAKING HYPHEN	
-														
 `														
 														
 latinPanel = '– “ ‘ ” ’ « » aː iː ɬ ɫ ŋ ʁ uː ɣ —'														
