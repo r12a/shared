@@ -189,8 +189,8 @@ var spreadsheet = `plrd-hmd	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 														
 𖽹	A	ai̯		aʲ	ai		Mc​		rhyme				U+16F79: MIAO VOWEL SIGN AI	
 𖽻	A	au̯		aᵘ	ao		Mc​		rhyme				U+16F7B: MIAO VOWEL SIGN AU	
-𖽗	A	an		aᵑ	an		Mc​	l	rhyme	borrowed sound			U+16F57: MIAO VOWEL SIGN AN	
-𖽗𖽾		aŋ							rhyme	1988 orthography			U+16F57 U+16F7E: MIAO VOWEL SIGN AN, VOWEL SIGN NG	
+𖽗	A	an		aᵑ	an		Mc​		rhyme	borrowed sound			U+16F57: MIAO VOWEL SIGN AN	
+𖽗𖽾		aŋ			an				rhyme	1988 orthography			U+16F57 U+16F7E: MIAO VOWEL SIGN AN, VOWEL SIGN NG	
 𖽘	A	aŋ ɑɯ̯		aᵚ	ang		Mc​	?	rhyme	also used for aw			U+16F58: MIAO VOWEL SIGN ANG	
 														
 𖽾		ŋ		xᵑ			Mc​		syllable final				U+16F7E: MIAO VOWEL SIGN NG	
@@ -202,14 +202,14 @@ var spreadsheet = `plrd-hmd	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 𖾑	^	³		³			Mn​		tone position marker				U+16F91: MIAO TONE ABOVE	
 𖾒	^	⁴		⁴			Mn​	?	tone position marker				U+16F92: MIAO TONE BELOW	
 														
-														
-𖾓				¹̣			Lm	i	baseline tone mark				U+16F93: MIAO LETTER TONE-2	
-𖾔				²̣			Lm	i	baseline tone mark				U+16F94: MIAO LETTER TONE-3	
-𖾕				³̣			Lm	i	baseline tone mark				U+16F95: MIAO LETTER TONE-4	
-𖾖				⁴̣			Lm	i	baseline tone mark				U+16F96: MIAO LETTER TONE-5	
-𖾗				⁵̣			Lm	i	baseline tone mark				U+16F97: MIAO LETTER TONE-6	
-𖾘				⁶̣			Lm	i	baseline tone mark				U+16F98: MIAO LETTER TONE-7	
-𖾙				⁷̣			Lm	i	baseline tone mark				U+16F99: MIAO LETTER TONE-8	
+		¹²³⁴⁵⁶⁷⁸												
+𖾓		²⁴		¹̣			Lm		baseline tone mark				U+16F93: MIAO LETTER TONE-2	
+𖾔		⁵⁴		²̣			Lm		baseline tone mark				U+16F94: MIAO LETTER TONE-3	
+𖾕		²²		³̣			Lm		baseline tone mark				U+16F95: MIAO LETTER TONE-4	
+𖾖		⁴⁴		⁴̣			Lm		baseline tone mark				U+16F96: MIAO LETTER TONE-5	
+𖾗		²¹		⁵̣			Lm		baseline tone mark				U+16F97: MIAO LETTER TONE-6	
+𖾘		²²		⁶̣			Lm		baseline tone mark				U+16F98: MIAO LETTER TONE-7	
+𖾙		²¹		⁷̣			Lm		baseline tone mark				U+16F99: MIAO LETTER TONE-8	
 														
 														
 𖾚				–			Lm	a	baseline tone mark				U+16F9A: MIAO LETTER REFORMED TONE-1	
