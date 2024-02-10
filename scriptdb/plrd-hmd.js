@@ -1,11 +1,11 @@
 var spreadsheet = `plrd-hmd	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	native name	latin name	ucs name	block
-𖼀	p	p b		p	b		Lo		consonant	Gan Yi ba			U+16F00: MIAO LETTER PA	
+𖼀	p	p b		p	b		Lo		consonant				U+16F00: MIAO LETTER PA	
 𖼁	b	b		b	b		Lo		consonant				U+16F01: MIAO LETTER BA	
-𖼊	t	t d		t	d		Lo		consonant	da in Gan Yi			U+16F0A: MIAO LETTER TA	
+𖼊	t	t d		t	d		Lo		consonant				U+16F0A: MIAO LETTER TA	
 𖼋	d	d		d	d		Lo		consonant				U+16F0B: MIAO LETTER DA	
 𖼎	t	ʈ ɖ		ʈ	dr		Lo		consonant				U+16F0E: MIAO LETTER TTA	
 𖼏	D	ɖ		ɖ	dr		Lo		consonant				U+16F0F: MIAO LETTER DDA	
-𖼞	k	k ɡ		k	g		Lo		consonant	ga in Gan Yi			U+16F1E: MIAO LETTER KA	
+𖼞	k	k ɡ		k	g		Lo		consonant				U+16F1E: MIAO LETTER KA	
 𖼟	g	ɡ		ɡ	g		Lo		consonant				U+16F1F: MIAO LETTER GA	
 𖼡	q	q ɢ		q	gh		Lo		consonant				U+16F21: MIAO LETTER QA	
 𖼢	Q	ɢ		ɢ	gh		Lo		consonant				U+16F22: MIAO LETTER QGA	
@@ -32,7 +32,7 @@ var spreadsheet = `plrd-hmd	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 𖽐𖼞𖽑		ᵑkʰ		ɴgʰ	nk				prenasalised, aspirated onset				U+16F50 U+16F1E U+16F51: MIAO LETTER NASALIZATION, LETTER KA, SIGN ASPIRATION	
 𖽐𖼡𖽑		ᶰqʰ		ɴɢʰ	nkh				prenasalised, aspirated onset				U+16F50 U+16F21 U+16F51: MIAO LETTER NASALIZATION, LETTER QA, SIGN ASPIRATION	
 														
-𖼷	t	t͡s d͡z		ʦ	z		Lo		consonant	dza in Gan Yi			U+16F37: MIAO LETTER TSA	
+𖼷	t	t͡s d͡z		ʦ	z		Lo		consonant				U+16F37: MIAO LETTER TSA	
 𖼸	D	d͡z		ʣ	z		Lo		consonant				U+16F38: MIAO LETTER DZA	
 𖼪	t	t͡ɕ d͡ʑ		ʨ	j		Lo		consonant	1988 orthography			U+16F2A: MIAO LETTER TSSA	
 𖼫	D	d͡ʑ		ʥ	j		Lo		consonant	1988 orthography			U+16F2B: MIAO LETTER DZZA	
@@ -85,7 +85,7 @@ var spreadsheet = `plrd-hmd	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 𖽀	z	ʑ		ʑ̣			Lo		consonant	Hei Yi			U+16F40: MIAO LETTER ZZYA	
 𖽁		?		ʑ̣ˑ			Lo	?	consonant	Hei Yi			U+16F41: MIAO LETTER ZZSYA	
 𖼴	s	ɕ		ɕ	x		Lo		consonant	1988 orthography			U+16F34: MIAO LETTER SSA	
-𖼵	z	ʐ		ʐ	rh		Lo	l	consonant	Hei Yi, borrowed sound			U+16F35: MIAO LETTER ZHA	
+𖼵	z	ʐ		ʐ	rh		Lo	l	consonant	borrowed sound			U+16F35: MIAO LETTER ZHA	
 𖼨	y	ɣ		ɣ	hx		Lo		consonant				U+16F28: MIAO LETTER GHA	
 𖼩	Y	ɣ		ɣˑ	hy		Lo		consonant				U+16F29: MIAO LETTER GHHA	
 𖼦	h	h χ		h			Lo		consonant	1936 orthography			U+16F26: MIAO LETTER HA	
@@ -106,7 +106,7 @@ var spreadsheet = `plrd-hmd	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 𖼔	n	ɳ		ɳ	nr		Lo		consonant				U+16F14: MIAO LETTER NNA	
 𖼕	N	ɳʱ		ɳʰ			Lo		aspirated consonant				U+16F15: MIAO LETTER NNHA	
 𖼬	n	ɲ		ɲ	ni		Lo		consonant				U+16F2C: MIAO LETTER NYA	
-𖼭	N	ɲʱ		ɲʰ			Lo		aspirated consonant	Bai Yi			U+16F2D: MIAO LETTER NYHA	
+𖼭	N	ɲʱ		ɲʰ			Lo		aspirated consonant				U+16F2D: MIAO LETTER NYHA	
 𖼣	n	ŋ		ŋ	ngg		Lo		consonant				U+16F23: MIAO LETTER NGA	
 𖼤	N	ŋʱ		ŋʰ			Lo		aspirated consonant				U+16F24: MIAO LETTER NGHA	
 														
@@ -154,7 +154,7 @@ var spreadsheet = `plrd-hmd	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 𖽡𖽙		i̯o			io				rhyme	1936 orthography			U+16F61 U+16F59: MIAO VOWEL SIGN I, VOWEL SIGN O	
 𖽱𖽺		i̯o							rhyme	1988 orthography			U+16F71 U+16F7A: MIAO VOWEL SIGN Y, VOWEL SIGN EI	
 𖽢	I	i̯a		iᵃ	ia		Mc​		rhyme				U+16F62: MIAO VOWEL SIGN IA	
-𖽤		i̯aŋ i̯aɯ̯		iᵚ	iang		Mc​		rhyme	also used for iaw			U+16F64: MIAO VOWEL SIGN IANG	
+𖽤		i̯aŋ i̯aɯ̯		iᵚ	iang		Mc​		rhyme				U+16F64: MIAO VOWEL SIGN IANG	
 𖽡𖽻		i̯au̯			iao				rhyme				U+16F61 U+16F7B: MIAO VOWEL SIGN I, VOWEL SIGN AU	
 𖽣		i̯an		iᵃⁿ			Mc​		rhyme	1936 orthography			U+16F63: MIAO VOWEL SIGN IAN	
 𖽡𖽾		in			ing				rhyme				U+16F61 U+16F7E: MIAO VOWEL SIGN I, VOWEL SIGN NG	
