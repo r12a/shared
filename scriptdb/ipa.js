@@ -99,6 +99,8 @@ d͡z	D	d͡z		Voiced dental affricate	U+0064 U+0361 U+007A: LATIN SMALL LETTER D,
 ʣ	D	ʣ		Voiced dental affricate (obsolete)	U+02A3: LATIN SMALL LETTER DZ DIGRAPH	
 ʈ͡ʂ	T	ʈ͡ʂ		Voiceless retroflex affricate	U+0288 U+0361 U+0282: LATIN SMALL LETTER T WITH RETROFLEX HOOK, COMBINING DOUBLE INVERTED BREVE, SMALL LETTER S WITH HOOK	
 ɖ͡ʐ	D	ɖ͡ʐ		Voiced retroflex affricate	U+0256 U+0361 U+0290: LATIN SMALL LETTER D WITH TAIL, COMBINING DOUBLE INVERTED BREVE, SMALL LETTER Z WITH RETROFLEX HOOK	
+ꭧ	T	ꭧ		Voiceless retroflex affricate (obsolete)	U+AB67 LATIN SMALL LETTER TS DIGRAPH WITH RETROFLEX HOOK	
+ꭦ	D	ꭦ		Voiced retroflex affricate (obsolete)	U+AB66 LATIN SMALL LETTER DZ DIGRAPH WITH RETROFLEX HOOK	
 t͡p	T	t͡p		Voiceless labial-alveolar coarticulation	U+0074 U+0361 U+0070: LATIN SMALL LETTER T, COMBINING DOUBLE INVERTED BREVE, SMALL LETTER P	
 d͡b	D	d͡b		Voiced labial-alveolar coarticulation	U+0064 U+0361 U+0062: LATIN SMALL LETTER D, COMBINING DOUBLE INVERTED BREVE, SMALL LETTER B	
 k͡p	K	k͡p		Voiceless labial-velar coarticulation	U+006B U+0361 U+0070: LATIN SMALL LETTER K, COMBINING DOUBLE INVERTED BREVE, SMALL LETTER P	
@@ -276,45 +278,4 @@ block: 6,
 						
 //othertranscriptions: [[5, 'LOC']]						
 }						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
 						
