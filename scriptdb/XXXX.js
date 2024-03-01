@@ -14,6 +14,7 @@ var spreadsheet = `nnp	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	
 (	(			(	(		Ps	?	parenthesis				U+0028: LEFT PARENTHESIS	
 )	)			)	)		Ps	?	parenthesis				U+0029: RIGHT PARENTHESIS	
 -	-			-	-		Pd	?	hyphen				U+2010: HYPHEN	
+\u200B	=		–	␣		Cf	?	zero-width space					U+200B: ZERO WIDTH SPACE	
 														
 𞋀	a	aː		a	aa		Lo		vowel				U+1E2C0: WANCHO LETTER AA	
 𞋖	a	aʊ		aʷ	au		Lo		diphthong				U+1E2D6: WANCHO LETTER AU	
