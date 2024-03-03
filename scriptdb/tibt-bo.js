@@ -23,8 +23,8 @@ var spreadsheet = `tibt-bo	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 )	)			)	)		Ps	?	parenthesis						U+0029: RIGHT PARENTHESIS	
 ]	)			]	]		Pe	?	bracket						U+005D: RIGHT SQUARE BRACKET	
 ༉	[			•			Po	?	list enumerator						U+0F09: TIBETAN MARK BSKUR YIG MGO	✓
-་	]			-			Po		primary break delimiter					tsek (tsheg)	U+0F0B: TIBETAN MARK INTERSYLLABIC TSHEG	✓
-྄	*			͓			Mn		virama					srog med	U+0F84: TIBETAN MARK HALANTA	✓
+་	]	.		-			Po		primary break delimiter					tsek (tsheg)	U+0F0B: TIBETAN MARK INTERSYLLABIC TSHEG	✓
+྄	*			͓			Mn	u	virama					srog med	U+0F84: TIBETAN MARK HALANTA	✓
 ༹	/			̣			Mn	t	sound extension/lenition mark					tsa-'phru	U+0F39: TIBETAN MARK TSA -PHRU	✓
 ༴	&			˖			So		repetition sign				བསྡུས་རྟགས	du tag (bsdus-rtags)	U+0F34: TIBETAN MARK BSDUS RTAGS	✓
 ༄	#			ᵗ>			Po		head mark						U+0F04: TIBETAN MARK INITIAL YIG MGO MDUN MA	✓
@@ -60,30 +60,19 @@ var spreadsheet = `tibt-bo	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 																
 འ	a	à		á	a		Lo		consonant		ྰ		ཨ་ཆུང	a-chung	U+0F60: TIBETAN LETTER -A	✓
 ཨ	a	á		à	a		Lo		consonant		ྸ				U+0F68: TIBETAN LETTER A	✓
-ྰ	A	a		à̰	a		Mn		subjoined consonant			འ			U+0FB0: TIBETAN SUBJOINED LETTER -A	✓
-ྸ	A	a		à̰	a		Mn		subjoined consonant			ཨ			U+0FB8: TIBETAN SUBJOINED LETTER A	✓
-ཱ	A	ā		à			Mn		vowel lengthening mark						U+0F71: TIBETAN VOWEL SIGN AA	✓
+ཱ	a	ā		à			Mn		vowel lengthening mark						U+0F71: TIBETAN VOWEL SIGN AA	✓
 ེ	e	e		e	e		Mn		vowel				འགྲེང་པོ / འགྲེང་བུ	nzheŋ˩˨ po˥˥ / nzheŋ˩˨ pʰu˩˨	U+0F7A: TIBETAN VOWEL SIGN E	✓
-འེ	e	è		ae	e				standalone vowel						U+0F60 U+0F7A: TIBETAN LETTER -A, VOWEL SIGN E	
-ཨེ	e	é		ae	e				standalone vowel						U+0F68 U+0F7A: TIBETAN LETTER A, VOWEL SIGN E	
-ཻ	E	ai		ē			Mn	t	sanskrit vowel						U+0F7B: TIBETAN VOWEL SIGN EE	✓
+འེ		è		ae	e				standalone vowel						U+0F60 U+0F7A: TIBETAN LETTER -A, VOWEL SIGN E	
+ཨེ		é		ae	e				standalone vowel						U+0F68 U+0F7A: TIBETAN LETTER A, VOWEL SIGN E	
 ི	i	i		i	i		Mn		vowel						U+0F72: TIBETAN VOWEL SIGN I	✓
-འི	i	ì		ai	a				standalone vowel						U+0F60 U+0F72: TIBETAN LETTER -A, VOWEL SIGN I	
-ཨི	i	í		ai	a				standalone vowel						U+0F68 U+0F72: TIBETAN LETTER A, VOWEL SIGN I	
-ྀ	I	i		ï			Mn	t	sanskrit vowel						U+0F80: TIBETAN VOWEL SIGN REVERSED I	✓
-ཱི	I	iː		ài			s	t	sanskrit vowel						U+0F71 U+0F72: TIBETAN VOWEL SIGN AA, VOWEL SIGN I	
-ཱྀ	I	iː		àï			s	t	sanskrit vowel						U+0F71 U+0F80: TIBETAN VOWEL SIGN AA, VOWEL SIGN REVERSED I	
+འི		ì		ai	a				standalone vowel						U+0F60 U+0F72: TIBETAN LETTER -A, VOWEL SIGN I	
+ཨི		í		ai	a				standalone vowel						U+0F68 U+0F72: TIBETAN LETTER A, VOWEL SIGN I	
 ོ	o	o		o	o		Mn		vowel				ན་རོ	na˩˨ ʐo˥˥	U+0F7C: TIBETAN VOWEL SIGN O	✓
-འོ	o	ò		ao	o				standalone vowel						U+0F60 U+0F7C: TIBETAN LETTER -A, VOWEL SIGN O	
-ཨོ	o	ó		ao	o				standalone vowel						U+0F68 U+0F7C: TIBETAN LETTER A, VOWEL SIGN O	
-ཽ	O	au		ō			Mn	t	sanskrit vowel						U+0F7D: TIBETAN VOWEL SIGN OO	✓
+འོ		ò		ao	o				standalone vowel						U+0F60 U+0F7C: TIBETAN LETTER -A, VOWEL SIGN O	
+ཨོ		ó		ao	o				standalone vowel						U+0F68 U+0F7C: TIBETAN LETTER A, VOWEL SIGN O	
 ུ	u	u		u	u		Mn		vowel				ɕap̚˩˨ t͡ɕu˥˥	ཞབས་ཀྱུ	U+0F74: TIBETAN VOWEL SIGN U	✓
-འུ	u	ù		u	u				standalone vowel						U+0F60 U+0F74: TIBETAN LETTER -A, VOWEL SIGN U	
-ཨུ	u	ú		u	u				standalone vowel						U+0F68 U+0F74: TIBETAN LETTER A, VOWEL SIGN U	
-ཱུ	U	uː		àu			s	t	sanskrit vowel						U+0F71 U+0F74: TIBETAN VOWEL SIGN AA, VOWEL SIGN U	
-ཾ	M	ṃ		m̽			Mn		sanskrit vowel					ngaro	U+0F7E: TIBETAN SIGN RJES SU NGA RO	✓
-ྃ	M	ṃ		m̽̇			Mn		sanskrit vowel						U+0F83: TIBETAN SIGN SNA LDAN	✓
-ཿ	H	ḥ		h̽			Mc		sanskrit vowel					nam-chay	U+0F7F: TIBETAN SIGN RNAM BCAD	✓
+འུ		ù		u	u				standalone vowel						U+0F60 U+0F74: TIBETAN LETTER -A, VOWEL SIGN U	
+ཨུ		ú		u	u				standalone vowel						U+0F68 U+0F74: TIBETAN LETTER A, VOWEL SIGN U	
 																
 པ	p	p	á	p	p		Lo		consonant		ྤ				U+0F54: TIBETAN LETTER PA	✓
 ྤ	P	p	á	p̰	p		Mn		subjoined consonant			པ			U+0FA4: TIBETAN SUBJOINED LETTER PA	✓
@@ -91,12 +80,12 @@ var spreadsheet = `tibt-bo	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ྥ	P	f	á	p̰ʰ	ph		Mn	l	subjoined consonant			ཕ			U+0FA5: TIBETAN SUBJOINED LETTER PHA	✓
 བ	b	pʰ b	à	b	b		Lo		consonant		ྦ				U+0F56: TIBETAN LETTER BA	✓
 ྦ	B	p b	à	b̰	b		Mn		subjoined consonant			བ			U+0FA6: TIBETAN SUBJOINED LETTER BA	✓
-ཏ	t¶	t	á	t	t		Lo		consonant		ྟ				U+0F4F: TIBETAN LETTER TA	✓
-ྟ	T¶	t	á	t̰	t		Mn		subjoined consonant			ཏ			U+0F9F: TIBETAN SUBJOINED LETTER TA	✓
+ཏ	t	t	á	t	t		Lo		consonant		ྟ				U+0F4F: TIBETAN LETTER TA	✓
+ྟ	T	t	á	t̰	t		Mn		subjoined consonant			ཏ			U+0F9F: TIBETAN SUBJOINED LETTER TA	✓
 ཐ	t	tʰ	á	tʰ	th		Lo		consonant		ྠ				U+0F50: TIBETAN LETTER THA	✓
 ྠ	T	–		t̰ʰ	th		Mn	u	subjoined consonant			ཐ			U+0FA0: TIBETAN SUBJOINED LETTER THA	✓
-ད	d¶	tʰ d	à	d	d		Lo		consonant		ྡ				U+0F51: TIBETAN LETTER DA	✓
-ྡ	D¶	t d	à	d̰	d		Mn		subjoined consonant			ད			U+0FA1: TIBETAN SUBJOINED LETTER DA	✓
+ད	d	tʰ d	à	d	d		Lo		consonant		ྡ				U+0F51: TIBETAN LETTER DA	✓
+ྡ	D	t d	à	d̰	d		Mn		subjoined consonant			ད			U+0FA1: TIBETAN SUBJOINED LETTER DA	✓
 ཅ	c	t͡ɕ	á	c	c		Lo		consonant		ྕ				U+0F45: TIBETAN LETTER CA	✓
 ྕ	C	t͡ɕ	á	c̰	c		Mn		subjoined consonant			ཅ			U+0F95: TIBETAN SUBJOINED LETTER CA	✓
 ཆ	c	t͡ɕʰ	á	cʰ	ch		Lo		consonant		ྖ				U+0F46: TIBETAN LETTER CHA	✓
@@ -146,8 +135,34 @@ var spreadsheet = `tibt-bo	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ཡ	y	j	à	y	y		Lo		consonant		ྱ				U+0F61: TIBETAN LETTER YA	✓
 ྱ	Y	j		y̰	y		Mn		subscript			ཡ		ya-ta (ya-btags)	U+0FB1: TIBETAN SUBJOINED LETTER YA	✓
 ྻ	Y			ȳ̰			Mn		fixed form variant			ཡ			U+0FBB: TIBETAN SUBJOINED LETTER FIXED-FORM YA	✓
+// Lhasa combinations																
+པྱ		t͡ɕ c	á						consonant with subscript							
+པྲ		ʈ͡ʂ ʈ	á						consonant with subscript							
+ལྤ		p	á						consonant with superscript							
+སྤ		p	á						consonant with superscript							
+ཕྱ		t͡ɕʰ cʰ	á						consonant with subscript							
+ཕྲ		ʈ͡ʂʰ ʈʰ	á						consonant with subscript							
+ཧྥ		f	á						consonant with superscript							
+ཀྱ		c kj	á						consonant with subscript							
+ཀྲ		ʈ͡ʂ ʈá	á						consonant with subscript							
+ཀླ		l	á						consonant with subscript							
+ཀྭ		k	á						consonant with subscript							
+རྐ		k	á						consonant with superscript							
+ལྐ		k	á						consonant with superscript							
+སྐ		k	á						consonant with superscript							
 																
-																
+// SANSKRIT																
+ྰ	A	a		à̰	a		Mn		subjoined consonant			འ			U+0FB0: TIBETAN SUBJOINED LETTER -A	✓
+ྸ	A	a		à̰	a		Mn		subjoined consonant			ཨ			U+0FB8: TIBETAN SUBJOINED LETTER A	✓
+ཽ	O	au		ō			Mn	u	sanskrit vowel						U+0F7D: TIBETAN VOWEL SIGN OO	✓
+ཻ	E	ai		ē			Mn	u	sanskrit vowel						U+0F7B: TIBETAN VOWEL SIGN EE	✓
+ྀ	I	i		ï			Mn	u	sanskrit vowel						U+0F80: TIBETAN VOWEL SIGN REVERSED I	✓
+ཱི	I	iː		ài			s	u	sanskrit vowel						U+0F71 U+0F72: TIBETAN VOWEL SIGN AA, VOWEL SIGN I	
+ཱྀ	I	iː		àï			s	u	sanskrit vowel						U+0F71 U+0F80: TIBETAN VOWEL SIGN AA, VOWEL SIGN REVERSED I	
+ཱུ	U	uː		àu			s	u	sanskrit vowel						U+0F71 U+0F74: TIBETAN VOWEL SIGN AA, VOWEL SIGN U	
+ཾ	M	ṃ		m̽			Mn	u	sanskrit vowel					ngaro	U+0F7E: TIBETAN SIGN RJES SU NGA RO	✓
+ྃ	M	ṃ		m̽̇			Mn	u	sanskrit vowel						U+0F83: TIBETAN SIGN SNA LDAN	✓
+ཿ	H	ḥ		h̽			Mc	u	sanskrit vowel					nam-chay	U+0F7F: TIBETAN SIGN RNAM BCAD	✓
 བ༹	v			ḅ			s								U+0F56 U+0F39: TIBETAN LETTER BA, MARK TSA -PHRU	
 ཕ༹	f			pʰ̣			s	t							U+0F55 U+0F39: TIBETAN LETTER PHA, MARK TSA -PHRU	
 བྷ	B	bʰ		bh̰			s		sanskrit consonant						U+0F56 U+0FB7: TIBETAN LETTER BA, SUBJOINED LETTER HA	
@@ -197,21 +212,6 @@ var spreadsheet = `tibt-bo	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 \u0F77	£	riː		r̥̄			Mn	du	precomposed sanskrit vowel	strongly deprecated					U+0F77: TIBETAN VOWEL SIGN VOCALIC RR	
 \u0F79	£	liː		l̥̄			Mn	d	precomposed sanskrit vowel	strongly deprecated					U+0F79: TIBETAN VOWEL SIGN VOCALIC LL	
 \u0F81	£	iː		ï̄			Mn	x	precomposed sanskrit vowel						U+0F81: TIBETAN VOWEL SIGN REVERSED II	
-																
-པྱ		t͡ɕ c	á						consonant with subscript							
-པྲ		ʈ	á						consonant with subscript							
-ལྤ		p	á						consonant with superscript							
-སྤ		p	á						consonant with superscript							
-ཕྱ		t͡ɕʰ cʰ	á						consonant with subscript							
-ཕྲ		ʈ͡ʂʰ ʈʰ	á						consonant with subscript							
-ཧྥ		f	á						consonant with superscript							
-ཀྱ		c kj	á						consonant with subscript							
-ཀྲ		ʈ͡ʂ ʈá	á						consonant with subscript							
-ཀླ		l	á						consonant with subscript							
-ཀྭ		k	á						consonant with subscript							
-རྐ		k	á						consonant with superscript							
-ལྐ		k	á						consonant with superscript							
-སྐ		k	á						consonant with superscript							
 																
 ༀ							Lo	i	symbol						U+0F00: TIBETAN SYLLABLE OM	✓
 ༓							So	?	symbol						U+0F13: TIBETAN MARK CARET -DZUD RTAGS ME LONG CAN	✓
@@ -306,6 +306,7 @@ var spreadsheet = `tibt-bo	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ༰				7.5			No		digit minus half						U+0F30: TIBETAN DIGIT HALF SEVEN	
 ༱				8.5			No		digit minus half						U+0F31: TIBETAN DIGIT HALF EIGHT	
 ༲				9.5			No		digit minus half						U+0F32: TIBETAN DIGIT HALF NINE	
+ⓟ															PREFIX	
 `																
 																
 latinPanel = 'á à ā bʰ d͡ʒ d͡z ɖ ɖʰ d̪ʱ ʣʰ ə é è gʰ ḥ í ì ː ī kʰ ḷ ḹ ŋ ɲ ɳ ⁿ ó ò pʰ ɽ ṛ ṝ ʂ t͡ʃ t͡ʃʰ tʰ t͡sʰ ʈ ʈʰ ú ù ū uː ǿ ø̀ ɛ̀ ɛ́ ỳ ý ̀ ́ ̂ ̌ ̄ '																
