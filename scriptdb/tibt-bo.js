@@ -91,7 +91,7 @@ var spreadsheet = `tibt-bo	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ཆ	c	t͡ɕʰ	á	cʰ	ch		Lo		consonant		ྖ				U+0F46: TIBETAN LETTER CHA	✓
 ྖ	C	–		c̰ʰ	ch		Mn	u	subjoined consonant			ཆ			U+0F96: TIBETAN SUBJOINED LETTER CHA	✓
 ཇ	j	t͡ɕʰ d͡ʑ	à	j	j		Lo		consonant		ྗ				U+0F47: TIBETAN LETTER JA	✓
-ྗ	J	t͡ɕʰ ɟ	à	j̰	j		Mn		subjoined consonant			ཇ			U+0F97: TIBETAN SUBJOINED LETTER JA	✓
+ྗ	J	t͡ɕ ɟ	à	j̰	j		Mn		subjoined consonant			ཇ			U+0F97: TIBETAN SUBJOINED LETTER JA	✓
 ཀ	k	k	á	k	k		Lo		consonant		ྐ				U+0F40: TIBETAN LETTER KA	✓
 ྐ	K	k	á	k̰	k		Mn		subjoined consonant			ཀ			U+0F90: TIBETAN SUBJOINED LETTER KA	✓
 ཁ	k	kʰ	á	kʰ	kh		Lo		consonant		ྑ				U+0F41: TIBETAN LETTER KHA	✓
@@ -113,7 +113,7 @@ var spreadsheet = `tibt-bo	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ཞ	z	ɕ ʑ	à	ʒ	zh		Lo		consonant		ྮ				U+0F5E: TIBETAN LETTER ZHA	✓
 ྮ	Z	–		ʒ̰	zh		Mn	u	subjoined consonant			ཞ			U+0FAE: TIBETAN SUBJOINED LETTER ZHA	✓
 ཧ	h	h	ā	h	h		Lo		consonant		ྷ				U+0F67: TIBETAN LETTER HA	✓
-ྷ	H	h	ā	h̰	h		Mn		subjoined consonant			ཧ			U+0FB7: TIBETAN SUBJOINED LETTER HA	✓
+ྷ	H	ɬ	ā	h̰	h		Mn		subjoined consonant			ཧ			U+0FB7: TIBETAN SUBJOINED LETTER HA	✓
 མ	m	m	à	m	m		Lo		consonant		ྨ				U+0F58: TIBETAN LETTER MA	✓
 ྨ	M	m	á	m̰	m		Mn		subjoined consonant			མ			U+0FA8: TIBETAN SUBJOINED LETTER MA	✓
 ན	n¶	n	à	n	n		Lo		consonant		ྣ				U+0F53: TIBETAN LETTER NA	✓
@@ -126,30 +126,130 @@ var spreadsheet = `tibt-bo	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ྭ	W	∅		w̰	w		Mn		subscript			ཝ		wazur/wa-ta (wa-btags)	U+0FAD: TIBETAN SUBJOINED LETTER WA	✓
 ྺ	W			w̰̄			Mn		fixed form variant			ཝ			U+0FBA: TIBETAN SUBJOINED LETTER FIXED-FORM WA	✓
 ར	r	ʐ r	ā	r	r		Lo		consonant		ྲ				U+0F62: TIBETAN LETTER RA	✓
-ྲ	R	~r		r̰	r		Mn		subscript			ར		ra-ta (ra-btags)	U+0FB2: TIBETAN SUBJOINED LETTER RA	✓
+ྲ	R			r̰	r		Mn		subscript			ར		ra-ta (ra-btags)	U+0FB2: TIBETAN SUBJOINED LETTER RA	✓
 ཬ	R	ɽ		ɽ			Lo	u	balti consonant						U+0F6C: TIBETAN LETTER RRA	✓
 ཪ	R			r̄	r		Lo		fixed form variant						U+0F6A: TIBETAN LETTER FIXED-FORM RA	✓
-ྼ	R			r̰̄			Mn		fixed form variant			ཪ			U+0FBC: TIBETAN SUBJOINED LETTER FIXED-FORM RA	✓
+ྼ	R			r̰̄			Mn	?	fixed form variant			ཪ			U+0FBC: TIBETAN SUBJOINED LETTER FIXED-FORM RA	✓
 ལ	l	l	ā	l	l		Lo		consonant		ླ				U+0F63: TIBETAN LETTER LA	✓
-ླ	L	l t	á	l̰	l		Mn		subscript			ལ			U+0FB3: TIBETAN SUBJOINED LETTER LA	✓
+ླ	L		á	l̰	l		Mn		subscript			ལ			U+0FB3: TIBETAN SUBJOINED LETTER LA	✓
 ཡ	y	j	à	y	y		Lo		consonant		ྱ				U+0F61: TIBETAN LETTER YA	✓
-ྱ	Y	j		y̰	y		Mn		subscript			ཡ		ya-ta (ya-btags)	U+0FB1: TIBETAN SUBJOINED LETTER YA	✓
-ྻ	Y			ȳ̰			Mn		fixed form variant			ཡ			U+0FBB: TIBETAN SUBJOINED LETTER FIXED-FORM YA	✓
+ྱ	Y			y̰	y		Mn		subscript			ཡ		ya-ta (ya-btags)	U+0FB1: TIBETAN SUBJOINED LETTER YA	✓
+ྻ	Y			ȳ̰			Mn	?	fixed form variant			ཡ			U+0FBB: TIBETAN SUBJOINED LETTER FIXED-FORM YA	✓
 // Lhasa combinations																
-པྱ		t͡ɕ c	á						consonant with subscript							
-པྲ		ʈ͡ʂ ʈ	á						consonant with subscript							
-ལྤ		p	á						consonant with superscript							
-སྤ		p	á						consonant with superscript							
-ཕྱ		t͡ɕʰ cʰ	á						consonant with subscript							
-ཕྲ		ʈ͡ʂʰ ʈʰ	á						consonant with subscript							
-ཧྥ		f	á						consonant with superscript							
-ཀྱ		c kj	á						consonant with subscript							
-ཀྲ		ʈ͡ʂ ʈá	á						consonant with subscript							
-ཀླ		l	á						consonant with subscript							
-ཀྭ		k	á						consonant with subscript							
-རྐ		k	á						consonant with superscript							
-ལྐ		k	á						consonant with superscript							
-སྐ		k	á						consonant with superscript							
+པྱ		t͡ɕ c	á						consonant with subscript						U+0F54 U+0FB1: TIBETAN LETTER PA, SUBJOINED LETTER YA	
+པྲ		ʈ͡ʂ ʈ	á						consonant with subscript						U+0F54 U+0FB2: TIBETAN LETTER PA, SUBJOINED LETTER RA	
+ལྤ		p	á						consonant with superscript						U+0F63 U+0FA4: TIBETAN LETTER LA, SUBJOINED LETTER PA	
+སྤ		p	á						consonant with superscript						U+0F66 U+0FA4: TIBETAN LETTER SA, SUBJOINED LETTER PA	
+ཕྱ		t͡ɕʰ cʰ	á						consonant with subscript						U+0F55 U+0FB1: TIBETAN LETTER PHA, SUBJOINED LETTER YA	
+ཕྲ		ʈ͡ʂʰ ʈʰ	á						consonant with subscript						U+0F55 U+0FB2: TIBETAN LETTER PHA, SUBJOINED LETTER RA	
+ཧྥ		f	á						consonant with superscript						U+0F67 U+0FA5: TIBETAN LETTER HA, SUBJOINED LETTER PHA	
+བྱ		t͡ɕʰ	à						consonant with subscript						U+0F56 U+0FB1: TIBETAN LETTER BA, SUBJOINED LETTER YA	
+བྲ		ʈ͡ʂ	à						consonant with subscript						U+0F56 U+0FB2: TIBETAN LETTER BA, SUBJOINED LETTER RA	
+བླ		l	à						consonant with subscript						U+0F56 U+0FB3: TIBETAN LETTER BA, SUBJOINED LETTER LA	
+རྦ		p	à						consonant with superscript						U+0F62 U+0FA6: TIBETAN LETTER RA, SUBJOINED LETTER BA	
+ལྦ		p	à						consonant with superscript						U+0F63 U+0FA6: TIBETAN LETTER LA, SUBJOINED LETTER BA	
+སྦ		p	à						consonant with superscript						U+0F66 U+0FA6: TIBETAN LETTER SA, SUBJOINED LETTER BA	
+བཀ		k	á						prefix & root						U+0F56 U+0F40: TIBETAN LETTER BA, LETTER KA	
+བཅ		t͡ɕ	á						prefix & root						U+0F56 U+0F45: TIBETAN LETTER BA, LETTER CA	
+བཏ		t	á						prefix & root						U+0F56 U+0F4F: TIBETAN LETTER BA, LETTER TA	
+བཙ		t͡s	á						prefix & root						U+0F56 U+0F59: TIBETAN LETTER BA, LETTER TSA	
+བག		k	à						prefix & root						U+0F56 U+0F42: TIBETAN LETTER BA, LETTER GA	
+བད		t	à						prefix & root						U+0F56 U+0F51: TIBETAN LETTER BA, LETTER DA	
+བཞ		ɕ	à						prefix & root						U+0F56 U+0F5E: TIBETAN LETTER BA, LETTER ZHA	
+བཟ		a	à						prefix & root						U+0F56 U+0F5F: TIBETAN LETTER BA, LETTER ZA	
+བཤ		ɕ	á						prefix & root						U+0F56 U+0F64: TIBETAN LETTER BA, LETTER SHA	
+བས		a	á						prefix & root						U+0F56 U+0F66: TIBETAN LETTER BA, LETTER SA	
+ཀྱ		c kj	á						consonant with subscript						U+0F40 U+0FB1: TIBETAN LETTER KA, SUBJOINED LETTER YA	
+ཀྲ		ʈ͡ʂ ʈ	á						consonant with subscript						U+0F40 U+0FB2: TIBETAN LETTER KA, SUBJOINED LETTER RA	
+ཀླ		l	á						consonant with subscript						U+0F40 U+0FB3: TIBETAN LETTER KA, SUBJOINED LETTER LA	
+ཀྭ		k	á						consonant with subscript						U+0F40 U+0FAD: TIBETAN LETTER KA, SUBJOINED LETTER WA	
+རྐ		k	á						consonant with superscript						U+0F62 U+0F90: TIBETAN LETTER RA, SUBJOINED LETTER KA	
+ལྐ		k	á						consonant with superscript						U+0F63 U+0F90: TIBETAN LETTER LA, SUBJOINED LETTER KA	
+སྐ		k	á						consonant with superscript						U+0F66 U+0F90: TIBETAN LETTER SA, SUBJOINED LETTER KA	
+ཁྱ		cʰ kʰj	á						consonant with subscript						U+0F41 U+0FB1: TIBETAN LETTER KHA, SUBJOINED LETTER YA	
+ཁྲ		ʈ͡ʂʰ ʈʰ	á						consonant with subscript						U+0F41 U+0FB2: TIBETAN LETTER KHA, SUBJOINED LETTER RA	
+ཁྭ		kʰ	á						consonant with subscript						U+0F41 U+0FAD: TIBETAN LETTER KHA, SUBJOINED LETTER WA	
+རྒ		k ɡ	à						consonant with superscript						U+0F62 U+0F92: TIBETAN LETTER RA, SUBJOINED LETTER GA	
+ལྒ		k ɡ	à						consonant with superscript						U+0F63 U+0F92: TIBETAN LETTER LA, SUBJOINED LETTER GA	
+སྒ		k ɡ	à						consonant with superscript						U+0F66 U+0F92: TIBETAN LETTER SA, SUBJOINED LETTER GA	
+གཅ		t͡ɕ	á						prefix & root						U+0F42 U+0F45: TIBETAN LETTER GA, LETTER CA	
+གཏ		t	á						prefix & root						U+0F42 U+0F4F: TIBETAN LETTER GA, LETTER TA	
+གཙ		t͡s	á						prefix & root						U+0F42 U+0F59: TIBETAN LETTER GA, LETTER TSA	
+གད		t	à						prefix & root						U+0F42 U+0F51: TIBETAN LETTER GA, LETTER DA	
+གཉ		ɲ	á						prefix & root						U+0F42 U+0F49: TIBETAN LETTER GA, LETTER NYA	
+གན		n	á						prefix & root						U+0F42 U+0F53: TIBETAN LETTER GA, LETTER NA	
+གཡ		j	á						prefix & root						U+0F42 U+0F61: TIBETAN LETTER GA, LETTER YA	
+གས		s	á						prefix & root						U+0F42 U+0F66: TIBETAN LETTER GA, LETTER SA	
+གཟ		s	à						prefix & root						U+0F42 U+0F5F: TIBETAN LETTER GA, LETTER ZA	
+གཤ		ɕ	á						prefix & root						U+0F42 U+0F64: TIBETAN LETTER GA, LETTER SHA	
+གཞ		ɕ	à						prefix & root						U+0F42 U+0F5E: TIBETAN LETTER GA, LETTER ZHA	
+རྔ		ŋ	á						consonant with superscript						U+0F62 U+0F94: TIBETAN LETTER RA, SUBJOINED LETTER NGA	
+ལྔ		ŋ	á						consonant with superscript						U+0F63 U+0F94: TIBETAN LETTER LA, SUBJOINED LETTER NGA	
+སྔ		ŋ	á						consonant with superscript						U+0F66 U+0F94: TIBETAN LETTER SA, SUBJOINED LETTER NGA	
+ལྕ		c	á						consonant with superscript						U+0F63 U+0F95: TIBETAN LETTER LA, SUBJOINED LETTER CA	
+རྗ		t͡ɕ	à						consonant with superscript						U+0F62 U+0F97: TIBETAN LETTER RA, SUBJOINED LETTER JA	
+ལྗ		t͡ɕ	à						consonant with superscript						U+0F63 U+0F97: TIBETAN LETTER LA, SUBJOINED LETTER JA	
+ཉྭ		ɲ	à						consonant with subscript						U+0F49 U+0FAD: TIBETAN LETTER NYA, SUBJOINED LETTER WA	
+རྙ		ɲ	á						consonant with superscript						U+0F62 U+0F99: TIBETAN LETTER RA, SUBJOINED LETTER NYA	
+སྙ		ɲ	á						consonant with superscript						U+0F66 U+0F99: TIBETAN LETTER SA, SUBJOINED LETTER NYA	
+ཏྲ		ʈ	á						consonant with subscript						U+0F4F U+0FB2: TIBETAN LETTER TA, SUBJOINED LETTER RA	
+རྟ		t	á						consonant with superscript						U+0F62 U+0F9F: TIBETAN LETTER RA, SUBJOINED LETTER TA	
+ལྟ		t	á						consonant with superscript						U+0F63 U+0F9F: TIBETAN LETTER LA, SUBJOINED LETTER TA	
+སྟ		t	á						consonant with superscript						U+0F66 U+0F9F: TIBETAN LETTER SA, SUBJOINED LETTER TA	
+ཐྲ		ʈʰ	á						consonant with subscript						U+0F50 U+0FB2: TIBETAN LETTER THA, SUBJOINED LETTER RA	
+དྲ		ʈ͡ʂ	à						consonant with subscript						U+0F51 U+0FB2: TIBETAN LETTER DA, SUBJOINED LETTER RA	
+དྭ		tʰ	à						consonant with subscript						U+0F51 U+0FAD: TIBETAN LETTER DA, SUBJOINED LETTER WA	
+རྟ		t	à						consonant with superscript						U+0F62 U+0F9F: TIBETAN LETTER RA, SUBJOINED LETTER TA	
+ལྟ		t	à						consonant with superscript						U+0F63 U+0F9F: TIBETAN LETTER LA, SUBJOINED LETTER TA	
+སྟ		t	à						consonant with superscript						U+0F66 U+0F9F: TIBETAN LETTER SA, SUBJOINED LETTER TA	
+དཔ		p	á						prefix & root						U+0F51 U+0F54: TIBETAN LETTER DA, LETTER PA	
+དཀ		k	á						prefix & root						U+0F51 U+0F40: TIBETAN LETTER DA, LETTER KA	
+དབ		p	à						prefix & root						U+0F51 U+0F56: TIBETAN LETTER DA, LETTER BA	
+དག		k	à						prefix & root						U+0F51 U+0F42: TIBETAN LETTER DA, LETTER GA	
+དམ		m	á						prefix & root						U+0F51 U+0F58: TIBETAN LETTER DA, LETTER MA	
+དང		ŋ	á						prefix & root						U+0F51 U+0F44: TIBETAN LETTER DA, LETTER NGA	
+རྣ		n	á						consonant with superscript						U+0F62 U+0FA3: TIBETAN LETTER RA, SUBJOINED LETTER NA	
+སྣ		n	á						consonant with superscript						U+0F66 U+0FA3: TIBETAN LETTER SA, SUBJOINED LETTER NA	
+མྱ		ɲ	à						consonant with subscript						U+0F58 U+0FB1: TIBETAN LETTER MA, SUBJOINED LETTER YA	
+མྲ		m	à						consonant with subscript						U+0F58 U+0FB2: TIBETAN LETTER MA, SUBJOINED LETTER RA	
+རྨ		m	á						consonant with superscript						U+0F62 U+0FA8: TIBETAN LETTER RA, SUBJOINED LETTER MA	
+སྨ		m	á						consonant with superscript						U+0F66 U+0FA8: TIBETAN LETTER SA, SUBJOINED LETTER MA	
+མཁ		kʰ	á						prefix & root						U+0F58 U+0F41: TIBETAN LETTER MA, LETTER KHA	
+མཆ		t͡ɕʰ	á						prefix & root						U+0F58 U+0F46: TIBETAN LETTER MA, LETTER CHA	
+མཐ		tʰ	á						prefix & root						U+0F58 U+0F50: TIBETAN LETTER MA, LETTER THA	
+མཚ		t͡sʰ	á						prefix & root						U+0F58 U+0F5A: TIBETAN LETTER MA, LETTER TSHA	
+མག		k	à						prefix & root						U+0F58 U+0F42: TIBETAN LETTER MA, LETTER GA	
+མཇ		t͡ɕ	à						prefix & root						U+0F58 U+0F47: TIBETAN LETTER MA, LETTER JA	
+མད		t	à						prefix & root						U+0F58 U+0F51: TIBETAN LETTER MA, LETTER DA	
+མཛ		t͡s	à						prefix & root						U+0F58 U+0F5B: TIBETAN LETTER MA, LETTER DZA	
+མང		ŋ	á						prefix & root						U+0F58 U+0F44: TIBETAN LETTER MA, LETTER NGA	
+མཉ		ɲ	á						prefix & root						U+0F58 U+0F49: TIBETAN LETTER MA, LETTER NYA	
+རྩ		t͡s	á						consonant with superscript						U+0F62 U+0FA9: TIBETAN LETTER RA, SUBJOINED LETTER TSA	
+སྩ		t͡s	á						consonant with superscript						U+0F66 U+0FA9: TIBETAN LETTER SA, SUBJOINED LETTER TSA	
+ཙྭ		t͡s	á						consonant with subscript						U+0F59 U+0FAD: TIBETAN LETTER TSA, SUBJOINED LETTER WA	
+ཚྭ		t͡sʰ	á						consonant with subscript						U+0F5A U+0FAD: TIBETAN LETTER TSHA, SUBJOINED LETTER WA	
+རྫ		t͡s	à						consonant with superscript						U+0F62 U+0FAB: TIBETAN LETTER RA, SUBJOINED LETTER DZA	
+ཞྭ		ɕ	à						consonant with subscript						U+0F5E U+0FAD: TIBETAN LETTER ZHA, SUBJOINED LETTER WA	
+ཟླ		t	à						consonant with subscript						U+0F5F U+0FB3: TIBETAN LETTER ZA, SUBJOINED LETTER LA	
+ཟྭ		s	à						consonant with subscript						U+0F5F U+0FAD: TIBETAN LETTER ZA, SUBJOINED LETTER WA	
+འཁ		kʰ	á						prefix & root						U+0F60 U+0F41: TIBETAN LETTER -A, LETTER KHA	
+འཆ		t͡sʰ	á						prefix & root						U+0F60 U+0F46: TIBETAN LETTER -A, LETTER CHA	
+འཐ		tʰ	á						prefix & root						U+0F60 U+0F50: TIBETAN LETTER -A, LETTER THA	
+འཚ		t͡sʰ	á						prefix & root						U+0F60 U+0F5A: TIBETAN LETTER -A, LETTER TSHA	
+འག		k	à						prefix & root						U+0F60 U+0F42: TIBETAN LETTER -A, LETTER GA	
+འཇ		t͡ɕ	à						prefix & root						U+0F60 U+0F47: TIBETAN LETTER -A, LETTER JA	
+འད		t	à						prefix & root						U+0F60 U+0F51: TIBETAN LETTER -A, LETTER DA	
+འབ		p	à						prefix & root						U+0F60 U+0F56: TIBETAN LETTER -A, LETTER BA	
+འཛ		t͡s	à						prefix & root						U+0F60 U+0F5B: TIBETAN LETTER -A, LETTER DZA	
+རླ		l	á						consonant with subscript						U+0F62 U+0FB3: TIBETAN LETTER RA, SUBJOINED LETTER LA	
+རྭ		r	ā						consonant with subscript						U+0F62 U+0FAD: TIBETAN LETTER RA, SUBJOINED LETTER WA	
+ལྭ		l	à						consonant with subscript						U+0F63 U+0FAD: TIBETAN LETTER LA, SUBJOINED LETTER WA	
+ཤྭ		ɕ	á						consonant with subscript						U+0F64 U+0FAD: TIBETAN LETTER SHA, SUBJOINED LETTER WA	
+སྲ		s	á						consonant with subscript						U+0F66 U+0FB2: TIBETAN LETTER SA, SUBJOINED LETTER RA	
+སླ		l	á						consonant with subscript						U+0F66 U+0FB3: TIBETAN LETTER SA, SUBJOINED LETTER LA	
+ཧྲ		ʂ	á						consonant with subscript						U+0F67 U+0FB2: TIBETAN LETTER HA, SUBJOINED LETTER RA	
+ཧྭ		h	ā						consonant with subscript						U+0F67 U+0FAD: TIBETAN LETTER HA, SUBJOINED LETTER WA	
+ལྷ		ɬ	á						consonant with superscript						U+0F63 U+0FB7: TIBETAN LETTER LA, SUBJOINED LETTER HA	
 																
 // SANSKRIT																
 ྰ	A	a		à̰	a		Mn		subjoined consonant			འ			U+0FB0: TIBETAN SUBJOINED LETTER -A	✓
@@ -307,6 +407,7 @@ var spreadsheet = `tibt-bo	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ༱				8.5			No		digit minus half						U+0F31: TIBETAN DIGIT HALF EIGHT	
 ༲				9.5			No		digit minus half						U+0F32: TIBETAN DIGIT HALF NINE	
 ⓟ															PREFIX	
+Ⓢ															SUFFIX	
 `																
 																
 latinPanel = 'á à ā bʰ d͡ʒ d͡z ɖ ɖʰ d̪ʱ ʣʰ ə é è gʰ ḥ í ì ː ī kʰ ḷ ḹ ŋ ɲ ɳ ⁿ ó ò pʰ ɽ ṛ ṝ ʂ t͡ʃ t͡ʃʰ tʰ t͡sʰ ʈ ʈʰ ú ù ū uː ǿ ø̀ ɛ̀ ɛ́ ỳ ý ̀ ́ ̂ ̌ ̄ '																
