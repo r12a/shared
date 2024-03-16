@@ -2,59 +2,64 @@ var spreadsheet = `cham-cjm	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 \u0020	 	 		 	 		Zs		space				U+0020: SPACE	
 														
 														
-				ẹ										
-ꨁ	I	ʔi		ị	i		Lo		independent vowel				U+AA01: CHAM LETTER I	✓
-ꨂ	U	ʔu		ụ	u		Lo		independent vowel				U+AA02: CHAM LETTER U	✓
-ꨃ	E	ʔɛ		ɛ̣	é		Lo		independent vowel				U+AA03: CHAM LETTER E	✓
-ꨅ	O	ʔo		ọ	o		Lo		independent vowel				U+AA05: CHAM LETTER O	✓
-ꨀ	A	ʔa		ạ	a		Lo		independent vowel				U+AA00: CHAM LETTER A	✓
-ꨄ	A	ʔai		ại	ai		Lo		independent vowel				U+AA04: CHAM LETTER AI	✓
-ꨀꨲ	I	ʔɨ							standalone vowel				U+AA00 U+AA32: CHAM LETTER A, VOWEL SIGN UE	✓
-ꨀꨮ	E	ʔə							standalone vowel				U+AA00 U+AA2E: CHAM LETTER A, VOWEL SIGN OE	✓
-ꨀꨯꨱ	O	ʔɔ							standalone vowel				U+AA00 U+AA2F U+AA31: CHAM LETTER A, VOWEL SIGN O, VOWEL SIGN AU	✓
 														
 														
 														
 ꨚ	p	p	a	p	pa		Lo		consonant				U+AA1A: CHAM LETTER PA	✓
 ꨛ	p	p	a	ṗ	pa		Lo		consonant				U+AA1B: CHAM LETTER PPA	✓
+ꩇ	p	p̚		p̽	p		Lo		final consonant				U+AA47: CHAM LETTER FINAL P	✓
 ꨜ	P	pʰ	a	pʰ	pha		Lo		consonant				U+AA1C: CHAM LETTER PHA	✓
 ꨝ	b	b	a	p̄	ba		Lo		consonant				U+AA1D: CHAM LETTER BA	✓
 ꨞ	B	bʰ	a	p̄ʰ	bha		Lo		consonant				U+AA1E: CHAM LETTER BHA	✓
 ꨡ	b	ɓ	a	ɓ	mba		Lo		consonant				U+AA21: CHAM LETTER BBA	✓
 ꨓ	t	t	a	t	ta		Lo		consonant				U+AA13: CHAM LETTER TA	✓
+ꩅ	t	t̚		t̽	t		Lo		final consonant				U+AA45: CHAM LETTER FINAL T	✓
 ꨔ	T	tʰ	a	tʰ	tha		Lo		consonant				U+AA14: CHAM LETTER THA	✓
 ꨕ	d	d	a	ṭ	da		Lo		consonant				U+AA15: CHAM LETTER DA	✓
 ꨖ	D	dʰ	a	ṭʰ	dha		Lo		consonant				U+AA16: CHAM LETTER DHA	✓
 ꨙ	d	ɗ	a	ɗ	nda		Lo		consonant				U+AA19: CHAM LETTER DDA	✓
 ꨌ	c	c	a	c	ca		Lo		consonant				U+AA0C: CHAM LETTER CHA	✓
+ꩄ	c	c̚		c̽	c		Lo		final consonant				U+AA44: CHAM LETTER FINAL CH	✓
 ꨍ	C	cʰ	a	cʰ	cha		Lo		consonant				U+AA0D: CHAM LETTER CHHA	✓
 ꨎ	j	d͡ʑ	a	c̣	ja		Lo		consonant				U+AA0E: CHAM LETTER JA	✓
 ꨏ	J	d͡ʑʰ	a	c̣ʰ	jha		Lo		consonant				U+AA0F: CHAM LETTER JHA	✓
 ꨆ	k	k	a	k	ka		Lo		consonant				U+AA06: CHAM LETTER KA	✓
+ꩀ	k	ʔ k		k̽	k		Lo		final consonant				U+AA40: CHAM LETTER FINAL K	✓
 ꨇ	K	kʰ	a	kʰ	kha		Lo		consonant				U+AA07: CHAM LETTER KHA	✓
 ꨈ	g	ɡ͡ɣ	a	ɡ	ga		Lo		consonant				U+AA08: CHAM LETTER GA	✓
+ꩁ	g	ɡ		ɡ̽	g		Lo		final consonant				U+AA41: CHAM LETTER FINAL G	✓
 ꨉ	G	ɡʰ	a	ɡʰ	gha		Lo		consonant				U+AA09: CHAM LETTER GHA	✓
 ꨦ	s	s	a	ṣ	ṣa		Lo		consonant				U+AA26: CHAM LETTER SSA	✓
 ꨧ	s	s	a	s	sa		Lo		consonant				U+AA27: CHAM LETTER SA	✓
+ꩋ	s	s		s̽	ṣ		Lo		final consonant				U+AA4B: CHAM LETTER FINAL SS	✓
 ꨨ	h	h	a	h	ha		Lo		consonant				U+AA28: CHAM LETTER HA	✓
+ꩍ	h	h		h̽	h		Mc​		final consonant				U+AA4D: CHAM CONSONANT SIGN FINAL H	✓
 ꨟ	m	m	ɨ	m	mâ		Lo		consonant				U+AA1F: CHAM LETTER MUE	✓
 ꨠ	M	m	a	ṃ	ma		Lo		consonant				U+AA20: CHAM LETTER MA	✓
+ꩌ	m	m		m̽	m		Mn​		final consonant				U+AA4C: CHAM CONSONANT SIGN FINAL M	✓
 ꨗ	n	n	ɨ	n	nâ		Lo		consonant				U+AA17: CHAM LETTER NUE	✓
 ꨘ	N	n	a	n	na		Lo		consonant				U+AA18: CHAM LETTER NA	✓
+ꩆ	n	n		n̽	n		Lo		final consonant				U+AA46: CHAM LETTER FINAL N	✓
 ꨐ	n	ɲ	ɨ	ɲ	nyâ		Lo		consonant				U+AA10: CHAM LETTER NHUE	✓
 ꨑ	N	ɲ	a	ɲ	nya		Lo		consonant				U+AA11: CHAM LETTER NHA	✓
 ꨊ	n	ŋ	ɨ	ŋ	ngâ		Lo		consonant				U+AA0A: CHAM LETTER NGUE	✓
+ꩂ	n	ŋ		ŋ̽	ng		Lo		final consonant				U+AA42: CHAM LETTER FINAL NG	✓
+ꩃ	n	ŋ		ŋ̣̽	ng		Mn​		final consonant				U+AA43: CHAM CONSONANT SIGN FINAL NG	✓
 ꨋ	N	ŋʰ	a	ŋʰ	nga		Lo		consonant				U+AA0B: CHAM LETTER NGA	✓
 ꨥ	w	w	a	w	wa		Lo		consonant				U+AA25: CHAM LETTER VA	✓
+ꨶ	w	w	a	w̆	ua		Mn​		medial consonant				U+AA36: CHAM CONSONANT SIGN WA	✓
 ꨣ	r	ɾ	a	ɾ	ra		Lo		consonant				U+AA23: CHAM LETTER RA	✓
+ꨴ	r	r	a	r̆	ra		Mc​		medial consonant				U+AA34: CHAM CONSONANT SIGN RA	✓
+ꩉ	r	r		r̽	r		Lo		final consonant				U+AA49: CHAM LETTER FINAL R	✓
 ꨤ	l	l	a	l	la		Lo		consonant				U+AA24: CHAM LETTER LA	✓
+ꨵ	l	l	a	l̆	la		Mn​		medial consonant				U+AA35: CHAM CONSONANT SIGN LA	✓
+ꩊ	l	l		l̽	l		Lo		final consonant				U+AA4A: CHAM LETTER FINAL L	✓
 ꨢ	y	j	a	j	ya		Lo		consonant				U+AA22: CHAM LETTER YA	✓
 ꨒ	y	j	a	j̣	nja		Lo		consonant				U+AA12: CHAM LETTER NHJA	✓
-														
-ꨶ	w	w	a	w̆	ua		Mn​		medial consonant				U+AA36: CHAM CONSONANT SIGN WA	✓
-ꨴ	r	r	a	r̆	ra		Mc​		medial consonant				U+AA34: CHAM CONSONANT SIGN RA	✓
-ꨵ	l	l	a	l̆	la		Mn​		medial consonant				U+AA35: CHAM CONSONANT SIGN LA	✓
 ꨳ	y	j	a	j̆	ya		Mc​		medial consonant				U+AA33: CHAM CONSONANT SIGN YA	✓
+ꩈ	y	j		j̽	y		Lo		final consonant				U+AA48: CHAM LETTER FINAL Y	✓
+														
+														
 														
 ꨪ	i	i		i	i		Mn​		dependent vowel				U+AA2A: CHAM VOWEL SIGN I	✓
 ꨫ	i	iː		ī	ī		Mn​		dependent vowel				U+AA2B: CHAM VOWEL SIGN II	✓
@@ -74,20 +79,15 @@ var spreadsheet = `cham-cjm	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ꨰ	a	aɪ		aⁱ	ai		Mc​		dependent vowel				U+AA30: CHAM VOWEL SIGN AI	✓
 ꨮꨭ	a	aʊ		aʷ	au				dependent vowel				U+AA2E U+AA2D:CHAM VOWEL SIGN OE, VOWEL SIGN U	✓
 														
-ꩇ	p	p̚		p̽	p		Lo		final consonant				U+AA47: CHAM LETTER FINAL P	✓
-ꩅ	t	t̚		t̽	t		Lo		final consonant				U+AA45: CHAM LETTER FINAL T	✓
-ꩄ	c	c̚		c̽	c		Lo		final consonant				U+AA44: CHAM LETTER FINAL CH	✓
-ꩀ	k	ʔ k		k̽	k		Lo		final consonant				U+AA40: CHAM LETTER FINAL K	✓
-ꩁ	g	ɡ		ɡ̽	g		Lo		final consonant				U+AA41: CHAM LETTER FINAL G	✓
-ꩌ	m	m		m̽	m		Mn​		final consonant				U+AA4C: CHAM CONSONANT SIGN FINAL M	✓
-ꩆ	n	n		n̽	n		Lo		final consonant				U+AA46: CHAM LETTER FINAL N	✓
-ꩂ	n	ŋ		ŋ̽	ng		Lo		final consonant				U+AA42: CHAM LETTER FINAL NG	✓
-ꩃ	n	ŋ		ŋ̣̽	ng		Mn​		final consonant				U+AA43: CHAM CONSONANT SIGN FINAL NG	✓
-ꩋ	s	s		s̽	ṣ		Lo		final consonant				U+AA4B: CHAM LETTER FINAL SS	✓
-ꩍ	h	h		h̽	h		Mc​		final consonant				U+AA4D: CHAM CONSONANT SIGN FINAL H	✓
-ꩉ	r	r		r̽	r		Lo		final consonant				U+AA49: CHAM LETTER FINAL R	✓
-ꩊ	l	l		l̽	l		Lo		final consonant				U+AA4A: CHAM LETTER FINAL L	✓
-ꩈ	y	j		j̽	y		Lo		final consonant				U+AA48: CHAM LETTER FINAL Y	✓
+ꨁ	I	ʔi		ị	i		Lo		independent vowel				U+AA01: CHAM LETTER I	✓
+ꨂ	U	ʔu		ụ	u		Lo		independent vowel				U+AA02: CHAM LETTER U	✓
+ꨃ	E	ʔɛ		ɛ̣	é		Lo		independent vowel				U+AA03: CHAM LETTER E	✓
+ꨅ	O	ʔo		ọ	o		Lo		independent vowel				U+AA05: CHAM LETTER O	✓
+ꨀ	A	ʔa		ạ	a		Lo		independent vowel				U+AA00: CHAM LETTER A	✓
+ꨄ	A	ʔai		ại	ai		Lo		independent vowel				U+AA04: CHAM LETTER AI	✓
+ꨀꨲ	I	ʔɨ							standalone vowel				U+AA00 U+AA32: CHAM LETTER A, VOWEL SIGN UE	✓
+ꨀꨮ	E	ʔə							standalone vowel				U+AA00 U+AA2E: CHAM LETTER A, VOWEL SIGN OE	✓
+ꨀꨯꨱ	O	ʔɔ							standalone vowel				U+AA00 U+AA2F U+AA31: CHAM LETTER A, VOWEL SIGN O, VOWEL SIGN AU	✓
 														
 ꩐	±	0		0̣	0		Nd		digit		ꨔꨯꨱꩍ	thaoh	U+AA50: CHAM DIGIT ZERO	✓
 ꩑	±	1		1̣	1		Nd		digit		ꨧ	sa	U+AA51: CHAM DIGIT ONE	✓

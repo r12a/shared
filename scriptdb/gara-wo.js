@@ -36,48 +36,45 @@ var spreadsheet = `gara-wo	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 \u{10D6B}	[			˙			Mn		combining dot above						U+10D6B: GARAY DOT ABOVE		
 \u{10D6C}	[			¨			Mn		combining double dot above						U+10D6C: GARAY DOUBLE DOT ABOVE		
 \u{10D6D}	[	◌̃		˜	̃		Mn		nasalisation						U+10D6D: GARAY CONSONANT NASALIZATION MARK		
-\u{10D70}	A	ʔ		+			Ll		vowel carrier	word-initial vowels		\u{10D50}			U+10D70: GARAY SMALL LETTER A		
-\u{10D50}	A	ʔ		±			Lu		vowel carrier	word-initial vowels	\u{10D70}				U+10D50: GARAY CAPITAL LETTER A		
-\u{10D4A}	a	a		a			Lo		vowel						U+10D4A: GARAY VOWEL SIGN A		
-\u{10D4A}\u{10D4E}		aː		aː			Ll		long vowel						U+10D4A U+10D4E GARAY VOWEL SIGN A, VOWEL LENGTH MARK		
+\u{10D82}	p	p		p			Ll		consonant			\u{10D62}			U+10D82: GARAY SMALL LETTER PA		
+\u{10D62}	P	P		P			Lu		consonant		\u{10D82}				U+10D62: GARAY CAPITAL LETTER PA		
 \u{10D74}	b	b	-p	b			Ll		consonant			\u{10D54}			U+10D74: GARAY SMALL LETTER BA		
 \u{10D54}	B	B		B			Lu		consonant		\u{10D74}				U+0042: GARAY CAPITAL LETTER BA		
 \u{10D74}\u{10D69}	b	ᵐb		bë					prenasalised consonant						U+10D74 U+10D69: GARAY SMALL LETTER BA, VOWEL SIGN E		
 \u{10D54}\u{10D69}	B	ᵐB		MB					prenasalised consonant						U+10D54 U+10D69: GARAY CAPITAL LETTER BA, VOWEL SIGN E	✓	
-\u{10D71}	c	c		c			Ll		consonant			\u{10D51}			U+10D71: GARAY SMALL LETTER CA		
-\u{10D51}	C	C		C			Lu		consonant		\u{10D71}				U+10D751: GARAY CAPITAL LETTER CA		
+\u{10D7D}	t	t		t			Ll		consonant			\u{10D5D}			U+10D7D: GARAY SMALL LETTER TA		
+\u{10D5D}	T	T		T			Lu		consonant		\u{10D7D}				U+10D5D: GARAY CAPITAL LETTER TA		
 \u{10D7A}	d	d		d			Ll		consonant			\u{10D5A}			U+10D7A: GARAY SMALL LETTER DA		
 \u{10D5A}	D	D		D			Lu		consonant		\u{10D7A}				U+10D5A: GARAY CAPITAL LETTER DA		
 \u{10D7A}\u{10D69}	d	ⁿd		dë					prenasalised consonant						U+10D7A U+10D69: GARAY SMALL LETTER DA, SMALL LETTER E		
 \u{10D5A}\u{10D69}	D	ⁿD		Dë					prenasalised consonant						U+10D5A U+10D69: GARAY CAPITAL LETTER DA, CAPITAL LETTER E	✓	
-\u{10D69}	e	ɛ		ɛ	ë		Mn		vowel mark/prenasalisation marker						U+10D69: GARAY VOWEL SIGN E		
-\u{10D4D}	e	ɛ		ë			Lo		vowel						U+10D4D: GARAY VOWEL SIGN EE		
-\u{10D4D}\u{10D4E}		ɛː		ɛɛ					long vowel						U+10D4D U+10D4E: GARAY CAPITAL LETTER EE, VOWEL LENGTH MARK		
-\u{10D4D}\u{10D4D}		e		e					vowel						U+10D4D U+10D4D: GARAY VOWEL SIGN EE, VOWEL SIGN EE		
-\u{10D69}\u{10D4D}		e		e					vowel						U+10D69 U+10D4D: GARAY VOWEL SIGN E, VOWEL SIGN EE		
-\u{10D4D}\u{10D4D}\u{10D4E}		eː		ee					long vowel						U+10D4D U+10D4D U+10D4E: GARAY VOWEL SIGN EE, VOWEL SIGN EE, VOWEL LENGTH MARK		
-\u{10D4D}\u{10D4A}	e	ə		ə					vowel						U+10D4D U+10D4A: GARAY VOWEL SIGN EE, VOWEL SIGN A		
-\u{10D4D}\u{10D4A}\u{10D4E}		əː		əə					long vowel						U+10D4D U+10D4A U+104DE: GARAY VOWEL SIGN EE, VOWEL SIGN A, VOWEL LENGTH MARK		
-\u{10D80}	f	f		f			Ll		consonant			\u{10D60}			U+10D80: GARAY SMALL LETTER FA		
-\u{10D60}	F	ɸ		F			Lu		consonant		\u{10D80}				U+10D60: GARAY CAPITAL LETTER FA		
-\u{10D79}	g	ɡ	-k	g			Ll		consonant			\u{10D59}			U+10D79: GARAY SMALL LETTER GA		
-\u{10D59}	G	G		G			Lu		consonant		\u{10D79}				U+10D59: GARAY CAPITAL LETTER GA		
-\u{10D79}\u{10D69}		ᵑɡ		ng					prenasalised consonant						U+10D79 U+10D69: GARAY SMALL LETTER GA, SMALL LETTER E		
-\u{10D59}\u{10D69}		ᵑG		NG					prenasalised consonant						U+10D59 U+10D69: GARAY CAPITAL LETTER GA, SMALL LETTER E		
-\u{10D83}	h	h		h			Ll		consonant			\u{10D63}			U+10D83: GARAY SMALL LETTER HA		
-\u{10D63}	H	h		H	h	h	Lu		consonant		\u{10D83}				U+10D63: GARAY CAPITAL LETTER HA		
-\u{10D4B}	i	i		i			Lo		vowel						U+10D4B: GARAY VOWEL SIGN I		
-\u{10D4B}\u{10D4E}		iː		ii					long vowel						U+10D4B U+10D4E: GARAY VOWEL SIGN I, VOWEL LENGTH MARK		
-\u{10D4D}\u{10D4B}		iʰ		iʰ					strong i vowel						U+10D4D U+10D4B: GARAY VOWEL SIGN EE, VOWEL SIGN I		
-\u{10D4D}\u{10D4B}\u{10D4E}		iːʰ							long strong i vowel						U+10D4D U+10D4B 10D4E: GARAY VOWEL SIGN EE, VOWEL SIGN I, VOWEL LENGTH MARK		
+\u{10D71}	c	c		c			Ll		consonant			\u{10D51}			U+10D71: GARAY SMALL LETTER CA		
+\u{10D51}	C	C		C			Lu		consonant		\u{10D71}				U+10D751: GARAY CAPITAL LETTER CA		
 \u{10D75}	j	ɟ	-c	j			Ll		consonant			\u{10D55}			U+10D75: GARAY SMALL LETTER JA		
 \u{10D55}	J	ɟ		J			Lu		consonant		\u{10D75}				U+10D55: GARAY CAPITAL LETTER JA		
 \u{10D75}\u{10D69}		ᶮɟ		jë					prenasalised consonant						U+10D75 U+10D69: GARAY SMALL LETTER JA, SMALL LETTER E		
 \u{10D55}\u{10D69}		ᶮɟ		NJ					prenasalised consonant						U+10D55 U+10D69: GARAY CAPITAL LETTER JA, SMALL LETTER E		
 \u{10D73}	k	k		k			Ll		consonant			\u{10D53}			U+10D73: GARAY SMALL LETTER KA		
 \u{10D53}	K	K		K			Lu		consonant		\u{10D73}				U+10D53: GARAY CAPITAL LETTER KA		
-\u{10D78}	l	l		l			Ll		consonant			\u{10D58}			U+10D78: GARAY SMALL LETTER LA		
-\u{10D58}	L	L		L			Lu		consonant		\u{10D78}				U+10D58: GARAY CAPITAL LETTER LA		
+\u{10D79}	g	ɡ	-k	g			Ll		consonant			\u{10D59}			U+10D79: GARAY SMALL LETTER GA		
+\u{10D59}	G	G		G			Lu		consonant		\u{10D79}				U+10D59: GARAY CAPITAL LETTER GA		
+\u{10D79}\u{10D69}		ᵑɡ		ng					prenasalised consonant						U+10D79 U+10D69: GARAY SMALL LETTER GA, SMALL LETTER E		
+\u{10D59}\u{10D69}		ᵑG		NG					prenasalised consonant						U+10D59 U+10D69: GARAY CAPITAL LETTER GA, SMALL LETTER E		
+\u{10D7B}\u{10D70}	q	q		x±			Ll		consonant						U+10D7B U+10D70: GARAY SMALL LETTER XA, SMALL LETTER A		
+\u{10D70}	A	ʔ		+			Ll		vowel carrier	word-initial vowels		\u{10D50}			U+10D70: GARAY SMALL LETTER A		
+\u{10D50}	A	ʔ		±			Lu		vowel carrier	word-initial vowels	\u{10D70}				U+10D50: GARAY CAPITAL LETTER A		
+\u{10D60}	F	ɸ		F			Lu		consonant		\u{10D80}				U+10D60: GARAY CAPITAL LETTER FA		
+\u{10D80}	f	f		f			Ll		consonant			\u{10D60}			U+10D80: GARAY SMALL LETTER FA		
+\u{10D70}\u{10D77}	v	v		v					extended consonant						U+10D70 U+10D77: GARAY SMALL LETTER A, SMALL LETTER WA		
+\u{10D76}	s	s		s			Ll		consonant			\u{10D56}			U+10D76: GARAY SMALL LETTER SA		
+\u{10D56}	S	S		S			Lu		consonant		\u{10D76}				U+10D56: GARAY CAPITAL LETTER SA		
+\u{10D76}\u{10D6B}	s	sˤ		z					extended consonant						U+10D76 U+10D6B: GARAY SMALL LETTER SA, COMBINING DOT ABOVE		
+\u{10D76}\u{10D6C}	z	z		z			Ll		consonant						U+10D76 U+10D6C: GARAY SMALL LETTER SA, COMBINING DOUBLE DOT ABOVE		
+\u{10D70}\u{10D76}	s	ʃ		z					extended consonant						U+10D70 U+10D76: GARAY SMALL LETTER A, SMALL LETTER SA		
+\u{10D7B}	x	x χ		x			Ll		consonant			\u{10D5B}			U+10D7B: GARAY SMALL LETTER XA		
+\u{10D5B}	X	X		X			Lu		consonant		\u{10D7B}				U+10D5B: GARAY CAPITAL LETTER XA		
+\u{10D83}	h	h		h			Ll		consonant			\u{10D63}			U+10D83: GARAY SMALL LETTER HA		
+\u{10D63}	H	h		H	h	h	Lu		consonant		\u{10D83}				U+10D63: GARAY CAPITAL LETTER HA		
 \u{10D72}	m	m		m			Ll		consonant			\u{10D52}			U+10D72: GARAY SMALL LETTER MA		
 \u{10D52}	M	M		M			Lu		consonant		\u{10D72}				U+10D52: GARAY CAPITAL LETTER MA		
 \u{10D81}	n	n		n			Ll		consonant			\u{10D61}			U+10D81: GARAY SMALL LETTER NA		
@@ -86,31 +83,35 @@ var spreadsheet = `gara-wo	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 \u{10D5F}	N	ɲ		Ñ			Lu		consonant		\u{10D7F}				U+10D5F: GARAY CAPITAL LETTER NYA		
 \u{10D79}\u{10D6B}	n	ŋ		ŋ			Ll		consonant						U+10D79 U+10D6B: GARAY SMALL LETTER GA, COMBINING DOT ABOVE		
 \u{10D59}\u{10D6B}	N	ŋ		Ŋ			Lu		consonant						U+10D59 U+10D6B: GARAY CAPITAL LETTER GA, COMBINING DOT ABOVE		
-\u{10D4C}	o	ɔ		ɔ			Lo		vowel						U+10D4C: GARAY VOWEL SIGN O		
-\u{10D4C}\u{10D4E}		ɔː		ɔɔ					long vowel						U+10D4C U+10D4E: GARAY VOWEL SIGN O, VOWEL LENGTH MARK		
-\u{10D4C}\u{10D4D}	o	o		o					vowel						U+10D4C U+10D4D: GARAY VOWEL SIGN O, VOWEL SIGN EE		
-\u{10D4C}\u{10D4D}\u{10D4E}		oː		oo					long vowel						U+10D4C U+10D4D U+10D4E: GARAY VOWEL SIGN O, VOWEL SIGN EE, VOWEL LENGTH MARK		
-\u{10D82}	p	p		p			Ll		consonant			\u{10D62}			U+10D82: GARAY SMALL LETTER PA		
-\u{10D62}	P	P		P			Lu		consonant		\u{10D82}				U+10D62: GARAY CAPITAL LETTER PA		
-\u{10D7B}\u{10D70}	q	q		x±			Ll		consonant						U+10D7B U+10D70: GARAY SMALL LETTER XA, SMALL LETTER A		
-\u{10D7E}	r	r		r			Ll		consonant			\u{10D5E}			U+10D7E: GARAY SMALL LETTER RA		
-\u{10D5E}	R	R		R			Lu		consonant		\u{10D7E}				U+10D5E: GARAY CAPITAL LETTER RA		
-\u{10D76}	s	s		s			Ll		consonant			\u{10D56}			U+10D76: GARAY SMALL LETTER SA		
-\u{10D76}\u{10D6B}	s	sˤ		z					extended consonant						U+10D76 U+10D6B: GARAY SMALL LETTER SA, COMBINING DOT ABOVE		
-\u{10D70}\u{10D76}	s	ʃ		z					extended consonant						U+10D70 U+10D76: GARAY SMALL LETTER A, SMALL LETTER SA		
-\u{10D56}	S	S		S			Lu		consonant		\u{10D76}				U+10D56: GARAY CAPITAL LETTER SA		
-\u{10D7D}	t	t		t			Ll		consonant			\u{10D5D}			U+10D7D: GARAY SMALL LETTER TA		
-\u{10D5D}	T	T		T			Lu		consonant		\u{10D7D}				U+10D5D: GARAY CAPITAL LETTER TA		
-\u{10D4D}\u{10D4C}	u	u		u			Ll		vowel						U+10D4D U+10D4C: GARAY VOWEL SIGN EE, VOWEL SIGN O		
-\u{10D4D}\u{10D4C}\u{10D4E}	u	uː		uu					long vowel						U+10D4D U+10D4C U+10D4E: GARAY VOWEL SIGN EE, VOWEL SIGN O, VOWEL LENGTH MARK		
-\u{10D70}\u{10D77}	v	v		v					extended consonant						U+10D70 U+10D77: GARAY SMALL LETTER A, SMALL LETTER WA		
 \u{10D77}	w	w		w			Ll		consonant			\u{10D57}			U+10D77: GARAY SMALL LETTER WA		
 \u{10D57}	W	W		W			Lu		consonant		\u{10D77}				U+10D57: GARAY CAPITAL LETTER WA		
-\u{10D7B}	x	x χ		x			Ll		consonant			\u{10D5B}			U+10D7B: GARAY SMALL LETTER XA		
-\u{10D5B}	X	X		X			Lu		consonant		\u{10D7B}				U+10D5B: GARAY CAPITAL LETTER XA		
+\u{10D7E}	r	r		r			Ll		consonant			\u{10D5E}			U+10D7E: GARAY SMALL LETTER RA		
+\u{10D5E}	R	R		R			Lu		consonant		\u{10D7E}				U+10D5E: GARAY CAPITAL LETTER RA		
+\u{10D78}	l	l		l			Ll		consonant			\u{10D58}			U+10D78: GARAY SMALL LETTER LA		
+\u{10D58}	L	L		L			Lu		consonant		\u{10D78}				U+10D58: GARAY CAPITAL LETTER LA		
 \u{10D7C}	y	j		y			Ll		consonant			\u{10D5C}			U+10D7C: GARAY SMALL LETTER YA		
 \u{10D5C}	y	J		Y			Lu		consonant		\u{10D7C}				U+10D5C: GARAY CAPITAL LETTER YA		
-\u{10D76}\u{10D6C}	z	z		z			Ll		consonant						U+10D76 U+10D6C: GARAY SMALL LETTER SA, COMBINING DOUBLE DOT ABOVE		
+																	
+\u{10D4B}	i	i		i			Lo		vowel						U+10D4B: GARAY VOWEL SIGN I		
+\u{10D4B}\u{10D4E}		iː		ii					long vowel						U+10D4B U+10D4E: GARAY VOWEL SIGN I, VOWEL LENGTH MARK		
+\u{10D4D}\u{10D4B}		iʰ		iʰ					strong i vowel						U+10D4D U+10D4B: GARAY VOWEL SIGN EE, VOWEL SIGN I		
+\u{10D4D}\u{10D4B}\u{10D4E}		iːʰ							long strong i vowel						U+10D4D U+10D4B 10D4E: GARAY VOWEL SIGN EE, VOWEL SIGN I, VOWEL LENGTH MARK		
+\u{10D4D}\u{10D4C}	u	u		u			Ll		vowel						U+10D4D U+10D4C: GARAY VOWEL SIGN EE, VOWEL SIGN O		
+\u{10D4D}\u{10D4C}\u{10D4E}	u	uː		uu					long vowel						U+10D4D U+10D4C U+10D4E: GARAY VOWEL SIGN EE, VOWEL SIGN O, VOWEL LENGTH MARK		
+\u{10D4D}\u{10D4D}		e		e					vowel						U+10D4D U+10D4D: GARAY VOWEL SIGN EE, VOWEL SIGN EE		
+\u{10D69}\u{10D4D}		e		e					vowel						U+10D69 U+10D4D: GARAY VOWEL SIGN E, VOWEL SIGN EE		
+\u{10D4D}\u{10D4D}\u{10D4E}		eː		ee					long vowel						U+10D4D U+10D4D U+10D4E: GARAY VOWEL SIGN EE, VOWEL SIGN EE, VOWEL LENGTH MARK		
+\u{10D4C}\u{10D4D}	o	o		o					vowel						U+10D4C U+10D4D: GARAY VOWEL SIGN O, VOWEL SIGN EE		
+\u{10D4C}\u{10D4D}\u{10D4E}		oː		oo					long vowel						U+10D4C U+10D4D U+10D4E: GARAY VOWEL SIGN O, VOWEL SIGN EE, VOWEL LENGTH MARK		
+\u{10D4D}\u{10D4A}	e	ə		ə					vowel						U+10D4D U+10D4A: GARAY VOWEL SIGN EE, VOWEL SIGN A		
+\u{10D4D}\u{10D4A}\u{10D4E}		əː		əə					long vowel						U+10D4D U+10D4A U+104DE: GARAY VOWEL SIGN EE, VOWEL SIGN A, VOWEL LENGTH MARK		
+\u{10D69}	e	ɛ		ɛ	ë		Mn		vowel mark/prenasalisation marker						U+10D69: GARAY VOWEL SIGN E		
+\u{10D4D}	e	ɛ		ë			Lo		vowel						U+10D4D: GARAY VOWEL SIGN EE		
+\u{10D4D}\u{10D4E}		ɛː		ɛɛ					long vowel						U+10D4D U+10D4E: GARAY CAPITAL LETTER EE, VOWEL LENGTH MARK		
+\u{10D4C}	o	ɔ		ɔ			Lo		vowel						U+10D4C: GARAY VOWEL SIGN O		
+\u{10D4C}\u{10D4E}		ɔː		ɔɔ					long vowel						U+10D4C U+10D4E: GARAY VOWEL SIGN O, VOWEL LENGTH MARK		
+\u{10D4A}	a	a		a			Lo		vowel						U+10D4A: GARAY VOWEL SIGN A		
+\u{10D4A}\u{10D4E}		aː		aː			Ll		long vowel						U+10D4A U+10D4E GARAY VOWEL SIGN A, VOWEL LENGTH MARK		
 																	
 §				§	§		Po	?	section sign						U+00A7: SECTION SIGN		
 †				†	†		Po	?	dagger						U+2020: DAGGER		
