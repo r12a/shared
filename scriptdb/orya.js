@@ -1,4 +1,5 @@
 var spreadsheet = `orya-ora	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	dvowel	ivowel	native name	latin name	ucs name	block
+\u0020		 		 	 				space						U+0020: SPACE	
 -	-			-	-			?	hyphen						U+002D: HYPHEN-MINUS	
 ‑	-			‑	‑		Pd	?	non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
 –	-			–	–		Pd	?	en dash						U+2013: EN DASH	
@@ -15,10 +16,11 @@ var spreadsheet = `orya-ora	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 [	(			[	[		Ps	?	bracket						U+005B: LEFT SQUARE BRACKET	
 )	)			)	)		Pe		parenthesis						U+0029: RIGHT PARENTHESIS	
 ]	)			]	]		Pe	?	bracket						U+005D: RIGHT SQUARE BRACKET	
-୕	[			ˉ			Mn	u	overline	Kuvi					U+0B55: ORIYA SIGN OVERLINE	✓
+୕	[			ˉ			Mn	u	overline	Kuvi.					U+0B55: ORIYA SIGN OVERLINE	✓
 ଓଁ	[	om							om sign						U+0B13 U+0B01: LETTER O, SIGN CANDRABINDU	
 ଁ	[	̃		˜	̃		Mn		nasalisation				ଚନ୍ଦ୍ରବିନ୍ଦୁ	chandrabindu	U+0B01: ORIYA SIGN CANDRABINDU	✓
-ଽ	]			′			Lo	t	elision; vowel prolongation	Sanskrit			ଅବଗ୍ରହ	avagraha	U+0B3D: ORIYA SIGN AVAGRAHA	✓
+ଂ	[	̃ ŋ		m̽	ṃ		Mc		nasalisation				ଅନୁସ୍ୱାର	anusvara	U+0B02: ORIYA SIGN ANUSVARA	✓
+ଽ	]			′			Lo	t	elision; vowel prolongation	Usually only used for Sanskrit transcriptions.			ଅବଗ୍ରହ	avagraha	U+0B3D: ORIYA SIGN AVAGRAHA	✓
 ୰	@			°			So		deceased sign; name of deity					iswara	U+0B70: ORIYA ISSHAR	✓
 ୍	*			͞			Mn		vowel-killer				ହଳନ୍ତ	halanta	U+0B4D: ORIYA SIGN VIRAMA	✓
 ଼	/			ˑ			Mn		nukta					nukta	U+0B3C: ORIYA SIGN NUKTA	✓
@@ -46,81 +48,86 @@ var spreadsheet = `orya-ora	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ।	|			|	.		Po		section divider				ପୂର୍ଣ୍ଣଛେଦ	purṇṇacheda	U+0964: DEVANAGARI DANDA	✓
 ॥	|			‖			Po		section divider					double purṇṇacheda	U+0965: DEVANAGARI DOUBLE DANDA	✓
 																
-ା	a	a		ā	ā		Mc		vowel-sign			ଆ			U+0B3E: ORIYA VOWEL SIGN AA	✓
-ୈ	a	ɔi		ɔʲ	ai		Mc		vowel-sign			ଐ			U+0B48: ORIYA VOWEL SIGN AI	✓
-ୌ	a	ɔu		ɔᵘ	au		Mc		vowel-sign			ଔ			U+0B4C: ORIYA VOWEL SIGN AU	✓
+ପ	p	p	ɔ	p	p		Lo		consonant						U+0B2A: ORIYA LETTER PA	✓
+ଫ	p	pʰ	ɔ	pʰ	ph		Lo		consonant						U+0B2B: ORIYA LETTER PHA	✓
+ବ	b	b	ɔ	b	b		Lo		consonant						U+0B2C: ORIYA LETTER BA	✓
+ଭ	b	bʰ	ɔ	bʰ	bh		Lo		consonant						U+0B2D: ORIYA LETTER BHA	✓
+ତ	t	t	ɔ	t	t		Lo		consonant						U+0B24: ORIYA LETTER TA	✓
+ଥ	t	tʰ	ɔ	tʰ	th		Lo		consonant						U+0B25: ORIYA LETTER THA	✓
+ଚ	c	t͡ʃ	ɔ	c	c		Lo		consonant						U+0B1A: ORIYA LETTER CA	✓
+ଛ	c	t͡ʃʰ	ɔ	cʰ	ch		Lo		consonant						U+0B1B: ORIYA LETTER CHA	✓
+ଦ	d	d	ɔ	d	d		Lo		consonant						U+0B26: ORIYA LETTER DA	✓
+ଧ	d	dʰ	ɔ	dʰ	dh		Lo		consonant						U+0B27: ORIYA LETTER DHA	✓
+ଜ	j	d͡ʒ	ɔ	j	j		Lo		consonant						U+0B1C: ORIYA LETTER JA	✓
+ଯ	y	d͡ʒ	ɔ	ʤ	ẏ		Lo		consonant					antaḥstha ja	U+0B2F: ORIYA LETTER YA	✓
+ଝ	j	d͡ʒʰ	ɔ	jʰ	jh		Lo		consonant						U+0B1D: ORIYA LETTER JHA	✓
+ଟ	t	ʈ	ɔ	ʈ	ṭ		Lo		consonant						U+0B1F: ORIYA LETTER TTA	✓
+ଠ	t	ʈʰ	ɔ	ʈʰ	ṭh		Lo		consonant						U+0B20: ORIYA LETTER TTHA	✓
+ଡ	d	ɖ	ɔ	ɖ	ḍ		Lo		consonant						U+0B21: ORIYA LETTER DDA	✓
+ଢ	d	ɖʰ	ɔ	ɖʰ	ḍh		Lo		consonant						U+0B22: ORIYA LETTER DDHA	✓
+କ	k	k	ɔ	k	k		Lo		consonant						U+0B15: ORIYA LETTER KA	✓
+ଖ	k	kʰ	ɔ	kʰ	kh		Lo		consonant						U+0B16: ORIYA LETTER KHA	✓
+କ୍ଷ		kʰj	ɔ	k͓ṣ	kṣ				alphabetic letter						U+0B15 U+0B4D U+0B37: ORIYA LETTER KA, SIGN VIRAMA, LETTER SSA	
+ଗ	g	ɡ	ɔ	g	g		Lo		consonant						U+0B17: ORIYA LETTER GA	✓
+ଘ	g	ɡʰ	ɔ	gʰ	gh		Lo		consonant						U+0B18: ORIYA LETTER GHA	✓
+ସ	s	s	ɔ	s	s		Lo		consonant				ଦନ୍ତ୍ୟ	dantya sa	U+0B38: ORIYA LETTER SA	✓
+ଷ	s	s	ɔ	ṣ	ṣ		Lo		consonant				ମୂର୍ଦ୍ଧନ୍ୟ	murddhanya sa	U+0B37: ORIYA LETTER SSA	✓
+ଶ	s	s	ɔ	ś	ś		Lo		consonant				ତାଲବ୍ୟ	talabya sa	U+0B36: ORIYA LETTER SHA	✓
+ଃ	h	h		h̽	ḥ		Mc		final aspiration/consonant doubler				ବିସର୍ଗ	visarga	U+0B03: ORIYA SIGN VISARGA	✓
+ହ	h	ɦ	ɔ	ɦ	h		Lo		consonant						U+0B39: ORIYA LETTER HA	✓
+ମ	m	m	ɔ	m	m		Lo		consonant						U+0B2E: ORIYA LETTER MA	✓
+ନ	n	n	ɔ	n	n		Lo		consonant						U+0B28: ORIYA LETTER NA	✓
+ଞ	n	ɲ	ɔ	ɲ	ñ		Lo		consonant						U+0B1E: ORIYA LETTER NYA	✓
+ଣ	n	ɳ	ɔ	ɳ	ṇ		Lo		consonant						U+0B23: ORIYA LETTER NNA	✓
+ଙ	N	ŋ	ɔ	ŋ	ṅ		Lo		consonant						U+0B19: ORIYA LETTER NGA	✓
+ର	r	r	ɔ	r	r		Lo		consonant						U+0B30: ORIYA LETTER RA	✓
+ୃ	R	ru		r̥	r̥		Mn		dependent vocalic			ଋ			U+0B43: ORIYA VOWEL SIGN VOCALIC R	✓
+ୄ	R	ru		r̥̄	r̥̄		Mn	r	dependent vocalic	Usually only used for Sanskrit transcriptions.		ୠ			U+0B44: ORIYA VOWEL SIGN VOCALIC RR	✓
+ଋ	R	ru		r̥̣	r̥		Lo	r	vocalic	Usually only used for Sanskrit transcriptions.	ୃ				U+0B0B U+0020: ORIYA LETTER VOCALIC R	✓
+ୠ	R	ru		r̥̣̄	r̥̄		Lo	r	vocalic	Usually only used for Sanskrit transcriptions.	ୄ				U+0B60: ORIYA LETTER VOCALIC RR	✓
+ଡ଼	r	ɽ	ɔ	rˑ	ṛ				consonant						U+0B21 U+0B3C: ORIYA LETTER DDA, SIGN NUKTA	
+\u0B5C	r	ɽ	ɔ	rˑ	ṛ		Lo	x	consonant	Decomposed is recommended.					U+0B5C: ORIYA LETTER RRA	
+ଢ଼	r	ɽʰ	ɔ	rʰˑ	ṛh				consonant						U+0B22 U+0B3C: ORIYA LETTER DDHA, SIGN NUKTA	
+\u0B5D	r	ɽʰ	ɔ	rʰˑ	ṛh		Lo	x	consonant	Decomposed is recommended.					U+0B5D: ORIYA LETTER RHA	
+ୱ	w	w	ɔ	w	w		Lo		consonant				ଅବର୍ଗ୍ୟ ବ	abargya ba	U+0B71: ORIYA LETTER WA	✓
+ଵ	v	ʋ	ɔ	v	v		Lo		consonant						U+0B35: ORIYA LETTER VA	✓
+ଲ	l	l	ɔ	l	l		Lo		consonant						U+0B32: ORIYA LETTER LA	✓
+ଳ	l	ɭ	ɔ	ɭ	ḷ		Lo		consonant						U+0B33: ORIYA LETTER LLA	✓
+ୢ	L	lu		l̥	l̥		Mn	r	dependent vocalic	Usually only used for Sanskrit transcriptions.		ଌ			U+0B62 U+0020: ORIYA VOWEL SIGN VOCALIC L	✓
+ୣ	L	lu		l̥̄	l̥̄		Mn	r	dependent vocalic	Usually only used for Sanskrit transcriptions.		ୡ			U+0B63: ORIYA VOWEL SIGN VOCALIC LL	✓
+ଌ	L	lu		l̥̣	l̥		Lo	r	vocalic	Usually only used for Sanskrit transcriptions.	ୢ				U+0B0C: ORIYA LETTER VOCALIC L	✓
+ୡ	L	lu		l̥̣̄	l̥̄		Lo	r	vocalic	Usually only used for Sanskrit transcriptions.	ୣ				U+0B61: ORIYA LETTER VOCALIC LL	✓
+ୟ	y	j	ɔ	y	y		Lo		consonant						U+0B5F: ORIYA LETTER YYA	✓
+																
+ୖ	x			xʲ			Mn	x	lengthening mark	Only found in decomposed text.					U+0B56: ORIYA AI LENGTH MARK	✓
+ୗ	x			xᵘ			Mc	x	lengthening mark	Only found in decomposed text.					U+0B57: ORIYA AU LENGTH MARK	✓
+																
+କ଼		q	ɔ					l	non-native consonant						U+0B15 U+0B3C: ORIYA LETTER KA, SIGN NUKTA	
+ଖ଼		x	ɔ					l	non-native consonant						U+0B16 U+0B3C: ORIYA LETTER KHA, SIGN NUKTA	
+ଝ଼		ʒ	ɔ					l	non-native consonant						U+0B1D U+0B3C: ORIYA LETTER JHA, SIGN NUKTA	
+ଷ଼		ɻ	ɔ					l	non-native consonant						U+0B37 U+0B3C: ORIYA LETTER SSA, SIGN NUKTA	
+																
+୍ବ		w b	ɔ	͓b	w b										U+0B4D U+0B2C: ORIYA SIGN VIRAMA , LETTER BA	
+																
+ି	i	i		i	i		Mn		vowel sign			ଇ			U+0B3F: ORIYA VOWEL SIGN I	✓
+ଇ	I	i		ị	i		Lo		independent vowel		ି				U+0B07 U+0020: ORIYA LETTER I	✓
+ୀ	i	i		ī	ī		Mc		vowel sign			ଈ			U+0B40: ORIYA VOWEL SIGN II	✓
+ଈ	I	i		ị̄	ī		Lo		independent vowel		ୀ				U+0B08: ORIYA LETTER II	✓
+ୁ	u	u		u	u		Mn		vowel sign			ଉ			U+0B41 U+0020: ORIYA VOWEL SIGN U	✓
+ଉ	U	u		ụ	u		Lo		independent vowel		ୁ				U+0B09: ORIYA LETTER U	✓
+ୂ	u	u		ū	ū		Mn		vowel sign			ଊ			U+0B42: ORIYA VOWEL SIGN UU	✓
+ଊ	U	u		ụ̄	ū		Lo		independent vowel		ୂ				U+0B0A: ORIYA LETTER UU	✓
+େ	e	e		e	e		Mc		vowel sign			ଏ			U+0B47: ORIYA VOWEL SIGN E	✓
+ଏ	E	e		ẹ	e		Lo		independent vowel		େ				U+0B0F: ORIYA LETTER E	✓
+ୋ	o	o		o	o		Mc		vowel sign			ଓ			U+0B4B: ORIYA VOWEL SIGN O	✓
+ଓ	O	o		ọ	o		Lo		independent vowel		ୋ				U+0B13: ORIYA LETTER O	✓
+ା	a	a		ā	ā		Mc		vowel sign			ଆ			U+0B3E: ORIYA VOWEL SIGN AA	✓
 ଅ	A	ɔ		ɔ̣	a		Lo		independent vowel						U+0B05: ORIYA LETTER A	✓
 ଆ	A	a		ạ̄	ā		Lo		independent vowel		ା				U+0B06 U+0020: ORIYA LETTER AA	✓
+ୈ	a	ɔi		ɔʲ	ai		Mc		vowel sign			ଐ			U+0B48: ORIYA VOWEL SIGN AI	✓
 ଐ	A	ɔi		ɔ̣ʲ	ai		Lo		independent vowel		ୈ				U+0B10: ORIYA LETTER AI	✓
+ୌ	a	ɔu		ɔᵘ	au		Mc		vowel sign			ଔ			U+0B4C: ORIYA VOWEL SIGN AU	✓
 ଔ	A	ɔu		ɔ̣ᵘ	au		Lo		independent vowel		ୌ				U+0B14: ORIYA LETTER AU	✓
-ବ	b	b	ɔ	b	b		Lo		plosive						U+0B2C: ORIYA LETTER BA	✓
-ଭ	b	bʰ	ɔ	bʰ	bh		Lo		plosive						U+0B2D: ORIYA LETTER BHA	✓
-ଚ	c	t͡ʃ	ɔ	c	c		Lo		affricate						U+0B1A: ORIYA LETTER CA	✓
-ଛ	c	t͡ʃʰ	ɔ	cʰ	ch		Lo		affricate						U+0B1B: ORIYA LETTER CHA	✓
-ଦ	d	d	ɔ	d	d		Lo		plosive						U+0B26: ORIYA LETTER DA	✓
-ଧ	d	dʰ	ɔ	dʰ	dh		Lo		plosive						U+0B27: ORIYA LETTER DHA	✓
-ଡ	d	ɖ	ɔ	ɖ	ḍ		Lo		plosive						U+0B21: ORIYA LETTER DDA	✓
-ଢ	d	ɖʰ	ɔ	ɖʰ	ḍh		Lo		plosive						U+0B22: ORIYA LETTER DDHA	✓
-େ	e	e		e	e		Mc		vowel-sign			ଏ			U+0B47: ORIYA VOWEL SIGN E	✓
-ଏ	E	e		ẹ	e		Lo		independent vowel		େ				U+0B0F: ORIYA LETTER E	✓
-ଗ	g	g	ɔ	g	g		Lo		plosive						U+0B17: ORIYA LETTER GA	✓
-ଘ	g	gʰ	ɔ	gʰ	gh		Lo		plosive						U+0B18: ORIYA LETTER GHA	✓
-ହ	h	ɦ	ɔ	ɦ	h		Lo		fricative						U+0B39: ORIYA LETTER HA	✓
-ଃ	h	h		h̽	ḥ		Mc		final aspiration/consonant doubler				ବିସର୍ଗ	visarga	U+0B03: ORIYA SIGN VISARGA	✓
-ି	i	i		i	i		Mn		vowel-sign			ଇ			U+0B3F: ORIYA VOWEL SIGN I	✓
-ୀ	i	i		ī	ī		Mc		vowel-sign			ଈ			U+0B40: ORIYA VOWEL SIGN II	✓
-ଇ	I	i		ị	i		Lo		independent vowel		ି				U+0B07 U+0020: ORIYA LETTER I	✓
-ଈ	I	i		ị̄	ī		Lo		independent vowel		ୀ				U+0B08: ORIYA LETTER II	✓
-ଜ	j	d͡ʒ	ɔ	j	j		Lo		affricate						U+0B1C: ORIYA LETTER JA	✓
-ଝ	j	d͡ʒʰ	ɔ	jʰ	jh		Lo		affricate						U+0B1D: ORIYA LETTER JHA	✓
-କ	k	k	ɔ	k	k		Lo		plosive						U+0B15: ORIYA LETTER KA	✓
-ଖ	k	kʰ	ɔ	kʰ	kh		Lo		plosive						U+0B16: ORIYA LETTER KHA	✓
-ଲ	l	l	ɔ	l	l		Lo		sonorant						U+0B32: ORIYA LETTER LA	✓
-ଳ	l	ɭ	ɔ	ɭ	ḷ		Lo		sonorant						U+0B33: ORIYA LETTER LLA	✓
-ୢ	L	lu		l̥	l̥		Mn	r	vocalic	for Sanskrit		ଌ			U+0B62 U+0020: ORIYA VOWEL SIGN VOCALIC L	✓
-ୣ	L	lu		l̥̄	l̥̄		Mn	r	vocalic	for Sanskrit		ୡ			U+0B63: ORIYA VOWEL SIGN VOCALIC LL	✓
-ଌ	L	lu		l̥̣	l̥		Lo	r	vocalic	for Sanskrit	ୢ				U+0B0C: ORIYA LETTER VOCALIC L	✓
-ୡ	L	lu		l̥̣̄	l̥̄		Lo	r	vocalic	for Sanskrit	ୣ				U+0B61: ORIYA LETTER VOCALIC LL	✓
-ମ	m	m	ɔ	m	m		Lo		nasal						U+0B2E: ORIYA LETTER MA	✓
-ଂ	m	m ŋ		m̽	ṃ		Mc		final nasal				ଅନୁସ୍ୱାର	anusvara	U+0B02: ORIYA SIGN ANUSVARA	✓
-ନ	n	n	ɔ	n	n		Lo		nasal						U+0B28: ORIYA LETTER NA	✓
-ଞ	n	ɲ	ɔ	ɲ	ñ		Lo		nasal						U+0B1E: ORIYA LETTER NYA	✓
-ଣ	n	ɳ	ɔ	ɳ	ṇ		Lo		nasal						U+0B23: ORIYA LETTER NNA	✓
-ଙ	N	ŋ	ɔ	ŋ	ṅ		Lo		nasal						U+0B19: ORIYA LETTER NGA	✓
-ୋ	o	o		o	o		Mc		vowel-sign			ଓ			U+0B4B: ORIYA VOWEL SIGN O	✓
-ଓ	O	o		ọ	o		Lo		independent vowel		ୋ				U+0B13: ORIYA LETTER O	✓
-ପ	p	p	ɔ	p	p		Lo		plosive						U+0B2A: ORIYA LETTER PA	✓
-ଫ	p	pʰ	ɔ	pʰ	ph		Lo		plosive						U+0B2B: ORIYA LETTER PHA	✓
-ର	r	r	ɔ	r	r		Lo		sonorant						U+0B30: ORIYA LETTER RA	✓
-ଡ଼	r	ɽ	ɔ	rˑ	ṛ				sonorant						U+0B21 U+0B3C: ORIYA LETTER DDA, SIGN NUKTA	
-\u0B5C	r	ɽ	ɔ	rˑ	ṛ		Lo	x	sonorant	decomposed is recommended					U+0B5C: ORIYA LETTER RRA	
-ଢ଼	r	ɽʰ	ɔ	rʰˑ	ṛh				sonorant						U+0B22 U+0B3C: ORIYA LETTER DDHA, SIGN NUKTA	
-\u0B5D	r	ɽʰ	ɔ	rʰˑ	ṛh		Lo	x	sonorant	decomposed is recommended					U+0B5D: ORIYA LETTER RHA	
-ୃ	R	ru		r̥	r̥		Mn		vocalic			ଋ			U+0B43: ORIYA VOWEL SIGN VOCALIC R	✓
-ୄ	R	ru		r̥̄	r̥̄		Mn	r	vocalic	for Sanskrit		ୠ			U+0B44: ORIYA VOWEL SIGN VOCALIC RR	✓
-ଋ	R	ru		r̥̣	r̥		Lo	r	vocalic	for Sanskrit	ୃ				U+0B0B U+0020: ORIYA LETTER VOCALIC R	✓
-ୠ	R	ru		r̥̣̄	r̥̄		Lo	r	vocalic	for Sanskrit	ୄ				U+0B60: ORIYA LETTER VOCALIC RR	✓
-ସ	s	s	ɔ	s	s		Lo		fricative				ଦନ୍ତ୍ୟ	dantya sa	U+0B38: ORIYA LETTER SA	✓
-ଷ	s	s	ɔ	ṣ	ṣ		Lo		fricative				ମୂର୍ଦ୍ଧନ୍ୟ	murddhanya sa	U+0B37: ORIYA LETTER SSA	✓
-ଶ	s	s	ɔ	ś	ś		Lo		fricative				ତାଲବ୍ୟ	talabya sa	U+0B36: ORIYA LETTER SHA	✓
-ତ	t	t	ɔ	t	t		Lo		plosive						U+0B24: ORIYA LETTER TA	✓
-ଥ	t	tʰ	ɔ	tʰ	th		Lo		plosive						U+0B25: ORIYA LETTER THA	✓
-ଟ	t	ʈ	ɔ	ʈ	ṭ		Lo		plosive						U+0B1F: ORIYA LETTER TTA	✓
-ଠ	t	ʈʰ	ɔ	ʈʰ	ṭh		Lo		plosive						U+0B20: ORIYA LETTER TTHA	✓
-ୁ	u	u		u	u		Mn		vowel-sign			ଉ			U+0B41 U+0020: ORIYA VOWEL SIGN U	✓
-ୂ	u	u		ū	ū		Mn		vowel-sign			ଊ			U+0B42: ORIYA VOWEL SIGN UU	✓
-ଉ	U	u		ụ	u		Lo		independent vowel		ୁ				U+0B09: ORIYA LETTER U	✓
-ଊ	U	u		ụ̄	ū		Lo		independent vowel		ୂ				U+0B0A: ORIYA LETTER UU	✓
-ଵ	v	ʋ	ɔ	v	v		Lo		fricative						U+0B35: ORIYA LETTER VA	✓
-ୱ	w	w	ɔ	w	w		Lo		sonorant				ଅବର୍ଗ୍ୟ ବ	abargya ba	U+0B71: ORIYA LETTER WA	✓
-ୖ	x			xʲ			Mn	x	lengthening mark	decomposed text only					U+0B56: ORIYA AI LENGTH MARK	✓
-ୗ	x			xᵘ			Mc	x	lengthening mark	decomposed text only					U+0B57: ORIYA AU LENGTH MARK	✓
-ଯ	y	d͡ʒ	ɔ	ʤ	ẏ		Lo		afficate					antaḥstha ja	U+0B2F: ORIYA LETTER YA	✓
-ୟ	y	j	ɔ	y	y		Lo		sonorant						U+0B5F: ORIYA LETTER YYA	✓
-																
-																
-କ୍ଷ		kʰj	ɔ	k͓ṣ	kṣ				alphabetic letter						U+0B15 U+0B4D U+0B37: ORIYA LETTER KA, SIGN VIRAMA, LETTER SSA	
-୍ବ		w b	ɔ	͓b	w b										U+0B4D U+0B2C: ORIYA SIGN VIRAMA , LETTER BA	
 																
 ʼ				ʼ	ʼ		Lm	?	apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
 §				§	§		Po	?	section sign						U+00A7: SECTION SIGN	
