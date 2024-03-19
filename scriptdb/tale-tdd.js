@@ -13,7 +13,6 @@ var spreadsheet = `tale-tdd	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 〉	)			)			Pe						U+3009: RIGHT ANGLE BRACKET	
 》	)			)		>	Pe						U+300B: RIGHT DOUBLE ANGLE BRACKET	
 ）	)			)			Pe						U+FF09: FULLWIDTH RIGHT PARENTHESIS	
-ᥟ	}	ʔa	a	ʔ		z	Lo		consonant				U+195F: TAI LE LETTER QA	✓
 ၁	#	1		1̣		1	Nd	i	myanmar digit				U+1041: MYANMAR DIGIT ONE	
 ၂	#	2		2̣		2	Nd	i	myanmar digit				U+1042: MYANMAR DIGIT TWO	
 ၃	#	3		3̣		3	Nd	i	myanmar digit				U+1043: MYANMAR DIGIT THREE	
@@ -35,37 +34,38 @@ var spreadsheet = `tale-tdd	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ̀	^	˧˩		⁴̱	⁴		Mn	i	tone mark	mid falling			U+0300: COMBINING GRAVE ACCENT	
 ̇	^	˥˧		⁵̱	⁵		Mn	i	tone mark	high falling			U+0307: COMBINING DOT ABOVE	
 														
-ᥣ	a	aː		a		a	Lo		vowel				U+1963: TAI LE LETTER A	✓
-ᥬ	a	aɯ		aᵚ		c	Lo		dipthong				U+196C: TAI LE LETTER AUE	✓
-ᥓ	c	t͡s	a	ʦ		j	Lo		consonant				U+1953: TAI LE LETTER TSA	✓
-ᥡ	c	t͡sʰ	a	ʦʰ		.	Lo		consonant				U+1961: TAI LE LETTER TSHA	✓
-ᥥ	e	e		e		e	Lo		vowel				U+1965: TAI LE LETTER EE	✓
-ᥫ	e	ə		ə		r	Lo		vowel				U+196B: TAI LE LETTER E	✓
-ᥦ	e	ɛ ia		ɛ		x	Lo		vowel				U+1966: TAI LE LETTER EH	✓
-ᥜ	f	f	a	f		f	Lo		consonant				U+195C: TAI LE LETTER FA	✓
-ᥞ	h	h	a	h		h	Lo		consonant				U+195E: TAI LE LETTER HA	✓
-ᥤ	i	i		i		i	Lo		vowel				U+1964: TAI LE LETTER I	✓
-ᥭ	j	j		ʲ		;	Lo		semivowel				U+196D: TAI LE LETTER AI	✓
-ᥐ	k	k	a	k		g	Lo		consonant				U+1950: TAI LE LETTER KA	✓
-ᥠ	k	kʰ	a	kʰ		/	Lo		consonant				U+1960: TAI LE LETTER KHA	✓
-ᥘ	l	l	a	l		l	Lo		consonant				U+1958: TAI LE LETTER LA	✓
-ᥛ	m	m	a	m		m	Lo		consonant				U+195B: TAI LE LETTER MA	✓
-ᥒ	n	ŋ	a	ŋ		n	Lo		consonant				U+1952: TAI LE LETTER NGA	✓
-ᥢ	n¶	n	a	n		,	Lo		consonant				U+1962: TAI LE LETTER NA	✓
-ᥩ	o	ɔ ua		ɔ		w	Lo		vowel				U+1969: TAI LE LETTER O	✓
-ᥨ	o	o		o		o	Lo		vowel				U+1968: TAI LE LETTER OO	✓
-ᥨᥝ	o	o		ov			s						U+1968 U+195D: TAI LE LETTER OO, LETTER VA	
 ᥙ	p	p	a	p		b	Lo		consonant				U+1959: TAI LE LETTER PA	✓
 ᥚ	p	pʰ	a	pʰ		p	Lo		consonant				U+195A: TAI LE LETTER PHA	✓
-ᥔ	s	s	a	s		s	Lo		consonant				U+1954: TAI LE LETTER SA	✓
 ᥖ	t	t	a	t		d	Lo		consonant				U+1956: TAI LE LETTER TA	✓
 ᥗ	t	tʰ	a	tʰ		t	Lo		consonant				U+1957: TAI LE LETTER THA	✓
+ᥓ	c	t͡s	a	ʦ		j	Lo		consonant				U+1953: TAI LE LETTER TSA	✓
+ᥡ	c	t͡sʰ	a	ʦʰ		.	Lo		consonant				U+1961: TAI LE LETTER TSHA	✓
+ᥐ	k	k	a	k		g	Lo		consonant				U+1950: TAI LE LETTER KA	✓
+ᥠ	k	kʰ	a	kʰ		/	Lo		consonant				U+1960: TAI LE LETTER KHA	✓
+ᥟ	}	ʔ	a	ʔ		z	Lo		consonant				U+195F: TAI LE LETTER QA	✓
+ᥜ	f	f	a	f		f	Lo		consonant				U+195C: TAI LE LETTER FA	✓
+ᥝ	w	v ʷ	a	v		v	Lo		consonant				U+195D: TAI LE LETTER VA	✓
+ᥔ	s	s	a	s		s	Lo		consonant				U+1954: TAI LE LETTER SA	✓
+ᥑ	x	x	a	x		k	Lo		consonant				U+1951: TAI LE LETTER XA	✓
+ᥞ	h	h	a	h		h	Lo		consonant				U+195E: TAI LE LETTER HA	✓
+ᥛ	m	m	a	m		m	Lo		consonant				U+195B: TAI LE LETTER MA	✓
+ᥢ	n¶	n	a	n		,	Lo		consonant				U+1962: TAI LE LETTER NA	✓
+ᥒ	n	ŋ	a	ŋ		n	Lo		consonant				U+1952: TAI LE LETTER NGA	✓
+ᥘ	l	l	a	l		l	Lo		consonant				U+1958: TAI LE LETTER LA	✓
+ᥕ	y	j	a	y		y	Lo		consonant				U+1955: TAI LE LETTER YA	✓
+ᥭ	j	j		ʲ		;	Lo		semivowel				U+196D: TAI LE LETTER AI	✓
+														
+ᥤ	i	i		i		i	Lo		vowel				U+1964: TAI LE LETTER I	✓
 ᥪ	u	ɯ		ɯ		q	Lo		vowel				U+196A: TAI LE LETTER UE	✓
 ᥧ	u	u		u		u	Lo		vowel				U+1967: TAI LE LETTER U	✓
-ᥝ	w	v ʷ	a	v		v	Lo		consonant				U+195D: TAI LE LETTER VA	✓
-ᥑ	x	x	a	x		k	Lo		consonant				U+1951: TAI LE LETTER XA	✓
-ᥕ	y	j	a	y		y	Lo		consonant				U+1955: TAI LE LETTER YA	✓
-														
+ᥥ	e	e		e		e	Lo		vowel				U+1965: TAI LE LETTER EE	✓
+ᥨ	o	o		o		o	Lo		vowel				U+1968: TAI LE LETTER OO	✓
+ᥨᥝ	o	o		ov			s		vowel				U+1968 U+195D: TAI LE LETTER OO, LETTER VA	
+ᥫ	e	ə		ə		r	Lo		vowel				U+196B: TAI LE LETTER E	✓
+ᥦ	e	ɛ ia		ɛ		x	Lo		vowel				U+1966: TAI LE LETTER EH	✓
+ᥩ	o	ɔ ua		ɔ		w	Lo		vowel				U+1969: TAI LE LETTER O	✓
+ᥣ	a	aː		a		a	Lo		vowel				U+1963: TAI LE LETTER A	✓
+ᥬ	a	aɯ		aᵚ		c	Lo		dipthong				U+196C: TAI LE LETTER AUE	✓
 `														
 														
 latinPanel = '˥˥ ˩˩ ˧˩ ˥˧ ˨˦ aː ə ɛ kʰ ŋ ɔ pʰ t͡s t͡sʰ tʰ ʷ ɯ ʔ ¹ ² ³ ⁴ ⁵'														
