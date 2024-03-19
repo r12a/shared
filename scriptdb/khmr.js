@@ -93,7 +93,7 @@ var spreadsheet = `khmr-km	key	ipa	ipa+	translit	ungen	kbd	class	status	type	usa
 ហ	h	h ∅-	ɑː	h	h	h	Lo		a-series consonant				ហ ្ហ		hɑː	U+17A0: KHMER LETTER HA	✓
 ះ	h	h		h̽	ḥ	H	Mc		visarga					រះមុខ	reə̆hmuk	U+17C7: KHMER SIGN REAHMUK	✓
 ្ហ	h	h ∅-	ɑː	͞h	h				a-series consonant						hɑː	U+17D2 U+17A0: KHMER SIGN COENG, LETTER HA	
-ិ	i	ə e ɨ i		i	i	i	Mn		vowel sign			ឥ		ស្រៈ អិ	sraʔ ʔi	U+17B7: KHMER VOWEL SIGN I	✓
+ិ	i	e i		i	i	i	Mn		vowel sign			ឥ		ស្រៈ អិ	sraʔ ʔi	U+17B7: KHMER VOWEL SIGN I	✓
 ី	i	əj iː		ī	ī	I	Mn		vowel sign			ឦ		ស្រៈ អី	sraʔ ʔəj	U+17B8: KHMER VOWEL SIGN II	✓
 ឹ	i	ə ɨ		ɨ	ẏ	w	Mn		vowel sign			ឪ		ស្រៈ អឹ	sraʔ ʔə	U+17B9: KHMER VOWEL SIGN Y	✓
 ឺ	i	əɨ ɨː		ɨ̄	ȳ	W	Mn		vowel sign					ស្រៈ អឺ	sraʔ ʔəɨ	U+17BA: KHMER VOWEL SIGN YY	✓
@@ -225,6 +225,9 @@ var spreadsheet = `khmr-km	key	ipa	ipa+	translit	ungen	kbd	class	status	type	usa
 ហ្វ៊		f ʋ	ɔː	h͞v̱′	hv			l	series 2 consonant	for loan words						U+17A0 U+17D2 U+179C U+17CA: KHMER LETTER HA, SIGN COENG, LETTER VO, SIGN TRIISAP	
 ហ្ស		ʒ z	ɑː	h͞s	hs			l	series 1 consonant	for loan words						U+17A0 U+17D2 U+179F: KHMER LETTER HA, SIGN COENG, LETTER SA	
 ហ្ស៊		ʒ z	ɔː	h͞s′	hs			l	series 2 consonant	for loan words						U+17A0 U+17D2 U+179F U+17CA: KHMER LETTER HA, SIGN COENG, LETTER SA, SIGN TRIISAP	
+																	
+\u2006		 		 					six-per-em-space	Used in Krung and Tampuan.						U+2006 SIX-PER-EM SPACE	
+\u2003		  			  				em space	Used in Krung and Tampuan.						U+2003 EM SPACE	
 ◌																C	
 `																	
 																	
