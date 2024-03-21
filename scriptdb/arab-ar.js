@@ -29,11 +29,11 @@ var spreadsheet = `arab-ar	key	ipa	ipa+	translit	LOC	kbd	class	status	type	usage
 «	<			«	“	=	Pi		quotation mark						U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	✓
 ‹	<			‹		}	Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	✓
 “	<			“	“	E	Pi		quotation mark						U+201C: LEFT DOUBLE QUOTATION MARK	✓
-‘	<			\'		Q	Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	✓
+‘	<			'		Q	Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	✓
 »	>			»	”	-	Pf		quotation mark						U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	✓
 ›	>			›		{	Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	✓
 ”	>			”	”	R	Pf		quotation mark						U+201D: RIGHT DOUBLE QUOTATION MARK	✓
-’	>			\'		W	Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	✓
+’	>			'		W	Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	✓
 																
 *	*			*	*		Po	u	asterisk						U+002A ASTERISK	
 §	*			§	§		Po	u	section sign						U+00A7: SECTION SIGN	
@@ -57,71 +57,74 @@ var spreadsheet = `arab-ar	key	ipa	ipa+	translit	LOC	kbd	class	status	type	usage
 \u034F	=			ᶜᵍʲ			Mn		combining grapheme joiner						U+034F: COMBINING GRAPHEME JOINER	
 \u061C	=			ᵃˡᵐ			Cf		arabic letter mark						U+061C: ARABIC LETTER MARK	
 																
-ع	{	ʕ		ʕ	ʿ	u	Lo		fricative			ع ععع	عَين	ʕajn	U+0639: ARABIC LETTER AIN	✓
 أ	}	ʔ		ɑ͑	a u	H	Lo		glottal stop		\u{627}\u{654}	أ ـأ	أَلِفْ هَمْزة	ʔalif hamza	U+0623: ARABIC LETTER ALEF WITH HAMZA ABOVE	✓
 إ	}	ʔ		i̜	i	Y	Lo		glottal stop		\u{627}\u{655}	إ ـإ			U+0625: ARABIC LETTER ALEF WITH HAMZA BELOW	✓
 آ	}	ʔaː		ɑ̃	ā ’ā	N	Lo		glottal stop		\u{627}\u{653}	آ ـآ	أَلِفْ مَدَّة	ʔalif madda	U+0622: ARABIC LETTER ALEF WITH MADDA ABOVE	✓
-ٱ	}	a		ɑ̄	-		Lo	r	glottal stop			ٱ ـٱ	اَلِفُ ٱلْوَصْلِ	ʔalifu l-wasˤli	U+0671: ARABIC LETTER ALEF WASLA	✓
 ء	}	ʔ		ʔ		x	Lo		glottal stop			ء	هَمْزة	hamzah	U+0621: ARABIC LETTER HAMZA	✓
-ٔ	}	ʔ		ʿ			Mn	r	hamza	decomposed text only					U+0654: ARABIC HAMZA ABOVE	✓
-ٕ	}	ʔ		˓			Mn	r	hamza	decomposed text only					U+0655: ARABIC HAMZA BELOW	✓
-ٓ	}	ʔ		~		G	Mn	r	maddah diacritic	decomposed text only; used only with ا					U+0653: ARABIC MADDAH ABOVE	✓
-ث	@	θ		θ	th	e	Lo		fricative			ث ثثث	ثَاء	θaːʔ	U+062B: ARABIC LETTER THEH	✓
-َ	a	a		a	a	Q	Mn	i	vowel				فَتْحَة	fatħa	U+064E: ARABIC FATHA	✓
-ً	a	an		aⁿ	an	W	Mn	i	vowel				فَتْحَةً	fatħatan	U+064B: ARABIC FATHATAN	✓
-ٰ	A	aː		̍		H	Mn	i	vowel				أَلِيف خَنْجَرِيَّة	alɪf xand͡ʒarijja	U+0670: ARABIC LETTER SUPERSCRIPT ALEF	✓
-اَ		a		ɑa	a				standalone vowel						U+0627 U+064E: ARABIC LETTER ALEF, FATHA	
-ى	a	aː		à	á	n	Lo		vowel			ى ـى	ألف مقصورة	ʔalif maqsˤuːra	U+0649: ARABIC LETTER ALEF MAKSURA	✓
-ة	a	- ʰ		ä	h t	m	Lo		feminine indicator			ة ـة	تاء مربوطة	taːʔ marbuːtˤɑh	U+0629: ARABIC LETTER TEH MARBUTA	✓
-ب	b	b		b	b	f	Lo		stop			ب ببب	بَاء	baːʔ	U+0628: ARABIC LETTER BEH	✓
-چ	c	t͡ʃ		ʧ	ch	{	Lo	l	affricate			چ چچچ			U+0686: ARABIC LETTER TCHEH	✓
-د	d¶	d		d	d	]	Lo		stop			د ـد	دَالْ	daːl	U+062F: ARABIC LETTER DAL	✓
-ذ	d	ð		ð	dh	±	Lo		fricative			ذ ـذ	ذَال	ðaːl	U+0630: ARABIC LETTER THAL	✓
-ض	D	dˤ		ᵭ	ḍ	q	Lo		pharyngealised stop			ض ضضض	ضَاد	dˤɑːd	U+0636: ARABIC LETTER DAD	✓
-ظ	D	ðˤ zˤ		ð̴	ẓ	/	Lo		pharyngealised fricative			ظ ظظظ	ظَاء	ðˤɑːʔ	U+0638: ARABIC LETTER ZAH	✓
-ال	e	al		ɑl	al-				definite article						U+0627 U+0644: ARABIC LETTER ALEF, LETTER LAM	
-ف	f¶	f		f	f	t	Lo		fricative			ف ففف	فَاء	faːʔ	U+0641: ARABIC LETTER FEH	✓
-ڢ	f	f		ḟ	f		Lo	i	fricative			ڢ ڢڢڢ			U+06A2: ARABIC LETTER FEH WITH DOT MOVED BELOW	✓
-غ	g	ɣ		ɣ	gh	y	Lo		fricative			غ غغغ	غَين	ɣajn	U+063A: ARABIC LETTER GHAIN	✓
-ح	H	ħ		ħ	ḥ	p	Lo		fricative			ح ححح	حَاء	ħaːʔ	U+062D: ARABIC LETTER HAH	✓
-ه	h¶	h		h	h	i	Lo		fricative			ه ههه	هَاء	haːʔ	U+0647: ARABIC LETTER HEH	✓
-ِ	i	ɪ		i	i	A	Mn	i	vowel				كَسْرَة	kasra	U+0650: ARABIC KASRA	✓
-ٍ	i	ɪn		iⁿ	in	A	Mn	i	vowel				كَسْرَةً	kasratān	U+064D: ARABIC KASRATAN	✓
-اِ		i		ɑi	i				standalone vowel						U+0627 U+0650: ARABIC LETTER ALEF, KASRA	
-ج	j	d͡ʒ ʒ		ʤ	j	[	Lo		affricate/fricative			ج ججج	جِيمْ	ʤiːm	U+062C: ARABIC LETTER JEEM	✓
-ك	k	k		k	k	;	Lo		stop			ك ككك	كَاف	kaːf	U+0643: ARABIC LETTER KAF	✓
-ل	l	l		l	l	g	Lo		lateral			ل للل	لاَمْ	laːm	U+0644: ARABIC LETTER LAM	✓
-م	m	m		m	m	l	Lo		nasal			م ممم	مِيمْ	miːm	U+0645: ARABIC LETTER MEEM	✓
-ن	n	n		n	n	k	Lo		nasal			ن ننن	نُون	nuːn	U+0646: ARABIC LETTER NOON	✓
-ا	o	∅ (aː)		ɑ	- ā	h	Lo		consonant/mater lectionis			ا ـا	أَلِفْ	ʔalif	U+0627: ARABIC LETTER ALEF	✓
-پ	p	p		p	p	F	Lo	l	stop			پ پپپ			U+067E: ARABIC LETTER PEH	✓
-ڧ	q	q		q̇	q		Lo	i	stop			ڧ ڧڧڧ			U+06A7: ARABIC LETTER QAF WITH DOT ABOVE	✓
-ق	q¶	q		q	q	r	Lo		stop			ق ققق	قَاف	qaːf	U+0642: ARABIC LETTER QAF	✓
-ر	r	r		r	r	v	Lo		trill			ر ـر	رَاء	raːʔ	U+0631: ARABIC LETTER REH	✓
-س	s	s		s	s	s	Lo		fricative			س سسس	سِينْ	siːn	U+0633: ARABIC LETTER SEEN	✓
-ص	S	sˤ		ᵴ	ṣ	w	Lo		pharyngealised fricative			ص صصص	صَادْ	sˤɑːd	U+0635: ARABIC LETTER SAD	✓
-ش	s	ʃ		ʃ	sh	a	Lo		fricative			ش ششش	شِينْ	ʃiːn	U+0634: ARABIC LETTER SHEEN	✓
-ط	T	tˤ		ᵵ	ṭ		Lo		pharyngealised stop			ط ططط	طَاء	tˤɑːʔ	U+0637: ARABIC LETTER TAH	✓
-ت	t¶	t		t	t	j	Lo		stop			ت تتت	تَاء	taːʔ	U+062A: ARABIC LETTER TEH	✓
-ُ	u	ʊ		u	u	E	Mn	i	vowel				ضَمَّة	dˤamma	U+064F: ARABIC DAMMA	✓
-ٌ	u	ʊn		uⁿ	un	R	Mn	i	vowel				ضَمَّةً	ḍammatān	U+064C: ARABIC DAMMATAN	✓
-ڤ	v	v		v	v	T	Lo	l	fricative			ڤ ڤڤڤ			U+06A4: ARABIC LETTER VEH	✓
+ٔ	}	ʔ		ʿ			Mn	r	hamza	Found in decomposed text only.					U+0654: ARABIC HAMZA ABOVE	✓
+ٕ	}	ʔ		˓			Mn	r	hamza	Found in decomposed text only.					U+0655: ARABIC HAMZA BELOW	✓
+ٓ	}	ʔ		~		G	Mn	r	maddah diacritic	Found in decomposed text only; used only with ا.					U+0653: ARABIC MADDAH ABOVE	✓
 ؤ	W	ʔ		w͑		c	Lo		glottal stop		\u{648}\u{654}	ؤ ـؤ	وَاو هَمْزة	waːw hamza	U+0624: ARABIC LETTER WAW WITH HAMZA ABOVE	✓
-و	w¶	w (uː)		w	w ū aw	,	Lo		approximant/mater lectionis			و ـو	وَاو	waːw	U+0648: ARABIC LETTER WAW	✓
-خ	x	x		x	kh	o	Lo		fricative			خ خخخ	خَاء	xaːʔ	U+062E: ARABIC LETTER KHAH	✓
 ئ	Y	ʔ		y͑		z	Lo		glottal stop		\u{64A}\u{654}	ئ ئئئ	يَاء هَمْزة	jaːʔ hamza	U+0626: ARABIC LETTER YEH WITH HAMZA ABOVE	✓
-ي	y¶	j (iː)		y	y ī ay	d	Lo		approximant/mater lectionis			ي ييي	يَاء	jaːʔ	U+064A: ARABIC LETTER YEH	✓
-ز	z	z		z	z	.	Lo		fricative			ز ـز	زَاي	zay / zajn	U+0632: ARABIC LETTER ZAIN	✓
-ࢲ	z	zˤ		zˤ			Lo	i	pharyngealized fricative						U+08B2: ARABIC LETTER ZAIN WITH INVERTED V ABOVE	✓
 \u{627}\u{654}		ʔ		ɑʿ	A U		s		glottal stop						U+0627, 0654: ARABIC LETTER ALEF, HAMZA ABOVE	
 \u{627}\u{655}		ʔ		i˓	I		s		glottal stop						U+0627, 0655: ARABIC LETTER ALEF, HAMZA BELOW	
 \u{627}\u{653}		ʔaː		ɑ~	Ā ’Ā		s		glottal stop						U+0627, U+0653: ARABIC LETTER ALEF, MADDAH ABOVE	
 \u{648}\u{654}		ʔ		wʿ			s		glottal stop						U+0648, U+0654: ARABIC LETTER WAW, HAMZA ABOVE	
 \u{64A}\u{654}		ʔ		yʿ			s		glottal stop						U+064A, U+0654: ARABIC LETTER YEH, HAMZA ABOVE	
+																
+پ	p	p		p	p	F	Lo	l	consonant			پ پپپ			U+067E: ARABIC LETTER PEH	✓
+ب	b	b		b	b	f	Lo		consonant			ب ببب	بَاء	baːʔ	U+0628: ARABIC LETTER BEH	✓
+ت	t¶	t		t	t	j	Lo		consonant			ت تتت	تَاء	taːʔ	U+062A: ARABIC LETTER TEH	✓
+ط	T	tˤ		ᵵ	ṭ		Lo		pharyngealised consonant			ط ططط	طَاء	tˤɑːʔ	U+0637: ARABIC LETTER TAH	✓
+چ	c	t͡ʃ		ʧ	ch	{	Lo	l	consonant			چ چچچ			U+0686: ARABIC LETTER TCHEH	✓
+د	d¶	d		d	d	]	Lo		consonant			د ـد	دَالْ	daːl	U+062F: ARABIC LETTER DAL	✓
+ض	D	dˤ		ᵭ	ḍ	q	Lo		pharyngealised consonant			ض ضضض	ضَاد	dˤɑːd	U+0636: ARABIC LETTER DAD	✓
+ج	j	d͡ʒ ʒ		ʤ	j	[	Lo		consonant			ج ججج	جِيمْ	ʤiːm	U+062C: ARABIC LETTER JEEM	✓
+ك	k	k		k	k	;	Lo		consonant			ك ككك	كَاف	kaːf	U+0643: ARABIC LETTER KAF	✓
+ق	q¶	q		q	q	r	Lo		consonant			ق ققق	قَاف	qaːf	U+0642: ARABIC LETTER QAF	✓
+ڧ	q	q		q̇	q		Lo	i	consonant	Maghrebi form, used in North Africa.		ڧ ڧڧڧ			U+06A7: ARABIC LETTER QAF WITH DOT ABOVE	✓
+ف	f¶	f		f	f	t	Lo		consonant			ف ففف	فَاء	faːʔ	U+0641: ARABIC LETTER FEH	✓
+ڢ	f	f		ḟ	f		Lo	i	consonant	Maghrebi form, used in North Africa.		ڢ ڢڢڢ			U+06A2: ARABIC LETTER FEH WITH DOT MOVED BELOW	✓
+ڤ	v	v		v	v	T	Lo	l	consonant			ڤ ڤڤڤ			U+06A4: ARABIC LETTER VEH	✓
+ث	@	θ		θ	th	e	Lo		consonant			ث ثثث	ثَاء	θaːʔ	U+062B: ARABIC LETTER THEH	✓
+ذ	d	ð		ð	dh	±	Lo		consonant			ذ ـذ	ذَال	ðaːl	U+0630: ARABIC LETTER THAL	✓
+ظ	D	ðˤ zˤ		ð̴	ẓ	/	Lo		pharyngealised consonant			ظ ظظظ	ظَاء	ðˤɑːʔ	U+0638: ARABIC LETTER ZAH	✓
+س	s	s		s	s	s	Lo		consonant			س سسس	سِينْ	siːn	U+0633: ARABIC LETTER SEEN	✓
+ص	S	sˤ		ᵴ	ṣ	w	Lo		pharyngealised consonant			ص صصص	صَادْ	sˤɑːd	U+0635: ARABIC LETTER SAD	✓
+ز	z	z		z	z	.	Lo		consonant			ز ـز	زَاي	zay / zajn	U+0632: ARABIC LETTER ZAIN	✓
+ࢲ	z	zˤ		zˤ			Lo	l	pharyngealized consonant	Sometimes used for Berber sounds.					U+08B2: ARABIC LETTER ZAIN WITH INVERTED V ABOVE	✓
+ش	s	ʃ		ʃ	sh	a	Lo		consonant			ش ششش	شِينْ	ʃiːn	U+0634: ARABIC LETTER SHEEN	✓
+خ	x	x		x	kh	o	Lo		consonant			خ خخخ	خَاء	xaːʔ	U+062E: ARABIC LETTER KHAH	✓
+غ	g	ɣ		ɣ	gh	y	Lo		consonant			غ غغغ	غَين	ɣajn	U+063A: ARABIC LETTER GHAIN	✓
+ع	{	ʕ		ʕ	ʿ	u	Lo		consonant			ع ععع	عَين	ʕajn	U+0639: ARABIC LETTER AIN	✓
+ح	H	ħ		ħ	ḥ	p	Lo		consonant			ح ححح	حَاء	ħaːʔ	U+062D: ARABIC LETTER HAH	✓
+ه	h¶	h		h	h	i	Lo		consonant			ه ههه	هَاء	haːʔ	U+0647: ARABIC LETTER HEH	✓
+م	m	m		m	m	l	Lo		consonant			م ممم	مِيمْ	miːm	U+0645: ARABIC LETTER MEEM	✓
+ن	n	n		n	n	k	Lo		consonant			ن ننن	نُون	nuːn	U+0646: ARABIC LETTER NOON	✓
+و	w¶	w (uː)		w	w ū aw	,	Lo		consonant/mater lectionis			و ـو	وَاو	waːw	U+0648: ARABIC LETTER WAW	✓
+ر	r	r		r	r	v	Lo		consonant			ر ـر	رَاء	raːʔ	U+0631: ARABIC LETTER REH	✓
+ل	l	l		l	l	g	Lo		consonant			ل للل	لاَمْ	laːm	U+0644: ARABIC LETTER LAM	✓
+ي	y¶	j (iː)		y	y ī ay	d	Lo		consonant/mater lectionis			ي ييي	يَاء	jaːʔ	U+064A: ARABIC LETTER YEH	✓
+																
+ال	e	al		ɑl	al-				definite article						U+0627 U+0644: ARABIC LETTER ALEF, LETTER LAM	
 لا		laː		lɑ		b			ligature						U+0644 U+0627: ARABIC LETTER LAM, LETTER ALEF	
 لآ		laː		lɑ̄		B			ligature						U+0644 U+0622: ARABIC LETTER LAM, LETTER ALEF WITH MADDA ABOVE	
 لأ		lʔ		lɑ͑		G			ligature						U+0644 U+0623: ARABIC LETTER LAM, LETTER ALEF WITH HAMZA ABOVE	
 لإ		lʔ		lɑ̜		T			ligature						U+0644 U+0625: ARABIC LETTER LAM, LETTER ALEF WITH HAMZA BELOW	
+																
+ِ	i	ɪ		i	i	A	Mn	i	vowel				كَسْرَة	kasra	U+0650: ARABIC KASRA	✓
+ٍ	i	ɪn		iⁿ	in	A	Mn	i	vowel				كَسْرَةً	kasratān	U+064D: ARABIC KASRATAN	✓
+اِ		i		ɑi	i			i	standalone vowel						U+0627 U+0650: ARABIC LETTER ALEF, KASRA	
+ُ	u	ʊ		u	u	E	Mn	i	vowel				ضَمَّة	dˤamma	U+064F: ARABIC DAMMA	✓
+ٌ	u	ʊn		uⁿ	un	R	Mn	i	vowel				ضَمَّةً	ḍammatān	U+064C: ARABIC DAMMATAN	✓
+ا	o	∅ (aː)		ɑ	- ā	h	Lo		consonant/mater lectionis			ا ـا	أَلِفْ	ʔalif	U+0627: ARABIC LETTER ALEF	✓
+َ	a	a		a	a	Q	Mn	i	vowel				فَتْحَة	fatħa	U+064E: ARABIC FATHA	✓
+ً	a	an		aⁿ	an	W	Mn	i	vowel				فَتْحَةً	fatħatan	U+064B: ARABIC FATHATAN	✓
+ٰ	A	aː		̍		H	Mn	i	vowel				أَلِيف خَنْجَرِيَّة	alɪf xand͡ʒarijja	U+0670: ARABIC LETTER SUPERSCRIPT ALEF	✓
+اَ		a		ɑa	a			i	standalone vowel						U+0627 U+064E: ARABIC LETTER ALEF, FATHA	
+ى	a	aː		à	á	n	Lo		vowel			ى ـى	ألف مقصورة	ʔalif maqsˤuːra	U+0649: ARABIC LETTER ALEF MAKSURA	✓
+ة	a	- ʰ		ä	h t	m	Lo		feminine indicator			ة ـة	تاء مربوطة	taːʔ marbuːtˤɑh	U+0629: ARABIC LETTER TEH MARBUTA	✓
+ٱ	}	a		ɑ̄	-		Lo	i	vowel			ٱ ـٱ	اَلِفُ ٱلْوَصْلِ	ʔalifu l-wasˤli	U+0671: ARABIC LETTER ALEF WASLA	✓
 																
 ِي		iː		iy	ī				long vowel						U+0650, U+064A: ARABIC KASRA , LETTER YEH	
 ُو		uː		uw	ū				long vowel						U+064F, U+0648: ARABIC DAMMA , ARABIC LETTER WAW	
@@ -202,6 +205,8 @@ var spreadsheet = `arab-ar	key	ipa	ipa+	translit	LOC	kbd	class	status	type	usage
 ؒ				{SIGN RAHMATULLAH ALAYHE}					honorific diacritic	honorific					U+0612: ARABIC SIGN RAHMATULLAH ALAYHE	
 ؓ				{SIGN RADI ALLAHOU ANHU}					honorific diacritic	honorific					U+0613: ARABIC SIGN RADI ALLAHOU ANHU	
 ؔ							Mn		author name marker	honorific					U+0614: ARABIC SIGN TAKHALLUS	
+ۜ							Mn​	r	koranic annotation						U+06DC: ARABIC SMALL HIGH SEEN	
+\u06DD							Cf	r	koranic annotation						U+06DD: ARABIC END OF AYAH	
 `																
 																
 latinPanel = '’ā ’ aː ā dˤ d͡ʒ ð ðˤ ḍ ħ ʰ ḥ iː ī ɪ ∅ θ sˤ ṣ ʃ tˤ t͡ʃ ṭ uː ū ʊ ɣ ʒ zˤ ẓ ʕ ʔ'																
