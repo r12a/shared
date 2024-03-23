@@ -145,14 +145,14 @@ var spreadsheet = `cans-ike	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ʼ	{	ʔ		ʔ	ʔ		Po		extended consonant				U+02BC: MODIFIER LETTER APOSTROPHE	✓
 														
 														
-ᕵ	h	hi		hⁱ	hi		Lo	r	consonant	rare			U+1575: CANADIAN SYLLABICS NUNAVIK HI	✓
-ᕶ	H	hiː		hⁱ̠	hii		Lo	r	consonant	rare			U+1576: CANADIAN SYLLABICS NUNAVIK HII	✓
-ᕴ	h	hu		hᵘ	hu		Lo	r	consonant	rare			U+1574: CANADIAN SYLLABICS NUNAVIK HE	✓
-ᕷ	h	huː		hᵘ̱	huu		Lo	r	consonant	rare			U+1577: CANADIAN SYLLABICS NUNAVIK HO	✓
-ᕸ	H	ha		hᵃ	ha		Lo	r	consonant	rare			U+1578: CANADIAN SYLLABICS NUNAVIK HOO	✓
-ᕹ	h	haː		hᵃ̱	haa		Lo	r	consonant	rare			U+1579: CANADIAN SYLLABICS NUNAVIK HA	✓
-ᕺ	H	hai		hᵃⁱ	hai		Lo	r	consonant	rare			U+157A: CANADIAN SYLLABICS NUNAVIK HAA	✓
-ᕻ	h	h		h	h		Lo	r	consonant	rare			U+157B: CANADIAN SYLLABICS NUNAVIK H	✓
+ᕵ	h	hi		hⁱ	hi		Lo	r	consonant				U+1575: CANADIAN SYLLABICS NUNAVIK HI	✓
+ᕶ	H	hiː		hⁱ̠	hii		Lo	r	consonant				U+1576: CANADIAN SYLLABICS NUNAVIK HII	✓
+ᕴ	h	hu		hᵘ	hu		Lo	r	consonant				U+1574: CANADIAN SYLLABICS NUNAVIK HE	✓
+ᕷ	h	huː		hᵘ̱	huu		Lo	r	consonant				U+1577: CANADIAN SYLLABICS NUNAVIK HO	✓
+ᕸ	H	ha		hᵃ	ha		Lo	r	consonant				U+1578: CANADIAN SYLLABICS NUNAVIK HOO	✓
+ᕹ	h	haː		hᵃ̱	haa		Lo	r	consonant				U+1579: CANADIAN SYLLABICS NUNAVIK HA	✓
+ᕺ	H	hai		hᵃⁱ	hai		Lo	r	consonant				U+157A: CANADIAN SYLLABICS NUNAVIK HAA	✓
+ᕻ	h	h		h	h		Lo	r	consonant				U+157B: CANADIAN SYLLABICS NUNAVIK H	✓
 														
 \u200B							Cf	?	zero-width space				U+200B ZERO WIDTH SPACE	
 \u200C				ₓ			Cf	?	zero-width non-joiner				U+200C: ZERO WIDTH NON-JOINER	
