@@ -15,7 +15,6 @@ var spreadsheet = `arab-ug	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 )	)			)	)		Ps		parenthesis					U+0029: RIGHT PARENTHESIS		✓
 ]	)			]	]		Pe	?	bracket					U+005D: RIGHT SQUARE BRACKET		
 ٔ	[			ʿ			Mn	r	hamza above	Used in decomposed text only.				U+0654: ARABIC HAMZA ABOVE		✓
-ئ	{	-		ʿ	- ’	/	Lo		consonant		ئ ئئئ			U+0626: ARABIC LETTER YEH WITH HAMZA ABOVE	-	✓
 ٪	%			%	%		Po	?	percent sign					U+066A: ARABIC PERCENT SIGN		✓
 «	<			«	“	"	Pi		quotation mark					U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK		✓
 ‹	<			‹			Pi	?	quotation mark					U+2018: LEFT SINGLE QUOTATION MARK		✓
@@ -48,7 +47,7 @@ var spreadsheet = `arab-ug	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 د	d	d		d	d	d	Lo		consonant		د ـد			U+062F: ARABIC LETTER DAL	д	✓
 ج	d	d͡ʒ		ʤ	j	J	Lo		consonant		ج ججج			U+062C: ARABIC LETTER JEEM	җ	✓
 ك	k	k		k	k	k	Lo		consonant		ك ككك			U+0643: ARABIC LETTER KAF	к	✓
-گ	g	g		g	g	G	Lo		consonant		گ گگگ			U+06AF: ARABIC LETTER GAF	г	✓
+گ	g	ɡ		g	g	G	Lo		consonant		گ گگگ			U+06AF: ARABIC LETTER GAF	г	✓
 ق	q	q		q	q	j	Lo		consonant		ق ققق			U+0642: ARABIC LETTER QAF	қ	✓
 ف	f	f		f	f	F	Lo		consonant		ف ففف			U+0641: ARABIC LETTER FEH	ф	✓
 ۋ	w	v w		w	w	w	Lo		semivowel		ۋ ـۋ			U+06CB: ARABIC LETTER VE	в	✓
@@ -66,6 +65,7 @@ var spreadsheet = `arab-ug	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ل	l	l		l	l	l	Lo		consonant		ل للل			U+0644: ARABIC LETTER LAM	л	✓
 ي	y	j		y	y	y	Lo		semivowel		ي ييي			U+064A: ARABIC LETTER YEH	й	✓
 																
+ئ	{	-		ʿ	- ’	/	Lo		initial vowel carrier		ئ ئئئ			U+0626: ARABIC LETTER YEH WITH HAMZA ABOVE	-	✓
 ى	i	i ɨ		i	i	h	Lo		vowel		ى ىىى			U+0649: ARABIC LETTER ALEF MAKSURA	и	✓
 ئى	I	i ɨ		ʿi	i				initial vowel					U+0626 U+0649: ARABIC LETTER YEH WITH HAMZA ABOVE, LETTER ALEF MAKSURA	и	
 ۈ	u	y ʏ		ü	ü	v	Lo		vowel		ۈ ـۈ			U+06C8: ARABIC LETTER YU	ү	✓
