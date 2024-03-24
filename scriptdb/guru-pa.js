@@ -129,6 +129,7 @@ var spreadsheet = `guru-pa	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ‡				‡	‡		Po	?	double dagger						U+2021: DOUBLE DAGGER	
 ′				′	′		Po	?	prime						U+2032: PRIME	
 ″				″	″		Po	?	double prime						U+2033: DOUBLE PRIME	
+◌									consonant						C	
 `																
 																
 latinPanel = 'ɑ á ä ā d͡ʒ ɖ ḍ ə ə̀ ē ɛ ɛ́ ᵊ ġ ɦ ḥ ɪ ī kʰ ɭ ḷ m̐ ṃ ṁ ŋə ṅ ɲ ñ ɳ ṇ ∅ ɔ pʰ ɽ ṛ ʃ ś t͡ʃ t͡ʃʰ ʈ ṭ ʈʰ tʰ ʊ ū ʋ ɣ ː ́ ̀'																
