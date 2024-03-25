@@ -71,7 +71,7 @@ var spreadsheet = `ethi-am	key	ipa	ipa+	translit	LOC	kbd	class	status	type	usage
 ኤ	a	e ʔe			ʾe		Lo		syllable				U+12A4: ETHIOPIC SYLLABLE GLOTTAL EE	✓
 እ	a	ə ʔə			ʾə		Lo		syllable				U+12A5: ETHIOPIC SYLLABLE GLOTTAL E	✓
 ኦ	a	o ʔo			ʾo		Lo		syllable				U+12A6: ETHIOPIC SYLLABLE GLOTTAL O	✓
-ኧ	a	ä ʔä			ʾwa		Lo	l	syllable	loan words			U+12A7: ETHIOPIC SYLLABLE GLOTTAL WA	✓
+ኧ	a	ä ʔä			ʾwa		Lo	l	syllable				U+12A7: ETHIOPIC SYLLABLE GLOTTAL WA	✓
 ዐ	A	a ʔa			ʿä		Lo		syllable				U+12D0: ETHIOPIC SYLLABLE PHARYNGEAL A	✓
 ዑ	A	u ʔu			ʿu		Lo		syllable				U+12D1: ETHIOPIC SYLLABLE PHARYNGEAL U	✓
 ዒ	A	i ʔi			ʿi		Lo		syllable				U+12D2: ETHIOPIC SYLLABLE PHARYNGEAL I	✓
@@ -155,7 +155,7 @@ var spreadsheet = `ethi-am	key	ipa	ipa+	translit	LOC	kbd	class	status	type	usage
 ጓ	G	gʷa			gʷa		Lo		syllable				U+1313: ETHIOPIC SYLLABLE GWAA	✓
 ጔ	G	gʷe			gʷe		Lo		syllable				U+1314: ETHIOPIC SYLLABLE GWEE	✓
 ጕ	G	gʷə			gʷə		Lo		syllable				U+1315: ETHIOPIC SYLLABLE GWE	✓
-ኸ	h	ha			xä		Lo		syllable	sometimes Arabic خ in loan words			U+12B8: ETHIOPIC SYLLABLE KXA	✓
+ኸ	h	ha			xä		Lo		syllable	Sometimes used for Arabic خ in loan words.			U+12B8: ETHIOPIC SYLLABLE KXA	✓
 ሀ	h	ha			hä		Lo		syllable				U+1200: ETHIOPIC SYLLABLE HA	✓
 ሁ	h	hu			hu		Lo		syllable				U+1201: ETHIOPIC SYLLABLE HU	✓
 ሂ	h	hi			hi		Lo		syllable				U+1202: ETHIOPIC SYLLABLE HI	✓
@@ -184,18 +184,18 @@ var spreadsheet = `ethi-am	key	ipa	ipa+	translit	LOC	kbd	class	status	type	usage
 ጅ	j	d͡ʒə			ǧə		Lo		syllable				U+1305: ETHIOPIC SYLLABLE JE	✓
 ጆ	j	d͡ʒo			ǧo		Lo		syllable				U+1306: ETHIOPIC SYLLABLE JO	✓
 ጇ	j	d͡ʒʷa			ǧwa		Lo		syllable				U+1307: ETHIOPIC SYLLABLE JWA	✓
-ከ	k	kɜ			kä		Lo		syllable	may be used for Arabic خ			U+12A8: ETHIOPIC SYLLABLE KA	✓
-ኩ	k	ku			ku		Lo		syllable	may be used for Arabic خ			U+12A9: ETHIOPIC SYLLABLE KU	✓
-ኪ	k	ki			ki		Lo		syllable	may be used for Arabic خ			U+12AA: ETHIOPIC SYLLABLE KI	✓
-ካ	k	ka			ka		Lo		syllable	may be used for Arabic خ			U+12AB: ETHIOPIC SYLLABLE KAA	✓
-ኬ	k	ke			ke		Lo		syllable	may be used for Arabic خ			U+12AC: ETHIOPIC SYLLABLE KEE	✓
-ክ	k	kɨ			kə		Lo		syllable	may be used for Arabic خ			U+12AD: ETHIOPIC SYLLABLE KE	✓
-ኮ	k	ko			ko		Lo		syllable	may be used for Arabic خ			U+12AE: ETHIOPIC SYLLABLE KO	✓
-ኰ	K	kʷɜ			kʷä		Lo		syllable	may be used for Arabic خ			U+12B0: ETHIOPIC SYLLABLE KWA	✓
-ኲ	K	kʷi			kʷi		Lo		syllable	may be used for Arabic خ			U+12B2: ETHIOPIC SYLLABLE KWI	✓
-ኳ	K	kʷa			kʷa		Lo		syllable	may be used for Arabic خ			U+12B3: ETHIOPIC SYLLABLE KWAA	✓
-ኴ	K	kʷe			kʷe		Lo		syllable	may be used for Arabic خ			U+12B4: ETHIOPIC SYLLABLE KWEE	✓
-ኵ	K	kʷə			kʷə		Lo		syllable	may be used for Arabic خ			U+12B5: ETHIOPIC SYLLABLE KWE	✓
+ከ	k	kɜ			kä		Lo		syllable	May be used for Arabic خ.			U+12A8: ETHIOPIC SYLLABLE KA	✓
+ኩ	k	ku			ku		Lo		syllable	May be used for Arabic خ.			U+12A9: ETHIOPIC SYLLABLE KU	✓
+ኪ	k	ki			ki		Lo		syllable	May be used for Arabic خ.			U+12AA: ETHIOPIC SYLLABLE KI	✓
+ካ	k	ka			ka		Lo		syllable	May be used for Arabic خ.			U+12AB: ETHIOPIC SYLLABLE KAA	✓
+ኬ	k	ke			ke		Lo		syllable	May be used for Arabic خ.			U+12AC: ETHIOPIC SYLLABLE KEE	✓
+ክ	k	kɨ			kə		Lo		syllable	May be used for Arabic خ.			U+12AD: ETHIOPIC SYLLABLE KE	✓
+ኮ	k	ko			ko		Lo		syllable	May be used for Arabic خ.			U+12AE: ETHIOPIC SYLLABLE KO	✓
+ኰ	K	kʷɜ			kʷä		Lo		syllable	May be used for Arabic خ.			U+12B0: ETHIOPIC SYLLABLE KWA	✓
+ኲ	K	kʷi			kʷi		Lo		syllable	May be used for Arabic خ.			U+12B2: ETHIOPIC SYLLABLE KWI	✓
+ኳ	K	kʷa			kʷa		Lo		syllable	May be used for Arabic خ.			U+12B3: ETHIOPIC SYLLABLE KWAA	✓
+ኴ	K	kʷe			kʷe		Lo		syllable	May be used for Arabic خ.			U+12B4: ETHIOPIC SYLLABLE KWEE	✓
+ኵ	K	kʷə			kʷə		Lo		syllable	May be used for Arabic خ.			U+12B5: ETHIOPIC SYLLABLE KWE	✓
 ለ	l	lɜ			lä		Lo		syllable				U+1208: ETHIOPIC SYLLABLE LA	✓
 ሉ	l	lu			lu		Lo		syllable				U+1209: ETHIOPIC SYLLABLE LU	✓
 ሊ	l	li			li		Lo		syllable				U+120A: ETHIOPIC SYLLABLE LI	✓
@@ -229,14 +229,14 @@ var spreadsheet = `ethi-am	key	ipa	ipa+	translit	LOC	kbd	class	status	type	usage
 ኝ	N	ɲə			ñə		Lo		syllable				U+129D: ETHIOPIC SYLLABLE NYE	✓
 ኞ	N	ɲo			ño		Lo		syllable				U+129E: ETHIOPIC SYLLABLE NYO	✓
 ኟ	N	ɲʷa			ñwa		Lo		syllable				U+129F: ETHIOPIC SYLLABLE NYWA	✓
-ፐ	p	pɜ			pä		Lo	l	syllable	loan words			U+1350: ETHIOPIC SYLLABLE PA	✓
-ፑ	p	pu			pu		Lo	l	syllable	loan words			U+1351: ETHIOPIC SYLLABLE PU	✓
-ፒ	p	pi			pi		Lo	l	syllable	loan words			U+1352: ETHIOPIC SYLLABLE PI	✓
-ፓ	p	pa			pa		Lo	l	syllable	loan words			U+1353: ETHIOPIC SYLLABLE PAA	✓
-ፔ	p	pe			pe		Lo	l	syllable	loan words			U+1354: ETHIOPIC SYLLABLE PEE	✓
-ፕ	p	pə			pə		Lo	l	syllable	loan words			U+1355: ETHIOPIC SYLLABLE PE	✓
-ፖ	p	po			po		Lo	l	syllable	loan words			U+1356: ETHIOPIC SYLLABLE PO	✓
-ፗ	p	pʷa			pwa		Lo	l	syllable	loan words			U+1357: ETHIOPIC SYLLABLE PWA	✓
+ፐ	p	pɜ			pä		Lo	l	syllable				U+1350: ETHIOPIC SYLLABLE PA	✓
+ፑ	p	pu			pu		Lo	l	syllable				U+1351: ETHIOPIC SYLLABLE PU	✓
+ፒ	p	pi			pi		Lo	l	syllable				U+1352: ETHIOPIC SYLLABLE PI	✓
+ፓ	p	pa			pa		Lo	l	syllable				U+1353: ETHIOPIC SYLLABLE PAA	✓
+ፔ	p	pe			pe		Lo	l	syllable				U+1354: ETHIOPIC SYLLABLE PEE	✓
+ፕ	p	pə			pə		Lo	l	syllable				U+1355: ETHIOPIC SYLLABLE PE	✓
+ፖ	p	po			po		Lo	l	syllable				U+1356: ETHIOPIC SYLLABLE PO	✓
+ፗ	p	pʷa			pwa		Lo	l	syllable				U+1357: ETHIOPIC SYLLABLE PWA	✓
 ጰ	P	pʼɜ			p̣ä		Lo	l	syllable				U+1330: ETHIOPIC SYLLABLE PHA	✓
 ጱ	P	pʼu			p̣u		Lo	l	syllable				U+1331: ETHIOPIC SYLLABLE PHU	✓
 ጲ	P	pʼi			p̣i		Lo	l	syllable				U+1332: ETHIOPIC SYLLABLE PHI	✓
@@ -313,13 +313,13 @@ var spreadsheet = `ethi-am	key	ipa	ipa+	translit	LOC	kbd	class	status	type	usage
 ዌ	w	we			we		Lo		syllable				U+12CC: ETHIOPIC SYLLABLE WEE	✓
 ው	w	wʊ			wə		Lo		syllable				U+12CD: ETHIOPIC SYLLABLE WE	✓
 ዎ	w	wo			wo		Lo		syllable				U+12CE: ETHIOPIC SYLLABLE WO	✓
-ኹ	x	hu			xu		Lo		syllable	sometimes Arabic خ in loan words			U+12B9: ETHIOPIC SYLLABLE KXU	✓
-ኺ	x	hi			xi		Lo		syllable	sometimes Arabic خ in loan words			U+12BA: ETHIOPIC SYLLABLE KXI	✓
-ኻ	x	ha			xa		Lo		syllable	sometimes Arabic خ in loan words			U+12BB: ETHIOPIC SYLLABLE KXAA	✓
-ኼ	x	he			xe		Lo		syllable	sometimes Arabic خ in loan words			U+12BC: ETHIOPIC SYLLABLE KXEE	✓
-ኽ	x	hə			xə		Lo		syllable	sometimes Arabic خ in loan words			U+12BD: ETHIOPIC SYLLABLE KXE	✓
-ኾ	x	ho			xo		Lo		syllable	sometimes Arabic خ in loan words			U+12BE: ETHIOPIC SYLLABLE KXO	✓
-ዃ	x	hʷa			xʷa		Lo		syllable	sometimes Arabic خ in loan words			U+12C3: ETHIOPIC SYLLABLE KXWAA	✓
+ኹ	x	hu			xu		Lo		syllable	Sometimes used for Arabic خ in loan words.			U+12B9: ETHIOPIC SYLLABLE KXU	✓
+ኺ	x	hi			xi		Lo		syllable	Sometimes used for Arabic خ in loan words.			U+12BA: ETHIOPIC SYLLABLE KXI	✓
+ኻ	x	ha			xa		Lo		syllable	Sometimes used for Arabic خ in loan words.			U+12BB: ETHIOPIC SYLLABLE KXAA	✓
+ኼ	x	he			xe		Lo		syllable	Sometimes used for Arabic خ in loan words.			U+12BC: ETHIOPIC SYLLABLE KXEE	✓
+ኽ	x	hə			xə		Lo		syllable	Sometimes used for Arabic خ in loan words.			U+12BD: ETHIOPIC SYLLABLE KXE	✓
+ኾ	x	ho			xo		Lo		syllable	Sometimes used for Arabic خ in loan words.			U+12BE: ETHIOPIC SYLLABLE KXO	✓
+ዃ	x	hʷa			xʷa		Lo		syllable	Sometimes used for Arabic خ in loan words.			U+12C3: ETHIOPIC SYLLABLE KXWAA	✓
 ኀ	X	ha			ḫä		Lo		syllable				U+1280: ETHIOPIC SYLLABLE XA	✓
 ኁ	X	hu			ḫu		Lo		syllable				U+1281: ETHIOPIC SYLLABLE XU	✓
 ኂ	X	hi			ḫi		Lo		syllable				U+1282: ETHIOPIC SYLLABLE XI	✓
