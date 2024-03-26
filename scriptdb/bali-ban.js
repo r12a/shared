@@ -53,9 +53,9 @@ var spreadsheet = `bali-ban	key	ipa	ipa+	translit	tulisan bali	kbd	class	status	
 ᬆ	A	Ɑː		ɑ̣̄	a		Lo		independent vowel		ᬵ				a kara tedong	U+1B06: BALINESE LETTER AKARA TEDUNG	Ā	✓
 ᬐ	A	AːI		ạʲ	ai		Lo		independent vowel		ᬿ				airsania	U+1B10: BALINESE LETTER AIKARA	AI	✓
 ᬒ	A	AːU		ạʷ	o		Lo		independent vowel		ᭁ				o kara tedong	U+1B12: BALINESE LETTER OKARA TEDUNG	AU	✓
-\u1B05\u1B35	A	ɑː		ɑ̣̄					compound vowel						ᬆ	U+1B05 U+1B35: BALINESE LETTER AKARA, VOWEL SIGN TEDUNG		
-\u1B11\u1B35	A	aːu		ạʷ					compound vowel						ᬒ	U+1B11 U+1B35: BALINESE LETTER OKARA, VOWEL SIGN TEDUNG		
-\u1B3F\u1B35	a	aːu		aʷ					compound vowel						ᭁ	U+1B3F U+1B35: BALINESE VOWEL SIGN TALING REPA, VOWEL SIGN TEDUNG		
+\u1B05\u1B35	A	ɑː		ɑ̣̄				x	compound vowel						ᬆ	U+1B05 U+1B35: BALINESE LETTER AKARA, VOWEL SIGN TEDUNG		
+\u1B11\u1B35	A	aːu		ạʷ				x	compound vowel						ᬒ	U+1B11 U+1B35: BALINESE LETTER OKARA, VOWEL SIGN TEDUNG		
+\u1B3F\u1B35	a	aːu		aʷ				x	compound vowel						ᭁ	U+1B3F U+1B35: BALINESE VOWEL SIGN TALING REPA, VOWEL SIGN TEDUNG		
 ᬩ	b	b	a ə	b	b	b	Lo		consonant				ᬩ᭄ᬩ			U+1B29: BALINESE LETTER BA	b	✓
 ᬪ	B	b	a ə	ḅ	b bh	v	Lo		kawi consonant	kawi			ᬪ᭄ᬪ		ba kembang	U+1B2A: BALINESE LETTER BA KEMBANG	b bh	✓
 ᬘ	c	t͡ʃ	a ə	ʧ	c	c	Lo		consonant				ᬘ᭄ᬘ			U+1B18: BALINESE LETTER CA	c	✓
@@ -161,6 +161,7 @@ var spreadsheet = `bali-ban	key	ipa	ipa+	translit	tulisan bali	kbd	class	status	
 ‡				‡			Po	?	double dagger							U+2021: DOUBLE DAGGER	‡	
 ′				′			Po	?	prime							U+2032: PRIME	′	
 ″				″			Po	?	double prime							U+2033: DOUBLE PRIME	″	
+C									consonant							consonant		
 `																		
 																		
 latinPanel = 'ā ɑː aːi aːu ḍ d͡ʒ ə əː ĕ ɛ iː ī ɲ ñ ŋ ∅ ö ɔ t͡ʃ uː ū'																		
