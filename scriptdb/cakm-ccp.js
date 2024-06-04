@@ -1,24 +1,24 @@
 var spreadsheet = `cakm-cpp	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	native name	name transcription	ucs name	block
-𑄛	p	p	aː	p	p		Lo		consonant				U+1111B: CHAKMA LETTER PAA	✓
-𑄜	p	pʰ	aː	pʰ	ph		Lo		consonant				U+1111C: CHAKMA LETTER PHAA	✓
+𑄛	p	p f	aː	p	p		Lo		consonant				U+1111B: CHAKMA LETTER PAA	✓
+𑄜	P	pʰ fʰ	aː	pʰ	ph		Lo		consonant				U+1111C: CHAKMA LETTER PHAA	✓
 𑄝	b	b	aː	b	b		Lo		consonant				U+1111D: CHAKMA LETTER BAA	✓
-𑄞	b	bʰ	aː	bʰ	bh		Lo		consonant				U+1111E: CHAKMA LETTER BHAA	✓
+𑄞	B	bʰ	aː	bʰ	bh		Lo		consonant				U+1111E: CHAKMA LETTER BHAA	✓
 𑄖	t	t	aː	t	t		Lo		consonant				U+11116: CHAKMA LETTER TAA	✓
-𑄗	t	tʰ	aː	tʰ	th		Lo		consonant				U+11117: CHAKMA LETTER THAA	✓
+𑄗	T	tʰ	aː	tʰ	th		Lo		consonant				U+11117: CHAKMA LETTER THAA	✓
 𑄌	c	t͡ʃ	aː	ʧ	c		Lo		consonant				U+1110C: CHAKMA LETTER CAA	✓
-𑄍	c	t͡ʃʰ	aː	ʧʰ	ch		Lo		consonant				U+1110D: CHAKMA LETTER CHAA	✓
+𑄍	C	t͡ʃʰ	aː	ʧʰ	ch		Lo		consonant				U+1110D: CHAKMA LETTER CHAA	✓
 𑄘	d	d	aː	d	d		Lo		consonant				U+11118: CHAKMA LETTER DAA	✓
-𑄙	d	dʰ	aː	dʰ	dh		Lo		consonant				U+11119: CHAKMA LETTER DHAA	✓
+𑄙	D	dʰ	aː	dʰ	dh		Lo		consonant				U+11119: CHAKMA LETTER DHAA	✓
 𑄎	j	d͡ʒ	aː	ʤ	j		Lo		consonant				U+1110E: CHAKMA LETTER JAA	✓
-𑄏	j	d͡ʒʰ	aː	ʤʰ	jh		Lo		consonant				U+1110F: CHAKMA LETTER JHAA	✓
+𑄏	J	d͡ʒʰ	aː	ʤʰ	jh		Lo		consonant				U+1110F: CHAKMA LETTER JHAA	✓
 𑄑	t	ʈ	aː	ʈ	ṭ		Lo		consonant				U+11111: CHAKMA LETTER TTAA	✓
-𑄒	t	ʈʰ	aː	ʈʰ	ṭh		Lo		consonant				U+11112: CHAKMA LETTER TTHAA	✓
+𑄒	T	ʈʰ	aː	ʈʰ	ṭh		Lo		consonant				U+11112: CHAKMA LETTER TTHAA	✓
 𑄓	d	ɖ	aː	ɖ	ḍ		Lo		consonant				U+11113: CHAKMA LETTER DDAA	✓
-𑄔	d	ɖʰ	aː	ɖʰ	ḍh		Lo		consonant				U+11114: CHAKMA LETTER DDHAA	✓
-𑄇	k	k	aː	k	k		Lo		consonant				U+11107: CHAKMA LETTER KAA	✓
-𑄈	k	kʰ	aː	kʰ	kh		Lo		consonant				U+11108: CHAKMA LETTER KHAA	✓
+𑄔	D	ɖʰ	aː	ɖʰ	ḍh		Lo		consonant				U+11114: CHAKMA LETTER DDHAA	✓
+𑄇	k	k h	aː	k	k		Lo		consonant				U+11107: CHAKMA LETTER KAA	✓
+𑄈	K	kʰ h	aː	kʰ	kh		Lo		consonant				U+11108: CHAKMA LETTER KHAA	✓
 𑄉	g	ɡ	aː	ɡ	g		Lo		consonant				U+11109: CHAKMA LETTER GAA	✓
-𑄊	g	ɡʰ	aː	ɡʰ	gh		Lo		consonant				U+1110A: CHAKMA LETTER GHAA	✓
+𑄊	G	ɡʰ	aː	ɡʰ	gh		Lo		consonant				U+1110A: CHAKMA LETTER GHAA	✓
 𑅇	v	v	aː	v	v		Lo	l	consonant	Used for Pali.			U+11147: CHAKMA LETTER VAA	✓
 𑄥	s	s ʃ	aː	s	s		Lo		consonant				U+11125: CHAKMA LETTER SAA	✓
 𑄡	y	z	aː	z	z		Lo		consonant				U+11121: CHAKMA LETTER YAA	✓
@@ -27,36 +27,35 @@ var spreadsheet = `cakm-cpp	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 𑄚	n	n	aː	n	n		Lo		consonant				U+1111A: CHAKMA LETTER NAA	✓
 𑄕	n	ɳ	aː	ɳ	ṇ		Lo		consonant				U+11115: CHAKMA LETTER NNAA	✓
 𑄐	n	ɲ	aː	ɲ	ñ		Lo		consonant				U+11110: CHAKMA LETTER NYAA	✓
-𑄋	n	ŋ	aː	ŋ	ṅ		Lo		consonant				U+1110B: CHAKMA LETTER NGAA	✓
+𑄋	N	ŋ	aː	ŋ	ṅ		Lo		consonant				U+1110B: CHAKMA LETTER NGAA	✓
 𑄤	w	w	aː	w	w		Lo		consonant				U+11124: CHAKMA LETTER WAA	✓
 𑄢	r	r ɽ	aː	r	r		Lo		consonant				U+11122: CHAKMA LETTER RAA	✓
 𑄣	l	l	aː	l	l		Lo		consonant				U+11123: CHAKMA LETTER LAA	✓
-𑅄	l	lʰ	aː	lʰ	ḷh		Lo	r	consonant	Used by the Baarah Maatraa orthography.			U+11144: CHAKMA LETTER LHAA	✓
+𑅄	L	lʰ	aː	lʰ	ḷh		Lo	r	consonant	Used by the Baarah Maatraa orthography.			U+11144: CHAKMA LETTER LHAA	✓
 𑄠	y	j	aː	j	y		Lo		consonant				U+11120: CHAKMA LETTER YYAA	✓
 														
 𑄀	[¶	̃		˜	̃		Mn		nasalisation marker				U+11100: CHAKMA SIGN CANDRABINDU	✓
-𑄁	n	ŋ		ŋ̽	ṃ		Mn		final nasal				U+11101: CHAKMA SIGN ANUSVARA	✓
+𑄁	N	ŋ		ŋ̽	ṃ		Mn		final nasal				U+11101: CHAKMA SIGN ANUSVARA	✓
 𑄂	h	h		h̽	h		Mn		final aspiration				U+11102: CHAKMA SIGN VISARGA	✓
 														
 𑄨	i	i		i	i		Mn		vowel sign				U+11128: CHAKMA VOWEL SIGN I	✓
-𑄄	i	i		ị	i		Lo	i	independent vowel				U+11104: CHAKMA LETTER I	✓
+𑄄	I	i		ị	i		Lo	i	independent vowel				U+11104: CHAKMA LETTER I	✓
 𑄩	i	iː		iː	ī		Mn	i	vowel sign				U+11129: CHAKMA VOWEL SIGN II	✓
 𑄪	u	u		u	u		Mn		vowel sign				U+1112A: CHAKMA VOWEL SIGN U	✓
-𑄅	u	u		ụ	u		Lo	i	independent vowel				U+11105: CHAKMA LETTER U	✓
+𑄅	U	u		ụ	u		Lo	i	independent vowel				U+11105: CHAKMA LETTER U	✓
 𑄫	u	uː		uː	ū		Mn	i	vowel sign				U+1112B: CHAKMA VOWEL SIGN UU	✓
 𑄬	e	e ɛ		e	e		Mc		vowel sign				U+1112C: CHAKMA VOWEL SIGN E	✓
-𑄆	e	e		ẹ	e		Lo	i	independent vowel				U+11106: CHAKMA LETTER E	✓
+𑄆	E	e		ẹ	e		Lo	i	independent vowel				U+11106: CHAKMA LETTER E	✓
 𑄮	o	o		o	o		Mn		vowel sign				U+1112E: CHAKMA VOWEL SIGN O	✓
-𑄧	a	ɔ		ɔ	o		Mn		vowel sign				U+11127: CHAKMA VOWEL SIGN A	✓
-𑄃	a	aː		aː	ā		Lo		independent vowel				U+11103: CHAKMA LETTER AA	✓
+𑄧	o	ɔ		ɔ	o		Mn		vowel sign				U+11127: CHAKMA VOWEL SIGN A	✓
+𑄃	A	aː		aː	ā		Lo		independent vowel				U+11103: CHAKMA LETTER AA	✓
 𑅅	a	aː		a	ā		Mc	r	vowel sign	Used by the Baarah Maatraa orthography.			U+11145: CHAKMA VOWEL SIGN AA	✓
 														
 𑄪𑄃𑄨	u	ui̯		uaːi	ui				diphthong				U+1112A U+11103 U+11128: CHAKMA VOWEL SIGN U, LETTER AA, VOWEL SIGN I	
-𑅆		eːi̯		eⁱ	ei		Mc	r	diphthong	Used by the Baarah Maatraa orthography.			U+11146: CHAKMA VOWEL SIGN EI	
+𑅆	e	eːi̯		eⁱ	ei		Mc	r	diphthong	Used by the Baarah Maatraa orthography.			U+11146: CHAKMA VOWEL SIGN EI	
 𑄰	o	oi̯		oⁱ	oi		Mn	i	diphthong				U+11130: CHAKMA VOWEL SIGN OI	
-𑄯	a	ou̯		oᵘ	au		Mn		diphthong				U+1112F: CHAKMA VOWEL SIGN AU	
+𑄯	o	ou̯		oᵘ	au		Mn		diphthong				U+1112F: CHAKMA VOWEL SIGN AU	
 𑄬𑄭	a	æ		eaⁱ	ae				diphthong				U+1112C U+1112D: CHAKMA VOWEL SIGN E, VOWEL SIGN AI	
-𑄃𑄨	a	ai̯		aːi	āi				diphthong				U+11103 U+11128: CHAKMA LETTER AA, VOWEL SIGN I	
 𑄭	a	ai̯		aⁱ	āi		Mn	i	diphthong				U+1112D: CHAKMA VOWEL SIGN AI	
 														
 𑄱							Mn		decomposed orphan				U+11131: CHAKMA O MARK	
