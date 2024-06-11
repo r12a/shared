@@ -1,4 +1,4 @@
-// hand-crafted list of Unicode blocks
+// hand-crafted list of Unicode blocks  FOR 16 BETA
 // field[3] is the iso code for the script (used for link to links page)
 // field[4] gives the directory name for the character block file (for notes)
 // field[5] indicates whether the block has SVG images
@@ -65,7 +65,7 @@ var scriptGroups = [
 [6656,6687,"Buginese","bugi", "bugi"],
 [6688,6831,"Tai Tham","lana", "lana"],
 [6832,6911,"Combining Diacritical Marks Extended","","",true],
-[6912,7039,"Balinese","bali", "bali",true],
+[6912,7039,"Balinese","bali", "bali",false],
 [7040,7103,"Sundanese","sund", "sund"],
 [7104,7167,"Batak","batk", "batk"],
 [7168,7247,"Lepcha","lepc","lepc"],
@@ -242,6 +242,7 @@ var scriptGroups = [
 [71168,71263,"Modi","modi",""],
 [71264,71295,"Mongolian Supplement","mong",""],
 [71296,71375,"Takri","takri","takr"],
+[71376,71423,"Myanmar Extended-C","mymr",""],
 [71424,71503,"Ahom","ahom",""],
 [71680,71759,"Dogra","dogr",""],
 [71840,71935,"Warang Citi","wara",""],
@@ -267,6 +268,7 @@ var scriptGroups = [
 [77712,77823,"Cypro-Minoan","cpmn",""],
 [77824,78895,"Egyptian Hieroglyphs","egyp",""],
 [78896,78943,"Egyptian Hieroglyph Format Controls","egyp",""],
+[78944,82943,"Egyptian Hieroglyphs Extended-A","egyp",""],
 [82944,83583,"Anatolian Hieroglyphs","hluw",""],
 [90368,90431,"Gurung Khema","gukh",""],
 [92160,92735,"Bamum Supplement","bamu",""],
@@ -289,6 +291,7 @@ var scriptGroups = [
 [110960,111359,"Nushu","nshu",""],
 [113664,113823,"Duployan","dupl",""],
 [113824,113839,"Shorthand Format Controls","",""],
+[117760,118463,"Symbols for Legacy Computing Supplement","",""],
 [118528,118735,"Znamenny Musical Notation","",""],
 [118784,119039,"Byzantine Musical Symbols","",""],
 [119040,119295,"Musical Symbols","",""],
@@ -321,7 +324,7 @@ var scriptGroups = [
 [127744,128511,"Miscellaneous Symbols and Pictographs","",""],
 [128512,128591,"Emoticons","",""],
 [128592,128639,"Ornamental Dingbats","",""],
-[128640,128767,"Transport And Map Symbols","",""],
+[128640,128767,"Transport and Map Symbols","",""],
 [128768,128895,"Alchemical Symbols","",""],
 [128896,129023,"Geometric Shapes Extended","",""],
 [129024,129279,"Supplemental Arrows-C","",""],
@@ -334,6 +337,7 @@ var scriptGroups = [
 [177984,178207,"CJK Unified Ideographs Extension D","hani",""],
 [178208,183983,"CJK Unified Ideographs Extension E","hani",""],
 [183984,191471,"CJK Unified Ideographs Extension F","hani",""],
+[191472,192095,"CJK Unified Ideographs Extension I","hani",""],
 [194560,195103,"CJK Compatibility Ideographs Supplement","hani",""],
 [196608,201551,"CJK Unified Ideographs Extension G","hani",""],
 [201552,205743,"CJK Unified Ideographs Extension H","hani",""],
