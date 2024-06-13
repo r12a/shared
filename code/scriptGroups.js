@@ -106,7 +106,7 @@ var scriptGroups = [
 [11264,11359,"Glagolitic","glag",""],
 [11360,11391,"Latin Extended-C","latn",""],
 [11392,11519,"Coptic","copt",""],
-[11520,11567,"Georgian Supplement", "geor"],
+[11520,11567,"Georgian Supplement", "geor", "geor"],
 [11568,11647,"Tifinagh","tfng", "tfng"],
 [11648,11743,"Ethiopic Extended","ethi", "ethi"],
 [11744,11775,"Cyrillic Extended-A","cyrl",""],
