@@ -227,7 +227,7 @@ var scriptGroups = [
 [69632,69759,"Brahmi","brah",""],
 [69760,69839,"Kaithi","kthi",""],
 [69840,69887,"Sora Sompeng","sora","sora"],
-[69888,69967,"Chakma","cakm",""],
+[69888,69967,"Chakma","cakm","cakm"],
 [69968,70015,"Mahajani","mahj",""],
 [70016,70111,"Sharada","shrd",""],
 [70112,70143,"Sinhala Archaic Numbers","sinh","sinh"],
