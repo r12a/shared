@@ -129,7 +129,7 @@ function openGraphemeClusterWindow (chars) {
 
 function openCoreSpecWindow (chars, script) {
     var parts = linkDB[script].htmlchapter.split('/')
-	var corespec = window.open('https://unicode-org.github.io/core-spec/chapter-'+parts[0]+'/'+parts[1], 'corespec') 
+	var corespec = window.open('https://unicode.org/versions/Unicode16.0.0/core-spec/chapter-'+parts[0]+'/'+parts[1], 'corespec') 
 	corespec.focus()
 	}
 
