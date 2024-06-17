@@ -2,7 +2,7 @@
 var sampleScriptsIndex = {  
     'adlm': { name: "Adlam", langs:['fuf-adlm'], font:['adlm']},
     'ahom': { name: "Ahom", langs:['pi-ahom'], font:['ahom']}, 
-    'arab': { name: "Arabic", langs:['arb','ha-arab','ks-arab', 'fa', 'ur'], font:['arab', 'arab-afr', 'arab&style=nastaliq',]}, 
+    'arab': { name: "Arabic", langs:['arb','ha-arab','ks-arab', 'fa', 'sd', 'ur'], font:['arab', 'arab-afr', 'arab&style=nastaliq' ]}, 
     'armn': { name: "Armenian", langs:['hy'], font: ['armn'] },
     'armi': { name: "Imperial Aramaic", langs:['arc'], font: ['armi'] },
     'avst': { name: "Avestan", langs:['ae'], font: ['avst'] },
