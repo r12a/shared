@@ -67,7 +67,7 @@ var spreadsheet = `lana-nod	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᨧ	c	ʨ -t	á	c		0	Lo		high class consonant				ᨩ		ᨧ ᩅ᩠ᨧ			U+1A27: TAI THAM LETTER HIGH CA	✓
 ᨩ	c	ʨ -t	a᷇	c̱		=	Lo		low class consonant					ᨧ	ᨩ ᩅ᩠ᨩ			U+1A29: TAI THAM LETTER LOW CA	✓
 ᨯ	d	d -t	a	d̯		f	Lo		mid class consonant						ᨯ ᩅ᩠ᨯ			U+1A2F: TAI THAM LETTER DA	✓
-ᨠ	k	k -k	á	k		d	Lo		high class consonant				ᨣ		ᨠ ᩅ᩠ᨠ			U+1A20: TAI THAM LETTER HIGH KA	✓
+ᨠ	k	k -k	á	k	k	d	Lo		high class consonant				ᨣ		ᨠ ᩅ᩠ᨠ			U+1A20: TAI THAM LETTER HIGH KA	✓
 ᨣ	k	k -k᷇	a	ḵ		8	Lo		low class consonant					ᨠ	ᨣ ᩅ᩠ᨣ			U+1A23: TAI THAM LETTER LOW KA	✓
 ᨺ	f	f	á	f		/	Lo		high class consonant				ᨼ		ᨺ ᩅ᩠ᨺ			U+1A3A: TAI THAM LETTER HIGH FA	✓
 ᨼ	f	f	a᷇	f̱		a	Lo		low class consonant					ᨺ	ᨼ ᩅ᩠ᨼ			U+1A3C: TAI THAM LETTER LOW FA	✓

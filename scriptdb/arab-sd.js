@@ -69,8 +69,8 @@ var spreadsheet = `arab-sd	key	ipa	ipa+	ipa++	translit	transc	kbd	class	status	t
 ُ	u	ʊ				ʊ		Mn	r	vowel in vocalised text					U+064F: ARABIC DAMMA	
 ُو		u				u			r	vowel in vocalised text					U+064F U+0648: ARABIC DAMMA, LETTER WAW	
 َ	a	ə				ə		Mn	r	vowel in vocalised text					U+064E: ARABIC FATHA	
-ع	[	æ		ɑːoːeːʔ∅		o		Lo		vowel		4		ɛːn	U+0639: ARABIC LETTER AIN	
-ا	a	a		ə ʔ		ɑ		Lo		vowel		2			U+0627: ARABIC LETTER ALEF	
+ع	[	æ		ɑːoːeːʔ∅	æ	o		Lo		vowel		4		ɛːn	U+0639: ARABIC LETTER AIN	
+ا	a	a		ə ʔ	ɑ	ɑ		Lo		vowel		2			U+0627: ARABIC LETTER ALEF	
 آ	A	ɑ ɑː			ạ	a		Lo		standalone vowel					U+0622: ARABIC LETTER ALEF WITH MADDA ABOVE	
 																
 // standalone vowels																

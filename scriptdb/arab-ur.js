@@ -98,7 +98,7 @@ var spreadsheet = `arab-ur	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ٍ	I	in		iⁿ			Mn		vowel					in	U+064D: ARABIC KASRATAN	✓
 ٖ	i	i		ᵢ			Mn		vowel quality indicator						U+0656: ARABIC SUBSCRIPT ALEF	✓
 ج	j	d͡ʒ		ʤ	j	o	Lo		consonant			ج ججج	جيم	ʤiːm	U+062C: ARABIC LETTER JEEM	✓
-جھ	J	d͡ʒʰ		ʤʰ	jh										U+062C U+06BE: ARABIC LETTER JEEM, HEH DOACHASHMEE	
+جھ	J	d͡ʒʰ		ʤʰ	jh							4			U+062C U+06BE: ARABIC LETTER JEEM, HEH DOACHASHMEE	
 کھ	K	kʰ		kʰ	kh										U+06A9 U+06BE: ARABIC LETTER KEHEH, HEH DOACHASHMEE	
 ک	k¶	k		k	k	k	Lo		consonant			ک ککک	کاف	kɑːf	U+06A9: ARABIC LETTER KEHEH	✓
 ل	l	l		l	l	g	Lo		consonant			ل للل	لام	lɑːm	U+0644: ARABIC LETTER LAM	✓
