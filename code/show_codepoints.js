@@ -271,6 +271,13 @@ function showNameDetails (chars, clang, base, target, panel, list, translit, ipa
                 if (document.querySelector('.useBlockExamples')) {
                     out += `<a href="javascript:void(0)" onclick="showCharDetailsInPanel(event)"> U+${ hex } ${ charData[charArray[c]] }</a>`
                     }
+                
+                // FOR TERMS LISTS
+                else if (document.querySelector('.termListApp')) {
+                    out += `<a target="c" href="../../scripts/${ blockfile }/${ terms.language }-characters.html#char${ hex }"> U+${ hex } ${ charData[charArray[c]] }</a>`
+                    console.log('blockfile',terms.language )
+                    }
+
                 else {
                     out += `<a target="c" href="`
                     //if (base === '../../uniview/index.html?char=') out += base+hex
