@@ -159,13 +159,13 @@ var spreadsheet = `arab-sd	key	ipa	ipa+	ipa++	translit	transc	kbd	class	status	t
 ۸	±	8			8̣	8		Nd		digit			اَٺَ	aṭha	U+06F8: EXTENDED ARABIC-INDIC DIGIT EIGHT	
 ۹	±	9			9̣	9		Nd		digit			نَوَ	nava	U+06F9: EXTENDED ARABIC-INDIC DIGIT NINE	
 																
+// orphans																
 ٔ					ٴ			Mn​	r	combining hamza	Orphan. Only found in decomposed text with YEH.				U+0654: ARABIC HAMZA ABOVE	
 ٓ					˜			Mn	r	combining madd	Orphan. Only found in decomposed text with ALEF.				U+0653: ARABIC MADDAH ABOVE	
 																
-																
-																
-																
-																
+// do not use																
+ی								Lo	u						U+06CC: ARABIC LETTER FARSI YEH	
+ك								Lo	u						U+0643: ARABIC LETTER KAF	
 																
 																
 `																
