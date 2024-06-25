@@ -612,7 +612,8 @@ function printDetails (char) {
    // check for decomposable characters
     if (char.normalize('NFD') != char) {
         out += '<span class="decomposition">'
-        out += 'Decomposes to '+makeCharacterLink(char.normalize('NFD'), lang, dir)
+        out += `Decomposes to <span class="ch">${ char.normalize('NFD') }</span>.`
+        //out += 'Decomposes to '+makeCharacterLink(char.normalize('NFD'), lang, dir)
         if (char.normalize('NFD') === char.normalize('NFC')) out += '<br><strong>The NFC normalised form of this character is the decomposed sequence!</strong>'
         out += '</span><br>'
         }           
@@ -806,7 +807,7 @@ function makeCharacterLink (cp, lang, direction) {
 	// lang: the BCP47 language tag for the context
 	// direction: either rtl or ltr or ''
     // LATEST VERSION collapses multiple chars at start
-    if (traceSet.has('makeCharacterLink')) console.log('>>> makeCharacterLink(',cp,lang,direction,')')
+    console.log('>>> makeCharacterLink(',cp,lang,direction,')')
     var chars = [...cp]
 
     var out = '<span class="codepoint" translate="no">'
@@ -815,6 +816,7 @@ function makeCharacterLink (cp, lang, direction) {
     var hex = cp.codePointAt(0).toString(16).toUpperCase()
     while (hex.length < 4) hex = '0'+hex 
 
+console.log('looking for',cp, 'with length',cp.length)
     if (spreadsheetRows[cp]) out += ` [<a href="javascript:void(0)" target="c"><span class="uname">${ spreadsheetRows[cp][cols['ucsName']] }</span></a>]`
 	else out += ' [Character(s) not found in database.]'
 
@@ -825,31 +827,5 @@ function makeCharacterLink (cp, lang, direction) {
 
 
 
-
-
-
-
-function makeCharacterLinkX (cp, lang, direction) {
-	// returns markup with information about cp
-	// cp: a unicode character, or sequence of unicode characters
-	// lang: the BCP47 language tag for the context
-	// direction: either rtl or ltr or ''
-    // LATEST VERSION collapses multiple chars at start
-    if (traceSet.has('makeCharacterLink')) console.log('>>> makeCharacterLink(',cp,lang,direction,')')
-    var chars = [...cp]
-
-    var out = '<span class="codepoint" translate="no">'
-    out += `<span lang="${ lang }" onclick="makeFootnoteIndex('${ cp }')">${ cp }</span>`
-    
-    var hex = cp.codePointAt(0).toString(16).toUpperCase()
-    while (hex.length < 4) hex = '0'+hex 
-
-    if (spreadsheetRows[cp]) out += ` [<a href="block.html#char${ hex }" target="c"><span class="uname">${ spreadsheetRows[cp][cols['ucsName']] }</span></a>]`
-	else out += ' [Character(s) not found in database.]'
-
-    out += '</span> '
-	
-	return out.trim()
-	}
 
 
