@@ -256,23 +256,31 @@ function showNameDetails (chars, clang, base, target, panel, list, translit, ipa
             blockname = getScriptGroup(dec, false)
             blockfile = getScriptGroup(dec, true)
             //console.log(dec,blockfile)
-            isInBlock = spreadsheetRows[charArray[c]]?spreadsheetRows[charArray[c]][cols['block']]:''
-            
-			out += '<div class="panelCharacter">'
+            isInBlock = spreadsheetRows[charArray[c]]?true:false
+            //isInBlock = spreadsheetRows[charArray[c]]?spreadsheetRows[charArray[c]][cols['block']]:''
+
+            out += '<div class="panelCharacter">'
 			//if (blockfile) {
 			if (isInBlock) {
 				//out += `<a target="${ target }" href="`
                 // undoing this change which put characters in the list because imgs are needed in order to make the list to copy to clipboard
                 // out += `<span style="display:inline-block; font-size:1.5rem; min-width: 2rem;">${ charArray[c] }</span>`
                 out += `<img src="../../c/${ getScriptGroup(dec, false) }/large/${ hex }.png" alt="${ charArray[c] }" style="height:2rem;">`
-				out += `<a target="c" href="`
-				//if (base === '../../uniview/index.html?char=') out += base+hex
-				//else out += '../../scripts/'+blockfile+'/block.html#char'+hex
-				out += '../../scripts/'+blockfile+'/block.html#char'+hex
-				out += '">'
-				//out += '<img src="'+'../../c/'+blockname+"/"+hex+'.png'+'" alt="'+charArray[c]+'">'
-				out += ' U+'+hex + ' '+charData[charArray[c]]
-				out += '</a>\n'
+                
+                // FOR ORTHOGRAPHY NOTES
+                if (document.querySelector('.useBlockExamples')) {
+                    out += `<a href="javascript:void(0)" onclick="showCharDetailsInPanel(event)"> U+${ hex } ${ charData[charArray[c]] }</a>`
+                    }
+                else {
+                    out += `<a target="c" href="`
+                    //if (base === '../../uniview/index.html?char=') out += base+hex
+                    //else out += '../../scripts/'+blockfile+'/block.html#char'+hex useBlockExamples
+                    out += '../../scripts/'+blockfile+'/block.html#char'+hex
+                    out += '">'
+                    //out += '<img src="'+'../../c/'+blockname+"/"+hex+'.png'+'" alt="'+charArray[c]+'">'
+                    out += ' U+'+hex + ' '+charData[charArray[c]]
+                    out += '</a>\n'
+                    }
 				}
 			else {
 				out += '<img src="'+'../../c/'+blockname+"/large/"+hex+'.png'+'" alt="'+charArray[c]+'" style="height:2rem;">'
@@ -562,15 +570,18 @@ function printDetails (char) {
     var hex = spreadsheetRows[char][cols['ucsName']].split(':')
     hex = hex[0].replace(/U\+/,'')
     out += `<p class="notesLink"><a target="_blank" href="../../uniview/index.html?codepoints=${ hex }&char=${ hex }">UniView</a>`
-    // add a link to the character notes file
+    // add a link to the character notes files
     if (lang) {
-        out += '<br><a target="_blank" href="../../scripts/'+dir+'/block.html#'+lang+hex+'">Notes page</a>'
+        out += `<br><a target="_blank" href="../../scripts/${ dir }/${ lang }-characters.html#char${ hex }">Notes page</a>`
         }
     // link to properties
     out += `<br><a target="_blank" href="https://util.unicode.org/UnicodeJsps/character.jsp?a=${ hex }">Properties</a>`
 
     // add a link to the terms list
     if (autoExpandExamples[window.langTag]) out += `<br><a target="_blank" href="${ window.langTag }_vocab.html?q=${ char }">Term list</a>`
+
+    // add a link to the character usage app
+    if (autoExpandExamples[window.langTag]) out += `<br><a target="_blank" href="../../app-charuse/index.html?language=${ window.charUsageBCP }&charlist=${ char }">Usage</a>`
     out += '</p>'
 
     // write the header info
@@ -585,7 +596,8 @@ function printDetails (char) {
     if (spreadsheetRows[char][cols['statusLoc']]) out += ' &nbsp; <span class="usageType">('+spreadsheetRows[char][cols['statusLoc']]+')</span>'
     if (spreadsheetRows[char][cols['ipaLoc']]) out += ' &nbsp; <span class="charIPA ipa">'+spreadsheetRows[char][cols['ipaLoc']]+'</span>'
     if (spreadsheetRows[char][cols['class']]) out += ' &nbsp; <span class="charGC">'+spreadsheetRows[char][cols['class']]+'</span>'
-    out += '</span><br><br>'
+    //out += '</span><br><br>'
+    out += '</span><br>'
 
 
     // add information about correspondences
@@ -663,6 +675,9 @@ function showCharDetailsInPanel (evt) {
 	if (evt.target.className == 'listItem') lang = evt.target.lang
 	else if (evt.target.parentNode.parentNode.querySelector('bdi') !== null) lang = evt.target.parentNode.parentNode.querySelector('bdi').lang
 	else if (evt.target.parentNode.parentNode.querySelector('span') !== null) lang = evt.target.parentNode.parentNode.querySelector('span').lang
+    
+    // for list item in panel
+    else if (evt.target.parentNode.className === 'panelCharacter') lang = langTag
 	else console.log('No lang found in showCharDetailsInPanel')
 
     var chars
@@ -673,6 +688,10 @@ function showCharDetailsInPanel (evt) {
         else chars = bdi.textContent
         }
 	else if (evt.target.parentNode.parentNode.querySelector('span') !== null) chars = evt.target.parentNode.parentNode.querySelector('span').textContent
+    
+    // for list item in panel
+    else if (evt.target.parentNode.className === 'panelCharacter') chars = evt.target.parentNode.querySelector('img').alt
+    
 	else console.log('No characters found in showCharDetailsInPanel')
 
 
