@@ -14,7 +14,13 @@ var spreadsheet = `arab-ha	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ْ	*			͞			Mn		vowel absence marker						U+0652: ARABIC SUKUN	✓
 ّ	&			˖			Mn		gemination mark						U+0651: ARABIC SHADDA	✓
 «	<			“			Pi		quotation mark						U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	✓
+»	>			”			Pf		quotation mark						U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	✓
 ‹	<			‹			Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	✓
+›	>			›			Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	✓
+”	<						Pi		quotation mark						U+201D: RIGHT DOUBLE QUOTATION MARK	
+“	>						Pf		quotation mark						U+201C: LEFT DOUBLE QUOTATION MARK	
+’	<						Pi		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
+‘	>						Pf		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
 \u200C	=			ₓ			Cf		zero-width non-joiner						U+200C: ZERO WIDTH NON-JOINER	
 \u200D	=			₊			Cf		zero-width joiner						U+200D: ZERO WIDTH JOINER	
 \u2067	=			ʳˡⁱ			Cf		rtl isolate						U+2067: RIGHT-TO-LEFT ISOLATE	
@@ -28,8 +34,6 @@ var spreadsheet = `arab-ha	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 \u200E	=			ˡʳᵐ			Cf		ltr mark						U+200E: LEFT-TO-RIGHT MARK	
 \u034F	=			ᶜᵍʲ			Mn	?	combining grapheme joiner						U+034F: COMBINING GRAPHEME JOINER	
 \u061C	=			ᵃˡᵐ			Cf	?	arabic letter mark						U+061C: ARABIC LETTER MARK	
-»	>			”			Pf		quotation mark						U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	✓
-›	>			›			Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	✓
 َ	a¶	a		a	a		Mn		vowel						U+064E: ARABIC FATHA	✓
 أَ	a	ʔa		a	a				vowel		\u{627}\u{654}\u{64E}				U+0623 U+064E: ARABIC LETTER ALEF WITH HAMZA ABOVE, FATHA	
 ا	a	–		ɑ			Lo		vowel	used with َا, أَ, إِ and ُواْ		ا ـا			U+0627: ARABIC LETTER ALEF	✓
