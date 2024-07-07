@@ -94,7 +94,7 @@ var spreadsheet = `arab-sd	key	ipa	ipa+	ipa++	translit	transc	kbd	class	status	t
 																
 // space																
 \u0020	 							Zs		space					U+0020: SPACE	
-\u200B	=				ᶻʷˢᵖ			Cf		zero-width space					U+200B: ZERO WIDTH SPACE	
+\u200B	=				ᶻʷˢᵖ			Cf	?	zero-width space					U+200B: ZERO WIDTH SPACE	
 // baseline extender																
 ـ	_				_	_			?	baseline extender					U+0640: ARABIC TATWEEL	
 // phrase dividers																
@@ -109,20 +109,21 @@ var spreadsheet = `arab-sd	key	ipa	ipa+	ipa++	translit	transc	kbd	class	status	t
 :	:				:	:		Po		colon					U+003A: COLON	
 // period & ellipsis																
 .	.				.	.		Po		full stop					U+002E: FULL STOP	
+۔	.							Po		arabic full stop					U+06D4: ARABIC FULL STOP	
 …	.				…	…		Po	?	ellipsis					U+2026: HORIZONTAL ELLIPSIS	
 «	<				«	“		Pi	?	quotation mark					U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
 »	>				»	”		Pf	?	quotation mark					U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
 ‹	<				‹			Pi	?	quotation mark					U+2018: LEFT SINGLE QUOTATION MARK	
 ›	>				›			Pf	?	quotation mark					U+2019: RIGHT SINGLE QUOTATION MARK	
-“	<				“	“		Pi	?	quotation mark					U+201C: LEFT DOUBLE QUOTATION MARK	
-”	>				”	”		Pf	?	quotation mark					U+201D: RIGHT DOUBLE QUOTATION MARK	
+“	<				“	“		Pi		quotation mark					U+201C: LEFT DOUBLE QUOTATION MARK	
+”	>				”	”		Pf		quotation mark					U+201D: RIGHT DOUBLE QUOTATION MARK	
 ‘	<				‘	‘		Pi	?	quotation mark					U+2018: LEFT SINGLE QUOTATION MARK	
 ’	>				’	’		Pf	?	quotation mark					U+2019: RIGHT SINGLE QUOTATION MARK	
 // brackets																
 (	(				( (˙ (¯ (¨ (˭	(		Ps		parenthesis					U+0028: LEFT PARENTHESIS	
 )	)				) )˙ )¯ )¨ )˭	)		Ps		parenthesis					U+0029: RIGHT PARENTHESIS	
-[	(				[	[		Pe		bracket					U+005B: LEFT SQUARE BRACKET	
-]	)				] 	]		Pe		bracket					U+005D: RIGHT SQUARE BRACKET	
+[	(				[	[		Pe	?	bracket					U+005B: LEFT SQUARE BRACKET	
+]	)				] 	]		Pe	?	bracket					U+005D: RIGHT SQUARE BRACKET	
 ﴾	(				[˙			Pe	?	ornate parenthesis					U+FD3E: ORNATE LEFT PARENTHESIS	
 ﴿	)				]˙			Ps	?	ornate parenthesis					U+FD3F: ORNATE RIGHT PARENTHESIS	
 // dashes																
@@ -136,7 +137,7 @@ var spreadsheet = `arab-sd	key	ipa	ipa+	ipa++	translit	transc	kbd	class	status	t
 \u200C	=				ᶻʷⁿʲ			Cf		zero-width non-joiner					U+200C: ZERO WIDTH NON-JOINER	
 \u200D	=				ᶻʷʲ			Cf		zero-width joiner					U+200D: ZERO WIDTH JOINER	
 \u034F	=				ᶜᵍʲ			Mn		combining grapheme joiner					U+034F: COMBINING GRAPHEME JOINER	
-\u2060	=				ʷʲ			Cf		word joiner					U+2060 WORD JOINER	
+\u2060	=				ʷʲ			Cf	?	word joiner					U+2060 WORD JOINER	
 \u2067	=				ʳˡⁱ			Cf		rtl isolate					U+2067: RIGHT-TO-LEFT ISOLATE	
 \u2066	=				ˡʳⁱ			Cf		ltr isolate					U+2066: LEFT-TO-RIGHT ISOLATE	
 \u2068	=				ᶠˢⁱ			Cf		first-strong isolate					U+2068: FIRST STRONG ISOLATE	
@@ -158,7 +159,7 @@ var spreadsheet = `arab-sd	key	ipa	ipa+	ipa++	translit	transc	kbd	class	status	t
 ۷	±	7			7̣	7		Nd		digit			سَتَ	sata	U+06F7: EXTENDED ARABIC-INDIC DIGIT SEVEN	
 ۸	±	8			8̣	8		Nd		digit			اَٺَ	aṭha	U+06F8: EXTENDED ARABIC-INDIC DIGIT EIGHT	
 ۹	±	9			9̣	9		Nd		digit			نَوَ	nava	U+06F9: EXTENDED ARABIC-INDIC DIGIT NINE	
-																
+٪										percent sign						
 // orphans																
 ٔ					ٴ			Mn​	r	combining hamza	Orphan. Only found in decomposed text with YEH.				U+0654: ARABIC HAMZA ABOVE	
 ٓ					˜			Mn	r	combining madd	Orphan. Only found in decomposed text with ALEF.				U+0653: ARABIC MADDAH ABOVE	
