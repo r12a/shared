@@ -89,37 +89,57 @@ Y	Y	J		J			Ll		consonant		ye		U+0059: LATIN CAPITAL LETTER Y
 														
 i	i	i		i			Ll		vowel		i		U+0069: LATIN SMALL LETTER I	
 I	I	I		I			Ll		vowel		i		U+0049: LATIN CAPITAL LETTER I	
-í	i	i˦		í			Ll	r	vowel with high tone				U+00ED: LATIN SMALL LETTER I WITH ACUTE	✓
-ì	i	i˨		ì			Ll	r	vowel with low tone				U+00EC: LATIN SMALL LETTER I WITH GRAVE	✓
-ǐ	i	i˨˦		ǐ			Ll	r	vowel with descending tone				U+01D0: LATIN SMALL LETTER I WITH CARON	
 u	u	u		u			Ll		vowel		u		U+0075: LATIN SMALL LETTER U	
 U	U	U		U			Ll		vowel		u		U+0055: LATIN CAPITAL LETTER U	
-ú	u	u˦		ú			Ll	r	vowel with high tone				U+00FA: LATIN SMALL LETTER U WITH ACUTE	✓
-ù	u	u˨		ù			Ll	r	vowel with low tone				U+00F9: LATIN SMALL LETTER U WITH GRAVE	✓
-ǔ	u	u˨˦		ǔ			Ll	r	vowel with descending tone				U+01D4: LATIN SMALL LETTER U WITH CARON	
 e	e	e		e			Ll		vowel		e		U+0065: LATIN SMALL LETTER E	
-é	e	e˦		é			Ll	r	vowel with high tone				U+00E9: LATIN SMALL LETTER E WITH ACUTE	✓
-è	e	e˨		è			Ll	r	vowel with low tone				U+00E8: LATIN SMALL LETTER E WITH GRAVE	✓
-ě	e	e˨˦		ě			Ll	r	vowel with descending tone				U+011B: LATIN SMALL LETTER E WITH CARON	
 E	E	E		E			Ll		vowel		e		U+0045: LATIN CAPITAL LETTER E	
 o	o	o		o			Ll		vowel		o		U+006F: LATIN SMALL LETTER O	
 O	O	O		O			Ll		vowel		o		U+004F: LATIN CAPITAL LETTER O	
+ɛ	e	ɛ		ɛ			Ll		vowel		ɛ		U+025B: LATIN SMALL LETTER OPEN E	✓
+Ɛ	E	Ɛ		Ɛ			Ll		vowel		ɛ		U+0190: LATIN CAPITAL LETTER OPEN E	✓
+ɔ	o	ɔ		ɔ			Ll		vowel		ɔ		U+0254: LATIN SMALL LETTER OPEN O	✓
+Ɔ	O	Ɔ		Ɔ			Ll		vowel		ɔ		U+0186: LATIN CAPITAL LETTER OPEN O	✓
+a	a	a		a			Ll		vowel		a		U+0061: LATIN SMALL LETTER A	
+A	A	A		A			Ll		vowel		a		U+0041: LATIN CAPITAL LETTER A	
+														
+í	i	i˦		í			Ll	r	vowel with high tone				U+00ED: LATIN SMALL LETTER I WITH ACUTE	✓
+ì	i	i˨		ì			Ll	r	vowel with low tone				U+00EC: LATIN SMALL LETTER I WITH GRAVE	✓
+ǐ	i	i˨˦		ǐ			Ll	r	vowel with descending tone				U+01D0: LATIN SMALL LETTER I WITH CARON	
+Í	I	i˦		Í			Ll	r	vowel with high tone				U+00CD: LATIN CAPITAL LETTER I WITH ACUTE	
+Ì	I	i˨		Ì			Ll	r	vowel with low tone				U+00CC: LATIN CAPITAL LETTER I WITH GRAVE	
+Ǐ	I	i˨˦		Ǐ			Ll	r	vowel with descending tone				U+01CF: LATIN CAPITAL LETTER I WITH CARON	
+ú	u	u˦		ú			Ll	r	vowel with high tone				U+00FA: LATIN SMALL LETTER U WITH ACUTE	✓
+ù	u	u˨		ù			Ll	r	vowel with low tone				U+00F9: LATIN SMALL LETTER U WITH GRAVE	✓
+ǔ	u	u˨˦		ǔ			Ll	r	vowel with descending tone				U+01D4: LATIN SMALL LETTER U WITH CARON	
+Ú	U	u˦		Ú			Ll	r	vowel with high tone				U+00DA: LATIN CAPITAL LETTER U WITH ACUTE	
+Ù	U	u˨		Ù			Ll	r	vowel with low tone				U+00D9: LATIN CAPITAL LETTER U WITH GRAVE	
+Ǔ	U	u˨˦		Ǔ			Ll	r	vowel with descending tone				U+01D3: LATIN CAPITAL LETTER U WITH CARON	
+é	e	e˦		é			Ll	r	vowel with high tone				U+00E9: LATIN SMALL LETTER E WITH ACUTE	✓
+è	e	e˨		è			Ll	r	vowel with low tone				U+00E8: LATIN SMALL LETTER E WITH GRAVE	✓
+ě	e	e˨˦		ě			Ll	r	vowel with descending tone				U+011B: LATIN SMALL LETTER E WITH CARON	
+É	E	e˦		É			Ll	r	vowel with high tone				U+00C9: LATIN CAPITAL LETTER E WITH ACUTE	
+È	E	e˨		È			Ll	r	vowel with low tone				U+00C8: LATIN CAPITAL LETTER E WITH GRAVE	
+Ě	E	e˨˦		Ě			Ll	r	vowel with descending tone				U+011A: LATIN CAPITAL LETTER E WITH CARON	
 ó	o	o˦		ó			Ll	r	vowel with high tone				U+00F3: LATIN SMALL LETTER O WITH ACUTE	✓
 ò	o	o˨		ò			Ll	r	vowel with low tone				U+00F2: LATIN SMALL LETTER O WITH GRAVE	✓
 ǒ	o	o˨˦		ǒ			Ll	r	vowel with descending tone				U+01D2: LATIN SMALL LETTER O WITH CARON	
-ɛ	e	ɛ		ɛ			Ll		vowel		ɛ		U+025B: LATIN SMALL LETTER OPEN E	✓
-Ɛ	E	Ɛ		Ɛ			Ll		vowel		ɛ		U+0190: LATIN CAPITAL LETTER OPEN E	✓
+Ó	O	o˦		Ó			Ll	r	vowel with high tone				U+00D3: LATIN CAPITAL LETTER O WITH ACUTE	
+Ò	O	o˨		Ò			Ll	r	vowel with low tone				U+00D2: LATIN CAPITAL LETTER O WITH GRAVE	
+Ǒ	O	o˨˦		Ǒ			Ll	r	vowel with descending tone				U+01D1: LATIN CAPITAL LETTER O WITH CARON	
 ɛ́	e	ɛ˦		ɛ́				r	vowel with high tone				U+025B U+0301: LATIN SMALL LETTER OPEN E, COMBINING ACUTE ACCENT	
 ɛ̀	e	ɛ˨		ɛ̀				r	vowel with low tone				U+025B U+0300: LATIN SMALL LETTER OPEN E, COMBINING GRAVE ACCENT	
-ɔ	o	ɔ		ɔ			Ll		vowel		ɔ		U+0254: LATIN SMALL LETTER OPEN O	✓
-Ɔ	O	Ɔ		Ɔ			Ll		vowel		ɔ		U+0186: LATIN CAPITAL LETTER OPEN O	✓
+Ɛ́	E	ɛ˦		Ɛ́				r	vowel with high tone				U+0190 U+0301: LATIN CAPITAL LETTER OPEN E, COMBINING ACUTE ACCENT	
+Ɛ̀	E	ɛ˨		Ɛ̀				r	vowel with low tone				U+0190 U+0300: LATIN CAPITAL LETTER OPEN E, COMBINING GRAVE ACCENT	
 ɔ́	o	ɔ˦		ɔ́				r	vowel with high tone				U+0254 U+0301: LATIN SMALL LETTER OPEN O, COMBINING ACUTE ACCENT	
 ɔ̀	o	ɔ˨		ɔ̀				r	vowel with low tone				U+0254 U+0300: LATIN SMALL LETTER OPEN O, COMBINING GRAVE ACCENT	
-a	a	a		a			Ll		vowel		a		U+0061: LATIN SMALL LETTER A	
-A	A	A		A			Ll		vowel		a		U+0041: LATIN CAPITAL LETTER A	
+Ɔ́	O	ɔ˦		Ɔ́				r	vowel with high tone				U+0186 U+0301: LATIN CAPITAL LETTER OPEN O, COMBINING ACUTE ACCENT	
+Ɔ̀	O	ɔ˨		Ɔ̀				r	vowel with low tone				U+0186 U+0300: LATIN CAPITAL LETTER OPEN O, COMBINING GRAVE ACCENT	
 á	a	a˦		á			Ll	r	vowel with high tone				U+00E1: LATIN SMALL LETTER A WITH ACUTE	✓
 à	a	a˨		à			Ll	r	vowel with low tone				U+00E0: LATIN SMALL LETTER A WITH GRAVE	✓
 ǎ	a	a˨˦		ǎ			Ll	r	vowel with descending tone				U+01CE: LATIN SMALL LETTER A WITH CARON	
+Á	A	a˦		Á			Ll	r	vowel with high tone				U+00C1: LATIN CAPITAL LETTER A WITH ACUTE	
+À	A	a˨		À			Ll	r	vowel with low tone				U+00C0: LATIN CAPITAL LETTER A WITH GRAVE	
+Ǎ	A	a˨˦		Ǎ			Ll	r	vowel with descending tone				U+01CD: LATIN CAPITAL LETTER A WITH CARON	
 														
 §				§	§		Po	?	section sign				U+00A7: SECTION SIGN	✓
 †				†	†		Po	?	dagger				U+2020: DAGGER	
@@ -129,6 +149,7 @@ A	A	A		A			Ll		vowel		a		U+0041: LATIN CAPITAL LETTER A
 														
 \u202F				ⁿⁿᵇˢᵖ			Zs		narrow no-break space				U+202F NARROW NO-BREAK SPACE	
 '				'			Po		apostrophe				U+0027: APOSTROPHE	
+◌				◌					consonant				C	
 `														
 														
 latinPanel = 'í ì ĩ iː ú ù ũ uː ɛ ɛ́ ɛ̀ ɛ̃ ɛː é è ẽ eː ɔ ɔ́ ɔ̀ ɔ̃ ɔː ó ò õ oː á à ǎ ã aː d͡ʒ ɡ ʷ m͡ ᵐ n͡ ⁿ ɲ͡ ᵑ ŋ͡ᶮ ʃ ʒ ʼ ꜜ ` ̃ ́ ̀ ̂ ̌  ˦ ˨'														
