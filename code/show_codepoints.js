@@ -10,7 +10,7 @@ if (typeof traceSet === 'undefined') traceSet = new Set([])
 
 
 function initialiseShowNames (base, target) {
-    if (trace) console.log('initialiseShowNames(', base, target,')  Add onclick function to all .ex elements to display in panel')
+    //console.log('initialiseShowNames(', base, target,')  Add onclick function to all .ex elements to display in panel')
     // add function to all images with class ex
     // function will display character by character names for example in the panel
     // there is an augmented version of this function in functions.js (to deal with listitems)
@@ -54,19 +54,25 @@ function shownames_setImgOnclick ( node, base, target ) {
 
 
 function shownames_setOnclick ( node, base, target ) {
-    if (traceSet.has('shownames_setOnclick')) console.log('shownames_setOnclick(', node.textContent, base, target,')')
+    //console.log('shownames_setOnclick(', node.textContent, base, target,')')
     // called from initialiseShowNames (both here and in functions.js)
     // local list
-    if (node.onclick) return
+    //console.log(node.textContent)
+     if (node.onclick) {
+        //console.log( 'Onclick already set in shownames_setOnclick')    
+        return
+        }
+        
     
     // check whether this is a list
     var list = ''
     if (node.classList.contains('list')) list = 'y'
     
-	node.onclick = function(){ showNameDetails(node.textContent, getLanguage(node), base, target, document.getElementById('panel'), list, getTransliteration(node)) }
+	node.onclick = function(){ showCharDetailsInline(node.textContent, getLanguage(node), base, target, '', list, getTransliteration(node), '', this) }
+	//node.onclick = function(){ showNameDetails(node.textContent, getLanguage(node), base, target, document.getElementById('panel'), list, getTransliteration(node)) }
 	}
 
-
+//showCharDetailsInline (chars, clang, base, target, panel, list, translit, ipa, node)
 
 
 function getLanguage(node) {
@@ -156,6 +162,7 @@ function showNameDetails (chars, clang, base, target, panel, list, translit, ipa
     // locals
     var dir, characterList, graphemes, ptr, transcriptions, gloss, charArray
 	var chardiv, charimg, thename, thelink, hex, dec, blockname, blockfile
+
 
 	// check whether the calling page has set a base and target window: if not base, point to UniView
 	if(typeof base === 'undefined' || base === '') { base = '../../uniview/index.html?char=' }
@@ -681,40 +688,35 @@ function printDetails (char) {
 
 
 function showCharDetailsInPanel (evt) {
+	var lang, chars, insetPoint, panel, table, ipaNodes
+    
+    //console.log('Event:',evt.target.textContent)
 	if (typeof charDetails === 'undefined') return
 
-	// find the language & character(s)
-	var lang
+	// find the language
 	if (evt.target.className == 'listItem') lang = evt.target.lang
+    else if (evt.target.parentNode.className === 'panelCharacter') lang = langTag
 	else if (evt.target.parentNode.parentNode.querySelector('bdi') !== null) lang = evt.target.parentNode.parentNode.querySelector('bdi').lang
 	else if (evt.target.parentNode.parentNode.querySelector('span') !== null) lang = evt.target.parentNode.parentNode.querySelector('span').lang
-    
-    // for list item in panel
-    else if (evt.target.parentNode.className === 'panelCharacter') lang = langTag
 	else console.log('No lang found in showCharDetailsInPanel')
 
-    var chars
+    // find the character(s)
 	if (evt.target.className == 'listItem') chars = evt.target.textContent
+    else if (evt.target.parentNode.className === 'panelCharacter') chars = evt.target.parentNode.querySelector('img').alt
 	else if (evt.target.parentNode.parentNode.querySelector('bdi') !== null) {
         var bdi = evt.target.parentNode.parentNode.querySelector('bdi')
         if (bdi.querySelector('img')) chars = bdi.querySelector('img').alt
         else chars = bdi.textContent
         }
 	else if (evt.target.parentNode.parentNode.querySelector('span') !== null) chars = evt.target.parentNode.parentNode.querySelector('span').textContent
-    
-    // for list item in panel
-    else if (evt.target.parentNode.className === 'panelCharacter') chars = evt.target.parentNode.querySelector('img').alt
-    
 	else console.log('No characters found in showCharDetailsInPanel')
-
-
 
     // get the insertion point
     insertPoint = evt.target.closest('p, table, div, li')
 
     // create the article element & table outer
-    var panel = document.createElement('article') 
-	var table = document.createElement('table')
+    panel = document.createElement('article') 
+	table = document.createElement('table')
 	table.className = 'charDetails2'
 	table.innerHTML = makeArticleDetails(chars)
 	panel.appendChild(table)
@@ -729,7 +731,7 @@ function showCharDetailsInPanel (evt) {
     initialiseShowNames(table, window.blockDirectoryName, 'c')
     
     // set event trigger on all .ipa elements - opens description box on click
-    var ipaNodes = document.querySelectorAll(".ipa")
+    ipaNodes = document.querySelectorAll(".ipa")
     for (i=0;i<ipaNodes.length;i++) ipaNodes[i].onclick = showIPAPhoneEvt
 	return false
 	}
