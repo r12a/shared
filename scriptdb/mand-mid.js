@@ -88,6 +88,7 @@ var spreadsheet = `mand-mid	key	ipa	ipa+	other	translit	transc	kbd	class	status	
 .					–		<	Po							U+002E: FULL STOP	
 ,					–		>	Po	?		for the keyboard				U+002C: COMMA	
 \u200C	[							Cf			zwnj				U+200C: ZERO WIDTH NON-JOINER	
+⁍									u		editorial mark				Editorial: Spelling of this word has been guessed at, rather than copied.	
 `																
 																
 latinPanel = 'ʿ aː ā æ ɑ ɒ ḇ č ɛ ə ḏ ð ðˤ d͡ʒ ħuᵘ ẖ ħ ɪ iːʷ iː ḵ ɔ ɔː θ p̄ sˤ ṣ ʃ š ṯ tˤ ṭ t͡ʃ ʊ χ γ ʒ ʕ ˈ †ˌ'																
