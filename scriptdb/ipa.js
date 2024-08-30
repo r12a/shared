@@ -182,15 +182,15 @@ a	a¶	a	a	Low front vowel unrounded	U+0061: LATIN SMALL LETTER A
 						
 						
 						
-ʼ	%	ʼ		Ejective	U+02BC: MODIFIER LETTER APOSTROPHE	
 ʰ	%	ʰ	h	Aspiration	U+02B0: MODIFIER LETTER SMALL H	
 ˭	%	˭		Unaspirated	U+02ED: MODIFIER LETTER UNASPIRATED	
+ʼ	%	ʼ		Ejective	U+02BC: MODIFIER LETTER APOSTROPHE	
 ⁿ	%	ⁿ		Nasal release	U+207F: SUPERSCRIPT LATIN SMALL LETTER N	
 ˡ	%	ˡ		Lateral release	U+02E1: MODIFIER LETTER SMALL L	
 ʷ	%	ʷ	w	Labialisation	U+02B7: MODIFIER LETTER SMALL W	
 ʲ	%	ʲ		Palatalisation	U+02B2: MODIFIER LETTER SMALL J	
-ˠ	%	ˠ	7	Velarisation	U+02E0: MODIFIER LETTER SMALL GAMMA	
 ˤ	%	ˤ		Pharyngealisation	U+02E4: MODIFIER LETTER SMALL REVERSED GLOTTAL STOP	
+ˠ	%	ˠ	7	Velarisation	U+02E0: MODIFIER LETTER SMALL GAMMA	
 ˀ	%	ˀ		Glottalisation	U+02C0: MODIFIER LETTER GLOTTAL STOP	
 						
 /	/	/	/	Phonetic marker	U+002F: SOLIDUS	
