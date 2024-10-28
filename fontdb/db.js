@@ -45,6 +45,7 @@ var fontDB = [
 { name:"Nanum Myeongjo",	system:new Set([mac]), locales:new Set(['kore']), style:'serif', md:true },
 { name:"Noto Serif CJK KR",	system:new Set([goog]), locales:new Set(['kore']), style:'serif' },
 { name:"PCMyungjo",			system:new Set([mac]), locales:new Set(['kore']), style:'serif', md:true },
+{ name:"Nom Na Tong",		system:new Set([mac]), locales:new Set(['hant', 'vi']), style:'serif' },
 
 
 /* modulated */
@@ -216,7 +217,9 @@ var fontDB = [
 { name:"Microsoft JhengHei",system:new Set([win]), locales:new Set(['hani', 'hant']), style:'hei' },
 { name:"Noto Sans CJK TC",	system:new Set([goog]), locales:new Set(['hani', 'hant']), style:'hei' },
 { name:"PingFang TC",		system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'hei' },
+{ name:"PingFang MO",		system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'hei' },
 { name:"Yuanti TC",			system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'hei', md:true },
+{ name:"Hiragino Sans TC",	system:new Set([mac, ios]), locales:new Set(['hani', 'hant']), style:'hei' },
 
 /* Gothic */
 { name:"Hiragino Kaku Gothic Pro",system:new Set([mac]), locales:new Set(['jpan']), style:'gothic' },
@@ -305,9 +308,9 @@ var fontDB = [
 { name:"Helvetica Neue",	system:new Set([mac, ios]), locales:new Set(['latn', 'cyrl', 'grek', 'geor']), style:'sans' },
 { name:"InaiMathi",			system:new Set([mac]), locales:new Set(['taml']), style:'sans' },
 { name:"K2D",				system:new Set([mac]), locales:new Set(['thai']), style:'sans' },
+{ name:"Kalinga",			system:new Set([win]), locales:new Set(['orya']), style:'sans', wd:true },
 { name:"Kanchenjunga",		system:new Set([sil]), locales:new Set(['krai']), style:'sans' },
 { name:"Kannada Sangam MN",	system:new Set([mac, ios]), locales:new Set(['knda']), style:'sans' },
-{ name:"Kalinga",			system:new Set([win]), locales:new Set(['orya']), style:'sans', wd:true },
 { name:"Kartika",			system:new Set([win]), locales:new Set(['mlym']), style:'sans', wd:true },
 { name:"Kefa",				system:new Set([mac, ios]), locales:new Set(['ethi']), style:'sans' },
 { name:"Khmer Sangam MN",	system:new Set([mac, ios]), locales:new Set(['khmr']), style:'sans' },
@@ -496,6 +499,7 @@ var fontDB = [
 { name:"Noto Serif Khmer",	system:new Set([goog]), locales:new Set(['khmr']), style:'sans' },
 //{ name:"Noto Serif Hmong Nyiakeng",system:new Set([goog]), locales:new Set(['hmnp']), style:'sans' },
 { name:"Noto Serif NP Hmong",system:new Set([goog]), locales:new Set(['hmnp']), style:'sans' },
+{ name:"November Bangla Traditional",system:new Set([mac]), locales:new Set(['beng']), style:'sans' },
 { name:"Nuosu SIL",			system:new Set([sil]), locales:new Set(['yiii']), style:'sans' },
 { name:"October Condensed Devanagari",system:new Set([mac]), locales:new Set(['deva']), style:'sans', md:true },
 { name:"October Compressed Devanagari",system:new Set([mac]), locales:new Set(['deva']), style:'sans' },
@@ -547,6 +551,7 @@ var fontDB = [
 { name:"Segoe UI",			system:new Set([win]), locales:new Set(['arab', 'arab-arb', 'arab-fa', 'arab-ha', 'armn', 'cyrl', 'geor', 'geok', 'grek','hebr', 'lisu', '...']), style:'sans' },
 { name:"Segoe UI Historic",	system:new Set([win, mac]), locales:new Set(['runr', 'shaw', 'armi', 'phli', 'prti', 'phnx', 'ugar', 'cprt', 'glag', 'copt', 'ogam', 'ital', 'egyp', 'cari','lyci', 'lydi', 'xpeo', 'sarb', 'orkh', 'brah', 'khar', 'merc', 'runr', 'xsux']), style:'sans' },
 { name:"Segoe UI Symbol",	system:new Set([win]), locales:new Set(['copt', 'grek', 'dsrt']), style:'sans' },
+{ name:"SF Arabic",			system:new Set([mac]), locales:new Set(['arab']), style:'sans' },
 { name:"Shimenkan",			system:new Set([sil]), locales:new Set(['plrd']), style:'sans' },
 { name:"Shimenkan Book",	system:new Set([sil]), locales:new Set(['plrd']), style:'sans' },
 { name:"Shimenkan Guifan",	system:new Set([sil]), locales:new Set(['plrd']), style:'sans' },
@@ -671,7 +676,8 @@ var fontDB = [
 { name:"STKaiti",			system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'kai', md:true },
 { name:"Xingkai SC",		system:new Set([mac]), locales:new Set(['hani', 'hans']), style:'kai', md:true },
 
-{ name:"Biaukai",			system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'kai', md:true },
+{ name:"BiaukaiTC",			system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'kai', md:true },
+{ name:"BiaukaiHK",			system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'kai', md:true },
 { name:"DFKai-SB",			system:new Set([win]), locales:new Set(['hani', 'hant']), style:'kai', wd:true },
 { name:"Kaiti TC",			system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'kai', md:true },
 { name:"Xingkai TC",		system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'kai', md:true },
