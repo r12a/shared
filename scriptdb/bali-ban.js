@@ -6,6 +6,8 @@ var spreadsheet = `bali-ban	key	ipa	ipa+	translit	tulisan bali	kbd	class	status	
 –	-			–			Pd	?	en dash							U+2013: EN DASH	–	
 —	-			—			Pd	?	em dash							U+2014: EM DASH	—	
 ᭞	,			,		,	Po		~comma						carik	U+1B5E: BALINESE CARIK SIKI	,	✓
+\u1B4e	,						Po		fine subdivision							U+1B4E BALINESE INVERTED CARIK SIKI		
+\u1B4F	,						Po		fine subdivision							U+ 1B4F BALINESE INVERTED CARIK PAREREN		
 ;	;			;			Po	?	semicolon							U+003B: SEMICOLON	;	
 ᭝	:			:			Po		colon						carik pamungkah	U+1B5D: BALINESE CARIK PAMUNGKAH	:	✓
 !	!			!			Po	?	exclamation mark							U+0021: EXCLAMATION MARK	!	
@@ -20,7 +22,10 @@ var spreadsheet = `bali-ban	key	ipa	ipa+	translit	tulisan bali	kbd	class	status	
 ᬗ᬴	{	ʔ		ŋˑ				l	consonant+nukta							U+1B17 U+1B34: BALINESE LETTER NGA, SIGN REREKAN		
 ᭚	@			ᵖ>		<	Po		text start symbol						panten	U+1B5A: BALINESE PANTI		✓
 ᭛	@			ʳ>		>	Po		text start symbol						pamada	U+1B5B: BALINESE PAMADA		✓
+\u1B7F	@						Po		minor text start symbol							U+1B7F: BALINESE PANTI BAWAK		
 ᭜	@			°			Po		punctuation							U+1B5C: BALINESE WINDU		✓
+᭽	@						Po		end of text marker							U+1B7D: BALINESE PANTI LANTANG		
+᭾	@						Po		end of text marker							U+1B7E: BALINESE PAMADA LANTANG		
 ᭄	*			͞		/	Mc		vowel-killer						adegadeg	U+1B44: BALINESE ADEG ADEG		✓
 ᬴	/			ˑ			Mn	l	nukta						rerekan	U+1B34: BALINESE SIGN REREKAN		✓
 %	%			%			Po	?	percentage mark							U+0025: PERCENT SIGN		
