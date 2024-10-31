@@ -7,47 +7,47 @@ var spreadsheet = `tols-kru	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 \u{11DBC}	T	tʰ		tʰ	th		Lo		consonant				U+11DBC: TOLONG SIKI LETTER THA	
 \u{11DBD}	d	d		d	d		Lo		consonant				U+11DBD: TOLONG SIKI LETTER DA	
 \u{11DBE}	D	dʰ		dʰ	dh		Lo		consonant				U+11DBE: TOLONG SIKI LETTER DHA	
-\u{11DC0}	t	ʈ		ʈ			Lo		consonant				U+11DC0: TOLONG SIKI LETTER TTA	
-\u{11DC1}	T	ʈʰ		ʈʰ			Lo		consonant				U+11DC1: TOLONG SIKI LETTER TTHA	
-\u{11DC2}	d	ɖ		ɖ			Lo		consonant				U+11DC2: TOLONG SIKI LETTER DDA	
-\u{11DC3}	D	ɖʰ		ɖʰ			Lo		consonant				U+11DC3: TOLONG SIKI LETTER DDHA	
-\u{11DC5}	c	t͡ʃ		ʧ			Lo		consonant				U+11DC5: TOLONG SIKI LETTER CA	
-\u{11DC6}	C	t͡ʃʰ		ʧʰ			Lo		consonant				U+11DC6: TOLONG SIKI LETTER CHA	
-\u{11DC7}	j	d͡ʒ		ʤ			Lo		consonant				U+11DC7: TOLONG SIKI LETTER JA	
-\u{11DC8}	J	d͡ʒʰ		ʤʰ			Lo		consonant				U+11DC8: TOLONG SIKI LETTER JHA	
-\u{11DCA}	k	k		k			Lo		consonant				U+11DCA: TOLONG SIKI LETTER KA	
-\u{11DCB}	K	kʰ		kʰ			Lo		consonant				U+11DCB: TOLONG SIKI LETTER KHA	
-\u{11DCC}	g	ɡ		ɡ			Lo		consonant				U+11DCC: TOLONG SIKI LETTER GA	
-\u{11DCD}	G	ɡʰ		ɡʰ			Lo		consonant				U+11DCD: TOLONG SIKI LETTER GHA	
+\u{11DC0}	t	ʈ		ʈ	ṭ		Lo		consonant				U+11DC0: TOLONG SIKI LETTER TTA	
+\u{11DC1}	T	ʈʰ		ʈʰ	ṭh		Lo		consonant				U+11DC1: TOLONG SIKI LETTER TTHA	
+\u{11DC2}	d	ɖ		ɖ	ḍ		Lo		consonant				U+11DC2: TOLONG SIKI LETTER DDA	
+\u{11DC3}	D	ɖʰ		ɖʰ	ḍh		Lo		consonant				U+11DC3: TOLONG SIKI LETTER DDHA	
+\u{11DC5}	c	t͡ʃ		ʧ	c		Lo		consonant				U+11DC5: TOLONG SIKI LETTER CA	
+\u{11DC6}	C	t͡ʃʰ		ʧʰ	ch		Lo		consonant				U+11DC6: TOLONG SIKI LETTER CHA	
+\u{11DC7}	j	d͡ʒ		ʤ	j		Lo		consonant				U+11DC7: TOLONG SIKI LETTER JA	
+\u{11DC8}	J	d͡ʒʰ		ʤʰ	jh		Lo		consonant				U+11DC8: TOLONG SIKI LETTER JHA	
+\u{11DCA}	k	k		k	k		Lo		consonant				U+11DCA: TOLONG SIKI LETTER KA	
+\u{11DCB}	K	kʰ		kʰ	kh		Lo		consonant				U+11DCB: TOLONG SIKI LETTER KHA	
+\u{11DCC}	g	ɡ		ɡ	g		Lo		consonant				U+11DCC: TOLONG SIKI LETTER GA	
+\u{11DCD}	G	ɡʰ		ɡʰ	gh		Lo		consonant				U+11DCD: TOLONG SIKI LETTER GHA	
 														
-\u{11DD4}	s	s		s			Lo		consonant				U+11DD4: TOLONG SIKI LETTER SA	
-\u{11DD6}	x	x		x			Lo		consonant				U+11DD6: TOLONG SIKI LETTER XA	
-\u{11DD5}	h	h		h			Lo		consonant				U+11DD5: TOLONG SIKI LETTER HA	
+\u{11DD4}	s	s		s	s		Lo		consonant				U+11DD4: TOLONG SIKI LETTER SA	
+\u{11DD6}	x	x		x	x		Lo		consonant				U+11DD6: TOLONG SIKI LETTER XA	
+\u{11DD5}	h	h		h	h		Lo		consonant				U+11DD5: TOLONG SIKI LETTER HA	
 														
-\u{11DBA}	m	m		m			Lo		consonant				U+11DBA: TOLONG SIKI LETTER MA	
-\u{11DBF}	n	n		n			Lo		consonant				U+11DBF: TOLONG SIKI LETTER NA	
-\u{11DC4}	n	ɳ		ɳ			Lo		consonant				U+11DC4: TOLONG SIKI LETTER NNA	
-\u{11DC9}	n	ɲ		ɲ			Lo		consonant				U+11DC9: TOLONG SIKI LETTER NYA	
-\u{11DD3}	n	ɲ		ɲʲ			Lo		consonant				U+11DD3: TOLONG SIKI LETTER NNYA	
-\u{11DCE}	n	ŋ		ŋ			Lo		consonant				U+11DCE: TOLONG SIKI LETTER NGA	
+\u{11DBA}	m	m		m	m		Lo		consonant				U+11DBA: TOLONG SIKI LETTER MA	
+\u{11DBF}	n	n		n	n		Lo		consonant				U+11DBF: TOLONG SIKI LETTER NA	
+\u{11DC4}	n	ɳ		ɳ	ṇ		Lo		consonant				U+11DC4: TOLONG SIKI LETTER NNA	
+\u{11DC9}	n	ɲ		ɲ	ñ		Lo		consonant				U+11DC9: TOLONG SIKI LETTER NYA	
+\u{11DD3}	n	ɲ		ɲʲ	n̰		Lo		consonant				U+11DD3: TOLONG SIKI LETTER NNYA	
+\u{11DCE}	n	ŋ		ŋ	ṅ		Lo		consonant				U+11DCE: TOLONG SIKI LETTER NGA	
 														
-\u{11DD2}	v	w		v			Lo		consonant				U+11DD2: TOLONG SIKI LETTER VA	
-\u{11DD0}	r	r		r			Lo		consonant				U+11DD0: TOLONG SIKI LETTER RA	
-\u{11DD7}	r	ɽ		ɽ			Lo		consonant				U+11DD7: TOLONG SIKI LETTER RRA	
-\u{11DD8}	r	ɽʰ		ɽʰ			Lo		consonant				U+11DD8: TOLONG SIKI LETTER RRHA	
-\u{11DD1}	l	l		l			Lo		consonant				U+11DD1: TOLONG SIKI LETTER LA	
-\u{11DCF}	y	j		j			Lo		consonant				U+11DCF: TOLONG SIKI LETTER YA	
+\u{11DD2}	v	w		v	w		Lo		consonant				U+11DD2: TOLONG SIKI LETTER VA	
+\u{11DD0}	r	r		r	r		Lo		consonant				U+11DD0: TOLONG SIKI LETTER RA	
+\u{11DD7}	r	ɽ		ɽ	ṛ		Lo		consonant				U+11DD7: TOLONG SIKI LETTER RRA	
+\u{11DD8}	r	ɽʰ		ɽʰ	ṛh		Lo		consonant				U+11DD8: TOLONG SIKI LETTER RRHA	
+\u{11DD1}	l	l		l	l		Lo		consonant				U+11DD1: TOLONG SIKI LETTER LA	
+\u{11DCF}	y	j		j	y		Lo		consonant				U+11DCF: TOLONG SIKI LETTER YA	
 														
-\u{11DB0}	i	i		i			Lo		consonant				U+11DB0: TOLONG SIKI LETTER I	
-\u{11DB2}	u	u		u			Lo		consonant				U+11DB2: TOLONG SIKI LETTER U	
-\u{11DB1}	e	e		e			Lo		consonant				U+11DB1: TOLONG SIKI LETTER E	
-\u{11DB3}	o	o		o			Lo		consonant				U+11DB3: TOLONG SIKI LETTER O	
-\u{11DB4}	a	a		a			Lo		consonant				U+11DB4: TOLONG SIKI LETTER A	
-\u{11DB5}	A	aː		aː			Lo		consonant				U+11DB5: TOLONG SIKI LETTER AA	
+\u{11DB0}	i	i		i	i		Lo		consonant				U+11DB0: TOLONG SIKI LETTER I	
+\u{11DB2}	u	u		u	u		Lo		consonant				U+11DB2: TOLONG SIKI LETTER U	
+\u{11DB1}	e	e		e	e		Lo		consonant				U+11DB1: TOLONG SIKI LETTER E	
+\u{11DB3}	o	o		o	o		Lo		consonant				U+11DB3: TOLONG SIKI LETTER O	
+\u{11DB4}	a	a		a	a		Lo		consonant				U+11DB4: TOLONG SIKI LETTER A	
+\u{11DB5}	A	aː		ā	ā		Lo		consonant				U+11DB5: TOLONG SIKI LETTER AA	
 														
-\u{11DB5}̆	o	ɔ						l	vowel				U+11DB5 U+0306: TOLONG SIKI LETTER AA, COMBINING BREVE	
+\u{11DB5}̆	o	ɔ		ɔ				l	vowel				U+11DB5 U+0306: TOLONG SIKI LETTER AA, COMBINING BREVE	
 														
-\u{11DDA}	}	ʔ		ʔ			Lo		glottal stop				U+11DDA: TOLONG SIKI SIGN HECAKA	
+\u{11DDA}	}	ʔ		ʔ	ʼ		Lo		glottal stop				U+11DDA: TOLONG SIKI SIGN HECAKA	
 														
 // finals														
 ̰	r	r		r̆			Mn​		medial r			revā	U+0330: COMBINING TILDE BELOW	
@@ -127,7 +127,7 @@ var spreadsheet = `tols-kru	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 9	9			9	9		Nd		digit				U+0039: DIGIT NINE	
 `														
 														
-latinPanel = 'ä bʷ č'														
+latinPanel = 'aː ā d͡ʒ n̰ r̆ t͡ʃ ñ ā ŋ ɔ ɖ ɡ ɲ ɳ ɽ ʈ ʔ ʤ ʧ ʰ ʼ ᴎ ḍ ṅ ṇ ṛ ṭ ː'														
 														
 var cols = {														
 key: 1,														
