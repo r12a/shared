@@ -216,6 +216,7 @@ var fontDB = [
 { name:"LiHei Pro",			system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'hei', md:true },
 { name:"Microsoft JhengHei",system:new Set([win]), locales:new Set(['hani', 'hant']), style:'hei' },
 { name:"Noto Sans CJK TC",	system:new Set([goog]), locales:new Set(['hani', 'hant']), style:'hei' },
+{ name:"PingFang HK",		system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'hei' },
 { name:"PingFang TC",		system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'hei' },
 { name:"PingFang MO",		system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'hei' },
 { name:"Yuanti TC",			system:new Set([mac]), locales:new Set(['hani', 'hant']), style:'hei', md:true },
