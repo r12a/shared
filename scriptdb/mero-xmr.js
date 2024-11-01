@@ -1,71 +1,71 @@
 var spreadsheet = `mero-xmr	key	ipa	ipa+		translit	transc	kbd	class	status	type	usage	native name	name transcription	ucs name	block	0		
 															✓	6	u	unused
-𐦈	P	p	a		P			Lo		hieroglyph consonant				U+10988: MEROITIC HIEROGLYPHIC LETTER PA				
-𐦆	B	b	a		B			Lo		hieroglyph consonant				U+10986: MEROITIC HIEROGLYPHIC LETTER BA				
-𐦇	B	b	a		Ḅ			Lo		hieroglyph consonant	Alternative letter.			U+10987: MEROITIC HIEROGLYPHIC LETTER BA-2				
-𐦘	T	t	a		T			Lo		hieroglyph consonant				U+10998: MEROITIC HIEROGLYPHIC LETTER TA				
-𐦙	T	t	a		Ṭ			Lo		hieroglyph consonant	Alternative letter.			U+10999: MEROITIC HIEROGLYPHIC LETTER TA-2				
-𐦚	T	te			Tᵉ			Lo		hieroglyph consonant				U+1099A: MEROITIC HIEROGLYPHIC LETTER TE				
-𐦛	T	te			Ṭᵉ			Lo		hieroglyph consonant	Alternative letter.			U+1099B: MEROITIC HIEROGLYPHIC LETTER TE-2				
-𐦜	T	to			Tᵒ			Lo		hieroglyph consonant				U+1099C: MEROITIC HIEROGLYPHIC LETTER TO				
-𐦝	D	d	a		D			Lo		hieroglyph consonant				U+1099D: MEROITIC HIEROGLYPHIC LETTER DA				
-𐦖	K	k	a		K			Lo		hieroglyph consonant				U+10996: MEROITIC HIEROGLYPHIC LETTER KA				
-𐦗	Q	q	a		Q			Lo		hieroglyph consonant				U+10997: MEROITIC HIEROGLYPHIC LETTER QA				
-𐦓	S	s	a		S			Lo		hieroglyph consonant				U+10993: MEROITIC HIEROGLYPHIC LETTER SA				
-𐦔	S	s	a		Ṣ			Lo		hieroglyph consonant	Alternative letter.			U+10994: MEROITIC HIEROGLYPHIC LETTER SA-2				
-𐦕	S	se			Sᵉ			Lo		hieroglyph consonant				U+10995: MEROITIC HIEROGLYPHIC LETTER SE				
-𐦑	X	x	a		X			Lo		hieroglyph consonant				U+10991: MEROITIC HIEROGLYPHIC LETTER KHA				
-𐦒	H	h	a		H			Lo		hieroglyph consonant				U+10992: MEROITIC HIEROGLYPHIC LETTER HHA				
-𐦉	M	m	a		M			Lo		hieroglyph consonant				U+10989: MEROITIC HIEROGLYPHIC LETTER MA				
-𐦊	N	n	a		N			Lo		hieroglyph consonant				U+1098A: MEROITIC HIEROGLYPHIC LETTER NA				
-𐦋	N	n	a		Ṇ			Lo		hieroglyph consonant	Alternative letter.			U+1098B: MEROITIC HIEROGLYPHIC LETTER NA-2				
-𐦌	N	ne			Nᵉ			Lo		hieroglyph consonant				U+1098C: MEROITIC HIEROGLYPHIC LETTER NE				
-𐦍	N	ne			Ṇᵉ			Lo		hieroglyph consonant	Alternative letter.			U+1098D: MEROITIC HIEROGLYPHIC LETTER NE-2				
-𐦅	W	w	a		W			Lo		hieroglyph consonant				U+10985: MEROITIC HIEROGLYPHIC LETTER WA				
-𐦎	R	r	a		R			Lo		hieroglyph consonant				U+1098E: MEROITIC HIEROGLYPHIC LETTER RA				
-𐦏	R	r	a		Ṛ			Lo		hieroglyph consonant	Alternative letter.			U+1098F: MEROITIC HIEROGLYPHIC LETTER RA-2				
-𐦐	L	l	a		L			Lo		hieroglyph consonant				U+10990: MEROITIC HIEROGLYPHIC LETTER LA				
-𐦄	Y	j	a		J			Lo		hieroglyph consonant				U+10984: MEROITIC HIEROGLYPHIC LETTER YA				
+𐦈	P	p	a		P	p		Lo		hieroglyph consonant				U+10988: MEROITIC HIEROGLYPHIC LETTER PA				
+𐦆	B	b	a		B	b		Lo		hieroglyph consonant				U+10986: MEROITIC HIEROGLYPHIC LETTER BA				
+𐦇	B	b	a		Ḅ	b		Lo		hieroglyph consonant	Alternative letter.			U+10987: MEROITIC HIEROGLYPHIC LETTER BA-2				
+𐦘	T	t	a		T	t		Lo		hieroglyph consonant				U+10998: MEROITIC HIEROGLYPHIC LETTER TA				
+𐦙	T	t	a		Ṭ	t		Lo		hieroglyph consonant	Alternative letter.			U+10999: MEROITIC HIEROGLYPHIC LETTER TA-2				
+𐦚	T	te			Tᵉ	te		Lo		hieroglyph consonant				U+1099A: MEROITIC HIEROGLYPHIC LETTER TE				
+𐦛	T	te			Ṭᵉ	te		Lo		hieroglyph consonant	Alternative letter.			U+1099B: MEROITIC HIEROGLYPHIC LETTER TE-2				
+𐦜	T	to			Tᵒ	to		Lo		hieroglyph consonant				U+1099C: MEROITIC HIEROGLYPHIC LETTER TO				
+𐦝	D	ɾ d	a		D	d		Lo		hieroglyph consonant				U+1099D: MEROITIC HIEROGLYPHIC LETTER DA				
+𐦖	K	k	a		K	k		Lo		hieroglyph consonant				U+10996: MEROITIC HIEROGLYPHIC LETTER KA				
+𐦗	Q	q	a		Q	q		Lo		hieroglyph consonant				U+10997: MEROITIC HIEROGLYPHIC LETTER QA				
+𐦓	S	s	a		S	s		Lo		hieroglyph consonant				U+10993: MEROITIC HIEROGLYPHIC LETTER SA				
+𐦔	S	s	a		Ṣ	s		Lo		hieroglyph consonant	Alternative letter.			U+10994: MEROITIC HIEROGLYPHIC LETTER SA-2				
+𐦕	S	se			Sᵉ	se		Lo		hieroglyph consonant				U+10995: MEROITIC HIEROGLYPHIC LETTER SE				
+𐦑	X	x	a		X	ḫ		Lo		hieroglyph consonant				U+10991: MEROITIC HIEROGLYPHIC LETTER KHA				
+𐦒	H	h	a		H	ẖ		Lo		hieroglyph consonant				U+10992: MEROITIC HIEROGLYPHIC LETTER HHA				
+𐦉	M	m	a		M	m		Lo		hieroglyph consonant				U+10989: MEROITIC HIEROGLYPHIC LETTER MA				
+𐦊	N	n	a		N	n		Lo		hieroglyph consonant				U+1098A: MEROITIC HIEROGLYPHIC LETTER NA				
+𐦋	N	n	a		Ṇ	n		Lo		hieroglyph consonant	Alternative letter.			U+1098B: MEROITIC HIEROGLYPHIC LETTER NA-2				
+𐦌	N	ne			Nᵉ	ne		Lo		hieroglyph consonant				U+1098C: MEROITIC HIEROGLYPHIC LETTER NE				
+𐦍	N	ne			Ṇᵉ	ne		Lo		hieroglyph consonant	Alternative letter.			U+1098D: MEROITIC HIEROGLYPHIC LETTER NE-2				
+𐦅	W	w	a		W	w		Lo		hieroglyph consonant				U+10985: MEROITIC HIEROGLYPHIC LETTER WA				
+𐦎	R	r	a		R	r		Lo		hieroglyph consonant				U+1098E: MEROITIC HIEROGLYPHIC LETTER RA				
+𐦏	R	r	a		Ṛ	r		Lo		hieroglyph consonant	Alternative letter.			U+1098F: MEROITIC HIEROGLYPHIC LETTER RA-2				
+𐦐	L	l	a		L	l		Lo		hieroglyph consonant				U+10990: MEROITIC HIEROGLYPHIC LETTER LA				
+𐦄	Y	j	a		J	y		Lo		hieroglyph consonant				U+10984: MEROITIC HIEROGLYPHIC LETTER YA				
 																		
 																		
-𐦂	I	i			I			Lo		hieroglyph vowel				U+10982: MEROITIC HIEROGLYPHIC LETTER I				
-𐦁	E	e			E			Lo		hieroglyph vowel				U+10981: MEROITIC HIEROGLYPHIC LETTER E			g	allograph
-𐦃	O	o			O			Lo		hieroglyph vowel				U+10983: MEROITIC HIEROGLYPHIC LETTER O				
-𐦀	A	a			A			Lo		hieroglyph vowel				U+10980: MEROITIC HIEROGLYPHIC LETTER A			l	extension for foreign sounds
+𐦂	I	i			I	i		Lo		hieroglyph vowel				U+10982: MEROITIC HIEROGLYPHIC LETTER I				
+𐦁	E	ə			E	e		Lo		hieroglyph vowel				U+10981: MEROITIC HIEROGLYPHIC LETTER E			g	allograph
+𐦃	O	u			O	o		Lo		hieroglyph vowel				U+10983: MEROITIC HIEROGLYPHIC LETTER O				
+𐦀	A	a			A	a		Lo		hieroglyph vowel				U+10980: MEROITIC HIEROGLYPHIC LETTER A			l	extension for foreign sounds
 																		
 𐦞								Lo						U+1099E: MEROITIC HIEROGLYPHIC SYMBOL VIDJ				
 𐦟								Lo						U+1099F: MEROITIC HIEROGLYPHIC SYMBOL VIDJ-2				
 																		
 																		
-𐦧	p	p	a		p			Lo		cursive consonant				U+109A7: MEROITIC CURSIVE LETTER PA				
-𐦦	b	b	a		b			Lo		cursive consonant				U+109A6: MEROITIC CURSIVE LETTER BA				
-𐦴	t	t	a		t			Lo		cursive consonant				U+109B4: MEROITIC CURSIVE LETTER TA				
-𐦵	t	te			tᵉ			Lo		cursive consonant				U+109B5: MEROITIC CURSIVE LETTER TE				
-𐦶	t	to			tᵒ			Lo		cursive consonant				U+109B6: MEROITIC CURSIVE LETTER TO				
-𐦷	d	d	a		d			Lo		cursive consonant				U+109B7: MEROITIC CURSIVE LETTER DA				
-𐦲	k	k	a		k			Lo		cursive consonant				U+109B2: MEROITIC CURSIVE LETTER KA				
-𐦳	q	q	a		q			Lo		cursive consonant				U+109B3: MEROITIC CURSIVE LETTER QA				
-𐦯	s	s	a		s			Lo		cursive consonant				U+109AF: MEROITIC CURSIVE LETTER SA				
-𐦰	s	s	a		ṣ			Lo		cursive consonant	Archaic form.			U+109B0: MEROITIC CURSIVE LETTER ARCHAIC SA				
-𐦱	s	se			sᵉ			Lo		cursive consonant				U+109B1: MEROITIC CURSIVE LETTER SE				
-𐦭	x	x	a		x			Lo		cursive consonant				U+109AD: MEROITIC CURSIVE LETTER KHA				
-𐦮	h	h	a		h			Lo		cursive consonant				U+109AE: MEROITIC CURSIVE LETTER HHA				
-𐦨	m	m	a		m			Lo		cursive consonant				U+109A8: MEROITIC CURSIVE LETTER MA				
-𐦩	n	n	a		n			Lo		cursive consonant				U+109A9: MEROITIC CURSIVE LETTER NA				
-𐦪	n	ne			nᵉ			Lo		cursive consonant				U+109AA: MEROITIC CURSIVE LETTER NE				
-𐦥	w	w	a		w			Lo		cursive consonant				U+109A5: MEROITIC CURSIVE LETTER WA				
-𐦫	r	r	a		r			Lo		cursive consonant				U+109AB: MEROITIC CURSIVE LETTER RA				
-𐦬	l	l	a		l			Lo		cursive consonant				U+109AC: MEROITIC CURSIVE LETTER LA				
-𐦤	y	j	a		j			Lo		cursive consonant				U+109A4: MEROITIC CURSIVE LETTER YA				
+𐦧	p	p	a		p	p		Lo		cursive consonant				U+109A7: MEROITIC CURSIVE LETTER PA				
+𐦦	b	b	a		b	b		Lo		cursive consonant				U+109A6: MEROITIC CURSIVE LETTER BA				
+𐦴	t	t	a		t	e		Lo		cursive consonant				U+109B4: MEROITIC CURSIVE LETTER TA				
+𐦵	t	te			tᵉ	te		Lo		cursive consonant				U+109B5: MEROITIC CURSIVE LETTER TE				
+𐦶	t	to			tᵒ	to		Lo		cursive consonant				U+109B6: MEROITIC CURSIVE LETTER TO				
+𐦷	d	ɾ d	a		d	d		Lo		cursive consonant				U+109B7: MEROITIC CURSIVE LETTER DA				
+𐦲	k	k	a		k	k		Lo		cursive consonant				U+109B2: MEROITIC CURSIVE LETTER KA				
+𐦳	q	q	a		q	q		Lo		cursive consonant				U+109B3: MEROITIC CURSIVE LETTER QA				
+𐦯	s	s	a		s	s		Lo		cursive consonant				U+109AF: MEROITIC CURSIVE LETTER SA				
+𐦰	s	s	a		ṣ	s		Lo		cursive consonant	Archaic form.			U+109B0: MEROITIC CURSIVE LETTER ARCHAIC SA				
+𐦱	s	se			sᵉ	se		Lo		cursive consonant				U+109B1: MEROITIC CURSIVE LETTER SE				
+𐦭	x	x	a		x	ḫ		Lo		cursive consonant				U+109AD: MEROITIC CURSIVE LETTER KHA				
+𐦮	h	h	a		h	ẖ		Lo		cursive consonant				U+109AE: MEROITIC CURSIVE LETTER HHA				
+𐦨	m	m	a		m	m		Lo		cursive consonant				U+109A8: MEROITIC CURSIVE LETTER MA				
+𐦩	n	n	a		n	n		Lo		cursive consonant				U+109A9: MEROITIC CURSIVE LETTER NA				
+𐦪	n	ne			nᵉ	ne		Lo		cursive consonant				U+109AA: MEROITIC CURSIVE LETTER NE				
+𐦥	w	w	a		w	w		Lo		cursive consonant				U+109A5: MEROITIC CURSIVE LETTER WA				
+𐦫	r	r	a		r	r		Lo		cursive consonant				U+109AB: MEROITIC CURSIVE LETTER RA				
+𐦬	l	l	a		l	l		Lo		cursive consonant				U+109AC: MEROITIC CURSIVE LETTER LA				
+𐦤	y	j	a		j	y		Lo		cursive consonant				U+109A4: MEROITIC CURSIVE LETTER YA				
 																		
-𐦢	i	i			i			Lo		cursive vowel				U+109A2: MEROITIC CURSIVE LETTER I				
-𐦡	e	e			e			Lo		cursive vowel				U+109A1: MEROITIC CURSIVE LETTER E				
-𐦣	o	o			o			Lo		cursive vowel				U+109A3: MEROITIC CURSIVE LETTER O				
-𐦠	a	a			a			Lo		cursive vowel				U+109A0: MEROITIC CURSIVE LETTER A				
+𐦢	i	i			i	i		Lo		cursive vowel				U+109A2: MEROITIC CURSIVE LETTER I				
+𐦡	e	ə			e	e		Lo		cursive vowel				U+109A1: MEROITIC CURSIVE LETTER E				
+𐦣	o	u			o	o		Lo		cursive vowel				U+109A3: MEROITIC CURSIVE LETTER O				
+𐦠	a	a			a	a		Lo		cursive vowel				U+109A0: MEROITIC CURSIVE LETTER A				
 																		
 																		
-𐦾	g	rmt						Lo		logogram				U+109BE: MEROITIC CURSIVE LOGOGRAM RMT				
-𐦿	g	imn						Lo		logogram				U+109BF: MEROITIC CURSIVE LOGOGRAM IMN				
+𐦾	g	rmt				rmt		Lo		logogram				U+109BE: MEROITIC CURSIVE LOGOGRAM RMT				
+𐦿	g	imn				imn		Lo		logogram				U+109BF: MEROITIC CURSIVE LOGOGRAM IMN				
 																		
 																		
 // space																		
@@ -73,9 +73,9 @@ var spreadsheet = `mero-xmr	key	ipa	ipa+		translit	transc	kbd	class	status	type	
 \u200B	=				ᶻʷˢᵖ			Cf		zero-width space				U+200B: ZERO WIDTH SPACE				
 \u202F	]				ⁿⁿᵇˢᵖ			Zs		nnbsp				U+202F NARROW NO-BREAK SPACE				
 // word separator																		
-⁝	]				•					hieroglyph word separator								
-…					-					hieroglyph word separator	For vertical text.							
-:					 					cursive word separator								
+⁝	]				•			Po		hieroglyph word separator				U+205D: TRICOLON				
+…					-			Po		hieroglyph word separator	For vertical text.			U+2026: HORIZONTAL ELLIPSIS				
+:					 			Po		cursive word separator				U+003A: COLON				
 // formatting characters																		
 \u200C	=				ᶻʷⁿʲ			Cf		zero-width non-joiner				U+200C: ZERO WIDTH NON-JOINER			✓	
 \u200D	=				ᶻʷʲ			Cf		zero-width joiner				U+200D: ZERO WIDTH JOINER			✓	
@@ -160,7 +160,7 @@ var spreadsheet = `mero-xmr	key	ipa	ipa+		translit	transc	kbd	class	status	type	
 𐦽					½			No		fraction				U+109BD: MEROITIC CURSIVE FRACTION ONE HALF				
 `																		
 																		
-latinPanel = 'ä bʷ č'																		
+latinPanel = 'ə ɾ ḫ ẖ'																		
 																		
 var cols = {																		
 key: 1,																		
