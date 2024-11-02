@@ -307,6 +307,15 @@ description: `Ethiopic is an African featural syllabary which derives from the e
 },
 
 
+"gara": {
+dates: `CE 1961 – today`,
+status: `Limited usage (small community)`,
+lineage: `Created by Assane Faye in Senegal and published in January 1961. Some inspiration from Arabic.`,
+siblings: ``,
+description: `Garay (<span lang="ban">𐵹𐵊𐵾𐵊𐵼</span>) is an African bicameral alphabet used in Senegal for the Wolof language. The official script in Senegal for Wolof is Latin, although the Arabic Wolofal script is also used. The user community for Garay is small, including women’s groups and adult literacy for Mandinka as well as for Wolof. The script has been taught informally for more than fifty years since its invention. Faye has written manuscripts including textbooks, folktales, and maps; there also exists a Quran with interlinear translations into Wolof using the Garay script. Garay text is read right-to-left, except for numbers. The orthography is not fully bicameral. Consonant letters, including the word-initial vowel carrier, have uppercase and lowercase forms, but characters used to write vowels do not. Unicode 16 has 1 dedicated block, comprising 69 characters.`
+},
+
+
 "geor": {
 dates: `5thC – today`,
 status: `In active use`,
@@ -358,6 +367,15 @@ status: `Limited usage (low uptake)`,
 lineage: `Phoenician > Aramaic > Brahmi > Gupta > Siddham > Nagari > Gunjala Gondi`,
 siblings: `Modi`,
 description: `Gunjala Gondi (<span lang="ban">𑵶𑶍𑶕𑶀𑵵𑶊 𑵶𑶓𑶕𑶂𑶋 𑵵𑶋𑶅𑶋</span>) is a South Asian abugida used for the Gondi language in India’s northern Telangana, eastern Maharashtra, southeastern Madhya Pradesh, and Chhattisgarh regions. It used to write manuscripts dated ~1750 that were discovered in 2006 in Gunjala, a Gond village in the Indian state of Telangana. Subsequently, interest has been growing in revitalisation of the script. Some publications exist, and teaching materials are used in some villages with a high Gondi population. (This is unrelated to the Masaram Gondi created in 1918.) Gunjala Gondi requires context-sensitive shaping and positioning of glyphs. Unicode 16 has 1 dedicated block, comprising 63 characters.`
+},
+
+
+"gonm": {
+dates: `20thC – today`,
+status: `Limited usage (low uptake)`,
+lineage: `Devised by Munshi Mangal Singh Masaram in 1918, based on Brahmi characters found in other Indian scripts`,
+siblings: ``,
+description: `Masaram Gondi is a South Asian abugida used in India for the Gondi language. It is unrelated to the historic Gunjala Gondi. It requires context-sensitive shaping and positioning of glyphs. Unicode 16 has 1 dedicated block, comprising 75 characters.`
 },
 
 
@@ -601,6 +619,105 @@ status: `Archaic`,
 lineage: `Phoenician > Anatolian > Lydian`,
 siblings: `Carian, Lycian, Phrygian`,
 description: `Lydian was a West Asian monocameral alphabet used in Anatolia for the Lydian language. Lydian is related to the East Greek alphabet, but it has unique features. Early Lydian texts were written either from left to right or from right to left. Later texts all run from right to left. One surviving text uses boustrophedon lines.  Letters don't join or interact with each other, and there are no combining marks. Spaces separate words except in one text that uses dots instead. Unicode 16 has 1 dedicated blocks, comprising just 29 characters.`
+},
+
+
+"mahj": {
+dates: `19thC – 20thC`,
+status: `Archaic`,
+lineage: `Phoenician > Aramaic > Brahmi > Gupta > Sharada > Landa > Mahajani`,
+siblings: `Gurmukhi, Khudabadi, Khojki, Multani`,
+description: `Mahajani (<span lang="mwr">𑅬𑅱𑅛𑅧𑅑‎</span>) is a South Asian abugida used for writing accounts and financial records in Marwari, Hindi and Punjabi. Mahajani has been used as a primary accounting script for Marwari traders and for the use of Hindi and Punjabi in a wide region across northwest India and eastern Pakistan. It was taught in merchant schools as part of the education system. There are no special conjunct forms, and no viramas. Unicode 16 has 1 dedicated block, comprising 39 characters.`
+},
+
+
+"maka": {
+dates: `18thC – 20thC`,
+status: `Archaic`,
+lineage: `Phoenician > Aramaic > Brahmi > Pallava > Kawi > Makasar`,
+siblings: `Balinese, Baybayin scripts, Javanese, Lontara, Old Sundanese, Rencong, Rejang`,
+description: `Makasar (<span lang="mak">𑻪𑻢𑻪𑻢</span>) is an Indonesian abugida used in South Sulawesi to write the Makassarese language. It was later replaced by Buginese. Makasar script was used in manuscripts dealing with history and genealogies, the most widely written and important writing topics by the Buginese and Makassar people. This genre can be divided into several sub-types: genealogy or daily registers, and historical or chronicle records. Makasar is a defective script, meaning that it doesn't represent all the sounds of the spoken language. In particular, syllable-final consonant sounds are not written. Continuous syllables with the same initial consonant are often written in abbreviated form using double diacritics or a repeater letter <i>angka</i> which can then be reattached with a diacritic. Unicode 16 has 1 dedicated block, comprising just 25 characters.`
+},
+
+
+"mand": {
+dates: `CE 2ndC – today`,
+status: `Endangered (largely liturgical)`,
+lineage: `Phoenician > Aramaic > Mandaic`,
+siblings: `Hebrew, Nabataean, Syriac, Palmyrene, Hatran, Elymaic, Pahlavi, Kharoshthi, Brahmi`,
+description: `Mandaic (<span lang="mid">ࡀࡁࡀࡂࡀ</span>) is a West Asian abjad used in Iraq and Iran for Mandaic, a liturgical language of the Mandaean religion (5,000 speakers).  Persecution and war over a long period has reduced the language to a severely endangered level. There may be 200 or less first language speakers of Mandaic. Mandaic text is read right-to-left, except for numbers. Text is cursive, ie. letters join. It requires context-sensitive shaping and positioning of glyphs. Unicode 16 has 1 dedicated block, comprising just 29 characters.`
+},
+
+
+"mani": {
+dates: `CE 3rdC – 10thC`,
+status: `Archaic`,
+lineage: `Phoenician > Aramaic > Syriac > Sogdian > Manichaean`,
+siblings: `Manichaean`,
+description: `Manichaean was a Central Asian abjad used in Persia and on the Silk Road for the Manichaean, Tocharian, and other languages. It was invented by Mani and spread by the followers of his Gnostic religion. Manichaean text is read right-to-left, except for numbers. Text is only partially cursive. It requires context-sensitive shaping and positioning of glyphs. Unicode 16 has 1 dedicated block, comprising 51 characters.`
+},
+
+
+"marc": {
+dates: `CE 16thC – 20thC`,
+status: `Archaic`,
+lineage: `Phoenician > Aramaic > Brahmi > Gupta > Tibetan > Marchen`,
+siblings: `Meitei, Lepcha, Khema, Phagspa`,
+description: `Marchen was a Central Asian abugida used in Tibet by followers of the Tibetan Bön religion for writing the Zhang-zhung language. The Marchen script can be written in two different styles: one with thick angular letters and one with thin rounded ones. Consonant clusters are written just like in Tibetan script by stacking two or more consonants on top of each other vertically. It requires context-sensitive shaping and positioning of glyphs. Unicode 16 has 1 dedicated block, comprising 68 characters.`
+},
+
+
+"medf": {
+dates: `1930s – today`,
+status: `Limited usage (liturgical)`,
+lineage: `Created in 1927`,
+siblings: ``,
+description: `Medefaidrin is an African bicameral alphabet used in Nigeria for for the Medefaidrin artificial language, which is used for religious purposes by members of the Oberi Okaime church in the Cross River State of Nigeria. Speakers consider Medefaidrin to be a 'spirit language', created by two leaders of the church, Michael Ukpong and Akpan Akpan Udofia.  Attempts to teach the script in school were shut down rapidly, but in 1986 Udofia began teaching it again in the church's Sunday school in Ididep. Unicode 16 has 1 dedicated block, comprising 91 characters.`
+},
+
+
+"mend": {
+dates: `1920 – today`,
+status: `Endangered (small community)`,
+lineage: `Created by Mohammed Turay. Inspired by Arabic, Vai, and various indigenous symbols.`,
+siblings: ``,
+description: `Mende Kikakui is an African bicameral syllabary used for writing the Mende language of Sierra Leone. The script was devised by Mohamed Turay (ca. 1850-1923), an Islamic scholar, at a town called Maka (Barri Chiefdom, southern Sierra Leone) around 1917. His writing system, an abugida called 'Kikakui' after the first three consonant sounds, was inspired by the Arabic abjad, the Vai syllabary and certain indigenous Mende pictograms and cryptographic characters. It was widely used in the early 20th century, but later largely replaced by the Latin script. Kikakui is still used today by an estimated few hundred individuals. Mende Kikakui text is read right-to-left. Some of the initial 42 characters resemble an abugida, given the standard ability for a reader to discern the vowels from seeing the character, as indicated by dots in consistent locations, but such uniformity vanishes in the remaining 150 characters. Words are not separated using spaces. Unicode 16 has 3 dedicated blocks, comprising 726 characters.`
+},
+
+
+"merc": {
+dates: `BCE 3rdC – 4thC CE`,
+status: `Archaic`,
+lineage: `Egyptian Hieroglyphs > Hieratic > Demotic > Meroitic`,
+siblings: ``,
+description: `Meroitic Cursive is an African abugida used by the Kush (Meroë) people for the Meroitic language. About 90% of known Meroitic text is written using the cursive characters; the remainder uses a separate set of hieroglyphic inscriptional characters.  The two writing systems are always used separately, and not mixed. Meroitic Cursive text is read right-to-left, except for numbers. Shaping is only required for consonants followed by the vowel /i/, which ligate with the vowel.  There are no combining marks. Words or phrases are commonly separated using a native separator character. Unicode 16 has 1 dedicated block for the cursive forms, comprising 90 characters, however 62 of those are for writing numbers and fractions.`
+},
+
+
+"mero": {
+dates: `BCE 2ndC – 4thC CE`,
+status: `Archaic`,
+lineage: `Egyptian Hieroglyphs > Meroitic`,
+siblings: ``,
+description: `Meroitic Hieroglyphs are an African abugida used by the Kush (Meroë) people for the Meroitic language. About 90% of known Meroitic text is written using the cursive characters; the remainder uses this set of hieroglyphic inscriptional characters.  The two writing systems are always used separately, and not mixed. Unlike Egyptian hieroglyphs, Meroitic text associated with an image of a person or animal is read in direction they are looking (rather than towards their face).  Hieroglyphs may also be found in vertical columns, with lines progressing right to left. No shaping is required for the hierglyphs.  There are no combining marks. Words or phrases are commonly separated using a native separator character. Unicode 16 has 1 dedicated block for the hieroglyph forms, comprising 30 characters.`
+},
+
+
+"mlym": {
+dates: `13thC – today`,
+status: `In active use`,
+lineage: `Phoenician > Aramaic > Brahmi > Tamil-Brahmi > Pallava > Grantha > Malayalam`,
+siblings: `Tigalari, Dives Akuru, Saurashtra`,
+description: `Malayalam (<span lang="ml">മലയാളം</span>) is a South Asian abugida used in Indian for the Malayalam language and 10 others.  It is also widely used for writing Sanskrit texts in Kerala. In the 1970s and 1980s, Malayalam underwent orthographic reform due to printing difficulties. A significant change involved the introduction of a visible virama (chandrakkala) rather than conjunct forms, and simplification of a number of forms, including consonant plus -u/-uu combinations. It requires context-sensitive shaping and positioning of glyphs. Unicode 16 has 1 dedicated block, comprising 118 characters.`
+},
+
+
+"mtei": {
+dates: `11thC – today`,
+status: `Limited usage (low uptake)`,
+lineage: `Phoenician > Aramaic > Brahmi > Gupta > Meetei`,
+siblings: `Tibetan, Lepcha, Khema, ʼPhags-pa, Marchen`,
+description: `Meetei Mayek (<span lang="ban">ꯃꯤꯇꯩ ꯃꯌꯦꯛ</span>) is a South Asian abugida used in India, Bangladesh, and Myanmar for the Meitei language. Used until the 18th century, it was then replaced by the Bengali script but revived again in the 1930s. Beginning in 2021, the Government of Manipur began to use the Meitei alongside the Bengali-Assamese script, per the Manipur Official Language (Amendment) Act. Newspaper publishers agreed that Meitei language newspapers would switch from the Bengali script to the Meitei script from 15 January 2023. Meetei Mayek requires context-sensitive shaping and positioning of glyphs. Unicode 16 has 2 dedicated blocks, comprising 72 characters.`
 },
 
 
