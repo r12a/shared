@@ -1049,6 +1049,13 @@ phraseDB = {
 		sourceURL: "https://unicode.org/udhr/d/udhr_yor.html"
 		},
 
+'wo-gara': { name: 'Wolof (Garay)',
+		text: "𐵚𐵌𐵎𐵲𐵋 𐵰𐵊𐵎𐵺𐵊𐵲𐵊 𐵼𐵩𐵍𐶂𐵪 𐵺𐵊𐶁𐵍𐵌𐵼 𐵵𐵍𐵌𐵺𐵪𐵍𐵌، 𐵼𐵊𐵲 𐵱𐵋 𐵽𐵊𐵷𐶀𐵩𐵎𐵻 𐵱𐵋 𐵶𐵊𐵹 𐵰𐵊𐵳 𐵶𐵊𐵿𐵯. 𐵡𐵩𐵳𐵪 𐶁𐵊 𐵰𐵋𐵽 𐵳𐵍𐵌 𐵻𐵊𐵲 𐵺𐵍𐵊𐵹𐵪 𐵽𐵩 𐵰𐵊𐵎𐶁𐵺 𐶁𐵊 𐵰𐵊𐵳 𐵻𐵩𐵸𐵊𐵲، 𐵽𐵩 𐵷𐵊𐵾 𐶁𐵊𐵎 𐵵𐵍𐵊𐶀𐵸𐵊𐶁𐵽𐵩 𐵊𐵳 𐶁𐵊𐵷𐵸𐵩𐵎𐶁، 𐵽𐵩 𐵽𐵩𐵹 𐵳𐵌 𐵱𐵋 𐵷𐵊𐵎𐵸𐵪𐵍𐵌 𐵴𐵩𐵌𐵳𐵪.",
+		source: "Transcribed by hand from Unicode UDHR, articles 1 & 2",
+		sourceURL: "https://www.unicode.org/udhr/d/udhr_wol.html",
+		dir:"rtl",
+		},
+
 'xlc': { name: 'Lycian',
 		text: "𐊁𐊂𐊚𐊑𐊏𐊚⁚𐊓𐊕𐊑𐊏𐊀𐊇𐊒⁚𐊎𐊚𐊏 𐊁𐊓𐊕𐊑𐊏𐊀𐊇𐊀𐊗𐊚⁚𐊛𐊀𐊏𐊀𐊅𐊀𐊈𐊀⁚𐊛𐊕𐊓𐊓𐊆𐊍𐊀𐊅𐊆⁚𐊁𐊛𐊂𐊆⁚𐊖𐊁𐊗𐊆𐊅𐊁𐊆𐊎𐊁",
 		transcription: "ebẽñnẽ prñnawu mẽn. e prñnawatẽ hanadaza hrppi ladi ehbi setideime",
@@ -1089,10 +1096,18 @@ phraseDB = {
 		sourceURL: "https://www.unicode.org/L2/L2011/11123r-n4029r-manichaean.pdf fig. 6"
 		},
 
-'xmr': { name: 'Meroitic',
-		text: "𐦣𐦤𐦥𐦦𐦮𐦯𐦰 𐦀𐦁𐦂𐦃𐦄𐦅𐦆 𐦱𐦲𐦳𐦴𐦵𐦶𐦷 𐦾𐦿𐦧𐦨𐦩𐦪𐦫 𐦑𐦒𐦓𐦔𐦠𐦡𐦢 𐦜𐦝𐦞𐦟𐦎𐦏𐦐",
-		source: "Noto font preview text.",
-		sourceURL: "https://fonts.google.com/noto/specimen/Noto+Sans+Meroitic"
+'xmr-merc': { name: 'Meroitic Cursive',
+		text: "𐦥𐦣𐦯:𐦥𐦡𐦴𐦪𐦤𐦢𐦪𐦳𐦡𐦬𐦢:𐦳𐦫𐦢:𐦨𐦡𐦴𐦫𐦫𐦢𐦳𐦣:𐦴𐦨𐦡𐦤𐦡𐦳𐦣𐦥𐦢:𐦤𐦢𐦳𐦫𐦡𐦲𐦤𐦡:𐦵𐦫𐦢𐦲𐦡𐦬𐦢 𐦵𐦫𐦢𐦲𐦡𐦬𐦣𐦥𐦢𐦲 𐦷𐦢𐦡𐦫𐦤𐦡:𐦵𐦷𐦭𐦡𐦬𐦢 𐦵𐦷𐦭𐦡𐦬𐦣𐦥𐦢 𐦯𐦣𐦯𐦣𐦪𐦵𐦡𐦬𐦦 𐦤𐦡𐦴𐦨𐦷𐦡𐦬𐦣𐦥𐦢𐦭𐦫𐦧 𐦭𐦪𐦲𐦡𐦯𐦣𐦤𐦡 𐦤𐦡𐦴𐦨𐦷𐦡𐦬𐦣𐦥𐦢𐦧𐦡 𐦫𐦢𐦵:𐦠𐦷𐦦𐦡𐦢𐦯 𐦱𐦳𐦴𐦢𐦲𐦬𐦤𐦡 𐦴𐦨𐦷𐦡𐦬𐦣𐦥𐦢:",
+		source: "Omniglot.",
+		sourceURL: "https://www.omniglot.com/writing/meroitic.htm",
+		dir:"rtl",
+		},
+
+'xmr-mero': { name: 'Meroitic Hieroglyphs',
+		text: "𐦃𐦅𐦓⁝𐦅𐦁𐦘𐦌𐦄𐦂𐦌𐦗𐦁𐦐𐦂⁝𐦗𐦎𐦂⁝𐦉𐦁𐦘𐦎𐦎𐦂𐦗𐦃⁝𐦘𐦉𐦁𐦄𐦁𐦗𐦃𐦅𐦂⁝𐦄𐦂𐦗𐦎𐦁𐦖𐦄𐦁⁝𐦚𐦎𐦂𐦖𐦁𐦐𐦂⁝𐦚𐦎𐦂𐦖𐦁𐦐𐦃𐦅𐦂𐦖⁝𐦝𐦂𐦁𐦎𐦄𐦁⁝𐦚𐦝𐦑𐦁𐦐𐦂⁝𐦚𐦝𐦑𐦁𐦐𐦃𐦅𐦂⁝𐦓𐦃𐦓𐦃𐦌𐦚𐦁𐦐𐦆⁝𐦄𐦁𐦘𐦉𐦝𐦁𐦐𐦃𐦅𐦂𐦑𐦎𐦈⁝𐦑𐦌𐦖𐦁𐦓𐦃𐦄𐦁⁝𐦄𐦁𐦘𐦉𐦝𐦁𐦐𐦃𐦅𐦂𐦈𐦁⁝𐦎𐦂𐦚⁝𐦀𐦝𐦆𐦁𐦂𐦓⁝𐦕𐦗𐦘𐦂𐦖𐦐𐦄𐦁⁝𐦘𐦉𐦝𐦁𐦐𐦃𐦅𐦂",
+		source: "Omniglot, hand-converted from Meroitic Cursive.",
+		sourceURL: "https://www.omniglot.com/writing/meroitic.htm",
+		dir:"rtl",
 		},
 
 'xpr': { name: 'Inscriptional Parthian',

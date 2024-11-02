@@ -427,7 +427,7 @@ var fontDB = [
 { name:"Noto Sans Masaram Gondi",system:new Set([goog]), locales:new Set(['gonm']), style:'sans' },
 { name:"Noto Sans Medefaidrin",system:new Set([goog]), locales:new Set(['medf']), style:'sans' },
 { name:"Noto Sans Meetei Mayek",system:new Set([goog]), locales:new Set(['mtei']), style:'sans' },
-{ name:"Noto Sans Meroitic",system:new Set([goog]), locales:new Set(['merc']), style:'sans' },
+{ name:"Noto Sans Meroitic",system:new Set([goog]), locales:new Set(['merc', 'mero']), style:'sans' },
 { name:"Noto Sans Miao",	system:new Set([goog]), locales:new Set(['plrd']), style:'sans' },
 { name:"Noto Sans Modi",	system:new Set([goog]), locales:new Set(['modi']), style:'sans' },
 { name:"Noto Sans Mongolian",system:new Set([goog]), locales:new Set(['mong']), style:'sans' },
