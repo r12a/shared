@@ -312,7 +312,7 @@ dates: `CE 1961 – today`,
 status: `Limited usage (small community)`,
 lineage: `Created by Assane Faye in Senegal and published in January 1961. Some inspiration from Arabic.`,
 siblings: ``,
-description: `Garay (<span lang="ban">𐵹𐵊𐵾𐵊𐵼</span>) is an African bicameral alphabet used in Senegal for the Wolof language. The official script in Senegal for Wolof is Latin, although the Arabic Wolofal script is also used. The user community for Garay is small, including women’s groups and adult literacy for Mandinka as well as for Wolof. The script has been taught informally for more than fifty years since its invention. Faye has written manuscripts including textbooks, folktales, and maps; there also exists a Quran with interlinear translations into Wolof using the Garay script. Garay text is read right-to-left, except for numbers. The orthography is not fully bicameral. Consonant letters, including the word-initial vowel carrier, have uppercase and lowercase forms, but characters used to write vowels do not. Unicode 16 has 1 dedicated block, comprising 69 characters.`
+description: `Garay (<span lang="wo-gara">𐵹𐵊𐵾𐵊𐵼</span>) is an African bicameral alphabet used in Senegal for the Wolof language. The official script in Senegal for Wolof is Latin, although the Arabic Wolofal script is also used. The user community for Garay is small, including women’s groups and adult literacy for Mandinka as well as for Wolof. The script has been taught informally for more than fifty years since its invention. Faye has written manuscripts including textbooks, folktales, and maps; there also exists a Quran with interlinear translations into Wolof using the Garay script. Garay text is read right-to-left, except for numbers. The orthography is not fully bicameral. Consonant letters, including the word-initial vowel carrier, have uppercase and lowercase forms, but characters used to write vowels do not. Unicode 16 has 1 dedicated block, comprising 69 characters.`
 },
 
 
@@ -439,6 +439,42 @@ status: `Archaic`,
 lineage: `Phoenician > Aramaic > Brahmi > Pallava > Mon-Burmese > Lik-tai > Ahom`,
 siblings: `Tai Le, Khamti`,
 description: `Anatolian Hieroglyphs consitute an Anatolian logo-syllabary, written boustrophedon, used to write the Luwian language. Unicode 16 has 1 dedicated block, comprising 583 characters.`
+},
+
+
+"hmng": {
+dates: `CE 1959 – today`,
+status: `In use`,
+lineage: `Invented by Shong Lue Yang in 1959`,
+siblings: ``,
+description: `Pahawh Hmong (<span lang="mww">𖬖𖬰𖬝𖬵 𖬄𖬶𖬟 𖬌𖬣𖬵</span>) is a Southeast Asian alphabet used to write two Hmong languages, Hmong Daw (Hmoob Dawb White Miao) and Hmong Njua (Hmong Leng, or Moob Leeg Green Miao). Over twelve years Shong Lue Yang and his disciples taught Pahawh Hmong as part of a Hmong cultural revival movement, mostly in Laos after Shong had fled Communist Vietnam. He produced four increasingly sophisticated versions, until he was assassinated by Laotian soldiers in 1971 to stop his growing influence as part of the opposition resistance. Each syllable is written with two letters, a consonant onset and a rime (vowel, diphthong, or vowel plus final consonant). The script as a whole is read left-to-right but each syllable is written right-to-left. Pahawh Hmong requires context-sensitive shaping and positioning of glyphs. Unicode 16 has 1 dedicated block, comprising 127 characters.`
+},
+
+
+"hmnp": {
+dates: `1980s – today`,
+status: `Limited usage (liturgical)`,
+lineage: `Invented in the 1980s by Reverend Chervang Kong`,
+siblings: ``,
+description: `Nyiakeng Puachue Hmong (<span lang="ban">𞄐𞄦𞄲𞄤𞄎𞄫𞄰𞄚𞄧𞄲𞄤𞄔𞄬𞄱‎</span>) is an American monocameral alphabet devised for White Hmong and Green Hmong within the United Christians Liberty Evangelical Church, which moved around California, Minnesota, Wisconsin, North Carolina, Colorado, and many other states. It is reported to have some use in Laos, Thailand, Vietnam, France, and Australia. It is used in printed material and videos. Nyiakeng Puachue Hmong requires context-sensitive  positioning of glyphs. Five characters are used as determinatives  to indicate that the preceding noun is the name of a person, place, thing, vertebrate or invertebrate animal, or a pet name for an animal. They are not pronounced, but help distinguish homophones, and appear as the last character in a word (not separated by a space). Tones are marked using combining marks. Spaces separate phrases, rather than words. Unicode 16 has 1 dedicated block, comprising 71 characters.`
+},
+
+
+"hung": {
+dates: `9thC – today`,
+status: `Limited usage (low uptake)`,
+lineage: `Phoenician > Aramaic > Syriac > Sogdian > Old Turkic > Old Hungarian`,
+siblings: ``,
+description: `Old Hungarian (<span lang="hu" dir="rtl">𐲥𐳋𐳓𐳉𐳗-𐲘𐳀𐳎𐳀𐳢 𐲢𐳛𐳮𐳀𐳤‎</span>) is a European monocameral alphabet used in Hungary to write Hungarian. Since 1915 various attempts have been made to revive the script, especially tied to a nationalist subculture and young people. Publications exist in books, magazines, teaching materials, etc, and it is used on road signage in Budapest. The revival has become part of a significant ideological nationalist subculture present not only in Hungary (largely centered in Budapest), but also amongst the Hungarian diaspora, particularly in the United States and Canada. Old Hungarian text is read right-to-left. There are no combining marks. Words are separated using a character with 3 vertical dots. Unicode 16 has 1 dedicated block, comprising 108 characters.`
+},
+
+
+"ital": {
+dates: `BCE 8thC – BCE 1stC`,
+status: `Archaic`,
+lineage: `Phoenician > Greek > Old Italic`,
+siblings: `Anatolian, Armenian, Coptic, Cyrillic, Georgian, Glagolitic, Gothic`,
+description: `Old Italic is a family of European monocameral alphabets used in today’s Italy for Etruscan, Oscan, Umbrian, Venetic and other languages. A notable member is the Etruscan alphabet, which was the immediate ancestor of the Latin. There are no combining marks, and little need, if any, for context-sensitive shaping or positioning. Unicode 16 has 1 dedicated block, comprising 39 characters.`
 },
 
 
@@ -712,12 +748,273 @@ description: `Malayalam (<span lang="ml">മലയാളം</span>) is a South A
 },
 
 
+"modi": {
+dates: `17thC – today`,
+status: `Endangered`,
+lineage: `Phoenician > Aramaic > Brahmi > Gupta > Siddham > Nagari > Modi`,
+siblings: `Gujarati, Kaithi, Devanagari, Nandinagari, Gunjala Gondi`,
+description: `Modi (<span lang="mt">𑘦𑘻𑘚𑘲</span>) is a South Asian abugida used in Maharashtra State, India for the Marathi language. The use of Modi has diminished since the independence of India. Now the Balbodh style of Devanagari is the primary script used to write Marathi. However, some linguists in Pune have recently begun trying to revive the script. The Modi script has several characteristics that minimise having to lift the pen from the paper for dipping in ink while moving from one character to the next, and can be seen as a kind of cursive style of writing Marathi. It requires context-sensitive shaping and positioning of glyphs. Letters have a headstroke, which may be used as a hanging baseline. Unicode 16 has 1 dedicated block, comprising 79 characters.`
+},
+
+
+"mong": {
+dates: `13thC – today`,
+status: `In active use`,
+lineage: `Phoenician > Aramaic > Syriac > Sogdian > Old Uighur > Mongolian`,
+siblings: ``,
+description: `Mongolian (<span lang="ban">ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ</span>) is a Central Asian monocased alphabet used in Mongolia, China, and Russia for 10 languages including Mongolian, Xibe, Manchu, and Altai. In Mongolia the traditional script was replaced by a Cyrillic orthography in the early 1940s, but revived in the 1990s, so that both scripts are now used in tandem. The script is also used within the Inner Mongolia Autonomous Region of the People’s Republic of China and elsewhere in China. Mongolian text is read in vertical lines, that progress (unlike Chinese and Japanese) from left to right. Text is cursive, ie. letters join. It requires context-sensitive shaping and positioning of glyphs. It has a vertical, central baseline. Words are  separated using spaces, but there are also gaps within words where line-breaks should not occur. Unicode 16 has 2 dedicated blocks, comprising 171 characters.`
+},
+
+
+"mroo": {
+dates: `1980s – today`,
+status: `Limited usage (small community)`,
+lineage: `Invented by Menlay Murang (or Manley Mro) in the 1980s`,
+siblings: ``,
+description: `Mro is a South Asian monocameral alphabet used to write the Mru language. Mru (or Mro) is a Tibeto-Burman language spoken primarily in Bangladesh with a few speakers in India. According to the Unicode script proposal, literacy levels for this script exceed 80% among the 100,000 Mro. Education in the script is available up to grade 3. There are no combining marks or special forms for consonant clusters. Unicode 16 has 1 dedicated block, comprising 43 characters.`
+},
+
+
 "mtei": {
 dates: `11thC – today`,
 status: `Limited usage (low uptake)`,
 lineage: `Phoenician > Aramaic > Brahmi > Gupta > Meetei`,
 siblings: `Tibetan, Lepcha, Khema, ʼPhags-pa, Marchen`,
 description: `Meetei Mayek (<span lang="ban">ꯃꯤꯇꯩ ꯃꯌꯦꯛ</span>) is a South Asian abugida used in India, Bangladesh, and Myanmar for the Meitei language. Used until the 18th century, it was then replaced by the Bengali script but revived again in the 1930s. Beginning in 2021, the Government of Manipur began to use the Meitei alongside the Bengali-Assamese script, per the Manipur Official Language (Amendment) Act. Newspaper publishers agreed that Meitei language newspapers would switch from the Bengali script to the Meitei script from 15 January 2023. Meetei Mayek requires context-sensitive shaping and positioning of glyphs. Unicode 16 has 2 dedicated blocks, comprising 72 characters.`
+},
+
+
+"mult": {
+dates: `16thC – 20thC`,
+status: `Archaic`,
+lineage: `Phoenician > Aramaic > Brahmi > Gupta > Sharada > Landa > Multani`,
+siblings: `Gurmukhi, Khudabadi, Khojki, Mahajani`,
+description: `Multani (<span lang="skr">𑊠𑊂𑊣𑊖𑊚𑊁</span>) is a South Asian abugida used in India and Pakistan for the Saraiki language. The script was used for routine writing and commercial activities. Multani is one of four Landa scripts whose usage was extended beyond the mercantile domain and formalized for literary activity and printing (the others being Gurmukhi, Khojki, and Khudabadi). In the latter half of the 19th century, the British administration introduced the Arabic script as the standard for the languages of Sindh, which led to the demise of the Multani script. There are no combining marks. Vowels other than the inherent vowel are represented by standalone letters. Unicode 16 has 1 dedicated block, comprising 37 characters.`
+},
+
+
+"mymr": {
+dates: `11thC – today`,
+status: `In active use`,
+lineage: `Phoenician > Aramaic > Brahmi > Kadamba/Pallava > Pyu/Old Mon > Mon Burmese > Myanmar`,
+siblings: `Mon, Sgaw Karen, Shan, Tai Tham, Chakma, Ahom, Tai Le, Khamti`,
+description: `Myanmar (<span lang="my">မြန်မာအက္ခရာ</span>) is a Southeast Asian abugida used used to write Burmese and, with various extensions and adaptations, for 28 other languages in the region, such as Mon, Karen, Kayah, Shan, and Palaung. It is also used to write Pali and Sanskrit. Myanmar requires context-sensitive shaping and positioning of glyphs. Consonant stacks are common, and syllable-final consonants are indicated using the asat combining mark. Burmese tones are indicated using a particular vowel, or by combining a vowel and one of 2 combining marks, whereas when the script is used for Shan tones are indicated using as set of dedicated combining marks. Words are not separated using spaces. Unicode 16 has 4 dedicated blocks, comprising 243 characters.`
+},
+
+
+"nagm": {
+dates: `1982 – today`,
+status: `Limited usage (still establishing)`,
+lineage: `Invented by Rohidas Singh Nag in late 1980`,
+siblings: ``,
+description: `Nag Mundari is a South Asian monocameral alphabet used for the Mundari language (spoken by just over 1 million people) in northeast India, primarily in the states of Jharkand, West Bengal, and Odisha. The Unicode proposal describes a 'huge' surge of interest in recent years in the script, with schools teaching Mundari Bani as well as workshops in many Munda-inhabited districts. The state government of Odisha runs the Multilingual Education (MLE) Programme for tribal children to teach children their mother tongue and Mundari is one of the languages covered in their programme. It is estimated that approximately 10% of Mundari speakers can read Mundari Bani. There are no conjunct forms or ligatures, and only a few combining marks, so there is little context-sensitive positioning of glyphs. Unicode 16 has 1 dedicated block, comprising 42 characters.`
+},
+
+
+"nand": {
+dates: `CE 8thC – 18thC`,
+status: `Archaic`,
+lineage: `Phoenician > Aramaic > Brahmi > Gupta > Siddham > Nagari > Nandinagari`,
+siblings: `Devanagari, Kaithi, Gujarati, Modi`,
+description: `Nandinagari was a South Asian abugida used in the central Deccan region and south India for Sanskrit manuscripts. Numerous Sanskrit manuscripts written in Nandinagari have been discovered in South India, but it is one of the least documented and studied ancient scripts of India. These cover Vedas, philosophy, commentaries on ancient works, mythology, science and arts. These are preserved in manuscript libraries, particularly those in the southern regions of the country. Nandinagari requires context-sensitive shaping and positioning of glyphs. Unicode 16 has 1 dedicated block, comprising 65 characters.`
+},
+
+
+"narb": {
+dates: `BCE 550 – 4thC CE`,
+status: `Archaic`,
+lineage: `Proto-Sinaitic > South Semitic > Ancient North Arabian`,
+siblings: `Ancient South Arabian`,
+description: `Old North Arabian is a family of West Asian abjads used in north and central Arabia and south Syria, presumably for Old Arabic, Dadanitic, and Taymanitic. The term "Ancient North Arabian" is defined negatively; it refers to all of the South Semitic scripts except Ancient South Arabian regardless of their genetic relationships. Text is read right-to-left. Otherwise, rendering is straightforward, there are no combining marks. Unicode 16 has 1 dedicated block, comprising 32 characters.`
+},
+
+
+"nbat": {
+dates: `BCE 2ndC – 4thC CE`,
+status: `Archaic`,
+lineage: `Phoenician > Aramaic > Nabataean`,
+siblings: `Hebrew, Nabataean, Syriac, Palmyrene, Hatran, Mandaic, Elymaic, Pahlavi, Kharosthi, Brahmi`,
+description: `Nabataean is a West Asian abjad used in Jordan, Egypt (Sinai), Israel, and Saudi Arabic for Nabataean Aramaic and Arabic. This is the parent of the Arabic script. Nabataean is only known through inscriptions and, more recently, a small number of papyri; more than 95% are extremely short inscriptions or graffiti. Nabataean text is read right-to-left. Text is nto cursive. Words are separated using spaces. Unicode 16 has 1 dedicated block, comprising 40 characters.`
+},
+
+
+"newa": {
+dates: `11thC – today`,
+status: `Limited usage (low uptake)`,
+lineage: `Phoenician > Aramaic > Brahmi > Gupta > Siddham > Nepali > Newa`,
+siblings: `Ranjana, Bujimol`,
+description: `Newa (<span lang="new">𑐣𑐾𑐰𑐵𑑅 𑐨𑐵𑐫𑑂</span>) is a South Asian abugida used in Nepal for the Newari language, and a few others including Hindi, Bengali, Maithili, and Sanskrit. The Newar language is mostly written in Devanagari, but there is a movement to promote more use of the Newa script. A unusual feature of Newa orthography is that vowel signs with a wavy horizontal line replace the flat headstroke of the base consonant. Newa also has many consonant-vowel ligatures. It requires context-sensitive shaping and positioning of glyphs. Unicode 16 has 1 dedicated block, comprising 97 characters.`
+},
+
+
+"nkoo": {
+dates: `1949 – today`,
+status: `In active use`,
+lineage: `Devised by Sùlemáana Kántɛ in 1949. Draws inspiration from Arabic`,
+siblings: ``,
+description: `N’Ko (<span lang="nqo">ߒߞߏ</span>) is an Africa unicameral alphabet used mainly in Guinea and Côte d'Ivoire (by Maninka and Dyula speakers, respectively), and an active user community in Mali (by Bamanan speakers). Publications include a translation of the Quran, a variety of textbooks on subjects such as physics and geography, poetic, and philosophical works, descriptions of traditional medicine, a dictionary, and several local newspapers. The koiné language is understandable by all literate Manding speakers and is used in situations where speakers of different Manding languages need a neutral means of communication. N’Ko text is read right-to-left, including (unusually!) numbers. Text is cursive, ie. letters join. It requires context-sensitive shaping and positioning of glyphs. Tone and vowel length are indicated together by a set of combining marks. Unicode 16 has 1 dedicated block, comprising 62 characters.`
+},
+
+
+"nshu": {
+dates: `13thC – today`,
+status: `Limited usage (low uptake)`,
+lineage: `Oracle bones > Bronze script > Seal script > Clerical script > Regular script > Nüshu`,
+siblings: `Balinese, Baybayin scripts, Javanese, Lontara, Makasar, Old Sundanese, Rencong, Rejang`,
+description: `Nüshu (<span lang="zh">𛆁𛈬‎</span>) is an East Asian logo-syllabary used by ethnic Yao women in Jiangyong County in Hunan province of southern China, mainly for the Chinese dialect Xiangnan Tuhua. It almost went extinct, but from the early 21st century there have been official efforts to revitalize the script, as well as indications of renewed interest among the wider public. Nüshu works were a way for women to lament by communicating sorrows, commiserating over Chinese patriarchy, and establishing connections with an empathetic community by letters and songs. Nüshu text is read in vertical columns that progress from right to left. Words are not separated using spaces. Unicode 16 has 1 dedicated block, comprising 396 characters.`
+},
+
+
+"ogam": {
+dates: `CE 5thC – 7thC`,
+status: `Archaic`,
+lineage: `Unknown`,
+siblings: ``,
+description: `Ogham (<span lang="sga">᚛ᚑᚌᚐᚋ᚜</span>) is a European alphabet used in Ireland, Wales, Devon, Cornwall, and on the Isle of Man, for the Primitive Irish, Old Irish, Pictish, and Old Norse languages. There are roughly 400 surviving orthodox inscriptions on stone monuments throughout Ireland and western Britain, the bulk of which are in southern Munster. The largest number outside Ireland are in Pembrokeshire, Wales. The vast majority of the inscriptions consist of personal names. Ogham text is read written bottom-to-top, left-to-right or boustrophedon, typically along the edge of a stone or wood. Text is cursive, ie. letters join, but the positional shapes for a given letter don't vary. An Ogham space mark extends the baseline, or is blank, depending on the style. Unicode 16 has 1 dedicated block, comprising just 29 characters.`
+},
+
+
+"olck": {
+dates: `1920s – today`,
+status: `In active use`,
+lineage: `Invented in the 1920s by Pandit Raghunath Murmu`,
+siblings: ``,
+description: `Ol Chiki (<span lang="sat">ᱚᱞ ᱪᱤᱠᱤ</span>) is a South Asian monocameral alphabet used in India, Bangladesh and Nepal for Santhali (6 million speakers), alongside Devanagari, Bengali, Oriya and Latin. It is primarily used for the southern dialect of Santali, and has received some official recognition. It has been used for other Munda languages. Text is straightfoward, there are no combining marks. Unicode 16 has 1 dedicated block, comprising 48 characters.`
+},
+
+
+"onao": {
+dates: `1992 – today`,
+status: `Limited usage (small community)`,
+lineage: `Created between 1981 and 1992 by Ol Guru Mahendra Nath Sardar`,
+siblings: ``,
+description: `Ol Onal is a South Asian monocameral alphabet used in some parts of West Bengal, Jharkhand, Orissa, and Assam, to write the Bhumij language. Bhumij is considered an extremely endangered language. It was initially designed by Sardar as a bicameral script, where the lowercase letters were known as Galang Onal, however only the capital letters called Ol Onal have been used for teaching and printed books. Ol Onal has only 2 combining marks (for nasalisation and vowel lengthening), and otherwise is very straightforward, requiring no context-sensitive shaping or positioning of glyphs. Unicode 16 has 1 dedicated block, comprising 44 characters.`
+},
+
+
+"orkh": {
+dates: `8thC – 9thC`,
+status: `Archaic`,
+lineage: `Phoenician > Aramaic > Syriac > Sogdian > Old Turkic`,
+siblings: `Manichaean, Old Uyghur`,
+description: `Old Turkic (or Orkhon Runic) was a Central/North Asian monocameral alphabet used in Mongolia and Siberia by the Goktürks and other early Turkic khanates to record the Old Turkic language. The Old Turkic corpus consists of about two hundred inscriptions, plus a number of manuscripts. Old Turkic text is read right-to-left, or may be boustrophedon. There are no combining marks, and no context-sensitive shaping or positioning of glyphs. A colon-like symbol is sometimes used as a word separator, or sometimes a ring. Unicode 16 has 1 dedicated block, comprising 73 characters.`
+},
+
+
+"orya": {
+dates: `CE 1051 – today`,
+status: `In active use`,
+lineage: `Phoenician > Aramaic > Brahmi > Gupta > Siddham > Gaudi > Odia`,
+siblings: `Bengali, Tirhuta, Nagari, Nepali`,
+description: `Odia (or Oriya, <span lang="ban">ଓଡ଼ିଆ ଅକ୍ଷର</span>) is a South Asian abugida used in the Indian Odisha (Orissa) state to write the Odia language, as well as 21 other minority languages such as Khondi and Santali, and a number of Dravidian and Munda minority languages spoken in that region. It is also used in Orissa for transcribing Sanskrit texts. The language and script were previously referred to in English as Oriya, but in 2011 India constitutionally changed the spelling to Odia. Consonant clusters are rendered using conjuncts, and Odia requires context-sensitive shaping and positioning of glyphs. Unicode 16 has 1 dedicated block, comprising 91 characters.`
+},
+
+
+"osge": {
+dates: `CE 2006 – today`,
+status: `Limited usage (small community)`,
+lineage: `Phoenician > Greek > Old Italic > Latin > Osage`,
+siblings: ``,
+description: `Osage (<span lang="ban">𐓏𐓘𐓻𐓘𐓻𐓟 𐓣𐓟</span>) is an American bicameral alphabet used in Oklahoma for the Osage language. The Osage language has been written using Latin characters since the mid-1800s, but there was no standardised spelling; writers simply used the Latin letters to represent the sounds as they felt fit. Around 2006, a new orthography was developed, building on the Latin letters but creating a new set of glyphs for many sounds, and it was enthusiastically received by students and teachers. Vowels are represented by standalone letters and letters are not combined as ligatures or conjuncts. Osage has only a few combining marks (which are encoded outside the Osage Unicode block). So Osage doesn't need shaping, but does need context-sensitive positioning of glyphs. Unicode 16 has 1 dedicated block, comprising 72 characters.`
+},
+
+
+"osma": {
+dates: `CE 1920 – 1973`,
+status: `Archaic`,
+lineage: `Invented by Osman Yusuf Kenadid in 1920`,
+siblings: ``,
+description: `Osmanya (<span lang="ban">𐒍𐒖𐒇𐒂𐒖 𐒋𐒘𐒈𐒑𐒛𐒒𐒕𐒖</span>) is an African monocameral alphabet used in Somalia for the Somali language. While Osmanya gained reasonably wide acceptance in Somalia and quickly produced a considerable body of literature, it proved difficult to spread among the population due to competition from Arabic and Latin scripts. In October 1972, President Mohamed Siad Barre required Latin for writing Somali and launched a massive literacy campaign designed to ensure its sole adoption, which led to a sharp decline in use of Osmanya. Vowels are represented by standalone letters and letters are not combined as ligatures or conjuncts. There are no combining marks. Unicode 16 has 1 dedicated block, comprising 40 characters.`
+},
+
+
+"ougr": {
+dates: `8thC – 18thC`,
+status: `Archaic`,
+lineage: `Phoenician > Aramaic > Syriac > Sogdian > Old Uighur`,
+siblings: `Manichaean, Old Turkic`,
+description: `Old Uighur was a Central Asian abjad/alphabet used in Turpan and Gansu for the Old Uighur language. The Uyghur adopted this script from local inhabitants when they migrated into Turfan after 840. Old Turkic text is traditionally written vertically, in columns that (unlike Chinese, but like Traditional Mongolian) progress left to right. Though the script originated from a semitic abjad, the practice of leaving short vowels unrepresented was almost completely abandoned in favour of matres lectionis, leading to a script that was more like an alphabet. The script requires context-sensitive shaping and positioning of glyphs. Unicode 16 has 1 dedicated block, comprising just 26 characters.`
+},
+
+
+"palm": {
+dates: `BCE 1stC – 3rdC CE`,
+status: `Archaic`,
+lineage: `Phoenician > Aramaic > Palmyrene`,
+siblings: `Ammonite, Brahmi, Edessan, Elymaic, Hatran, Hebrew, Mandaic, Nabataean, Pahlavi, Parthian`,
+description: `Palmyrene is a West Asian abjad used in Syria to write Palmyrene Aramaic. Palmyrene language and script declined after Palmyra was sacked by Roman Emperor Aurelian, and was replaced with Greek and Latin. Palmyrene text is read right to left, including its non-decimal numbers. Text is not cursive. There are no combining marks. Words are not separated using spaces or punctuation. Unicode 16 has 1 dedicated block, comprising 32 characters, of which 7 are numerics.`
+},
+
+
+"perm": {
+dates: `1376 – 17thC`,
+status: `Archaic`,
+lineage: `Phoenician > Greek > Cyrillic > Old Permic`,
+siblings: ``,
+description: `Old Permic was a European monocameral alphabet used in the West of the Ural mountains for the Komi language. The script was introduced by a Russian missionary, Stephen of Perm, in 1372 and was superceded by Cyrillic in the 17th century. It was also used as cryptographic writing for the Russian language. It requires context-sensitive positioning of glyphs for the small number of combining marks. Unicode 16 has 1 dedicated block, comprising 43 characters.`
+},
+
+
+"phag": {
+dates: `CE 1260 – 1368`,
+status: `Archaic`,
+lineage: `Phoenician > Aramaic > Brahmi > Gupta > Tibetan > Phags-pa`,
+siblings: `Lepcha, Meitei, Khema, Marchen, Tamyig`,
+description: `Phags-pa (<span lang="bo">ꡏꡡꡃ ꡣꡡꡙ ꡐꡜꡞ</span>) is a Central Asian abugida used in China and the surrounding area, as a unified script for the written languages within the Yuan empire. The script was used to write and transcribe varieties of Chinese, the Tibetic languages, Mongolian, the Uyghur language, Sanskrit, probably Persian, as well as other neighboring languages during the Yuan era. It fell out of use with the advent of the Ming dynasty. Phags-pa text is read vertically in columns that run from right to left. Phags-pa is a transitional script between an abugida, a syllabary, and a full alphabet. The letters of a Phags-pa syllable are linked together so that they form syllabic blocks. It requires context-sensitive shaping and positioning of glyphs. Unicode 16 has 1 dedicated block, comprising 56 characters.`
+},
+
+
+"phli": {
+dates: `CE 2ndC – 5thC`,
+status: `Archaic`,
+lineage: `Phoenician > Aramaic > Pahlavi > Inscriptional Pahlavi`,
+siblings: ``,
+description: `Inscriptional Pahlavi is a West Asian abjad used in Persia for Middle Iranian languages. Pahlavi is a particular, exclusively written form of the languages. Inscriptional Pahlavi text is read right-to-left. There are no combining marks, and it requires neither context-sensitive shaping nor positioning of glyphs. Unicode 16 has 1 dedicated block, comprising only 27 characters, of which 8 are numeric digits.`
+},
+
+
+"phlp": {
+dates: `CE 6thC – 7thC`,
+status: `Archaic`,
+lineage: `Phoenician > Aramaic > Pahlavi > Psalter Pahlavi`,
+siblings: ``,
+description: `Psalter Pahlavi is a West Asian abjad used for Middle Iranian languages. It is not widely attested. Pahlavi is a particular, exclusively written form of the languages. Psalter Pahlavi text is read right-to-left, and is a cursive script, ie. some letters are joined at the baseline.  The script requires context-sensitive shaping and positioning of glyphs. Unicode 16 has 1 dedicated block, comprising only 29 characters, of which 11 are numeric digits or punctuation.`
+},
+
+
+"phnx": {
+dates: `BCE 12thC – BCE 2ndC`,
+status: `Archaic`,
+lineage: `Egyptian Hieroglyphs > Proto-Sinaitic > Phoenician`,
+siblings: `South Semitic`,
+description: `Phoenician is a West Asian/European/African abjad used around the Mediterranean for the Phoenician and Punic languages. It was used to write Canaanite languages spoken during the Early Iron Age, including Phoenician, Hebrew, Moabite, Ammonite and Edomite, as well as Old Aramaic. It was widely disseminated outside of the Canaanite sphere by Phoenician merchants across the Mediterranean, where it was adopted and adapted by other cultures. It was used in Ancient Carthage until the 2nd century BC to write the Punic language. Phoenician text is read from right to left. There are no combining marks, and it requires neither context-sensitive shaping nor positioning of glyphs. Unicode 16 has 1 dedicated block, comprising only 29 characters, of which 7 are numeric or punctuation.`
+},
+
+
+"plrd": {
+dates: `CE 1904 – today`,
+status: `Limited usage (low uptake)`,
+lineage: `Devanagari & Pitman shorthand > Canadian syllabics > Pollard / Miao`,
+siblings: ``,
+description: `Miao (or Pollard Script) is an East Asian alphabet used southern China and Southeast Asia for 12 languages, including A-Hmao, Lipo, and Hmong Maw. Despite numerous attempts to define a romanised orthography, the Pollard or Miao script is still the primary script for writing the A-Hmao language, and is also used for other dialects and languages such as Lisu and Yi. Literacy in the orthography described here is high, and in addition to Bible translations it has been used for a large number of hand-written traditional songs and stories, for bilingual educational materials, and elementary textbooks. The script was invented by James Pollard and others, and was first used in 1905. There have been several revisions of the script, but the contemporary Miao communities appear to prefer the older versions of the orthography. The script can be considered to be an alphabet, ie. consonants and vowels are written separately. Closer examination, however, reveals the orthography to be built around consonant onset letters followed by combining marks that express the syllable rhyme, and an optional tone mark, which may be placed at various heights. It requires context-sensitive positioning of glyphs, especially for tone marks. A-Hmao separates <em>syllables</em> by spaces, rather than words. Unicode 16 has 1 dedicated block, comprising 149 characters, almost half of which are combining marks.`
+},
+
+
+"prti": {
+dates: `CE 2ndC – 292`,
+status: `Archaic`,
+lineage: `Phoenician > Aramaic > Pahlavi > Inscriptional Parthian`,
+siblings: `Balinese, Baybayin scripts, Javanese, Lontara, Makasar, Old Sundanese, Rencong, Rejang`,
+description: `Inscriptional Parthian is a West Asian abjad used in northeast Iran for the Parthian language. During the Sasanian Empire it was mostly used for official texts, and the majority of the texts found were from clay fragments. Inscriptional Parthian text is read from right to left, including numbers. Text is not cursive. Context-sensitive shaping and positioning is required, such as where the letters sadhe and nun have swash tails which typically trail under the following letter. Unicode 16 has 1 dedicated block, comprising 30 characters, of which 8 are numerics.`
+},
+
+
+"rjng": {
+dates: `18thC – today`,
+status: `Limited usage (declining interest)`,
+lineage: `Phoenician > Aramaic > Brahmi > Tamil-Brahmi > Pallava > Old Kawi > Recong > Rejang`,
+siblings: `Kerinci, Lembak, Serawai, Pasemah, Lampung`,
+description: `Rejang (<span lang="ban">ꥆꤰ꥓ꤼꤽ ꤽꥍꤺꥏ</span>) is an Indonesian abugida used in Bengkulu and South Sumatran provinces of Sumatra for the Malay and Rejang languages, and 3 others including Lampung and Kerinci. Its corpus consists chiefly of traditional ritual texts, spells and incantations, and love poems. Some closely guarded epics are written on bark cloth, bamboo, rattan, buffalo horn and lost copper plates. The use of the Rejang script has been largely superceded by the Latin orthography since the 1960s. There are no conjuncts or stacking, but there are combining marks that require context-sensitive positioning. Words may or may not be separated by spaces. Unicode 16 has 1 dedicated block, comprising 37 characters.`
 },
 
 
@@ -730,12 +1027,174 @@ description: `Hanifi Rohingya (<span lang="ban">𐴌𐴟𐴇𐴥𐴝𐴚𐴒𐴙
 },
 
 
+"runr": {
+dates: `BCE 1stC – 19thC CE`,
+status: `Mostly archaic`,
+lineage: `Phoenician > Greek > Old Italic? > Runic`,
+siblings: ``,
+description: `Runic characters are used for a series of European alphabets to write for Germanic languages. These alphabets include the Elder Futhark, Anglo-Saxon runes, Marcomannic runes, the Younger Futhark, and Medieval runes. Runic letters continue to be used in modern times in the contexts of romantic nationalism, occultism, paganism, and fantasy genres. Runic text is read from right to left in Old Norse, but left to right in Anglo-Saxon texts. There may be a small number of ligated forms, requiring context-sensitive shaping and positioning of glyphs. Words may be separated using spaces or using a word separator character. Unicode 16 has 1 dedicated block covering all the various alphabets, comprising 89 characters.`
+},
+
+
+"samr": {
+dates: `BCE 3rdC – today`,
+status: `Limited usage (liturgical)`,
+lineage: `Phoenician > Paleo-Hebrew > Samaritan`,
+siblings: ``,
+description: `Samaritan is a West Asian abjad used in Israel for Samaritan religious writings. The Samaritan alphabet was not affected by the changes to the Paleo-Hebrew script after the Babylonian exile, which gave rise to the 'square script' shapes now used for the Hebrew script. Samaritan text is read from right to left. A cursive style of the alphabet also exists. It requires context-sensitive shaping and positioning of glyphs. Words are typically separated using a dot, rather than spaces. Unicode 16 has 1 dedicated block, comprising 61 characters.`
+},
+
+
+"sarb": {
+dates: `BCE 8thC – 7thC CE`,
+status: `Archaic`,
+lineage: `Phoenician > Old South Arabian`,
+siblings: `Old North Arabian`,
+description: `Old South Arabian was a West Asian abjad used in in the far southern portion of the Arabian Peninsula for the Sabean language. Compared with other parts of the ancient world, Palestine for instance, the number of surviving inscriptions is very high. Something in the region of 10,000 inscriptions exist. The Sabaean lexicon contains about 2,500 words. Old South Arabian text is read right-to-left. Several letters are sometimes combined into a single group, in which the glyphs for the constituent characters are overlaid and sometimes rotated to create what appears to be a single unit. Words are separated by a vertical line, rather than by spaces. Unicode 16 has 1 dedicated block, comprising 32 characters.`
+},
+
+
+"saur": {
+dates: `19thC – today`,
+status: `Limited usage (small community)`,
+lineage: `Phoenician > Aramaic > Brahmi > Tamil-Brahmi > Pallava > Grantha > Saurashtra`,
+siblings: `Malayalam, Tigalari, Thirke, Dhives Akuru`,
+description: `Saurashtra (<span lang="saz">ꢱꣃꢬꢵꢰ꣄ꢜ꣄ꢬ</span>) is a South Asian abugida used in Tamil Nadu to write the Saurashtra language. Its usage has declined, and the Tamil and Latin scripts are now used more commonly. Because this is a minority language not taught in schools, people learn to write in Saurashtra Script through voluntary organisations. Early Saurashtra texts use a number of complex conjunct forms for writing consonant clusters, for which context-sensitive shaping and positioning of glyphs are required. However, when the script was restructured in the 1880s these were abandoned in favour of a virama diacritic to silence the inherent vowel, which reduces the rendering difficulty. Unicode 16 has 1 dedicated block, comprising 82 characters.`
+},
+
+
+"shaw": {
+dates: `1960s – today`,
+status: `Limited usage (low uptake)`,
+lineage: `Invented by  by Ronald Kingsley Read`,
+siblings: ``,
+description: `Shavian (<span lang="en">𐑖𐑱𐑝𐑾𐑯 𐑨𐑤𐑓𐑩𐑚𐑧</span>) is a European monocameral alphabet conceived as a simple, phonemic orthography for the English language. It was posthumously funded by and named after Irish playwright George Bernard Shaw. Due to the contestation of Shaw's will, the trust charged with developing the new alphabet could afford to publish only one book: a version of Shaw's play Androcles and the Lion, in a bi-alphabetic edition with both conventional and Shavian spellings. Copies were sent to major libraries in English-speaking countries. An adaptation of Shavian to another language, Esperanto, was developed by John Wesley Starling; though not widely used, at least one booklet has been published with transliterated sample texts. Unicode 16 has 1 dedicated block, comprising 48 characters.`
+},
+
+
+"shrd": {
+dates: `CE 8thC – 20thC`,
+status: `Limited usage (liturgical)`,
+lineage: `Phoenician > Aramaic > Brahmi > Gupta > Sharada`,
+siblings: `Siddham, Tibetan, Kalinga, Bhaiksuki`,
+description: `Sharada (<span lang="ks">𑆯𑆳𑆫𑆢𑆳</span>) is a South Asian abugida used in India for Kashmiri and Sanskrit. After widespread use in Kashmir and neighbouring areas, it later became restricted to Kashmir, and is now rarely used, except by the Kashmiri Pandit community for religious purposes. Sharada requires context-sensitive shaping and positioning of glyphs. Unicode 16 has 1 dedicated block, comprising 96 characters.`
+},
+
+
+"sidd": {
+dates: `7thC – today`,
+status: `Limited usage (liturgical)`,
+lineage: `Phoenician > Aramaic > Brahmi > Gupta > Siddham`,
+siblings: `Balinese, Baybayin scripts, Javanese, Lontara, Makasar, Old Sundanese, Rencong, Rejang`,
+description: `Siddham (<span lang="sa">𑖭𑖰𑖟𑖿𑖠𑖽</span>) is a South Asian abugida nowadays mostly used in Japan for Buddhist works. Originally developed in India, the script was taken to China in order to preserve the phonetic sounds of Buddhist manuscripts, and from there to Japan. It was eventually superceded in India by other scripts, and after Chinese purges of 'foreign relations' in the 9thC Japan became the main harbour for the script. It is still occasionally used by Buddhists in Japan, where it is called Bonji, though this is a somewhat evolved form compared to the original. Siddham texts were usually written from left to right then top to bottom, but occasionally they were written in the traditional Chinese style, from top to bottom then right to left. Consonant clusters are rendered as conjuncts, and the script requires context-sensitive shaping and positioning of glyphs. Unicode 16 has 1 dedicated block, comprising 92 characters, 23 of which are punctuation.`
+},
+
+
 "sind": {
 dates: `CE 1868 – 20thC`,
 status: `Archaic`,
 lineage: `Phoenician > Aramaic > Brahmi > Gupta > Sharada > Landa > Khudawadi`,
 siblings: `Gurumukhi, Khojki, Mahajani, Multani`,
 description: `Khudawadi (<span lang="sd">𑊻𑋩𑋣𑋏𑋠𑋔𑋠𑋏𑋢</span>) is a South Asian abugida used in Pakistan and India for the Sindhi language. It has since been replaced by the Arabic script in Pakistan, and the Devanagari script in India.  It was used by traders and merchants to record their information and rose to importance as the script began to be used to record information kept secret from other non-Sindhi groups. Khudawadi requires context-sensitive shaping and positioning of glyphs. Unicode 16 has 1 dedicated block, comprising 69 characters.`
+},
+
+
+"sinh": {
+dates: `BCE 3rdC – today`,
+status: `In active use`,
+lineage: `Phoenician > Aramaic > Brahmi > Sinhala`,
+siblings: `Tamil-Brahmi, Gupta, Bhattiprolu, Kadamba, Tocharian`,
+description: `Sinhala (<span lang="si">සිංහල අක්ෂර මාලාව</span>) is a South Asian abugida used in Sri Lanka for the Sinhalese language, as well as for Sanskrit and Pali. Sinhala is a diglossic language, that is, the spoken and written forms of the language show considerable variation. Sinhalese is also often considered to be two alphabets: a core set letters can represent all native phonemes, and is taught in schools, but in order to accurately transcribe Sanskrit, Pali, Hindi and English loanwords, an extended set is available. Consonant clusters are rendered using conjuncts, and Sinhala requires context-sensitive shaping and positioning of glyphs. Unicode 16 has 2 dedicated blocks, the main one comprising 91 characters, and the other 20 archaic number forms.`
+},
+
+
+"sogd": {
+dates: `CE 7thC – 14thC`,
+status: `Archaic`,
+lineage: `Phoenician > Aramaic > Syriac > Sogdian`,
+siblings: ``,
+description: `Sogdian is a Central Asian abjad used throughout Central Asia, from the edge of Iran in the west, to China in the east, and with strong associations to the Silk Road.  Sogdian text is read from right to left. Text is cursive, ie. letters join. Sogdian was sometimes used with vowel letters like an alphabet, and also contained some Aramaic logograms, mainly for functional words. It requires context-sensitive shaping and positioning of glyphs. Unicode 16 has 1 dedicated block, comprising 42 characters.`
+},
+
+
+"sora": {
+dates: `1936 – today`,
+status: `Limited usage (liturgical)`,
+lineage: `Invented by Mangei Gomango in 1936`,
+siblings: ``,
+description: `Sora Sompeng (<span lang="srb">𑃐𑃦𑃝𑃗 𑃐𑃦𑃖𑃛𑃣𑃗</span>) is a South Asian monocameral alphabet used to write the endangered Sora language. It was invented in 1936 by Mangei Gomango as a native alternative to the Telugu or Oriya scripts, and to support a new religious movement called Mattar Banom Damri. The letters are named after 24 gods in the Sora Pantheon. Sora Sompeng is used in a variety of written materials, but especially in religious contexts. There are no combining marks and no conjuncts. Vowels other than the inherent vowel are written using separate letters. Unicode 16 has 1 dedicated block, comprising 35 characters.`
+},
+
+
+"soyo": {
+dates: `1686 – 18thC`,
+status: `Archaic`,
+lineage: `Phoenician > Aramaic > Brahmi > Gupta > Siddham > Nepali > Ranjana/Devanagari > Soyombo`,
+siblings: ``,
+description: `Soyombo (<span lang="mn">𑪁𑩖𑩻𑩖𑪌𑩰𑩖 𑩰𑩑𑩢𑩑𑪊</span>) is a Central Asian abugida used in Mongolia for the Classical Mongolian language, but can also be used for Tibetan and Sanskrit. It was developed by the monk and scholar Zanabazar, the first spiritual leader of Tibetan Buddhism in Mongolia, in 1686. Created for translation of Buddhist texts from Sanskrit or Tibetan, eastern Mongols used the script primarily as a ceremonial and decorative script. One special character became a national symbol of Mongolia and has appeared on the national flag since 1911. Unlike other Mongolian scripts, Soyombo text is read horizontally, from left to right. Syllable elements are arranged in a 2-dimensional space, requiring complex context-sensitive shaping and positioning of glyphs. There is a well-defined 'backbone' at the top of the consonants which may be used as a hanging baseline. Unicode 16 has 1 dedicated block, comprising 83 characters.`
+},
+
+
+"sund": {
+dates: `14thC – today`,
+status: `In active use`,
+lineage: `Phoenician > Aramaic > Brahmi > Tamil-Brahmi > Pallava > Old Kawi > Old Sundanese > Sundanese`,
+siblings: `Balinese, Batak, Baybayin scripts, Javanese, Lontara, Makasar, Lampung, Rencong, Rejang`,
+description: `Sundanese (<span lang="su">ᮃᮊ᮪ᮞᮛ ᮞᮥᮔ᮪ᮓ</span>) is an Indonesian abugida used in the island of Java for the Sundanese language. Since 1996 this has been the official orthography for the 27 million Sundanese speakers on Java, although the Latin script is also used. It is currently taught in schools and used for public signage.  Sundanese requires context-sensitive shaping and positioning of glyphs. Unicode 16 has 2 dedicated blocks, comprising 72 characters.`
+},
+
+
+"sylo": {
+dates: `14thC – today`,
+status: `Endangered`,
+lineage: `Phoenician > Aramaic > Brahmi > Gupta > Siddham > Nagari > Kaithi > Syloti Nagari`,
+siblings: `Balinese, Baybayin scripts, Javanese, Lontara, Makasar, Old Sundanese, Rencong, Rejang`,
+description: `Syloti Nagari (<span lang="syl">ꠍꠤꠟꠐꠤ ꠘꠣꠉꠞꠤ</span>) is a South Asian abugida used in Bengal and Assam for the Sylheti language. It was primarily used in the eastern part of the Sylhet region, to document poetry known as puthis. In the course of the 20th century, it lost much ground to the standardised Eastern Nagari script, but since 2009 there has been an increased interest in the use of the script. Syloti Nagri requires context-sensitive shaping and positioning of glyphs. Bengali code points are normally used for digits (there are none in the Syloti Nagri block). Words have a clear headstroke, which may be used for a hanging baseline. Unicode 16 has 1 dedicated block, comprising 45 characters.`
+},
+
+
+"syrc": {
+dates: `6thC – today`,
+status: `In active use`,
+lineage: `Phoenician > Aramaic > Syriac`,
+siblings: `Hebrew, Nabataean, Palmyrene, Hatran, Mandaic, Elymaic, Pahlavi, Kharoshthi, Brahmi`,
+description: `Syriac (<span lang="syr">ܐܠܦ ܒܝܬ ܣܘܪܝܝܐ</span>) is a West Asian abjad used in Syria for the Syriac languages and its derivatives. ScriptSource lists 17 languages. There are 3 major styles of Syriac: Estrangela (used for Classical Syriac), Eastern Syriac (used for languages such as Assyrian Neo-Aramaic), and Western Syriac (used for languages such as Turoyo). Estrangela is mostly used nowadays for liturgical purposes, although it is also used to differentiate text such as headings in documents written in Eastern or Western styles. The other two styles remain in use for living languages. Syriac text is read from right to left, except for numbers. Text is cursive, ie. letters join, and the positional shapes for a given letter can vary, and the script has a particularly large number of diacritics. It requires context-sensitive shaping and positioning of glyphs. Unicode 16 has 2 dedicated blocks, comprising 88 characters, of which 8 are used for writing Malayalam, and a few others for transcribing Arabic.`
+},
+
+
+"tale": {
+dates: `1954 – today`,
+status: `In active use`,
+lineage: `Phoenician > Aramaic > Brahmi > Pallava > Mon-Burmese, Lik-Tai, Tai Le`,
+siblings: `Ahom, Khamti`,
+description: `Tai Le (<span lang="tdd">ᥖᥭᥰᥘᥫᥴ</span>) is a Southeast Asian abugida used in Yunnan, China for the Tai Nüa and Blang languages. It is derived from scripts that have been used by Tai peoples in northeastern India, northern Myanmar, southwestern Yunnan, and northwestern Laos since around CE 1200. The script referred to here as Tai Le is the result of several reforms and glyph changes in the latter part of the 1900s. Vowels are represented by standalone letters and letters are not combined as ligatures or conjuncts. There are no combining marks.  Tones are written using 5 spacing characters after the final character in a syllable, however they were written using 5 combining marks until 1988. Spaces are only used between clauses and sentences. Unicode 16 has 1 dedicated block, comprising 35 characters.`
+},
+
+
+"talu": {
+dates: `1950s – today`,
+status: `In active use`,
+lineage: `Phoenician > Aramaic > Brahmi > Tamil-Brahmi > Kadamba/Pallava > Old Mon > Tai Tham > New Tai Lü`,
+siblings: `Tham Lao`,
+description: `New Tai Lü (<span lang="khb">᧑᧒ᦗᧃᦓᦱ</span>) is an East/Southeast Asian abugida used in the southern part of Yunnan, China, and in the surrounding countries by approximately 554,600 people to write the Lü langauge. The New Tai Lue script is a simplified version of the Tai Tham (Lanna) script, created in the 1950s, and mainly used by the Tai Lü people of Southern China for writing the Lü language. In 1987 the Old Tai Lü script was revived and widely used. However, the Chinese government once again promoted use of the New Tai Lü script in 1997, with the result that both scripts are currently in use in China. Although it is used for shop and street signs in some areas, few people can read the script. There are no combining marks. Vowels other than the inherent vowel are represented by standalone letters. Tones are written using combinations of consonant register, context, and tone letters. Words are separated using spaces. Unicode 16 has 1 dedicated block, comprising 83 characters.`
+},
+
+
+"xpeo": {
+dates: `BCE 525 – 4thC CE`,
+status: `Archaic`,
+lineage: `Inspired by Sumero-Akkadian Cuneiform`,
+siblings: ``,
+description: `Old Persian is a West Asian semi-alphabetic cuneiform script, found in Iran, Armenia, Romania, Turkey, and along the Suez Canal, that was the primary script for Old Persian. They were mostly inscriptions from the time period of Darius I, such as the DNa inscription, as well as his son, Xerxes I. Old Persian text is read left to right. While Old Persian's basic strokes are similar to those found in cuneiform scripts, Old Persian texts were engraved on hard materials, so the engravers had to make cuts that imitated the forms easily made on clay tablets. Words are not separated by a diagonal wedge shape, rather than spaces. Unicode 16 has 1 dedicated block, comprising 50 characters.`
+},
+
+
+"xphais": {
+dates: `BCE 18thC – BCE 14thC`,
+status: `Archaic`,
+lineage: `Unknown`,
+siblings: ``,
+description: `The Phaistos Disc is a disk of fired clay from the island of Crete, Greece, possibly from the middle or late Minoan Bronze Age (second millennium BC), bearing a text in an unknown script and language. Its purpose and its original place of manufacture remain disputed. It is now on display at the archaeological museum of Heraklion. The disk is about 15 cm (5.9 in) in diameter and is covered on each side with a spiral text, consisting of a total of 241 occurrences of 45 distinct signs, which were created by pressing individual sign stamps onto the soft clay before firing. While its unique features initially led some scholars to suspect a forgery or hoax, the disk is now generally accepted by archaeologists as authentic. Words are not separated using spaces. Unicode 16 has 1 dedicated block, comprising 46 characters.`
 },
 
 
@@ -756,7 +1215,7 @@ dates: `11thC – today`,
 status: `Limited usage (low uptake)`,
 lineage: `Phoenician > Aramaic > Brahmi > Pallava > Old Kawi > Balinese`,
 siblings: `Balinese, Baybayin scripts, Javanese, Lontara, Makasar, Old Sundanese, Rencong, Rejang`,
-description: `xxx (<span lang="ban">ᬅᬓ᭄ᬱᬭᬩᬮᬶ</span>) is a REGION bicameral abugida/etc used in xyz for 102 languages, such as abc. Usage_details. Script_direction. Arabic text is read right-to-left, except for numbers. Text is cursive, ie. letters join, and the positional shapes for a given letter can vary significantly. It requires context-sensitive shaping and positioning of glyphs. Including the cursive joins, the degree of shaping and positioning required is moderate. Baseline. Tonal. Words are not separated using spaces. Unicode 16 has 3 dedicated blocks, comprising 726 characters.`
+description: `xxx (<span lang="ban">ᬅᬓ᭄ᬱᬭᬩᬮᬶ</span>) is a REGION bicameral abugida/alphabet used in xyz for 102 languages, such as abc. Usage_details. Script_direction. Arabic text is read from right to left, except for numbers. Text is cursive, ie. letters join, and the positional shapes for a given letter can vary significantly. Vowels are represented by standalone letters and letters are not combined as ligatures or conjuncts. There are no combining marks. Consonant clusters are rendered using conjuncts, and Odia requires context-sensitive shaping and positioning of glyphs. It requires context-sensitive shaping and positioning of glyphs. Baseline. Tonal. Words are not separated using spaces. Unicode 16 has 3 dedicated blocks, comprising 726 characters.`
 },
 */
 
