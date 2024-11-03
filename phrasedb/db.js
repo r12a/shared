@@ -1,4 +1,16 @@
 phraseDB = {
+
+/*
+
+'ae': { name: 'Avestan', 
+		text: "",
+		translation: "",
+		contributor: "",
+		source: "",
+		sourceURL: ""
+		dir:"rtl",
+		},
+*/
 'ae': { name: 'Avestan', 
 		text: "𐬨𐬭𐬀𐬊𐬝. 𐬀𐬵𐬎𐬭𐬋. 𐬨𐬀𐬰𐬛𐬃. 𐬯𐬞𐬪𐬙𐬀𐬨𐬁𐬌. 𐬰𐬀𐬭𐬀𐬚𐬎𐬱𐬙𐬭𐬁𐬌𐬺 𐬁𐬀𐬝. 𐬫𐬀𐬝. 𐬨𐬌𐬚𐬭𐬆𐬨. 𐬬𐬊𐬎𐬭𐬎. 𐬔𐬀𐬊𐬌𐬌𐬀𐬊𐬌𐬙𐬍𐬨. 𐬟𐬭𐬀𐬛𐬀𐬜𐬄𐬨. 𐬀𐬰𐬆𐬨. 𐬯𐬞𐬌𐬙𐬀𐬨𐬀. 𐬁𐬀𐬝. 𐬛𐬌𐬨. 𐬛𐬀𐬜𐬄𐬨. 𐬀𐬎𐬎𐬃𐬧𐬙𐬆𐬨. 𐬫𐬈𐬯𐬥𐬌𐬌𐬀𐬙𐬀. 𐬀𐬎𐬎𐬃𐬧𐬙𐬆𐬨. 𐬬𐬀𐬵𐬨𐬌𐬌𐬀𐬙𐬀. 𐬫𐬀𐬚𐬀. 𐬨𐬄𐬨𐬗𐬌𐬝. 𐬫𐬌𐬨. 𐬀𐬵𐬎𐬭𐬀𐬨. 𐬨𐬀𐬰𐬛𐬄𐬨.𐬺",
 		translation: " Said Ahura Mazdāh to Zarathuštra the Spitamid: ‘When I created grass-land magnate Mithra, O Spitamid, I made him such in worthiness to be worshipped and prayed to as myself, Ahura Mazdāh.’",
@@ -801,6 +813,13 @@ phraseDB = {
 		sourceURL: "https://aksharamukha.appspot.com/describe/Mro"
 		},
 
+'sa-nand': { name: 'Sanskrit (Nandinagari)', 
+		text: "𑧊𑧒𑧀𑧚𑧟 𑧍𑧆𑦮𑧠𑧌𑧞 𑧍𑧈𑧠𑧊𑧚𑧡𑧂𑧒 𑦽𑧔𑧉𑧠𑧇𑧑𑧟 𑧍𑧆𑧑𑧁𑧑𑧋𑧠𑦳 𑧊𑧈𑧠𑦽𑧞𑦽𑧚। 𑦠𑧂𑧒 𑦳 𑧊𑧒𑧁𑧛𑧊 𑦮𑧆𑧂𑧒 𑧅𑧚𑦿𑧞 𑧊𑧒𑧀𑧚𑧟 𑦽𑧔𑧉𑧠𑧇𑧞 𑧍𑧞𑧈𑦮𑧠𑧌𑦼𑧆𑧊𑧑𑧂𑧠𑦽𑧔𑧞 𑦠𑧈𑧠𑧎𑧞𑦽𑧒। 𑦠𑧍𑧠𑧇𑧑𑧟 𑦠𑧅𑧒𑦱𑧜𑧌𑦼𑧑𑧇𑧑𑧟 𑦤𑧉𑧠𑧉𑧞𑦱𑧁𑧚 𑦮𑧆𑧂𑧒 𑧅𑧚𑦿𑧞, 𑦪𑦽𑧑𑦿𑧖𑦰𑧠𑧅𑧚𑦿𑧞 𑧊𑧑 𑦠𑧅𑧒𑧉𑦮𑧠𑧌𑧠𑧇 𑦮𑧑𑧆𑧂𑧒 𑦳𑧚𑧌𑧠𑦸𑧑𑧞 𑧊𑧒𑧈𑧔𑧀𑧠𑧇 𑧍𑧆𑧑𑧁𑧍𑧞𑧈𑦮𑧠𑧌𑦼𑧑𑧈𑧠𑧎𑧑𑧟 𑧍𑧈𑧠𑧊𑧚𑧡𑧂𑧒 𑧊𑧈𑧠𑦽𑧞𑦽𑧚।",
+		translation: "",
+		source: "Noto fonts preview text. (Assumed to be Sanskrit language; no lang tag used.)",
+		sourceURL: "https://fonts.google.com/noto/specimen/Noto+Sans+Nandinagari"
+		},
+
 'sa-phag': { name: 'Sanskrit (Phags Pa)',
 		text: "ꡝ ꡋꡞ ꡘꡡ ꡊꡜꡏ ᠂ ꡝ ꡋꡟꡈ ꡌꡖ ꡊꡏ ᠂ ꡝ ꡋꡟꡐ ꡑꡠ ꡊꡏ ᠂ ꡝ ꡚꡖ ꡚꡧ ꡈꡏ ᠂ ꡶ ꡝ ꡋꡠ ꡀꡖꡘ ꡉꡏ ᠂ ꡝ ꡋꡖ ꡋꡖꡘ ꡉꡏ ᠂ ꡝ ꡋꡖ ꡂ ꡏꡏ ᠂ ꡝ ꡋꡞꡘ ꡂ ꡏꡏ ᠂ ꡷ ꡗꡜ ᠂ ꡌꡱ ꡈꡖꡞ ꡈꡨ ꡛ ꡏꡟꡈ ꡌꡖ ꡳꡊ ᠂ ꡌꡱ ꡌꡇ ꡐꡡ ꡌ ꡚ ꡳꡏ ᠂ ꡚꡞ ꡓꡏ ᠂ ꡶ ꡊꡠ ꡚ ꡗꡖ ꡏꡖ ꡛ ᠂ ꡳꡛ ꡎꡟꡊ ꡊꡜꡛ ꡳꡈ ᠂ ꡓꡋ ꡊꡠ ᠂ ꡓ ꡊ ꡳꡈꡖ ᠂ ꡓ ꡘꡏ ᠂ ꡷",
 		transcription: "anirodham anutpādam anucchedam aśāśvatam. anekārtham anānārtham anāgamam anirgamam.. yaḥ pratītyasamutpādaṃ prapañcopaśamaṃ śivam. deśayāmāsa saṃbuddhastaṃ vande vadatāṃ varam..",
@@ -959,7 +978,7 @@ phraseDB = {
 		},
 
 'tdd': { name: 'Tai Nüa',
-		text: "ᥐᥠᥰ ᥑᥡᥱ ᥒᥢᥲ ᥓᥣᥳ ᥔᥤᥴ ᥔᥕᥖᥤ ᥘᥙᥚᥛᥫ ᥞᥭ ...",
+		text: "ᥘᥬ̈ᥔᥩᥛ̇ᥝᥢ̈ᥘᥭ̇，ᥐᥩᥙᥘᥭ̀ᥑᥨᥛ̌ᥑᥦᥢ́ᥖᥫᥒ̈ᥐᥣ，ᥝᥣᥐᥖᥣᥙ̌ᥐᥨᥢ̈ᥑᥥᥢ́ᥛᥣ̈ᥔᥥ́，ᥛᥣᥢ̀ᥘᥣ̈ᥟᥢᥐᥬ̀ᥓᥛᥑᥩᥙ̌ᥞᥤᥛ̈ᥙᥥ̀ᥢᥣᥢ̇ᥘᥢ̇，ᥛᥤ̈ᥐᥣᥭ̈ᥚᥣᥒ̇ᥓᥤᥢᥚᥧᥒ́ᥘᥫᥒᥑᥝ̀ᥛᥣᥢ̇ᥛᥣ̈，ᥟᥣᥛᥥᥝ̈ᥖᥭ̈ᥖᥒ̈ᥘᥣᥭ́ᥟᥩᥢᥐᥢᥐᥣ̌ᥓᥩᥭᥗᥦᥛ́．",
 		},
 
 'te': { name: 'Telugu',
@@ -1023,6 +1042,14 @@ phraseDB = {
 		translation: "A-certain miser his-own all wealth-property having-sold gold bought, and it he having-melted a-brick like having-made the-ground-in having-buried (every)-day of-it guarding used-to-give.",
 		source: "Omniglot, quoting an example from Stotra in Kaithi Script Rajendra]",
 		sourceURL: "https://www.omniglot.com/writing/kaithi.htm"
+		},
+
+
+'unr-nagm': { name: 'Mundari', 
+		text: "𞓝𞓐𞓨𞓐𞓗-𞓱: 𞓛𞓐𞓗𞓤𞓨 𞓞𞓐𞓪𞓐 𞓢𞓐𞓢𞓤𞓮 𞓧𞓕𞓨𞓕𞓣𞓔 𞓐𞓜𞓐𞓙 𞓐𞓢𞓝𞓚𞓓𞓕𞓣 𞓢𞓐𞓣𞓤𞓓𞓕𞓦 𞓑𞓕𞓚𞓝𞓚 𞓗𞓕𞓗𞓐𞓝 𞓣𞓤 𞓖𞓐𞓨𞓐𞓧 𞓖𞓐𞓣𞓐𞓔𞓤𞓝𞓤 𞓕𞓡𞓕𞓨𞓕𞓡 𞓐𞓜𞓐𞓦 𞓗𞓐𞓣𞓕𞓗𞓐𞓣𞓚 𞓨𞓕𞓧𞓕𞓢𞓕𞓨𞓕. 𞓚𞓨𞓢𞓟𞓦𞓢𞓤 𞓛𞓤𞓥𞓕 𞓐𞓜𞓐𞓦 𞓖𞓚𞓮𞓭 𞓑𞓤𞓪𞓤𞓦 𞓖𞓚𞓭𞓟𞓣𞓤𞓓𞓕𞓙 𞓤𞓨𞓤𞓧𞓢𞓐 𞓨𞓕𞓧𞓕𞓢𞓕𞓨𞓕 𞓐𞓜𞓐𞓙 𞓚𞓨𞓢𞓟𞓙 𞓒𞓐𞓙𞓝𞓤 𞓞𞓕𞓦𞓤𞓓𞓕 𞓗𞓐𞓓𞓕 𞓒𞓤𞓢𞓕 𞓖𞓕𞓦𞓕𞓣 𞓗𞓕𞓢𞓕𞓝𞓚𞓘𞓕𞓙.",
+		translation: "",
+		source: "UDHR, Article 1",
+		sourceURL: "https://en.wikipedia.org/wiki/Mundari_Bani"
 		},
 
 'vai': { name: 'Vai',
