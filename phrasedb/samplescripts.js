@@ -91,6 +91,8 @@ var sampleScriptsIndex = {
     'mtei': { name: "Meetei Mayek", langs:['mni'], font: ['mtei'] },
     'mult': { name: "Multani", langs:['skr'], font: ['mult'] },
     'mymr': { name: "Myanmar", langs:['my', 'shn'], font:['mymr'] },
+    'nagm': { name: "Nag Mundari", langs:['unr-nagm'], font: ['nagm'] },
+    'nand': { name: "Nandinagari", langs:['sa-nand'], font: ['nand'] },
     'narb': { name: "Old North Arabian", langs:['mis-narb'], font: ['narb'] },
     'nbat': { name: "Nabataean", langs:['arc-nbat'], font: ['nbat'] },
     'newa': { name: "Newar", langs:['new'], font: ['newa'] },
