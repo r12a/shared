@@ -577,12 +577,21 @@ description: `Kaithi (<span lang="hi">𑂍𑂶𑂟𑂲</span>) was a South Asian
 },
 
 
+"lana": {
+dates: `14thC – today`,
+status: `Limited usage (low uptake)`,
+lineage: `Phoenician > Aramaic > Brahmi > Tamil-Brahmi > Pallava > Old Mon > Tai Tham`,
+siblings: `Burmese, Mon, Sgaw Karen, Shan, Chakma, Ahom, Tai Le, Khamti`,
+description: `Tai Tham or Lanna (<span lang="ban">ᨲ᩠ᩅᩫᨾᩮᩥᩬᨦ</span>) is a Southeast Asian abugida used in Thailand and Myanmar  for the Tai Khün, Tai Lü, and Northern Thai languages. Tai Khün has a relatively high literacy for around 100,000 speakers, but Northern Thai, with around 6 million speakers has a low literacy in the Tham script. Northern Thai is also written in the Thai script, and Lü is also written in New Tai Lue. Use of the Lanna traditional script is now largely limited to Buddhist temples, and there is no active production of literature in the traditional alphabet. Tai Tham has stacked consonants, but these do not necessarily indicate consonant clusters. The script is unusual in that any consonant in a stack can retain its inherent vowel, or be associated with a vowel sign. Stacks can span word boundaries. Tai Tham requires significant levels of context-sensitive shaping and positioning of glyphs. Tone is written using a combination of consonant class, syllable type, and tone diacritics. Words are not separated using spaces. Unicode 16 has 1 dedicated block, comprising 127 characters.`
+},
+
+
 "laoo": {
 dates: `16thC – today`,
 status: `In active use`,
 lineage: `Phoenician > Aramaic > Brahmi > Tamil-Brahmi > Pallava > Khmer > Sukothai > Fakkham > Tai Noi > Lao`,
 siblings: `Tai Yo`,
-description: `Lao (<span lang="lo">ລາວ</span>) is a Southeast Asian alphabet used in Laos for writing the Lao language, and as  the official script for 19 more minority languages. There is also a considerable Lao-speaking population in Thailand but they typically write their language with the Thai script. The script was originally an abugida, but since the script reforms leading up to 1960 it has been alphabetic. Lao requires context-sensitive shaping and positioning of glyphs. Tone is indicated by a combination of the consonant class, the syllable type (checked/unchecked), plus any tone mark. Words are not separated using spaces. Unicode 16 has 1 dedicated block, comprising 83 characters.`
+description: `Lao (<span lang="lo">ລາວ</span>) is a Southeast Asian alphabet used in Laos for writing the Lao language, and as  the official script for 19 more minority languages. There is also a considerable Lao-speaking population in Thailand but they typically write their language with the Thai script. The script was originally an abugida, but since the script reforms leading up to 1960 it has been alphabetic. Lao uses visual placement of vowel signs: although vowels are very often written using more than one code point on different sides of the base consonant, only the vowel components that appear above or below the consonant are combining marks; the others are ordinary spacing characters that are typed in the order seen. Lao requires context-sensitive shaping and positioning of glyphs. Tone is indicated by a combination of the consonant class, the syllable type (checked/unchecked), plus any tone mark. Words are not separated using spaces. Unicode 16 has 1 dedicated block, comprising 83 characters.`
 },
 
 
@@ -1144,6 +1153,15 @@ description: `Sundanese (<span lang="su">ᮃᮊ᮪ᮞᮛ ᮞᮥᮔ᮪ᮓ</span>)
 },
 
 
+"sunu": {
+dates: `1942 – today`,
+status: `Limited usage (low uptake)`,
+lineage: `Invented by Karna Jentich in 1942`,
+siblings: ``,
+description: `Sunuwar is a South Asian script used as a monocameral alphabet in Nepal and as an abugida in Sikkim for the Kiranti-Kõits language. It has been one of the official languages of Sikkim since 1996, where it is known as Mukhia. The script has been used in newspapers, government records, and other publications. In 2021 the Sikkim government mandated that state-run schools should offer instruction in both the primary language of the state and in a local language, which is likely to include Sunuwar. In Nepal the Sunwar Welfare Society of Nepal promotes the use of the script with a slightly different repertoire. Sunuwar is highly unusual in that it is used both as an alphabet and as an abugida, depending on the country of use. Vowels are represented by standalone letters and letters are not combined as ligatures or conjuncts, but there are combining marks and Sunuwar requires context-sensitive positioning of glyphs. Unicode 16 has 1 dedicated block, comprising 44 characters.`
+},
+
+
 "sylo": {
 dates: `14thC – today`,
 status: `Endangered`,
@@ -1162,6 +1180,24 @@ description: `Syriac (<span lang="syr">ܐܠܦ ܒܝܬ ܣܘܪܝܝܐ</span>) is a W
 },
 
 
+"tagb": {
+dates: `18thC – today`,
+status: `Endangered (low uptake, small community)`,
+lineage: `Phoenician > Aramaic > Brahmi > Pallava > Kawi > Tagalog > Tagbanwa`,
+siblings: `Buhid, Hanunó'o, Kulitan, Bima, Balinese, Batak, Javanese, Makasar, Buginese, Sundanese, Rencong, Rejang`,
+description: `Tagbanwa (<span lang="tbw">ᝦᝪᝯ</span>) is a Southeast Asian abugida used in the Philippines and mainly found in central and northern Palawan. The script is currently endangered, and authorities in the area where it is spoken are trying to encourage its use by the younger generation. Tagbanwa is a defective script, meaning that it doesn't represent all the sounds of the spoken language. In particular, syllable-final consonant sounds are not written. Text is not written in vertical writing mode, as often reported, but is rather is written sideways, bottom to top, on vertical media (such as bamboo). Words are separated by spaces. Unicode 16 has 1 dedicated block, comprising just 18 characters.`
+},
+
+
+"takr": {
+dates: `17thC – 20thC`,
+status: `Archaic`,
+lineage: `Phoenician > Aramaic > Brahmi > Gupta > Sharada > Devashesha-Tankri > Takri`,
+siblings: `Landa`,
+description: `Takri (<span lang="cdh">𑚔𑚭𑚊𑚤𑚯</span>) was a South Asian abugida used in present-day Jammu and Kashmir, Himachal Pradesh, Punjab, and Uttarakhand for Chambeali and Dogri languages, as well as several “Pahari” languages, such as Jaunsari, Kulvi, and Mandeali. Takri developed for commercial and informal purposes, and served as the official script of several princely states of northern and northwestern India. There is no universal, standard form of Takri. It was eventually replaced by Devanagari. Conjuncts occur for consonant clusters in syllable onsets, and Takri requires context-sensitive shaping and positioning of glyphs. Headstrokes are not generally used in Takri but do appear in the glyph shapes of certain Takri letters. Unicode 16 has 1 dedicated block, comprising 68 characters.`
+},
+
+
 "tale": {
 dates: `1954 – today`,
 status: `In active use`,
@@ -1177,6 +1213,150 @@ status: `In active use`,
 lineage: `Phoenician > Aramaic > Brahmi > Tamil-Brahmi > Kadamba/Pallava > Old Mon > Tai Tham > New Tai Lü`,
 siblings: `Tham Lao`,
 description: `New Tai Lü (<span lang="khb">᧑᧒ᦗᧃᦓᦱ</span>) is an East/Southeast Asian abugida used in the southern part of Yunnan, China, and in the surrounding countries by approximately 554,600 people to write the Lü langauge. The New Tai Lue script is a simplified version of the Tai Tham (Lanna) script, created in the 1950s, and mainly used by the Tai Lü people of Southern China for writing the Lü language. In 1987 the Old Tai Lü script was revived and widely used. However, the Chinese government once again promoted use of the New Tai Lü script in 1997, with the result that both scripts are currently in use in China. Although it is used for shop and street signs in some areas, few people can read the script. There are no combining marks. Vowels other than the inherent vowel are represented by standalone letters. Tones are written using combinations of consonant register, context, and tone letters. Words are separated using spaces. Unicode 16 has 1 dedicated block, comprising 83 characters.`
+},
+
+
+"taml": {
+dates: `7thC – today`,
+status: `In active use`,
+lineage: `Phoenician > Aramaic > Brahmi > Tamil-Brahmi > Pallava > Tamil`,
+siblings: `Grantha, Old Mon, Khmer, Cham, Kawi`,
+description: `Tamil (<span lang="ta">தமிழ் அரிச்சுவடி</span>) is a South Asian abugida used in India, Sri Lanka, Singapore, Malaysia and Mauritius for the Tamil language, a Dravidian language spoken by over 65 million people. It is also used to write the liturgical language Sanskrit, using consonants and diacritics not represented in the Tamil alphabet, and around 11 minority languages such as Saurashtra, Badaga, Irula, and Paniya. Several reforms have significantly simplified the script, and conjuncts only occur in a couple of instances in modern text. There are also fewer consonants than in other Indic scripts, with each consonant covering a wider range of phonemes. It still requires context-sensitive shaping and positioning of glyphs. Unicode 16 has 2 dedicated blocks, the main one comprising 72 characters, and a supplement containing 51 fractions and archaic symbols.`
+},
+
+
+"tang": {
+dates: `CE 1036 – 16thC`,
+status: `Archaic`,
+lineage: `Constructed script inspired by Chinese characters`,
+siblings: ``,
+description: `Tangut (<span lang="txg">𗼇𗟲</span>) is an East Asian syllabary used in China for the Tangut language of the Western Xia dynasty. It was only superficially similar to Chinese writing, and is not related. The script was created quickly, and government schools were founded to teach it. Official documents were written in the script (with diplomatic ones written bilingually), and a great number of Buddhist scriptures were translated from Tibetan and Chinese, and block printed in the script. Although the dynasty collapsed in 1227, the script continued to be used for another few centuries. Tangut text is read vertically, with columns progressing left to right (like Mongolian, but not Chinese). The character glyphs are more complicated than Han characters; very few are made up of as few as four strokes and most are made up of a good many more. None of the Tangut characters are pictographic. Words are not separated using spaces. Unicode 16 has 3 dedicated blocks, comprising 6,914 characters.`
+},
+
+
+"tavt": {
+dates: `16thC – today`,
+status: `In active use`,
+lineage: `Phoenician > Aramaic > Brahmi > Tamil-Brahmi > Pallava > Old Khmer > Sukhothai > Tai Viet`,
+siblings: `Khom Tai, Tai Yo`,
+description: `Tai Viet is a Southeast Asian abugida used in Vietnam, Laos, China and Thailand to write the Tai Dam (Black Tai or Tai Noir), Tai Dón (White Tai or Tai Blanc), Tai Daeng, Thai Song (Lao Song or Lao Song Dam) and Tày Tac languages. The script is still used by the Tai people in Vietnam, and there is a desire to introduce it into formal education there. Tai Viet uses visual placement: only the vowel components that appear above or below the consonant are combining marks; the others are ordinary spacing characters that are typed in the order seen. There are no conjuncts or subjoined consonants. Tone is indicated by a combination of the consonant class, the syllable type (checked/unchecked), plus any tone mark. Words are separated by spaces, although this is a recent innovation. Unicode 16 has 1 dedicated block, comprising 72 characters.`
+},
+
+
+"telu": {
+dates: `13thC – today`,
+status: `In active use`,
+lineage: `Phoenician > Aramaic > Brahmi > Battiprolu, Kadamba, Telugu-Kannada, Telugu`,
+siblings: `Kannada`,
+description: `Telugu (<span lang="ban">ᬅᬓ᭄ᬱᬭᬩᬮᬶ</span>) is a South Asian abugida used in India to write Telugu and 19 other languages. The Telugu language is a Dravidian language spoken by almost 70 million people in South India, and the official language of the Indian state of Andhra Pradesh. The Telugu script is similar enough to Kannada for people who can read one to be able to read the other. Conjuncts are fairly regular, forming stacks that require context-sensitive shaping and positioning of glyphs. Unicode 16 has 1 dedicated block, comprising 100 characters.`
+},
+
+
+"tfng": {
+dates: `BCE 3rdC – today`,
+status: `In active use`,
+lineage: `Phoenician > Aramaic > Brahmi > Pallava > Old Kawi > Balinese`,
+siblings: `Balinese, Baybayin scripts, Javanese, Lontara, Makasar, Old Sundanese, Rencong, Rejang`,
+description: `Tifinagh (<span lang="zgh">ⵜⵉⴼⵉⵏⴰⵖ</span>) is an African monocameral alphabet used in North Africa to write 13 Berber and Tuareg languages, such as Tamazight, Tachelhit, Tawallammat, and Tamasheq. In Morocco it has been taught to hundreds of thousands of pupils in over 10,0000 schools, mostly primary, and some Moroccan universities offer Berber courses in the Tifinagh script leading to a Master’s degree. Modern Tifinagh text is read from left to right, but in the past it was read right to left, or bottom to top in some regions. Older orthographies, especially Tuareg, were also abjads, rather than alphabets. There are no visible combining marks, but some orthographies use ligatures for certain combinations, requiring context-sensitive shaping and positioning of glyphs. Unicode 16 has 1 dedicated block, comprising 59 characters.`
+},
+
+
+"tglg": {
+dates: `15thC – 18thC`,
+status: `Archaic, but renewed interest`,
+lineage: `Phoenician > Aramaic > Brahmi > Pallava > Kawi > Tagalog`,
+siblings: `Balinese, Batak, Javanese, Makasar, Buginese, Sundanese, Rencong, Rejang`,
+description: `Sulat Tagalog or Baybayin (<span lang="bug">ᜐᜓᜎᜆᜄᜎᜓ</span>) was a Southeast Asian abugida used in the Luzon region of the Philippines, mainly for the Tagalog language, but also for Ilocano and Filipino. Under Spanish rule it was replaced by the Latin script, but it has seen increasing modern usage in the Philippines and is often used for cultural and aesthetic purposes, such as in art, graduation regalia, tattoos, and logos. It is also featured on the logos of government agencies, Philippine banknotes, and passports. Educational initiatives aim to teach Baybayin to a new generation, and social media has also increased awareness and interest. Bills to recognize the script and revive its use alongside the Latin alphabet have been repeatedly considered by Congress. Tagalog is a defective script, meaning that it doesn't represent all the sounds of the spoken language. In particular, syllable-final consonant sounds are not written. Words are separated by spaces. Unicode 16 has 1 dedicated block, comprising just 23 characters.`
+},
+
+
+"thaa": {
+dates: `17thC – today`,
+status: `In active use`,
+lineage: `Phoenician > Aramaic > Nabataean > Arabic > Thaana`,
+siblings: ``,
+description: `Thaana (<span lang="dv">ތާނަ</span>) is a South Asian alphabet used in the Maldives for the Dhivehi language. Consonants are derived from indigenous and Arabic numerals, and vowels from the diacritics of the Arabic abjad. It is thought that over time, the script evolved, slanting the letters by 45 degrees and adding spaces between words. The earliest known sample of the Thaana script (rather than the Dhives Akuru alphabet) is inscribed on the main Friday mosque of the island and dates back to AD 1599. Thaana text is read from right to left, except for numbers. Text is not cursive. Vowels are written using combining marks. It requires context-sensitive positioning of glyphs. Unicode 16 has 1 dedicated block, comprising 50 characters.`
+},
+
+
+"thai": {
+dates: `CE 1283 – today`,
+status: `In active use`,
+lineage: `Phoenician > Aramaic > Brahmi > Tamil-Brahmi > Pallava > Khmer > Sukothai > Thai`,
+siblings: `Fakkham`,
+description: `Thai (<span lang="lo">อักษรไทย</span>) is a Southeast Asian alphabet used in Thailand and neighbouring countries for writing the Thai language, and 37 more, such as Northern Thai, Northeastern Thai, Southern Thai, and Thai Song. It is also used to write Pali, which is widely used in Buddhist temples and monasteries. Both the Thai language and script are closely related to Lao and its script. Thai uses visual placement for vowel signs: although vowels are very often written using more than one code point on different sides of the base consonant, only the vowel components that appear above or below the consonant are combining marks; the others are ordinary spacing characters that are typed in the order seen. Thai requires context-sensitive shaping and positioning of glyphs. Tone is indicated by a combination of the consonant class, the syllable type (checked/unchecked), plus any tone mark. Words are not separated using spaces. Unicode 16 has 1 dedicated block, comprising 87 characters.`
+},
+
+
+"tibt": {
+dates: `6thC – today`,
+status: `In active use`,
+lineage: `Phoenician > Aramaic > Brahmi > Gupta > Tibetan`,
+siblings: `Sharada, Siddham, Kalinga, Bhaiksuki`,
+description: `Tibetan (<span lang="bo">བོད་ཡིག</span>) is a Central Asian abugida used in Tibet, Bhutan, Nepal and India for the Tibetan language, as well as 33 others, such as Dzongkha, Ladakhi and Sikkimese. It is also used for transcribing religious Sanskrit texts. Tradition says that it was developed by Thonmi Sambhota after a visit to India in the mid-7th century to study the art of writing. Tibetan can be written using two different styles: དབུ་ཅན dbu can ‘with a head’, the block style of the Tibetan script used in print, pronounced ‘u.cen’; and དབུ་མེད dbu med ‘headless’, the cursive style of the Tibetan script used in shorthand and calligraphy, pronounced ‘u.me’. Tibetan often has multiple consonants within a syllable that are stacked. This is achieved by using a set of subjoined code points, rather than purely by rendering magic. It requires context-sensitive shaping and positioning of glyphs. Consonants typically have a headstroke, which may be used as a hanging baseline. Tibetan separates syllables using a tshek mark, but not words. Unicode 16 has 1 dedicated block, comprising 211 characters.`
+},
+
+
+"tirh": {
+dates: `13thC – today`,
+status: `Endangered (low uptake)`,
+lineage: `Phoenician > Aramaic > Gupta > Siddham > Gaudi > Tirhuta`,
+siblings: `Bengali, Odia`,
+description: `Tirhuta (<span lang="mai">𑒞𑒱𑒩𑒯𑒳𑒞𑒰‎‎</span>) is a South Asian abugida used in India and Nepal for the Maithili language. While it was previously the primary historical script for the Maithili language, as well as one of the historical scripts for Sanskrit, it is now largely replaced by Devanagari. The script is largely identical to the Bengali script. Consonant clusters are rendered using conjuncts, and Tirhuta requires context-sensitive shaping and positioning of glyphs. Most consonants have a headstroke, which may be used as a hanging baseline. Unicode 16 has 1 dedicated block, comprising 82 characters.`
+},
+
+
+"tnsa": {
+dates: `1990 – today`,
+status: `Limited usage (low uptake)`,
+lineage: `Invented by Lakhum Mossang in 1990`,
+siblings: ``,
+description: `Tangsa is a Southeast Asian monocameral alphabet used on the border between India and Myanmar to write the Tangsa language. In India the script is taught in some schools to write the local Muishvung (Mossang) variety of Tangsa. Vowels are represented by standalone letters and letters are not combined as ligatures or conjuncts. Tone is indicated by the choice of vowel letter. Unicode 16 has 1 dedicated block, comprising 89 characters.`
+},
+
+
+"todr": {
+dates: `1780s – ?`,
+status: `Archaic`,
+lineage: `Invented by Theodhor Haxhifilipi in the 1790s`,
+siblings: ``,
+description: `Todhri is a European monocameral alphabet used in Albania for the Albanian language. It was used in the eighteenth and nineteenth centuries and perhaps sporadically into the twentieth century, but largely confined to copybooks of Biblical texts, although the script is said to have also been employed by merchants in their correspondence. Letters are all atomically encoded, but two vowel letters have canonical decompositions to avoid confusable sequences. It requires context-sensitive and positioning of these glyphs. Unicode 16 has 1 dedicated block, comprising 52 characters.`
+},
+
+
+"toto": {
+dates: `2015 – today`,
+status: `Limited usage (small community)`,
+lineage: `Created by Dhaniram Toto in 2015`,
+siblings: ``,
+description: `Toto is a South Asian monocameral alphabet used in a single jungle village in India near Bhutan for the Toto language. The language is also written with the Bengali/Bangla and Latin scripts. It was developed for the language by community elder and author Dhaniram Toto in 2015, and has seen limited but increasing use in literature, education, and computing. There is only one combining mark, used for tones. Otherwise the letters are all encoded atomically. Unicode 16 has 1 dedicated block, comprising 31 characters.`
+},
+
+
+"ugar": {
+dates: `BCE 14thC – BCE 12thC`,
+status: `Archaic`,
+lineage: `Egyptian Hieroglyphs? > Proto-Sinaitic? > Ugaritic`,
+siblings: ``,
+description: `Ugaritic is a West Asian abjad used in Syria for Ugaritic and other languages, such as Hurrian and Akkadian. The script was discovered in 1929 on many tablets. The tablets contained extensive portions of an important Canaanite mythological and religious literature that had long been sought and that revolutionized Biblical studies. Ugaritic is referred to as an augmented abjad, since it has letters for the sounds /a/, /i/, and /u/; the latter two being used for Hurrian. The letters resemble cuneiform. Text is read from left to right. Consonants and vowels are represented by standalone letters and letters are not combined as ligatures or conjuncts. There are no combining marks. Words are sometimes separated using a small mark that looks like the Tibetan tsek. Unicode 16 has 1 dedicated block, comprising 31 characters.`
+},
+
+
+"vaii": {
+dates: `1830 – today`,
+status: `In use`,
+lineage: `Created by Momolu Duwalu Bukele in the 1830s`,
+siblings: ``,
+description: `Vai (<span lang="vai">ꕙꔤ</span>) is an African syllabary used in Liberia and Sierra Leone for the Vai language. It is learned informally, and most speakers only use a subset of the syllabic repertoire. There is a market for Vai literature, and it is widely used by traders, as well as for newspapers, tombstones and in traditional rituals; the Bible Society in Liberia and the Institute of Liberian languages also publish in Vai. By 1899 most Vai were said to be literate in the script. Many people literate in the script find around 50 characters sufficient for most of their needs. The script was standardised after work by Momolu Massaquoi at the University of Liberia and August Klingenheben in the early 1960s. Syllables are represented by standalone letters and there are no ligatures, conjuncts, or combining marks. Older texts used several logograms, two of which are still in use, though infrequently. Unicode 16 has 1 dedicated block, comprising 300 characters.`
+},
+
+
+"vith": {
+dates: `1825 – 1845`,
+status: `Archaic`,
+lineage: `Invented by Naum P. Veqilharxhi in the 1820s`,
+siblings: ``,
+description: `Vithkuqi (<span lang="sq">𐕲𐖻𐖶𐖨𐖷𐖰𐖥</span>) is a European bicameral alphabet used in Albania for the Albanian language. There are revivalist efforts in artistic and cultural uses of Vithkuqui, notably in the script’s use in modern tattoos. The alphabet never took hold because of its inventor's premature death and because of the prohibitive costs of cutting new type for the invented characters; nevertheless, a number of documents using the alphabet were published in the late 19th century. Vithkuqi glyphs visually resemble cursive Armenian. There is no ligation, and non-productive diacritics are encoded atomically. Unicode 16 has 1 dedicated block, comprising 70 characters.`
 },
 
 

@@ -128,6 +128,7 @@ var sampleScriptsIndex = {
     'sora': { name: "Sora Sompeng", langs:['sa-sora'], font: ['sora'] },
     'soyo': { name: "Soyombo", langs:['sa-soyo'], font: ['soyo'] },
     'sund': { name: "Sundanese", langs:['su'], font: ['sund'] },
+    'sunu': { name: "Sunuwar", langs:['suz'], font: ['sunu'] },
     'sylo': { name: "Syloti Nagri", langs:['syl'], font: ['sylo'] },
     'syrc': { name: "Syriac", langs:['aii', 'syc', 'tru'], font:['syrc', 'syrc-aii', 'syrc-tru','syrc-syc'] },
     'tale': { name: "Tai Le", langs:['tdd'], font: ['tale'] },
