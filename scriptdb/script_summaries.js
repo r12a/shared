@@ -1243,6 +1243,15 @@ description: `Tai Viet is a Southeast Asian abugida used in Vietnam, Laos, China
 },
 
 
+"tayo": {
+dates: `16thC – today`,
+status: `Limited usage (low uptake)`,
+lineage: `Phoenician > Aramaic > Brahmi > Tamil-Brahmi > Pallava > Khmer > Tai Yo`,
+siblings: `Sukhothai, Khom Thai`,
+description: `Tai Yo (or Lai Tay) is a Southeast Asian abugida used in Vietnam for the Tai Yo language. The Lai Tay script is now out of common use, but there are enough manuscripts to allow linguistic study. Some very old Tai Yo scholars can still read the manuscripts, which are preserved in both private and in personal collections. The script is now being taught and studied by the Tai Yo community, with the support of the local government and teachers. Under the influence of Chinese texts, Tai Yo text is read vertically in columns that run from right to left. Vowel signs generally appear below the base consonant, but some appear to its right in certain contexts. Rendering requires context-sensitive shaping and positioning of glyphs. The script is largely written without punctuation, but may use Chinese punctation marks. There are no tone markers, or numeric digits. Unicode 16 has 1 dedicated block, comprising 55 characters.`
+},
+
+
 "telu": {
 dates: `13thC – today`,
 status: `In active use`,
@@ -1360,6 +1369,24 @@ description: `Vithkuqi (<span lang="sq">𐕲𐖻𐖶𐖨𐖷𐖰𐖥</span>) is 
 },
 
 
+"wara": {
+dates: `1950s – today`,
+status: `Limited usage (low uptake)`,
+lineage: `Invented by Lako Bodra in the 1950s`,
+siblings: ``,
+description: `Warang Citi (<span lang="ban">𑢹𑣗𑣁𑣜𑣊 𑢯𑣂𑣕𑣂</span>) is a South Asian bicameral abugida used in eastern India for the Ho language. It is used in primary and adult education and in various publications. Community leader Bodra invented it as an alternative to the writing systems devised by Christian missionaries, and it is more prevalent among those who have been educated in it. Warang Citi has no combining marks. It also has no regular system of conjuncts nor an explicit virama, however, a small number of conjunct forms are used; most representing doubled consonants. The choice of a conjunct form does not appear to be predictable. It therefore requires context-sensitive shaping and positioning of glyphs. Unicode 16 has 1 dedicated block, comprising 84 characters.`
+},
+
+
+"wcho": {
+dates: `2001 – today`,
+status: `Limited usage (small community)`,
+lineage: `Created by Banwang Losu between 2001-2012`,
+siblings: ``,
+description: `Wanch (<span lang="nnp">𞋒𞋀𞋉𞋃𞋕‎</span>) is a South Asian monocameral alphabet used in India for the Wancho language, which is spoken by around 50,000 people in Arunachal Pradesh, Nagaland, Myanmar, and Bhutan. It is taught in some schools, and there is one book. The language is more commonly written using the Devanagari or Latin scripts. There are no special mechanisms for consonant clusters, onsets or finals; these are simply expressed by sequences of letters. Vowels are written using standalone letters. Tones are written using combining marks, but there are two different sets of these. Unicode 16 has 1 dedicated block, comprising 59 characters.`
+},
+
+
 "xpeo": {
 dates: `BCE 525 – 4thC CE`,
 status: `Archaic`,
@@ -1384,6 +1411,33 @@ status: `Archaic`,
 lineage: `The earliest known writing system`,
 siblings: ``,
 description: `Sumero-Akkadian cuneiform was a West Asian logo-syllabary. It was used at least since 3200 BCE in today’s Iraq for the now-extinct Sumerian language. Later it was used in today’s Iran, Turkey, Syria, and Egypt, for languages that included Akkadian and Hittite. The writing system evolved over time to include combined syllabic, logographic, and consonantal alphabetic  signs. After approximately 900 BCE it was gradually replaced by the Aramaic script. Text read from left to right. Unicode 16 has 3 dedicated blocks, comprising 1234 characters, 116 of which are numbers and punctuation.`
+},
+
+
+"yezi": {
+dates: `13thC – today`,
+status: `Limited usage (liturgical)`,
+lineage: `?`,
+siblings: ``,
+description: `Yezidi is a West Asian alphabet used in Kurdistan, Iraq, Syria, Turkey and the Caucasus for religious texts in the Kurdish (Kurmanji) and Arabic languages. The origins of the script are unclear, and some scholars claim a creation date that is 4 centuries later. In 2013, the Spiritual Council of Yazidis in Georgia decided to revive the Yezidi script and use it for writing prayers, religious books, on the organization letterhead and in the Yazidi heraldry. It is used by the Yazidi clergymen in Tbilisi, where the names of the Yazidi saints are written on walls in this alphabet. It was also used for a book containing a collection of Yazidi prayers. Yezidi text is read from right to left. Text is not cursive. Ligatures occur in the historical texts, but not in the modern version of the script. It requires context-sensitive shaping and positioning of glyphs. Unicode 16 has 1 dedicated block, comprising 47 characters.`
+},
+
+
+"yiii": {
+dates: `7thC – today`,
+status: `In use`,
+lineage: `Oracle bones > Seal script > Clerical script > Regular script > Yi`,
+siblings: ``,
+description: `Yi (<span lang="yi">ꆈꌠꁱꂷ</span>) is an East Asian syllabary used in China for the Nuosu Yi language, and a few others such as Nisu, Wusa Nasu, and Mantsi. In 1980 the Liangshan Yi State Council adopted Yi as the official script for their dialect, using 756 basic glyphs and 63 more for Chinese sounds.  In 1987 Yunnan adopted its own standard Yi script aimed at cross-dialect intelligibility, and comprising 2,608 glyphs, of which 350 are phonetic glyphs. Traditionally, Yi text was read in vertical columns that progress from right to left (like Chinese), but modern texts tend to be written horizontally and left to right. Unicode encodes all syllables atomically. Words are not separated using spaces. Unicode 16 has 2 dedicated blocks, comprising 1165 characters in the syllable block, and a further 55 symbols in the radicals block.`
+},
+
+
+"zanb": {
+dates: `17thC`,
+status: `Archaic`,
+lineage: `Invented by Zanabazar in the 1600s`,
+siblings: ``,
+description: `Zanabazar Square is a Central Asian abugida used in Tibet to write Mongolian, Sanskrit, and Tibetan. The script's applications during the period of its use are not known. It is normally read left to right, but may also be found in vertically environments. It requires context-sensitive shaping and positioning of glyphs. Consonants are stacked, like in Tibetan, but the stacks are created by rendering the basic glyphs, rather than by using a set of subjoined combining marks. Unicode 16 has 1 dedicated block, comprising 72 characters.`
 },
 
 
