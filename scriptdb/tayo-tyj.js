@@ -1,71 +1,71 @@
 var spreadsheet = `tayo-tyj	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	native name	name transcription	ucs name	block
 														
-\u{1E6D1}	p	p		p			Lo		low class consonant				U+1E6D1: TAI YO LETTER LOW PO	
-\u{1E6D2}	p	p		p̣			Lo		high class consonant				U+1E6D2: TAI YO LETTER HIGH PO	
-\u{1E6D3}	P	pʰ		pʰ			Lo		consonant				U+1E6D3: TAI YO LETTER PHO	
-\u{1E6D0}	b	ɓ -p		b			Lo		consonant				U+1E6D0: TAI YO LETTER BO	
-\u{1E6CC}	t	t		t			Lo		low class consonant				U+1E6CC: TAI YO LETTER LOW TO	
-\u{1E6CD}	t	t		ṭ			Lo		high class consonant				U+1E6CD: TAI YO LETTER HIGH DO	
-\u{1E6CE}	T	tʰ		tʰ			Lo		consonant				U+1E6CE: TAI YO LETTER THO	
-\u{1E6CB}	d	ɗ -t		d			Lo		consonant				U+1E6CB: TAI YO LETTER DO	
-\u{1E6C0}	k	k		k			Lo		low class consonant				U+1E6C0: TAI YO LETTER LOW KO	
-\u{1E6C1}	k	k		ḳ			Lo		high class consonant				U+1E6C1: TAI YO LETTER HIGH KO	
-\u{1E6C2}	K	kʰ		kʰ			Lo		low class consonant				U+1E6C2: TAI YO LETTER LOW KHO	
+\u{1E6D1}	p	p		p	p		Lo		low class consonant				U+1E6D1: TAI YO LETTER LOW PO	
+\u{1E6D2}	p	p		p̣	b		Lo		high class consonant				U+1E6D2: TAI YO LETTER HIGH PO	
+\u{1E6D3}	P	pʰ		pʰ	pʽ		Lo		consonant				U+1E6D3: TAI YO LETTER PHO	
+\u{1E6D0}	b	ɓ -p		ɓ	ɓ		Lo		consonant				U+1E6D0: TAI YO LETTER BO	
+\u{1E6CC}	t	t		t	t		Lo		low class consonant				U+1E6CC: TAI YO LETTER LOW TO	
+\u{1E6CD}	t	t		ṭ	d		Lo		high class consonant				U+1E6CD: TAI YO LETTER HIGH DO	
+\u{1E6CE}	T	tʰ		tʰ	tʽ		Lo		consonant				U+1E6CE: TAI YO LETTER THO	
+\u{1E6CB}	d	ɗ -t		ɗ	đ		Lo		consonant				U+1E6CB: TAI YO LETTER DO	
+\u{1E6C0}	k	k		k	k		Lo		low class consonant				U+1E6C0: TAI YO LETTER LOW KO	
+\u{1E6C1}	g	ɡ		ɡ	g		Lo		high class consonant				U+1E6C1: TAI YO LETTER HIGH KO	
+\u{1E6C2}	K	kʰ		kʰ	kʽ		Lo		low class consonant				U+1E6C2: TAI YO LETTER LOW KHO	
 \u{1E6C3}	K	kʰ		ḳʰ			Lo	i	high class consonant				U+1E6C3: TAI YO LETTER HIGH KHO	
-\u{1E6C4}	g	ɣ		ɡ			Lo		consonant				U+1E6C4: TAI YO LETTER GO	
-\u{1E6DC}	}	ʔ		ʔ			Lo		consonant				U+1E6DC: TAI YO LETTER QO	
+\u{1E6C4}	g	ɣ		ɡ	ǥ		Lo	l	consonant	Used for Vietnamese loan words.			U+1E6C4: TAI YO LETTER GO	
+\u{1E6DC}	}	ʔ		ʔ	ʽo		Lo		consonant				U+1E6DC: TAI YO LETTER QO	
 														
-\u{1E6C6}	c	t͡ʃ		ʧ			Lo		consonant				U+1E6C6: TAI YO LETTER CHO	
+\u{1E6C6}	c	c		c	c		Lo		consonant				U+1E6C6: TAI YO LETTER CHO	
 														
-\u{1E6D4}	f	f		f			Lo		low class consonant				U+1E6D4: TAI YO LETTER LOW FO	
-\u{1E6D5}	f	f		f̣			Lo		high class consonant				U+1E6D5: TAI YO LETTER HIGH FO	
-\u{1E6C7}	x	s		s			Lo		low class consonant				U+1E6C7: TAI YO LETTER LOW XO	
-\u{1E6C8}	x	s		ṣ			Lo		high class consonant				U+1E6C8: TAI YO LETTER HIGH XO	
-\u{1E6DA}	h	h		h			Lo		low class consonant				U+1E6DA: TAI YO LETTER LOW HO	
-\u{1E6DB}	h	h		ḥ			Lo		high class consonant				U+1E6DB: TAI YO LETTER HIGH HO	
+\u{1E6D4}	f	f		f	f		Lo		low class consonant				U+1E6D4: TAI YO LETTER LOW FO	
+\u{1E6D5}	f	v f		v	v		Lo		high class consonant				U+1E6D5: TAI YO LETTER HIGH FO	
+\u{1E6C7}	s	s		s	s		Lo		low class consonant				U+1E6C7: TAI YO LETTER LOW XO	
+\u{1E6C8}	z	s z		ṣ	z		Lo		high class consonant	/z/ in Vietnamese loans			U+1E6C8: TAI YO LETTER HIGH XO	
+\u{1E6DA}	h	h		h	h		Lo		low class consonant				U+1E6DA: TAI YO LETTER LOW HO	
+\u{1E6DB}	h	h		ḥ	ḥ		Lo		high class consonant				U+1E6DB: TAI YO LETTER HIGH HO	
 														
-\u{1E6D6}	m	m		m			Lo		consonant				U+1E6D56: TAI YO LETTER MO	
-\u{1E6CF}	n	n		n			Lo		consonant				U+1E6CF: TAI YO LETTER NO	
-\u{1E6C9}	n	ɲ -j		ɲ			Lo		low class consonant				U+1E6C9: TAI YO LETTER LOW NYO	
+\u{1E6D6}	m	m		m	m		Lo		consonant				U+1E6D56: TAI YO LETTER MO	
+\u{1E6CF}	n	n		n	n		Lo		consonant				U+1E6CF: TAI YO LETTER NO	
+\u{1E6C9}	n	ɲ -j		ɲ	ñ		Lo		low class consonant				U+1E6C9: TAI YO LETTER LOW NYO	
 \u{1E6CA}	n	ɲ		ɲ̣			Lo		high class consonant				U+1E6CA: TAI YO LETTER HIGH NYO	
-\u{1E6C5}	N	ŋ -i		ŋ			Lo		consonant				U+1E6C5: TAI YO LETTER NGO	
+\u{1E6C5}	N	ŋ		ŋ	ṅ		Lo		consonant				U+1E6C5: TAI YO LETTER NGO	
 														
-\u{1E6D9}	v	v -w		w			Lo		consonant				U+1E6D29: TAI YO LETTER VO	
-\u{1E6D8}	l	l		l			Lo		consonant				U+1E6D8: TAI YO LETTER LO	
-\u{1E6D7}	y	j		j			Lo		consonant				U+1E6D7: TAI YO LETTER YO	
+\u{1E6D9}	w	w		w	w		Lo		consonant				U+1E6D29: TAI YO LETTER VO	
+\u{1E6D8}	l	l		l	l		Lo		consonant				U+1E6D8: TAI YO LETTER LO	
+\u{1E6D7}	y	j		j	y		Lo		consonant				U+1E6D7: TAI YO LETTER YO	
 														
 														
-\u{1E6DD}	k	kʷ		kʷ			Lo		low class consonant				U+1E6DD: TAI YO LETTER LOW KVO	
+\u{1E6DD}	k	kʷ		kʷ	kw		Lo		low class consonant				U+1E6DD: TAI YO LETTER LOW KVO	
 \u{1E6DE}	k	kʷ		ḳʷ			Lo		high class consonant				U+1E6DE: TAI YO LETTER HIGH KVO	
 														
-\u{1E6E1}	i	i		i			Lo		vowel				U+1E6E1: TAI YO LETTER I	
-\u{1E6E2}	i	ɨ		ɨ			Lo		vowel				U+1E6E2: TAI YO LETTER EU	
+\u{1E6E1}	i	i		i	i		Lo		vowel				U+1E6E1: TAI YO LETTER I	
+\u{1E6E2}	i	ɨ		ɨ	ư		Lo		vowel				U+1E6E2: TAI YO LETTER EU	
 \u{1E6E3}	i	ɨ		ɨ̣			Mn		vowel sign				U+1E6E3: TAI YO SIGN EU	
-\u{1E6E4}	u	u		u			Lo		vowel				U+1E6E4: TAI YO LETTER U	
+\u{1E6E4}	u	u		u	u		Lo		vowel				U+1E6E4: TAI YO LETTER U	
 														
-\u{1E6E8}	e	e		e			Lo		vowel				U+1E6E8: TAI YO SIGN E	
-\u{1E6E7}	o	o		o			Lo		vowel				U+1E6E7: TAI YO LETTER O	
+\u{1E6E8}	e	e		e	e		Lo		vowel				U+1E6E8: TAI YO LETTER E	
+\u{1E6E7}	o	o		o	ô		Lo		vowel				U+1E6E7: TAI YO LETTER O	
 														
-\u{1E6ED}	a	ə		ə			Lo		vowel				U+1E6ED: TAI YO LETTER AUE	
+\u{1E6ED}	e	ə		ə	ơ		Lo		vowel				U+1E6ED: TAI YO LETTER AUE	
 														
-\u{1E6E5}	e	ɛ		ɛ			Lo		vowel				U+1E6E5: TAI YO LETTER AE	
-\u{1E6EC}	o	ɔː		ɔː			Lo		vowel				U+1E6EC: TAI YO LETTER OO	
+\u{1E6E5}	e	ɛ		ɛ	e		Lo		vowel				U+1E6E5: TAI YO LETTER AE	
+\u{1E6EC}	o	ɔː		ɔː	o		Lo		vowel				U+1E6EC: TAI YO LETTER OO	
 														
-\u{1E6E0}	a	aː		a			Lo		vowel				U+1E6E0: TAI YO LETTER AA	
+\u{1E6E0}	a	aː		a	a		Lo		vowel				U+1E6E0: TAI YO LETTER AA	
 														
-\u{1E6E9}	i	iə̯		iᵊ			Lo		diphthong				U+1E6E9: TAI YO LETTER IA	
-\u{1E6EA}	u	ɨə		ɨᵊ			Lo		diphthong				U+1E6EA: TAI YO LETTER UEA	
-\u{1E6EB}	u	uə̯		uᵊ			Lo		diphthong				U+1E6EB: TAI YO LETTER UA	
+\u{1E6E9}	i	iə̯		iᵊ	ia		Lo		diphthong				U+1E6E9: TAI YO LETTER IA	
+\u{1E6EA}	u	ɨə		ɨᵊ	ưa		Lo		diphthong				U+1E6EA: TAI YO LETTER UEA	
+\u{1E6EB}	u	uə̯		uᵊ	ua		Lo		diphthong				U+1E6EB: TAI YO LETTER UA	
 														
 														
-\u{1E6F4}	A	ap		aᵖ			Lo		rhyme				U+1E6F4: TAI YO LETTER AP	
-\u{1E6F3}	A	at		aᵗ			Lo		rhyme				U+1E6F3: TAI YO LETTER AT	
-\u{1E6F2}	A	ak		aᵏ			Lo		rhyme				U+1E6F2: TAI YO LETTER AK	
-\u{1E6F1}	A	am		aᵐ			Lo		rhyme				U+1E6F1: TAI YO LETTER AM	
-\u{1E6F0}	A	an		aⁿ			Lo		rhyme				U+1E6F0: TAI YO LETTER AN	
-\u{1E6EF}	A	aŋ		aᵑ			Mn		rhyme				U+1E6EF: TAI YO SIGN ANG	
-\u{1E6E6}	a	au̯		aᵘ			Mn		rhyme				U+1E6E6: TAI YO SIGN AU	
-\u{1E6EE}	A	aj -w-		aʲ			Mn		rhyme; medial w				U+1E6EE: TAI YO SIGN AY	
+\u{1E6F4}	A	ap		aᵖ	ăp		Lo		rhyme				U+1E6F4: TAI YO LETTER AP	
+\u{1E6F3}	A	at		aᵗ	ăt		Lo		rhyme				U+1E6F3: TAI YO LETTER AT	
+\u{1E6F2}	A	ak		aᵏ	ăk		Lo		rhyme				U+1E6F2: TAI YO LETTER AK	
+\u{1E6F1}	A	am		aᵐ	ăm		Lo		rhyme				U+1E6F1: TAI YO LETTER AM	
+\u{1E6F0}	A	an		aⁿ	ăn		Lo		rhyme				U+1E6F0: TAI YO LETTER AN	
+\u{1E6EF}	A	aŋ		aᵑ	ăṅ		Mn		rhyme				U+1E6EF: TAI YO SIGN ANG	
+\u{1E6E6}	a	au̯		aᵘ	ău		Mn		rhyme				U+1E6E6: TAI YO SIGN AU	
+\u{1E6EE}	A	aj -w-		aʲ	ăi		Mn		rhyme; medial w				U+1E6EE: TAI YO SIGN AY	
 \u{1E6F5}	O	om		oᵐ			Mn		rhyme				U+1E6F5: TAI YO SIGN OM	
 														
 \u{1E6FE}	M	mɨəŋ		{mɨəŋ}			Lo		logogram for village			mương	U+1E6FE: TAI YO SYMBOL MEUANG	
@@ -82,9 +82,9 @@ var spreadsheet = `tayo-tyj	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 // nasalisation														
 ‍ଁ	[¶	̃		˜	̃			?	nasalisation				U+200D U+0B01: ZERO WIDTH JOINER, ORIYA SIGN CANDRABINDU	
 // phrase dividers														
-、	,			,	⹁		Po		comma				U+3001: IDEOGRAPHIC COMMA	
-,	,			,̣	,		Po		comma				U+002C: COMMA	
-;	;			; ;̣ ;̱ ;͈ ;͇	;	;;⁏⸵	Po	?	semicolon				U+003B: SEMICOLON	
+，	,			,	,		Po		comma				U+FF0C FULLWIDTH COMMA	
+、	,			,̣	⹁		Po		secondary comma	Used for lists.			U+3001: IDEOGRAPHIC COMMA	
+；	;			;	;	;;⁏⸵	Po	?	semicolon				U+FF1B FULLWIDTH SEMICOLON	
 ！	!			!	!		Po		exclamation mark				U+FF01: FULLWIDTH EXCLAMATION MARK	
 ？	?			?	?		Po		question mark				U+FF1F: FULLWIDTH QUESTION MARK	
 // colons & length marks														
@@ -168,7 +168,7 @@ var spreadsheet = `tayo-tyj	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 9	9			9	9		Nd		digit				U+0039: DIGIT NINE	
 `														
 														
-latinPanel = 'aː kʰ kʷ oː pʰ tʰ t͡ʃ u̯ ŋ ə ə̯ ɛ ɡ ɨ ɲ ɲ ʔ'														
+latinPanel = 'aː kʰ kʷ oː pʰ tʰ t͡ʃ u̯ ŋ ə ə̯ ɛ ɡ ɨ ɲ ɲ ʔ ɓ ɗ ɔ ɔː ɣ'														
 														
 var cols = {														
 key: 1,														
