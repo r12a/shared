@@ -43,11 +43,22 @@ var spreadsheet = `tols-kru	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 \u{11DB1}	e	e		e	e		Lo		consonant				U+11DB1: TOLONG SIKI LETTER E	
 \u{11DB3}	o	o		o	o		Lo		consonant				U+11DB3: TOLONG SIKI LETTER O	
 \u{11DB4}	a	a		a	a		Lo		consonant				U+11DB4: TOLONG SIKI LETTER A	
-\u{11DB5}	A	aː		ā	ā		Lo		consonant				U+11DB5: TOLONG SIKI LETTER AA	
+\u{11DB5}	A	ɑ		ā	ā		Lo		consonant				U+11DB5: TOLONG SIKI LETTER AA	
 														
 \u{11DB5}̆	o	ɔ		ɔ				l	vowel				U+11DB5 U+0306: TOLONG SIKI LETTER AA, COMBINING BREVE	
 														
-\u{11DDA}	}	ʔ		ʔ	ʼ		Lo		glottal stop				U+11DDA: TOLONG SIKI SIGN HECAKA	
+\u{11DDA}	}	ʔ		ʔ	ʼ		Lo		glottal stop			hecakā (talā)	U+11DDA: TOLONG SIKI SIGN HECAKA	
+														
+\u{11DCA}\u{324}		q						l	extended repertoire consonant	Equivalent to क़.			U+11DCA U+0324: TOLONG SIKI LETTER KA, U+0324 COMBINING DIAERESIS BELOW	
+\u{11DCC}\u{324}		ɣ						l	extended repertoire consonant	Equivalent to ग़.			U+11DCC U+0324: TOLONG SIKI LETTER GA, U+0324 COMBINING DIAERESIS BELOW	
+\u{11DC5}\u{324}		kʂ						l	extended repertoire consonant	Equivalent to क्ष.			U+11DC5 U+0324: TOLONG SIKI LETTER CA, U+0324 COMBINING DIAERESIS BELOW	
+\u{11DC7}\u{324}		z						l	extended repertoire consonant	Equivalent to ज़.			U+11DC7 U+0324: TOLONG SIKI LETTER JA, U+0324 COMBINING DIAERESIS BELOW	
+\u{11DB7}\u{324}		f						l	extended repertoire consonant	Equivalent to फ़.			U+11DB7 U+0324: TOLONG SIKI LETTER PHA, U+0324 COMBINING DIAERESIS BELOW	
+\u{11DD2}\u{324}		v						l	extended repertoire consonant	Equivalent to व़.			U+11DD2 U+0324: TOLONG SIKI LETTER VA, U+0324 COMBINING DIAERESIS BELOW	
+\u{11DD4}\u{324}		ʃ						l	extended repertoire consonant	Equivalent to श.			U+11DD4 U+0324: TOLONG SIKI LETTER SA, U+0324 COMBINING DIAERESIS BELOW	
+\u{11DD4}\u{308}		ʂ						l	extended repertoire consonant	Equivalent to ष.			U+11DD4 U+0324: TOLONG SIKI LETTER SA, U+0308 COMBINING DIAERESIS	
+														
+														
 														
 // finals														
 ̰	r	r		r̆			Mn​		medial r			revā	U+0330: COMBINING TILDE BELOW	
@@ -76,7 +87,7 @@ var spreadsheet = `tols-kru	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 !	!			!	!		Po		exclamation mark				U+0021: EXCLAMATION MARK	
 ?	?			?	?		Po		question mark				U+003F: QUESTION MARK	
 // colons & length marks														
-\u{11DD9}	:			ː			Lo		vowel length mark				U+11DD9: TOLONG SIKI SIGN SELA	✓
+\u{11DD9}	:			ː			Lo		vowel length mark			selā	U+11DD9: TOLONG SIKI SIGN SELA	✓
 :	:			:	:		Po		colon				U+003A: COLON	✓
 // period & ellipsis														
 .	.			.	.		Po		full stop			gahala ṭuṛā	U+002E: FULL STOP	
@@ -99,6 +110,9 @@ var spreadsheet = `tols-kru	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 // nuktas														
 ̈	/			ˑ			Mn		nukta			ilā	U+0308: COMBINING DIAERESIS	
 ̤	/			ˑ̣			Mn		nukta			uphā	U+0324: COMBINING DIAERESIS BELOW	
+̄				ˑ̱			Mn	a	nukta	Used prior to 2015.		dugā	U+0304: COMBINING MACRON	
+̱				 ˑ͈			Mn	a	nukta	Used prior to 2015.		pugā	U+0331: COMBINING MACRON BELOW	
+̣				 ˑ͇			Mn	a	nukta	Used prior to 2015.		sulā	U+0323: COMBINING DOT BELOW	
 •	•			•			Po		bullet				U+2022: BULLET	
 // digits														
 \u{11DE0}	±			1̣	1		Nd		digit				U+11DE0: TOLONG SIKI DIGIT ZERO	
@@ -127,7 +141,7 @@ var spreadsheet = `tols-kru	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 9	9			9	9		Nd		digit				U+0039: DIGIT NINE	
 `														
 														
-latinPanel = 'aː ā d͡ʒ n̰ r̆ t͡ʃ ñ ā ŋ ɔ ɖ ɡ ɲ ɳ ɽ ʈ ʔ ʤ ʧ ʰ ʼ ᴎ ḍ ṅ ṇ ṛ ṭ ː'														
+latinPanel = 'ɑ aː ā d͡ʒ n̰ r̆ t͡ʃ ñ ā ŋ ɔ ɖ ɡ ɲ ɳ ɽ ʈ ʔ ʤ ʧ ʰ ʼ ᴎ ḍ ṅ ṇ ṛ ṭ ː'														
 														
 var cols = {														
 key: 1,														
