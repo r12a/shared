@@ -1629,6 +1629,17 @@ unicode: `Unicode 16 has 1 dedicated block, comprising 52 characters.`
 },
 
 
+"tols": {
+dates: `1999 – today`,
+status: `Limited usage (early uptake)`,
+lineage: `Invented by Narayan Oraon in 1999.`,
+siblings: ``,
+history: `Tolong Siki is a South Asian monocameral alphabet used in India specifically for the Kurukh language. It was invented by Narayan Oraon in 1988 and formally published in 1999. Books and magazines have been published in Tolong Siki, and it was officially recognized by the state of Jharkhand in 2007. The Kurukh Literary Society of India has been instrumental in spreading the Tolong Siki script for Kurukh literature.`,
+description: `Tolong Siki is read horizontally, left to right. It is a relatively simple alphabet. Vowels are written using letters, with additional signs to indicate vowel length and nasalisation. Vowels and consonants are not shaped as ligatures or conjuncts. There are combining marks, but no ascenders or descenders, so the need for context-sensitive positioning is low. Words are separated using spaces. It has its own set of number digits.`,
+unicode: `Unicode 17 has 1 dedicated block, comprising 54 characters, but several diacritics are sourced from other blocks.`,
+},
+
+
 "toto": {
 dates: `2015 – today`,
 status: `Limited usage (small community)`,
