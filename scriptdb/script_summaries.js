@@ -1,3 +1,10 @@
+const Y = true
+const N = false
+const P = 'partial'
+const U = '?'
+
+
+
 var scriptSummaries = {
 
 
@@ -8,7 +15,8 @@ lineage: `Created around 1989 by two teenage brothers, Ibrahima and Abdoulaye Ba
 siblings: `None`,
 history: `Adlam (<span lang="fuf">𞤀𞤣𞤤𞤢𞤥</span>) is an African, bicameral alphabet. It is used to write Fulani and other African languages. The Fulani are a large, historically nomadic tribe of Africa numbering more than 45 million and spread across the Sahel from Senegal to the banks of the Nile and the Red Sea.`,
 description: `Adlam text is read right-to-left, including numbers, which is unusual. Text is generally cursive (joined letters), although an unjoined variant of the script is used for headings and educational content. Including the cursive joins, the degree of shaping and positioning required is moderate.`,
-unicode: `Unicode 16 has 1 dedicated block, comprising 88 characters.`
+unicode: `Unicode 16 has 1 dedicated block, comprising 88 characters.`,
+name:"Adlam", local:"𞤀𞤣𞤤𞤢𞤥", localtrans:"", countries:"Senegal", speakers:"?", 
 },
 
 
@@ -31,6 +39,7 @@ siblings: `Tai Le, Khamti`,
 history: `Ahom (<span lang="fuf">𑜒𑜑𑜪𑜨</span>) is a Southeast Asian abugida, used to write the Tai-Ahom language, which is currently undergoing a revival and mainly used in religious and educational purposes. Very few speakers of Ahom remain, despite attempts at revival in 20th century.`,
 description: ``,
 unicode: `Unicode 16 has 1 dedicated block, comprising 65 characters.`,
+name:"Ahom", local:"", localtrans:"", countries:"Myanmar", speakers:"?", 
 },
 
 
@@ -41,7 +50,8 @@ lineage: `Phoenician > Aramaic > Nabataean > Arabic`,
 siblings: ``,
 history: `Arabic (<span lang="ar">العربية</span>) is a West Asian abjad. It is the second most widely-used script in the world, after the Latin alphabet, and is used in Asia and Africa for 210 languages, including the various Arabic dialects and Persian, but also such diverse languages as Uighur, Kurdish, Punjabi, Sindhi, Balti, Balochi, Pashto, Urdu, Kashmiri, Rohingya, Somali, Mandinka, Wolof, Malay, etc. It is also used around the world by adherents to the Islamic faith, and was used for Turkish until 1928.`,
 description: `The Arabic script has many writing styles, including naskh, nasta'liq, ruqa, kano, kufi, diwani, etc. Text is cursive, ie. letters join, and the positional shapes for a given letter can vary significantly. Arabic text is read right-to-left, except for numbers. Beyond the cursive forms, a great deal of shaping and context-sensitive positioning is required, especially for the more ornate writing styles.`,
-unicode: `Unicode 16 has 7 dedicated blocks, two of which are mostly for compatibility characters, which should not be used for normal Arabic text. The other 5 blocks comprise 449 characters.`
+unicode: `Unicode 16 has 7 dedicated blocks, two of which are mostly for compatibility characters, which should not be used for normal Arabic text. The other 5 blocks comprise 449 characters.`,
+name:"Arabic [arb]", local:"العربية", localtrans:"", countries:"Syria, Iraq, Gulf States, Egypt, North Africa, etc", speakers:"?",
 },
 
 
@@ -52,7 +62,8 @@ lineage: `Egyptian Hieroglyphs > Proto-Sinaitic > Phoenician > Aramaic`,
 siblings: ``,
 history: `Imperial Aramaic was a West Asian abjad, used to write the Aramaic language. This was the script and language of the Persian Empire in 5th–3rd century BCE, and continued to be used until the 2nd century CE. It evolved into Syriac, Nabataean, Palmyran, Hebrew (to which it is the closest), and other scripts.`,
 description: `Aramaic text is read right-to-left, except for numbers, but it is not cursive.`,
-unicode: `Unicode 16 has 1 dedicated block, comprising 31 characters.`
+unicode: `Unicode 16 has 1 dedicated block, comprising 31 characters.`,
+name:"Aramaic, Imperial", local:"", localtrans:"", countries:"Iran", script:"armi", speakers:U,
 },
 
 
@@ -64,6 +75,7 @@ siblings: `Latin, Coptic, Cyrillic`,
 history: `Armenian (<span lang="hy">Հայոց գրեր</span>) is a European bicameral alphabet, used to write the Armenian language. This is the standard script for the Armenian language in the Caucasus and the wide diaspora. It was created around 405 CE by Mesrop Mashtots, and was widespread in the 18th–19th centuries CE in the Ottoman Empire. Armenia uses a reformed spelling introduced by the Soviet Union, whereas the Armenian diaspora mostly uses the original Mesropian orthography.`,
 description: `The script is not fully alphabetic because the sound /ə/ is unwritten between consonants. It is also unusual in that it uses 3 tonal punctuation marks to indicate questions, exclamations and emphasis. These are spacing modifier characters, but they are positioned over base letters much like combining marks.)`,
 unicode: `Unicode 16 has 1 dedicated block, comprising 91 characters. (There are also 5 ligated presentation forms but these are normally produced by the font.)`,
+name:"Armenian", local:"Հայոց գրեր", localtrans:"", countries:"Armenia, etc", script:"armn", speakers:U
 },
 
 
@@ -72,9 +84,10 @@ dates: `6thC – today`,
 status: `Limited liturgical usage today`,
 lineage: `Egyptian Hieroglyphs > Proto-Sinaitic > Phoenician > Aramaic > Pahlavi > Avestan`,
 siblings: ``,
-history: `Avestan was a West Asian alphabet, used to write the Eastern Iranian language of Avestan. Developed during Iran’s Sassanid era, it was probably in everyday use from the 5th–13th centuries, though the only surviving examples are religious texts called Avesta.`,
+history: `Avestan was a West Asian alphabet, used to write the Eastern Iranian language of Avestan. Developed during Iran’s Sassanid era, it was probably in everyday use from the 5th–13th centuries, though the only surviving examples are Zoroastrian religious texts called Avesta.`,
 description: `Avestan text is read right-to-left, except for numbers, but it is not cursive.`,
 unicode: `Unicode 16 has 1 dedicated block, comprising 61 characters.`,
+name:"Avestan", local:"", localtrans:"", region:"wasia", countries:"Iran", script:"avst", speakers:U, 
 },
 
 
@@ -86,6 +99,7 @@ siblings: `Batak, Baybayin, Javanese, Lontara, Makasar, Old Sundanese, Recong, R
 history: `Balinese (<span lang="ban">ᬅᬓ᭄ᬱᬭᬩᬮᬶ</span>) is an Indonesian abugida.  There are around 5 million Balinese speakers on the isands of Java and Bali.  The script has a significant prevalence in many of the island's traditional ceremonies and is strongly associated with the Hindu religion. It is mainly used today for copying lontar or palm leaf manuscripts containing religious texts, however traditional literature is published on a limited scale. Also used for public signage on roads, at entrances to villages, and on government buildings, and read by community reading groups called Sekaha Pesantian, commonly in song form.`,
 description: `Context-sensitive shaping is required, especially where letters interact with each other in consonant clusters, and vowels are represented by combining marks which need careful positioning. Words are not separated by spaces, and stacked consonants can bridge the end of one word and the beginning of another.`,
 unicode: `Unicode 16 has 1 dedicated block, comprising 127 characters, around 30 of which are musical symbols.`,
+name:"Balinese", local:"ᬅᬓ᭄ᬱᬭᬩᬮᬶ", localtrans:"aksara bali", countries:"Indonesia", speakers:"?", 
 },
 
 
@@ -96,7 +110,8 @@ lineage: `Invented by King Ibrahim Njoya (r. 1895 – 1931)`,
 siblings: ``,
 history: `Bamum is an African syllabary, used in Cameroon for the Bamoun language. The script was used for administrative and educational purposes and documentation until the 1930s, when the French and German colonial powers destroyed the libraries and the printing presses, plus many books. After Cameroon became independent in 1960 Seidou Njimoluh, the son and heir of the script's inventor, collected the Bamum manuscripts and other materials that survived and today the Bamum Scripts and Archives Project is trying to revive the Bamum script by teaching it to young people.`,
 description: `This is a simple syllabary where letter shapes don't follow any systematic pattern. Bamum has 78 basic letters but combining marks can be added to a base letter to expand the repertoire.`,
-unicode: `Unicode 16 has 2 dedicated blocks, the first comprising 88 characters normally used for writing Bamoun, but the second contains 569 historical symbols.`
+unicode: `Unicode 16 has 2 dedicated blocks, the first comprising 88 characters normally used for writing Bamoun, but the second contains 569 historical symbols.`,
+name:"Bamum", local:"", localtrans:"", region:"afr", countries:"Senegal, etc", speakers:U,
 },
 
 
@@ -108,6 +123,7 @@ siblings: ``,
 history: `Bassa Vah (<span lang="bsq">𖫢𖫧𖫳𖫒𖫨𖫰𖫨𖫱</span>) is an African bicameral alphabet, used for the Bassa language, which has around 700,000 speakers, mainly in Liberia and Sierra Leone. Some efforts are underway to revive the use of the script, but it is still little used.`,
 description: `Bassa is a tonal language, and tones are written using diacritics inside consonant letters.`,
 unicode: `Unicode 16 has 1 dedicated block, comprising 36 characters.`,
+name:"Bassah Vah", local:"𖫢𖫧𖫳𖫒𖫨𖫰𖫨𖫱", localtrans:"ɓǎsɔ̂", region:"afr", countries:"Liberia, Sierra Leone, Brazil", speakers:"700K",
 },
 
 
@@ -129,7 +145,8 @@ lineage: `Phoenician > Aramaic > Brahmi > Gupta >Siddham > Gaudi > Bengali`,
 siblings: `Oriya, Tirhuta, Nagari, Nepalese`,
 history: `Bengali (<span lang="bn">বাংলা বর্ণমালা</span>) is a South Asian abugida used in Bangladesh and India for the Bengali language and 40 others. The Bengali language alone has over 180 million speakers.`,
 description: `Context-sensitive shaping is required, especially where letters interact with each other in consonant clusters, and vowels are represented by combining marks which need careful positioning. Bengali words have a headstroke which may be used as a hanging baseline.`,
-unicode: `Unicode 16 has 1 dedicated block, comprising 96 characters.`
+unicode: `Unicode 16 has 1 dedicated block, comprising 96 characters.`,
+name:"Bengali", local:"বাংলা লিপি", localtrans:"bangla lipi", region:"sasia", countries:"Bangladesh, India", speakers:"180m",
 },
 
 
@@ -173,7 +190,8 @@ lineage: `Phoenician > Aramaic > Brahmi > Pallava > Old Kawi > Baybayin > Buhid`
 siblings: `Kulitan, Tagalog, Tagbanwa, Ibalnan, Balinese, Batak, Javanese, Makasar, Buginese, Sundanese, Rencong, Rejang`,
 history: `Buhid (<span lang="bku">ᝊᝓᝑᝒ</span>) is a Southeast Asian abugida used in the Philippines, mainly for the Buhid language, spoken by about 8,000 Mangyan people in the Mindoro region of the Philippines. The primary script for the language is Latin.`,
 description: `Buhid is a defective script, meaning that it doesn't represent all the sounds of the spoken language. In particular, syllable-final consonant sounds are not written. Words are separated by spaces.`,
-unicode: `Unicode 16 has 1 dedicated block, comprising just 20 characters.`
+unicode: `Unicode 16 has 1 dedicated block, comprising just 20 characters.`,
+name:"Buginese", local:"ᨒᨚᨈᨑ", localtrans:"lontaraʔ", region:"oce", countries:"Indonesia", speakers:"2.3m",
 },
 
 
@@ -723,7 +741,8 @@ lineage: `Phoenician > Aramaic > Brahmi > Tamil-Brahmi > Pallava > Khmer > Sukot
 siblings: `Tai Yo`,
 history: `Lao (<span lang="lo">ລາວ</span>) is a Southeast Asian alphabet used in Laos for writing the Lao language, and as  the official script for 19 more minority languages. There is also a considerable Lao-speaking population in Thailand but they typically write their language with the Thai script. The script was originally an abugida, but since the script reforms leading up to 1960 it has been alphabetic.`,
 description: `Lao uses visual placement of vowel signs: although vowels are very often written using more than one code point on different sides of the base consonant, only the vowel components that appear above or below the consonant are combining marks; the others are ordinary spacing characters that are typed in the order seen. Lao requires context-sensitive shaping and positioning of glyphs. Tone is indicated by a combination of the consonant class, the syllable type (checked/unchecked), plus any tone mark. Words are not separated using spaces.`,
-unicode: `Unicode 16 has 1 dedicated block, comprising 83 characters.`
+unicode: `Unicode 16 has 1 dedicated block, comprising 83 characters.`,
+name:"Lao", local:"ອັກສອນລາວ", lang:"lo", localtrans:"ʔáksɔ̌ːn láːw", region:"seasia", countries:"Laos", script:"laoo", speakers:"4m", 
 },
 
 
@@ -1526,7 +1545,8 @@ lineage: `Phoenician > Aramaic > Brahmi > Tamil-Brahmi > Pallava > Khmer > Tai Y
 siblings: `Sukhothai, Khom Thai`,
 history: `Tai Yo (or Lai Tay) is a Southeast Asian abugida used in Vietnam for the Tai Yo language. The Lai Tay script is now out of common use, but there are enough manuscripts to allow linguistic study. Some very old Tai Yo scholars can still read the manuscripts, which are preserved in both private and in personal collections. The script is now being taught and studied by the Tai Yo community, with the support of the local government and teachers.`,
 description: `Under the influence of Chinese texts, Tai Yo text is read vertically in columns that run from right to left. Vowel signs generally appear below the base consonant, but some appear to its right in certain contexts. Rendering requires context-sensitive shaping and positioning of glyphs. The script is largely written without punctuation, but may use Chinese punctation marks. There are no tone markers, or numeric digits.`,
-unicode: `Unicode 16 has 1 dedicated block, comprising 55 characters.`
+unicode: `Unicode 16 has 1 dedicated block, comprising 55 characters.`,
+name:"Tai Yo", local:"", localtrans:"", region:"seasia", countries:"Vietnam", script:"tayo", speakers:U, 
 },
 
 
@@ -1581,7 +1601,8 @@ lineage: `Phoenician > Aramaic > Brahmi > Tamil-Brahmi > Pallava > Khmer > Sukot
 siblings: `Fakkham`,
 history: `Thai (<span lang="lo">อักษรไทย</span>) is a Southeast Asian alphabet used in Thailand and neighbouring countries for writing the Thai language, and 37 more, such as Northern Thai, Northeastern Thai, Southern Thai, and Thai Song. It is also used to write Pali, which is widely used in Buddhist temples and monasteries. Both the Thai language and script are closely related to Lao and its script.`,
 description: `Thai uses visual placement for vowel signs: although vowels are very often written using more than one code point on different sides of the base consonant, only the vowel components that appear above or below the consonant are combining marks; the others are ordinary spacing characters that are typed in the order seen. Thai requires context-sensitive shaping and positioning of glyphs. Tone is indicated by a combination of the consonant class, the syllable type (checked/unchecked), plus any tone mark. Words are not separated using spaces.`,
-unicode: `Unicode 16 has 1 dedicated block, comprising 87 characters.`
+unicode: `Unicode 16 has 1 dedicated block, comprising 87 characters.`,
+name:"Thai", local:"อักษรไทย", localtrans:"", region:"seasia", countries:"Thailand", script:"thai", speakers:U,
 },
 
 
