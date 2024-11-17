@@ -29,7 +29,7 @@ var spreadsheet = `krai-bap	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 \u{16D56}	n	n	a	n			Lo		consonant				U+16D56: KIRAT RAI LETTER NA	
 \u{16D4D}	n	ɲ	a	ɲ			Lo	i	consonant				U+16D4D: KIRAT RAI LETTER NYA	
 \u{16D48}	N	ŋ	a	ŋ			Lo		consonant				U+16D48: KIRAT RAI LETTER NGA	
-\u{16D40}	N	ɴ		ᴎ			Lm		nasal coda				U+16D40: KIRAT RAI SIGN ANUSVARA	
+\u{16D40}	N	n ŋ		ᴎ			Lm		nasal coda				U+16D40: KIRAT RAI SIGN ANUSVARA	
 \u{16D5F}	w	w	a	w			Lo		consonant				U+16D5F: KIRAT RAI LETTER VA	
 \u{16D5D}	r	r	a	r			Lo		consonant				U+16D5D: KIRAT RAI LETTER RA	
 \u{16D5E}	l	l	a	l			Lo		consonant				U+16D5E: KIRAT RAI LETTER LA	
@@ -62,6 +62,27 @@ var spreadsheet = `krai-bap	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 \u{16D77}	±	7		8̣			Nd		digit				U+16D77: KIRAT RAI DIGIT SEVEN	
 \u{16D78}	±	8		9̣			Nd		digit				U+16D78: KIRAT RAI DIGIT EIGHT	
 \u{16D79}	±	9		0̣			Nd		digit				U+16D79: KIRAT RAI DIGIT NINE	
+														
+														
+,	,			,	,		Po		comma				U+002C: COMMA	
+;	;			;	;		Po		semicolon				U+003B: SEMICOLON	
+!	!			!	!		Po		exclamation mark				U+0021: EXCLAMATION MARK	
+?	?			?	?		Po		question mark				U+003F: QUESTION MARK	
+:	:			:	:		Po		colon				U+003A: COLON	
+.	.			.	.		Po		full stop				U+002E: FULL STOP	
+-	-			-	-		Pd		hyphen				U+2010: HYPHEN	
+														
+(	(			(	(		Ps		parenthesis				U+0028: LEFT PARENTHESIS	
+)	)			)	)		Ps		parenthesis				U+0029: RIGHT PARENTHESIS	
+[	(			[	[		Pe		bracket				U+005B: LEFT SQUARE BRACKET	
+]	)			]	]		Pe		bracket				U+005D: RIGHT SQUARE BRACKET	
+														
+“	<			“	“		Pi		quotation mark				U+201C: LEFT DOUBLE QUOTATION MARK	
+”	>			”	”		Pf		quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK	
+‘	<			‘	‘		Pi		quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	
+’	>			’	’		Pf		quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
+														
+														
 														
 														
 														
