@@ -213,7 +213,8 @@ lineage: `Created in 1840 by James Evans to write indigenous Canadian languages`
 siblings: ``,
 history: `The Unified Canadian Aboriginal Syllabics script (UCAS) is a North American featural syllabary. It is used by several aboriginal groups throughout Canada and some parts of the USA for 22 languages, including Algonquian, Inuktitut, and Athapascan language families (though adoption varies across languages).`,
 description: `The majority of symbols represent both a consonant and a vowel, but vowel components are indicated by standardised rotations of the glyph shape.`,
-unicode: `Unicode 16 has 3 dedicated blocks, comprising 726 characters.`
+unicode: `Unicode 16 has 3 dedicated blocks, comprising 726 characters.`,
+name:"Canadian Aboriginal Syllabics", local:"", localtrans:"", region:"nam", countries:"Canada, USA", speakers:U,
 },
 
 
@@ -246,7 +247,9 @@ lineage: `Developed by a Cherokee named Sequoyah and presented to the Cherokee N
 siblings: ``,
 history: `Cherokee (<span lang="chr">ᏣᎳᎩ</span>) is a bicameral syllabary, used in the United States for the Cherokee language. It is estimated that only around 2,000 Cherokee people speak the language, however, they use the script widely for writing letters, recipes, folktales, diaries, and for personal record-keeping. It is also used in some legal, governmental and religious documents and, in some areas, public signage. Efforts are being made to revive both the language and the script via limited initiatives in education. Knowledge of the script is considered a prerequisite for full Cherokee citizenship.`,
 description: `The script is only recently becoming bicameral, after a long period when syllabic characters resembled uppercase letters. The script doesn't fully represent the sounds of the spoken language: vowel length is not distinguished, with some exceptions syllable-final consonants and syllable-initial aspiration are not reflected in the orthography, and the user has to figure out when to drop the vowel of a CV letter to make consonant clusters. The tones of Cherokee are not written.`,
-unicode: `Unicode 16 has 2 dedicated blocks, comprising 172 characters.`
+unicode: `Unicode 16 has 2 dedicated blocks, comprising 172 characters.`,
+name:"Cherokee", local:"ᏣᎳᎩ", localtrans:"tsalagi", region:"nam", countries:"Canada, USA", speakers:2000,
+
 },
 
 
@@ -301,7 +304,8 @@ lineage: `Phoenician > Greek + Glagolitic > Early Cyrillic > Cyrillic`,
 siblings: `Armenian, Coptic, Latin`,
 history: `Cyrillic is a European alphabet, used for 162 languages in Eastern Europe and Central & Northern Asia. It has traditionally been used for writing the Slavic languages. As of 2011, around 252 million people in Eurasia used it as the official alphabet for their national languages, with Russia accounting for about half of them. During the 19th and 20th centuries, particularly under Soviet rule, it was extended to write over 50 languages throughout Eastern Europe and Asia.`,
 description: ``,
-unicode: `Unicode 16 has 6 dedicated blocks, comprising 506 characters.`
+unicode: `Unicode 16 has 6 dedicated blocks, comprising 506 characters.`,
+name:"Cyrillic", local:"", localtrans:"", region:"eur", countries:"Russian, etc", speakers:U,
 },
 
 
@@ -312,7 +316,8 @@ lineage: `Phoenician > Aramaic > Brahmi > Gupta > Siddham > Nagari > Devanagari`
 siblings: `Kaithi, Nandinagari, Gujarati, Modi`,
 history: `Devanagari (<span lang="hi">देवनागरी</span>) is a South Asian abugida used in India and Nepal, amongst other places, for almost 200 languages, including Classical Sanskrit. It is an official script of India, and is the 4th most widely used script in the world.`,
 description: `Devanagari is a complex script, where letter shapes interact, especially for consonant clusters, and positioning of glyphs is context-sensitive, requiring software support for layout. It uses a headstroke drawn across words, which has a role as a hanging baseline.`,
-unicode: `Unicode 16 has 3 dedicated blocks, comprising 170 characters.`
+unicode: `Unicode 16 has 3 dedicated blocks, comprising 170 characters.`,
+name:"Devanagari", local:"देवनागरी", localtrans:"d̪eːʋ.nɑːɡ.ɾiː", region:"sasia", countries:"India, Nepal", speakers:U,
 },
 
 
@@ -389,7 +394,8 @@ lineage: `Egyptian hieroglyphs, Proto-Sinaitic, South Semitic, Ancient South Ara
 siblings: ``,
 history: `Ethiopic is an African featural syllabary which derives from the earlier Geʽez (<span lang="ban">ግዕዝ</span>) orthography, which was an abjad used until the 10th–12th centuries and now only in liturgical use. Ethiopic is widely used for over 40 Ethiopian and Eritrean Semitic languages, such as Tigré, Amharic and Tigrinya. Some other languages in the Horn of Africa, such as Oromo, used to be written using Geʽez, but have migrated to Latin-based orthographies. Amharic alone has 31 million mother-tongue speakers, and more than 25 million second language speakers.`,
 description: `The script became an abugida when small changes were added to Geʽez to indicate the following vowel sound. Each complete syllable is now represented by a single syllabic character in the Unicode repertoire, making it a featural syllabary where vowels are indicated in a standard way by small additions to the base character. Words were traditionally separated by a wordspace character, but inter-word spaces are nowadays more common.`,
-unicode: `Unicode 16 has 5 dedicated blocks, comprising 523 characters.`
+unicode: `Unicode 16 has 5 dedicated blocks, comprising 523 characters.`,
+name:"Ethiopic", local:"", localtrans:"", region:"afr", countries:"Ethiopia, Eritrea", speakers:U,
 },
 
 
@@ -411,7 +417,8 @@ lineage: `Phoenician > Greek? > Georgian`,
 siblings: `Gothic,Cyrillic, Coptic, Armenian, Old Italic, Latin, Runic, Georgian, Anatolian`,
 history: `Georgian (<span lang="ka">ქართული</span>) is a set of European alphabets used in Georgia for 7 languages. Characters in the Unicode Georgian blocks represent 4 different letter styles for, with few exceptions, the same phonetic range. Modern Georgian uses only the 'mkhedruli' style of lettering, though occasionally its 'mtavruli' variants are used for emphasis or titles. The 'asomtavruli' and 'nuskhuri' styles are not well understood by ordinary Georgians. They are used together in ecclesiastical texts as the bicameral 'khutsuri' writing system.`,
 description: `Mtavruli is an all-caps style, rather than uppercase. In the 1950s, Akaki Shanidze attempted to add Asomtavruli as uppercase and use Mkhedruli for lowercase, but the effort did not succeed.`,
-unicode: `Unicode 16 has 3 dedicated blocks, comprising 174 characters.`
+unicode: `Unicode 16 has 3 dedicated blocks, comprising 174 characters.`,
+name:"Georgian", local:"დამწერლობა", localtrans:"damts'erloba", region:"eur", countries:"Georgia, Azerbaijan, Turkey, Iran", speakers:"4.5m",
 },
 
 
@@ -455,7 +462,8 @@ lineage: `Phoenician > Aramaic > Phoenician > Greek`,
 siblings: `Paleo-Hebrew, Aramaic, Paleohispanic, Libyco-Berber`,
 history: `Greek (<span lang="el">Ελληνικά</span>) is a European bicameral alphabet used in Greece, Cyprus and surrounding regions for 18 languages. Some symbols are also used in scientific and mathematical notations, as well as the international phonetic alphabet (IPA). It is considered to be the first true alphabet with distinct letters for consonants and vowels. Early Greek is referred to as polytonic, which has multiple combining marks attached to vowel letters. Monotonic spelling, with usually a single mark per vowel, was adopted as standard in 1982.`,
 description: `Rendering algorithms need to position marks according to context. The letter sigma has different word-medial vs word-final shapes, but they are encoded separately.`,
-unicode: `Unicode 16 has 3 dedicated blocks, comprising 447 characters, of which 79 are for ancient Greek numbers. Monotonic Greek is essentially covered by the 121 code points in the main block, which it shares with 14 additional Coptic letters.`
+unicode: `Unicode 16 has 3 dedicated blocks, comprising 447 characters, of which 79 are for ancient Greek numbers. Monotonic Greek is essentially covered by the 121 code points in the main block, which it shares with 14 additional Coptic letters.`,
+name:"Greek", local:"Ελληνικό αλφάβιτο", localtrans:"Ellinıkó alfávıto", region:"eur", countries:"Greece, Cyprus, etc", speakers:"13m",
 },
 
 
@@ -488,7 +496,8 @@ lineage: `Phoenician > Aramaic > Brahmi > Gupta > Siddham > Nagari > Gujarati`,
 siblings: `Devanagari, Modi, Kaithi, Nandinagari`,
 history: `Gujarati (<span lang="gu">ગુજરાતી</span>) is a South Asian abugida used in India for Gujarati and 15 other languages. It is used for writing the Gujarati and Chodri languages, together spoken by almost 47 million people, as well as alongside Devanagari for languages of the Bhil people, one of India's largest indigenous groups. Until the mid-19th century it was used primarily for bookkeeping and personal correspondence, but since printing facilities became widely available to Gujarati speakers the script has been used in schools, for printing books and newspapers, in government offices and public signage, and is one of the official scripts of India.`,
 description: `The 3rd phase of Gujarati development, begun in the 17th century, saw the abandonment of the shiroreka (headstroke) to enable ease and speed of writing.  Gujarati requires context-sensitive shaping and positioning of glyphs.`,
-unicode: `Unicode 16 has 1 dedicated block, comprising 91 characters.`
+unicode: `Unicode 16 has 1 dedicated block, comprising 91 characters.`,
+name:"Gujarati", local:"ગુજરાતી", localtrans:"", region:"sasia", countries:"India", speakers:"47m",
 },
 
 
@@ -510,7 +519,19 @@ lineage: `Phoenician > Aramaic > Brahmi > Gupta > Sharada > Landa > Gurmukhi`,
 siblings: `Khudabadi, Khojki, Mahajani, Multani`,
 history: `Gurmukhi (<span lang="pa">ਗੁਰਮੁਖੀ</span>) is a South Asian abugida used in India for the Punjabi language, and sometimes for Saraiki and Sindhi. It is the official script of the Punjabi language. The original Sikh scriptures and most of the historic Sikh literature were written in the Gurmukhi script. Muslim speakers of Punjabi in Pakistan use a Persian version of the Arabic script (called shahmukhi). The current form of Gurmukhi was developed in the 16th century by Guru Angad, successor to the founder of the Sikh religion, Guru Nanak. It's roots lie in the historical Brahmi script.`,
 description: `It requires context-sensitive shaping and positioning of glyphs. Words have a headstroke which may behave as a hanging baseline. Tone is expressed using the letter HA.`,
-unicode: `Unicode 16 has 1 dedicated block, comprising 80 characters.`
+unicode: `Unicode 16 has 1 dedicated block, comprising 80 characters.`,
+name:"Gurmukhi", local:"ਗੁਰਮੁਖੀ", localtrans:"", region:"sasia", countries:"India", speakers:U,
+},
+
+
+"hani": {
+dates: `BCE 30thC – today`,
+status: `In active use`,
+lineage: ``,
+siblings: ``,
+history: `Used for Chinese, and a number of related languages.`,
+description: ``,
+unicode: `Unicode 16 has 17 dedicated blocks (not counting a large number of punctuation marks), comprising over 99,110 characters.`
 },
 
 
@@ -543,7 +564,8 @@ lineage: `Phoenician > Aramaic > Hebrew`,
 siblings: `Nabataean, Syriac, Palmyrene, Edessan, Hatran, Elymaic, Mandaic, Pallavi, Brahmi, Kharosthi`,
 history: `Hebrew (<span lang="he">אָלֶף־בֵּית עִבְרִי</span>) is a West Asian abjad used in Israel and the Jewish diaspora for 24 languages, including Hebrew, Samaritan, and Yiddish. Before the Jewish exile in Babylon, Hebrew was written using a Paleo-Hebrew script that resembles the Samaritan alphabet. The current script, known as 'square', or 'block' script, derives from Aramaic writing. It is generally referred to as the Ashuri (Assyrian) script, although there are a few alternate writing styles.`,
 description: `Hebrew text is read right-to-left, except for numbers. Short vowels are usually omitted, but can be written using combining marks, especially for children's books and foreign terms. Text is not cursive, and there is little shaping required, but positioning of glyphs, when used, needs context-sensitive rendering support. Three letters have different shapes when word-medial and word-final, but these are encoded separately.`,
-unicode: `Unicode 16 has 1 dedicated block, comprising 88 characters, 51 of which are combining marks. There is also a Hebrew Presentation Forms block containing 46 characters.`
+unicode: `Unicode 16 has 1 dedicated block, comprising 88 characters, 51 of which are combining marks. There is also a Hebrew Presentation Forms block containing 46 characters.`,
+name:"Hebrew", local:"בֵּית עִבְרִי", localtrans:"", region:"wasia", countries:"Israel, etc", speakers:U,
 },
 
 
@@ -690,14 +712,16 @@ unicode: `Unicode 16 has 1 dedicated block, comprising 91 characters.`
 },
 
 
-"kore": {
+"hang": {
 dates: `CE 1444 – today`,
 status: `In active use`,
 lineage: `Phoenician > Aramaic > Brahmi > Gupta > Tibetan > Phags Pa > Korean`,
 siblings: ``,
-history: `Korean is an East Asian script that includes 2 main subscripts used for writing Korean, Cia-cia, and Jejueo: Hangul (<span lang="ban">한글</span>) is a featural syllabary, and Hanja (<span lang="ban">漢字</span>) is a logo-syllabary. Based on traditional Chinese Han characters, Hanja was used for the Korean language until 1446, when King Sejong introduced Hangul. Until the mid-20th century Hanja and Hangul were used in parallel or mixed. Today, the vast majority of Korean text uses Hangul but Hanja is still used in some contexts, and schools teach some 1,000-3,000 Hanja symbols. Hangul was created as a simpler, phonetic alternative to using Chinese hanja for Korean. Not universally accepted for centuries, and suppressed by Japanese colonial authorities, since 1945 it has become the standard script for Korean.`,
+history: `Korean Hangul is an East Asian script that includes 2 main subscripts used for writing Korean, Cia-cia, and Jejueo: Hangul (<span lang="ban">한글</span>) is a featural syllabary. Korean also uses Hanja (<span lang="ban">漢字</span>), which is a logo-syllabary, based on traditional Chinese Han characters, that was used for the Korean language until 1446, when King Sejong introduced Hangul. Until the mid-20th century Hanja and Hangul were used in parallel or mixed. Today, the vast majority of Korean text uses Hangul but Hanja is still used in some contexts, and schools teach some 1,000-3,000 Hanja symbols. Hangul was created as a simpler, phonetic alternative to using Chinese hanja for Korean. Not universally accepted for centuries, and suppressed by Japanese colonial authorities, since 1945 it has become the standard script for Korean.`,
 description: `The 51 basic letters (jamo) are grouped into Hangul syllable blocks depending on their position in the spoken syllable. Korean text is generally horizontal nowadays, but can also be written in vertical columns that progress from right to left. Context-sensitive shaping and positioning of glyphs is required if converting jamos to syllabic characters. Words are separated by spaces.`,
-unicode: `Unicode 16 has 6 dedicated blocks, comprising 11,686 characters.`
+unicode: `Unicode 16 has 6 dedicated blocks, comprising 11,686 characters.`,
+name:"Hangul", local:"한글", localtrans:"han.ɡɯl", region:"easia", countries:"North & South Korea", speakers:U,
+
 },
 
 
@@ -706,9 +730,10 @@ dates: `1920s – today`,
 status: `Limited usage (small community)`,
 lineage: `Devised in 1920, and redesigned in 2000`,
 siblings: ``,
-history: `Kirat Rai is a South Asian abugida used in the Indian state of Sikkim to write the Bantawa language. The script is used for poetry, newspapers, educational materials, and government records, among others.`,
-description: `Kirat Rai doesn't have the conjunct forms, reordering, or combining marks of most Brahmi-derived scripts. Words are separated using spaces.`,
-unicode: `Unicode 16 has 1 dedicated block, comprising 58 characters.`
+history: `Kirat Rai is a South Asian abugida used in the Indian state of Sikkim to write the Bantawa language. It t is sometimes called “Khambu Rai Lipi” in West Bengal. The script is used for poetry, newspapers, educational materials, and government records, among others. It was devised developed by Late Kripasalyan Rai in 1981-1982 from the Devanagari script. The Bantawa language is taught in schools up to the primary level ever since it was recognized as one of the official languages of Sikkim in 1997.`,
+description: `Kirat Rai doesn't have the conjunct forms, reordering, or combining marks of most Brahmi-derived scripts. It is very unusual in having two viramas, both of which are always visible. These and nasalisation and nasal coda glyphs are all letters, rather than combining marks. Words are separated using spaces.`,
+unicode: `Unicode 16 has 1 dedicated block, comprising 58 characters.`,
+name:"Kirat Rai", local:"𖵄𖵤𖵝𖵣𖵒 𖵝𖵃𖵤", localtrans:"kirat rai", region:"sasia", countries:"India, Nepal", speakers:U,
 },
 
 
