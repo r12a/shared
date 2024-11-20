@@ -632,6 +632,7 @@ siblings: `Balinese, Baybayin scripts, Batak, Lontara, Makasar, Sundanese, Renco
 history: `Javanese (<span lang="ban">ꦲꦏ꧀ꦱꦫꦗꦮ</span>) is an Indonesian abugida used on the island of Java for Javanese and 5 other languages. Use of the Javanese script ended abruptly during the Second World War, when its use was forbidden by the occupying forces. Its use has since declined, and everyday Javanese is now generally written in the Latin script, although the Javanese orthography is still taught in most elementary schools and some junior high schools in Javanese speaking areas. There are no newspapers or magazines being printed in the Javanese script.`,
 description: `Context-sensitive shaping is required, especially where letters interact with each other in consonant clusters, and vowels are represented by combining marks which need careful positioning. Words are not separated by spaces, and stacked consonants can bridge the end of one word and the beginning of another.`,
 unicode: `Unicode 16 has 1 dedicated block, comprising 91 characters.`
+name:"Javanese", local:"ꦲꦤꦕꦫꦏ", localtrans:"aksara d͡ʒawa", region:"oce", countries:"Indonesia", speakers:"94m",
 },
 
 
@@ -728,10 +729,10 @@ name:"Hangul", local:"한글", localtrans:"han.ɡɯl", region:"easia", countries
 "krai": {
 dates: `1920s – today`,
 status: `Limited usage (small community)`,
-lineage: `Devised in 1920, and redesigned in 2000`,
+lineage: `Created in 1981-2  by Late Kripasalyan Rai`,
 siblings: ``,
-history: `Kirat Rai is a South Asian abugida used in the Indian state of Sikkim and Nepal to write the Bantawa language. It t is sometimes called “Khambu Rai Lipi” in West Bengal. The script is used for poetry, newspapers, educational materials, and government records, among others. It was devised developed by Late Kripasalyan Rai in 1981-1982 from the Devanagari script. The Bantawa language is taught in schools up to the primary level ever since it was recognized as one of the official languages of Sikkim in 1997.`,
-description: `Kirat Rai doesn't have the conjunct forms, reordering, or combining marks of most Brahmi-derived scripts. It is very unusual in having two viramas, both of which are always visible. These and nasalisation and nasal coda glyphs are all letters, rather than combining marks. Words are separated using spaces.`,
+history: `Kirat Rai is a South Asian abugida used in the Indian state of Sikkim and Nepal to write the Bantawa language. It is sometimes called “Khambu Rai Lipi” in West Bengal. The script is used for poetry, newspapers, educational materials, and government records, among others. It was devised developed by Late Kripasalyan Rai in 1981-1982 from the Devanagari script. The Bantawa language is taught in schools up to the primary level ever since it was recognized as one of the official languages of Sikkim in 1997.`,
+description: `Kirat Rai doesn't have the conjunct forms, reordering, or combining marks of most Brahmi-derived scripts. It is very unusual in having two viramas, both of which are always visible. These and nasalisation and nasal coda glyphs are all letters, rather than combining marks. Letters have no ascenders or descenders.`,
 unicode: `Unicode 16 has 1 dedicated block, comprising 58 characters.`,
 name:"Kirat Rai", local:"𖵄𖵤𖵝𖵣𖵒 𖵝𖵃𖵤", localtrans:"kirat rai", region:"sasia", countries:"India, Nepal", speakers:U,
 },
