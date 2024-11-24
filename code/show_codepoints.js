@@ -285,6 +285,12 @@ function showNameDetails (chars, clang, base, target, panel, list, translit, ipa
                     console.log('blockfile',terms.language )
                     }
 
+                // FOR PICKERS
+                else if (location.toString().includes('picker')) {
+                    out += `<a target="c" href="../../scripts/${ blockfile }/${ factoryDefaults.language }-characters.html#char${ hex }"> U+${ hex } ${ charData[charArray[c]] }</a>`
+                    console.log('blockfile',factoryDefaults.language )
+                    }
+
                 else {
                     out += `<a target="c" href="`
                     //if (base === '../../uniview/index.html?char=') out += base+hex
@@ -424,8 +430,8 @@ function copyPanelList () {
     var imgs = document.getElementById('listOfCharacters').querySelectorAll('img')
     var out = ''
     for (var i=0;i<lines.length;i++) {
-        console.log(imgs[i])
-        out += imgs[i].alt+' '+lines[i].textContent
+        //console.log(imgs[i])
+        out += imgs[i].alt+' '+lines[i].textContent+'\n'
         }
     navigator.clipboard.writeText(out)
     
