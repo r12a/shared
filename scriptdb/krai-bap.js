@@ -23,11 +23,11 @@ var spreadsheet = `krai-bap	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 \u{16D4B}	j	d͡z	a	ʣ			Lo		consonant				U+16D4B: KIRAT RAI LETTER JA	
 \u{16D4C}	J	d͡zʰ	a	ʣʰ			Lo		consonant				U+16D4C: KIRAT RAI LETTER JHA	
 \u{16D60}	s	s	a	s			Lo		consonant				U+16D60: KIRAT RAI LETTER SA	
-\u{16D61}	S	ʃ	a	ʃ			Lo	i	consonant				U+16D61: KIRAT RAI LETTER SHA	
+\u{16D61}	S	ʃ	a	ʃ			Lo	i	consonant	Used in borrowed words only.			U+16D61: KIRAT RAI LETTER SHA	
 \u{16D62}	h	h	a	h			Lo		consonant				U+16D62: KIRAT RAI LETTER HA	
 \u{16D5B}	m	m	a	m			Lo		consonant				U+16D5B: KIRAT RAI LETTER MA	
 \u{16D56}	n	n	a	n			Lo		consonant				U+16D56: KIRAT RAI LETTER NA	
-\u{16D4D}	n	ɲ	a	ɲ			Lo	i	consonant				U+16D4D: KIRAT RAI LETTER NYA	
+\u{16D4D}	n	ɲ	a	ɲ			Lo	i	consonant	Used in borrowed words only.			U+16D4D: KIRAT RAI LETTER NYA	
 \u{16D48}	N	ŋ	a	ŋ			Lo		consonant				U+16D48: KIRAT RAI LETTER NGA	
 \u{16D40}	N	n ŋ		ᴎ			Lm		nasal coda				U+16D40: KIRAT RAI SIGN ANUSVARA	
 \u{16D5F}	w	w	a	w			Lo		consonant				U+16D5F: KIRAT RAI LETTER VA	
@@ -40,13 +40,13 @@ var spreadsheet = `krai-bap	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 \u{16D65}	u	u		u			Lo		vowel				U+16D65: KIRAT RAI VOWEL SIGN U	
 \u{16D67}	e	e		e			Lo		vowel				U+16D67: KIRAT RAI VOWEL SIGN E	
 \u{16D69}	o	o		o			Lo		vowel				U+16D69: KIRAT RAI VOWEL SIGN O	
-\u{16D43}	A	a ʔ		a			Lo		vowel carrier				U+16D43: KIRAT RAI LETTER A	
+\u{16D43}	A	a ʔ		a			Lo		vowel carrier	Pronounced /a/ when used as a standalone vowel in a syllable onset.			U+16D43: KIRAT RAI LETTER A	
 \u{16D63}	a	aː		aː			Lo		vowel				U+16D63: KIRAT RAI VOWEL SIGN AA	
 \u{16D68}	E	aɪ		ɛ			Lo		vowel				U+16D68: KIRAT RAI VOWEL SIGN AI	
 \u{16D6A}	a	aʊ		au			Lo		vowel				U+16D6A: KIRAT RAI VOWEL SIGN AU	
 														
 \u{16D41}	[¶	̃		˜			Lm		nasalisation marker				U+16D41: KIRAT RAI SIGN TONPI	
-\u{16D6B}	*			͞			Lm		vowel killer	Used for 1st letter in word only.			U+16D6B: KIRAT RAI SIGN VIRAMA	
+\u{16D6B}	*			͞			Lm		vowel killer	Used for the 1st letter in word only.			U+16D6B: KIRAT RAI SIGN VIRAMA	
 \u{16D6C}	*			˟			Lm		vowel killer	Used for non-initial letters in a word.			U+16D6C: KIRAT RAI SIGN SAAT	
 \u{16D6D}	+			¨			Po		abbreviation marker				U+16D6D: KIRAT RAI SIGN YUPI	
 \u{16D6E}	|			|			Po		sentence delimiter				U+16D6E: KIRAT RAI DANDA	
