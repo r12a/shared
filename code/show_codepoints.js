@@ -598,7 +598,7 @@ function printDetails (char) {
     out += `<br><a target="_blank" href="https://util.unicode.org/UnicodeJsps/character.jsp?a=${ hex }">Properties</a>`
 
     // add a link to the terms list
-    if (autoExpandExamples[window.langTag]) out += `<br><a target="_blank" href="${ window.langTag }_vocab.html?q=${ char }">Term list</a>`
+    if (autoExpandExamples[window.langTag]) out += `<br><a target="terms" href="${ window.langTag }_vocab.html?q=${ char }">Term list</a>`
 
     // add a link to the character usage app
     if (autoExpandExamples[window.langTag]) out += `<br><a target="_blank" href="../../app-charuse/index.html?language=${ window.charUsageBCP }&charlist=${ char }">Usage</a>`
