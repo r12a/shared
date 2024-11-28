@@ -1,57 +1,77 @@
 var spreadsheet = `ahom-aho	key	ipa	ipa+		translit	transc	kbd	class	status	type	usage	native name	name transcription	ucs name	block
 															
-𑜆	p	p	a		p	p		Lo						U+11706: AHOM LETTER PA	
-𑜇	P	pʰ	a		pʰ	ph		Lo						U+11707: AHOM LETTER PHA	
-𑜈	b	b	a		b	b		Lo						U+11708: AHOM LETTER BA	
-𑜚	b	b	a		b	b		Lo						U+1171A: AHOM LETTER ALTERNATE BA	
-𑜘	B	bʱ	a		bʱ	bh		Lo						U+11718: AHOM LETTER BHA	
-𑜄	t	t	a		t	t		Lo						U+11704: AHOM LETTER TA	
-𑜅	t	t	a		t	t		Lo						U+11705: AHOM LETTER ALTERNATE TA	
-𑜌	T	tʰ	a		tʰ	th		Lo						U+1170C: AHOM LETTER THA	
-𑜓	d	d	a		d	d		Lo						U+11713: AHOM LETTER DA	
-𑜔	D	dʱ	a		dʱ	ḍh		Lo						U+11714: AHOM LETTER DHA	
-𑝁	t	ʈ	a		ʈ	ṭ		Lo		consonant				U+11741: AHOM LETTER TTA	
-𑝂	T	ʈʰ	a		ʈʰ	ṭh		Lo		consonant				U+11742: AHOM LETTER TTHA	
-𑝃	d	ɖ	a		ɖ	ḍ		Lo		consonant				U+11743: AHOM LETTER DDA	
-𑝄	D	ɖʱ	a		ɖʱ	ḍh		Lo		consonant				U+11744: AHOM LETTER DDHA	
-𑝀	c	c	a		c	c		Lo		consonant				U+11740: AHOM LETTER CA	
-𑜋	C	cʰ	a		cʰ	ch		Lo						U+1170B: AHOM LETTER CHA	
-𑜊	j	ɟ	a		ɟ	j		Lo						U+1170A: AHOM LETTER JA	
-𑜙	J	ɟʱ	a		ɟʱ	jh		Lo						U+11719: AHOM LETTER JHA	
-𑜀	k	k	a		k	k		Lo						U+11700: AHOM LETTER KA	
-𑜁	K	kʰ	a		kʰ	kh		Lo						U+11701: AHOM LETTER KHA	
-𑜕	g	ɡ	a		ɡ	g		Lo						U+11715: AHOM LETTER GA	
-𑜖	g	ɡ	a		ɡ	g		Lo						U+11716: AHOM LETTER ALTERNATE GA	
-𑜗	G	ɡʱ	a		ɡʱ	gh		Lo						U+11717: AHOM LETTER GHA	
-𑜏	s	s	a		s	s		Lo						U+1170F: AHOM LETTER SA	
-𑜑	h	h	a		h	h		Lo						U+11711: AHOM LETTER HA	
-𑜉	m	m	a		m	m		Lo						U+11709: AHOM LETTER MA	
-𑜃	n	n	a		n	n		Lo						U+11703: AHOM LETTER NA	
-𑝅	n	ɳ	a		ɳ	ṇ		Lo		consonant				U+11745: AHOM LETTER NNA	
-𑜐	n	ɲ	a		ɲ	ny		Lo						U+11710: AHOM LETTER NYA	
-𑜂	N	ŋ	a		ŋ	ng		Lo						U+11702: AHOM LETTER NGA	
-𑜍	r	r	a		r	r		Lo						U+1170D: AHOM LETTER RA	
-𑜞	R	r	a		r	r		Mc​						U+1171E: AHOM CONSONANT SIGN MEDIAL RA	
-𑜟	R	r	a		r	r		Mn​						U+1171F: AHOM CONSONANT SIGN MEDIAL LIGATING RA	
-𑜎	l	l	a		l	l		Lo						U+1170E: AHOM LETTER LA	
-𑜝	L	l	a		l	l		Mn​						U+1171D: AHOM CONSONANT SIGN MEDIAL LA	
-𑝆	l	ɭ	a		ɭ	ḷ		Lo		consonant				U+11746: AHOM LETTER LLA	
+𑜆	p	p	a		p	p		Lo		consonant				U+11706: AHOM LETTER PA	
+𑜇	P	pʰ	a		pʰ	ph		Lo		consonant				U+11707: AHOM LETTER PHA	
+𑜈	b	b	a		b	b		Lo		consonant				U+11708: AHOM LETTER BA	
+𑜚	b	b	a		b	b		Lo		alternate consonant	Alternative shape, typically used as a composite vowel component.			U+1171A: AHOM LETTER ALTERNATE BA	
+𑜘	B	bʱ	a		bʱ	bh		Lo		consonant				U+11718: AHOM LETTER BHA	
+𑜄	t	t	a		t	t		Lo		consonant				U+11704: AHOM LETTER TA	
+𑜅	t	t	a		t	t		Lo		consonant				U+11705: AHOM LETTER ALTERNATE TA	
+𑜌	T	tʰ	a		tʰ	th		Lo		consonant	Alternative shape, used for ligatures (maybe more).			U+1170C: AHOM LETTER THA	
+𑜓	d	d	a		d	d		Lo		consonant				U+11713: AHOM LETTER DA	
+𑜔	D	dʱ	a		dʱ	ḍh		Lo		consonant				U+11714: AHOM LETTER DHA	
+𑝁	t	ʈ	a		ʈ	ṭ		Lo	r	consonant	Used for one Pali-related publication only.			U+11741: AHOM LETTER TTA	
+𑝂	T	ʈʰ	a		ʈʰ	ṭh		Lo	r	consonant	Used for one Pali-related publication only.			U+11742: AHOM LETTER TTHA	
+𑝃	d	ɖ	a		ɖ	ḍ		Lo	r	consonant	Used for one Pali-related publication only.			U+11743: AHOM LETTER DDA	
+𑝄	D	ɖʱ	a		ɖʱ	ḍh		Lo	r	consonant	Used for one Pali-related publication only.			U+11744: AHOM LETTER DDHA	
+𑝀	c	c	a		c	c		Lo	r	consonant	Used for one Pali-related publication only.			U+11740: AHOM LETTER CA	
+𑜋	C	cʰ	a		cʰ	ch		Lo		consonant				U+1170B: AHOM LETTER CHA	
+𑜊	j	ɟ	a		ɟ	j		Lo		consonant				U+1170A: AHOM LETTER JA	
+𑜙	J	ɟʱ	a		ɟʱ	jh		Lo		consonant				U+11719: AHOM LETTER JHA	
+𑜀	k	k	a		k	k		Lo		consonant				U+11700: AHOM LETTER KA	
+𑜁	K	kʰ	a		kʰ	kh		Lo		consonant				U+11701: AHOM LETTER KHA	
+𑜕	g	ɡ	a		ɡ	g		Lo		consonant				U+11715: AHOM LETTER GA	
+𑜖	g	ɡ	a		ɡ	g		Lo		alternate consonant	Alternative shape.			U+11716: AHOM LETTER ALTERNATE GA	
+𑜗	G	ɡʱ	a		ɡʱ	gh		Lo		consonant				U+11717: AHOM LETTER GHA	
+𑜏	s	s	a		s	s		Lo		consonant				U+1170F: AHOM LETTER SA	
+𑜑	h	h	a		h	h		Lo		consonant				U+11711: AHOM LETTER HA	
+𑜉	m	m	a		m	m		Lo		consonant				U+11709: AHOM LETTER MA	
+𑜃	n	n	a		n	n		Lo		consonant				U+11703: AHOM LETTER NA	
+𑝅	n	ɳ	a		ɳ	ṇ		Lo	r	consonant	Used for one Pali-related publication only.			U+11745: AHOM LETTER NNA	
+𑜐	n	ɲ	a		ɲ	ny		Lo		consonant				U+11710: AHOM LETTER NYA	
+𑜂	N	ŋ	a		ŋ	ng		Lo		consonant				U+11702: AHOM LETTER NGA	
+𑜍	r	r	a		r	r		Lo		consonant				U+1170D: AHOM LETTER RA	
+𑜞	R	r	a		r	r		Mc​		medial consonant	Medial consonant used  in onsets.			U+1171E: AHOM CONSONANT SIGN MEDIAL RA	
+𑜟	R	r	a		r	r		Mn​		medial consonant	Alternative shape for medial consonant in onsets.			U+1171F: AHOM CONSONANT SIGN MEDIAL LIGATING RA	
+𑜎	l	l	a		l	l		Lo		consonant				U+1170E: AHOM LETTER LA	
+𑜝	L	l	a		l	l		Mn​		medial consonant	Medial consonant used  in onsets.			U+1171D: AHOM CONSONANT SIGN MEDIAL LA	
+𑝆	l	ɭ	a		ɭ	ḷ		Lo	r	consonant	Used for one Pali-related publication only.			U+11746: AHOM LETTER LLA	
 															
-𑜢	i	i			i	i		Mn​						U+11722: AHOM VOWEL SIGN I	
-𑜣	I	iː			iː	ii		Mn​						U+11723: AHOM VOWEL SIGN II	
-𑜤	u	u			u	u		Mn​						U+11724: AHOM VOWEL SIGN U	
-𑜥	U	uː			uː	uu		Mn​						U+11725: AHOM VOWEL SIGN UU	
-𑜦	e	e			e	e		Mc​						U+11726: AHOM VOWEL SIGN E	
-𑜨	o	o			o	o		Mn​						U+11728: AHOM VOWEL SIGN O	
-𑜠	a	a			a	a		Mc​						U+11720: AHOM VOWEL SIGN A	
-𑜡	A	aː			aː	aa		Mc​						U+11721: AHOM VOWEL SIGN AA	
+𑜢	i	i			i	i		Mn​		vowel	Used in closed syllables.		tang	U+11722: AHOM VOWEL SIGN I	
+𑜣	I	iː			iː	ii		Mn​		vowel			tang khat	U+11723: AHOM VOWEL SIGN II	
+𑜢𑜤	w	ɯ			iu					vowel				U+11722 U+11724 AHOM VOWEL SIGN I​, VOWEL SIGN U	
+𑜢𑜤𑜚𑜫	w	ɯː			iub͞					vowel			tang tu waa saat	U+11722 U+11724 U+1171A U+1172B: AHOM VOWEL SIGN I, VOWEL SIGN U, LETTER ALTERNATE BA, SIGN KILLER	
+𑜤	u	u			u	u		Mn​		vowel	Used in closed syllables.		saa tu	U+11724: AHOM VOWEL SIGN U	
+𑜥	U	uː			uː	uu		Mn​		vowel			sawng saa tu	U+11725: AHOM VOWEL SIGN UU	
+𑜦	e	e			e	e		Mc​		vowel			teu khaw	U+11726: AHOM VOWEL SIGN E	
+𑜤𑜚𑜫	o	oː								vowel			saa tu waa saat	U+11724 U+1171A U+1172B: AHOM VOWEL SIGN U, LETTER ALTERNATE BA, SIGN KILLER	
+𑜦𑜧	E	ɛː								vowel			teu khaw saat	U+11726 U+11727: AHOM VOWEL SIGN E, VOWEL SIGN AW	
+𑜨	o	ɔ			o	o		Mn​		vowel	Used in closed syllables.		khien	U+11728: AHOM VOWEL SIGN O	
+𑜦𑜡	O	ɔː								vowel			teu khaw le baa	U+11726 U+11721: AHOM VOWEL SIGN E, VOWEL SIGN AA	
+𑜠	a	a			a	a		Mc​		vowel			mai naa	U+11720: AHOM VOWEL SIGN A	
+𑜡	A	aː			aː	aa		Mc​		vowel			le baa	U+11721: AHOM VOWEL SIGN AA	
 															
-𑜩	a	ai			ai	ai		Mn​						U+11729: AHOM VOWEL SIGN AI	
-𑜧	a	aw			aw	aw		Mn​						U+11727: AHOM VOWEL SIGN AW	
-𑜪	a	am			am	am		Mn​						U+1172A: AHOM VOWEL SIGN AM	
+𑜢𑜚𑜫		iw								diphthong			tang waa saat	U+11722 U+1171A U+1172B: AHOM VOWEL SIGN I, LETTER ALTERNATE BA, SIGN KILLER	
+𑜪𑜢		im								rhyme			tang kaam	U+1172A U+11722: AHOM VOWEL SIGN AM, VOWEL SIGN I	
+𑜪𑜢𑜤		ɯm								rhyme			tang tu kaam	U+1172A U+11722 U+11724: AHOM VOWEL SIGN AM, VOWEL SIGN I, VOWEL SIGN U	
+𑜤𑜐𑜫		ui								diphthong					
+𑜪𑜤		um								rhyme			saa tu kaam	U+1172A U+11724: AHOM VOWEL SIGN AM, VOWEL SIGN U	
+𑜪𑜧		ɛm								rhyme			saat kaam	U+1172A U+11727: AHOM VOWEL SIGN AM, VOWEL SIGN AW	
+𑜧	a	eo ow			aw	aw		Mn​		diphthong				U+11727: AHOM VOWEL SIGN AW	
+𑜩𑜨		oi								diphthong			khien kaai	U+11729 U+11728: AHOM VOWEL SIGN AI, VOWEL SIGN O	
+𑜧𑜨		ow								diphthong			khien saat	U+11727 U+11728: AHOM VOWEL SIGN AW, VOWEL SIGN O	
+𑜩	a	ai aːi			ai	ai		Mn​		diphthong			kaai	U+11729: AHOM VOWEL SIGN AI	
+𑜨𑜚𑜫		aw								diphthong			khien waa saat	U+11728 U+1171A U+1172B: AHOM VOWEL SIGN O, LETTER ALTERNATE BA, SIGN KILLER	
+𑜚𑜫		aːw								diphthong			waa saat	U+1171A U+1172B: AHOM LETTER ALTERNATE BA, SIGN KILLER	
+𑜪	a	am			am	am		Mn​		rhyme			kaam	U+1172A: AHOM VOWEL SIGN AM	
+𑜪𑜨		aːm								rhyme			khien kaam	U+1172A U+11728: AHOM VOWEL SIGN AM, VOWEL SIGN O	
 															
-𑜒	}	a			a	a		Lo		vowel carrier				U+11712: AHOM LETTER A	
-𑜫	*				͞			Mn​		vowel killer; standalone vowel carrier				U+1172B: AHOM SIGN KILLER	
+𑜒	}	a			a	a		Lo		vowel carrier	Independent vowel (and vowel carrier).			U+11712: AHOM LETTER A	
+𑜫	*				͞			Mn​		vowel killer				U+1172B: AHOM SIGN KILLER	
+															
+															
+															
+															
 															
 𑜱	±	1			1̣	1		Nd		digit				U+11731: AHOM DIGIT ONE	
 𑜲	±	2			2̣	2		Nd		digit				U+11732: AHOM DIGIT TWO	
@@ -187,7 +207,7 @@ var spreadsheet = `ahom-aho	key	ipa	ipa+		translit	transc	kbd	class	status	type	
 9	9				9	9		Nd	?	digit				U+0039: DIGIT NINE	
 `															
 															
-latinPanel = 'ä bʷ č'															
+latinPanel = 'aː aːi aːw bʱ cʰ dʱ iː kʰ oː pʰ tʰ uː ŋ ɑː ɖ ɖʱ ə ɛ ɛː ɟ ɟʱ ɡ ɡʱ ɭ ɯ ɯː ɲ ɳ ʈ ʈʰ ḍ ḍh ḷ ṇ ṭ ṭh ɔ ɔː'															
 															
 var cols = {															
 key: 1,															
