@@ -25,44 +25,44 @@ var spreadsheet = `limb-lif	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ”	>			”	”		Pf		quotation mark					U+201D: RIGHT DOUBLE QUOTATION MARK	
 \’	>			\’	\’				quotation mark					U+2019: RIGHT SINGLE QUOTATION MARK	
 															
-ᤐ	p	p	ɔ	p	p		Lo		consonant				प	U+1910: LIMBU LETTER PA	
-ᤑ	f	pʰ	ɔ	pʰ	ph		Lo		consonant				फ	U+1911: LIMBU LETTER PHA	
-ᤒ	b	b	ɔ	b	b		Lo		consonant				ब	U+1912: LIMBU LETTER BA	
-ᤓ	B	bʰ	ɔ	bʰ	bh		Lo		consonant				ब	U+1913: LIMBU LETTER BHA	
-ᤋ	t	t	ɔ	t	t		Lo		consonant				त ट	U+190B: LIMBU LETTER TA	
-ᤌ	T	tʰ	ɔ	tʰ	th		Lo		consonant				थ	U+190C: LIMBU LETTER THA	
-ᤆ	c	t͡ʃ	ɔ	ʧ	c		Lo		consonant				च	U+1906: LIMBU LETTER CA	
-ᤇ	C	t͡ʃʰ	ɔ	ʧʰ	ch		Lo		consonant				छ	U+1907: LIMBU LETTER CHA	
-ᤍ	d	d	ɔ	d	d		Lo		consonant				द ड	U+190D: LIMBU LETTER DA	
-ᤎ	d	dʰ	ɔ	dʰ	dh		Lo		consonant					U+190E: LIMBU LETTER DHA	
-ᤈ	j	d͡ʒ	ɔ	ʤ	j		Lo		consonant				ज	U+1908: LIMBU LETTER JA	
-ᤃ	g	ɡ	ɔ	g	g		Lo		consonant				ग	U+1903: LIMBU LETTER GA	
-ᤄ	g	ɡʰ	ɔ	gʰ	gh		Lo		consonant					U+1904: LIMBU LETTER GHA	
-ᤛ	s	s	ɔ	s	s		Lo		consonant				स	U+191B: LIMBU LETTER SA	
-ᤙ	S	ʃ	ɔ	ʃ	sh		Lo		consonant				श ष	U+1919: LIMBU LETTER SHA	
-ᤜ	h	h	ɔ	h	h		Lo		consonant				ह	U+191C: LIMBU LETTER HA	
-ᤁ	k	k	ɔ	k	k		Lo		consonant				क	U+1901: LIMBU LETTER KA	
-ᤂ	K	kʰ	ɔ	kʰ	kh		Lo		consonant				ख	U+1902: LIMBU LETTER KHA	
-ᤔ	m	m	ɔ	m	m		Lo		consonant				म	U+1914: LIMBU LETTER MA	
-ᤏ	n	n	ɔ	n	n		Lo		consonant				न ण	U+190F: LIMBU LETTER NA	
-ᤅ	N	ŋ	ɔ	ŋ	ng		Lo		consonant				ङ	U+1905: LIMBU LETTER NGA	
-ᤘ	w	w	ɔ	w	w		Lo		consonant				व	U+1918: LIMBU LETTER WA	
-ᤗ	l	l	ɔ	l	l		Lo		consonant				ल	U+1917: LIMBU LETTER LA	
-ᤖ	r	r	ɔ	r	r		Lo		consonant				र ड़	U+1916: LIMBU LETTER RA	
-ᤕ	y	j	ɔ	y	y		Lo		consonant				य	U+1915: LIMBU LETTER YA	
-															
+ᤐ	p	p	ɔ	p	p		Lo		onset consonant				प	U+1910: LIMBU LETTER PA	
+ᤵ	P	p		p̽	p		Mc​		final consonant					U+1935: LIMBU SMALL LETTER PA	
+ᤑ	f	pʰ	ɔ	pʰ	ph		Lo		onset consonant				फ	U+1911: LIMBU LETTER PHA	
+ᤒ	b	b	ɔ	b	b		Lo		onset consonant				ब	U+1912: LIMBU LETTER BA	
+ᤓ	B	bʰ	ɔ	bʰ	bh		Lo		onset consonant				ब	U+1913: LIMBU LETTER BHA	
+ᤋ	t	t	ɔ	t	t		Lo		onset consonant				त ट	U+190B: LIMBU LETTER TA	
+ᤳ	T	t		t̽	t		Mc​		final consonant					U+1933: LIMBU SMALL LETTER TA	
+ᤌ	T	tʰ	ɔ	tʰ	th		Lo		onset consonant				थ	U+190C: LIMBU LETTER THA	
+ᤆ	c	t͡ʃ	ɔ	ʧ	c		Lo		onset consonant				च	U+1906: LIMBU LETTER CA	
+ᤇ	C	t͡ʃʰ	ɔ	ʧʰ	ch		Lo		onset consonant				छ	U+1907: LIMBU LETTER CHA	
+ᤍ	d	d	ɔ	d	d		Lo		onset consonant				द ड	U+190D: LIMBU LETTER DA	
+ᤎ	d	dʰ	ɔ	dʰ	dh		Lo		onset consonant					U+190E: LIMBU LETTER DHA	
+ᤈ	j	d͡ʒ	ɔ	ʤ	j		Lo		onset consonant				ज	U+1908: LIMBU LETTER JA	
+ᤃ	g	ɡ	ɔ	g	g		Lo		onset consonant				ग	U+1903: LIMBU LETTER GA	
+ᤄ	g	ɡʰ	ɔ	gʰ	gh		Lo		onset consonant					U+1904: LIMBU LETTER GHA	
+ᤛ	s	s	ɔ	s	s		Lo		onset consonant				स	U+191B: LIMBU LETTER SA	
+ᤙ	S	ʃ	ɔ	ʃ	sh		Lo		onset consonant				श ष	U+1919: LIMBU LETTER SHA	
+ᤜ	h	h	ɔ	h	h		Lo		onset consonant				ह	U+191C: LIMBU LETTER HA	
+ᤁ	k	k	ɔ	k	k		Lo		onset consonant				क	U+1901: LIMBU LETTER KA	
+ᤰ	K	k		k̽	k		Mc​		final consonant					U+1930: LIMBU SMALL LETTER KA	
+ᤂ	K	kʰ	ɔ	kʰ	kh		Lo		onset consonant				ख	U+1902: LIMBU LETTER KHA	
+ᤔ	m	m	ɔ	m	m		Lo		onset consonant				म	U+1914: LIMBU LETTER MA	
+ᤶ	M	m		m̽	m		Mc​		final consonant					U+1936: LIMBU SMALL LETTER MA	
+ᤏ	n	n	ɔ	n	n		Lo		onset consonant				न ण	U+190F: LIMBU LETTER NA	
+ᤴ	N	n		n̽	n		Mc​		final consonant					U+1934: LIMBU SMALL LETTER NA	
+ᤅ	N	ŋ	ɔ	ŋ	ng		Lo		onset consonant				ङ	U+1905: LIMBU LETTER NGA	
+ᤱ	N	ŋ		ŋ̽	ng		Mc​		final consonant					U+1931: LIMBU SMALL LETTER NGA	
+ᤘ	w	w	ɔ	w	w		Lo		onset consonant				व	U+1918: LIMBU LETTER WA	
 ᤫ	W	w	ɔ	w̆	w		Mc​		medial consonant					U+192B: LIMBU SUBJOINED LETTER WA	
+ᤗ	l	l	ɔ	l	l		Lo		onset consonant				ल	U+1917: LIMBU LETTER LA	
+ᤸ	L	l		l̽	l		Mc​		final consonant					U+1938: LIMBU SMALL LETTER LA	
+ᤖ	r	r	ɔ	r	r		Lo		onset consonant				र ड़	U+1916: LIMBU LETTER RA	
 ᤪ	R	r		r̆	r		Mc​		medial consonant					U+192A: LIMBU SUBJOINED LETTER RA	
+ᤷ	R	r		r̽	r		Mc​		final consonant					U+1937: LIMBU SMALL LETTER RA	
+ᤕ	y	j	ɔ	y	y		Lo		onset consonant				य	U+1915: LIMBU LETTER YA	
 ᤩ	y	j	ɔ	y̆	y		Mc​		medial consonant					U+1929: LIMBU SUBJOINED LETTER YA	
 															
-ᤵ	P	p		p̽	p		Mc​		final consonant					U+1935: LIMBU SMALL LETTER PA	
-ᤳ	T	t		t̽	t		Mc​		final consonant					U+1933: LIMBU SMALL LETTER TA	
-ᤰ	K	k		k̽	k		Mc​		final consonant					U+1930: LIMBU SMALL LETTER KA	
-ᤶ	M	m		m̽	m		Mc​		final consonant					U+1936: LIMBU SMALL LETTER MA	
-ᤴ	N	n		n̽	n		Mc​		final consonant					U+1934: LIMBU SMALL LETTER NA	
-ᤱ	N	ŋ		ŋ̽	ng		Mc​		final consonant					U+1931: LIMBU SMALL LETTER NGA	
-ᤸ	L	l		l̽	l		Mc​		final consonant					U+1938: LIMBU SMALL LETTER LA	
-ᤷ	R	r		r̽	r		Mc​		final consonant					U+1937: LIMBU SMALL LETTER RA	
+															
 															
 ᤉ		d͡ʑʱ	ɔ	ʤʰ			Lo	o	consonant	Used in early versions of the script.				U+1909: LIMBU LETTER JHA	
 ᤊ		ɲ	ɔ	ɲ			Lo	o	consonant	Used in early versions of the script.				U+190A: LIMBU LETTER YAN	
@@ -73,14 +73,30 @@ var spreadsheet = `limb-lif	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᤲ	[	̃		˜			Mn​	o	nasalisation	alternate				U+1932: LIMBU SMALL LETTER ANUSVARA	
 ᤹	}	ʔ		ʔ			Mn​		glottalisation marker				अ ◌	U+1939: LIMBU SIGN MUKPHRENG	
 															
-ᤡ	i	i		i	i		Mn​		vowel				इ	U+1921: LIMBU VOWEL SIGN I	
-ᤢ	u	u		u	u		Mn​		vowel				उ	U+1922: LIMBU VOWEL SIGN U	
-ᤣ	E	e		e	ee		Mc​		vowel				ए	U+1923: LIMBU VOWEL SIGN EE	
-ᤥ	O	o		o	oo		Mc​		vowel				ओ	U+1925: LIMBU VOWEL SIGN OO	
-ᤧ	e	ɛ		ɛ	e		Mn​		vowel					U+1927: LIMBU VOWEL SIGN E	
-ᤨ	o	ɔ		ɔ	o		Mn​		vowel	Optional letter.				U+1928: LIMBU VOWEL SIGN O	
-ᤀ	[	ɔ		+			Lo		vowel carrier					U+1900: LIMBU VOWEL-CARRIER LETTER	
-ᤠ	a	a		a	a		Mn​		vowel				आ	U+1920: LIMBU VOWEL SIGN A	
+ᤡ	i	i		i	i		Mn​		dependent vowel				इ	U+1921: LIMBU VOWEL SIGN I	
+ᤀᤡ		i							standalone vowel					U+1900 U+1921: LIMBU VOWEL-CARRIER LETTER, VOWEL SIGN I	
+ᤡ᤺		iː							long vowel					U+1921 U+193A: LIMBU VOWEL SIGN I, SIGN KEMPHRENG	
+ᤡ◌᤻		iː							long vowel	Used in Sikkim.				U+1921 C U+193B: LIMBU VOWEL SIGN I, C, SIGN SA-I	
+ᤢ	u	u		u	u		Mn​		dependent vowel				उ	U+1922: LIMBU VOWEL SIGN U	
+ᤢ᤺		uː							long vowel					U+1922 U+193A: LIMBU VOWEL SIGN U, SIGN KEMPHRENG	
+ᤢ◌᤻		uː							long vowel	Used in Sikkim.				U+1922 C U+193B: LIMBU VOWEL SIGN U, C, SIGN SA-I	
+ᤣ	E	e		e	ee		Mc​		dependent vowel				ए	U+1923: LIMBU VOWEL SIGN EE	
+ᤣ᤺		eː							long vowel					U+1923 U+193A: LIMBU VOWEL SIGN EE, SIGN KEMPHRENG	
+ᤣ◌᤻		eː							long vowel	Used in Sikkim.				U+1923 U+25CC U+193B: LIMBU VOWEL SIGN EE, DOTTED CIRCLE, SIGN SA-I	
+ᤥ	O	o		o	oo		Mc​		dependent vowel				ओ	U+1925: LIMBU VOWEL SIGN OO	
+ᤥ᤺		oː							long vowel					U+1925 U+193A: LIMBU VOWEL SIGN OO, SIGN KEMPHRENG	
+ᤥ◌᤻		oː							long vowel	Used in Sikkim.				U+1925 C U+193B: LIMBU VOWEL SIGN OO, DOTTED CIRCLE, SIGN SA-I	
+ᤧ	e	ɛ		ɛ	e		Mn​		dependent vowel					U+1927: LIMBU VOWEL SIGN E	
+ᤀᤧ		ɛ							standalone vowel					U+1900 U+1927: LIMBU VOWEL-CARRIER LETTER, VOWEL SIGN E	
+ᤧ᤺		ɛː							long vowel					U+1927 U+193A: LIMBU VOWEL SIGN E, SIGN KEMPHRENG	
+ᤧ◌᤻		ɛː							long vowel	Used in Sikkim.				U+1927 C U+193B: LIMBU VOWEL SIGN E, DOTTED CIRCLE, SIGN SA-I	
+ᤨ	o	ɔ		ɔ	o		Mn​		dependent vowel	Optional alternative to the inherent vowel.				U+1928: LIMBU VOWEL SIGN O	
+ᤀ	[	ɔ		+			Lo		standalone vowel/vowel carrier					U+1900: LIMBU VOWEL-CARRIER LETTER	
+ᤠ	a	a		a	a		Mn​		dependent vowel				आ	U+1920: LIMBU VOWEL SIGN A	
+ᤀᤠ		a							standalone vowel					U+1900 U+1920: LIMBU VOWEL-CARRIER LETTER, VOWEL SIGN A	
+ᤠ᤺		aː							long vowel					U+1920 U+193A: LIMBU VOWEL SIGN A, SIGN KEMPHRENG	
+ᤠ◌᤻		aː							long vowel	Used in Sikkim.				U+1920 C U+193B: LIMBU VOWEL SIGN A, DOTTED CIRCLE, SIGN SA-I	
+															
 ᤤ	A	ai		aⁱ	ai		Mc​		diphthong				अ	U+1924: LIMBU VOWEL SIGN AI	
 ᤦ	A	au		aʷ	au		Mc​		dipthong					U+1926: LIMBU VOWEL SIGN AU	
 															
@@ -103,7 +119,7 @@ var spreadsheet = `limb-lif	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 															
 \u200C	=			ₓ			Cf	?	zero-width non-joiner					U+200C: ZERO WIDTH NON-JOINER	
 \u200D	=			₊			Cf	?	zero-width joiner					U+200D: ZERO WIDTH JOINER	
-◌								u	placeholder					U+25CC: DOTTED CIRCLE	
+◌								u	placeholder					C	
 `															
 															
 latinPanel = 'ə bʰ dʰ d͡ʑʱ d͡ʒ gʰ kʰ pʰ tʰ t͡ʃ t͡ʃʰ ŋ ɔ ɛ ɡ ɡʰ ɲ ʂ ʃ ʔ ˜ ̃ ā ī ū ɛ̄ ō ɔ̄ aː iː uː ɛː ɔː oː'															
