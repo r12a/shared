@@ -1,10 +1,6 @@
 var spreadsheet = `cham-cjm	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	native name	latin name	ucs name	block
 \u0020	 	 		 	 		Zs		space				U+0020: SPACE	
 														
-														
-														
-														
-														
 ꨚ	p	p	a	p	pa		Lo		consonant				U+AA1A: CHAM LETTER PA	✓
 ꨛ	p	p	a	ṗ	pa		Lo		consonant				U+AA1B: CHAM LETTER PPA	✓
 ꩇ	p	p̚		p̽	p		Lo		final consonant				U+AA47: CHAM LETTER FINAL P	✓
@@ -62,32 +58,32 @@ var spreadsheet = `cham-cjm	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 														
 														
 ꨪ	i	i		i	i		Mn​		dependent vowel				U+AA2A: CHAM VOWEL SIGN I	✓
+ꨁ	I	ʔi		ị	i		Lo		independent vowel				U+AA01: CHAM LETTER I	✓
 ꨫ	i	iː		ī	ī		Mn​		dependent vowel				U+AA2B: CHAM VOWEL SIGN II	✓
 ꨲ	i	ɨ		ɨ	â		Mn​		dependent vowel				U+AA32: CHAM VOWEL SIGN UE	✓
+ꨀꨲ	I	ʔɨ							standalone vowel				U+AA00 U+AA32: CHAM LETTER A, VOWEL SIGN UE	✓
 ꨲꨩ	i	ɨː		ɨ̄	â				dependent vowel				U+AA32 U+AA29: CHAM VOWEL SIGN UE, VOWEL SIGN AA	✓
 ꨭ	u	u		u	u		Mn​		dependent vowel				U+AA2D: CHAM VOWEL SIGN U	✓
+ꨂ	U	ʔu		ụ	u		Lo		independent vowel				U+AA02: CHAM LETTER U	✓
 ꨭꨩ	u	uː		ū	ū				dependent vowel				U+AA2D U+AA29: CHAM VOWEL SIGN U, VOWEL SIGN AA	✓
 ꨬ	e	eɪ		eⁱ	ei		Mn​		dependent vowel				U+AA2C: CHAM VOWEL SIGN EI	✓
 ꨯ	o	o		o	o		Mc​		dependent vowel				U+AA2F: CHAM VOWEL SIGN O	✓
+ꨅ	O	ʔo		ọ	o		Lo		independent vowel				U+AA05: CHAM LETTER O	✓
 ꨯꨩ	o	oː		ō	ō				dependent vowel				U+AA2F U+AA29: CHAM VOWEL SIGN O, VOWEL SIGN AA	✓
 ꨮ	e	ə		ə	e		Mn​		dependent vowel				U+AA2E: CHAM VOWEL SIGN OE	✓
+ꨀꨮ	E	ʔə							standalone vowel				U+AA00 U+AA2E: CHAM LETTER A, VOWEL SIGN OE	✓
 ꨱ	e	əː		ə̄	ē		Mn​		dependent vowel				U+AA31: CHAM VOWEL SIGN AU	✓
 ꨯꨮ	e	ɛ		ɛ	é				dependent vowel				U+AA2F U+AA2E: CHAM VOWEL SIGN O, VOWEL SIGN OE	✓
+ꨃ	E	ʔɛ		ɛ̣	é		Lo		independent vowel				U+AA03: CHAM LETTER E	✓
 ꨯꨮꨩ	e	ɛː		ɛ̄	é				dependent vowel				U+AA2F U+AA2E U+AA29: CHAM VOWEL SIGN O, VOWEL SIGN OE, VOWEL SIGN AA	✓
 ꨯꨱ	o	ɔ		ɔ	ao				dependent vowel				U+AA2F U+AA31: CHAM VOWEL SIGN O, VOWEL SIGN AU	✓
+ꨀꨯꨱ	O	ʔɔ							standalone vowel				U+AA00 U+AA2F U+AA31: CHAM LETTER A, VOWEL SIGN O, VOWEL SIGN AU	✓
+ꨀ	A	ʔa		ạ	a		Lo		independent vowel				U+AA00: CHAM LETTER A	✓
 ꨩ	a	aː		ā	ā		Mn​		dependent vowel				U+AA29: CHAM VOWEL SIGN AA	✓
 ꨰ	a	aɪ		aⁱ	ai		Mc​		dependent vowel				U+AA30: CHAM VOWEL SIGN AI	✓
+ꨄ	A	ʔai		ại	ai		Lo		independent vowel				U+AA04: CHAM LETTER AI	✓
 ꨮꨭ	a	aʊ		aʷ	au				dependent vowel				U+AA2E U+AA2D:CHAM VOWEL SIGN OE, VOWEL SIGN U	✓
 														
-ꨁ	I	ʔi		ị	i		Lo		independent vowel				U+AA01: CHAM LETTER I	✓
-ꨂ	U	ʔu		ụ	u		Lo		independent vowel				U+AA02: CHAM LETTER U	✓
-ꨃ	E	ʔɛ		ɛ̣	é		Lo		independent vowel				U+AA03: CHAM LETTER E	✓
-ꨅ	O	ʔo		ọ	o		Lo		independent vowel				U+AA05: CHAM LETTER O	✓
-ꨀ	A	ʔa		ạ	a		Lo		independent vowel				U+AA00: CHAM LETTER A	✓
-ꨄ	A	ʔai		ại	ai		Lo		independent vowel				U+AA04: CHAM LETTER AI	✓
-ꨀꨲ	I	ʔɨ							standalone vowel				U+AA00 U+AA32: CHAM LETTER A, VOWEL SIGN UE	✓
-ꨀꨮ	E	ʔə							standalone vowel				U+AA00 U+AA2E: CHAM LETTER A, VOWEL SIGN OE	✓
-ꨀꨯꨱ	O	ʔɔ							standalone vowel				U+AA00 U+AA2F U+AA31: CHAM LETTER A, VOWEL SIGN O, VOWEL SIGN AU	✓
 														
 ꩐	±	0		0̣	0		Nd		digit		ꨔꨯꨱꩍ	thaoh	U+AA50: CHAM DIGIT ZERO	✓
 ꩑	±	1		1̣	1		Nd		digit		ꨧ	sa	U+AA51: CHAM DIGIT ONE	✓
