@@ -943,7 +943,7 @@ dates: `BCE 3rdC – 4thC CE`,
 status: `Archaic`,
 lineage: `Egyptian Hieroglyphs > Hieratic > Demotic > Meroitic`,
 siblings: ``,
-history: `Meroitic Cursive was an African abugida used by the Kush (Meroë) people for the Meroitic language.`,
+history: `Meroitic Cursive was an African abugida used by the Kush (Meroë) people for the Meroitic language. Centred in Sudan, this Nile kingdom moved 600 kilometers upriver to Meroë around BCE 850. The extra distance eroded the use of Egyptian language and script and led to the development of Meroitic cursive and hieroglyphic replacements. After the 4th century CE the language was replaced by Nubian, and by the 6th century the Meroitic scripts were superceded by Coptic.`,
 description: `About 90% of known Meroitic text is written using the cursive characters; the remainder uses a separate set of hieroglyphic inscriptional characters.  The two writing systems are always used separately, and not mixed. Meroitic Cursive text is read right-to-left, except for numbers. Shaping is only required for consonants followed by the vowel /i/, which ligate with the vowel.  There are no combining marks. Words or phrases are commonly separated using a native separator character.`,
 unicode: `Unicode 16 has 1 dedicated block for the cursive forms, comprising 90 characters, however 62 of those are for writing numbers and fractions.`
 },
