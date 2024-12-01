@@ -31,17 +31,15 @@ var spreadsheet = `merc-xmr	key	ipa	ipa+		translit	transc	kbd	class	status	type	
 																		
 // word separator																		
 :					 			Po		cursive word separator				U+003A: COLON				
-⁝	]				•			Po		hieroglyph word separator				U+205D: TRICOLON				
+⁝	]				•			Po	a	hieroglyph word separator				U+205D: TRICOLON				
 																		
 // space																		
 \u0020	 							Zs		space				U+0020: SPACE				
-\u200B	=				ᶻʷˢᵖ			Cf		zero-width space				U+200B: ZERO WIDTH SPACE				
-\u202F	]				ⁿⁿᵇˢᵖ			Zs		nnbsp				U+202F NARROW NO-BREAK SPACE				
 // formatting characters																		
-\u200C	=				ᶻʷⁿʲ			Cf		zero-width non-joiner				U+200C: ZERO WIDTH NON-JOINER			✓	
-\u200D	=				ᶻʷʲ			Cf		zero-width joiner				U+200D: ZERO WIDTH JOINER			✓	
-\u034F	=				ᶜᵍʲ			Mn		combining grapheme joiner				U+034F: COMBINING GRAPHEME JOINER			✓	
-\u2060	=				ʷʲ			Cf		word joiner				U+2060 WORD JOINER			✓	
+\u200C	=				ᶻʷⁿʲ			Cf	u	zero-width non-joiner				U+200C: ZERO WIDTH NON-JOINER			✓	
+\u200D	=				ᶻʷʲ			Cf	u	zero-width joiner				U+200D: ZERO WIDTH JOINER			✓	
+\u034F	=				ᶜᵍʲ			Mn	u	combining grapheme joiner				U+034F: COMBINING GRAPHEME JOINER			✓	
+\u2060	=				ʷʲ			Cf	u	word joiner				U+2060 WORD JOINER			✓	
 \u2067	=				ʳˡⁱ			Cf		rtl isolate				U+2067: RIGHT-TO-LEFT ISOLATE			✓	
 \u2066	=				ˡʳⁱ			Cf		ltr isolate				U+2066: LEFT-TO-RIGHT ISOLATE			✓	
 \u2068	=				ᶠˢⁱ			Cf		first-strong isolate				U+2068: FIRST STRONG ISOLATE			✓	
@@ -51,7 +49,7 @@ var spreadsheet = `merc-xmr	key	ipa	ipa+		translit	transc	kbd	class	status	type	
 \u202C	=				ᵖᵈᶠ			Cf	x	pop direction				U+202C: POP DIRECTIONAL FORMATTING			✓	
 \u200F	=				ʳˡᵐ			Cf		rtl mark				U+200F: RIGHT-TO-LEFT MARK			✓	
 \u200E	=				ˡʳᵐ			Cf		ltr mark				U+200E: LEFT-TO-RIGHT MARK			✓	
-\u061C	=				ᵃˡᵐ			Cf		arabic letter mark				U+061C: ARABIC LETTER MARK			✓	
+\u061C	=				ᵃˡᵐ			Cf	u	arabic letter mark				U+061C: ARABIC LETTER MARK			✓	
 // digits																		
 𐧀	±				1̣	1		No		digit				U+109C0: MEROITIC CURSIVE NUMBER ONE			١	
 𐧁	±				2̣	2		No		digit				U+109C1: MEROITIC CURSIVE NUMBER TWO			٢	
