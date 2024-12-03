@@ -151,6 +151,18 @@ name:"Bengali", local:"বাংলা লিপি", localtrans:"bangla lipi", 
 },
 
 
+"beri": {
+dates: `1950s – today`,
+status: `Growing usage`,
+lineage: `Invented in 1950s, reformed in 2000`,
+siblings: ``,
+history: `Beria Erfe is an African bicameral alphabet used to write the Zaghawa (Beria) language in Darfur, Sudan, and Chad. In the initial incarnation, created by Adam Tajir in the 1950s, letter shapes were based on the brands used for cattle. Around the turn of the century, the script was revised by Siddick Adam Issa to take its current form. The new script is currently promoted by community activists both at home and in the diaspora.`,
+description: `The alphabet is largely straightforward. There is no shaping. Combining marks are used to indicate whether ATR+ vowels are used in a word, and sometimes to indicate tone. Words are separated by spaces. One unique feature is that uppercase letters descend below the baseline, rather than rising above the lowercase letters as they do in most alphabets.`,
+unicode: `Unicode 17 will have 1 dedicated block, comprising 50 characters.`,
+name:"Beria Erfe", local:"𖺡𖺾𖻌𖻂𖺻 𖺥𖻂𖻌𖺻𖻓 𖺣𖻌𖺿𖺾𖺾", localtrans:"", region:"afr", countries:"Sudan, Chad", speakers:"300000",
+},
+
+
 "bhks": {
 dates: `11thC – 12thC`,
 status: `Archaic`,
