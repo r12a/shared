@@ -178,7 +178,7 @@ var spreadsheet = `// laoo-lo	key	ipa	ipa+	translit	transc	kbd	class	status	type
 ″				″	″		Po	?	double prime					U+2033: DOUBLE PRIME		
 *						E	Po	?								
 _						R	Pc	?								
-◌														C		
+◌														Consonant		
 `																
 																
 latinPanel = '˨˦ ˦ ˥˧ ˧  ᷆ ̌ ̄ ́ ̂ ̀ ǣ aː ā ə eː ē ɛː iː ī iːə̯ īa kʰ ɲ ŋ ɔː oː ō ǭ pʰ tʰ t͡ɕ uː ūa ư ư̄ ū ʋ ɤ ɯ ɯː ʔ'																
