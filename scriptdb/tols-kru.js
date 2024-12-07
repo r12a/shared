@@ -72,15 +72,15 @@ var spreadsheet = `tols-kru	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 														
 // space														
 \u0020	 						Zs		space				U+0020: SPACE	
-\u200B	=			ᶻʷˢᵖ			Cf		zero-width space				U+200B: ZERO WIDTH SPACE	
-\u202F	]			ⁿⁿᵇˢᵖ			Zs		nnbsp				U+202F NARROW NO-BREAK SPACE	
+\u200B	=			ᶻʷˢᵖ			Cf	u	zero-width space				U+200B: ZERO WIDTH SPACE	
+\u202F	]			ⁿⁿᵇˢᵖ			Zs	?	nnbsp				U+202F NARROW NO-BREAK SPACE	
 // word separator														
 ʼ	'			•	ʼ		Lm		syllable separator			ghetalā	U+02BC: MODIFIER LETTER APOSTROPHE	✓
 // nasalisation														
 ̃	[¶	̃		˜	̃		Mn​		nasalisation			evā	U+0303: COMBINING TILDE	
 // section dividers														
 ।	|			|	.		Po	i	section divider				U+0964: DEVANAGARI DANDA	
-॥	|			¶			Po	i	section divider				U+0965: DEVANAGARI DOUBLE DANDA	
+॥	|			¶			Po	?	section divider				U+0965: DEVANAGARI DOUBLE DANDA	
 // phrase dividers														
 ,	,			,	,		Po		comma			ucari ṭuṛā	U+002C: COMMA	
 ;	;			;	;	;;⁏⸵	Po		semicolon			micari ṭuṛā	U+003B: SEMICOLON	
@@ -105,15 +105,15 @@ var spreadsheet = `tols-kru	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 // dashes														
 -	-			-	-		Pd		hyphen			pacha	U+2010: HYPHEN	
 ‑	-			‑	‑		Pd	?	non-breaking hyphen				U+2011: NON-BREAKING HYPHEN	
-–	-			–	–		Pd		en dash				U+2013: EN DASH	
-—	-			—	—		Pd		em dash				U+2014: EM DASH	
+–	-			–	–		Pd	?	en dash				U+2013: EN DASH	
+—	-			—	—		Pd	?	em dash				U+2014: EM DASH	
 // nuktas														
 ̈	/			ˑ			Mn		nukta			ilā	U+0308: COMBINING DIAERESIS	
 ̤	/			ˑ̣			Mn		nukta			uphā	U+0324: COMBINING DIAERESIS BELOW	
 ̄				ˑ̱			Mn	a	nukta	Used prior to 2015.		dugā	U+0304: COMBINING MACRON	
 ̱				 ˑ͈			Mn	a	nukta	Used prior to 2015.		pugā	U+0331: COMBINING MACRON BELOW	
 ̣				 ˑ͇			Mn	a	nukta	Used prior to 2015.		sulā	U+0323: COMBINING DOT BELOW	
-•	•			•			Po		bullet				U+2022: BULLET	
+•	•			•			Po	?	bullet				U+2022: BULLET	
 // digits														
 \u{11DE0}	±			1̣	1		Nd		digit				U+11DE0: TOLONG SIKI DIGIT ZERO	
 \u{11DE1}	±			2̣	2		Nd		digit				U+11DE1: TOLONG SIKI DIGIT ONE	

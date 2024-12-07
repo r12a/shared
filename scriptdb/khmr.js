@@ -1,4 +1,181 @@
 var spreadsheet = `khmr-km	key	ipa	ipa+	translit	ungen	kbd	class	status	type	usage	dvowel	ivowel	shape	native name	name	ucs name	
+																	
+ព	p	p -p	ɔː	p̱	p	B	Lo		o-series consonant				 ្ព		pɔː	U+1796: KHMER LETTER PO	✓
+ប៉		p	ɑː						register change								
+ប្		p							cluster initial								
+ផ្		p							cluster initial								
+ភ្		p							cluster initial								
+ផ	p	pʰ p- -p	ɑː	pʰ	ph	p	Lo		a-series consonant				 ្ផ*		pʰɑː	U+1795: KHMER LETTER PHA	✓
+ភ	p	pʰ p- -p	ɔː	p̱ʰ	ph	P	Lo		o-series consonant				 ្ភ		pʰɔː	U+1797: KHMER LETTER PHO	✓
+																	
+ប	b	ɓ p- -p	ɑː	b	b	b	Lo		a-series consonant	/p/ in some words, by convention.			 ្ប		ɓɑː	U+1794: KHMER LETTER BA	✓
+ត	t	t ɗ- t- -t	ɑː	t	t	t	Lo		a-series consonant				 ្ត		tɑː	U+178F: KHMER LETTER TA	✓
+ទ	t	t -t	ɔː	ṯ	t	T	Lo		o-series consonant				 ្ទ		tɔː	U+1791: KHMER LETTER TO	✓
+ថ	t	tʰ t- -t	ɑː	tʰ	th	f	Lo		a-series consonant				 ្ថ		tʰɑː	U+1790: KHMER LETTER THA	✓
+ឋ	t	tʰ t- -t	ɑː	ṫʰ	th	z	Lo		a-series consonant				 ្ឋ*		tʰɑː	U+178B: KHMER LETTER TTHA	✓
+ធ	t	tʰ t- -t	ɔː	ṯʰ	th	F	Lo		o-series consonant				 ្ធ*		tʰɔː	U+1792: KHMER LETTER THO	✓
+ឍ	t	tʰ -t	ɔː	ṯ̇ʰ	th	Z	Lo	r	o-series consonant				 ្ឍ*		tʰɔː	U+178D: KHMER LETTER TTHO	✓
+ដ	d	ɗ -t	ɑː	ɗ	d	d	Lo		a-series consonant				 ្ដ		ɗɑː	U+178A: KHMER LETTER DA	✓
+ឌ	d	ɗ -t	ɑː	ɗ̱	d	D	Lo	r	o-series consonant				 ្ឌ*		ɗɔː	U+178C: KHMER LETTER DO	✓
+ច	c	c -c	ɑː	c	ch	c	Lo		a-series consonant				 ្ច		cɑː	U+1785: KHMER LETTER CA	✓
+ជ	c	c -c	ɔː	c̱	ch	C	Lo		o-series consonant				 ្ជ		cɔː	U+1787: KHMER LETTER CO	✓
+ឆ	C	cʰ	ɑː	cʰ	chh	q	Lo		a-series consonant				 ្ឆ*		cʰɑː	U+1786: KHMER LETTER CHA	✓
+ឈ	C	cʰ	ɔː	c̱ʰ	chh	Q	Lo		o-series consonant				 ្ឈ*		cʰɔː	U+1788: KHMER LETTER CHO	✓
+ក	k	k kʰ- -k	ɑː	k	k	k	Lo		a-series consonant				 ្ក		kɑː	U+1780: KHMER LETTER KA	✓
+គ	k	k kʰ- -k	ɔː	ḵ	k	K	Lo		o-series consonant				 ្គ		kɔː	U+1782: KHMER LETTER KO	✓
+ខ	K	kʰ k- -k	ɑː	kʰ	kh	x	Lo		a-series consonant				 ្ខ		kʰɑː	U+1781: KHMER LETTER KHA	✓
+ឃ	K	kʰ k- -k	ɔː	ḵʰ	kh	X	Lo		o-series consonant				 ្ឃ*		kʰɔː	U+1783: KHMER LETTER KHO	✓
+ស	s	s s- -h	ɑː	s	s	s	Lo		a-series consonant				 ្ស		sɑː	U+179F: KHMER LETTER SA	✓
+ហ	h	h ∅-	ɑː	h	h	h	Lo		a-series consonant				 ្ហ		hɑː	U+17A0: KHMER LETTER HA	✓
+ះ	h	h		h̽	ḥ	H	Mc		visarga					រះមុខ	reə̆hmuk	U+17C7: KHMER SIGN REAHMUK	✓
+ម	m	m -m	ɔː	m̱	m	m	Lo		o-series consonant				 ្ម		mɔː	U+1798: KHMER LETTER MO	✓
+ំ	m	m		m̽	ṃ	M	Mn		anusvara					និគ្គហិត	nikkɔːhet	U+17C6: KHMER SIGN NIKAHIT	✓
+ណ	n	n -n	ɑː	n	n	N	Lo		a-series consonant				 ្ណ*		nɑː	U+178E: KHMER LETTER NNO	✓
+ន	n	n -n	ɔː	ṉ	n	n	Lo		o-series consonant				 ្ន		nɔː	U+1793: KHMER LETTER NO	✓
+ញ	n	ɲ -ɲ	ɔː	ɲ	nh	J	Lo		o-series consonant				 ្ញ		ɲɔː	U+1789: KHMER LETTER NYO	✓
+ង	N	ŋ -ŋ	ɔː	ŋ	ng	g	Lo		o-series consonant				 ្ង		ŋɔː	U+1784: KHMER LETTER NGO	✓
+រ	r	r -∅	ɔː	ṟ	r	r	Lo		o-series consonant				 ្រ		rɔː	U+179A: KHMER LETTER RO	✓
+ឫ	R	ra ~ ru		r̥		A	Lo		vocalic					ស្រៈឫ	sraʔ ra	U+17AB: KHMER INDEPENDENT VOWEL RY	✓
+ឬ	R	raː ~ ruː		r̥̄		R	Lo	r	vocalic					ស្រៈឬ	sraʔ raː	U+17AC: KHMER INDEPENDENT VOWEL RYY	✓
+ឡ	l	l	ɑː	l	l	L	Lo		a-series consonant				 ្ឡ**		lɑː	U+17A1: KHMER LETTER LA	✓
+ល	l	l -l	ɔː	ḻ	l	l	Lo		o-series consonant				 ្ល		lɔː	U+179B: KHMER LETTER LO	✓
+ឭ	L	la ~ lu		l̥		\	Lo		vocalic					ស្រៈឭ	sraʔ la	U+17AD: KHMER INDEPENDENT VOWEL LY	✓
+ឮ	L	laː ~ luː		l̥̄		|	Lo	r	vocalic					ស្រៈឮ	sraʔ laː	U+17AE: KHMER INDEPENDENT VOWEL LYY	✓
+វ	v	ʋ -w	ɔː	v̱	v	v	Lo		o-series consonant				 ្វ		ʋɔː	U+179C: KHMER LETTER VO	✓
+យ	y	j -iː	ɔː	y̱	y	y	Lo		o-series consonant				 ្យ		jɔː	U+1799: KHMER LETTER YO	✓
+																	
+																	
+																	
+ិ	i	e i		i	i	i	Mn		vowel sign			ឥ		ស្រៈ អិ	sraʔ ʔi	U+17B7: KHMER VOWEL SIGN I	✓
+ី	i	əj iː		ī	ī	I	Mn		vowel sign			ឦ		ស្រៈ អី	sraʔ ʔəj	U+17B8: KHMER VOWEL SIGN II	✓
+ឹ	i	ə ɨ		ɨ	ẏ	w	Mn		vowel sign			ឪ		ស្រៈ អឹ	sraʔ ʔə	U+17B9: KHMER VOWEL SIGN Y	✓
+ឺ	i	əɨ ɨː		ɨ̄	ȳ	W	Mn		vowel sign					ស្រៈ អឺ	sraʔ ʔəɨ	U+17BA: KHMER VOWEL SIGN YY	✓
+ឿ	i	ɨə		ɨᵊ	ẏa	{	Mc		vowel sign					ស្រៈ អឿ	sraʔ ʔɨə	U+17BF: KHMER VOWEL SIGN YA	✓
+ៀ	i	iə		iᵊ	ia	[	Mc		vowel sign					ស្រៈ អៀ	sraʔ ʔiə	U+17C0: KHMER VOWEL SIGN IE	✓
+ឥ	I	ʔə ʔɨ ʔəj		ị	i	-	Lo		independent vowel		ិ			ស្រៈឥ	sraʔ ʔeʔ	U+17A5: KHMER INDEPENDENT VOWEL QI	✓
+ឦ	I	ʔəj		ị̄	ī	,	Lo		independent vowel		ី			ស្រៈឦ	sraʔ ʔəj	U+17A6: KHMER INDEPENDENT VOWEL QII	✓
+ឪ	I	ʔəw		ɨ̣	ýu	]	Lo		independent vowel		ឹ			ស្រៈឪ	sraʔ ʔəw	U+17AA: KHMER INDEPENDENT VOWEL QUUV	✓
+េ	e	ei eː		e	e	e	Mc		vowel sign					ស្រៈ អេ	sraʔ ʔei	U+17C1: KHMER VOWEL SIGN E	✓
+េះ	e	eh ih		eh̽					multi-part vowel							U+17C1 U+17C7: KHMER VOWEL SIGN E, SIGN REAHMUK	
+៝	e			ᵊ			Mn	i	final vowel retainer							U+17DD: KHMER SIGN ATTHACAN	✓
+ុ	u	o u		u	u	u	Mn		vowel sign			ឧ		ស្រៈ អុ	sraʔ ʔo	U+17BB: KHMER VOWEL SIGN U	✓
+ូ	u	ou uː		ū	ū	U	Mn		vowel sign			ឩ		ស្រៈ អូ	sraʔ ʔū	U+17BC: KHMER VOWEL SIGN UU	✓
+ួ	u	uə		uᵊ	ua	Y	Mn		vowel sign					ស្រៈ អួ	sraʔ ʔua	U+17BD: KHMER VOWEL SIGN UA	✓
+ុំ	u	om um		um̽					multi-part vowel							U+17BB U+17C6: KHMER VOWEL SIGN U, SIGN NIKAHIT	
+ុះ	u	oh uh		uh̽					multi-part vowel							U+17BB U+17C7: KHMER VOWEL SIGN U, SIGN REAHMUK	
+ឧ	U	ʔo ʔu ʔao		ụ	u	}	Lo		independent vowel		ុ			ស្រៈឧ	sraʔ ʔo	U+17A7: KHMER INDEPENDENT VOWEL QU	✓
+ឩ	U	ou ʔuː		ụ̄	ū	]	Lo		independent vowel		ូ			ស្រៈឩ	sraʔ ʔou	U+17A9: KHMER INDEPENDENT VOWEL QUU	✓
+ា	a	aː iə		ā	ā	a	Mc		vowel sign					ស្រៈ អា	srà ʼā	U+17B6: KHMER VOWEL SIGN AA	✓
+ៈ	a	aʔ eə̆ʔ		a		V	Mc		short vowel					យុគលពិន្ទុ	juʔkɔluə̆ʔpintuʔ	U+17C8: KHMER SIGN YUUKALEAPINTU	✓
+ែ	a	ae ɛː		æ	ae	E	Mc		vowel sign			ឯ		ស្រៈ អែ	sraʔ ʔae	U+17C2: KHMER VOWEL SIGN AE	✓
+័	a	a eə̆ oə̯		ă		&	Mn		vowel changer/vowel sign					សំយោគសញ្ញា	sanjoːksaɲɲaː	U+17D0: KHMER SIGN SAMYOK SANNYA	✓
+៏	a	ɑː		ɑ̄		*	Mn	i	vowel sign/word specifier					លេខអស្ដា	leːk ʔahsɗaː	U+17CF: KHMER SIGN AHSDA	✓
+ៃ	a	aj ɨj		aʲ	ai	S	Mc		vowel sign			ឰ		ស្រៈ អៃ	sraʔ ʔaj	U+17C3: KHMER VOWEL SIGN AI	✓
+ៅ	a	aw ɨw		aʷ	au	O	Mc		vowel sign			ឳ		ស្រៈ អៅ	sraʔ ʔaw	U+17C5: KHMER VOWEL SIGN AU	✓
+ើ	a	aə əː		aᵊ	oe	;	Mc		vowel sign					ស្រៈ អើ	sraʔ ʔaə	U+17BE: KHMER VOWEL SIGN OE	✓
+ាំ	a	am oə̆m		ām̽					multi-part vowel							U+17B6 U+17C6: KHMER VOWEL SIGN AA, SIGN NIKAHIT	
+ឯ	A	ʔae ʔɛː ʔeː		æ̣	ae	?	Lo		independent vowel		ែ			ស្រៈឯ	sraʔ ʔae	U+17AF: KHMER INDEPENDENT VOWEL QE	✓
+ឰ	A	ʔaj		ạʲ	ai	(	Lo		independent vowel		ៃ			ស្រៈឰ	sraʔ ʔaj	U+17B0: KHMER INDEPENDENT VOWEL QAI	✓
+ឳ	A	ʔaw		ạʷ	au	)	Lo		independent vowel		ៅ			ស្រៈឳ	sraʔ ʔaw	U+17B3: KHMER INDEPENDENT VOWEL QAU	✓
+ឲ	A	ʔao		ạᵒ	âu	=	Lo		independent vowel					ស្រៈឲ	sraʔ ʔao	U+17B2: KHMER INDEPENDENT VOWEL QOO TYPE TWO	✓
+ោ	o	ao oː		o	o	o	Mc		vowel sign			ឱ		ស្រៈ អោ	sraʔ ʔao	U+17C4: KHMER VOWEL SIGN OO	✓
+ោះ	o	ɑh uə̆h		oh̽					multi-part vowel							U+17C4 U+17C7: KHMER VOWEL SIGN OO, SIGN REAHMUK	
+ឱ	O	ʔao		ọ	o	<	Lo		independent vowel		ោ			ស្រៈឱ	sraʔ ʔao	U+17B1: KHMER INDEPENDENT VOWEL QOO TYPE ONE	✓
+																	
+ា់		a eə̆ oə̆		ā˘												U+17B6 U+17CB: KHMER VOWEL SIGN AA, SIGN BANTOC	
+ាំង		aŋ eə̆ŋ		ām̽ŋ												U+17B6 U+17C6 U+1784: KHMER VOWEL SIGN AA, SIGN NIKAHIT, LETTER NGO	
+ិះ		eh ih		ih̽												U+17B7 U+17C7: KHMER VOWEL SIGN I, SIGN REAHMUK	
+ឹះ		əh		ɨh̽												U+17B9 U+17C7: KHMER VOWEL SIGN Y, SIGN REAHMUK	
+ូវ		əw ɨw		ūv̱												U+17BC U+179C: KHMER VOWEL SIGN UU, LETTER VO	
+ើះ		əh		aᵊh̽												U+17BE U+17C7: KHMER VOWEL SIGN OE, SIGN REAHMUK	
+ែះ		eh		æh̽												U+17C2 U+17C7: KHMER VOWEL SIGN AE, SIGN REAHMUK	
+័រ		ɔə		ăṟ												U+17D0 U+179A: KHMER SIGN SAMYOK SANNYA, LETTER RO	
+ិយ		iː		iy̱												U+17B7 U+1799: KHMER VOWEL SIGN I, LETTER YO	
+័យ		aj ɨj		ăy̱												U+17D0 U+1799: KHMER SIGN SAMYOK SANNYA, LETTER YO	
+																	
+ឝ		ɕ		ɕ		s	Lo	o	consonant							U+179D: KHMER LETTER SHA	✓
+ឞ		ʂ		ʂ		d	Lo	o	consonant							U+179E: KHMER LETTER SSO	✓
+																	
+អិ		ə e ɨ i		ʔi					standalone vowel							U+17A2 U+17B7: KHMER LETTER QA, VOWEL SIGN I	
+អី		əj iː		ʔī					standalone vowel							U+17A2 U+17B8: KHMER LETTER QA, VOWEL SIGN II	
+អឹ		ə ɨ		ʔɨ					standalone vowel							U+17A2 U+17B9: KHMER LETTER QA, VOWEL SIGN Y	
+អឺ		əɨ ɨː		ʔɨ̄					standalone vowel							U+17A2 U+17BA: KHMER LETTER QA, VOWEL SIGN YY	
+អុ		o u		ʔu					standalone vowel							U+17A2 U+17BB: KHMER LETTER QA, VOWEL SIGN U	
+អូ		ou uː		ʔū					standalone vowel							U+17A2 U+17BC: KHMER LETTER QA, VOWEL SIGN UU	
+អេ		ei eː		ʔe					standalone vowel							U+17A2 U+17C1: KHMER LETTER QA, VOWEL SIGN E	
+អោ		ao oː		ʔo					standalone vowel							U+17A2 U+17C4: KHMER LETTER QA, VOWEL SIGN OO	
+អែ		ae ɛː		ʔæ					standalone vowel							U+17A2 U+17C2: KHMER LETTER QA, VOWEL SIGN AE	
+អៈ		aʔ eə̆ʔ		ʔa					standalone vowel							U+17A2 U+17C8: KHMER LETTER QA, SIGN YUUKALEAPINTU	
+អា		aː iə		ʔā					standalone vowel							U+17A2 U+17B6: KHMER LETTER QA, VOWEL SIGN AA	
+អៀ		iə		ʔiᵊ					standalone vowel							U+17A2 U+17C0: KHMER LETTER QA, VOWEL SIGN IE	
+អឿ		ɨə		ʔɨᵊ					standalone vowel							U+17A2 U+17BF: KHMER LETTER QA, VOWEL SIGN YA	
+អួ		uə		ʔuᵊ					standalone vowel							U+17A2 U+17BD: KHMER LETTER QA, VOWEL SIGN UA	
+អើ		aə əː		ʔaᵊ					standalone vowel							U+17A2 U+17BE: KHMER LETTER QA, VOWEL SIGN OE	
+អៃ		aj ɨj		ʔaʲ					standalone vowel							U+17A2 U+17C3: KHMER LETTER QA, VOWEL SIGN AI	
+អៅ		aw ɨw		ʔaʷ					standalone vowel							U+17A2 U+17C5: KHMER LETTER QA, VOWEL SIGN AU	
+																	
+ហ្គ		ɡ	ɑː	h͞ḵ	hk			l	series 1 consonant	for loan words						U+17A0 U+17D2 U+1782 U+0020: KHMER LETTER HA, SIGN COENG, LETTER KO, SPACE	
+ហ្គ៊		ɡ	ɔː	h͞ḵ′	hk			l	series 2 consonant	for loan words						U+17A0 U+17D2 U+1782 U+17CA: KHMER LETTER HA, SIGN COENG, LETTER KO, SIGN TRIISAP	
+ហ្ន		n	ɑː	h͞ṉ	hn			l	series 1 consonant	for loan words						U+17A0 U+17D2 U+1793: KHMER LETTER HA, SIGN COENG, LETTER NO	
+ប៉		p	ɑː	b″	p			l	series 1 consonant	for loan words						U+1794 U+17C9: KHMER LETTER BA, SIGN MUUSIKATOAN	
+ហ្ម		m	ɑː	h͞m̱	hm			l	series 1 consonant	for loan words						U+17A0 U+17D2 U+1798: KHMER LETTER HA, SIGN COENG, LETTER MO	
+ហ្ល		l	ɑː	h͞ḻ	hl			l	series 1 consonant	for loan words						U+17A0 U+17D2 U+179B: KHMER LETTER HA, SIGN COENG, LETTER LO	
+ហ្វ		f ʋ	ɑː	h͞v̱	hv			l	series 1 consonant	for loan words						U+17A0 U+17D2 U+179C: KHMER LETTER HA, SIGN COENG, LETTER VO	
+ហ្វ៊		f ʋ	ɔː	h͞v̱′	hv			l	series 2 consonant	for loan words						U+17A0 U+17D2 U+179C U+17CA: KHMER LETTER HA, SIGN COENG, LETTER VO, SIGN TRIISAP	
+ហ្ស		ʒ z	ɑː	h͞s	hs			l	series 1 consonant	for loan words						U+17A0 U+17D2 U+179F: KHMER LETTER HA, SIGN COENG, LETTER SA	
+ហ្ស៊		ʒ z	ɔː	h͞s′	hs			l	series 2 consonant	for loan words						U+17A0 U+17D2 U+179F U+17CA: KHMER LETTER HA, SIGN COENG, LETTER SA, SIGN TRIISAP	
+																	
+្ព	p	p -p	ɔː	͞p̱	p				o-series consonant						pɔː	U+17D2 U+1796: KHMER SIGN COENG, LETTER PO	
+្ផ	p	pʰ p- -p	ɑː	͞pʰ	ph				a-series consonant						pʰɑː	U+17D2 U+1795: KHMER SIGN COENG, LETTER PHA	
+្ភ	p	pʰ p- -p	ɔː	͞p̱ʰ	ph				o-series consonant						pʰɔː	U+17D2 U+1797: KHMER SIGN COENG, LETTER PHO	
+្ប	b	ɓ p- -p	ɑː	͞b	b				a-series consonant						ɓɑː	U+17D2 U+1794: KHMER SIGN COENG, LETTER BA	
+្ត	t	t ɗ- t- -t	ɑː	͞t	t				a-series consonant						tɑː	U+17D2 U+178F: KHMER SIGN COENG, LETTER TA	
+្ទ	t	t -t	ɔː	͞ṯ	t				o-series consonant						tɔː	U+17D2 U+1791: KHMER SIGN COENG, LETTER TO	
+្ថ	t	tʰ t- -t	ɑː	͞tʰ	th				a-series consonant						tʰɑː	U+17D2 U+1790: KHMER SIGN COENG, LETTER THA	
+្ឋ	t	tʰ t- -t	ɑː	͞ṫʰ	th				a-series consonant						tʰɑː	U+17D2 U+178B: KHMER SIGN COENG, LETTER TTHA	
+្ធ	t	tʰ t- -t	ɔː	͞ṯʰ	th				o-series consonant						tʰɔː	U+17D2 U+1792: KHMER SIGN COENG, LETTER THO	
+្ឍ	t	tʰ -t	ɔː	͞ṯ̇ʰ	th			r	o-series consonant						tʰɔː	U+17D2 U+178D: KHMER SIGN COENG, LETTER TTHO	
+្ដ	d	ɗ -t	ɑː	͞ɗ	d				a-series consonant						ɗɑː	U+17D2 U+178A: KHMER SIGN COENG, LETTER DA	
+្ឌ	d	ɗ -t	ɔː	͞ɗ̱	d			r	o-series consonant						ɗɔː	U+17D2 U+178C: KHMER SIGN COENG, LETTER DO	
+្ច	c	c -c	ɑː	͞c	ch				a-series consonant						cɑː	U+17D2 U+1785: KHMER SIGN COENG, LETTER CA	
+្ជ	c	c -c	ɔː	͞c̱	ch				o-series consonant						cɔː	U+17D2 U+1787: KHMER SIGN COENG, LETTER CO	
+្ឆ	C	cʰ	ɑː	͞cʰ	chh				a-series consonant						cʰɑː	U+17D2 U+1786: KHMER SIGN COENG, LETTER CHA	
+្ឈ	C	cʰ	ɔː	͞c̱ʰ	chh				o-series consonant						cʰɔː	U+17D2 U+1788: KHMER SIGN COENG, LETTER CHO	
+្ក	k	k kʰ- -k	ɑː	͞k	k				a-series consonant						kɑː	U+17D2 U+1780: KHMER SIGN COENG, LETTER KA	
+្គ	k	k kʰ- -k	ɔː	͞ḵ	k				o-series consonant						kɔː	U+17D2 U+1782: KHMER SIGN COENG, LETTER KO	
+្ខ	K	kʰ k- -k	ɑː	͞kʰ	kh				a-series consonant						kʰɑː	U+17D2 U+1781: KHMER SIGN COENG, LETTER KHA	
+្ឃ	K	kʰ k- -k	ɔː	͞ḵʰ	kh				o-series consonant						kʰɔː	U+17D2 U+1783: KHMER SIGN COENG, LETTER KHO	
+្ស	s	s s- -h	ɑː	͞s	s				a-series consonant						sɑː	U+17D2 U+179F: KHMER SIGN COENG, LETTER SA	
+្ហ	h	h ∅-	ɑː	͞h	h				a-series consonant						hɑː	U+17D2 U+17A0: KHMER SIGN COENG, LETTER HA	
+្ណ	n	n -n	ɑː	͞n	n				a-series consonant						nɑː	U+17D2 U+178E: KHMER SIGN COENG, LETTER NNO	
+្ម	m	m -m	ɔː	͞m̱	m				o-series consonant						mɔː	U+17D2 U+1798: KHMER SIGN COENG, LETTER MO	
+្ន	n	n -n	ɔː	͞ṉ	n				o-series consonant						nɔː	U+17D2 U+1793: KHMER SIGN COENG, LETTER NO	
+្ញ	n	ɲ -ɲ	ɔː	͞ɲ	nh				o-series consonant						ɲɔː	U+17D2 U+1789: KHMER SIGN COENG, LETTER NYO	
+្ង	N	ŋ -ŋ	ɔː	͞ŋ	ng				o-series consonant						ŋɔː	U+17D2 U+1784: KHMER SIGN COENG, LETTER NGO	
+្រ	r	r -∅	ɔː	͞ṟ	r				o-series consonant						rɔː	U+17D2 U+179A: KHMER SIGN COENG, LETTER RO	
+្វ	v	ʋ -w	ɔː	͞v̱	v				o-series consonant						ʋɔː	U+17D2 U+179C: KHMER SIGN COENG, LETTER VO	
+្ឡ	l	l	ɑː	͞l	l				a-series consonant						lɑː	U+17D2 U+17A1: KHMER SIGN COENG, LETTER LA	
+្ល	l	l -l	ɔː	͞ḻ	l				o-series consonant						lɔː	U+17D2 U+179B: KHMER SIGN COENG, LETTER LO	
+្យ	y	j -iː	ɔː	͞y̱	y				o-series consonant						jɔː	U+17D2 U+1799: KHMER SIGN COENG, LETTER YO	
+																	
+																	
+៓				°			Mn	d	lunar date sign							U+17D3: KHMER SIGN BATHAMASAT	✓
+ឨ		ʔok		U		[	Lo	o	independent vowel							U+17A8: KHMER INDEPENDENT VOWEL QUK	✓
+ឣ				A			Lo	d	independent vowel	strongly deprecated						U+17A3: KHMER INDEPENDENT VOWEL QAQ	✓
+ឤ				Ä			Lo	d	independent vowel	strongly deprecated						U+17A4: KHMER INDEPENDENT VOWEL QAA	✓
+																	
+\u17B4				–			Mn	d	inherent vowel mark							U+17B4: KHMER VOWEL INHERENT AQ	
+\u17B5				–			Mn	d	inherent vowel mark							U+17B5: KHMER VOWEL INHERENT AA	
+																	
+ʼ	\'			\'			Lm	?	apostrophe							U+02BC: MODIFIER LETTER APOSTROPHE	
+។ល។				.ḻ.	…				etc.							U+17D4 U+179B U+17D4: KHMER SIGN KHAN, LETTER LO, SIGN KHAN	
+																	
+§	*			§	§		Po	?	section sign							U+00A7: SECTION SIGN	
+†	*			†	†		Po	?	dagger							U+2020: DAGGER	
+‡	*			‡	‡		Po	?	double dagger							U+2021: DOUBLE DAGGER	
+′	'			′	′		Po	?	prime							U+2032: PRIME	
+″	"			″	″		Po	?	double prime							U+2033: DOUBLE PRIME	
+																	
 \u0020	 			 	 				space								
 \u200B	=			ᶻʷˢᵖ			Cf		zero-width space							U+200B: ZERO WIDTH SPACE	
 -	-			-	-		Pd		hyphen							U+2010: HYPHEN	
@@ -59,173 +236,6 @@ var spreadsheet = `khmr-km	key	ipa	ipa+	translit	ungen	kbd	class	status	type	usa
 \u2060	=			ʷʲ			Cf	?	word joiner							U+2060 WORD JOINER	
 ។	.			.	.	.	Po		full stop					ខ័ណ្ឌ	kʰan	U+17D4: KHMER SIGN KHAN	✓
 ៕	|			|		>	Po		section terminator					បរិយោសាន	ɓɑːrijaosaːn	U+17D5: KHMER SIGN BARIYOOSAN	✓
-																	
-ា	a	aː iə		ā	ā	a	Mc		vowel sign					ស្រៈ អា	srà ʼā	U+17B6: KHMER VOWEL SIGN AA	✓
-ៈ	a	aʔ eə̆ʔ		a		V	Mc		short vowel					យុគលពិន្ទុ	juʔkɔluə̆ʔpintuʔ	U+17C8: KHMER SIGN YUUKALEAPINTU	✓
-ែ	a	ae ɛː		æ	ae	E	Mc		vowel sign			ឯ		ស្រៈ អែ	sraʔ ʔae	U+17C2: KHMER VOWEL SIGN AE	✓
-័	a	a eə̆ oə̯		ă		&	Mn		vowel changer/vowel sign					សំយោគសញ្ញា	sanjoːksaɲɲaː	U+17D0: KHMER SIGN SAMYOK SANNYA	✓
-៏	a	ɑː		ɑ̄		*	Mn	i	vowel sign/word specifier					លេខអស្ដា	leːk ʔahsɗaː	U+17CF: KHMER SIGN AHSDA	✓
-ៃ	a	aj ɨj		aʲ	ai	S	Mc		vowel sign			ឰ		ស្រៈ អៃ	sraʔ ʔaj	U+17C3: KHMER VOWEL SIGN AI	✓
-ៅ	a	aw ɨw		aʷ	au	O	Mc		vowel sign			ឳ		ស្រៈ អៅ	sraʔ ʔaw	U+17C5: KHMER VOWEL SIGN AU	✓
-ើ	a	aə əː		aᵊ	oe	;	Mc		vowel sign					ស្រៈ អើ	sraʔ ʔaə	U+17BE: KHMER VOWEL SIGN OE	✓
-ាំ	a	am oə̆m		ām̽					multi-part vowel							U+17B6 U+17C6: KHMER VOWEL SIGN AA, SIGN NIKAHIT	
-ឯ	A	ʔae ʔɛː ʔeː		æ̣	ae	?	Lo		independent vowel		ែ			ស្រៈឯ	sraʔ ʔae	U+17AF: KHMER INDEPENDENT VOWEL QE	✓
-ឰ	A	ʔaj		ạʲ	ai	(	Lo		independent vowel		ៃ			ស្រៈឰ	sraʔ ʔaj	U+17B0: KHMER INDEPENDENT VOWEL QAI	✓
-ឳ	A	ʔaw		ạʷ	au	)	Lo		independent vowel		ៅ			ស្រៈឳ	sraʔ ʔaw	U+17B3: KHMER INDEPENDENT VOWEL QAU	✓
-ឲ	A	ʔao		ạᵒ	âu	=	Lo		independent vowel					ស្រៈឲ	sraʔ ʔao	U+17B2: KHMER INDEPENDENT VOWEL QOO TYPE TWO	✓
-ប	b	ɓ p- -p	ɑː	b	b	b	Lo		a-series consonant				ប ្ប		ɓɑː	U+1794: KHMER LETTER BA	✓
-្ប	b	ɓ p- -p	ɑː	͞b	b				a-series consonant						ɓɑː	U+17D2 U+1794: KHMER SIGN COENG, LETTER BA	
-ច	c	c -c	ɑː	c	ch	c	Lo		a-series consonant				ច ្ច		cɑː	U+1785: KHMER LETTER CA	✓
-ជ	c	c -c	ɔː	c̱	ch	C	Lo		o-series consonant				ជ ្ជ		cɔː	U+1787: KHMER LETTER CO	✓
-ឆ	C	cʰ	ɑː	cʰ	chh	q	Lo		a-series consonant				ឆ ្ឆ*		cʰɑː	U+1786: KHMER LETTER CHA	✓
-ឈ	C	cʰ	ɔː	c̱ʰ	chh	Q	Lo		o-series consonant				ឈ ្ឈ*		cʰɔː	U+1788: KHMER LETTER CHO	✓
-្ច	c	c -c	ɑː	͞c	ch				a-series consonant						cɑː	U+17D2 U+1785: KHMER SIGN COENG, LETTER CA	
-្ជ	c	c -c	ɔː	͞c̱	ch				o-series consonant						cɔː	U+17D2 U+1787: KHMER SIGN COENG, LETTER CO	
-្ឆ	C	cʰ	ɑː	͞cʰ	chh				a-series consonant						cʰɑː	U+17D2 U+1786: KHMER SIGN COENG, LETTER CHA	
-្ឈ	C	cʰ	ɔː	͞c̱ʰ	chh				o-series consonant						cʰɔː	U+17D2 U+1788: KHMER SIGN COENG, LETTER CHO	
-ដ	d	ɗ -t	ɑː	ɗ	d	d	Lo		a-series consonant				ដ ្ដ		ɗɑː	U+178A: KHMER LETTER DA	✓
-ឌ	d	ɗ -t	ɑː	ɗ̱	d	D	Lo	r	o-series consonant				ឌ ្ឌ*		ɗɔː	U+178C: KHMER LETTER DO	✓
-្ដ	d	ɗ -t	ɑː	͞ɗ	d				a-series consonant						ɗɑː	U+17D2 U+178A: KHMER SIGN COENG, LETTER DA	
-្ឌ	d	ɗ -t	ɔː	͞ɗ̱	d			r	o-series consonant						ɗɔː	U+17D2 U+178C: KHMER SIGN COENG, LETTER DO	
-េ	e	ei eː		e	e	e	Mc		vowel sign					ស្រៈ អេ	sraʔ ʔei	U+17C1: KHMER VOWEL SIGN E	✓
-េះ	e	eh ih		eh̽					multi-part vowel							U+17C1 U+17C7: KHMER VOWEL SIGN E, SIGN REAHMUK	
-៝	e			ᵊ			Mn	i	final vowel retainer							U+17DD: KHMER SIGN ATTHACAN	✓
-ហ	h	h ∅-	ɑː	h	h	h	Lo		a-series consonant				ហ ្ហ		hɑː	U+17A0: KHMER LETTER HA	✓
-ះ	h	h		h̽	ḥ	H	Mc		visarga					រះមុខ	reə̆hmuk	U+17C7: KHMER SIGN REAHMUK	✓
-្ហ	h	h ∅-	ɑː	͞h	h				a-series consonant						hɑː	U+17D2 U+17A0: KHMER SIGN COENG, LETTER HA	
-ិ	i	e i		i	i	i	Mn		vowel sign			ឥ		ស្រៈ អិ	sraʔ ʔi	U+17B7: KHMER VOWEL SIGN I	✓
-ី	i	əj iː		ī	ī	I	Mn		vowel sign			ឦ		ស្រៈ អី	sraʔ ʔəj	U+17B8: KHMER VOWEL SIGN II	✓
-ឹ	i	ə ɨ		ɨ	ẏ	w	Mn		vowel sign			ឪ		ស្រៈ អឹ	sraʔ ʔə	U+17B9: KHMER VOWEL SIGN Y	✓
-ឺ	i	əɨ ɨː		ɨ̄	ȳ	W	Mn		vowel sign					ស្រៈ អឺ	sraʔ ʔəɨ	U+17BA: KHMER VOWEL SIGN YY	✓
-ឿ	i	ɨə		ɨᵊ	ẏa	{	Mc		vowel sign					ស្រៈ អឿ	sraʔ ʔɨə	U+17BF: KHMER VOWEL SIGN YA	✓
-ៀ	i	iə		iᵊ	ia	[	Mc		vowel sign					ស្រៈ អៀ	sraʔ ʔiə	U+17C0: KHMER VOWEL SIGN IE	✓
-ឥ	I	ʔə ʔɨ ʔəj		ị	i	-	Lo		independent vowel		ិ			ស្រៈឥ	sraʔ ʔeʔ	U+17A5: KHMER INDEPENDENT VOWEL QI	✓
-ឦ	I	ʔəj		ị̄	ī	,	Lo		independent vowel		ី			ស្រៈឦ	sraʔ ʔəj	U+17A6: KHMER INDEPENDENT VOWEL QII	✓
-ឪ	I	ʔəw		ɨ̣	ýu	]	Lo		independent vowel		ឹ			ស្រៈឪ	sraʔ ʔəw	U+17AA: KHMER INDEPENDENT VOWEL QUUV	✓
-ក	k	k kʰ- -k	ɑː	k	k	k	Lo		a-series consonant				ក ្ក		kɑː	U+1780: KHMER LETTER KA	✓
-គ	k	k kʰ- -k	ɔː	ḵ	k	K	Lo		o-series consonant				គ ្គ		kɔː	U+1782: KHMER LETTER KO	✓
-ខ	K	kʰ k- -k	ɑː	kʰ	kh	x	Lo		a-series consonant				ខ ្ខ		kʰɑː	U+1781: KHMER LETTER KHA	✓
-ឃ	K	kʰ k- -k	ɔː	ḵʰ	kh	X	Lo		o-series consonant				ឃ ្ឃ*		kʰɔː	U+1783: KHMER LETTER KHO	✓
-្ក	k	k kʰ- -k	ɑː	͞k	k				a-series consonant						kɑː	U+17D2 U+1780: KHMER SIGN COENG, LETTER KA	
-្គ	k	k kʰ- -k	ɔː	͞ḵ	k				o-series consonant						kɔː	U+17D2 U+1782: KHMER SIGN COENG, LETTER KO	
-្ខ	K	kʰ k- -k	ɑː	͞kʰ	kh				a-series consonant						kʰɑː	U+17D2 U+1781: KHMER SIGN COENG, LETTER KHA	
-្ឃ	K	kʰ k- -k	ɔː	͞ḵʰ	kh				o-series consonant						kʰɔː	U+17D2 U+1783: KHMER SIGN COENG, LETTER KHO	
-ឡ	l	l	ɑː	l	l	L	Lo		a-series consonant				ឡ ្ឡ**		lɑː	U+17A1: KHMER LETTER LA	✓
-ល	l	l -l	ɔː	ḻ	l	l	Lo		o-series consonant				ល ្ល		lɔː	U+179B: KHMER LETTER LO	✓
-ឭ	L	la ~ lu		l̥		\	Lo		vocalic					ស្រៈឭ	sraʔ la	U+17AD: KHMER INDEPENDENT VOWEL LY	✓
-ឮ	L	laː ~ luː		l̥̄		|	Lo	r	vocalic					ស្រៈឮ	sraʔ laː	U+17AE: KHMER INDEPENDENT VOWEL LYY	✓
-្ឡ	l	l	ɑː	͞l	l				a-series consonant						lɑː	U+17D2 U+17A1: KHMER SIGN COENG, LETTER LA	
-្ល	l	l -l	ɔː	͞ḻ	l				o-series consonant						lɔː	U+17D2 U+179B: KHMER SIGN COENG, LETTER LO	
-ម	m	m -m	ɔː	m̱	m	m	Lo		o-series consonant				ម ្ម		mɔː	U+1798: KHMER LETTER MO	✓
-ំ	m	m		m̽	ṃ	M	Mn		anusvara					និគ្គហិត	nikkɔːhet	U+17C6: KHMER SIGN NIKAHIT	✓
-្ម	m	m -m	ɔː	͞m̱	m				o-series consonant						mɔː	U+17D2 U+1798: KHMER SIGN COENG, LETTER MO	
-ណ	n	n -n	ɑː	n	n	N	Lo		a-series consonant				ណ ្ណ*		nɑː	U+178E: KHMER LETTER NNO	✓
-ន	n	n -n	ɔː	ṉ	n	n	Lo		o-series consonant				ន ្ន		nɔː	U+1793: KHMER LETTER NO	✓
-ញ	n	ɲ -ɲ	ɔː	ɲ	nh	J	Lo		o-series consonant				ញ ្ញ		ɲɔː	U+1789: KHMER LETTER NYO	✓
-្ណ	n	n -n	ɑː	͞n	n				a-series consonant						nɑː	U+17D2 U+178E: KHMER SIGN COENG, LETTER NNO	
-្ន	n	n -n	ɔː	͞ṉ	n				o-series consonant						nɔː	U+17D2 U+1793: KHMER SIGN COENG, LETTER NO	
-្ញ	n	ɲ -ɲ	ɔː	͞ɲ	nh				o-series consonant						ɲɔː	U+17D2 U+1789: KHMER SIGN COENG, LETTER NYO	
-ង	N	ŋ -ŋ	ɔː	ŋ	ng	g	Lo		o-series consonant				ង ្ង		ŋɔː	U+1784: KHMER LETTER NGO	✓
-្ង	N	ŋ -ŋ	ɔː	͞ŋ	ng				o-series consonant						ŋɔː	U+17D2 U+1784: KHMER SIGN COENG, LETTER NGO	
-ោ	o	ao oː		o	o	o	Mc		vowel sign			ឱ		ស្រៈ អោ	sraʔ ʔao	U+17C4: KHMER VOWEL SIGN OO	✓
-ោះ	o	ɑh uə̆h		oh̽					multi-part vowel							U+17C4 U+17C7: KHMER VOWEL SIGN OO, SIGN REAHMUK	
-ឱ	O	ʔao		ọ	o	<	Lo		independent vowel		ោ			ស្រៈឱ	sraʔ ʔao	U+17B1: KHMER INDEPENDENT VOWEL QOO TYPE ONE	✓
-ព	p	p -p	ɔː	p̱	p	B	Lo		o-series consonant				ព ្ព		pɔː	U+1796: KHMER LETTER PO	✓
-ផ	p	pʰ p- -p	ɑː	pʰ	ph	p	Lo		a-series consonant				ផ ្ផ*		pʰɑː	U+1795: KHMER LETTER PHA	✓
-ភ	p	pʰ p- -p	ɔː	p̱ʰ	ph	P	Lo		o-series consonant				ភ ្ភ		pʰɔː	U+1797: KHMER LETTER PHO	✓
-្ព	p	p -p	ɔː	͞p̱	p				o-series consonant						pɔː	U+17D2 U+1796: KHMER SIGN COENG, LETTER PO	
-្ផ	p	pʰ p- -p	ɑː	͞pʰ	ph				a-series consonant						pʰɑː	U+17D2 U+1795: KHMER SIGN COENG, LETTER PHA	
-្ភ	p	pʰ p- -p	ɔː	͞p̱ʰ	ph				o-series consonant						pʰɔː	U+17D2 U+1797: KHMER SIGN COENG, LETTER PHO	
-រ	r	r -∅	ɔː	ṟ	r	r	Lo		o-series consonant				រ ្រ		rɔː	U+179A: KHMER LETTER RO	✓
-ឫ	R	ra ~ ru		r̥		A	Lo		vocalic					ស្រៈឫ	sraʔ ra	U+17AB: KHMER INDEPENDENT VOWEL RY	✓
-ឬ	R	raː ~ ruː		r̥̄		R	Lo	r	vocalic					ស្រៈឬ	sraʔ raː	U+17AC: KHMER INDEPENDENT VOWEL RYY	✓
-្រ	r	r -∅	ɔː	͞ṟ	r				o-series consonant						rɔː	U+17D2 U+179A: KHMER SIGN COENG, LETTER RO	
-ស	s	s s- -h	ɑː	s	s	s	Lo		a-series consonant				ស ្ស		sɑː	U+179F: KHMER LETTER SA	✓
-្ស	s	s s- -h	ɑː	͞s	s				a-series consonant						sɑː	U+17D2 U+179F: KHMER SIGN COENG, LETTER SA	
-ត	t	t ɗ- t- -t	ɑː	t	t	t	Lo		a-series consonant				ត ្ត		tɑː	U+178F: KHMER LETTER TA	✓
-ទ	t	t -t	ɔː	ṯ	t	T	Lo		o-series consonant				ទ ្ទ		tɔː	U+1791: KHMER LETTER TO	✓
-ថ	t	tʰ t- -t	ɑː	tʰ	th	f	Lo		a-series consonant				ថ ្ថ		tʰɑː	U+1790: KHMER LETTER THA	✓
-ឋ	t	tʰ t- -t	ɑː	ṫʰ	th	z	Lo		a-series consonant				ឋ ្ឋ*		tʰɑː	U+178B: KHMER LETTER TTHA	✓
-ធ	t	tʰ t- -t	ɔː	ṯʰ	th	F	Lo		o-series consonant				ធ ្ធ*		tʰɔː	U+1792: KHMER LETTER THO	✓
-ឍ	t	tʰ -t	ɔː	ṯ̇ʰ	th	Z	Lo	r	o-series consonant				ឍ ្ឍ*		tʰɔː	U+178D: KHMER LETTER TTHO	✓
-្ត	t	t ɗ- t- -t	ɑː	͞t	t				a-series consonant						tɑː	U+17D2 U+178F: KHMER SIGN COENG, LETTER TA	
-្ទ	t	t -t	ɔː	͞ṯ	t				o-series consonant						tɔː	U+17D2 U+1791: KHMER SIGN COENG, LETTER TO	
-្ថ	t	tʰ t- -t	ɑː	͞tʰ	th				a-series consonant						tʰɑː	U+17D2 U+1790: KHMER SIGN COENG, LETTER THA	
-្ឋ	t	tʰ t- -t	ɑː	͞ṫʰ	th				a-series consonant						tʰɑː	U+17D2 U+178B: KHMER SIGN COENG, LETTER TTHA	
-្ធ	t	tʰ t- -t	ɔː	͞ṯʰ	th				o-series consonant						tʰɔː	U+17D2 U+1792: KHMER SIGN COENG, LETTER THO	
-្ឍ	t	tʰ -t	ɔː	͞ṯ̇ʰ	th			r	o-series consonant						tʰɔː	U+17D2 U+178D: KHMER SIGN COENG, LETTER TTHO	
-ុ	u	o u		u	u	u	Mn		vowel sign			ឧ		ស្រៈ អុ	sraʔ ʔo	U+17BB: KHMER VOWEL SIGN U	✓
-ូ	u	ou uː		ū	ū	U	Mn		vowel sign			ឩ		ស្រៈ អូ	sraʔ ʔū	U+17BC: KHMER VOWEL SIGN UU	✓
-ួ	u	uə		uᵊ	ua	Y	Mn		vowel sign					ស្រៈ អួ	sraʔ ʔua	U+17BD: KHMER VOWEL SIGN UA	✓
-ុំ	u	om um		um̽					multi-part vowel							U+17BB U+17C6: KHMER VOWEL SIGN U, SIGN NIKAHIT	
-ុះ	u	oh uh		uh̽					multi-part vowel							U+17BB U+17C7: KHMER VOWEL SIGN U, SIGN REAHMUK	
-ឧ	U	ʔo ʔu ʔao		ụ	u	}	Lo		independent vowel		ុ			ស្រៈឧ	sraʔ ʔo	U+17A7: KHMER INDEPENDENT VOWEL QU	✓
-ឩ	U	ou ʔuː		ụ̄	ū	]	Lo		independent vowel		ូ			ស្រៈឩ	sraʔ ʔou	U+17A9: KHMER INDEPENDENT VOWEL QUU	✓
-វ	v	ʋ -w	ɔː	v̱	v	v	Lo		o-series consonant				វ ្វ		ʋɔː	U+179C: KHMER LETTER VO	✓
-្វ	v	ʋ -w	ɔː	͞v̱	v				o-series consonant						ʋɔː	U+17D2 U+179C: KHMER SIGN COENG, LETTER VO	
-យ	y	j -iː	ɔː	y̱	y	y	Lo		o-series consonant				យ ្យ		jɔː	U+1799: KHMER LETTER YO	✓
-្យ	y	j -iː	ɔː	͞y̱	y				o-series consonant						jɔː	U+17D2 U+1799: KHMER SIGN COENG, LETTER YO	
-																	
-ា់		a eə̆ oə̆		ā˘												U+17B6 U+17CB: KHMER VOWEL SIGN AA, SIGN BANTOC	
-ាំង		aŋ eə̆ŋ		ām̽ŋ												U+17B6 U+17C6 U+1784: KHMER VOWEL SIGN AA, SIGN NIKAHIT, LETTER NGO	
-ិះ		eh ih		ih̽												U+17B7 U+17C7: KHMER VOWEL SIGN I, SIGN REAHMUK	
-ឹះ		əh		ɨh̽												U+17B9 U+17C7: KHMER VOWEL SIGN Y, SIGN REAHMUK	
-ូវ		əw ɨw		ūv̱												U+17BC U+179C: KHMER VOWEL SIGN UU, LETTER VO	
-ើះ		əh		aᵊh̽												U+17BE U+17C7: KHMER VOWEL SIGN OE, SIGN REAHMUK	
-ែះ		eh		æh̽												U+17C2 U+17C7: KHMER VOWEL SIGN AE, SIGN REAHMUK	
-័រ		ɔə		ăṟ												U+17D0 U+179A: KHMER SIGN SAMYOK SANNYA, LETTER RO	
-ិយ		iː		iy̱												U+17B7 U+1799: KHMER VOWEL SIGN I, LETTER YO	
-័យ		aj ɨj		ăy̱												U+17D0 U+1799: KHMER SIGN SAMYOK SANNYA, LETTER YO	
-																	
-ឝ		ɕ		ɕ		s	Lo	o	consonant							U+179D: KHMER LETTER SHA	✓
-ឞ		ʂ		ʂ		d	Lo	o	consonant							U+179E: KHMER LETTER SSO	✓
-																	
-៓				°			Mn	d	lunar date sign							U+17D3: KHMER SIGN BATHAMASAT	✓
-ឨ		ʔok		U		[	Lo	o	independent vowel							U+17A8: KHMER INDEPENDENT VOWEL QUK	✓
-ឣ				A			Lo	d	independent vowel	strongly deprecated						U+17A3: KHMER INDEPENDENT VOWEL QAQ	✓
-ឤ				Ä			Lo	d	independent vowel	strongly deprecated						U+17A4: KHMER INDEPENDENT VOWEL QAA	✓
-																	
-\u17B4				–			Mn	d	inherent vowel mark							U+17B4: KHMER VOWEL INHERENT AQ	
-\u17B5				–			Mn	d	inherent vowel mark							U+17B5: KHMER VOWEL INHERENT AA	
-																	
-ʼ	\'			\'			Lm	?	apostrophe							U+02BC: MODIFIER LETTER APOSTROPHE	
-។ល។				.ḻ.	…				etc.							U+17D4 U+179B U+17D4: KHMER SIGN KHAN, LETTER LO, SIGN KHAN	
-																	
-§	*			§	§		Po	?	section sign							U+00A7: SECTION SIGN	
-†	*			†	†		Po	?	dagger							U+2020: DAGGER	
-‡	*			‡	‡		Po	?	double dagger							U+2021: DOUBLE DAGGER	
-′	'			′	′		Po	?	prime							U+2032: PRIME	
-″	"			″	″		Po	?	double prime							U+2033: DOUBLE PRIME	
-																	
-អិ		ə e ɨ i		ʔi					standalone vowel							U+17A2 U+17B7: KHMER LETTER QA, VOWEL SIGN I	
-អី		əj iː		ʔī					standalone vowel							U+17A2 U+17B8: KHMER LETTER QA, VOWEL SIGN II	
-អឹ		ə ɨ		ʔɨ					standalone vowel							U+17A2 U+17B9: KHMER LETTER QA, VOWEL SIGN Y	
-អឺ		əɨ ɨː		ʔɨ̄					standalone vowel							U+17A2 U+17BA: KHMER LETTER QA, VOWEL SIGN YY	
-អុ		o u		ʔu					standalone vowel							U+17A2 U+17BB: KHMER LETTER QA, VOWEL SIGN U	
-អូ		ou uː		ʔū					standalone vowel							U+17A2 U+17BC: KHMER LETTER QA, VOWEL SIGN UU	
-អេ		ei eː		ʔe					standalone vowel							U+17A2 U+17C1: KHMER LETTER QA, VOWEL SIGN E	
-អោ		ao oː		ʔo					standalone vowel							U+17A2 U+17C4: KHMER LETTER QA, VOWEL SIGN OO	
-អែ		ae ɛː		ʔæ					standalone vowel							U+17A2 U+17C2: KHMER LETTER QA, VOWEL SIGN AE	
-អៈ		aʔ eə̆ʔ		ʔa					standalone vowel							U+17A2 U+17C8: KHMER LETTER QA, SIGN YUUKALEAPINTU	
-អា		aː iə		ʔā					standalone vowel							U+17A2 U+17B6: KHMER LETTER QA, VOWEL SIGN AA	
-អៀ		iə		ʔiᵊ					standalone vowel							U+17A2 U+17C0: KHMER LETTER QA, VOWEL SIGN IE	
-អឿ		ɨə		ʔɨᵊ					standalone vowel							U+17A2 U+17BF: KHMER LETTER QA, VOWEL SIGN YA	
-អួ		uə		ʔuᵊ					standalone vowel							U+17A2 U+17BD: KHMER LETTER QA, VOWEL SIGN UA	
-អើ		aə əː		ʔaᵊ					standalone vowel							U+17A2 U+17BE: KHMER LETTER QA, VOWEL SIGN OE	
-អៃ		aj ɨj		ʔaʲ					standalone vowel							U+17A2 U+17C3: KHMER LETTER QA, VOWEL SIGN AI	
-អៅ		aw ɨw		ʔaʷ					standalone vowel							U+17A2 U+17C5: KHMER LETTER QA, VOWEL SIGN AU	
-																	
-ហ្គ		ɡ	ɑː	h͞ḵ	hk			l	series 1 consonant	for loan words						U+17A0 U+17D2 U+1782 U+0020: KHMER LETTER HA, SIGN COENG, LETTER KO, SPACE	
-ហ្គ៊		ɡ	ɔː	h͞ḵ′	hk			l	series 2 consonant	for loan words						U+17A0 U+17D2 U+1782 U+17CA: KHMER LETTER HA, SIGN COENG, LETTER KO, SIGN TRIISAP	
-ហ្ន		n	ɑː	h͞ṉ	hn			l	series 1 consonant	for loan words						U+17A0 U+17D2 U+1793: KHMER LETTER HA, SIGN COENG, LETTER NO	
-ប៉		p	ɑː	b″	p			l	series 1 consonant	for loan words						U+1794 U+17C9: KHMER LETTER BA, SIGN MUUSIKATOAN	
-ហ្ម		m	ɑː	h͞m̱	hm			l	series 1 consonant	for loan words						U+17A0 U+17D2 U+1798: KHMER LETTER HA, SIGN COENG, LETTER MO	
-ហ្ល		l	ɑː	h͞ḻ	hl			l	series 1 consonant	for loan words						U+17A0 U+17D2 U+179B: KHMER LETTER HA, SIGN COENG, LETTER LO	
-ហ្វ		f ʋ	ɑː	h͞v̱	hv			l	series 1 consonant	for loan words						U+17A0 U+17D2 U+179C: KHMER LETTER HA, SIGN COENG, LETTER VO	
-ហ្វ៊		f ʋ	ɔː	h͞v̱′	hv			l	series 2 consonant	for loan words						U+17A0 U+17D2 U+179C U+17CA: KHMER LETTER HA, SIGN COENG, LETTER VO, SIGN TRIISAP	
-ហ្ស		ʒ z	ɑː	h͞s	hs			l	series 1 consonant	for loan words						U+17A0 U+17D2 U+179F: KHMER LETTER HA, SIGN COENG, LETTER SA	
-ហ្ស៊		ʒ z	ɔː	h͞s′	hs			l	series 2 consonant	for loan words						U+17A0 U+17D2 U+179F U+17CA: KHMER LETTER HA, SIGN COENG, LETTER SA, SIGN TRIISAP	
-																	
 \u2006		 		 					six-per-em-space	Used in Krung and Tampuan.						U+2006 SIX-PER-EM SPACE	
 \u2003		  			  				em space	Used in Krung and Tampuan.						U+2003 EM SPACE	
 ◌																C	

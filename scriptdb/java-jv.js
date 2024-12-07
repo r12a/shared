@@ -1,119 +1,77 @@
 var spreadsheet = `java-jv	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	dvowel	ivowel	shape	conj	native name	latin name	ucs name	block
-\u0020									space								U+0020: SPACE	
-\u200B	]			␣			Cf		zero-width space								U+200B: ZERO WIDTH SPACE	
-ꦴ				–			Mc		vowel lengthener	not used alone in modern javanese							A9B4: JAVANESE VOWEL SIGN TARUNG	
-‒		a	a ɔ		a			?	inherent vowel									
--	-			-	-		Pd	?	hyphen								U+2010: HYPHEN	
-‑	-			‑	‑		Pd	?	non-breaking hyphen								U+2011: NON-BREAKING HYPHEN	
-–	-			–	–		Pd	?	en dash								U+2013: EN DASH	
-—	-			—	—		Pd	?	em dash								U+2014: EM DASH	
-꧈	,			,		,	Po		comma/full stop							pada lingsa	U+A9C8: JAVANESE PADA LINGSA	✓
-꧇	:			:		<	Po		colon/number indicator							pada pangkat	U+A9C7: JAVANESE PADA PANGKAT	✓
-꧉	.			.		.	Po		full stop							pada lungsi	U+A9C9: JAVANESE PADA LUNGSI	✓
-꧌	(			§		[	Po		parenthesis/quotation marks							pada piseleh	U+A9CC: JAVANESE PADA PISELEH	✓
-꧍	)			)		]	Po		parenthesis/quotation marks							pada piseleh	U+A9CD: JAVANESE TURNED PADA PISELEH	✓
-ꦔ꦳	}	ʔ	a ɔ	ŋˑ				l	consonant	foriegn sound							U+A994 U+A9B3: JAVANESE LETTER NGA, SIGN CECAK TELU	
-꧀	*			͞		/	Mc		vowel-killer							pangkon	U+A9C0: JAVANESE PANGKON	✓
-꦳	/			ˑ		M	Mn		sound changer							cecak telu	U+A9B3: JAVANESE SIGN CECAK TELU	✓
-ꧏ	&			&		@	Lm		repetition sign							pada rangkep	U+A9CF: JAVANESE PANGRANGKEP	✓
-꧆	#			°		#	Po		punctuation							pada windu	U+A9C6: JAVANESE PADA WINDU	✓
-꧁	#			»			Po		title marker							rerengan	U+A9C1: JAVANESE LEFT RERENGGAN	✓
-꧂	#			«			Po		title marker							rerengan	U+A9C2: JAVANESE RIGHT RERENGGAN	✓
-꧅	#			§ᵃ			Po		honorific symbol							pada luhur	U+A9C5: JAVANESE PADA LUHUR	✓
-꧄	#			§ᵇ			Po		honorific symbol							pada madya	U+A9C4: JAVANESE PADA MADYA	✓
-꧃	#			§ᶜ			Po		honorific symbol							pada andap	U+A9C3: JAVANESE PADA ANDAP	✓
-%	%			%			Po	?	percentage mark								U+0025: PERCENT SIGN	
-‰	%			‰			Po	?	per mille mark								U+2030: PER MILLE SIGN	
-\u200C	=			ᶻʷⁿʲ			Cf	?	zero-width non-joiner								U+200C: ZERO WIDTH NON-JOINER	
-\u200D	=			ᶻʷʲ			Cf	?	zero-width joiner								U+200D: ZERO WIDTH JOINER	
-\u034F	=			ᶜᵍʲ			Mn	?	combining grapheme joiner								U+034F: COMBINING GRAPHEME JOINER	
-\u2060	=			ʷʲ			Cf	?	word joiner								U+2060 WORD JOINER	
-꧋	|			¶		±	Po		paragraph/section start							para adeg adeg	U+A9CB: JAVANESE PADA ADEG ADEG	✓
-꧊	|			|		§	Po		parenthesis/quotation marks							pada adeg	U+A9CA: JAVANESE PADA ADEG	✓
-꧐	0			0̣	0	0	Nd		digit							nol	U+A9D0: JAVANESE DIGIT ZERO	✓
-꧑	1			1̣	1	1	Nd		digit							siji	U+A9D1: JAVANESE DIGIT ONE	✓
-꧒	2			2̣	2	2	Nd		digit							loro	U+A9D2: JAVANESE DIGIT TWO	✓
-꧓	3			3̣	3	3	Nd		digit							telu	U+A9D3: JAVANESE DIGIT THREE	✓
-꧔	4			4̣	4	4	Nd		digit							papat	U+A9D4: JAVANESE DIGIT FOUR	✓
-꧕	5			5̣	5	5	Nd		digit							lima	U+A9D5: JAVANESE DIGIT FIVE	✓
-꧖	6			6̣	6	6	Nd		digit							nem	U+A9D6: JAVANESE DIGIT SIX	✓
-꧗	7			7̣	7	7	Nd		digit							pitu	U+A9D7: JAVANESE DIGIT SEVEN	✓
-꧘	8			8̣	8	8	Nd		digit							wolu	U+A9D8: JAVANESE DIGIT EIGHT	✓
-꧙	9			9̣	9	9	Nd		digit							sanga	U+A9D9: JAVANESE DIGIT NINE	✓
 																		
-ꦥ	p	p	a ɔ	p	p	p	Lo		consonant				ꦥ ꦥ꧀ꦥ	ꦥ꧀ꦥ			U+A9A5: JAVANESE LETTER PA	✓
-ꦦ	P	p	a ɔ	P	p	P	Lo		murda consonant				ꦦ ꦥ꧀ꦦ	ꦥ꧀ꦦ			U+A9A6: JAVANESE LETTER PA MURDA	✓
-ꦧ	b	b	a ɔ	b	b	b	Lo		consonant				ꦧ ꦥ꧀ꦧ				U+A9A7: JAVANESE LETTER BA	✓
-ꦨ	B	b	a ɔ	B	b	B	Lo		murda consonant				ꦨ ꦥ꧀ꦨ				U+A9A8: JAVANESE LETTER BA MURDA	✓
-ꦠ	t¶	t	a ɔ	t	t	t	Lo		consonant				ꦠ ꦥ꧀ꦠ				U+A9A0: JAVANESE LETTER TA	✓
-ꦡ	T	t	a ɔ	T	t	T	Lo		murda consonant				ꦡ ꦥ꧀ꦡ				U+A9A1: JAVANESE LETTER TA MURDA	✓
-ꦕ	c	t͡ʃ	a ɔ	ʧ	c	c	Lo		consonant				ꦕ ꦥ꧀ꦕ				U+A995: JAVANESE LETTER CA	✓
-ꦖ	C	t͡ʃ	a ɔ	C	c	C	Lo		murda consonant				ꦖ ꦥ꧀ꦖ				U+A996: JAVANESE LETTER CA MURDA	✓
-ꦢ	d¶	d	a ɔ	d	d	d	Lo		consonant				ꦢ ꦥ꧀ꦢ				U+A9A2: JAVANESE LETTER DA	✓
-ꦗ	j	d͡ʒ	a ɔ	ʤ	j	j	Lo		consonant				ꦗ ꦥ꧀ꦗ				U+A997: JAVANESE LETTER JA	✓
-ꦙ	J	d͡ʒ	a ɔ	J̱	j	j	Lo	i	mahaprana consonant				ꦙ ꦥ꧀ꦙ				U+A999: JAVANESE LETTER JA MAHAPRANA	✓
-ꦛ	t	ʈ	a ɔ	ʈ	th	;	Lo		consonant				ꦛ ꦥ꧀ꦛ				U+A99B: JAVANESE LETTER TTA	✓
-ꦜ	T	ʈ	a ɔ	Ṯ	th	:	Lo	i	mahaprana consonant				ꦜ ꦥ꧀ꦜ				U+A99C: JAVANESE LETTER TTA MAHAPRANA	✓
-ꦝ	d	ɖ	a ɔ	ɖ	dh		Lo		consonant				ꦝ ꦥ꧀ꦝ				U+A99D: JAVANESE LETTER DDA	✓
-ꦣ	D	ɖ	a ɔ	Ɖ̱	dh	D	Lo	i	mahaprana consonant				ꦣ ꦥ꧀ꦣ				U+A9A3: JAVANESE LETTER DA MAHAPRANA	✓
-ꦞ	D	ɖ	a ɔ	Ḓ	dh	"	Lo	i	mahaprana consonant				ꦞ ꦥ꧀ꦞ				U+A99E: JAVANESE LETTER DDA MAHAPRANA	✓
-ꦏ	k	k	a ɔ	k	k	k	Lo		consonant				ꦏ ꦥ꧀ꦏ				U+A98F: JAVANESE LETTER KA	✓
-ꦑ	K	k	a ɔ	K	k	K	Lo		murda consonant				ꦑ ꦥ꧀ꦑ				U+A991: JAVANESE LETTER KA MURDA	✓
-ꦒ	g	ɡ	a ɔ	g	g	g	Lo		consonant				ꦒ ꦥ꧀ꦒ				U+A992: JAVANESE LETTER GA	✓
-ꦓ	G	ɡ	a ɔ	G	g	G	Lo		murda consonant				ꦓ ꦥ꧀ꦓ				U+A993: JAVANESE LETTER GA MURDA	✓
-ꦥ꦳	f	f	a ɔ	pˑ	f			l	consonant								U+A9A5 U+A9B3: JAVANESE LETTER PA, SIGN CECAK TELU	
-ꦢ꦳	d	ð	a ɔ	dˑ	ð			l	consonant								U+A9A2 U+A9B3: JAVANESE LETTER DA, SIGN CECAK TELU	
-ꦱ	s	s	a ɔ	s	s	s	Lo		consonant				ꦱ ꦥ꧀ꦱ	ꦥ꧀ꦱ			U+A9B1: JAVANESE LETTER SA	✓
-ꦯ	S	s	a ɔ	S	s	S	Lo	r	murda consonant				ꦯ ꦥ꧀ꦯ				U+A9AF: JAVANESE LETTER SA MURDA	✓
-ꦰ	S	s	a ɔ	S̱	s	s	Lo	i	mahaprana consonant				ꦰ ꦥ꧀ꦰ	ꦥ꧀ꦰ			U+A9B0: JAVANESE LETTER SA MAHAPRANA	✓
-ꦗ꦳	z	z	a ɔ	ʤˑ	z			l	consonant								U+A997 U+A9B3: JAVANESE LETTER JA, SIGN CECAK TELU	
-ꦱ꦳	s	ʃ	a ɔ	sˑ	sh			l	consonant								U+A9B1 U+A9B3: JAVANESE LETTER SA, SIGN CECAK TELU	
-ꦏ꦳	x	x	a ɔ	kˑ	x			l	consonant								U+A98F U+A9B3: JAVANESE LETTER KA, SIGN CECAK TELU	
-ꦒ꦳	y	ɣ	a ɔ	gˑ	gh			l	consonant								U+A992 U+A9B3: JAVANESE LETTER GA, SIGN CECAK TELU	
-ꦲ	h	h a ∅	a ɔ	h	h	h	Lo		consonant				ꦲ ꦥ꧀ꦲ	ꦥ꧀ꦲ			U+A9B2: JAVANESE LETTER HA	✓
-ꦲ꦳	h	ħ	a ɔ	hˑ	h			l	consonant								U+A9B2 U+A9B3: JAVANESE LETTER HA, SIGN CECAK TELU	
+ꦥ	p	p	a ɔ	p	p	p	Lo		basic consonant				ꦥ꧀ꦥ	ꦥ꧀ꦥ			U+A9A5: JAVANESE LETTER PA	✓
+ꦦ	P	p	a ɔ	P	p	P	Lo		murda consonant				ꦥ꧀ꦦ	ꦥ꧀ꦦ			U+A9A6: JAVANESE LETTER PA MURDA	✓
+ꦧ	b	b	a ɔ	b	b	b	Lo		basic consonant				ꦥ꧀ꦧ				U+A9A7: JAVANESE LETTER BA	✓
+ꦨ	B	b	a ɔ	B	b	B	Lo		murda consonant				ꦥ꧀ꦨ				U+A9A8: JAVANESE LETTER BA MURDA	✓
+ꦠ	t¶	t	a ɔ	t	t	t	Lo		basic consonant				ꦥ꧀ꦠ				U+A9A0: JAVANESE LETTER TA	✓
+ꦡ	T	t	a ɔ	T	t	T	Lo		murda consonant				ꦥ꧀ꦡ				U+A9A1: JAVANESE LETTER TA MURDA	✓
+ꦕ	c	t͡ʃ	a ɔ	ʧ	c	c	Lo		basic consonant				ꦥ꧀ꦕ				U+A995: JAVANESE LETTER CA	✓
+ꦖ	C	t͡ʃ	a ɔ	C	c	C	Lo		murda consonant				ꦥ꧀ꦖ				U+A996: JAVANESE LETTER CA MURDA	✓
+ꦢ	d¶	d	a ɔ	d	d	d	Lo		basic consonant				ꦥ꧀ꦢ				U+A9A2: JAVANESE LETTER DA	✓
+ꦗ	j	d͡ʒ	a ɔ	ʤ	j	j	Lo		basic consonant				ꦥ꧀ꦗ				U+A997: JAVANESE LETTER JA	✓
+ꦙ	J	d͡ʒ	a ɔ	J̱	j	j	Lo	i	mahaprana consonant				ꦥ꧀ꦙ				U+A999: JAVANESE LETTER JA MAHAPRANA	✓
+ꦛ	t	ʈ	a ɔ	ʈ	th	;	Lo		basic consonant				ꦥ꧀ꦛ				U+A99B: JAVANESE LETTER TTA	✓
+ꦜ	T	ʈ	a ɔ	Ṯ	th	:	Lo	i	mahaprana consonant				ꦥ꧀ꦜ				U+A99C: JAVANESE LETTER TTA MAHAPRANA	✓
+ꦝ	d	ɖ	a ɔ	ɖ	dh		Lo		basic consonant				ꦥ꧀ꦝ				U+A99D: JAVANESE LETTER DDA	✓
+ꦣ	D	ɖ	a ɔ	Ɖ̱	dh	D	Lo	i	mahaprana consonant				ꦥ꧀ꦣ				U+A9A3: JAVANESE LETTER DA MAHAPRANA	✓
+ꦞ	D	ɖ	a ɔ	Ḓ	dh	"	Lo	i	mahaprana consonant				ꦥ꧀ꦞ				U+A99E: JAVANESE LETTER DDA MAHAPRANA	✓
+ꦏ	k	k	a ɔ	k	k	k	Lo		basic consonant				ꦥ꧀ꦏ				U+A98F: JAVANESE LETTER KA	✓
+ꦑ	K	k	a ɔ	K	k	K	Lo		murda consonant				ꦥ꧀ꦑ				U+A991: JAVANESE LETTER KA MURDA	✓
+ꦒ	g	ɡ	a ɔ	g	g	g	Lo		basic consonant				ꦥ꧀ꦒ				U+A992: JAVANESE LETTER GA	✓
+ꦓ	G	ɡ	a ɔ	G	g	G	Lo		murda consonant				ꦥ꧀ꦓ				U+A993: JAVANESE LETTER GA MURDA	✓
+ꦔ꦳	}	ʔ	a ɔ	ŋˑ				l	basic consonant	Used to represent foreign sounds, especially Arabic.							U+A994 U+A9B3: JAVANESE LETTER NGA, SIGN CECAK TELU	
+ꦥ꦳	f	f	a ɔ	pˑ	f			l	basic consonant	Used to represent foreign sounds, especially Arabic.							U+A9A5 U+A9B3: JAVANESE LETTER PA, SIGN CECAK TELU	
+ꦢ꦳	d	ð	a ɔ	dˑ	ð			l	basic consonant	Used to represent foreign sounds, especially Arabic.							U+A9A2 U+A9B3: JAVANESE LETTER DA, SIGN CECAK TELU	
+ꦱ	s	s	a ɔ	s	s	s	Lo		basic consonant				ꦥ꧀ꦱ	ꦥ꧀ꦱ			U+A9B1: JAVANESE LETTER SA	✓
+ꦯ	S	s	a ɔ	S	s	S	Lo	r	murda consonant				ꦥ꧀ꦯ				U+A9AF: JAVANESE LETTER SA MURDA	✓
+ꦰ	S	s	a ɔ	S̱	s	s	Lo	i	mahaprana consonant				ꦥ꧀ꦰ	ꦥ꧀ꦰ			U+A9B0: JAVANESE LETTER SA MAHAPRANA	✓
+ꦗ꦳	z	z	a ɔ	ʤˑ	z			l	basic consonant	Used to represent foreign sounds, especially Arabic.							U+A997 U+A9B3: JAVANESE LETTER JA, SIGN CECAK TELU	
+ꦱ꦳	s	ʃ	a ɔ	sˑ	sh			l	basic consonant	Used to represent foreign sounds, especially Arabic.							U+A9B1 U+A9B3: JAVANESE LETTER SA, SIGN CECAK TELU	
+ꦏ꦳	x	x	a ɔ	kˑ	x			l	basic consonant	Used to represent foreign sounds, especially Arabic.							U+A98F U+A9B3: JAVANESE LETTER KA, SIGN CECAK TELU	
+ꦒ꦳	y	ɣ	a ɔ	gˑ	gh			l	basic consonant	Used to represent foreign sounds, especially Arabic.							U+A992 U+A9B3: JAVANESE LETTER GA, SIGN CECAK TELU	
+ꦲ	h	h a ∅	a ɔ	h	h	h	Lo		basic consonant				ꦥ꧀ꦲ	ꦥ꧀ꦲ			U+A9B2: JAVANESE LETTER HA	✓
+ꦲ꦳	h	ħ	a ɔ	hˑ	h			l	basic consonant	Used to represent foreign sounds, especially Arabic.							U+A9B2 U+A9B3: JAVANESE LETTER HA, SIGN CECAK TELU	
 ꦃ	h	h		h̽	h	H	Mc		syllable-final consonant							wignyan	U+A983: JAVANESE SIGN WIGNYAN	✓
-ꦩ	m	m	a ɔ	m	m	m	Lo		consonant				ꦩ ꦥ꧀ꦩ				U+A9A9: JAVANESE LETTER MA	✓
+ꦩ	m	m	a ɔ	m	m	m	Lo		basic consonant				ꦥ꧀ꦩ				U+A9A9: JAVANESE LETTER MA	✓
 ꦀ	m	m		m̽	m	x	Mn	i	syllable-final consonant	Only used for OM.						panyangga	U+A980: JAVANESE SIGN PANYANGGA	✓
-ꦤ	n¶	n	a ɔ	n	n	n	Lo		consonant				ꦤ ꦥ꧀ꦤ				U+A9A4: JAVANESE LETTER NA	✓
-ꦟ	N	n	a ɔ	N	n	N	Lo		murda consonant				ꦟ ꦥ꧀ꦟ				U+A99F: JAVANESE LETTER NA MURDA	✓
-ꦚ	n	ɲ	a ɔ	ɲ	ny	z	Lo		consonant				ꦚ ꦥ꧀ꦚ				U+A99A: JAVANESE LETTER NYA	✓
-ꦘ	N	ɲ	a ɔ	Ñ	ny	J	Lo		murda consonant				ꦘ ꦥ꧀ꦘ				U+A998: JAVANESE LETTER NYA MURDA	✓
-ꦔ	n	ŋ	a ɔ	ŋ	ng	x	Lo		consonant				ꦔ ꦥ꧀ꦔ				U+A994: JAVANESE LETTER NGA	✓
+ꦤ	n¶	n	a ɔ	n	n	n	Lo		basic consonant				ꦥ꧀ꦤ				U+A9A4: JAVANESE LETTER NA	✓
+ꦟ	N	n	a ɔ	N	n	N	Lo		murda consonant				ꦥ꧀ꦟ				U+A99F: JAVANESE LETTER NA MURDA	✓
+ꦚ	n	ɲ	a ɔ	ɲ	ny	z	Lo		basic consonant				ꦥ꧀ꦚ				U+A99A: JAVANESE LETTER NYA	✓
+ꦘ	N	ɲ	a ɔ	Ñ	ny	J	Lo		murda consonant				ꦥ꧀ꦘ				U+A998: JAVANESE LETTER NYA MURDA	✓
+ꦔ	n	ŋ	a ɔ	ŋ	ng	x	Lo		basic consonant				ꦥ꧀ꦔ				U+A994: JAVANESE LETTER NGA	✓
 ꦁ	n	ŋ		ŋ̽	ng	X	Mn		syllable-final consonant							cecak	U+A981: JAVANESE SIGN CECAK	✓
-ꦮ	w	w	a ɔ	w	w	w	Lo		consonant				ꦮ ꦥ꧀ꦮ				U+A9AE: JAVANESE LETTER WA	✓
-ꦫ	r	r	a ɔ	r	r	r	Lo		consonant				ꦫ ꦥ꧀ꦫ				U+A9AB: JAVANESE LETTER RA	✓
+ꦮ	w	w	a ɔ	w	w	w	Lo		basic consonant				ꦥ꧀ꦮ				U+A9AE: JAVANESE LETTER WA	✓
+ꦫ	r	r	a ɔ	r	r	r	Lo		basic consonant				ꦥ꧀ꦫ				U+A9AB: JAVANESE LETTER RA	✓
 ꦿ	r	r		r̆	r	R	Mc		medial consonant							cakra	U+A9BF: JAVANESE CONSONANT SIGN CAKRA	✓
 ꦂ	r	r		r̽	r	Z	Mn		syllable-final consonant							layar	U+A982: JAVANESE SIGN LAYAR	✓
 ꦽ	r	rə		r̥̆	re	F	Mn		medial vocalic							kere	U+A9BD: JAVANESE CONSONANT SIGN KERET	✓
-ꦉ	R	rə		r̥	re		Lo		independent vocalic				ꦉ ꦥ꧀ꦉ	ꦥ꧀ꦉ		pa cerek	U+A989: JAVANESE LETTER PA CEREK	✓
-ꦭ	l	l	a ɔ	l	l	l	Lo		consonant				ꦭ ꦥ꧀ꦭ				U+A9AD: JAVANESE LETTER LA	✓
-ꦊ	L	lə		l̥	le	v	Lo		independent vocalic				ꦊ ꦥ꧀ꦊ			nga lelet	U+A98A: JAVANESE LETTER NGA LELET	✓
-ꦪ	y	j	a ɔ	y	y	y	Lo		consonant				ꦪ ꦥ꧀ꦪ				U+A9AA: JAVANESE LETTER YA	✓
+ꦉ	R	rə		r̥	re		Lo		independent vocalic				ꦥ꧀ꦉ	ꦥ꧀ꦉ		pa cerek	U+A989: JAVANESE LETTER PA CEREK	✓
+ꦭ	l	l	a ɔ	l	l	l	Lo		basic consonant				ꦥ꧀ꦭ				U+A9AD: JAVANESE LETTER LA	✓
+ꦊ	L	lə		l̥	le	v	Lo		independent vocalic				ꦥ꧀ꦊ			nga lelet	U+A98A: JAVANESE LETTER NGA LELET	✓
+ꦪ	y	j	a ɔ	y	y	y	Lo		basic consonant				ꦥ꧀ꦪ				U+A9AA: JAVANESE LETTER YA	✓
 ꦾ	y	j		y̆	y	Y	Mc		medial consonant							pengkal	U+A9BE: JAVANESE CONSONANT SIGN PENGKAL	✓
 																		
 																		
-																		
-																		
 ꦶ	i	i		i	i	I	Mn		vowel sign			ꦆ				wulu	U+A9B6: JAVANESE VOWEL SIGN WULU	✓
-ꦲꦶ		i		hi	i				standalone vowel								U+A9B2 U+A9B6: JAVANESE LETTER HA, VOWEL SIGN WULU	
-ꦆ	I	i		ị	i	i	Lo		independent vowel		ꦲꦶ						U+A986: JAVANESE LETTER I	✓
-ꦼꦴ		ɨ		əa				l		Sundanese							U+A9BC U+A9B4: JAVANESE VOWEL SIGN PEPET, VOWEL SIGN TARUNG	
+ꦲꦶ		i		hi	i				standalone								U+A9B2 U+A9B6: JAVANESE LETTER HA, VOWEL SIGN WULU	
+ꦆ	I	i		ị	i	i	Lo		independent		ꦲꦶ						U+A986: JAVANESE LETTER I	✓
+ꦼꦴ		ɨ		əa				l		Use for Sundanese.							U+A9BC U+A9B4: JAVANESE VOWEL SIGN PEPET, VOWEL SIGN TARUNG	
 ꦸ	u	u		u	u	U	Mn		vowel sign			ꦈ				suku	U+A9B8: JAVANESE VOWEL SIGN SUKU	✓
-ꦲꦸ		u		hu	u				standalone vowel								U+A9B2 U+A9B8: JAVANESE LETTER HA, VOWEL SIGN SUKU	
-ꦈ	U	u		ụ	u	u	Lo		independent vowel		ꦲꦸ						U+A988: JAVANESE LETTER U	✓
-ꦈꦴ		uː		ụa													U+A988 U+A9B4: JAVANESE LETTER U, JAVANESE VOWEL SIGN TARUNG	
+ꦲꦸ		u		hu	u				standalone								U+A9B2 U+A9B8: JAVANESE LETTER HA, VOWEL SIGN SUKU	
+ꦈ	U	u		ụ	u	u	Lo		independent		ꦲꦸ						U+A988: JAVANESE LETTER U	✓
+ꦈꦴ		uː		ụa				a									U+A988 U+A9B4: JAVANESE LETTER U, JAVANESE VOWEL SIGN TARUNG	
 ꦺ	e	e		e	e	E	Mc		vowel sign			ꦌ				taling	U+A9BA: JAVANESE VOWEL SIGN TALING	✓
-ꦲꦺ		e		he	e				standalone vowel								U+A9B2 U+A9BA: JAVANESE LETTER HA, VOWEL SIGN TALING	
-ꦌ	E	e ɛ		ẹ	e	e	Lo		independent vowel		ꦲꦺ						U+A98C: JAVANESE LETTER E	✓
-ꦺꦴ	o	o		ea	o	O			multipart vowel								U+A9BA U+A9B4: JAVANESE VOWEL SIGN TALING, VOWEL SIGN TARUNG	
-ꦎ	O	o		ọ	o	o	Lo		independent vowel		ꦲꦺꦴ						U+A98E: JAVANESE LETTER O	✓
+ꦲꦺ		e		he	e				standalone								U+A9B2 U+A9BA: JAVANESE LETTER HA, VOWEL SIGN TALING	
+ꦌ	E	e ɛ		ẹ	e	e	Lo		independent		ꦲꦺ						U+A98C: JAVANESE LETTER E	✓
+ꦺꦴ	o	o		ea	o	O			composite vowel								U+A9BA U+A9B4: JAVANESE VOWEL SIGN TALING, VOWEL SIGN TARUNG	
+ꦎ	O	o		ọ	o	o	Lo		independent		ꦲꦺꦴ						U+A98E: JAVANESE LETTER O	✓
 ꦼ	e	ə		ə	e ê	q	Mn		vowel sign							pepet	U+A9BC: JAVANESE VOWEL SIGN PEPET	✓
-ꦲꦼ		ə		hə	ə				standalone vowel								U+A9B2 U+A9BC: JAVANESE LETTER HA, VOWEL SIGN PEPET	
-ꦲꦴ		a		ha	a				standalone vowel								U+A9B2 U+A9B4: JAVANESE LETTER HA, VOWEL SIGN TARUNG	
-ꦄ	A	a		ạ	a	a	Lo		independent vowel								U+A984: JAVANESE LETTER A	✓
-ꦄꦴ		aː		ạa					long vowel								U+A984 U+A9B4: JAVANESE LETTER A, JAVANESE VOWEL SIGN TARUNG	
-ꦎꦴ		au		ọa			s		diphthong								U+A98E U+A9B4: JAVANESE LETTER O, JAVANESE VOWEL SIGN TARUNG	
+ꦲꦼ		ə		hə	ə				standalone								U+A9B2 U+A9BC: JAVANESE LETTER HA, VOWEL SIGN PEPET	
+ꦲꦴ		a		ha	a				standalone								U+A9B2 U+A9B4: JAVANESE LETTER HA, VOWEL SIGN TARUNG	
+ꦄ	A	a		ạ	a	a	Lo		independent								U+A984: JAVANESE LETTER A	✓
+ꦄꦴ		aː		ạa				a	long vowel								U+A984 U+A9B4: JAVANESE LETTER A, JAVANESE VOWEL SIGN TARUNG	
+ꦎꦴ		au		ọa			s	a	diphthong								U+A98E U+A9B4: JAVANESE LETTER O, JAVANESE VOWEL SIGN TARUNG	
 																		
 																		
 																		
@@ -175,10 +133,51 @@ var spreadsheet = `java-jv	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ꧀ꦭ		l		͓l	l	L	-		consonant				ꦭ ꦥ꧀ꦭ				U+A9C0 U+A9AD: JAVANESE PANGKON, LETTER LA	
 ꧀ꦪ		j		͓y	y		-		consonant				ꦪ ꦥ꧀ꦪ				U+A9C0 U+A9AA: JAVANESE PANGKON, LETTER YA	
 																		
+																		
 ꧞				⁎		$	Po	r	correction mark	infrequent						pada tirta tumétés	U+A9DE: JAVANESE PADA TIRTA TUMETES	✓
 ꧟				*		%	Po	r	correction mark	infrequent						pada isèn-isèn	U+A9DF: JAVANESE PADA ISEN-ISEN	✓
 ꧋꧆꧋				¶°¶					combined punctuation								U+A9CB U+A9C6 U+A9CB: JAVANESE PADA ADEG ADEG, PADA WINDU, PADA ADEG ADEG	
 																		
+\u0020									space								U+0020: SPACE	
+\u200B	]			␣			Cf		zero-width space								U+200B: ZERO WIDTH SPACE	
+ꦴ				–			Mc		vowel lengthener	Not used alone in modern Javanese.							A9B4: JAVANESE VOWEL SIGN TARUNG	
+‒		a	a ɔ		a			?	inherent vowel									
+-	-			-	-		Pd	?	hyphen								U+2010: HYPHEN	
+‑	-			‑	‑		Pd	?	non-breaking hyphen								U+2011: NON-BREAKING HYPHEN	
+–	-			–	–		Pd	?	en dash								U+2013: EN DASH	
+—	-			—	—		Pd	?	em dash								U+2014: EM DASH	
+꧈	,			,		,	Po		comma/full stop							pada lingsa	U+A9C8: JAVANESE PADA LINGSA	✓
+꧇	:			:		<	Po		colon/number indicator							pada pangkat	U+A9C7: JAVANESE PADA PANGKAT	✓
+꧉	.			.		.	Po		full stop							pada lungsi	U+A9C9: JAVANESE PADA LUNGSI	✓
+꧌	(			§		[	Po		parenthesis/quotation marks							pada piseleh	U+A9CC: JAVANESE PADA PISELEH	✓
+꧍	)			)		]	Po		parenthesis/quotation marks							pada piseleh	U+A9CD: JAVANESE TURNED PADA PISELEH	✓
+꧀	*			͞		/	Mc		vowel-killer							pangkon	U+A9C0: JAVANESE PANGKON	✓
+꦳	/			ˑ		M	Mn		sound changer							cecak telu	U+A9B3: JAVANESE SIGN CECAK TELU	✓
+ꧏ	&			&		@	Lm		repetition sign							pada rangkep	U+A9CF: JAVANESE PANGRANGKEP	✓
+꧆	#			°		#	Po		punctuation							pada windu	U+A9C6: JAVANESE PADA WINDU	✓
+꧁	#			»			Po		title marker							rerengan	U+A9C1: JAVANESE LEFT RERENGGAN	✓
+꧂	#			«			Po		title marker							rerengan	U+A9C2: JAVANESE RIGHT RERENGGAN	✓
+꧅	#			§ᵃ			Po		honorific symbol							pada luhur	U+A9C5: JAVANESE PADA LUHUR	✓
+꧄	#			§ᵇ			Po		honorific symbol							pada madya	U+A9C4: JAVANESE PADA MADYA	✓
+꧃	#			§ᶜ			Po		honorific symbol							pada andap	U+A9C3: JAVANESE PADA ANDAP	✓
+%	%			%			Po	?	percentage mark								U+0025: PERCENT SIGN	
+‰	%			‰			Po	?	per mille mark								U+2030: PER MILLE SIGN	
+\u200C	=			ᶻʷⁿʲ			Cf		zero-width non-joiner								U+200C: ZERO WIDTH NON-JOINER	
+\u200D	=			ᶻʷʲ			Cf	?	zero-width joiner								U+200D: ZERO WIDTH JOINER	
+\u034F	=			ᶜᵍʲ			Mn	?	combining grapheme joiner								U+034F: COMBINING GRAPHEME JOINER	
+\u2060	=			ʷʲ			Cf	?	word joiner								U+2060 WORD JOINER	
+꧋	|			¶		±	Po		paragraph/section start							para adeg adeg	U+A9CB: JAVANESE PADA ADEG ADEG	✓
+꧊	|			|		§	Po		parenthesis/quotation marks							pada adeg	U+A9CA: JAVANESE PADA ADEG	✓
+꧐	0			0̣	0	0	Nd		digit							nol	U+A9D0: JAVANESE DIGIT ZERO	✓
+꧑	1			1̣	1	1	Nd		digit							siji	U+A9D1: JAVANESE DIGIT ONE	✓
+꧒	2			2̣	2	2	Nd		digit							loro	U+A9D2: JAVANESE DIGIT TWO	✓
+꧓	3			3̣	3	3	Nd		digit							telu	U+A9D3: JAVANESE DIGIT THREE	✓
+꧔	4			4̣	4	4	Nd		digit							papat	U+A9D4: JAVANESE DIGIT FOUR	✓
+꧕	5			5̣	5	5	Nd		digit							lima	U+A9D5: JAVANESE DIGIT FIVE	✓
+꧖	6			6̣	6	6	Nd		digit							nem	U+A9D6: JAVANESE DIGIT SIX	✓
+꧗	7			7̣	7	7	Nd		digit							pitu	U+A9D7: JAVANESE DIGIT SEVEN	✓
+꧘	8			8̣	8	8	Nd		digit							wolu	U+A9D8: JAVANESE DIGIT EIGHT	✓
+꧙	9			9̣	9	9	Nd		digit							sanga	U+A9D9: JAVANESE DIGIT NINE	✓
 ʼ				ʼ	ʼ		Lm	?	apostrophe								U+02BC: MODIFIER LETTER APOSTROPHE	
 §				§	§		Po	?	section sign								U+00A7: SECTION SIGN	
 †				†	†		Po	?	dagger								U+2020: DAGGER	
