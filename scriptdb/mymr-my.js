@@ -8,7 +8,7 @@ var spreadsheet = `mymr-my	key	ipa	ipa+	ipaOther	translit	transc	kbd	class	statu
 း	^				²	:	;	Mc		tone mark						U+1038: MYANMAR SIGN VISARGA	✓
 “	<				“	“		Pi		quotation mark						U+201C: LEFT DOUBLE QUOTATION MARK	
 ‘	<				\‘	\‘		Pi	?	quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
-\u200C	=				ₓ	ᶻʷⁿʲ		Cf		zero width non-joiner						U+200C: ZERO WIDTH NON-JOINER	
+\u200C	=				ₓ	ᶻʷⁿʲ		Cf	x	zero width non-joiner						U+200C: ZERO WIDTH NON-JOINER	
 \u200D	=				₊	ᶻʷʲ		Cf	?	zero width joiner						U+200D: ZERO WIDTH JOINER	
 ”	>				”	”		Pf		quotation mark						U+201D: RIGHT DOUBLE QUOTATION MARK	
 ’	>				\’	\’		Pf	?	quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
@@ -151,7 +151,7 @@ var spreadsheet = `mymr-my	key	ipa	ipa+	ipaOther	translit	transc	kbd	class	statu
 																	
 ွှ		–̥w			w̆h̆	h–w		s		onset cluster						U+103D U+103E: MYANMAR CONSONANT SIGN MEDIAL WA, CONSONANT SIGN MEDIAL HA	
 																	
-\u034F						ᶜᵍʲ			?	combining grapheme joiner						U+034F: COMBINING GRAPHEME JOINER	
+\u034F						ᶜᵍʲ			u	combining grapheme joiner						U+034F: COMBINING GRAPHEME JOINER	
 																	
 ,	,				,	,	?	Po		comma						U+002C: COMMA	
 ;	;				;	;	?	Po		semicolon						U+003B: SEMICOLON	
@@ -165,11 +165,6 @@ var spreadsheet = `mymr-my	key	ipa	ipa+	ipaOther	translit	transc	kbd	class	statu
 –	-				–	–		Pd	?	en dash						U+2013: EN DASH	
 —	-				—	—		Pd	?	em dash						U+2014: EM DASH	
 																	
-§								Po	?	section sign						U+00A7: SECTION SIGN	
-†								Po	?	dagger						U+2020: DAGGER	
-‡								Po	?	double dagger						U+2021: DOUBLE DAGGER	
-′								Po	?	prime						U+2032: PRIME	
-″								Po	?	double prime						U+2033: DOUBLE PRIME	
 																	
 ၐ					–		±	Lo	u	for the keyboard						U+1050: MYANMAR LETTER SHA	✓
 ၒ					–		@	Lo	u	for the keyboard						U+1052: MYANMAR LETTER VOCALIC R	✓
