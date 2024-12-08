@@ -175,11 +175,11 @@ var spreadsheet = `adlm-fuf	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 𞤀𞥄	A	aː		Aː̣	AA				uppercase long vowel			𞤢𞥄				U+1E900 U+1E944: ADLAM CAPITAL LETTER ALIF. ALIF LENGTHENER	
 																	
 ʼ	'			ˈ	ʼ		Lm	?	apostrophe							U+02BC: MODIFIER LETTER APOSTROPHE	
-§	*			§	§		Po	?	section sign							U+00A7: SECTION SIGN	
-†	*			†	†		Po	?	dagger							U+2020: DAGGER	
-‡	*			‡	‡		Po	?	double dagger							U+2021: DOUBLE DAGGER	
-′				′	′		Po	?	prime							U+2032: PRIME	
-″				″	″		Po	?	double prime							U+2033: DOUBLE PRIME	
+§	*			§	§		Po	u	section sign							U+00A7: SECTION SIGN	
+†	*			†	†		Po	u	dagger							U+2020: DAGGER	
+‡	*			‡	‡		Po	u	double dagger							U+2021: DOUBLE DAGGER	
+′				′	′		Po	u	prime							U+2032: PRIME	
+″				″	″		Po	u	double prime							U+2033: DOUBLE PRIME	
 `																	
 																	
 latinPanel = 'Ɓ Ɗ Ɠ Ñ Ŋ Ô Ƴ aː ɓ ɗ d͡ʒ dˤ ɛ eː ɛː ɡ ɡ͡b ɠ ɦ iː k͡p ɲ ñ ŋ ɔ ô oː ɔː θ ɾ ʃ sˤ t͡ʃ tˤ uː ʼy ƴ ɣ zˤ ʕ ʔ ʔʲ ⁿ ᵐ ᵑ'																	
