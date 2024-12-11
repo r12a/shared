@@ -98,9 +98,9 @@ var spreadsheet = `arab-sd	key	ipa	ipa+	ipa++	translit	transc	kbd	class	status	t
 // baseline extender																
 ـ	_				_	_			?	baseline extender					U+0640: ARABIC TATWEEL	
 // phrase dividers																
-،	,				,̣	⹁		Po	x	comma					U+060C: ARABIC COMMA	
+،	,				,̣	⹁		Po	r	comma					U+060C: ARABIC COMMA	
 ,	,				,	,		Po	?	comma					U+002C: COMMA	
-؛	;				;̣	;		Po	x	semicolon					U+061B: ARABIC SEMICOLON	
+؛	;				;̣	;		Po	r	semicolon					U+061B: ARABIC SEMICOLON	
 ⹁	,				,	⹁		Po		comma					U+2E41: REVERSED COMMA	
 ⁏	;				;	;		Po		semicolon					U+204F: REVERSED SEMICOLON	
 !	!				!	!		Po		exclamation mark					U+0021: EXCLAMATION MARK	
@@ -159,7 +159,7 @@ var spreadsheet = `arab-sd	key	ipa	ipa+	ipa++	translit	transc	kbd	class	status	t
 ۷	±	7			7̣	7		Nd		digit			سَتَ	sata	U+06F7: EXTENDED ARABIC-INDIC DIGIT SEVEN	
 ۸	±	8			8̣	8		Nd		digit			اَٺَ	aṭha	U+06F8: EXTENDED ARABIC-INDIC DIGIT EIGHT	
 ۹	±	9			9̣	9		Nd		digit			نَوَ	nava	U+06F9: EXTENDED ARABIC-INDIC DIGIT NINE	
-٪										percent sign						
+٪	%							Po	?	percent sign					U+066A: ARABIC PERCENT SIGN	
 // orphans																
 ٔ					ٴ			Mn​	r	combining hamza	Orphan. Only found in decomposed text with YEH.				U+0654: ARABIC HAMZA ABOVE	
 ٓ					˜			Mn	r	combining madd	Orphan. Only found in decomposed text with ALEF.				U+0653: ARABIC MADDAH ABOVE	
