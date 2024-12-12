@@ -1,4 +1,100 @@
 var spreadsheet = `arab-ur	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	equiv	shape	native name	latin name	ucs name	block
+																
+پ	p	p		p	p	y	Lo		consonant			4	پے	peː	U+067E: ARABIC LETTER PEH	✓
+پھ	P	pʰ		pʰ	ph							4			U+067E U+06BE: ARABIC LETTER PEH, HEH DOACHASHMEE	
+ب	b	b		b	b	i	Lo		consonant			4	بے	beː	U+0628: ARABIC LETTER BEH	✓
+بھ	B	bʱ		bʰ	bh							4			U+0628 U+06BE: ARABIC LETTER BEH, HEH DOACHASHMEE	
+ط	T	t		t̂	t̤	q	Lo		consonant			4	طوے	t̪oː.eː	U+0637: ARABIC LETTER TAH	✓
+تھ	T	t̪ʰ		tʰ	th							4			U+062A U+06BE: ARABIC LETTER TEH, HEH DOACHASHMEE	
+ۃ	t			ẗ			Lo	i	teh marbuta	arabic loan words					U+06C3: ARABIC LETTER TEH MARBUTA GOAL	✓
+ت	t¶	t		t	t	u	Lo		consonant			4	تے	te	U+062A: ARABIC LETTER TEH	✓
+ٹ	t	ʈ		ʈ	ṭ	t	Lo		consonant			4	ٹے	ʈeː	U+0679: ARABIC LETTER TTEH	✓
+ٹھ	T	ʈʰ		ʈʰ	ṭh							4			U+0679 U+06BE: ARABIC LETTER TTEH, HEH DOACHASHMEE	
+چ	c	t͡ʃ		ʧ	c	O	Lo		consonant			4	چے	t͡ʃeː	U+0686: ARABIC LETTER TCHEH	✓
+چھ	C	t͡ʃʰ		čʰ	ch							4			U+0686 U+06BE: ARABIC LETTER TCHEH, HEH DOACHASHMEE	
+د	d	d		d	d	r	Lo		consonant			2	دال	dɑːl	U+062F: ARABIC LETTER DAL	✓
+دھ	D	d̪ʱ		dʰ	dh							4			U+062F U+06BE: ARABIC LETTER DAL, HEH DOACHASHMEE	
+ج	j	d͡ʒ		ʤ	j	o	Lo		consonant			4	جيم	ʤiːm	U+062C: ARABIC LETTER JEEM	✓
+جھ	J	d͡ʒʰ		ʤʰ	jh							4			U+062C U+06BE: ARABIC LETTER JEEM, HEH DOACHASHMEE	
+ڈ	d	ɖ		ɖ	ḍ	R	Lo		consonant			2	ڈال	ɖɑːl	U+0688: ARABIC LETTER DDAL	✓
+ڈھ	D	ɖʱ		ɖʰ	ḍh							4			U+0688 U+06BE: ARABIC LETTER DDAL, HEH DOACHASHMEE	
+ک	k¶	k		k	k	k	Lo		consonant			4	کاف	kɑːf	U+06A9: ARABIC LETTER KEHEH	✓
+کھ	K	kʰ		kʰ	kh							4			U+06A9 U+06BE: ARABIC LETTER KEHEH, HEH DOACHASHMEE	
+گ	g	g		g	g	K	Lo		consonant			4	گاف	gɑːf	U+06AF: ARABIC LETTER GAF	✓
+گھ	G	ɡʱ		gʰ	gh							4			U+06AF U+06BE: ARABIC LETTER GAF, HEH DOACHASHMEE	
+ق	q	q		q	q	z	Lo		consonant			4	قاف	qɑːf	U+0642: ARABIC LETTER QAF	✓
+ف	f	f		f	f	x	Lo		consonant			4	فے	feː	U+0641: ARABIC LETTER FEH	✓
+ص	S	s		ŝ	ṣ	w	Lo		consonant			4	صاد	sʋɑːd̪	U+0635: ARABIC LETTER SAD	✓
+ث	S	s		ṡ	s̱	T	Lo		consonant			4	ثے	seː	U+062B: ARABIC LETTER THEH	✓
+س	s¶	s		s	s	v	Lo		consonant			4	سین	siːn	U+0633: ARABIC LETTER SEEN	✓
+ز	z	z		z	z	S	Lo		consonant			2	زے	zeː	U+0632: ARABIC LETTER ZAIN	✓
+ض	Z	z		ẑ	ẓ	W	Lo		consonant			4	ضاد	zʋɑːd̪	U+0636: ARABIC LETTER DAD	✓
+ظ	Z	z		ž	z̤	Q	Lo		consonant			4	ظوے	zoː.eː	U+0638: ARABIC LETTER ZAH	✓
+ذ	Z	z		ż	ẕ	E	Lo		consonant			2	ذال	zɑːl	U+0630: ARABIC LETTER THAL	✓
+ش	s	ʃ		ʃ	sh	b	Lo		consonant			4	شین	ʃiːn	U+0634: ARABIC LETTER SHEEN	✓
+ژ	z	ʒ		ʒ	zh	A	Lo		consonant			2	ژے	ʒeː	U+0698: ARABIC LETTER JEH	✓
+خ	x	x		x	k͟h	P	Lo		consonant			4	خے	xeː	U+062E: ARABIC LETTER KHAH	✓
+غ	Y	ɣ		ɣ	g͟h	n	Lo		consonant			4	غین	ɣɛːn	U+063A: ARABIC LETTER GHAIN	✓
+ح	H	ɦ		ḫ	ḥ	p	Lo		consonant			4	بڑی حے	baɽiː he	U+062D: ARABIC LETTER HAH	✓
+ھ	h	ʰ ʱ		ʰ	h	e	Lo		aspiration marker / calendar indicator			4	دو چشمی ہے	d̪oː.t͡ʃəʃ.miː‿ɦeː	U+06BE: ARABIC LETTER HEH DOACHASHMEE	✓
+هھ	H	hʱ		هʰ	hh										U+0647 U+06BE: ARABIC LETTER HEH, HEH DOACHASHMEE	
+ہ	h¶	ɦ ɑː ɛ ∅		h	h	h	Lo		consonant			4	چھوٹی ہے	t͡ʃʰoː.ʈiː‿ɦeː	U+06C1: ARABIC LETTER HEH GOAL	✓
+م	m	m		m	m	a	Lo		consonant			4	میم	miːm	U+0645: ARABIC LETTER MEEM	✓
+مھ	M	mʱ		mʰ	mh							4			U+0645 U+06BE: ARABIC LETTER MEEM, HEH DOACHASHMEE	
+ن	n	n ◌̃		n	n	f	Lo		consonant/nasalisation marker			4	نون	nuːn	U+0646: ARABIC LETTER NOON	✓
+ں	n	◌̃		ñ	ṉ	F	Lo		nasalisation indicator	word-final		4	نون غنّہ	nuːn‿ɣʊn.nɑː	U+06BA: ARABIC LETTER NOON GHUNNA	✓
+نھ	N	nʱ		nʰ	nh							4			U+0646 U+06BE: ARABIC LETTER NOON, HEH DOACHASHMEE	
+و	w	ʋ uː o ɔ ∅		ʋ	v ū o au	s	Lo		consonant+vowel			2	واؤ	ʋɑːʋ	U+0648: ARABIC LETTER WAW	✓
+وھ	V	ʋʱ		vʰ	wh							4			U+0648 U+06BE: ARABIC LETTER WAW, HEH DOACHASHMEE	
+ر	r	r		r	r	d	Lo		consonant			2	رے	reː	U+0631: ARABIC LETTER REH	✓
+ڑ	r	ɽ		ɽ	ṛ	D	Lo		consonant			2	ڑے	ɽeː	U+0691: ARABIC LETTER RREH	✓
+رھ	R	rʱ		rʰ	ṛh							4			U+0631 U+06BE: ARABIC LETTER REH, HEH DOACHASHMEE	
+ڑھ	R	ɽʱ		ɽʰ	ṛh							4			U+0691 U+06BE: ARABIC LETTER RREH, HEH DOACHASHMEE	
+ل	l	l		l	l	g	Lo		consonant			4	لام	lɑːm	U+0644: ARABIC LETTER LAM	✓
+لھ	L	lʱ		lʰ	lh							4			U+0644 U+06BE: ARABIC LETTER LAM, HEH DOACHASHMEE	
+ی	y	j iː e ɛ a		y	y ī e á	l	Lo		consonant+vowel			4	چھوٹی يے	t͡ʃʰoː.ʈiː‿jeː	U+06CC: ARABIC LETTER FARSI YEH	✓
+یھ	Y	jʱ		yʰ	yh							4			U+06CC U+06BE: ARABIC LETTER FARSI YEH, HEH DOACHASHMEE	
+																
+																
+ئ	i	ɪ a iː ɛ		ɪ͑		N	Lo		hamza on its chair		\u{64A}\u{654}	4			U+0626: ARABIC LETTER YEH WITH HAMZA ABOVE	✓
+ِ	I	i ɛ		i	i	p	Mn		vowel/izafat					zer	U+0650: ARABIC KASRA	✓
+ٍ	I	in		iⁿ			Mn		vowel					in	U+064D: ARABIC KASRATAN	✓
+ٖ	i	i		ᵢ			Mn		vowel quality indicator						U+0656: ARABIC SUBSCRIPT ALEF	✓
+ُ	U	u		u	u	o	Mn		vowel					peʃ	U+064F: ARABIC DAMMA	✓
+ٗ	u	u		ᵘ			Mn		vowel						U+0657: ARABIC INVERTED DAMMA	✓
+ٌ	U	un		uⁿ		r	Mn		vowel					un	U+064C: ARABIC DAMMATAN	✓
+ؤ	u	uː o		u͑	u'	B	Lo		vowel separator+vowel		\u{648}\u{654}	2			U+0624: ARABIC LETTER WAW WITH HAMZA ABOVE	✓
+\u{648}\u{654}	u	uː o		w‘	u'				vowel separator+vowel	decomposed					U+0648, U+0654: ARABIC LETTER WAW, HAMZA ABOVE	
+یٔ	e	ɛ ∅		y‘					hamza on its chair	use ئ instead					U+06CC U+0654: ARABIC LETTER FARSI YEH, HAMZA ABOVE	
+ے	e	eː ɛː		ɛ	ai e	c	Lo		vowel	word-final only		ے	بڑی يے	bə.ɽiː‿jeː	U+06D2: ARABIC LETTER YEH BARREE	✓
+ئے	e	ɛ		ɪ͑ɛ					izafat	word-final only					U+0626, U+06D2: ARABIC LETTER YEH WITH HAMZA ABOVE, YEH BARREE	
+ۂ	e	ɛ		e͑	yi	G	Lo		izafat		\u{6C1}\u{654}	4		ɪzɑːfat	U+06C2: ARABIC LETTER HEH GOAL WITH HAMZA ABOVE	✓
+ا	a	ə ɪ ʊ ∅ ɑː		ɑ	ā ʾ –	j	Lo		vowel			2	الف	ə.lɪf	U+0627: ARABIC LETTER ALEF	✓
+آ	a	ɑː		ɑ̄	ā	J	Lo		vowel	initial only	\u{627}\u{653}	2		əlɪf mədd	U+0622: ARABIC LETTER ALEF WITH MADDA ABOVE	✓
+َ	A	ə		a	a	e	Mn		vowel					zəbər	U+064E: ARABIC FATHA	✓
+ً	A	an		aⁿ		w	Mn		vowel					an	U+064B: ARABIC FATHATAN	✓
+ٰ	a	aː		ɑ̇			Mn		superscript alef	with word-final ی					U+0670: ARABIC LETTER SUPERSCRIPT ALEF	✓
+یٰ	a	aː		yɑ̇					vowel						U+06CC, U+0670: ARABIC LETTER FARSI YEH, SUPERSCRIPT ALEF	
+																
+\u{627}\u{653}				ɑٓ					vowel	decomposed				əlɪf mədd	U+0627, U+0653: ARABIC LETTER ALEF, MADDAH ABOVE	
+\u{64A}\u{654}		ɛ		ي‘					vowel separator / izafat	decomposed ئ					U+064A, U+0654: ARABIC LETTER YEH, HAMZA ABOVE	
+ي				ẏ		L	Lo	i	arabic yeh	only in decomposed text					U+064A: ARABIC LETTER YEH	
+																
+\u{6C1}\u{654}		ɛ		h‘	yi				izafat	decomposed					U+06C1, U+0654: ARABIC LETTER HEH GOAL, HAMZA ABOVE	
+																
+أ				ɑ͑		h	Lo	u	consonant+vowel			أ ـأ			U+0623: ARABIC LETTER ALEF WITH HAMZA ABOVE	✓
+ۓ		e ɛ		ɛ͑		C	Lo		izafat			ۓ		ɪzɑːfat	U+06D3: ARABIC LETTER YEH BARREE WITH HAMZA ABOVE	✓
+																
+؃							Cf		page number marker					səfəh	U+0603: ARABIC SIGN SAFHA	✓
+؂							Cf		footnote marker						U+0602: ARABIC FOOTNOTE MARKER	✓
+؎							So	i	poetic verse sign						U+060E: ARABIC POETIC VERSE SIGN	✓
+؏							So	i	poetic line marker					misrə	U+060F: ARABIC SIGN MISRA	✓
+ؐ							Mn		honorific					sallallao alae va sallam	U+0610: ARABIC SIGN SALLALLAHOU ALAYHE WASSALLAM	✓
+ؑ							Mn		honorific					alejsallam	U+0611: ARABIC SIGN ALAYHE ASSALLAM	✓
+ؒ							Mn		honorific					raːmatʊlla alee	U+0612: ARABIC SIGN RAHMATULLAH ALAYHE	✓
+ؓ							Mn		honorific					raziallaːo ano	U+0613: ARABIC SIGN RADI ALLAHOU ANHU	✓
+ؔ							Mn		author name marker						U+0614: ARABIC SIGN TAKHALLUS	✓
+																
 \u0020							Zs		space						U+0020: SPACE	
 ◌																
 ـ	_			_		I	Lm	u	baseline extender						U+0640: ARABIC TATWEEL	✓
@@ -67,106 +163,7 @@ var spreadsheet = `arab-ur	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ›	>			›			Pf	?	quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	✓
 ”	>			”	”		Pf		quotation mark						U+201D: RIGHT DOUBLE QUOTATION MARK	✓
 ’	>			\’	\’		Pf	?	quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	✓
-																
-ا	a	ə ɪ ʊ ∅ ɑː		ɑ	ā ʾ –	j	Lo		vowel			ا ـا	الف	ə.lɪf	U+0627: ARABIC LETTER ALEF	✓
-آ	a	ɑː		ɑ̄	ā	J	Lo		vowel	initial only	\u{627}\u{653}	آ ـآ		əlɪf mədd	U+0622: ARABIC LETTER ALEF WITH MADDA ABOVE	✓
-َ	A	ə		a	a	e	Mn		vowel					zəbər	U+064E: ARABIC FATHA	✓
-ً	A	an		aⁿ		w	Mn		vowel					an	U+064B: ARABIC FATHATAN	✓
-ٰ	a	aː		ɑ̇			Mn		superscript alef	with word-final ی					U+0670: ARABIC LETTER SUPERSCRIPT ALEF	✓
-یٰ	a	aː		yɑ̇					vowel						U+06CC, U+0670: ARABIC LETTER FARSI YEH, SUPERSCRIPT ALEF	
-ب	b	b		b	b	i	Lo		consonant			ب ببب	بے	beː	U+0628: ARABIC LETTER BEH	✓
-بھ	B	bʱ		bʰ	bh										U+0628 U+06BE: ARABIC LETTER BEH, HEH DOACHASHMEE	
-چ	c	t͡ʃ		ʧ	c	O	Lo		consonant			چ چچچ	چے	t͡ʃeː	U+0686: ARABIC LETTER TCHEH	✓
-چھ	C	t͡ʃʰ		čʰ	ch										U+0686 U+06BE: ARABIC LETTER TCHEH, HEH DOACHASHMEE	
-د	d	d		d	d	r	Lo		consonant			د ـد	دال	dɑːl	U+062F: ARABIC LETTER DAL	✓
-ڈ	d	ɖ		ɖ	ḍ	R	Lo		consonant			ڈ ـڈ	ڈال	ɖɑːl	U+0688: ARABIC LETTER DDAL	✓
-دھ	D	d̪ʱ		dʰ	dh										U+062F U+06BE: ARABIC LETTER DAL, HEH DOACHASHMEE	
-ڈھ	D	ɖʱ		ɖʰ	ḍh										U+0688 U+06BE: ARABIC LETTER DDAL, HEH DOACHASHMEE	
-یٔ	e	ɛ ∅		y‘					hamza on its chair	use ئ instead					U+06CC U+0654: ARABIC LETTER FARSI YEH, HAMZA ABOVE	
-ے	e	eː ɛː		ɛ	ai e	c	Lo		vowel	word-final only		ے	بڑی يے	bə.ɽiː‿jeː	U+06D2: ARABIC LETTER YEH BARREE	✓
-ئے	e	ɛ		ɪ͑ɛ					izafat	word-final only					U+0626, U+06D2: ARABIC LETTER YEH WITH HAMZA ABOVE, YEH BARREE	
-ۂ	e	ɛ		e͑	yi	G	Lo		izafat		\u{6C1}\u{654}	ۂ ۂۂۂ		ɪzɑːfat	U+06C2: ARABIC LETTER HEH GOAL WITH HAMZA ABOVE	✓
-ف	f	f		f	f	x	Lo		consonant			ف ففف	فے	feː	U+0641: ARABIC LETTER FEH	✓
-گ	g	g		g	g	K	Lo		consonant			گ گگگ	گاف	gɑːf	U+06AF: ARABIC LETTER GAF	✓
-گھ	G	ɡʱ		gʰ	gh										U+06AF U+06BE: ARABIC LETTER GAF, HEH DOACHASHMEE	
-ح	H	ɦ		ḫ	ḥ	p	Lo		consonant			ح ححح	بڑی حے	baɽiː he	U+062D: ARABIC LETTER HAH	✓
-ھ	h	ʰ ʱ		ʰ	h	e	Lo		aspiration marker / calendar indicator			ھ ھھھ	دو چشمی ہے	d̪oː.t͡ʃəʃ.miː‿ɦeː	U+06BE: ARABIC LETTER HEH DOACHASHMEE	✓
-هھ	H	hʱ		هʰ	hh										U+0647 U+06BE: ARABIC LETTER HEH, HEH DOACHASHMEE	
-ہ	h¶	ɦ ɑː ɛ ∅		h	h	h	Lo		consonant			ہ ہہہ	چھوٹی ہے	t͡ʃʰoː.ʈiː‿ɦeː	U+06C1: ARABIC LETTER HEH GOAL	✓
-ئ	i	ɪ a iː ɛ		ɪ͑		N	Lo		hamza on its chair		\u{64A}\u{654}	ئ ئئئ			U+0626: ARABIC LETTER YEH WITH HAMZA ABOVE	✓
-ِ	I	i ɛ		i	i	p	Mn		vowel/izafat					zer	U+0650: ARABIC KASRA	✓
-ٍ	I	in		iⁿ			Mn		vowel					in	U+064D: ARABIC KASRATAN	✓
-ٖ	i	i		ᵢ			Mn		vowel quality indicator						U+0656: ARABIC SUBSCRIPT ALEF	✓
-ج	j	d͡ʒ		ʤ	j	o	Lo		consonant			ج ججج	جيم	ʤiːm	U+062C: ARABIC LETTER JEEM	✓
-جھ	J	d͡ʒʰ		ʤʰ	jh							4			U+062C U+06BE: ARABIC LETTER JEEM, HEH DOACHASHMEE	
-کھ	K	kʰ		kʰ	kh										U+06A9 U+06BE: ARABIC LETTER KEHEH, HEH DOACHASHMEE	
-ک	k¶	k		k	k	k	Lo		consonant			ک ککک	کاف	kɑːf	U+06A9: ARABIC LETTER KEHEH	✓
-ل	l	l		l	l	g	Lo		consonant			ل للل	لام	lɑːm	U+0644: ARABIC LETTER LAM	✓
-لھ	L	lʱ		lʰ	lh										U+0644 U+06BE: ARABIC LETTER LAM, HEH DOACHASHMEE	
-م	m	m		m	m	a	Lo		consonant			م ممم	میم	miːm	U+0645: ARABIC LETTER MEEM	✓
-مھ	M	mʱ		mʰ	mh										U+0645 U+06BE: ARABIC LETTER MEEM, HEH DOACHASHMEE	
-ن	n	n ◌̃		n	n	f	Lo		consonant/nasalisation marker			ن ننن	نون	nuːn	U+0646: ARABIC LETTER NOON	✓
-ں	n	◌̃		ñ	ṉ	F	Lo		nasalisation indicator	word-final		ں ںںں	نون غنّہ	nuːn‿ɣʊn.nɑː	U+06BA: ARABIC LETTER NOON GHUNNA	✓
-نھ	N	nʱ		nʰ	nh										U+0646 U+06BE: ARABIC LETTER NOON, HEH DOACHASHMEE	
-پ	p	p		p	p	y	Lo		consonant			پ پپپ	پے	peː	U+067E: ARABIC LETTER PEH	✓
-پھ	P	pʰ		pʰ	ph										U+067E U+06BE: ARABIC LETTER PEH, HEH DOACHASHMEE	
-ق	q	q		q	q	z	Lo		consonant			ق ققق	قاف	qɑːf	U+0642: ARABIC LETTER QAF	✓
-ر	r	r		r	r	d	Lo		consonant			ر ـر	رے	reː	U+0631: ARABIC LETTER REH	✓
-ڑ	r	ɽ		ɽ	ṛ	D	Lo		consonant			ڑ ـڑ	ڑے	ɽeː	U+0691: ARABIC LETTER RREH	✓
-رھ	R	rʱ		rʰ	ṛh										U+0631 U+06BE: ARABIC LETTER REH, HEH DOACHASHMEE	
-ڑھ	R	ɽʱ		ɽʰ	ṛh										U+0691 U+06BE: ARABIC LETTER RREH, HEH DOACHASHMEE	
-ص	S	s		ŝ	ṣ	w	Lo		consonant			ص صصص	صاد	sʋɑːd̪	U+0635: ARABIC LETTER SAD	✓
-ث	S	s		ṡ	s̱	T	Lo		consonant			ث ثثث	ثے	seː	U+062B: ARABIC LETTER THEH	✓
-ش	s	ʃ		ʃ	sh	b	Lo		consonant			ش ششش	شین	ʃiːn	U+0634: ARABIC LETTER SHEEN	✓
-س	s¶	s		s	s	v	Lo		consonant			س سسس	سین	siːn	U+0633: ARABIC LETTER SEEN	✓
-ط	T	t		t̂	t̤	q	Lo		consonant			ط ططط	طوے	t̪oː.eː	U+0637: ARABIC LETTER TAH	✓
-ٹ	t	ʈ		ʈ	ṭ	t	Lo		consonant			ٹ ٹٹٹ	ٹے	ʈeː	U+0679: ARABIC LETTER TTEH	✓
-تھ	T	t̪ʰ		tʰ	th										U+062A U+06BE: ARABIC LETTER TEH, HEH DOACHASHMEE	
-ٹھ	T	ʈʰ		ʈʰ	ṭh										U+0679 U+06BE: ARABIC LETTER TTEH, HEH DOACHASHMEE	
-ۃ	t			ẗ			Lo	i	teh marbuta	arabic loan words					U+06C3: ARABIC LETTER TEH MARBUTA GOAL	✓
-ت	t¶	t		t	t	u	Lo		consonant			ت تتت	تے	te	U+062A: ARABIC LETTER TEH	✓
-ُ	U	u		u	u	o	Mn		vowel					peʃ	U+064F: ARABIC DAMMA	✓
-ٗ	u	u		ᵘ			Mn		vowel						U+0657: ARABIC INVERTED DAMMA	✓
-ٌ	U	un		uⁿ		r	Mn		vowel					un	U+064C: ARABIC DAMMATAN	✓
-ؤ	u	uː o		u͑	u'	B	Lo		vowel separator+vowel		\u{648}\u{654}	ؤ ـؤ			U+0624: ARABIC LETTER WAW WITH HAMZA ABOVE	✓
-\u{648}\u{654}	u	uː o		w‘	u'				vowel separator+vowel	decomposed					U+0648, U+0654: ARABIC LETTER WAW, HAMZA ABOVE	
-وھ	V	ʋʱ		vʰ	wh										U+0648 U+06BE: ARABIC LETTER WAW, HEH DOACHASHMEE	
-و	w	ʋ uː o ɔ ∅		ʋ	v ū o au	s	Lo		consonant+vowel			و ـو	واؤ	ʋɑːʋ	U+0648: ARABIC LETTER WAW	✓
-خ	x	x		x	k͟h	P	Lo		consonant			خ خخخ	خے	xeː	U+062E: ARABIC LETTER KHAH	✓
-غ	Y	ɣ		ɣ	g͟h	n	Lo		consonant			غ غغغ	غین	ɣɛːn	U+063A: ARABIC LETTER GHAIN	✓
-ی	y	j iː e ɛ a		y	y ī e á	l	Lo		consonant+vowel			ی ییی	چھوٹی يے	t͡ʃʰoː.ʈiː‿jeː	U+06CC: ARABIC LETTER FARSI YEH	✓
-یھ	Y	jʱ		yʰ	yh										U+06CC U+06BE: ARABIC LETTER FARSI YEH, HEH DOACHASHMEE	
-ز	z	z		z	z	S	Lo		consonant			ز ـز	زے	zeː	U+0632: ARABIC LETTER ZAIN	✓
-ض	Z	z		ẑ	ẓ	W	Lo		consonant			ض ضضض	ضاد	zʋɑːd̪	U+0636: ARABIC LETTER DAD	✓
-ظ	Z	z		ž	z̤	Q	Lo		consonant			ظ ظظظ	ظوے	zoː.eː	U+0638: ARABIC LETTER ZAH	✓
-ذ	Z	z		ż	ẕ	E	Lo		consonant			ذ ـذ	ذال	zɑːl	U+0630: ARABIC LETTER THAL	✓
-ژ	z	ʒ		ʒ	zh	A	Lo		consonant			ژ ـژ	ژے	ʒeː	U+0698: ARABIC LETTER JEH	✓
-																
-\u{627}\u{653}				ɑٓ					vowel	decomposed				əlɪf mədd	U+0627, U+0653: ARABIC LETTER ALEF, MADDAH ABOVE	
-\u{64A}\u{654}		ɛ		ي‘					vowel separator / izafat	decomposed ئ					U+064A, U+0654: ARABIC LETTER YEH, HAMZA ABOVE	
-ي				ẏ		L	Lo	i	arabic yeh	only in decomposed text					U+064A: ARABIC LETTER YEH	
-																
-\u{6C1}\u{654}		ɛ		h‘	yi				izafat	decomposed					U+06C1, U+0654: ARABIC LETTER HEH GOAL, HAMZA ABOVE	
-																
-أ				ɑ͑		h	Lo	u	consonant+vowel			أ ـأ			U+0623: ARABIC LETTER ALEF WITH HAMZA ABOVE	✓
-ۓ		e ɛ		ɛ͑		C	Lo		izafat			ۓ		ɪzɑːfat	U+06D3: ARABIC LETTER YEH BARREE WITH HAMZA ABOVE	✓
-																
-؃							Cf		page number marker					səfəh	U+0603: ARABIC SIGN SAFHA	✓
-؂							Cf		footnote marker						U+0602: ARABIC FOOTNOTE MARKER	✓
-؎							So	i	poetic verse sign						U+060E: ARABIC POETIC VERSE SIGN	✓
-؏							So	i	poetic line marker					misrə	U+060F: ARABIC SIGN MISRA	✓
-ؐ							Mn		honorific					sallallao alae va sallam	U+0610: ARABIC SIGN SALLALLAHOU ALAYHE WASSALLAM	✓
-ؑ							Mn		honorific					alejsallam	U+0611: ARABIC SIGN ALAYHE ASSALLAM	✓
-ؒ							Mn		honorific					raːmatʊlla alee	U+0612: ARABIC SIGN RAHMATULLAH ALAYHE	✓
-ؓ							Mn		honorific					raziallaːo ano	U+0613: ARABIC SIGN RADI ALLAHOU ANHU	✓
-ؔ							Mn		author name marker						U+0614: ARABIC SIGN TAKHALLUS	✓
-																
 ʼ				ʼ	ʼ		Lm	?	apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
-§				§	§		Po	?	section sign						U+00A7: SECTION SIGN	
-†				†	†		Po	?	dagger						U+2020: DAGGER	
-‡				‡	‡		Po	?	double dagger						U+2021: DOUBLE DAGGER	
-′				′	′		Po	?	prime						U+2032: PRIME	
-″				″	″		Po	?	double prime						U+2033: DOUBLE PRIME	
 ﷽							So	i							U+FDFD: ARABIC LIGATURE BISMILLAH AR-RAHMAN AR-RAHEEM	
 \u0600							Cf								U+0600 ARABIC NUMBER SIGN	
 \u0601							Cf								U+0601: ARABIC SIGN SANAH	
