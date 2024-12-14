@@ -1,19 +1,4 @@
 var spreadsheet = `bass-bsq	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	native name	latin name	ucs name	block
-\u0020	 			 			Zs		space				U+0020: SPACE	
-𖫵	.			.			Po		full stop				U+16AF5: BASSA VAH FULL STOP	✓
-.	.			.			Po		full stop					
-𖫤	¶h	h		h	h		Lo		consonant		yaayin		U+16AE4: BASSA VAH LETTER YEIN	✓
-𖫰	^	˦		¹	́		Mn		high tone mark				U+16AF0: BASSA VAH COMBINING HIGH TONE	✓
-𖫱	^	˨		²	̀		Mn		mid tone mark				U+16AF1: BASSA VAH COMBINING LOW TONE	✓
-𖫲	^	˧		³	̄		Mn		low tone mark				U+16AF2: BASSA VAH COMBINING MID TONE	✓
-𖫳	^	˨˧		⁴	̌		Mn		low-mid tone mark				U+16AF3: BASSA VAH COMBINING LOW-MID TONE	✓
-𖫴	^	˥˩		⁵	̂		Mn		high-low tone mark				U+16AF4: BASSA VAH COMBINING HIGH-LOW TONE	✓
-“	<			“			Pi		quotation mark				U+201C: LEFT DOUBLE QUOTATION MARK	
-”	>			”			Pf		quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK	
-«	<			“			Pi	?	quotation mark				U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	punctuation
-»	>			”			Pf	?	quotation mark				U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	punctuation
-‘	<			\‘	\‘		Pi	?	quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	
-’	>			\’	\’		Pf	?	quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
 														
 𖫥	p	p		p	p		Lo		consonant		pah		U+16AE5: BASSA VAH LETTER PA	✓
 𖫢	b	b		b	b		Lo		consonant		bah		U+16AE2: BASSA VAH LETTER BA	✓
@@ -46,6 +31,21 @@ var spreadsheet = `bass-bsq	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 𖫨	o	ɔ		ɔ	ɔ		Lo		vowel		auh		U+16AE8: BASSA VAH LETTER O	✓
 𖫧	a	a		a	a		Lo		vowel		ah		U+16AE7: BASSA VAH LETTER A	✓
 														
+\u0020	 			 			Zs		space				U+0020: SPACE	
+𖫵	.			.			Po		full stop				U+16AF5: BASSA VAH FULL STOP	✓
+.	.			.			Po		full stop					
+𖫤	¶h	h		h	h		Lo		consonant		yaayin		U+16AE4: BASSA VAH LETTER YEIN	✓
+𖫰	^	˦		¹	́		Mn		high tone mark				U+16AF0: BASSA VAH COMBINING HIGH TONE	✓
+𖫱	^	˨		²	̀		Mn		mid tone mark				U+16AF1: BASSA VAH COMBINING LOW TONE	✓
+𖫲	^	˧		³	̄		Mn		low tone mark				U+16AF2: BASSA VAH COMBINING MID TONE	✓
+𖫳	^	˨˧		⁴	̌		Mn		low-mid tone mark				U+16AF3: BASSA VAH COMBINING LOW-MID TONE	✓
+𖫴	^	˥˩		⁵	̂		Mn		high-low tone mark				U+16AF4: BASSA VAH COMBINING HIGH-LOW TONE	✓
+“	<			“			Pi		quotation mark				U+201C: LEFT DOUBLE QUOTATION MARK	
+”	>			”			Pf		quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK	
+«	<			“			Pi	?	quotation mark				U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	punctuation
+»	>			”			Pf	?	quotation mark				U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	punctuation
+‘	<			\‘	\‘		Pi	?	quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	
+’	>			\’	\’		Pf	?	quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
 ,				,			Po		comma				U+002C: COMMA	
 .				.			Po		full stop				U+002E: FULL STOP	
 ?				?			Po		question mark				U+003F: QUESTION MARK	
