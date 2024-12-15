@@ -5,7 +5,7 @@ var spreadsheet = `cakm-cpp	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 𑄞	B	bʰ	aː	bʰ	bh		Lo		consonant				U+1111E: CHAKMA LETTER BHAA	✓
 𑄖	t	t	aː	t	t		Lo		consonant				U+11116: CHAKMA LETTER TAA	✓
 𑄗	T	tʰ	aː	tʰ	th		Lo		consonant				U+11117: CHAKMA LETTER THAA	✓
-𑄌	c	t͡ʃ	aː	ʧ	c		Lo		consonant				U+1110C: CHAKMA LETTER CAA	✓
+𑄌	c	t͡ʃ s	aː	ʧ	c		Lo		consonant				U+1110C: CHAKMA LETTER CAA	✓
 𑄍	C	t͡ʃʰ	aː	ʧʰ	ch		Lo		consonant				U+1110D: CHAKMA LETTER CHAA	✓
 𑄘	d	d	aː	d	d		Lo		consonant				U+11118: CHAKMA LETTER DAA	✓
 𑄙	D	dʰ	aː	dʰ	dh		Lo		consonant				U+11119: CHAKMA LETTER DHAA	✓
@@ -85,18 +85,16 @@ var spreadsheet = `cakm-cpp	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 														
 // space														
 \u0020	 						Zs		space				U+0020: SPACE	
-\u202F	]			ⁿⁿᵇˢᵖ			Zs	?	nnbsp				U+202F NARROW NO-BREAK SPACE	
 // phrase dividers														
 ,	,			,	,		Po		comma				U+002C: COMMA	
 ;	;			;	;	;;⁏⸵	Po		semicolon				U+003B: SEMICOLON	
-:	:			: :̣ :̱ :͈ :͇	:		Po	?	colon				U+003A: COLON	
+:	:			: :̣ :̱ :͈ :͇	:		Po		colon				U+003A: COLON	
 !	!			! !̣ !̱ !͈ !͇	!		Po	?	exclamation mark				U+0021: EXCLAMATION MARK	
 𑅃	?			?̣	?		Po		question mark				U+11143: CHAKMA QUESTION MARK	
-?	?			? ?̣ ?̱ ?͈ ?͇	?		Po	?	question mark				U+003F: QUESTION MARK	
+?	?			? ?̣ ?̱ ?͈ ?͇	?		Po	u	question mark				U+003F: QUESTION MARK	
 // period & ellipsis														
 .	.			. .̣ .̱ .͈ .͇	.		Po	?	full stop				U+002E: FULL STOP	
-…	.			…	…		Po	?	ellipsis				U+2026: HORIZONTAL ELLIPSIS	
-⋯	.			⋯̇ ⋯̄ ⋯̎ ⋯̿	⋯		Sm	?	midline ellipsis				U+22EF: MIDLINE HORIZONTAL ELLIPSIS	
+…	.			…	…		Po		ellipsis				U+2026: HORIZONTAL ELLIPSIS	
 // section dividers														
 𑅁	|			|	,		Po		phrase terminator				U+11141: CHAKMA DANDA	
 𑅂	|			|˙	.		Po		sentence terminator				U+11142: CHAKMA DOUBLE DANDA	
@@ -106,8 +104,8 @@ var spreadsheet = `cakm-cpp	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 »	>			»	”		Pf	?	quotation mark				U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
 ‹	<			‹			Pi	?	quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	
 ›	>			›			Pf	?	quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
-“	<			“	“		Pi	?	quotation mark				U+201C: LEFT DOUBLE QUOTATION MARK	
-”	>			”	”		Pf	?	quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK	
+“	<			“	“		Pi		quotation mark				U+201C: LEFT DOUBLE QUOTATION MARK	
+”	>			”	”		Pf		quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK	
 ‘	<			‘	‘		Pi	?	quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	
 ’	>			’	’		Pf	?	quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
 // brackets														
@@ -120,43 +118,19 @@ var spreadsheet = `cakm-cpp	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ‑	-			‑	‑		Pd	?	non-breaking hyphen				U+2011: NON-BREAKING HYPHEN	
 –	-			–	–		Pd	?	en dash				U+2013: EN DASH	
 —	-			—	—		Pd	?	em dash				U+2014: EM DASH	
-// length marks														
-	:			ː ː̣ ː̱ ː͈ ː͇					length mark					
 // apostrophe														
 '	\'			ʼ	ʼ		Lm	?	apostrophe				U+02BC: MODIFIER LETTER APOSTROPHE	
 // virama, sukun, silencers, etc														
 𑄴	*			˟			Mn​		vowel absence indicator				U+11134: CHAKMA MAAYYAA	
 𑄳	*			͞			Mn​		vowel-killer, virama				U+11133: CHAKMA VIRAMA	
-// secondary viramas														
-	\			ˣ ˣ̣ ˣ̱ ˣ͈ ˣ͇				u						
-// nuktas														
-‍଼	/			ˑ ˑ̣ ˑ̱ ˑ͈ ˑ͇				u	nukta					
-// repetition, gemination														
-	&			& &̣ &̱ &͈ &͇ &̥				u	repetition					
-	&			˖				u	gemination					
-// abbrev.														
-	+			¨				u	abbreviation marker					
-// footnote markers														
-*	*			*	*		Po	u	asterisk				U+002A ASTERISK	
-§	*			§	§		Po	u	section sign				U+00A7: SECTION SIGN	
-†	*			†	†		Po	u	dagger				U+2020: DAGGER	
-‡	*			‡	‡		Po	u	double dagger				U+2021: DOUBLE DAGGER	
 // other														
-′	\'			′	′		Po	u	prime				U+2032: PRIME	
-″	"			″	″		Po	u	double prime				U+2033: DOUBLE PRIME	
-•	•			•			Po	u	bullet				U+2022: BULLET	
+•	•			•			Po	?	bullet				U+2022: BULLET	
 // formatting characters														
-\u200C	=			ᶻʷⁿʲ			Cf		zero-width non-joiner				U+200C: ZERO WIDTH NON-JOINER	
-\u200D	=			ᶻʷʲ			Cf		zero-width joiner				U+200D: ZERO WIDTH JOINER	
-\u034F	=			ᶜᵍʲ			Mn		combining grapheme joiner				U+034F: COMBINING GRAPHEME JOINER	
-\u2060	=			ʷʲ			Cf		word joiner				U+2060 WORD JOINER	
+\u200C	=			ᶻʷⁿʲ			Cf	?	zero-width non-joiner				U+200C: ZERO WIDTH NON-JOINER	
+\u200D	=			ᶻʷʲ			Cf	?	zero-width joiner				U+200D: ZERO WIDTH JOINER	
+\u034F	=			ᶜᵍʲ			Mn	?	combining grapheme joiner				U+034F: COMBINING GRAPHEME JOINER	
+\u2060	=			ʷʲ			Cf	?	word joiner				U+2060 WORD JOINER	
 // number related														
-	#			ᵗ				u	thousands separator					
-	#			ᵈ				u	decimal separator					
-	#			/				u	date separator					
-	#			¤				u	currency symbol					
-	#			¢				u						
-	#			# #̣ #̱ #͈ #͇				u	number symbol					
 %	%			%			Po	u	percentage mark				U+0025: PERCENT SIGN	
 ‰	%			‰			Po	u	per mille mark				U+2030: PER MILLE SIGN	
 // ascii digits														
