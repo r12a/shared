@@ -1,42 +1,42 @@
 var spreadsheet = `tols-kru	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	native name	name transcription	ucs name	block
-\u{11DB6}	p	p		p	p		Lo		consonant				U+11DB6: TOLONG SIKI LETTER PA	
-\u{11DB7}	P	pʰ		pʰ	ph		Lo		consonant				U+11DB7: TOLONG SIKI LETTER PHA	
-\u{11DB8}	b	b		b	b		Lo		consonant				U+11DB8: TOLONG SIKI LETTER BA	
-\u{11DB9}	B	bʰ		bʰ	bh		Lo		consonant				U+11DB9: TOLONG SIKI LETTER BHA	
-\u{11DBB}	t	t		t	t		Lo		consonant				U+11DBB: TOLONG SIKI LETTER TA	
-\u{11DBC}	T	tʰ		tʰ	th		Lo		consonant				U+11DBC: TOLONG SIKI LETTER THA	
-\u{11DBD}	d	d		d	d		Lo		consonant				U+11DBD: TOLONG SIKI LETTER DA	
-\u{11DBE}	D	dʰ		dʰ	dh		Lo		consonant				U+11DBE: TOLONG SIKI LETTER DHA	
-\u{11DC0}	t	ʈ		ʈ	ṭ		Lo		consonant				U+11DC0: TOLONG SIKI LETTER TTA	
-\u{11DC1}	T	ʈʰ		ʈʰ	ṭh		Lo		consonant				U+11DC1: TOLONG SIKI LETTER TTHA	
-\u{11DC2}	d	ɖ		ɖ	ḍ		Lo		consonant				U+11DC2: TOLONG SIKI LETTER DDA	
-\u{11DC3}	D	ɖʰ		ɖʰ	ḍh		Lo		consonant				U+11DC3: TOLONG SIKI LETTER DDHA	
-\u{11DC5}	c	c		c	c		Lo		consonant				U+11DC5: TOLONG SIKI LETTER CA	
-\u{11DC6}	C	cʰ		cʰ	ch		Lo		consonant				U+11DC6: TOLONG SIKI LETTER CHA	
-\u{11DC7}	j	ɟ		ɟ	j		Lo		consonant				U+11DC7: TOLONG SIKI LETTER JA	
-\u{11DC8}	J	ɟʰ		ɟʰ	jh		Lo		consonant				U+11DC8: TOLONG SIKI LETTER JHA	
-\u{11DCA}	k	k		k	k		Lo		consonant				U+11DCA: TOLONG SIKI LETTER KA	
-\u{11DCB}	K	kʰ		kʰ	kh		Lo		consonant				U+11DCB: TOLONG SIKI LETTER KHA	
-\u{11DCC}	g	ɡ		ɡ	g		Lo		consonant				U+11DCC: TOLONG SIKI LETTER GA	
-\u{11DCD}	G	ɡʰ		ɡʰ	gh		Lo		consonant				U+11DCD: TOLONG SIKI LETTER GHA	
+\u{11DB6}	p	p		p	p		Lo		consonant				U+11DB6: TOLONG SIKI LETTER P	
+\u{11DB7}	P	pʰ		pʰ	ph		Lo		consonant				U+11DB7: TOLONG SIKI LETTER PH	
+\u{11DB8}	b	b		b	b		Lo		consonant				U+11DB8: TOLONG SIKI LETTER B	
+\u{11DB9}	B	bʰ		bʰ	bh		Lo		consonant				U+11DB9: TOLONG SIKI LETTER BH	
+\u{11DBB}	t	t		t	t		Lo		consonant				U+11DBB: TOLONG SIKI LETTER T	
+\u{11DBC}	T	tʰ		tʰ	th		Lo		consonant				U+11DBC: TOLONG SIKI LETTER TH	
+\u{11DBD}	d	d		d	d		Lo		consonant				U+11DBD: TOLONG SIKI LETTER D	
+\u{11DBE}	D	dʰ		dʰ	dh		Lo		consonant				U+11DBE: TOLONG SIKI LETTER DH	
+\u{11DC0}	t	ʈ		ʈ	ṭ		Lo		consonant				U+11DC0: TOLONG SIKI LETTER TT	
+\u{11DC1}	T	ʈʰ		ʈʰ	ṭh		Lo		consonant				U+11DC1: TOLONG SIKI LETTER TTH	
+\u{11DC2}	d	ɖ		ɖ	ḍ		Lo		consonant				U+11DC2: TOLONG SIKI LETTER DD	
+\u{11DC3}	D	ɖʰ		ɖʰ	ḍh		Lo		consonant				U+11DC3: TOLONG SIKI LETTER DDH	
+\u{11DC5}	c	c		c	c		Lo		consonant				U+11DC5: TOLONG SIKI LETTER C	
+\u{11DC6}	C	cʰ		cʰ	ch		Lo		consonant				U+11DC6: TOLONG SIKI LETTER CH	
+\u{11DC7}	j	ɟ		ɟ	j		Lo		consonant				U+11DC7: TOLONG SIKI LETTER J	
+\u{11DC8}	J	ɟʰ		ɟʰ	jh		Lo		consonant				U+11DC8: TOLONG SIKI LETTER JH	
+\u{11DCA}	k	k		k	k		Lo		consonant				U+11DCA: TOLONG SIKI LETTER K	
+\u{11DCB}	K	kʰ		kʰ	kh		Lo		consonant				U+11DCB: TOLONG SIKI LETTER KH	
+\u{11DCC}	g	ɡ		ɡ	g		Lo		consonant				U+11DCC: TOLONG SIKI LETTER G	
+\u{11DCD}	G	ɡʰ		ɡʰ	gh		Lo		consonant				U+11DCD: TOLONG SIKI LETTER GH	
 														
-\u{11DD4}	s	s		s	s		Lo		consonant				U+11DD4: TOLONG SIKI LETTER SA	
-\u{11DD6}	x	x		x	x		Lo		consonant				U+11DD6: TOLONG SIKI LETTER XA	
-\u{11DD5}	h	h		h	h		Lo		consonant				U+11DD5: TOLONG SIKI LETTER HA	
+\u{11DD4}	s	s		s	s		Lo		consonant				U+11DD4: TOLONG SIKI LETTER S	
+\u{11DD6}	x	x		x	x		Lo		consonant				U+11DD6: TOLONG SIKI LETTER X	
+\u{11DD5}	h	h		h	h		Lo		consonant				U+11DD5: TOLONG SIKI LETTER H	
 														
-\u{11DBA}	m	m		m	m		Lo		consonant				U+11DBA: TOLONG SIKI LETTER MA	
-\u{11DBF}	n	n		n	n		Lo		consonant				U+11DBF: TOLONG SIKI LETTER NA	
-\u{11DC4}	n	ɳ		ɳ	ṇ		Lo		consonant				U+11DC4: TOLONG SIKI LETTER NNA	
-\u{11DC9}	n	ɲ		ɲ	ñ		Lo		consonant				U+11DC9: TOLONG SIKI LETTER NYA	
-\u{11DD3}	n	ɲ		ɲʲ	n̰		Lo		consonant				U+11DD3: TOLONG SIKI LETTER NNYA	
-\u{11DCE}	n	ŋ		ŋ	ṅ		Lo		consonant				U+11DCE: TOLONG SIKI LETTER NGA	
+\u{11DBA}	m	m		m	m		Lo		consonant				U+11DBA: TOLONG SIKI LETTER M	
+\u{11DBF}	n	n		n	n		Lo		consonant				U+11DBF: TOLONG SIKI LETTER N	
+\u{11DC4}	n	ɳ		ɳ	ṇ		Lo		consonant				U+11DC4: TOLONG SIKI LETTER NN	
+\u{11DC9}	n	ɲ		ɲ	ñ		Lo		consonant				U+11DC9: TOLONG SIKI LETTER NY	
+\u{11DD3}	n	ɲ		ɲʲ	n̰		Lo		consonant				U+11DD3: TOLONG SIKI LETTER NNY	
+\u{11DCE}	n	ŋ		ŋ	ṅ		Lo		consonant				U+11DCE: TOLONG SIKI LETTER NG	
 														
-\u{11DD2}	v	w		v	w		Lo		consonant				U+11DD2: TOLONG SIKI LETTER VA	
-\u{11DD0}	r	r		r	r		Lo		consonant				U+11DD0: TOLONG SIKI LETTER RA	
-\u{11DD7}	r	ɽ		ɽ	ṛ		Lo		consonant				U+11DD7: TOLONG SIKI LETTER RRA	
-\u{11DD8}	r	ɽʰ		ɽʰ	ṛh		Lo		consonant				U+11DD8: TOLONG SIKI LETTER RRHA	
-\u{11DD1}	l	l		l	l		Lo		consonant				U+11DD1: TOLONG SIKI LETTER LA	
-\u{11DCF}	y	j		j	y		Lo		consonant				U+11DCF: TOLONG SIKI LETTER YA	
+\u{11DD2}	v	w		v	w		Lo		consonant				U+11DD2: TOLONG SIKI LETTER V	
+\u{11DD0}	r	r		r	r		Lo		consonant				U+11DD0: TOLONG SIKI LETTER R	
+\u{11DD7}	r	ɽ		ɽ	ṛ		Lo		consonant				U+11DD7: TOLONG SIKI LETTER RR	
+\u{11DD8}	r	ɽʰ		ɽʰ	ṛh		Lo		consonant				U+11DD8: TOLONG SIKI LETTER RRH	
+\u{11DD1}	l	l		l	l		Lo		consonant				U+11DD1: TOLONG SIKI LETTER L	
+\u{11DCF}	y	j		j	y		Lo		consonant				U+11DCF: TOLONG SIKI LETTER Y	
 														
 \u{11DB0}	i	i		i	i		Lo		vowel				U+11DB0: TOLONG SIKI LETTER I	
 \u{11DB2}	u	u		u	u		Lo		vowel				U+11DB2: TOLONG SIKI LETTER U	
@@ -49,14 +49,14 @@ var spreadsheet = `tols-kru	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 														
 \u{11DDA}	}	ʔ		ʔ	ʼ		Lo		glottal stop			hecakā (talā)	U+11DDA: TOLONG SIKI SIGN HECAKA	
 														
-\u{11DCA}\u{324}		q						l	extended repertoire consonant	Equivalent to क़.			U+11DCA U+0324: TOLONG SIKI LETTER KA, U+0324 COMBINING DIAERESIS BELOW	
-\u{11DCC}\u{324}		ɣ						l	extended repertoire consonant	Equivalent to ग़.			U+11DCC U+0324: TOLONG SIKI LETTER GA, U+0324 COMBINING DIAERESIS BELOW	
-\u{11DC5}\u{324}		kʂ						l	extended repertoire consonant	Equivalent to क्ष.			U+11DC5 U+0324: TOLONG SIKI LETTER CA, U+0324 COMBINING DIAERESIS BELOW	
-\u{11DC7}\u{324}		z						l	extended repertoire consonant	Equivalent to ज़.			U+11DC7 U+0324: TOLONG SIKI LETTER JA, U+0324 COMBINING DIAERESIS BELOW	
-\u{11DB7}\u{324}		f						l	extended repertoire consonant	Equivalent to फ़.			U+11DB7 U+0324: TOLONG SIKI LETTER PHA, U+0324 COMBINING DIAERESIS BELOW	
-\u{11DD2}\u{324}		v						l	extended repertoire consonant	Equivalent to व़.			U+11DD2 U+0324: TOLONG SIKI LETTER VA, U+0324 COMBINING DIAERESIS BELOW	
-\u{11DD4}\u{324}		ʃ						l	extended repertoire consonant	Equivalent to श.			U+11DD4 U+0324: TOLONG SIKI LETTER SA, U+0324 COMBINING DIAERESIS BELOW	
-\u{11DD4}\u{308}		ʂ						l	extended repertoire consonant	Equivalent to ष.			U+11DD4 U+0324: TOLONG SIKI LETTER SA, U+0308 COMBINING DIAERESIS	
+\u{11DCA}\u{324}		q						l	extended repertoire consonant	Equivalent to क़.			U+11DCA U+0324: TOLONG SIKI LETTER K, U+0324 COMBINING DIAERESIS BELOW	
+\u{11DCC}\u{324}		ɣ						l	extended repertoire consonant	Equivalent to ग़.			U+11DCC U+0324: TOLONG SIKI LETTER G, U+0324 COMBINING DIAERESIS BELOW	
+\u{11DC5}\u{324}		kʂ						l	extended repertoire consonant	Equivalent to क्ष.			U+11DC5 U+0324: TOLONG SIKI LETTER C, U+0324 COMBINING DIAERESIS BELOW	
+\u{11DC7}\u{324}		z						l	extended repertoire consonant	Equivalent to ज़.			U+11DC7 U+0324: TOLONG SIKI LETTER J, U+0324 COMBINING DIAERESIS BELOW	
+\u{11DB7}\u{324}		f						l	extended repertoire consonant	Equivalent to फ़.			U+11DB7 U+0324: TOLONG SIKI LETTER PH, U+0324 COMBINING DIAERESIS BELOW	
+\u{11DD2}\u{324}		v						l	extended repertoire consonant	Equivalent to व़.			U+11DD2 U+0324: TOLONG SIKI LETTER V, U+0324 COMBINING DIAERESIS BELOW	
+\u{11DD4}\u{324}		ʃ						l	extended repertoire consonant	Equivalent to श.			U+11DD4 U+0324: TOLONG SIKI LETTER S, U+0324 COMBINING DIAERESIS BELOW	
+\u{11DD4}\u{308}		ʂ						l	extended repertoire consonant	Equivalent to ष.			U+11DD4 U+0324: TOLONG SIKI LETTER S, U+0308 COMBINING DIAERESIS	
 														
 														
 														
@@ -83,7 +83,7 @@ var spreadsheet = `tols-kru	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ॥	|			¶			Po	?	section divider				U+0965: DEVANAGARI DOUBLE DANDA	
 // phrase dividers														
 ,	,			,	,		Po		comma			ucari ṭuṛā	U+002C: COMMA	
-;	;			;	;	;;⁏⸵	Po		semicolon			micari ṭuṛā	U+003B: SEMICOLON	
+;	;			;	;		Po		semicolon			micari ṭuṛā	U+003B: SEMICOLON	
 !	!			!	!		Po		exclamation mark				U+0021: EXCLAMATION MARK	
 ?	?			?	?		Po		question mark				U+003F: QUESTION MARK	
 // colons & length marks														
