@@ -1,36 +1,4 @@
 var spreadsheet = `tfng-zgh	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	native name	latin name	ucs name	arabic	block
--	-			-	-			?	hyphen				U+2010: HYPHEN		
-‑	-			‑	‑		Pd	?	non-breaking hyphen				U+2011: NON-BREAKING HYPHEN		
-–	-			–	–		Pd	?	en dash				U+2013: EN DASH		
-—	-			—	—		Pd	?	em dash				U+2014: EM DASH		
-,	,			,	,		Po		comma				U+002C: COMMA		
-;	;			;	;		Po		semicolon				U+003B: SEMICOLON		
-:	:			:	:		Po		colon				U+003A: COLON		
-!	!			!	!		Po		exclamation mark				U+0021: EXCLAMATION MARK		
-?	?			?	?		Po		question mark				U+003F: QUESTION MARK		
-.	.			.	.		Po		full stop				U+002E: FULL STOP		
-…	.			…	…		Po		ellipsis				U+2026: HORIZONTAL ELLIPSIS		
-(	(			(	(		Ps		parenthesis				U+0028: LEFT PARENTHESIS		
-[	(			[	[		Ps	?	bracket				U+005B: LEFT SQUARE BRACKET		
-)	)			)	)		Pe		parenthesis				U+0029: RIGHT PARENTHESIS		
-]	)			]	]		Pe	?	bracket				U+005D: RIGHT SQUARE BRACKET		
-ⵄ	{	ʕ		ʕ	 ɛ		Lo		fricative		ⵢⴰⵄ	yaε	U+2D44: TIFINAGH LETTER YAA	ع	✓
-⵿	*			͓			Mn	u	consonant joiner	touareg			U+2D7F: TIFINAGH CONSONANT JOINER		✓
-%	%			%			Po	?	percentage mark				U+0025: PERCENT SIGN		
-‰	%			‰			Po	?	per mille mark				U+2030: PER MILLE SIGN		
-«	<			«	“		Pi		quotation mark				U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK		
-‹	<			‹			Pi	?	quotation mark				U+2018: LEFT SINGLE QUOTATION MARK		
-„	<			“	“		Ps		quotation mark				U+201E: DOUBLE LOW-9 QUOTATION MARK		
-“	<			"	“		Pi	?	quotation mark				U+201C: LEFT DOUBLE QUOTATION MARK		
-‘	<			\‘	\‘		Pi	?	quotation mark				U+2018: LEFT SINGLE QUOTATION MARK		
-\u200C	=			ₓ			Cf		zwnj				U+200C: ZERO WIDTH NON-JOINER		
-\u200D	=			₊			Cf		zwj				U+200D: ZERO WIDTH JOINER		
-\u034F	=			ᶜᵍʲ			Mn	?	combining grapheme joiner				U+034F: COMBINING GRAPHEME JOINER		
-»	>			»	”		Pf		quotation mark				U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK		
-›	>			›			Pf	?	quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK		
-”	>			”	”		Pf		quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK		
-’	>			\’	\’		Pf	?	quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK		
-⵰	|			¶	•	.	Po	u	phrase separator	west africa	ⵜⴰⵣⴰⵔⴰⵙⵜ	tazarast	U+2D70: TIFINAGH SEPARATOR MARK		✓
 															
 ⵒ	p	p		p	p		Lo	l	consonant		ⵢⴰⵒ	yap	U+2D52: TIFINAGH LETTER YAP	پ	✓
 ⴱ	b	b		b	b		Lo		consonant		ⵢⴰⴱ	yab	U+2D31: TIFINAGH LETTER YAB	ب	✓
@@ -106,12 +74,39 @@ var spreadsheet = `tfng-zgh	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ⵜⵛ		t͡ʃ						i		infrequent, may be ligated in IRCAM extended set			U+2D5C U+2D5B: TIFINAGH LETTER YAT, TIFINAGH LETTER YASH		
 ⴷⵊ		d͡ʒ						i		infrequent, may be ligated in IRCAM extended set			U+2D37 U+2D4A: TIFINAGH LETTER YAD, TIFINAGH LETTER YAZH		
 															
+⵰	|			¶	•	.	Po	u	phrase separator	west africa	ⵜⴰⵣⴰⵔⴰⵙⵜ	tazarast	U+2D70: TIFINAGH SEPARATOR MARK		✓
+-	-			-	-			?	hyphen				U+2010: HYPHEN		
+‑	-			‑	‑		Pd	?	non-breaking hyphen				U+2011: NON-BREAKING HYPHEN		
+–	-			–	–		Pd	?	en dash				U+2013: EN DASH		
+—	-			—	—		Pd	?	em dash				U+2014: EM DASH		
+,	,			,	,		Po		comma				U+002C: COMMA		
+;	;			;	;		Po		semicolon				U+003B: SEMICOLON		
+:	:			:	:		Po		colon				U+003A: COLON		
+!	!			!	!		Po		exclamation mark				U+0021: EXCLAMATION MARK		
+?	?			?	?		Po		question mark				U+003F: QUESTION MARK		
+.	.			.	.		Po		full stop				U+002E: FULL STOP		
+…	.			…	…		Po		ellipsis				U+2026: HORIZONTAL ELLIPSIS		
+(	(			(	(		Ps		parenthesis				U+0028: LEFT PARENTHESIS		
+[	(			[	[		Ps	?	bracket				U+005B: LEFT SQUARE BRACKET		
+)	)			)	)		Pe		parenthesis				U+0029: RIGHT PARENTHESIS		
+]	)			]	]		Pe	?	bracket				U+005D: RIGHT SQUARE BRACKET		
+ⵄ	{	ʕ		ʕ	 ɛ		Lo		fricative		ⵢⴰⵄ	yaε	U+2D44: TIFINAGH LETTER YAA	ع	✓
+⵿	*			͓			Mn	u	consonant joiner	touareg			U+2D7F: TIFINAGH CONSONANT JOINER		✓
+%	%			%			Po	?	percentage mark				U+0025: PERCENT SIGN		
+‰	%			‰			Po	?	per mille mark				U+2030: PER MILLE SIGN		
+«	<			«	“		Pi		quotation mark				U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK		
+‹	<			‹			Pi	?	quotation mark				U+2018: LEFT SINGLE QUOTATION MARK		
+„	<			“	“		Ps		quotation mark				U+201E: DOUBLE LOW-9 QUOTATION MARK		
+“	<			"	“		Pi	?	quotation mark				U+201C: LEFT DOUBLE QUOTATION MARK		
+‘	<			\‘	\‘		Pi	?	quotation mark				U+2018: LEFT SINGLE QUOTATION MARK		
+\u200C	=			ₓ			Cf		zwnj				U+200C: ZERO WIDTH NON-JOINER		
+\u200D	=			₊			Cf		zwj				U+200D: ZERO WIDTH JOINER		
+\u034F	=			ᶜᵍʲ			Mn	?	combining grapheme joiner				U+034F: COMBINING GRAPHEME JOINER		
+»	>			»	”		Pf		quotation mark				U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK		
+›	>			›			Pf	?	quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK		
+”	>			”	”		Pf		quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK		
+’	>			\’	\’		Pf	?	quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK		
 ʼ				ʼ	ʼ		Lm	?	apostrophe				U+02BC: MODIFIER LETTER APOSTROPHE		
-§				§	§		Po	?	section sign				U+00A7: SECTION SIGN		
-†				†	†		Po	?	dagger				U+2020: DAGGER		
-‡				‡	‡		Po	?	double dagger				U+2021: DOUBLE DAGGER		
-′				′	′		Po	?	prime				U+2032: PRIME		
-″				″	″		Po	?	double prime				U+2033: DOUBLE PRIME		
 `															
 															
 latinPanel = 'ɢ æ β dˁ ḍ d͡ʒ ð ðˁ ɛ ə eː ɡ ħ ḥ ɪ ɨ ʝ ɫ ɲ ŋ oː qʷ θ ʁ rˤ sˁ ṣ ʃ š tˁ ṭ t͡ʃ tš ʊ ʷ χ xʷ ɣ ɣʷ zˁ ẓ ʒ ʕ'															

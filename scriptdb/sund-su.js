@@ -109,11 +109,7 @@ var spreadsheet = `sund-su	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ᳇							Po	a	punctuation						U+1CC7: SUNDANESE PUNCTUATION BINDU BA SATANGA	✓
 																
 ʼ				ʼ	ʼ		Lm	?	apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
-§				§	§		Po	?	section sign						U+00A7: SECTION SIGN	
-†				†	†		Po	?	dagger						U+2020: DAGGER	
-‡				‡	‡		Po	?	double dagger						U+2021: DOUBLE DAGGER	
-′				′	′		Po	?	prime						U+2032: PRIME	
-″				″	″		Po	?	double prime						U+2033: DOUBLE PRIME	
+|				|	|		Po		number delimiter						U+007C: VERTICAL LINE	
 `																
 																
 latinPanel = 'd͡ʒ ə é ŋ ɲ t͡ʃ ɤ'																

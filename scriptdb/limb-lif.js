@@ -1,29 +1,4 @@
 var spreadsheet = `limb-lif	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	native name	latin name	deva	ucs name	block
--	-			-	-				hyphen					U+2010: HYPHEN	
-															
-–	-			–	–		Pd	?	en dash					U+2013: EN DASH	
-—	-			—	—		Pd	?	em dash					U+2014: EM DASH	
-᤻	*			˟			Mn​		vowel silencer					U+193B: LIMBU SIGN SA-I	
-᤺	:	ː		ː			Mn​		vowel lengthener					U+193A: LIMBU SIGN KEMPHRENG	
-.	,			,	,		Po		comma			cuktçɔk		U+002E: FULL STOP	
-,	,			,̣	,		Po		comma					U+002C: COMMA	
-;	;			;̣	;		Po		semicolon					U+003B: SEMICOLON	
-:	:			:	:		Po		colon					U+003A: COLON	
-᥄	!			!	!		Po		exclamation mark					U+1944: LIMBU EXCLAMATION MARK	
-᥀	!			!̣	lo		So	o	exclamatory particle		ᤗᤥ			U+1940: LIMBU SIGN LOO	
-᥅	?			?	?		Po		question mark					U+1945: LIMBU QUESTION MARK	
-॥	.			.	.		Po		sentence end					U+0965: DEVANAGARI DOUBLE DANDA	
-…	.			…	…		Po	?	ellipsis					U+2026: HORIZONTAL ELLIPSIS	
-(	(			(	(		Ps		parenthesis					U+0028: LEFT PARENTHESIS	
-[	(			[	[		Ps	?	bracket					U+005B: LEFT SQUARE BRACKET	
-)	)			)	)		Pe		parenthesis					U+0029: RIGHT PARENTHESIS	
-]	)			]	]		Pe	?	bracket					U+005D: RIGHT SQUARE BRACKET	
-%	%			%			Po	?	percentage mark					U+0025: PERCENT SIGN	
-‰	%			‰			Po	?	per mille mark					U+2030: PER MILLE SIGN	
-“	<			“	“		Pi		quotation mark					U+201C: LEFT DOUBLE QUOTATION MARK	
-\‘	<			\‘	\‘				quotation mark					U+2018: LEFT SINGLE QUOTATION MARK	
-”	>			”	”		Pf		quotation mark					U+201D: RIGHT DOUBLE QUOTATION MARK	
-\’	>			\’	\’				quotation mark					U+2019: RIGHT SINGLE QUOTATION MARK	
 															
 ᤐ	p	p	ɔ	p	p		Lo		onset consonant				प	U+1910: LIMBU LETTER PA	
 ᤵ	P	p		p̽	p		Mc​		final consonant					U+1935: LIMBU SMALL LETTER PA	
@@ -38,14 +13,14 @@ var spreadsheet = `limb-lif	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᤍ	d	d	ɔ	d	d		Lo		onset consonant				द ड	U+190D: LIMBU LETTER DA	
 ᤎ	d	dʰ	ɔ	dʰ	dh		Lo		onset consonant					U+190E: LIMBU LETTER DHA	
 ᤈ	j	d͡ʒ	ɔ	ʤ	j		Lo		onset consonant				ज	U+1908: LIMBU LETTER JA	
+ᤁ	k	k	ɔ	k	k		Lo		onset consonant				क	U+1901: LIMBU LETTER KA	
+ᤰ	K	k		k̽	k		Mc​		final consonant					U+1930: LIMBU SMALL LETTER KA	
+ᤂ	K	kʰ	ɔ	kʰ	kh		Lo		onset consonant				ख	U+1902: LIMBU LETTER KHA	
 ᤃ	g	ɡ	ɔ	g	g		Lo		onset consonant				ग	U+1903: LIMBU LETTER GA	
 ᤄ	g	ɡʰ	ɔ	gʰ	gh		Lo		onset consonant					U+1904: LIMBU LETTER GHA	
 ᤛ	s	s	ɔ	s	s		Lo		onset consonant				स	U+191B: LIMBU LETTER SA	
 ᤙ	S	ʃ	ɔ	ʃ	sh		Lo		onset consonant				श ष	U+1919: LIMBU LETTER SHA	
 ᤜ	h	h	ɔ	h	h		Lo		onset consonant				ह	U+191C: LIMBU LETTER HA	
-ᤁ	k	k	ɔ	k	k		Lo		onset consonant				क	U+1901: LIMBU LETTER KA	
-ᤰ	K	k		k̽	k		Mc​		final consonant					U+1930: LIMBU SMALL LETTER KA	
-ᤂ	K	kʰ	ɔ	kʰ	kh		Lo		onset consonant				ख	U+1902: LIMBU LETTER KHA	
 ᤔ	m	m	ɔ	m	m		Lo		onset consonant				म	U+1914: LIMBU LETTER MA	
 ᤶ	M	m		m̽	m		Mc​		final consonant					U+1936: LIMBU SMALL LETTER MA	
 ᤏ	n	n	ɔ	n	n		Lo		onset consonant				न ण	U+190F: LIMBU LETTER NA	
@@ -100,12 +75,31 @@ var spreadsheet = `limb-lif	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᤤ	A	ai		aⁱ	ai		Mc​		diphthong				अ	U+1924: LIMBU VOWEL SIGN AI	
 ᤦ	A	au		aʷ	au		Mc​		dipthong					U+1926: LIMBU VOWEL SIGN AU	
 															
-§				§			Po	?	section sign					U+00A7: SECTION SIGN	
-†				†			Po	?	dagger					U+2020: DAGGER	
-‡				‡			Po	?	double dagger					U+2021: DOUBLE DAGGER	
-′				′			Po	?	prime					U+2032: PRIME	
-″				″			Po	?	double prime					U+2033: DOUBLE PRIME	
+-	-			-	-				hyphen					U+2010: HYPHEN	
 															
+–	-			–	–		Pd	?	en dash					U+2013: EN DASH	
+—	-			—	—		Pd	?	em dash					U+2014: EM DASH	
+᤻	*			˟			Mn​		vowel silencer					U+193B: LIMBU SIGN SA-I	
+᤺	:	ː		ː			Mn​		vowel lengthener					U+193A: LIMBU SIGN KEMPHRENG	
+.	,			,	,		Po		comma			cuktçɔk		U+002E: FULL STOP	
+,	,			,̣	,		Po		comma					U+002C: COMMA	
+;	;			;̣	;		Po		semicolon					U+003B: SEMICOLON	
+:	:			:	:		Po		colon					U+003A: COLON	
+᥄	!			!	!		Po		exclamation mark					U+1944: LIMBU EXCLAMATION MARK	
+᥀	!			!̣	lo		So	o	exclamatory particle		ᤗᤥ			U+1940: LIMBU SIGN LOO	
+᥅	?			?	?		Po		question mark					U+1945: LIMBU QUESTION MARK	
+॥	.			.	.		Po		sentence end					U+0965: DEVANAGARI DOUBLE DANDA	
+…	.			…	…		Po	?	ellipsis					U+2026: HORIZONTAL ELLIPSIS	
+(	(			(	(		Ps		parenthesis					U+0028: LEFT PARENTHESIS	
+[	(			[	[		Ps	?	bracket					U+005B: LEFT SQUARE BRACKET	
+)	)			)	)		Pe		parenthesis					U+0029: RIGHT PARENTHESIS	
+]	)			]	]		Pe	?	bracket					U+005D: RIGHT SQUARE BRACKET	
+%	%			%			Po	?	percentage mark					U+0025: PERCENT SIGN	
+‰	%			‰			Po	?	per mille mark					U+2030: PER MILLE SIGN	
+“	<			“	“		Pi		quotation mark					U+201C: LEFT DOUBLE QUOTATION MARK	
+\‘	<			\‘	\‘				quotation mark					U+2018: LEFT SINGLE QUOTATION MARK	
+”	>			”	”		Pf		quotation mark					U+201D: RIGHT DOUBLE QUOTATION MARK	
+\’	>			\’	\’				quotation mark					U+2019: RIGHT SINGLE QUOTATION MARK	
 ᥇	±	1		1̣	1		Nd		digit				१	U+1947: LIMBU DIGIT ONE	
 ᥈	±	2		2̣	2		Nd		digit				२	U+1948: LIMBU DIGIT TWO	
 ᥉	±	3		3̣	3		Nd		digit				३	U+1949: LIMBU DIGIT THREE	

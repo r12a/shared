@@ -47,8 +47,8 @@ var spreadsheet = `mong-mn	key	khalkha ipa	ipa+	ipa++	translit	Joint Sino-Mongol
 “	<				“	“		Pi	?	quotation mark				U+201C: LEFT DOUBLE QUOTATION MARK			
 ‘	<				\‘	\‘		Pi	?	quotation mark				U+2018: LEFT SINGLE QUOTATION MARK			
 〔	<				[			Ps		bracket				U+3014: LEFT TORTOISE SHELL BRACKET			
-\u200C	=				ᶻʷⁿʲ			Cf		zwnj				U+200C: ZERO WIDTH NON-JOINER			
-\u200D	=				ᶻʷʲ			Cf		zwj				U+200D: ZERO WIDTH JOINER			
+\u200C	=				ᶻʷⁿʲ			Cf	?	zwnj				U+200C: ZERO WIDTH NON-JOINER			
+\u200D	=				ᶻʷʲ			Cf	?	zwj				U+200D: ZERO WIDTH JOINER			
 \u2067	=				ʳˡⁱ			Cf	u	rtl isolate				U+2067: RIGHT-TO-LEFT ISOLATE			
 \u2066	=				ˡʳⁱ			Cf	u	ltr isolate				U+2066: LEFT-TO-RIGHT ISOLATE			
 \u2068	=				ᶠˢⁱ			Cf	u	first-strong isolate				U+2068: FIRST STRONG ISOLATE			
@@ -116,11 +116,6 @@ var spreadsheet = `mong-mn	key	khalkha ipa	ipa+	ipa++	translit	Joint Sino-Mongol
 ᢩ		–						Mn​	i					U+18A9: MONGOLIAN LETTER ALI GALI DAGALGA			
 																	
 ʼ					ʼ	ʼ		Lm	?	apostrophe				U+02BC: MODIFIER LETTER APOSTROPHE			
-§					§	§		Po	?	section sign				U+00A7: SECTION SIGN			
-†					†	†		Po	?	dagger				U+2020: DAGGER			
-‡					‡	‡		Po	?	double dagger				U+2021: DOUBLE DAGGER			
-′					′	′		Po	?	prime				U+2032: PRIME			
-″					″	″		Po	?	double prime				U+2033: DOUBLE PRIME			
 `																	
 																	
 latinPanel = 'ĉ d͡ʒ d͡z ə ɡ ḳ ɮ ŋ ń ∅ ɔ pʰ ʃ š tʰ t͡ʃʰ t͡sʰ ʊ ɣ ž ẑ'																	

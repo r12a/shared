@@ -77,11 +77,6 @@ var spreadsheet = `olck-sat	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᱟ	a	a		a	ā	e	Lo		vowel			laa	U+1C5F: OL CHIKI LETTER LAA	✓
 														
 ʼ				ʼ			Lm	?	apostrophe				U+02BC: MODIFIER LETTER APOSTROPHE	
-§				§			Po	?	section sign				U+00A7: SECTION SIGN	
-†				†			Po	?	dagger				U+2020: DAGGER	
-‡				‡			Po	?	double dagger				U+2021: DOUBLE DAGGER	
-′				′			Po	?	prime				U+2032: PRIME	
-″				″			Po	?	double prime				U+2033: DOUBLE PRIME	
 `														
 														
 latinPanel = 'ː ã ā ă c̚ c’ ɖ ḍ ẽ ə ə̃ ɛ ɛ̃ ĕ ɡ ẖ ʰ ĩ ɟ k̚ k’ ṃ m̐ ɲ ñ ɳ ṇ ŋ ṅ õ ɔ ɔ̃ ŏ p̚ p’ ɽ ṛ t̚ t’ ʈ ṭ ũ w̃ ʔ'														

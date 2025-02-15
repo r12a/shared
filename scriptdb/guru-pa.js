@@ -1,4 +1,80 @@
 var spreadsheet = `guru-pa	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	dvowel	ivowel	native name	latin name	ucs name	block
+																
+ਪ	p	p	ə	p	p	h	Lo		consonant					pəpːɑ	U+0A2A: GURMUKHI LETTER PA	✓
+ਭ	B	p- b	ə̀	bʰ	bh	Y	Lo		consonant					pə̀bːɑ	U+0A2D: GURMUKHI LETTER BHA	✓
+ਫ	P	pʰ	ə	pʰ	ph	H	Lo		consonant					pʰəpʰːɑ	U+0A2B: GURMUKHI LETTER PHA	✓
+ਬ	b	b	ə	b	b	y	Lo		consonant					bəbːɑ	U+0A2C: GURMUKHI LETTER BA	✓
+ਤ	t	t	ə	t	t	l	Lo		consonant					t̪ət̪ːɑ	U+0A24: GURMUKHI LETTER TA	✓
+ਧ	d	t- d	ə̀	dʰ	dh	O	Lo		consonant					t̪ə̀d̪ːɑ	U+0A27: GURMUKHI LETTER DHA	✓
+ਥ	t	tʰ	ə	tʰ	th	L	Lo		consonant					t̪ʰət̪ʰːɑ	U+0A25: GURMUKHI LETTER THA	✓
+ਚ	T	t͡ʃ	ə	ʧ	c	;	Lo		consonant					ʧəʧːɑ	U+0A1A: GURMUKHI LETTER CA	✓
+ਛ	T	t͡ʃʰ	ə	ʧʰ	ch	:	Lo		consonant					ʧʰəʧʰːɑ	U+0A1B: GURMUKHI LETTER CHA	✓
+ਝ	D	t͡ʃ- d͡ʒ	ə̀	ʤʰ	jh	P	Lo		consonant					ʧə̀ʤːɑ	U+0A1D: GURMUKHI LETTER JHA	✓
+ਦ	d	d	ə	d	d	o	Lo		consonant					d̪əd̪ːɑ	U+0A26: GURMUKHI LETTER DA	✓
+ਜ	D	d͡ʒ	ə	ʤ	j	p	Lo		consonant					ʤəʤːɑ	U+0A1C: GURMUKHI LETTER JA	✓
+ਟ	t	ʈ	ə	ʈ	ṭ		Lo		consonant					ʈɑtt:a	U+0A1F: GURMUKHI LETTER TTA	✓
+ਢ	d	ʈ- ɖ	ə̀	ɖʰ	ḍh	{	Lo		consonant					ʈə̀ɖːɑ	U+0A22: GURMUKHI LETTER DDHA	✓
+ਠ	t	ʈʰ	ə	ʈʰ	ṭh	"	Lo		consonant					ʈʰəʈʰːɑ	U+0A20: GURMUKHI LETTER TTHA	✓
+ਡ	d	ɖ	ə	ɖ	ḍ	[	Lo		consonant					ɖəɖːɑ	U+0A21: GURMUKHI LETTER DDA	✓
+ਕ	k	k	ə	k	k	k	Lo		consonant					kəkːɑ	U+0A15: GURMUKHI LETTER KA	✓
+ਘ	g	k- ɡ	ə̀	gʰ	gh	I	Lo		consonant					kə̀gːɑ	U+0A18: GURMUKHI LETTER GHA	✓
+ਖ	K	kʰ	ə	kʰ	kh	K	Lo		consonant					kʰəkʰːɑ	U+0A16: GURMUKHI LETTER KHA	✓
+ਗ	g	ɡ	ə	g	g	i	Lo		consonant					gəgːɑ	U+0A17: GURMUKHI LETTER GA	✓
+ਫ਼	f	f	ə	pʰˑ	f	&	s		consonant with nukta					pʰəpʰːɑ pɛɾ bɪnd̪i	U+0A2B U+0A3C: GURMUKHI LETTER PHA, GURMUKHI SIGN NUKTA	
+\u0A5E	f	f	ə	f	f		Lo	x	consonant					pʰəpʰːɑ pɛɾ bɪnd̪i	U+0A5E: GURMUKHI LETTER FA	
+ਵ	v	ʋ	ə	v	v	b	Lo		consonant					ʋɑʋːɑ	U+0A35: GURMUKHI LETTER VA	✓
+ਸ	s	s	ə	s	s	m	Lo		consonant					səsːɑ	U+0A38: GURMUKHI LETTER SA	✓
+ਜ਼	z	z	ə	ʤˑ	z	^	s		consonant with nukta					ʤəʤːɑ pɛɾ bɪnd̪i	U+0A1C U+0A3C: GURMUKHI LETTER JA, GURMUKHI SIGN NUKTA	
+\u0A5B	z	z	ə	z	z		Lo	x	consonant					ʤəʤːɑ pɛɾ bɪnd̪i	U+0A5B: GURMUKHI LETTER ZA	
+ਸ਼	S	ʃ	ə	sˑ	ś	M	s		consonant with nukta						U+0A38 U+0A3C: GURMUKHI LETTER SA, GURMUKHI SIGN NUKTA	
+\u0A36	S	ʃ	ə	ʃ	ś		Lo	x	consonant					səsːɑ pɛɾ bɪnd̪i	U+0A36: GURMUKHI LETTER SHA	
+ਖ਼	x	x	ə	kʰˑ	x	$	s		consonant with nukta					kʰəkʰːɑ pɛɾ bɪnd̪i	U+0A16 U+0A3C: GURMUKHI LETTER KHA, GURMUKHI SIGN NUKTA	
+\u0A59	x	x	ə	x	x		Lo	x	consonant					kʰəkʰːɑ pɛɾ bɪnd̪i	U+0A59: GURMUKHI LETTER KHHA	
+ਗ਼	y	ɣ	ə	gˑ	ġ	%	s		consonant with nukta					gəgːɑ pɛɾ bɪnd̪i	U+0A17 U+0A3C: GURMUKHI LETTER GA, GURMUKHI SIGN NUKTA	
+\u0A5A	y	ɣ	ə	ɣ	ġ		Lo	x	consonant					gəgːɑ pɛɾ bɪnd̪i	U+0A5A: GURMUKHI LETTER GHHA	
+ਹ	h	ɦ	ə	h	h	u	Lo		consonant					ɦɑɦɑ	U+0A39: GURMUKHI LETTER HA	✓
+ਃ	h			h̽	ḥ	_	Mc		visarga					visarg	U+0A03: GURMUKHI SIGN VISARGA	✓
+ਮ	m	m	ə	m	m	c	Lo		consonant					məmːɑ	U+0A2E: GURMUKHI LETTER MA	✓
+ਨ	n	n	ə	n	n	v	Lo		consonant					nənːɑ	U+0A28: GURMUKHI LETTER NA	✓
+ਣ	n	ɳ	ə	ɳ	ṇ	C	Lo		consonant					ɳɑɳɑ	U+0A23: GURMUKHI LETTER NNA	✓
+ਞ	n	ɲ	ə	ɲ	ñ	}	Lo	r	consonant					ɲəɲːɑ̃	U+0A1E: GURMUKHI LETTER NYA	✓
+ਙ	n	ŋ	ə	ŋ	ṅ	U	Lo	r	consonant					ŋɑŋːɑ̃	U+0A19: GURMUKHI LETTER NGA	✓
+ਰ	r	r	ə	r	r	j	Lo		consonant					ɾɑɾɑ	U+0A30: GURMUKHI LETTER RA	✓
+ੜ	r	ɽ	ə	ɽ	ṛ	J	Lo		consonant					ɽɑɽɑ	U+0A5C: GURMUKHI LETTER RRA	✓
+ਲ	l	l	ə	l	l	n	Lo		consonant					ləlːɑ	U+0A32: GURMUKHI LETTER LA	✓
+\u0A33	l	ɭ	ə	ɭ	ḷ		Lo	x	consonant					ləlːɑ pɛɾ bɪnd̪i	U+0A33: GURMUKHI LETTER LLA	
+ਲ਼	l	ɭ	ə	lˑ	ḷ	n	s		consonant with nukta					ləlːɑ pɛɾ bɪnd̪i	U+0A32 U+0A3C: GURMUKHI LETTER LA, SIGN NUKTA	
+ਯ	y	j	ə	y	y	/	Lo		consonant					jəjːɑ	U+0A2F: GURMUKHI LETTER YA	✓
+ੵ	y			y̆		|	Mn		medial y					yakash	U+0A75: GURMUKHI SIGN YAKASH	✓
+																
+																
+ੀ	i	iː		ī	ī	r	Mc		vowel sign			ਈ		bihārī	U+0A40: GURMUKHI VOWEL SIGN II	✓
+ਈ	I	iː		ị	ī	R	Lo		independent vowel		ੀ			bihārī	U+0A08: GURMUKHI LETTER II	✓
+ਿ	i	ɪ		ɪ	i	f	Mc		vowel sign			ਇ		sihārī	U+0A3F: GURMUKHI VOWEL SIGN I	✓
+ਇ	I	ɪ		ɪ̣	i	F	Lo		independent vowel		ਿ			sihārī	U+0A07: GURMUKHI LETTER I	✓
+ੁ	u	ʊ		ʊ	u	g	Mn		vowel sign			ਉ		onkaṛ	U+0A41: GURMUKHI VOWEL SIGN U	✓
+ਉ	U	ʊ		ʊ̣	u	G	Lo		independent vowel		ੁ			onkaṛ	U+0A09: GURMUKHI LETTER U	✓
+ੂ	u	uː		ū	ū	t	Mn		vowel sign			ਊ		dulankaṛ	U+0A42: GURMUKHI VOWEL SIGN UU	✓
+ਊ	U	uː		ụ	ū	T	Lo		independent vowel		ੂ			dulankaṛ	U+0A0A: GURMUKHI LETTER UU	✓
+ੇ	e	eː		e	ē	s	Mn		vowel sign			ਏ		lāvā̃	U+0A47: GURMUKHI VOWEL SIGN EE	✓
+ਏ	E	eː		ẹ	ē	S	Lo		independent vowel		ੇ			lāvā̃	U+0A0F: GURMUKHI LETTER EE	✓
+ੋ	o	oː		o	o	a	Mn		vowel sign			ਓ		hōṛā	U+0A4B: GURMUKHI VOWEL SIGN OO	✓
+ਓ	O	oː		ọ	o	A	Lo		independent vowel		ੋ			hōṛā	U+0A13: GURMUKHI LETTER OO	✓
+ਅ	A	ə		+	a	D	Lo		vowel support & independent vowel					æɽɑ	U+0A05: GURMUKHI LETTER A	✓
+ੈ	e	ɛː		ɛ	ai	w	Mn		vowel sign			ਐ		dulāvā̃	U+0A48: GURMUKHI VOWEL SIGN AI	✓
+ਐ	E	ɛː		ɛ̣	ai	W	Lo		independent vowel		ੈ			dulāvā̃	U+0A10: GURMUKHI LETTER AI	✓
+ੌ	o	ɔː		ɔ	au	q	Mn		vowel sign			ਔ		kanōṛā	U+0A4C: GURMUKHI VOWEL SIGN AU	✓
+ਔ	O	ɔː		ɔ̣	au	Q	Lo		independent vowel		ੌ			kanōṛā	U+0A14: GURMUKHI LETTER AU	✓
+ਾ	a	ɑː äː		ā	ā	e	Mc		vowel sign			ਆ		kannā	U+0A3E: GURMUKHI VOWEL SIGN AA	✓
+ਆ	A	ɑː äː		ạ̄	ā	E	Lo		independent vowel		ਾ			kannā	U+0A06: GURMUKHI LETTER AA	✓
+																
+ੰ	N			ŋ̽	ṃ	X	Mn		vowel nasalisation					tippi	U+0A70: GURMUKHI TIPPI	✓
+ੴ				–		V	Lo		symbol					ek onkar	U+0A74: GURMUKHI EK ONKAR	✓
+☬							So		symbol					adi shakti	U+262C: ADI SHAKTI	
+																
+੍ਰ				–		#									U+0A4D U+0A30: GURMUKHI SIGN VIRAMA, LETTER RA	
+ੜ੍ਹ				–		Z									U+0A5C U+0A4D U+0A39: GURMUKHI LETTER RRA, SIGN VIRAMA, LETTER HA	
+																
 -	-			-	-		Pd		hyphen						U+2010: HYPHEN	
 ‑	-			‑	‑		Pd	?	non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
 –	-			–	–		Pd	?	en dash						U+2013: EN DASH	
@@ -48,87 +124,7 @@ var spreadsheet = `guru-pa	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ’	>			\’	\’		Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
 ।	|			|	.	>	Po	i	section divider						U+0964: DEVANAGARI DANDA	
 ॥	|			¶	|	<	Po	?	section divider						U+0965: DEVANAGARI DOUBLE DANDA	
-																
-ਾ	a	ɑː äː		ā	ā	e	Mc		vowel sign			ਆ		kannā	U+0A3E: GURMUKHI VOWEL SIGN AA	✓
-ਆ	A	ɑː äː		ạ̄	ā	E	Lo		independent vowel		ਾ			kannā	U+0A06: GURMUKHI LETTER AA	✓
-ਅ	A	ə		+	a	D	Lo		vowel support & independent vowel					æɽɑ	U+0A05: GURMUKHI LETTER A	✓
-ਬ	b	b	ə	b	b	y	Lo		consonant					bəbːɑ	U+0A2C: GURMUKHI LETTER BA	✓
-ਭ	B	p- b	ə̀	bʰ	bh	Y	Lo		consonant					pə̀bːɑ	U+0A2D: GURMUKHI LETTER BHA	✓
-ਦ	d	d	ə	d	d	o	Lo		consonant					d̪əd̪ːɑ	U+0A26: GURMUKHI LETTER DA	✓
-ਡ	d	ɖ	ə	ɖ	ḍ	[	Lo		consonant					ɖəɖːɑ	U+0A21: GURMUKHI LETTER DDA	✓
-ਢ	d	ʈ- ɖ	ə̀	ɖʰ	ḍh	{	Lo		consonant					ʈə̀ɖːɑ	U+0A22: GURMUKHI LETTER DDHA	✓
-ਧ	d	t- d	ə̀	dʰ	dh	O	Lo		consonant					t̪ə̀d̪ːɑ	U+0A27: GURMUKHI LETTER DHA	✓
-ਜ	D	d͡ʒ	ə	ʤ	j	p	Lo		consonant					ʤəʤːɑ	U+0A1C: GURMUKHI LETTER JA	✓
-ਝ	D	t͡ʃ- d͡ʒ	ə̀	ʤʰ	jh	P	Lo		consonant					ʧə̀ʤːɑ	U+0A1D: GURMUKHI LETTER JHA	✓
-ੇ	e	eː		e	ē	s	Mn		vowel sign			ਏ		lāvā̃	U+0A47: GURMUKHI VOWEL SIGN EE	✓
-ੈ	e	ɛː		ɛ	ai	w	Mn		vowel sign			ਐ		dulāvā̃	U+0A48: GURMUKHI VOWEL SIGN AI	✓
-ਏ	E	eː		ẹ	ē	S	Lo		independent vowel		ੇ			lāvā̃	U+0A0F: GURMUKHI LETTER EE	✓
-ਐ	E	ɛː		ɛ̣	ai	W	Lo		independent vowel		ੈ			dulāvā̃	U+0A10: GURMUKHI LETTER AI	✓
-ਫ਼	f	f	ə	pʰˑ	f	&	s		consonant with nukta					pʰəpʰːɑ pɛɾ bɪnd̪i	U+0A2B U+0A3C: GURMUKHI LETTER PHA, GURMUKHI SIGN NUKTA	
-\u0A5E	f	f	ə	f	f		Lo	x	consonant					pʰəpʰːɑ pɛɾ bɪnd̪i	U+0A5E: GURMUKHI LETTER FA	
-ਗ	g	ɡ	ə	g	g	i	Lo		consonant					gəgːɑ	U+0A17: GURMUKHI LETTER GA	✓
-ਘ	g	k- ɡ	ə̀	gʰ	gh	I	Lo		consonant					kə̀gːɑ	U+0A18: GURMUKHI LETTER GHA	✓
-ਹ	h	ɦ	ə	h	h	u	Lo		consonant					ɦɑɦɑ	U+0A39: GURMUKHI LETTER HA	✓
-ਃ	h			h̽	ḥ	_	Mc		visarga					visarg	U+0A03: GURMUKHI SIGN VISARGA	✓
-ੀ	i	iː		ī	ī	r	Mc		vowel sign			ਈ		bihārī	U+0A40: GURMUKHI VOWEL SIGN II	✓
-ਿ	i	ɪ		ɪ	i	f	Mc		vowel sign			ਇ		sihārī	U+0A3F: GURMUKHI VOWEL SIGN I	✓
-ਈ	I	iː		ị	ī	R	Lo		independent vowel		ੀ			bihārī	U+0A08: GURMUKHI LETTER II	✓
-ਇ	I	ɪ		ɪ̣	i	F	Lo		independent vowel		ਿ			sihārī	U+0A07: GURMUKHI LETTER I	✓
-ਕ	k	k	ə	k	k	k	Lo		consonant					kəkːɑ	U+0A15: GURMUKHI LETTER KA	✓
-ਖ	K	kʰ	ə	kʰ	kh	K	Lo		consonant					kʰəkʰːɑ	U+0A16: GURMUKHI LETTER KHA	✓
-ਲ	l	l	ə	l	l	n	Lo		consonant					ləlːɑ	U+0A32: GURMUKHI LETTER LA	✓
-\u0A33	l	ɭ	ə	ɭ	ḷ		Lo	x	consonant					ləlːɑ pɛɾ bɪnd̪i	U+0A33: GURMUKHI LETTER LLA	
-ਲ਼	l	ɭ	ə	lˑ	ḷ	n	s		consonant with nukta					ləlːɑ pɛɾ bɪnd̪i	U+0A32 U+0A3C: GURMUKHI LETTER LA, SIGN NUKTA	
-ਮ	m	m	ə	m	m	c	Lo		consonant					məmːɑ	U+0A2E: GURMUKHI LETTER MA	✓
-ਨ	n	n	ə	n	n	v	Lo		consonant					nənːɑ	U+0A28: GURMUKHI LETTER NA	✓
-ਣ	n	ɳ	ə	ɳ	ṇ	C	Lo		consonant					ɳɑɳɑ	U+0A23: GURMUKHI LETTER NNA	✓
-ਞ	n	ɲ	ə	ɲ	ñ	}	Lo	r	consonant					ɲəɲːɑ̃	U+0A1E: GURMUKHI LETTER NYA	✓
-ਙ	n	ŋ	ə	ŋ	ṅ	U	Lo	r	consonant					ŋɑŋːɑ̃	U+0A19: GURMUKHI LETTER NGA	✓
-ੰ	N			ŋ̽	ṃ	X	Mn		vowel nasalisation					tippi	U+0A70: GURMUKHI TIPPI	✓
-ੋ	o	oː		o	o	a	Mn		vowel sign			ਓ		hōṛā	U+0A4B: GURMUKHI VOWEL SIGN OO	✓
-ੌ	o	ɔː		ɔ	au	q	Mn		vowel sign			ਔ		kanōṛā	U+0A4C: GURMUKHI VOWEL SIGN AU	✓
-ਓ	O	oː		ọ	o	A	Lo		independent vowel		ੋ			hōṛā	U+0A13: GURMUKHI LETTER OO	✓
-ਔ	O	ɔː		ɔ̣	au	Q	Lo		independent vowel		ੌ			kanōṛā	U+0A14: GURMUKHI LETTER AU	✓
-ਪ	p	p	ə	p	p	h	Lo		consonant					pəpːɑ	U+0A2A: GURMUKHI LETTER PA	✓
-ਫ	P	pʰ	ə	pʰ	ph	H	Lo		consonant					pʰəpʰːɑ	U+0A2B: GURMUKHI LETTER PHA	✓
-ਰ	r	r	ə	r	r	j	Lo		consonant					ɾɑɾɑ	U+0A30: GURMUKHI LETTER RA	✓
-ੜ	r	ɽ	ə	ɽ	ṛ	J	Lo		consonant					ɽɑɽɑ	U+0A5C: GURMUKHI LETTER RRA	✓
-ਸ	s	s	ə	s	s	m	Lo		consonant					səsːɑ	U+0A38: GURMUKHI LETTER SA	✓
-ਸ਼	S	ʃ	ə	sˑ	ś	M	s		consonant with nukta						U+0A38 U+0A3C: GURMUKHI LETTER SA, GURMUKHI SIGN NUKTA	
-\u0A36	S	ʃ	ə	ʃ	ś		Lo	x	consonant					səsːɑ pɛɾ bɪnd̪i	U+0A36: GURMUKHI LETTER SHA	
-ਤ	t	t	ə	t	t	l	Lo		consonant					t̪ət̪ːɑ	U+0A24: GURMUKHI LETTER TA	✓
-ਟ	t	ʈ	ə	ʈ	ṭ		Lo		consonant					ʈɑtt:a	U+0A1F: GURMUKHI LETTER TTA	✓
-ਥ	t	tʰ	ə	tʰ	th	L	Lo		consonant					t̪ʰət̪ʰːɑ	U+0A25: GURMUKHI LETTER THA	✓
-ਠ	t	ʈʰ	ə	ʈʰ	ṭh	"	Lo		consonant					ʈʰəʈʰːɑ	U+0A20: GURMUKHI LETTER TTHA	✓
-ਚ	T	t͡ʃ	ə	ʧ	c	;	Lo		consonant					ʧəʧːɑ	U+0A1A: GURMUKHI LETTER CA	✓
-ਛ	T	t͡ʃʰ	ə	ʧʰ	ch	:	Lo		consonant					ʧʰəʧʰːɑ	U+0A1B: GURMUKHI LETTER CHA	✓
-ੁ	u	ʊ		ʊ	u	g	Mn		vowel sign			ਉ		onkaṛ	U+0A41: GURMUKHI VOWEL SIGN U	✓
-ੂ	u	uː		ū	ū	t	Mn		vowel sign			ਊ		dulankaṛ	U+0A42: GURMUKHI VOWEL SIGN UU	✓
-ਉ	U	ʊ		ʊ̣	u	G	Lo		independent vowel		ੁ			onkaṛ	U+0A09: GURMUKHI LETTER U	✓
-ਊ	U	uː		ụ	ū	T	Lo		independent vowel		ੂ			dulankaṛ	U+0A0A: GURMUKHI LETTER UU	✓
-ਵ	v	ʋ	ə	v	v	b	Lo		consonant					ʋɑʋːɑ	U+0A35: GURMUKHI LETTER VA	✓
-ਖ਼	x	x	ə	kʰˑ	x	$	s		consonant with nukta					kʰəkʰːɑ pɛɾ bɪnd̪i	U+0A16 U+0A3C: GURMUKHI LETTER KHA, GURMUKHI SIGN NUKTA	
-\u0A59	x	x	ə	x	x		Lo	x	consonant					kʰəkʰːɑ pɛɾ bɪnd̪i	U+0A59: GURMUKHI LETTER KHHA	
-ਗ਼	y	ɣ	ə	gˑ	ġ	%	s		consonant with nukta					gəgːɑ pɛɾ bɪnd̪i	U+0A17 U+0A3C: GURMUKHI LETTER GA, GURMUKHI SIGN NUKTA	
-ਯ	y	j	ə	y	y	/	Lo		consonant					jəjːɑ	U+0A2F: GURMUKHI LETTER YA	✓
-\u0A5A	y	ɣ	ə	ɣ	ġ		Lo	x	consonant					gəgːɑ pɛɾ bɪnd̪i	U+0A5A: GURMUKHI LETTER GHHA	
-ੵ	y			y̆		|	Mn		medial y					yakash	U+0A75: GURMUKHI SIGN YAKASH	✓
-ਜ਼	z	z	ə	ʤˑ	z	^	s		consonant with nukta					ʤəʤːɑ pɛɾ bɪnd̪i	U+0A1C U+0A3C: GURMUKHI LETTER JA, GURMUKHI SIGN NUKTA	
-\u0A5B	z	z	ə	z	z		Lo	x	consonant					ʤəʤːɑ pɛɾ bɪnd̪i	U+0A5B: GURMUKHI LETTER ZA	
-																
-																
-ੴ				–		V	Lo		symbol					ek onkar	U+0A74: GURMUKHI EK ONKAR	✓
-☬							So		symbol					adi shakti	U+262C: ADI SHAKTI	
-																
-੍ਰ				–		#									U+0A4D U+0A30: GURMUKHI SIGN VIRAMA, LETTER RA	
-ੜ੍ਹ				–		Z									U+0A5C U+0A4D U+0A39: GURMUKHI LETTER RRA, SIGN VIRAMA, LETTER HA	
-																
-ʼ				ʼ	ʼ		Lm	?	apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
-§				§	§		Po	?	section sign						U+00A7: SECTION SIGN	
-†				†	†		Po	?	dagger						U+2020: DAGGER	
-‡				‡	‡		Po	?	double dagger						U+2021: DOUBLE DAGGER	
-′				′	′		Po	?	prime						U+2032: PRIME	
-″				″	″		Po	?	double prime						U+2033: DOUBLE PRIME	
+ʼ				ʼ	ʼ		Lm		apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
 ◌									consonant						C	
 `																
 																

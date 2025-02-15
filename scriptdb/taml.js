@@ -1,4 +1,65 @@
 var spreadsheet = `taml-ta	key	ipa	ipa+	ipaOther	translit	ISO	kbd	class	status	type	usage	vs	iv	native name	name	ucs name	block
+																	
+ப	p	p b	a	pː 	p	p	j	Lo		vallinam consonant						U+0BAA: TAMIL LETTER PA	✓
+த	t¶	t̪ ð d̪	a	t̪ː	t	t	l	Lo		vallinam consonant						U+0BA4: TAMIL LETTER TA	✓
+ச	c	t͡ʃ s~ʒ d͡ʒ	a	tːʃ	ʧ	c	[	Lo		vallinam consonant						U+0B9A: TAMIL LETTER CA	✓
+ட	t	ɽ ɖ	a	ʈː	ʈ	ṭ	o	Lo		vallinam consonant						U+0B9F: TAMIL LETTER TTA	✓
+ஜ	d	d͡ʒ z	a		ʤ	d	E	Lo	i	grantha consonant						U+0B9C: TAMIL LETTER JA	✓
+க	k	k ɡ	a	kː	k	k	h	Lo		vallinam consonant						U+0B95: TAMIL LETTER KA	✓
+ஃஸ	k	ks			ˑs	ḵs				extended consonant						U+0B83 U+0BB8: TAMIL SIGN VISARGA, LETTER SA	
+க்ஷ	K	kʂ			k͓ʂ	kṣ	T			ligature						U+0B95 U+0BCD U+0BB7: TAMIL LETTER KA, SIGN VIRAMA, LETTER SSA	
+ஃப	f	f			ˑp	kp				extended consonant						U+0B83 U+0BAA: TAMIL SIGN VISARGA, LETTER PA	
+ஸ	s¶	s	a		s	s	Q	Lo	i	grantha consonant						U+0BB8: TAMIL LETTER SA	✓
+ஃஜ	z	z			ˑʤ	kj				extended consonant						U+0B83 U+0B9C: TAMIL SIGN VISARGA, LETTER JA	
+ஶ	s	ʃ	a	ɕ	ʃ	ś	U	Lo	i	grantha consonant						U+0BB6: TAMIL LETTER SHA	✓
+ஶ்ரீ	S	ʃ͓ɾī			ʃ͓ɾī					ligature						U+0BB6 U+0BCD U+0BB0 U+0BC0: TAMIL LETTER SHA, SIGN VIRAMA, LETTER RA, VOWEL SIGN II	
+ஸ்ரீ	S	ʃ͓ɾī			s͓ɾī		Y		d	ligature	not recommended by Unicode, but common					U+0BB8 U+0BCD U+0BB0 U+0BC0: TAMIL LETTER SA, SIGN VIRAMA, LETTER RA, VOWEL SIGN II	
+ஷ	s	ʂ	a		ʂ	ṣ	W	Lo	i	grantha consonant						U+0BB7: TAMIL LETTER SSA	✓
+ஃக	x	x			ˑk	ḵk				extended consonant						U+0B83 U+0B95: TAMIL SIGN VISARGA, LETTER KA	
+ஹ	h	h	a		h	h	R	Lo	i	grantha consonant						U+0BB9: TAMIL LETTER HA	✓
+ம	m	m	a		m	m	k	Lo		mellinam consonant						U+0BAE: TAMIL LETTER MA	✓
+ன	n¶	n	a		n	ṉ	i	Lo		mellinam consonant						U+0BA9: TAMIL LETTER NNNA	✓
+ந	n	n̪	a		ṅ	n	;	Lo		mellinam consonant						U+0BA8: TAMIL LETTER NA	✓
+ஞ	n	ɲ	a		ɲ	ñ	]	Lo		mellinam consonant						U+0B9E: TAMIL LETTER NYA	✓
+ண	n	ɳ	a		ɳ	ṇ	p	Lo		mellinam consonant						U+0BA3: TAMIL LETTER NNA	✓
+ங	n	ŋ	a		ŋ	ṅ	b	Lo		mellinam consonant						U+0B99: TAMIL LETTER NGA	✓
+வ	v	ʋ	a		ʋ	v	v	Lo		idaiyinam consonant						U+0BB5: TAMIL LETTER VA	✓
+ர	r	ɾ	a		ɾ	r	m	Lo		idaiyinam consonant						U+0BB0: TAMIL LETTER RA	✓
+ற	r¶	r (d)r	a	ttr	r	ṟ	u	Lo		idaiyinam consonant						U+0BB1: TAMIL LETTER RRA	✓
+ழ	l	ɻ	a		ɻ	ẓ ḻ ṛ	/	Lo		idaiyinam consonant						U+0BB4: TAMIL LETTER LLLA	✓
+ல	l	l	a		l	l	n	Lo		idaiyinam consonant						U+0BB2: TAMIL LETTER LA	✓
+ள	l	ɭ	a		ɭ	ḷ	y	Lo		idaiyinam consonant						U+0BB3: TAMIL LETTER LLA	✓
+ய	y	j	a		j	y	\'	Lo		idaiyinam consonant						U+0BAF: TAMIL LETTER YA	✓
+																	
+ி	i	i			i	i	s	Mc		vowel sign			இ			U+0BBF: TAMIL VOWEL SIGN I	✓
+இ	I	i			ị	i	s	Lo		independent vowel		ி				U+0B87: TAMIL LETTER I	✓
+ீ	i	iː			ī	ī	w	Mn		vowel sign			ஈ			U+0BC0: TAMIL VOWEL SIGN II	✓
+ஈ	I	iː			ị̄	ī	i	Lo		independent vowel		ீ				U+0B88: TAMIL LETTER II	✓
+ு	u	u			u	u	d	Mc		vowel sign			உ			U+0BC1: TAMIL VOWEL SIGN U	✓
+உ	U	u			ụ	u	d	Lo		independent vowel		ு				U+0B89: TAMIL LETTER U	✓
+ூ	u	uː			ū	ū	e	Mc		vowel sign			ஊ			U+0BC2: TAMIL VOWEL SIGN UU	✓
+ஊ	U	uː			ụ̄	ū	e	Lo		independent vowel		ூ				U+0B8A: TAMIL LETTER UU	✓
+ெ	e	e			e	e	G	Mc		vowel sign			எ			U+0BC6: TAMIL VOWEL SIGN E	✓
+எ	E	e			ẹ	e	g	Lo		independent vowel		ெ				U+0B8E: TAMIL LETTER E	✓
+ே	e	eː			ē	ē	t	Mc		vowel sign			ஏ			U+0BC7: TAMIL VOWEL SIGN EE	✓
+ஏ	E	eː			ẹ̄	ē	t	Lo		independent vowel		ே				U+0B8F: TAMIL LETTER EE	✓
+ொ	o	o			o	o	c	Mc		vowel sign			ஒ			U+0BCA: TAMIL VOWEL SIGN O	✓
+ஒ	O	oː			ọ	o	c	Lo		independent vowel		ொ				U+0B92: TAMIL LETTER O	✓
+ோ	o	oː			ō	ō	x	Mc		vowel sign			ஓ			U+0BCB: TAMIL VOWEL SIGN OO	✓
+ஓ	O	o			ọ̄	ō	x	Lo		independent vowel		ோ				U+0B93: TAMIL LETTER OO	✓
+அ	A	a			ạ	a	a	Lo		independent vowel						U+0B85: TAMIL LETTER A	✓
+ா	a	aː			ā	ā	q	Mc		vowel sign			ஆ			U+0BBE: TAMIL VOWEL SIGN AA	✓
+ஆ	A	aː			ạ̄	ā	q	Lo		independent vowel		ா				U+0B86: TAMIL LETTER AA	✓
+ை	a	aɪ			aʲ	ai	r	Mc		vowel sign			ஐ			U+0BC8: TAMIL VOWEL SIGN AI	✓
+ஐ	A	aɪ			ạʲ	ai	r	Lo		independent vowel		ை				U+0B90: TAMIL LETTER AI	✓
+ௌ	a	aʊ			aʷ	aw	z	Mc		vowel sign			ஔ			U+0BCC: TAMIL VOWEL SIGN AU	✓
+ஔ	A	aʊ			ạʷ	aw	z	Lo		independent vowel		ௌ				U+0B94: TAMIL LETTER AU	✓
+																	
+ʼ					ʼ	ʼ		Lm	?	apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
+ஂ					–			Mn	d	abbreviation mark						U+0B82: TAMIL SIGN ANUSVARA	
+𑌻					–			Mn	u	nukta	not used for Tamil					U+1133B: COMBINING BINDU BELOW	
+₨					–			Sc	a	rupee symbol						U+20A8: RUPEE SIGN	
+																	
 \u0020	 							Zs		space						U+0020: SPACE	
 -	-				-	-				hyphen						U+2010: HYPHEN	
 ‑	-				‑	‑		Pd	?	non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
@@ -57,72 +118,6 @@ var spreadsheet = `taml-ta	key	ipa	ipa+	ipaOther	translit	ISO	kbd	class	status	t
 ௰	$				{10}	(ten)		No	a	number				பத்து	pat͓tu	U+0BF0: TAMIL NUMBER TEN	✓
 ௱	$				{100}	(hundred)		No	a	number				நூறு	ṅūru	U+0BF1: TAMIL NUMBER ONE HUNDRED	✓
 ௲	$				{1000}	(thousand)		No	a	number				எந்	ẹṅ͓	U+0BF2: TAMIL NUMBER ONE THOUSAND	✓
-																	
-ப	p	p b	a	pː 	p	p	j	Lo		vallinam consonant						U+0BAA: TAMIL LETTER PA	✓
-த	t¶	t̪ ð d̪	a	t̪ː	t	t	l	Lo		vallinam consonant						U+0BA4: TAMIL LETTER TA	✓
-ச	c	t͡ʃ s~ʒ d͡ʒ	a	tːʃ	ʧ	c	[	Lo		vallinam consonant						U+0B9A: TAMIL LETTER CA	✓
-ட	t	ɽ ɖ	a	ʈː	ʈ	ṭ	o	Lo		vallinam consonant						U+0B9F: TAMIL LETTER TTA	✓
-ஜ	d	d͡ʒ z	a		ʤ	d	E	Lo	i	grantha consonant						U+0B9C: TAMIL LETTER JA	✓
-க	k	k ɡ	a	kː	k	k	h	Lo		vallinam consonant						U+0B95: TAMIL LETTER KA	✓
-ஃஸ	k	ks			ˑs	ḵs				extended consonant						U+0B83 U+0BB8: TAMIL SIGN VISARGA, LETTER SA	
-க்ஷ	K	kʂ			k͓ʂ	kṣ	T			ligature						U+0B95 U+0BCD U+0BB7: TAMIL LETTER KA, SIGN VIRAMA, LETTER SSA	
-ஃப	f	f			ˑp	kp				extended consonant						U+0B83 U+0BAA: TAMIL SIGN VISARGA, LETTER PA	
-ஸ	s¶	s	a		s	s	Q	Lo	i	grantha consonant						U+0BB8: TAMIL LETTER SA	✓
-ஃஜ	z	z			ˑʤ	kj				extended consonant						U+0B83 U+0B9C: TAMIL SIGN VISARGA, LETTER JA	
-ஶ	s	ʃ	a	ɕ	ʃ	ś	U	Lo	i	grantha consonant						U+0BB6: TAMIL LETTER SHA	✓
-ஶ்ரீ	S	ʃ͓ɾī			ʃ͓ɾī					ligature						U+0BB6 U+0BCD U+0BB0 U+0BC0: TAMIL LETTER SHA, SIGN VIRAMA, LETTER RA, VOWEL SIGN II	
-ஸ்ரீ	S	ʃ͓ɾī			s͓ɾī		Y		d	ligature	not recommended by Unicode, but common					U+0BB8 U+0BCD U+0BB0 U+0BC0: TAMIL LETTER SA, SIGN VIRAMA, LETTER RA, VOWEL SIGN II	
-ஷ	s	ʂ	a		ʂ	ṣ	W	Lo	i	grantha consonant						U+0BB7: TAMIL LETTER SSA	✓
-ஃக	x	x			ˑk	ḵk				extended consonant						U+0B83 U+0B95: TAMIL SIGN VISARGA, LETTER KA	
-ஹ	h	h	a		h	h	R	Lo	i	grantha consonant						U+0BB9: TAMIL LETTER HA	✓
-ம	m	m	a		m	m	k	Lo		mellinam consonant						U+0BAE: TAMIL LETTER MA	✓
-ன	n¶	n	a		n	ṉ	i	Lo		mellinam consonant						U+0BA9: TAMIL LETTER NNNA	✓
-ந	n	n̪	a		ṅ	n	;	Lo		mellinam consonant						U+0BA8: TAMIL LETTER NA	✓
-ஞ	n	ɲ	a		ɲ	ñ	]	Lo		mellinam consonant						U+0B9E: TAMIL LETTER NYA	✓
-ண	n	ɳ	a		ɳ	ṇ	p	Lo		mellinam consonant						U+0BA3: TAMIL LETTER NNA	✓
-ங	n	ŋ	a		ŋ	ṅ	b	Lo		mellinam consonant						U+0B99: TAMIL LETTER NGA	✓
-வ	v	ʋ	a		ʋ	v	v	Lo		idaiyinam consonant						U+0BB5: TAMIL LETTER VA	✓
-ர	r	ɾ	a		ɾ	r	m	Lo		idaiyinam consonant						U+0BB0: TAMIL LETTER RA	✓
-ற	r¶	r (d)r	a	ttr	r	ṟ	u	Lo		idaiyinam consonant						U+0BB1: TAMIL LETTER RRA	✓
-ழ	l	ɻ	a		ɻ	ẓ ḻ ṛ	/	Lo		idaiyinam consonant						U+0BB4: TAMIL LETTER LLLA	✓
-ல	l	l	a		l	l	n	Lo		idaiyinam consonant						U+0BB2: TAMIL LETTER LA	✓
-ள	l	ɭ	a		ɭ	ḷ	y	Lo		idaiyinam consonant						U+0BB3: TAMIL LETTER LLA	✓
-ய	y	j	a		j	y	\'	Lo		idaiyinam consonant						U+0BAF: TAMIL LETTER YA	✓
-																	
-ி	i	i			i	i	s	Mc		vowel sign			இ			U+0BBF: TAMIL VOWEL SIGN I	✓
-இ	I	i			ị	i	s	Lo		independent vowel		ி				U+0B87: TAMIL LETTER I	✓
-ீ	i	iː			ī	ī	w	Mn		vowel sign			ஈ			U+0BC0: TAMIL VOWEL SIGN II	✓
-ஈ	I	iː			ị̄	ī	i	Lo		independent vowel		ீ				U+0B88: TAMIL LETTER II	✓
-ு	u	u			u	u	d	Mc		vowel sign			உ			U+0BC1: TAMIL VOWEL SIGN U	✓
-உ	U	u			ụ	u	d	Lo		independent vowel		ு				U+0B89: TAMIL LETTER U	✓
-ூ	u	uː			ū	ū	e	Mc		vowel sign			ஊ			U+0BC2: TAMIL VOWEL SIGN UU	✓
-ஊ	U	uː			ụ̄	ū	e	Lo		independent vowel		ூ				U+0B8A: TAMIL LETTER UU	✓
-ெ	e	e			e	e	G	Mc		vowel sign			எ			U+0BC6: TAMIL VOWEL SIGN E	✓
-எ	E	e			ẹ	e	g	Lo		independent vowel		ெ				U+0B8E: TAMIL LETTER E	✓
-ே	e	eː			ē	ē	t	Mc		vowel sign			ஏ			U+0BC7: TAMIL VOWEL SIGN EE	✓
-ஏ	E	eː			ẹ̄	ē	t	Lo		independent vowel		ே				U+0B8F: TAMIL LETTER EE	✓
-ொ	o	o			o	o	c	Mc		vowel sign			ஒ			U+0BCA: TAMIL VOWEL SIGN O	✓
-ஒ	O	oː			ọ	o	c	Lo		independent vowel		ொ				U+0B92: TAMIL LETTER O	✓
-ோ	o	oː			ō	ō	x	Mc		vowel sign			ஓ			U+0BCB: TAMIL VOWEL SIGN OO	✓
-ஓ	O	o			ọ̄	ō	x	Lo		independent vowel		ோ				U+0B93: TAMIL LETTER OO	✓
-அ	A	a			ạ	a	a	Lo		independent vowel						U+0B85: TAMIL LETTER A	✓
-ா	a	aː			ā	ā	q	Mc		vowel sign			ஆ			U+0BBE: TAMIL VOWEL SIGN AA	✓
-ஆ	A	aː			ạ̄	ā	q	Lo		independent vowel		ா				U+0B86: TAMIL LETTER AA	✓
-ை	a	aɪ			aʲ	ai	r	Mc		vowel sign			ஐ			U+0BC8: TAMIL VOWEL SIGN AI	✓
-ஐ	A	aɪ			ạʲ	ai	r	Lo		independent vowel		ை				U+0B90: TAMIL LETTER AI	✓
-ௌ	a	aʊ			aʷ	aw	z	Mc		vowel sign			ஔ			U+0BCC: TAMIL VOWEL SIGN AU	✓
-ஔ	A	aʊ			ạʷ	aw	z	Lo		independent vowel		ௌ				U+0B94: TAMIL LETTER AU	✓
-																	
-ʼ					ʼ	ʼ		Lm	?	apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
-§					§	§		Po	?	section sign						U+00A7: SECTION SIGN	
-†					†	†		Po	?	dagger						U+2020: DAGGER	
-‡					‡	‡		Po	?	double dagger						U+2021: DOUBLE DAGGER	
-′					′	′		Po	?	prime						U+2032: PRIME	
-″					″	″		Po	?	double prime						U+2033: DOUBLE PRIME	
-ஂ					–			Mn	d	abbreviation mark						U+0B82: TAMIL SIGN ANUSVARA	
-𑌻					–			Mn	u	nukta	not used for Tamil					U+1133B: COMBINING BINDU BELOW	
-₨					–			Sc	a	rupee symbol						U+20A8: RUPEE SIGN	
-																	
 0	0				0	0		Nd		digit						U+0030: DIGIT ZERO	
 1	1				1	1		Nd		digit						U+0031: DIGIT ONE	
 2	2				2	2		Nd		digit						U+0032: DIGIT TWO	

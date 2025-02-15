@@ -1,62 +1,4 @@
 var spreadsheet = `tibt-bo	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	subj	fform	native name	latin name	ucs name	block
-\u0020	 						Zs		space						U+0020: SPACE	
-\u00A0							Zs		no-break space						U+00A0: NO-BREAK SPACE	
-༌				¯			Po		punctuation						U+0F0C: TIBETAN MARK DELIMITER TSHEG BSTAR	✓
--	-			-	-		Pd		hyphen						U+2010: HYPHEN	
-‑	-			‑	‑		Pd	?	non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
-–	-			–	–		Pd	?	en dash						U+2013: EN DASH	
-—	-			—	—		Pd	?	em dash						U+2014: EM DASH	
-,	,			,	,		Po	?	comma						U+002C: COMMA	
-;	;			;	;		Po	?	semicolon						U+003B: SEMICOLON	
-྅	:			ː			Po		paluta						U+0F85: TIBETAN MARK PALUTA	✓
-:	:			:	:		Po	?	colon						U+003A: COLON	
-!	!			!	!		Po	?	exclamation mark						U+0021: EXCLAMATION MARK	
-?	?			?	?		Po	?	question mark						U+003F: QUESTION MARK	
-.	.			.	.		Po		full stop						U+002E: FULL STOP	
-…	.			…	…		Po	?	ellipsis						U+2026: HORIZONTAL ELLIPSIS	
-༺	(			[			Ps	?	left bracket						U+0F3A: TIBETAN MARK GUG RTAGS GYON	✓
-༼	(			{			Ps		left bracket						U+0F3C: TIBETAN MARK ANG KHANG GYON	✓
-(	(			(	(		Ps	?	parenthesis						U+0028: LEFT PARENTHESIS	
-[	(			[	[		Pe	?	bracket						U+005B: LEFT SQUARE BRACKET	
-༻	)			]			Pe	?	right bracket						U+0F3B: TIBETAN MARK GUG RTAGS GYAS	✓
-༽	)			}			Pe		right bracket						U+0F3D: TIBETAN MARK ANG KHANG GYAS	✓
-)	)			)	)		Ps	?	parenthesis						U+0029: RIGHT PARENTHESIS	
-]	)			]	]		Pe	?	bracket						U+005D: RIGHT SQUARE BRACKET	
-༉	[			•			Po	?	list enumerator						U+0F09: TIBETAN MARK BSKUR YIG MGO	✓
-་	]	.		-			Po		primary break delimiter					tsek (tsheg)	U+0F0B: TIBETAN MARK INTERSYLLABIC TSHEG	✓
-྄	*			͓			Mn	u	virama					srog med	U+0F84: TIBETAN MARK HALANTA	✓
-༹	/			̣			Mn	t	sound extension/lenition mark					tsa-'phru	U+0F39: TIBETAN MARK TSA -PHRU	✓
-༴	&			˖			So		repetition sign				བསྡུས་རྟགས	du tag (bsdus-rtags)	U+0F34: TIBETAN MARK BSDUS RTAGS	✓
-༄	#			ᵗ>			Po		head mark						U+0F04: TIBETAN MARK INITIAL YIG MGO MDUN MA	✓
-༅	#			>			Po		head mark						U+0F05: TIBETAN MARK CLOSING YIG MGO SGAB MA	✓
-%	%			%			Po	?	percentage mark						U+0025: PERCENT SIGN	
-‰	%			‰			Po	?	per mille mark						U+2030: PER MILLE SIGN	
-༡	±	1		1̣	1		Nd		digit						U+0F21: TIBETAN DIGIT ONE	
-༢	±	2		2̣	2		Nd		digit						U+0F22: TIBETAN DIGIT TWO	
-༣	±	3		3̣	3		Nd		digit						U+0F23: TIBETAN DIGIT THREE	
-༤	±	4		4̣	4		Nd		digit						U+0F24: TIBETAN DIGIT FOUR	
-༥	±	5		5̣	5		Nd		digit						U+0F25: TIBETAN DIGIT FIVE	
-༦	±	6		6̣	6		Nd		digit						U+0F26: TIBETAN DIGIT SIX	
-༧	±	7		7̣	7		Nd		digit						U+0F27: TIBETAN DIGIT SEVEN	
-༨	±	8		8̣	8		Nd		digit						U+0F28: TIBETAN DIGIT EIGHT	
-༩	±	9		9̣	9		Nd		digit						U+0F29: TIBETAN DIGIT NINE	
-༠	±	0		0̣	0		Nd		digit						U+0F20: TIBETAN DIGIT ZERO	
-《	<			«	“		Pi		quotation mark						U+300A: LEFT DOUBLE ANGLE BRACKET	
-》	>			»	”		Pf		quotation mark						U+300B: RIGHT DOUBLE ANGLE BRACKET	
-〈	<			‹			Pi		quotation mark						U+3008: LEFT ANGLE BRACKET	
-〉	>			›			Pf		quotation mark						U+3009: RIGHT ANGLE BRACKET	
-“	<			“	“		Pi	?	quotation mark						U+201C: LEFT DOUBLE QUOTATION MARK	
-”	>			”	”		Pf	?	quotation mark						U+201D: RIGHT DOUBLE QUOTATION MARK	
-‘	<			\‘	\‘		Pi	?	quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
-’	>			\’	\’		Pf	?	quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
-\u200B	=			␣			Cf	?	zero-width space						U+200B: ZERO WIDTH SPACE	
-\u200C	=			ᶻʷⁿʲ			Cf	?	zero-width non-joiner						U+200C: ZERO WIDTH NON-JOINER	
-\u200D	=			ᶻʷʲ			Cf	?	zero-width joiner						U+200D: ZERO WIDTH JOINER	
-\u034F	=			ᶜᵍʲ			Mn	?	combining grapheme joiner						U+034F: COMBINING GRAPHEME JOINER	
-\u2060	=			ʷʲ			Cf	?	word joiner						U+2060 WORD JOINER	
-།	|			|			Po		full stop after text					shay (shad)	U+0F0D: TIBETAN MARK SHAD	✓
-༎	|			‖			Po		full stop after topic					shay (shad)	U+0F0E: TIBETAN MARK NYIS SHAD	✓
-༈	|			—			Po		topic/subtopic separator						U+0F08: TIBETAN MARK SBRUL SHAD	✓
 																
 འ	a	à		á	a		Lo		consonant		ྰ		ཨ་ཆུང	a-chung	U+0F60: TIBETAN LETTER -A	✓
 ཨ	a	á		à	a		Lo		consonant		ྸ				U+0F68: TIBETAN LETTER A	✓
@@ -77,7 +19,6 @@ var spreadsheet = `tibt-bo	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 པ	p	p	á	p	p		Lo		consonant		ྤ				U+0F54: TIBETAN LETTER PA	✓
 ྤ	P	p	á	p̰	p		Mn		subjoined consonant			པ			U+0FA4: TIBETAN SUBJOINED LETTER PA	✓
 ཕ	p	pʰ	á	pʰ	ph		Lo		consonant		ྥ				U+0F55: TIBETAN LETTER PHA	✓
-ྥ	P	f	á	p̰ʰ	ph		Mn	l	subjoined consonant			ཕ			U+0FA5: TIBETAN SUBJOINED LETTER PHA	✓
 བ	b	pʰ b	à	b	b		Lo		consonant		ྦ				U+0F56: TIBETAN LETTER BA	✓
 ྦ	B	p b	à	b̰	b		Mn		subjoined consonant			བ			U+0FA6: TIBETAN SUBJOINED LETTER BA	✓
 ཏ	t	t	á	t	t		Lo		consonant		ྟ				U+0F4F: TIBETAN LETTER TA	✓
@@ -97,13 +38,14 @@ var spreadsheet = `tibt-bo	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ཁ	k	kʰ	á	kʰ	kh		Lo		consonant		ྑ				U+0F41: TIBETAN LETTER KHA	✓
 ྑ	K	–		k̰ʰ	kh		Mn	u	subjoined consonant			ཁ			U+0F91: TIBETAN SUBJOINED LETTER KHA	✓
 ག	g	kʰ ɡ	à	g	g		Lo		consonant		ྒ				U+0F42: TIBETAN LETTER GA	✓
-ྒ	G	k ɡ	à	g̰	g		Mn		subjoined consonant			ག			U+0F92: TIBETAN SUBJOINED LETTER GA	✓
+ྒ	G	–	à	g̰	g		Mn		subjoined consonant			ག			U+0F92: TIBETAN SUBJOINED LETTER GA	✓
 ཙ	t	t͡s	á	ʦ	ts		Lo		consonant		ྩ				U+0F59: TIBETAN LETTER TSA	✓
 ྩ	T	t͡s	á	ʦ̰	ts		Mn		subjoined consonant			ཙ			U+0FA9: TIBETAN SUBJOINED LETTER TSA	✓
 ཚ	t	t͡sʰ	á	ʦʰ	tsh		Lo		consonant		ྪ				U+0F5A: TIBETAN LETTER TSHA	✓
 ྪ	T	–		ʦ̰ʰ	tsh		Mn	u	subjoined consonant			ཚ			U+0FAA: TIBETAN SUBJOINED LETTER TSHA	✓
 ཛ	d	t͡sʰ d͡z	à	ʣ	dz		Lo		consonant		ྫ				U+0F5B: TIBETAN LETTER DZA	✓
 ྫ	D¶	t͡s d͡z	à	ʣ̰	dz		Mn		subjoined consonant			ཛ			U+0FAB: TIBETAN SUBJOINED LETTER DZA	✓
+ྥ	P	f	á	p̰ʰ	ph		Mn	l	subjoined consonant			ཕ			U+0FA5: TIBETAN SUBJOINED LETTER PHA	✓
 ས	s	s	á	s	s		Lo		consonant		ྶ				U+0F66: TIBETAN LETTER SA	✓
 ྶ	S	–		s̰	s		Mn	u	subjoined consonant			ས			U+0FB6: TIBETAN SUBJOINED LETTER SA	✓
 ཟ	z	s z	à	z	zh		Lo		consonant		ྯ				U+0F5F: TIBETAN LETTER ZA	✓
@@ -389,12 +331,65 @@ var spreadsheet = `tibt-bo	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ࿎							So	u	astrological symbol						U+0FCE: TIBETAN SIGN RDEL NAG RDEL DKAR	✓
 ࿏							So	u	astrological symbol						U+0FCF: TIBETAN SIGN RDEL NAG GSUM	✓
 																
+\u0020	 						Zs		space						U+0020: SPACE	
+\u00A0							Zs		no-break space						U+00A0: NO-BREAK SPACE	
+༌				¯			Po		punctuation						U+0F0C: TIBETAN MARK DELIMITER TSHEG BSTAR	✓
+-	-			-	-		Pd		hyphen						U+2010: HYPHEN	
+‑	-			‑	‑		Pd	?	non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
+–	-			–	–		Pd	?	en dash						U+2013: EN DASH	
+—	-			—	—		Pd	?	em dash						U+2014: EM DASH	
+,	,			,	,		Po	?	comma						U+002C: COMMA	
+;	;			;	;		Po	?	semicolon						U+003B: SEMICOLON	
+྅	:			ː			Po		paluta						U+0F85: TIBETAN MARK PALUTA	✓
+:	:			:	:		Po	?	colon						U+003A: COLON	
+!	!			!	!		Po	?	exclamation mark						U+0021: EXCLAMATION MARK	
+?	?			?	?		Po	?	question mark						U+003F: QUESTION MARK	
+.	.			.	.		Po		full stop						U+002E: FULL STOP	
+…	.			…	…		Po	?	ellipsis						U+2026: HORIZONTAL ELLIPSIS	
+༺	(			[			Ps	?	left bracket						U+0F3A: TIBETAN MARK GUG RTAGS GYON	✓
+༼	(			{			Ps		left bracket						U+0F3C: TIBETAN MARK ANG KHANG GYON	✓
+(	(			(	(		Ps	?	parenthesis						U+0028: LEFT PARENTHESIS	
+[	(			[	[		Pe	?	bracket						U+005B: LEFT SQUARE BRACKET	
+༻	)			]			Pe	?	right bracket						U+0F3B: TIBETAN MARK GUG RTAGS GYAS	✓
+༽	)			}			Pe		right bracket						U+0F3D: TIBETAN MARK ANG KHANG GYAS	✓
+)	)			)	)		Ps	?	parenthesis						U+0029: RIGHT PARENTHESIS	
+]	)			]	]		Pe	?	bracket						U+005D: RIGHT SQUARE BRACKET	
+༉	[			•			Po	?	list enumerator						U+0F09: TIBETAN MARK BSKUR YIG MGO	✓
+་	]	.		-			Po		primary break delimiter					tsek (tsheg)	U+0F0B: TIBETAN MARK INTERSYLLABIC TSHEG	✓
+྄	*			͓			Mn	u	virama					srog med	U+0F84: TIBETAN MARK HALANTA	✓
+༹	/			̣			Mn	t	sound extension/lenition mark					tsa-'phru	U+0F39: TIBETAN MARK TSA -PHRU	✓
+༴	&			˖			So		repetition sign				བསྡུས་རྟགས	du tag (bsdus-rtags)	U+0F34: TIBETAN MARK BSDUS RTAGS	✓
+༄	#			ᵗ>			Po		head mark						U+0F04: TIBETAN MARK INITIAL YIG MGO MDUN MA	✓
+༅	#			>			Po		head mark						U+0F05: TIBETAN MARK CLOSING YIG MGO SGAB MA	✓
+%	%			%			Po	?	percentage mark						U+0025: PERCENT SIGN	
+‰	%			‰			Po	?	per mille mark						U+2030: PER MILLE SIGN	
+༡	±	1		1̣	1		Nd		digit						U+0F21: TIBETAN DIGIT ONE	
+༢	±	2		2̣	2		Nd		digit						U+0F22: TIBETAN DIGIT TWO	
+༣	±	3		3̣	3		Nd		digit						U+0F23: TIBETAN DIGIT THREE	
+༤	±	4		4̣	4		Nd		digit						U+0F24: TIBETAN DIGIT FOUR	
+༥	±	5		5̣	5		Nd		digit						U+0F25: TIBETAN DIGIT FIVE	
+༦	±	6		6̣	6		Nd		digit						U+0F26: TIBETAN DIGIT SIX	
+༧	±	7		7̣	7		Nd		digit						U+0F27: TIBETAN DIGIT SEVEN	
+༨	±	8		8̣	8		Nd		digit						U+0F28: TIBETAN DIGIT EIGHT	
+༩	±	9		9̣	9		Nd		digit						U+0F29: TIBETAN DIGIT NINE	
+༠	±	0		0̣	0		Nd		digit						U+0F20: TIBETAN DIGIT ZERO	
+《	<			«	“		Pi		quotation mark						U+300A: LEFT DOUBLE ANGLE BRACKET	
+》	>			»	”		Pf		quotation mark						U+300B: RIGHT DOUBLE ANGLE BRACKET	
+〈	<			‹			Pi		quotation mark						U+3008: LEFT ANGLE BRACKET	
+〉	>			›			Pf		quotation mark						U+3009: RIGHT ANGLE BRACKET	
+“	<			“	“		Pi	?	quotation mark						U+201C: LEFT DOUBLE QUOTATION MARK	
+”	>			”	”		Pf	?	quotation mark						U+201D: RIGHT DOUBLE QUOTATION MARK	
+‘	<			\‘	\‘		Pi	?	quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
+’	>			\’	\’		Pf	?	quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
+\u200B	=			␣			Cf	?	zero-width space						U+200B: ZERO WIDTH SPACE	
+\u200C	=			ᶻʷⁿʲ			Cf	?	zero-width non-joiner						U+200C: ZERO WIDTH NON-JOINER	
+\u200D	=			ᶻʷʲ			Cf	?	zero-width joiner						U+200D: ZERO WIDTH JOINER	
+\u034F	=			ᶜᵍʲ			Mn	?	combining grapheme joiner						U+034F: COMBINING GRAPHEME JOINER	
+\u2060	=			ʷʲ			Cf	?	word joiner						U+2060 WORD JOINER	
+།	|			|			Po		full stop after text					shay (shad)	U+0F0D: TIBETAN MARK SHAD	✓
+༎	|			‖			Po		full stop after topic					shay (shad)	U+0F0E: TIBETAN MARK NYIS SHAD	✓
+༈	|			—			Po		topic/subtopic separator						U+0F08: TIBETAN MARK SBRUL SHAD	✓
 ʼ				ʼ	ʼ		Lm	?	apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
-§				§	§		Po	?	section sign						U+00A7: SECTION SIGN	
-†				†	†		Po	?	dagger						U+2020: DAGGER	
-‡				‡	‡		Po	?	double dagger						U+2021: DOUBLE DAGGER	
-′				′	′		Po	?	prime						U+2032: PRIME	
-″				″	″		Po	?	double prime						U+2033: DOUBLE PRIME	
 																
 ༳				0.5			No		digit minus half						U+0F33: TIBETAN DIGIT HALF ZERO	
 ༪				1.5			No		digit minus half						U+0F2A: TIBETAN DIGIT HALF ONE	

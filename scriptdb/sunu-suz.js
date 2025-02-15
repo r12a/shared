@@ -1,33 +1,4 @@
 var spreadsheet = `sunu-suz	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	native name	latin name	deva	ucs name	block
-\u0020							Zs							U+0020: SPACE	
--	-			-	-				hyphen					U+2010: HYPHEN	
-–	-			–	–		Pd	?	en dash					U+2013: EN DASH	
-—	-			—	—		Pd	?	em dash					U+2014: EM DASH	
-\u{0331}	*	∅		˟			Mn​		vowel silencer	Used in Sikkim.		sangmilu		U+0331 COMBINING MACRON BELOW	
-\u{003A}	:			ː			Po		vowel lengthener			laissi		U+003A COLON	
-,	,			,̣	,		Po		comma					U+002C: COMMA	
-;	;			;̣	;		Po		semicolon					U+003B: SEMICOLON	
-:	:			:	:		Po		colon					U+003A: COLON	
-!	!			!	!		Po		exclamation mark					U+0021: EXCLAMATION MARK	
-?	?			?	?		Po		question mark					U+003F: QUESTION MARK	
-.	.			.	.		Po		full stop					U+002E: FULL STOP	
-…	.			…	…		Po		ellipsis					U+2026: HORIZONTAL ELLIPSIS	
-(	(			(	(		Ps		parenthesis					U+0028: LEFT PARENTHESIS	
-[	(			[	[		Ps		bracket					U+005B: LEFT SQUARE BRACKET	
-)	)			)	)		Pe		parenthesis					U+0029: RIGHT PARENTHESIS	
-]	)			]	]		Pe		bracket					U+005D: RIGHT SQUARE BRACKET	
-%	%			%			Po		percentage mark					U+0025: PERCENT SIGN	
-‰	%			‰			Po	?	per mille mark					U+2030: PER MILLE SIGN	
-“	<			“	“		Pi		quotation mark					U+201C: LEFT DOUBLE QUOTATION MARK	
-‘	<			‘	‘		Pi		quotation mark					U+2018: LEFT SINGLE QUOTATION MARK	
-”	>			”	”		Pf		quotation mark					U+201D: RIGHT DOUBLE QUOTATION MARK	
-’	>			’	’		Pf		quotation mark					U+2019: RIGHT SINGLE QUOTATION MARK	
-\u{030D}	^			ˈ	Z	Z	Mn​		stress mark	Used in Nepal.		sotte'si		U+030D COMBINING VERTICAL LINE ABOVE	
-\u{0301}	^			ˊ	x	x	Mn​		high tone	Used in Nepal.		ta renmaresi		U+0301 COMBINING ACUTE ACCENT	
-\u{0300}	^			ˋ	X	X	Mn​		low tone	Used in Nepal.		di renmaresi		U+0300 COMBINING GRAVE ACCENT	
-\u{0303}	[	̃		˜	z	z	Mn​		nasalisation	Used in Nepal.		nesante		U+0303 COMBINING TILDE	
-\u{0310}	[	̃		˜̣			Mn​		nasal marker	Used in Sikkim.		taslathenk		U+0310 COMBINING CANDRABINDU	
-\u{1DF5}	[			˙			Mn​	o	repha	obsolete		sangkirs		U+1DF5 COMBINING UP TACK ABOVE	
 															
 \u{11BC9}	p	p		p	p	p	Lo		consonant			pip	प	U+11BC9 SUNUWAR LETTER PIP	
 \u{11BD9}	f	pʰ		pʰ	f	f	Lo		consonant			phar	फ	U+11BD9 SUNUWAR LETTER PHAR	
@@ -66,11 +37,35 @@ var spreadsheet = `sunu-suz	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 \u{11BC8}	A	ə		ə	a	a	Lo		vowel			appho	अ	U+11BC8 SUNUWAR LETTER APPHO	
 \u{11BD6}	a	aː		a	A	A	Lo		long vowel			aal	आ	U+11BD6 SUNUWAR LETTER AAL	
 															
-§				§	§		Po	?	section sign					U+00A7: SECTION SIGN	
-†				†	†		Po	?	dagger					U+2020: DAGGER	
-‡				‡	‡		Po	?	double dagger					U+2021: DOUBLE DAGGER	
-′				′	′		Po	?	prime					U+2032: PRIME	
-″				″	″		Po	?	double prime					U+2033: DOUBLE PRIME	
+\u0020							Zs							U+0020: SPACE	
+-	-			-	-				hyphen					U+2010: HYPHEN	
+–	-			–	–		Pd	?	en dash					U+2013: EN DASH	
+—	-			—	—		Pd	?	em dash					U+2014: EM DASH	
+\u{0331}	*	∅		˟			Mn​		vowel silencer	Used in Sikkim.		sangmilu		U+0331 COMBINING MACRON BELOW	
+\u{003A}	:			ː			Po		vowel lengthener			laissi		U+003A COLON	
+,	,			,̣	,		Po		comma					U+002C: COMMA	
+;	;			;̣	;		Po		semicolon					U+003B: SEMICOLON	
+:	:			:	:		Po		colon					U+003A: COLON	
+!	!			!	!		Po		exclamation mark					U+0021: EXCLAMATION MARK	
+?	?			?	?		Po		question mark					U+003F: QUESTION MARK	
+.	.			.	.		Po		full stop					U+002E: FULL STOP	
+…	.			…	…		Po		ellipsis					U+2026: HORIZONTAL ELLIPSIS	
+(	(			(	(		Ps		parenthesis					U+0028: LEFT PARENTHESIS	
+[	(			[	[		Ps		bracket					U+005B: LEFT SQUARE BRACKET	
+)	)			)	)		Pe		parenthesis					U+0029: RIGHT PARENTHESIS	
+]	)			]	]		Pe		bracket					U+005D: RIGHT SQUARE BRACKET	
+%	%			%			Po		percentage mark					U+0025: PERCENT SIGN	
+‰	%			‰			Po	?	per mille mark					U+2030: PER MILLE SIGN	
+“	<			“	“		Pi		quotation mark					U+201C: LEFT DOUBLE QUOTATION MARK	
+‘	<			‘	‘		Pi		quotation mark					U+2018: LEFT SINGLE QUOTATION MARK	
+”	>			”	”		Pf		quotation mark					U+201D: RIGHT DOUBLE QUOTATION MARK	
+’	>			’	’		Pf		quotation mark					U+2019: RIGHT SINGLE QUOTATION MARK	
+\u{030D}	^			ˈ	Z	Z	Mn​		stress mark	Used in Nepal.		sotte'si		U+030D COMBINING VERTICAL LINE ABOVE	
+\u{0301}	^			ˊ	x	x	Mn​		high tone	Used in Nepal.		ta renmaresi		U+0301 COMBINING ACUTE ACCENT	
+\u{0300}	^			ˋ	X	X	Mn​		low tone	Used in Nepal.		di renmaresi		U+0300 COMBINING GRAVE ACCENT	
+\u{0303}	[	̃		˜	z	z	Mn​		nasalisation	Used in Nepal.		nesante		U+0303 COMBINING TILDE	
+\u{0310}	[	̃		˜̣			Mn​		nasal marker	Used in Sikkim.		taslathenk		U+0310 COMBINING CANDRABINDU	
+\u{1DF5}	[			˙			Mn​	o	repha	obsolete		sangkirs		U+1DF5 COMBINING UP TACK ABOVE	
 															
 \u{11BF1}	±	1		1̣	1	1	Nd		digit			ka	१	U+11BF1 SUNUWAR DIGIT ONE	
 \u{11BF2}	±	2		2̣	2	2	Nd		digit			ni'ashi	२	U+11BF2 SUNUWAR DIGIT TWO	

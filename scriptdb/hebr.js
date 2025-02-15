@@ -152,11 +152,6 @@ var spreadsheet = `hebr-he	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ֽ							Mn	u	biblical stress marker			מֶתֶג	meteg	U+05BD: HEBREW POINT METEG	✓	biblical stress marker
 																
 ʼ				ʼ	ʼ		Lm	?	apostrophe					U+02BC: MODIFIER LETTER APOSTROPHE		apostrophe
-§				§	§		Po	?	section sign					U+00A7: SECTION SIGN		section sign
-†				†	†		Po	?	dagger					U+2020: DAGGER		dagger
-‡				‡	‡		Po	?	double dagger					U+2021: DOUBLE DAGGER		double dagger
-′				′	′		Po	?	prime					U+2032: PRIME		prime
-″				″	″		Po	?	double prime					U+2033: DOUBLE PRIME		double prime
 																
 /				–		q	Po		for the keyboard					U+002F: SOLIDUS		for the keyboard
 לֹ				–		K			for the keyboard					U+05DC U+05B9: HEBREW LETTER LAMED, POINT HOLAM		for the keyboard

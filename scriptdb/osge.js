@@ -1,29 +1,4 @@
 var spreadsheet = `osge-osa	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	lcase	ucase	native name	latin name	ucs name	block
--	-			-	-			?	hyphen						U+2010: HYPHEN	
-‑	-			‑	‑		Pd	?	non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
-–	-			–	–		Pd		en dash						U+2013: EN DASH	✓
-—	-			—	—		Pd		em dash						U+2014: EM DASH	✓
-,	,			,	,		Po		comma						U+002C: COMMA	
-;	;			;	;		Po		semicolon						U+003B: SEMICOLON	✓
-̄	:			ː	̄		Mn	i	long vowel						U+0304: COMBINING MACRON	✓
-̋	:			˝	̋		Mn	i	long high tone vowel						U+030B: COMBINING DOUBLE ACUTE ACCENT	✓
-:	:			:	:		Po		colon						U+003A: COLON	✓
-!	!			!	!		Po		exclamation mark						U+0021: EXCLAMATION MARK	✓
-?	?			?	?		Po		question mark						U+003F: QUESTION MARK	✓
-.	.			.	.		Po		full stop						U+002E: FULL STOP	✓
-…	.			…	…		Po		ellipsis						U+2026: HORIZONTAL ELLIPSIS	✓
-(	(			(	(		Ps		parenthesis						U+0028: LEFT PARENTHESIS	✓
-[	(			[	[		Ps	?	bracket						U+005B: LEFT SQUARE BRACKET	
-)	)			)	)		Pe		parenthesis						U+0029: RIGHT PARENTHESIS	✓
-]	)			]	]		Pe	?	bracket						U+005D: RIGHT SQUARE BRACKET	
-͘	[	̃		˜	̨	f	Mn		vowel nasalisation						U+0358: COMBINING DOT ABOVE RIGHT	✓
-ʼ	]	ˀ		ˀ	ˀ		Lm		ejective indicator						U+02BC: MODIFIER LETTER APOSTROPHE	✓
-%	%			%			Po	?	percentage mark						U+0025: PERCENT SIGN	
-́	^			´	́		Mn	i	high tone						U+0301: COMBINING ACUTE ACCENT	✓
-“	<			“	“		Pi		quotation mark						U+201C: LEFT DOUBLE QUOTATION MARK	✓
-‘	<			\‘	\‘		Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	✓
-”	>			”	”		Pf		quotation mark						U+201D: RIGHT DOUBLE QUOTATION MARK	✓
-’	>			\’	\’		Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	✓
 																
 𐓬	p	p		p	p	p	Ll		plosive			𐓄			U+104EC: OSAGE SMALL LETTER PA	✓
 𐓄	P	P		P	P	P	Lu		plosive		𐓬				U+104C4: OSAGE CAPITAL LETTER PA	✓
@@ -118,14 +93,34 @@ var spreadsheet = `osge-osa	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 𐓫	o	oɪ̃		oⁱ̃	oį		Ll		nasalised diphthong			𐓃			U+104EB: OSAGE SMALL LETTER OIN	✓
 𐓃	O	OꞮ̃		Oⁱ̃	Oį		Lu		nasalised diphthong		𐓫				U+104C3: OSAGE CAPITAL LETTER OIN	✓
 																
+-	-			-	-			?	hyphen						U+2010: HYPHEN	
+‑	-			‑	‑		Pd	?	non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
+–	-			–	–		Pd		en dash						U+2013: EN DASH	✓
+—	-			—	—		Pd		em dash						U+2014: EM DASH	✓
+,	,			,	,		Po		comma						U+002C: COMMA	
+;	;			;	;		Po		semicolon						U+003B: SEMICOLON	✓
+̄	:			ː	̄		Mn	i	long vowel						U+0304: COMBINING MACRON	✓
+̋	:			˝	̋		Mn	i	long high tone vowel						U+030B: COMBINING DOUBLE ACUTE ACCENT	✓
+:	:			:	:		Po		colon						U+003A: COLON	✓
+!	!			!	!		Po		exclamation mark						U+0021: EXCLAMATION MARK	✓
+?	?			?	?		Po		question mark						U+003F: QUESTION MARK	✓
+.	.			.	.		Po		full stop						U+002E: FULL STOP	✓
+…	.			…	…		Po		ellipsis						U+2026: HORIZONTAL ELLIPSIS	✓
+(	(			(	(		Ps		parenthesis						U+0028: LEFT PARENTHESIS	✓
+[	(			[	[		Ps	?	bracket						U+005B: LEFT SQUARE BRACKET	
+)	)			)	)		Pe		parenthesis						U+0029: RIGHT PARENTHESIS	✓
+]	)			]	]		Pe	?	bracket						U+005D: RIGHT SQUARE BRACKET	
+͘	[	̃		˜	̨	f	Mn		vowel nasalisation						U+0358: COMBINING DOT ABOVE RIGHT	✓
+ʼ	]	ˀ		ˀ	ˀ		Lm		ejective indicator						U+02BC: MODIFIER LETTER APOSTROPHE	✓
+%	%			%			Po	?	percentage mark						U+0025: PERCENT SIGN	
+́	^			´	́		Mn	i	high tone						U+0301: COMBINING ACUTE ACCENT	✓
+“	<			“	“		Pi		quotation mark						U+201C: LEFT DOUBLE QUOTATION MARK	✓
+‘	<			\‘	\‘		Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	✓
+”	>			”	”		Pf		quotation mark						U+201D: RIGHT DOUBLE QUOTATION MARK	✓
+’	>			\’	\’		Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	✓
 ^				–			Sk	a	vowel nasalisation						U+005E: CIRCUMFLEX ACCENT	
 ʼ				ʼ	ʼ		Lm		apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	✓
 																
-§				§	§		Po	?	section sign						U+00A7: SECTION SIGN	
-†				†	†		Po	?	dagger						U+2020: DAGGER	
-‡				‡	‡		Po	?	double dagger						U+2021: DOUBLE DAGGER	
-′				′	′		Po	?	prime						U+2032: PRIME	
-″				″	″		Po	?	double prime						U+2033: DOUBLE PRIME	
 `																
 																
 latinPanel = 'ɑ ɑ̃ ą č ð dˀ ə ə̃ ę ʰp ʰt ʰk ʰt͡s ʰt͡ʃ hʲ ĩ į ɪ ɪ̃ kʲ kˀ õ ǫ pˀ ɹ ʃ š t͡s t͡sʰ t͡ʃ t͡sˀ ʉ ɣ ʒ ž'																
