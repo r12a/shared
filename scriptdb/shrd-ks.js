@@ -23,6 +23,8 @@ var spreadsheet = `shrd-ks	key	ipa	ipa+	ipaOther	translit	transc	kbd	class	statu
 𑆱	s	s	ɐ		s	s		Lo		consonant						U+111B1: SHARADA LETTER SA					
 𑆯	s	ɕ	ɐ		ɕ	ś		Lo		consonant						U+111AF: SHARADA LETTER SHA					
 𑆰	s	ʂ	ɐ		ʂ	ṣ		Lo		consonant						U+111B0: SHARADA LETTER SSA					
+𑆘𑇊	z	z	ɐ		z	z				extended consonant	For Kashmiri.										
+𑆖𑇊	t	t͡s	ɐ			ts				extended consonant	For Kashmiri.										
 𑇂	x	x			ˣ			Lo		stacked consonant						U+111C2: SHARADA SIGN JIHVAMULIYA					
 𑆲	h	ɦ	ɐ		ɦ	h		Lo		consonant						U+111B2: SHARADA LETTER HA					
 𑆩	m	m	ɐ		m	m		Lo		consonant						U+111A9: SHARADA LETTER MA					
@@ -41,9 +43,9 @@ var spreadsheet = `shrd-ks	key	ipa	ipa+	ipaOther	translit	transc	kbd	class	statu
 𑆵	i	iː			iː	ī		Mc​		dependent vowel			𑆆			U+111B5: SHARADA VOWEL SIGN II					
 𑆆	I	iː			iː	ī		Lo		independent vowel		𑆵				U+11186: SHARADA LETTER II					
 \u{11B62}	i	ɨ			ɨ	ü		Mn​		dependent vowel	Used for extra vowels for Kashmiri.		𑆄\u{11B62}			U+11B62: SHARADA VOWEL SIGN UE					
-𑆄\u{11B62}	I	ɨ								independent vowel	Used for extra vowels for Kashmiri.	\u{11B62}				U+11184 U+11B62: SHARADA LETTER AA, SHARADA VOWEL SIGN UE					
+𑆃\u{11B62}	I	ɨ								independent vowel	Used for extra vowels for Kashmiri.	\u{11B62}				U+11184 U+11B62: SHARADA LETTER AA, SHARADA VOWEL SIGN UE					
 \u{11B63}	i	ɨː			ɨ̣	ü		Mn​		dependent vowel	Used for extra vowels for Kashmiri.		\u{11B63}			U+11B63: SHARADA VOWEL SIGN UUE					
-𑆄\u{11B63}	I	ɨː								independent vowel	Used for extra vowels for Kashmiri.	\u{11B63}				U+11184 U+11B623: SHARADA LETTER AA, SHARADA VOWEL SIGN UUE					
+𑆃\u{11B63}	I	ɨː								independent vowel	Used for extra vowels for Kashmiri.	\u{11B63}				U+11184 U+11B623: SHARADA LETTER AA, SHARADA VOWEL SIGN UUE					
 𑆶	u	ʊ			ʊ	u		Mn​		dependent vowel			𑆇			U+111B6: SHARADA VOWEL SIGN U					
 𑆇	U	ʊ			ʊ	u		Lo		independent vowel		𑆶				U+11187: SHARADA LETTER U					
 𑆷	u	uː			uː	ū		Mn​		dependent vowel			𑆈			U+111B7: SHARADA VOWEL SIGN UU					
@@ -59,13 +61,13 @@ var spreadsheet = `shrd-ks	key	ipa	ipa+	ipaOther	translit	transc	kbd	class	statu
 \u{11B60}	q	ə			ə	ö		Mn​		dependent vowel	Used for extra vowels for Kashmiri.		𑆃\u{11B60}			U+11B60: SHARADA VOWEL SIGN OE					
 𑆃\u{11B60}	Q	ə								independent vowel	Used for extra vowels for Kashmiri.	\u{11B60}				U+11183 U+11B60: SHARADA LETTER A, SHARADA VOWEL SIGN OE					
 \u{11B61}	q	əː			ə̄	ȫ		Mc		dependent vowel	Used for extra vowels for Kashmiri.		𑆄\u{11B61}			U+11B61: SHARADA VOWEL SIGN OOE					
-𑆄\u{11B61}	Q	əː								independent vowel	Used for extra vowels for Kashmiri.	\u{11B61}				U+11184 U+11B601: SHARADA LETTER AA, SHARADA VOWEL SIGN OOE					
+𑆃\u{11B61}	Q	əː								independent vowel	Used for extra vowels for Kashmiri.	\u{11B61}				U+11184 U+11B601: SHARADA LETTER AA, SHARADA VOWEL SIGN OOE					
 \u{11B66}	o	ɔ			ɔ̣			Mn​		dependent vowel	Used for extra vowels for Kashmiri.		𑆃\u{11B66}			U+11B66: SHARADA VOWEL SIGN CANDRA E					
 𑆃\u{11B66}	O	ɔ								independent vowel	Used for extra vowels for Kashmiri.	\u{11B66}				U+11183 U+11B66: SHARADA LETTER A, SHARADA VOWEL SIGN CANDRA E					
 \u{11B67}	o	ɔː						Mc		dependent vowel	Used for extra vowels for Kashmiri.		𑆃\u{11B67}			U+11B67: SHARADA VOWEL SIGN CANDRA O					
 𑆃\u{11B67}	O	ɔː								independent vowel	Used for extra vowels for Kashmiri.	\u{11B67}				U+11183 U+11B67: SHARADA LETTER A, SHARADA VOWEL SIGN CANDRA O					
 𑆃	A	ɐ			ɐ	a		Lo		independent vowel						U+11183: SHARADA LETTER A					
-𑆳	a	ɐ			ɐ	a		Mc​		dependent vowel			𑆄			U+111B3: SHARADA VOWEL SIGN AA					
+𑆳	a	əː		aː	ɐ	a		Mc​		dependent vowel			𑆄			U+111B3: SHARADA VOWEL SIGN AA					
 𑆄	A	aː			aː	ā		Lo		independent vowel		𑆳				U+11184: SHARADA LETTER AA					
 𑇎	^				^			Mc​		supplementary vowel sign						U+111CE: SHARADA VOWEL SIGN PRISHTHAMATRA E					
 																					
@@ -140,7 +142,7 @@ var spreadsheet = `shrd-ks	key	ipa	ipa+	ipaOther	translit	transc	kbd	class	statu
 																					
 `																					
 																					
-latinPanel = 'aː aːi̯ aːu̯ bʱ dʱ d͡ʑ d͡ʑʰ eː ɡ iː kʰ l̥ l̥̄ l̩ l̩ː oː pʱ r̥ r̥̄ r̩ r̩ː tʱ t͡ɕ t͡ɕʰ uː ñ ö ü ā ē ī ŋ ō ś ū ȫ ɐ ɔ ɔː ɕ ɖ ɖʱ ə əː ɛ ɡ ɡʰ ɦ ɨ ɨː ɪ ɭ ɲ ɳ ɸ ɽ ʂ ʈ ʈʰ ʊ ʋ ḍ ḍh ḷ ṅ ṇ ṣ ṭ ◌̃'																					
+latinPanel = 'aː aːi̯ aːu̯ bʱ dʱ d͡ʑ d͡ʑʰ eː ɡ iː kʰ l̥ l̥̄ l̩ l̩ː oː pʱ r̥ r̥̄ r̩ r̩ː tʱ t͡ɕ t͡ɕʰ uː ñ ö ü ā ē ī ŋ ō ś ū ȫ ɐ ɔ ɔː ɕ ɖ ɖʱ ə əː ɛ ɡ ɡʰ ɦ ɨ ɨː ɪ ɭ ɲ ɳ ɸ ɽ ʂ ʈ ʈʰ ʊ ʋ ḍ ḍh ḷ ṅ ṇ ṣ ṭ ◌̃ ʲ t͡s t͡sʰ'																					
 																					
 var cols = {																					
 key: 1,																					
