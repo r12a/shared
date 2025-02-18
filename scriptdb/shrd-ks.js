@@ -42,7 +42,7 @@ var spreadsheet = `shrd-ks	key	ipa	ipa+	ipaOther	translit	transc	kbd	class	statu
 𑆅	I	ɪ			ɪ	i		Lo		independent vowel		𑆴				U+11185: SHARADA LETTER I					
 𑆵	i	iː			iː	ī		Mc​		dependent vowel			𑆆			U+111B5: SHARADA VOWEL SIGN II					
 𑆆	I	iː			iː	ī		Lo		independent vowel		𑆵				U+11186: SHARADA LETTER II					
-\u{11B62}	i	ɨ			ɨ	ü		Mn​		dependent vowel	Used for extra vowels for Kashmiri.		𑆄\u{11B62}			U+11B62: SHARADA VOWEL SIGN UE					
+\u{11B62}	i	ɨ			ɨ	ü		Mn​		dependent vowel	Used for extra vowels for Kashmiri.		𑆃\u{11B62}			U+11B62: SHARADA VOWEL SIGN UE					
 𑆃\u{11B62}	I	ɨ								independent vowel	Used for extra vowels for Kashmiri.	\u{11B62}				U+11184 U+11B62: SHARADA LETTER AA, SHARADA VOWEL SIGN UE					
 \u{11B63}	i	ɨː			ɨ̣	ü		Mn​		dependent vowel	Used for extra vowels for Kashmiri.		\u{11B63}			U+11B63: SHARADA VOWEL SIGN UUE					
 𑆃\u{11B63}	I	ɨː								independent vowel	Used for extra vowels for Kashmiri.	\u{11B63}				U+11184 U+11B623: SHARADA LETTER AA, SHARADA VOWEL SIGN UUE					
@@ -60,7 +60,7 @@ var spreadsheet = `shrd-ks	key	ipa	ipa+	ipaOther	translit	transc	kbd	class	statu
 𑆏	O	oː			oː	ō		Lo		independent vowel		𑆾				U+1118F: SHARADA LETTER O					
 \u{11B60}	q	ə			ə	ö		Mn​		dependent vowel	Used for extra vowels for Kashmiri.		𑆃\u{11B60}			U+11B60: SHARADA VOWEL SIGN OE					
 𑆃\u{11B60}	Q	ə								independent vowel	Used for extra vowels for Kashmiri.	\u{11B60}				U+11183 U+11B60: SHARADA LETTER A, SHARADA VOWEL SIGN OE					
-\u{11B61}	q	əː			ə̄	ȫ		Mc		dependent vowel	Used for extra vowels for Kashmiri.		𑆄\u{11B61}			U+11B61: SHARADA VOWEL SIGN OOE					
+\u{11B61}	q	əː			ə̄	ȫ		Mc		dependent vowel	Used for extra vowels for Kashmiri.		𑆃\u{11B61}			U+11B61: SHARADA VOWEL SIGN OOE					
 𑆃\u{11B61}	Q	əː								independent vowel	Used for extra vowels for Kashmiri.	\u{11B61}				U+11184 U+11B601: SHARADA LETTER AA, SHARADA VOWEL SIGN OOE					
 \u{11B66}	o	ɔ			ɔ̣			Mn​		dependent vowel	Used for extra vowels for Kashmiri.		𑆃\u{11B66}			U+11B66: SHARADA VOWEL SIGN CANDRA E					
 𑆃\u{11B66}	O	ɔ								independent vowel	Used for extra vowels for Kashmiri.	\u{11B66}				U+11183 U+11B66: SHARADA LETTER A, SHARADA VOWEL SIGN CANDRA E					
