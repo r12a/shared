@@ -151,14 +151,14 @@ name:"Bengali", local:"বাংলা লিপি", localtrans:"bangla lipi", 
 },
 
 
-"beri": {
+"berf": {
 dates: `1950s – today`,
 status: `Growing usage`,
 lineage: `Invented in 1950s, reformed in 2000`,
 siblings: ``,
 history: `Beria Erfe is an African bicameral alphabet used to write the Zaghawa (Beria) language in Darfur, Sudan, and Chad. In the initial incarnation, created by Adam Tajir in the 1950s, letter shapes were based on the brands used for cattle. Around the turn of the century, the script was revised by Siddick Adam Issa to take its current form. The new script is currently promoted by community activists both at home and in the diaspora.`,
 description: `The alphabet is largely straightforward. There is no shaping. Combining marks are used to indicate whether ATR+ vowels are used in a word, and sometimes to indicate tone. Words are separated by spaces. One unique feature is that uppercase letters descend below the baseline, rather than rising above the lowercase letters as they do in most alphabets.`,
-unicode: `Unicode 17 will have 1 dedicated block, comprising 50 characters.`,
+unicode: `<strong>Not yet supported by Unicode!</strong> Unicode 17 will have 1 dedicated block, comprising 50 characters.`,
 name:"Beria Erfe", local:"𖺡𖺾𖻌𖻂𖺻 𖺥𖻂𖻌𖺻𖻓 𖺣𖻌𖺿𖺾𖺾", localtrans:"", region:"afr", countries:"Sudan, Chad", speakers:"300000",
 },
 
@@ -1374,7 +1374,7 @@ status: `Limited usage (low uptake)`,
 lineage: `Invented by  by Ronald Kingsley Read`,
 siblings: ``,
 history: `Shavian (<span lang="en">𐑖𐑱𐑝𐑾𐑯 𐑨𐑤𐑓𐑩𐑚𐑧</span>) is a European monocameral alphabet conceived as a simple, phonemic orthography for the English language. It was posthumously funded by and named after Irish playwright George Bernard Shaw. Due to the contestation of Shaw's will, the trust charged with developing the new alphabet could afford to publish only one book: a version of Shaw's play Androcles and the Lion, in a bi-alphabetic edition with both conventional and Shavian spellings. Copies were sent to major libraries in English-speaking countries. An adaptation of Shavian to another language, Esperanto, was developed by John Wesley Starling; though not widely used, at least one booklet has been published with transliterated sample texts.`,
-description: ``,
+description: `Script_direction. Arabic text is read from right to left, except for numbers. Text is cursive, ie. letters join, and the positional shapes for a given letter can vary significantly. Vowels are represented by standalone letters and letters are not combined as ligatures or conjuncts. There are no combining marks. Consonant clusters are rendered using conjuncts, and Odia requires context-sensitive shaping and positioning of glyphs. It requires context-sensitive shaping and positioning of glyphs. Baseline. Tonal. Words are not separated using spaces.`,
 unicode: `Unicode 16 has 1 dedicated block, comprising 48 characters.`
 },
 
@@ -1384,8 +1384,8 @@ dates: `CE 8thC – 20thC`,
 status: `Limited usage (liturgical)`,
 lineage: `Phoenician > Aramaic > Brahmi > Gupta > Sharada`,
 siblings: `Siddham, Tibetan, Kalinga, Bhaiksuki`,
-history: `Sharada (<span lang="ks">𑆯𑆳𑆫𑆢𑆳</span>) is a South Asian abugida used in India for Kashmiri and Sanskrit. After widespread use in Kashmir and neighbouring areas, it later became restricted to Kashmir, and is now rarely used, except by the Kashmiri Pandit community for religious purposes.`,
-description: `Sharada requires context-sensitive shaping and positioning of glyphs.`,
+history: `Sharada (<span lang="ks">𑆯𑆳𑆫𑆢𑆳</span>) is a South Asian abugida used in India for Sanskrit and Kashmiri. After widespread use in Kashmir and neighbouring areas, it later became restricted to Kashmir, and is now rarely used, except by the Kashmiri Pandit community for religious purposes (although there is some interest in reviving it).`,
+description: `Sanskrit vowels are written using vowel signs and independent vowels. Kashmiri's additional sounds are represented in more recent Sharada by a set of new dependent vowels, and those are attached to one of 3 existing independent vowel letters to represent standalone vowels. Consonant clusters are typically indicated using a visible virama to the right of the consonant letter, but sometimes Sharada has conjuncts. Two letters are always rendered above the following consonant. It requires context-sensitive shaping and positioning of glyphs.`,
 unicode: `Unicode 16 has 1 dedicated block, comprising 96 characters.`
 },
 
@@ -1584,7 +1584,7 @@ lineage: `Phoenician > Aramaic > Brahmi > Tamil-Brahmi > Pallava > Khmer > Tai Y
 siblings: `Sukhothai, Khom Thai`,
 history: `Tai Yo (or Lai Tay) is a Southeast Asian abugida used in Vietnam for the Tai Yo language. The Lai Tay script is now out of common use, but there are enough manuscripts to allow linguistic study. Some very old Tai Yo scholars can still read the manuscripts, which are preserved in both private and in personal collections. The script is now being taught and studied by the Tai Yo community, with the support of the local government and teachers.`,
 description: `Under the influence of Chinese texts, Tai Yo text is read vertically in columns that run from right to left. Vowel signs generally appear below the base consonant, but some appear to its right in certain contexts. Rendering requires context-sensitive shaping and positioning of glyphs. The script is largely written without punctuation, but may use Chinese punctation marks. There are no tone markers, or numeric digits.`,
-unicode: `Unicode 16 has 1 dedicated block, comprising 55 characters.`,
+unicode: `<strong>Not yet supported by Unicode!</strong> Unicode 17 will have 1 dedicated block, comprising 55 characters.`,
 name:"Tai Yo", local:"", localtrans:"", region:"seasia", countries:"Vietnam", script:"tayo", speakers:U, 
 },
 
@@ -1696,7 +1696,7 @@ lineage: `Invented by Narayan Oraon in 1999.`,
 siblings: ``,
 history: `Tolong Siki is a South Asian monocameral alphabet used in India specifically for the Kurukh language. It was invented by Narayan Oraon in 1988 and formally published in 1999. Books and magazines have been published in Tolong Siki, and it was officially recognized by the state of Jharkhand in 2007. The Kurukh Literary Society of India has been instrumental in spreading the Tolong Siki script for Kurukh literature.`,
 description: `Tolong Siki is read horizontally, left to right. It is a relatively simple alphabet. Vowels are written using letters, with additional signs to indicate vowel length and nasalisation. Vowels and consonants are not shaped as ligatures or conjuncts. There are combining marks, but no ascenders or descenders, so the need for context-sensitive positioning is low. Words are separated using spaces. It has its own set of number digits.`,
-unicode: `Unicode 17 has 1 dedicated block, comprising 54 characters, but several diacritics are sourced from other blocks.`,
+unicode: `<strong>Not yet supported by Unicode!</strong> Unicode 17 will have 1 dedicated block, comprising 54 characters, but several diacritics are sourced from other blocks.`,
 },
 
 
@@ -1840,8 +1840,11 @@ dates: `11thC – today`,
 status: `Limited usage (low uptake)`,
 lineage: `Phoenician > Aramaic > Brahmi > Pallava > Old Kawi > Balinese`,
 siblings: `Balinese, Baybayin scripts, Javanese, Lontara, Makasar, Old Sundanese, Rencong, Rejang`,
-description: `xxx (<span lang="ban">ᬅᬓ᭄ᬱᬭᬩᬮᬶ</span>) is a REGION bicameral abugida/alphabet used in xyz for 102 languages, such as abc. Usage_details. Script_direction. Arabic text is read from right to left, except for numbers. Text is cursive, ie. letters join, and the positional shapes for a given letter can vary significantly. Vowels are represented by standalone letters and letters are not combined as ligatures or conjuncts. There are no combining marks. Consonant clusters are rendered using conjuncts, and Odia requires context-sensitive shaping and positioning of glyphs. It requires context-sensitive shaping and positioning of glyphs. Baseline. Tonal. Words are not separated using spaces. Unicode 16 has 3 dedicated blocks, comprising 726 characters.`
+history: `xxx (<span lang="ban">ᬅᬓ᭄ᬱᬭᬩᬮᬶ</span>) is a REGION bicameral abugida/alphabet used in xyz for 102 languages, such as abc. Usage_details.`
+description: `Script_direction. Arabic text is read from right to left, except for numbers. Text is cursive, ie. letters join, and the positional shapes for a given letter can vary significantly. Vowels are represented by standalone letters and letters are not combined as ligatures or conjuncts. There are no combining marks. Consonant clusters are rendered using conjuncts, and Odia requires context-sensitive shaping and positioning of glyphs. It requires context-sensitive shaping and positioning of glyphs. Baseline. Tonal. Words are not separated using spaces.`
+unicode: `Unicode 16 has 3 dedicated blocks, comprising 726 characters.`
 },
+
 */
 
 
