@@ -10,6 +10,13 @@ Modern Aesthetic: The font combines traditional elements of the Ethiopic script 
 Overall, Abyssinica SIL is a valuable resource for users needing to write in Ethiopian languages, enhancing communication and accessibility.`,
 
 
+"akatab": `Akatab is a monoline typeface developed by SIL International to support languages using the Tifinagh script, such as Tamahaq, Tamashek, and Tawallammat languages. Version 4 was extended to also cover the Neo-Tifinagh characters. The font is designed to reflect a handwriting style and even the “writing in sand” effect.
+This font uses OpenType font technology to meet personal and regional preferences, including the formation of bi-consonant ligatures.
+Akatab has all the necessary characters and technical features to write in both left-to-right and right-to-left directions.
+Latin characters are included for convenience, but not intended for extensive Latin script use.
+Sources: <a target="_blank" href="https://software.sil.org/akatab/">①</a>`,
+
+
 "al bayan": `Al Bayan is a modulated typeface designed primarily for Arabic script, created by the Microsoft type foundry. It is known for its modern and elegant style, making it suitable for both print and digital applications.
 Key Features of Al Bayan:
 Modern Design: Al Bayan features a contemporary aesthetic with clean lines and balanced proportions, which enhances readability and visual appeal.
