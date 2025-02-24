@@ -11,14 +11,14 @@ var spreadsheet = `shrd-ks	key	ipa	ipa+	ipaOther	translit	transc	kbd	class	statu
 𑆜	T	ʈʰ	ɐ		ʈʰ	ṭh		Lo		consonant						U+1119C: SHARADA LETTER TTHA					
 𑆝	d	ɖ	ɐ		ɖ	ḍ		Lo		consonant						U+1119D: SHARADA LETTER DDA					
 𑆞	D	ɖʱ	ɐ		ɖʱ	ḍh		Lo		consonant						U+1119E: SHARADA LETTER DDHA					
-𑆖	c	t͡ɕ	ɐ		t͡ɕ	c		Lo		consonant						U+11196: SHARADA LETTER CA					
-𑆗	C	t͡ɕʰ	ɐ		t͡ɕʰ	ch		Lo		consonant						U+11197: SHARADA LETTER CHA					
+𑆖	c	t͡ɕ	ɐ		t͡ɕ	c		Lo		consonant					tsaṭuv tsa	U+11196: SHARADA LETTER CA					
+𑆗	C	t͡ɕʰ	ɐ		t͡ɕʰ	ch		Lo		consonant					tshvŏtiñ tsha	U+11197: SHARADA LETTER CHA					
 𑆘	j	d͡ʑ	ɐ		d͡ʑ	j		Lo		consonant						U+11198: SHARADA LETTER JA					
 𑆙	J	d͡ʑʰ	ɐ		d͡ʑʰ	jh		Lo		consonant						U+11199: SHARADA LETTER JHA					
 𑆑	k	k	ɐ		k	k		Lo		consonant					kov ka	U+11191: SHARADA LETTER KA					
-𑆒	K	kʰ	ɐ		kʰ	kh		Lo		consonant					khoni kha	U+11192: SHARADA LETTER KHA					
-𑆓	g	ɡ	ɐ		ɡ	g		Lo		consonant						U+11193: SHARADA LETTER GA					
-𑆔	G	ɡʰ	ɐ		ɡʰ	gh		Lo		consonant						U+11194: SHARADA LETTER GHA					
+𑆒	K	kʰ	ɐ		kʰ	kh		Lo		consonant					khŏnĭ kha	U+11192: SHARADA LETTER KHA					
+𑆓	g	ɡ	ɐ		ɡ	g		Lo		consonant					gagar ga	U+11193: SHARADA LETTER GA					
+𑆔	G	ɡʰ	ɐ		ɡʰ	gh		Lo		consonant					gŏsĭ ga	U+11194: SHARADA LETTER GHA					
 𑇃	f	ɸ			ᶠ			Lo		stacked consonant						U+111C3: SHARADA SIGN UPADHMANIYA					
 𑆱	s	s	ɐ		s	s		Lo		consonant						U+111B1: SHARADA LETTER SA					
 𑆯	s	ɕ	ɐ		ɕ	ś		Lo		consonant						U+111AF: SHARADA LETTER SHA					
@@ -28,7 +28,7 @@ var spreadsheet = `shrd-ks	key	ipa	ipa+	ipaOther	translit	transc	kbd	class	statu
 𑇂	x	x			ˣ			Lo		stacked consonant						U+111C2: SHARADA SIGN JIHVAMULIYA					
 𑆲	h	ɦ	ɐ		ɦ	h		Lo		consonant						U+111B2: SHARADA LETTER HA					
 𑆩	m	m	ɐ		m	m		Lo		consonant						U+111A9: SHARADA LETTER MA					
-𑆤	n	n	ɐ		n	n		Lo		consonant						U+111A4: SHARADA LETTER NA					
+𑆤	n	n	ɐ		n	n		Lo		consonant					nārug na	U+111A4: SHARADA LETTER NA					
 𑆚	n	ɲ	ɐ		ɲ	ñ		Lo		consonant						U+1119A: SHARADA LETTER NYA					
 𑆟	n	ɳ	ɐ		ɳ	ṇ		Lo		consonant						U+1119F: SHARADA LETTER NNA					
 𑆕	N	ŋ	ɐ		ŋ	ṅ		Lo		consonant						U+11195: SHARADA LETTER NGA					
@@ -67,7 +67,7 @@ var spreadsheet = `shrd-ks	key	ipa	ipa+	ipaOther	translit	transc	kbd	class	statu
 \u{11B67}	o	ɔː						Mc		dependent vowel	Used for extra vowels for Kashmiri.		𑆃\u{11B67}			U+11B67: SHARADA VOWEL SIGN CANDRA O					
 𑆃\u{11B67}	O	ɔː								independent vowel	Used for extra vowels for Kashmiri.	\u{11B67}				U+11183 U+11B67: SHARADA LETTER A, SHARADA VOWEL SIGN CANDRA O					
 𑆃	A	ɐ			ɐ	a		Lo		independent vowel						U+11183: SHARADA LETTER A					
-𑆳	a	əː		aː	ɐ	a		Mc​		dependent vowel			𑆄			U+111B3: SHARADA VOWEL SIGN AA					
+𑆳	a	aː		aː	ɐ	a		Mc​		dependent vowel			𑆄			U+111B3: SHARADA VOWEL SIGN AA					
 𑆄	A	aː			aː	ā		Lo		independent vowel		𑆳				U+11184: SHARADA LETTER AA					
 𑇎	^				^			Mc​		supplementary vowel sign						U+111CE: SHARADA VOWEL SIGN PRISHTHAMATRA E					
 																					
@@ -134,15 +134,15 @@ var spreadsheet = `shrd-ks	key	ipa	ipa+	ipaOther	translit	transc	kbd	class	statu
 																					
 \u0020	 							Zs		space						U+0020: SPACE					
 																					
-																					
-																					
-																					
-																					
+,	,				,	,		Po		comma						U+002C: COMMA					
+?	?				?	?		Po		question mark						U+003F: QUESTION MARK					
+«	<				«	“		Pi		quotation mark						U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK					
+»	>				»	”		Pf		quotation mark						U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK					
 																					
 																					
 `																					
 																					
-latinPanel = 'aː aːi̯ aːu̯ bʱ dʱ d͡ʑ d͡ʑʰ eː ɡ iː kʰ l̥ l̥̄ l̩ l̩ː oː pʱ r̥ r̥̄ r̩ r̩ː tʱ t͡ɕ t͡ɕʰ uː ñ ö ü ā ē ī ŋ ō ś ū ȫ ɐ ɔ ɔː ɕ ɖ ɖʱ ə əː ɛ ɡ ɡʰ ɦ ɨ ɨː ɪ ɭ ɲ ɳ ɸ ɽ ʂ ʈ ʈʰ ʊ ʋ ḍ ḍh ḷ ṅ ṇ ṣ ṭ ◌̃ ʲ t͡s t͡sʰ'																					
+latinPanel = 'aː aːi̯ aːu̯ bʱ dʱ d͡ʑ d͡ʑʰ eː ɡ iː kʰ l̥ l̥̄ l̩ l̩ː oː pʱ r̥ r̥̄ r̩ r̩ː tʱ t͡ɕ t͡ɕʰ uː ñ ö ü ā ē ī ŋ ō ś ū ȫ ɐ ɔ ɔː ɕ ɖ ɖʱ ə əː ɛ ɡ ɡʰ ɦ ɨ ɨː ɪ ɭ ɲ ɳ ɸ ɽ ʂ ʈ ʈʰ ʊ ʋ ḍ ḍh ḷ ṅ ṇ ṣ ṭ ◌̃ ʲ t͡s t͡sʰ   ŏ ĭ ā ṅ ṇ ñ ṭ ȧ ḍ ĕ ö ḷ ī ś ū ṃ'																					
 																					
 var cols = {																					
 key: 1,																					
