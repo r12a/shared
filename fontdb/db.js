@@ -66,6 +66,7 @@ var fontDB = [
 { name:"Bangla MN",			system:new Set([mac]), locales:new Set(['beng']), style:'serif' },
 { name:"Barnsdall",			system:new Set([other]), locales:new Set(['osge']), style:'serif' },
 { name:"Baskerville",		system:new Set([mac]), locales:new Set(['dsrt']), style:'serif' },
+{ name:"Busra",				system:new Set([sil]), locales:new Set(['khmr']), style:'serif' },
 { name:"Calibri",			system:new Set([win]), locales:new Set(['arab', '...']), style:'serif' },
 { name:"Cambria",			system:new Set([win]), locales:new Set(['latn', 'latn-ha', 'latn-bm', , 'latn-ff', 'latn-afr', 'ipa']), style:'serif' },
 { name:"Charis SIL",		system:new Set([sil]), locales:new Set(['latn', 'latn-ha', 'latn-bm', , 'latn-ff', 'latn-afr', 'ipa', 'germ']), style:'serif' },

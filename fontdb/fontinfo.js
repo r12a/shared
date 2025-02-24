@@ -149,6 +149,12 @@ Sources: <a target="_blank" href="https://fonts.google.com/noto/specimen/Noto+Sa
 "beirut": `Beirut is a contemporary typeface designed primarily for the Arabic script, blending modern design elements with traditional calligraphic influences. It was created to cater to the needs of designers and typographers working with Arabic text. The glyphs have thick strokes, and it has a particularly heavy baseline.`,
 
 
+"busra": `Busra is SIL typeface designed for the Khmer script and released as part of the Mondulkiri project as a replacement for the 'Khmer Busra' font. This is probably the best SIL font for all normal text.
+The font conforms to the latest Khmer Encoding Structure specification (Unicode Technical Note #61). This encoding prevents ambiguity and ensures that any given visual form has only one encoding, which will improve text portability between technical platforms. The font file is only one fifth of the size of the Khmer Busra font.
+The family is named after the Bou Sra waterfall in Mondulkiri Province. It supports most of the Cambodian languages written in the Khmer script.
+Sources: <a target="_blank" href="https://software.sil.org/busra/">①</a>`,
+
+
 "calibri": `Calibri is a monoline (sans-serif) typeface designed by Luc(as) de Groot (Standard Latin, Cyrillic, Greek, and Hebrew), Mamoun Sakkal (Arabic) and Ruben Tarumian (Armenian and Georgian), and released in 2007. It is part of the ClearType Font Collection and was specifically created for Microsoft, becoming the default font for many of its applications, including Microsoft Word and Excel.
 Besides Latin text Calibri was designed to support the scripts Arabic (with a modulated typeface), Armenian, Cyrillic, Georgian, Greek, and Hebrew.
 Calibri has subtle roundings on stems and corners. It features real italics, small caps, and multiple numeral sets. Its proportions allow high impact in tightly set lines of big and small text alike. Calibri’s many curves and the new rasteriser team up in bigger sizes to reveal a warm and soft character.
