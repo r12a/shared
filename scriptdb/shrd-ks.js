@@ -23,8 +23,9 @@ var spreadsheet = `shrd-ks	key	ipa	ipa+	ipaOther	translit	transc	kbd	class	statu
 𑆱	s	s	ɐ		s	s		Lo		consonant						U+111B1: SHARADA LETTER SA					
 𑆯	s	ɕ	ɐ		ɕ	ś		Lo		consonant						U+111AF: SHARADA LETTER SHA					
 𑆰	s	ʂ	ɐ		ʂ	ṣ		Lo		consonant						U+111B0: SHARADA LETTER SSA					
-𑆘𑇊	z	z	ɐ		z	z				extended consonant	For Kashmiri.										
-𑆖𑇊	t	t͡s	ɐ			ts				extended consonant	For Kashmiri.										
+𑆘𑇊	z	z	ɐ		z	z				extended consonant	For Kashmiri.					U+11198 U+111CA: SHARADA LETTER JA, SIGN NUKTA					
+𑆖𑇊	t	t͡s	ɐ		ʦ	ts				extended consonant	For Kashmiri.					U+11196 U+111CA: SHARADA LETTER CA, SIGN NUKTA					
+𑆗𑇊	t	t͡sʰ	ɐ		ʦʰ	tsh				extended consonant	For Kashmiri.					U+11197 U+111CA: SHARADA LETTER CHA, SIGN NUKTA					
 𑇂	x	x			ˣ			Lo		stacked consonant						U+111C2: SHARADA SIGN JIHVAMULIYA					
 𑆲	h	ɦ	ɐ		ɦ	h		Lo		consonant						U+111B2: SHARADA LETTER HA					
 𑆩	m	m	ɐ		m	m		Lo		consonant						U+111A9: SHARADA LETTER MA					
