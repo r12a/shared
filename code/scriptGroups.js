@@ -277,7 +277,7 @@ var scriptGroups = [
 [92880,92927,"Bassa Vah","bass","bass"],
 [92928,93071,"Pahawh Hmong","hmng",""],
 [93504,93567,"Kirat Rai","krai","krai"],
-[93760,93855,"Medefaidrin","mede",""],
+[93760,93855,"Medefaidrin","medf",""],
 [93952,94111,"Miao","plrd","plrd"],
 [94176,94207,"Ideographic Symbols and Punctuation","hani",""],
 [94208,100351,"Tangut","tang",""],
