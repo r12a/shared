@@ -67,15 +67,16 @@ var spreadsheet = `mlym-ml	key	ipa	ipa+	translit	iso	kbd	class	status	type	usage
 ഝ	J	ɟʰ	a	jʰ	jh		Lo		consonant						U+0D1D: MALAYALAM LETTER JHA	✓
 ക	k	k	a	k	k		Lo		consonant						U+0D15: MALAYALAM LETTER KA	✓
 ഖ	K	kʰ	a	kʰ	kh		Lo		consonant						U+0D16: MALAYALAM LETTER KHA	✓
+ക്ഷ		kʂ	a	kʂ	kʂ				digraph						U+0D15 U+0D4D U+0D37: MALAYALAM LETTER KA, SIGN VIRAMA, LETTER SSA	
 ഗ	g	ɡ	a	g	g		Lo		consonant						U+0D17: MALAYALAM LETTER GA	✓
 ഘ	G	ɡʰ	a	gʰ	gh		Lo		consonant						U+0D18: MALAYALAM LETTER GHA	✓
-ശ	s	ɕ ʃ	a	ʃ	ś		Lo		consonant						U+0D36: MALAYALAM LETTER SHA	✓
+ശ	s	ɕ~ʃ	a	ʃ	ś		Lo		consonant						U+0D36: MALAYALAM LETTER SHA	✓
 ഷ	s	ʂ	a	ʂ	ṣ		Lo		consonant						U+0D37: MALAYALAM LETTER SSA	✓
 സ	s¶	s	a	s	s		Lo		consonant						U+0D38: MALAYALAM LETTER SA	✓
 ഹ	h	ɦ	a	h	h		Lo		consonant						U+0D39: MALAYALAM LETTER HA	✓
 മ	m	m	a	m	m		Lo		consonant						U+0D2E: MALAYALAM LETTER MA	✓
 ഩ	n	n	a	ṅ	ṉ		Lo	a	consonant						U+0D29: MALAYALAM LETTER NNNA	✓
-ന	n¶	n̪ n	a	n	n		Lo		consonant						U+0D28: MALAYALAM LETTER NA	✓
+ന	n¶	n̪~n	a	n	n		Lo		consonant						U+0D28: MALAYALAM LETTER NA	✓
 ഞ	n	ɲ	a	ɲ	ñ		Lo		consonant						U+0D1E: MALAYALAM LETTER NYA	✓
 ണ	n	ɳ	a	ɳ	ṇ		Lo		consonant						U+0D23: MALAYALAM LETTER NNA	✓
 ങ	N	ŋ	a	ŋ	ṅ		Lo		consonant						U+0D19: MALAYALAM LETTER NGA	✓
@@ -163,9 +164,9 @@ var spreadsheet = `mlym-ml	key	ipa	ipa+	translit	iso	kbd	class	status	type	usage
 ꠲				–			No	a	fraction						U+A832: NORTH INDIC FRACTION THREE QUARTERS	
 ൹							So	r	date sign	Usage is fading.					U+0D79: MALAYALAM DATE MARK	✓
 																
-ൔ				–			Lo		chillu consonant						U+0D54: MALAYALAM LETTER CHILLU M	
-ൕ				–			Lo		chillu consonant						U+0D55: MALAYALAM LETTER CHILLU Y	
-ൖ				–			Lo		chillu consonant						U+0D56: MALAYALAM LETTER CHILLU LLL	
+ൔ		m		–			Lo		chillu consonant						U+0D54: MALAYALAM LETTER CHILLU M	
+ൕ		j		–			Lo		chillu consonant						U+0D55: MALAYALAM LETTER CHILLU Y	
+ൖ		l?		–			Lo		chillu consonant						U+0D56: MALAYALAM LETTER CHILLU LLL	
 `																
 																
 latinPanel = 'aː ā ai̯ au̯ bʰ ɕ ɖ ḍ ɖʰ ḍh d̪d̪d̪ d̪ʰ eː ē gʰ ɦ iː ī ɨ ɟ ɟʰ kʰ ɭ, ḷ ḻ l̥̣ l̥̣̄ l̥ l̥̄ ŋ ṅ ɲ ñ ɳ ṇ n̪ ṉ oː ō pʰ r̪ ṟ ɻ r̥̣ r̥̣̄ r̥ r̥̄ ʃ ś ʂ ṣ ʧ ʧʰ ʈ ṭ ʈʰ ṭh t̪ t̪ʰ ṯ ṯṯ uː ū ʋ'																
