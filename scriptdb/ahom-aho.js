@@ -3,10 +3,10 @@ var spreadsheet = `ahom-aho	key	ipa	ipa+		translit	transc	kbd	class	status	type	
 𑜆	p	p	a		p	p		Lo		consonant				U+11706: AHOM LETTER PA	
 𑜇	P	pʰ	a		pʰ	ph		Lo		consonant				U+11707: AHOM LETTER PHA	
 𑜈	b	b	a		b	b		Lo		consonant				U+11708: AHOM LETTER BA	
-𑜚	b	b	a		b	b		Lo		alternate consonant	Alternative shape, typically used as a composite vowel component.			U+1171A: AHOM LETTER ALTERNATE BA	
+𑜚	b	b	a		B	b		Lo		alternate consonant	Alternative shape, typically used as a composite vowel component.			U+1171A: AHOM LETTER ALTERNATE BA	
 𑜘	B	bʱ	a		bʱ	bh		Lo		consonant				U+11718: AHOM LETTER BHA	
 𑜄	t	t	a		t	t		Lo		consonant				U+11704: AHOM LETTER TA	
-𑜅	t	t	a		t	t		Lo		consonant				U+11705: AHOM LETTER ALTERNATE TA	
+𑜅	t	t	a		T	t		Lo		consonant				U+11705: AHOM LETTER ALTERNATE TA	
 𑜌	T	tʰ	a		tʰ	th		Lo		consonant	Alternative shape, used for ligatures (maybe more).			U+1170C: AHOM LETTER THA	
 𑜓	d	d	a		d	d		Lo		consonant				U+11713: AHOM LETTER DA	
 𑜔	D	dʱ	a		dʱ	ḍh		Lo		consonant				U+11714: AHOM LETTER DHA	
@@ -21,7 +21,7 @@ var spreadsheet = `ahom-aho	key	ipa	ipa+		translit	transc	kbd	class	status	type	
 𑜀	k	k	a		k	k		Lo		consonant				U+11700: AHOM LETTER KA	
 𑜁	K	kʰ	a		kʰ	kh		Lo		consonant				U+11701: AHOM LETTER KHA	
 𑜕	g	ɡ	a		ɡ	g		Lo		consonant				U+11715: AHOM LETTER GA	
-𑜖	g	ɡ	a		ɡ	g		Lo		alternate consonant	Alternative shape.			U+11716: AHOM LETTER ALTERNATE GA	
+𑜖	g	ɡ	a		G	g		Lo		alternate consonant	Alternative shape.			U+11716: AHOM LETTER ALTERNATE GA	
 𑜗	G	ɡʱ	a		ɡʱ	gh		Lo		consonant				U+11717: AHOM LETTER GHA	
 𑜏	s	s	a		s	s		Lo		consonant				U+1170F: AHOM LETTER SA	
 𑜑	h	h	a		h	h		Lo		consonant				U+11711: AHOM LETTER HA	
@@ -39,8 +39,8 @@ var spreadsheet = `ahom-aho	key	ipa	ipa+		translit	transc	kbd	class	status	type	
 															
 𑜢	i	i			i	i		Mn​		vowel	Used in closed syllables.		tang	U+11722: AHOM VOWEL SIGN I	
 𑜣	I	iː			iː	ii		Mn​		vowel			tang khat	U+11723: AHOM VOWEL SIGN II	
-𑜢𑜤	w	ɯ			iu					vowel				U+11722 U+11724 AHOM VOWEL SIGN I​, VOWEL SIGN U	
-𑜢𑜤𑜚𑜫	w	ɯː			iub͞					vowel			tang tu waa saat	U+11722 U+11724 U+1171A U+1172B: AHOM VOWEL SIGN I, VOWEL SIGN U, LETTER ALTERNATE BA, SIGN KILLER	
+𑜢𑜤	w	ɯ								vowel				U+11722 U+11724 AHOM VOWEL SIGN I​, VOWEL SIGN U	
+𑜢𑜤𑜚𑜫	w	ɯː								vowel			tang tu waa saat	U+11722 U+11724 U+1171A U+1172B: AHOM VOWEL SIGN I, VOWEL SIGN U, LETTER ALTERNATE BA, SIGN KILLER	
 𑜤	u	u			u	u		Mn​		vowel	Used in closed syllables.		saa tu	U+11724: AHOM VOWEL SIGN U	
 𑜥	U	uː			uː	uu		Mn​		vowel			sawng saa tu	U+11725: AHOM VOWEL SIGN UU	
 𑜦	e	e			e	e		Mc​		vowel			teu khaw	U+11726: AHOM VOWEL SIGN E	
