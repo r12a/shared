@@ -24,7 +24,7 @@ var spreadsheet = `gujr-gu	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ફ	f	f	ə	f	ph	H	Lo		consonant						U+0AAB: GUJARATI LETTER PHA		✓
 સ	s¶	s	ə	s	s	m	Lo		consonant						U+0AB8: GUJARATI LETTER SA		✓
 ષ	s	ʃ	ə	ʃ	ṣ	,	Lo		consonant						U+0AB7: GUJARATI LETTER SSA		✓
-શ	c	ɕ ʃ	ə	ɕ	ś	M	Lo		consonant						U+0AB6: GUJARATI LETTER SHA		✓
+શ	c	ʃ ɕ	ə	ɕ	ś	M	Lo		consonant						U+0AB6: GUJARATI LETTER SHA		✓
 હ	h	ɦ	ə	h	h	u	Lo		consonant						U+0AB9: GUJARATI LETTER HA		✓
 ઃ	h	-h		h̽	ḥ	-	Mc		visarga					visarga	U+0A83: GUJARATI SIGN VISARGA		✓
 મ	m	m	ə	m	m	c	Lo		consonant						U+0AAE: GUJARATI LETTER MA		✓
@@ -34,9 +34,9 @@ var spreadsheet = `gujr-gu	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ઙ	N	ŋ	ə	ŋ	ṅ	U	Lo		consonant						U+0A99: GUJARATI LETTER NGA		✓
 વ	v	w ʋ	ə	ʋ	v	b	Lo		consonant						U+0AB5: GUJARATI LETTER VA		✓
 ર	r	r	ə	r	r	j	Lo		consonant						U+0AB0: GUJARATI LETTER RA		✓
-ૃ	R	ru		r̥	r̥	=	Mn		dependent vocalic			ઋ			U+0AC3: GUJARATI VOWEL SIGN VOCALIC R		✓
+ૃ	R	rʊ		r̥	r̥	=	Mn		dependent vocalic			ઋ			U+0AC3: GUJARATI VOWEL SIGN VOCALIC R		✓
+ઋ	R	rʊ		r̥̣	r̥	+	Lo		independent vocalic		ૃ				U+0A8B: GUJARATI LETTER VOCALIC R		✓
 ૄ	R			r̥̄	r̥̄		Mn		dependent vocalic			ૠ			U+0AC4: GUJARATI VOWEL SIGN VOCALIC RR		✓
-ઋ	R	ru		r̥̣	r̥	+	Lo		independent vocalic		ૃ				U+0A8B: GUJARATI LETTER VOCALIC R		✓
 ૠ	R			r̥̣̄	r̥̄		Lo		independent vocalic		ૄ				U+0AE0: GUJARATI LETTER VOCALIC RR		✓
 લ	l	l	ə	l	l	n	Lo		consonant						U+0AB2: GUJARATI LETTER LA		✓
 ળ	l	ɭ	ə	ɭ	ḷ	N	Lo		consonant						U+0AB3: GUJARATI LETTER LLA		✓
@@ -75,6 +75,14 @@ var spreadsheet = `gujr-gu	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ઁ				[	m̐	X	Mn	?							U+0A81: GUJARATI SIGN CANDRABINDU		✓
 ૐ							Lo								U+0AD0: GUJARATI OM		✓
 ૱							Sc								U+0AF1: GUJARATI RUPEE SIGN		✓
+																	
+ૺ							Mn​	u	diacritic	Used for arabic transliteration.					U+0AFA: GUJARATI SIGN SUKUN		
+ૻ							Mn​	u	diacritic	Used for arabic transliteration.					U+0AFB: GUJARATI SIGN SHADDA		
+ૼ							Mn​	u	diacritic	Used for arabic transliteration.					U+0AFC: GUJARATI SIGN MADDAH		
+૽							Mn​	u	diacritic	Used for arabic transliteration.					U+0AFD: GUJARATI SIGN THREE-DOT NUKTA ABOVE		
+૾							Mn​	u	diacritic	Used for arabic transliteration.					U+0AFE: GUJARATI SIGN CIRCLE NUKTA ABOVE		
+૿							Mn​	u	diacritic	Used for arabic transliteration.					U+0AFF: GUJARATI SIGN TWO-CIRCLE NUKTA ABOVE		
+ૹ		ʒ					Lo	u	letter	Used for avestan transliteration.					U+0AF9: GUJARATI LETTER ZHA		
 																	
 ʼ				ʼ	ʼ		Lm	?	apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE		
 -	-			-	-		Pd		hyphen						U+2010: HYPHEN		
