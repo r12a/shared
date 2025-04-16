@@ -309,7 +309,7 @@ function showNameDetails (chars, clang, base, target, panel, list, translit, ipa
                     out += `<a href="javascript:void(0);"
                         onclick="
                             document.getElementById('notesDisplayIframe').style.display = 'block'; 
-                            document.getElementById('notesDisplayIframe').src = '../../scripts/${ blockfile }/character.html?q=${ charArray[c] }&amp;showX';
+                            document.getElementById('notesDisplayIframe').src = '../../scripts/${ blockfile }/character.html?q=${ charArray[c] }&amp;showX#${ factoryDefaults.language }';
                             "
                         > U+${ hex } ${ charData[charArray[c]] }</a>`
                     console.log('blockfile',factoryDefaults.language )
