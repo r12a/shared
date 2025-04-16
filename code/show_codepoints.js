@@ -275,19 +275,15 @@ function showNameDetails (chars, clang, base, target, panel, list, translit, ipa
                 // out += `<span style="display:inline-block; font-size:1.5rem; min-width: 2rem;">${ charArray[c] }</span>`
                 
                 // copy character to clipboard
-                out += `<img title="Copy U+${ hex } ${ charData[charArray[c]] } to clipboard." onclick="copyCharToClipboard('U+${ hex } ${ charData[charArray[c]] }'); 
-                    document.getElementById('copyNotice').style.display = 'block';
-                    setTimeout(() => { document.getElementById('copyNotice').style.display = 'none' }, '500')" 
+                out += `<img title="Copy U+${ hex } ${ charData[charArray[c]] } to clipboard." onclick="copyCharToClipboard('U+${ hex } ${ charData[charArray[c]] }');" 
                 src="../../pickers/shared29/images/toprow/copytiny.svg" 
-                style="float:right; height: 1.5em; border:0; border-radius:unset; margin-inline:.4em;" alt="Copy" 
+                style="float:right; height: 1rem; border:0; border-radius:unset; margin-inline:.4em;" alt="Copy" 
                 onmouseover="showMenuText(this.title,'tan');" onmouseout="hideMenuText()">`
                 
                 // copy character name to clipboard
-                out += `<img title="Copy ${ charArray[c] } to clipboard." onclick="copyCharToClipboard('${ charArray[c] }'); 
-                    document.getElementById('copyNotice').style.display = 'block';
-                    setTimeout(() => { document.getElementById('copyNotice').style.display = 'none' }, '500')" 
+                out += `<img title="Copy ${ charArray[c] } to clipboard." onclick="copyCharToClipboard('${ charArray[c] }');" 
                 src="../../pickers/shared29/images/toprow/copytiny.svg" 
-                style="float:right; height: 1.5em; border:0; border-radius:unset;" alt="Copy" 
+                style="float:right; height: 1rem; border:0; border-radius:unset;" alt="Copy" 
                 onmouseover="showMenuText(this.title,'tan');" onmouseout="hideMenuText()">`
                 
                 out += `<img class="pcImg" src="../../c/${ getScriptGroup(dec, false) }/large/${ hex }.png" alt="${ charArray[c] }" style="height:2rem;">`
