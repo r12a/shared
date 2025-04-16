@@ -145,7 +145,8 @@ return str.trim()
 
 
 function showNameDetails (chars, clang, base, target, panel, list, translit, ipa) {
-    if (traceSet.has('showNameDetails')) console.log('showNameDetails (',chars, clang, base, target, panel, list, translit, ipa,')\n\tGet the list of characters for an example and display their names')
+    //console.log('showNameDetails (',chars, clang, base, target, panel, list, translit, ipa,')\n\tGet the list of characters for an example and display their names')
+    
     // called by onclick created by shownames_setOnclick & shownames_setImgOnclick & listAll
     // chars (string), alt text of example
     // clang (string), lang attribute value of example img
@@ -272,7 +273,24 @@ function showNameDetails (chars, clang, base, target, panel, list, translit, ipa
 				//out += `<a target="${ target }" href="`
                 // undoing this change which put characters in the list because imgs are needed in order to make the list to copy to clipboard
                 // out += `<span style="display:inline-block; font-size:1.5rem; min-width: 2rem;">${ charArray[c] }</span>`
-                out += `<img src="../../c/${ getScriptGroup(dec, false) }/large/${ hex }.png" alt="${ charArray[c] }" style="height:2rem;">`
+                
+                // copy character to clipboard
+                out += `<img title="Copy U+${ hex } ${ charData[charArray[c]] } to clipboard." onclick="copyCharToClipboard('U+${ hex } ${ charData[charArray[c]] }'); 
+                    document.getElementById('copyNotice').style.display = 'block';
+                    setTimeout(() => { document.getElementById('copyNotice').style.display = 'none' }, '500')" 
+                src="../../pickers/shared29/images/toprow/copytiny.svg" 
+                style="float:right; height: 1.5em; border:0; border-radius:unset; margin-inline:.4em;" alt="Copy" 
+                onmouseover="showMenuText(this.title,'tan');" onmouseout="hideMenuText()">`
+                
+                // copy character name to clipboard
+                out += `<img title="Copy ${ charArray[c] } to clipboard." onclick="copyCharToClipboard('${ charArray[c] }'); 
+                    document.getElementById('copyNotice').style.display = 'block';
+                    setTimeout(() => { document.getElementById('copyNotice').style.display = 'none' }, '500')" 
+                src="../../pickers/shared29/images/toprow/copytiny.svg" 
+                style="float:right; height: 1.5em; border:0; border-radius:unset;" alt="Copy" 
+                onmouseover="showMenuText(this.title,'tan');" onmouseout="hideMenuText()">`
+                
+                out += `<img class="pcImg" src="../../c/${ getScriptGroup(dec, false) }/large/${ hex }.png" alt="${ charArray[c] }" style="height:2rem;">`
                 
                 // FOR ORTHOGRAPHY NOTES
                 if (document.querySelector('.useBlockExamples')) {
@@ -286,8 +304,18 @@ function showNameDetails (chars, clang, base, target, panel, list, translit, ipa
                     }
 
                 // FOR PICKERS
-                else if (location.toString().includes('picker')) {
+                /*else if (location.toString().includes('picker')) {
                     out += `<a target="c" href="../../scripts/${ blockfile }/${ factoryDefaults.language }-characters.html#char${ hex }"> U+${ hex } ${ charData[charArray[c]] }</a>`
+                    console.log('blockfile',factoryDefaults.language )
+                    }*/
+
+                else if (location.toString().includes('picker')) {
+                    out += `<a href="javascript:void(0);"
+                        onclick="
+                            document.getElementById('notesDisplayIframe').style.display = 'block'; 
+                            document.getElementById('notesDisplayIframe').src = '../../scripts/${ blockfile }/character.html?q=${ charArray[c] }&amp;showX';
+                            "
+                        > U+${ hex } ${ charData[charArray[c]] }</a>`
                     console.log('blockfile',factoryDefaults.language )
                     }
 
@@ -343,7 +371,7 @@ function showNameDetails (chars, clang, base, target, panel, list, translit, ipa
     
     if (typeof window.removeVowels === 'function') chars = removeVowels(chars)
 
-    out += `<button onclick="openExportWindow('${ url }.html?q=${ chars }')">Terms</button> \u00A0 `
+    out += `<button onclick="openExportWindow('${ url }?q=${ chars }')">Terms</button> \u00A0 `
 	
 
 
@@ -412,22 +440,10 @@ function openExportWindow (url) {
 	analyse.focus()
 	}
 
-function copyPanelListX () {
-    var lines = document.getElementById('listOfCharacters').querySelectorAll('.panelCharacter')
-    var imgs = document.getElementById('listOfCharacters').querySelectorAll('img')
-    var out = ''
-    for (var i=0;i<lines.length;i++) out += imgs[i].alt+' '+lines[i].textContent
-	var node = document.getElementById('panelCopyField')
-    node.value = out
-	node.focus()
-	document.execCommand('selectAll')
-	document.execCommand('copy')
-	}
-
 
 function copyPanelList () {
     var lines = document.getElementById('listOfCharacters').querySelectorAll('.panelCharacter')
-    var imgs = document.getElementById('listOfCharacters').querySelectorAll('img')
+    var imgs = document.getElementById('listOfCharacters').querySelectorAll('.pcImg')
     var out = ''
     for (var i=0;i<lines.length;i++) {
         //console.log(imgs[i])
@@ -441,18 +457,6 @@ function copyPanelList () {
       }, '500')
 	}
 
-
-function copyPanelTextX (type) {
-    var text = document.getElementById('ruby').querySelectorAll(type)
-    var out = ''
-    for (var i=0;i<text.length;i++) out += text[i].textContent
-    if (type === '.IPAGloss') out = out.replace(/–/g,'').replace(/‹/g,'').replace(/›/g,'')
-	var node = document.getElementById('panelCopyField')
-    node.value = out
-	node.focus()
-	document.execCommand('selectAll')
-	document.execCommand('copy')
-	}
 
 
 function copyPanelText (type) {
@@ -696,7 +700,7 @@ function printDetails (char) {
 function showCharDetailsInPanel (evt) {
 	var lang, chars, insetPoint, panel, table, ipaNodes
     
-    //console.log('Event:',evt.target.textContent)
+    //console.log('showCharDetailsInPanel in show_codepoints, Event:',evt.target.textContent)
 	if (typeof charDetails === 'undefined') return
 
 	// find the language
