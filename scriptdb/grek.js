@@ -144,7 +144,7 @@ var spreadsheet = `grek-el	key	ipa	ipa+	ipaOther	translit	transc	kbd	class	statu
 ”	>				”	”		Pf		quotation mark						U+201D: RIGHT DOUBLE QUOTATION MARK	✓
 ’	>				’	’		Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
 ʼ					ʼ	ʼ		Lm	?	apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
-																	
+\u0020	 				 			Zs		space						U+0020: SPACE	
 \u0374								Lm	d	additive numbering indicator						U+0374 GREEK NUMERAL SIGN	
 `																	
 																	
