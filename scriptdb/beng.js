@@ -1,50 +1,4 @@
 var spreadsheet = `beng-bn	key	ipa	ipa+	translit	iso	kbd	class	status	type	usage	vsign	ivowel	decomp	nname	name	ucs name	radice	block
-০	±	•		0̣	0	0	Nd		digit						sɪfar	U+09E6: BENGALI DIGIT ZERO		✓
-১	±	•		1̣	1	1	Nd		digit						æk	U+09E7: BENGALI DIGIT ONE		✓
-২	±	•		2̣	2	2	Nd		digit						dui	U+09E8: BENGALI DIGIT TWO		✓
-৩	±	•		3̣	3	3	Nd		digit						tin	U+09E9: BENGALI DIGIT THREE		✓
-৪	±	•		4̣	4	4	Nd		digit						car	U+09EA: BENGALI DIGIT FOUR		✓
-৫	±	•		5̣	5	5	Nd		digit						pãc	U+09EB: BENGALI DIGIT FIVE		✓
-৬	±	•		6̣	6	6	Nd		digit						chɔy	U+09EC: BENGALI DIGIT SIX		✓
-৭	±	•		7̣	7	7	Nd		digit						sat	U+09ED: BENGALI DIGIT SEVEN		✓
-৮	±	•		8̣	8	8	Nd		digit						aʈ	U+09EE: BENGALI DIGIT EIGHT		✓
-৯	±	•		9̣	9	9	Nd		digit						nɔy	U+09EF: BENGALI DIGIT NINE		✓
-–	–			–	–		Pd	?	en dash							U+2013: EN DASH		✓
-—	—			—	—		Pd	?	em dash							U+2014: EM DASH		✓
-,	,			,	,		Po		comma							U+002C: COMMA		✓
-;	;			;	;		Po		semicolon							U+003B: SEMICOLON		✓
-ঽ	:			ː			Lo		vowel lengthener							U+09BD: BENGALI SIGN AVAGRAHA		✓
-ৗ	:			ː		:	Mc	d	length mark							U+09D7: BENGALI AU LENGTH MARK		✓
-:	:			:	:		Po		colon							U+003A: COLON		✓
-!	!			!	!		Po		exclamation mark							U+0021: EXCLAMATION MARK		✓
-?	?			?	?		Po		question mark							U+003F: QUESTION MARK		✓
-.	.			.	.		Po		full stop							U+002E: FULL STOP		✓
-…	.			…	…		Po	?	ellipsis							U+2026: HORIZONTAL ELLIPSIS		✓
-(	(			(	(		Ps		parenthesis							U+0028: LEFT PARENTHESIS		✓
-)	)			)	)		Pe		parenthesis							U+0029: RIGHT PARENTHESIS		✓
-৺	[			⁑			So		death symbol							U+09FA: BENGALI ISSHAR		✓
-্	*			͞		d	Mn		virama					হসন্ত	hɔʃonto	U+09CD: BENGALI SIGN VIRAMA		✓
-়	/			ˑ		]	Mn		nukta						nukta	U+09BC: BENGALI SIGN NUKTA		✓
-\u200C	\=			ₓ			Cf		zero-width non-joiner							U+200C: ZERO WIDTH NON-JOINER		
-\u200D	\=			₊			Cf		zero-width joiner							U+200D: ZERO WIDTH JOINER		
-\u034F	\=			ᶜᵍʲ			Mn	?	combining grapheme joiner							U+034F: COMBINING GRAPHEME JOINER		
-৻				–			Sc	u								U+09FB: BENGALI GANDA MARK		
-৳	#			¤			Sc		rupee sign	 						U+09F3: BENGALI RUPEE SIGN		✓
-৲	#			¢			Sc	u	rupee mark							U+09F2: BENGALI RUPEE MARK		✓
-৴	#			{CN1}			No	a	currency numerator							U+09F4: BENGALI CURRENCY NUMERATOR ONE		✓
-৵	#			{CN2}			No	a	currency numerator							U+09F5: BENGALI CURRENCY NUMERATOR TWO		✓
-৶	#			{CN3}			No	a	currency numerator							U+09F6: BENGALI CURRENCY NUMERATOR THREE		✓
-৷	#			{CN4}			No	a	currency numerator							U+09F7: BENGALI CURRENCY NUMERATOR FOUR		✓
-৸	#			{CN5}			No	a	currency numerator							U+09F8: BENGALI CURRENCY NUMERATOR ONE LESS THAN THE DENOMINATOR		✓
-৹	#			{CN6}			No	a	currency numerator							U+09F9: BENGALI CURRENCY DENOMINATOR SIXTEEN		✓
-৽	+			¨			Po	?	abbreviation marker							U+09FD: BENGALI ABBREVIATION SIGN		✓
-“	<			“	“		Pi		quotation mark							U+201C: LEFT DOUBLE QUOTATION MARK		✓
-‘	<			\‘	\‘		Pi		quotation mark							U+2018: LEFT SINGLE QUOTATION MARK		✓
-”	>			”	”		Pf		quotation mark							U+201D: RIGHT DOUBLE QUOTATION MARK		✓
-’	>			\’	\’		Pf		quotation mark							U+2019: RIGHT SINGLE QUOTATION MARK		✓
-।	|			|	.	.	Po		danda							U+0964: DEVANAGARI DANDA	.	✓
-॥	|			¶		¶	Po		double danda							U+0965: DEVANAGARI DOUBLE DANDA		✓
-ঁ	m	̃		˜	ṃ	X	Mn		vowel nasalisation marker					চন্দ্রবিন্দু	t͡ʃɔndrobindu	U+0981: BENGALI SIGN CANDRABINDU		✓
 																		
 প	p	p	ɔ o	p	p	h	Lo		consonant						pɔ	U+09AA: BENGALI LETTER PA	p	✓
 ফ	P	PF Pʰ F	ɔ o	pʰ	PH	H	Lo		consonant						phɔ	U+09AB: BENGALI LETTER PHA	PH	✓
@@ -121,12 +75,53 @@ var spreadsheet = `beng-bn	key	ipa	ipa+	translit	iso	kbd	class	status	type	usage
 া	a	a æ		ɑ	ā	e	Mc		vowel sign			আ			a-kar	U+09BE: BENGALI VOWEL SIGN AA	a	✓
 আ	A	A		ɑ̣	Ā	E	Lo		independent vowel		া				a-kar	U+0986: BENGALI LETTER AA	Ā	✓
 																		
+০	±	•		0̣	0	0	Nd		digit						sɪfar	U+09E6: BENGALI DIGIT ZERO		✓
+১	±	•		1̣	1	1	Nd		digit						æk	U+09E7: BENGALI DIGIT ONE		✓
+২	±	•		2̣	2	2	Nd		digit						dui	U+09E8: BENGALI DIGIT TWO		✓
+৩	±	•		3̣	3	3	Nd		digit						tin	U+09E9: BENGALI DIGIT THREE		✓
+৪	±	•		4̣	4	4	Nd		digit						car	U+09EA: BENGALI DIGIT FOUR		✓
+৫	±	•		5̣	5	5	Nd		digit						pãc	U+09EB: BENGALI DIGIT FIVE		✓
+৬	±	•		6̣	6	6	Nd		digit						chɔy	U+09EC: BENGALI DIGIT SIX		✓
+৭	±	•		7̣	7	7	Nd		digit						sat	U+09ED: BENGALI DIGIT SEVEN		✓
+৮	±	•		8̣	8	8	Nd		digit						aʈ	U+09EE: BENGALI DIGIT EIGHT		✓
+৯	±	•		9̣	9	9	Nd		digit						nɔy	U+09EF: BENGALI DIGIT NINE		✓
+–	–			–	–		Pd	?	en dash							U+2013: EN DASH		✓
+—	—			—	—		Pd	?	em dash							U+2014: EM DASH		✓
+,	,			,	,		Po		comma							U+002C: COMMA		✓
+;	;			;	;		Po		semicolon							U+003B: SEMICOLON		✓
+ঽ	:			ː			Lo		vowel lengthener							U+09BD: BENGALI SIGN AVAGRAHA		✓
+ৗ	:			ː		:	Mc	d	length mark							U+09D7: BENGALI AU LENGTH MARK		✓
+:	:			:	:		Po		colon							U+003A: COLON		✓
+!	!			!	!		Po		exclamation mark							U+0021: EXCLAMATION MARK		✓
+?	?			?	?		Po		question mark							U+003F: QUESTION MARK		✓
+.	.			.	.		Po		full stop							U+002E: FULL STOP		✓
+…	.			…	…		Po	?	ellipsis							U+2026: HORIZONTAL ELLIPSIS		✓
+(	(			(	(		Ps		parenthesis							U+0028: LEFT PARENTHESIS		✓
+)	)			)	)		Pe		parenthesis							U+0029: RIGHT PARENTHESIS		✓
+৺	[			⁑			So		death symbol							U+09FA: BENGALI ISSHAR		✓
+্	*			͞		d	Mn		virama					হসন্ত	hɔʃonto	U+09CD: BENGALI SIGN VIRAMA		✓
+়	/			ˑ		]	Mn		nukta						nukta	U+09BC: BENGALI SIGN NUKTA		✓
+\u200C	\=			ₓ			Cf		zero-width non-joiner							U+200C: ZERO WIDTH NON-JOINER		
+\u200D	\=			₊			Cf		zero-width joiner							U+200D: ZERO WIDTH JOINER		
+\u034F	\=			ᶜᵍʲ			Mn	?	combining grapheme joiner							U+034F: COMBINING GRAPHEME JOINER		
+৻				–			Sc	u								U+09FB: BENGALI GANDA MARK		
+৳	#			¤			Sc		rupee sign	 						U+09F3: BENGALI RUPEE SIGN		✓
+৲	#			¢			Sc	u	rupee mark							U+09F2: BENGALI RUPEE MARK		✓
+৴	#			{CN1}			No	a	currency numerator							U+09F4: BENGALI CURRENCY NUMERATOR ONE		✓
+৵	#			{CN2}			No	a	currency numerator							U+09F5: BENGALI CURRENCY NUMERATOR TWO		✓
+৶	#			{CN3}			No	a	currency numerator							U+09F6: BENGALI CURRENCY NUMERATOR THREE		✓
+৷	#			{CN4}			No	a	currency numerator							U+09F7: BENGALI CURRENCY NUMERATOR FOUR		✓
+৸	#			{CN5}			No	a	currency numerator							U+09F8: BENGALI CURRENCY NUMERATOR ONE LESS THAN THE DENOMINATOR		✓
+৹	#			{CN6}			No	a	currency numerator							U+09F9: BENGALI CURRENCY DENOMINATOR SIXTEEN		✓
+৽	+			¨			Po	?	abbreviation marker							U+09FD: BENGALI ABBREVIATION SIGN		✓
+“	<			“	“		Pi		quotation mark							U+201C: LEFT DOUBLE QUOTATION MARK		✓
+‘	<			\‘	\‘		Pi		quotation mark							U+2018: LEFT SINGLE QUOTATION MARK		✓
+”	>			”	”		Pf		quotation mark							U+201D: RIGHT DOUBLE QUOTATION MARK		✓
+’	>			\’	\’		Pf		quotation mark							U+2019: RIGHT SINGLE QUOTATION MARK		✓
+।	|			|	.	.	Po		danda							U+0964: DEVANAGARI DANDA	.	✓
+॥	|			¶		¶	Po		double danda							U+0965: DEVANAGARI DOUBLE DANDA		✓
+ঁ	m	̃		˜	ṃ	X	Mn		vowel nasalisation marker					চন্দ্রবিন্দু	t͡ʃɔndrobindu	U+0981: BENGALI SIGN CANDRABINDU		✓
 ʼ				ʼ	ʼ		Lm		apostrophe							U+02BC: MODIFIER LETTER APOSTROPHE		✓
-§				§	§		Po	?	section sign							U+00A7: SECTION SIGN		✓
-†				†	†		Po	?	dagger							U+2020: DAGGER		✓
-‡				‡	‡		Po	?	double dagger							U+2021: DOUBLE DAGGER		✓
-′				′	′		Po	?	prime							U+2032: PRIME		✓
-″				″	″		Po	?	double prime							U+2033: DOUBLE PRIME		✓
 																		
 																		
 ্র				͓r		#	s									U+09CD U+09B0: BENGALI SIGN VIRAMA, LETTER RA		
@@ -170,6 +165,8 @@ var spreadsheet = `beng-bn	key	ipa	ipa+	translit	iso	kbd	class	status	type	usage
 																		
 ঀ								?								U+0980: BENGALI ANJI		
 ৼ								?								U+09FC: BENGALI LETTER VEDIC ANUSVARA		
+\u0020	 	 		 	 		Zs		space							U+0020: SPACE		
+\u002D							Pd		hyphen							U+002D: HYPHEN		
 `																		
 																		
 latinPanel = 'ã æ ñ ô ā ī ĭ ŋ ś ū ŭ ǐ ǔ ȏ ɑ ɔ ɖ ɡ ɦ ɪ i̯ ɱ ɳ ɹ ɽ ɾ ʂ ʃ ʃ̇ ʃ̈ ʈ t͡ʃ ʊ ʒ d͡ʒ ʤ ʥ ʰ ʱ ʲ ʳ ʷ ʼ ː ˑ ˜ ˡ ˢ ̃ ̄ β ᵃ ᵈ ᵉ ᵍ ᵐ ᵖ ᶜ ᶠ ḍ ḥ ṃ ṇ ṛ ṣ ṭ ṯ ẹ ị ọ ụ ‌u̯ – — “ ” … ⁱ ∅'																		
