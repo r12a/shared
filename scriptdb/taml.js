@@ -60,7 +60,7 @@ var spreadsheet = `taml-ta	key	ipa	ipa+	ipaOther	translit	ISO	kbd	class	status	t
 𑌻					–			Mn	u	nukta	not used for Tamil					U+1133B: COMBINING BINDU BELOW	
 ₨					–			Sc	a	rupee symbol						U+20A8: RUPEE SIGN	
 																	
-\u0020	 							Zs		space						U+0020: SPACE	
+\u0020	 				 			Zs		space						U+0020: SPACE	
 -	-				-	-				hyphen						U+2010: HYPHEN	
 ‑	-				‑	‑		Pd	?	non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
 –	-				–	–		Pd	?	en dash						U+2013: EN DASH	
