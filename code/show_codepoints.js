@@ -557,7 +557,7 @@ function makeDetails (chars) {
     for (var i=0;i<charArray.length;i++) {
         if (spreadsheetRows[charArray[i]]) {
             // make title to side
-            out += `<tr><th class="cdChar" onclick="this.parentNode.parentNode.parentNode.style.display='none'"><span class="ex" lang="${ lang }">${ charArray[i] }</span><br><span class="cdCharClose">x</span></th>`
+            out += `<tr><th class="cdChar" onclick="this.parentNode.parentNode.parentNode.style.display='none'"><span class="ex" lang="${ lang }" onclick="copyCharToClipboard('${ charArray[i] }');">${ charArray[i] }</span><br><span class="cdCharClose">X</span></th>`
             
             // add the full details
             out += '<td class="cdData">'
@@ -760,7 +760,7 @@ function makeArticleDetails (chars) {
     for (var i=0;i<charArray.length;i++) {
         if (spreadsheetRows[charArray[i]]) {
             // make title to side
-            out += `<tr><th class="cdChar" onclick="this.closest('article').remove()"><span class="ex" lang="${ lang }">${ charArray[i] }</span><br><span class="cdCharClose">x</span></th>`
+            out += `<tr><th class="cdChar" onclick="this.closest('article').remove()"><span class="ex" lang="${ lang }">${ charArray[i] }</span><br><span class="cdCharClose">X</span></th>`
             
             // add the full details
             out += '<td class="cdData">'
