@@ -126,6 +126,7 @@ var spreadsheet = `guru-pa	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ॥	|			¶	|	<	Po	?	section divider						U+0965: DEVANAGARI DOUBLE DANDA	
 ʼ				ʼ	ʼ		Lm		apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
 ◌									consonant						C	
+\u0020				 	 		Zs		space						U+0020: SPACE	
 `																
 																
 latinPanel = 'ɑ á ä ā d͡ʒ ɖ ḍ ə ə̀ ē ɛ ɛ́ ᵊ ġ ɦ ḥ ɪ ī kʰ ɭ ḷ m̐ ṃ ṁ ŋə ṅ ɲ ñ ɳ ṇ ∅ ɔ pʰ ɽ ṛ ʃ ś t͡ʃ t͡ʃʰ ʈ ṭ ʈʰ tʰ ʊ ū ʋ ɣ ː ́ ̀'																
