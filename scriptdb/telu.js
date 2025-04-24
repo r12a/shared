@@ -42,7 +42,7 @@ var spreadsheet = `telu-te	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ళ	l	ɭ	a	ɭ	ḷ		Lo		consonant				్ళ			U+0C33: TELUGU LETTER LLA	✓
 య	y	j	a	y	y		Lo		consonant				్య			U+0C2F: TELUGU LETTER YA	✓
 																	
-																	
+ౝ		n		n	n		Lo	a	vowelless na							U+0C5D: TELUGU LETTER NAKAARA POLLU	
 																	
 ి	i	i		i	ē		Mn		vowel sign			ఇ				U+0C3F: TELUGU VOWEL SIGN I	✓
 ఇ	I	i		ị	i		Lo		independent vowel		ి					U+0C07: TELUGU LETTER I	✓
@@ -105,6 +105,7 @@ var spreadsheet = `telu-te	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ఀ	[			˜			Mn	u	candrabindu	Sanskrit only						U+0C00: TELUGU SIGN COMBINING CANDRABINDU ABOVE	✓
 ఁ	[			˓			Mc	?	candrabindu marker	annotation						U+0C01: TELUGU SIGN CANDRABINDU	✓
 ్	*			͞			Mn		virama							U+0C4D: TELUGU SIGN VIRAMA	✓
+఼	/			ˑ			Mn		nukta	For Tamil & Persian sounds.						U+0C3C: TELUGU SIGN NUKTA	
 ₹	#			¤			Sc		currency symbol							U+20B9 INDIAN RUPEE SIGN	
 %	%			%			Po	?	percentage mark							U+0025: PERCENT SIGN	
 ‰	%			‰			Po	?	per mille mark							U+2030: PER MILLE SIGN	
@@ -142,6 +143,7 @@ var spreadsheet = `telu-te	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ౾	$			2⁶			No	a	fraction							U+0C7E: TELUGU FRACTION DIGIT THREE FOR EVEN POWERS OF FOUR	✓
 ౿	$			3⁶			So	a	fraction							U+0C7F: TELUGU SIGN TUUMU	✓
 ʼ				ʼ	ʼ		Lm	?	apostrophe							U+02BC: MODIFIER LETTER APOSTROPHE	
+\u0020				 	 		Zs		space							U+0020: SPACE	
 `																	
 																	
 latinPanel = 'æː aː bʰ dʰ ɖ ḍ ɖʰ ḍh d͡ʒ d͡z d͡ʒʰ ē eː ɡʰ ḥ iː ī kʰ l̥ l̥̄ ṁ ɲ ñ ɳ ṇ oː ō pʰ ɽ ṛ r̥ r̥̄ ʃ ś ʂ ṣ tʰ ʈ ṭ ʈʰ ṭh t͡ʃ t͡s t͡ʃʰ uː ū ʋ ʐ'																	
