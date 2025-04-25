@@ -22,8 +22,8 @@ var spreadsheet = `sinh-si	key	ipa	ipa+	translit	ISO	kbd	class	status	type	usage
 ඬ	N	ⁿɖ	a ə	ⁿɖ	ňḍ	l	Lo		śuddha prenasalised consonant						U+0DAC: SINHALA LETTER SANYAKA DDAYANNA	✓
 ක	k	k	a ə	k	k	l	Lo		śuddha consonant						U+0D9A: SINHALA LETTER ALPAPRAANA KAYANNA	✓
 ඛ	K	k	a ə	kʰ	kh	L	Lo		miśra consonant						U+0D9B: SINHALA LETTER MAHAAPRAANA KAYANNA	✓
-ග	g	g	a ə	g	g	.	Lo		śuddha consonant						U+0D9C: SINHALA LETTER ALPAPRAANA GAYANNA	✓
-ඝ	G	g	a ə	gʰ	gh	>	Lo		miśra consonant						U+0D9D: SINHALA LETTER MAHAAPRAANA GAYANNA	✓
+ග	g	ɡ	a ə	g	g	.	Lo		śuddha consonant						U+0D9C: SINHALA LETTER ALPAPRAANA GAYANNA	✓
+ඝ	G	ɡ	a ə	gʰ	gh	>	Lo		miśra consonant						U+0D9D: SINHALA LETTER MAHAAPRAANA GAYANNA	✓
 ඟ	N	ᵑɡ	a ə	ᵑɡ	ňg		Lo		śuddha prenasalised consonant						U+0D9F: SINHALA LETTER SANYAKA GAYANNA	✓
 ෆ	f	f	a ə	f	f	F	Lo		miśra consonant						U+0DC6: SINHALA LETTER FAYANNA	✓
 ස	s	s	a ə	s	s	i	Lo		śuddha consonant						U+0DC3: SINHALA LETTER DANTAJA SAYANNA	✓
@@ -34,8 +34,8 @@ var spreadsheet = `sinh-si	key	ipa	ipa+	translit	ISO	kbd	class	status	type	usage
 ම	m	m	a ə	m	m	u	Lo		śuddha consonant						U+0DB8: SINHALA LETTER MAYANNA	✓
 ණ	n	n	a ə	n	ṇ	K	Lo		śuddha consonant						U+0DAB: SINHALA LETTER MUURDHAJA NAYANNA	✓
 න	n	n	a ə	ṅ	n	k	Lo		miśra consonant						U+0DB1: SINHALA LETTER DANTAJA NAYANNA	✓
-ඤ	n	ɲ	a ə	ɲ	ñ	[	Lo	a	miśra consonant						U+0DA4: SINHALA LETTER TAALUJA NAASIKYAYA	✓
-ඥ	n	ɲ ɡn	a ə	ᵑǰ	jñ	{	Lo		miśra prenasalised consonant						U+0DA5: SINHALA LETTER TAALUJA SANYOOGA NAAKSIKYAYA	✓
+ඤ	n	ɲ	a ə	ɲ	ñ	[	Lo		miśra consonant						U+0DA4: SINHALA LETTER TAALUJA NAASIKYAYA	✓
+ඥ	n	d͡ʒɲ ɡn	a ə	ᵑǰ	jñ	{	Lo		miśra prenasalised consonant						U+0DA5: SINHALA LETTER TAALUJA SANYOOGA NAAKSIKYAYA	✓
 ඞ	n	ŋ	a ə	ŋ	ṅ	X	Lo		miśra consonant						U+0D9E: SINHALA LETTER KANTAJA NAASIKYAYA	✓
 ං	n	ŋ  m̃		ŋ̽	n	x	Mc		nasal coda (anusvara)					binduva	U+0D82: SINHALA SIGN ANUSVARAYA	✓
 ව	v	ʋ	a ə	v	v	j	Lo		śuddha consonant						U+0DC0: SINHALA LETTER VAYANNA	✓
@@ -139,6 +139,7 @@ var spreadsheet = `sinh-si	key	ipa	ipa+	translit	ISO	kbd	class	status	type	usage
 ‹	<			‹	\‘		Pi	?	quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
 “	<			“	“		Pi		quotation mark						U+201C: LEFT DOUBLE QUOTATION MARK	
 ‘	<			\‘	\‘		Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
+\u0020				 	 		Zs		space						U+0020: SPACE	
 \u200B	=			␣			Cf	?	zero-width space						U+200B: ZERO WIDTH SPACE	
 \u200C	=			ᶻʷⁿʲ			Cf		zero-width non-joiner						U+200C: ZERO WIDTH NON-JOINER	
 \u200D	=			ᶻʷʲ			Cf		zero-width joiner						U+200D: ZERO WIDTH JOINER	
