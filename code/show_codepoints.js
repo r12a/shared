@@ -557,7 +557,8 @@ function makeDetails (chars) {
     for (var i=0;i<charArray.length;i++) {
         if (spreadsheetRows[charArray[i]]) {
             // make title to side
-            out += `<tr><th class="cdChar" onclick="this.parentNode.parentNode.parentNode.style.display='none'"><span class="ex" lang="${ lang }" onclick="copyCharToClipboard('${ charArray[i] }');">${ charArray[i] }</span><br><span class="cdCharClose">X</span></th>`
+            //out += `<tr><th class="cdChar" onclick="this.parentNode.parentNode.parentNode.style.display='none'"><span class="ex" lang="${ lang }" onclick="copyCharToClipboard('${ charArray[i] }');">${ charArray[i] }</span><br><span class="cdCharClose">X</span></th>`
+            out += `<tr><th class="cdChar" onclick="console.log(this.closest('article')); if (this.closest('article')) this.closest('article').remove(); else this.parentNode.parentNode.parentNode.style.display='none'"><span class="ex" lang="${ lang }" onclick="copyCharToClipboard('${ charArray[i] }');">${ charArray[i] }</span><br><span class="cdCharClose">X</span></th>`
             
             // add the full details
             out += '<td class="cdData">'
@@ -745,7 +746,7 @@ function showCharDetailsInPanel (evt) {
 
 
 function makeArticleDetails (chars) {
-    if (traceSet.has('makeDetails')) console.log('makeDetails(', 'chars:'+chars, ')\n\tAdd  details for character(s) below a block.\n\tGLOBALS notesLangtag:'+window.notesLangtag, 'blockDirectoryName:'+window.blockDirectoryName)
+    // console.log('makeArticleDetails(', 'chars:'+chars, ')\n\tAdd  details for character(s) below a block.\n\tGLOBALS notesLangtag:'+window.notesLangtag, 'blockDirectoryName:'+window.blockDirectoryName)
     
     // global charDetails spreadsheetRows cols
     // local out charArray i lang dir
