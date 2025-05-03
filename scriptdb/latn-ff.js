@@ -117,6 +117,7 @@ aa	a	aː		aa					long vowel						U+0061 U+0061: LATIN SMALL LETTER A, SMALL LETT
 ›	>			›			Pf	?	quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
 ”	>			”	”		Pf		quotation mark						U+201D: RIGHT DOUBLE QUOTATION MARK	
 ’	>			’	’		Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
+																
 `																
 																
 latinPanel = 'd͡ʒ t͡ʃ ñ ƴ ɓ ɗ ɟ ɲ ŋ ʼ ʼy ɡ ᵐb ᵑɡ ᶮɟ ᶮd͡ʒ ⁿd iː uː eː oː aː ɪ ɛ ɔ ʊ ʔ ʔʲ'																

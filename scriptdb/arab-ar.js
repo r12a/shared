@@ -78,7 +78,7 @@ var spreadsheet = `arab-ar	key	ipa	ipa+	translit	LOC	kbd	class	status	type	usage
 ﷺ				{ALAYHE WASALLAM}			Lo	i	ligature						U+FDFA: ARABIC LIGATURE SALLALLAHOU ALAYHE WASALLAM	✓
 ﷽				{In the name of God, the Most Gracious, the Most Merciful}			So	i	ligature						U+FDFD: ARABIC LIGATURE BISMILLAH AR-RAHMAN AR-RAHEEM	✓
 																
-\u0020							Zs	u	space						U+0020: SPACE	
+\u0020							Zs		space						U+0020: SPACE	
 ـ	_			_		J	Lm	i	baseline extender					tatweel	U+0640: ARABIC TATWEEL	✓
 -	-			-	-			u	hyphen						U+2010: HYPHEN	
 ‑	-			‑	‑		Pd	u	non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	

@@ -16,8 +16,8 @@ var spreadsheet = `cyrl-uk	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 дз		d͡z							affricate						U+0434 U+0437: CYRILLIC SMALL LETTER DE, LETTER ZE		
 к	k	k	kʲ	k	k		Ll		consonant			К	ка	kɑ	U+043A: CYRILLIC SMALL LETTER KA	lc	✓
 К	K	K	kʲ	ḳ	K		Lu		consonant		к		ка	kɑ	U+041A: CYRILLIC CAPITAL LETTER KA	uc	✓
-ґ	g	g		ɡ	g		Ll		consonant			Ґ	ґэ	ɡɛ	U+0491: CYRILLIC SMALL LETTER GHE WITH UPTURN	lc	✓
-Ґ	G	G		g̣	G				consonant		ґ		ґэ	ɡɛ	U+0490 U+0020: CYRILLIC CAPITAL LETTER GHE WITH UPTURN	uc	✓
+ґ	g	ɡ		ɡ	g		Ll		consonant			Ґ	ґэ	ɡɛ	U+0491: CYRILLIC SMALL LETTER GHE WITH UPTURN	lc	✓
+Ґ	G	ɡ		g̣	G				consonant		ґ		ґэ	ɡɛ	U+0490 U+0020: CYRILLIC CAPITAL LETTER GHE WITH UPTURN	uc	✓
 ф	f	f	fʲ	f	f		Ll		consonant			Ф	еф	ɛf	U+0444: CYRILLIC SMALL LETTER EF	lc	✓
 Ф	F	F	fʲ	f̣	F		Lu		consonant		ф		еф	ɛf	U+0424: CYRILLIC CAPITAL LETTER EF	uc	✓
 с	s	s	sʲ	s	s		Ll		consonant			С	ес	ɛs	U+0441: CYRILLIC SMALL LETTER ES	lc	✓
