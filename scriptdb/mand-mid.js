@@ -5,9 +5,9 @@ var spreadsheet = `mand-mid	key	ipa	ipa+	other	translit	transc	kbd	class	status	
 ࡈ	T	tˤ		ðˤ	ᵵ	ṭ		Lo		consonant		4		ṭa	U+0848: MANDAIC LETTER ATT		✓
 ࡔ࡙	C	t͡ʃ			ʃˑ					extended consonant	In educational texts only.				U+0854 U+0859: MANDAIC LETTER ASH, AFFRICATION MARK		
 ࡃ	d	d		ð	d	d	]	Lo		consonant		4		da	U+0843: MANDAIC LETTER AD		✓
-ࡖ	d	di			ḏ	ḏ	n	Lo		consonant		4		dushenna/adu	U+0856: MANDAIC LETTER DUSHENNA		✓
+ࡖ	d	di			ḏ	ḏ	n	Lo		consonant		2		dushenna/adu	U+0856: MANDAIC LETTER DUSHENNA		✓
 ࡊ	k	k χ			k	k	;	Lo		consonant		4		ka	U+084A: MANDAIC LETTER AK		✓
-ࡗ	k	kḏi			k͟d	kḏ	e	Lo		consonant		4		kad	U+0857: MANDAIC LETTER KAD		✓
+ࡗ	k	kḏi			k͟d	kḏ	e	Lo		consonant		2		kad	U+0857: MANDAIC LETTER KAD		✓
 ࡂ	g	ɡ ʁ			g	g	[	Lo		consonant		4		ga	U+0842: MANDAIC LETTER AG		✓
 ࡒ	q	q			q	q	r	Lo		consonant		4		qa	U+0852: MANDAIC LETTER AQ		✓
 ࡐ࡙	F	f			pˑ					extended consonant	In educational texts only.				U+0850 U+0859: MANDAIC LETTER AP, AFFRICATION MARK		
@@ -16,13 +16,13 @@ var spreadsheet = `mand-mid	key	ipa	ipa+	other	translit	transc	kbd	class	status	
 ࡈ࡙	Z	ðˤ			ᵵˑ					extended consonant	In educational texts only.				U+0848 U+0859: MANDAIC LETTER ATT, AFFRICATION MARK		
 ࡎ	s	s			s	s	s	Lo		consonant		4		sa	U+084E: MANDAIC LETTER AS		✓
 ࡑ	s	sˤ		s ʒ	ᵴ	ṣ	w	Lo		consonant	ʒ pronunciation only occurs in some non-native words.	4		ṣa	U+0851: MANDAIC LETTER ASZ		✓
-ࡆ	z	z			z	z	.	Lo		consonant		4		za	U+0846: MANDAIC LETTER AZ		✓
-ࡔ	S	ʃ t͡ʃ		d͡ʒ	ʃ	š	a	Lo		consonant	t͡ʃ pronunciation is not common in native words. d͡ʒ pronunciation occurs only in some loan words.	4		ša	U+0854: MANDAIC LETTER ASH		✓
+ࡆ	z	z			z	z	.	Lo		consonant		2		za	U+0846: MANDAIC LETTER AZ		✓
+ࡔ	S	ʃ t͡ʃ		d͡ʒ	ʃ	š	a	Lo		consonant	t͡ʃ pronunciation is not common in native words. d͡ʒ pronunciation occurs only in some loan words.	2		ša	U+0854: MANDAIC LETTER ASH		✓
 ࡑ࡙	Z	ʒ			ᵴˑ					extended consonant	In educational texts only.				U+0851 U+0859: MANDAIC LETTER ASZ, AFFRICATION MARK		
 ࡊ࡙	X	χ			kˑ					extended consonant	In educational texts only.				U+084A U+0859: MANDAIC LETTER AK, AFFRICATION MARK		
 ࡕ࡙		χt			tˑ					geminated consonant	In educational texts only.				U+0855 U+0859: MANDAIC LETTER AT, AFFRICATION MARK		
 ࡂ࡙	Y	ʁ			gˑ					extended consonant	In educational texts only.				U+0842 U+0859: MANDAIC LETTER AG, AFFRICATION MARK		
-ࡘ	{	ʕ			ʕ	ʕ	x	Lo		consonant		4		ayin	U+0858: MANDAIC LETTER AIN		✓
+ࡘ	{	ʕ			ʕ	ʕ	x	Lo		consonant		2		ayin	U+0858: MANDAIC LETTER AIN		✓
 ࡄ࡙	H	ħ			hˑ					extended consonant	In educational texts only.				U+0844 U+0859: MANDAIC LETTER AH, AFFRICATION MARK		
 ࡄ	h	h		ħ	h	h	i	Lo		consonant	ħ pronunciation only occurs in loan words from Arabic and Persian.	4		ha	U+0844: MANDAIC LETTER AH		✓
 ࡌ	m	m			m	m	l	Lo		consonant		4		ma	U+084C: MANDAIC LETTER AM		✓
@@ -32,13 +32,13 @@ var spreadsheet = `mand-mid	key	ipa	ipa+	other	translit	transc	kbd	class	status	
 																	
 																	
 																	
-ࡉ	i	i e j			i	i	d	Lo		vowel		4		ya	U+0849: MANDAIC LETTER AKSA		✓
-ࡇ	h	iːʷ ħuᵘ	χ		ẖ	ẖ	p	Lo		consonant		4		eh	U+0847: MANDAIC LETTER IT		✓
+ࡉ	i	i e j			i	i	d	Lo		vowel		2		ya	U+0849: MANDAIC LETTER AKSA		✓
+ࡇ	h	iːʷ ħuᵘ	χ		ẖ	ẖ	p	Lo		consonant		2		eh	U+0847: MANDAIC LETTER IT		✓
 ࡅ	u	u o w v			u	u	,	Lo		vowel		4		wa/ushenna	U+0845: MANDAIC LETTER USHENNA		✓
 ࡏ	e	e i ∅			ʿ	ʿ	u	Lo		vowel		4		e	U+084F: MANDAIC LETTER IN		✓
 ࡉ࡚	E	e			i̱					vowel					U+0849 U+085A: MANDAIC LETTER AKSA, VOCALIZATION MARK		
 ࡅ࡚	O	o			u̱					vowel					U+0845 U+085A: MANDAIC LETTER USHENNA, VOCALIZATION MARK		
-ࡀ	a	a ɔ			ā	ā	h	Lo		vowel		4		a	U+0840: MANDAIC LETTER HALQA		✓
+ࡀ	a	a ɔ			ā	ā	h	Lo		vowel		2		a	U+0840: MANDAIC LETTER HALQA		✓
 ࡀ࡚	A	a			ā̱					vowel					U+0840 U+085A: MANDAIC LETTER HALQA, VOCALIZATION MARK		
 																	
 ࡉࡀ		iː			–	i				final vowel					U+0849 U+0840: MANDAIC LETTER AKSA, LETTER HALQA		
