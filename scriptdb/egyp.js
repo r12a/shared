@@ -1129,16 +1129,16 @@ var spreadsheet = `egyp-egy	key	ipa	ipa+	ipaOther	translit	transc	kbd	class	stat
 𓑕					𓑕			Mn​						‎13455 EGYPTIAN HIEROGLYPH MODIFIER DAMAGED		
 																
 																
-																
-																
-																
-																
-																
-																
-																
-																
-																
-																
+[					[			Ps						U+005B: LEFT SQUARE BRACKET		
+]					]			Pe						U+005D: RIGHT SQUARE BRACKET		
+⸢					⸢			Ps						U+2E22: TOP LEFT HALF BRACKET		
+⸣					⸣			Pe						U+2E23: TOP RIGHT HALF BRACKET		
+⟨					⟨			Ps						U+27E8: MATHEMATICAL LEFT ANGLE BRACKET		
+⟩					⟩			Pe						U+27E9: MATHEMATICAL RIGHT ANGLE BRACKET		
+{					{			Ps						U+007B: LEFT CURLY BRACKET		
+}					}			Pe						U+007D: RIGHT CURLY BRACKET		
+⟦					⟦			Ps						U+27E6: MATHEMATICAL LEFT WHITE SQUARE BRACKET		
+⟧					⟧			Pe						U+27E7: MATHEMATICAL RIGHT WHITE SQUARE BRACKET		
 																
 																
 // space																
@@ -1176,8 +1176,6 @@ var spreadsheet = `egyp-egy	key	ipa	ipa+	ipaOther	translit	transc	kbd	class	stat
 // brackets																
 (	(				( (˙ (¯ (¨ (˭	(		Ps	?	parenthesis				U+0028: LEFT PARENTHESIS		
 )	)				) )˙ )¯ )¨ )˭	)		Ps	?	parenthesis				U+0029: RIGHT PARENTHESIS		
-[	(				[	[		Pe	?	bracket				U+005B: LEFT SQUARE BRACKET		
-]	)				] 	]		Pe	?	bracket				U+005D: RIGHT SQUARE BRACKET		
 // dashes																
 ‑	-				‑	‑		Pd	?	non-breaking hyphen				U+2011: NON-BREAKING HYPHEN		
 –	-				–	–		Pd	?	en dash				U+2013: EN DASH		
