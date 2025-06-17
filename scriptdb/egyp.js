@@ -1098,35 +1098,35 @@ var spreadsheet = `egyp-egy	key	ipa	ipa+	ipaOther	translit	transc	kbd	class	stat
 𓐷	(				𓐷			Cf						U+13437: EGYPTIAN HIEROGLYPH BEGIN SEGMENT		
 𓐸	)				𓐸			Cf						U+13438: EGYPTIAN HIEROGLYPH END SEGMENT		
 																
-																
-																
-																
-																
-																
-																
-																
-																
-																
-																
-																
-																
-																
-																
-																
-																
-																
-																
-																
-																
-																
-																
-																
-																
-																
-																
-																
-																
-																
+𓐹					𓐹			Cf						‎13439 EGYPTIAN HIEROGLYPH INSERT AT MIDDLE		
+𓐺					𓐺			Cf						‎1343A EGYPTIAN HIEROGLYPH INSERT AT TOP		
+𓐻					𓐻			Cf						‎1343B EGYPTIAN HIEROGLYPH INSERT AT BOTTOM		
+𓐼					𓐼			Cf						‎1343C EGYPTIAN HIEROGLYPH BEGIN ENCLOSURE		
+𓐽					𓐽			Cf						‎1343D EGYPTIAN HIEROGLYPH END ENCLOSURE		
+𓐾					𓐾			Cf						‎1343E EGYPTIAN HIEROGLYPH BEGIN WALLED ENCLOSURE		
+𓐿					𓐿			Cf						‎1343F EGYPTIAN HIEROGLYPH END WALLED ENCLOSURE		
+𓑀					𓑀			Mn​						‎13440 EGYPTIAN HIEROGLYPH MIRROR HORIZONTALLY		
+𓑁					𓑁			Lo						‎13441 EGYPTIAN HIEROGLYPH FULL BLANK		
+𓑂					𓑂			Lo						‎13442 EGYPTIAN HIEROGLYPH HALF BLANK		
+𓑃					𓑃			Lo						‎13443 EGYPTIAN HIEROGLYPH LOST SIGN		
+𓑄					𓑄			Lo						‎13444 EGYPTIAN HIEROGLYPH HALF LOST SIGN		
+𓑅					𓑅			Lo						‎13445 EGYPTIAN HIEROGLYPH TALL LOST SIGN		
+𓑆					𓑆			Lo						‎13446 EGYPTIAN HIEROGLYPH WIDE LOST SIGN		
+𓑇					𓑇			Mn​						‎13447 EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT TOP START		
+𓑈					𓑈			Mn​						‎13448 EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT BOTTOM START		
+𓑉					𓑉			Mn​						‎13449 EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT START		
+𓑊					𓑊			Mn​						‎1344A EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT TOP END		
+𓑋					𓑋			Mn​						‎1344B EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT TOP		
+𓑌					𓑌			Mn​						‎1344C EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT BOTTOM START AND TOP END		
+𓑍					𓑍			Mn​						‎1344D EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT START AND TOP		
+𓑎					𓑎			Mn​						‎1344E EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT BOTTOM END		
+𓑏					𓑏			Mn​						‎1344F EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT TOP START AND BOTTOM END		
+𓑐					𓑐			Mn​						‎13450 EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT BOTTOM		
+𓑑					𓑑			Mn​						‎13451 EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT START AND BOTTOM		
+𓑒					𓑒			Mn​						‎13452 EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT END		
+𓑓					𓑓			Mn​						‎13453 EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT TOP AND END		
+𓑔					𓑔			Mn​						‎13454 EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT BOTTOM AND END		
+𓑕					𓑕			Mn​						‎13455 EGYPTIAN HIEROGLYPH MODIFIER DAMAGED		
 																
 																
 																
