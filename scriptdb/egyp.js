@@ -1140,6 +1140,10 @@ var spreadsheet = `egyp-egy	key	ipa	ipa+	ipaOther	translit	transc	kbd	class	stat
 ⟦					⟦			Ps						U+27E6: MATHEMATICAL LEFT WHITE SQUARE BRACKET		
 ⟧					⟧			Pe						U+27E7: MATHEMATICAL RIGHT WHITE SQUARE BRACKET		
 																
+\uFE00					{vs1}			Mn​						U+FE00: VARIATION SELECTOR-1		
+\uFE01					{vs2}			Mn​						U+FE01: VARIATION SELECTOR-2		
+\uFE02					{vs3}			Mn​						U+FE02: VARIATION SELECTOR-3		
+																
 																
 // space																
 \u0020	 							Zs	?	space				U+0020: SPACE		
