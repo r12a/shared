@@ -271,7 +271,7 @@ var scriptGroups = [
 [0x12F90,0x12FFF,"Cypro-Minoan","cpmn",""],
 [0x13000,0x1342F,"Egyptian Hieroglyphs","egyp","egyp"],
 [0x13430,0x1345F,"Egyptian Hieroglyph Format Controls","egyp","egyp"],
-[0x13460,0x143FF,"Egyptian Hieroglyphs Extended-A","egyp",""],
+[0x13460,0x143FF,"Egyptian Hieroglyphs Extended-A","egyp","egyp"],
 [0x14400,0x1467F,"Anatolian Hieroglyphs","hluw",""],
 [0x16100,0x1613F,"Gurung Khema","gukh",""],
 [0x16800,0x16A3F,"Bamum Supplement","bamu",""],
