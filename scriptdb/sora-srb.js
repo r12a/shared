@@ -1,34 +1,34 @@
 var spreadsheet = `sora-srb	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	native name	name transcription	ucs name	block	0		
 \u0020	 	 		 	 		Zs		space				U+0020: SPACE				
 																	
-𑃛	p	p	ə	p			Lo		consonant				U+110DB: SORA SOMPENG LETTER PAH				
-𑃒	b	b	ə	b			Lo		consonant				U+110D2: SORA SOMPENG LETTER BAH				
-𑃑	t	t	ə	t			Lo		consonant				U+110D1: SORA SOMPENG LETTER TAH				
-𑃓	t	t͡ʃ	ə	ʧ			Lo		consonant				U+110D3: SORA SOMPENG LETTER CAH				
-𑃠	d	d͡ʒ	ə	ʣ			Lo		consonant				U+110E0: SORA SOMPENG LETTER JAH				
-𑃔	d	ɖ	ə	ɖ			Lo		consonant				U+110D4: SORA SOMPENG LETTER DAH				
-𑃟	k	k	ə	k			Lo		consonant				U+110DF: SORA SOMPENG LETTER KAH				
-𑃕	g	ɡ	ə	ɡ			Lo		consonant				U+110D5: SORA SOMPENG LETTER GAH				
-𑃞	h	ʔ	ə	ʼ			Lo		consonant				U+110DE: SORA SOMPENG LETTER HAH				
-𑃐	s	s	ə	s			Lo		consonant				U+110D0: SORA SOMPENG LETTER SAH				
-𑃖	m	m	ə	m			Lo		consonant				U+110D6: SORA SOMPENG LETTER MAH				
-𑃙	n	n	ə	n			Lo		consonant				U+110D9: SORA SOMPENG LETTER NAH				
-𑃡	n	ɲ	ə	ɲ			Lo		consonant				U+110E1: SORA SOMPENG LETTER NYAH				
-𑃗	n	ŋ	ə	ŋ			Lo		consonant				U+110D7: SORA SOMPENG LETTER NGAH				
-𑃚	w	w	ə	w			Lo		consonant				U+110DA: SORA SOMPENG LETTER VAH				
-𑃝	r	r	ə	r			Lo		consonant				U+110DD: SORA SOMPENG LETTER RAH				
+𑃛	p	p	ə	p			Lo		consonant			paʔa (Patta)	U+110DB: SORA SOMPENG LETTER PAH				
+𑃒	b	b	ə	b			Lo		consonant			baʔa (Babu)	U+110D2: SORA SOMPENG LETTER BAH				
+𑃑	t	t	ə	t			Lo		consonant			taʔa (Tṅod)	U+110D1: SORA SOMPENG LETTER TAH				
+𑃓	t	t͡ʃ	ə	ʧ			Lo		consonant			caʔa (Candi)	U+110D3: SORA SOMPENG LETTER CAH				
+𑃠	d	d͡ʒ	ə	ʣ			Lo		consonant			jaʔa (Janṅlo)	U+110E0: SORA SOMPENG LETTER JAH				
+𑃔	d	ɖ	ə	ɖ			Lo		consonant			daʔa (Daṅki)	U+110D4: SORA SOMPENG LETTER DAH				
+𑃟	k	k	ə	k			Lo		consonant			kaʔa (Ketuṅ)	U+110DF: SORA SOMPENG LETTER KAH				
+𑃕	g	ɡ	ə	ɡ			Lo		consonant			gaʔa (Gada)	U+110D5: SORA SOMPENG LETTER GAH				
+𑃞	h	ʔ	ə	ʼ			Lo		consonant			haʔa (Haro)	U+110DE: SORA SOMPENG LETTER HAH				
+𑃐	s	s	ə	s			Lo		consonant			saʔa (Suṅdaṅ)	U+110D0: SORA SOMPENG LETTER SAH				
+𑃖	m	m	ə	m			Lo		consonant			maʔa (Mundaxra)	U+110D6: SORA SOMPENG LETTER MAH				
+𑃙	n	n	ə	n			Lo		consonant			naʔa (Naa)	U+110D9: SORA SOMPENG LETTER NAH				
+𑃡	n	ɲ	ə	ɲ			Lo		consonant			ñaʔa (Ñarana)	U+110E1: SORA SOMPENG LETTER NYAH				
+𑃗	n	ŋ	ə	ŋ			Lo		consonant			ṅaʔa (Ṅal)	U+110D7: SORA SOMPENG LETTER NGAH				
+𑃚	w	w	ə	w			Lo		consonant			vaʔa (Varox)	U+110DA: SORA SOMPENG LETTER VAH				
+𑃝	r	r	ə	r			Lo		consonant			raʔa (Rṅgi)	U+110DD: SORA SOMPENG LETTER RAH				
 𑃨𑃝	r	ɽ	ə	𐞹r					consonant				U+110E8 U+110DD: SORA SOMPENG LETTER MAE, LETTER RAH				
-𑃘	l	l	ə	l			Lo		consonant				U+110D8: SORA SOMPENG LETTER LAH				
-𑃜	y	j	ə	j			Lo		consonant				U+110DC: SORA SOMPENG LETTER YAH				
+𑃘	l	l	ə	l			Lo		consonant			laʔa (Ləbo)	U+110D8: SORA SOMPENG LETTER LAH				
+𑃜	y	j	ə	j			Lo		consonant			yaʔa (Yuyu)	U+110DC: SORA SOMPENG LETTER YAH				
 																	
-𑃤	i	i ɨ		i			Lo		vowel				U+110E4: SORA SOMPENG LETTER IH				
-𑃥	u	u ʊ		u			Lo		vowel				U+110E5: SORA SOMPENG LETTER UH				
-𑃣	e	e		e			Lo		vowel				U+110E3: SORA SOMPENG LETTER EEH				
-𑃦	o	o ɔ		o			Lo		vowel				U+110E6: SORA SOMPENG LETTER OH				
-𑃧	e	ɛ		ɛ			Lo		vowel				U+110E7: SORA SOMPENG LETTER EH				
-𑃢	a	aː		aː			Lo		vowel				U+110E2: SORA SOMPENG LETTER AH				
+𑃤	i	i ɨ		i			Lo		vowel			iʔi (Ida)	U+110E4: SORA SOMPENG LETTER IH				
+𑃥	u	u ʊ		u			Lo		vowel			uʔu (Uyuṅ)	U+110E5: SORA SOMPENG LETTER UH				
+𑃣	e	e		e			Lo		vowel			eʔe (Elda)	U+110E3: SORA SOMPENG LETTER EEH				
+𑃦	o	o ɔ		o			Lo		vowel			oʔo (Onal)	U+110E6: SORA SOMPENG LETTER OH				
+𑃧	e	ɛ		ɛ			Lo		vowel			ɛʔɛ (Ɛmaṅda)	U+110E7: SORA SOMPENG LETTER EH				
+𑃢	a	aː		aː			Lo		vowel			aʔa (Aṅge)	U+110E2: SORA SOMPENG LETTER AH				
 																	
-𑃨	r	̢		𐞹			Lo	l	retroflex marker				U+110E8: SORA SOMPENG LETTER MAE				
+𑃨	r	̢		𐞹			Lo	l	retroflex marker			maɛ (Almraɛ)	U+110E8: SORA SOMPENG LETTER MAE				
 																	
 𑃰	±	0		0̣	0		Nd		digit				U+110F0: SORA SOMPENG DIGIT ZERO				
 𑃱	±	1		1̣	1		Nd		digit				U+110F1: SORA SOMPENG DIGIT ONE				
@@ -47,8 +47,10 @@ var spreadsheet = `sora-srb	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 .	.			.	.		Po		full stop				U+002E: FULL STOP				
 (	(			(	(		Ps		parenthesis				U+0028: LEFT PARENTHESIS				
 )	)			)	)		Ps		parenthesis				U+0029: RIGHT PARENTHESIS				
-?	?			?	?		Po	?	question mark				U+003F: QUESTION MARK				
-:	:			:	:		Po	?	colon				U+003A: COLON				
+?	?			?	?		Po		question mark				U+003F: QUESTION MARK				
+:	:			:	:		Po		colon				U+003A: COLON				
+“	<			“	“		Pi		quotation mark				U+201C: LEFT DOUBLE QUOTATION MARK				
+”	>			”	”		Pf		quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK				
 `																	
 																	
 latinPanel = 'aː t͡ʃ d͡ʒ ɖ ɲ ŋ ɨ ɔ ɛ ʊ ə'																	
