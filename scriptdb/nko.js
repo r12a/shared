@@ -77,7 +77,7 @@ var spreadsheet = `nkoo-nqo	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 														
 ߔ	p	p		p	p	p	Lo		consonant				U+07D4: NKO LETTER PA	✓
 ߓ	b	b		b	b	b	Lo		consonant				U+07D3: NKO LETTER BA	✓
-ߓ߭	B	bʰ		b³	bʰ		s	l	consonant				U+07D3 U+07ED: NKO LETTER BA, COMBINING SHORT RISING TONE	
+ߓ߭	B	ɓ		b³	bʰ		s	l	consonant				U+07D3 U+07ED: NKO LETTER BA, COMBINING SHORT RISING TONE	
 ߜ	g	ɡ͡b		gᵇ	gb	g	Lo		consonant				U+07DC: NKO LETTER GBA	✓
 ߕ	t	t		t	t	t	Lo		consonant				U+07D5: NKO LETTER TA	✓
 ߕ߭	T	tˤ		t³	ᵵ		s	l	consonant	Represents the Arabic ط.			U+07D5 U+07ED: NKO LETTER TA, COMBINING SHORT RISING TONE	
@@ -105,10 +105,10 @@ var spreadsheet = `nkoo-nqo	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ߊ߳	A	ʕa		aˑ	ʕa		s	l	vowel	Represents the Arabic  عَ.			U+07CA U+07F3: NKO LETTER A, COMBINING DOUBLE DOT ABOVE	
 ߤ	h	h		h	h	h	Lo		consonant				U+07E4: NKO LETTER HA	✓
 ߡ	m	m		m	m	m	Lo		consonant				U+07E1: NKO LETTER MA	✓
-ߡ߭	M	mʰ		m³	mʰ		s	l	consonant				U+07E1 U+07ED: NKO LETTER MA, COMBINING SHORT RISING TONE	
+ߡ߭	M	ɱ		m³	mʰ		s	l	consonant				U+07E1 U+07ED: NKO LETTER MA, COMBINING SHORT RISING TONE	
 ߣ	n	n		n	n	n	Lo		consonant				U+07E3: NKO LETTER NA	✓
 ߠ	N	n		ł	n		Lo		abstract consonant			ná-woloso	U+07E0: NKO LETTER NA WOLOSO	✓
-ߢ߭	N	nʰ		ɲ³	nʰ		s	l	consonant				U+07E2 U+07ED: NKO LETTER NYA, COMBINING SHORT RISING TONE	
+ߢ߭	N	ŋ		ɲ³	nʰ		s	l	consonant				U+07E2 U+07ED: NKO LETTER NYA, COMBINING SHORT RISING TONE	
 ߢ	n	ɲ		ɲ	ɲ		Lo		consonant				U+07E2: NKO LETTER NYA	✓
 ߧ	N	ɲ		y	y		Lo		abstract consonant			ɲá-woloso	U+07E7: NKO LETTER NYA WOLOSO	✓
 ߒ	N	n̩		ŋ̩	n	N	Lo		nasal syllable				U+07D2: NKO LETTER N	✓
@@ -117,9 +117,9 @@ var spreadsheet = `nkoo-nqo	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ߚ	r	rr		ṙ	rr	R	Lo		consonant				U+07DA: NKO LETTER RRA	✓
 ߙ߭	R	ʀ		r³	ʀ		s	l	consonant				U+07D9 U+07ED: NKO LETTER RA, COMBINING SHORT RISING TONE	
 ߟ	l	l		l	l	l	Lo		consonant				U+07DF: NKO LETTER LA	✓
-ߟ߭	J	lʰ		l³	lʰ		s	l	consonant				U+07DF U+07ED: NKO LETTER LA, COMBINING SHORT RISING TONE	
+ߟ߭	J	lˤ		l³	lʰ		s	l	consonant				U+07DF U+07ED: NKO LETTER LA, COMBINING SHORT RISING TONE	
 ߦ	y	j		j	y	y	Lo		consonant				U+07E6: NKO LETTER YA	✓
-ߦ߭	Y	yʰ		y³	yʰ		s	l	consonant				U+07E6 U+07ED: NKO LETTER YA, COMBINING SHORT RISING TONE	
+ߦ߭	Y	j̰		y³	yʰ		s	l	consonant				U+07E6 U+07ED: NKO LETTER YA, COMBINING SHORT RISING TONE	
 														
 														
 ߨ		d͡ʒ		ʤ̄			Lo	a	consonant				U+07E8: NKO LETTER JONA JA	✓

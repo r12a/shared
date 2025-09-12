@@ -8,7 +8,7 @@ var spreadsheet = `arab-pes	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 د	d	d		d	d	n	Lo		stop		2	دال	dāl	U+062F: ARABIC LETTER DAL	✓
 ج	j	d͡ʒ		ʤ	j	[	Lo		affricate		4	جیم	jim	U+062C: ARABIC LETTER JEEM	✓
 ک	k	k		k	k	;	Lo		stop		4	کاف	kāf	U+06A9: ARABIC LETTER KEHEH	✓
-گ	g¶	g		g	g		Lo		stop		4	گاف	ɡāf	U+06AF: ARABIC LETTER GAF	✓
+گ	g¶	ɡ		g	g		Lo		stop		4	گاف	ɡāf	U+06AF: ARABIC LETTER GAF	✓
 ق	q	ɢ		ɢ	q	r	Lo		stop		4	قاف	qāf	U+0642: ARABIC LETTER QAF	✓
 ؤ	w	ʔ		w͑		A	Lo		glottal stop		2	همزه	hæmze	U+0624: ARABIC LETTER WAW WITH HAMZA ABOVE	✓
 یٔ	y	ʔ		yʿ					glottal stop		4	همزه	hæmze	U+06CC U+0654: ARABIC LETTER FARSI YEH, HAMZA ABOVE	

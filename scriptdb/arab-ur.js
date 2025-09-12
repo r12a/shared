@@ -20,13 +20,13 @@ var spreadsheet = `arab-ur	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ڈھ	D	ɖʱ		ɖʰ	ḍh							4			U+0688 U+06BE: ARABIC LETTER DDAL, HEH DOACHASHMEE	
 ک	k¶	k		k	k	k	Lo		consonant			4	کاف	kɑːf	U+06A9: ARABIC LETTER KEHEH	✓
 کھ	K	kʰ		kʰ	kh							4			U+06A9 U+06BE: ARABIC LETTER KEHEH, HEH DOACHASHMEE	
-گ	g	g		g	g	K	Lo		consonant			4	گاف	gɑːf	U+06AF: ARABIC LETTER GAF	✓
+گ	g	ɡ		g	g	K	Lo		consonant			4	گاف	gɑːf	U+06AF: ARABIC LETTER GAF	✓
 گھ	G	ɡʱ		gʰ	gh							4			U+06AF U+06BE: ARABIC LETTER GAF, HEH DOACHASHMEE	
 ق	q	q		q	q	z	Lo		consonant			4	قاف	qɑːf	U+0642: ARABIC LETTER QAF	✓
 ف	f	f		f	f	x	Lo		consonant			4	فے	feː	U+0641: ARABIC LETTER FEH	✓
+س	s¶	s		s	s	v	Lo		consonant			4	سین	siːn	U+0633: ARABIC LETTER SEEN	✓
 ص	S	s		ŝ	ṣ	w	Lo		consonant			4	صاد	sʋɑːd̪	U+0635: ARABIC LETTER SAD	✓
 ث	S	s		ṡ	s̱	T	Lo		consonant			4	ثے	seː	U+062B: ARABIC LETTER THEH	✓
-س	s¶	s		s	s	v	Lo		consonant			4	سین	siːn	U+0633: ARABIC LETTER SEEN	✓
 ز	z	z		z	z	S	Lo		consonant			2	زے	zeː	U+0632: ARABIC LETTER ZAIN	✓
 ض	Z	z		ẑ	ẓ	W	Lo		consonant			4	ضاد	zʋɑːd̪	U+0636: ARABIC LETTER DAD	✓
 ظ	Z	z		ž	z̤	Q	Lo		consonant			4	ظوے	zoː.eː	U+0638: ARABIC LETTER ZAH	✓

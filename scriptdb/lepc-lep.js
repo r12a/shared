@@ -25,7 +25,7 @@ var spreadsheet = `lepc-lep	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᰁ	L	kl	a	kˡ	kl		Lo		onset cluster							U+1C01: LEPCHA LETTER KLA	onset	
 ᰂ	K	kʰ	a	kʰ	kh		Lo		consonant						ख	U+1C02: LEPCHA LETTER KHA	onset	
 ᰃ	g	ɡ	a	g	g		Lo		consonant						ग	U+1C03: LEPCHA LETTER GA	onset	
-ᰄ	L	gl	a	gˡ	gl		Lo		onset cluster							U+1C04: LEPCHA LETTER GLA	onset	
+ᰄ	L	ɡl	a	gˡ	gl		Lo		onset cluster							U+1C04: LEPCHA LETTER GLA	onset	
 ᰑ	f	f	a	f	f		Lo		consonant							U+1C11: LEPCHA LETTER FA	onset	
 ᰒ	L	fl	a	fˡ	fl		Lo		onset cluster							U+1C12: LEPCHA LETTER FLA	onset	
 ᰟ	v	v	a	v	v		Lo		consonant							U+1C1F: LEPCHA LETTER VA	onset	
@@ -34,7 +34,7 @@ var spreadsheet = `lepc-lep	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᰡ	S	ʃ	a	ʃ	sh		Lo		consonant						श ष	U+1C21: LEPCHA LETTER SHA	onset	
 ᰈ	j	ʒ	a	ʒ	j		Lo		consonant						ज	U+1C08: LEPCHA LETTER JA	onset	
 ᰝ	h	h	a	h	h		Lo		consonant						ह	U+1C1D: LEPCHA LETTER HA	onset	
-ᰞ	L	hl	a	hˡ	hl		Lo		onset cluster							U+1C1E: LEPCHA LETTER HLA	onset	
+ᰞ	L	l̥	a	hˡ	hl		Lo		onset cluster							U+1C1E: LEPCHA LETTER HLA	onset	
 ᰕ	m	m	a	m	m		Lo		consonant			ᰮ			म	U+1C15: LEPCHA LETTER MA	onset	
 ᰮ	M	m		m̽	m		Mn​		final consonant		ᰕ		ᰜᰉᰬᰳ	lanyet		U+1C2E: LEPCHA CONSONANT SIGN M	coda	
 ᰖ	L	ml	a	mˡ	ml		Lo		onset cluster							U+1C16: LEPCHA LETTER MLA	onset	
