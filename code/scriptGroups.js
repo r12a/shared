@@ -280,7 +280,7 @@ var scriptGroups = [
 [0x16AD0,0x16AFF,"Bassa Vah","bass","bass"],
 [0x16B00,0x16B8F,"Pahawh Hmong","hmng",""],
 [0x16D40,0x16D7F,"Kirat Rai","krai","krai"],
-[0x16D80,0x16DAF,"Chisoi","chis",""],
+//[0x16D80,0x16DAF,"Chisoi","chis",""],
 [0x16E40,0x16E9F,"Medefaidrin","medf",""],
 [0x16EA0,0x16EDF,"Beria Erfe","berf","berf"],
 [0x16F00,0x16F9F,"Miao","plrd","plrd"],
