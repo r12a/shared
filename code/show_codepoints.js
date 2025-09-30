@@ -745,6 +745,11 @@ function showCharDetailsInPanel (evt) {
 
 
 
+
+
+
+
+
 function makeArticleDetails (chars) {
     // console.log('makeArticleDetails(', 'chars:'+chars, ')\n\tAdd  details for character(s) below a block.\n\tGLOBALS notesLangtag:'+window.notesLangtag, 'blockDirectoryName:'+window.blockDirectoryName)
     
