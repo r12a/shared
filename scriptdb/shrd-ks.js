@@ -4,7 +4,7 @@ var spreadsheet = `shrd-ks	key	ipa	ipa+	ipaOther	translit	transc	kbd	class	statu
 𑆧	b	b	ɐ		b	b		Lo		consonant						U+111A7: SHARADA LETTER BA					
 𑆨	B	bʱ	ɐ		bʱ	bh		Lo		consonant						U+111A8: SHARADA LETTER BHA					
 𑆠	t	t	ɐ		t	t		Lo		consonant						U+111A0: SHARADA LETTER TA					
-𑆡	T	tʱ	ɐ		tʱ	th		Lo		consonant						U+111A1: SHARADA LETTER THA					
+𑆡	T	tʰ	ɐ		tʱ	th		Lo		consonant						U+111A1: SHARADA LETTER THA					
 𑆢	d	d	ɐ		d	d		Lo		consonant						U+111A2: SHARADA LETTER DA					
 𑆣	D	dʱ	ɐ		dʱ	dh		Lo		consonant						U+111A3: SHARADA LETTER DHA					
 𑆛	t	ʈ	ɐ		ʈ	ṭ		Lo		consonant						U+1119B: SHARADA LETTER TTA					
@@ -14,11 +14,11 @@ var spreadsheet = `shrd-ks	key	ipa	ipa+	ipaOther	translit	transc	kbd	class	statu
 𑆖	c	t͡ɕ	ɐ		t͡ɕ	c		Lo		consonant					tsaṭuv tsa	U+11196: SHARADA LETTER CA					
 𑆗	C	t͡ɕʰ	ɐ		t͡ɕʰ	ch		Lo		consonant					tshvŏtiñ tsha	U+11197: SHARADA LETTER CHA					
 𑆘	j	d͡ʑ	ɐ		d͡ʑ	j		Lo		consonant						U+11198: SHARADA LETTER JA					
-𑆙	J	d͡ʑʰ	ɐ		d͡ʑʰ	jh		Lo		consonant						U+11199: SHARADA LETTER JHA					
+𑆙	J	d͡ʑʱ	ɐ		d͡ʑʰ	jh		Lo		consonant						U+11199: SHARADA LETTER JHA					
 𑆑	k	k	ɐ		k	k		Lo		consonant					kov ka	U+11191: SHARADA LETTER KA					
 𑆒	K	kʰ	ɐ		kʰ	kh		Lo		consonant					khŏnĭ kha	U+11192: SHARADA LETTER KHA					
 𑆓	g	ɡ	ɐ		ɡ	g		Lo		consonant					gagar ga	U+11193: SHARADA LETTER GA					
-𑆔	G	ɡʰ	ɐ		ɡʰ	gh		Lo		consonant					gŏsĭ ga	U+11194: SHARADA LETTER GHA					
+𑆔	G	ɡʱ	ɐ		ɡʰ	gh		Lo		consonant					gŏsĭ ga	U+11194: SHARADA LETTER GHA					
 𑇃	f	ɸ			ᶠ			Lo		stacked consonant						U+111C3: SHARADA SIGN UPADHMANIYA					
 𑆱	s	s	ɐ		s	s		Lo		consonant						U+111B1: SHARADA LETTER SA					
 𑆯	s	ɕ	ɐ		ɕ	ś		Lo		consonant						U+111AF: SHARADA LETTER SHA					
