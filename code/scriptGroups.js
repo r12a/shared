@@ -136,7 +136,7 @@ var scriptGroups = [
 [0xA6A0,0xA6FF,"Bamum","bamu","bamu"],
 [0xA700,0xA71F,"Modifier Tone Letters","","",true],
 [0xA720,0xA7FF,"Latin Extended-D","latn","latn"],
-[0xA800,0xA82F,"Syloti Nagri","sylo",""],
+[0xA800,0xA82F,"Syloti Nagri","sylo","sylo"],
 [0xA830,0xA83F,"Common Indic Number Forms","",""],
 [0xA840,0xA87F,"Phags-pa","phag",""],
 [0xA880,0xA8DF,"Saurashtra","saur",""],
