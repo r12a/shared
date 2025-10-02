@@ -10,10 +10,13 @@
 var scriptInfo = {
 
 script:"Latin", code:"Latn", name:"", type:"Alphabet, cased",
-dates:"BCE 7thC – today", start:"-700", end:"", current_usage:"",
-status:"",
 origin:"Europe",
 info:{ wikipedia:"Latin_script", omniglot:"latin" },
+local: [ ],
+layout: [ 
+	{ name:"Requirements for Latin Text Layout and Pagination", url:"http://w3c.github.io/dpub-pagination/"},
+    { name:"Latin counter styles", url:"https://www.w3.org/TR/predefined-counter-styles/#latin-styles"},
+	],
 charts: [ ["Basic Latin", "0000"], ["Latin-1 Supplement", "0080"], ["Latin Extended-A", "0100"], ["Latin Extended-B", "0180"], ["Latin Extended-C", "2C60"], ["Latin Extended-D", "A720"], ["Latin Extended-E", "AB30"], ["Latin Extended-F", "10780"], ["Latin Extended-G", "1DF00"], ["Latin Extended Additional", "1E00"], ["Halfwidth and Fullwidth Forms", "FF00"], ["IPA Extensions", "0250"], ["Phonetic Extensions", "1D00"], ["Phonetic Extensions Supplement", "1D80"] ],
 scriptNotes: [["Bamanan", "latn/bm.html"], ["Fula", "latn/ff.html"], ["Hausa (boko)", "latn/ha.html"], ["Kurmanji", "latn/kmr.html"], ["Wolof", "latn/wo.html"]],
 charNotesList:["Latin", "latn/block.html"],
@@ -21,19 +24,13 @@ terms: [["Bamanan", "latn/bm_vocab.html"], ["Fula", "latn/ff_vocab.html"], ["Hau
 pickers: [["Latin&nbsp;&amp;&nbsp;diacritics", "latn-all"], ["Bamanan", "latn-bm"], ["Fula", "latn-ff"], ["Hausa", "latn-ha"], ["Kurmanji", "latn-kmr"], ["Old&nbsp;English", "latn-ang"], ["Old&nbsp;Norse", "latn-non"], ["Tłı̨chǫ&nbsp;(Dogrib)", "latn-dgr"], ["Vietnamese", "latn-vi"], ["Wolof", "latn-wo"], ["Pan-African", "latn-afr"], ["<br>IPA&nbsp;by&nbsp;place", "ipa2"], ["IPA&nbsp;by&nbsp;type", "ipa3"], ["IPA&nbsp;standard&nbsp;chart", "ipa"]],
 orthoChart: true,
 ssHistory: "xztdezls8h",
-chapters: "07",
 htmlchapter: "7/#G4321",
 usedfor: "",
-local: [ ],
-layout: [ 
-	{ name:"Requirements for Latin Text Layout and Pagination", url:"http://w3c.github.io/dpub-pagination/"},
-    { name:"Latin counter styles", url:"https://www.w3.org/TR/predefined-counter-styles/#latin-styles"},
-	],
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `BCE 7thC – today`,
+dates: `BCE 7thC – today`, start:"-700", end:"", current_usage:"",
 status: `In wide use`,
 lineage: `Phoenician > Greek > Old Italic > Latin`,
 siblings: `Glagolitic, Cyrillic, Armenian, Georgian, Coptic, Runes`,

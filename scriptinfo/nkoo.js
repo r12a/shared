@@ -10,10 +10,13 @@
 var scriptInfo = {
 
 script:"N’Ko", code:"Nkoo", name:"", type:"Alphabet, RTL, Cursive",
-dates:"1949 – today", start:"1949", end:"", current_usage:"",
-status:"Used in Guinea and Côte d'Ivoire as well as Mali, for publications relating to indigenous knowledge, including descriptions of medical rituals, traditional poetry, and philosophical works, as well as textbooks and a transcription of the Qur'an.",
 origin:"Africa",
 info:{ wikipedia:"N'Ko_alphabet", omniglot:"nko", endalpha:"nko" },
+local: [ ],
+layout: [ 
+    { name:"N’Ko Layout Requirements", url:"https://www.w3.org/TR/nkoo-lreq/"},
+    { name:"N’Ko counter styles", url:"https://www.w3.org/TR/predefined-counter-styles/#nko-styles"},
+	],
 charts: [ ["NKo", "07C0"] ],
 scriptNotes: [["N’Ko", "nkoo/nqo.html"]],
 charNotesList:["NKo", "nkoo/block.html"],
@@ -21,19 +24,13 @@ terms: [["N’Ko", "nkoo/nqo_vocab.html"]],
 pickers: [["N’Ko", "nko"]],
 orthoChart: true,
 ssHistory: "mnqzubphu7",
-chapters: "19",
 htmlchapter: "19/#G18603",
 usedfor: "Bamanankan [bam], Eastern Maninkakan [man], Jula [dyu], N'Ko [nqo]",
-local: [ ],
-layout: [ 
-    { name:"N’Ko Layout Requirements", url:"https://www.w3.org/TR/nkoo-lreq/"},
-    { name:"N’Ko counter styles", url:"https://www.w3.org/TR/predefined-counter-styles/#nko-styles"},
-	],
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `1949 – today`,
+dates: `1949 – today`, start:"1949", end:"", current_usage:"",
 status: `In active use`,
 lineage: `Devised by Sùlemáana Kántɛ in 1949. Draws inspiration from Arabic`,
 siblings: ``,
@@ -44,7 +41,7 @@ unicode: `Unicode 17 has 1 dedicated block, comprising 62 characters.`,
 
 
 
-"nkoo": {name:"N’Ko", region:"afr", type:"alpha", 
+"nkoo": {name:"N’Ko", region:"afr", type:"alpha",
 blocks:1, chars:62, bletter:36, bmark:10, bnumber:10, bpunctuation:3, bsymbol:3, bother:0, 
 direction:"rtl", rtlnumbers:Y,
 voweltype: { inherent:0, letters:Y, marks:N, hidden:N, visorder:N, vocalics:N, ivowels:Y, vbase:"", vcomposite:N, prebase:N, circum:N, },

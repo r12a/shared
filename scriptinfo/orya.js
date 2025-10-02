@@ -10,10 +10,14 @@
 var scriptInfo = {
 
 script:"Oriya", code:"Orya", name:"Oriya (Odia)", type:"Abugida",
-dates:"1051 – today", start:"1051", end:"", current_usage:"",
-status:"The script for the Odia language, with around 40,000,000 speakers, and several minority languages.",
 origin:"South Asia",
 info:{ wikipedia:"Odia_alphabet", omniglot:"oriya" },
+local: [ 
+    { name:"Introduction to Indic Scripts", url:"indic-overview/index.html"},
+    ],
+layout: [ 
+    { name:"Oriya counter styles", url:"https://www.w3.org/TR/predefined-counter-styles/#oriya-styles"},
+	],
 charts: [ ["Oriya", "0B00"] ],
 scriptNotes: [["Odia (Oriya)", "orya/or.html"]],
 charNotesList:["Oriya", "orya/block.html"],
@@ -21,20 +25,13 @@ terms: [["Odia (Oriya)", "orya/or_vocab.html"]],
 pickers: [["Odia (Oriya)", "orya"]],
 orthoChart: true,
 ssHistory: "znkmblg693",
-chapters: "12",
 htmlchapter: "12/#G10153",
 usedfor: "Bodo Gadaba [gbj], Bodo Parja [bdv], Bondo [bfw], Dawik [dwk], Desiya [dso], Duruwa [pci], Gara' [gaq], ho [hoc], Juang [jun], Kisan [xis], Koya [kff], Kudmali [kyw], Kui [kxu], Kuvi [kxv], Mirgan [zrg], Mundari [unr], Odia [ory], Pengo [peg], Pottangi Ollar Gadaba [gdb], Sambalpuri [spv], Santhali [sat], Sora [srb]",
-local: [ 
-    { name:"Introduction to Indic Scripts", url:"indic-overview/index.html"},
-    ],
-layout: [ 
-    { name:"Oriya counter styles", url:"https://www.w3.org/TR/predefined-counter-styles/#oriya-styles"},
-	],
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `CE 1051 – today`,
+dates: `CE 1051 – today`, start:"1051", end:"", current_usage:"",
 status: `In active use`,
 lineage: `Phoenician > Aramaic > Brahmi > Gupta > Siddham > Gaudi > Odia`,
 siblings: `Bengali, Tirhuta, Nagari, Nepali`,

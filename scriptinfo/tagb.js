@@ -10,8 +10,6 @@
 var scriptInfo = {
 
 script:"Tagbanwa", code:"Tagb", name:"", type:"Abugida, Defective",
-dates:"18thC – today", start:"1700", end:"", current_usage:"uptake, community",
-status:"Used for the Tagbanwa language, which has around 8,000 speakers, in the Palawan region of the Philippines. Younger generations prefer to use Tagalog, so the script is in decline.",
 origin:"Indonesia & Oceania",
 info:{ wikipedia:"Tagbanwa_script", omniglot:"tagbanwa" },
 local: [ ], layout: [ ],
@@ -22,14 +20,13 @@ terms: [["Tagbanwa", "tagb/tbw_vocab.html"]],
 pickers: [["Tagbanwa", "tagb"]],
 orthoChart: true,
 ssHistory: "d62f48hfad",
-chapters: "17",
 htmlchapter: "17/#G26433",
 usedfor: "Calamian Tagbanwa [tbk], Tagbanwa [tbw]",
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `18thC – today`,
+dates: `18thC – today`, start:"1700", end:"", current_usage:"uptake, community",
 status: `Endangered (low uptake, small community)`,
 lineage: `Phoenician > Aramaic > Brahmi > Pallava > Kawi > Tagalog > Tagbanwa`,
 siblings: `Buhid, Hanunó'o, Kulitan, Bima, Balinese, Batak, Javanese, Makasar, Buginese, Sundanese, Rencong, Rejang`,

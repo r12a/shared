@@ -21,21 +21,19 @@ terms: [["Ahom", "ahom/aho_vocab.html"]],
 pickers: [["Ahom", "ahom-aho"]],
 orthoChart: true,
 ssHistory: "ky6s63f7fx",
-chapters: "15",
 htmlchapter: "15/#G95570",
 usedfor: "Ahom [aho]",
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `15thC – today`,
+dates: `15thC – today`, start:"1500", end:"", current_usage:"",
 status: `Limited usage (small community, endangered)`,
 lineage: `Phoenician > Aramaic > Brahmi > Pallava > Mon-Burmese > Lik-tai > Ahom`,
 siblings: `Tai Le, Khamti`,
 history: `Ahom (𑜒𑜑𑜪𑜨) is a Southeast Asian abugida, used to write the Tai Ahom language in northeast India. The language was one of the main Tai languages of Assam for 500 years until it was replaced by Assamese. At the beginning of the 2oth century it was largely extinct, but is currently undergoing a revival. Very few speakers of Ahom remain.`,
 description: `Ahom writes post-consonant vowels mostly using combining marks and one repurposed consonant, but has a large number of composite vowel signs. Standalone vowels use the same vowel signs attached to a base character. Context-sensitive positioning and some shaping is needed to handle vowels. Consonant clusters are marked by a visible killer, and there are no conjuncts.`,
 unicode: `Unicode 17 has 1 dedicated block, comprising 65 characters.`,
-name:"Ahom", local:"", localtrans:"", countries:"Myanmar", speakers:"?", 
 // this is replicated in shared/scriptdb/script_summaries
 
 

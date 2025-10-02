@@ -10,8 +10,6 @@
 var scriptInfo = {
 
 script:"Vai", code:"Vaii", name:"", type:"Syllabary",
-dates:"1830 – today", start:"1830", end:"", current_usage:"",
-status:"Used for the Vai language, spoken in coastal areas of western Liberia and eastern Sierra  Leone. The Institute for Liberian Languages publishes in the script. It is also widely used in commerce, as well as for newspapers, tombstones and in traditional rituals.",
 origin:"Africa",
 info:{ wikipedia:"Vai_syllabary", omniglot:"vai", endalpha:"vai" },
 local: [ ], layout: [ ],
@@ -22,14 +20,13 @@ terms: [["Vai", "vaii/vai_vocab.html"]],
 pickers: [["Vai", "vai"]],
 orthoChart: true,
 ssHistory: "z8tk356ua7",
-chapters: "19",
 htmlchapter: "19/#G18604",
 usedfor: "Vai [vai]",
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `1830 – today`,
+dates: `1830 – today`, start:"1830", end:"", current_usage:"",
 status: `In use`,
 lineage: `Created by Momolu Duwalu Bukele in the 1830s`,
 siblings: ``,
@@ -40,7 +37,7 @@ unicode: `Unicode 17 has 1 dedicated block, comprising 300 characters.`,
 
 
 
-"vaii": {name:"Vai", region:"afr", type:"syll", 
+"vaii": {name:"Vai", region:"afr", type:"syll",
 blocks:1, chars:300, bletter:287, bmark:0, bnumber:10, bpunctuation:3, bsymbol:0, bother:0, 
 direction:"ltr", rtlnumbers:N,
 voweltype: { inherent:0, letters:Y, marks:N, hidden:N, visorder:N, vocalics:N, ivowels:Y, vbase:"", vcomposite:N, prebase:N, circum:N, },

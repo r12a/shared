@@ -10,10 +10,12 @@
 var scriptInfo = {
 
 script:"Lepcha", code:"Lepc", name:"Lepcha (Róng)", type:"Abugida",
-dates:"1720 – today", start:"1720", end:"", current_usage:"community",
-status:"The writing system for the Lepcha language, spoken in Sikkim and in the Darjeeling district of the West Bengal state of India by around 53,000 people.",
 origin:"South Asia",
 info:{ wikipedia:"Lepcha_alphabet", omniglot:"lepcha", endalpha:"rong" },
+local: [ ],
+layout: [ 
+    { name:"Lepcha counter styles", url:"https://www.w3.org/TR/predefined-counter-styles/#lepcha-styles"},
+	],
 charts: [ ["Lepcha", "1C00"] ],
 scriptNotes: [["Lepcha", "lepc/lep.html"]],
 charNotesList:["Lepcha", "lepc/block.html"],
@@ -21,18 +23,13 @@ terms: [["Lepcha", "lepc/lep_vocab.html"]],
 pickers: [["Lepcha", "lepc-lep"]],
 orthoChart: true,
 ssHistory: "g6cv78jn42",
-chapters: "13",
 htmlchapter: "13/#G27253",
 usedfor: "Lepcha [lep]",
-local: [ ],
-layout: [ 
-    { name:"Lepcha counter styles", url:"https://www.w3.org/TR/predefined-counter-styles/#lepcha-styles"},
-	],
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `CE 1720 – today`,
+dates: `CE 1720 – today`, start:"1720", end:"", current_usage:"community",
 status: `Limited usage (small community)`,
 lineage: `Phoenician > Aramaic > Brahmi > Gupta > Tibetan > Lepcha`,
 siblings: `Meitei, Khema, Phagspa, Marchen`,

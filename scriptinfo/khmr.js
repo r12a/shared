@@ -10,10 +10,13 @@
 var scriptInfo = {
 
 script:"Khmer", code:"Khmr", name:"", type:"abugida",
-dates:"6thC – today", start:"500", end:"", current_usage:"",
-status:"The script for the Khmer (Cambodian) language, which has around 16,000,000 speakers, and for several minority languages.",
 origin:"Southeast Asia",
 info:{ wikipedia:"Khmer_script", omniglot:"khmer" },
+local: [ ],
+layout: [ 
+    { name:"Khmer Layout Requirements", url:"http://w3c.github.io/khmr-lreq/"},
+    { name:"Khmer counter styles", url:"https://www.w3.org/TR/predefined-counter-styles/#khmer-styles"},
+	],
 charts: [ ["Khmer", "1780"], ["Khmer Symbols", "19E0"] ],
 scriptNotes: [["Khmer", "khmr/km.html"]],
 charNotesList:["Khmer", "khmr/block.html"],
@@ -21,19 +24,13 @@ terms: [["Khmer", "khmr/km_vocab.html"]],
 pickers: [["Khmer", "khmr"]],
 orthoChart: true,
 ssHistory: "2269c7g9ee",
-chapters: "16",
 htmlchapter: "16/#G64642",
 usedfor: "Mnong, Central [cmo], Jarai [jra], Kavet [krv], Khmer [khm], Krung [krr], Kuy [kdt], Lave [brb], Khmer, Northern [kxm], Tampuan [tpu]",
-local: [ ],
-layout: [ 
-    { name:"Khmer Layout Requirements", url:"http://w3c.github.io/khmr-lreq/"},
-    { name:"Khmer counter styles", url:"https://www.w3.org/TR/predefined-counter-styles/#khmer-styles"},
-	],
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `6thC – today`,
+dates: `6thC – today`, start:"500", end:"", current_usage:"",
 status: `In active use`,
 lineage: `Phoenician > Aramaic > Brahmi > Tamil-Brahmi > Pallava > Khmer`,
 siblings: `Cham, Kawi, Mon-Burmese, Grantha, Tamil`,

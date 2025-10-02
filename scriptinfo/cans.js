@@ -20,21 +20,19 @@ terms: [["Eastern Canadian Inuktitut", "cans/ike_vocab.html"], ["Plains Cree", "
 pickers: [["Eastern Canadian Inuktitut", "cans-ike"], ["Plains Cree", "cans-crk"], ["All UCAS", "cans"]],
 orthoChart: true,
 ssHistory: "c36d846u2d",
-chapters: "20",
 htmlchapter: "20/#G26630",
 usedfor: "Beaver [bea], Blackfoot [bla], Carrier [crx], Carrier, Southern [caf], Chippewa [ciw], Cree, Plains [crk], Cree, Southern East [crj], Cree, Swampy [csw], Cree, Woods [cwd], Cree, Moose [crm], Cree, Northern East [crl], Dene [chp], Inuktitut, Eastern Canadian [ike], Inuinnaqtun [ikt], Naskapi [nsk], Ojibwa, Eastern [ojg], Ojibwa, Northwestern [ojb], Ojibwa, Western [ojw], Oji-Cree [ojs], Sekani [sek], Slavey, North [scs], Slavey, South [xsl]",
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `1840s – today`,
+dates: `1840s – today`, start:"~1840", end:"", current_usage:"",
 status: `In active use`,
 lineage: `Created in 1840 by James Evans to write indigenous Canadian languages`,
 siblings: ``,
 history: `The Unified Canadian Aboriginal Syllabics script (UCAS) is a North American featural syllabary. It is used by several aboriginal groups throughout Canada and some parts of the USA for 22 languages, including Algonquian, Inuktitut, and Athapascan language families (though adoption varies across languages).`,
 description: `The majority of symbols represent both a consonant and a vowel, but vowel components are indicated by standardised rotations of the glyph shape.`,
 unicode: `Unicode 17 has 3 dedicated blocks, comprising 726 characters.`,
-name:"Canadian Aboriginal Syllabics", local:"", localtrans:"", region:"nam", countries:"Canada, USA", speakers:U,
 // this is replicated in shared/scriptdb/script_summaries
 
 

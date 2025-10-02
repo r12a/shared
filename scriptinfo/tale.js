@@ -10,8 +10,6 @@
 var scriptInfo = {
 
 script:"Tai Le", code:"Tale", name:"", type:"Abugida",
-dates:"1954 – today", start:"1954", end:"", current_usage:"",
-status:"Used mainly for the Tai Nüa language, which has around 700,000 speakers.",
 origin:"Southeast Asia",
 info:{ wikipedia:"Tai_Le_alphabet", omniglot:"tainua", endalpha:"tai-le" },
 local: [ ], layout: [ ],
@@ -22,14 +20,13 @@ terms: [["Tai Nüa", "tale/tdd_vocab.html"]],
 pickers: [["Tai Le", "tale"]],
 orthoChart: true,
 ssHistory: "76c7d2ch4g",
-chapters: "16",
 htmlchapter: "16/#G32903",
 usedfor: "Blang [blr], Shan [shn], Tai Nüa [tdd]",
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `1954 – today`,
+dates: `1954 – today`, start:"1954", end:"", current_usage:"",
 status: `In active use`,
 lineage: `Phoenician > Aramaic > Brahmi > Pallava > Mon-Burmese, Lik-Tai, Tai Le`,
 siblings: `Ahom, Khamti`,

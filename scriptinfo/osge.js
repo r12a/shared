@@ -10,8 +10,6 @@
 var scriptInfo = {
 
 script:"Osage", code:"Osge", name:"", type:"Alphabet",
-dates:"2006 – today", start:"2006", end:"", current_usage:"community",
-status:"A new orthography promoted by the Osage Nation since 2006. Work is under way to educate people in the script, but the number of users is still low, in an ethnic population of 11,000.",
 origin:"Americas",
 info:{ wikipedia:"Osage_alphabet", omniglot:"http://www.omniglot.com/writing/osage.php", endalpha:"osage" },
 local: [ ], layout: [ ],
@@ -22,14 +20,13 @@ terms: [["Osage", "osge/osa_vocab.html"]],
 pickers: [["Osage", "osge"]],
 orthoChart: true,
 ssHistory: "gm4pjj3qw7",
-chapters: "20",
 htmlchapter: "20/#G26674",
 usedfor: "Osage [osa]",
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `CE 2006 – today`,
+dates: `CE 2006 – today`, start:"2006", end:"", current_usage:"community",
 status: `Limited usage (small community)`,
 lineage: `Phoenician > Greek > Old Italic > Latin > Osage`,
 siblings: ``,

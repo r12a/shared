@@ -10,8 +10,6 @@
 var scriptInfo = {
 
 script:"Sinhala", code:"Sinh", name:"", type:"Abugida",
-dates:"BCE 3rdC – today", start:"-300", end:"", current_usage:"",
-status:"The script used for the Sinhala language, with around 16,000,000 speakers, and also for Sanskrit and Pali.",
 origin:"South Asia",
 info:{ wikipedia:"Sinhala_alphabet", omniglot:"sinhala" },
 local: [ ], layout: [ ],
@@ -22,14 +20,13 @@ terms: [["Sinhala", "sinh/si_vocab.html"]],
 pickers: [["Sinhala", "sinh"]],
 orthoChart: true,
 ssHistory: "sbwtu85wbv",
-chapters: "13",
 htmlchapter: "13/#G26561",
 usedfor: "Pali [pli], Sanskrit [sa], Sinhala [sin]",
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `BCE 3rdC – today`,
+dates: `BCE 3rdC – today`, start:"-300", end:"", current_usage:"",
 status: `In active use`,
 lineage: `Phoenician > Aramaic > Brahmi > Sinhala`,
 siblings: `Tamil-Brahmi, Gupta, Bhattiprolu, Kadamba, Tocharian`,

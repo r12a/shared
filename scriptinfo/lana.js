@@ -10,10 +10,12 @@
 var scriptInfo = {
 
 script:"Tai Tham", code:"Lana", name:"Tai Tham (Lanna)", type:"Abugida",
-dates:"13thC – today", start:"1200", end:"", current_usage:"",
-status:"Used principally to write Tai Khün, with relatively high literacy for around 100,000 speakers, and Northern Thai, with around 6,000,000 speakers but low literacy in the Tham script. Northern Thai is also written in the Thai script, and Lü is also written in New Tai Lue.",
 origin:"Southeast Asia",
 info:{ wikipedia:"Tai_Tham_alphabet", omniglot:"lanna", endalpha:"lanna-aka-tai-tham" },
+local: [ ],
+layout: [ 
+    { name:"Lanna (Tai Tham) counter styles", url:"https://www.w3.org/TR/predefined-counter-styles/#lanna-styles"},
+	],
 charts: [ ["Tai Tham", "1A20"] ],
 scriptNotes: [["Northern Thai", "lana/nod.html"], ["Tai Khün", "lana/kkh.html"]],
 charNotesList:["Tai Tham", "lana/block.html"],
@@ -21,18 +23,13 @@ terms: [["Tai Khün", "lana/kkh_vocab.html"], ["Northern Thai", "lana/nod_vocab.
 pickers: [["Northern&nbsp;Thai", "lana-nod"], ["Tai&nbsp;Khün", "lana-kkh"]],
 orthoChart: true,
 ssHistory: "gf97b8ad78",
-chapters: "16",
 htmlchapter: "16/#G53337",
 usedfor: "Khün [kkh], Lü [khb], Northern Thai [nod], Tai Ya [cuu]",
-local: [ ],
-layout: [ 
-    { name:"Lanna (Tai Tham) counter styles", url:"https://www.w3.org/TR/predefined-counter-styles/#lanna-styles"},
-	],
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `14thC – today`,
+dates: `14thC – today`, start:"1200", end:"", current_usage:"",
 status: `Limited usage (low uptake)`,
 lineage: `Phoenician > Aramaic > Brahmi > Tamil-Brahmi > Pallava > Old Mon > Tai Tham`,
 siblings: `Burmese, Mon, Sgaw Karen, Shan, Chakma, Ahom, Tai Le, Khamti`,

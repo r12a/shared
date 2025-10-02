@@ -10,10 +10,12 @@
 var scriptInfo = {
 
 script:"Newa", code:"Newa", name:"Newa (Newar, Newari, Nepāla lipi)", type:"Abugida",
-dates:"10thC – today", start:"900", end:"", current_usage:"uptake",
-status:"Largely eclipsed by Devanagari nowadays, this script is used especially for writing the Newar language, but also others. Currently little used, but receiving interest for revival.",
 origin:"South Asia",
 info:{ wikipedia:"Prachalit_Nepal_alphabet", omniglot:"newa" },
+local: [ ],
+layout: [ 
+    { name:"Newa counter styles", url:"https://www.w3.org/TR/predefined-counter-styles/#newa-styles"},
+	],
 charts: [ ["Newa", "11400"] ],
 scriptNotes: [["Newar", "newa/new.html"]],
 charNotesList:["Newa", "newa/block.html"],
@@ -21,18 +23,13 @@ terms: [["Newar", "newa/new_vocab.html"]],
 pickers: [["Newar", "newa"]],
 orthoChart: true,
 ssHistory: "y53lggbts6",
-chapters: "13",
 htmlchapter: "13/#G31609",
 usedfor: "Bengali [bn], Hindi [hi], Maithili [mai], Newar [new], Sanskrit [sa]",
-local: [ ],
-layout: [ 
-    { name:"Newa counter styles", url:"https://www.w3.org/TR/predefined-counter-styles/#newa-styles"},
-	],
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `11thC – today`,
+dates: `11thC – today`, start:"900", end:"", current_usage:"uptake",
 status: `Limited usage (low uptake)`,
 lineage: `Phoenician > Aramaic > Brahmi > Gupta > Siddham > Nepali > Newa`,
 siblings: `Ranjana, Bujimol`,

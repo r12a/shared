@@ -10,10 +10,12 @@
 var scriptInfo = {
 
 script:"Limbu", code:"Limb", name:"", type:"Abugida",
-dates:"19thC – today", start:"1800", end:"", current_usage:"community",
-status:"Used alongside Devanagari by about 2-400,000 people for writing the Limbu language spoken in Nepal and northern India.",
 origin:"South Asia",
 info:{ wikipedia:"Limbu_alphabet", omniglot:"limbu" },
+local: [ ],
+layout: [ 
+    { name:"Limbu counter styles", url:"https://www.w3.org/TR/predefined-counter-styles/#limbu-styles"},
+	],
 charts: [ ["Limbu", "1900"] ],
 scriptNotes: [["Limbu", "limb/lif.html"]],
 charNotesList:["Limbu", "limb/block.html"],
@@ -21,18 +23,13 @@ terms: [["Limbu", "limb/lif_vocab.html"]],
 pickers: [["Limbu", "limb-lif"]],
 orthoChart: true,
 ssHistory: "a2exgfkrmf",
-chapters: "13",
 htmlchapter: "13/#G27263",
 usedfor: "Limbu [lif]",
-local: [ ],
-layout: [ 
-    { name:"Limbu counter styles", url:"https://www.w3.org/TR/predefined-counter-styles/#limbu-styles"},
-	],
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `19thC – today`,
+dates: `19thC – today`, start:"1800", end:"", current_usage:"community",
 status: `Limited usage (small community)`,
 lineage: `Phoenician > Aramaic > Brahmi > Gupta > Tibetan > Lepcha > Limbu`,
 siblings: ``,

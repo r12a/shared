@@ -10,8 +10,6 @@
 var scriptInfo = {
 
 script:"Mandaic", code:"Mand", name:"", type:"Alphabet, RTL",
-dates:"2ndC – today", start:"100", end:"", current_usage:"liturgical, endangered",
-status:"War over a long period has reduced the language to a severely endangered level. There may be 200 or less first language speakers of Mandaic.",
 origin:"West Asia",
 info:{ wikipedia:"Mandaic_alphabet", omniglot:"mandaic", endalpha:"mandaic" },
 local: [ ], layout: [ ],
@@ -22,14 +20,13 @@ terms: [["Mandaic", "mand/mid_vocab.html"]],
 pickers: [["Neo-Mandaic", "mand"]],
 orthoChart: true,
 ssHistory: "djwvfmuu3h",
-chapters: "09",
 htmlchapter: "9/#G46613",
 usedfor: "Classical Mandaic [myz], Mandaic [mid]",
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `CE 2ndC – today`,
+dates: `CE 2ndC – today`, start:"100", end:"", current_usage:"liturgical, endangered",
 status: `Endangered (largely liturgical)`,
 lineage: `Phoenician > Aramaic > Mandaic`,
 siblings: `Hebrew, Nabataean, Syriac, Palmyrene, Hatran, Elymaic, Pahlavi, Kharoshthi, Brahmi`,

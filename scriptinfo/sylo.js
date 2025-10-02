@@ -9,23 +9,24 @@
 
 var scriptInfo = {
 
-script:"Syloti Nagri", local:"ꠍꠤꠟꠐꠤ ꠘꠣꠉꠞꠤ", localtrans:"sílɔʈi nagɾi", code:"Sylo", name:"", type:"abug",
-dates:"14thC – today", start:"1300", end:"", current_usage:"endangered",
-status:"The script began to decline after the Partition of India in 1947, and by 1970 had fallen almost entirely from use, in favour of Bengali.",
+script:"Syloti Nagri", code:"Sylo", name:"", type:"Abugida",
 origin:"South Asia",
 info:{ wikipedia:"Syloti Nagri", omniglot:"syloti", endalpha:"syloti-nagri" },
 local: [ ], layout: [ ],
 charts: [ ["Syloti Nagri", "A800"] ],
+scriptNotes: [["Syloti Nagri", "sylo/syl.html"]],
+charNotesList:[["Syloti Nagri", "sylo/block.html"]],
+terms: [["Syloti Nagri", "sylo/syl_vocab.html"]],
+pickers: [["Syloti Nagri", "sylo-syl"]],
 orthoChart: false,
 ssHistory: "kylcx42avd",
-chapters: "15",
 htmlchapter: "15/#G59104",
 usedfor: "Sylheti [syl]",
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `14thC – today`,
+dates: `14thC – today`, start:"1300", end:"", current_usage:"endangered",
 status: `Endangered`,
 lineage: `Phoenician > Aramaic > Brahmi > Gupta > Siddham > Nagari > Kaithi > Syloti Nagari`,
 siblings: ``,

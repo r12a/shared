@@ -10,8 +10,6 @@
 var scriptInfo = {
 
 script:"Tifinagh", code:"Tfng", name:"", type:"Alphabet",
-dates:"BCE 3rdC – today", start:"-300", end:"", current_usage:"",
-status:"Used to write Berber languages spoken in North Africa. In Morocco, taught to approximately 300,000 pupils in 10,000 schools, mostly primary, and three Moroccan universities offer Berber courses in the Tifinagh script leading to a Master’s degree.",
 origin:"Africa",
 info:{ wikipedia:"Tifinagh", omniglot:"tifinagh", endalpha:"tifinagh" },
 local: [ ], layout: [ ],
@@ -22,14 +20,13 @@ terms: [["(Neo-)Tifinagh/Tamazight", "tfng/zgh_vocab.html"]],
 pickers: [["Neo-tifinagh", "tfng-zgh"], ["All Tifinagh", "tfng-all"]],
 orthoChart: true,
 ssHistory: "wmx4utrkuc",
-chapters: "19",
 htmlchapter: "19/#G43184",
 usedfor: "Tamazight, Central Atlas [tzm], Kabyle [kab], Tamazight, Standard Moroccan [zgh], Tachawit [shy], Tachelhit [shi], Tagdal [tda], Tamahaq, Tahaggart [thv], Tamasheq [taq], Tarifit [rif], Tamajaq, Tawallammat [ttq], Tamajeq, Tayart [thz], Tumzabt [mzb], Zenaga [zen]",
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `BCE 3rdC – today`,
+dates: `BCE 3rdC – today`, start:"-300", end:"", current_usage:"",
 status: `In active use`,
 lineage: `Phoenician > Libyco-Berber > Tifinagh > Neo-Tifinagh`,
 siblings: ``,
@@ -40,7 +37,7 @@ unicode: `Unicode 17 has 1 dedicated block, comprising 59 characters.`,
 
 
 
-"tfng": {name:"Tifinagh", region:"afr", type:"alpha", 
+"tfng": {name:"Tifinagh", region:"afr", type:"alpha",
 blocks:1, chars:59, bletter:57, bmark:1, bnumber:0, bpunctuation:1, bsymbol:0, bother:0, 
 direction:"ltr", rtlnumbers:N,
 voweltype: { inherent:0, letters:Y, marks:N, hidden:N, visorder:N, vocalics:N, ivowels:Y, vbase:"", vcomposite:N, prebase:N, circum:N, },

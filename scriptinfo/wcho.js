@@ -10,8 +10,6 @@
 var scriptInfo = {
 
 script:"Wancho", code:"Wcho", name:"", type:"Alphabet",
-dates:"2001 – today", start:"2001", end:"", current_usage:"community",
-status:"Used for Wancho,  a  Sino-Tibetan language with around 50,000 speakers. Taught in some schools, and one book known.",
 origin:"West Asia",
 info:{ wikipedia:"Wancho_language", omniglot:"", endalpha:"wancho" },
 local: [ ], layout: [ ],
@@ -22,14 +20,13 @@ terms: [["Wancho", "wcho/nnp_vocab.html"]],
 pickers: [["Wancho", "wcho-nnp"]],
 orthoChart: true,
 ssHistory: "besbhg4q95",
-chapters: "13",
 htmlchapter: "13/#G46061",
 usedfor: "Wanch Naga [nnp]",
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `2001 – today`,
+dates: `2001 – today`, start:"2001", end:"", current_usage:"community",
 status: `Limited usage (small community)`,
 lineage: `Created by Banwang Losu between 2001-2012`,
 siblings: ``,

@@ -10,10 +10,12 @@
 var scriptInfo = {
 
 script:"Sundanese", code:"Sund", name:"", type:"Abugida",
-dates:"14thC – today", start:"1300", end:"", current_usage:"",
-status:"As of 1996, the official script for the Sundanese language, which has around 25,000,000 speakers on the island of Java. Sundanese is also written in the Latin script. It is currently taught in schools and used for public signage.",
 origin:"Indonesia & Oceania",
 info:{ wikipedia:"Sundanese_alphabet", omniglot:"http://www.omniglot.com/writing/sundanese.php", endalpha:"sundanese" },
+local: [ ],
+layout: [ 
+    { name:"Sundanese counter styles", url:"https://www.w3.org/TR/predefined-counter-styles/#sundanese-styles"},
+	],
 charts: [ ["Sundanese", "1B80"], ["Sundanese Supplement", "1CC0"] ],
 scriptNotes: [["Sundanese", "sund/su.html"]],
 charNotesList:["Sundanese", "sund/block.html"],
@@ -21,18 +23,13 @@ terms: [["Sundanese", "sund/su_vocab.html"]],
 pickers: [["Sundanese", "sund"]],
 orthoChart: true,
 ssHistory: "3844bc8cea",
-chapters: "17",
 htmlchapter: "17/#G27244",
 usedfor: "Sunda [sun]",
-local: [ ],
-layout: [ 
-    { name:"Sundanese counter styles", url:"https://www.w3.org/TR/predefined-counter-styles/#sundanese-styles"},
-	],
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `14thC – today`,
+dates: `14thC – today`, start:"1300", end:"", current_usage:"",
 status: `In active use`,
 lineage: `Phoenician > Aramaic > Brahmi > Tamil-Brahmi > Pallava > Old Kawi > Old Sundanese > Sundanese`,
 siblings: `Balinese, Batak, Baybayin scripts, Javanese, Lontara, Makasar, Lampung, Rencong, Rejang`,

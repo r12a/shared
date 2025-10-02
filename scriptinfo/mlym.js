@@ -10,10 +10,14 @@
 var scriptInfo = {
 
 script:"Malayalam", code:"Mlym", name:"", type:"Abugida",
-dates:"13thC – today", start:"1200", end:"", current_usage:"",
-status:"The script used for the Malayalam language, with around 35,000,000 speakers, and a number of other minority languages.",
 origin:"South Asia",
 info:{ wikipedia:"Malayalam_alphabet", omniglot:"malayalam" },
+local: [ 
+    { name:"Introduction to Indic Scripts", url:"indic-overview/index.html"},
+    ],
+layout: [ 
+    { name:"Malayalam counter styles", url:"https://www.w3.org/TR/predefined-counter-styles/#malayalam-styles"},
+	],
 charts: [ ["Malayalam", "0D00"] ],
 scriptNotes: [["Malayalam", "mlym/ml.html"]],
 charNotesList:["Malayalam", "mlym/block.html"],
@@ -21,20 +25,13 @@ terms: [["Malayalam", "mlym/ml_vocab.html"]],
 pickers: [["Malayalam", "mlym"]],
 orthoChart: true,
 ssHistory: "ypvmjurtyg",
-chapters: "12",
 htmlchapter: "12/#G22346",
 usedfor: "Allar [all], Kurumba, Attapady [pkr], Kurumba, Betta [xub], Irula [iru], Kudiya [kfg], Kurichiya [kfh], Malayalam [mal], Mannan [mjv], Muduga [udg], Paniya [pcg], Ravula [yea]",
-local: [ 
-    { name:"Introduction to Indic Scripts", url:"indic-overview/index.html"},
-    ],
-layout: [ 
-    { name:"Malayalam counter styles", url:"https://www.w3.org/TR/predefined-counter-styles/#malayalam-styles"},
-	],
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `13thC – today`,
+dates: `13thC – today`, start:"1200", end:"", current_usage:"",
 status: `In active use`,
 lineage: `Phoenician > Aramaic > Brahmi > Tamil-Brahmi > Pallava > Grantha > Malayalam`,
 siblings: `Tigalari, Dives Akuru, Saurashtra`,

@@ -10,8 +10,6 @@
 var scriptInfo = {
 
 script:"Sunuwar", code:"Sunu", name:"", type:"Alphabet",
-dates:"1942 – today", start:"1942", end:"", current_usage:"uptake",
-status:"Invented and published in 1942 by Krishna Bahadur Jentich. It has seen limited but increasing use in literature, education, and computing in Nepal. Also used for the Sikkim Herald.",
 origin:"S Asia",
 info:{ wikipedia:"Sunuwar_alphabet", omniglot:"sunuwar" },
 local: [ ], layout: [ ],
@@ -22,14 +20,13 @@ terms: [["Sunuwar", "sunu/suz_vocab.html"]],
 pickers: [["Kiranti-Kõits", "sunu-suz"]],
 orthoChart: true,
 ssHistory: "jagq74f89f",
-chapters: "",
 htmlchapter: "13/#G746336",
 usedfor: "Sunuwar [suz]",
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `1942 – today`,
+dates: `1942 – today`, start:"1942", end:"", current_usage:"uptake",
 status: `Limited usage (low uptake)`,
 lineage: `Invented by Karna Jentich in 1942`,
 siblings: ``,

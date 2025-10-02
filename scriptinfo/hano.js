@@ -10,8 +10,6 @@
 var scriptInfo = {
 
 script:"Hanunoo", code:"Hano", name:"Hanunó’o", type:"Abugida, Defective, Vertical-bt+horizontal",
-dates:"18thC – today", start:"1700", end:"", current_usage:"community",
-status:"Used to write the Hanunoo language, which has around 25,000 speakers, and which unusually hasn't resorted to the Latin script. Often written on bamboo.",
 origin:"Indonesia & Oceania",
 info:{ wikipedia:"Hanun%C3%B3'o_alphabet", omniglot:"hanunoo", endalpha:"hanunuo" },
 local: [ ], layout: [ ],
@@ -22,14 +20,13 @@ terms: [["Hanunó’o", "hano/hnn_vocab.html"]],
 pickers: [["Hanunó’o", "hano"]],
 orthoChart: true,
 ssHistory: "ga9dbe72a2",
-chapters: "17",
 htmlchapter: "17/#G26433",
 usedfor: "Hanunoo [hnn]",
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `18thC – today`,
+dates: `18thC – today`, start:"~1700", end:"", current_usage:"community",
 status: `Limited usage (low uptake, small community)`,
 lineage: `Phoenician > Aramaic > Brahmi > Pallava > Old Kawi > Baybayin > Hanunó’o`,
 siblings: `Buhid, Kulitan, Tagalog, Tagbanwa, Ibalnan, Balinese, Batak, Javanese, Makasar, Buginese, Sundanese, Rencong, Rejang`,

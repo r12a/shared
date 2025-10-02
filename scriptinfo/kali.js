@@ -10,10 +10,12 @@
 var scriptInfo = {
 
 script:"Kayah Li", code:"Kali", name:"", type:"Alphabet",
-dates:"1962 – today", start:"1962", end:"", current_usage:"",
-status:"No usage data. The Kayah languages are spoken by around 500,000 people.",
 origin:"Southeast Asia",
 info:{ wikipedia:"Kayah Li_alphabet", omniglot:"kayahli", endalpha:"kayah-li" },
+local: [ ],
+layout: [ 
+    { name:"Kayah Li counter styles", url:"https://www.w3.org/TR/predefined-counter-styles/#kayah-li-styles"},
+	],
 charts: [ ["Kayah Li", "A900"] ],
 scriptNotes: [["Western Kayah", "kali/kyu.html"]],
 charNotesList:["Kayah Li", "kali/block.html"],
@@ -21,18 +23,13 @@ terms: [["Western Kayah", "kali/kyu_vocab.html"]],
 pickers: [["Kayah Li", "kali"]],
 orthoChart: true,
 ssHistory: "enl5dse8jv",
-chapters: "16",
 htmlchapter: "16/#G61902",
 usedfor: "Eastern Kayah [eky], Western Kayah [kyu]",
-local: [ ],
-layout: [ 
-    { name:"Kayah Li counter styles", url:"https://www.w3.org/TR/predefined-counter-styles/#kayah-li-styles"},
-	],
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `CE 1962 – today`,
+dates: `CE 1962 – today`, start:"1962", end:"", current_usage:"",
 status: `Limited usage (small community)`,
 lineage: `Devised by Htae Bu Phae in March 1962.`,
 siblings: ``,

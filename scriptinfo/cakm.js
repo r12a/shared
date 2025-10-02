@@ -10,8 +10,6 @@
 var scriptInfo = {
 
 script:"Chakma", code:"Cakm", name:"", type:"Abugida",
-dates:"8thC – today", start:"700", end:"", current_usage:"uptake",
-status:"Almost extinct, but introduced to non-governmental schools in Bangladesh, and Indian schools in Mizoram and from 2012 Tripura. Most young Chakma speakers use Bengali or Latin.",
 origin:"South Asia",
 info:{ wikipedia:"Chakma_alphabet", omniglot:"chakma", endalpha:"chakma" },
 local: [ ], layout: [ ],
@@ -22,14 +20,13 @@ terms: [["Chakma", "cakm/ccp_vocab.html"]],
 pickers: [["Chakma", "cakm-ccp"]],
 orthoChart: true,
 ssHistory: "pdqjuf5k39",
-chapters: "13",
 htmlchapter: "13/#G27486",
 usedfor: "Chakma [ccp], Tangchangya [tnv]",
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `7thC – today`,
+dates: `7thC – today`, start:"700", end:"", current_usage:"uptake",
 status: `Limited usage (low uptake, small community)`,
 lineage: `Phoenician > Aramaic > Brahmi > Tamil-Brahmi > Pallava > Mon-Burmese > Chakma`,
 siblings: `Burmese, Mon, Sgaw Karen, Shan, Tai Tham, Ahom, Tai Le, Khamti`,

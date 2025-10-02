@@ -10,8 +10,6 @@
 var scriptInfo = {
 
 script:"Sora Sompeng", code:"Sora", name:"", type:"Abugida",
-dates:"1936 – today", start:"1936", end:"", current_usage:"liturgical",
-status:"Used in religious contexts, and published in a variety of printed materials.",
 origin:"South Asia",
 info:{ wikipedia:"Sora Sompeng", omniglot:"sorangsompeng", endalpha:"sorang-sompeng" },
 local: [ ], layout: [ ],
@@ -22,14 +20,13 @@ terms: [["Sora", "sora/srb_vocab.html"]],
 pickers: [["Sora Sompeng", "sora-srb"]],
 orthoChart: true,
 ssHistory: "r4c4bsfy7v",
-chapters: "15",
 htmlchapter: "15/#G95556",
 usedfor: "Sora [srb]",
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `1936 – today`,
+dates: `1936 – today`, start:"1936", end:"", current_usage:"liturgical",
 status: `Limited usage (liturgical)`,
 lineage: `Invented by Mangei Gomango in 1936`,
 siblings: ``,

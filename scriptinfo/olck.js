@@ -10,10 +10,12 @@
 var scriptInfo = {
 
 script:"Ol Chiki", code:"Olck", name:"Ol Chiki (Ol Cemet', Ol, Santali)", type:"Alphabet",
-dates:"1920s – today", start:"1920", end:"", current_usage:"",
-status:"Used for the Santali language, which has around 6,000,000 speakers, as a proposed replacement for Devanagari, Bengali, Odia, and Latin. Mostly used by the southern dialect speakers.",
 origin:"South Asia",
 info:{ wikipedia:"Ol_Chiki_alphabet", omniglot:"olchiki", endalpha:"ol-chiki-santali" },
+local: [ ],
+layout: [ 
+    { name:"Ol Chiki counter styles", url:"https://www.w3.org/TR/predefined-counter-styles/#ol-chiki-styles"},
+	],
 charts: [ ["Ol Chiki", "1C50"] ],
 scriptNotes: [["Santali", "olck/sat.html"]],
 charNotesList:["Ol Chiki", "olck/block.html"],
@@ -21,18 +23,13 @@ terms: [["Santali", "olck/sat_vocab.html"]],
 pickers: [["Santali", "olck"]],
 orthoChart: true,
 ssHistory: "rrkdvn7crf",
-chapters: "13",
 htmlchapter: "13/#G29195",
 usedfor: "Santali [sat]",
-local: [ ],
-layout: [ 
-    { name:"Ol Chiki counter styles", url:"https://www.w3.org/TR/predefined-counter-styles/#ol-chiki-styles"},
-	],
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `1920s – today`,
+dates: `1920s – today`, start:"1920", end:"", current_usage:"",
 status: `In active use`,
 lineage: `Invented in the 1920s by Pandit Raghunath Murmu`,
 siblings: ``,

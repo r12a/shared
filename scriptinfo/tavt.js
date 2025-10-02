@@ -10,8 +10,6 @@
 var scriptInfo = {
 
 script:"Tai Viet", code:"Tavt", name:"", type:"Abugida",
-dates:"16thC – today", start:"1500", end:"", current_usage:"",
-status:"Used principally to write Tai Dam, Tai Dón, and Tai Song, with around 1,300,000 speakers in total.",
 origin:"Southeast Asia",
 info:{ wikipedia:"Tai Viet_script", omniglot:"taidam", endalpha:"tai-dam" },
 local: [ ], layout: [ ],
@@ -22,14 +20,13 @@ terms: [["Tai Dam", "tavt/blt_vocab.html"]],
 pickers: [["Tai Viet", "tavt"]],
 orthoChart: true,
 ssHistory: "mn8j2mcblt",
-chapters: "16",
 htmlchapter: "16/#G59747",
 usedfor: "Tai Daeng [tyr], Tai Dam [blt], Tai Dón [twh], Tày Tac [tyt], Thai Song [soa]",
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `16thC – today`,
+dates: `16thC – today`, start:"1500", end:"", current_usage:"",
 status: `In active use`,
 lineage: `Phoenician > Aramaic > Brahmi > Tamil-Brahmi > Pallava > Old Khmer > Sukhothai > Tai Viet`,
 siblings: `Khom Tai, Tai Yo`,

@@ -10,10 +10,12 @@
 var scriptInfo = {
 
 script:"Nag Mundari", code:"Nagm", name:"Nag Mundari, Mundari Bani", type:"Alphabet",
-dates:"1982 – today", start:"1982", end:"", current_usage:"",
-status:"Invented and published in late 1980 by community elder and author Rohidas Singh Nag. It has seen limited but increasing use in literature, education, and computing.",
 origin:"S Asia",
 info:{ wikipedia:"Mundari_Bani", omniglot:"mundaribani" },
+local: [ ],
+layout: [ 
+    { name:"Nag Mundari counter styles", url:"https://www.w3.org/TR/predefined-counter-styles/#nag-mundari-styles"},
+	],
 charts: [ ["Nag Mundari", "1E4D0"] ],
 scriptNotes: [["Mundari", "nagm/unr.html"]],
 charNotesList:["Nag Mundari", "nagm/block.html"],
@@ -21,18 +23,13 @@ terms: [["Nag Mundari", "nagm/unr_vocab.html"]],
 pickers: [["Mundari", "nagm-unr"]],
 orthoChart: true,
 ssHistory: "rybdaxcvvm",
-chapters: "13",
 htmlchapter: "13/#G112439",
 usedfor: "Mundari [unr]",
-local: [ ],
-layout: [ 
-    { name:"Nag Mundari counter styles", url:"https://www.w3.org/TR/predefined-counter-styles/#nag-mundari-styles"},
-	],
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `1982 – today`,
+dates: `1982 – today`, start:"1982", end:"", current_usage:"",
 status: `Limited usage (still establishing)`,
 lineage: `Invented by Rohidas Singh Nag in late 1980`,
 siblings: ``,

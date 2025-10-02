@@ -20,21 +20,19 @@ terms: [["Cherokee", "cher/chr_vocab.html"]],
 pickers: [["Cherokee", "cher"]],
 orthoChart: true,
 ssHistory: "nwnmgh2n8j",
-chapters: "20",
 htmlchapter: "20/#G26612",
 usedfor: "Cherokee [chr]",
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `1821 – today`,
+dates: `1821 – today`, start:"1821", end:"", current_usage:"",
 status: `Limited usage (small community)`,
 lineage: `Developed by a Cherokee named Sequoyah and presented to the Cherokee Nation in 1821`,
 siblings: ``,
 history: `Cherokee (<span lang="chr">ᏣᎳᎩ</span>) is a bicameral syllabary, used in the United States for the Cherokee language. It is estimated that only around 2,000 Cherokee people speak the language, however, they use the script widely for writing letters, recipes, folktales, diaries, and for personal record-keeping. It is also used in some legal, governmental and religious documents and, in some areas, public signage. Efforts are being made to revive both the language and the script via limited initiatives in education. Knowledge of the script is considered a prerequisite for full Cherokee citizenship.`,
 description: `The script is only recently becoming bicameral, after a long period when syllabic characters resembled uppercase letters. The script doesn't fully represent the sounds of the spoken language: vowel length is not distinguished, with some exceptions syllable-final consonants and syllable-initial aspiration are not reflected in the orthography, and the user has to figure out when to drop the vowel of a CV letter to make consonant clusters. The tones of Cherokee are not written.`,
 unicode: `Unicode 17 has 2 dedicated blocks, comprising 172 characters.`,
-name:"Cherokee", local:"ᏣᎳᎩ", localtrans:"tsalagi", region:"nam", countries:"Canada, USA", speakers:2000,
 // this is replicated in shared/scriptdb/script_summaries
 
 

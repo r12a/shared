@@ -10,8 +10,6 @@
 var scriptInfo = {
 
 script:"Rejang", code:"Rjng", name:"Rejang (Redjang, Kaganga)", type:"Abugida",
-dates:"18thC – today", start:"1700", end:"", current_usage:"community",
-status:"Used by the approximately 200,000 speakers of Rejang dialects, who have 50% literacy. The traditional corpus consists chiefly of ritual texts, medical incantations, and poetry.",
 origin:"Indonesia & Oceania",
 info:{ wikipedia:"Rejang_alphabet", omniglot:"redjang" },
 local: [ ], layout: [ ],
@@ -22,14 +20,13 @@ terms: [["Rejang", "rjng/rej_vocab.html"]],
 pickers: [["Rejang", "rjng"]],
 orthoChart: true,
 ssHistory: "72d3ce3834",
-chapters: "17",
 htmlchapter: "17/#G27208",
 usedfor: "Kerinci [kvr], Lampung Api [ljp], Lampung Nyo [abl], Rejang [rej]",
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `18thC – today`,
+dates: `18thC – today`, start:"1700", end:"", current_usage:"community",
 status: `Limited usage (declining interest)`,
 lineage: `Phoenician > Aramaic > Brahmi > Tamil-Brahmi > Pallava > Old Kawi > Recong > Rejang`,
 siblings: `Kerinci, Lembak, Serawai, Pasemah, Lampung`,

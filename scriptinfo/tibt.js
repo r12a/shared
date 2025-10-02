@@ -10,20 +10,8 @@
 var scriptInfo = {
 
 script:"Tibetan", code:"Tibt", name:"", type:"Abugida",
-dates:"6thC – today", start:"500", end:"", current_usage:"",
-status:"The script used for the Tibetan, Dzongka, and several other languages, in the Himalayas and India. Language speakers number around 6,000,000.",
 origin:"Central Asia",
 info:{ wikipedia:"Tibetan_alphabet", omniglot:"tibetan" },
-charts: [ ["Tibetan", "0F00"] ],
-scriptNotes: [["Lhasa Tibetan", "tibt/bo.html"]],
-charNotesList:["Tibetan", "tibt/block.html"],
-terms: [["Tibetan", "tibt/bo_vocab.html"]],
-pickers: [["Tibetan", "tibt"]],
-orthoChart: true,
-ssHistory: "mg8ulatcjb",
-chapters: "13",
-htmlchapter: "13/#G31615",
-usedfor: "Adi [adi], Tibetan, Amdo [adx], Balti [bft], Bumthangkha [kjz], Changthang [cna], Dolpo [dre], Dzongkha [dzo], Tamang, Eastern [taj], Gahri [bfu], Mongolian, Halh [khk], Idu-Mishmi [clk], Jiarong [jya], Khamba [kbg], Tibetan, Khams [khg], Khengkha [xkf], Kurtokha [xkz], Ladakhi [lbj], Lepcha [lep], Loke [loy], Manangba [nmm], Mugom [muk], Tibetan, Old [otb], Pattani [lae], Purik [prx], Sherpa [xsr], Sikkimese [sip], Bhoti, Spiti [spt], Bhoti, Stod [sbu], Tibetan [bod], Tinani [lbf], Tshangla [tsj], Walungge [ola], Tamang, Western [tdg], Zangskari [zau]",
 local: [ ],
 layout: [ 
     { name:"Tibetan Layout Requirements", url:"https://www.w3.org/TR/tlreq/"},
@@ -31,11 +19,20 @@ layout: [
     { name:"Tibetan emphasis (blog)", url:"https://r12a.github.io/blog/200610.html#20070719"},
     { name:"Formatting rules for Tibetan text", url:"http://digitaltibetan.org/index.php/Formatting_rules_for_Tibetan_text"},
 	],
+charts: [ ["Tibetan", "0F00"] ],
+scriptNotes: [["Lhasa Tibetan", "tibt/bo.html"]],
+charNotesList:["Tibetan", "tibt/block.html"],
+terms: [["Tibetan", "tibt/bo_vocab.html"]],
+pickers: [["Tibetan", "tibt"]],
+orthoChart: true,
+ssHistory: "mg8ulatcjb",
+htmlchapter: "13/#G31615",
+usedfor: "Adi [adi], Tibetan, Amdo [adx], Balti [bft], Bumthangkha [kjz], Changthang [cna], Dolpo [dre], Dzongkha [dzo], Tamang, Eastern [taj], Gahri [bfu], Mongolian, Halh [khk], Idu-Mishmi [clk], Jiarong [jya], Khamba [kbg], Tibetan, Khams [khg], Khengkha [xkf], Kurtokha [xkz], Ladakhi [lbj], Lepcha [lep], Loke [loy], Manangba [nmm], Mugom [muk], Tibetan, Old [otb], Pattani [lae], Purik [prx], Sherpa [xsr], Sikkimese [sip], Bhoti, Spiti [spt], Bhoti, Stod [sbu], Tibetan [bod], Tinani [lbf], Tshangla [tsj], Walungge [ola], Tamang, Western [tdg], Zangskari [zau]",
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `6thC – today`,
+dates: `6thC – today`, start:"500", end:"", current_usage:"",
 status: `In active use`,
 lineage: `Phoenician > Aramaic > Brahmi > Gupta > Tibetan`,
 siblings: `Sharada, Siddham, Kalinga, Bhaiksuki`,

@@ -34,13 +34,13 @@ layout: [
 
 
 
-dates: `3rdC – today`,
-status: `Endangered`,
+dates:"8thC – today", start:"700", end:"", current_usage:"",
+status: `Actively used`,
 lineage: ``,
 siblings: ``,
-history: `Syloti Nagri (<span lang="syl">ꠍꠤꠟꠐꠤ ꠘꠣꠉꠞꠤ</span>) is a South Asian abugida used in Bengal and Assam for the Sylheti language. It was primarily used in the eastern part of the Sylhet region, to document poetry known as puthis. In the course of the 20th century, it lost much ground to the standardised Eastern Nagari script, but since 2009 there has been an increased interest in the use of the script.`,
-description: `Syloti Nagri requires context-sensitive shaping and positioning of glyphs. Bengali code points are normally used for digits (there are none in the Syloti Nagri block). Words have a clear headstroke, which may be used for a hanging baseline.`,
-unicode: `Unicode 17 has 1 dedicated block, comprising 45 characters.`,
+history: `Used to write the Japanese language.`,
+description: `The Kanji, Hiragana, Katakana, and Latin characters are all mixed together in a sentence.`,
+unicode: ``,
 // this is replicated in shared/scriptdb/script_summaries
 
 

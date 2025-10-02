@@ -20,14 +20,13 @@ terms: [["Buginese", "bugi/bug_vocab.html"]],
 pickers: [["Buginese", "bugi"]],
 orthoChart: true,
 ssHistory: "739e2e7g2e",
-chapters: "17",
 htmlchapter: "17/#G26727",
 usedfor: "Bugis [bug], Makasar [mak], Mamuju [mqx], Mandar [mdr], Wotu [wtw]",
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `14thC – today`,
+dates: `14thC – today`, start:"~1300", end:"", current_usage:"",
 status: `In use`,
 lineage: `Phoenician > Aramaic > Brahmi > Tamil-Brahmi > Pallava > Old Kawi > Buginese`,
 siblings: `Balinese, Batak, Baybayin, Javanese, Makasar, Old Sundanese, Rencong, Rejang`,

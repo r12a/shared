@@ -10,10 +10,12 @@
 var scriptInfo = {
 
 script:"Mro", code:"Mroo", name:"Mro, Mru", type:"Alphabet",
-dates:"1980s – today", start:"1980", end:"", current_usage:"community",
-status:"Used for Mro language, spoken by 30-50,000 people in the Chittagong Hill Tracts of Bangladesh. Taught in schools, and literacy is over 80% in Mru speakers.",
 origin:"South Asia",
 info:{ wikipedia:"Mru_language", omniglot:"mro", endalpha:"mro" },
+local: [ ],
+layout: [ 
+    { name:"Mro counter styles", url:"https://www.w3.org/TR/predefined-counter-styles/#mro-styles"},
+	],
 charts: [ ["Mro", "16A40"] ],
 scriptNotes: [["Mru", "mroo/mro.html"]],
 charNotesList:["Mro", "mroo/block.html"],
@@ -21,18 +23,13 @@ terms: [["Mru", "mroo/mro_vocab.html"]],
 pickers: [["Mru", "mroo-mro"]],
 orthoChart: true,
 ssHistory: "b6ebw4c6al",
-chapters: "13",
 htmlchapter: "13/#G27701",
 usedfor: "Mru [mro]",
-local: [ ],
-layout: [ 
-    { name:"Mro counter styles", url:"https://www.w3.org/TR/predefined-counter-styles/#mro-styles"},
-	],
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `1980s – today`,
+dates: `1980s – today`, start:"1980", end:"", current_usage:"community",
 status: `Limited usage (small community)`,
 lineage: `Invented by Menlay Murang (or Manley Mro) in the 1980s`,
 siblings: ``,

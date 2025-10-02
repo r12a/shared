@@ -10,10 +10,14 @@
 var scriptInfo = {
 
 script:"Telugu", code:"Telu", name:"", type:"Abugida",
-dates:"13thC – today", start:"1200", end:"", current_usage:"",
-status:"The script used for the Telugu language, with around 70,000,000 speakers, and several other minority languages.",
 origin:"South Asia",
 info:{ wikipedia:"Telugu_alphabet", omniglot:"telugu" },
+local: [ 
+    { name:"Introduction to Indic Scripts", url:"indic-overview/index.html"},
+    ],
+layout: [ 
+    { name:"Telugu counter styles", url:"https://www.w3.org/TR/predefined-counter-styles/#telugu-styles"},
+	],
 charts: [ ["Telugu", "0C00"] ],
 scriptNotes: [["Telugu", "telu/te.html"]],
 charNotesList:["Telugu", "telu/block.html"],
@@ -21,20 +25,13 @@ terms: [["Telugu", "telu/te_vocab.html"]],
 pickers: [["Telugu", "telu"]],
 orthoChart: true,
 ssHistory: "sjrwm9ppr3",
-chapters: "12",
 htmlchapter: "12/#G81985",
 usedfor: "Gondi, Adilabad [wsg], Oriya, Adivasi [ort], Chenchu [cde], Gondi [gon], Ho [hoc], Konda-Dora [kfc], Koya [kff], Kupia [key], Lambadi [lmn], Manna-Dora [mju], Mirgan [zrg], Gadaba, Mudhili [gau], Parenga [pcj], Gadaba, Pottangi Ollar [gdb], Saurashtra [saz], Sora [srb], Kolami, Southeastern [nit], Telugu [tel], Waddar [wbq], Yerukula [yeu]",
-local: [ 
-    { name:"Introduction to Indic Scripts", url:"indic-overview/index.html"},
-    ],
-layout: [ 
-    { name:"Telugu counter styles", url:"https://www.w3.org/TR/predefined-counter-styles/#telugu-styles"},
-	],
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `13thC – today`,
+dates: `13thC – today`, start:"1200", end:"", current_usage:"",
 status: `In active use`,
 lineage: `Phoenician > Aramaic > Brahmi > Battiprolu > Telugu-Kannada > Telugu`,
 siblings: `Kannada`,

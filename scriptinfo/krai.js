@@ -13,29 +13,27 @@ script:"Kirat Rai", code:"Krai", name:"Kirat Rai, Khambu Rai Lipi", type:"Abugid
 origin:"South Asia",
 info:{ wikipedia:"Kirat_Rai", omniglot:"kiratrai" }, 
 local: [	],
-charts: [ ["Kirat Rai", "16D40"] ],
 layout:[	],
+charts: [ ["Kirat Rai", "16D40"] ],
 scriptNotes: [["Bantawa", "krai/bap.html"]],
 charNotesList:["Kirat Rai", "krai/block.html"],
 terms: [["Bantawa", "krai/bap_vocab.html"]],
 pickers: [["Kirat Rai", "krai-bap"]],
 orthoChart: true,
 ssHistory: "q7j9cknppb",
-chapters: "",
 htmlchapter: "13/#G746340",
 usedfor:"Bantawa [bap]",
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `1920s – today`,
+dates: `1920s – today`, start:"1920", end:"", current_usage:"",
 status: `Limited usage (small community)`,
 lineage: `Created in 1981-2  by Late Kripasalyan Rai`,
 siblings: ``,
 history: `Kirat Rai is a South Asian abugida used in the Indian state of Sikkim and Nepal to write the Bantawa language. It is sometimes called “Khambu Rai Lipi” in West Bengal. The script is used for poetry, newspapers, educational materials, and government records, among others. It was devised developed by Late Kripasalyan Rai in 1981-1982 from the Devanagari script. The Bantawa language is taught in schools up to the primary level ever since it was recognized as one of the official languages of Sikkim in 1997.`,
 description: `Kirat Rai doesn't have the conjunct forms, reordering, or combining marks of most Brahmi-derived scripts. It is very unusual in having two viramas, both of which are always visible. These and nasalisation and nasal coda glyphs are all letters, rather than combining marks. Letters have no ascenders or descenders.`,
 unicode: `Unicode 17 has 1 dedicated block, comprising 58 characters.`,
-name:"Kirat Rai", local:"𖵄𖵤𖵝𖵣𖵒 𖵝𖵃𖵤", localtrans:"kirat rai", region:"sasia", countries:"India, Nepal", speakers:U,
 // this is replicated in shared/scriptdb/script_summaries
 
 

@@ -10,20 +10,8 @@
 var scriptInfo = {
 
 script:"Mongolian", code:"Mong", name:"", type:"Alphabet, Vertical-LTR",
-dates:"13thC – today", start:"1200", end:"", current_usage:"",
-status:"Used alongside Cyrillic for the Mongolian language in Mongolia and China, around 6,500,000 speakers, as well as for a number of other languages.",
 origin:"Central Asia",
 info:{ wikipedia:"Mongolian_alphabet", omniglot:"mongolian", endalpha:"mongolian" },
-charts: [ ["Mongolian", "1800"], ["Mongolian Supplement", "11660"] ],
-scriptNotes: [["Mongolian", "mong/mn.html"]],
-charNotesList:["Mongolian", "mong/block.html"],
-terms: [["Mongolian", "mong/mn_vocab.html"]],
-pickers: [["Mongolian", "mong-mn"]],
-orthoChart: true,
-ssHistory: "xluqdp54ts",
-chapters: "13",
-htmlchapter: "13/#G27803",
-usedfor: "Mongolian, Halh [khk], Kalmyk [xal], Manchu [mnc], Buriat [bxm], Mongolian [mon], Old Uighur [oui], Peripheral Mongolian [mvf], Southern Altai [alt], Xibe [sjo], Daur [dta]",
 local: [ 
     { name:"Mongolian Variant Forms", url:"https://r12a.github.io/mongolian-variants/"},
     ], 
@@ -31,11 +19,20 @@ layout: [
     { name:"Mongolian Layout Requirements", url:"https://www.w3.org/TR/mlreq/"},
     { name:"Mongolian counter styles", url:"https://www.w3.org/TR/predefined-counter-styles/#mongolian-styles"},
 	],
+charts: [ ["Mongolian", "1800"], ["Mongolian Supplement", "11660"] ],
+scriptNotes: [["Mongolian", "mong/mn.html"]],
+charNotesList:["Mongolian", "mong/block.html"],
+terms: [["Mongolian", "mong/mn_vocab.html"]],
+pickers: [["Mongolian", "mong-mn"]],
+orthoChart: true,
+ssHistory: "xluqdp54ts",
+htmlchapter: "13/#G27803",
+usedfor: "Mongolian, Halh [khk], Kalmyk [xal], Manchu [mnc], Buriat [bxm], Mongolian [mon], Old Uighur [oui], Peripheral Mongolian [mvf], Southern Altai [alt], Xibe [sjo], Daur [dta]",
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `13thC – today`,
+dates: `13thC – today`, start:"1200", end:"", current_usage:"",
 status: `In active use`,
 lineage: `Phoenician > Aramaic > Syriac > Sogdian > Old Uighur > Mongolian`,
 siblings: ``,

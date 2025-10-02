@@ -10,8 +10,6 @@
 var scriptInfo = {
 
 script:"Lisu", code:"Lisu", name:"Lisu (Fraser)", type:"Alphabet",
-dates:"1915 – today", start:"1915", end:"", current_usage:"",
-status:"Used to write the Lisu language, which has 980,000 speakers in China, Myanmar, Thailand, and India. About 360,000 are thought to be literate in the script.",
 origin:"East Asia",
 info:{ wikipedia:"Fraser_alphabet", omniglot:"fraser" },
 local: [ ], layout: [ ],
@@ -22,14 +20,13 @@ terms: [["Lisu", "lisu/lis_vocab.html"]],
 pickers: [["Lisu", "lisu"]],
 orthoChart: true,
 ssHistory: "473c93dddf",
-chapters: "18",
 htmlchapter: "18/#G44587",
 usedfor: "Lakkia [lbc], Lipo [lpo], Lisu [lis], Naxi [nxq], Zaiwa [atb]",
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `CE 1915 – today`,
+dates: `CE 1915 – today`, start:"1915", end:"", current_usage:"",
 status: `In active use`,
 lineage: `Phoenician > Greek > Latin > Lisu`,
 siblings: `Osage, Deseret`,

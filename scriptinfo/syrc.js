@@ -10,8 +10,6 @@
 var scriptInfo = {
 
 script:"Syriac", code:"Syrc", name:"", type:"Abjad, RTL",
-dates:"6thC – today", start:"500", end:"", current_usage:"",
-status:"The script used for several Assyrian communities, and for liturgical use by the Syrian church.",
 origin:"West Asia",
 info:{ wikipedia:"Syriac_alphabet", omniglot:"syriac", endalpha:"syriac" },
 local: [ ], layout: [ ],
@@ -22,14 +20,13 @@ terms: [["Classical Syriac", "syrc/syr_vocab.html"], ["Assyrian Neo-Aramaic", "s
 pickers: [["Classical Syriac", "syrc"], ["Assyrian&nbsp;Neo-Aramaic", "syrc-aii"], ["Christian Palestinian Aramaic", "syrc-axp"], ["Turoyo", "syrc-tru"]],
 orthoChart: true,
 ssHistory: "hlvzdczufr",
-chapters: "09",
 htmlchapter: "9/#G13005",
 usedfor: "Arabic [ara], Neo-Aramaic, Assyrian [aii], Neo-Aramaic, Barzani Jewish [bjf], Neo-Aramaic, Bohtan [bhn], Neo-Aramaic, Chaldean [cld], Syriac, Classical [syc], Hértevin [hrt], Aramaic, Jewish Babylonian (ca. 200-1200 CE) [tmr], Koy Sanjaq Surat [kqd], Mlahsö [lhs], Aramaic, Official (700-300 BCE) [arc], Aramaic, Old (up to 700 BCE) [oar], Aramaic, Samaritan [sam], Senaya [syn], Sogdian [sog], Syriac [syr], Turoyo [tru]",
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `6thC – today`,
+dates: `6thC – today`, start:"500", end:"", current_usage:"",
 status: `In active use`,
 lineage: `Phoenician > Aramaic > Syriac`,
 siblings: `Hebrew, Nabataean, Palmyrene, Hatran, Mandaic, Elymaic, Pahlavi, Kharoshthi, Brahmi`,

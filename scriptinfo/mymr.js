@@ -10,11 +10,13 @@
 var scriptInfo = {
 
 script:"Myanmar", code:"Mymr", name:"Myanmar (Burmese)", type:"Abugida",
-dates:"11thC – today", start:"1000", end:"", current_usage:"",
-status:"The language used for the Burmese language, with around 40,000,000 speakers, but also for a number of other languages, which also have sizeable numbers of speakers, such as Shan, with around 4,500,000.",
 origin:"Southeast Asia",
 info:{ wikipedia:"Burmese_alphabet", omniglot:"burmese" },
-local: [ ], layout: [ ],
+local: [ ],
+layout: [ 
+    /*{ name:"Lao Layout Requirements", url:"https://www.w3.org/TR/mlreq/"},*/
+    { name:"Myanmar counter styles", url:"https://www.w3.org/TR/predefined-counter-styles/#myanmar-styles"},
+	],
 charts: [ ["Myanmar", "1000"], ["Myanmar Extended-A", "AA60"], ["Myanmar Extended-B", "A9E0"] ],
 scriptNotes: [["Burmese", "mymr/my.html"], ["Shan", "mymr/shn.html"]],
 charNotesList:["Myanmar", "mymr/block.html"],
@@ -22,19 +24,13 @@ terms: [["Burmese", "mymr/my_vocab.html"], ["Shan", "mymr/shn_vocab.html"]],
 pickers: [["Burmese", "mymr-my"], ["Shan", "mymr-shn"]],
 orthoChart: true,
 ssHistory: "vcz6flwzqs",
-chapters: "16",
 htmlchapter: "16/#G24999",
 usedfor: "Aiton [aio], Akha [ahk], Chin, Asho [csh], Burmese [mya], Karen, Bwe [bwe], Karen, Geba [kvq], Intha [int], Khamti [kht], Lamkang [lmk], Karen, Manumanaw [kxf], Marma [rmz], Moken [mwt], Mon [mnw], Burmese, Old [obr], Karen, Pa'o [blk], Pali [pli], Phake [phk], Karen, Pwo Eastern [kjp], Karen, Pwo Eastern [kjp], Karen, Pwo Eastern [kjp], Karen, Pwo Western [pwo], Rakhine [rki], Palaung, Ruching [pce], Palaung, Rumai [rbb], Karen, S'gaw [ksw], Sanskrit [san], Shan [shn], Palaung, Shwe [pll], Tai Laing [tjl], Kayah, Western [kyu]",
-local: [ ],
-layout: [ 
-    /*{ name:"Lao Layout Requirements", url:"https://www.w3.org/TR/mlreq/"},*/
-    { name:"Myanmar counter styles", url:"https://www.w3.org/TR/predefined-counter-styles/#myanmar-styles"},
-	],
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `11thC – today`,
+dates: `11thC – today`, start:"1000", end:"", current_usage:"",
 status: `In active use`,
 lineage: `Phoenician > Aramaic > Brahmi > Kadamba/Pallava > Pyu/Old Mon > Mon Burmese > Myanmar`,
 siblings: `Mon, Sgaw Karen, Shan, Tai Tham, Chakma, Ahom, Tai Le, Khamti`,

@@ -10,10 +10,12 @@
 var scriptInfo = {
 
 script:"Hanifi Rohingya", code:"Rohg", name:"", type:"Abugida, RTL",
-dates:"1980s – today", start:"1900", end:"", current_usage:"uptake",
-status:"Used for the publication of books and newspapers, both hand-written and printed.",
-origin:"Southeast Asia",
 info:{ wikipedia:"Hanifi_Rohingya_script", omniglot:"rohingya.htm#hanifi", endalpha:"hanifi-rohingya" },
+local: [ ], 
+layout: [ 
+	/*{ name:"Greek Layout Requirements", url:"https://www.w3.org/TR/geor-lreq/"},*/
+    { name:"Hanifi Rohingya counter styles", url:"https://www.w3.org/TR/predefined-counter-styles/#rohingya-styles"},
+	],
 charts: [ ["Hanifi Rohingya", "10D00"] ],
 scriptNotes: [["Hanifi Rohingya", "rohg/rhg.html"]],
 charNotesList:["Hanifi Rohingya", "rohg/block.html"],
@@ -21,19 +23,13 @@ terms: [["Hanifi Rohingya", "rohg/rhg_vocab.html"]],
 pickers: [["Hanifi Rohingya", "rohg"]],
 orthoChart: true,
 ssHistory: "mj3a6n78t2",
-chapters: "16",
 htmlchapter: "16/#G73728",
 usedfor: "Rohingya [rhg]",
-local: [ ], 
-layout: [ 
-	/*{ name:"Greek Layout Requirements", url:"https://www.w3.org/TR/geor-lreq/"},*/
-    { name:"Hanifi Rohingya counter styles", url:"https://www.w3.org/TR/predefined-counter-styles/#rohingya-styles"},
-	],
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `1980s – today`,
+dates: `1980s – today`, start:"1900", end:"", current_usage:"uptake",
 status: `Limited usage (low uptake)`,
 lineage: `Phoenician > Aramaic > Nabataean > Arabic > Hanifi Rohingya`,
 siblings: `N'Ko, Thaana`,

@@ -10,8 +10,6 @@
 var scriptInfo = {
 
 script:"Buhid", code:"Buhd", name:"", type:"Abugida",
-dates:"18thC – today", start:"1700", end:"", current_usage:"uptake, community",
-status:"Used to write the Buhid language, which has about 8,000 speakers, in the Mindoro region of the Philippines. The primary script for the language is Latin.",
 origin:"Indonesia & Oceania",
 info:{ wikipedia:"Buhid_alphabet", omniglot:"buhid" },
 local: [ ], layout: [ ],
@@ -22,14 +20,13 @@ terms: [["Buhid", "buhd/bku_vocab.html"]],
 pickers: [["Buhid", "buhd"]],
 orthoChart: true,
 ssHistory: "h4446ag538",
-chapters: "17",
 htmlchapter: "17/#G26433",
 usedfor: "Buhid [bku]",
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `14thC – today`,
+dates: `14thC – today`, start:"~1300", end:"", current_usage:"uptake, community",
 status: `In use`,
 lineage: `Phoenician > Aramaic > Brahmi > Tamil-Brahmi > Pallava > Old Kawi > Buginese`,
 siblings: `Balinese, Batak, Baybayin, Javanese, Makasar, Old Sundanese, Rencong, Rejang`,

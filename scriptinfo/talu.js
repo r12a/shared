@@ -10,10 +10,12 @@
 var scriptInfo = {
 
 script:"New Tai Lue", code:"Talu", name:"", type:"Alphabet",
-dates:"1950s – today", start:"1900", end:"", current_usage:"",
-status:"A script used to write the Lü language in China, which has around 280,000 speakers.",
 origin:"Southeast Asia",
 info:{ wikipedia:"New_Tai_Lue_alphabet", omniglot:"tailue" },
+local: [ ],
+layout: [ 
+    { name:"Tai Lü counter styles", url:"https://www.w3.org/TR/predefined-counter-styles/#tailue-styles"},
+	],
 charts: [ ["New Tai Lue", "1980"] ],
 scriptNotes: [["Tai Lü", "talu/khb.html"]],
 charNotesList:["New Tai Lue", "talu/block.html"],
@@ -21,18 +23,13 @@ terms: [["Tai Lü", "talu/khb_vocab.html"]],
 pickers: [["New&nbsp;Tai&nbsp;Lü", "talu"]],
 orthoChart: true,
 ssHistory: "37fcf7h92b",
-chapters: "16",
 htmlchapter: "16/#G65706",
 usedfor: "Lü [khb]",
-local: [ ],
-layout: [ 
-    { name:"Tai Lü counter styles", url:"https://www.w3.org/TR/predefined-counter-styles/#tailue-styles"},
-	],
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `1950s – today`,
+dates: `1950s – today`, start:"1900", end:"", current_usage:"",
 status: `In active use`,
 lineage: `Phoenician > Aramaic > Brahmi > Tamil-Brahmi > Kadamba/Pallava > Old Mon > Tai Tham > New Tai Lü`,
 siblings: `Tham Lao`,

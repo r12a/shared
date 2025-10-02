@@ -10,27 +10,23 @@
 var scriptInfo = {
 
 script:"Sharada", code:"Shrd", name:"", type:"Abugida",
-dates:"8thC – 20thC", start:"700", end:"2000", current_usage:"",
-status:"",
 origin:"South Asia",
 info:{ wikipedia:"Sharada_script", omniglot:"sharda", endalpha:"sharada" },
 local: [ ], layout: [ ],
 charts: [ ["Sharada", "11180"] ],
-layout:[	],
 scriptNotes: [["Sharada", "shrd/ks.html"]],
 charNotesList:["Sharada", "shrd/block.html"],
 terms: [["Sharada", "shrd/ks_vocab.html"]],
 pickers: [["Sharada", "shrd-ks"]],
 orthoChart: false,
 ssHistory: "spnpfarl4t",
-chapters: "15",
 htmlchapter: "15/#G81154",
 usedfor: "Kashmiri [ks], Sanskrit [sa]",
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `CE 8thC – 20thC`,
+dates: `CE 8thC – 20thC`, start:"700", end:"2000", current_usage:"",
 status: `Limited usage (liturgical)`,
 lineage: `Phoenician > Aramaic > Brahmi > Gupta > Sharada`,
 siblings: `Siddham, Tibetan, Kalinga, Bhaiksuki`,

@@ -10,8 +10,6 @@
 var scriptInfo = {
 
 script:"Cham", code:"Cham", name:"", type:"Abugida",
-dates:"10thC – today", start:"900", end:"", current_usage:"",
-status:"Primary orthography for the Eastern Cham language, which has around 130,000 speakers in southern Vietnam. Historically learned by males but not females.",
 origin:"Southeast Asia",
 info:{ wikipedia:"Cham_script", omniglot:"cham", endalpha:"cham" },
 local: [ ], layout: [ ],
@@ -22,14 +20,13 @@ terms: [["Cham", "cham/cjm_vocab.html"]],
 pickers: [["Eastern Cham", "cham-cjm"]],
 orthoChart: true,
 ssHistory: "c4yzafta3f",
-chapters: "16",
 htmlchapter: "16/#G55659",
 usedfor: "Eastern Cham [cjm], Western Cham [cja]",
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `10thC – today`,
+dates: `10thC – today`, start:"900", end:"", current_usage:"",
 status: `In use`,
 lineage: `Phoenician? > Aramaic? > Brahmi > Tamil-Brahmi > Pallava > Cham`,
 siblings: `Khmer, Kawi, Old Mon, Grantha, Tamil`,

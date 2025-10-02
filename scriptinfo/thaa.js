@@ -10,8 +10,6 @@
 var scriptInfo = {
 
 script:"Thaana", code:"Thaa", name:"", type:"Alphabet, RTL",
-dates:"18thC – today", start:"1700", end:"", current_usage:"",
-status:"The script used for the Dhivehi language, with around 370,000 speakers, in the Maldives.",
 origin:"South Asia",
 info:{ wikipedia:"Thaana", omniglot:"thaana", endalpha:"thaana" },
 local: [ ], layout: [ ],
@@ -22,14 +20,13 @@ terms: [["Dhivehi", "thaa/dv_vocab.html"]],
 pickers: [["Thaana", "thaa"]],
 orthoChart: true,
 ssHistory: "n2tj49rr2n",
-chapters: "13",
 htmlchapter: "13/#G26451",
 usedfor: "Maldivian [dv]",
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `17thC – today`,
+dates: `17thC – today`, start:"1700", end:"", current_usage:"",
 status: `In active use`,
 lineage: `Phoenician > Aramaic > Nabataean > Arabic > Thaana`,
 siblings: ``,

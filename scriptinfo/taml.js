@@ -10,20 +10,8 @@
 var scriptInfo = {
 
 script:"Tamil", code:"Taml", name:"", type:"Abugida",
-dates:"7thC – today", start:"600", end:"", current_usage:"",
-status:"The script used for the Tamil language, with around 65,000,000 speakers, and for several minority languages.",
 origin:"South Asia",
 info:{ wikipedia:"Tamil_script", omniglot:"tamil" },
-charts: [ ["Tamil", "0B80"], ["Tamil Supplement", ""] ],
-scriptNotes: [["Tamil", "taml/ta.html"]],
-charNotesList:["Tamil", "taml/block.html"],
-terms: [["Tamil", "taml/ta_vocab.html"]],
-pickers: [["Tamil", "taml"]],
-orthoChart: true,
-ssHistory: "zw5nedjarb",
-chapters: "12",
-htmlchapter: "12/#G10162",
-usedfor: "Badaga [bfq], Betta Kurumba [xub], Irula [iru], Kannada Kurumba [kfi], Kota (India) [kfe], Muthuvan [muv], Paniya [pcg], Saurashtra [saz], Tamil [ta], Toda [tcx], Vaagri Booli [vaa], Wayanad Chetti [ctt]",
 local: [ 
     { name:"Introduction to Indic Scripts", url:"indic-overview/index.html"},
     ],
@@ -31,11 +19,20 @@ layout: [
     { name:"Tamil Layout Requirements", url:"https://www.w3.org/TR/ilreq-taml/"},
     { name:"Tamil counter styles", url:"https://www.w3.org/TR/predefined-counter-styles/#tamil-styles"},
 	],
+charts: [ ["Tamil", "0B80"], ["Tamil Supplement", ""] ],
+scriptNotes: [["Tamil", "taml/ta.html"]],
+charNotesList:["Tamil", "taml/block.html"],
+terms: [["Tamil", "taml/ta_vocab.html"]],
+pickers: [["Tamil", "taml"]],
+orthoChart: true,
+ssHistory: "zw5nedjarb",
+htmlchapter: "12/#G10162",
+usedfor: "Badaga [bfq], Betta Kurumba [xub], Irula [iru], Kannada Kurumba [kfi], Kota (India) [kfe], Muthuvan [muv], Paniya [pcg], Saurashtra [saz], Tamil [ta], Toda [tcx], Vaagri Booli [vaa], Wayanad Chetti [ctt]",
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `7thC – today`,
+dates: `7thC – today`, start:"600", end:"", current_usage:"",
 status: `In active use`,
 lineage: `Phoenician > Aramaic > Brahmi > Tamil-Brahmi > Pallava > Tamil`,
 siblings: `Grantha, Old Mon, Khmer, Cham, Kawi`,

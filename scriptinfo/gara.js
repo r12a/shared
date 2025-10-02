@@ -10,27 +10,24 @@
 var scriptInfo = {
 
 script:"Garay", code:"Gara", name:"", type:"Alphabet", 
-dates:"1961 – today", start:"1961", end:"", current_usage:"community", 
-status: "Taught informally for over fifty years since its invention by Assane Faye in Senegal. Manuscripts include textbooks, folktales, and maps, and a Quran with interlinear translations into Wolof. The user community for Garay is small.",
 origin:"Africa",
 info:{ wikipedia:"Garay_alphabet" }, 
 local: [	],
-charts: [ ["Garay", "10D40"] ],
 layout:[	],
+charts: [ ["Garay", "10D40"] ],
 scriptNotes: [["Wolof", "gara/wo.html"]],
 charNotesList:["Garay", "gara/block.html"],
 terms: [["Wolof", "gara/wo_vocab.html"]],
 pickers: [["Wolof Garay", "gara-wo"]],
 orthoChart: true,
 ssHistory: "e8q47hg9gl",
-chapters: "19",
 htmlchapter: "19/#G746355",
 usedfor:"Wolof [wo]",
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `CE 1961 – today`,
+dates: `CE 1961 – today`, start:"1961", end:"", current_usage:"community",
 status: `Limited usage (small community)`,
 lineage: `Created by Assane Faye in Senegal and published in January 1961. Some inspiration from Arabic.`,
 siblings: ``,
@@ -41,7 +38,7 @@ unicode: `Unicode 17 has 1 dedicated block, comprising 69 characters.`,
 
 
 
-"gara": {name:"Garay", region:"sasia", type:"abug", 
+"gara": {name:"Garay", region:"sasia", type:"abug",
 blocks:1, chars:45, bletter:32, bmark:9, bnumber:0, bpunctuation:0, bsymbol:4, bother:0, 
 direction:"ltr", rtlnumbers:N,
 voweltype: { inherent:1, letters:N, marks:Y, hidden:N, visorder:N, vocalics:N, ivowels:Y, vbase:"", vcomposite:N, prebase:N, circum:N, },

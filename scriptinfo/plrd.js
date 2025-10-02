@@ -10,8 +10,6 @@
 var scriptInfo = {
 
 script:"Miao", code:"Plrd", name:"Miao (Pollard)", type:"Abugida",
-dates:"1904 – today", start:"1904", end:"", current_usage:"",
-status:"Used to write Miao dialects, as well as Yi and Lisu. There are 2 variants of the script.",
 origin:"East Asia",
 info:{ wikipedia:"Pollard_script", omniglot:"pollardmiao" },
 local: [ ], layout: [ ],
@@ -22,14 +20,13 @@ terms: [["A-Hmao", "plrd/hmd_vocab.html"]],
 pickers: [["A-Hmao", "plrd-hmd"], ["All", "plrd-all"]],
 orthoChart: true,
 ssHistory: "cb32gtbj58",
-chapters: "18",
 htmlchapter: "18/#G42236",
 usedfor: "Aluo [yna], Gepo [ygp], Hmong Daw [mww], Hmong Njua [hnj], Kaduo [ktp], Large Flowery Miao [hmd], Lipo [lpo], Sanie [ysy], Sinicized Miao [hmz], Small Flowery Miao [sfm], Wuding-Luquan Yi [ywq]",
 // this is replicated at scripts/linkdata/linkdb
 
 
 
-dates: `CE 1904 – today`,
+dates: `CE 1904 – today`, start:"1904", end:"", current_usage:"",
 status: `Limited usage (low uptake)`,
 lineage: `Devanagari & Pitman shorthand > Canadian syllabics > Pollard / Miao`,
 siblings: ``,
