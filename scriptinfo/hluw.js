@@ -9,7 +9,7 @@
 
 var scriptInfo = {
 
-script:"Anatolian Hieroglyphs", code:"Hluw", name:"Anatolian (Luwian/Hittite) hieroglyphs", type:"Logographic",
+script:"Anatolian Hieroglyphs", code:"Hluw", name:"Luwian/Hittite hieroglyphs", type:"Logographic",
 origin:"West Asia",
 info:{ wikipedia:"Anatolian_hieroglyphs", omniglot:"luvian" },
 local: [ ], layout: [ ],

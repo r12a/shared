@@ -9,7 +9,7 @@
 
 var scriptInfo = {
 
-script:"Meetei Mayek", code:"Mtei", name:"Meetei Mayek (Meithei, Meitei)", type:"Abugida",
+script:"Meetei Mayek", code:"Mtei", name:"Meithei, Meitei", type:"Abugida",
 origin:"South Asia",
 info:{ wikipedia:"Meetei_Mayek", omniglot:"manipuri", endalpha:"meitei-mayek" },
 local: [ ],

@@ -9,7 +9,7 @@
 
 var scriptInfo = {
 
-script:"Mro", code:"Mroo", name:"Mro, Mru", type:"Alphabet",
+script:"Mro", code:"Mroo", name:"Mru", type:"Alphabet",
 origin:"South Asia",
 info:{ wikipedia:"Mru_language", omniglot:"mro", endalpha:"mro" },
 local: [ ],

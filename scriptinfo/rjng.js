@@ -9,7 +9,7 @@
 
 var scriptInfo = {
 
-script:"Rejang", code:"Rjng", name:"Rejang (Redjang, Kaganga)", type:"Abugida",
+script:"Rejang", code:"Rjng", name:"Redjang, Kaganga", type:"Abugida",
 origin:"Indonesia & Oceania",
 info:{ wikipedia:"Rejang_alphabet", omniglot:"redjang" },
 local: [ ], layout: [ ],

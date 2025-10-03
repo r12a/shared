@@ -9,7 +9,7 @@
 
 var scriptInfo = {
 
-script:"Warang Citi", code:"Wara", name:"Warang Citi (Varang Kshiti)", type:"Abugida",
+script:"Warang Citi", code:"Wara", name:"Varang Kshiti", type:"Abugida",
 origin:"South Asia",
 info:{ wikipedia:"Varang_Kshiti", omniglot:"varangkshiti", endalpha:"warang-citi" },
 local: [ ],

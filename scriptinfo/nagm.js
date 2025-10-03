@@ -9,7 +9,7 @@
 
 var scriptInfo = {
 
-script:"Nag Mundari", code:"Nagm", name:"Nag Mundari, Mundari Bani", type:"Alphabet",
+script:"Nag Mundari", code:"Nagm", name:"Mundari Bani", type:"Alphabet",
 origin:"S Asia",
 info:{ wikipedia:"Mundari_Bani", omniglot:"mundaribani" },
 local: [ ],

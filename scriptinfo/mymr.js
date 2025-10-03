@@ -9,7 +9,7 @@
 
 var scriptInfo = {
 
-script:"Myanmar", code:"Mymr", name:"Myanmar (Burmese)", type:"Abugida",
+script:"Myanmar", code:"Mymr", name:"Burmese", type:"Abugida",
 origin:"Southeast Asia",
 info:{ wikipedia:"Burmese_alphabet", omniglot:"burmese" },
 local: [ ],

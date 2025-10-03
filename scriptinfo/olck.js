@@ -9,7 +9,7 @@
 
 var scriptInfo = {
 
-script:"Ol Chiki", code:"Olck", name:"Ol Chiki (Ol Cemet', Ol, Santali)", type:"Alphabet",
+script:"Ol Chiki", code:"Olck", name:"Ol Cemet', Ol, Santali", type:"Alphabet",
 origin:"South Asia",
 info:{ wikipedia:"Ol_Chiki_alphabet", omniglot:"olchiki", endalpha:"ol-chiki-santali" },
 local: [ ],

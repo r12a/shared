@@ -9,7 +9,7 @@
 
 var scriptInfo = {
 
-script:"Newa", code:"Newa", name:"Newa (Newar, Newari, Nepāla lipi)", type:"Abugida",
+script:"Newa", code:"Newa", name:"Newari, Nepāla lipi", type:"Abugida",
 origin:"South Asia",
 info:{ wikipedia:"Prachalit_Nepal_alphabet", omniglot:"newa" },
 local: [ ],

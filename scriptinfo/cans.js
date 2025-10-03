@@ -9,7 +9,7 @@
 
 var scriptInfo = {
 
-script:"UCAS", code:"Cans", name:"Unified Canadian Aboriginal Syllabics", type:"Syllabary",
+script:"Unified Canadian Aboriginal Syllabics", code:"Cans", name:"UCAS", type:"Syllabary",
 origin:"Americas",
 info:{ wikipedia:"Canadian_Aboriginal_syllabics", omniglot:"ucas", endalpha:"canadian-aboriginal-syllabics" },
 local: [ ], layout: [ ],

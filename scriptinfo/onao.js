@@ -9,7 +9,7 @@
 
 var scriptInfo = {
 
-script:"Ol Onal", code:"Onao", name:"Ol Onal, Bhumij Lipi, Bhumij Onal", type:"Abugida", 
+script:"Ol Onal", code:"Onao", name:"Bhumij Lipi, Bhumij Onal", type:"Abugida", 
 origin:"South Asia",
 info:{ wikipedia:"Ol_Onal", omniglot:"olonal" }, 
 local: [	],

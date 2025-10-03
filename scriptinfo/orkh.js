@@ -9,7 +9,7 @@
 
 var scriptInfo = {
 
-script:"Old Turkic", code:"Orkh", name:"Old Turkic, Orkhon Runic", type:"Alphabet, RTL",
+script:"Old Turkic", code:"Orkh", name:"Orkhon Runic", type:"Alphabet, RTL",
 origin:"Central Asia",
 info:{ wikipedia:"Old_Turkic_alphabet", omniglot:"orkhon" },
 local: [ ], layout: [ ],

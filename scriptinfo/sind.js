@@ -9,7 +9,7 @@
 
 var scriptInfo = {
 
-script:"Khudawadi", code:"Sind", name:"Khudawadi (Sindhi)", type:"Abugida",
+script:"Khudawadi", code:"Sind", name:"Sindhi", type:"Abugida",
 origin:"South Asia",
 info:{ wikipedia:"Khudabadi_script", omniglot:"sindhi" },
 local: [ ], layout: [ ],

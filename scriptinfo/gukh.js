@@ -9,7 +9,7 @@
 
 var scriptInfo = {
 
-script:"Gurung Khema", code:"Gukh", name:"Gurung Khema, Khema", type:"Abugida", 
+script:"Gurung Khema", code:"Gukh", name:"Khema", type:"Abugida", 
 origin:"South Asia",
 info:{ wikipedia:"Khema_script", omniglot:"khema" }, 
 local: [	],

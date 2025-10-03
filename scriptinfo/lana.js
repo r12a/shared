@@ -9,7 +9,7 @@
 
 var scriptInfo = {
 
-script:"Tai Tham", code:"Lana", name:"Tai Tham (Lanna)", type:"Abugida",
+script:"Tai Tham", code:"Lana", name:"Lanna", type:"Abugida",
 origin:"Southeast Asia",
 info:{ wikipedia:"Tai_Tham_alphabet", omniglot:"lanna", endalpha:"lanna-aka-tai-tham" },
 local: [ ],

@@ -9,7 +9,7 @@
 
 var scriptInfo = {
 
-script:"Tulu-Tigalari", code:"Tutg", name:"Tulu-Tigalari, Tigalari, Arya Ezhuttu, Tulu Lipi", type:"Abugida", 
+script:"Tulu-Tigalari", code:"Tutg", name:"Tigalari, Arya Ezhuttu, Tulu Lipi", type:"Abugida", 
 origin:"South Asia",
 info:{ wikipedia:"Tigalari_script", omniglot:"tigalari" }, 
 local: [	],

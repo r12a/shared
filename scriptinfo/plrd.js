@@ -9,7 +9,7 @@
 
 var scriptInfo = {
 
-script:"Miao", code:"Plrd", name:"Miao (Pollard)", type:"Abugida",
+script:"Miao", code:"Plrd", name:"Pollard script", type:"Abugida",
 origin:"East Asia",
 info:{ wikipedia:"Pollard_script", omniglot:"pollardmiao" },
 local: [ ], layout: [ ],

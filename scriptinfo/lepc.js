@@ -9,7 +9,7 @@
 
 var scriptInfo = {
 
-script:"Lepcha", code:"Lepc", name:"Lepcha (Róng)", type:"Abugida",
+script:"Lepcha", code:"Lepc", name:"Róng", type:"Abugida",
 origin:"South Asia",
 info:{ wikipedia:"Lepcha_alphabet", omniglot:"lepcha", endalpha:"rong" },
 local: [ ],

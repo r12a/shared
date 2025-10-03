@@ -9,9 +9,9 @@
 
 var scriptInfo = {
 
-script:"Makasar", code:"Maka", name:"", type:"Abugida",
+script:"Makasar", code:"Maka", name:"Ukiri' Jangang-jangang, Old Makasar", type:"Abugida",
 origin:"Indonesia & Oceania",
-info:{ wikipedia:"Makasar_(Unicode_block)", omniglot:"" },
+info:{ wikipedia:"Makasar_script", omniglot:"" },
 local: [ ], layout: [ ],
 charts: [ ["Makasar", "11EE0"] ],
 charNotesList:["Makasar", "makasar/block.html"],
@@ -20,7 +20,6 @@ charNotesList:[],
 terms: [],
 pickers: [["Makasar", "maka"]],
 orthoChart: false,
-ssHistory: "wj3ak6u5s2",
 htmlchapter: "17/#G29334",
 usedfor: "Makasar [mak]",
 // this is replicated at scripts/linkdata/linkdb

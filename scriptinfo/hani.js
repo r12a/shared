@@ -9,7 +9,7 @@
 
 var scriptInfo = {
 
-script:"Han", code:"Hani", name:"Han (Hanzi, Kanji, Hanja)", type:"Logosyllabary",
+script:"Han", code:"Hani", name:"Hanzi, Kanji, Hanja", type:"Logosyllabary",
 origin:"East Asia",
 info:{ wikipedia:"Chinese_characters", omniglot:"" },
 local: [ 

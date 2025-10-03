@@ -9,7 +9,7 @@
 
 var scriptInfo = {
 
-script:"Oriya", code:"Orya", name:"Oriya (Odia)", type:"Abugida",
+script:"Oriya", code:"Orya", name:"Odia", type:"Abugida",
 origin:"South Asia",
 info:{ wikipedia:"Odia_alphabet", omniglot:"oriya" },
 local: [ 

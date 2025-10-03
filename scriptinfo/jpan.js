@@ -9,7 +9,7 @@
 
 var scriptInfo = {
 
-script:"Japanese", code:"Jpan", name:"Japanese", type:"Logosyllabary + 2 Syllabic scripts",
+script:"Japanese", code:"Jpan", name:"", type:"Logosyllabary + 2 Syllabic scripts",
 dates:"8thC – today", start:"700", end:"", current_usage:"",
 status:"Used to write the Japanese language. The Kanji, Hiragana, Katakana, and Latin characters are all mixed together in a sentence.",
 origin:"East Asia",

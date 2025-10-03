@@ -9,7 +9,7 @@
 
 var scriptInfo = {
 
-script:"Tagalog", code:"Tglg", name:"Tagalog (Baybayin, Alibata)", type:"Abugida",
+script:"Tagalog", code:"Tglg", name:"Baybayin, Alibata", type:"Abugida",
 origin:"Indonesia & Oceania",
 info:{ wikipedia:"Tagalog_alphabet", omniglot:"tagalog" },
 local: [ ], layout: [ ],

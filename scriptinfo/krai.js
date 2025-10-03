@@ -9,7 +9,7 @@
 
 var scriptInfo = {
 
-script:"Kirat Rai", code:"Krai", name:"Kirat Rai, Khambu Rai Lipi", type:"Abugida", 
+script:"Kirat Rai", code:"Krai", name:"Khambu Rai Lipi", type:"Abugida", 
 origin:"South Asia",
 info:{ wikipedia:"Kirat_Rai", omniglot:"kiratrai" }, 
 local: [	],

@@ -9,7 +9,7 @@
 
 var scriptInfo = {
 
-script:"Lisu", code:"Lisu", name:"Lisu (Fraser)", type:"Alphabet",
+script:"Lisu", code:"Lisu", name:"Fraser script", type:"Alphabet",
 origin:"East Asia",
 info:{ wikipedia:"Fraser_alphabet", omniglot:"fraser" },
 local: [ ], layout: [ ],
