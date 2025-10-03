@@ -9,7 +9,7 @@
 
 var scriptInfo = {
 
-script:"Multani", code:"Mult", name:"", type:"Abjad",
+script:"Multani", code:"Mult", name:"", type:"Abugida",
 origin:"South Asia",
 info:{ wikipedia:"Multani_alphabet", omniglot:"" },
 local: [ ], layout: [ ],

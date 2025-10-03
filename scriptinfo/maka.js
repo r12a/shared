@@ -9,7 +9,7 @@
 
 var scriptInfo = {
 
-script:"Makasar", code:"Maka", name:"", type:"",
+script:"Makasar", code:"Maka", name:"", type:"Abugida",
 origin:"Indonesia & Oceania",
 info:{ wikipedia:"Makasar_(Unicode_block)", omniglot:"" },
 local: [ ], layout: [ ],
@@ -38,7 +38,7 @@ unicode: `Unicode 17 has 1 dedicated block, comprising just 25 characters.`,
 
 
 
-"maka": {name:"TBD_TBD_TBD_TBD", region:"sasia", type:"alpha", 
+"maka": {name:"TBD_TBD_TBD_TBD", region:"sasia", type:"abug", 
 blocks:1, chars:59, bletter:44, bmark:4, bnumber:10, bpunctuation:0, bsymbol:1, bother:0, 
 direction:"ltr", rtlnumbers:N,
 voweltype: { inherent:0, letters:Y, marks:N, hidden:N, visorder:N, vocalics:N, ivowels:Y, vbase:"", vcomposite:N, prebase:N, circum:N, },
