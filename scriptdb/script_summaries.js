@@ -895,13 +895,13 @@ unicode: `Unicode 17 has 1 dedicated block, comprising 39 characters.`
 
 
 "maka": {
-dates: `18thC – 20thC`,
+dates: `18thC – 20thC`, start:"1700", end:"2000", current_usage:"",
 status: `Archaic`,
 lineage: `Phoenician > Aramaic > Brahmi > Pallava > Kawi > Makasar`,
 siblings: `Balinese, Baybayin scripts, Javanese, Lontara, Old Sundanese, Rencong, Rejang`,
 history: `Makasar (<span lang="mak">𑻪𑻢𑻪𑻢</span>) is an Indonesian abugida used in South Sulawesi to write the Makassarese language. It was later replaced by Buginese. Makasar script was used in manuscripts dealing with history and genealogies, the most widely written and important writing topics by the Buginese and Makassar people. This genre can be divided into several sub-types: genealogy or daily registers, and historical or chronicle records.`,
 description: `Makasar is a defective script, meaning that it doesn't represent all the sounds of the spoken language. In particular, syllable-final consonant sounds are not written. Continuous syllables with the same initial consonant are often written in abbreviated form using double diacritics or a repeater letter <i>angka</i> which can then be reattached with a diacritic.`,
-unicode: `Unicode 17 has 1 dedicated block, comprising just 25 characters.`
+unicode: `Unicode 17 has 1 dedicated block, comprising just 25 characters.`,
 },
 
 
