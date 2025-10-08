@@ -21,7 +21,7 @@ pickers: [["Sinhala", "sinh"]],
 orthoChart: true,
 ssHistory: "sbwtu85wbv",
 htmlchapter: "13/#G26561",
-usedfor: "Pali [pli], Sanskrit [sa], Sinhala [sin]",
+usedfor: "Pali [pli], Sanskrit [san], Sinhala [sin]",
 // this is replicated at scripts/linkdata/linkdb
 
 

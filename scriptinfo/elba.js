@@ -21,7 +21,7 @@ pickers: [],
 orthoChart: false,
 ssHistory: "fum3p8xz6v",
 htmlchapter: "8/#G27032",
-usedfor: "Albanian [sq]",
+usedfor: "Albanian [sqi]",
 // this is replicated at scripts/linkdata/linkdb
 
 

@@ -21,7 +21,7 @@ pickers: [],
 orthoChart: false,
 ssHistory: "zd8qnsls7x",
 htmlchapter: "15/#G108027",
-usedfor: "Maldivian [dv]",
+usedfor: "Maldivian [div]",
 // this is replicated at scripts/linkdata/linkdb
 
 

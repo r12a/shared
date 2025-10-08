@@ -21,7 +21,7 @@ pickers: [],
 orthoChart: false,
 ssHistory: "xjh6av9y5z",
 htmlchapter: "14/#G49476",
-usedfor: "Sogdian [sog], Northern Uzbek [uz]",
+usedfor: "Sogdian [sog], Northern Uzbek [uzn]",
 // this is replicated at scripts/linkdata/linkdb
 
 

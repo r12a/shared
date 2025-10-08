@@ -24,7 +24,7 @@ pickers: [["Newar", "newa"]],
 orthoChart: true,
 ssHistory: "y53lggbts6",
 htmlchapter: "13/#G31609",
-usedfor: "Bengali [bn], Hindi [hi], Maithili [mai], Newar [new], Sanskrit [sa]",
+usedfor: "Bengali [ben], Hindi [hin], Maithili [mai], Newar [new], Sanskrit [san]",
 // this is replicated at scripts/linkdata/linkdb
 
 

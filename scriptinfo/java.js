@@ -25,7 +25,7 @@ pickers: [["Javanese", "java"]],
 orthoChart: true,
 ssHistory: "db9724gea9",
 htmlchapter: "17/#G27153",
-usedfor: "Bali [ban], Javanese [jv], Osing [osi], Sunda [sun], Tengger [tes]",
+usedfor: "Bali [ban], Javanese [jav], Osing [osi], Sunda [sun], Tengger [tes]",
 // this is replicated at scripts/linkdata/linkdb
 
 

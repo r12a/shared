@@ -22,7 +22,7 @@ orthoChart: true,
 ssHistory: "lrnzlkagyq",
 chapters: "18",
 htmlchapter: "18/#G22462",
-usedfor: "Japanese [ja]",
+usedfor: "Japanese [jpn]",
 local: [ 
     { name:"Jukugo ruby (blog)", url:"https://r12a.github.io/blog/201002.html#20100924"},
     ],

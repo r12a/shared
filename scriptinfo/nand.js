@@ -21,7 +21,7 @@ pickers: [],
 orthoChart: false,
 ssHistory: "pn37qqd7m4",
 htmlchapter: "15/#G106413",
-usedfor: "Kannada [kn], Sanskrit [sa]",
+usedfor: "Kannada [kan], Sanskrit [san]",
 // this is replicated at scripts/linkdata/linkdb
 
 

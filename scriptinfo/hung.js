@@ -21,7 +21,7 @@ pickers: [],
 orthoChart: false,
 ssHistory: "fx7n7tnxzt",
 htmlchapter: "8/#G33926",
-usedfor: "Old Hungarian [ohu], Hungarian [hu]",
+usedfor: "Old Hungarian [ohu], Hungarian [hun]",
 // this is replicated at scripts/linkdata/linkdb
 
 

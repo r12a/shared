@@ -21,7 +21,7 @@ pickers: [],
 orthoChart: false,
 ssHistory: "76d3376b7c",
 htmlchapter: "17/#G26433",
-usedfor: "Filipino [fil], Ilocano [ilo], Tagalog [tl]",
+usedfor: "Filipino [fil], Ilocano [ilo], Tagalog [tgl]",
 // this is replicated at scripts/linkdata/linkdb
 
 

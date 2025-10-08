@@ -21,7 +21,7 @@ pickers: [["Sharada", "shrd-ks"]],
 orthoChart: false,
 ssHistory: "spnpfarl4t",
 htmlchapter: "15/#G81154",
-usedfor: "Kashmiri [ks], Sanskrit [sa]",
+usedfor: "Kashmiri [kas], Sanskrit [san]",
 // this is replicated at scripts/linkdata/linkdb
 
 

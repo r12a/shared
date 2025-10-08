@@ -21,7 +21,7 @@ pickers: [],
 orthoChart: false,
 ssHistory: "fykru6vn8h",
 htmlchapter: "15/#G80879",
-usedfor: "Sindhi [sd]",
+usedfor: "Sindhi [snd]",
 // this is replicated at scripts/linkdata/linkdb
 
 

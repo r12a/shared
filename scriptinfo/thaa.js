@@ -21,7 +21,7 @@ pickers: [["Thaana", "thaa"]],
 orthoChart: true,
 ssHistory: "n2tj49rr2n",
 htmlchapter: "13/#G26451",
-usedfor: "Maldivian [dv]",
+usedfor: "Maldivian [div]",
 // this is replicated at scripts/linkdata/linkdb
 
 

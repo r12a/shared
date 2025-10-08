@@ -19,7 +19,7 @@ orthoChart: true,
 ssHistory: "umfm3ftrny",
 chapters: "18",
 htmlchapter: "18/#G31028",
-usedfor: "Cia-cia [cia], Jejueo [jje], Korean [ko]",
+usedfor: "Cia-cia [cia], Jejueo [jje], Korean [kor]",
 local: [ ],
 layout: [ 
     { name:"Hangul Layout Requirements", url:"http://w3c.github.io/klreq/"},

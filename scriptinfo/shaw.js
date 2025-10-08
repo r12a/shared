@@ -21,7 +21,7 @@ pickers: [],
 orthoChart: false,
 ssHistory: "gj5fewb8ed",
 htmlchapter: "8/#G27260",
-usedfor: "English [en]",
+usedfor: "English [eng]",
 // this is replicated at scripts/linkdata/linkdb
 
 

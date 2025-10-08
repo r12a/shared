@@ -21,7 +21,7 @@ pickers: [],
 orthoChart: false,
 ssHistory: "h6ln54mufu",
 htmlchapter: "14/#G38187",
-usedfor: "Tibetan [bo]",
+usedfor: "Tibetan [bod]",
 // this is replicated at scripts/linkdata/linkdb
 
 

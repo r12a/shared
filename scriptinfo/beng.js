@@ -27,7 +27,7 @@ pickers: [["Bangla", "beng"]],
 orthoChart: true,
 ssHistory: "f8jrlqwbac",
 htmlchapter: "12/#G664195",
-usedfor: "Assamese [as], Bengali [bn], Bishnupriya [bpy], Bodo (India) [brx], Chakma [ccp], Chiru [cdf], Chittagonian [ctg], Naga, Chothe [nct], Deori [der], Dimasa [dis], Chin, Falam [cfm], Garo [grt], Hajong [haj], Khasi [kha], Koch [kdq], Koda [cdz], Kok Borok [trp], Kudmali [kyw], Lushai [lus], Manipuri [mni], Naga, Maring [nng], Mising [mrg], Naga, Moyon [nmo], Munda [unx], Mundari [unr], Nyishi [njz], Nyishi [njz], Sadri, Oraon [sdr], Panchpargania [tdb], Puroik [suv], Rabha [rah], Rangpuri [rkt], Sadri [sck], Santali [sat], Sauria Paharia [mjt], Sylheti [syl], Naga, Thangal [nki], Tippera [tpe], Tiwa [lax], Toto [txo], Usui [usi]",
+usedfor: "Assamese [asm], Bengali [ben], Bishnupriya [bpy], Bodo (India) [brx], Chakma [ccp], Chiru [cdf], Chittagonian [ctg], Naga, Chothe [nct], Deori [der], Dimasa [dis], Chin, Falam [cfm], Garo [grt], Hajong [haj], Khasi [kha], Koch [kdq], Koda [cdz], Kok Borok [trp], Kudmali [kyw], Lushai [lus], Manipuri [mni], Naga, Maring [nng], Mising [mrg], Naga, Moyon [nmo], Munda [unx], Mundari [unr], Nyishi [njz], Nyishi [njz], Sadri, Oraon [sdr], Panchpargania [tdb], Puroik [suv], Rabha [rah], Rangpuri [rkt], Sadri [sck], Santali [sat], Sauria Paharia [mjt], Sylheti [syl], Naga, Thangal [nki], Tippera [tpe], Tiwa [lax], Toto [txo], Usui [usi]",
 // this is replicated at scripts/linkdata/linkdb
 
 

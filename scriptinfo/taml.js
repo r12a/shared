@@ -27,7 +27,7 @@ pickers: [["Tamil", "taml"]],
 orthoChart: true,
 ssHistory: "zw5nedjarb",
 htmlchapter: "12/#G10162",
-usedfor: "Badaga [bfq], Betta Kurumba [xub], Irula [iru], Kannada Kurumba [kfi], Kota (India) [kfe], Muthuvan [muv], Paniya [pcg], Saurashtra [saz], Tamil [ta], Toda [tcx], Vaagri Booli [vaa], Wayanad Chetti [ctt]",
+usedfor: "Badaga [bfq], Betta Kurumba [xub], Irula [iru], Kannada Kurumba [kfi], Kota (India) [kfe], Muthuvan [muv], Paniya [pcg], Saurashtra [saz], Tamil [tam], Toda [tcx], Vaagri Booli [vaa], Wayanad Chetti [ctt]",
 // this is replicated at scripts/linkdata/linkdb
 
 

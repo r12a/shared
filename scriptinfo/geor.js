@@ -25,7 +25,7 @@ pickers: [["Modern Georgian", "geor-ka"], ["Khutsuri", "geok-ka"], ["All Georgia
 orthoChart: true,
 ssHistory: "rbr2wkvu4m",
 htmlchapter: "7/#G3360",
-usedfor: "Abkhaz [abk], Georgian [ka], Laz [lzz], Mingrelian [xmf], Old Avar [oav], Ossetian [oss], Svan [sva]",
+usedfor: "Abkhaz [abk], Georgian [kat], Laz [lzz], Mingrelian [xmf], Old Avar [oav], Ossetian [oss], Svan [sva]",
 // this is replicated at scripts/linkdata/linkdb
 
 

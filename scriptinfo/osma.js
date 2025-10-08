@@ -21,7 +21,7 @@ pickers: [],
 orthoChart: false,
 ssHistory: "hg53222b9b",
 htmlchapter: "19/#G16914",
-usedfor: "Somali [so]",
+usedfor: "Somali [som]",
 // this is replicated at scripts/linkdata/linkdb
 
 

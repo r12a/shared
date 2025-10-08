@@ -22,7 +22,7 @@ pickers: [["Wolof Garay", "gara-wo"]],
 orthoChart: true,
 ssHistory: "e8q47hg9gl",
 htmlchapter: "19/#G746355",
-usedfor:"Wolof [wo]",
+usedfor:"Wolof [wol]",
 // this is replicated at scripts/linkdata/linkdb
 
 

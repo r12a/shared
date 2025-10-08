@@ -21,7 +21,7 @@ pickers: [],
 orthoChart: false,
 ssHistory: "r9e56hvyut",
 htmlchapter: "15/#G81423",
-usedfor: "Eastern Punjabi [pan], Gujarati [gu], Saraiki [skr], Sindhi [snd], Western Punjabi [lah]",
+usedfor: "Eastern Punjabi [pan], Gujarati [guj], Saraiki [skr], Sindhi [snd], Western Punjabi [lah]",
 // this is replicated at scripts/linkdata/linkdb
 
 

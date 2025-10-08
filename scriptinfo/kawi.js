@@ -21,7 +21,7 @@ pickers: [],
 orthoChart: false,
 ssHistory: "flxwepg4jd",
 htmlchapter: "17/#G40419",
-usedfor: "Kawi [kaw], Sanskrit [sa]",
+usedfor: "Kawi [kaw], Sanskrit [san]",
 // this is replicated at scripts/linkdata/linkdb
 
 

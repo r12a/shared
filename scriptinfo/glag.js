@@ -21,7 +21,7 @@ charts: [ ["Glagolitic", "2C00"], ["Glagolitic Supplement", "1E000"] ],
 orthoChart: false,
 ssHistory: "lbhv6e4efr",
 htmlchapter: "7/#G15862",
-usedfor: "Church Slavonic [cu], Chakavian [ckm]",
+usedfor: "Church Slavonic [chu], Chakavian [ckm]",
 // this is replicated at scripts/linkdata/linkdb
 
 

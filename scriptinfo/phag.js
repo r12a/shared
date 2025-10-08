@@ -21,7 +21,7 @@ pickers: [],
 orthoChart: false,
 ssHistory: "y22gh9p8g2",
 htmlchapter: "14/#G40430",
-usedfor: "Tibetan [bo], Chinese [zh], Halh Mongolian [mn], Peripheral Mongolian [mvf], Sanskrit [sa]",
+usedfor: "Tibetan [bod], Chinese [zho], Halh Mongolian [khk], Peripheral Mongolian [mvf], Sanskrit [san]",
 // this is replicated at scripts/linkdata/linkdb
 
 

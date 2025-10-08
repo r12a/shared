@@ -21,7 +21,7 @@ pickers: [],
 orthoChart: false,
 ssHistory: "qzhwzbsvm7",
 htmlchapter: "15/#G81052",
-usedfor: "Old Tamil [oty], Sanskrit [sa]",
+usedfor: "Old Tamil [oty], Sanskrit [san]",
 // this is replicated at scripts/linkdata/linkdb
 
 

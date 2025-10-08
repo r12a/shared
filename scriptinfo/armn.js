@@ -24,7 +24,7 @@ pickers: [["Armenian", "armn"]],
 orthoChart: true,
 ssHistory: "z35gwmg4ft",
 htmlchapter: "7/#G3334",
-usedfor: "Armenian [hy], Kurdish [kur], Kurdish, Northern [kmr], Armenian, Western [hyw]",
+usedfor: "Armenian [hye], Kurdish [kur], Kurdish, Northern [kmr], Armenian, Western [hyw]",
 // this is replicated at scripts/linkdata/linkdb
 
 

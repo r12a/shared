@@ -21,7 +21,7 @@ pickers: [],
 orthoChart: false,
 ssHistory: "kuegm6qedh",
 htmlchapter: "15/#G89564",
-usedfor: "Eastern Punjabi [pa], Hindi [hi], Marwari [mwr], Western Punjabi [lah]",
+usedfor: "Eastern Punjabi [pan], Hindi [hin], Marwari [mwr], Western Punjabi [lah]",
 // this is replicated at scripts/linkdata/linkdb
 
 
