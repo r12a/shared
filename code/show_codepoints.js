@@ -211,8 +211,8 @@ function showNameDetails (chars, clang, base, target, panel, list, translit, ipa
 
 
     // draw the glosses
-    if (location.toString().includes('picker')) var iconURL = '../../scripts/common29/icons/copytiny.svg'
-    else iconURL = '../common29/icons/copytiny.svg'
+    if (location.toString().includes('picker')) var iconURL = '../../scripts/common30/icons/copytiny.svg'
+    else iconURL = '../common30/icons/copytiny.svg'
     gloss = '<div class="multilineGlossedText">'
     for (t=-1;t<graphemes.length;t++) {
         if (t===-1) {
