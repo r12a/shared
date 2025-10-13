@@ -17,7 +17,7 @@ layout: [
     /*{ name:"Lao Layout Requirements", url:"https://www.w3.org/TR/mlreq/"},*/
     { name:"Myanmar counter styles", url:"https://www.w3.org/TR/predefined-counter-styles/#myanmar-styles"},
 	],
-charts: [ ["Myanmar", "1000"], ["Myanmar Extended-A", "AA60"], ["Myanmar Extended-B", "A9E0"] ],
+charts: [ ["Myanmar", "1000"], ["Myanmar Extended-A", "AA60"], ["Myanmar Extended-B", "A9E0"], ["Myanmar Extended-C", "116D0"] ],
 scriptNotes: [["Burmese", "mymr/my.html"], ["Shan", "mymr/shn.html"]],
 charNotesList:["Myanmar", "mymr/block.html"],
 terms: [["Burmese", "mymr/my_vocab.html"], ["Shan", "mymr/shn_vocab.html"]],
