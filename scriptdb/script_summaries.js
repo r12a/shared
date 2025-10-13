@@ -506,8 +506,8 @@ dates: `20thC – today`,
 status: `Limited usage (low uptake)`,
 lineage: `Devised by Munshi Mangal Singh Masaram in 1918, based on Brahmi characters found in other Indian scripts`,
 siblings: ``,
-history: `Masaram Gondi is a South Asian abugida used in India for the Gondi language. It is unrelated to the historic Gunjala Gondi.`,
-description: `It requires context-sensitive shaping and positioning of glyphs.`,
+history: `Masaram Gondi is a South Asian abugida used in India for the Gondi language. It is unrelated to the historic Gunjala Gondi. It was created in 1918 by Mangal Singh Masaram of Madhya Pradesh, and is actively used today in handwritten and printed materials. In 2011, the Akhil Gondvana Gondi Sahitya Parishad (Chandagadh, Maharashtra) passed a resolution adopting Masaram’s script as the official script of the Gondi language.`,
+description: `Although based on Brahmi principles, the script contains a number of unique features, such as a horizontal bar representing the inherent vowel that is removed in conjuncts. There is one virama used for conjuncts and another for word-final codas. It requires context-sensitive shaping and positioning of glyphs.`,
 unicode: `Unicode 17 has 1 dedicated block, comprising 75 characters.`
 },
 
