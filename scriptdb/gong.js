@@ -30,8 +30,8 @@ var spreadsheet = `gong-wsg	key	ipa	ipa+	ipaOther	translit	transc	kbd	class	stat
 𑵭	v	ʋ	a	w	v	v		Lo		consonant				U+11D6D: GUNJALA GONDI LETTER VA		
 𑶈	r	r	a	ɾ	r	r		Lo		consonant				U+11D88: GUNJALA GONDI LETTER RA		
 𑵵	l	l	a		l	l		Lo		consonant				U+11D75: GUNJALA GONDI LETTER LA		
-𑵿		ɭ	a		ɭ	ḷ		Lo		consonant				U+11D7F: GUNJALA GONDI LETTER LLA		
-𑵬	j	j	a		j	y		Lo		consonant				U+11D6C: GUNJALA GONDI LETTER YA		
+𑵿	l	ɭ	a		ɭ	ḷ		Lo		consonant				U+11D7F: GUNJALA GONDI LETTER LLA		
+𑵬	y	j	a		j	y		Lo		consonant				U+11D6C: GUNJALA GONDI LETTER YA		
 																
 𑶋	i	i			i	i		Mc​		vowel sign				U+11D8B: GUNJALA GONDI VOWEL SIGN I		
 𑶌	i	iː			iː	ī		Mc​		vowel sign				U+11D8C: GUNJALA GONDI VOWEL SIGN II		
@@ -43,13 +43,13 @@ var spreadsheet = `gong-wsg	key	ipa	ipa+	ipaOther	translit	transc	kbd	class	stat
 𑶑	a	ai			aⁱ	ai		Mn​		vowel sign				U+11D91: GUNJALA GONDI VOWEL SIGN AI		
 𑶔	a	au			aᵘ	au		Mc​		vowel sign				U+11D94: GUNJALA GONDI VOWEL SIGN AU		
 																
-𑵢	i	i			ị	i		Lo		independent vowel				U+11D62: GUNJALA GONDI LETTER I		
+𑵢	I	i			ị	i		Lo		independent vowel				U+11D62: GUNJALA GONDI LETTER I		
 𑵣	I	iː			ịː	ī		Lo		independent vowel				U+11D63: GUNJALA GONDI LETTER II		
-𑵤	u	u			ụ	u		Lo		independent vowel				U+11D64: GUNJALA GONDI LETTER U		
+𑵤	U	u			ụ	u		Lo		independent vowel				U+11D64: GUNJALA GONDI LETTER U		
 𑵥	U	uː			ụː	ū		Lo		independent vowel				U+11D65: GUNJALA GONDI LETTER UU		
-𑵧	e	eː			ẹː	ē		Lo		independent vowel				U+11D67: GUNJALA GONDI LETTER EE		
-𑵪	o	o:			ọ:	ō		Lo		independent vowel				U+11D6A: GUNJALA GONDI LETTER OO		
-𑵠	a	a			ạ	a		Lo		independent vowel				U+11D60: GUNJALA GONDI LETTER A		
+𑵧	E	eː			ẹː	ē		Lo		independent vowel				U+11D67: GUNJALA GONDI LETTER EE		
+𑵪	O	o:			ọ:	ō		Lo		independent vowel				U+11D6A: GUNJALA GONDI LETTER OO		
+𑵠	A	a			ạ	a		Lo		independent vowel				U+11D60: GUNJALA GONDI LETTER A		
 𑵡	A	aː			ạː	ā		Lo		independent vowel				U+11D61: GUNJALA GONDI LETTER AA		
 𑵨	A	ai			ạⁱ	ai		Lo		independent vowel				U+11D68: GUNJALA GONDI LETTER AI		
 𑵫	A	au			ạᵘ	au		Lo		independent vowel				U+11D6B: GUNJALA GONDI LETTER AU		
@@ -72,7 +72,7 @@ var spreadsheet = `gong-wsg	key	ipa	ipa+	ipaOther	translit	transc	kbd	class	stat
 ।	|				|	.		Po		section divider				U+0964: DEVANAGARI DANDA		
 ॥	|				¶			Po		section divider				U+0965: DEVANAGARI DOUBLE DANDA		
 																
-\u0020	 							Zs		space				U+0020: SPACE		
+\u0020	 	 			 	 		Zs		space				U+0020: SPACE		
 ,	,				,	,		Po		comma				U+002C: COMMA		
 :	:				:	:		Po		colon				U+003A: COLON		
 .	.				,	.		Po		full stop				U+002E: FULL STOP		
