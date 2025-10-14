@@ -88,14 +88,6 @@ var spreadsheet = `gong-wsg	key	ipa	ipa+	ipaOther	translit	transc	kbd	class	stat
 																
 																
 																
-																
-																
-																
-																
-																
-																
-																
-																
 // space																
 \u200B	=				ᶻʷˢᵖ			Cf	?	zero-width space				U+200B: ZERO WIDTH SPACE		
 \u202F	]				ⁿⁿᵇˢᵖ			Zs	?	nnbsp				U+202F NARROW NO-BREAK SPACE		
@@ -108,10 +100,6 @@ var spreadsheet = `gong-wsg	key	ipa	ipa+	ipaOther	translit	transc	kbd	class	stat
 // period & ellipsis																
 …	.				…	…		Po	?	ellipsis				U+2026: HORIZONTAL ELLIPSIS		
 // quote marks																
-«	<				«	“		Pi	?	quotation mark				U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK		
-»	>				»	”		Pf	?	quotation mark				U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK		
-‹	<				‹			Pi	?	quotation mark				U+2018: LEFT SINGLE QUOTATION MARK		
-›	>				›			Pf	?	quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK		
 “	<				“	“		Pi	?	quotation mark				U+201C: LEFT DOUBLE QUOTATION MARK		
 ”	>				”	”		Pf	?	quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK		
 ‘	<				‘	‘		Pi	?	quotation mark				U+2018: LEFT SINGLE QUOTATION MARK		
@@ -128,40 +116,8 @@ var spreadsheet = `gong-wsg	key	ipa	ipa+	ipaOther	translit	transc	kbd	class	stat
 —	-				—	—		Pd	?	em dash				U+2014: EM DASH		
 // apostrophe																
 '	\'				ʼ	ʼ		Lm	?	apostrophe				U+02BC: MODIFIER LETTER APOSTROPHE		
-// nuktas																
-‍଼	/				ˑ ˑ̣ ˑ̱ ˑ͈ ˑ͇				?	nukta						
-// repetition, gemination																
-	&				& &̣ &̱ &͈ &͇ &̥				?	repetition						
-	&				˖				?	gemination						
 // abbrev.																
 	+				¨				?	abbreviation marker						
-// misc diacritics																
-	[				+				?	vowel carrier						
-	[				˘				?	vowel shortener						
-	[				ᵊ				?	vowel retainer						
-	[								?	consonant shifter						
-	[				ˈ				?	superscript alef						
-	[				ʿ				?	hamza above						
-	[				˓				?	hamza below						
-٭	[				*				?	star						
-	[				~				?	maddah						
-	[				″				?	register change						
-	[				°				?	special						
-	[				˙				?	combining dot above						
-	[				ʼ				?	combining hook above						
-	[				ˆ				?	combining circumflex						
-	[				ˉ				?	combining macron						
-	[				̨				?	combining ogonek						
-	[				ᶠ				?	feminine marker						
-// head marks, honorifics, etc																
-	@				⟦				?	opening head mark						
-	@				⟧				?	closing head mark						
-	@				⟨				?	2nd opening head						
-	@				⟩				?	2 closing head						
-	@				§ᵃ				?	honorific						
-	@				§ᵇ				?	honorific						
-	@				§ᶜ				?	honorific						
-	@				°				?	extra						
 •	•				•			Po	?	bullet				U+2022: BULLET		
 // formatting characters																
 \u034F	=				ᶜᵍʲ			Mn	?	combining grapheme joiner				U+034F: COMBINING GRAPHEME JOINER		
