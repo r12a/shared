@@ -57,12 +57,20 @@ function createtoc (maxlevel) {
                         var h4s = h3s[k].parentNode.querySelectorAll('h4')
                         for (var m=0; m<h4s.length; m++) {
                             if (!h4s[m].className.match(/notoc/)) {
+                                h4 = h4s[m].innerHTML
 
                                 // create a self link
                                 selflink = document.createElement('a')
                                 selflink.className = 'selflink'
                                 selflink.href = '#'+h4s[m].parentNode.id
                                 h4s[m].appendChild(selflink)
+            
+                                var hhh = document.createElement('div')
+                                var aaa = document.createElement('a')
+                                    aaa.href = '#'+h4s[m].parentNode.id
+                                    aaa.innerHTML = h4
+                                hhh.appendChild(aaa)
+                                hhh.className = 'toc3'
                                 }
                             }
 						}
@@ -76,6 +84,8 @@ function createtoc (maxlevel) {
     setFigRefs()
 	}
     
+
+
 
 
 function setFigRefs () {
