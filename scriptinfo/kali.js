@@ -34,7 +34,7 @@ status: `Limited usage (small community)`,
 lineage: `Devised by Htae Bu Phae in March 1962.`,
 siblings: ``,
 history: `Kayah Li (<span lang="kyu">ꤊꤢ꤬ꤛꤢ꤭ꤜꤟꤤ꤬ ꤢ꤬ꤜꤤ꤬</span>) is a Southeast Asian alphabet used in Myanmar and Thailand for the Eastern and Western Kayah languages. Although native to Myanmar, these languages are now also spoken by significant numbers of refugees in Thailand, where the Kayah Li script is taught in schools.`,
-description: `Words are separated using spaces.`,
+description: `Words are separated using spaces. Half the vowels are represented by letters, and the other half use combining marks over a carrier letter. Vowel breathiness is written using the letter <span class="uname">HA</span> before the vowel. Tone marks are used, and always appear below the base. There are no codas in Kayah syllable structure.`,
 unicode: `Unicode 17 has 1 dedicated block, comprising 48 characters.`,
 // this is replicated in shared/scriptdb/script_summaries
 
