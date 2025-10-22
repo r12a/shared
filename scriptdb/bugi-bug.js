@@ -28,21 +28,21 @@ var spreadsheet = `bugi-bug	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᨒ	l	l	a	l	l	l	Lo		consonant				U+1A12: BUGINESE LETTER LA	✓
 ᨐ	y	j	a	y	y	y	Lo		consonant				U+1A10: BUGINESE LETTER YA	✓
 														
-ᨗ	i	i		i	i	i	Mn		vowel				U+1A17: BUGINESE VOWEL SIGN I	✓
+ᨗ	i	i		i	i	i	Mn		vowel			tetti’ riase’,	U+1A17: BUGINESE VOWEL SIGN I	✓
 ᨕᨗ	i	i		+i	i				standalone vowel				U+1A15 U+1A17: BUGINESE LETTER A, VOWEL SIGN I	
 ᨕᨗ‍ᨐ	i	iya		+i‍y	iya	A			ligature				U+1A15 U+1A17 U+200D U+1A10: BUGINESE LETTER A, VOWEL SIGN I, ZERO WIDTH JOINER, LETTER YA	
-ᨘ	u	u		u	u	u	Mn		vowel				U+1A18: BUGINESE VOWEL SIGN U	✓
+ᨘ	u	u		u	u	u	Mn		vowel			tetti’ riawa	U+1A18: BUGINESE VOWEL SIGN U	✓
 ᨕᨘ	u	u		+u	u				standalone vowel				U+1A15 U+1A18: BUGINESE LETTER A, VOWEL SIGN U	
-ᨙ	e	e		e	e	e	Mc		vowel				U+1A19: BUGINESE VOWEL SIGN E	✓
+ᨙ	e	e		e	e	e	Mc		vowel			kecce’ riolo	U+1A19: BUGINESE VOWEL SIGN E	✓
 ᨕᨙ	e	e		+e	e				standalone vowel				U+1A15 U+1A19: BUGINESE LETTER A, VOWEL SIGN E	
-ᨚ	o	o		o	o	o	Mc		vowel				U+1A1A: BUGINESE VOWEL SIGN O	✓
+ᨚ	o	o		o	o	o	Mc		vowel			kecce’ rimunri	U+1A1A: BUGINESE VOWEL SIGN O	✓
 ᨕᨚ	o	o		+o	o				standalone vowel				U+1A15 U+1A1A: BUGINESE LETTER A, VOWEL SIGN O	
-ᨛ	e	ə		ə	ə	q	Mn		vowel				U+1A1B: BUGINESE VOWEL SIGN AE	✓
+ᨛ	e	ə		ə	ə	q	Mn		vowel			kecce’ riase’	U+1A1B: BUGINESE VOWEL SIGN AE	✓
 ᨕᨛ	e	ə		+ə	ə				standalone vowel				U+1A15 U+1A1B: BUGINESE LETTER A, VOWEL SIGN AE	
 ᨕ	a	ɑ		+	ɑ	a	Lo		vowel				U+1A15: BUGINESE LETTER A	✓
 														
 ꧏ				–		§	Lm		for the keyboard				U+A9CF: JAVANESE PANGRANGKEP	
-\u25CC									for display				Consonant	
+\u25CC				\u25CC					for display				Consonant	
 `														
 														
 latinPanel = 'ɑ ə ɟ ŋ ɲ'														
