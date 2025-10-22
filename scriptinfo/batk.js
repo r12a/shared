@@ -31,7 +31,7 @@ status: `Limited usage (low uptake)`,
 lineage: `Phoenician > Aramaic > Brahmi > Pallava? > Old Kawi > Surat Batak`,
 siblings: `Balinese, Baybayin scripts, Javanese, Lontara, Makasar, Old Sundanese, Rencong, Rejang`,
 history: `Batak is an Indonesian abugida, used for a number of related dialects on the island of Sumatra. Although it has a very long history, these days the script is taught in schools more for cultural purposes than as a practical writing system for Batak. The overwhelming majority of writing by Bataks is in Indonesian (as elsewhere in Indonesia), however Batak script can still be found in the signage of shops and governmental institutions.`,
-description: `The different dialects use slightly different glyph shapes for certain characters, which are encoded separately. A peculiarity of Batak is that a syllable CVCv (where 'v' represents the vowel-killer) is rendered as CCVv when the vowel is expressed using a vowel sign. There are no conjuncts or stacks. Words are not separated by spaces, and text segmentation doesn't pay attention to word boundaries.`,
+description: `The different dialects use slightly different glyph shapes for certain characters, which are encoded separately. A peculiarity of Batak is that a syllable CVCv (where 'v' represents the vowel-killer) is rendered as CCVv when the vowel is expressed using a vowel sign. There are no conjuncts or stacks, but codas are written and vowels killed by visible vowel-killer letters. Words are not separated by spaces, and text segmentation doesn't pay attention to word boundaries. There is very little punctuation.`,
 unicode: `Unicode 17 has 1 dedicated block, comprising 56 characters.`,
 // this is replicated in shared/scriptdb/script_summaries
 
