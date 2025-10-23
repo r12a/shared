@@ -106,7 +106,7 @@ function setFigRefs () {
 	var figrefs = document.querySelectorAll('.figref')
     for (i=0;i<figrefs.length;i++) {
         var id = figrefs[i].textContent.replace(/#/,'')
-        if (figures[id] === null) console.log('Section not found: ',id)
+        if (figures[id] === null) console.error('Section not found: ',id)
         else {
             figrefs[i].innerHTML = 'Figure '+figures[id]
             figrefs[i].href = '#'+id
@@ -125,15 +125,14 @@ function setSectionRefs () {
     var secrefs = document.querySelectorAll('.secref, .sectionref')
     for (var i=0;i<secrefs.length;i++) {
         var id = secrefs[i].textContent
-        if (document.getElementById(id) === null) console.log('Section not found: ',id)
-        else if (document.getElementById(id).querySelector('h2, h3,h4') === null) console.log('Section has no descendants: ', id)
+        if (document.getElementById(id) === null) console.error('%cSection not found: '+id, 'color:red;font-weight:bold;','  Check the .secref elements.')
+        else if (document.getElementById(id).querySelector('h2,h3,h4') === null) console.log('Section has no descendants: ', id)
         else {
             secrefs[i].innerHTML = document.getElementById(id).querySelector('h2, h3,h4').innerHTML
             secrefs[i].href = '#'+id
             }
         }
     }
-
 
 
 
