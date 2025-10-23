@@ -70,7 +70,7 @@ var spreadsheet = `deva-ks	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ौ	e	əŭ		əʷ	au		Mc		vowel sign				औ			U+094C: DEVANAGARI VOWEL SIGN AU	vowel sign	✓
 औ	E	əŭ		ə̣ʷ	au		Lo		independent vowel			ौ				U+0914: DEVANAGARI LETTER AU	standalone	✓
 																		
-ॐ							Lo	?	religious symbol							U+0950: DEVANAGARI OM		✓
+ॐ				{om}			Lo	?	religious symbol							U+0950: DEVANAGARI OM		✓
 																		
 ॲ		ɔ		ə̸̣			Lo	i	independent vowel	Formerly represented ə but obsoleted by the 2009 reform. However now reintroduced by a few organisations for ɔ.		ॅ				U+0972: DEVANAGARI LETTER CANDRA A		✓
 ॅ		ɔ		ə̸			Mn	i	vowel sign	Formerly represented ə but obsoleted by the 2009 reform. However now reintroduced by a few organisations for ɔ.			ॲ			U+0945: DEVANAGARI VOWEL SIGN CANDRA E		✓

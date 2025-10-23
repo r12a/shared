@@ -1,4 +1,4 @@
-var spreadsheet = `khmr-km	key	ipa	ipa+	ipaOther	translit	transc	kbd	class	status	type	usage	native name	name transcription	ucs name	map	block
+var spreadsheet = `sylo-syl	key	ipa	ipa+	ipaOther	translit	transc	kbd	class	status	type	usage	native name	name transcription	ucs name	map	block
 																✓
 ꠛ	b	b	ɔ		b	b		Lo		consonant				U+A81B: SYLOTI NAGRI LETTER BO		
 ꠜ	b	b	ɔ́		ḅ	bh		Lo		high tone				U+A81C: SYLOTI NAGRI LETTER BHO		
@@ -45,15 +45,15 @@ var spreadsheet = `khmr-km	key	ipa	ipa+	ipaOther	translit	transc	kbd	class	statu
 ꠆	*				͞			Mn​		vowel-killer				U+A806: SYLOTI NAGRI SIGN HASANTA		
 ꠬	*				˟			Mn​		virama				U+A82C: SYLOTI NAGRI SIGN ALTERNATE HASANTA		
 																
-꠨	]							So		poetry mark				U+A828: SYLOTI NAGRI POETRY MARK-1		
-꠩	]							So		poetry mark				U+A829: SYLOTI NAGRI POETRY MARK-2		
-꠪	]							So		poetry mark				U+A82A: SYLOTI NAGRI POETRY MARK-3		
-꠫	]							So		poetry mark				U+A82B: SYLOTI NAGRI POETRY MARK-4		
-⁕	]							Po		poetry mark				U+2055: FLOWER PUNCTUATION MARK		
+꠨	]				p¹			So		poetry mark				U+A828: SYLOTI NAGRI POETRY MARK-1		
+꠩	]				p²			So		poetry mark				U+A829: SYLOTI NAGRI POETRY MARK-2		
+꠪	]				p³			So		poetry mark				U+A82A: SYLOTI NAGRI POETRY MARK-3		
+꠫	]				p⁴			So		poetry mark				U+A82B: SYLOTI NAGRI POETRY MARK-4		
+⁕	]				p⁵			Po		poetry mark				U+2055: FLOWER PUNCTUATION MARK		
 																
 																
 // space																
-\u0020	 							Zs		space				U+0020: SPACE		
+\u0020	 	 			 	 		Zs		space				U+0020: SPACE		
 \u200B	=				ᶻʷˢᵖ			Cf	?	zero-width space				U+200B: ZERO WIDTH SPACE		
 \u202F	]				ⁿⁿᵇˢᵖ			Zs	?	nnbsp				U+202F NARROW NO-BREAK SPACE		
 // section dividers																
@@ -68,12 +68,12 @@ var spreadsheet = `khmr-km	key	ipa	ipa+	ipaOther	translit	transc	kbd	class	statu
 :	:				:	:		Po		colon				U+003A: COLON		
 // period & ellipsis																
 .	.				.	.		Po		full stop				U+002E: FULL STOP		
-…	.				…	…		Po		ellipsis				U+2026: HORIZONTAL ELLIPSIS		
+…	.				…	…		Po	?	ellipsis				U+2026: HORIZONTAL ELLIPSIS		
 // quote marks																
 “	<				“	“		Pi		quotation mark				U+201C: LEFT DOUBLE QUOTATION MARK		
 ”	>				”	”		Pf		quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK		
-‘	<				‘	‘		Pi		quotation mark				U+2018: LEFT SINGLE QUOTATION MARK		
-’	>				’	’		Pf		quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK		
+‘	<				‘	‘		Pi	?	quotation mark				U+2018: LEFT SINGLE QUOTATION MARK		
+’	>				’	’		Pf	?	quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK		
 // brackets																
 (	(				(	(		Ps		parenthesis				U+0028: LEFT PARENTHESIS		
 )	)				)	)		Ps		parenthesis				U+0029: RIGHT PARENTHESIS		
@@ -81,8 +81,8 @@ var spreadsheet = `khmr-km	key	ipa	ipa+	ipaOther	translit	transc	kbd	class	statu
 ]	)				] 	]		Pe		bracket				U+005D: RIGHT SQUARE BRACKET		
 // dashes																
 -	-				-	-		Pd		hyphen				U+2010: HYPHEN		
-–	-				–	–		Pd		en dash				U+2013: EN DASH		
-—	-				—	—		Pd		em dash				U+2014: EM DASH		
+–	-				–	–		Pd	?	en dash				U+2013: EN DASH		
+—	-				—	—		Pd	?	em dash				U+2014: EM DASH		
 // apostrophe																
 ʼ	\'				ʼ	ʼ		Lm		apostrophe				U+02BC: MODIFIER LETTER APOSTROPHE		
 •	•				•			Po	?	bullet				U+2022: BULLET		
@@ -119,7 +119,7 @@ var spreadsheet = `khmr-km	key	ipa	ipa+	ipaOther	translit	transc	kbd	class	statu
 9	9				9	9		Nd	?	digit				U+0039: DIGIT NINE		
 																
 																
-ⓘ														Inherent vowel marker		
+ⓘ					ⓘ									Inherent vowel marker		
 																
 `																
 																

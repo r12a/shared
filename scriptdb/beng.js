@@ -163,10 +163,10 @@ var spreadsheet = `beng-bn	key	ipa	ipa+	translit	iso	kbd	class	status	type	usage
 এ্যা		æ		ẹ͓ʲɑ			s		conjunct							U+098F U+09CD U+09AF U+09BE: BENGALI LETTER E, SIGN VIRAMA, LETTER YA, VOWEL SIGN AA		
 অ্যা		æ		ɔ̣͓ʲɑ			s		conjunct							U+0985 U+09CD U+09AF U+09BE: BENGALI LETTER A, SIGN VIRAMA, LETTER YA, VOWEL SIGN AA		
 																		
-ঀ								?								U+0980: BENGALI ANJI		
-ৼ								?								U+09FC: BENGALI LETTER VEDIC ANUSVARA		
+ঀ				{anji}				?								U+0980: BENGALI ANJI		
+ৼ				{vanu}				?								U+09FC: BENGALI LETTER VEDIC ANUSVARA		
 \u0020	 	 		 	 		Zs		space							U+0020: SPACE		
-\u002D							Pd		hyphen							U+002D: HYPHEN		
+\u002D				-			Pd		hyphen							U+002D: HYPHEN		
 `																		
 																		
 latinPanel = 'ã æ ñ ô ā ī ĭ ŋ ś ū ŭ ǐ ǔ ȏ ɑ ɔ ɖ ɡ ɦ ɪ i̯ ɱ ɳ ɹ ɽ ɾ ʂ ʃ ʃ̇ ʃ̈ ʈ t͡ʃ ʊ ʒ d͡ʒ ʤ ʥ ʰ ʱ ʲ ʳ ʷ ʼ ː ˑ ˜ ˡ ˢ ̃ ̄ β ᵃ ᵈ ᵉ ᵍ ᵐ ᵖ ᶜ ᶠ ḍ ḥ ṃ ṇ ṛ ṣ ṭ ṯ ẹ ị ọ ụ ‌u̯ – — “ ” … ⁱ ∅'																		

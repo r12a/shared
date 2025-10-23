@@ -84,7 +84,7 @@ var spreadsheet = `cakm-cpp	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 														
 														
 // space														
-\u0020	 						Zs		space				U+0020: SPACE	
+\u0020	 	 		 	 		Zs		space				U+0020: SPACE	
 // phrase dividers														
 ,	,			,	,		Po		comma				U+002C: COMMA	
 ;	;			;	;	;;⁏⸵	Po		semicolon				U+003B: SEMICOLON	
@@ -145,7 +145,7 @@ var spreadsheet = `cakm-cpp	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 8	8			8	8		Nd	?	digit				U+0038: DIGIT EIGHT	
 9	9			9	9		Nd	?	digit				U+0039: DIGIT NINE	
 														
-C									represents any consonant				consonant	
+C				◌					represents any consonant				consonant	
 `														
 														
 latinPanel = 'æ ñ ā ī ŋ ū ɔ ɖ ɛ ɡ ɲ ɳ ɽ ʃ ʈ ʒ ʰ ː ̃ i̯ u̯ t͡ʃ t͡ʃʰ d͡ʒ d͡ʒʰ ḍ ḷ ṃ ṅ ṇ ṭ'														

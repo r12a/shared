@@ -1,5 +1,5 @@
 var spreadsheet = `batk-btk	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	native name	latin name	ucs name	block
-\u0020							Zs						U+0020: SPACE	
+\u0020		 		 	 		Zs						U+0020: SPACE	
 ,	,			,			Po	?	comma				U+002C: COMMA	
 .	.			.			Po	?	full stop				U+002E: FULL STOP	
 ᯲	*			͓			Mc		vowel killer	mand pakp toba		pangolat	U+1BF2: BATAK PANGOLAT	✓

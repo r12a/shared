@@ -73,16 +73,16 @@ var spreadsheet = `gujr-gu	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 																	
 																	
 ઁ				[	m̐	X	Mn	?							U+0A81: GUJARATI SIGN CANDRABINDU		✓
-ૐ							Lo								U+0AD0: GUJARATI OM		✓
-૱							Sc								U+0AF1: GUJARATI RUPEE SIGN		✓
+ૐ				{om}			Lo								U+0AD0: GUJARATI OM		✓
+૱				{rupee}			Sc								U+0AF1: GUJARATI RUPEE SIGN		✓
 																	
-ૺ							Mn​	u	diacritic	Used for arabic transliteration.					U+0AFA: GUJARATI SIGN SUKUN		
-ૻ							Mn​	u	diacritic	Used for arabic transliteration.					U+0AFB: GUJARATI SIGN SHADDA		
-ૼ							Mn​	u	diacritic	Used for arabic transliteration.					U+0AFC: GUJARATI SIGN MADDAH		
-૽							Mn​	u	diacritic	Used for arabic transliteration.					U+0AFD: GUJARATI SIGN THREE-DOT NUKTA ABOVE		
-૾							Mn​	u	diacritic	Used for arabic transliteration.					U+0AFE: GUJARATI SIGN CIRCLE NUKTA ABOVE		
-૿							Mn​	u	diacritic	Used for arabic transliteration.					U+0AFF: GUJARATI SIGN TWO-CIRCLE NUKTA ABOVE		
-ૹ		ʒ					Lo	u	letter	Used for avestan transliteration.					U+0AF9: GUJARATI LETTER ZHA		
+ૺ				˟			Mn​	u	diacritic	Used for arabic transliteration.					U+0AFA: GUJARATI SIGN SUKUN		
+ૻ				&			Mn​	u	diacritic	Used for arabic transliteration.					U+0AFB: GUJARATI SIGN SHADDA		
+ૼ				?			Mn​	u	diacritic	Used for arabic transliteration.					U+0AFC: GUJARATI SIGN MADDAH		
+૽				?			Mn​	u	diacritic	Used for arabic transliteration.					U+0AFD: GUJARATI SIGN THREE-DOT NUKTA ABOVE		
+૾				?			Mn​	u	diacritic	Used for arabic transliteration.					U+0AFE: GUJARATI SIGN CIRCLE NUKTA ABOVE		
+૿				?			Mn​	u	diacritic	Used for arabic transliteration.					U+0AFF: GUJARATI SIGN TWO-CIRCLE NUKTA ABOVE		
+ૹ		ʒ		ʒ			Lo	u	letter	Used for avestan transliteration.					U+0AF9: GUJARATI LETTER ZHA		
 																	
 ʼ				ʼ	ʼ		Lm	?	apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE		
 -	-			-	-		Pd		hyphen						U+2010: HYPHEN		
