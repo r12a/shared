@@ -70,7 +70,7 @@ var spreadsheet = `guru-pa	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 																
 ੰ	N			ŋ̽	ṃ	X	Mn		vowel nasalisation					tippi	U+0A70: GURMUKHI TIPPI	✓
 ੴ				–		V	Lo		symbol					ek onkar	U+0A74: GURMUKHI EK ONKAR	✓
-☬							So		symbol					adi shakti	U+262C: ADI SHAKTI	
+☬				{adi shakti}			So		symbol					adi shakti	U+262C: ADI SHAKTI	
 																
 ੍ਰ				–		#									U+0A4D U+0A30: GURMUKHI SIGN VIRAMA, LETTER RA	
 ੜ੍ਹ				–		Z									U+0A5C U+0A4D U+0A39: GURMUKHI LETTER RRA, SIGN VIRAMA, LETTER HA	
@@ -92,8 +92,8 @@ var spreadsheet = `guru-pa	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ]	)			]	]		Pe	?	bracket						U+005D: RIGHT SQUARE BRACKET	
 ਂ	[			˜	ṁ	x	Mn		vowel nasalisation					bindi	U+0A02: GURMUKHI SIGN BINDI	✓
 ੑ	[			ˊ		\	Mn	u	high tone marker					udaat	U+0A51: GURMUKHI SIGN UDAAT	✓
-ੲ	[	∅				@	Lo	d	vowel support					iɽi	U+0A72: GURMUKHI IRI	✓
-ੳ	[	∅				!	Lo	d	vowel support					uɽɑ	U+0A73: GURMUKHI URA	✓
+ੲ	[	∅		i̱		@	Lo	d	vowel support					iɽi	U+0A72: GURMUKHI IRI	✓
+ੳ	[	∅		u̱		!	Lo	d	vowel support					uɽɑ	U+0A73: GURMUKHI URA	✓
 ੍	*			͞		d	Mn		virama					halant	U+0A4D: GURMUKHI SIGN VIRAMA	✓
 ਼	/			ˑ		]	Mn		nukta						U+0A3C: GURMUKHI SIGN NUKTA	✓
 ੱ	&			&		=	Mn		gemination marker					addak	U+0A71: GURMUKHI ADDAK	✓
@@ -125,7 +125,7 @@ var spreadsheet = `guru-pa	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ।	|			|	.	>	Po	i	section divider						U+0964: DEVANAGARI DANDA	
 ॥	|			¶	|	<	Po	?	section divider						U+0965: DEVANAGARI DOUBLE DANDA	
 ʼ				ʼ	ʼ		Lm		apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
-◌									consonant						C	
+◌				◌					consonant						C	
 \u0020				 	 		Zs		space						U+0020: SPACE	
 `																
 																

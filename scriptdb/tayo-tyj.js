@@ -105,7 +105,7 @@ var spreadsheet = `tayo-tyj	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 // brackets														
 （	(			(	(		Ps		parenthesis				U+FF08: FULLWIDTH LEFT PARENTHESIS	
 ）	)			)	)		Ps		parenthesis				U+FF09: FULLWIDTH RIGHT PARENTHESIS	
-［	(				[		Pe		bracket				U+FF3B: FULLWIDTH LEFT SQUARE BRACKET	
+［	(			[	[		Pe		bracket				U+FF3B: FULLWIDTH LEFT SQUARE BRACKET	
 ］	)			] 	]		Pe		bracket				U+FF3D: FULLWIDTH RIGHT SQUARE BRACKET	
 // dashes														
 -	-			-	-		Pd	?	hyphen				: 	

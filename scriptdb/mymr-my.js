@@ -1,6 +1,6 @@
 var spreadsheet = `mymr-my	key	ipa	ipa+	ipaOther	translit	transc	kbd	class	status	type	usage	dvowel	ivowel	native name	latin name	ucs name	block
-\u0020	 							Zs		space						U+0020 SPACE	
-\u2060	=					ʷʲ		Cf		word joiner						U+2060 WORD JOINER	
+\u0020	 	 			 	 		Zs		space						U+0020 SPACE	
+\u2060	=				ʷʲ	ʷʲ		Cf		word joiner						U+2060 WORD JOINER	
 \u200B	]				␣	ᶻʷˢᵖ		Cf		zero width space						U+200B: ZERO WIDTH SPACE	
 ္	*				͓	͓	F	Mn		virama						U+1039: MYANMAR SIGN VIRAMA	✓
 ်	\\				ˣ	ˣ	f	Mn		asat				အသတ်	əθaʔ	U+103A: MYANMAR SIGN ASAT	✓
@@ -151,7 +151,7 @@ var spreadsheet = `mymr-my	key	ipa	ipa+	ipaOther	translit	transc	kbd	class	statu
 																	
 ွှ		–̥w			w̆h̆	h–w		s		onset cluster						U+103D U+103E: MYANMAR CONSONANT SIGN MEDIAL WA, CONSONANT SIGN MEDIAL HA	
 																	
-\u034F						ᶜᵍʲ			u	combining grapheme joiner						U+034F: COMBINING GRAPHEME JOINER	
+\u034F					ᶜᵍʲ	ᶜᵍʲ			u	combining grapheme joiner						U+034F: COMBINING GRAPHEME JOINER	
 																	
 ,	,				,	,	?	Po		comma						U+002C: COMMA	
 ;	;				;	;	?	Po		semicolon						U+003B: SEMICOLON	
@@ -172,7 +172,7 @@ var spreadsheet = `mymr-my	key	ipa	ipa+	ipaOther	translit	transc	kbd	class	statu
 ၔ					–		%	Lo	u	for the keyboard						U+1054: MYANMAR LETTER VOCALIC L	✓
 ၕ					–		^	Lo	u	for the keyboard						U+1055: MYANMAR LETTER VOCALIC LL	✓
 ၑ					–		|	Lo	u	for the keyboard						U+1051: MYANMAR LETTER SSA	✓
-\u25CC									u	for display						C	
+\u25CC					◌				u	for display						C	
 `																	
 																	
 latinPanel = 'ḍ ð d͡ʑ ɛ è ḭ ì ɪ ʲ kʰ ŋ ɲ ɴ ṇ ∅ ɔ́ ɔ̀ pʰ θ ɹ sʰ ʃ tʰ t͡ɕ t͡ɕʰ ṵ ù ʊ ʔ'																	

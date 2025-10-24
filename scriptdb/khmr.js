@@ -236,9 +236,9 @@ var spreadsheet = `khmr-km	key	ipa	ipa+	translit	ungen	kbd	class	status	type	usa
 \u2060	=			ʷʲ			Cf	?	word joiner							U+2060 WORD JOINER	
 ។	.			.	.	.	Po		full stop					ខ័ណ្ឌ	kʰan	U+17D4: KHMER SIGN KHAN	✓
 ៕	|			|		>	Po		section terminator					បរិយោសាន	ɓɑːrijaosaːn	U+17D5: KHMER SIGN BARIYOOSAN	✓
-\u2006		 		 					six-per-em-space	Used in Krung and Tampuan.						U+2006 SIX-PER-EM SPACE	
-\u2003		  			  				em space	Used in Krung and Tampuan.						U+2003 EM SPACE	
-◌																C	
+\u2006		 		6ᵉᵐ					six-per-em-space	Used in Krung and Tampuan.						U+2006 SIX-PER-EM SPACE	
+\u2003		  		ᵉᵐ	  				em space	Used in Krung and Tampuan.						U+2003 EM SPACE	
+◌				◌												C	
 `																	
 																	
 latinPanel = `« » Ä à á â æ ñ ô ý ā ă ī ŋ ś ū ȳ ɑ ɓ ɔ ɕ ɗ ə ɛ ɨ ɲ ʂ ʋ ʔ ʰ ʲ ʳ ʷ ʼ ː ᵃ ᵊ ᵒ ḍ ḥ ḵ ḷ ḻ ṃ ṅ ṇ ṉ ṟ ṣ ṫ ṭ ṯ ẏ ạ ị ọ ụ ​ – ‘ ’ ′ ″ ₔ ∅ ⸯ ‹ ›`																	

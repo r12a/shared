@@ -108,7 +108,7 @@ var spreadsheet = `mymr-shn	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ၺ်								?					U+107A U+103A: MYANMAR LETTER SHAN NYA, SIGN ASAT	
 ုဝ်								?					U+102F U+101D U+103A: MYANMAR VOWEL SIGN U, LETTER WA, SIGN ASAT	
 														
-\u200B							Cf		zero-width space				U+200B ZERO WIDTH SPACE	
+\u200B				ᶻʷˢᵖ			Cf		zero-width space				U+200B ZERO WIDTH SPACE	
 \u200C				ₓ			Cf	?	zero-width non-joiner				U+200C: ZERO WIDTH NON-JOINER	
 \u200D				₊			Cf	?	zero-width joiner				U+200D: ZERO WIDTH JOINER	
 \u034F				ᶜᵍʲ			Mn	?	combining grapheme joiner				U+034F: COMBINING GRAPHEME JOINER	
@@ -117,25 +117,19 @@ var spreadsheet = `mymr-shn	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ’				\’	\’		Pf	?	quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
 «				"	“		Pi	?	quotation mark				U+00AB: LEFT-POINTING DOUBLE ANGLE QUOTATION MARK	
 »				"	”		Pf	?	quotation mark				U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	
-ʼ							Lm	?	apostrophe				U+02BC: MODIFIER LETTER APOSTROPHE	
-,							Po	?	comma				U+002C: COMMA	
-;							Po	?	semicolon				U+003B: SEMICOLON	
-:							Po	?	colon				U+003A: COLON	
-.							Po	?	full stop				U+002E: FULL STOP	
-?							Po		question mark				U+003F: QUESTION MARK	
-!							Po	?	exclamation mark				U+0021: EXCLAMATION MARK	
-(							Ps		parenthesis				U+0028: LEFT PARENTHESIS	
-)							Pe		parenthesis				U+0029: RIGHT PARENTHESIS	
-…							Po	?	ellipsis				U+2026: HORIZONTAL ELLIPSIS	
-–							Pd	?	en dash				U+2013: EN DASH	
-—							Pd	?	em dash				U+2014: EM DASH	
+ʼ				ʼ			Lm	?	apostrophe				U+02BC: MODIFIER LETTER APOSTROPHE	
+,				,			Po	?	comma				U+002C: COMMA	
+;				;			Po	?	semicolon				U+003B: SEMICOLON	
+:				:			Po	?	colon				U+003A: COLON	
+.				.			Po	?	full stop				U+002E: FULL STOP	
+?				?			Po		question mark				U+003F: QUESTION MARK	
+!				!			Po	?	exclamation mark				U+0021: EXCLAMATION MARK	
+(				(			Ps		parenthesis				U+0028: LEFT PARENTHESIS	
+)				)			Pe		parenthesis				U+0029: RIGHT PARENTHESIS	
+…				…			Po	?	ellipsis				U+2026: HORIZONTAL ELLIPSIS	
+–				–			Pd	?	en dash				U+2013: EN DASH	
+—				—			Pd	?	em dash				U+2014: EM DASH	
 														
-§							Po	?	section sign				U+00A7: SECTION SIGN	
-†							Po	?	dagger				U+2020: DAGGER	
-‡							Po	?	double dagger				U+2021: DOUBLE DAGGER	
-′							Po	?	prime				U+2032: PRIME	
-″							Po	?	double prime				U+2033: DOUBLE PRIME	
-‑							Pd	?	non-breaking hyphen				U+2011 NON-BREAKING HYPHEN	
 														
 ႞				–		R	So	?	for the keyboard				U+109E: MYANMAR SYMBOL SHAN ONE	✓
 ံ				–		H	Mn	?	for the keyboard				U+1036: MYANMAR SIGN ANUSVARA	✓

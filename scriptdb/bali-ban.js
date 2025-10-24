@@ -106,13 +106,13 @@ var spreadsheet = `bali-ban	key	ipa	ipa+	translit	tulisan bali	kbd	class	status	
 																		
 ᬒᬁ																		
 																		
-ᭅ							Lo	u	consonant	sasak						U+1B45: BALINESE LETTER KAF SASAK		✓
-ᭆ							Lo	u	consonant	sasak						U+1B46: BALINESE LETTER KHOT SASAK		✓
-ᭇ							Lo	u	consonant	sasak						U+1B47: BALINESE LETTER TZIR SASAK		✓
-ᭈ							Lo	u	consonant	sasak						U+1B48: BALINESE LETTER EF SASAK		✓
-ᭉ							Lo	u	consonant	sasak						U+1B49: BALINESE LETTER VE SASAK		✓
-ᭊ							Lo	u	consonant	sasak						U+1B4A: BALINESE LETTER ZAL SASAK		✓
-ᭋ							Lo	u	consonant	sasak						U+1B4B: BALINESE LETTER ASYURA SASAK		✓
+ᭅ				k̿			Lo	u	consonant	sasak						U+1B45: BALINESE LETTER KAF SASAK		✓
+ᭆ				k̎			Lo	u	consonant	sasak						U+1B46: BALINESE LETTER KHOT SASAK		✓
+ᭇ				t̿			Lo	u	consonant	sasak						U+1B47: BALINESE LETTER TZIR SASAK		✓
+ᭈ				f̿			Lo	u	consonant	sasak						U+1B48: BALINESE LETTER EF SASAK		✓
+ᭉ				v̿			Lo	u	consonant	sasak						U+1B49: BALINESE LETTER VE SASAK		✓
+ᭊ				z̿			Lo	u	consonant	sasak						U+1B4A: BALINESE LETTER ZAL SASAK		✓
+ᭋ				a̿			Lo	u	consonant	sasak						U+1B4B: BALINESE LETTER ASYURA SASAK		✓
 																		
 ‒		a			a			?	inherent vowel									
 ᭠	-			-			Po		line-breaking hyphen						pameneng	U+1B60: BALINESE PAMENENG		✓
@@ -121,13 +121,13 @@ var spreadsheet = `bali-ban	key	ipa	ipa+	translit	tulisan bali	kbd	class	status	
 –	-			–			Pd	?	en dash							U+2013: EN DASH	–	
 —	-			—			Pd	?	em dash							U+2014: EM DASH	—	
 ᭞	,			,		,	Po		~comma						carik	U+1B5E: BALINESE CARIK SIKI	,	✓
-\u1B4E	,						Po	i	fine comma	Only found in some manuscripts.						U+1B4E: BALINESE INVERTED CARIK SIKI		
+\u1B4E	,			,̱			Po	i	fine comma	Only found in some manuscripts.						U+1B4E: BALINESE INVERTED CARIK SIKI		
 ;	;			;			Po	?	semicolon							U+003B: SEMICOLON	;	
 ᭝	:			:			Po		colon						carik pamungkah	U+1B5D: BALINESE CARIK PAMUNGKAH	:	✓
 !	!			!			Po	?	exclamation mark							U+0021: EXCLAMATION MARK	!	
 ?	?			?			Po	?	question mark							U+003F: QUESTION MARK	?	
 ᭟	.			.		.	Po		~full stop						carik pareren	U+1B5F: BALINESE CARIK PAREREN	.	✓
-\u1B4F	.						Po	i	fine detail full stop	Only found in some manuscripts.						U+1B4F: BALINESE INVERTED CARIK PAREREN		
+\u1B4F	.			.̣			Po	i	fine detail full stop	Only found in some manuscripts.						U+1B4F: BALINESE INVERTED CARIK PAREREN		
 …	.			…			Po	?	ellipsis							U+2026: HORIZONTAL ELLIPSIS	…	
 (	(			(			Ps	?	parenthesis							U+0028: LEFT PARENTHESIS	(	
 [	(			[			Ps	?	bracket							U+005B: LEFT SQUARE BRACKET	[	
@@ -140,7 +140,7 @@ var spreadsheet = `bali-ban	key	ipa	ipa+	translit	tulisan bali	kbd	class	status	
 ᭜	@			°			Po		punctuation							U+1B5C: BALINESE WINDU		✓
 ᭽	@			>			Po		text end symbol							U+1B7D: BALINESE PANTI LANTANG		
 ᭾	@			>			Po		text end symbol							U+1B7E: BALINESE PAMADA LANTANG		
-\u1B7F	@						Po	i	finer section division	Only found in some manuscripts.						U+1B7F: BALINESE PANTI BAWAK		
+\u1B7F	@			.̱			Po	i	finer section division	Only found in some manuscripts.						U+1B7F: BALINESE PANTI BAWAK		
 ᭄	*			͞		/	Mc		vowel-killer						adegadeg	U+1B44: BALINESE ADEG ADEG		✓
 ᬴	/			ˑ			Mn	l	nukta						rerekan	U+1B34: BALINESE SIGN REREKAN		✓
 %	%			%			Po	?	percentage mark							U+0025: PERCENT SIGN		
@@ -168,12 +168,7 @@ var spreadsheet = `bali-ban	key	ipa	ipa+	translit	tulisan bali	kbd	class	status	
 ’	>			\’			Pf	?	quotation mark							U+2019: RIGHT SINGLE QUOTATION MARK		
 																		
 ʼ				ʼ			Lm	?	apostrophe							U+02BC: MODIFIER LETTER APOSTROPHE	ʼ	
-§				§			Po	?	section sign							U+00A7: SECTION SIGN	§	
-†				†			Po	?	dagger							U+2020: DAGGER	†	
-‡				‡			Po	?	double dagger							U+2021: DOUBLE DAGGER	‡	
-′				′			Po	?	prime							U+2032: PRIME	′	
-″				″			Po	?	double prime							U+2033: DOUBLE PRIME	″	
-C									consonant							consonant		
+C				◌					consonant							consonant		
 `																		
 																		
 latinPanel = 'ā ɑː aːi aːu ḍ d͡ʒ ə əː ĕ ɛ iː ī ɲ ñ ŋ ∅ ö ɔ t͡ʃ uː ū'																		

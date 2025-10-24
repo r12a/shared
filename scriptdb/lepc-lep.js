@@ -105,7 +105,7 @@ var spreadsheet = `lepc-lep	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 																		
 \u200C	=			ₓ			Cf	?	zero-width non-joiner							U+200C: ZERO WIDTH NON-JOINER		
 \u200D	=			₊			Cf	?	zero-width joiner							U+200D: ZERO WIDTH JOINER		
-◌								u	placeholder							U+25CC: DOTTED CIRCLE		
+◌				◌				u	placeholder							U+25CC: DOTTED CIRCLE		
 `																		
 																		
 latinPanel = 'd͡ʒ ʰ ː pʰ tʰ t͡ʃ t͡s r̥ l̥ d͡z á â ɑ í ó ú ʲ ʔk̚ ŋ ɔ ɖ ə ɛ ɯ ɲ ʔp̚ ʔt̚ ʃ ʈ ʈʰ ʌ ʒ ʔ'																		

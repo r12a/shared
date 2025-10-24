@@ -121,7 +121,7 @@ var spreadsheet = `thai-th	key	ipa	ipa+	translit	LOC	kbd	class	status	type	usage
 ฯลฯ	E	pajjaːnjài		⋯ḻ⋯			s						U+0E2F U+0E25 U+0E2F: THAI CHARACTER PAIYANNOI, LO LING, PAIYANNOI	
 														
 ʼ				ʼ	ʼ		Lm	?	apostrophe				U+02BC: MODIFIER LETTER APOSTROPHE	
-\u0020	 						Zs		space				U+0020: SPACE	
+\u0020	 	 		 	 		Zs		space				U+0020: SPACE	
 \u200B	=			ᶻʷˢᵖ			Cf		zero-width space				U+200B: ZERO WIDTH SPACE	
 \u2060	=			ʷʲ			Cf		word joiner				U+2060 WORD JOINER	
 ๐	0	0		0̣	0	Q	Nd		digit				U+0E50: THAI DIGIT ZERO	✓
@@ -169,7 +169,7 @@ var spreadsheet = `thai-th	key	ipa	ipa+	translit	LOC	kbd	class	status	type	usage
 \u034F	=			ᶜᵍʲ				?	combining grapheme joiner				U+034F: COMBINING GRAPHEME JOINER	
 \u200C	=			ₓ			Cf	?	zwnj				U+200C: ZERO WIDTH NON-JOINER	
 \u200D	=			₊			Cf	?	zwj				U+200D: ZERO WIDTH JOINER	
-\u2003							Zs	?	em space				U+2003 EM SPACE	
+\u2003				ᵉᵐ			Zs	?	em space				U+2003 EM SPACE	
 ›	>			›	\’		Pf	?	quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
 ”	>			”	”		Pf		quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK	
 »	>			»	”		Pf	?	quotation mark				U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	

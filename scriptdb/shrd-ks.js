@@ -133,7 +133,7 @@ var spreadsheet = `shrd-ks	key	ipa	ipa+	ipaOther	translit	transc	kbd	class	statu
 𑇜	_				_	_		Lo		headstroke continuation mark						U+111DC: SHARADA HEADSTROKE					
 𑇝	-				-̣			Po		hyphenation marker						U+111DD: SHARADA CONTINUATION SIGN					
 																					
-\u0020	 							Zs		space						U+0020: SPACE					
+\u0020	 	 			 	 		Zs		space						U+0020: SPACE					
 																					
 ,	,				,	,		Po		comma						U+002C: COMMA					
 ?	?				?	?		Po		question mark						U+003F: QUESTION MARK					

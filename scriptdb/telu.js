@@ -76,14 +76,14 @@ var spreadsheet = `telu-te	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ౡ		alu:		l̥̣̄	l̥̄		Lo	u	independent vocalic	For Sanskrit.	ౣ					U+0C61: TELUGU LETTER VOCALIC LL	✓
 																	
 																	
-ఽ							Lo	a	avagraha				్ఽ			U+0C3D: TELUGU SIGN AVAGRAHA	✓
+ఽ				a̿			Lo	a	avagraha				్ఽ			U+0C3D: TELUGU SIGN AVAGRAHA	✓
 ౘ		t͡s	a	ʦ			Lo	a	consonant				్ౘ			U+0C58: TELUGU LETTER TSA	✓
 ౙ		d͡z	a	ʣ			Lo	a	consonant				్ౙ			U+0C59: TELUGU LETTER DZA	✓
-ౚ		?	a				Lo	a	consonant				్ౚ			U+0C5A: TELUGU LETTER RRRA	✓
+ౚ		?	a	r͇			Lo	a	consonant				్ౚ			U+0C5A: TELUGU LETTER RRRA	✓
 ఴ		ʐ	a	ʐ			Lo	a	consonant				్ఴ			U+0C34 TELUGU LETTER LLLA	✓
 																	
-౷							Po	?								U+0C77: TELUGU SIGN SIDDHAM	✓
-ఄ							Mn	?								U+0C04: TELUGU SIGN COMBINING ANUSVARA ABOVE	✓
+౷				{sid}			Po	?								U+0C77: TELUGU SIGN SIDDHAM	✓
+ఄ				{anusvara above}			Mn	?								U+0C04: TELUGU SIGN COMBINING ANUSVARA ABOVE	✓
 																	
 -	-			-	-		Pd		hyphen							U+2010: HYPHEN	
 ‑	-			‑	‑		Pd	?	non-breaking hyphen							U+2011: NON-BREAKING HYPHEN	

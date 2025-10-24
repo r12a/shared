@@ -138,7 +138,7 @@ var spreadsheet = `java-jv	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ꧟				*		%	Po	r	correction mark	infrequent						pada isèn-isèn	U+A9DF: JAVANESE PADA ISEN-ISEN		✓
 ꧋꧆꧋				¶°¶					combined punctuation								U+A9CB U+A9C6 U+A9CB: JAVANESE PADA ADEG ADEG, PADA WINDU, PADA ADEG ADEG		
 																			
-\u0020									space								U+0020: SPACE		
+\u0020		 		 	 				space								U+0020: SPACE		
 \u200B	]			␣			Cf		zero-width space								U+200B: ZERO WIDTH SPACE		
 ꦴ				–			Mc		vowel lengthener	Not used alone in modern Javanese.							A9B4: JAVANESE VOWEL SIGN TARUNG		
 ‒		a	a ɔ		a			?	inherent vowel										

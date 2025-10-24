@@ -14,10 +14,10 @@ var spreadsheet = `mlym-ml	key	ipa	ipa+	translit	iso	kbd	class	status	type	usage
 [	(			[	[		Ps	?	bracket						U+005B: LEFT SQUARE BRACKET	
 )	)			)	)		Pe		parenthesis						U+0029: RIGHT PARENTHESIS	
 ]	)			]	]		Pe	?	bracket						U+005D: RIGHT SQUARE BRACKET	
-ഁ	[	̃		˜	̃		Mn	?	nasalisation						U+0D01: MALAYALAM SIGN CANDRABINDU	✓
+ഁ	[	̃		˜	̃		Mn	a	nasalisation	Used only for Sanskrit texts.					U+0D01: MALAYALAM SIGN CANDRABINDU	✓
 ്	*			͞			Mn		virama					chandrakkala	U+0D4D: MALAYALAM SIGN VIRAMA	✓
-഻	\			˟			Mn	?							U+0D3B: MALAYALAM SIGN VERTICAL BAR VIRAMA	✓
-഼	\			ˣ			Mn	?							U+0D3C: MALAYALAM SIGN CIRCULAR VIRAMA	✓
+഻	\			˟			Mn	a	virama	Used in historical texts.					U+0D3B: MALAYALAM SIGN VERTICAL BAR VIRAMA	✓
+഼	\			ˣ			Mn	a	virama	Used in historical texts.					U+0D3C: MALAYALAM SIGN CIRCULAR VIRAMA	✓
 ʼ	\'			ʼ	ʼ		Lm	?	apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
 %	%			%			Po	?	percentage mark						U+0025: PERCENT SIGN	
 ‰	%			‰			Po	?	per mille mark						U+2030: PER MILLE SIGN	
@@ -51,7 +51,7 @@ var spreadsheet = `mlym-ml	key	ipa	ipa+	translit	iso	kbd	class	status	type	usage
 ഫ	P	pʰ	a	pʰ	ph		Lo		consonant						U+0D2B: MALAYALAM LETTER PHA	✓
 ബ	b	b	a	b	b		Lo		consonant						U+0D2C: MALAYALAM LETTER BA	✓
 ഭ	B	bʰ	a	bʰ	bh		Lo		consonant						U+0D2D: MALAYALAM LETTER BHA	✓
-ഺ	t	t	a	ṫ	ṯ		Lo	a	consonant						U+0D3A: MALAYALAM LETTER TTTA	✓
+ഺ	t	t	a	ṫ	ṯ		Lo	a	consonant	For scholarly phonetic transcriptions.					U+0D3A: MALAYALAM LETTER TTTA	✓
 റ്റ	t	tt		ṙ͓ṙ	ṯṯ				consonant cluster						U+0D31 U+0D4D U+0D31: MALAYALAM LETTER RRA, SIGN VIRAMA, LETTER RRA	
 ത	t¶	t̪	a	t	t		Lo		consonant						U+0D24: MALAYALAM LETTER TA	✓
 ഥ	T¶	t̪ʰ	a	tʰ	th		Lo		consonant						U+0D25: MALAYALAM LETTER THA	✓
@@ -75,7 +75,7 @@ var spreadsheet = `mlym-ml	key	ipa	ipa+	translit	iso	kbd	class	status	type	usage
 സ	s¶	s	a	s	s		Lo		consonant						U+0D38: MALAYALAM LETTER SA	✓
 ഹ	h	ɦ	a	h	h		Lo		consonant						U+0D39: MALAYALAM LETTER HA	✓
 മ	m	m	a	m	m		Lo		consonant						U+0D2E: MALAYALAM LETTER MA	✓
-ഩ	n	n	a	ṅ	ṉ		Lo	a	consonant						U+0D29: MALAYALAM LETTER NNNA	✓
+ഩ	n	n	a	ṅ	ṉ		Lo	a	consonant	For scholarly phonetic transcriptions.					U+0D29: MALAYALAM LETTER NNNA	✓
 ന	n¶	n̪~n	a	n	n		Lo		consonant						U+0D28: MALAYALAM LETTER NA	✓
 ഞ	n	ɲ	a	ɲ	ñ		Lo		consonant						U+0D1E: MALAYALAM LETTER NYA	✓
 ണ	n	ɳ	a	ɳ	ṇ		Lo		consonant						U+0D23: MALAYALAM LETTER NNA	✓
@@ -85,14 +85,14 @@ var spreadsheet = `mlym-ml	key	ipa	ipa+	translit	iso	kbd	class	status	type	usage
 റ	r	r t	a	ṙ	ṟ		Lo		consonant						U+0D31: MALAYALAM LETTER RRA	✓
 ൃ	R	rɨ		r̥	r̥		Mn		vocalic vowel sign			ഋ			U+0D43: MALAYALAM VOWEL SIGN VOCALIC R	✓
 ഋ	R	rɨ		r̥̣	r̥̣		Lo		vocalic independent vowel		ൃ				U+0D0B: MALAYALAM LETTER VOCALIC R	✓
-ൄ	R	rɨː		r̥̄	r̥̄		Mn	u	vocalic vowel sign	Very rare.		ൠ			U+0D44: MALAYALAM VOWEL SIGN VOCALIC RR	✓
-ൠ	R	rɨː		r̥̣̄	r̥̣̄		Lo	r	vocalic independent vowel	Very rare.	ൄ				U+0D60: MALAYALAM LETTER VOCALIC RR	✓
+ൄ	R	rɨː		r̥̄	r̥̄		Mn	r	vocalic vowel sign	Very rare. Only used in Sanskrit texts.		ൠ			U+0D44: MALAYALAM VOWEL SIGN VOCALIC RR	✓
+ൠ	R	rɨː		r̥̣̄	r̥̣̄		Lo	r	vocalic independent vowel	Very rare. Only used in Sanskrit texts.	ൄ				U+0D60: MALAYALAM LETTER VOCALIC RR	✓
 ഴ	l	ɻ	a	ɻ	ḻ		Lo		consonant						U+0D34: MALAYALAM LETTER LLLA	✓
 ല	l	l	a	l	l		Lo		consonant						U+0D32: MALAYALAM LETTER LA	✓
 ള	l	ɭ	a	ɭ	ḷ		Lo		consonant						U+0D33: MALAYALAM LETTER LLA	✓
-ൢ	L	lɨ		l̥	l̥		Mn	u	vocalic vowel sign	Very rare.		ഌ			U+0D62: MALAYALAM VOWEL SIGN VOCALIC L	✓
+ൢ	L	lɨ		l̥	l̥		Mn	r	vocalic vowel sign	Very rare.		ഌ			U+0D62: MALAYALAM VOWEL SIGN VOCALIC L	✓
 ഌ	L	lɨ		l̥̣	l̥̣		Lo	r	vocalic independent vowel	Used in one Sanskrit word only.	ൢ				U+0D0C: MALAYALAM LETTER VOCALIC L	✓
-ൣ	L	lɨː		l̥̄	l̥̄		Mn	u	vocalic vowel sign	Very rare.		ൡ			U+0D63: MALAYALAM VOWEL SIGN VOCALIC LL	✓
+ൣ	L	lɨː		l̥̄	l̥̄		Mn	r	vocalic vowel sign	Very rare.		ൡ			U+0D63: MALAYALAM VOWEL SIGN VOCALIC LL	✓
 ൡ	L	lɨː		l̥̣̄	l̥̣̄		Lo	r	vocalic independent vowel	Very rare.	ൣ				U+0D61: MALAYALAM LETTER VOCALIC LL	✓
 യ	y	j	a	y	y		Lo		consonant						U+0D2F: MALAYALAM LETTER YA	✓
 																
@@ -133,11 +133,11 @@ var spreadsheet = `mlym-ml	key	ipa	ipa+	translit	iso	kbd	class	status	type	usage
 ഔ	A	au̯		ạʷ	au		Lo		independent vowel		ൗ				U+0D14: MALAYALAM LETTER AU	✓
 \u{D46}\u{D57}	a	au̯		eaʷ	au				ൌ	Only found in decomposed text. Use ൌ  instead.					U+0D46 U+0D57: MALAYALAM VOWEL SIGN E, AU LENGTH MARK	
 																
-ഀ							Mn	?							U+0D00: MALAYALAM SIGN COMBINING ANUSVARA ABOVE	✓
+ഀ				°			Mn	a	anusvara	Used in certain Prakrit texts.					U+0D00: MALAYALAM SIGN COMBINING ANUSVARA ABOVE	✓
 ൏				~			So	a	measure of rice						U+0D4F: MALAYALAM SIGN PARA	✓
-ഽ				ˣ	\’		Lo	?	avagraha				പ്രശ്ലേഷം	praślēṣam	U+0D3D: MALAYALAM SIGN AVAGRAHA	✓
+ഽ				ˣ	\’		Lo	a	avagraha	Used only for Sanskrit texts.			പ്രശ്ലേഷം	praślēṣam	U+0D3D: MALAYALAM SIGN AVAGRAHA	✓
 ൎ				⁎			Lo	a	repha	Used before the 1970s reform.					U+0D4E: MALAYALAM LETTER DOT REPH	✓
-ൟ							Lo	a							U+0D5F: MALAYALAM LETTER ARCHAIC II	✓
+ൟ				ị			Lo	a	independent vowel	A historical form of II.					U+0D5F: MALAYALAM LETTER ARCHAIC II	✓
 §				§	§		Po	?	section sign						U+00A7: SECTION SIGN	
 †				†	†		Po	?	dagger						U+2020: DAGGER	
 ‡				‡	‡		Po	?	double dagger						U+2021: DOUBLE DAGGER	
@@ -162,11 +162,11 @@ var spreadsheet = `mlym-ml	key	ipa	ipa+	translit	iso	kbd	class	status	type	usage
 ꠰				–			No	a	fraction						U+A830: NORTH INDIC FRACTION ONE QUARTER	
 ꠱				–			No	a	fraction						U+A831: NORTH INDIC FRACTION ONE HALF	
 ꠲				–			No	a	fraction						U+A832: NORTH INDIC FRACTION THREE QUARTERS	
-൹							So	r	date sign	Usage is fading.					U+0D79: MALAYALAM DATE MARK	✓
+൹				{date}			So	r	date sign	Usage is fading.					U+0D79: MALAYALAM DATE MARK	✓
 																
-ൔ		m		–			Lo		chillu consonant						U+0D54: MALAYALAM LETTER CHILLU M	
-ൕ		j		–			Lo		chillu consonant						U+0D55: MALAYALAM LETTER CHILLU Y	
-ൖ		l?		–			Lo		chillu consonant						U+0D56: MALAYALAM LETTER CHILLU LLL	
+ൔ		m		–			Lo	a	chillu consonant	Only found in historical materials.					U+0D54: MALAYALAM LETTER CHILLU M	
+ൕ		j		–			Lo	a	chillu consonant	Only found in historical materials.					U+0D55: MALAYALAM LETTER CHILLU Y	
+ൖ		l?		–			Lo	a	chillu consonant	Only found in historical materials.					U+0D56: MALAYALAM LETTER CHILLU LLL	
 `																
 																
 latinPanel = 'aː ā ai̯ au̯ bʰ ɕ ɖ ḍ ɖʰ ḍh d̪d̪d̪ d̪ʰ eː ē gʰ ɦ iː ī ɨ ɟ ɟʰ kʰ ɭ, ḷ ḻ l̥̣ l̥̣̄ l̥ l̥̄ ŋ ṅ ɲ ñ ɳ ṇ n̪ ṉ oː ō pʰ r̪ ṟ ɻ r̥̣ r̥̣̄ r̥ r̥̄ ʃ ś ʂ ṣ ʧ ʧʰ ʈ ṭ ʈʰ ṭh t̪ t̪ʰ ṯ ṯṯ uː ū ʋ'																

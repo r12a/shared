@@ -78,7 +78,7 @@ var spreadsheet = `arab-ar	key	ipa	ipa+	translit	LOC	kbd	class	status	type	usage
 ﷺ				{ALAYHE WASALLAM}			Lo	i	ligature						U+FDFA: ARABIC LIGATURE SALLALLAHOU ALAYHE WASALLAM	✓
 ﷽				{In the name of God, the Most Gracious, the Most Merciful}			So	i	ligature						U+FDFD: ARABIC LIGATURE BISMILLAH AR-RAHMAN AR-RAHEEM	✓
 																
-\u0020							Zs		space						U+0020: SPACE	
+\u0020		 		 	 		Zs		space						U+0020: SPACE	
 ـ	_			_		J	Lm	i	baseline extender					tatweel	U+0640: ARABIC TATWEEL	✓
 -	-			-	-			u	hyphen						U+2010: HYPHEN	
 ‑	-			‑	‑		Pd	u	non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
@@ -154,8 +154,8 @@ var spreadsheet = `arab-ar	key	ipa	ipa+	translit	LOC	kbd	class	status	type	usage
 8				8	8		Nd		digit				ثَمَانيَة	θɑmɑːnjɑ	U+0038: DIGIT EIGHT	
 9				9	9		Nd		digit				تِسْعَة	tisʕɑ	U+0039: DIGIT NINE	
 0				0	0		Nd		digit						U+0030: DIGIT ZERO	
-࢐							Cf	u	currency symbol	Egyptian					U+0890: ARABIC POUND MARK ABOVE	✓
-࢑							Cf	u	currency symbol	Egyptian					U+0891: ARABIC PIASTRE MARK ABOVE	✓
+࢐				࢐			Cf	u	currency symbol	Egyptian					U+0890: ARABIC POUND MARK ABOVE	✓
+࢑				࢑			Cf	u	currency symbol	Egyptian					U+0891: ARABIC PIASTRE MARK ABOVE	✓
 ﷼		ri.jaːl		{RIAL}			Sc	i	currency symbol						U+FDFC: RIAL SIGN	✓
 ﵀				{RAHIMAHU ALLAAH}			So		word ligature	honorific					U+FD40: ARABIC LIGATURE RAHIMAHU ALLAAH	
 ﵁				{RADI ALLAAHU ANH}			So		word ligature	honorific					U+FD41: ARABIC LIGATURE RADI ALLAAHU ANH	
@@ -199,9 +199,9 @@ var spreadsheet = `arab-ar	key	ipa	ipa+	translit	LOC	kbd	class	status	type	usage
 ؑ				{SIGN ALAYHE ASSALLAM}					honorific diacritic	honorific					U+0611: ARABIC SIGN ALAYHE ASSALLAM	
 ؒ				{SIGN RAHMATULLAH ALAYHE}					honorific diacritic	honorific					U+0612: ARABIC SIGN RAHMATULLAH ALAYHE	
 ؓ				{SIGN RADI ALLAHOU ANHU}					honorific diacritic	honorific					U+0613: ARABIC SIGN RADI ALLAHOU ANHU	
-ؔ							Mn		author name marker	honorific					U+0614: ARABIC SIGN TAKHALLUS	
-ۜ							Mn​	r	koranic annotation						U+06DC: ARABIC SMALL HIGH SEEN	
-\u06DD							Cf	r	koranic annotation						U+06DD: ARABIC END OF AYAH	
+ؔ				ؔ			Mn		author name marker	honorific					U+0614: ARABIC SIGN TAKHALLUS	
+ۜ				ۜ			Mn​	r	koranic annotation						U+06DC: ARABIC SMALL HIGH SEEN	
+\u06DD				\u06DD			Cf	r	koranic annotation						U+06DD: ARABIC END OF AYAH	
 `																
 																
 latinPanel = '’ā ’ aː ā dˤ d͡ʒ ð ðˤ ḍ ħ ʰ ḥ iː ī ɪ ∅ θ sˤ ṣ ʃ tˤ t͡ʃ ṭ uː ū ʊ ɣ ʒ zˤ ẓ ʕ ʔ'																
