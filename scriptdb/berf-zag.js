@@ -71,7 +71,7 @@ var spreadsheet = `berf-zag	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 																
 																
 // space																
-\u0020	 						Zs		space						U+0020: SPACE	
+\u0020	 	 		 	 		Zs		space						U+0020: SPACE	
 \u200B	=			ᶻʷˢᵖ			Cf	?	zero-width space						U+200B: ZERO WIDTH SPACE	
 \u202F	]			ⁿⁿᵇˢᵖ			Zs	?	nnbsp						U+202F NARROW NO-BREAK SPACE	
 // phrase dividers																
@@ -99,7 +99,7 @@ var spreadsheet = `berf-zag	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 [	(			[	[		Pe	?	bracket						U+005B: LEFT SQUARE BRACKET	
 ]	)			] 	]		Pe	?	bracket						U+005D: RIGHT SQUARE BRACKET	
 // dashes																
--	-			-	-		Pd		hyphen						U+2010: HYPHEN	
+\u2010	-			-	-		Pd		hyphen						U+2010: HYPHEN	
 ‑	-			‑	‑		Pd	?	non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
 –	-			–	–		Pd		en dash						U+2013: EN DASH	
 —	-			—	—		Pd	?	em dash						U+2014: EM DASH	
