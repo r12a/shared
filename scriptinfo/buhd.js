@@ -26,14 +26,14 @@ usedfor: "Buhid [bku]",
 
 
 
-dates: `14thC – today`, start:"~1300", end:"", current_usage:"uptake, community",
-status: `In use`,
-lineage: `Phoenician > Aramaic > Brahmi > Tamil-Brahmi > Pallava > Old Kawi > Buginese`,
-siblings: `Balinese, Batak, Baybayin, Javanese, Makasar, Old Sundanese, Rencong, Rejang`,
-history: `Buginese or Lontara (<span lang="bug">ᨒᨚᨈᨑ</span>) is an Indonesian abugida used in Sulawesi, mainly for the Bugis language but also for Makasar and Mandar. Speakers of these languages number around 2.3 million. It was largely replaced by the Latin alphabet during the period of Dutch colonization, but is still used for ceremonial, personal and traditional texts.`,
-description: `Buginese  is a defective script, meaning that it doesn't represent all the sounds of the spoken language. In particular, syllable-final consonant sounds are not written. Words can be separated by spaces, or spaces can be used to separate units longer than words. In some texts words are not separated at all.`,
-unicode: `Unicode 17 has 1 dedicated block, comprising 30 characters.`,
-// this is replicated in shared/scriptdb/script_summaries
+dates: `18thC – today`,
+status: `Limited usage (low uptake, small community)`,
+lineage: `Phoenician > Aramaic > Brahmi > Pallava > Old Kawi > Baybayin > Buhid`,
+siblings: `Kulitan, Tagalog, Tagbanwa, Ibalnan, Balinese, Batak, Javanese, Makasar, Buginese, Sundanese, Rencong, Rejang`,
+history: `Buhid (<span lang="bku">ᝊᝓᝑᝒ</span>) is a Southeast Asian abugida used in the Philippines, mainly for the Buhid language, spoken by about 8,000 Mangyan people in the Mindoro region of the Philippines. The primary script for the language is Latin.`,
+description: `Buhid is a defective script, meaning that it doesn't represent all the sounds of the spoken language. In particular, syllable-final consonant sounds are not written.  Two identical combining marks with different positions represent 4 post-consonant vowel sounds. Words are separated by spaces.`,
+unicode: `Unicode 17 has 1 dedicated block, comprising just 20 characters.`,
+name:"Buginese", local:"ᨒᨚᨈᨑ", localtrans:"lontaraʔ", region:"oce", countries:"Indonesia", speakers:"2.3m",
 
 
 
