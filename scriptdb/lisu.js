@@ -57,7 +57,7 @@ var spreadsheet = `lisu-lis	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ꓻꓼ				–		?			for keyboard				U+A4FB U+A4FC: LISU LETTER TONE MYA BO, LETTER TONE MYA NA	
 														
 \u0020	 	 		 	 		Sp		space				U+0020: SPACE	
-ⓘ		a											Represents the inherent vowel.	
+ⓘ		a		ⓘ									Represents the inherent vowel.	
 -				–	-		Pd		ASCII hyphen	U+2010 is recommended instead			U+002D: HYPHEN-MINUS	
 ‐	-			-	-		Pd		hyphen				U+2010: HYPHEN	
 ‑	-			‑	‑		Pd	?	non-breaking hyphen				U+2011: NON-BREAKING HYPHEN	

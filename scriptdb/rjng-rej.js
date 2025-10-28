@@ -51,7 +51,7 @@ var spreadsheet = `rjng-rej	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ꥓	*			˟			Mc​		vowel absence indicator				U+A953: REJANG VIRAMA	
 ꥟	|			|	.		Po		section divider				U+A95F: REJANG SECTION MARK	
 														
-\u0020	 						Zs		space				U+0020: SPACE	
+\u0020	 	 		 	 		Zs		space				U+0020: SPACE	
 \u200B	=			ᶻʷˢᵖ			Cf	?	zero-width space				U+200B: ZERO WIDTH SPACE	
 ,	,			,	,		Po		comma				U+002C: COMMA	
 ;	;			;	;	;;⁏⸵	Po		semicolon				U+003B: SEMICOLON	

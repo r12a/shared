@@ -204,7 +204,6 @@ siblings: `Kulitan, Tagalog, Tagbanwa, Ibalnan, Balinese, Batak, Javanese, Makas
 history: `Buhid (<span lang="bku">ᝊᝓᝑᝒ</span>) is a Southeast Asian abugida used in the Philippines, mainly for the Buhid language, spoken by about 8,000 Mangyan people in the Mindoro region of the Philippines. The primary script for the language is Latin.`,
 description: `Buhid is a defective script, meaning that it doesn't represent all the sounds of the spoken language. In particular, syllable-final consonant sounds are not written.  Two identical combining marks with different positions represent 4 post-consonant vowel sounds. Words are separated by spaces.`,
 unicode: `Unicode 17 has 1 dedicated block, comprising just 20 characters.`,
-name:"Buginese", local:"ᨒᨚᨈᨑ", localtrans:"lontaraʔ", region:"oce", countries:"Indonesia", speakers:"2.3m",
 },
 
 
@@ -248,7 +247,7 @@ status: `In use`,
 lineage: `Phoenician? > Aramaic? > Brahmi > Tamil-Brahmi > Pallava > Cham`,
 siblings: `Khmer, Kawi, Old Mon, Grantha, Tamil`,
 history: `Cham (<span lang="cjm">ꨀꨇꩉ ꨌꩌ</span>) is a Southeast Asian abugida used by speakers of the Eastern Cham language who number about 132,000 in Bình Thuận, Ninh Thuận, and Đồng Nai provinces in southern Vietnam, as well as in Hồ Chí Minh City. The Ethnologue estimates the L1 literacy rate to be 5%–10%. The Cham script is the primary orthography for the Eastern Cham, but the largely muslim Western Cham peoples of Cambodia prefer the Arabic script. Historically, the Eastern Cham script was learned by boys once they reached a certain age, but not by women and girls. In addition, the majority of the Cambodian Cham people died during the Khmer Rouge regime in the 1970s or were forced to use the Cambodian language.`,
-description: `Consonant clusters only occur when a syllable with a coda is followed by another syllable, and there are no conjunct forms or stacking involved. Contextual positioning of glyphs is required.`,
+description: `Contextual shaping & positioning of glyphs is required. There are no conjuncts; consonant clusters are handled using combining marks for medials, and dedicated letters or marks for codas. Standalone vowels use independent vowels and base+vowel sign, and independent vowels may also have vowel signs. CHAM LETTER A may carry a medial consonant.
 unicode: `Unicode 17 has 1 dedicated block, comprising 83 characters.`
 },
 
@@ -856,7 +855,7 @@ status: `In active use`,
 lineage: `Phoenician > Greek > Latin > Lisu`,
 siblings: `Osage, Deseret`,
 history: `Lisu (<span lang="lis">ꓡꓲ-ꓢꓴ</span>) or Fraser Script is an East Asian monocameral abugida used in China for the Lisu language, as well as Lakkia, Lipo, Naxi, and Zaiwa. The Chinese government recognized the alphabet in 1992 as the official script for writing in Lisu. Around 200,000 Lisu in China use the Lisu script and about 160,000 in other countries are literate in it. The Lisu script is widely used in China in education, publishing, the media and religion, and various schools and universities at the national, provincial and prefectural levels have been offering Lisu courses for many years. The script was invented around 1815 by a Karen preacher from Myanmar, Sara Ba Thaw, and revised by the missionary James Fraser. Because there are newer, Latin-based orthographies for writing the Lisu language, this is sometimes called the Old Lisu script.`,
-description: `The script is based on a fairly simple syllabic structure. Many Lisu characters look like Latin capital letters, but they are not unified. Letters don't join or interact with each other, and there are no combining marks. Tones are represented by letters that look like Latin punctuation marks. Spaces occur around syllables, rather than around words.`,
+description: `The script is based on a fairly simple syllabic structure. Many Lisu characters look like Latin capital letters, but they are not unified. Letters don't join or interact with each other, and there are no combining marks. Tones are represented by letters that look like Latin punctuation marks. Spaces occur around syllables, rather than around words. Punctuation is Chinese. Lines break after syllables.`,
 unicode: `Unicode 17 has 2 dedicated blocks, comprising 49 characters.`
 },
 
@@ -1318,7 +1317,7 @@ status: `Limited usage (declining interest)`,
 lineage: `Phoenician > Aramaic > Brahmi > Tamil-Brahmi > Pallava > Old Kawi > Recong > Rejang`,
 siblings: `Kerinci, Lembak, Serawai, Pasemah, Lampung`,
 history: `Rejang (<span lang="ban">ꥆꤰ꥓ꤼꤽ ꤽꥍꤺꥏ</span>) is an Indonesian abugida used in Bengkulu and South Sumatran provinces of Sumatra for the Malay and Rejang languages, and 3 others including Lampung and Kerinci. Its corpus consists chiefly of traditional ritual texts, spells and incantations, and love poems. Some closely guarded epics are written on bark cloth, bamboo, rattan, buffalo horn and lost copper plates. The use of the Rejang script has been largely superceded by the Latin orthography since the 1960s.`,
-description: `There are no conjuncts or stacking, but there are combining marks that require context-sensitive positioning. Words may or may not be separated by spaces.`,
+description: `Glyphs are typically slanted to the right. There are no conjuncts or stacking, but there are combining marks that require context-sensitive positioning. There is a visible vowel killer. Four letters represent prenasalised stops. Words may or may not be separated by spaces.`,
 unicode: `Unicode 17 has 1 dedicated block, comprising 37 characters.`
 },
 
@@ -1560,7 +1559,7 @@ status: `In active use`,
 lineage: `Phoenician > Aramaic > Brahmi > Tamil-Brahmi > Kadamba/Pallava > Old Mon > Tai Tham > New Tai Lü`,
 siblings: `Tham Lao`,
 history: `New Tai Lü (<span lang="khb">᧑᧒ᦗᧃᦓᦱ</span>) is an East/Southeast Asian abugida used in the southern part of Yunnan, China, and in the surrounding countries by approximately 554,600 people to write the Lü langauge. The New Tai Lue script is a simplified version of the Tai Tham (Lanna) script, created in the 1950s, and mainly used by the Tai Lü people of Southern China for writing the Lü language. In 1987 the Old Tai Lü script was revived and widely used. However, the Chinese government once again promoted use of the New Tai Lü script in 1997, with the result that both scripts are currently in use in China. Although it is used for shop and street signs in some areas, few people can read the script.`,
-description: `There are no combining marks. Vowels other than the inherent vowel are represented by standalone letters. Tones are written using combinations of consonant register, context, and tone letters. Words are separated using spaces.`,
+description: `There are no combining marks. Vowels other than the inherent vowel are represented by standalone letters, visually encoded. Tones are written using combinations of consonant register, context, and tone letters. Words are separated using spaces, and punctuation is Chinese.`,
 unicode: `Unicode 17 has 1 dedicated block, comprising 83 characters.`
 },
 

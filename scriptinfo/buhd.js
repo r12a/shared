@@ -33,7 +33,7 @@ siblings: `Kulitan, Tagalog, Tagbanwa, Ibalnan, Balinese, Batak, Javanese, Makas
 history: `Buhid (<span lang="bku">ᝊᝓᝑᝒ</span>) is a Southeast Asian abugida used in the Philippines, mainly for the Buhid language, spoken by about 8,000 Mangyan people in the Mindoro region of the Philippines. The primary script for the language is Latin.`,
 description: `Buhid is a defective script, meaning that it doesn't represent all the sounds of the spoken language. In particular, syllable-final consonant sounds are not written.  Two identical combining marks with different positions represent 4 post-consonant vowel sounds. Words are separated by spaces.`,
 unicode: `Unicode 17 has 1 dedicated block, comprising just 20 characters.`,
-name:"Buginese", local:"ᨒᨚᨈᨑ", localtrans:"lontaraʔ", region:"oce", countries:"Indonesia", speakers:"2.3m",
+// this is replicated in shared/scriptdb/script_summaries
 
 
 

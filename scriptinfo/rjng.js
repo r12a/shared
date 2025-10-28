@@ -31,7 +31,7 @@ status: `Limited usage (declining interest)`,
 lineage: `Phoenician > Aramaic > Brahmi > Tamil-Brahmi > Pallava > Old Kawi > Recong > Rejang`,
 siblings: `Kerinci, Lembak, Serawai, Pasemah, Lampung`,
 history: `Rejang (<span lang="ban">ꥆꤰ꥓ꤼꤽ ꤽꥍꤺꥏ</span>) is an Indonesian abugida used in Bengkulu and South Sumatran provinces of Sumatra for the Malay and Rejang languages, and 3 others including Lampung and Kerinci. Its corpus consists chiefly of traditional ritual texts, spells and incantations, and love poems. Some closely guarded epics are written on bark cloth, bamboo, rattan, buffalo horn and lost copper plates. The use of the Rejang script has been largely superceded by the Latin orthography since the 1960s.`,
-description: `There are no conjuncts or stacking, but there are combining marks that require context-sensitive positioning. Words may or may not be separated by spaces.`,
+description: `Glyphs are typically slanted to the right. There are no conjuncts or stacking, but there are combining marks that require context-sensitive positioning. There is a visible vowel killer. Four letters represent prenasalised stops. Words may or may not be separated by spaces.`,
 unicode: `Unicode 17 has 1 dedicated block, comprising 37 characters.`,
 // this is replicated in shared/scriptdb/script_summaries
 

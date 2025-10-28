@@ -34,7 +34,7 @@ status: `In active use`,
 lineage: `Phoenician > Aramaic > Brahmi > Tamil-Brahmi > Kadamba/Pallava > Old Mon > Tai Tham > New Tai Lü`,
 siblings: `Tham Lao`,
 history: `New Tai Lü (<span lang="khb">᧑᧒ᦗᧃᦓᦱ</span>) is an East/Southeast Asian abugida used in the southern part of Yunnan, China, and in the surrounding countries by approximately 554,600 people to write the Lü langauge. The New Tai Lue script is a simplified version of the Tai Tham (Lanna) script, created in the 1950s, and mainly used by the Tai Lü people of Southern China for writing the Lü language. In 1987 the Old Tai Lü script was revived and widely used. However, the Chinese government once again promoted use of the New Tai Lü script in 1997, with the result that both scripts are currently in use in China. Although it is used for shop and street signs in some areas, few people can read the script.`,
-description: `There are no combining marks. Vowels other than the inherent vowel are represented by standalone letters. Tones are written using combinations of consonant register, context, and tone letters. Words are separated using spaces.`,
+description: `There are no combining marks. Vowels other than the inherent vowel are represented by standalone letters, visually encoded. Tones are written using combinations of consonant register, context, and tone letters. Words are separated using spaces, and punctuation is Chinese.`,
 unicode: `Unicode 17 has 1 dedicated block, comprising 83 characters.`,
 // this is replicated in shared/scriptdb/script_summaries
 

@@ -80,10 +80,10 @@ var spreadsheet = `cham-cjm	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ꨀꨯꨱ	O	ʔɔ							standalone vowel				U+AA00 U+AA2F U+AA31: CHAM LETTER A, VOWEL SIGN O, VOWEL SIGN AU	✓
 ꨀ	A	ʔa		ạ	a		Lo		independent vowel				U+AA00: CHAM LETTER A	✓
 ꨩ	a	aː		ā	ā		Mn​		dependent vowel				U+AA29: CHAM VOWEL SIGN AA	✓
-ꨰ	a	aɪ		aⁱ	ai		Mc​		dependent vowel				U+AA30: CHAM VOWEL SIGN AI	✓
+														
+ꨰ	a	aɪ		aⁱ	ai		Mc​		dependent vowel	(needs clarification)			U+AA30: CHAM VOWEL SIGN AI	✓
 ꨄ	A	ʔai		ại	ai		Lo		independent vowel				U+AA04: CHAM LETTER AI	✓
 ꨮꨭ	a	aʊ		aʷ	au				dependent vowel				U+AA2E U+AA2D:CHAM VOWEL SIGN OE, VOWEL SIGN U	✓
-														
 														
 ꩐	±	0		0̣	0		Nd		digit		ꨔꨯꨱꩍ	thaoh	U+AA50: CHAM DIGIT ZERO	✓
 ꩑	±	1		1̣	1		Nd		digit		ꨧ	sa	U+AA51: CHAM DIGIT ONE	✓
@@ -102,6 +102,7 @@ var spreadsheet = `cham-cjm	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ꩜	|			|			Po		punctuation				U+AA5C: CHAM PUNCTUATION SPIRAL	✓
 														
 :	:			:	:		Po		colon				U+003A: COLON	✓
+?	?			?	?		Po		punctuation				U+003F: QUESTION MARK	
 														
 `														
 														
