@@ -77,8 +77,8 @@ var spreadsheet = `gara-wo	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 \u{10D4A}\u{10D4E}		aː		aː			Ll		long vowel						U+10D4A U+10D4E GARAY VOWEL SIGN A, VOWEL LENGTH MARK			
 																		
 \u{10D6D}	[	◌̃		˜	̃		Mn		nasalisation						U+10D6D: GARAY CONSONANT NASALIZATION MARK			
-\u0020									space						U+0020: SPACE			
-\u25CC									dotted circle						U+25CC: DOTTED CIRCLE			
+\u0020		 		 	 				space						U+0020: SPACE			
+\u25CC		◌		◌					dotted circle						U+25CC: DOTTED CIRCLE			
 -	-			-	-				hyphen						U+2010: HYPHEN			
 \u{10D6E}	-			‑	‑		Pd		line-break hyphen						U+10D6E: GARAY HYPHEN			
 –	-			–	–		Pd	?	en dash						U+2013: EN DASH			

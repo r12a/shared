@@ -56,7 +56,7 @@ var spreadsheet = `sund-su	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ᮖ	f	f	a	f	f	f	Lo		transliteration consonant						U+1B96: SUNDANESE LETTER FA	✓
 ᮗ	v	v	a	v	v	v	Lo		transliteration consonant						U+1B97: SUNDANESE LETTER VA	✓
 ᮞ	s	s	a	s	s	s	Lo		consonant						U+1B9E: SUNDANESE LETTER SA	✓
-ᮯ	s	s	a	š	sy	S	Lo		transliteration consonant						U+1BAF: SUNDANESE LETTER SYA	✓
+ᮯ	s	ʃ	a	š	sy	S	Lo		transliteration consonant						U+1BAF: SUNDANESE LETTER SYA	✓
 ᮐ	z	z	a	z	z	z	Lo		transliteration consonant						U+1B90: SUNDANESE LETTER ZA	✓
 ᮮ	h	x	a	ẖ	kh	K	Lo		transliteration consonant						U+1BAE: SUNDANESE LETTER KHA	✓
 ᮠ	h	h	a	h	h	h	Lo		consonant						U+1BA0: SUNDANESE LETTER HA	✓
@@ -85,28 +85,28 @@ var spreadsheet = `sund-su	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ᮄ	i	i		ị	i	I	Lo		independent vowel		ᮤ				U+1B84: SUNDANESE LETTER I	✓
 ᮥ	u	u		u	u	u	Mn		vowel sign			ᮅ		panyuku	U+1BA5: SUNDANESE VOWEL SIGN PANYUKU	✓
 ᮅ	u	u		ụ	u	U	Lo		independent vowel		ᮥ				U+1B85: SUNDANESE LETTER U	✓
-ᮦ	e	e		é	é	[	Mc		vowel sign			ᮆ		panéléng	U+1BA6: SUNDANESE VOWEL SIGN PANAELAENG	✓
-ᮆ	e	e		ẹ́	é	{	Lo		independent vowel		ᮦ				U+1B86: SUNDANESE LETTER AE	✓
-ᮩ	v	ɤ		ɤ	eu		Mn		vowel sign			ᮉ			U+1BA9: SUNDANESE VOWEL SIGN PANEULEUNG	✓
-ᮉ	v	ɤ		ɤ̣	eu	"	Lo		independent vowel		ᮩ				U+1B89: SUNDANESE LETTER EU	✓
-ᮧ	o	o		o	o	o	Mc		vowel sign			ᮇ		panolong	U+1BA7: SUNDANESE VOWEL SIGN PANOLONG	✓
-ᮇ	o	o		ọ	o	O	Lo		independent vowel		ᮧ				U+1B87: SUNDANESE LETTER O	✓
+ᮦ	e	ɛ~e		é	é	[	Mc		vowel sign			ᮆ		panéléng	U+1BA6: SUNDANESE VOWEL SIGN PANAELAENG	✓
+ᮆ	e	ɛ~e		ẹ́	é	{	Lo		independent vowel		ᮦ				U+1B86: SUNDANESE LETTER AE	✓
+ᮩ	v	ɤ~ɨ		ɤ	eu		Mn		vowel sign			ᮉ			U+1BA9: SUNDANESE VOWEL SIGN PANEULEUNG	✓
+ᮉ	v	ɤ~ɨ		ɤ̣	eu	"	Lo		independent vowel		ᮩ				U+1B89: SUNDANESE LETTER EU	✓
+ᮧ	o	ɔ~o		o	o	o	Mc		vowel sign			ᮇ		panolong	U+1BA7: SUNDANESE VOWEL SIGN PANOLONG	✓
+ᮇ	o	ɔ~o		ọ	o	O	Lo		independent vowel		ᮧ				U+1B87: SUNDANESE LETTER O	✓
 ᮨ	e	ə		ə	e	e	Mn		vowel sign			ᮈ		pamepet	U+1BA8: SUNDANESE VOWEL SIGN PAMEPET	✓
 ᮈ	e	ə		ə̣	e	E	Lo		independent vowel		ᮨ				U+1B88: SUNDANESE LETTER E	✓
 ᮃ	a	a		ạ	a	a	Lo		independent vowel						U+1B83: SUNDANESE LETTER A	✓
 																
-ᮽ							Lo	a	consonant						U+1BBD: SUNDANESE LETTER BHA	✓
+ᮽ				bʰ			Lo	a	consonant						U+1BBD: SUNDANESE LETTER BHA	✓
 																
-ᮺ							Lo	a	archaic sign						U+1BBA: SUNDANESE AVAGRAHA	✓
+ᮺ				{avagraha}			Lo	a	archaic sign						U+1BBA: SUNDANESE AVAGRAHA	✓
 																
-᳀				–	.		Po	a	full stop						U+1CC0: SUNDANESE PUNCTUATION BINDU SURYA	✓
-᳁							Po	a	bindu						U+1CC1: SUNDANESE PUNCTUATION BINDU PANGLONG	✓
-᳂							Po	a	bindu						U+1CC2: SUNDANESE PUNCTUATION BINDU PURNAMA	✓
-᳃							Po	a	punctuation						U+1CC3: SUNDANESE PUNCTUATION BINDU CAKRA	✓
-᳄							Po	a	punctuation						U+1CC4: SUNDANESE PUNCTUATION BINDU LEU SATANGA	✓
-᳅							Po	a	punctuation						U+1CC5: SUNDANESE PUNCTUATION BINDU KA SATANGA	✓
-᳆							Po	a	punctuation						U+1CC6: SUNDANESE PUNCTUATION BINDU DA SATANGA	✓
-᳇							Po	a	punctuation						U+1CC7: SUNDANESE PUNCTUATION BINDU BA SATANGA	✓
+᳀				{surya}	.		Po	a	full stop						U+1CC0: SUNDANESE PUNCTUATION BINDU SURYA	✓
+᳁				{panglong}			Po	a	bindu						U+1CC1: SUNDANESE PUNCTUATION BINDU PANGLONG	✓
+᳂				{purnama}			Po	a	bindu						U+1CC2: SUNDANESE PUNCTUATION BINDU PURNAMA	✓
+᳃				{cakra}			Po	a	punctuation						U+1CC3: SUNDANESE PUNCTUATION BINDU CAKRA	✓
+᳄				{leu}			Po	a	punctuation						U+1CC4: SUNDANESE PUNCTUATION BINDU LEU SATANGA	✓
+᳅				{ka}			Po	a	punctuation						U+1CC5: SUNDANESE PUNCTUATION BINDU KA SATANGA	✓
+᳆				{da}			Po	a	punctuation						U+1CC6: SUNDANESE PUNCTUATION BINDU DA SATANGA	✓
+᳇				{ba}			Po	a	punctuation						U+1CC7: SUNDANESE PUNCTUATION BINDU BA SATANGA	✓
 																
 ʼ				ʼ	ʼ		Lm	?	apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
 |				|	|		Po		number delimiter						U+007C: VERTICAL LINE	

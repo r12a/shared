@@ -255,84 +255,83 @@ var spreadsheet = `tibt-bo	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 \u0F79	£	liː		l̥̄			Mn	d	precomposed sanskrit vowel	strongly deprecated					U+0F79: TIBETAN VOWEL SIGN VOCALIC LL	
 \u0F81	£	iː		ï̄			Mn	x	precomposed sanskrit vowel						U+0F81: TIBETAN VOWEL SIGN REVERSED II	
 																
-ༀ							Lo	i	symbol						U+0F00: TIBETAN SYLLABLE OM	✓
-༓							So	?	symbol						U+0F13: TIBETAN MARK CARET -DZUD RTAGS ME LONG CAN	✓
-࿄							So	?	symbol						U+0FC4: TIBETAN SYMBOL DRIL BU	✓
-࿅							So	?	symbol						U+0FC5: TIBETAN SYMBOL RDO RJE	✓
-࿆							Mn	?	combining symbol						U+0FC6: TIBETAN SYMBOL PADMA GDAN	✓
-࿇							So	?	symbol						U+0FC7: TIBETAN SYMBOL RDO RJE RGYA GRAM	✓
-࿈							So	?	symbol						U+0FC8: TIBETAN SYMBOL PHUR PA	✓
-࿉							So	?	symbol						U+0FC9: TIBETAN SYMBOL NOR BU	✓
-࿊							So	?	symbol						U+0FCA: TIBETAN SYMBOL NOR BU NYIS -KHYIL	✓
-࿋							So	?	symbol						U+0FCB: TIBETAN SYMBOL NOR BU GSUM -KHYIL	✓
-࿌							So	?	svasti sign						U+0FCC: TIBETAN SYMBOL NOR BU BZHI -KHYIL	✓
-࿕							So	?	svasti sign					gyung drung nang -khor	U+0FD5: RIGHT-FACING SVASTI SIGN	✓
-࿖							So	?	svasti sign					gyung drung phyi -khor	U+0FD6: LEFT-FACING SVASTI SIGN	✓
-࿗							So	?	svasti sign					gyung drung nang -khor bzhi mig can	U+0FD7: RIGHT-FACING SVASTI SIGN WITH DOTS	✓
-࿘							So	?	svasti sign					gyung drung phyi -khor bzhi mig can	U+0FD8: LEFT-FACING SVASTI SIGN WITH DOTS	✓
+ༀ				{om}			Lo	i	symbol						U+0F00: TIBETAN SYLLABLE OM	✓
+༓				{cdrmlc}			So	?	symbol						U+0F13: TIBETAN MARK CARET -DZUD RTAGS ME LONG CAN	✓
+࿄				{db}			So	?	symbol						U+0FC4: TIBETAN SYMBOL DRIL BU	✓
+࿅				{rr}			So	?	symbol						U+0FC5: TIBETAN SYMBOL RDO RJE	✓
+࿆				{pg}			Mn	?	combining symbol						U+0FC6: TIBETAN SYMBOL PADMA GDAN	✓
+࿇				{rrrg}			So	?	symbol						U+0FC7: TIBETAN SYMBOL RDO RJE RGYA GRAM	✓
+࿈				{pp}			So	?	symbol						U+0FC8: TIBETAN SYMBOL PHUR PA	✓
+࿉				{nb}			So	?	symbol						U+0FC9: TIBETAN SYMBOL NOR BU	✓
+࿊				{nbnk}			So	?	symbol						U+0FCA: TIBETAN SYMBOL NOR BU NYIS -KHYIL	✓
+࿋				{nbgk}			So	?	symbol						U+0FCB: TIBETAN SYMBOL NOR BU GSUM -KHYIL	✓
+࿌				{nbbk}			So	?	svasti sign						U+0FCC: TIBETAN SYMBOL NOR BU BZHI -KHYIL	✓
+࿕				{svastir}			So	?	svasti sign					gyung drung nang -khor	U+0FD5: RIGHT-FACING SVASTI SIGN	✓
+࿖				{svastil}			So	?	svasti sign					gyung drung phyi -khor	U+0FD6: LEFT-FACING SVASTI SIGN	✓
+࿗				{svastird}			So	?	svasti sign					gyung drung nang -khor bzhi mig can	U+0FD7: RIGHT-FACING SVASTI SIGN WITH DOTS	✓
+࿘				{svastild}			So	?	svasti sign					gyung drung phyi -khor bzhi mig can	U+0FD8: LEFT-FACING SVASTI SIGN WITH DOTS	✓
 																
-༁							So		head mark						U+0F01: TIBETAN MARK GTER YIG MGO TRUNCATED A	✓
-༂							So		head mark						U+0F02: TIBETAN MARK GTER YIG MGO -UM RNAM BCAD MA	✓
-༃							So		head mark						U+0F03: TIBETAN MARK GTER YIG MGO -UM GTER TSHEG MA	✓
-༆							Po	?	head mark						U+0F06: TIBETAN MARK CARET YIG MGO PHUR SHAD MA	✓
-༇							Po	?	head mark						U+0F07: TIBETAN MARK YIG MGO TSHEG SHAD MA	✓
-࿓							Po	?	head mark					da nying yik go dun ma	U+0FD3: TIBETAN MARK INITIAL BRDA RNYING YIG MGO MDUN MA	✓
-࿔							Po	?	head mark					da nying yik go kab ma	U+0FD4: TIBETAN MARK CLOSING BRDA RNYING YIG MGO SGAB MA	✓
+༁				{gymta}			So		head mark						U+0F01: TIBETAN MARK GTER YIG MGO TRUNCATED A	✓
+༂				{gymurbm}			So		head mark						U+0F02: TIBETAN MARK GTER YIG MGO -UM RNAM BCAD MA	✓
+༃				{gymugtm}			So		head mark						U+0F03: TIBETAN MARK GTER YIG MGO -UM GTER TSHEG MA	✓
+༆				{cympsm}			Po	?	head mark						U+0F06: TIBETAN MARK CARET YIG MGO PHUR SHAD MA	✓
+༇				{ymtsm}			Po	?	head mark						U+0F07: TIBETAN MARK YIG MGO TSHEG SHAD MA	✓
+࿓				{brymmm}			Po	?	head mark					da nying yik go dun ma	U+0FD3: TIBETAN MARK INITIAL BRDA RNYING YIG MGO MDUN MA	✓
+࿔				{cbrymsm}			Po	?	head mark					da nying yik go kab ma	U+0FD4: TIBETAN MARK CLOSING BRDA RNYING YIG MGO SGAB MA	✓
 																
-ྈ							Lo	t	transliteration head letter		ྍ				U+0F88: TIBETAN SIGN LCE TSA CAN	✓
-ྉ							Lo	t	transliteration head letter		ྎ				U+0F89: TIBETAN SIGN MCHU CAN	✓
-ྊ							Lo	t	transliteration head letter						U+0F8A: TIBETAN SIGN GRU CAN RGYINGS	✓
-ྋ							Lo	t	transliteration head letter						U+0F8B: TIBETAN SIGN GRU MED RGYINGS	✓
-ྌ							Lo	t	transliteration head letter		ྏ				U+0F8C: TIBETAN SIGN INVERTED MCHU CAN	✓
+ྈ				{ltc}			Lo	t	transliteration head letter		ྍ				U+0F88: TIBETAN SIGN LCE TSA CAN	✓
+ྉ				{mc}			Lo	t	transliteration head letter		ྎ				U+0F89: TIBETAN SIGN MCHU CAN	✓
+ྊ				{gcr}			Lo	t	transliteration head letter						U+0F8A: TIBETAN SIGN GRU CAN RGYINGS	✓
+ྋ				{gmr}			Lo	t	transliteration head letter						U+0F8B: TIBETAN SIGN GRU MED RGYINGS	✓
+ྌ				{mc}			Lo	t	transliteration head letter		ྏ				U+0F8C: TIBETAN SIGN INVERTED MCHU CAN	✓
 																
-ྍ							Mn	?	subjoined sign			ྈ			U+0F8D: TIBETAN SUBJOINED SIGN LCE TSA CAN	✓
-ྎ							Mn	?	subjoined sign			ྉ			U+0F8E: TIBETAN SUBJOINED SIGN MCHU CAN	✓
-ྏ							Mn	?	subjoined sign			ྌ			U+0F8F: TIBETAN SUBJOINED SIGN INVERTED MCHU CAN	✓
+ྍ				{ltc}			Mn	?	subjoined sign			ྈ			U+0F8D: TIBETAN SUBJOINED SIGN LCE TSA CAN	✓
+ྎ				{mmc}			Mn	?	subjoined sign			ྉ			U+0F8E: TIBETAN SUBJOINED SIGN MCHU CAN	✓
+ྏ				{imc}			Mn	?	subjoined sign			ྌ			U+0F8F: TIBETAN SUBJOINED SIGN INVERTED MCHU CAN	✓
 																
-༊							Po	?	punctuation						U+0F0A: TIBETAN MARK BKA- SHOG YIG MGO	✓
-༏							Po	?	punctuation						U+0F0F: TIBETAN MARK TSHEG SHAD	✓
-༐							Po	?	punctuation						U+0F10: TIBETAN MARK NYIS TSHEG SHAD	✓
-༑							Po		punctuation						U+0F11: TIBETAN MARK RIN CHEN SPUNGS SHAD	✓
-༒							Po	?	punctuation						U+0F12: TIBETAN MARK RGYA GRAM SHAD	✓
-༔							Po		~comma					ter tsek	U+0F14: TIBETAN MARK GTER TSHEG	✓
-྅							Po		punctuation						U+0F85: TIBETAN MARK PALUTA	✓
-࿐							Po	?	punctuation						U+0FD0: TIBETAN MARK BSKA- SHOG GI MGO RGYAN	✓
-࿑							Po	?	punctuation						U+0FD1: TIBETAN MARK MNYAM YIG GI MGO RGYAN	✓
-࿒							Po	?	punctuation					tsek	U+0FD2: TIBETAN MARK NYIS TSHEG	✓
-࿙							Po	?	punctuation						U+0FD9: TIBETAN MARK LEADING MCHAN RTAGS	✓
-࿚							Po	?	punctuation						U+0FDA: TIBETAN MARK TRAILING MCHAN RTAGS	✓
+༊				{bsym}			Po	?	punctuation						U+0F0A: TIBETAN MARK BKA- SHOG YIG MGO	✓
+༏				{ts}			Po	?	punctuation						U+0F0F: TIBETAN MARK TSHEG SHAD	✓
+༐				{nts}			Po	?	punctuation						U+0F10: TIBETAN MARK NYIS TSHEG SHAD	✓
+༑				{rcss}			Po		punctuation						U+0F11: TIBETAN MARK RIN CHEN SPUNGS SHAD	✓
+༒				{rgs}			Po	?	punctuation						U+0F12: TIBETAN MARK RGYA GRAM SHAD	✓
+༔				{gt}			Po		~comma					ter tsek	U+0F14: TIBETAN MARK GTER TSHEG	✓
+྅				{p}			Po		punctuation						U+0F85: TIBETAN MARK PALUTA	✓
+࿐				{bsgmr}			Po	?	punctuation						U+0FD0: TIBETAN MARK BSKA- SHOG GI MGO RGYAN	✓
+࿑				{mygmr}			Po	?	punctuation						U+0FD1: TIBETAN MARK MNYAM YIG GI MGO RGYAN	✓
+࿒				{nt}			Po	?	punctuation					tsek	U+0FD2: TIBETAN MARK NYIS TSHEG	✓
+࿙				{lmr}			Po	?	punctuation						U+0FD9: TIBETAN MARK LEADING MCHAN RTAGS	✓
+࿚				{tmr}			Po	?	punctuation						U+0FDA: TIBETAN MARK TRAILING MCHAN RTAGS	✓
 																
-༵							Mn		emphasis sign						U+0F35: TIBETAN MARK NGAS BZUNG NYI ZLA	✓
-༶							So		annotation sign						U+0F36: TIBETAN MARK CARET -DZUD RTAGS BZHI MIG CAN	✓
-༷							Mn		emphasis sign						U+0F37: TIBETAN MARK NGAS BZUNG SGOR RTAGS	✓
-༸							So		sign						U+0F38: TIBETAN MARK CHE MGO	✓
-ྂ							Mn	?	sign						U+0F82: TIBETAN SIGN NYI ZLA NAA DA	✓
-ྃ							Mn		sign						U+0F83: TIBETAN SIGN SNA LDAN	✓
-྆							Mn		sign						U+0F86: TIBETAN SIGN LCI RTAGS	✓
-྇							Mn	?	sign						U+0F87: TIBETAN SIGN YANG RTAGS	✓
-྾							So		sign						U+0FBE: TIBETAN KU RU KHA	✓
-྿							So		sign						U+0FBF: TIBETAN KU RU KHA BZHI MIG CAN	✓
-࿀							So	u	sign						U+0FC0: TIBETAN CANTILLATION SIGN HEAVY BEAT	✓
-࿁							So	u	sign						U+0FC1: TIBETAN CANTILLATION SIGN LIGHT BEAT	✓
-࿂							So	u	sign						U+0FC2: TIBETAN CANTILLATION SIGN CANG TE-U	✓
-࿃							So	u	sign						U+0FC3: TIBETAN CANTILLATION SIGN SBUB -CHAL	✓
+༵				{nbnz}			Mn		emphasis sign						U+0F35: TIBETAN MARK NGAS BZUNG NYI ZLA	✓
+༶				{cdrbmc}			So		annotation sign						U+0F36: TIBETAN MARK CARET -DZUD RTAGS BZHI MIG CAN	✓
+༷				{nbsr}			Mn		emphasis sign						U+0F37: TIBETAN MARK NGAS BZUNG SGOR RTAGS	✓
+༸				{cm}			So		sign						U+0F38: TIBETAN MARK CHE MGO	✓
+ྂ				{nznd}			Mn	?	sign						U+0F82: TIBETAN SIGN NYI ZLA NAA DA	✓
+྆				{lr}			Mn		sign						U+0F86: TIBETAN SIGN LCI RTAGS	✓
+྇				{yr}			Mn	?	sign						U+0F87: TIBETAN SIGN YANG RTAGS	✓
+྾				{krk}			So		sign						U+0FBE: TIBETAN KU RU KHA	✓
+྿				{krkbmc}			So		sign						U+0FBF: TIBETAN KU RU KHA BZHI MIG CAN	✓
+࿀				{cshb}			So	u	sign						U+0FC0: TIBETAN CANTILLATION SIGN HEAVY BEAT	✓
+࿁				{cslb}			So	u	sign						U+0FC1: TIBETAN CANTILLATION SIGN LIGHT BEAT	✓
+࿂				{csct}			So	u	sign						U+0FC2: TIBETAN CANTILLATION SIGN CANG TE-U	✓
+࿃				{cssc}			So	u	sign						U+0FC3: TIBETAN CANTILLATION SIGN SBUB -CHAL	✓
 																
-༕							So	u	astrological symbol						U+0F15: TIBETAN LOGOTYPE SIGN CHAD RTAGS	✓
-༖							So	u	astrological symbol						U+0F16: TIBETAN LOGOTYPE SIGN LHAG RTAGS	✓
-༗							So	u	astrological symbol						U+0F17: TIBETAN ASTROLOGICAL SIGN SGRA GCAN -CHAR RTAGS	✓
-༚							So	u	astrological symbol						U+0F1A: TIBETAN SIGN RDEL DKAR GCIG	✓
-༛							So	u	astrological symbol						U+0F1B: TIBETAN SIGN RDEL DKAR GNYIS	✓
-༜							So	u	astrological symbol						U+0F1C: TIBETAN SIGN RDEL DKAR GSUM	✓
-༝							So	u	astrological symbol						U+0F1D: TIBETAN SIGN RDEL NAG GCIG	✓
-༞							So	u	astrological symbol						U+0F1E: TIBETAN SIGN RDEL NAG GNYIS	✓
-༟							So	u	astrological symbol						U+0F1F: TIBETAN SIGN RDEL DKAR RDEL NAG	✓
-༾							Mc	u	astrological symbol						U+0F3E: TIBETAN SIGN YAR TSHES	✓
-༿							Mc	u	astrological symbol						U+0F3F: TIBETAN SIGN MAR TSHES	✓
-࿎							So	u	astrological symbol						U+0FCE: TIBETAN SIGN RDEL NAG RDEL DKAR	✓
-࿏							So	u	astrological symbol						U+0FCF: TIBETAN SIGN RDEL NAG GSUM	✓
+༕				{ascr}			So	u	astrological symbol						U+0F15: TIBETAN LOGOTYPE SIGN CHAD RTAGS	✓
+༖				{aslr}			So	u	astrological symbol						U+0F16: TIBETAN LOGOTYPE SIGN LHAG RTAGS	✓
+༗				{assgcr}			So	u	astrological symbol						U+0F17: TIBETAN ASTROLOGICAL SIGN SGRA GCAN -CHAR RTAGS	✓
+༚				{asrdg}			So	u	astrological symbol						U+0F1A: TIBETAN SIGN RDEL DKAR GCIG	✓
+༛				{asrdg2}			So	u	astrological symbol						U+0F1B: TIBETAN SIGN RDEL DKAR GNYIS	✓
+༜				{asrdg2}			So	u	astrological symbol						U+0F1C: TIBETAN SIGN RDEL DKAR GSUM	✓
+༝				{x}			So	u	astrological symbol						U+0F1D: TIBETAN SIGN RDEL NAG GCIG	✓
+༞				{xx}			So	u	astrological symbol						U+0F1E: TIBETAN SIGN RDEL NAG GNYIS	✓
+༟				{ox}			So	u	astrological symbol						U+0F1F: TIBETAN SIGN RDEL DKAR RDEL NAG	✓
+༾				{asyt}			Mc	u	astrological symbol						U+0F3E: TIBETAN SIGN YAR TSHES	✓
+༿				{asmt}			Mc	u	astrological symbol						U+0F3F: TIBETAN SIGN MAR TSHES	✓
+࿎				{xo}			So	u	astrological symbol						U+0FCE: TIBETAN SIGN RDEL NAG RDEL DKAR	✓
+࿏				{xxx}			So	u	astrological symbol						U+0FCF: TIBETAN SIGN RDEL NAG GSUM	✓
 																
-\u0020	 						Zs		space						U+0020: SPACE	
-\u00A0							Zs		no-break space						U+00A0: NO-BREAK SPACE	
+\u0020	 	 		 	 		Zs		space						U+0020: SPACE	
+\u00A0		 		{nbsp}	 		Zs		no-break space						U+00A0: NO-BREAK SPACE	
 ༌				¯			Po		punctuation						U+0F0C: TIBETAN MARK DELIMITER TSHEG BSTAR	✓
 -	-			-	-		Pd		hyphen						U+2010: HYPHEN	
 ‑	-			‑	‑		Pd	?	non-breaking hyphen						U+2011: NON-BREAKING HYPHEN	
@@ -401,8 +400,8 @@ var spreadsheet = `tibt-bo	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ༰				7.5			No		digit minus half						U+0F30: TIBETAN DIGIT HALF SEVEN	
 ༱				8.5			No		digit minus half						U+0F31: TIBETAN DIGIT HALF EIGHT	
 ༲				9.5			No		digit minus half						U+0F32: TIBETAN DIGIT HALF NINE	
-ⓟ															PREFIX	
-Ⓢ															SUFFIX	
+ⓟ				{prefix}											PREFIX	
+Ⓢ				{suffix}											SUFFIX	
 `																
 																
 latinPanel = 'á à ā bʰ d͡ʒ d͡z ɖ ɖʰ d̪ʱ ʣʰ ə é è gʰ ḥ í ì ː ī kʰ ḷ ḹ ŋ ɲ ɳ ⁿ ó ò pʰ ɽ ṛ ṝ ʂ t͡ʃ t͡ʃʰ tʰ t͡sʰ ʈ ʈʰ ú ù ū uː ǿ ø̀ ɛ̀ ɛ́ ỳ ý ̀ ́ ̂ ̌ ̄ '																
