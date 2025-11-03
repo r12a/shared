@@ -32,7 +32,7 @@ status: `Limited usage (small community)`,
 lineage: `Created by Assane Faye in Senegal and published in January 1961. Some inspiration from Arabic.`,
 siblings: ``,
 history: `Garay (<span lang="wo-gara">𐵹𐵊𐵾𐵊𐵼</span>) is an African bicameral alphabet used in Senegal for the Wolof language. The official script in Senegal for Wolof is Latin, although the Arabic Wolofal script is also used. The user community for Garay is small, including women’s groups and adult literacy for Mandinka as well as for Wolof. The script has been taught informally for more than fifty years since its invention. Faye has written manuscripts including textbooks, folktales, and maps; there also exists a Quran with interlinear translations into Wolof using the Garay script.`,
-description: `Garay text is read right-to-left, except for numbers. The orthography is not fully bicameral. Consonant letters, including the word-initial vowel carrier, have uppercase and lowercase forms, but characters used to write vowels do not.`,
+description: `Garay text is read right-to-left, except for numbers, but is not cursive. The orthography is not fully bicameral; consonant letters, including the word-initial vowel carrier, have uppercase and lowercase forms, but characters used to write vowels do not. Various combinations of 5 characters are used to represent 9 vowels. Prenasalised consonants use the same combining mark as 2 vowels, forcing alternative shapes for /ɛ/ and /e/ after 4 consonants.`,
 unicode: `Unicode 17 has 1 dedicated block, comprising 69 characters.`,
 // this is replicated in shared/scriptdb/script_summaries
 

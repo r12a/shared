@@ -31,7 +31,7 @@ status: `Endangered (low uptake)`,
 lineage: `Developed by Dr. Thomas Flo Lewis from a sign system used by the Bassa people to avoid slave traders.`,
 siblings: ``,
 history: `Bassa Vah (<span lang="bsq">𖫢𖫧𖫳𖫒𖫨𖫰𖫨𖫱</span>) is an African bicameral alphabet, used for the Bassa language, which has around 700,000 speakers, mainly in Liberia and Sierra Leone. Some efforts are underway to revive the use of the script, but it is still little used.`,
-description: `Bassa is a tonal language, and tones are written using diacritics inside consonant letters.`,
+description: `Bassa has tones, written on every vowel using diacritics that appear inside consonant letters. The letter 'n' in syllable-final position indicates nasalisation. Medial consonants don't exist, but in rapid speech an initial vowel may be collapsed in a predictable way to a very short version of the following vowel. Certain letters represent a stop or a nasal, depending on whether the vowel is nasalised.`,
 unicode: `Unicode 17 has 1 dedicated block, comprising 36 characters.`,
 // this is replicated in shared/scriptdb/script_summaries
 
