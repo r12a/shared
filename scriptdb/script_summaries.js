@@ -247,7 +247,7 @@ status: `In use`,
 lineage: `Phoenician? > Aramaic? > Brahmi > Tamil-Brahmi > Pallava > Cham`,
 siblings: `Khmer, Kawi, Old Mon, Grantha, Tamil`,
 history: `Cham (<span lang="cjm">ꨀꨇꩉ ꨌꩌ</span>) is a Southeast Asian abugida used by speakers of the Eastern Cham language who number about 132,000 in Bình Thuận, Ninh Thuận, and Đồng Nai provinces in southern Vietnam, as well as in Hồ Chí Minh City. The Ethnologue estimates the L1 literacy rate to be 5%–10%. The Cham script is the primary orthography for the Eastern Cham, but the largely muslim Western Cham peoples of Cambodia prefer the Arabic script. Historically, the Eastern Cham script was learned by boys once they reached a certain age, but not by women and girls. In addition, the majority of the Cambodian Cham people died during the Khmer Rouge regime in the 1970s or were forced to use the Cambodian language.`,
-description: `Contextual shaping & positioning of glyphs is required. There are no conjuncts; consonant clusters are handled using combining marks for medials, and dedicated letters or marks for codas. Standalone vowels use independent vowels and base+vowel sign, and independent vowels may also have vowel signs. CHAM LETTER A may carry a medial consonant.
+description: `Contextual shaping & positioning of glyphs is required. There are no conjuncts; consonant clusters are handled using combining marks for medials, and dedicated letters or marks for codas. Standalone vowels use independent vowels and base+vowel sign, and independent vowels may also have vowel signs. CHAM LETTER A may carry a medial consonant.`,
 unicode: `Unicode 17 has 1 dedicated block, comprising 83 characters.`
 },
 
