@@ -28,8 +28,8 @@ var spreadsheet = `tavt-blt	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ꪃ	k	kʰ		kʰ	kʰ	#	Lo	u	high tone consonant	for Tai Don	ꪂ				U+AA83: TAI VIET LETTER HIGH KHO	✓
 ꪂ	k	kʰ		ḵʰ	ḵʰ	3	Lo	u	low tone consonant	for Tai Don		ꪃ			U+AA82: TAI VIET LETTER LOW KHO	✓
 ꫛ	k	kon⁴		kⁿ	kⁿ	}	Lo		logograph						U+AADB: TAI VIET SYMBOL KON	✓
-ꪇ	g	g		ḡ	ḡ	4	Lo		high tone consonant		ꪆ				U+AA87: TAI VIET LETTER HIGH GO	✓
-ꪆ	g	g		g	g	$	Lo		low tone consonant			ꪇ			U+AA86: TAI VIET LETTER LOW GO	✓
+ꪇ	g	ɡ		ḡ	ḡ	4	Lo		high tone consonant		ꪆ				U+AA87: TAI VIET LETTER HIGH GO	✓
+ꪆ	g	ɡ		g	g	$	Lo		low tone consonant			ꪇ			U+AA86: TAI VIET LETTER LOW GO	✓
 ꪯ	}	ʔ ɔ		ʔ	ʔ		Lo		high tone consonant		ꪮ				U+AAAF: TAI VIET LETTER HIGH O	✓
 ꪮ	}	ʔ ɔ		ʔ̱	ʔ̱		Lo		low tone consonant			ꪯ			U+AAAE: TAI VIET LETTER LOW O	✓
 ꪡ	f	f		f	f	F	Lo		high tone consonant		ꪠ				U+AAA1: TAI VIET LETTER HIGH FO	✓
@@ -72,11 +72,11 @@ var spreadsheet = `tavt-blt	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ꪸ	i	iə		iᵊ	iᵊ	I	Mn		dipthong						U+AAB8: TAI VIET VOWEL IA	✓
 ꪹ	i	ɨə		ɨᵊ	ɨ ə ɨᵊ	e	Lo		prescript dipthong						U+AAB9: TAI VIET VOWEL UEA	✓
 ꪺ	u	uə		uᵊ	uᵊ	O	Lo		dipthong						U+AABA: TAI VIET VOWEL UA	✓
-ꪻ	e	əw		əʷ	əʷ	Y	Lo		prescript dipthong						U+AABB: TAI VIET VOWEL AUE	✓
+ꪻ	e	aɰ		əʷ	əʷ	Y	Lo		prescript dipthong						U+AABB: TAI VIET VOWEL AUE	✓
 ꪵꪫ	e	ʷɛ		ɛ-w	ɛ				circumgraph dipthong						U+AAB5 U+AAAB: TAI VIET VOWEL E, LETTER HIGH VO	
 ꪵꪫꪥ	e	ʷɛ		ɛ-wj	ɛ				circumgraph dipthong						U+AAB5 U+AAAB U+AAA5: TAI VIET VOWEL E, LETTER HIGH VO, LETTER HIGH YO	
 ꪼ	a	aj		aʲ	aʲ	y	Lo		prescript vowel						U+AABC: TAI VIET VOWEL AY	✓
-ꪹꪱ	i	aːw		ɨᵊ-ā	aʷ				circumgraph dipthong						U+AAB9 U+AAB1: TAI VIET VOWEL UEA, VOWEL AA	
+ꪹꪱ	i	aw		ɨᵊ-ā	aʷ				circumgraph dipthong						U+AAB9 U+AAB1: TAI VIET VOWEL UEA, VOWEL AA	
 ꪾ	a	am		aᵐ	aᵐ	{	Mn		rhyme						U+AABE: TAI VIET VOWEL AM	✓
 ꪽ	a	an		aⁿ	aⁿ	]	Lo		rhyme						U+AABD: TAI VIET VOWEL AN	✓
 ꪚꪾ	a	ap		-aᵖ	aᵖ				rhyme						U+002D U+AA9A U+AABE: TAI VIET LETTER LOW BO, VOWEL AM	
@@ -89,10 +89,10 @@ var spreadsheet = `tavt-blt	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 (	(			(	(		Ps		parenthesis						U+0028: LEFT PARENTHESIS	
 )	)			)	)		Ps		parenthesis						U+0029: RIGHT PARENTHESIS	
 –	-			–	–		Pd		en dash						U+2013: EN DASH	
-◌									consonant						C	
+◌				Consonant					consonant						C	
 `																
 																
-latinPanel = '¹ ² ¹̱ ²̱ ³ ⁴ aʲ aː ā aᵐ aⁿ aːw aʷ aᵖ ḇ c̱ cʰ c̱ʰ ḏ əʷ ɛ f̱ gʰ ḡ ẖ ɨᵊ ɨ iᵊ ḵ kʰ ḵʰ kon⁴ ḻ m̱ ŋ ŋ̄ ɲ ɲ̄ ṉ nɨŋ⁵ ɔ p̄ pʰ p̄ʰ ṟ ʃ s̱ ʨ ʨʰ ṯ tʰ ṯʰ uᵊ w̱ ʷɛ x̱ ȳ ʔ ʔ̱ ˨ ˦˥ ˦ ˥'																
+latinPanel = '¹ ² ¹̱ ²̱ ³ ⁴ aʲ aː ā aᵐ aⁿ aːw aʷ aᵖ ḇ c̱ cʰ c̱ʰ ḏ əʷ ɛ f̱ ɡ ɡʰ ḡ ẖ ɨᵊ ɨ iᵊ ḵ kʰ ḵʰ kon⁴ ḻ m̱ ŋ ŋ̄ ɲ ɲ̄ ṉ nɨŋ⁵ ɔ p̄ pʰ p̄ʰ ṟ ʃ s̱ ʨ ʨʰ ṯ tʰ ṯʰ uᵊ w̱ ʷɛ x̱ ȳ ʔ ʔ̱ ˨ ˦˥ ˦ ˥'																
 																
 var cols = {																
 key: 1,																
