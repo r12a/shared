@@ -695,6 +695,7 @@ function printDetails (char) {
 
 
 function showCharDetailsInPanel (evt) {
+    console.log(`showCharDetailsInPanel (${ evt })`)
 	var lang, chars, insetPoint, panel, table, ipaNodes
     
     //console.log('showCharDetailsInPanel in show_codepoints, Event:',evt.target.textContent)
@@ -733,6 +734,7 @@ function showCharDetailsInPanel (evt) {
 	addExamples(lang)
 	//convertTranscriptionData(evt.target)
 	setFootnoteRefs()
+    wrapToneLettersInBdi()
     var links = table.querySelectorAll('.codepoint a, .codepoint code')
 	for (i=0;i<links.length;i++) links[i].onclick = showCharDetailsInPanel
     initialiseShowNames(table, window.blockDirectoryName, 'c')
