@@ -1,4 +1,4 @@
-const Y = true
+﻿const Y = true
 const N = false
 const P = 'partial'
 const U = '?'

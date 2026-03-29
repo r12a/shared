@@ -287,6 +287,11 @@ Hiragino Sans TC is designed to meet the high-quality demands for multilingual p
 Source: ChatGPT`,
 
 
+"idiqlat": `Idaqlat is a modernized East Syriac font. It supports the East Syriac style of the Syriac script, and has support for glyph alternates, ligatures, and diacritics that the East Syriac style requires. The design of the font is a resized and modernized revival of metal type cut in India from around 1920. The font name, Idiqlat, means “Tigris River” in ancient Akkadian/Assyrian. The emphasis is on the first syllable: EE-dee-klat.
+The East Syriac style is used primarily by the Assyrians (Church of the East) and Chaldeans. It is also used by the Syrian Orthodox in headings of texts.
+Sources: <a target="_blank" href="https://software.sil.org/idiqlat/">①</a>`,
+
+
 "itf devanagari": `ITF Devanagari is high contrast, modulated typeface in classical proportions suitable for setting books, magazines, and strict demands of the newspaper printing. It was designed by Satya Rajpurohit and published by the Indian Type Foundry.
 The family consists of five weights and has been optimized for good legibility at small sizes. Each style contains 847 glyphs including all the necessary conjuncts and ligatures used to write Hindi, Marathi and Nepali languages.
 Sources: <a target="_blank" href="https://www.myfonts.com/collections/itf-devanagari-font-indian-type-foundry?queryId=fb64d68d879b47790c5f0389ad8ff946&eventName=Product%20Clicked&index=universal_search_data&objectIDs=Mzg1NTUzXzE3MTI2NzE0ODI&positions=2&inline=true&userquery=ITF%20Devanagari">①</a>`,
@@ -592,6 +597,10 @@ Although it was designed for Chinese Han characters, the font contains glyphs fo
 "pingfang sc": `PingFang is a monoline, Hei style typeface, that comes in 6 weights.
 PingFang SC is part of the PingFang family of fonts, which are widely used for displaying Chinese characters. The PingFang family includes several variations such as PingFang SC (Simplified Chinese), PingFang TC (Traditional Chinese), and PingFang HK (Hong Kong). PingFang SC is specifically designed for the macOS operating system and supports Simplified Chinese characters.
 Although it was designed for Chinese Han characters, the font contains glyphs for Latin, Cyrillic, Greek, Bopomofo, and Japanese Kana.`,
+
+
+"ramsina": `Ramsina is a font family for the East Syriac script. The font was designed as a close revival, or facsimile, of metal type cut in India from around 1920.
+Sources: <a target="_blank" href="https://software.sil.org/idiqlat/">①</a>`,
 
 
 "ruwudu": `Ruwudu is a Rubutun Kano font for Ajami (Arabic script) writing systems in the Kano region of Nigeria and Niger. Ruwudu is the Manga word for “writing”. This style of writing is used by the Manga people in Niger, West Africa. This font was initially designed as a lighter or companion version of Alkalami Regular.

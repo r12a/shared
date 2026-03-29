@@ -19,6 +19,11 @@
             <option value="Noto Sans Syriac Western">Noto Sans Syriac Western</option>
             </optgroup>
             
+            <optgroup label="SIL fonts ">
+            <option value="Idaqlat">Idaqlat</option>
+            <option value="Ramsina">Ramsina</option>
+            </optgroup>
+            
             <optgroup label="Other fonts ">
             <option value="EstrangeloEdessaRegular">Estrangelo Edessa</option>
             <option value="EstrangeloAntiochRegular">Estrangelo Antioch</option>
