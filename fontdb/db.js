@@ -638,7 +638,9 @@ var fontDB = [
 { name:"Segoe UI Historic",	system:new Set([win]), locales:new Set(['syrc', '...']), style:'syrc' },
 
 /* syriac eastern */
+{ name:"Idiqlat",			system:new Set([sil]), locales:new Set(['syrc']), style:'syre' },
 { name:"Noto Sans Syriac Eastern",system:new Set([goog]), locales:new Set(['syrc']), style:'syre' },
+{ name:"Ramsina",			system:new Set([sil]), locales:new Set(['syrc']), style:'syre' },
 
 /* syriac western */
 { name:"Noto Sans Syriac Western",system:new Set([goog]), locales:new Set(['syrc']), style:'syrj' },
