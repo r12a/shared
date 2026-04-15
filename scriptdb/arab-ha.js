@@ -13,7 +13,7 @@ var spreadsheet = `arab-ha	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ق	k	kʼ		ƙ̇	ƙ		Lo	r	ejective	alternative		4			U+0642: ARABIC LETTER QAF	✓
 ك	k	k kʼ		k	k		Lo	r	plosive/ejective	hafs/alternative orthography		4			U+0643: ARABIC LETTER KAF	✓
 ݣ	k	kʷ kʲ		k̂	kw ky		Lo		labialised/palatalised plosive			4			U+0763: ARABIC LETTER KEHEH WITH THREE DOTS ABOVE	✓
-ࣄ	k	ƙʷ ƙʲ		ƙ̂	ƙw ƙy		Lo		labialised/palatalised ejective			4			U+08C4 ARABIC LETTER AFRICAN QAF WITH THREE DOTS ABOVE	✓
+ࣄ	k	kʷʼ kʲʼ		ƙ̂	ƙw ƙy		Lo		labialised/palatalised ejective			4			U+08C4 ARABIC LETTER AFRICAN QAF WITH THREE DOTS ABOVE	✓
 غ	g	ɡ		ɡ	g		Lo		plosive			4			U+063A: ARABIC LETTER GHAIN	✓
 ࣃ	g	ɡʷ ɡʲ		ĝ	gw gy		Lo		labialised/palatalised plosive			4			U+08C3 ARABIC LETTER GHAIN WITH THREE DOTS ABOVE	✓
 ع	}	ʔ		ʔ	ʼ		Lo		glottal stop			4			U+0639: ARABIC LETTER AIN	✓
@@ -22,7 +22,7 @@ var spreadsheet = `arab-ha	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 پ	f	ɸ ɓ		f̄	f		Lo	r	fricative	alternative		4			U+067E: ARABIC LETTER PEH	✓
 س	s¶	s		s	s		Lo		fricative			4			U+0633: ARABIC LETTER SEEN	✓
 ص	s	s		s̄	s		Lo	r	fricative	alternative		4			U+0635: ARABIC LETTER SAD	✓
-ڟ	t	sʼ t͡sʼ		ᵴ	ts		Lo		ejective			4			U+069F: ARABIC LETTER TAH WITH THREE DOTS ABOVE	✓
+ڟ	t	t͡sʼ sʼ		ᵴ	ts		Lo		ejective			4			U+069F: ARABIC LETTER TAH WITH THREE DOTS ABOVE	✓
 ز	z¶	z		z	z		Lo		fricative			2			U+0632: ARABIC LETTER ZAIN	✓
 ذ	z	z		ż	z		Lo	r	fricative	alternative		2			U+0630: ARABIC LETTER THAL	✓
 ظ	z	z		z̄	z		Lo	r	fricative	alternative		4			U+0638: ARABIC LETTER ZAH	✓
@@ -37,11 +37,11 @@ var spreadsheet = `arab-ha	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ل	l¶	l		l	l		Lo		approximant			4			U+0644: ARABIC LETTER LAM	✓
 ض	l	l		ḻ	l		Lo	r	approximant	alternative		4			U+0636: ARABIC LETTER DAD	✓
 ی	y¶	j		y	y		Lo		approximant			4			U+06CC: ARABIC LETTER FARSI YEH	✓
-ؿ	y	j̰		ƴ̇	ƴ ʼy		Lo	r	creaky approximant	alternative		4			U+063F: ARABIC LETTER FARSI YEH WITH THREE DOTS ABOVE	✓
-ۑ	y	j̰		ƴ	ƴ ʼy		Lo		creaky approximant	warsh orthography		4			U+06D1: ARABIC LETTER YEH WITH THREE DOTS BELOW	✓
+ؿ	y	ʔʲ		ƴ̇	ƴ ʼy		Lo	r	creaky approximant	alternative		4			U+063F: ARABIC LETTER FARSI YEH WITH THREE DOTS ABOVE	✓
+ۑ	y	ʔʲ		ƴ	ƴ ʼy		Lo		creaky approximant	warsh orthography		4			U+06D1: ARABIC LETTER YEH WITH THREE DOTS BELOW	✓
 																
-ڢ								u		not used !					U+06A2: ARABIC LETTER FEH WITH DOT MOVED BELOW	
-ڧ								u		not used !					U+06A7: ARABIC LETTER QAF WITH DOT ABOVE	
+ڢ				f				u		not used !					U+06A2: ARABIC LETTER FEH WITH DOT MOVED BELOW	
+ڧ				q				u		not used !					U+06A7: ARABIC LETTER QAF WITH DOT ABOVE	
 																
 ِ	i¶	i		i	i		Mn		vowel						U+0650: ARABIC KASRA	✓
 إِ	i	i		ʔ̣	i				vowel		\u{627}\u{655}\u{650}				U+0625 U+0650: ARABIC LETTER ALEF WITH HAMZA BELOW, KASRA	
@@ -62,8 +62,8 @@ var spreadsheet = `arab-ha	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ا	a	–		ɑ			Lo		vowel	used with َا, أَ, إِ and ُواْ		ا ـا			U+0627: ARABIC LETTER ALEF	✓
 َا	A	aː		ā	a				vowel			َا ـَا			U+064E U+0627: ARABIC FATHA, LETTER ALEF	
 																
-ي							Lo	u							U+064A: ARABIC LETTER YEH	
-ۛ							Mn	u							U+06DB: ARABIC SMALL HIGH THREE DOTS	
+ي				y			Lo	u							U+064A: ARABIC LETTER YEH	
+ۛ				^			Mn	u							U+06DB: ARABIC SMALL HIGH THREE DOTS	
 																
 ،	,	,		,			Po		comma						U+060C: ARABIC COMMA	✓
 :	:			:	:		Po	?	colon						U+003A: COLON	✓
@@ -82,10 +82,10 @@ var spreadsheet = `arab-ha	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 »	>			”			Pf		quotation mark						U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	✓
 ‹	<			‹			Pi		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	✓
 ›	>			›			Pf		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	✓
-”	<						Pi		quotation mark						U+201D: RIGHT DOUBLE QUOTATION MARK	
-“	>						Pf		quotation mark						U+201C: LEFT DOUBLE QUOTATION MARK	
-’	<						Pi		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
-‘	>						Pf		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
+”	<			”			Pi		quotation mark						U+201D: RIGHT DOUBLE QUOTATION MARK	
+“	>			“			Pf		quotation mark						U+201C: LEFT DOUBLE QUOTATION MARK	
+’	<			’			Pi		quotation mark						U+2019: RIGHT SINGLE QUOTATION MARK	
+‘	>			‘			Pf		quotation mark						U+2018: LEFT SINGLE QUOTATION MARK	
 \u200C	=			ₓ			Cf		zero-width non-joiner						U+200C: ZERO WIDTH NON-JOINER	
 \u200D	=			₊			Cf		zero-width joiner						U+200D: ZERO WIDTH JOINER	
 \u2067	=			ʳˡⁱ			Cf		rtl isolate						U+2067: RIGHT-TO-LEFT ISOLATE	
