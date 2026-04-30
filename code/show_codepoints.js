@@ -145,7 +145,7 @@ return str.trim()
 
 
 function showNameDetails (chars, clang, base, target, panel, list, translit, ipa) {
-    //console.log('showNameDetails (',chars, clang, base, target, panel, list, translit, ipa,')\n\tGet the list of characters for an example and display their names')
+    console.log('showNameDetails (',chars, clang, base, target, panel, list, translit, ipa,')\n\tGet the list of characters for an example and display their names')
     
     // called by onclick created by shownames_setOnclick & shownames_setImgOnclick & listAll
     // chars (string), alt text of example
@@ -211,8 +211,8 @@ function showNameDetails (chars, clang, base, target, panel, list, translit, ipa
 
 
     // draw the glosses
-    if (location.toString().includes('picker')) var iconURL = '../../scripts/common30/icons/copytiny.svg'
-    else iconURL = '../common30/icons/copytiny.svg'
+    if (location.toString().includes('picker')) var iconURL = '../../scripts/img/icons/copytiny.svg'
+    else iconURL = '../img/icons/copytiny.svg'
     gloss = '<div class="multilineGlossedText">'
     for (t=-1;t<graphemes.length;t++) {
         if (t===-1) {
@@ -276,13 +276,13 @@ function showNameDetails (chars, clang, base, target, panel, list, translit, ipa
                 
                 // copy character to clipboard
                 out += `<img title="Copy U+${ hex } ${ charData[charArray[c]] } to clipboard." onclick="copyCharToClipboard('U+${ hex } ${ charData[charArray[c]] }');" 
-                src="../../pickers/shared29/images/toprow/copytiny.svg" 
+                src="../img/icons/copytiny.svg" 
                 style="float:right; height: 1rem; border:0; border-radius:unset; margin-inline:.4em;" alt="Copy" 
                 onmouseover="showMenuText(this.title,'tan');" onmouseout="hideMenuText()">`
                 
                 // copy character name to clipboard
                 out += `<img title="Copy ${ charArray[c] } to clipboard." onclick="copyCharToClipboard('${ charArray[c] }');" 
-                src="../../pickers/shared29/images/toprow/copytiny.svg" 
+                src="../img/icons/copytiny.svg" 
                 style="float:right; height: 1rem; border:0; border-radius:unset;" alt="Copy" 
                 onmouseover="showMenuText(this.title,'tan');" onmouseout="hideMenuText()">`
                 
@@ -355,19 +355,21 @@ function showNameDetails (chars, clang, base, target, panel, list, translit, ipa
         out += `<button onclick="openExportWindow('../../pickers/${ window.pickerDir }/index.html?text=${ chars }')">Character App</button> \u00A0 `
 	   }
 
-    // add a link to the _vocab page
-    if (typeof window.languageName === 'undefined') var fragid = ''
-    else fragid = '#'+window.languageName
+    if (window.langTag) {
+        // add a link to the _vocab page
+        if (typeof window.languageName === 'undefined') var fragid = ''
+        else fragid = '#'+window.languageName
 
-    // figure out where to find the url for the _vocab page
-    var url
-    if (typeof template !== 'undefined' && typeof template.vocablocation === 'string')  url = `../../scripts/${ template.vocablocation }.html`
-    
-    else url = `${ window.langTag }_vocab`
-    
-    if (typeof window.removeVowels === 'function') chars = removeVowels(chars)
+        // figure out where to find the url for the _vocab page
+        var url
+        if (typeof template !== 'undefined' && typeof template.vocablocation === 'string')  url = `../../scripts/${ template.vocablocation }.html`
 
-    out += `<button onclick="openExportWindow('${ url }?q=${ chars }')">Terms</button> \u00A0 `
+        else url = `${ window.langTag }_terms`
+
+        if (typeof window.removeVowels === 'function') chars = removeVowels(chars)
+
+        out += `<button onclick="openExportWindow('${ url }.html?q=${ chars }')">Terms</button> \u00A0 `
+        }
 	
 
 
@@ -458,7 +460,10 @@ function copyPanelList () {
 function copyPanelText (type) {
     var text = document.getElementById('ruby').querySelectorAll(type)
     var out = ''
-    for (var i=0;i<text.length;i++) out += text[i].textContent
+    for (var i=0;i<text.length;i++) {
+        out += text[i].textContent
+        if (type === '.IPAGloss') out += ' '
+        }
     if (type === '.IPAGloss') out = out.replace(/–/g,'').replace(/‹/g,'').replace(/›/g,'')
     navigator.clipboard.writeText(out)
     
@@ -506,7 +511,7 @@ function shownames_setClose ( node ) {
 	}
 
 
-function listAll (node, lang) {
+function listAllX (node, lang) {
     var itemlist=node.parentNode.querySelectorAll('.listItem'); 
     var out = '';
     for (var i=0;i<itemlist.length;i++) { 
@@ -515,6 +520,44 @@ function listAll (node, lang) {
     out = out.replace(/-/g,'')
     out = out.replace(/•/g,'')
     showNameDetails(out, lang, window.blockDirectory, 'c', document.getElementById('panel'), 'list' )
+    }
+
+
+function listAllXX (node, lang) {
+    const itemlist = node.closest('figure').querySelectorAll('.listItem')
+    var out = '';
+    for (var i=0;i<itemlist.length;i++) { 
+        out+=itemlist[i].textContent+' '
+        } 
+    out = out.replace(/-/g,'')
+    out = out.replace(/•/g,'')
+    showNameDetails(out, lang, window.blockDirectory, 'c', document.getElementById('panel'), 'list' )
+    }
+
+
+function listAll(node, lang, unique) {
+    const itemlist = node.closest('figure').querySelectorAll('.listItem')
+    let out = ''
+
+    // Build the raw string
+    for (let i = 0; i < itemlist.length; i++) {
+        out += itemlist[i].textContent + ' '
+        }
+
+    // Remove unwanted characters
+    out = out.replace(/-/g, '')
+    out = out.replace(/•/g, '')
+
+    // If 'unique' is defined, convert 'out' to a space-separated list of unique characters
+    if (unique) {
+        const chars = [...out]                  // split into characters
+        const uniqueChars = [...new Set(chars)] // remove duplicates
+            .filter(ch => ch.trim() !== '')     // remove spaces/newlines
+
+        out = uniqueChars.join(' ')
+        }
+
+    showNameDetails(out, lang, window.blockDirectory, 'c', document.getElementById('panel'), 'list')
     }
 
 
@@ -587,19 +630,21 @@ function printDetails (char) {
     var out = ''
     
     
-    // add out pointing links to right side
+    // add out-pointing links to right side
     var hex = spreadsheetRows[char][cols['ucsName']].split(':')
     hex = hex[0].replace(/U\+/,'')
     out += `<p class="notesLink"><a target="_blank" href="../../uniview/index.html?codepoints=${ hex }&char=${ hex }">UniView</a>`
-    // add a link to the character notes files
-    if (lang) {
-        out += `<br><a target="_blank" href="../../scripts/${ dir }/${ lang }-characters.html#char${ hex }">Notes page</a>`
-        }
+    
     // link to properties
     out += `<br><a target="_blank" href="https://util.unicode.org/UnicodeJsps/character.jsp?a=${ hex }">Properties</a>`
 
+    // add a link to the character notes files
+    if (lang) {
+        out += `<br><a target="_blank" href="../../scripts/${ dir }/${ lang }-characters.html#char${ hex }">Notes</a>`
+        }
+
     // add a link to the terms list
-    if (autoExpandExamples[window.langTag]) out += `<br><a target="terms" href="${ window.langTag }_vocab.html?q=${ char }">Term list</a>`
+    if (autoExpandExamples[window.langTag]) out += `<br><a target="terms" href="${ window.langTag }_terms.html?q=${ char }">Terms</a>`
 
     // add a link to the character usage app
     if (autoExpandExamples[window.langTag]) out += `<br><a target="_blank" href="../../app-charuse/index.html?language=${ window.charUsageBCP }&charlist=${ char }">Usage</a>`
