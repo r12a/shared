@@ -222,7 +222,7 @@ phraseDB = {
 		},
 
 'en-dsrt': { name: 'English (Deseret)', 
-		text: "𐐓𐐶𐐮𐑍𐐿𐑊, 𐐻𐐶𐐮𐑍𐐿𐑊, 𐑊𐐮𐐻𐑊 𐑅𐐻𐐪𐑉, 𐐐𐐵 𐐌 𐐶𐐲𐑌𐐼𐐲𐑉 𐐸𐐶𐐱𐐻 𐐷𐐭 𐐪𐑉. 𐐊𐐹 𐐰𐐺𐐲𐑂 𐑄 𐐶𐐲𐑉𐑊𐐼 𐑅𐐬 𐐸𐐴, 𐐢𐐴𐐿 𐐩 𐐼𐐴𐑋𐐲𐑌𐐼 𐐮𐑌 𐑄 𐑅𐐿𐐴.",
+		text: "𐐓𐐶𐐮𐑍𐐿𐑊, 𐐻𐐶𐐮𐑍𐐿𐑊, 𐑊𐐮𐐻𐑊 𐑅𐐻𐐪𐑉, 𐐐𐐵 𐐌 𐐶𐐲𐑌𐐼𐐯𐑉 𐐸𐐶𐐱𐐻 𐐷𐐭 𐐪𐑉. 𐐊𐐹 𐐰𐐺𐐲𐑂 𐑄 𐐶𐐲𐑉𐑊𐐼 𐑅𐐬 𐐸𐐴, 𐐢𐐴𐐿 𐐪 𐐼𐐴𐑋𐐲𐑌𐐼 𐐮𐑌 𐑄 𐑅𐐿𐐴.",
 		source: "Opening of Twinkle, Twinkle, Little Star. Original, from page 19 of The Deseret second book.",
 		sourceURL: "https://archive.org/details/thedeseretsecond02univ"
 		},
